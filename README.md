@@ -10,7 +10,9 @@ Pick a place and a year and hear what people there were listening to. The site e
 | `src/mods/NN_name.js`, `.css` | Feature modules, added to the page in file-name order. |
 | `data/*.json` | The music data, one file per key of the page's `DATA` object. One entry per line so changes show up clearly in a diff. |
 | `build.py` | Joins the three into `dist/index.html`. Standard-library Python only. |
+| `db/*.sql` | Database changes for Supabase, in order. See `db/README.md`. |
 | `tests/smoke.py` | Loads the built page at phone and desktop size, opens every tab, fails on any script error. |
+| `tests/account.py` | Checks the account block with a stand-in for the sign-in library. |
 
 `dist/` is build output and is never committed.
 
@@ -19,6 +21,8 @@ Pick a place and a year and hear what people there were listening to. The site e
 ```
 python3 build.py
 python3 tests/smoke.py    # needs Python Playwright with Chromium
+python3 tests/account.py
+bash db/test_001.sh       # needs a local Postgres server
 ```
 
 Open `dist/index.html` in a browser, or serve the `dist` folder from any static host.

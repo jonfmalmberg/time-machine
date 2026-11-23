@@ -1,0 +1,10 @@
+#acct{flex:none;padding:0 16px 2px}
+#acct .shlabel:first-child{margin-top:4px}
+#acct .rchev{color:var(--muted);opacity:.6;display:inline-flex} #acct .rchev .ic{width:14px;height:14px}
+#acct .acctme{cursor:default}
+#acct .acctrow{cursor:default;gap:10px} #acct .acctlab{flex:none;width:58px;font-size:16.5px}
+#acct .acctrow input{flex:1;min-width:0;border:0;background:none;padding:6px 0;font-size:16.5px;color:var(--fg);outline:0}
+#acct .acctrow::before,#acct .acctout::before{left:14px}
+#acct .acctout{justify-content:center;color:#ff3b30;font-size:16.5px}
+#acct .acctmsg{margin:8px 4px 0;color:var(--fg)}
+#acct .fine{margin:8px 4px 0}
