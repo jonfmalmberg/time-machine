@@ -4,7 +4,7 @@ One entry per working session, newest first: what was done, what was decided and
 
 ## 2026-11-23 (end of the day's helper runs)
 
-- Helper runs since 08:40 Pacific: H9, H10, H8, H11, H12, H13, H14 = 7. The queue is empty; the eighth run was not used because writing more assignments needs decisions that are waiting for the owner (ingest method, the tree). The scheduled 22:41 Vancouver run will report "queue empty" unless the lead adds an assignment first.
+- Helper runs since 08:40 Pacific: H9, H10, H8, H11, H12, H13, H14 = 7. The eighth manual run was not used. One assignment was added for the scheduled 22:41 Vancouver run: H15, genre batch 7, with a new ask to look for a second source for songs tied to a genre by a title alone.
 - State of `dev`: clean, pushed. Work folders H1 to H14 hold candidates only. Nothing from H8, H11, H12, H13 or H14 is in `data/`; H7 is ingested only on the unmerged branch `ingest`.
 - Waiting for the owner, in order of what unblocks most:
   1. Review of branch `ingest` (with `unverified-flag`): without it 56 researched genres cannot reach the site.
