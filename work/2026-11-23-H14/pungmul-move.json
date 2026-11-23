@@ -1,0 +1,163 @@
+{
+ "intro": [
+  [
+   "Lee Chun-hee",
+   "Arirang",
+   [
+    "pungmul-move:0",
+    "pungmul-move:1"
+   ]
+  ],
+  [
+   "Kim Ok-sim",
+   "Ah-Rirang",
+   [
+    "pungmul-move:8 (no page: Folkways refuses scripts)",
+    "pungmul-move:1 (아리랑 in the Gyeonggi list)"
+   ]
+  ],
+  [
+   "Lee Chun-hee",
+   "Nodeul Gangbyeon",
+   [
+    "pungmul-move:0",
+    "pungmul-move:1",
+    "pungmul-move:3 (not found: link markup; says it is a 1930s composed sinminyo)"
+   ]
+  ],
+  [
+   "Kim Ok-sim",
+   "Torachi",
+   [
+    "pungmul-move:9 (no page)",
+    "pungmul-move:1 (도라지타령)",
+    "koreanminyo:20 (Doraji Taryeong is a minyo)"
+   ]
+  ],
+  [
+   "Lee Chun-hee",
+   "Taepyeongga",
+   [
+    "pungmul-move:0 (album only; no page names the song a minyo)"
+   ]
+  ],
+  [
+   "Song So-hee",
+   "Odolttogi",
+   [
+    "pungmul-move:4",
+    "pungmul-move:1 (오돌또기)"
+   ]
+  ]
+ ],
+ "peak": [
+  [
+   "Shilla traditional arts group",
+   "Namdo Min Yo",
+   [
+    "pungmul-move:5"
+   ]
+  ],
+  [
+   "Lee Chun-hee",
+   "Gin Arirang",
+   [
+    "pungmul-move:0",
+    "pungmul-move:1 (긴아리랑)"
+   ]
+  ],
+  [
+   "Lee Chun-hee",
+   "Changbu Taryeong",
+   [
+    "pungmul-move:0",
+    "pungmul-move:2"
+   ]
+  ],
+  [
+   "Lee Chun-hee",
+   "Gu Arirang",
+   [
+    "pungmul-move:0 (album only)"
+   ]
+  ],
+  [
+   "Lee Chun-hee",
+   "Noraetgarak",
+   [
+    "pungmul-move:0",
+    "pungmul-move:1 (노랫가락)"
+   ]
+  ]
+ ],
+ "albums": [
+  [
+   "Lee Chun-hee",
+   "Arirang and Minyo Singing",
+   [
+    "pungmul-move:0"
+   ]
+  ],
+  [
+   "Various Artists",
+   "The 'Deep Song' of Korea",
+   [
+    "pungmul-move:6"
+   ]
+  ],
+  [
+   "Kang Chaeong Ja & Park Jong Sul",
+   "Arirang. Korean Kyonggi Minyo",
+   [
+    "pungmul-move:7"
+   ]
+  ]
+ ],
+ "fits": [
+  [
+   "Kim Ok-sim",
+   "Ah-Rirang"
+  ],
+  [
+   "Lee Chun-hee",
+   "Arirang and Minyo Singing (album)"
+  ]
+ ],
+ "near": [
+  [
+   "SsingSsing",
+   "청춘가",
+   "pungmul-move:10, pungmul-move:1 (청춘가): repoint the near miss from pungmul to koreanminyo"
+  ]
+ ],
+ "stay_in_pungmul": [
+  [
+   "Samul Nori",
+   "Yeongnam Farm Music"
+  ],
+  [
+   "Samul-Nori",
+   "Youngnam Nong-ak"
+  ],
+  [
+   "Korean Women's Music Association",
+   "Nong-Ahk"
+  ],
+  [
+   "Chung Woong Korean Traditional Music Ensemble",
+   "Nong-ak (P'ungmullori)"
+  ],
+  [
+   "Chung Woong Korean Traditional Music Ensemble",
+   "Samullori (Percussion Ensemble)"
+  ],
+  [
+   "Samul-Nori",
+   "Drums and Voices of Korea (album, mixed)"
+  ],
+  [
+   "Various Artists",
+   "Corée: percussions et chants de Hahoe et Kyongju (album, mixed)"
+  ]
+ ]
+}

@@ -2,6 +2,30 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (end of the day's helper runs)
+
+- Helper runs since 08:40 Pacific: H9, H10, H8, H11, H12, H13, H14 = 7. The queue is empty; the eighth run was not used because writing more assignments needs decisions that are waiting for the owner (ingest method, the tree). The scheduled 22:41 Vancouver run will report "queue empty" unless the lead adds an assignment first.
+- State of `dev`: clean, pushed. Work folders H1 to H14 hold candidates only. Nothing from H8, H11, H12, H13 or H14 is in `data/`; H7 is ingested only on the unmerged branch `ingest`.
+- Waiting for the owner, in order of what unblocks most:
+  1. Review of branch `ingest` (with `unverified-flag`): without it 56 researched genres cannot reach the site.
+  2. Tree decisions: rways parent (below), Jiangnan sizhu parents, tradition "North Indian and Punjabi folk", the lists of neighbours with no genre id in the H12, H13 and H14 reports.
+  3. Review of branches `light-space`, `panel-above-tabs`, `reshuffle`, `share-links` (the last carries a fix for a fault on the live site: a single genre as genre filter throws).
+  4. Folkways pages (they refuse scripts): 31 songs from earlier batches and 2 here need a look from his computer.
+- Untested: nothing new on the site today after release 3. The checker change below was tested only with the owner-seen controls and by rerunning H13 (626 of 626 unchanged) and H14.
+
+## 2026-11-23 (records for rways and Korean minyo)
+
+- Helper hand-back H14 reviewed and taken into `work/2026-11-23-H14/` as proposals: genre records for `rways` and `koreanminyo`, parentage, nine presence records (all first estimates), and the list of `pungmul` songs that are folk song, not percussion (11 tracks, 3 albums move; 5 tracks stay). Run configured as `claude-opus-5-5`, no sub-agents.
+- Checker fault found by the helper and fixed by the lead: on Korean Wikipedia a linked word is followed directly by its particle (`<a>신불출</a>이`), and the script read every tag as a gap, so the word was split and a true quote came back "not found". `tools/check_evidence.py` now also reads the page with inline tags (links, emphasis, ruby) as no gap. This can only turn a wrong "not found" into "found": the string must still be on the page. `tests/evidence.py` passes; H13 rerun unchanged at 626 of 626; H14 now 66 found, 2 no page (Folkways). No owner-seen control exists for this case; one Korean page should be added to the controls when the owner next checks pages.
+- Lead review of the records against the tree rule and principle 27:
+  - `koreanminyo` as a root with `koreanminyo` → `pansori` as an other parent: accepted as proposed. Nothing read supports court music as an ancestor of folk song; the tree has 25 roots already. Pansori would have two parents, within the rule.
+  - `rways` with `amazighahwashandah` as principal parent: **not accepted yet.** No source states descent; the helper calls it a judgement. Under "no made-up data" a line of descent with no source is either left out (rways as a root) or stored marked as a judgement. For the owner.
+  - Start dates: Korean minyo 1756 is a first written mention (marked attested). Rways c. 1750 rests on one hedged interview remark: to be stored as an estimate, not as sourced.
+  - Peaks (rways 1930 to 1990, Korean minyo 1910 to 1945) are judgements from dated recordings; no source states a peak. Kept as first estimates, which is what the schema field is for.
+  - After the move `pungmul` keeps five tracks and its name still says "and Korean folk song (minyo)". It is to be renamed "Pungmul (nongak)" and its definition rewritten in the same change that adds `koreanminyo`.
+  - *Nodeul Gangbyeon* (a composed 1930s sinminyo): kept in Korean minyo for now by principle 27 (same language, place and repertoire as heard by listeners; sinminyo alone is too small a category). Open to the owner's view.
+- Not done: the two genres are not in `data/` and not placed on the tree (`tools/layout/optimise.py place`). That goes on a feature branch after the owner settles the rways parent.
+
 ## 2026-11-23 (genre batch 6)
 
 - Helper hand-back H13 reviewed and taken into `work/2026-11-23-H13/` as candidates: gambang kromong, shōka and gunka, nurthi, funaná, porro, changga, Sudanese haqiba, twoubadou. Seven full and changga thin (13 songs); 189 songs. Run configured as `claude-opus-5-5`, sub-agents Opus.

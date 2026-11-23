@@ -78,8 +78,13 @@ def text_of(page):
     # text that lives only in markup: a meta tag's content, and title and alt attributes (track titles on shop pages)
     attrs = ' '.join(re.findall(r'(?is)\b(?:content|title|alt)\s*=\s*"([^"]{2,300})"', page))
     page = page + ' ' + attrs
+    # two readings: every tag as a gap, and inline tags (links, emphasis) as no gap. In Korean and Japanese a
+    # linked word is followed directly by its particle (<a>신불출</a>이), so the first reading splits the word.
+    joined = re.sub(r'(?is)</?(a|b|i|em|strong|span|u|mark|font|small|ruby|rb|bdi|wbr)\b[^>]*>', '', page)
+    joined = re.sub(r'(?is)<(rt|rp|sup)\b.*?</\1>', '', joined)
+    joined = re.sub(r'(?s)<[^>]+>', ' ', joined)
     page = re.sub(r'(?s)<[^>]+>', ' ', page)
-    return html.unescape(page)
+    return html.unescape(page + ' ' + joined)
 
 def norm(s):
     s = unicodedata.normalize('NFKD', s)

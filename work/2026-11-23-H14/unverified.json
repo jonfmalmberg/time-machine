@@ -1,0 +1,10 @@
+{
+ "pungmul-move:3": "노들강변 page says '1930년대 신불출이 작사하고, 문호월이 작곡한 신민요다' (read in raw text); the check cannot match it because the names and 신민요 are links followed by Korean particles.",
+ "pungmul-move:8, pungmul-move:9": "Folkways refuses scripts (HTTP 403), as in H9. Kept from H3 unchanged.",
+ "koreanminyo, dropped quote": "경기민요 page: '장단은 굿거리장단, 타령장단, 세마치장단이 많이 쓰이며' fails the check for the same link reason; replaced by a found quote from the 남도민요 page.",
+ "not checked": [
+  "Philip Schuyler 1979 'Rwais and Ahwash' itself (JSTOR) was not read; only its title is cited.",
+  "No first-party page was found for when rways peaked; the 1930-1990 window is a judgement from dated recordings and singers.",
+  "No coordinates for a diffuse Korean origin: Seoul is used because Gyeonggi minyo centres there; Jeongseon (Arirang) is the alternative."
+ ]
+}
