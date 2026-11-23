@@ -1,0 +1,1778 @@
+{
+ "kalevalarunosong": [
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Runic song (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Runic_song",
+   "quote": "Though runic song has existed for at least a millennium, it only began to be transcribed in 1797.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Runic song (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Runic_song",
+   "quote": "Karelian runic singers holding hands while singing in a call and response fashion.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Runosong (Finnish Wiki-Inventory for Living Heritage)",
+   "url": "https://wiki.aineetonkulttuuriperinto.fi/wiki/Runosong",
+   "quote": "It is based on a four-trochaic line with usually eight – sometimes nine or ten – syllables",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Rune singing, the musical vernacular (FMQ)",
+   "url": "https://fmq.fi/articles/rune-singing-the-musical-vernacular",
+   "quote": "Two to three thousand years ago a change began to take place",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Suomen kansan vanhat runot (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Suomen_kansan_vanhat_runot",
+   "quote": "SKVR includes over 89,000 poetic texts in Kalevala-meter",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "John Soininen",
+   "title": "Vaka vanha Vainamoinen",
+   "url": "https://wiki.riteme.site/wiki/File:Vaka_vanha_Vainamoinen.ogg",
+   "quote": "performed by John Soininen on November 5, 1939 in Berkeley.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "John Soininen",
+   "title": "Vaka vanha Vainamoinen",
+   "url": "https://wiki.riteme.site/wiki/File:Vaka_vanha_Vainamoinen.ogg",
+   "quote": "English: Excerpt of song 40 from The Kalevala. The excerpt begins at verse 221 and ends at verse 264.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Ilona Korhonen & Taito Hoffrén",
+   "title": "Minä, Paraske. Sinä, Arhippa.",
+   "url": "https://www.fmq.fi/articles/the-gift-of-runo-singing",
+   "quote": "the double album Minä, Paraske. Sinä, Arhippa.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Ilona Korhonen & Taito Hoffrén",
+   "title": "Minä, Paraske. Sinä, Arhippa.",
+   "url": "https://www.fmq.fi/articles/the-gift-of-runo-singing",
+   "quote": "Hoffrén is on a similar path with runo singer Arhippa Perttunen (1769–1841) from Dvina Karelia.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Taito Hoffrén",
+   "title": "Sampo",
+   "url": "https://www.fmq.fi/articles/the-gift-of-runo-singing",
+   "quote": "The longest is the 23-minute Sampo",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Sinikka Langeland",
+   "title": "Runoja",
+   "url": "https://worldmusiccentral.org/cd-review-sinikka-langeland/",
+   "quote": "In this case it is rune songs, which are partly based on shamanic incantations.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Sinikka Langeland",
+   "title": "Ukko / Tirun Lirun / Pakeneva / Vinterrune",
+   "url": "https://grappa.no/en/?p=35494",
+   "quote": "Rune songs was a part of the Skogfinns spiritual life, to sing rune songs is to sing magical songs.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Sinikka Langeland",
+   "title": "Runoja tracklist (Ukko, Tirun Lirun, Pakeneva, Vinterrune)",
+   "url": "https://grappa.no/en/?p=35494",
+   "quote": "Ukko",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Hedningarna",
+   "title": "Karelia Visa",
+   "url": "https://rambles.net/hedningarna.html",
+   "quote": "I was intrigued by its base in runosong (a traditional Scandinavian style of music, the blurb said).",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Hedningarna",
+   "title": "Metsän Tyttö",
+   "url": "https://rambles.net/hedningarna.html",
+   "quote": "Metsän Tyttö/Forest Maiden",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Hedningarna",
+   "title": "Mitä Minä",
+   "url": "https://rambles.net/hedningarna.html",
+   "quote": "Mitä Minä/What Do I Sing",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Teppana Jänis & Arja Kastinen feat. Taito Hoffrén",
+   "title": "Runolaulu – Voi minä poloine poiga",
+   "url": "https://deathisnottheend.kudosrecords.co.uk/release/death087/teppana-janis",
+   "quote": "Runolaulu – Voi minä poloine poiga (feat. Taito Hoffrén)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Maria Kalaniemi & Pekko Käppi",
+   "title": "Sångarstenen",
+   "url": "https://www.galileomusic.de/promo/docs/AKEROCD29.pdf",
+   "quote": "1. Sångarstenen | Ilokivi | Mirthstone 04:56",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Maria Kalaniemi & Pekko Käppi",
+   "title": "Gäddans klang",
+   "url": "https://www.galileomusic.de/promo/docs/AKEROCD29.pdf",
+   "quote": "2. Gäddans klang | Hauen kalske | Pike:s Clang 02:16",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Maria Kalaniemi & Pekko Käppi",
+   "title": "Gråtkväde",
+   "url": "https://www.galileomusic.de/promo/docs/AKEROCD29.pdf",
+   "quote": "5. Gråtkväde | Itku | Lament 03:20",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Maria Kalaniemi & Pekko Käppi",
+   "title": "Tåreportens pärla (genre basis)",
+   "url": "https://www.galileomusic.de/promo/docs/AKEROCD29.pdf",
+   "quote": "Das gemeinsamen Album beruht auf dem Gedicht 41 aus dem finnischen Nationalepos „Kalevala“.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Maria Kalaniemi & Pekko Käppi",
+   "title": "Tåreportens pärla (runo metre)",
+   "url": "https://www.fmq.fi/articles/bending-old-traditions-into-new-paths",
+   "quote": "The Swedish translation works magnificently well in the runo metre and the traditional tunes.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "The Kalevala Heritage: Archive Recordings of Ancient Finnish Songs",
+   "url": "https://www.allmusic.com/album/the-kalevala-heritage-archive-recordings-of-ancient-finnish-songs-mw0000637560",
+   "quote": "The Kalevala Heritage: Archive Recordings of Ancient Finnish Songs",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Tellu Turkka",
+   "title": "Suden Aika",
+   "url": "https://folkworld.eu/62/e/kalevala.html",
+   "quote": "1996's critically acclaimed Suden Aika by Tellu Turkka saw a further return of runosong to the Finnish music scene.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Ove Berg & Sinikka Langeland",
+   "title": "Tirun Lirun – Skogsfinske Runesanger",
+   "url": "https://en.wikipedia.org/wiki/Sinikka_Langeland",
+   "quote": "Tirun Lirun – Skogsfinske Runesanger (Finnskogen Kulturverksted)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Pekko Käppi & K:H:H:L",
+   "title": "Piika Kaarin",
+   "url": "https://fmq.fi/articles/spells-blood-and-bliss",
+   "quote": "Piika Kaarin",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Pekko Käppi",
+   "title": "(modern runo singer label)",
+   "url": "https://fmq.fi/articles/beautiful-archaic-boogie",
+   "quote": "a modern runo singer",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Värttinä",
+   "title": "Otavaiset",
+   "url": "https://www.womex.com/virtual/westpark_music/vaerttinae/viena",
+   "quote": "The Viena album is a tribute to Värttinä's Viena Karelian musical roots.",
+   "read": "2026-11-23"
+  }
+ ],
+ "ngoma": [
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Ngoma music (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Ngoma_music",
+   "quote": "most prominently the use of drums",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Ngoma music (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Ngoma_music",
+   "quote": "Traditional forms of ngoma dancing consist of prominent movements of the hips.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Mashaka Kawambwa and Kitamba Kilaka with Zaramo men",
+   "title": "Mshatulo kwenda ovyo",
+   "url": "https://ilamcommons.ru.ac.za/vital/access/manager/Repository/vital:42578",
+   "quote": "Madogoli dance song for men and women, with 5 Goblet pegged and footed drums, 4 cylindrical pegged drums and tin rattles",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Mashaka Kawambwa and Kitamba Kilaka with Zaramo men",
+   "title": "Mshatulo kwenda ovyo",
+   "url": "https://folkways.si.edu/pipe-dances-with-viyanzi-flute-and-dance-songs-of-the-zaramo-people-from-dar-es-salaam-tanzania/world/music/album/smithsonian",
+   "quote": "Mshatulo kwenda ovyo",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Mashaka Kawambwa and Kitamba Kilaka with Zaramo men",
+   "title": "Mitambu yalagala kumchuzi Part II",
+   "url": "https://ilamcommons.ru.ac.za/vital/access/manager/Repository/vital:42577",
+   "quote": "In this recording the rhythm of the four small goblet drums set against the single bass drum can be clearly distinguishe",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Nhonyi Maluwatu with Gogo women",
+   "title": "Two Ngoma drum rhythms",
+   "url": "https://digitalarchives.ru.ac.za/s/ilam/item/62741",
+   "quote": "Dance song for Isumbi dance with 2 hour glass drums, 3 Malimba trough zithers,",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Nhonyi Maluwatu with Gogo women",
+   "title": "Two Ngoma drum rhythms",
+   "url": "https://vital.seals.ac.za/vital/access/manager/Repository/vital:42447",
+   "quote": "Ngoma drum rhythms",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Five Haya men",
+   "title": "Enkoito drum rhythms",
+   "url": "https://ilamcommons.ru.ac.za/vital/access/manager/Repository/vital:15150",
+   "quote": "Drum rhythms by five Haya men, with single laced conical drums (played with sticks)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bangilana Nduhila with Zinza men and women",
+   "title": "Ngoma yalilamuno yayenda Maraya Pemba",
+   "url": "https://folkways.si.edu/wedding-entertainment-and-dance-songs-from-the-zinza-people-of-biharamulo-district-tanzania/world/music/album/smithsonian",
+   "quote": "He is playing his drum well because he is hoping to pick up a girl to take with him to Pemba",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Mukunguni",
+   "title": "Ngoma Wira",
+   "url": "https://www.rushhour.nl/record/cd/new-recordings-coast-province-kenya",
+   "quote": "Ngoma Wira - MUKUNGUNI",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Mukunguni",
+   "title": "New Recordings From Coast Province, Kenya",
+   "url": "https://forcedexposure.com/Catalog/HJR.068LP.html",
+   "quote": "Besides the Sengenya drums -- bumbumbu, dahdahe, chapuro, vumi, ngoma --",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "The Zawose Queens",
+   "title": "Muheme",
+   "url": "https://realworldrecords.com/releases/maisha/",
+   "quote": "Women were only permitted to sing backing harmonies and play their designated muheme (a subset of ngoma) drums.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Hugh Tracey",
+   "title": "Tanzania Instruments: Tanganyika 1950",
+   "url": "https://www.forcedexposure.com/CATALOG/SWP.022CD.html",
+   "quote": "2003 release. Features master-musicians playing some of the many instruments that were to be found in this large country.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "The Bagamoyo Players",
+   "title": "Tanzania",
+   "url": "https://www.acoustic-music.de/1116/en",
+   "quote": "Ecstatic dances with the typical Tanzanian melodic way of playing the drums",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "Music from Tanzania and Zanzibar 1",
+   "url": "https://musikverket.se/capricerecords/artikel/music-from-tanzania-and-zanzibar-1/?lang=en",
+   "quote": "Featured among others are the Wagogo Female Drummers.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Salum Abdallah and Cuban Marimba Band",
+   "title": "Ngoma Iko Huku",
+   "url": "https://www.anost.net/release/133A/salum-abdallah-and-cuban-marimba-band/ngoma-tanzania",
+   "quote": "Ngoma Iko Huku",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Salum Abdallah and Cuban Marimba Band",
+   "title": "Ngoma Tanzania (album)",
+   "url": "https://cafeoto.co.uk/shop/salum-abdallah-and-cuban-marimba-band-ngoma-tanzan",
+   "quote": "muziki wa dansi, inspired by Cuban 78s, and dance crazes like the twist and cha cha cha",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "SAMAP: Gogo people listing (ILAM items tagged drum / ngoma dance)",
+   "url": "https://samap.ukzn.ac.za/audio-people/gogo",
+   "quote": "Further details refer ILAM shellac record number: TP1544",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "SAMAP: Sukuma language listing, page 7 of 12+",
+   "url": "https://samap.ukzn.ac.za/audio-language/sukuma?page=7",
+   "quote": "Phuwa dance song",
+   "read": "2026-11-23"
+  }
+ ],
+ "amazighahwashandah": [
+  {
+   "kind": "def",
+   "artist": "",
+   "title": "Ahwash (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Ahwash",
+   "quote": "a Shilha style of collective performance, including dance, singing, poetry and percussion, from southern Morocco",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": "",
+   "title": "Ahidus (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Ahidous",
+   "quote": "a Berber style of collective performance in Morocco",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": "",
+   "title": "Ahidus origins (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Ahidous",
+   "quote": "The origins of Ahidus are not very known because of the lack of extensive research studies and investigations.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": "Alan Lomax (rec.)",
+   "title": "Aguelmouss I 9/67",
+   "url": "https://archive.culturalequity.org/field-work/morocco-1967/aguelmouss-i-967",
+   "quote": "generally ahwash is performed by two large antiphonal choruses",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Various",
+   "title": "Ahouache from Tata",
+   "url": "https://folkways-media.si.edu/docs/folkways/artwork/FW04339.pdf",
+   "quote": "Band 1. Ahouache from Tata.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Maallem Ahmed and ensemble",
+   "title": "Aouache Men's Chorus (Tafraout)",
+   "url": "https://dusttodigital.bandcamp.com/album/music-of-morocco-recorded-by-paul-bowles-1959",
+   "quote": "Maallem Ahmed and ensemble - Aouache Men’s Chorus (Tafraout)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Various",
+   "title": "Ahidous",
+   "url": "https://archives.crem-cnrs.fr/archives/collections/CNRSMH_E_2011_002_011/",
+   "quote": "Ahidous A03",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Bernard Lortat-Jacob (rec.)",
+   "title": "Berbères du Maroc \"Ahwach\"",
+   "url": "https://archives.crem-cnrs.fr/archives/collections/CNRSMH_E_1979_021_001/dc/",
+   "quote": "Berbères du Maroc \"Ahwach\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Maallem Ahmed and ensemble",
+   "title": "Aouache Men's Chorus (Tafraout)",
+   "url": "https://dusttodigital.bandcamp.com/album/music-of-morocco-recorded-by-paul-bowles-1959",
+   "quote": "Maallem Ahmed and ensemble - Aouache Men’s Chorus (Tafraout)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Various",
+   "title": "Ahouache from Tata",
+   "url": "https://folkways-media.si.edu/docs/folkways/artwork/FW04339.pdf",
+   "quote": "Band 1. Ahouache from Tata.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Various",
+   "title": "Ahouache dyal Telatenouss",
+   "url": "https://folkways-media.si.edu/docs/folkways/artwork/FW04339.pdf",
+   "quote": "Band 4. Abouache dyal Telatenouss.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Various",
+   "title": "Ahouache dyal Telatenouss, second selection",
+   "url": "https://folkways-media.si.edu/docs/folkways/artwork/FW04339.pdf",
+   "quote": "Band 5. Ahouache dyal Telatenouss, second selectIon.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Various",
+   "title": "Ahwach (A1)",
+   "url": "https://archives.crem-cnrs.fr/archives/collections/CNRSMH_E_1971_003_004/",
+   "quote": "Ahwach 001_01",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Various",
+   "title": "\"Ahwach\" (B4)",
+   "url": "https://archives.crem-cnrs.fr/archives/collections/CNRSMH_E_1971_003_004/",
+   "quote": "\"Ahwach\" 001_08",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Various",
+   "title": "Ahidous",
+   "url": "https://archives.crem-cnrs.fr/archives/collections/CNRSMH_E_2011_002_011/",
+   "quote": "Ahidous A03",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Various",
+   "title": "Ahouach",
+   "url": "https://archives.crem-cnrs.fr/archives/collections/CNRSMH_E_2011_002_011/",
+   "quote": "Ahouach A05",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Various",
+   "title": "Grande danse ahidus",
+   "url": "https://archives.crem-cnrs.fr/archives/items/CNRSMH_E_1996_013_001_003_001/",
+   "quote": "Grande danse ahidus",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various",
+   "title": "Music of Morocco (Folkways FE 4339)",
+   "url": "https://folkways-media.si.edu/docs/folkways/artwork/FW04339.pdf",
+   "quote": "The Ahouaches of Tata and Talatenouss have words in Tashilhait",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Bernard Lortat-Jacob (rec.)",
+   "title": "Berbères du Maroc \"Ahwach\" (Le Chant du Monde LDX 74705)",
+   "url": "https://tradandfolk.blogspot.com/2023/04/berberes-du-maroc.html?m=1",
+   "quote": "Each side presents one type of ahwach in its entirety.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various",
+   "title": "Musique Berbère du Haut-Atlas (Vogue LD-786, 1971)",
+   "url": "https://archives.crem-cnrs.fr/archives/collections/CNRSMH_E_1971_003_004/",
+   "quote": "Musique Berbère du Haut-Atlas",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various",
+   "title": "Canti e ritmi del Marocco (Albatros VPA 8174, 1973)",
+   "url": "https://archives.crem-cnrs.fr/archives/collections/CNRSMH_E_2011_002_011/",
+   "quote": "Canti e ritmi del Marocco / Songs and Rhythms of Marocco",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Paul Bowles (rec.)",
+   "title": "Music of Morocco: Recorded by Paul Bowles, 1959",
+   "url": "https://dusttodigital.bandcamp.com/album/music-of-morocco-recorded-by-paul-bowles-1959",
+   "quote": "Maallem Ahmed and ensemble - Aouache Men’s Chorus (Tafraout)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Various",
+   "title": "Les voix du monde (release details for Grande danse ahidus)",
+   "url": "https://archives.crem-cnrs.fr/archives/collections/CNRSMH_E_1996_013_001/",
+   "quote": "Les voix du monde, une anthologie des expressions vocales",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": "Alan Lomax (rec.)",
+   "title": "Morocco 1967 field recordings",
+   "url": "https://archive.culturalequity.org/field-work/morocco-1967/aguelmouss-i-967",
+   "quote": "Ahwash wedding dance (part 15)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": "",
+   "title": "CREM-CNRS ahidus search results",
+   "url": "https://archives.crem-cnrs.fr/archives/items/CNRSMH_I_1970_044_022_08",
+   "quote": "AHIDUS",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": "",
+   "title": "M&A review of Anthologie de la Musique Marocaine",
+   "url": "https://www2.umbc.edu/MA/index/number8/ciucci/ciucciweb.htm",
+   "quote": "the ahwash of the High Atlas",
+   "read": "2026-11-23"
+  }
+ ],
+ "cheo": [
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Chèo (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Chèo",
+   "quote": "Hoa Lư – Ninh Bình is considered as the homeland of the Chèo",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Chèo (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Chèo",
+   "quote": "the đàn nguyệt, sáo, and the drum.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": "Various Artists",
+   "title": "Viet Nam: Hát Chèo: Traditional Folk Theatre",
+   "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+   "quote": "Hát chèo is a form of popular musical theatre dating back to the 11th century.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Cần có quy chế khuyến khích sưu tầm những vở chèo cổ (Tuổi Trẻ)",
+   "url": "https://tuoitre.vn/can-co-quy-che-khuyen-khich-suu-tam-nhung-vo-cheo-co-62703.htm",
+   "quote": "chèo cổ có chừng 200 làn điệu",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Cần có quy chế khuyến khích sưu tầm những vở chèo cổ (Tuổi Trẻ)",
+   "url": "https://tuoitre.vn/can-co-quy-che-khuyen-khich-suu-tam-nhung-vo-cheo-co-62703.htm",
+   "quote": "bảy vở chèo cổ tồn tại chính thức",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Gìn giữ và trao truyền làn điệu chèo (Báo Pháp luật)",
+   "url": "https://baophapluat.vn/gin-giu-va-trao-truyen-lan-dieu-cheo-post508438.html",
+   "quote": "Ước tính có khoảng trên 200 làn điệu chèo, chủ yếu được hình thành và bắt nguồn từ các làn điệu dân ca",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "Viet Nam: Hát Chèo: Traditional Folk Theatre",
+   "url": "https://folkways-media.si.edu/docs/folkways/artwork/UNES08022.pdf",
+   "quote": "Since 1976, when these recordings were released",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "Viet Nam: Hát Chèo: Traditional Folk Theatre",
+   "url": "https://archives.crem-cnrs.fr/archives/items/CNRSMH_E_1996_013_001_002_003/",
+   "quote": "Extrait du CD \"Vietnam. Hat Chèo. Théâtre populaire traditionnel\", plage 8.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Bac Nam Ngu",
+   "title": "Sap Qua Câu",
+   "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+   "quote": "Sap Qua Câu (Crossing the Bridge: Happy Song) Bac Nam Ngu 04:32",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Bac Minh Ly",
+   "title": "Duong Truong Tai Luong",
+   "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+   "quote": "Duong Truong Tai Luong (In the Expectation: Sad Song) Bac Minh Ly 05:40",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Manh Tuân",
+   "title": "Lâo Say",
+   "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+   "quote": "Lâo Say (Old Drunkard's Song) Manh Tuân 02:03",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Various Artists",
+   "title": "Viet Nam: Hát Chèo: Traditional Folk Theatre (album)",
+   "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+   "quote": "Hát chèo is a form of popular musical theatre dating back to the 11th century.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Quach Thi Hô",
+   "title": "Ty bà hành",
+   "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+   "quote": "103 Ty bà hành Quach Thi Hô, Dinh Khàc Ban, Truc Hiên Nguyên Nhu Lâm 13:17",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bac Nam Ngu",
+   "title": "Sap Qua Câu",
+   "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+   "quote": "Sap Qua Câu (Crossing the Bridge: Happy Song) Bac Nam Ngu 04:32",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Manh Tuân",
+   "title": "Lâo Say",
+   "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+   "quote": "Lâo Say (Old Drunkard's Song) Manh Tuân 02:03",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bac Nam Ngu",
+   "title": "Hê Môi",
+   "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+   "quote": "Hê Môi (Song of Clown with a Torch) Bac Nam Ngu 03:45",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bac Phâm",
+   "title": "Sa Lêch Bang",
+   "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+   "quote": "Sa Lêch Bang (Happy Song) Bac Phâm 02:36",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bac Phâm",
+   "title": "Sap Cô Phong",
+   "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+   "quote": "Sap Cô Phong (Happy Song in Ancient Style) Bac Phâm 02:28",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Hông Vân & Thanh Hoài",
+   "title": "Thi Nhip; Vo Nuoc",
+   "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+   "quote": "Thi Nhip; Vo Nuoc (Prologue) Hông Vân & Thanh Hoài 04:16",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bui Trong Dan",
+   "title": "Noi Su Ghe Râu; Noi Ke",
+   "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+   "quote": "Noi Su Ghe Râu; Noi Ke (Declamation) Bui Trong Dan 04:06",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bac Minh Ly",
+   "title": "Duong Truong Tai Luong",
+   "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+   "quote": "Duong Truong Tai Luong (In the Expectation: Sad Song) Bac Minh Ly 05:40",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bac Phâm",
+   "title": "Hat Van Câm",
+   "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+   "quote": "Hat Van Câm (Sad Song) Bac Phâm 02:48",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bac Nam Ngu, Bac Phâm",
+   "title": "Bai Phû Thuy",
+   "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+   "quote": "Bai Phû Thuy (Sorcerer's Chant from the Play Xuy Vân) Bac Nam Ngu, Bac Phâm 07:02",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bac Minh Ly",
+   "title": "Ke Hanh / Hat Ru Ke",
+   "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+   "quote": "Ke Hanh / Hat Ru Ke (Declamation: Song / Role of Thi Kinh, from the Play Quan Am Thi Kinh) Bac Minh Ly 04:46",
+   "read": "2026-11-23"
+  }
+ ],
+ "catru": [
+  {
+   "kind": "song",
+   "artist": "Quách Thị Hồ",
+   "title": "Bắc phản",
+   "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+   "quote": "Bác Phan | Quach Thi Hô, Dinh Khàc Ban, Truc Hiên Nguyên Nhu Lâm",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Hanoi Ca Trù Thái Hà Ensemble",
+   "title": "Gửi thư",
+   "url": "https://api.discogs.com/releases/9131069",
+   "quote": "Gửi Thư",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Nguyễn Thụy Hoà",
+   "title": "Hát nói",
+   "url": "https://api.discogs.com/releases/1570398",
+   "quote": "Hát Nói",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Hanoi Ca Trù Thái Hà Ensemble",
+   "title": "Xẩm Huế Tình",
+   "url": "https://api.discogs.com/releases/9131069",
+   "quote": "Xẩm Huế Tình",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Nguyễn Thị Hà Vy",
+   "title": "Lấy Kiều",
+   "url": "https://api.discogs.com/releases/1570398",
+   "quote": "Lây Kiêu",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Hanoi Ca Trù Thái Hà Ensemble",
+   "title": "Mưỡu – Hát nói",
+   "url": "https://api.discogs.com/releases/9131069",
+   "quote": "Mưỡu - Hát Nói",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Quách Thị Hồ",
+   "title": "Mưỡu / Hát nói",
+   "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+   "quote": "Two thê: Muou / Hát Noi | Quach Thi Hô, Dinh Khàc Ban, Truc Hiên Nguyên Nhu Lâm",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Quách Thị Hồ",
+   "title": "Tỳ bà hành",
+   "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+   "quote": "Ty bà hành | Quach Thi Hô, Dinh Khàc Ban, Truc Hiên Nguyên Nhu Lâm",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Nguyễn Thụy Hoà",
+   "title": "Thét nhạc",
+   "url": "https://api.discogs.com/releases/1570398",
+   "quote": "Thét Nhạc",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Nguyễn Thị Hà Vy",
+   "title": "Ba mươi sáu giọng",
+   "url": "https://api.discogs.com/releases/1570398",
+   "quote": "Ba Muoi Sáu Giong",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Nguyễn Thụy Hoà",
+   "title": "Bắc phản – Mưỡu – Hát nói",
+   "url": "https://api.discogs.com/releases/1570398",
+   "quote": "Bác Phan - Muõu - Hát Nói",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Nguyễn Thị Hà Vy",
+   "title": "Hát giai – Hát ru",
+   "url": "https://api.discogs.com/releases/1570398",
+   "quote": "Hát Giai - Hát Ru",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Nguyễn Thụy Hoà",
+   "title": "Tỳ bà hành",
+   "url": "https://api.discogs.com/releases/1570398",
+   "quote": "Ty Bà Bành",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Hanoi Ca Trù Thái Hà Ensemble",
+   "title": "Cung bắc",
+   "url": "https://api.discogs.com/releases/9131069",
+   "quote": "Cung Bắc",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Hanoi Ca Trù Thái Hà Ensemble",
+   "title": "Tỳ bà hành",
+   "url": "https://api.discogs.com/releases/9131069",
+   "quote": "Tỳ Bà Hành",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Hanoi Ca Trù Thái Hà Ensemble",
+   "title": "Thi cổ",
+   "url": "https://api.discogs.com/releases/9131069",
+   "quote": "Thi Cổ",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Hanoi Ca Trù Thái Hà Ensemble",
+   "title": "Ba mươi sáu giọng",
+   "url": "https://api.discogs.com/releases/9131069",
+   "quote": "Ba Mưoi Sáu Giọng",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Quách Thị Hồ",
+   "title": "Tỳ bà hành",
+   "url": "https://api.discogs.com/releases/1976637",
+   "quote": "A3 Ty Bà Hành. Lyrics By: 白居易 (anv: Bai Ju-Yi); Lyrics By [Vietname Translation]: Phan Huy Vinh",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Ca Trù Thái Hà Ensemble",
+   "title": "Nord Việt Nam: Le Ca Trù (album)",
+   "url": "https://api.discogs.com/releases/1570398",
+   "quote": "Nord Việt Nam: Le Ca Trù = North Việt Nam: The Ca Trù",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Hanoi Ca Trù Thái Hà Ensemble",
+   "title": "Ca Trù: The Music of North Vietnam (album)",
+   "url": "https://api.discogs.com/releases/9131069",
+   "quote": "Ca Trù - The Music Of North Vietnam",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Hai Cai, Phuong Dua, Van Tich, Manh Thang",
+   "title": "Gọi đò",
+   "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+   "quote": "Goi Do (I Call the Passer-by) | Hai Cai, Phuong Dua, Van Tich, Manh Thang",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Mỹ Linh",
+   "title": "Trên đỉnh Phù Vân",
+   "url": "https://en.wikipedia.org/wiki/Ca_tru",
+   "quote": "In 1997 year, for the first time \"Trên đỉnh Phù Vân\" was made public by singer Mỹ Linh.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Quách Thị Hồ and others",
+   "title": "Viet-Nam: Ca Tru & Quan Ho",
+   "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+   "quote": "This 1976 recording was made in the Socialist Republic of Vietnam by noted musicologist Tr?n Van Khê.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Ca Trù Thái Hà Ensemble",
+   "title": "Nord Việt Nam: Le Ca Trù",
+   "url": "https://boutiqueenligne.maisondesculturesdumonde.org/en/cdsvinyls/318-le-ca-tru.html",
+   "quote": "Hanoi Ca Tru Thai Ha Ensemble",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Hanoi Ca Trù Thái Hà Ensemble",
+   "title": "Ca Trù: The Music of North Vietnam",
+   "url": "https://www.gold.ac.uk/music/catru/",
+   "quote": "a CD of ca tru performed by the Ca Tru Thai Ha Ensemble on the Nimbus Records label (2001).",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various",
+   "title": "Viet-Nam: La Voix des Maisons de Chant – Ca Tru",
+   "url": "https://api.discogs.com/releases/12972571",
+   "quote": "Viet-Nam: La Voix Des Maisons De Chant - Ca Tru",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Instruments",
+   "url": "https://en.wikipedia.org/wiki/Ca_tru",
+   "quote": "The female singer provides the vocals whilst playing her phách",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Instruments",
+   "url": "https://en.wikipedia.org/wiki/Ca_tru",
+   "quote": "She is accompanied by a man who plays the đàn đáy",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Early court association",
+   "url": "https://en.wikipedia.org/wiki/Ca_tru",
+   "quote": "a talented musician who was beloved by the Lý Dynasty imperial court.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Praise drum",
+   "url": "https://folkways.si.edu/news-and-press/unesco-collection-week-43-ca-tru-and-quan-ho-traditions-of-vietnam",
+   "quote": "An individual from the audience (usually a male) will play on an auxiliary drum known as the praise drum or trông-châu.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "UNESCO",
+   "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+   "quote": "Ca trù singing was inscribed on the UNESCO List of Intangible Cultural Heritage in Need of Urgent Safeguarding in 2009.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Repertoire forms",
+   "url": "https://en.wikipedia.org/wiki/Ca_tru",
+   "quote": "The number of ca tru melodies is 56, they are called thể cách.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Scene size",
+   "url": "https://en.wikipedia.org/wiki/Ca_tru",
+   "quote": "By 2011 there were 140 ca tru from 23 clubs.",
+   "read": "2026-11-23"
+  }
+ ],
+ "quanho": [
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Quan Họ Bắc Ninh folk songs (UNESCO ICH)",
+   "url": "https://ich.unesco.org/en/RL/quan-ho-bac-ninh-folk-songs-00183",
+   "quote": "performed as alternating verses between two women from one village who sing in harmony",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Quan họ (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Quan_ho",
+   "quote": "The quan họ style originated in what is now Bắc Ninh Province and was first recorded in the 13th century",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Quan họ (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Quan_ho",
+   "quote": "While in the past the singing was unaccompanied, it is common today for the singers to be accompanied by instruments.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "UNES08035 liner notes",
+   "url": "https://folkways-media.si.edu/docs/folkways/artwork/UNES08035.pdf",
+   "quote": "there was no musical accompaniment, but in the course of recent years",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Quan Họ Bắc Ninh folk songs (UNESCO ICH)",
+   "url": "https://ich.unesco.org/en/RL/quan-ho-bac-ninh-folk-songs-00183",
+   "quote": "The more than 400 song lyrics, sung with 213 different melody variations",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Hơn 200 làn điệu dân ca quan họ Bắc Ninh (Nhân Dân)",
+   "url": "https://nhandan.vn/ocop/hon-200-lan-dieu-dan-ca-quan-ho-bac-ninh-post533359.html",
+   "quote": "Ðến nay đã sưu tầm được hơn 200 làn điệu với hơn 500 bài ca quan họ",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Bắc Ninh quan họ singers",
+   "title": "Người ơi người ở đừng về",
+   "url": "https://archives.crem-cnrs.fr/archives/items/14783",
+   "quote": "Nguoi oi nguoi o dung vê",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Bắc Ninh quan họ singers",
+   "title": "Viet Nam: Ca Tru and Quan Ho (album)",
+   "url": "https://archives.crem-cnrs.fr/archives/collections/CNRSMH_E_1979_025_004/",
+   "quote": "Vietnam : Ca Tru and Quan Ho",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Quach Thi Hô",
+   "title": "Tỳ bà hành",
+   "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+   "quote": "Ty bà hành",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bắc Ninh quan họ singers",
+   "title": "Người ơi người ở đừng về",
+   "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+   "quote": "109 Gia Ban (Farewell Song): Nguoi oi nguoi o dung vê (Friends, Stay Here, Don't Go Home Now) n/a 03:42",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bắc Ninh quan họ singers",
+   "title": "Cơi trầu",
+   "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+   "quote": "105 Coi-Giâu (The Tray of Betel) Ba Manh, Tu Van, Son Ma, Van Tich 01:26",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bắc Ninh quan họ singers",
+   "title": "Gọi đò",
+   "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+   "quote": "104 Goi Do (I Call the Passer-by) Hai Cai, Phuong Dua, Van Tich, Manh Thang 03:51",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bắc Ninh quan họ singers",
+   "title": "Đường bạn Kim Loan",
+   "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+   "quote": "106 Duong Ban Kim Loan (The Road of Friendship) Nam Dang, Sau Ha, Huynh Bat, Son Ma, Công Huynh, Van Tich 03:10",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bắc Ninh quan họ singers",
+   "title": "Sở cầu như ý",
+   "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+   "quote": "107 So Câu Nhu Y (What One Desires Has Come True) Ba Manh, Tu Van 03:07",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bắc Ninh quan họ singers",
+   "title": "Đêm qua nhớ bạn",
+   "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+   "quote": "108 Dêm Qua Nho Ban (Last Evening I Thought of My Girlfriend or Boyfriend) Ba Trong, Hai Cai, Công Huynh, Nguyen Ngoc Trac 04:40",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bắc Ninh quan họ singers",
+   "title": "Kẻ Bắc người Nam",
+   "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+   "quote": "110 Gia Ban (Farewell Song): Ke bac nguoi nam (Some Are in the North, Some in the South)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various (rec. Trần Văn Khê)",
+   "title": "Viet Nam: Ca Tru and Quan Ho",
+   "url": "https://archives.crem-cnrs.fr/archives/collections/CNRSMH_E_1979_025_004/",
+   "quote": "EMI-Odeon, Italie",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various",
+   "title": "Quan Ho Bac Ninh",
+   "url": "https://farsidemusic.com/acatalog/Quan-Ho-Bac-Ninh-FSD2892.html",
+   "quote": "features mainly female singers, including Thuy Cai, Khanh Ha, Thanh Hieu, and male singers Quy Trang and Ba Trong",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Bac Ninh",
+   "title": "Vietnam (Chant Quan Ho)",
+   "url": "https://music.apple.com/us/album/vietnam-chant-quan-ho/1070181180",
+   "quote": "℗ 2016 Providance Music",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Thúy Hoàn",
+   "title": "Se chỉ luồn kim",
+   "url": "https://daidoanket.vn/thuy-hoan-ra-mat-album-quan-ho-10169713.html",
+   "quote": "Se chỉ luồn kim",
+   "read": "2026-11-23"
+  }
+ ],
+ "bihusongs": [
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Bihu dance (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Bihu_dance",
+   "quote": "Bihu is mentioned in the inscriptions of the 14th-century Chutia King Lakshminaryan as well.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Bihu: The Festival of Assam (Sahapedia)",
+   "url": "https://www.sahapedia.org/bihu-the-festival-of-assam",
+   "quote": "a horn made of buffalo's horn and bamboo pieces",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Bihu: The Festival of Assam (Sahapedia)",
+   "url": "https://www.sahapedia.org/bihu-the-festival-of-assam",
+   "quote": "Made of bamboo, this instrument is used to keep the rhythm of the dance.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Bihu: Music and Melody (India Today NE)",
+   "url": "https://www.indiatodayne.in/opinion/story/bihu-music-and-melody-1374749-2026-04-13",
+   "quote": "Musical instruments like pepa, gogona, dhol, xutuli, toka, baanhi, khol (mridanga), singa, dotara,",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": "Khagen Mahanta",
+   "title": "Bihu: The Festival of Assam (Sahapedia)",
+   "url": "https://www.sahapedia.org/bihu-the-festival-of-assam",
+   "quote": "Bihu singers like Khagen Mahanta became popular through the radio.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "This Bihu, VCDs in vogue in Asom (Oneindia, 2007)",
+   "url": "https://www.oneindia.com/2007/04/14/this-bihu-vcds-in-vogue-in-asom-1176548667.html",
+   "quote": "Around 100 cassettes are released every year, and the number is declining by the day.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "This Bihu, VCDs in vogue in Asom (Oneindia, 2007)",
+   "url": "https://www.oneindia.com/2007/04/14/this-bihu-vcds-in-vogue-in-asom-1176548667.html",
+   "quote": "Last year there were around 30 VCD releases in the state. This year, it has already crossed the 50 mark,",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Khagen Mahanta",
+   "title": "Dhansiri Parehoi",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "07. Dhansiri Parehoi\nAlbum: Bihu Songs\nArtiste: Khagen Mahanta",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Khagen Mahanta, Archana Mahanta",
+   "title": "Nahor Kali Bihu Geet (album)",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "Album: Nahor Kali Bihu Geet - Khagen And Archana Mahanta",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Zubeen Garg",
+   "title": "Janmoni (album)",
+   "url": "https://eastmojo.com/premium/2026/04/11/why-a-bihu-without-zubeen-garg-still-feels-surreal/",
+   "quote": "Rangdhali(1997), Janmoni (1998), Janmoni 99 (1999), Anjali (1999), Nahor (2000), and Ajana (2001).",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Various artists",
+   "title": "Toka Bihu- dehi oi lihiri kohua bon",
+   "url": "https://folkways.si.edu/bihu/india-world/music/album/smithsonian",
+   "quote": "Music for the festival of Bihu, accompanied by toka",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Mahananda Majinder Barua",
+   "title": "O Aji Bihu Bihu",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "16. O Aji Bihu Bihu\nFilm: Phaguni (Asm)\nArtiste: Mahananda Majinder Barua",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Pratima Pande (Barua)",
+   "title": "Hasteer Kanya",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "80. Hasteer Kanya\nAlbum: Chayanika Goalpariya Folk Songs - Vol 2\nArtiste: Pratima Pande (Barua)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bihu dancers in Majuli",
+   "title": "Sirip sirip kori nasa hera nasoni (Jeng Bihu dance music)",
+   "url": "https://folkways.si.edu/bihu/india-world/music/album/smithsonian",
+   "quote": "Sirip sirip kori nasa hera nasoni (Jeng Bihu dance music)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Various artists",
+   "title": "Toka Bihu- dehi oi lihiri kohua bon",
+   "url": "https://folkways.si.edu/bihu/india-world/music/album/smithsonian",
+   "quote": "Toka Bihu- dehi oi lihiri kohua bon",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Khagen Mahanta",
+   "title": "Dhansiri Parehoi",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "07. Dhansiri Parehoi\nAlbum: Bihu Songs\nArtiste: Khagen Mahanta",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Khagen Mahanta",
+   "title": "Ou Kumalia",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "30. Ou Kumalia\nAlbum: Assamese Bihu Songs\nArtiste: Khagen Mahanta",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Khagen Mahanta & Party",
+   "title": "Kala Chola Kuruta",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "87. Kala Chola Kuruta\nAlbum: Bihu Geet\nArtistes: Khagen Mahanta & Party.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Lokeswar Deka/others",
+   "title": "Maram Logai Logai",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "158. Maram Logai Logai\nAlbum: Bihu Songs - Lokeswar Deka And Others\nArtistes: Lokeswar Deka/others",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Khagen Phukan/Ranima Davi/Nikunjalata Mahanta/Maheshwar Baruah/Prahlad Bora",
+   "title": "Aami Pani Ana Ghat",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "239. Aami Pani Ana Ghat\nAlbum: Chayanika Bihu Alekhya - Aaru Bihu Geet Sankalan\nArtistes: Khagen Phukan/ Ranima Davi /Nikunjalata Mahanta/Maheshwar Baruah/Prahlad Bora",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Khagen Mahanta/Nikunjalata Mohanta/Archana Mahanta",
+   "title": "Bramhaputrar Balire",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "21. Bramhaputrar Balire\nAlbum: Bihu Songs\nArtistes: Khagen Mahanta/Nikunjalata Mohanta/archana Mahanta",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Archana Mohanta/Khagen Mohanta/party",
+   "title": "Sakala Tengati",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "08. Sakala Tengati\nAlbum: Assamese Bihu Songs\nArtistes: Archana Mohanta/Khagen Mohanta/party",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Khagen Mahanta/Archana Mahanta/Nikunjalata Mahanta",
+   "title": "Chokla Tenati Akoloi Nakhaba",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "174. Chokla Tenati Akoloi Nakhaba\nAlbum: Assamese Bihu Songs\nArtistes: Khagen Mahanta/Archana Mahanta/Nikunjalata Mahanta",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Khagen Mahanta/Archana Mahanta",
+   "title": "Naga Change Change",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "145. Naga Change Change\nAlbum: Nahor Kali Bihu Geet - Khagen And Archana Mahanta\nArtistes: Khagen Mahanta/Archana Mahanta",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Khagen Mahanta/Archana Mahanta",
+   "title": "Jouban Nahoy Tulapat",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "197. Jouban Nahoy Tulapat\nAlbum: Nahor Kali Bihu Geet - Khagen And Archana Mahanta\nArtistes: Khagen Mahanta/Archana Mahanta",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Khagen Mahanta/Archana Mahanta",
+   "title": "Jaan Ei Jaan",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "202. Jaan Ei Jaan\nAlbum: Nahor Kali Bihu Geet - Khagen And Archana Mahanta\nArtistes: Khagen Mahanta/Archana Mahanta",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bhupen Hazarika/Runumi Bhattacharya",
+   "title": "Dehi Oi Hen Batorot",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "28. Dehi Oi Hen Batorot\nAlbum: Chayanika Bihu Alekhya - Aaru Bihu Geet Sankalan\nArtistes: Bhupen Hazarika/Runumi Bhattacharya",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bhupen Hazarika/Runumi Bhattacharya",
+   "title": "Bordoichila",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "114. Bordoichila\nAlbum: Chayanika Bihu Alekhya - Aaru Bihu Geet Sankalan\nArtistes: Bhupen Hazarika/Runumi Bhattacharya",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bhupen Hazarika",
+   "title": "Radhe Kala Nubulibi Mok",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "67. Radhe Kala Nubulibi Mok\nAlbum: Bihu Geet\nArtiste: Bhupen Hazarika",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bhupen Hazarika",
+   "title": "Barbariba Jai Menaka",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "151. Barbariba Jai Menaka\nAlbum: Bihu Geet\nArtiste: Bhupen Hazarika",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Zubeen Garg",
+   "title": "Janmoni Tumar Babe",
+   "url": "https://www.sentinelassam.com/more-news/editorial/zubeen-bihu-rongali-without-zg",
+   "quote": "From “Janmoni Tumar Babe” and “O Nahor Phular Botor” to albums like “Janmoni” and “Anjana,”",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Zubeen Garg",
+   "title": "O Nahor Phular Botor",
+   "url": "https://www.sentinelassam.com/more-news/editorial/zubeen-bihu-rongali-without-zg",
+   "quote": "From “Janmoni Tumar Babe” and “O Nahor Phular Botor” to albums like “Janmoni” and “Anjana,”",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Khagen Mahanta, Archana Mahanta",
+   "title": "Nahor Kali Bihu Geet",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "Album: Nahor Kali Bihu Geet - Khagen And Archana Mahanta",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Bhupen Hazarika, Runumi Bhattacharya and others",
+   "title": "Chayanika Bihu Alekhya - Aaru Bihu Geet Sankalan",
+   "url": "https://saregama.com/carvaanmini/assamese/songlist",
+   "quote": "Album: Chayanika Bihu Alekhya - Aaru Bihu Geet Sankalan",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Zubeen Garg",
+   "title": "Ujan Piriti",
+   "url": "https://eastmojo.com/premium/2026/04/11/why-a-bihu-without-zubeen-garg-still-feels-surreal/",
+   "quote": "His first Bihu album, Ujan Piriti (1996),",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Zubeen Garg",
+   "title": "Janmoni",
+   "url": "https://eastmojo.com/premium/2026/04/11/why-a-bihu-without-zubeen-garg-still-feels-surreal/",
+   "quote": "Rangdhali(1997), Janmoni (1998), Janmoni 99 (1999), Anjali (1999), Nahor (2000), and Ajana (2001).",
+   "read": "2026-11-23"
+  }
+ ],
+ "pungmul": [
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Nongak (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Nongak",
+   "quote": "During the Joseon period, this folk tradition was the primary mode of musical expression for a majority of the population.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Nongak and Samullori Ensembles from Korea (Grinnell College)",
+   "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/page/korea",
+   "quote": "In 1978 a quartet of musicians calling themselves SamulNori began a revival of stylistic elements of nongak",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Samul nori (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Samul_nori",
+   "quote": "The music of samul nori is heavily based on pungmul nori music",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Song So-hee (Wikipedia), definition of minyo",
+   "url": "https://en.wikipedia.org/wiki/Song_So-hee",
+   "quote": "Gyeonggi Minyo is traditionally popular in the central area around Seoul.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Folk songs captured for history's sake (Korea JoongAng Daily)",
+   "url": "https://www.koreajoongangdaily.com/lifestyle/folk-songs-captured-for-historys-sake/11229073",
+   "quote": "The family recorded 460 out of a total 4,000 songs that have been passed down through oral transmission.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Folk songs captured for history's sake (Korea JoongAng Daily)",
+   "url": "https://www.koreajoongangdaily.com/lifestyle/folk-songs-captured-for-historys-sake/11229073",
+   "quote": "Arirang has over 100 versions, depending on its place of origin.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Samul nori (Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Samul_nori",
+   "quote": "dozens of professional and amateur groups",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Samul-Nori",
+   "title": "Youngnam Nong-ak",
+   "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/page/korea",
+   "quote": "Drums and Voices of Korea: Samul-Nori: Youngnam Nong-ak",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Samul-Nori",
+   "title": "Youngnam Nong-ak",
+   "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/2940",
+   "quote": "Drums and Voices of Korea: Samul-Nori--Youngnam Nong-ak; Samul-Nori",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Korean Women's Music Association",
+   "title": "Nong-Ahk",
+   "url": "https://folkways.si.edu/korea-vocal-and-instrumental-music/world/album/smithsonian",
+   "quote": "Nong-Ahk",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Kim Ok-sim",
+   "title": "Ah-Rirang",
+   "url": "https://folkways.si.edu/korea-vocal-and-instrumental-music/world/album/smithsonian",
+   "quote": "Ah-Rirang",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Kim Ok-sim",
+   "title": "Torachi",
+   "url": "https://folkways.si.edu/korea-vocal-and-instrumental-music/world/album/smithsonian",
+   "quote": "Torachi",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Lee Chun-hee",
+   "title": "Arirang and Minyo Singing (album)",
+   "url": "https://songlines.co.uk/review/arirang-and-minyo-singing",
+   "quote": "Ocora Radio France",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Lee Chun-hee",
+   "title": "Arirang and Minyo Singing",
+   "url": "https://en.cezamemusic.com/korea-arirang-and-minyo-singing-album-1306.html",
+   "quote": "Lee Chun-hee, one of the most prominent singer of minyo Korean folk songs,",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Lee Chun-hee",
+   "title": "Gin Arirang",
+   "url": "https://en.cezamemusic.com/korea-arirang-and-minyo-singing-album-1306.html",
+   "quote": "Gin Arirang [OCR560258 - 1]",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Lee Chun-hee",
+   "title": "Gu Arirang",
+   "url": "https://en.cezamemusic.com/korea-arirang-and-minyo-singing-album-1306.html",
+   "quote": "Gu Arirang [OCR560258 - 2]",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Lee Chun-hee",
+   "title": "Arirang",
+   "url": "https://en.cezamemusic.com/korea-arirang-and-minyo-singing-album-1306.html",
+   "quote": "Arirang [OCR560258 - 3]",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Lee Chun-hee",
+   "title": "Noraetgarak",
+   "url": "https://en.cezamemusic.com/korea-arirang-and-minyo-singing-album-1306.html",
+   "quote": "Noraetgarak [OCR560258 - 4]",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Lee Chun-hee",
+   "title": "Changbu Taryeong",
+   "url": "https://en.cezamemusic.com/korea-arirang-and-minyo-singing-album-1306.html",
+   "quote": "Changbu Taryeong [OCR560258 - 5]",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Lee Chun-hee",
+   "title": "Nodeul Gangbyeon",
+   "url": "https://en.cezamemusic.com/korea-arirang-and-minyo-singing-album-1306.html",
+   "quote": "Nodeul Gangbyeon [OCR560258 - 6]",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Lee Chun-hee",
+   "title": "Taepyeongga",
+   "url": "https://en.cezamemusic.com/korea-arirang-and-minyo-singing-album-1306.html",
+   "quote": "Taepyeongga [OCR560258 - 7]",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Song So-hee",
+   "title": "Odolttogi",
+   "url": "https://en.wikipedia.org/wiki/Song_So-hee",
+   "quote": "South Korean Gyeonggi minyo (경기민요) or traditional folk singer.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Samul Nori",
+   "title": "Yeongnam Farm Music",
+   "url": "https://organicmusic.jp/en/products/samul-nori-korean-traditional-folk-music-series-no-1",
+   "quote": "Yeongnam Farm Music",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Chung Woong Korean Traditional Music Ensemble",
+   "title": "Nong-ak (P'ungmullori)",
+   "url": "https://eclassical.textalk.se/shop/17115/art5/4810805-b9e15b-5019396246522.pdf",
+   "quote": "Nong-ak (P’ungmullori)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Chung Woong Korean Traditional Music Ensemble",
+   "title": "Samullori (Percussion Ensemble)",
+   "url": "https://eclassical.textalk.se/shop/17115/art5/4810805-b9e15b-5019396246522.pdf",
+   "quote": "Samullori (Percussion Ensemble)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Chung Woong Korean Traditional Music Ensemble",
+   "title": "Traditional Music from Korea (release year)",
+   "url": "https://eclassical.com/labels/arc/traditional-music-from-korea.html",
+   "quote": "EUCD2465",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Shilla traditional arts group",
+   "title": "Namdo Min Yo",
+   "url": "https://www.fremeaux.com/en/1665-coree-percussions-et-chants-de-hahoe-et-kyongju-3561302536828-fa5368.html",
+   "quote": "Namdo Min Yo",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "SsingSsing",
+   "title": "청춘가",
+   "url": "https://en.wikipedia.org/wiki/SsingSsing",
+   "quote": "SsingSsing incorporates gyeonggi sori, a folk style of singing which originates from the central province around Seoul.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "SsingSsing",
+   "title": "청춘가 (tracklist row, album SSINGSSING, 2017)",
+   "url": "https://en.wikipedia.org/wiki/SsingSsing",
+   "quote": "청춘가",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Chung Woong Korean Traditional Music Ensemble",
+   "title": "Shimch'ŏng'ga (P'ansori solo)",
+   "url": "https://eclassical.textalk.se/shop/17115/art5/4810805-b9e15b-5019396246522.pdf",
+   "quote": "Shimch’ŏng’ga (P’ansori solo)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Samul-Nori",
+   "title": "Drums and Voices of Korea",
+   "url": "https://mion.music/en/records/artists/samulnori/albums/samulnori-drums-and-voices-of-korea",
+   "quote": "Drums And Voices Of Korea",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "The 'Deep Song' of Korea",
+   "url": "https://budamusique.com/en/catalogue/view/969/the-deep-song-of-korea?of=368",
+   "quote": "The 'Deep Song' of Korea",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "Corée: percussions et chants de Hahoe et Kyongju",
+   "url": "https://www.fremeaux.com/en/1665-coree-percussions-et-chants-de-hahoe-et-kyongju-3561302536828-fa5368.html",
+   "quote": "CORÉE PERCUSSIONS ET CHANTS DE HAHOE ET KYONGJU",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Kang Chaeong Ja & Park Jong Sul",
+   "title": "Arirang. Korean Kyonggi Minyo",
+   "url": "https://archives.crem-cnrs.fr/archives/collections/CNRSMH_E_1989_013_005/",
+   "quote": "ARIRANG. KOREAN KYONGGI MINYO",
+   "read": "2026-11-23"
+  }
+ ]
+}

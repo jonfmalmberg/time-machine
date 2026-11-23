@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (third helper hand-back: first genre batch)
+
+- H3 accepted as candidates: eight genres (Kalevala runosong, ngoma, Amazigh ahwash and ahidus, chèo, ca trù, quan họ, Bihu songs, pungmul), 98 songs, each with a size estimate, sources with quoted lines, and a list of what could not be verified. Three came out full, five thin. They are not in the site's data: they wait for the data model to reach `dev`, the evidence check and a genre acceptance test.
+- The size estimates work as intended: for example ngoma is estimated at 300 to 2,000 recordings, almost all in archives, with a core of 20, so a small commercial list is honest and not a failure.
+- For the owner (tree questions the lead will not decide): the Amazigh genre's natural neighbour, rways (Tashelhit troubadours), has no genre in the tree; `pungmul` was scoped to cover Korean percussion and Korean minyo because `minyo` is the Japanese genre: should Korean minyo be its own genre?
+- Helper fired for batch 2.
+
 ## 2026-11-23 (second helper hand-back)
 
 - H2 (open data sources) reviewed and accepted with its shortfalls noted; copied to `docs/research/2026-11-23-open-data-sources.md`. Findings that matter for the model: only MusicBrainz gives a recording a stable identifier, and it publishes a CC0 mapping of every recording to one canonical version; MusicBrainz genre tags sit in its non-commercial part, so they cannot be copied in; AcousticBrainz has ended and its makers call the data not useful, so it is not a source for tempo or mood.

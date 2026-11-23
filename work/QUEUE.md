@@ -19,7 +19,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Hand back:** `sources.md`, one section per source in the same shape, ending with a table comparing them.
 
 ## H3. Genre research, batch 1 (roadmap 3.2)
-- **State:** open
+- **State:** accepted 2026-11-23 as candidates. They enter the master table after the data model is on `dev`, and count as researched only once the evidence check and the genre acceptance test have run. Lead\'s answers: (4) titles in standard spelling with diacritics, the page spelling kept as an alias; (1) near-misses stay and are checked at the master-table step; (2) and (3) are questions about the tree and go to the owner.
 - **Model:** Opus for the run and for research sub-agents (one per genre is fine).
 - **Ask:** Take the first eight genres in `data/nodes.json` order that have no entry in `data/defs.json`, skipping any already covered by a `work/*/defs.add.json` on a `helper/*` branch. For each, research and write a definition and a playlist in exactly the shape of the existing entries in `data/defs.json` and `data/playlists.json` (read ten existing entries of each first). Every reference track and playlist song needs a source address showing the recording exists and belongs to the genre. A genre with fewer than four verifiable recordings gets status `thin` or `none`, honestly, with albums if those exist.
 - **Size first:** for each genre, before collecting, answer "about how many recordings exist that fit this genre?" as a range, with the basis (discographies, archive catalogues, label lists) and how many of those a person inside the scene would call essential. Put it in `sizes.json` (genre id: low, high, core, basis, confidence).
@@ -27,7 +27,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 
 ## H4. Genre research, batch 2
 - **State:** open
-- **Model, ask, hand back:** as H3, the next eight.
+- **Model, ask, hand back:** as H3, the next eight (skip the eight in `work/2026-11-23-H3/`). Titles in the standard spelling of the language with diacritics; where the source page spells it differently, give that as `alias`. Where the natural neighbour of a genre has no id in the tree, say so in the report and do not stretch another id to cover it.
 
 ## H5. How prominence is decided, and why one genre can dominate the tunnel (roadmap 2.1, 2.6)
 - **State:** open
