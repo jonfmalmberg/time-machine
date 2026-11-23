@@ -1,0 +1,28 @@
+{
+ "run": "2026-11-23-place-time-v1-JP-1991-1998",
+ "brief": "place-time",
+ "version": 1,
+ "brief_print": "8020573e3c8fb117",
+ "data_commit": "4779445",
+ "data_uncommitted": false,
+ "data_print": "b265d7d39878cb61",
+ "cases_print": "60d6ac0411f62263",
+ "place": "JP",
+ "years": [
+  1991,
+  1995,
+  1998
+ ],
+ "mode": "heard",
+ "model_required": "claude-opus-5-5",
+ "prepared": "2026-11-23",
+ "status": "recorded",
+ "model": "claude-opus-5-5",
+ "recorded": "2026-11-23",
+ "scores": [
+  9,
+  6,
+  6
+ ],
+ "result": "below"
+}

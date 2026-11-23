@@ -103,11 +103,11 @@ with sync_playwright() as pw:
     st = p.inner_text('#ststatus')
     assert 'Year-by-year hit lists for Japan, 1980s' in st and 'scored 9, 9, 9 out of 10' in st and st.count('Done') == 2, st
     assert p.locator('#ststatus button').count() == 0, 'a visitor is offered a rerun'
-    # Japan 1995: decade list only, never tested: both buttons
-    p.evaluate("setYear(1995); stPanelUpdate()"); p.wait_for_timeout(400)
+    # Japan 2015: decade list only, never tested: both buttons
+    p.evaluate("setYear(2015); stPanelUpdate()"); p.wait_for_timeout(400)
     assert p.inner_text('#sttest') == 'Request' and p.inner_text('#streq') == 'Request'
     p.evaluate("document.getElementById('sttest').click()"); p.wait_for_timeout(400)
-    assert len(reqs) == 1 and reqs[0]['req_kind'] == 'listener' and reqs[0]['req_ref']['pl'] == 'cty:JP' and reqs[0]['req_ref']['y0'] == 1995 and len(reqs[0]['req_ref']['prompt']) > 100, reqs
+    assert len(reqs) == 1 and reqs[0]['req_kind'] == 'listener' and reqs[0]['req_ref']['pl'] == 'cty:JP' and reqs[0]['req_ref']['y0'] == 2015 and len(reqs[0]['req_ref']['prompt']) > 100, reqs
     assert 'Request received' in p.inner_text('.rq[data-kind="listener"]') and p.locator('#sttest').count() == 0
     shot(p, 'request_listener_phone')
     p.evaluate("setYear(1955); setPlace({k:'cty',iso:'AR'}); stPanelUpdate()"); p.wait_for_timeout(400)

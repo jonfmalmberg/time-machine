@@ -1,0 +1,71 @@
+{
+ "JP1991": {
+  "persona": {"name": "Takuya", "born": 1977, "town": "Kawagoe, Saitama", "background": "Eldest son of a salaryman father who commutes to Ikebukuro and a mother who works part-time at a supermarket. In 1991 he is 14, in second year of junior high. Music reaches him through Fuji TV Monday 9pm dramas (Tokyo Love Story, 101st Proposal), TBS 'The Best Ten' reruns in memory but mainly 'Music Station' on TV Asahi on Friday nights, the Sunday-evening 'Chibi Maruko-chan' that the whole family watches, rented CDs from a local rental shop dubbed to cassette, and karaoke boxes his older cousins take him to. His grandmother watches Kohaku every New Year's Eve."},
+  "seeds": [
+   {"song": "槇原敬之 - どんなときも。", "knew": "yes", "origin": "local", "anachronism": false, "when": "then"},
+   {"song": "CHAGE and ASKA - SAY YES", "knew": "yes", "origin": "local", "anachronism": false, "when": "then"},
+   {"song": "小田和正 - ラブ・ストーリーは突然に", "knew": "yes", "origin": "local", "anachronism": false, "when": "then"},
+   {"song": "KAN - 愛は勝つ", "knew": "yes", "origin": "local", "anachronism": false, "when": "then"},
+   {"song": "B.B.クィーンズ - おどるポンポコリン", "knew": "yes", "origin": "local", "anachronism": false, "when": "then"},
+   {"song": "美空ひばり - 川の流れのように", "knew": "yes", "origin": "local", "anachronism": false, "when": "then"}
+  ],
+  "score": 9,
+  "wouldSay": "SAY YES and Love Story wa Totsuzen ni back to back? That's the drama winter of 1991, everyone at school was singing 'ano hi ano toki ano basho de'. This is exactly that year.",
+  "missing": [
+   "大事MANブラザーズバンド - それが大事 (1991)",
+   "ASKA - はじまりはいつも雨 (1991)",
+   "ZARD - Good-bye My Loneliness (1991)",
+   "X JAPAN - Silent Jealousy (1991)",
+   "B'z - LADY NAVIGATION (1991)",
+   "Mariah Carey - Emotions (1991) [unsure how big it was in Japan]"
+  ],
+  "fake": "Little feels fake; the one soft spot is that Odoru Ponpokorin (1990) and Kawa no Nagare no Yō ni (1989, sung everywhere after Hibari's death that year) peaked a year or two before 1991, so they read slightly as last year's songs, though both were still everywhere in 1991.",
+  "missingScene": "The seeds are all big-ballad and TV-tie-in pop; missing are the tail of the band boom (X, BUCK-TICK, JUN SKY WALKER(S), THE BLUE HEARTS), the Juliana's Tokyo / Eurobeat disco scene of the bubble's end, the declining idol scene (Wink, Shizuka Kudo), and enka that rural households and older relatives played (Ishikawa Sayuri, Kitajima Saburo) beyond the single Hibari track. Some uncertainty: exact 1991 vs 1990 chart positions for KAN and B.B.Queens are from memory."
+ },
+ "JP1995": {
+  "persona": {"name": "Yuki", "born": 1980, "town": "Kobe (Nishi-ku), Hyogo", "background": "Daughter of a municipal office worker and a homemaker; 15 in 1995 and in her last year of junior high when the Great Hanshin earthquake hits in January. Music reaches her through 'HEY!HEY!HEY! MUSIC CHAMP' and 'Music Station' on TV, FM radio (FM802 out of Osaka), CD singles bought at a shop near Sannomiya, karaoke boxes with friends after school, and drama theme songs. Komuro productions dominate her class's conversation."},
+  "seeds": [
+   {"song": "DREAMS COME TRUE - LOVE LOVE LOVE", "knew": "yes", "origin": "local", "anachronism": false, "when": "then"},
+   {"song": "Mr.Children - Tomorrow never knows", "knew": "yes", "origin": "local", "anachronism": false, "when": "then"},
+   {"song": "B'z - 愛のままにわがままに 僕は君だけを傷つけない", "knew": "yes", "origin": "local", "anachronism": false, "when": "then"},
+   {"song": "ZARD - 負けないで", "knew": "yes", "origin": "local", "anachronism": false, "when": "then"},
+   {"song": "米米CLUB - 君がいるだけで", "knew": "yes", "origin": "local", "anachronism": false, "when": "throwback"},
+   {"song": "Mariah Carey - All I Want for Christmas Is You", "knew": "yes", "origin": "foreign", "anachronism": false, "when": "then"}
+  ],
+  "score": 6,
+  "wouldSay": "LOVE LOVE LOVE, yes, that's 1995. Tomorrow never knows too. But then Ai no Mama ni and Makenaide? That's when I was in primary school, 1993. Where's WOW WAR TONIGHT?",
+  "missing": [
+   "H Jungle with t - WOW WAR TONIGHT 〜時には起こせよムーヴメント〜 (1995)",
+   "スピッツ - ロビンソン (1995)",
+   "大黒摩季 - ら・ら・ら (1995)",
+   "福山雅治 - HELLO (1995)",
+   "安室奈美恵 with SUPER MONKEY'S / 安室奈美恵 - Chase the Chance (1995)",
+   "trf - Overnight Sensation 〜時代はあなたに委ねてる〜 (1995)"
+  ],
+  "fake": "Half the seeds are 1992–1993 mega-sellers (B'z, ZARD, Kome Kome Club), so the opening sounds like an all-time 90s J-pop best-of rather than 1995, and the defining Komuro/avex dance sound of that year is absent entirely.",
+  "missingScene": "Missing the Komuro Tetsuya / avex dance-pop explosion (trf, H Jungle with t, globe's debut, Amuro's solo start, Shinohara Ryoko), the Being-label rock of the moment (DEEN, WANDS, FIELD OF VIEW), Shibuya-kei for city teens (Pizzicato Five, Ozawa Kenji's 'Konya wa Boogie Back' / 'Lovely' from 1994), Spitz and the guitar-pop wave, and the Hanshin earthquake mood (Ganbarou Kobe) that defined the year in Kansai. Unsure: whether 'All I Want for Christmas' was still a big Japanese hit in 1995 rather than chiefly in late 1994 with the TV drama '29-sai no Christmas'; I marked it 'then' as a seasonal staple."
+ },
+ "JP1998": {
+  "persona": {"name": "Aya", "born": 1983, "town": "Sendai, Miyagi", "background": "Daughter of a regional bank employee and a nurse; 15 in 1998, first year of high school. Music reaches her through 'HEY!HEY!HEY!' and 'Music Station', CDTV countdown late on Saturday nights, the Oricon chart in magazines, CD singles (8cm) bought at Tower Records in Sendai and borrowed MDs from friends, karaoke after cram school, and Fuji TV drama themes. She has a PHS phone with ringtone melodies of hit songs."},
+  "seeds": [
+   {"song": "宇多田ヒカル - Automatic", "knew": "yes", "origin": "local", "anachronism": false, "when": "later"},
+   {"song": "GLAY - HOWEVER", "knew": "yes", "origin": "local", "anachronism": false, "when": "then"},
+   {"song": "安室奈美恵 - CAN YOU CELEBRATE?", "knew": "yes", "origin": "local", "anachronism": false, "when": "then"},
+   {"song": "globe - DEPARTURES", "knew": "yes", "origin": "local", "anachronism": false, "when": "then"},
+   {"song": "Céline Dion - My Heart Will Go On", "knew": "yes", "origin": "foreign", "anachronism": false, "when": "then"},
+   {"song": "Backstreet Boys - As Long as You Love Me", "knew": "maybe", "origin": "foreign", "anachronism": false, "when": "then"}
+  ],
+  "score": 6,
+  "wouldSay": "Automatic... that came out right at the end of '98, we were all obsessed with it in winter going into 1999. HOWEVER, yes. But CAN YOU CELEBRATE? and DEPARTURES feel like a year or two before. Where's L'Arc and SPEED?",
+  "missing": [
+   "L'Arc~en~Ciel - HONEY (1998)",
+   "SMAP - 夜空ノムコウ (1998)",
+   "Every Little Thing - Time goes by (1998)",
+   "GLAY - 誘惑 (1998)",
+   "SPEED - my graduation (1998)",
+   "モーニング娘。 - モーニングコーヒー (1998)"
+  ],
+  "fake": "The seeds are the 1996–1997 Komuro peak plus a December-1998 release that was really a 1999 hit, so it captures 'late 90s' but not 1998 itself, the year L'Arc~en~Ciel, SPEED, SMAP's 'Yozora no Mukō' and ELT ruled.",
+  "missingScene": "Missing the visual-kei/rock peak (L'Arc~en~Ciel's three simultaneous singles, LUNA SEA, the hide memorial wave after his May 1998 death with 'ピンク スパイダー'), idol groups (SPEED, Kinki Kids, SMAP, Morning Musume's debut via ASAYAN), the female R&B wave starting with MISIA, the Pokémon anime theme 'めざせポケモンマスター' that every kid sang, and the indie/street punk scene (Hi-STANDARD) big with high-schoolers. Unsure: exact chart year for BSB's single in Japan and whether 'DEPARTURES' (Jan 1996) still felt current in 1998; I marked it 'then' since it is only 2 years earlier, but to me it felt older."
+ }
+}

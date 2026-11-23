@@ -41,9 +41,9 @@ Milestone 0 comes first because everything else depends on being able to see and
 **Why:** "There's nothing I can point to and say keep working on this." Tests so far have no record of which prompt produced which result.
 
 - 0.1 Create the GitHub milestones, issues and labels from this file (`review`, `approved`, `flagged`, `bug`, `data`, `ui`, `research`). After Jon approves this roadmap.
-- 0.2 Test registry: every synthetic-listener prompt stored as a numbered version that is never overwritten, each with a line saying what assumption changed.
-- 0.3 Test runner: one command takes a data set and a test version, runs it, and records the result with the exact prompt version and data version.
-- 0.4 Coverage table, generated automatically: for every genre and every country-decade, which tests have run, on which versions, with what result, and what is still owed.
+- 0.2 `review` Test registry: `tests/listener/README.md` lists each brief by id and version with its model and what changed; briefs are files that are never edited. Brief `place-time` version 1 registered.
+- 0.3 `review` Test runner: `tests/listener/run.py prepare` generates the exact prompts from the built site and records the brief and data fingerprints; an agent on the registered model judges; `record` checks and stores the scores. The judging step cannot be a plain command because the script cannot call a model.
+- 0.4 `review` Coverage table: `tests/listener/run.py coverage` writes [`COVERAGE.md`](COVERAGE.md) for every genre and every country-decade that has data.
 - 0.5 `done 23 Nov` What survives of past listener prompts and results: all of it. Briefs, inputs and results are saved in `tests/listener/archive/`. Past scores are treated as provisional until rerun under the registry.
 - 0.6 Proposal: the style guide. Type, colour, buttons, lists, toggles, sheets, icons in the iOS manner, studied against Shirabe Jisho, with one reference page showing every piece. Jon approves it once; all later screens are built from it.
 - 0.7 `done 23 Nov` The weekly research task now works in this repository: each Sunday it completes a small batch of pending genres on a branch named `research/<date>`, pushes it once, and leaves it for review. It no longer touches the old artifact.
@@ -151,6 +151,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 - 7.5 Journey screens (look only; behaviour is milestone 9).
 - 7.6 The playlist panel no longer covers the tab bar on phones.
 - 7.7 Album art back on, without lookups: where a song or its album has a MusicBrainz identifier (2.11), the browser loads the cover straight from the Cover Art Archive. No images are stored by us, because the archive gives no licence for copies.
+- 7.8 Colours of regions, traditions and movements on the tree, the map and the tunnel taken from the iOS system palette, in light and dark. The present palette reads as Claude's own, not as an iOS app (owner, 23 Nov). Part of the style guide (0.6): the colours are proposed there first.
 
 **Done when:** Jon has reviewed each screen on his phone against the style guide.
 
