@@ -2,6 +2,12 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (old data marked unverified; third check by the owner)
+
+- Owner: two checks are not a quorum; he will look at some pages himself. Old collected data needs verification and must be marked as such to the user, by the rule that incorrect information is not left standing uncorrected; a simple status is enough. Usage is back to 16%: about eight more helper runs today.
+- Built on branch `unverified-flag`: every research row that has a list now shows a second flag, Unverified, and its card says in plain words that the songs were collected before each was checked and may be wrong. "Researched" is no longer shown in green.
+- Queue: H10 added and placed next after the triage: a pilot that measures the data already on the site against its sources on two scopes (Japan 1980s year lists, the swing genre). Then genre batch 4, H11 (batches 1 and 2 redone under the evidence rule), and batches 5 and 6.
+
 ## 2026-11-23 (release 3; the evidence rule)
 
 - Owner approved release of `dev` to the live site, provided `dev` is in a consistent state. Checked: all tests pass, the helper candidates are in `work/` only and not in the site's data, no database change is pending. `main` moved to `dev`.

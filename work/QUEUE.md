@@ -51,6 +51,29 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Ask:** `work/2026-11-23-evidence/evidence-check.json` holds the script's result for 526 claims; read `work/2026-11-23-evidence/REPORT.md` first. For every claim with result `not found` (42) and `no page` (132), work out which of these it is and record it: `confirmed` (the page does say it: give the exact text as it appears), `reworded` (the page supports the claim but the quote was not exact: give the exact text), `page unreadable by script only` (you could read it and it supports the claim: give the exact text), `source gone` (the address is dead for you too), `wrong source` (the page exists and does not support the claim), `cannot tell`. Start with the 17 claims on `download.osmand.net` and say what that source actually is. Do not repair the data and do not look for replacement sources: classify only. Also test and report whether your shell can fetch a web page directly (`curl -sS -m 15 -o /dev/null -w "%{http_code}" https://en.wikipedia.org/wiki/Music`), since that decides whether helpers can copy exact page text.
 - **Hand back:** `triage.json` (file, scope, n, the class, exact text where found, a one-line reason), and in the report the counts per class, per genre, and the songs that now have no supporting source at all.
 
+## H10. Evidence for data already on the site: pilot on two scopes (roadmap 2.15)
+- **State:** open
+- **Model:** Opus for the run; Sonnet sub-agents may extract rows from pages already fetched.
+- **Ask:** The songs on the site were collected before sources were checked. Measure how good they are on two scopes, following "Evidence: how a researcher records a source" in `work/README.md` exactly (raw page text from the shell, never the page-reading tool for quotes).
+  1. **Japan, 1980 to 1989, year lists.** `data/links/c/JP/1980.json` holds the links (scopes `c:JP:1980` to `c:JP:1989`); songs are in `data/songs/`, artists in `data/artists/`, and each link's source is an evidence id in `data/evidence/` (title and address only). For every link: fetch the source page raw, find the row or line that names this song for this year, and record the exact string. If the page does not name it, say so; do not look for another source.
+  2. **The genre `swing`.** `data/links/g/swing.json`, roles intro, peak and reference. These have no source at all. For each song find one page a script can read that shows the recording exists, who made it and when, and record the exact string. Limit: three searches per song.
+  Run `python3 tools/check_evidence.py` on your `sources.json` (same shape as `work/2026-11-23-H4/sources.json`) and hand back its output.
+- **Hand back:** `sources.json`, `evidence-check.json`, and in the report, per scope: links checked, found, not found on the cited page, no readable source, and every song whose artist, title or year on the site differs from what the source says (give both).
+
 ## H8. Genre research, batch 4
 - **State:** open
-- **Model, ask, hand back:** as H7, the next eight.
+- **Model, ask, hand back:** as H7, the next eight, following the evidence section of `work/README.md`: only songs whose claim the check script finds go into the add files.
+
+## H11. Batches 1 and 2 again, under the evidence rule
+- **State:** open
+- **Model:** Opus for the run and for research sub-agents.
+- **Ask:** After H9. For the 16 genres in `work/2026-11-23-H3/` and `work/2026-11-23-H4/`: keep every claim the check found; for each claim that H9's `triage.json` did not class as confirmed, find a page a script can read and record the exact string from its raw text, or move the song to unverified. Rebuild `defs.add.json`, `playlists.add.json`, `sizes.json`, `sources.json` for all 16 so that every song in them has at least one claim with the result `found`, and run the check.
+- **Hand back:** the rebuilt files, `evidence-check.json`, and per genre: songs before, songs kept, songs dropped and why.
+
+## H12. Genre research, batch 5
+- **State:** open
+- **Model, ask, hand back:** as H7, the next eight pending genres, following the evidence section of `work/README.md`: only songs whose claim the check script finds go into the add files.
+
+## H13. Genre research, batch 6
+- **State:** open
+- **Model, ask, hand back:** as H12, the next eight.
