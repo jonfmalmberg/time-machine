@@ -2,6 +2,12 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (prominence report; more helper runs)
+
+- H5 accepted: `docs/research/2026-11-23-prominence.md`. The genre that seems to fill the tunnel is Qur'anic recitation, and it dominates by its name, not by drawn light: its peak is recorded as 700 to 2026 so it never leaves the front, its significance is 5 which gives its name top priority, its region is anchored nearest the centre, and names are drawn toward the centre. Its name is the largest drawn in 121 of 201 sampled moments. This was inferred from measurement, not from the owner's screen.
+- Owner: usage at 64%, two more helper runs allowed today (eight in all); the lead should work on its own task while helpers run and review hand-backs when convenient, not immediately.
+- Queue: H7 and H8 added (genre batches 3 and 4). Helper fired for H6 (population).
+
 ## 2026-11-23 (layout method recovered; web access; batch 2)
 
 - Owner reminded the lead that the tree layout was computed in this workspace. Found: the optimiser scripts were still in the workspace's scratch folder, which can be cleared at any time. Saved unchanged to `tools/layout/original/` with a description of the method. They cannot run as they are (they read a file of the old artifact); rewriting them is roadmap 2.13.

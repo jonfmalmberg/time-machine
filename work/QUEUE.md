@@ -30,7 +30,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Model, ask, hand back:** as H3, the next eight (skip the eight in `work/2026-11-23-H3/`). Titles in the standard spelling of the language with diacritics; where the source page spells it differently, give that as `alias`. Where the natural neighbour of a genre has no id in the tree, say so in the report and do not stretch another id to cover it.
 
 ## H5. How prominence is decided, and why one genre can dominate the tunnel (roadmap 2.1, 2.6)
-- **State:** open
+- **State:** accepted 2026-11-23. Copied to `docs/research/2026-11-23-prominence.md`.
 - **Model:** Opus.
 - **Ask:** Write out, from `src/template.html` and `src/mods/50_tunnel.js`, `55_tunnelgest.js`, `60_satellite.js` and `40_journey.js`, every place where a genre's size, brightness, order or chance of being picked is computed: the formula as the code has it, which data fields feed it (`scores`, `tier`, `st`, `cnt`, heat), and what each term does. Then reproduce the owner's observation that one chant tradition fills about half of the tunnel at some year: find the year ranges where one genre or tradition takes more than a third of the tunnel's rim, by running the built page with Playwright, and explain from the formula why. Do not propose a new formula; describe the present one exactly and list its unstated judgements.
 - **Hand back:** `prominence.md` (one section per formula with file and line, a table of the dominance cases found with year, genre, share), and the script that measured it.
@@ -40,3 +40,11 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Model:** Opus for the run; Sonnet sub-agents for extracting rows.
 - **Ask:** For every country code in `data/iso.json`, the population at the middle of each decade from the 1940s to the 2020s (1945, 1955, ... 2025), from the United Nations World Population Prospects (first-party pages or its published data files; pre-1950 values from the source UN itself cites, or left empty and listed). Record for each figure the address, the exact string or row it came from, and the date read. Do not estimate missing values. Do not compute any weight or ranking: only the figures.
 - **Hand back:** `population.json` (country code, decade, population, evidence), and in the report which countries and decades are missing and why.
+
+## H7. Genre research, batch 3
+- **State:** open
+- **Model, ask, hand back:** as H3 with the additions in H4, the next eight pending genres (skip every genre already in a `work/*/defs.add.json` on `dev` or on a `helper/*` branch).
+
+## H8. Genre research, batch 4
+- **State:** open
+- **Model, ask, hand back:** as H7, the next eight.
