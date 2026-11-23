@@ -1,0 +1,155 @@
+{
+ "pashtofolksong": {
+  "alias": {
+   "Songs of the Pashtu (Chants du Pashtou)": "Songs Of The Pashtu (Discogs 14517698; French issue Chants Du Pashtou, Discogs 12430854; capitalisation normalised)",
+   "Halla-Gulla! Popular Traditions of Pakistan": "Halla-Gulla! Popular Traditions Of Pakistan",
+   "Folk Music of Afghanistan Vol. 1": "Folk Music Of Afghanistan Vol. 1",
+   "Tea House Music of Afghanistan": "Tea House Music Of Afghanistan",
+   "Gula Sta De Kilie": "Gula sta de killie (MusicBrainz); Gulla Sta de Kallee (wow360.pk)"
+  },
+  "unverified": [
+   "The start year 1600 comes from the tree; no fetched page dates tappa or charbeta, only 'oldest' (Wikipedia, Pashto music).",
+   "Zarsanga singles named on Wikipedia ('Da Bangriwal Pa Choli Ma Za', 'Zma Da Khro Jamo Yara', 'Rasha Mama Zwi De', 'Zma Da Ghrono Pana Yara', 'Kht Me Zanzeri De') were not tied to any release or year, so they are left out of the playlist.",
+   "A charbeta recording with a title was not found. Discogs 36858193 is a Gramophone Concert Record 78 by Sarjool and Ameer, noted as 'Acapella charbeta sung in duet, recorded in Peshawar', but its title is only 'Title in Pashto' and it has no year, so it is not in the playlist.",
+   "Release years of the four Gulnar Begum HMV singles are not given on Discogs; yrs null.",
+   "Recalled but not found on a catalogue page: Kishwar Sultan, Khan Tehsil (duets with Zarsanga), Hidayatullah solo records, Habib Noor, and the folk song 'Bibi Shireenay'.",
+   "Zarsanga's Songs of the Pashtu: Discogs gives 1993, MusicBrainz dates the release 1995-10-17; 1993 used.",
+   "Lyrichord Folk Music of Afghanistan Vol. 1 track B1 'Char Bayti' (Nehshin, 1967) may be a Pashto charbeta or a Dari char-bayti; the page does not say which, so it is left out."
+  ]
+ },
+ "bhawaiyaandbhatial": {
+  "alias": {
+   "Amay Bhasaili Re": "Amay bhashaili re, amay dubaili re (Wikipedia); Amay Bhasaili Re (Saregama release)",
+   "Phande Poriya Boga": "fande pariya baga kande re (Banglapedia)",
+   "O Ki Gariyal Bhai": "oki gariyal bhai (Banglapedia)"
+  },
+  "unverified": [
+   "Original issue years of Abbasuddin Ahmed's bhatiali and bhawaiya 78s (1930s-40s per Banglapedia and The Travelling Archive) not found; the playlist year 2004 is the Saregama compilation 'Nao Chharia De'.",
+   "Abbasuddin's own 'Phande Poriya Baga Kande Re', 'Ore O Praner Majhi' and 'Moyurponkhi Nouka' seen on MusicBrainz release 60b86cf1-5637-4b33-9edb-7cd0ff42ee00 ('Bhatir Ganger Naiya', no date, no label); not used because the release mixes genres and gives no date.",
+   "Saurav Moni's Coke Studio @ MTV 2011 bhatiali 'Shara Raatro Nouka Baiya' is named on Wikipedia, but its only cited source is a YouTube upload; not added to the playlist.",
+   "Recalled, not checked: Abdul Alim, Nina Hamid ('Aji Dhire Bolao Gari Garial', a gariyal song on iTunes), Nirmalendu Chowdhury ('Sagar Kuler Naiya Re'), Bari Siddiqui and Kafiluddin Sarkar as bhawaiya or bhatiali singers; no page found tying their tracks to the genre.",
+   "Abbasuddin Ahmed's 'Torsa Nadir Dhare Dhare' (Saregama 'Allah Megh De', dated 1940 on iTunes) is very likely bhawaiya (Torsa is a Cooch Behar river) but no page names its genre.",
+   "UNESCO/Auvidis 'Bengal: Traditional Folk Music' (D 8077) has a 'Bhatiyali song' by Haripado Deva Nath with dotara, but the track carries no song title, so it is not in the playlist."
+  ]
+ },
+ "hsaingwaing": {
+  "alias": {
+   "The garland of flowers in full bloom": "The garland of flowers in lull bloom (OCR of the UNESCO PDF; Discogs: The Garland Of Flowers In Full Bloom)",
+   "Saddan Ai Thar": "Saddan Ai Thar = Enchanting Lake Of The Elephant",
+   "Hlyat Pan Khway Nwe": "Hlyat Pan Khway Nwe = Powerful King Of Thunder And Lightning",
+   "Shwe Maung Than / Aung Bar Zay": "Shwe Maung Than / Aung Bar Zay = The Voice Of The Golden Gongs / Wishing For Success",
+   "Pat Waing Let Swan Pya": "Pat Waing Let Swan Pya = Improvisation On The Pat Waing",
+   "Sein Chew Kyar Nyaung": "Sein Chew Kyar Nyaung = Sadly Waiting For The King",
+   "Byaw": "Byaw (Musique Pour L'entrée D'un Novice Au Monastère)",
+   "Yé Guin Tethalaut": "Yé Guin Tethalaut (Chanson Des Piroguiers, Improvisation)",
+   "Si Daw Aung Ba Lé - Ninthit Ké Tihtaung": "Si Daw Aung Ba Lé - Ninthit Ké Tihtaung (Souhait Au Grand Tambour Lors De La Construction Du Palais Royal)",
+   "Tethalaut Tikwét Léguin": "Tethalaut Tikwét Léguin (Musique Pour Le Tir A L'arc)",
+   "Yama (The dance of Rama)": "Yama"
+  },
+  "unverified": [
+   "Burmese-script titles of every track: no source page gave them; titles are the romanisations each release prints (French-style on Ocora, English-style elsewhere), so the same piece may appear under different spellings across albums",
+   "Whether every Kyaw Kyaw Naing Shanachie track is played by the full hsaing waing with him on pat waing, or by a reduced group: Discogs gives no instrument credits; Wikipedia only says he is a hsaing waing musician and pat waing master",
+   "Streaming availability of the Seven Seas (King Records, Japan) and Ocora discs was not checked; the UNESCO disc is in the Smithsonian Folkways UNESCO collection, but folkways.si.edu refuses the shell (403)",
+   "Sublime Frequencies SF035 'Folk And Pop Music Of Myanmar (Burma) Vol. 3: Music Of Nat Pwe' (2007; Discogs 1358846): nat pwe cassettes, almost certainly nat hsaing, but the page does not name the ensemble, so no track is used",
+   "Folkways FE 4436 'Burmese Folk And Traditional Music' (1953/56) tracks 'Patt Waing', 'Maung Saing' and 'Saing' (Discogs 1480313): look like instrument demonstrations of the ensemble, not checked against the Folkways notes",
+   "VDE-Gallo 'Birmanie: Musique du Théâtre Classique / Burma: Classical Theatre Music' (2010, CD-1317-1318), listed in the Cini guide's discography: likely zat hsaing, no track list found",
+   "Sein Chit Ti 'New Arrangements for Hsaing Ensemble' (1987 cassette, ibiblio and Discogs 26067586): seven untitled tracks, so not usable as songs",
+   "Sein Be Da (colonial-era hsaing innovator named on Wikipedia) and modern Mandalay masters: no recordings found",
+   "Seven Seas 1992 tracks 9–14 (sung pieces such as To Bwe Yodaya, Sein Chu Kya Nyaung) left out: they may be classical songs with ensemble or harp accompaniment, nearer mahagita"
+  ]
+ },
+ "zapinandjoget": {
+  "alias": {
+   "Serampang Laut (Kumpulan Asli Kuala Lumpur, conducted by Fadzil Ahmad)": "Serampang Laut (Joget)",
+   "Kamarulzaman (Kumpulan Asli Kuala Lumpur, conducted by Fadzil Ahmad)": "Kamarulzaman (Zapin)",
+   "Yaladan (Kumpulan Asli Kuala Lumpur, conducted by Fadzil Ahmad)": "Yaladan (Zapin)",
+   "Gambus Palembang (Orkes Kamariah Nor)": "Gambus Palembang (Zapin)",
+   "Naam Sidi (Orkes Kamariah Nor)": "Naam Sidi (Zapin)",
+   "Johore Sports Club (Orkes Kamariah Nor)": "Johore Sports Club (Jaget)",
+   "Jambu Merah (Orkes Kamariah Nor)": "Jambu Merah (Jaget)",
+   "Gambus Budi (Kumpulan Ahmad Yusoh & Rakan-rakan)": "Gambus Budi (Zapin)",
+   "Sri Tanjung (Kumpulan Ahmad Yusoh & Rakan-rakan)": "Sri Tanjung (Joget)",
+   "Zapin Kenangan (Hamzah Dolmat Folk Quartet)": "Zapin kenangan",
+   "Ahmadi": "Ahmadi (Discogs); Achmadi (Folkways lyric supplement); Ahmadi in its track list",
+   "Cari Hiburan": "Cari Hiburan (Discogs); misspelt Cari Hiluran in the Folkways supplement track list",
+   "Zapin-dut: Laksmana Raja di Laut": "Zapin-dut: Laksmana Raja Di Laut (Discogs 2003 release title)"
+  },
+  "unverified": [
+   "Siti Nurhaliza, Zapin Bernasib: seen on Pewaris Lagu-Lagu Tradisional (2012, MusicBrainz and Discogs) marked New Song; left out to keep pop versions few.",
+   "Noraniza Idris, Zapin Pusaka: on Pilihan Terbaik Rentak Zapin (2010); original album and year not checked; left out as irama Malaysia rather than zapin proper.",
+   "P. Ramlee, Joget Malaysia and Zapin Malaysia: dated by the 1973 LP Azizah; an earlier first release (film era) is possible but not found.",
+   "Fadzil Ahmad ensemble, Authentic Malaysia (1990, MusicBrainz): has Joget Kelantan, not used because the rest of the album is other forms.",
+   "Lancang Kuning as the anthem of Riau zapin is recalled, not sourced.",
+   "The map start year 1600 is not supported by any source read: Wikipedia says zapin arrived about the 14th century, joget in the colonial era.",
+   "Whether each song is on streaming services was not checked; status full means sources show 25 existing recordings, not that all are playable."
+  ]
+ },
+ "maracatu": {
+  "alias": {
+   "Calunga de Cera": "Calunga De Cera - Baque-Virado"
+  },
+  "unverified": [
+   "Capiba and Nelson Ferreira composed maracatus recorded from the 1930s-50s (recalled, not looked up).",
+   "Gilberto Gil / Jorge Mautner 'Maracatu Atômico' (1973-74) as a pop maracatu (recalled, not looked up).",
+   "Naná Vasconcelos and Antúlio Madureira recordings of maracatu (recalled, not looked up).",
+   "Release years of 'Maracatu Atômico' (Cavalo Marinho label), 'Inventário Sonoro Dos Maracatus Nação De Pernambuco' and 'Baque Forte' not found."
+  ]
+ },
+ "currulao": {
+  "alias": {
+   "Tío Guachupesito": "Tio Guachupesito",
+   "La casa de la compañía": "La casa de la compañia",
+   "¡Arriba suena marimba! Currulao Marimba Music from Colombia": "Arriba Suena Marimba: Currulao Marimba Music From Colombia"
+  },
+  "unverified": [
+   "Release year of Papá Roncón's Marimba Magia (with Katangacón) not found on any page read; yrs left null.",
+   "Folkways album page (folkways.si.edu) refused the shell (403); the liner PDF on folkways-media.si.edu was used instead. MusicBrainz dates the CD 2006-02-21 while the PDF says ® © 2005; 2005 used.",
+   "UNESCO inscription page (Marimba music, traditional chants and dances from the Colombia South Pacific region and Esmeraldas Province of Ecuador, 2010, extended 2015) returned a bot-challenge page; not used as a source. The inscription is recalled, and only mentioned on en.wikipedia Music of Colombia as a 2010 UNESCO listing.",
+   "Recalled but not checked: Baudilio Cuama Rentería solo recordings; Grupo Socavón and Grupo Gualajó (Maestro Gualajó) albums; Hugo Candelario González releases under his own name; Ocora/Buda field recordings of the Colombian Pacific; Norman Whitten's Esmeraldas field recordings (1960s), which could push the recorded window earlier.",
+   "Grupo Naidy track 7 \"Oí, ve\" (canto de boga, sung unaccompanied) left out of the playlist as it has no marimba.",
+   "Herencia de Timbiquí (e.g. \"Te invito\", 2011) and ChocQuibTown are Pacific marimba fusion/urban; left out, the tree has no id for that."
+  ]
+ },
+ "jota": {
+  "alias": {
+   "Al regreso del campo": "AL REGRESO DEL CAMPO",
+   "Esta es la ronda que ronda": "ESTA ES LA RONDA QUE RONDA",
+   "Jota de baile Corona de Aragón": "JOTA DE BAILE CORONA DE ARAGÓN",
+   "Jotas de picadillo": "JOTAS DE PICADILLO",
+   "Jota hurtada": "JOTA HURTADA",
+   "Somos hijos de Monreal": "SOMOS HIJOS DE MONREAL",
+   "Cadenita y segadores": "Cadenita Y Segadores",
+   "Delante de una mujer": "Delante De Una Mujer",
+   "Jotas para bailar": "Jotas Para Bailar",
+   "Jota de ronda": "Jota De Ronda",
+   "Jota de Banastón": "Jota De Banastón",
+   "La palomica": "\"La palomica\"",
+   "Coplas del pueblo": "Coplas Del Pueblo"
+  },
+  "unverified": [
+   "José Oto's best-known recordings (fieras, femateras) on Odeón/Columbia 78s: no catalogue page found the shell could read; only the Wikipedia link to an mp3 of La fiera.",
+   "Pastor de Andorra, La palomica: Wikipedia says he created and popularised it, but no label or catalogue page with a recording, label or year was found.",
+   "Jesús Gracia's EMI Odeón 1973 album Jotas aragonesas: listed in Wikipedia's discography, no track list seen.",
+   "Pascuala Perié, Felisa Galé, Cecilio Navarro, Juanito Pardo, El Royo del Rabal: famous cantadores, no recording found on a readable page.",
+   "Release years of the Lomax Aragón and València CD (Rounder, likely 2001) and of the 1950s Westminster LP W-12004 that first carried tracks 1, 2, 15, 17, 19: not confirmed on a page, yrs left null.",
+   "Frontera 78s (Miguel Asso, Jacinta Bartolomé, Pilar Gascón, Justo Royo) carry no recording date on their pages.",
+   "Los Hermanos Cubero, Jota del Guijar: the release cited is dated 2012 in MusicBrainz, while the MusicBrainz recording search gave a first release in 2009 (Cordaineros de la Alcarria); year given as 2012 from the cited page.",
+   "Discography of American Historical Recordings (adp.library.ucsb.edu) lists jota 78s but refused the shell (HTTP 403 from CloudFront); not used."
+  ]
+ },
+ "hardangerfiddleand": {
+  "alias": {
+   "Myllargutens bruremarsj": "Myllargutens Bruremarsj",
+   "Elling Moisters trollstite, gangar": "Elling Moisters trollstite. gangar",
+   "Lydarslått etter Ola Håstabø": "Lydarslatt etter Ola Hastabo",
+   "Brurslått etter Magnus Botnen": "Brurslatt etter Magnus Botnen",
+   "Fanitullen": "Fanitullen (The Devil’s Tune)"
+  },
+  "unverified": [
+   "Knut Buen recorded Grieg's Slåtter tunes in their original fiddle form alongside a piano version on a Simax album (MusicBrainz lists an album \"Edvard Grieg: Slåtter / Norwegian Peasant Dances, Op. 72\" under Knut Buen with no release data; not confirmed)",
+   "Earlier Hardanger fiddle recordings than 1928 (phonograph cylinders or 78s from the 1900s-1910s) probably exist; none was confirmed on a page",
+   "Sigbjørn Bernhoft Osa (Voss tradition, 1910-1990) is central to the genre but no recording with a stable track title was found on a readable page",
+   "Olav Luksengård Mjelva, Fele/Hardingfele, Røros/Hallingdal (2009): the Hallingdal springar tracks are probably on Hardanger fiddle, but the page does not say which tracks use which instrument, so none was used"
+  ]
+ }
+}

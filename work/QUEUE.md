@@ -42,7 +42,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Hand back:** `population.json` (country code, decade, population, evidence), and in the report which countries and decades are missing and why.
 
 ## H7. Genre research, batch 3
-- **State:** open
+- **State:** handed back 2026-11-23
 - **Model, ask, hand back:** as H3 with the additions in H4, the next eight pending genres (skip every genre already in a `work/*/defs.add.json` on `dev` or on a `helper/*` branch).
 
 ## H9. Evidence triage: why 174 claims from batches 1 and 2 are unconfirmed
