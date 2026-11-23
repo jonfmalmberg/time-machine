@@ -311,7 +311,7 @@ img.cv{width:100%;height:100%;object-fit:cover;display:block}
     <p class="fine" id="stgnote" hidden></p>
     <p class="label" id="stplabel">Copy-ready Spotify prompt <span class="mono" id="stlen"></span> <span id="stpmode"></span> <span id="stplang"></span></p><p class="fine" id="stsrc"></p>
     <textarea id="stprompt" readonly rows="6"></textarea>
-    <div class="strow"><button class="lbtn" id="stcopy" type="button">Copy prompt</button></div>
+    <div class="strow"><button class="lbtn" id="stcopy" type="button">Copy prompt</button><button class="lbtn" id="stlink" type="button">Copy link</button></div>
     <div id="ststatus"></div>
     <div id="stlinks"></div>
   </div>
@@ -1150,7 +1150,7 @@ function stCompute(){
   if(STP||FG||FTM==='made') [...STV.keys()].forEach(id=>ANC[id].forEach(p=>{ if(!STV.has(p)&&byId[p].year<=y) STV.set(p,{h:Math.min(.3,heatAt(p,y)),anc:true}); }));
 }
 // in the chosen branch of the family tree: a sound family (band), a tradition, or a movement and everything descended from it
-function fMember(id,G=FG){ if(!G) return true; if(G.k==='multi') return G.items.some(x=>fMember(id,x)); const n=byId[id]; return G.k==='band'?n.band===G.id:G.k==='trad'?TRAD_OF[id]===G.id:(id===G.id||ANC[id].includes(G.id)); }
+function fMember(id,G=FG){ if(!G) return true; if(G.k==='multi') return G.items.some(x=>fMember(id,x)); const n=byId[id]; return G.k==='band'?n.band===G.id:G.k==='trad'?TRAD_OF[id]===G.id:(id===G.id||ANC[id].has(G.id)); }
 // made in the chosen place: born in that region, country, or within reach of that city or area
 function placeMade(id,p=STP){ if(!p) return true; if(p.k==='multi') return p.items.some(q=>placeMade(id,q)); const n=byId[id]; if(p.k==='reg') return n.reg===p.reg;
   if(p.k==='cty'){ const c=CNT[id]; return !!(c&&c[0])&&c[0]===p.iso; }

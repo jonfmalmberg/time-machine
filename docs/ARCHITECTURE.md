@@ -13,7 +13,7 @@ The site is one web page. A build script joins the page's markup, its feature mo
 | Part | Where | What it does |
 | :- | :- | :- |
 | Page | `src/template.html` | Markup, core styles and the core script: tree, map, tunnel, list, filters, prompt building |
-| Feature modules | `src/mods/NN_name.js` and `.css` | Added on top of the page in file-name order: interface pieces, config, usage log, requests, accounts, people and admin, filters, data tab, journeys, tunnel, satellite map, menu, the iOS styling |
+| Feature modules | `src/mods/NN_name.js` and `.css` | Added on top of the page in file-name order: interface pieces, config, usage log, requests, accounts, people and admin, filters, data tab, journeys, links, tunnel, satellite map, menu, the iOS styling |
 | Music data | `data/` | Songs, artists, genres, places and research state as records with keys, one record per line (below) |
 | Build | `build.py`, `serve.py`, `tools/legacy_data.py` | Joins the above into `dist/index.html`, making the data shape the page reads from the data files; `serve.py` does it on every change and serves it locally |
 | Database rules | `db/NNN_name.sql` | Numbered files run in order, once per database (dev, then prod on approval) |
@@ -82,6 +82,7 @@ Two databases: dev (used by every address except the live one) and prod. Prod is
 | `tests/data.py` | The data obeys the model's rules: tree parents, keys, every reference resolves, song genres backed by playlists | That the facts are true |
 | `tests/smoke.py` | The built page opens on a phone and a desktop size with no script errors, every tab opens, no sideways scroll | That anything on the tabs is correct |
 | `tests/account.py` | Sign-in, pending and active states, invites, saving trips, usage events, the admin page, the playlist panel for genres and for place and time, requests and reruns: each as a scripted visit | It runs against a stand-in for the database, so it does not prove the real database answers the same way |
+| `tests/links.py` | Opening an address puts the app in the state it carries (view, place, time, genre, open playlist); the address follows changes without filling the back button; round trips for several states; unreadable values are ignored; Copy link copies an address that reproduces the state; no sideways scroll at 400 px | Behaviour on the hosted address and in real messaging apps (it runs from a `file:` address) |
 | `db/test.sh` | The access rules: who can read and write what, the caps and flood guards, on a throwaway local database with the real SQL files | That the hosted database has had the same files run |
 | Evidence check (`tools/check_evidence.py`) | That the page at a recorded address contains the recorded string, for every claim, with no model involved | It cannot read sites that refuse scripts (about a quarter of sources in the first run); those and every failure go to an agent. It says a source contains a string, not that the source is right |
 | Synthetic listener tests (`tests/listener/`) | Whether a playlist's seed songs feel right to a simulated local of that place and time, scored 1 to 10. Each run records the brief version, the data commit, the exact prompts judged and the model, so it can be repeated. [`COVERAGE.md`](COVERAGE.md) is generated from the data and the runs: what is researched, what is tested, what is owed | Nothing about a real person. The judging step is an agent on a named model, not a script. The 17 results from before the registry are provisional |
@@ -96,6 +97,24 @@ The playlist panel is one sheet with two modes, a genre or a place and time. Bot
 - **Synthetic listener test** is about exactly what is on screen: the filters and the prompt are logged as they are, to be judged later.
 - "Done" comes from the data on the page (research) and from the tests recorded on each scope in `data/scopes/` (listener tests). "Requested" is remembered in the visitor's browser only, because visitors cannot read the request list.
 - Only the owner is offered a rerun of finished work.
+
+## Links
+
+The address carries what the person is looking at, so it can be sent to someone else (roadmap 5.1). Everything in it is a stable key, never a name or a list position, and anything left at its default is left out, so the plain address stays plain. As the person changes a filter, the view or the playlist, the address is rewritten in place (no new back-button step), at most twice a second. "Copy link" in the playlist panel copies it. Opening an address applies each value it can read and ignores each it cannot, so a link from an older version still opens the app. The code is `src/mods/45_links.js`.
+
+| Parameter | Meaning | Example |
+| :- | :- | :- |
+| `v` | The view (left out for the tree) | `v=map` |
+| `p` | The place: a continent, country or city, or several joined by `+` after `multi:` | `p=cty:JP`, `p=city:JP:Tokyo`, `p=multi:cty:JP+reg:eur` |
+| `y` | The year (left out for 2026); negative for BCE | `y=1985`, `y=-500` |
+| `s` | The stay: years either side (`0` is just that year), `until` (everything up to the year, the default, left out), or `from:` a start year | `s=0`, `s=5`, `s=from:1960` |
+| `g` | The genre filter: a family, tradition or movement, or several after `multi:` | `g=band:chant`, `g=mov:swing`, `g=multi:trad:hymnody+mov:swing` |
+| `tm` | Time counts what was born then, not what was alive then | `tm=made` |
+| `pm` | Place counts what was made here, not what was heard here | `pm=made` |
+| `m` | The place-and-time playlist uses only music made there. Applied for that visit only: it does not change the visitor's own saved choice | `m=home` |
+| `pl` | An open playlist: `1` for the place-and-time panel, a genre id for that genre's playlist (which opens in the list) | `pl=1`, `pl=swing` |
+
+The sign-in return and invite links use the address too (`code`, `error`, `error_description`, `invite`). The links module never writes or removes those. The account module clears the whole query when it reads them, before the links module runs, so a link state arriving together with one of them is lost; the app itself never makes such a combination (sign-in returns to the plain address, and invite links carry only the invite). The usage log records `share` when a link is copied and `open_link` when the app opens from an address with state, with the keys only.
 
 ## Decisions and why
 
