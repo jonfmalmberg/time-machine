@@ -2,6 +2,17 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (helpers, test registry)
+
+- Daily helper set up: "Time Machine daily helper", every day at 22:41 Vancouver, on Opus. It takes one assignment from `work/QUEUE.md`, writes only in `work/`, pushes one `helper/<date>-<id>` branch and comments on issue 74. Rules and the model table are in `work/README.md`. First queue: data inventory (2.1), open data sources (2.2), two genre batches of eight.
+- Checked first-party (Cloudflare Workers Builds documentation): builds can be limited by path but not by branch name. "If any matching path is found, a build is triggered. Otherwise the build is skipped." A push of 20 or more commits builds regardless. The owner has to set the include paths in the dashboard; until then every push builds.
+- Model control confirmed: a scheduled task's model can be set (the helper was created on Fable by default and changed to `claude-opus-5-5`); a sub-agent started with model "opus" reported itself as `claude-opus-5-5`.
+- Tried to pause the weekly research task, since the daily queue now covers its work and it writes into `data/` (which builds). The action was refused by the permission system. It is still enabled.
+- Roadmap 0.2 to 0.4 built on branch `test-registry`: brief `place-time` version 1 registered with its model; `tests/listener/run.py` prepares a run from the built site, records results, and writes `docs/COVERAGE.md`.
+- First run under the registry: Japan 1991, 1995, 1998 on Opus scored 9, 6, 6: below the bar. The 1990s have a decade list only, and the listener's complaint is exactly that: songs from neighbouring years, the year's own scene missing. This is the registry doing its job, not a new fault.
+- Owner, 23 Nov: the region and tradition colours on the tree, map and tunnel should come from an iOS palette. Added as roadmap 7.8, to be proposed in the style guide.
+- Not verified at the time of writing: the helper's own verification run had not yet posted to issue 74.
+
 ## 2026-11-23 (release 2)
 
 - Jon approved `requests` for `dev` and for the live site. `db/005_requests.sql` run in prod (checked as the visitor role: can call `request_add` and `request_many`, cannot read or insert, cannot call the shared step; the check was rolled back, the table is empty). Squash-merged to `dev`, then `main`.
