@@ -13,7 +13,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Hand back:** `inventory.md` (one table per file, then the fault list with counts and up to ten examples each) and `faults.json` (every fault, machine-readable: file, key, kind, detail).
 
 ## H2. Open music data sources (roadmap 2.2)
-- **State:** open
+- **State:** accepted 2026-11-23, with its shortfalls noted: four pages unread because the fetch tool asked for a permission nobody was there to give (MusicBrainz Data_License and MusicBrainz_Identifier, data.discogs.com, acousticbrainz.org/download), no Wikidata query limits, no open national chart archive found from two searches. Copied to `docs/research/2026-11-23-open-data-sources.md`.
 - **Model:** Opus.
 - **Ask:** For MusicBrainz, Wikidata, Discogs, ListenBrainz, Cover Art Archive, AcousticBrainz, and any national chart archive that publishes its data under an open licence: what it holds, how it is obtained in bulk and per item (dump, API, rate limits), the exact licence and attribution wording, and what identifier it gives a song, an artist and an album. First-party pages only; quote the sentence that states each licence and limit, with its address. The licences of MusicBrainz, Wikidata, Discogs and Cover Art Archive were already checked in `docs/research/2026-11-23-feasibility-checks.md`: do not repeat that, build on it.
 - **Hand back:** `sources.md`, one section per source in the same shape, ending with a table comparing them.

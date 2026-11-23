@@ -2,6 +2,12 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (second helper hand-back)
+
+- H2 (open data sources) reviewed and accepted with its shortfalls noted; copied to `docs/research/2026-11-23-open-data-sources.md`. Findings that matter for the model: only MusicBrainz gives a recording a stable identifier, and it publishes a CC0 mapping of every recording to one canonical version; MusicBrainz genre tags sit in its non-commercial part, so they cannot be copied in; AcousticBrainz has ended and its makers call the data not useful, so it is not a source for tempo or mood.
+- Seen in the helper's run: an unattended run cannot answer the fetch tool's permission requests, so some pages go unread; and the shell cannot download pages, which confirms the evidence-check script cannot run until web access for scripts is allowed.
+- Helper fired again for the next open assignment (genre batch 1).
+
 ## 2026-11-23 (schema: cities over time, tree rule, a song's genres)
 
 - Owner: cities should carry their country over time, formation and name changes, as groundwork for a later map feature, not for the music data. Added as a dated country link on the city; founding, ending and dated names already exist.
