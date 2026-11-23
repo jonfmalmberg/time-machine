@@ -2,6 +2,12 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (population figures)
+
+- H6 accepted: `work/2026-11-23-H6/population.json`, 226 countries by decade from the 1950s to the 2020s, from the United Nations World Population Prospects 2024, each figure with the exact row of the UN file it came from, cross-checked against the UN's Excel file with no differences. The 1940s are empty: the UN series starts in 1950. This is the "people" part of the weight table.
+- The helper read the UN data file directly with a script, so helper runs do have web access from their shell and can copy exact page text.
+- Helper fired for H7 (genre batch 3). Seven of today's eight runs used.
+
 ## 2026-11-23 (evidence check built and run)
 
 - `tools/check_evidence.py` written by the lead: fetches each recorded address once (kept in a local cache), reads web pages and PDFs, and looks for the recorded string after normalising case, accents, spacing and punctuation; falls back to "all distinctive words close together". No model involved.
