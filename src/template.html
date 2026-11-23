@@ -236,7 +236,8 @@ input[type=search]{font:13px var(--body);color:var(--fg);background:var(--panel)
 .reqline{margin:0;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
 .seedl ol{margin:6px 0;padding-left:22px;font-size:13px;display:flex;flex-direction:column;gap:3px}
 .seedl summary{cursor:pointer}
-img.cv{width:34px;height:34px;object-fit:cover;border-radius:4px;vertical-align:middle;margin-right:6px}
+.cvw{display:inline-block;width:40px;height:40px;border-radius:6px;background:var(--fill,rgb(120 120 128 / .12));vertical-align:middle;margin-right:8px;overflow:hidden;flex:none}
+img.cv{width:100%;height:100%;object-fit:cover;display:block}
 #stlinks{display:flex;flex-direction:column;gap:6px}
 /*@MODCSS@*/
 </style>
@@ -284,7 +285,6 @@ img.cv{width:34px;height:34px;object-fit:cover;border-radius:4px;vertical-align:
   <button type="button" class="tab-link" id="tab-list" role="tab" aria-selected="false" data-view="list" data-title="List"><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg><span>List</span></button>
   <button type="button" class="tab-link" id="tab-journey" role="tab" aria-selected="false" data-view="journey" data-title="Journey"><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg><span>Journey</span></button>
   <button type="button" class="tab-link" id="tab-data" role="tab" aria-selected="false" data-view="data" data-title="Data"><svg class="ic" aria-hidden="true"><use href="#i-table"/></svg><span>Data</span></button>
-  <button type="button" class="tab-link" id="tab-me" role="tab" aria-selected="false" data-view="me" data-title="My travels"><svg class="ic" aria-hidden="true"><use href="#i-person"/></svg><span>Me</span></button>
 </nav>
 <div class="filterrow" id="filterrow">
 <div class="controls" hidden>
@@ -330,7 +330,7 @@ img.cv{width:34px;height:34px;object-fit:cover;border-radius:4px;vertical-align:
         </div>
       </section>
       <section class="wview" id="view-map" aria-label="World map" hidden>
-        <div id="map"><canvas id="mapcv" aria-label="World map: click a country or city to travel there"></canvas><div class="mapbtns"><button id="mproj" type="button">Globe</button><button id="mzin" type="button" aria-label="Zoom in">+</button><button id="mzout" type="button" aria-label="Zoom out">−</button></div><div class="maptip" id="maptip" hidden></div></div>
+        <div id="map"><canvas id="mapcv" aria-label="World map: click a country or city to travel there"></canvas><div class="mapbtns"><button id="mproj" type="button">Flat map</button><button id="mzin" type="button" aria-label="Zoom in">+</button><button id="mzout" type="button" aria-label="Zoom out">−</button></div><div class="maptip" id="maptip" hidden></div></div>
         <div class="mappop" id="mappop" hidden></div>
         <p class="mapnote" id="mapnote">Dots sit where each genre was born; in time travel their size and colour show how alive each one is at that moment. A ring with a number is a city with several genres, split by how much each matters right now; click it to pick one. Click a country or city to travel there; cities appear as they are founded and take their names of the time. Drag to pan or spin the globe, scroll or pinch to zoom.</p>
       </section>
@@ -359,7 +359,8 @@ img.cv{width:34px;height:34px;object-fit:cover;border-radius:4px;vertical-align:
 <div class="sheet-backdrop" id="sheetbd" hidden></div>
 <section class="sheet" id="sheet-help" role="dialog" aria-label="About" hidden><div class="sheet-grab"></div><div class="sheet-head"><b>About</b><button type="button" class="sheet-x" data-close aria-label="Close"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button></div><div class="sheet-body" id="help"><div id="helpnote"></div><p id="sub"></p><p class="fine" id="method"></p><div id="helpkey"></div></div></section>
 <section class="sheet" id="sheet-rand" role="dialog" aria-label="Random" hidden><div class="sheet-grab"></div><div class="sheet-body"><div class="rows" id="mrand"></div></div></section>
-<section class="sheet" id="sheet-who" role="dialog" aria-label="Account" hidden><div class="sheet-grab"></div><div class="sheet-head"><b>Account</b><button type="button" class="sheet-x" data-close aria-label="Close"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button></div><div class="sheet-body whopop" id="whopop"></div></section>
+<!-- The Account page is a view like the others but is opened from the round button, not from the tab bar; this hidden element keeps the view switcher uniform. -->
+<button type="button" id="tab-me" data-view="me" data-title="Account" hidden></button>
 <section class="sheet" id="sheet-filter" role="dialog" aria-label="Filter" hidden><div class="sheet-grab"></div><div class="sheet-head"><b id="fsheett">Filter</b><span class="fine" id="fcount"></span><button type="button" class="sheet-x" data-close aria-label="Close"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button></div><div class="sheet-body" id="fsheetb"></div></section>
 <section class="sheet" id="sheet-detail" role="dialog" aria-label="Details" hidden><div class="sheet-grab"></div><div class="sheet-head"><b id="dett"></b><button type="button" class="sheet-x" data-close aria-label="Close"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button></div><div class="sheet-body" id="detb"></div></section>
 <section class="searchov" id="searchov" role="dialog" aria-label="Search" hidden><div class="searchbar"><div class="sfield"><svg class="ic" aria-hidden="true"><use href="#i-search"/></svg><input type="search" id="msq" placeholder="Genres, places, artists" aria-label="Search" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search"></div><button type="button" class="tbtn" id="mscancel">Cancel</button></div><div class="rows" id="msres"></div></section>
@@ -453,7 +454,10 @@ function clampView(){
   // soft edges: the view may run a little past the tree, so zooming holds the point under the fingers instead of sliding to an edge.
   // At the smallest zoom the tree snaps back to fill the view.
   const W=b.clientWidth, H=b.clientHeight, fit=s<=smin()*1.03, mx=fit?0:W*0.3, my=fit?0:H*0.45;
-  tx = cw<=W ? (W-cw)/2 : Math.min(mx, Math.max(W-cw-mx, tx));
+  // Right edge: the present (X1) may sit at most 28% of the width in from the right, which leaves room for the labels of the newest
+  // genres but never shows empty future. The left edge keeps its soft margin.
+  const fut=Math.min(cw-X1*hx(), W*0.28);
+  tx = cw<=W ? (W-cw)/2 : Math.min(mx, Math.max(W-fut-X1*hx(), tx));
   ty = ch<=H-AXH ? (fit?AXH:Math.max(AXH-ch*0.6, Math.min(H-ch*0.4, ty))) : Math.min(AXH+my, Math.max(H-ch-8-my, ty));
 }
 function setScale(ns, fx, fy){
@@ -812,7 +816,7 @@ const onLand=ll=>!COUNTRIES||!!countryAt(ll);
 const MILLER=lat=>1.25*Math.log(Math.tan(Math.PI/4+0.4*Math.max(-89,Math.min(89,lat))*toRad));
 const IMILLER=y=>(Math.atan(Math.exp(y/1.25))-Math.PI/4)/0.4/toRad;
 const MY0=MILLER(-57), MY1=MILLER(83), MWID=2*Math.PI, MHGT=MY1-MY0;
-let MV={proj:'flat', cx:0.15, cy:MILLER(25), k:1, glon:15, glat:25, gk:1}, MW=0, MH=0, mapAnim=null, mapHover=null, MAPHITS=[], mapRAF=0, mapUser=0;
+let MV={proj:'globe', cx:0.15, cy:MILLER(25), k:1, glon:15, glat:25, gk:1}, MW=0, MH=0, mapAnim=null, mapHover=null, MAPHITS=[], mapRAF=0, mapUser=0;
 const mcv=()=>document.getElementById('mapcv');
 function mapResize(){ const cv=mcv(); if(!cv) return; const box=document.getElementById('map'); const W=box.clientWidth;
   const H=Math.round(Math.max(200,document.getElementById('view-map').clientHeight||window.innerHeight*0.6)); box.style.height=H+'px';
@@ -1573,10 +1577,10 @@ async function cvNext(){ if(cvBusy) return; const j=cvQ.shift(); if(!j) return; 
 }
 function fillCovers(root){ if(!COVERS||!root) return; root.querySelectorAll('img.cv').forEach(im=>{ const k=im.dataset.ck; if(k in CVC){ if(CVC[k]){ im.src=cvUrl(CVC[k]); im.hidden=false; } return; }
   if(!cvQ.some(j=>j.k===k)) cvQ.push({k,a:im.dataset.a,t:im.dataset.t}); }); cvNext(); }
-const cvImg=(a,t)=>COVERS?`<img class="cv" hidden alt="" loading="lazy" data-ck="${esc(cvKey(a,t))}" data-a="${esc(a)}" data-t="${esc(t)}" onerror="this.hidden=true">`:'';
+const cvImg=(a,t)=>COVERS?`<span class="cvw"><img class="cv" hidden alt="" loading="lazy" data-ck="${esc(cvKey(a,t))}" data-a="${esc(a)}" data-t="${esc(t)}" onerror="this.hidden=true"></span>`:'';
 
 // the Time Machine panel: seed songs with links, a way to turn them into a real playlist, and searches for this place and time
-let SEEDOPEN=false, SEEDSIG='';
+let SEEDOPEN=true, SEEDSIG='';
 function stLinks(pr){
   const box=document.getElementById('stlinks'); if(!box) return; const seeds=pr.seeds||[], place=placeName(), when=stWhen();
   const sig=JSON.stringify([seeds,place,when,COVERS]); if(sig===SEEDSIG) return; SEEDSIG=sig;

@@ -1,18 +1,9 @@
 /* Accounts: sign in with Google through Supabase, and a small profile (handle, role, status).
-   Only on the hosted site. A visitor who never signs in loads nothing from Supabase and never
-   touches the database: the Supabase library is fetched on the first tap of "Continue with Google",
-   or when this browser already holds a session, or on the way back from Google.
-   The keys below are publishable keys, made to be public; what they can reach is decided by the
-   access rules in db/*.sql. */
-if(!STATIC) return;
-const PROD_HOST='time-machine.jon-f-malmberg.workers.dev';
-const PROJECTS={
-  prod:{url:'https://gbexturopkketdzeopdf.supabase.co',key:'sb_publishable_rHZ5oxuln5GwfI1GktnHsw_ttp0e1-r'},
-  dev:{url:'https://wpuowfaqrkgjqavhavcj.supabase.co',key:'sb_publishable_SnXygi9HXus_5GjIel4eWw_SxMS6aiI'}
-};
-/* The prod address uses the prod database; every other address (dev, previews, a local copy) uses dev. */
-const ENV=location.hostname===PROD_HOST?'prod':'dev', CFG=PROJECTS[ENV];
-const REF=new URL(CFG.url).hostname.split('.')[0];
+   Only on the hosted site. The Supabase library is fetched on the first tap of "Continue with Google",
+   or when this browser already holds a session, or on the way back from Google; a visitor who never
+   signs in never loads it. The account controls are drawn into the Account page (10_people.js). */
+const CFG=window.WMCFG; if(!CFG||!CFG.on) return;
+const ENV=CFG.env, REF=CFG.ref;
 const LIB='https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.4/dist/umd/supabase.js';
 const HANDLE=/^[A-Za-z0-9_]{3,24}$/;
 const h=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -30,7 +21,7 @@ const invGet=()=>{ try{ return localStorage.getItem(INV)||''; }catch(e){ return 
 const invSet=v=>{ try{ v?localStorage.setItem(INV,v):localStorage.removeItem(INV); }catch(e){} };
 const fmtCode=c=>String(c).replace(/(.{4})(?=.)/g,'$1-');
 const inviteLink=c=>location.origin+location.pathname+'?invite='+fmtCode(c);
-function openSheet(){ paint(); if(UI.sheet.current()!=='who') UI.sheet.open('who'); }
+function openSheet(){ if(window.PEOPLE&&window.PEOPLE.openAccount) window.PEOPLE.openAccount(); else location.hash='me'; }
 
 function load(){
   if(loading) return loading;
@@ -101,8 +92,10 @@ async function copyLink(code,btn){
   setTimeout(()=>{ if(btn.isConnected) btn.textContent='Copy link'; },1800);
 }
 
-/* The account sheet (opened from the round button at the top right) and that button. */
-const box=document.getElementById('whopop'), whoBtn=document.getElementById('whobtn');
+/* The account controls are drawn into whatever element the Account page hands over, and the round
+   button at the top right always shows the sign-in state. */
+let box=null; const whoBtn=document.getElementById('whobtn');
+function mount(el){ box=el||null; paint(); }
 const daysLeft=t=>{ const d=Math.ceil((Date.parse(t)-Date.now())/864e5); return d<=1?'Expires within a day':'Expires in '+d+' days'; };
 function paintBtn(){ if(!whoBtn) return; const p=S.profile, inn=S.phase==='in', name=p&&p.handle?p.handle:'';
   whoBtn.innerHTML=inn&&name?h(name.slice(0,1).toUpperCase()):UI.ic('person');
@@ -113,7 +106,7 @@ const NOTE={
   pending:['clock','Under review','Your profile has been requested. You get in when the owner approves it, or straight away with an invite code from a tester.'],
   suspended:['x','Suspended','This profile has been suspended by the owner.']};
 function paint(){
-  paintBtn(); if(!box) return;
+  paintBtn(); if(!box||!box.isConnected) return;
   const p=S.profile, msg=S.msg?`<p class="fine acctmsg" role="status">${h(S.msg)}</p>`:'';
   if(S.phase!=='in'){
     const inv=invGet();
@@ -146,8 +139,7 @@ function paint(){
   box.querySelector('#acctout').onclick=signOut;
 }
 
-if(whoBtn) whoBtn.addEventListener('click',openSheet);
-window.ACCOUNT={ env:ENV, open:openSheet, user:()=>S.user, profile:()=>S.profile,
+window.ACCOUNT={ env:ENV, open:openSheet, mount, user:()=>S.user, profile:()=>S.profile,
   isActive:()=>!!(S.profile&&S.profile.status==='active'), isOwner:()=>!!(S.profile&&S.profile.status==='active'&&S.profile.role==='owner'),
   client:()=>client, onChange:f=>subs.push(f) };
 

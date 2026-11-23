@@ -61,13 +61,7 @@ const travelled=()=>new Set(hist().filter(e=>e.kind==='trip'&&went(e)&&e.iso&&e.
 function taste(){ const reg={}, band={}; hist().forEach(e=>{ let w=e.status==='loved'?2:e.status==='listened'?1:e.status==='left'?-1.5:0; if(e.rating) w+=(e.rating-5.5)/3; if(!w) return;
     if(e.reg) reg[e.reg]=(reg[e.reg]||0)+w; if(e.gid&&byId[e.gid]){ const n=byId[e.gid]; band[n.band]=(band[n.band]||0)+w; reg[n.reg]=(reg[n.reg]||0)+w; } }); return {reg,band}; }
 
-/* ---- usage events (active testers only): batched, capped, never blocking ---- */
-const SES=Math.random().toString(36).slice(2,12); let EVQ=[], evN=0;
-function track(action,ref){ if(!me()||evN>=300) return; evN++; EVQ.push({session:SES,action:String(action).slice(0,24),ref:ref||null}); }
-async function flush(){ const c=cl(); if(!c||!me()||!EVQ.length) return; const batch=EVQ; EVQ=[]; try{ await c.from('events').insert(batch); }catch(e){} }
-setInterval(flush,20000); document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='hidden') flush(); });
-window.TRACK=track;
-const showView0=showView; showView=function(v){ const r=showView0.apply(this,arguments); try{ track('view',{v}); }catch(e){} return r; };
+const track=(a,r)=>{ try{ if(window.TRACK) window.TRACK(a,r); }catch(e){} };
 
 /* capture: every copied prompt becomes a trip for the signed-in tester */
 const logCopy0=logCopy;
@@ -76,7 +70,8 @@ logCopy=async function(kind,info){ const m=me(); let row=null;
       row=add({kind:'trip',key:[plKey(pl)||info.place,info.year,info.span,STFROM,info.mode].join('|'),place:info.place,iso:info.iso||null,reg:info.iso?isoReg(info.iso):(STP&&STP.k==='reg'?STP.reg:null),year:info.year,span:info.span,from:STFROM,when:info.when,mode:info.mode,pl}); }
     else if(m&&kind==='genre'&&info.id&&byId[info.id]) row=add({kind:'genre',key:info.id,gid:info.id,place:byId[info.id].place,reg:byId[info.id].reg,year:byId[info.id].year});
     else if(m&&kind==='journey') row=add({kind:info.gid?'genre':'trip',...info});
-    track('copy',{kind,gid:info.id||info.gid||null,pl:row&&row.pl?plKey(row.pl):null,year:int(info.year)}); }catch(e){}
+    }catch(e){}
+  track('copy',{kind,gid:info.id||info.gid||null,pl:kind==='genre'?null:(window.PLKEY?window.PLKEY(STP):null),year:int(info.year),span:int(info.span),mode:info.mode||null});
   return logCopy0(kind,{...info,who:m?m.id:'guest',whoName:m?m.name:'Guest',hid:row?row.id:null}); };
 
 /* My travels: a windowed list (any length), quick marks on each row, swipe to cancel a ticket, details in a sheet */
@@ -116,24 +111,28 @@ function openTrip(id){ const e=hist().find(x=>x.id===id); if(!e) return;
     else if('again' in d) goAgain(e);
     else if('rm' in d){ if(x.dataset.sure){ removeEntry(id); UI.sheet.close(); } else { x.dataset.sure=1; x.textContent='Tap again to remove'; } } };
   const tn=b.querySelector('#tnote'); tn.onchange=()=>setField(id,{note:tn.value.slice(0,300)}); }
-function soft(){ const box=document.getElementById('view-me'); if(!box||!box.querySelector('#melist')||page!=='me'||!me()){ render(); return; }
+function soft(){ const box=document.getElementById('view-me'); if(!box) return; if(page==='acct'&&me()&&box.querySelector('#acctbox')) return;   /* the account controls redraw themselves */
+  if(!box.querySelector('#melist')||page!=='me'||!me()){ render(); return; }
   ROWS=myRows(); const st=box.querySelector('#mestats'); if(st) st.innerHTML=statsHtml(); const em=box.querySelector('#meempty'); if(em) em.hidden=ROWS.length>0; const sy=box.querySelector('#mesync'); if(sy) sy.hidden=SYNC!=='off'; if(LIST) LIST.refresh(); }
-const hero=(cls,icn,title,text,btn)=>`<div class="meguest"><span class="avatar big ${cls}">${ic(icn)}</span><h2>${title}</h2><p>${text}</p><button class="lbtn primary" id="mewho" type="button">${btn}</button></div>`;
-function render(){ const box=document.getElementById('view-me'); if(!box) return; const a=A(), m=me(), adm=isAdmin(), p=a&&a.profile(), signed=!!(a&&a.user()); if(!adm) page='me'; let h='';
-  if(adm) h+=`<div class="seg mepage" role="radiogroup" aria-label="Page">${[['me','My travels'],['admin','Admin']].map(([v,l])=>`<button type="button" role="radio" data-page="${v}" aria-pressed="${page===v}" aria-checked="${page===v}">${l}</button>`).join('')}</div>`;
-  if(page==='admin'&&adm) h+=adminHtml();
-  else if(!signed) h+=hero('guest','person','Travelling as a guest','Nothing is kept. Testers sign in to keep a log of where they went, rate it, and get random picks and journeys that skip what they already heard.','Sign in');
-  else if(!m) h+=p&&p.status==='suspended'?hero('guest','x','Profile suspended','This profile has been suspended by the owner, so nothing is being kept.','Account')
-      :hero('wait','clock','Under review','Your tester profile has been requested. Until you are let in, you travel as a guest and nothing is kept. An invite code from a tester gets you in straight away.','Enter an invite code');
-  else h+=`<div class="mehead"><div class="mewho"><span class="avatar sm">${esc(m.name.slice(0,1).toUpperCase())}</span><span class="rmain"><b>${esc(m.name)}</b><small>${m.role==='owner'?'Owner':m.role==='principal'?'Principal tester':'Beta tester'}</small></span><button type="button" class="lbtn" id="mewho">Account</button></div>
-      <div class="mestats" id="mestats">${statsHtml()}</div>
+/* The Account page: opened from the round button at the top right (it is not in the tab bar).
+   Guests see sign-in; people under review see their status and the invite field; active testers
+   get their travels, their account controls and, for the owner, Admin. */
+const hero=(cls,icn,title,text)=>`<div class="meguest"><span class="avatar big ${cls}">${ic(icn)}</span><h2>${title}</h2><p>${text}</p></div>`;
+function render(){ const box=document.getElementById('view-me'); if(!box) return; const a=A(), m=me(), adm=isAdmin(), signed=!!(a&&a.user()); if(page==='admin'&&!adm) page='me'; let h='';
+  if(!m) h+=(signed?'':hero('guest','person','Travelling as a guest','Nothing is kept. Testers sign in to keep a log of where they went, rate it, and get random picks and journeys that skip what they already heard.'))+`<div class="acctbox" id="acctbox"></div>`;
+  else{ const pages=[['me','Travels'],['acct','Account']].concat(adm?[['admin','Admin']]:[]);
+    h+=`<div class="mewho"><span class="avatar sm">${esc(m.name.slice(0,1).toUpperCase())}</span><span class="rmain"><b>${esc(m.name)}</b><small>${m.role==='owner'?'Owner':m.role==='principal'?'Principal tester':'Beta tester'}</small></span></div>
+      <div class="seg mepage" role="radiogroup" aria-label="Page">${pages.map(([v,l])=>`<button type="button" role="radio" data-page="${v}" aria-pressed="${page===v}" aria-checked="${page===v}">${l}</button>`).join('')}</div>`;
+    if(page==='admin') h+=adminHtml();
+    else if(page==='acct') h+=`<div class="acctbox" id="acctbox"></div>`;
+    else h+=`<div class="mehead"><div class="mestats" id="mestats">${statsHtml()}</div>
       <div class="seg" id="meseg" role="group" aria-label="Show">${[['all','All'],['trip','Trips'],['genre','Genres'],['copied','To review']].map(([v,l])=>`<button type="button" data-mf="${v}" aria-pressed="${meFilter===v}">${l}</button>`).join('')}</div>
       <p class="fine mehint">Copying a prompt buys the ticket. Mark what happened with ${ic('check')} ${ic('heart')} ${ic('exit')}, swipe a row right if you never boarded, tap it for reactions, a rating and notes.</p>
       <p class="fine mesync" id="mesync"${SYNC==='off'?'':' hidden'}>Not reaching the database right now. Changes are kept on this device and sent when it is back.</p></div>
-    <div id="melist" class="triplist"></div><p class="fine" id="meempty" hidden>Nothing here yet. Copy a playlist prompt anywhere in the app and it shows up here.</p>`;
+    <div id="melist" class="triplist"></div><p class="fine" id="meempty" hidden>Nothing here yet. Copy a playlist prompt anywhere in the app and it shows up here.</p>`; }
   box.innerHTML=h; LIST=null;
+  if(a) a.mount(box.querySelector('#acctbox'));
   box.querySelectorAll('[data-page]').forEach(b=>b.onclick=()=>{ page=b.dataset.page; render(); });
-  const w=box.querySelector('#mewho'); if(w) w.onclick=e=>{ e.stopPropagation(); if(a) a.open(); };
   box.querySelectorAll('[data-mf]').forEach(b=>b.onclick=()=>{ meFilter=b.dataset.mf; box.querySelectorAll('[data-mf]').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); soft(); });
   const host=box.querySelector('#melist');
   if(host){ ROWS=myRows(); box.querySelector('#meempty').hidden=ROWS.length>0; LIST=UI.vlist(host,{rowH:66,count:()=>ROWS.length,row:i=>tripRow(ROWS[i],true)});
@@ -141,6 +140,11 @@ function render(){ const box=document.getElementById('view-me'); if(!box) return
       if(t){ setStatus(id,e.status===t.dataset.st?'copied':t.dataset.st); return; } openTrip(id); };
     UI.swipe(host,{onSwipe:(row,i)=>{ const e=ROWS[i]; if(e) setStatus(e.id,e.status==='never'?'copied':'never'); }}); }
   if(page==='admin'&&adm) wireAdmin(box); }
+/* the round button opens the Account page; tapping it again goes back to where you were */
+let backTo='tree';
+const whoBtn=document.getElementById('whobtn');
+if(whoBtn) whoBtn.addEventListener('click',()=>{ if(curView()==='me') location.hash=backTo; else{ backTo=curView(); location.hash='me'; } });
+function openAccount(){ if(me()) page='acct'; if(curView()!=='me'){ backTo=curView(); location.hash='me'; } else render(); }
 
 /* ---- Admin (owner only): totals, people waiting, every tester and what they did ---- */
 let AD={stats:null,people:null,err:'',at:0};
@@ -159,7 +163,22 @@ function adminHtml(){ if(!AD.people&&!AD.err){ if(Date.now()-AD.at>3000) adminLo
     <div class="mestats">${cell(s.active,'testers')}${cell(s.pending,'waiting')}${cell(s.trips,'trips')}${cell(s.rated,'rated')}${cell(s.events7,'events, 7 days')}${cell(s.invites,'open invites')}</div>
     <p class="shlabel">Waiting to be let in</p>${wait.length?`<div class="rows">${wait.map(pRow).join('')}</div>`:`<p class="fine adnone">Nobody is waiting.</p>`}
     <p class="shlabel">Testers</p>${rest.length?`<div class="rows">${rest.map(pRow).join('')}</div>`:`<p class="fine adnone">No other testers yet. Invite one from Account.</p>`}
+    <p class="shlabel">Anonymous usage log</p>${anonHtml(s)}
     <p class="fine">Issues and feedback from testers will be listed here once that feature is built.</p></div>`; }
+/* The anonymous log keeps the newest rows up to its limit; past that the oldest are replaced. Warn before that happens so they can be saved first. */
+function anonHtml(s){ if(s.anon==null) return `<p class="fine adnone">Not available.</p>`; const cap=s.anon_cap||1, pc=Math.min(100,Math.round(100*s.anon/cap)), warn=pc>=80, full=s.anon>=cap;
+  return `<div class="adlog${warn?' warn':''}"><div class="adlogh"><b>${Number(s.anon).toLocaleString()} of ${Number(cap).toLocaleString()} rows</b><span>${pc}%</span></div>
+    <div class="adbar"><i style="width:${Math.max(pc,1)}%"></i></div>
+    <p class="fine">${full?'Full: each new row now replaces the oldest one. Export to keep a copy of what is there.':warn?'Nearly full. Past the limit the oldest rows are replaced by new ones. Export first if you want to keep them.':'Visitors who are not signed in: views opened, places and years chosen, prompts copied. No identifiers.'}${s.anon_from?' Oldest row: '+fmtD(Date.parse(s.anon_from))+'.':''} ${Number(s.anon7||0).toLocaleString()} in the last 7 days.</p>
+    <div class="formrow"><button type="button" class="lbtn${warn?' primary':''}" id="adexp"${s.anon?'':' disabled'}>Export as CSV</button><span class="fine" id="adexpmsg"></span></div></div>`; }
+async function exportAnon(btn,msg){ const c=cl(); if(!c) return; btn.disabled=true; const out=[['id','at','session','action','ref']]; const q=v=>'"'+String(v==null?'':v).replace(/"/g,'""')+'"';
+  try{ for(let from=0;;from+=1000){ const {data,error}=await c.from('anon_events').select('id,at,session,action,ref').order('id').range(from,from+999); if(error) throw error; if(!data||!data.length) break;
+      data.forEach(r=>out.push([r.id,r.at,r.session,r.action,r.ref?JSON.stringify(r.ref):''])); msg.textContent=(out.length-1).toLocaleString()+' rows read…'; if(data.length<1000) break; }
+    const url=URL.createObjectURL(new Blob([out.map(r=>r.map(q).join(',')).join('\n')],{type:'text/csv'})), a=document.createElement('a');
+    a.href=url; a.download='anonymous-usage-'+new Date().toISOString().slice(0,10)+'.csv'; document.body.appendChild(a); a.click(); a.remove(); setTimeout(()=>URL.revokeObjectURL(url),5000);
+    msg.textContent=(out.length-1).toLocaleString()+' rows saved to your downloads.'; }
+  catch(e){ msg.textContent=(e&&e.message)||'The export did not finish.'; }
+  btn.disabled=false; }
 async function setProfile(id,role,status){ const c=cl(); if(!c) return; const {error}=await c.rpc('admin_set_profile',{target:id,new_role:role,new_status:status}); AD.err=error?(error.message||'That did not work.'):''; await adminLoad(); }
 async function openTester(id){ const p=(AD.people||[]).find(x=>x.id===id), c=cl(); if(!p||!c) return;
   const act=(l,r,s,cls)=>`<button type="button" class="rowb adact ${cls||''}" data-r="${r}" data-s="${s}">${l}</button>`;
@@ -170,13 +189,15 @@ async function openTester(id){ const p=(AD.people||[]).find(x=>x.id===id), c=cl(
   const {data,error}=await c.from('trips').select('*').eq('user_id',id).order('created_at',{ascending:false}).limit(200);
   const host=b.querySelector('#adtrips'); if(!host) return;
   host.innerHTML=error?`<p class="fine">${esc(error.message||'Could not read.')}</p>`:(data&&data.length?`<div class="triplist adtl">${data.map(r=>`<div class="adtrip">${tripRow(fromDb(r),false)}</div>`).join('')}</div>${data.length===200?'<p class="fine">Showing the latest 200.</p>':''}`:`<p class="fine">No travels yet.</p>`); }
-function wireAdmin(box){ box.querySelectorAll('[data-ap]').forEach(r=>r.onclick=ev=>{ const ok=ev.target.closest('[data-ok]'); const p=(AD.people||[]).find(x=>x.id===r.dataset.ap); if(!p) return; if(ok){ setProfile(p.id,p.role,'active'); return; } openTester(p.id); }); }
+function wireAdmin(box){ const ex=box.querySelector('#adexp'); if(ex) ex.onclick=()=>exportAnon(ex,box.querySelector('#adexpmsg'));
+  box.querySelectorAll('[data-ap]').forEach(r=>r.onclick=ev=>{ const ok=ev.target.closest('[data-ok]'); const p=(AD.people||[]).find(x=>x.id===r.dataset.ap); if(!p) return; if(ok){ setProfile(p.id,p.role,'active'); return; } openTester(p.id); }); }
 
-window.PEOPLE={ me, isGuest, isAdmin, history:()=>hist(), heardGenres, travelled, taste, add, setStatus, setField, remove:removeEntry, onChange:f=>subs.push(f), render, unreviewed:()=>[] };
+window.PEOPLE={ openAccount, me, isGuest, isAdmin, history:()=>hist(), heardGenres, travelled, taste, add, setStatus, setField, remove:removeEntry, onChange:f=>subs.push(f), render, unreviewed:()=>[] };
 VIEWHOOK.me=render;
 /* follow the account: when someone becomes an active tester, fetch their travels; redraw on every change */
-let lastId=null;
-if(A()) A().onChange(()=>{ const m=me(), id=m?m.id:null; if(id!==lastId){ lastId=id; SYNC='idle'; AD={stats:null,people:null,err:'',at:0}; if(id){ pull(); track('session',{w:innerWidth,h:innerHeight,dark:matchMedia('(prefers-color-scheme: dark)').matches,lang:navigator.language}); } } fire(); if(curView()==='me') render(); });
+let lastId=null, wasPending=false;
+if(A()) A().onChange(()=>{ const m=me(), id=m?m.id:null, pr=A().profile(), changed=id!==lastId; if(changed){ if(id&&wasPending) page='acct';   /* just let in: stay on the account controls */
+    lastId=id; SYNC='idle'; AD={stats:null,people:null,err:'',at:0}; if(id) pull(); } wasPending=!!(pr&&pr.status==='pending'); fire(); if(curView()==='me'&&(changed||!(page==='acct'&&id&&document.getElementById('acctbox')))) render(); });
 if(curView()==='me') render();
 
 /* label lists that came from new research and have not been listener-tested */

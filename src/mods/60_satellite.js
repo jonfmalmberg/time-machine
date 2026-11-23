@@ -220,6 +220,7 @@ if(mb&&!document.getElementById('msat')){
   btn=document.createElement('button'); btn.id='msat'; btn.type='button'; btn.textContent='Satellite'; btn.title='Show satellite imagery under the map'; btn.onclick=()=>satSet(!S.on); mb.appendChild(btn);
   cap=document.createElement('div'); cap.id='satcap'; cap.className='satcap'; cap.hidden=true; mapBox.appendChild(cap);
 }
-try{ S.on=localStorage.getItem('wmft-sat')==='on'; }catch(e){}
+/* on unless this visitor turned it off */
+try{ S.on=localStorage.getItem('wmft-sat')!=='off'; }catch(e){ S.on=true; }
 window.SATMAP={ get on(){ return S.on; }, set:satSet, toggle(){ satSet(!S.on); }, stats:S.stats, get quality(){ return S.q; }, get bg(){ return S.bg; } };
 satSync(); if(S.on) requestMapDraw();

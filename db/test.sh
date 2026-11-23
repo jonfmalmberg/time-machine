@@ -30,6 +30,7 @@ SQL
 $P -f "$HERE/001_profiles.sql"
 $P -f "$HERE/002_invites.sql"
 $P -f "$HERE/003_trips_events.sql"
+$P -f "$HERE/004_anon_events.sql"
 
 A=00000000-0000-0000-0000-00000000000a; B=00000000-0000-0000-0000-00000000000b
 $P -c "insert into auth.users (id) values ('$A'), ('$B')"
@@ -123,6 +124,25 @@ $P -c "insert into public.trips (user_id, kind, key) select '$B','genre','g'||g 
 check "trip limit per person"                   "Trip limit" "$(as authenticated $B "$TRIP")"
 check "member removes own trips"                "5000" "$(as authenticated $B "with d as (delete from public.trips returning 1) select count(*) from d")"
 $P -c "delete from auth.users where id not in ('$A','$B')"
+# --- 004_anon_events.sql ---
+EV="insert into public.anon_events (session, action, ref) values ('s1','view','{\"v\":\"map\"}'), ('s1','copy',null)"
+check "visitor adds anonymous events"           "2" "$(as anon '' "$EV" >/dev/null; $P -At -c 'select count(*) from public.anon_events')"
+check "visitor cannot read them"                "permission denied" "$(as anon '' 'select count(*) from public.anon_events')"
+check "visitor cannot set the time"             "permission denied" "$(as anon '' "insert into public.anon_events (at, action) values ('2000-01-01','view')")"
+check "visitor cannot delete them"              "permission denied" "$(as anon '' 'delete from public.anon_events')"
+check "visitor cannot change them"              "permission denied" "$(as anon '' "update public.anon_events set action='x'")"
+check "oversized event refused"                 "violates check" "$(as anon '' "insert into public.anon_events (action, ref) values ('view', jsonb_build_object('x', repeat(md5(random()::text), 60)))")"
+check "member cannot read them"                 "0" "$(as authenticated $B 'select count(*) from public.anon_events')"
+check "owner reads them"                        "2" "$(as authenticated $A 'select count(*) from public.anon_events')"
+check "owner totals include the anonymous log"  '"anon_cap" : 250000' "$(as authenticated $A 'select public.admin_stats()')"
+check "flood refused"                           "Too many" "$(as anon '' "insert into public.anon_events (action) select 'view' from generate_series(1,700)")"
+check "flood left the log untouched"            "2" "$($P -At -c 'select count(*) from public.anon_events')"
+# Fill past the cap with old rows (written directly, so the per-minute limit does not apply), then add one.
+$P -c "alter table public.anon_events disable trigger anon_events_limits" -c "insert into public.anon_events (at, action) select now() - interval '1 day', 'old' from generate_series(1,250010)" -c "alter table public.anon_events enable trigger anon_events_limits"
+as anon '' "insert into public.anon_events (action) values ('newest')" >/dev/null
+check "log holds at most 250,000 rows"          "250000" "$($P -At -c 'select count(*) from public.anon_events')"
+check "the newest row was kept"                 "1" "$($P -At -c "select count(*) from public.anon_events where action='newest'")"
+check "the oldest rows were the ones removed"   "0" "$($P -At -c "select count(*) from public.anon_events where action in ('view','copy')")"
 $P -c "insert into auth.users (id) select gen_random_uuid() from generate_series(1,998)"
 check "sign-ups refused at the cap"             "user cap" "$($P -c "insert into auth.users (id) values (gen_random_uuid())" 2>&1 | tr '\n' ' ')"
 check "cap holds at 1000 profiles"              "1000" "$($P -At -c "select count(*) from public.profiles")"

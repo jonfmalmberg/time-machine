@@ -10,11 +10,20 @@ Pick a place and a year and hear what people there were listening to. The site e
 | `src/mods/NN_name.js`, `.css` | Feature modules, added to the page in file-name order. |
 | `data/*.json` | The music data, one file per key of the page's `DATA` object. One entry per line so changes show up clearly in a diff. |
 | `build.py` | Joins the three into `dist/index.html`. Standard-library Python only. |
+| `serve.py` | Runs the site on your own computer and rebuilds on every change. |
 | `db/*.sql` | Database changes for Supabase, in order. See `db/README.md`. |
 | `tests/smoke.py` | Loads the built page at phone and desktop size, opens every tab, fails on any script error. |
 | `tests/account.py` | Checks accounts, travels and the admin page with a stand-in for the sign-in library. |
 
 `dist/` is build output and is never committed.
+
+## Run it on your computer
+
+```
+python3 serve.py            # then open http://localhost:8000
+```
+
+Needs Python 3 only. A local copy talks to the dev database.
 
 ## Build and test
 

@@ -22,3 +22,10 @@
 .adp .adok{align-self:center;min-height:30px;padding:4px 14px;display:inline-flex;align-items:center;border-radius:15px;flex:none}
 .adacts .adact{font-size:16.5px;color:var(--accent)} .adacts .adact.danger{color:#ff3b30} .adacts .rowb+.rowb::before{left:14px}
 .adtl{margin:0!important} .adtrip{height:60px;position:relative;border-bottom:.5px solid var(--sep)} .adtrip:last-child{border-bottom:0}
+/* anonymous usage log card on the Admin page */
+.adlog{background:var(--bg);border-radius:12px;padding:12px 14px}
+.adlogh{display:flex;justify-content:space-between;align-items:baseline;font:600 16px var(--body)} .adlogh span{color:var(--muted);font-weight:500;font-size:14px}
+.adbar{height:6px;border-radius:3px;background:var(--fill2);margin:8px 0 2px;overflow:hidden} .adbar i{display:block;height:100%;border-radius:3px;background:var(--accent)}
+.adlog.warn .adbar i{background:#ff9500} .adlog.warn .adlogh span{color:#ff9500}
+.adlog .fine{margin:8px 0 0} .adlog .formrow{align-items:center}
+#view-me .mepage{margin-bottom:14px}

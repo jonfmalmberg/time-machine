@@ -33,7 +33,7 @@ window.supabase={createClient(url,key,opt){ const st=window.__sb; st.url=url; st
         if(name==='redeem_invite'){ const c=String(args.invite_code).replace(/[^0-9a-f]/gi,'').toUpperCase();
            if(c!==st.good) return Promise.resolve({data:null,error:{message:'That code is not valid, has expired or has already been used.'}});
            st.profile.status='active'; return Promise.resolve({data:{active:true,have:1,need:1},error:null}); }
-        if(name==='admin_stats') return Promise.resolve({data:{active:2,pending:st.people.filter(p=>p.status==='pending').length,suspended:0,trips:st.trips.length,rated:0,events7:st.events.length,invites:0},error:null});
+        if(name==='admin_stats') return Promise.resolve({data:{anon:212000,anon_cap:250000,anon7:5300,anon_from:'2026-11-01T00:00:00Z',active:2,pending:st.people.filter(p=>p.status==='pending').length,suspended:0,trips:st.trips.length,rated:0,events7:st.events.length,invites:0},error:null});
         if(name==='admin_set_profile'){ const p=st.people.find(x=>x.id===args.target); p.role=args.new_role; p.status=args.new_status; return Promise.resolve({error:null}); } },
      auth:{
      onAuthStateChange(f){ cb=f; setTimeout(()=>f('INITIAL_SESSION',st.session),0); return {data:{subscription:{unsubscribe(){}}}}; },
@@ -44,12 +44,15 @@ window.supabase={createClient(url,key,opt){ const st=window.__sb; st.url=url; st
 def open_page(pw, viewport, init=None, dark=False, query=''):
     """init: None for a visitor with no session; a dict to start signed in with that stand-in state."""
     errors, asked = [], []
+    global anon; anon = []
     browser = pw.chromium.launch()
     page = browser.new_context(viewport=viewport, color_scheme='dark' if dark else 'light').new_page()
     page.on('pageerror', lambda e: errors.append(str(e)))
     def route(r):
         u = r.request.url
         if u.startswith('file:'): return r.continue_()
+        if '/rest/v1/anon_events' in u:   # the anonymous usage log: plain requests, no library
+            anon.extend(json.loads(r.request.post_data or '[]')); return r.fulfill(status=201, body='')
         if 'supabase' in u:
             asked.append(u)
             if u.endswith('/dist/umd/supabase.js'): return r.fulfill(content_type='application/javascript', body=STUB)
@@ -70,13 +73,21 @@ with sync_playwright() as pw:
     # 1. Anonymous visitor: nothing from Supabase is requested; no trace of the old name-and-PIN list.
     b, p, errs, asked = open_page(pw, PHONE)
     for t in p.evaluate("[...document.querySelectorAll('nav.tabbar .tab-link')].map(b=>b.id)"): p.click('#' + t)
-    assert not asked, 'anonymous visit contacted Supabase: %r' % asked
-    p.click('#tab-me'); p.wait_for_timeout(200)
-    assert 'Travelling as a guest' in p.inner_text('#view-me'); shot(p, 'me_guest_phone')
-    p.click('#view-me #mewho'); p.wait_for_timeout(500)
+    assert not asked, 'anonymous visit loaded the sign-in library: %r' % asked
+    assert p.locator('#tab-me').is_hidden() and p.locator('nav.tabbar .tab-link').count() == 6, 'Me is still in the tab bar'
+    p.click('#whobtn'); p.wait_for_timeout(300)
+    assert p.inner_text('#vtitle') == 'Account' and 'Travelling as a guest' in p.inner_text('#view-me')
     assert p.is_visible('#acctin') and not asked
-    assert 'PIN' not in p.inner_text('#sheet-who') and p.locator('#whoname').count() == 0, 'old people list still present'
+    assert 'PIN' not in p.inner_text('#view-me') and p.locator('#whoname').count() == 0, 'old people list still present'
     shot(p, 'acct_out_phone')
+    # anonymous usage log: filter choice and views are sent without the library; nothing identifying
+    p.evaluate("setPlace({k:'cty',iso:'JP'})"); p.wait_for_timeout(2800)
+    p.evaluate("window.TRACKFLUSH()"); p.wait_for_timeout(300)
+    acts = [e['action'] for e in anon]; assert 'session' in acts and 'view' in acts and 'filter' in acts, acts
+    assert [e for e in anon if e['action'] == 'filter'][0]['ref']['pl'] == 'cty:JP'
+    assert all(set(e) == {'session', 'action', 'ref'} for e in anon), 'unexpected fields in anonymous events'
+    p.click('#whobtn'); p.wait_for_timeout(300); assert p.evaluate("curView()") != 'me', 'second tap on the account button did not go back'
+    p.click('#whobtn'); p.wait_for_timeout(300)
     p.click('#acctin'); p.wait_for_timeout(500)
     assert any(c.startswith('oauth google file://') for c in p.evaluate("window.__sb.calls"))
     assert p.evaluate("window.__sb.url") == 'https://wpuowfaqrkgjqavhavcj.supabase.co'
@@ -86,24 +97,23 @@ with sync_playwright() as pw:
     for name, vp, dark in (('phone', PHONE, False), ('desktop', DESK, True)):
         b, p, errs, asked = open_page(pw, vp, init={}, dark=dark)
         assert 'wait' in p.get_attribute('#whobtn', 'class'), 'account button does not show review state'
-        p.click('#tab-me'); p.wait_for_timeout(300)
-        assert 'Under review' in p.inner_text('#view-me'); shot(p, 'me_pending_' + name)
         p.click('#whobtn'); p.wait_for_timeout(500)
-        txt = p.inner_text('#whopop'); assert 'No handle yet' in txt and 'Under review' in txt, txt
+        assert 'Under review' in p.inner_text('#view-me')
+        txt = p.inner_text('#acctbox'); assert 'No handle yet' in txt and 'Under review' in txt, txt
         assert not p.is_visible('#acctsave'), 'Save shows before anything is typed'
-        p.fill('#accth', 'a b'); p.click('#acctsave'); p.wait_for_timeout(200); assert '3 to 24' in p.inner_text('#whopop')
-        p.fill('#accth', 'Jon'); p.click('#acctsave'); p.wait_for_timeout(300); assert 'taken' in p.inner_text('#whopop')
+        p.fill('#accth', 'a b'); p.click('#acctsave'); p.wait_for_timeout(200); assert '3 to 24' in p.inner_text('#acctbox')
+        p.fill('#accth', 'Jon'); p.click('#acctsave'); p.wait_for_timeout(300); assert 'taken' in p.inner_text('#acctbox')
         p.fill('#accth', 'night_owl'); p.press('#accth', 'Enter'); p.wait_for_timeout(300)
         assert p.is_visible('#acctok') and not p.is_visible('#acctsave')
         assert p.inner_text('#whobtn').strip() == 'N', 'account button does not show the handle initial'
         shot(p, 'acct_pending_' + name)
-        p.fill('#acctcode', 'nope'); p.click('#acctuse'); p.wait_for_timeout(300); assert 'not valid' in p.inner_text('#whopop')
+        p.fill('#acctcode', 'nope'); p.click('#acctuse'); p.wait_for_timeout(300); assert 'not valid' in p.inner_text('#acctbox')
         p.fill('#acctcode', 'aaaa-bbbb-cccc'); p.press('#acctcode', 'Enter'); p.wait_for_timeout(500)
-        txt = p.inner_text('#whopop'); assert 'Under review' not in txt and 'Beta tester' in txt and 'You are in' in txt, txt
+        txt = p.inner_text('#acctbox'); assert 'Under review' not in txt and 'Beta tester' in txt and 'You are in' in txt, txt
         assert 'wait' not in p.get_attribute('#whobtn', 'class')
-        assert 'night_owl' in p.inner_text('#view-me') and 'Under review' not in p.inner_text('#view-me'), 'Me page did not follow the account'
+        assert 'night_owl' in p.inner_text('#view-me .mewho') and p.locator("[data-page='me']").count() == 1, 'Account page did not follow the account'
         p.click('#acctnew'); p.wait_for_timeout(300)
-        assert '1234-ABCD-0010' in p.inner_text('#whopop') and 'Expires in 14 days' in p.inner_text('#whopop'); shot(p, 'acct_active_' + name)
+        assert '1234-ABCD-0010' in p.inner_text('#acctbox') and 'Expires in 14 days' in p.inner_text('#acctbox'); shot(p, 'acct_active_' + name)
         assert p.evaluate('document.documentElement.scrollWidth > innerWidth') is False
         p.click('#acctout'); p.wait_for_timeout(300)
         assert p.is_visible('#acctin') and 'Travelling as a guest' in p.inner_text('#view-me')
@@ -114,13 +124,13 @@ with sync_playwright() as pw:
            'iso': 'JP', 'reg': 'easia', 'year': 1985, 'span': 5, 'from_year': None, 'mode': 'heard', 'gid': None, 'label': None, 'status': 'loved', 'react': 'love', 'rating': 9,
            'note': 'city pop', 'n': 1, 'created_at': '2026-11-01T10:00:00Z', 'updated_at': '2026-11-01T10:00:00Z'}
     b, p, errs, asked = open_page(pw, PHONE, init={'profile': ACTIVE, 'trips': [old]})
-    p.click('#tab-me'); p.wait_for_timeout(500)
+    p.click('#whobtn'); p.wait_for_timeout(500)
     txt = p.inner_text('#view-me'); assert 'Tokyo' in txt and 'the 1980s' in txt, 'trip from the database not shown with its place and decade: ' + txt[:300]
     p.evaluate("resetFilters('all'); setYear(1975); setStay(5); setPlace({k:'cty',iso:'BR'}); logCopy('moment',{place:placeName(),iso:'BR',year:1975,span:5,when:stWhen(),mode:'heard'})")
     p.wait_for_timeout(400)
     rows = p.evaluate("window.__sb.trips"); new = [r for r in rows if r['iso'] == 'BR']
     assert len(new) == 1 and new[0]['place'] == {'k': 'cty', 'iso': 'BR'} and new[0]['key'] == 'cty:BR|1975|5||heard' and new[0]['label'] is None, new
-    p.click('#tab-me'); p.wait_for_timeout(300); assert 'Brazil' in p.inner_text('#view-me'); shot(p, 'me_active_phone')
+    p.wait_for_timeout(300); assert 'Brazil' in p.inner_text('#view-me'); shot(p, 'me_active_phone')
     p.click(".trip[data-hid='%s'] .tact.a-listened" % new[0]['id']); p.wait_for_timeout(300)
     assert [r for r in p.evaluate("window.__sb.trips") if r['iso'] == 'BR'][0]['status'] == 'listened'
     p.evaluate("window.PEOPLE.remove('%s')" % new[0]['id']); p.wait_for_timeout(300)
@@ -128,14 +138,15 @@ with sync_playwright() as pw:
     p.evaluate("Object.defineProperty(document,'visibilityState',{value:'hidden',configurable:true}); document.dispatchEvent(new Event('visibilitychange'))"); p.wait_for_timeout(300)
     acts = [e['action'] for e in p.evaluate("window.__sb.events")]
     assert 'session' in acts and 'view' in acts and 'copy' in acts, acts
-    assert p.locator('[data-page]').count() == 0, 'a beta tester sees the admin switch'
+    assert p.locator("[data-page='admin']").count() == 0, 'a beta tester sees the admin switch'
+    assert not anon, 'an active tester was also logged anonymously'
     assert not errs, errs; b.close(); print('ok travels + events')
 
     # 4. Owner: admin page lists people, lets one in, opens a tester.
     for name, vp, dark in (('phone', PHONE, False), ('desktop', DESK, True)):
         b, p, errs, asked = open_page(pw, vp, init={'profile': {'handle': 'jon_m', 'role': 'owner', 'status': 'active'}, 'trips': [dict(old, user_id='u3')]}, dark=dark)
-        p.click('#tab-me'); p.wait_for_timeout(300); p.click("[data-page='admin']"); p.wait_for_timeout(600)
-        txt = p.inner_text('#view-me').lower(); assert 'ada' in txt and 'bix' in txt and 'waiting to be let in' in txt, txt
+        p.click('#whobtn'); p.wait_for_timeout(300); p.click("[data-page='admin']"); p.wait_for_timeout(600)
+        txt = p.inner_text('#view-me').lower(); assert 'ada' in txt and 'bix' in txt and 'waiting to be let in' in txt and 'nearly full' in txt and '212,000 of 250,000' in txt, txt
         shot(p, 'admin_' + name)
         p.click("[data-ok='u2']"); p.wait_for_timeout(500)
         assert p.evaluate("window.__sb.people.find(x=>x.id==='u2').status") == 'active' and 'Nobody is waiting' in p.inner_text('#view-me')
@@ -146,10 +157,10 @@ with sync_playwright() as pw:
 
     # 5. Invite link: remembered, sheet opens, used automatically after sign-in.
     b, p, errs, asked = open_page(pw, PHONE, query='?invite=AAAA-BBBB-CCCC'); p.wait_for_timeout(900)
-    assert 'You have an invite' in p.inner_text('#whopop') and p.is_visible('#acctin')
+    assert p.evaluate('curView()') == 'me' and 'You have an invite' in p.inner_text('#acctbox') and p.is_visible('#acctin')
     assert 'invite' not in p.evaluate('location.search') and not asked
     assert not errs, errs; b.close()
     b, p, errs, asked = open_page(pw, PHONE, init={}, query='?invite=AAAA-BBBB-CCCC'); p.wait_for_timeout(900)
-    txt = p.inner_text('#whopop'); assert 'Beta tester' in txt and 'You are in' in txt and p.is_visible('#acctnew'), txt
+    txt = p.inner_text('#acctbox'); assert 'Beta tester' in txt and 'You are in' in txt and p.is_visible('#acctnew'), txt
     assert p.evaluate("localStorage.getItem('wmft-invite')") is None
     assert not errs, errs; b.close(); print('ok invite link')
