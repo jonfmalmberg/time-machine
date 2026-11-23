@@ -15,6 +15,7 @@ The app only succeeds if it feels good to use. Rules here are a floor; the visio
 - `python3 build.py` writes `dist/index.html` (never committed).
 - `python3 tests/smoke.py` and `python3 tests/account.py` need Python Playwright with Chromium.
 - `python3 tests/data.py` checks the music data against the data model's rules (standard library only).
+- `python3 tests/layout.py` checks the stored tree layout with the layout method (`tools/layout/optimise.py`; standard library only).
 - `bash db/test.sh` checks the database access rules on a throwaway local Postgres.
 - `python3 tests/evidence.py` checks the evidence-check script against pages the owner has looked at himself. It needs web access; run it after any change to `tools/check_evidence.py`.
 - All tests must pass before anything is pushed.

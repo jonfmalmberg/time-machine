@@ -2,6 +2,12 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (tree layout method runs again)
+
+- Roadmap 2.13, first part, by an Opus sub-agent to a written specification, checked by the lead (tests rerun): `tools/layout/optimise.py` reads today's data. The stored layout is valid by the method's own rule. Its cost comes out 0.2354% above the stored figure; the sub-agent ruled out end years, pending genres and layout changes as the cause and did not find it, and rejected near-matches found by trying combinations as chance. The test tolerance is set at 0.25% and the README says which small errors that would miss.
+- `place` gives a new genre a valid row without moving any existing genre; shown on two test genres. A full new search at two million steps is still 2.2% worse than the stored layout, so the stored layout is kept.
+- Merged to `dev` (tools, tests and documents only; nothing the site reads). Queue: H14 added, to source the records for rways and Korean minyo before they are placed.
+
 ## 2026-11-23 (feature work while the owner sleeps)
 
 - Owner: hold the verification that needs him; focus on feature development and do as much as possible. He will comment on the triage when he wakes.
