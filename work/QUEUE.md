@@ -36,7 +36,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Hand back:** `prominence.md` (one section per formula with file and line, a table of the dominance cases found with year, genre, share), and the script that measured it.
 
 ## H6. People: population by country and decade (research tiers, the "people" part of the weight)
-- **State:** open
+- **State:** handed back 2026-11-23
 - **Model:** Opus for the run; Sonnet sub-agents for extracting rows.
 - **Ask:** For every country code in `data/iso.json`, the population at the middle of each decade from the 1940s to the 2020s (1945, 1955, ... 2025), from the United Nations World Population Prospects (first-party pages or its published data files; pre-1950 values from the source UN itself cites, or left empty and listed). Record for each figure the address, the exact string or row it came from, and the date read. Do not estimate missing values. Do not compute any weight or ranking: only the figures.
 - **Hand back:** `population.json` (country code, decade, population, evidence), and in the report which countries and decades are missing and why.
