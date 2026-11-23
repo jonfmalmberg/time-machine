@@ -1561,7 +1561,11 @@ const lookupLine=(what,q,wq)=>`<p class="fine lkline"><b>Look up ${esc(what)}</b
 
 // cover art (MusicBrainz search, then the Cover Art Archive): only where the page may load outside images, i.e. not inside a Claude artifact
 const STATIC=typeof window.claude==='undefined';
-let COVERS=STATIC; try{ const v=localStorage.getItem('wmft-covers'); if(v==='on') COVERS=true; if(v==='off') COVERS=false; }catch(e){}
+/* Album art: one switch for the whole site. Off for now: lookups go through MusicBrainz at one a second, which is too slow
+   and will not hold up as visitors grow. While it is off, nobody loads covers and nothing is requested from MusicBrainz or the
+   Cover Art Archive. A developer can still turn it on in their own browser with localStorage.setItem('wmft-covers','on'). */
+const COVERS_ENABLED=false;
+let COVERS=COVERS_ENABLED&&STATIC; try{ const v=localStorage.getItem('wmft-covers'); if(v==='on') COVERS=true; if(v==='off') COVERS=false; }catch(e){}
 const CVC={}; try{ Object.assign(CVC,JSON.parse(localStorage.getItem('wmft-covercache')||'{}')); }catch(e){}
 const cvKey=(a,t)=>(a+'|'+bare(t)).toLowerCase(); const cvQ=[]; let cvBusy=false;
 const cvUrl=id=>`https://coverartarchive.org/release-group/${id}/front-250`;

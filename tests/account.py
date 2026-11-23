@@ -74,6 +74,7 @@ with sync_playwright() as pw:
     b, p, errs, asked = open_page(pw, PHONE)
     for t in p.evaluate("[...document.querySelectorAll('nav.tabbar .tab-link')].map(b=>b.id)"): p.click('#' + t)
     assert not asked, 'anonymous visit loaded the sign-in library: %r' % asked
+    assert p.evaluate('COVERS') is False, 'album art is not switched off'
     assert p.locator('#tab-me').is_hidden() and p.locator('nav.tabbar .tab-link').count() == 6, 'Me is still in the tab bar'
     p.click('#whobtn'); p.wait_for_timeout(300)
     assert p.inner_text('#vtitle') == 'Account' and 'Travelling as a guest' in p.inner_text('#view-me')

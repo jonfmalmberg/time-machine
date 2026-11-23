@@ -54,7 +54,7 @@ Cloudflare builds and publishes every push: `main` to the live site, every other
 
 ## Loads from other sites
 
-Google Fonts, jsDelivr (world map outlines, satellite image fallback), MusicBrainz and the Cover Art Archive (cover thumbnails, looked up in the visitor's browser and not stored here). Links open YouTube, Google, Wikipedia and TuneMyMusic in a new tab.
+Google Fonts, jsDelivr (world map outlines, satellite image fallback, the sign-in library for people who sign in) and Supabase (sign-in, tester data, the anonymous usage log). Album art from MusicBrainz and the Cover Art Archive is switched off for now (`COVERS_ENABLED` in `src/template.html`). Links open YouTube, Google, Wikipedia and TuneMyMusic in a new tab.
 
 ## Licence
 
