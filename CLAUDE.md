@@ -48,6 +48,11 @@ The app only succeeds if it feels good to use. Rules here are a floor; the visio
 - `data/*.json`: one file per key of the page's `DATA` object, one entry per line.
 - `data/tests.json`: one line per synthetic-listener test that has been run (country `iso` with years `y0`–`y1`, or genre `g`). The playlist panel reads it to show a test as done; add a line whenever a test is run.
 
+## Helpers
+- A daily scheduled run works as a helper: it takes one assignment from `work/QUEUE.md`, writes only inside `work/`, pushes one `helper/<date>-<id>` branch and reports on the run log issue. Rules, roles and which model does which work are in `work/README.md`.
+- The session the owner talks to is the lead: it is responsible for the project, writes the queue, reviews helper branches at the start of each session, and moves accepted work into `data/`, `src/` or `docs/` on a feature branch.
+- Cloudflare builds only when `src/`, `data/`, `build.py` or `wrangler.jsonc` change (build watch paths), so helper branches and documentation do not use builds.
+
 ## People
 - Issues the owner raises can be worked on directly. Issues from other users need the owner's approval first.
 - The owner's email address is private: it must not appear in the repository or be sent to any service.
