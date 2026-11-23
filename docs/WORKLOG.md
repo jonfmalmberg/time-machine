@@ -2,6 +2,12 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (genre batch 3: the evidence rule works when followed)
+
+- H7 accepted as candidates: eight genres (Pashto folk song, bhawaiya and bhatiali, hsaing waing, zapin and joget, maracatu, currulao, jota, Hardanger fiddle), all full, 18 to 27 songs each. This run copied its strings from raw page text and ran the check itself: 469 claims, 467 found, 2 on a page that refuses scripts. Compare 63% for batches 1 and 2, which quoted through the page-reading tool.
+- The lead's rerun first disagreed (373 found): the lead's own change an hour earlier, reading data-interface pages as decoded values only, lost claims quoted with their field name. Fixed (raw text and decoded values are both searched) and added as a control case. Second fault in the checker found in one day, both by comparing against an independent result.
+- Helper fired for H9 (evidence triage).
+
 ## 2026-11-23 (the owner's check found a fault in the checker)
 
 - Owner looked at five pages himself. Results: the ca trù sentence reads "In 1997, for the first time" (the tool's "1997 year" is a rewording); the Bihu sentence is not on the page (no source); the Folkways track title is on the page as a link (the script cannot read that site); the MusicBrainz track title is on the page as a link; the control string is on its page.

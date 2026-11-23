@@ -68,7 +68,7 @@ def strings(o):
 
 def text_of(page):
     if page[:1] in '{[':
-        try: return strings(json.loads(page))
+        try: return page + ' ' + strings(json.loads(page))   # the raw text (a researcher may quote it with its field name) and the decoded values
         except ValueError: pass
     page = re.sub(r'(?is)<(script|style|noscript)\b.*?</\1>', ' ', page)
     page = re.sub(r'(?s)<[^>]+>', ' ', page)
