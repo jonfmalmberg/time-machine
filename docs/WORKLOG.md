@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (evidence check built and run)
+
+- `tools/check_evidence.py` written by the lead: fetches each recorded address once (kept in a local cache), reads web pages and PDFs, and looks for the recorded string after normalising case, accents, spacing and punctuation; falls back to "all distinctive words close together". No model involved.
+- First run over genre batches 1 and 2 (526 claims): 60% found, 7% near, 8% not found, 25% page not readable by the script. Among readable pages 89% confirmed, 11% not. Details in `work/2026-11-23-evidence/REPORT.md`.
+- Findings about the method: a quarter of sources refuse scripts (Smithsonian Folkways alone is 60 claims); helpers' quotes are reworded by the fetch tool they read through, so they are not exact strings yet; one source address (`download.osmand.net`, 17 claims) looks wrong and is first in the triage.
+- Queue: H9 added (triage of the 174 unconfirmed claims), placed before genre batch 4.
+
 ## 2026-11-23 (prominence report; more helper runs)
 
 - H5 accepted: `docs/research/2026-11-23-prominence.md`. The genre that seems to fill the tunnel is Qur'anic recitation, and it dominates by its name, not by drawn light: its peak is recorded as 700 to 2026 so it never leaves the front, its significance is 5 which gives its name top priority, its region is anchored nearest the centre, and names are drawn toward the centre. Its name is the largest drawn in 121 of 201 sampled moments. This was inferred from measurement, not from the owner's screen.

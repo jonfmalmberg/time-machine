@@ -6,3 +6,4 @@ __pycache__/
 # Keys and local settings never belong in the repository.
 .env
 .env.*
+.cache/
