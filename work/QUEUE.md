@@ -65,7 +65,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Model, ask, hand back:** as H7, the next eight, following the evidence section of `work/README.md`: only songs whose claim the check script finds go into the add files.
 
 ## H11. Batches 1 and 2 again, under the evidence rule
-- **State:** open
+- **State:** accepted 2026-11-23 as candidates. Lead reran the check: 444 found against the helper\'s 447; the three that differ are two sites the lead\'s run could not reach at that moment (a name lookup failure and a bot check), not a disagreement about content. Re-pointing `wiki.riteme.site` to Commons is accepted, as for osmand.
 - **Model:** Opus for the run and for research sub-agents.
 - **Ask:** After H9. For the 16 genres in `work/2026-11-23-H3/` and `work/2026-11-23-H4/`: keep every claim the check found; for each claim that H9's `triage.json` did not class as confirmed, find a page a script can read and record the exact string from its raw text, or move the song to unverified. Rebuild `defs.add.json`, `playlists.add.json`, `sizes.json`, `sources.json` for all 16 so that every song in them has at least one claim with the result `found`, and run the check.
 - **Hand back:** the rebuilt files, `evidence-check.json`, and per genre: songs before, songs kept, songs dropped and why.

@@ -2,6 +2,14 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (batches 1 and 2 redone under the evidence rule)
+
+- H11 accepted as candidates. Of 207 songs in the 16 genres, 175 are kept, each with a claim the check finds that names it. Lead's rerun: 444 of 576 claims found, the helper's 447; the three that differ are sites the lead's run could not reach at that moment.
+- Per genre after the redo: full: ca trù 14, Bihu songs 17, pungmul 13, kulintang 17, garba 13, mahagita 20, kobzar dumy 17, tarantella 13, Iraqi maqam 18. Thin: Kalevala runosong 12, ngoma 6, Amazigh ahwash 9, quan họ 1. None: chèo 0, hua'er (5 weakly tied songs), malhun 0.
+- 31 songs were dropped only because their one source is a Smithsonian Folkways page that refuses scripts; chèo and quan họ are emptied by this. They wait on the owner's decision about running the check from his own computer.
+- Three definition start dates rest on claims the check does not find (Bihu songs 1300, kobzar dumy 16th century, chèo 1000). They must not be ingested as sourced.
+- Helper fired for H12 (genre batch 5).
+
 ## 2026-11-23 (genre batch 4)
 
 - H8 accepted as candidates: eight genres (Sa'idi music, lavani, maloya, rara, huapango, verbunkos, morenada and diablada, sevillanas), all full, 197 songs, 594 claims all found by the check, by the helper and again by the lead. Not yet in the data: the ingest step is on a branch waiting for the owner.
