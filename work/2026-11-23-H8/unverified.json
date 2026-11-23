@@ -1,0 +1,206 @@
+{
+ "saidimusic": {
+  "alias": {
+   "الأقصر بلدنا": "الاقصر بلدنا",
+   "الفراولة": "الفراوله",
+   "موسيقى ربابة": "موسيقي ربابه",
+   "أوعى تعاشر الدون": "اوعي تعاشر الدون",
+   "Metqal Qenawi": "Metqal El Qenawy",
+   "Shamandi Metqal": "Shamandy Metqal",
+   "Salama": "Salamat",
+   "Zahrafat Al Sa'īd": "Zahrafat Al Sa'īd (Rejoicing In Upper Egypt)",
+   "Āl-Āqsur-Īsnā": "Āl-Āqsur-Īsnā (From Luxor To Isna)",
+   "Al Nahla Al 'Ālī": "Al Nahla Al 'Ālī (The Tall Palm Tree)",
+   "Yā Tīr 'Ala Shadjarah": "Yā Tīr 'Ala Shadjarah (Oh Bird Upon The Tree)",
+   "Zarhat el Loxor": "Zarhat el Loxor (Rose de Louxor)",
+   "Mizmar Saidi": "Mizmar Saidi مزمار صعيدى"
+  },
+  "unverified": [
+   "Sheikh Ahmed Megahed (الشيخ احمد مجاهد), 'Qeset Awad W Fouad' Pts 1-6 (Takwene, ℗ 1983; iTunes lookup id 1639416096): found, but nothing read shows this sheikh is the Ahmed Megahid that Wikipedia's Music of Egypt lists as a Sa'idi performer, so left out.",
+   "Shawky El Qenawy, 'تحدي الموال (feat. Shamandy Metqal)' (El Wady Music, ℗ 2000; iTunes id 1701641683): page read, but kept out because no page calls Shawky El Qenawy a Sa'idi singer.",
+   "Metqal Qinawi, self-titled LP (Akenaton AKENAT 001LP, 2017): Soundohm page read (the Said traditions of Luxor, Qena and Asyut), but no track list on a readable page; Forced Exposure refused the script (403).",
+   "Sohar Magdy and Shamandy (singer): named as Sa'idi performers in recall and on Wikipedia's Music of Egypt for Sohar Magdy, but no recording was found on a readable page.",
+   "Mohamed Abu Haradji's mizmar band from Djaradjos on Luxor to Isna: the track it plays is not identified by name on the Real World page, so the band is not credited separately.",
+   "Upper Egypt Ensemble, 'Mazamir Sahara' (2002) and Upper Egypt Ensemble 'مزمار صعيدى' (2025): seen in an iTunes search; not used (the first title does not name the genre; the second was not read track by track).",
+   "Sirat Bani Hilal singers generally (e.g. Sayed al-Dowwi, Jaber Abu Hussein): recalled, not looked up; Wikipedia's Sirat Bani Hilal says the epic belongs to Upper and Lower Egypt, so it is not treated as Sa'idi music apart from the Musicians of the Nile's own piece.",
+   "Ahmed Adaweyah 'Zahma ya Dunia, Zahma' release year (1970s, recalled): no page read gives it, so the near-miss carries a null year.",
+   "Inta Omri: Wikipedia's prose says released March 1965, its infobox February 1964; 1965 was used."
+  ]
+ },
+ "lavani": {
+  "alias": {
+   "Kasa Kay Patil Bara Hay Ka": "Kasa Kaay Patil Bara / Kas Kaay Patil Bar Haay Ka",
+   "Chhabidar Chhabi Mi Toryat": "Chabidar Chabi Mi / Chhabidar Chhabi Mi",
+   "Bugadi Majhi Sandali Ga": "Bugadi Majhi Sandli Ga",
+   "Apsara Aali": "Apsara Aali Indrapuritun",
+   "Solava Varis Dhokyacha": "Solaawa Varees Dhokyacha",
+   "Padaravarti Jartaricha Mor": "Padaravarati Jartaricha / Padravarti Jartaricha Mor / Padarawarti Jartaricha",
+   "Mala Ho Mhantat Lavangi Mirchi": "Mala Ho Mhanatat Lavangi",
+   "Kalidar Kapuri Paan": "Kalidar Kapoori Paan",
+   "Kheltana Rang Bai Holicha": "Khelatana Rang Bai Holicha",
+   "Tumhavar Keli Mi Marji Bahal": "Tumhawar Keli Mi Marji Bahal / Tumhavar Keli Mi Marji",
+   "Mala Lagali Kunachi Uchaki": "Mala Lagali Kunachi Uchaki",
+   "De Re Kanha Choli An Lugdi": "De Re Kanha Choli Un Lugdi / De Re Kanha Choli",
+   "Wajle Ki Bara": "Aata Vajale Ki Bara",
+   "Sundara Manamadhi Bharali": "Sundara Mana Madhe Bharali",
+   "Pikalya Panacha Deth Ki Ho": "Pikalya Panacha Deth",
+   "Aho Jaijuichya Phula": "Aho JaiJuichya Phula",
+   "Arati Ankalikar-Tikekar": "Arati Ankalikar"
+  },
+  "unverified": [
+   "Yamunabai Waikar: Wikipedia calls her a leading exponent of lavani (Padma Shri 2012), but no recording of hers was found on iTunes, MusicBrainz or the lyrics archive; none is listed.",
+   "Usha Mangeshkar's Hindi 'Mungda' (Inkaar, 1977) is often called a lavani-style item song; no page read says so, so it is not used as a near.",
+   "Hindi film lavanis in general: Wikipedia's Tamasha page says some Hindi films included lavanis, but names none; none was verified.",
+   "'Nesali Pitambar Jari Ga' from Balgandharva (2011) is called 'a typical traditional Lavani' by the Times of India list, sung by Asha Khadilkar; left out because the singer credit there ('Asha Khadilkar, Bai Sundarabai') is unclear.",
+   "Sulochana Chavan's 'Mi Baya Padaliya Bhidachi' and 'Mala Hava Ga Asach' (lavanis on the archive) probably match 'Mee Baya Padliya' and 'Mala Hava Ga' on the iTunes album Mala Baghun Martoy Dola Lavnya (tracks dated 1971/1972); the match was not confirmed, so they are left out.",
+   "Sulochana Chavan's 'Tuzhya Usala Laagal Kolha' (named among her famous lavanis by Wikipedia) appears to be the refrain of 'Phad Sambhal Turyala Ga' (the archive's lyrics contain 'तुझ्या उसाला लागंल कोल्हा'); treated as the same song, not listed twice.",
+   "Film years on the Aathavanitli Gani film pages differ from Wikipedia for four films (Pinjara 1977 vs 1972, Malhari Martand 1964 vs 1965, Sawaal Majha Aika 1960 vs 1964, Rangapanchami 1960 vs 1961); Wikipedia's release dates are used.",
+   "Release years on iTunes for the Sulochana Chavan albums (1972, 1985, 1994) are digital-store dates and may not be the original LP/cassette years.",
+   "Roshan Satarkar's 'Darling Darling Kay Mhantos', Sulochana Chavan's 'Kalidar Kapuri Paan' and 'Kheltana Rang Bai Holicha', and 'Aho Jaijuichya Phula' (Shobha Gurtu, Lalita Phadke): no year found."
+  ]
+ },
+ "maloya": {
+  "alias": {
+   "Ti Mardé": "Ti mardé",
+   "Foutan Fonnker": "Foutan FonnKer",
+   "Mayok Flèr": "Mayok Flér",
+   "20 Désanm": "20 Désanm'",
+   "Peuple du maloya": "Peuple Du Maloya (Peuple De La Reunion)",
+   "Le Maloya et le IVe Congrès du Parti communiste réunionnais": "Le Maloya Et Le IVe Congrès Du Parti Communiste Réunionnais - Document N° 1"
+  },
+  "unverified": [
+   "Gramoun Sello: French Wikipedia page returned no article body; no release found on MusicBrainz (search count 0). Left out.",
+   "Release years conflict: Granmoun Lélé 'Soleye' is 1991-11-11 on MusicBrainz but 1995 on French Wikipedia; Danyèl Waro 'Foutan Fonnker' is 2000 on MusicBrainz but 1999 on French Wikipedia. Playlist uses the MusicBrainz year.",
+   "Bourbon Maloya (Oasis Production) has no release date on its MusicBrainz record; Granmoun Baba and Gaston Hoareau tracks carry null years.",
+   "Firmin Viry's 1972 single 'A nous même danser Maloya' (Disques Jackman) is named on French Wikipedia only; no tracklist or record page read.",
+   "Alain Péters 'Rest' là maloya' (recorded in Montreuil mid-1980s, issued 2016) not added: the posthumous LP's MusicBrainz record did not load (server busy).",
+   "Electric and electronic maloya (Oté Maloya compilation 1975-1985, Jako Maron, Digital Kabar compilation, Labelle) found on MusicBrainz but kept out as a neighbour without a tree id.",
+   "Baster, Ti Fock, Granmoun Baba solo albums, Françoise Guimbert, Simangavole, Nathalie Natiembé not researched (recalled from the French list, not looked up beyond it)."
+  ]
+ },
+ "rara": {
+  "alias": {
+   "Carrefour du Fort": "Carrefour de Fort",
+   "Andrés Boca Chica": "Andres Boca Chica (1) / Andrés Boca Chica (2)",
+   "Elías Piña": "Elias Pina",
+   "Tallon": "Tallon (1)",
+   "Notre Dame de 7 Doleurs": "Notre Dame de 7 Doleurs (1)",
+   "Haina": "Haina (1)",
+   "Pierre Potau Thelemaque & Tallon": "Pierrre Potau Thelemaque & Tallon",
+   "Rhythms of Rapture: Sacred Musics of Haitian Vodou": "Rhythms of Rapture: Sacred Music of Haitian Vodou",
+   "Caribbean Revels: Haitian Rara and Dominican Gaga": "Caribbean Revels: Haitian Rara & Dominican Gaga (MusicBrainz)"
+  },
+  "unverified": [
+   "Kònè as the name of the hammered-zinc flared horn: in the Caribbean Revels liner PDF (SFW40402) only as garbled OCR text, so not quoted; Léogâne Wikipedia gives 'konet', FE 4531 'conets'.",
+   "Elizabeth McAlister's book Rara! (2002) is named on English Wikipedia as a reference; no recording tied to it was checked beyond her two Rhythms of Rapture tracks.",
+   "Lomax Volume 4 items before 'Pa mele nan betiz-sa' are probably by Le Roux Chay-o-pye (catalogue gives the performer once after a run of titles): not attributed, so 'Papa Gede kenbe-m', 'Map pran yon fanm kon rara deyo' and others are left out.",
+   "'Vaccines' (bamboo trumpet band) on a Courlander Music of Haiti LP: notes say it is associated with rara, but the PDF covers three volumes and which LP it is on was not checked.",
+   "Soul Jazz 'Rara in Haiti': recordist and recording year not found (iTunes artist only 'Rara Group'); the Sounds of the Universe page refused scripts (bot check).",
+   "Dominican gagá groups recorded commercially (e.g. Roldán / 'Sí Gagá' noted on a CUNY Dominican Studies page) not checked: the CUNY page returned a bot check.",
+   "Rara tech (Gardy Girault) and Lakou Mizik / Chouk Bwa Libète as modern rara-derived acts: recalled or only seen in search results, not recorded.",
+   "Boukman Eksperyans 'Konbit Zaka' original album (Libète, 1995) shown only in OCR-garbled liner text; the 1995 year used is the Rhythms of Rapture compilation's."
+  ]
+ },
+ "huapango": {
+  "alias": {
+   "La huasanga": "La Huazanga",
+   "Mexique, l'art du violon huastèque": "Mexique, l'art du violón husteque",
+   "Trío Chicontepec": "Trio Chicontepec",
+   "Los Caporales de Pánuco": "Los Caporales de Panuco"
+  },
+  "unverified": [
+   "Release years before 1966 not found: 78 rpm and early LP son huasteco recordings (e.g. Trío Los Cantores de la Sierra, El Viejo Elpidio's earlier sides) recalled, not looked up.",
+   "Dueto/Trío Xoxocapa's founding date and members, Los Brujos de Huejutla's own studio albums: not found on a script-readable page.",
+   "Smithsonian Folkways liner notes for El ave de mi soñar (SFW40512 PDF) read, but the text layer is poor OCR, so no quote was taken from it; it names Los Cantores de la Sierra and Los Caimanes as trios Joel Monroy played in.",
+   "Huapango arribeño (Guillermo Velázquez y Los Leones de la Sierra de Xichú, El triunfo, on Tercer festival de la Huasteca, 2006) found on MusicBrainz but kept out: a separate neighbouring style with no id.",
+   "José Pablo Moncayo, Huapango (1941 orchestral piece): a classical work built on huapango themes, not added (English Wikipedia names it; no recording page was read).",
+   "Year of Miguel Aceves Mejía's original El Pastor recording: only the 1984 compilation year was found.",
+   "El Negro Marcelino y Sus Huastecos, Huasteca linda (ECO, 1973) and Los Cantores de Valles on Música huasteca (INAH/Pentagrama, 2002) found on MusicBrainz but not used: neither page ties them to son huasteco by more than a regional word."
+  ]
+ },
+ "verbunkos": {
+  "alias": {
+   "Verbunkos and Csárdás of Szatmár": "Verbunkos and Csardas of Szatmar",
+   "János Bihari: Spur Verbunk": "Janos Bihari Spur Verbunk",
+   "Three Verbunkos from Pest": "Three Verbunkos From Pest",
+   "Verbunk and Csárdás from 1848": "Otto Petenyi, Istvan Bogodan Verbunk and Csardas from 1848",
+   "Verbunkos de Transylvanie": "Verbunkos de transylvanie",
+   "Verbunk et csárdás en la mineur": "Verbunk et csardas en la mineur",
+   "Hungarian \"Verbunkos\" / Fresh Csárdás": "Hungarian \"Verbunkos\" (trad.) / Fresh Csárdás (trad.)",
+   "Kapuvári verbunk és cickomcsárdás": "Kapuvári Verbunk és Cickomcsárdás",
+   "Rábaközi körverbunk és dus": "Rábaközi Körverbunk és Dus",
+   "„A jó lovas katonának” – verbunkos": "„A jó lovas katonának” Verbunkos",
+   "\"Magyar\" – Early Hungarian Dances": "\"Magyar\" - Early Hungarian Dances",
+   "Új Pátria 12: Felső-Marosmenti népzene – Magyarpéterlaka": "Új Pátria Sorozat 12: Felső-Marosmenti Népzene - Magyarpéterlaka",
+   "Nótacsokor: Selyemkendőm volt mindenem / Sörös vagyok, boros vagyok / Ördög csárdás": "Nótacsokor: Selyemkendóm volt mindenem / Sörös vagyok, boros vagyouk / Ördóg csárdás",
+   "Piano Trio in G major, Hob. XV:25 \"Gypsy Rondo\": III. Rondo all'Ongarese": "Piano Trio in G major, Hob XV:25 \"Gypsy Rondo\": III. Finale \"Rondo all' Ongarese\". Presto",
+   "Hungarian Rhapsody No. 2 (Liszt)": "Hungarian Rhapsody no. 2 in C-sharp minor"
+  },
+  "unverified": [
+   "Hungarian State Folk Ensemble Orchestra, 'Verbinkos and Csardas in A Major' (B2 on the same 1955 Angel LP): page spells it Verbinkos; left out, though it is surely verbunkos.",
+   "Bihari-, Lavotta- and Csermák-era pieces whose titles do not name the genre: 'Janos Bihari Quick Hungarian' and 'Antal Csermak Palotche Hungarian' (Hungarian Gipsy Concert Music, 1992), 'Primatiális magyar (Bihari János - Lakatos Sándor feldolgozása)' and 'Magyar és friss (Lavotta János Csámpai Ivó feldolgozása)' (Déki Lakatos Sándor, Lamarti 1997), 'Lavotta Szerenad' (Mátyás Jónás, Frémeaux 2019), 'In Memory of Bihari' (100-member Budapest Gypsy Orchestra), 'Bihari János táncai' (Jánosi Együttes, on Vetettem gyöngyöt 2007): MusicBrainz shows the tracks, but no page read ties them to verbunkos by its own words (only the Bihari Wikipedia page, about the composer, not the recording).",
+   "Kalotaszeg legényes recordings (Muzsikás, Sebő Együttes, Ökrös, Halmos Béla, Csík zenekar): the scope names legényes, but no page read calls the legényes a verbunk; left out rather than tie through a general claim.",
+   "Further village and revival verbunks seen on MusicBrainz and not added to keep the list balanced: Kalamajka 'Bonchidai verbunk - Ritka Magyar' (1989), Dűvő 'Vasvári verbunk és csárdás' (1998), Ökrös Band 'Ördöngősfüzesi ritka fogásolás és verbunk' (1994), Berecz András 'Verbunk' (2011), Utolsó Óra 'Verbunk és figurázó' (1999), A Máscingók 'Keszui négyes, sűrű magyar és verbunk'. All are checkable the same way.",
+   "Sándor Lakatos (1924–1994), the best-known Budapest Gypsy band leader, is in the list only through the Frémeaux 1950s reissue; his Hungaroton LPs were not looked up.",
+   "The year of the 1950s Frémeaux recordings (Lakatos, Boross and Csenki) and of the Capella Savaria Hungaroton disc: not on the pages read, yrs left null.",
+   "Lujza Tari, 'The Verbunkos, a music genre and musical symbol of Hungary' (Bulletin of the Transilvania University of Braşov, 2012), cited on the English Csárdás page: the PDF address returns an HTML error page; not used."
+  ]
+ },
+ "morenadaanddiablad": {
+  "alias": {
+   "Banda \"Sebastián Pagador\" de Oruro": "Banda \"Sebastian Pagador\" de Oruro",
+   "Banda Policía Nacional del Perú": "Banda Policia Nacional del Perú",
+   "Banda Espectacular Pagador de Oruro & Banda Poopó": "Banda Espectular Parador de Oruro / Banda Poopò",
+   "Morenada Mantilla de Vicuña": "Morenada Mantilla de Vicuña 1981",
+   "Morenada la Aromeñita": "Morenada la Aromeñita 1945",
+   "Morenada Rosas de Viacha": "Morenada Rosas de Viacha 1974",
+   "Morenada Central Oruro": "Morenada Central Oruro 1956",
+   "Oruro Patrimonio de la Humanidad": "Oruro Patrimonio de la Humanidad (Morenada)",
+   "Wiskatatay la Borrachera": "Wiskatatay la Borrachera (Morenada)",
+   "Morenada Chacaltaya": "Morenada chacaltaya",
+   "Diablada \"Urus\" / Diablada Comité Pro Bolivia / El Pequeñín": "Diablada \"Urus\"  Diablada Comité Pro Bolivia  el Pequeñin",
+   "Diablada - Fantasía aux sikus - Banda": "Diablada - Fantasia Aux Sikus - Banda",
+   "La mariposa": "La mariposa, morenada boliviana",
+   "Oruro": "Oruro - Morenada",
+   "Virgen del Socavón": "Virgen Del Socavón (Morenada)",
+   "Diablada Amigos de la PNP Puño - 10 Años": "Diablada Amigos de la Pnp Puño - 10 Años"
+  },
+  "unverified": [
+   "Los Calchakis, Au pays de la diablada - Volume 10 (1979, MusicBrainz): the album title names diablada, but no track title says which pieces are diabladas, so no track is used.",
+   "Banda Poopó, Date el Gusto de Bailar con Poopó (1991, Lauro Records) and Banda Intercontinental Poopó, Tradición y Cultura (1991) and Date el Gusto de Bailar (2006): Oruro band albums whose tracks are probably morenadas, but no page read names them as such.",
+   "Banda Espectacular Pagador / Fraternidad Morenada Central Oruro, Antología musical en bronces (2025, iTunes): seen in the search listing only; the track list was not read.",
+   "Many northern Chilean band singles of diablada 'saltos' (Banda Ecos Tocopilla, Banda Sound Machine Antofagasta, Banda La Popular Arica, Banda Wiracocha) and Puno singles: seen only in an iTunes search listing; none was read or used.",
+   "Brass Unbound (PAN Records, 1999): the page credits 'Banda Espectular Parador de Oruro / Banda Poopò'. I read this as a misspelling of Banda Espectacular Pagador, but no page confirms that.",
+   "Savia Andina, Aymuray, Sukay, Inkuyo 'Morenada de los Sapos' and other folk-group morenadas found in a MusicBrainz search: releases have no date or were not read.",
+   "Uruguayan comparsa 'Morenada' (MusicBrainz artist, Uruguay; album 'Abran cancha! Son las Lonjas del Cuareim!'): would make a near-miss for candombe, but no page read ties it to candombe.",
+   "Release years are album dates: Kjarkas 'Morenada Chacaltaya' is from the 2006 compilation 35 años, and the Diablada Azoguini anthology (2019) collects pieces dated 1998-2017 in their titles. Pagador track titles carry years (1945, 1956, 1974, 1981) that look like composition years; these were not used as recording years."
+  ]
+ },
+ "sevillanas": {
+  "alias": {
+   "Salta la reja almonteño": "Salta la reja Almonteño",
+   "Sevillanas bíblicas": "Sevillanas Biblicas",
+   "Reina de las sevillanas": "Reina De Las Sevillanas",
+   "La están bailando": "La Están Bailando (Sevillanas Corraleras)",
+   "La liebre": "La Liebre (Sevillanas Corraleras)",
+   "Sevillanas del siglo XVIII": "Sevillanas del Siglo XVIII",
+   "Sevillanas del sombrero negro": "Sevillanas del Sombrero Negro",
+   "Sevillanas corraleras": "Sevillanas Corraleras",
+   "Rocieras de Rocío": "Rocieras de Rocío A (Sevillanas)",
+   "Cántame sevillanas": "Cántame Sevillanas",
+   "Sevillanas de Lebrija (Sevillanas corraleras)": "Sevillanas de Lebrija (Sevillanas Corraleras)",
+   "Volando voy": "Volando Voy"
+  },
+  "unverified": [
+   "Los del Río's sevillanas of the 1970s-1980s (Sevillanas y rumbas 1972-1975 albums) and their Rocío 'Gloria': album titles seen on en.wikipedia, no track list read; only one song (from a 2019 reissue of Cantemos por sevillanas) used.",
+   "Los Romeros de la Puebla's own annual albums (1968 Sevillanas onward): discography on es.wikipedia only; the MusicBrainz artist search returned just one release (No te olvidaré, 1990) and the iTunes lookup of their 'Las mejores sevillanas' collection returned no tracks; the group is represented only by the Saura soundtrack medley.",
+   "Hermanos Reyes (Castilleja de la Cuesta), Los Giraldillos, Salmarina's own albums, Los Choqueros, Ecos del Rocío (only medley tracks titled 'Sevillanas a toda banda 1' etc. seen), Siempre Así, Raya Real, the coros rocieros (Coro de Huelva, Coro de Almonte): named as important on es.wikipedia Sevillanas, no song-level page read.",
+   "Niña de los Peines' sevillanas (es.wikipedia: first solo singer to stand out): no recording page found.",
+   "Rocío Jurado's 1962-dated 'Rocieras de Rocío' tracks: iTunes gives 1962-01-16, which is before her first records; year left open.",
+   "Viva Sevilla: es.wikipedia Sevillanas says Lorca and La Argentinita recorded sevillanas 'Viva Sevilla' in 1931, while the La Argentinita pages name 'Sevillanas del Siglo XVIII' among the 1931-32 tracks; used the latter title only.",
+   "Amigos de Gines 'El adiós' is dated 1975 by es.wikipedia (the album), the MusicBrainz release used (Sevillanas, Hispavox) is dated 1988 and is probably a compilation.",
+   "Copla singers on Sevillanas de los Cuarenta (Concha Piquer, Lola Flores, Niña de la Puebla, Estrellita Castro, Paquita Rico, Miguel de Molina): the compilation gives no recording years.",
+   "MusicBrainz answered 'busy' (HTTP 503) to several searches (María del Monte, Corraleras de Lebrija, Rocío Jurado); not retried in a loop."
+  ]
+ }
+}

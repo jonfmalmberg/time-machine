@@ -61,7 +61,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Hand back:** `sources.json`, `evidence-check.json`, and in the report, per scope: links checked, found, not found on the cited page, no readable source, and every song whose artist, title or year on the site differs from what the source says (give both).
 
 ## H8. Genre research, batch 4
-- **State:** open
+- **State:** handed back 2026-11-23
 - **Model, ask, hand back:** as H7, the next eight, following the evidence section of `work/README.md`: only songs whose claim the check script finds go into the add files.
 
 ## H11. Batches 1 and 2 again, under the evidence rule
