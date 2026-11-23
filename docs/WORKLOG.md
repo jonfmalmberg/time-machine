@@ -2,6 +2,16 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (genre batch 6)
+
+- Helper hand-back H13 reviewed and taken into `work/2026-11-23-H13/` as candidates: gambang kromong, shōka and gunka, nurthi, funaná, porro, changga, Sudanese haqiba, twoubadou. Seven full and changga thin (13 songs); 189 songs. Run configured as `claude-opus-5-5`, sub-agents Opus.
+- Lead reran `tools/check_evidence.py`: 626 of 626 claims found, agreeing with the helper (`evidence-check.lead.json`).
+- Decided (lead): nurthi is treated as thin at ingest, not full. 21 of its 24 songs are one rights-holder's 2023 reissue series with no singers or dates, which is one source, not a playlist a local would recognise. Changga stays thin; period 78s (Korean Sound Archive) are the missing layer.
+- Weak points to weigh at the master-table step: gambang kromong 24 of 29 songs tied by title only; 73 of 189 songs have no release year; almost nothing recorded before the 1970s except gunka (1937 to 1943) and one haqiba 78.
+- For the owner (tree): more named neighbours with no genre id (REPORT.md, question 6), among them tanjidor, dōyō, batuku, finaçon, Korean art song, Sudanese madeeh.
+- 56 of 132 pending genres now researched as candidates. Nothing ingested.
+- Helper fired for H14 (records for rways and Korean minyo) at 21:59 UTC: run 7 of 8 since 08:40 Pacific. The queue has nothing open after it.
+
 ## 2026-11-23 (genre batch 5)
 
 - Helper hand-back H12 reviewed and taken into `work/2026-11-23-H12/` as candidates: dohori, Tamang selo, pasillo, Haitian méringue, gaita zuliana, pasodoble, harana, Jiangnan sizhu. All eight full, 211 songs. Run configured as `claude-opus-5-5`, sub-agents Opus.

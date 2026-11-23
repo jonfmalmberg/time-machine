@@ -1,0 +1,58 @@
+{
+ "gambangkromong": {
+  "low": 600,
+  "high": 3000,
+  "core": 30,
+  "basis": "A judgement, not a count. Made before collecting, from what is known of the catalogue: 78s of Chinese-Peranakan orchestras from the 1920s-30s (few survive in archives), a long run of Betawi pop records of the late 1960s-70s where gambang kromong backs singers such as Benyamin S and Ida Royani, Indonesian cassettes of lenong, cokek and lagu sayur by many neighbourhood orchestras (Indonesian Wikipedia lists over thirty classical groups), one international field-recording album (Smithsonian Folkways' Music of Indonesia vol. 3, 1991) and a small flow of recent digital releases. An insider's essential list would be about 30 recordings: the Folkways album, the classical phobin and lagu dalem of the Peranakan orchestras and singers such as Pang Tjin Nio, and the best-known Benyamin S gambang kromong songs.",
+  "confidence": "low"
+ },
+ "shokaandgunka": {
+  "low": 3000,
+  "high": 15000,
+  "core": 50,
+  "basis": "No source counts recordings; a judgement. The repertoire is large: Japanese Wikipedia says 1,300 gunka and 140 gunka songbooks were made in the two years of the Sino-Japanese War alone, the 1881-84 school songbook held 91 songs and the 1911-14 Jinjō shōgaku shōka 120, and Tetsudō shōka alone runs to 334 verses in five volumes. From 1931 the record companies mass-produced gunka on 78s (one Columbia reissue of original 78s holds 73 tracks), and after the 1952 end of the ban every major label issued multi-volume gunka sets (Columbia, King, Teichiku, Victor, Pony Canyon seen on iTunes Japan) while choirs and singers keep re-recording the school songs. Most songs exist in several recordings. An insider's essential list is about 50 songs, half school songs, half military.",
+  "confidence": "low"
+ },
+ "nurthi": {
+  "low": 300,
+  "high": 1500,
+  "core": 30,
+  "basis": "No source counts nurthi recordings. What was read: the first recorded Sinhala song was a nurthi song (Othello's \"Deweni Lokapathi\", Sinhala Wikipedia) and English Wikipedia names a 1903 album Nurthi; P. Orr & Co. of Madras recorded some of John de Silva's songs in 1908; Vishwanath Lavji alone had nearly 280 tunes to his credit; radio kept 'A-grade nurti singers' (Ramya Wanigasekara, Shrilal Abeykoon) and a Nurthi Gee programme; Gerald Wickremesooriya produced a Nurthi Gee record; the Tower Hall Theatre Foundation's Tower Hall Nurthi Gee series on iTunes Sri Lanka is 16 volumes of 13-15 tracks (about 235 tracks, some repeated). Old 78s, radio transcriptions and cassettes are mostly not on any readable catalogue. A few hundred distinct songs survive in the repertoire; with re-recordings by later singers (Danno Budunge alone has over 20 versions on iTunes) the total is perhaps 300-1500. An insider's essential list would be about 30 songs, mostly from John de Silva's plays (Siri Sangabo, Ramayanaya, Sri Wickrama). A judgement, not a count.",
+  "confidence": "low"
+ },
+ "funana": {
+  "low": 4000,
+  "high": 20000,
+  "core": 50,
+  "basis": "A judgement, not a count; no source counts funaná recordings. What was read: Wikipedia (pt, en) on the 1980s spread through Bulimundo's six albums of 1980-1984, the 1990s internationalisation through Finaçon and the late-1990s return to the gaita with Ferro Gaita; Ostinato Records' note that Ferro Gaita's first album of 1997 sold 40,000 copies; the iTunes Portugal store, which lists a dozen Ferro Gaita albums and singles, ten Kino Cabral albums from 1992 on, and a long run of label compilations (Funaná Hits, Projecto Funaná, Funaná & Batuko, O Midjor di Funáná, 15 Anos de Funaná / Kizomba with 29 tracks) plus a steady flow of new funaná singles 2017-2026. Most traditional gaiteiros (Codé di Dona, Bitori, Tchota Suari) left only one to three albums each. An insider's essential list is about 50 recordings: Bulimundo, Os Tubarões' funanás, Finaçon, Codé di Dona, Zeca and Zezé di Nha Reinalda, Bitori, Tchota Suari, Ferro Gaita and the 1990s gaita revival.",
+  "confidence": "low"
+ },
+ "porro": {
+  "low": 2000,
+  "high": 10000,
+  "core": 50,
+  "basis": "A judgement, not a count; no source counts porro recordings. What is on record: the orchestra porros of the 1940s-1970s (Lucho Bermúdez, Pacho Galán, Edmundo Arias, Pedro Laza y sus Pelayeros, La Sonora Cordobesa, Billo's Caracas Boys and others, largely on Discos Fuentes and Sonolux, each with many LPs); the banda pelayera recordings of the Sinú and the savannas (bands of San Pelayo, Laguneta and many towns, festival and local recordings since the Festival Nacional del Porro began in 1977); porros covered by Cuban and Venezuelan bands (Benny Moré, La Sonora Matancera); and later revival and fusion records. The Cartagena paper El Universal published a list of the 100 best porros (2014), which is about the size of the canon; an insider's essential list is about 50 recordings.",
+  "confidence": "low"
+ },
+ "changga": {
+  "low": 150,
+  "high": 800,
+  "core": 15,
+  "basis": "No source counts recordings; this is a judgement. Changga were mostly sung in schools, churches, rallies and from songbooks, not recorded: the Encyclopedia of Korean Culture names songbooks (Lee Sang-jun's Middle School Songbook and Newest Songbook; three 1920s yuhaeng changga songbooks of 1922 and 1927) and says independence-army songs were most numerous around 1910-1920, but commercial records only began in the 1920s (학도가 first recorded in 1921, 사의 찬미 in 1926). What can be heard today is a few dozen period 78s and many later re-recordings of a small repertoire (학도가, 희망가, 사의 찬미, 독립군가 and other patriotic songs) on trot-era nostalgia anthologies and independence-song albums. An insider's essential list is about 15 songs, most of them the same titles in different voices.",
+  "confidence": "low"
+ },
+ "sudanesehaqiba": {
+  "low": 600,
+  "high": 4000,
+  "core": 30,
+  "basis": "A judgement made before collecting, not a count. Haqiba is a closed 1920s–1940s song repertoire by a few dozen Omdurman poets and singers (Khalil Farah, Abu Salah, Sayed Abdel Aziz, Obeid Abdel Rahman; singers Wad El Faki, Sarour, Karouma, Al-Amin Burhan), first on Cairo-made 78s in the 1930s and then kept alive on Radio Omdurman's Hageebat al-Fann programme and by later singers and ensembles re-recording the same few hundred songs. Low allows for a few hundred songs times few surviving versions; high counts the many re-recordings by later Sudanese singers and haqiba ensembles on cassette, radio and online. An insider's essential list is about 30 songs. Pages read afterwards fit this: Karouma alone wrote several hundred songs, Mubarak Hassan Barakat was said to know 1000 haqiba songs and recorded over 600, and the Nile Melodies Archive's 2024 'Haqibat al-Fann' series re-issues the same songs by many singers.",
+  "confidence": "low"
+ },
+ "twoubadou": {
+  "low": 800,
+  "high": 4000,
+  "core": 35,
+  "basis": "A judgement written before collecting, not a count; no source counts recordings. Twoubadou lives mostly as live music in small clubs, restaurants, hotels and patron-saint feasts, so much of it was never recorded. What is on record: the songs of Kandjo (Auguste de Pradines) and other early singers; the guitar-band albums of the 1950s-1980s on Haitian and New York diaspora labels (Ti Paris, Coupé Cloué's Ensemble Select with dozens of LPs, Trio Select, Toto Nécessité, Ti-Coca and similar small groups); and the commercial revival from the late 1990s (the Haitiando series, the Haiti Twoubadou compilations, Mizik Mizik's Blakawout), plus a stream of local CDs and online singles. Diaspora LPs are poorly catalogued. An insider's essential list is about 35 recordings, many of them Coupé Cloué, Ti Paris and the revival compilations.",
+  "confidence": "low"
+ }
+}
