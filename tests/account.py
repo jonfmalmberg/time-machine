@@ -101,14 +101,14 @@ with sync_playwright() as pw:
     p.evaluate("resetFilters('all'); setYear(1985); setStay(0); setPlace({k:'cty',iso:'JP'}); stPanelOpen=true; stBarUI(); stPanelUpdate()"); p.wait_for_timeout(400)
     # Japan 1985 has year lists and a recorded listener test: both rows say so and offer no button to a visitor
     st = p.inner_text('#ststatus')
-    assert 'Researched' in st and 'Passed' in st and 'Japan, 1980s' in st, st
+    assert 'Researched' in st and 'Unverified' in st and 'Passed' in st and 'Japan, 1980s' in st, st
     assert p.locator('#ststatus button[data-rqi]').count() == 0, 'a visitor is offered a rerun'
     # tapping a row opens a card that explains the result without prior context
     p.click('.rq[data-kind="listener"] .rqm'); p.wait_for_timeout(500); card = p.inner_text('#sheet-detail')
     assert 'Passed' in card and 'music of my youth' in card and '8 out of 10' in card and 'simulated' in card and card.count('meets it') == 3, card
     shot(p, 'card_listener_pass_phone'); p.evaluate('UI.sheet.close()'); p.wait_for_timeout(350)
     p.click('.rq[data-kind="research"] .rqm'); p.wait_for_timeout(500); card = p.inner_text('#sheet-detail')
-    assert 'Researched' in card and 'By year' in card and '6 or more home-grown' in card, card
+    assert 'Researched' in card and 'By year' in card and '6 or more home-grown' in card and 'Not verified yet' in card, card
     shot(p, 'card_research_phone'); p.evaluate('UI.sheet.close()'); p.wait_for_timeout(350)
     # Japan 2015: decade list only, never tested: both buttons
     p.evaluate("setYear(2015); stPanelUpdate()"); p.wait_for_timeout(400)
