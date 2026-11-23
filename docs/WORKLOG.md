@@ -2,6 +2,10 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (two interface items from the owner)
+
+- Roadmap 7.10 added: light-mode versions of the globe and the tunnel, with no black background. Optional later feature recorded: the globe with sun or stars behind it and a shadow that follows the user's real time.
+
 ## 2026-11-23 (old data marked unverified; third check by the owner)
 
 - Owner: two checks are not a quorum; he will look at some pages himself. Old collected data needs verification and must be marked as such to the user, by the rule that incorrect information is not left standing uncorrected; a simple status is enough. Usage is back to 16%: about eight more helper runs today.

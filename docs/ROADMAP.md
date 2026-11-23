@@ -156,6 +156,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 - 7.7 Album art back on, without lookups: where a song or its album has a MusicBrainz identifier (2.11), the browser loads the cover straight from the Cover Art Archive. No images are stored by us, because the archive gives no licence for copies.
 - 7.8 `done 23 Nov, on dev` Region colours on the tree, the map and the tunnel now come from Apple's system colours, light and dark (Human Interface Guidelines, Color, Specifications, values as updated June 2025). Europe indigo, North America blue, Caribbean purple, Latin America green, Africa brown, Middle East and North Africa cyan, South Asia orange, Central Asia yellow, East Asia red, Southeast Asia and Oceania mint. Not yet on the live site.
 - 7.9 `provisional, on dev` Status flags and explanation cards in the playlist panel: one coloured word per row, and a card saying what was tested, the standard, the result against it, and how it was run. Still to do before it is final: show the tier a scope has reached and that scope's own standard (needs 2.14), and a card for each new kind of test (recall, evidence, genre listener) as they are registered.
+- 7.10 Light-mode versions of the globe and the tunnel. Both are drawn on a black background because they show space, which conflicts with the light theme (owner, 23 Nov). In light mode neither should have a black background.
 
 **Done when:** Jon has reviewed each screen on his phone against the style guide.
 
@@ -215,6 +216,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 
 - **Tree, globe and tunnel polish.** Good enough for now. Done later as sit-down sessions where Jon tries things and says what works.
 - **Visitor analytics.** Cloudflare Web Analytics is a toggle on Jon's side.
+- **Optional, later:** the globe with the sun or stars behind it and a day and night shadow that follows the real time where the user is (owner, 23 Nov).
 
 ## Outside the app: the owner's way of working
 
