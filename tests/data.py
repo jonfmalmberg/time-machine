@@ -144,11 +144,27 @@ for p in load(os.path.join(D, 'presence.json')):
         bad('presence', w, 'kind %r' % p.get('kind'))
 
 # ---- songs and releases: credits ----
+CREDIT_ROLES = {'main', 'featured', 'with'}
+# Artist records that no song or release pointed at before credits were split (23 November 2026): none.
+KNOWN_ORPHANS = set()
+pointed = set()
 for k, r in list(songs.items()) + list(releases.items()):
-    for c in r.get('credits', []):
+    cs = r.get('credits', [])
+    if not cs:
+        bad('credits', k, 'no credited artist')
+    for c in cs:
         a = c.get('artist') if isinstance(c, dict) else c
+        pointed.add(a)
         if a not in artists:
             bad('reference', k, 'artist %r in credits does not exist' % a)
+        if isinstance(c, dict) and c.get('role') not in CREDIT_ROLES:
+            bad('credit role', k, 'role %r is not main, featured or with' % c.get('role'))
+    if len(cs) > 1 and not r.get('credit_text'):
+        bad('credits', k, 'several credited artists but no credit_text')
+for a in artists:
+    if a not in pointed and a not in KNOWN_ORPHANS:
+        bad('orphan artist', a, '%r is credited on no song or release' % artists[a].get('name'))
+for k, r in list(songs.items()) + list(releases.items()):
     if 'genre' in r and r['genre'] not in genres:
         bad('reference', k, 'genre %r does not exist' % r['genre'])
     for g in r.get('also', []):

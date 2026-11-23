@@ -2,6 +2,14 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (artist credits split)
+
+- Owner: a song with several credited artists must point at each artist in the master list; a version with a featured artist and one without are different songs.
+- Done on `schema` by an Opus sub-agent to a written specification, reviewed by the lead: 1,041 credits contained a joiner; 338 decided as one act, 685 as several acts with roles (main, featured, with), 18 left as unsure and still marked unsplit. 731 songs and 18 releases now point at individual artists and keep the credit as listed in `credit_text`. Artists 6,889 to 6,852.
+- Rule used, written into the schema: a duo or group performing under one name, and a leader with their own named band, is one artist; separately established acts credited together are several.
+- The page is still byte-identical (sha256 94940c40...), re-checked by the lead.
+- Limits: decisions came from the model's own knowledge, with no lookup, and each carries only a category as its basis. 30 artist pairs differ only in capitals (ROSALÍA and Rosalía) and are still separate records. The 18 unsure ones are listed in `work/2026-11-23-credits/decisions.json`.
+
 ## 2026-11-23 (data moved to the new model)
 
 - Owner accepted the schema as the model to build and asked for work to continue without him until his review is needed.

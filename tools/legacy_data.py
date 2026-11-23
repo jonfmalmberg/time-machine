@@ -51,6 +51,8 @@ def legacy_data(data_dir):
     G = {g['id']: g for g in genres}
 
     def credit(rec):
+        if 'credit_text' in rec:            # several credited artists: the credit as it was listed
+            return rec['credit_text']
         cs = rec['credits']
         if len(cs) != 1:
             raise ValueError('legacy shape needs one credit string: ' + rec['id'])
