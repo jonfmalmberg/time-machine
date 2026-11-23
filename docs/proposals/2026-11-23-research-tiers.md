@@ -1,6 +1,6 @@
 # Proposal: research in tiers, with weights and acceptance tests
 
-**Status:** proposal by Claude, 23 November 2026, from the owner's direction of the same day. Not agreed. Nothing here is built. Numbers marked *(set)* are choices to be confirmed or changed; numbers marked *(measure)* are unknown until the first pass has run.
+**Status:** accepted by the owner on 23 November 2026 as the initial method, to be adjusted after the first few runs. Revised the same day on two points he raised: every scope sets its own targets from an estimate of how many songs exist for it (section 1), and the purpose of the evidence audit is stated and its sampling changed (section 4). Nothing here is built. Numbers marked *(set)* are starting values; numbers marked *(measure)* are unknown until the first pass has run.
 
 ## The problem
 
@@ -17,31 +17,43 @@ Four things are needed, and each depends on the one before:
 
 There are two kinds of scope. A **genre**. And a **country-year**, researched in blocks of one **country-decade**.
 
-### Genre tiers
+### Every scope has its own size
 
-The target is listening time, with a song count as the usual equivalent. Genres of long pieces (raga, opera, gamelan) reach the time with fewer recordings.
+The tier numbers below are rough intent, not thresholds. Fifty songs is more than some genres ever recorded and a sliver of others; a year-end chart may have 40 entries or 200, or not exist. So the first question of any research on a scope is: **about how many songs are out there that fit?** The answer, with its basis, is recorded on the scope and the targets are set from it.
 
-| Tier | Name | Songs | Listening time | What it is for |
-| :- | :- | -: | -: | :- |
-| G0 | Named | 0 | | On the tree and map only. 132 genres today |
-| G1 | Defined | 12 to 18 | about 1 hour | Definition, reference tracks, seeds for a prompt. The 290 "full" playlists today |
-| G2 | Good | 25 | 90 minutes *(set)* | A playlist that stands on its own |
-| G3 | Deep | 50 | 3 hours *(set)* | Enough to offer "a new one" several times without repeats |
+| Recorded on each scope | Example: a small genre | Example: United States 1985 |
+| :- | :- | :- |
+| **Size estimate**: how many songs fit, as a range | 30 to 60 recordings | about 400 charting singles |
+| **Basis**: how that was arrived at | Two discographies and one archive catalogue | Length of the weekly and year-end charts |
+| **Core**: how many of those a person from the scope would call essential | about 10 | about 40 |
+| **Targets per tier**, set from the two numbers above | 8, 15, 30 | 6, 20, 50, 100 |
+| **Confidence** in the estimate | Low | High |
 
-Each genre also gets a **ceiling**, found during its first pass: the highest tier its recorded output can honestly fill. Kalevala runosong may stop at G1; swing can reach G3. A genre at its ceiling is complete, not thin.
+The estimate is revised by every pass: a pass that keeps finding new, well-sourced songs at the same rate raises it; a pass that finds mostly repeats confirms it. Changing a scope's targets is a normal result of research, and each change is recorded with its reason. A scope whose estimate is small is complete at a small number; a scope that can never be finished (a vast genre) has tiers that mean "the core", "the core and the well known", "a wide sample", and says so.
 
-### Country-year tiers
+### Genre tiers (rough intent)
 
-| Tier | Name | Songs per year | What it is for |
+| Tier | Name | Typical songs | Meaning, whatever the number |
+| :- | :- | -: | :- |
+| G0 | Named | 0 | On the tree and map only. 132 genres today |
+| G1 | Defined | 12 to 18 | Definition, reference tracks, and the core. The 290 "full" playlists today |
+| G2 | Good | about 25, or 90 minutes | A playlist that stands on its own: the core and the well known |
+| G3 | Deep | about 50, or 3 hours | Enough to offer "a new one" several times without repeats |
+
+The target is listening time where pieces are long (raga, opera, gamelan). The last tier a scope's own size allows is its top tier; reaching it is complete, not thin.
+
+### Country-year tiers (rough intent)
+
+| Tier | Name | Typical songs per year | Meaning, whatever the number |
 | :- | :- | -: | :- |
 | Y0 | Nothing | 0 | The page falls back to genres alive there |
 | Y1 | Decade list | 12 or more per decade | Today's 324 decade lists |
-| Y2 | Year basics | 6 home-grown, plus the big foreign hits | Today's "researched" bar. 164 years in 11 countries |
-| Y3 | Year solid | 20 | A year you can stay in |
-| Y4 | Year full | 50 | Close to a year-end chart |
-| Y5 | Chart-complete | 100 | The published year-end chart, whole |
+| Y2 | Year basics | about 6 home-grown, plus the big foreign hits | Today's "researched" bar. 164 years in 11 countries |
+| Y3 | Year solid | about 20 | A year you can stay in |
+| Y4 | Year full | about 50 | Most of what a year-end chart holds |
+| Y5 | Chart-complete | the published year-end chart, whole | Whatever its length: 40, 100 or 200 |
 
-Each country gets a **target tier** from its class (below). The United States is aimed at Y5; a country with no national chart may be aimed at Y2 and be complete there.
+A country's class (below) says how far up it is aimed; its own size estimates say what each tier means there.
 
 ## 2. The order: weighted breadth first
 
@@ -98,7 +110,7 @@ A **pass** takes one scope up one tier. It is the unit a helper is given.
 | Country, pass 2 | One country-decade | 6 a year for ten years: about 60 songs (Y2) |
 | Country, pass 3 | One country-decade | Up to 20 a year: about 140 more |
 | Country, pass 4 and 5 | One country, five years | Up to 50, then 100 a year |
-| Genre, pass 1 | Eight genres | Definition, ceiling, 12 to 18 songs each |
+| Genre, pass 1 | Eight genres | Definition, size estimate with its basis, the core songs |
 | Genre, pass 2 | Four genres | Up to 25 songs each |
 | Genre, pass 3 | Two genres | Up to 50 songs each |
 
@@ -130,10 +142,16 @@ Run when a pass is handed back, before it is merged. All four must pass; a failu
 
 | Test | Kind | Passes when |
 | :- | :- | :- |
-| **Specification** | Script | Count and listening time meet the tier; every song has a source; dates inside the scope; no repeats; at most 2 per artist at Y2 and G1, 4 above; home-grown share as the mode requires |
-| **Evidence audit** | Fresh agent | A random 10% of songs (at least 5) are re-fetched from their sources and say what the data claims: 90% or more *(set)* |
-| **Recall** | Synthetic, blind | Before seeing the list, the listener names the songs they would expect: 10 for a country-year, 15 for a genre. The share found in the list meets the tier: 30% at Y2 and G1, 50% at Y3 and G2, 70% at Y4 and G3, 85% at Y5 *(set)* |
+| **Specification** | Script | Count and listening time meet this scope's own target for the tier; every song has a source; dates inside the scope; no repeats; at most 2 per artist at Y2 and G1, 4 above; home-grown share as the mode requires |
+| **Evidence audit** | Fresh agent | The source recorded for a song says what the entry claims (see below). Small scopes: every song. Large scopes: a sample, and a failed sample means every song is checked |
+| **Recall** | Synthetic, blind | Before seeing the list, the listener names the songs they would expect: 10 for a country-year, 15 for a genre. The share found in the list meets the tier: 30% at Y2 and G1, 50% at Y3 and G2, 70% at Y4 and G3, 85% at Y5 *(set, as starting values; a scope with a low-confidence size estimate is judged with its confidence stated)* |
 | **Feel and order** | Synthetic | The existing listener test on the top of the list scores 8 or more; and of the listener's own top six, at least four are in the list's top third |
+
+**Why the evidence audit exists.** A research agent records an address for each song, but nothing checks that the page at that address says what the entry claims. Research agents do get this wrong, and have in this project: the first rounds left songs marked unverified or misdated (four in Malaysia 1960s, one in Turkey 2026), and release years "partly from the agents' own knowledge" in every list. An agent that fills a gap from memory and attaches a plausible address produces an entry that looks sourced and is not. The synthetic listener cannot catch this, because it judges from the same kind of memory. The audit is the one test that goes back to the page. It is done by a different agent because the one that made the mistake reads its own entry as correct.
+
+To make the audit cheap and exact, the researcher records with each song the line from the source that supports it (the chart row, the sentence), not only the address. The audit then checks: the page loads, the quoted line is on it, and the line says what the entry says (artist, title, year, position).
+
+**Why a sample, and when not.** Checking every song costs about as much again as the research. A sample measures the error rate instead. That only works on a large scope: on a list of 6 a sample means nothing, so every song is checked. On a list of 100, 20 are checked *(set)*; if more than one fails, the whole list is checked and the failures go back to the researcher. The earlier draft's "10%, pass at 90%" was arbitrary and let one wrong song in ten through; this replaces it.
 
 Recall is the direct measure of a scope: it asks whether the research covered what it set out to cover, and it rises with the tier. The existing listener test only ever saw the first few songs.
 
@@ -168,10 +186,10 @@ Today the page holds about 12,000 song rows in one file of 2.5 MB. The target is
 
 ## Decisions for the owner
 
-1. **Tier sizes:** G2 = 25 songs or 90 minutes, G3 = 50 or 3 hours; years at 6, 20, 50, 100.
+1. **Tier sizes:** settled as rough intent; each scope sets its own from its size estimate.
 2. **The blend:** reach 0.45, people 0.35, demand 0.20. Raising reach favours what Western listeners know; raising people favours the largest countries.
 3. **The gain table:** how fast depth loses to breadth.
-4. **Pass thresholds:** recall 30, 50, 70, 85%; evidence audit 90%.
+4. **Pass thresholds:** recall 30, 50, 70, 85% as starting values, adjusted after the pilots.
 
 ## Order of work if accepted
 

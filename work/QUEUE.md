@@ -22,7 +22,8 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **State:** open
 - **Model:** Opus for the run and for research sub-agents (one per genre is fine).
 - **Ask:** Take the first eight genres in `data/nodes.json` order that have no entry in `data/defs.json`, skipping any already covered by a `work/*/defs.add.json` on a `helper/*` branch. For each, research and write a definition and a playlist in exactly the shape of the existing entries in `data/defs.json` and `data/playlists.json` (read ten existing entries of each first). Every reference track and playlist song needs a source address showing the recording exists and belongs to the genre. A genre with fewer than four verifiable recordings gets status `thin` or `none`, honestly, with albums if those exist.
-- **Hand back:** `defs.add.json` and `playlists.add.json` (only the new entries, one per line), `sources.json` (per genre, per song: address), and in the report one paragraph per genre on how confident the research is and why.
+- **Size first:** for each genre, before collecting, answer "about how many recordings exist that fit this genre?" as a range, with the basis (discographies, archive catalogues, label lists) and how many of those a person inside the scene would call essential. Put it in `sizes.json` (genre id: low, high, core, basis, confidence).
+- **Hand back:** `defs.add.json` and `playlists.add.json` (only the new entries, one per line), `sizes.json`, `sources.json` (per genre, per song: address and the quoted line that supports it), and in the report one paragraph per genre on how confident the research is and why.
 
 ## H4. Genre research, batch 2
 - **State:** open

@@ -2,6 +2,11 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (research tiers accepted as the initial method)
+
+- Owner accepted the method as a starting point, weights to be adjusted after a few runs. Two changes at his direction: tier numbers are rough intent and every scope sets its own targets from an estimate of how many songs exist for it, the estimate being part of the research; and the evidence audit's purpose was unclear, so it is now stated, the researcher records the supporting line from each source, small scopes are checked in full and large ones by sample with a full check on failure. The "10%, pass at 90%" figure was arbitrary and is withdrawn.
+- Helper rules and the genre batch assignments updated to ask for a size estimate and a quoted line per song.
+
 ## 2026-11-23 (research tiers proposal)
 
 - Owner: the colour palette is better. More seed songs are needed; data and tests should come in tiers (about 25 songs for a good genre list, 50 for a deep one, by duration; years from 6 up to 50 to 100 for big markets); research breadth first with weights by importance to the listener; songs ranked and weighted, not all equal; a synthetic test that measures each research scope directly, like a factory acceptance test, with cross-scope tests after.

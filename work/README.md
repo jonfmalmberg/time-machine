@@ -24,7 +24,7 @@ Scheduled helper runs put everything they produce here, and nowhere else. Nothin
 - Touch either database, `dev`, `main`, or another branch.
 - Push more than once, or push more than a few commits (a push of 20 or more commits makes Cloudflare build regardless of the folder).
 - Retry failed research in a loop. It flags what fell short, precisely, and stops.
-- Invent. Every song, date and claim carries the address of the source it was read from. Something recalled but not found in a source is listed separately as unverified.
+- Invent. Every song, date and claim carries the address of the source it was read from and the line on that page that supports it (the chart row or the sentence, quoted). Something recalled but not found in a source is listed separately as unverified.
 - Put a person's email address or any secret key anywhere.
 
 ## Models
