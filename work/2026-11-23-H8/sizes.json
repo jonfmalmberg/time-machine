@@ -1,0 +1,58 @@
+{
+ "saidimusic": {
+  "low": 1500,
+  "high": 6000,
+  "core": 40,
+  "basis": "No source counts recordings. Sa'idi music is mostly played live at weddings and mawlids; what is on record is: four albums by the Musicians of the Nile (Ocora recordings of 1976/79, Real World 1989 and 1996, Long Distance 2006), a large back catalogue of single tracks by Upper Egyptian singers and mizmar bands on Egyptian labels (El Wady Music alone has 15 Metqal Qenawi items on iTunes Egypt, ℗ 1985, and mizmar sa'idi EPs ℗ 1990), studio albums for the belly-dance market (Hollywood Music Center, 2000-2006), and a steady flow of new mizmar sa'idi singles (2023-2026). Real World notes the mizmar village of Djaradjos fell from more than 200 players to about twenty, so the living base is shrinking. An insider's essential list is about 40 recordings, most of them Metqal Qenawi, Shamandi and the Musicians of the Nile.",
+  "confidence": "low"
+ },
+ "lavani": {
+  "low": 2000,
+  "high": 10000,
+  "core": 50,
+  "basis": "No source counts recordings. One Marathi song-lyrics archive (Aathavanitli Gani) tags about 136 film and record songs as lavani; that is the well-known, mostly 1947–1990 film and gramophone layer only. Single singers have whole lavani albums of 8–13 tracks (Sulochana Chavan's Rangat Rangali Lavani, Mala Baghun Martoy Dola Lavnya, Marathi Lavanya; Surekha Punekar's compilation), and Wikipedia names a line of stage singers and poets (Surekha Punekar, Sandhya Mane, Roshan Satarkar, many tamasha troupes since the early 1970s) whose cassette and VCD output is large and uncatalogued, plus a steady stream of new film and online singles. An insider's essential list is about 50 songs, most of them film lavanis.",
+  "confidence": "low"
+ },
+ "maloya": {
+  "low": 1500,
+  "high": 5000,
+  "core": 40,
+  "basis": "No source counts recordings. French Wikipedia says most Réunion musicians and groups use maloya and lists about 25; Granmoun Lélé alone left more than 200 titles; Ziskakan made six local albums in the 1980s; the Bourbon Maloya compilation holds 65 tracks by about 35 performers. Recording began only in 1972 and the genre was banned until 1981, so the catalogue is mostly from 1976 onward, largely local CDs from labels such as Discorama, Oasis, Piros and Cobalt. An insider's essential list is about 40 tracks.",
+  "confidence": "low"
+ },
+ "rara": {
+  "low": 150,
+  "high": 1500,
+  "core": 25,
+  "basis": "No source counts recordings. Published rara is almost all field recording: Folkways FE 4531 (1978, four LP sides), its CD Caribbean Revels (1991, 14 tracks), one volume of the Lomax Haiti box (2009, about 30 short items from 1936–37), two tracks on Rhythms of Rapture (1995), two Stearns tracks on Songs and Dances of Haiti (1952) and Soul Jazz's Rara in Haiti (2010, 12 songs in three medleys). Behind that sit hundreds of bands (Haitian Creole Wikipedia: over 30 in Léogâne alone) whose new songs each season circulate on local cassettes, radio and video, mostly uncatalogued, plus diaspora rara in New York. An insider's essential list is about 25 recordings.",
+  "confidence": "low"
+ },
+ "huapango": {
+  "low": 3000,
+  "high": 15000,
+  "core": 40,
+  "basis": "No source counts recordings. The standard repertoire is a few dozen traditional sones (Spanish Wikipedia lists a dozen as the most popular), each recorded by many trios, usually as three-copla series on record. One 2011 Discos Corasón anthology alone (El Gusto - 40 Años de Son Huasteco) has 44 tracks by about 30 trios; single trios have long catalogues (Trío Xoxocapa's numbered Sones huastecos volumes to at least IV, Trío Tamazunchale ten albums in the iTunes Mexico catalogue, Los Camperos de Valles eight). With hundreds of trios recording since the 1960s, a few thousand to around fifteen thousand recordings is a judgement; an insider's essential list is about 40 performances of the core sones by the classic trios.",
+  "confidence": "low"
+ },
+ "verbunkos": {
+  "low": 1500,
+  "high": 6000,
+  "core": 35,
+  "basis": "MusicBrainz alone lists about 60 recordings with verbunkos and about 75 with verbunk in the title (many of the verbunkos ones are Bartók's Contrasts), a small, uneven sample of a repertoire that Hungarian Romani restaurant bands (the Lakatos dynasty, the 100-member Budapest Gypsy orchestra), state folk ensembles, village bands and táncház groups have recorded since the 1950s, usually as one verbunk or verbunkos-and-friss per album; Bihari alone left 84 compositions that later bands still play. Range is a reasoned guess, not a catalogue count; core is what a Hungarian listener would call essential: the Bihari-Lavotta-Csermák pieces as played by the great Gypsy bands, plus the classic village verbunks (Szatmár, Rábaköz, Kapuvár, Vasvár, Gyimes, Székely).",
+  "confidence": "low"
+ },
+ "morenadaanddiablad": {
+  "low": 3000,
+  "high": 15000,
+  "core": 40,
+  "basis": "No source counts recordings. English Wikipedia says the Oruro Carnival alone has about 10,000 musicians in 150 bands. Bands put out long albums made up only of morenadas or diabladas (Pagador's Morenadas Tradicionales de Bolivia has 31 tracks; a Puno band's Diablada Azoguini anthology has 36). The iTunes catalogue shows many more band albums and yearly singles from Oruro, Puno and northern Chile (Arica, Tocopilla, Antofagasta), and Andean folk groups have recorded hundreds of morenada and diablada arrangements since the 1960s. An insider's essential list is about 40 pieces.",
+  "confidence": "low"
+ },
+ "sevillanas": {
+  "low": 15000,
+  "high": 60000,
+  "core": 50,
+  "basis": "Sevillanas are an annual industry: the first discs of sevillanas came from the Hermanos Toronjo from 1950, and each group or singer usually releases a disc of sevillanas every year before Seville's April Fair (es.wikipedia, Los Romeros de la Puebla); the most prolific years were the 'boom de las sevillanas' of 1983-1988 (es.wikipedia, Sevillanas). Los Romeros de la Puebla alone list about 55 albums from 1968 to 2011, Los del Río more than 40, El Pali more than 20; dozens of other groups (Amigos de Gines, Los Marismeños, Cantores de Híspalis, Salmarina, Los Choqueros, Ecos del Rocío, the coros rocieros) and solo singers add their own yearly discs of about ten sevillanas each, besides 78s of the 1920s-1940s by copla singers. MusicBrainz holds only 40 releases with sevillanas in the title, so it covers this Spanish regional market thinly and does not bound the count. Range is a reasoned guess, not a catalogue count; core is what an Andalusian listener would call essential (the classic sevillanas of the main groups, the Rocío standards, the 1980s boom hits).",
+  "confidence": "low"
+ }
+}

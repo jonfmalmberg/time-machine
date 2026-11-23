@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (genre batch 4)
+
+- H8 accepted as candidates: eight genres (Sa'idi music, lavani, maloya, rara, huapango, verbunkos, morenada and diablada, sevillanas), all full, 197 songs, 594 claims all found by the check, by the helper and again by the lead. Not yet in the data: the ingest step is on a branch waiting for the owner.
+- Weak points the helper named: verbunkos and morenada are tied to their genre only by track or album titles; 11 lavani songs rest on one fan-run lyrics archive; many years are missing or are reissue years.
+- Found by the helper, for a later tree review: lavani (Marathi), garba (Gujarati) and Bihu songs (Assamese) all sit in the tradition "North Indian and Punjabi folk". Under principle 27 these are different languages and places.
+- Helper fired for H11 (batches 1 and 2 redone under the evidence rule).
+
 ## 2026-11-23 (first measured quality of data already on the site)
 
 - H10 accepted; the lead reran the check on its 159 claims: all found, agreeing with the helper.
