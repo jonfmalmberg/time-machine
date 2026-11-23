@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (schema revised; tests and colours approved)
+
+- Owner approved the test registry and the iOS colours: both squash-merged to `dev`. Not on `main`; he has not said to release them.
+- Owner's decisions on the schema: a song is a recording; add a composition table to follow a piece through its covers, and sampling links, now, recorded when research happens to find them; keys are standalone values because artist, title and year are not unique; songs are stored centrally and a scope only defines research; uniqueness is checked when the master table is put together. The site may keep running on today's files until there is time to move.
+- Owner's questions answered in the proposal: country means the artist's scene (the definition MusicBrainz also uses for its artist area), kept on the artist and dated where it changed, with birthplace beside it and recording location not tracked; three years are kept apart (release on the song, written on the composition, heard-there on the link); a remaster is the same song and keeps the original year, with its listed title as an alias; remixes, live and re-recordings are separate songs with a relation. MusicBrainz's style pages read today for both definitions.
+- He asked whether artists, countries, cities, genres and the tree had a schema. They did not: the first draft said "as today". Now written out, including influence lines, presence by place, and layout and tier treated as computed.
+
 ## 2026-11-23 (schema proposal)
 
 - Roadmap 2.3 written as a proposal: `docs/proposals/2026-11-23-schema.md`. Four decisions in it are the owner's: a song is a recording; keys derived from artist, title and year and then frozen; one file per scope with songs joined at build; three weight parts stored.

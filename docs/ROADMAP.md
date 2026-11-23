@@ -41,9 +41,9 @@ Milestone 0 comes first because everything else depends on being able to see and
 **Why:** "There's nothing I can point to and say keep working on this." Tests so far have no record of which prompt produced which result.
 
 - 0.1 Create the GitHub milestones, issues and labels from this file (`review`, `approved`, `flagged`, `bug`, `data`, `ui`, `research`). After Jon approves this roadmap.
-- 0.2 `review` Test registry: `tests/listener/README.md` lists each brief by id and version with its model and what changed; briefs are files that are never edited. Brief `place-time` version 1 registered.
-- 0.3 `review` Test runner: `tests/listener/run.py prepare` generates the exact prompts from the built site and records the brief and data fingerprints; an agent on the registered model judges; `record` checks and stores the scores. The judging step cannot be a plain command because the script cannot call a model.
-- 0.4 `review` Coverage table: `tests/listener/run.py coverage` writes [`COVERAGE.md`](COVERAGE.md) for every genre and every country-decade that has data.
+- 0.2 `done 23 Nov` Test registry: `tests/listener/README.md` lists each brief by id and version with its model and what changed; briefs are files that are never edited. Brief `place-time` version 1 registered.
+- 0.3 `done 23 Nov` Test runner: `tests/listener/run.py prepare` generates the exact prompts from the built site and records the brief and data fingerprints; an agent on the registered model judges; `record` checks and stores the scores. The judging step cannot be a plain command because the script cannot call a model.
+- 0.4 `done 23 Nov` Coverage table: `tests/listener/run.py coverage` writes [`COVERAGE.md`](COVERAGE.md) for every genre and every country-decade that has data.
 - 0.5 `done 23 Nov` What survives of past listener prompts and results: all of it. Briefs, inputs and results are saved in `tests/listener/archive/`. Past scores are treated as provisional until rerun under the registry.
 - 0.6 Proposal: the style guide. Type, colour, buttons, lists, toggles, sheets, icons in the iOS manner, studied against Shirabe Jisho, with one reference page showing every piece. Jon approves it once; all later screens are built from it.
 - 0.7 `done 23 Nov` The weekly research task now works in this repository: each Sunday it completes a small batch of pending genres on a branch named `research/<date>`, pushes it once, and leaves it for review. It no longer touches the old artifact.
@@ -77,7 +77,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 
 - 2.1 `review` Report: inventory of the data as it is: [`research/2026-11-23-data-inventory.md`](research/2026-11-23-data-inventory.md). Every file, what each field means and whether the page reads it, and 812 faults in 20 kinds. The three Hebrew chant dots in Israel are one chant genre grouped on the map with four Tel Aviv genres and fanned out, not duplicate data. Still open from this item: how prominence is calculated and why one chant dominates half of the tunnel (helper assignment H5).
 - 2.2 Report: open music data sources: what each offers, how it is obtained, what attribution it needs. Licences already checked: MusicBrainz core data, Wikidata and Discogs are CC0; MusicBrainz supplementary data is non-commercial only. Still to check: ListenBrainz, Wikipedia, and how large each source is.
-- 2.3 `review` Proposal: the schema: [`proposals/2026-11-23-schema.md`](proposals/2026-11-23-schema.md). Songs and artists get identities; a song's link to a scope carries its role, three weight parts, pass and evidence; a scope carries its size estimate, targets and tier; evidence keeps the exact string. One file per scope; the build keeps producing the shape the page reads today, so the move does not change the site.
+- 2.3 `review` Proposal: the schema: [`proposals/2026-11-23-schema.md`](proposals/2026-11-23-schema.md). Settled by the owner: a song is a recording; compositions and sampling linked from the start; standalone keys; songs in central files, a scope only defines research; duplicates resolved when the master table is put together. Waiting for him: what country and year mean, and the records for artists, places, genres and the tree.
 - 2.4 Proposal: regions. Which ones, how fine-grained, and how a place with no music data looks and behaves on the globe and in lists.
 - 2.5 Proposal: feel. A first vocabulary of moods, whether tempo or key are worth storing, how tags are assigned and how they are checked. Spotify's tempo, key and mood measures are closed to new apps, so the source has to be something else.
 - 2.6 Proposal: weights. The current prominence formula written out, and a stated, adjustable replacement that separates audience size, historical influence and taste.
@@ -151,7 +151,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 - 7.5 Journey screens (look only; behaviour is milestone 9).
 - 7.6 The playlist panel no longer covers the tab bar on phones.
 - 7.7 Album art back on, without lookups: where a song or its album has a MusicBrainz identifier (2.11), the browser loads the cover straight from the Cover Art Archive. No images are stored by us, because the archive gives no licence for copies.
-- 7.8 Colours of regions, traditions and movements on the tree, the map and the tunnel taken from the iOS system palette, in light and dark. The present palette reads as Claude's own, not as an iOS app (owner, 23 Nov). Part of the style guide (0.6): the colours are proposed there first.
+- 7.8 `done 23 Nov, on dev` Region colours on the tree, the map and the tunnel now come from Apple's system colours, light and dark (Human Interface Guidelines, Color, Specifications, values as updated June 2025). Europe indigo, North America blue, Caribbean purple, Latin America green, Africa brown, Middle East and North Africa cyan, South Asia orange, Central Asia yellow, East Asia red, Southeast Asia and Oceania mint. Not yet on the live site.
 
 **Done when:** Jon has reviewed each screen on his phone against the style guide.
 
