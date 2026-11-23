@@ -29,3 +29,4 @@
 .adlog.warn .adbar i{background:#ff9500} .adlog.warn .adlogh span{color:#ff9500}
 .adlog .fine{margin:8px 0 0} .adlog .formrow{align-items:center}
 #view-me .mepage{margin-bottom:14px}
+.adprompt{width:100%;box-sizing:border-box;font:12px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--fg);background:var(--bg);border:0;border-radius:10px;padding:10px;margin:0 0 12px;resize:vertical}

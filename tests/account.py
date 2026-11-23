@@ -11,7 +11,7 @@ SHOTS = sys.argv[1] if len(sys.argv) > 1 else None
 
 # A tiny in-memory imitation of the parts of supabase-js the site uses.
 STUB = r"""
-window.__sb=Object.assign({calls:[],session:null,profile:{handle:null,role:'beta',status:'pending'},taken:['jon'],invites:[],good:'AAAABBBBCCCC',trips:[],events:[],
+window.__sb=Object.assign({requests:[{id:7,kind:'listener',key:'cty:JP|1985-1985|heard|abc',ref:{pl:'cty:JP',label:'Japan',y0:1985,y1:1985,mode:'heard',prompt:'PROMPT TEXT'},n:3,status:'open',last_at:'2026-11-22T10:00:00Z'}],calls:[],session:null,profile:{handle:null,role:'beta',status:'pending'},taken:['jon'],invites:[],good:'AAAABBBBCCCC',trips:[],events:[],
   people:[{id:'u2',handle:'ada',role:'beta',status:'pending',joined:'2026-11-20T10:00:00Z'},{id:'u3',handle:'bix',role:'beta',status:'active',joined:'2026-11-19T10:00:00Z'}]},window.__sb_init||{});
 window.supabase={createClient(url,key,opt){ const st=window.__sb; st.url=url; st.calls.push('createClient'); let cb=null;
   const q=(table)=>{ let op='select', val=null, f={}; const o={
@@ -21,6 +21,8 @@ window.supabase={createClient(url,key,opt){ const st=window.__sb; st.url=url; st
      then(ok){ st.calls.push(op+' '+table); let data=null, error=null;
         if(table==='profiles'&&op==='update'){ if(st.taken.includes(String(val.handle).toLowerCase())) error={code:'23505',message:'duplicate key'}; else Object.assign(st.profile,val); }
         else if(table==='profiles') data=[{id:'u1',...st.profile,joined:'2026-11-18T10:00:00Z'},...st.people];
+        else if(table==='requests'&&op==='update'){ const q=st.requests.find(x=>f.id!=null?x.id===f.id:(x.kind===f.kind&&x.key===f.key)); if(q) Object.assign(q,val); }
+        else if(table==='requests') data=st.requests.filter(x=>x.status==='open');
         else if(table==='invites') data=st.invites.map(c=>({code:c,expires_at:new Date(Date.now()+13.5*864e5).toISOString()}));
         else if(table==='trips'&&op==='select') data=st.trips.filter(t=>!f.user_id||t.user_id===f.user_id);
         else if(table==='trips'&&op==='upsert'){ const i=st.trips.findIndex(t=>t.id===val.id); const row={user_id:'u1',...val}; if(i>=0) st.trips[i]=row; else st.trips.push(row); }
@@ -29,11 +31,13 @@ window.supabase={createClient(url,key,opt){ const st=window.__sb; st.url=url; st
         ok({data,error}); } }; return o; };
   return { from:q,
      rpc(name,args){ st.calls.push('rpc '+name+' '+JSON.stringify(args||{}));
+        if(name==='request_many'){ const out={}; args.req_items.forEach(it=>{ st.requests.push({id:100+st.requests.length,kind:args.req_kind,key:it.key,ref:it.ref,n:1,w:1/args.req_items.length,status:'open',last_at:new Date().toISOString()}); out[it.key]='open'; }); return Promise.resolve({data:out,error:null}); }
+        if(name==='request_add'){ const ex=st.requests.find(x=>x.kind===args.req_kind&&x.key===args.req_key); if(ex){ ex.n++; return Promise.resolve({data:ex.status,error:null}); } st.requests.push({id:99,kind:args.req_kind,key:args.req_key,ref:args.req_ref,n:1,status:'open',last_at:new Date().toISOString()}); return Promise.resolve({data:'open',error:null}); }
         if(name==='create_invite'){ const c='1234ABCD00'+String(10+st.invites.length); st.invites.push(c); return Promise.resolve({data:c,error:null}); }
         if(name==='redeem_invite'){ const c=String(args.invite_code).replace(/[^0-9a-f]/gi,'').toUpperCase();
            if(c!==st.good) return Promise.resolve({data:null,error:{message:'That code is not valid, has expired or has already been used.'}});
            st.profile.status='active'; return Promise.resolve({data:{active:true,have:1,need:1},error:null}); }
-        if(name==='admin_stats') return Promise.resolve({data:{anon:212000,anon_cap:250000,anon7:5300,anon_from:'2026-11-01T00:00:00Z',active:2,pending:st.people.filter(p=>p.status==='pending').length,suspended:0,trips:st.trips.length,rated:0,events7:st.events.length,invites:0},error:null});
+        if(name==='admin_stats') return Promise.resolve({data:{requests:st.requests.filter(x=>x.status==='open').length,anon:212000,anon_cap:250000,anon7:5300,anon_from:'2026-11-01T00:00:00Z',active:2,pending:st.people.filter(p=>p.status==='pending').length,suspended:0,trips:st.trips.length,rated:0,events7:st.events.length,invites:0},error:null});
         if(name==='admin_set_profile'){ const p=st.people.find(x=>x.id===args.target); p.role=args.new_role; p.status=args.new_status; return Promise.resolve({error:null}); } },
      auth:{
      onAuthStateChange(f){ cb=f; setTimeout(()=>f('INITIAL_SESSION',st.session),0); return {data:{subscription:{unsubscribe(){}}}}; },
@@ -44,13 +48,17 @@ window.supabase={createClient(url,key,opt){ const st=window.__sb; st.url=url; st
 def open_page(pw, viewport, init=None, dark=False, query=''):
     """init: None for a visitor with no session; a dict to start signed in with that stand-in state."""
     errors, asked = [], []
-    global anon; anon = []
+    global anon, reqs; anon = []; reqs = []
     browser = pw.chromium.launch()
     page = browser.new_context(viewport=viewport, color_scheme='dark' if dark else 'light').new_page()
     page.on('pageerror', lambda e: errors.append(str(e)))
     def route(r):
         u = r.request.url
         if u.startswith('file:'): return r.continue_()
+        if '/rest/v1/rpc/request_many' in u:   # one ask for several decades
+            d = json.loads(r.request.post_data or '{}'); reqs.append(d); return r.fulfill(status=200, content_type='application/json', body=json.dumps({i['key']: 'open' for i in d['req_items']}))
+        if '/rest/v1/rpc/request_add' in u:   # a visitor's request: plain call, no library
+            reqs.append(json.loads(r.request.post_data or '{}')); return r.fulfill(status=200, content_type='application/json', body='"open"')
         if '/rest/v1/anon_events' in u:   # the anonymous usage log: plain requests, no library
             anon.extend(json.loads(r.request.post_data or '[]')); return r.fulfill(status=201, body='')
         if 'supabase' in u:
@@ -88,6 +96,60 @@ with sync_playwright() as pw:
     assert [e for e in anon if e['action'] == 'filter'][0]['ref']['pl'] == 'cty:JP'
     assert all(set(e) == {'session', 'action', 'ref'} for e in anon), 'unexpected fields in anonymous events'
     p.click('#whobtn'); p.wait_for_timeout(300); assert p.evaluate("curView()") != 'me', 'second tap on the account button did not go back'
+    # requests without an account: a listener test of the prompt on screen, and research for an unresearched decade
+    p.click('#tab-map'); p.wait_for_timeout(300)
+    p.evaluate("resetFilters('all'); setYear(1985); setStay(0); setPlace({k:'cty',iso:'JP'}); stPanelOpen=true; stBarUI(); stPanelUpdate()"); p.wait_for_timeout(400)
+    # Japan 1985 has year lists and a recorded listener test: both rows say so and offer no button to a visitor
+    st = p.inner_text('#ststatus')
+    assert 'Year-by-year hit lists for Japan, 1980s' in st and 'scored 9, 9, 9 out of 10' in st and st.count('Done') == 2, st
+    assert p.locator('#ststatus button').count() == 0, 'a visitor is offered a rerun'
+    # Japan 1995: decade list only, never tested: both buttons
+    p.evaluate("setYear(1995); stPanelUpdate()"); p.wait_for_timeout(400)
+    assert p.inner_text('#sttest') == 'Request' and p.inner_text('#streq') == 'Request'
+    p.evaluate("document.getElementById('sttest').click()"); p.wait_for_timeout(400)
+    assert len(reqs) == 1 and reqs[0]['req_kind'] == 'listener' and reqs[0]['req_ref']['pl'] == 'cty:JP' and reqs[0]['req_ref']['y0'] == 1995 and len(reqs[0]['req_ref']['prompt']) > 100, reqs
+    assert 'Request received' in p.inner_text('.rq[data-kind="listener"]') and p.locator('#sttest').count() == 0
+    shot(p, 'request_listener_phone')
+    p.evaluate("setYear(1955); setPlace({k:'cty',iso:'AR'}); stPanelUpdate()"); p.wait_for_timeout(400)
+    p.evaluate("document.getElementById('streq').click()"); p.wait_for_timeout(400)
+    assert reqs[-1]['req_kind'] == 'research' and reqs[-1]['req_key'] == 'AR_1950_new' and 'Request received' in p.inner_text('.rq[data-kind="research"]'), reqs[-1]
+    # research is asked for in the pieces it is done in: one country, decade by decade. No country or before 1940: nothing to ask for.
+    p.evaluate("setYear(1850); setPlace(null); stPanelUpdate()"); p.wait_for_timeout(400)
+    assert p.locator('#sttest').count() == 1 and p.locator('#streq').count() == 0 and 'Choose a country' in p.inner_text('#ststatus'), p.inner_text('#ststatus')
+    # the United Kingdom over all of history: every decade from the 1940s, one request shared between the unresearched ones
+    p.evaluate("resetFilters('all'); setPlace({k:'cty',iso:'GB'}); stPanelOpen=true; stBarUI(); stPanelUpdate()"); p.wait_for_timeout(400)
+    todo = p.evaluate("[1940,1950,1960,1970,1980,1990,2000,2010,2020].filter(d=>!Object.keys(YEARL.GB||{}).some(y=>decadeKey(+y)===String(d)))")
+    assert len(todo) >= 2 and '9 decades' in p.inner_text('#ststatus') and p.inner_text('#streq') == 'Request %d decades' % len(todo), (todo, p.inner_text('#ststatus'))
+    p.evaluate("document.getElementById('streq').click()"); p.wait_for_timeout(400)
+    assert reqs[-1]['req_kind'] == 'research' and [i['key'] for i in reqs[-1]['req_items']] == ['GB_%d_new' % d for d in todo], reqs[-1]
+    assert p.locator('#streq').count() == 0 and 'Requested' in p.inner_text('.rq[data-kind="research"]'); shot(p, 'request_decades_phone')
+    n_before = len(reqs)   # narrowing to one of those decades shows it as already asked for
+    p.evaluate("setYear(%d); setStay(0); stPanelUpdate()" % (todo[-1] + 1)); p.wait_for_timeout(400)
+    assert p.locator('#streq').count() == 0 and 'Request received' in p.inner_text('.rq[data-kind="research"]') and len(reqs) == n_before, p.inner_text('#ststatus')
+    # the listener test logs the filters as they are
+    p.evaluate("resetFilters('all'); setPlace({k:'cty',iso:'GB'}); stPanelOpen=true; stBarUI(); stPanelUpdate()"); p.wait_for_timeout(400)
+    p.evaluate("document.getElementById('sttest').click()"); p.wait_for_timeout(400)
+    f = reqs[-1]['req_ref']['filter']; assert reqs[-1]['req_kind'] == 'listener' and f['pl'] == 'cty:GB' and f['until'] is True and f['y1'] >= 2026 and f['y0'] < 0, reqs[-1]['req_ref']
+    # genres: the list has one Playlist button per genre, which opens the same panel
+    p.evaluate("resetFilters('all'); stPanelOpen=false; stBarUI()")
+    p.click('#tab-list'); p.wait_for_timeout(400)
+    n_g, n_b = p.evaluate("[document.querySelectorAll('#listbody .gitem').length, document.querySelectorAll('#listbody [data-gpl]').length]")
+    assert n_g > 100 and n_g == n_b and p.locator('#listbody details.pl').count() == 0, (n_g, n_b)
+    full = p.evaluate("Object.keys(PL).find(k=>PL[k].status==='full'&&DEFS[k])"); pend = p.evaluate("Object.keys(byId).find(k=>!DEFS[k])")
+    p.evaluate("openGenrePlaylist(%r)" % full); p.wait_for_timeout(400)
+    assert p.is_visible('#stpanel') and p.is_visible('#stcopy') and not p.is_visible('#stspan') and not p.is_visible('#stpeaks')
+    assert p.input_value('#stprompt') == p.evaluate("promptFor(%r)" % full) and p.locator('#stlinks ol li').count() > 3
+    st = p.inner_text('#ststatus'); assert 'full playlist' in st and p.locator('#streq').count() == 0 and p.inner_text('#sttest') == 'Request', st
+    p.evaluate("document.getElementById('sttest').click()"); p.wait_for_timeout(400)
+    assert reqs[-1]['req_kind'] == 'listener' and reqs[-1]['req_key'].startswith('g:' + full + '|') and reqs[-1]['req_ref']['gid'] == full, reqs[-1]
+    shot(p, 'genre_playlist_phone')
+    p.evaluate("openGenrePlaylist(%r)" % pend); p.wait_for_timeout(400)
+    assert not p.is_visible('#stprompt') and not p.is_visible('#stcopy') and p.locator('#sttest').count() == 1 and p.locator('#streq').count() == 1, 'pending genre lacks a button'
+    p.evaluate("document.getElementById('streq').click()"); p.wait_for_timeout(400)
+    assert reqs[-1]['req_key'] == 'g:' + pend + '_new' and 'Request received' in p.inner_text('.rq[data-kind="research"]'), reqs[-1]
+    shot(p, 'genre_pending_phone')
+    p.evaluate("showView('map')"); p.wait_for_timeout(300); assert not p.is_visible('#stpanel') and p.evaluate("GP") is None, 'genre playlist stayed open outside the list'
+    p.evaluate("stPanelOpen=false; stBarUI()")
     p.click('#whobtn'); p.wait_for_timeout(300)
     p.click('#acctin'); p.wait_for_timeout(500)
     assert any(c.startswith('oauth google file://') for c in p.evaluate("window.__sb.calls"))
@@ -149,10 +211,25 @@ with sync_playwright() as pw:
         p.click('#whobtn'); p.wait_for_timeout(300); p.click("[data-page='admin']"); p.wait_for_timeout(600)
         txt = p.inner_text('#view-me').lower(); assert 'ada' in txt and 'bix' in txt and 'waiting to be let in' in txt and 'nearly full' in txt and '212,000 of 250,000' in txt, txt
         shot(p, 'admin_' + name)
+        assert 'listener test · japan · 1985' in txt and 'asked 3 times' in txt, txt
+        p.click("[data-rq='7']"); p.wait_for_timeout(400); assert 'PROMPT TEXT' in p.input_value('.adprompt')
+        p.click(".adact[data-st='done']"); p.wait_for_timeout(600)
+        assert p.evaluate("window.__sb.requests[0].status") == 'done' and 'No open requests' in p.inner_text('#view-me')
         p.click("[data-ok='u2']"); p.wait_for_timeout(500)
         assert p.evaluate("window.__sb.people.find(x=>x.id==='u2').status") == 'active' and 'Nobody is waiting' in p.inner_text('#view-me')
         p.click("[data-ap='u3']"); p.wait_for_timeout(500)
         assert 'Tokyo' in p.inner_text('#sheet-detail') and 'Suspend' in p.inner_text('#sheet-detail'); shot(p, 'admin_tester_' + name)
+        # the owner may ask for finished work to be run again; a finished request goes back on the open list
+        p.evaluate("UI.sheet.close(); window.__sb.requests.push({id:8,kind:'research',key:'JP_1980_rerun',ref:{},n:1,status:'done',last_at:'2026-11-22T10:00:00Z'})")
+        p.click('#tab-map'); p.wait_for_timeout(300)
+        p.evaluate("resetFilters('all'); setYear(1985); setStay(0); setPlace({k:'cty',iso:'JP'}); stPanelOpen=true; stBarUI(); stPanelUpdate()"); p.wait_for_timeout(400)
+        assert p.inner_text('#streq') == 'Rerun' and p.inner_text('#sttest') == 'Rerun', p.inner_text('#ststatus')
+        shot(p, 'rerun_' + name)
+        p.evaluate("document.getElementById('streq').click()"); p.wait_for_timeout(500)
+        assert p.evaluate("window.__sb.requests.find(x=>x.id===8).status") == 'open' and 'Rerun requested' in p.inner_text('.rq[data-kind="research"]')
+        p.evaluate("document.getElementById('sttest').click()"); p.wait_for_timeout(500)
+        assert p.evaluate("window.__sb.requests.some(x=>x.kind==='listener'&&x.ref&&x.ref.rerun&&x.status==='open')") and 'Rerun requested' in p.inner_text('.rq[data-kind="listener"]')
+        p.evaluate("stPanelOpen=false; stBarUI()")
         assert p.evaluate('document.documentElement.scrollWidth > innerWidth') is False
         assert not errs, errs; b.close(); print('ok admin', name)
 

@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (release 2)
+
+- Jon approved `requests` for `dev` and for the live site. `db/005_requests.sql` run in prod (checked as the visitor role: can call `request_add` and `request_many`, cannot read or insert, cannot call the shared step; the check was rolled back, the table is empty). Squash-merged to `dev`, then `main`.
+- GitHub tracker created from the roadmap: 12 milestones, 72 issues.
+- Jon's instruction on scheduled work: daily scheduled runs are helpers without responsibility for the project. The session with the most context sets their work and reviews what they hand back, as Jon does with that session. Models must be chosen deliberately and each run must report the model it ran on.
+- Not confirmed from a real browser: a request made on the live site.
+
 ## 2026-11-23 (roadmap accepted, requests rounds 2 and 3)
 
 - Jon reviewed the planning documents and accepted them as ready to work from. His addition: build so that design decisions can be presented to him from a high level (data model, test suite, listener tests, architecture). Recorded as principle 26; first version of [`ARCHITECTURE.md`](ARCHITECTURE.md) written; roadmap item 0.11.
@@ -11,7 +18,6 @@ One entry per working session, newest first: what was done, what was decided and
 - Decided without asking, for Jon to overrule: with no country selected, or only years before 1940, the Research row explains what research covers and has no button, because there is no country-decade to attach the request to. A rerun is offered to the owner for a single decade or genre only, not for a multi-decade selection.
 - Confirmed in the dev database: two real requests made from a browser on the preview site are in the table, so the round trip works outside the test stand-in.
 - Not tested: `request_many` from a real browser (checked in the dev database by SQL as the visitor role, and in the local database tests).
-- Still open: `requests` waits for Jon's approval; then `005` runs in prod.
 
 ## 2026-11-23 (checks, requests, weekly task)
 

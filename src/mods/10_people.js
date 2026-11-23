@@ -147,11 +147,12 @@ if(whoBtn) whoBtn.addEventListener('click',()=>{ if(curView()==='me') location.h
 function openAccount(){ if(me()) page='acct'; if(curView()!=='me'){ backTo=curView(); location.hash='me'; } else render(); }
 
 /* ---- Admin (owner only): totals, people waiting, every tester and what they did ---- */
-let AD={stats:null,people:null,err:'',at:0};
+let AD={stats:null,people:null,reqs:null,err:'',at:0};
 const ROLEN={beta:'Beta tester',principal:'Principal tester',owner:'Owner'};
 async function adminLoad(){ const c=cl(); if(!c) return; AD.at=Date.now();
-  try{ const [s,p]=await Promise.all([c.rpc('admin_stats'),c.from('profiles').select('id,handle,role,status,joined').order('joined',{ascending:false}).limit(1000)]);
-    if(s.error) throw s.error; if(p.error) throw p.error; AD.stats=s.data; AD.people=p.data||[]; AD.err=''; }
+  try{ const [s,p,q]=await Promise.all([c.rpc('admin_stats'),c.from('profiles').select('id,handle,role,status,joined').order('joined',{ascending:false}).limit(1000),
+      c.from('requests').select('id,kind,key,ref,n,w,status,last_at').eq('status','open').order('w',{ascending:false}).limit(100)]);
+    if(s.error) throw s.error; if(p.error) throw p.error; AD.stats=s.data; AD.people=p.data||[]; AD.reqs=q.error?null:(q.data||[]); AD.err=''; }
   catch(e){ AD.err=(e&&e.message)||'The admin data could not be read.'; }
   if(curView()==='me'&&page==='admin') render(); }
 const pRow=p=>`<button type="button" class="rowb adp" data-ap="${p.id}"><span class="rmedia"><span class="avatar sm${p.status==='active'?'':' guest'}">${p.handle?esc(p.handle.slice(0,1).toUpperCase()):ic('person')}</span></span><span class="rmain"><b>${p.handle?esc(p.handle):'No handle yet'}</b><small>${esc((p.status==='active'?ROLEN[p.role]||p.role:p.status==='pending'?'Waiting':'Suspended')+' · joined '+fmtD(Date.parse(p.joined)))}</small></span>${p.status==='pending'?`<span class="lbtn primary adok" data-ok="${p.id}">Let in</span>`:`<span class="rchev">${ic('chev')}</span>`}</button>`;
@@ -160,11 +161,23 @@ function adminHtml(){ if(!AD.people&&!AD.err){ if(Date.now()-AD.at>3000) adminLo
   const s=AD.stats||{}, P=AD.people||[], mine=me(), wait=P.filter(p=>p.status==='pending'), rest=P.filter(p=>p.status!=='pending'&&(!mine||p.id!==mine.id));
   const cell=(n,l)=>`<span class="stat"><b>${n==null?'–':n}</b><small>${l}</small></span>`;
   return `<div class="meadmin">${AD.err?`<p class="fine acctmsg">${esc(AD.err)}</p>`:''}
-    <div class="mestats">${cell(s.active,'testers')}${cell(s.pending,'waiting')}${cell(s.trips,'trips')}${cell(s.rated,'rated')}${cell(s.events7,'events, 7 days')}${cell(s.invites,'open invites')}</div>
+    <div class="mestats">${cell(s.active,'testers')}${cell(s.pending,'waiting')}${cell(s.requests,'requests')}${cell(s.trips,'trips')}${cell(s.rated,'rated')}${cell(s.events7,'events, 7 days')}${cell(s.invites,'open invites')}</div>
     <p class="shlabel">Waiting to be let in</p>${wait.length?`<div class="rows">${wait.map(pRow).join('')}</div>`:`<p class="fine adnone">Nobody is waiting.</p>`}
     <p class="shlabel">Testers</p>${rest.length?`<div class="rows">${rest.map(pRow).join('')}</div>`:`<p class="fine adnone">No other testers yet. Invite one from Account.</p>`}
+    <p class="shlabel">Requests from visitors</p>${reqHtml()}
     <p class="shlabel">Anonymous usage log</p>${anonHtml(s)}
     <p class="fine">Issues and feedback from testers will be listed here once that feature is built.</p></div>`; }
+/* Requests for a listener test or for research: most asked-for first. Tap one to read it and settle it. */
+const reqTitle=r=>{ const f=r.ref||{}; return (r.kind==='listener'?'Listener test':'Research')+' · '+(f.label||r.key)+(r.kind==='listener'&&f.y0!=null?' · '+(f.y0===f.y1?fmtY(f.y0):fmtY(f.y0)+'–'+fmtY(f.y1)):''); };
+/* n counts asks; w is their weight: an ask spread over ten decades adds 0.1 to each */
+const askN=r=>`Asked ${r.n} time${r.n===1?'':'s'}`+(r.w!=null&&Math.abs(r.w-r.n)>.005?`, weight ${(+r.w).toFixed(2).replace(/0$/,'')}`:'');
+function reqHtml(){ const R=AD.reqs; if(R==null) return `<p class="fine adnone">Not available.</p>`; if(!R.length) return `<p class="fine adnone">No open requests.</p>`;
+  return `<div class="rows">${R.map(r=>`<button type="button" class="rowb adp" data-rq="${r.id}"><span class="rmain"><b>${esc(reqTitle(r))}</b><small>${askN(r)} · last ${fmtD(Date.parse(r.last_at))}</small></span><span class="rchev">${ic('chev')}</span></button>`).join('')}</div>${R.length===100?'<p class="fine">Showing the 100 most asked-for.</p>':''}`; }
+function openReq(id){ const r=(AD.reqs||[]).find(x=>String(x.id)===String(id)), c=cl(); if(!r||!c) return; const f=r.ref||{};
+  const b=UI.detail(reqTitle(r),`<p class="fine dsub">${askN(r)} · last ${fmtD(Date.parse(r.last_at))}${f.mode?' · '+(f.mode==='home'?'made there':'heard there'):''}</p>
+    ${f.prompt?`<p class="shlabel">The prompt to test</p><textarea class="adprompt" readonly rows="8">${esc(f.prompt)}</textarea>`:''}
+    <div class="rows adacts"><button type="button" class="rowb adact" data-st="done">Mark as done</button><button type="button" class="rowb adact danger" data-st="declined">Decline</button></div>`);
+  b.onclick=async ev=>{ const x=ev.target.closest('.adact'); if(!x) return; UI.sheet.close(); const {error}=await c.from('requests').update({status:x.dataset.st}).eq('id',r.id); AD.err=error?(error.message||'That did not work.'):''; await adminLoad(); }; }
 /* The anonymous log keeps the newest rows up to its limit; past that the oldest are replaced. Warn before that happens so they can be saved first. */
 function anonHtml(s){ if(s.anon==null) return `<p class="fine adnone">Not available.</p>`; const cap=s.anon_cap||1, pc=Math.min(100,Math.round(100*s.anon/cap)), warn=pc>=80, full=s.anon>=cap;
   return `<div class="adlog${warn?' warn':''}"><div class="adlogh"><b>${Number(s.anon).toLocaleString()} of ${Number(cap).toLocaleString()} rows</b><span>${pc}%</span></div>
@@ -189,7 +202,8 @@ async function openTester(id){ const p=(AD.people||[]).find(x=>x.id===id), c=cl(
   const {data,error}=await c.from('trips').select('*').eq('user_id',id).order('created_at',{ascending:false}).limit(200);
   const host=b.querySelector('#adtrips'); if(!host) return;
   host.innerHTML=error?`<p class="fine">${esc(error.message||'Could not read.')}</p>`:(data&&data.length?`<div class="triplist adtl">${data.map(r=>`<div class="adtrip">${tripRow(fromDb(r),false)}</div>`).join('')}</div>${data.length===200?'<p class="fine">Showing the latest 200.</p>':''}`:`<p class="fine">No travels yet.</p>`); }
-function wireAdmin(box){ const ex=box.querySelector('#adexp'); if(ex) ex.onclick=()=>exportAnon(ex,box.querySelector('#adexpmsg'));
+function wireAdmin(box){ box.querySelectorAll('[data-rq]').forEach(r=>r.onclick=()=>openReq(r.dataset.rq));
+  const ex=box.querySelector('#adexp'); if(ex) ex.onclick=()=>exportAnon(ex,box.querySelector('#adexpmsg'));
   box.querySelectorAll('[data-ap]').forEach(r=>r.onclick=ev=>{ const ok=ev.target.closest('[data-ok]'); const p=(AD.people||[]).find(x=>x.id===r.dataset.ap); if(!p) return; if(ok){ setProfile(p.id,p.role,'active'); return; } openTester(p.id); }); }
 
 window.PEOPLE={ openAccount, me, isGuest, isAdmin, history:()=>hist(), heardGenres, travelled, taste, add, setStatus, setField, remove:removeEntry, onChange:f=>subs.push(f), render, unreviewed:()=>[] };
@@ -197,7 +211,7 @@ VIEWHOOK.me=render;
 /* follow the account: when someone becomes an active tester, fetch their travels; redraw on every change */
 let lastId=null, wasPending=false;
 if(A()) A().onChange(()=>{ const m=me(), id=m?m.id:null, pr=A().profile(), changed=id!==lastId; if(changed){ if(id&&wasPending) page='acct';   /* just let in: stay on the account controls */
-    lastId=id; SYNC='idle'; AD={stats:null,people:null,err:'',at:0}; if(id) pull(); } wasPending=!!(pr&&pr.status==='pending'); fire(); if(curView()==='me'&&(changed||!(page==='acct'&&id&&document.getElementById('acctbox')))) render(); });
+    lastId=id; SYNC='idle'; AD={stats:null,people:null,reqs:null,err:'',at:0}; if(id) pull(); } wasPending=!!(pr&&pr.status==='pending'); fire(); if(curView()==='me'&&(changed||!(page==='acct'&&id&&document.getElementById('acctbox')))) render(); });
 if(curView()==='me') render();
 
 /* label lists that came from new research and have not been listener-tested */

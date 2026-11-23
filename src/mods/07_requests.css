@@ -1,0 +1,9 @@
+.reqok{color:#248a3d} .reqerr{color:#ff3b30}
+.rqs{background:var(--rowbg);border-radius:12px;display:flex;flex-direction:column}
+.rq{display:flex;align-items:center;gap:10px;padding:10px 12px} .rq+.rq{border-top:.5px solid var(--line)}
+.rqm{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px} .rqm b{font:600 14px var(--body)} .rqm small{font-size:12px;line-height:1.35;color:var(--muted)}
+.rqr{flex:none;display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.rqb{font:500 13px var(--body);color:var(--muted)} .rqb.ok{color:#248a3d}
+.gplrow{align-items:center;margin-top:8px}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .reqok,:root:not([data-theme="light"]) .rqb.ok{color:#30d158} }
+:root[data-theme="dark"] .reqok,:root[data-theme="dark"] .rqb.ok{color:#30d158}

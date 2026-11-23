@@ -21,7 +21,7 @@ window.TRACK=track; window.TRACKFLUSH=flush;
 /* what gets recorded */
 const pk=p=>{ if(!p) return null; if(p.k==='cty') return 'cty:'+p.iso; if(p.k==='reg') return 'reg:'+p.reg; if(p.k==='city'){ const c=CITIES[p.i]; return c?'city:'+c.iso2+':'+c.name:null; } if(p.k==='multi') return 'multi:'+(p.items||[]).map(pk).join('+').slice(0,200); return null; };
 const gk=g=>!g?null:g.k==='multi'?'multi:'+(g.items||[]).map(x=>x.k+':'+x.id).join('+').slice(0,200):g.k+':'+g.id;
-window.PLKEY=pk;
+window.PLKEY=pk; window.GKEY=gk;
 track('session',{w:innerWidth,h:innerHeight,dark:matchMedia('(prefers-color-scheme: dark)').matches,lang:navigator.language,ref:(document.referrer?new URL(document.referrer).hostname:'')||null,v:curView()});
 const showView0=showView; showView=function(v){ const r=showView0.apply(this,arguments); try{ track('view',{v}); }catch(e){} return r; };
 /* filters: one row once the choice has settled, not one per drag step */

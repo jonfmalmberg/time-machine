@@ -31,7 +31,7 @@ The app only succeeds if it feels good to use. Rules here are a floor; the visio
 - Two projects: dev and prod. Addresses and public keys are in `src/mods/04_config.js`. The prod address uses prod; every other address, including localhost, uses dev.
 - Work freely in dev. Change prod only with the owner's approval, by running the numbered files in `db/` in order.
 - User data in prod is immutable without the owner's explicit approval: no change may delete, rewrite or break it.
-- Every table: `revoke all` first, row-level security on, explicit grants for exactly what the site uses. Nothing is readable by visitors who are not signed in; the only table they can write to is `anon_events`.
+- Every table: `revoke all` first, row-level security on, explicit grants for exactly what the site uses. Nothing is readable by visitors who are not signed in; the only things they can do are add rows to `anon_events` and file a request through `request_add()` or `request_many()`.
 - Never commit a secret key. Only publishable keys appear in the repository.
 - Stay on free plans with no payment card, so no bill is possible.
 
@@ -46,6 +46,7 @@ The app only succeeds if it feels good to use. Rules here are a floor; the visio
 ## Code layout
 - `src/template.html`: markup, core styles, core script. `src/mods/NN_name.js|css`: feature modules, joined in file-name order; each script module runs in its own function and reaches the page's top-level names directly.
 - `data/*.json`: one file per key of the page's `DATA` object, one entry per line.
+- `data/tests.json`: one line per synthetic-listener test that has been run (country `iso` with years `y0`–`y1`, or genre `g`). The playlist panel reads it to show a test as done; add a line whenever a test is run.
 
 ## People
 - Issues the owner raises can be worked on directly. Issues from other users need the owner's approval first.

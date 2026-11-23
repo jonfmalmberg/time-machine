@@ -39,6 +39,7 @@ Everything hangs off **genres** (the code calls them movements). There are 593, 
 | `ysrc.json` | 1,205 | The sources behind the year lists (title and address) |
 | `iso.json`, `cities.json`, `neAlias.json` | 226, 1,619, 112 | Countries, cities and areas (with founding dates and historical names), country-name aliases for the map |
 | `langs.json`, `isoLang.json`, `cityLang.json` | 42, 139, 14 | Prompt wording in 42 languages and which language goes with which place |
+| `tests.json` | 17 | Synthetic listener tests that have been run: country and year range (or genre), date, scores, result. The playlist panel reads it to show a test as done |
 | `known.json`, `done.json`, `indoc.json`, `notes.json`, `method.json` | small | Flags and notes carried over from the artifact. Not yet reviewed; some may be dead (roadmap 2.1) |
 
 **Known weaknesses of this model**, which milestone 2 exists to fix:
@@ -59,7 +60,7 @@ Only things that belong to people. Every table starts with all access removed; r
 | `trips` | A saved playlist request: place, years, genre (all as stable keys), status, rating, note | Active members, their own rows only |
 | `events` | Usage events from testers | Insert only; the owner reads |
 | `anon_events` | Usage events from visitors without an account; keeps the newest 250,000 | Insert only, rate-limited; the owner reads |
-| `requests` | Requests for a listener test or for research (on branch `requests`, dev database only, not released) | Anyone can add through one function; the owner reads and settles |
+| `requests` | Requests for a listener test or for research. One row per distinct thing asked for, with a count of asks and a weight (an ask spread over several decades gives each an equal share of one request) | Anyone can add through two functions (`request_add`, `request_many`); the owner reads and settles |
 
 Two databases: dev (used by every address except the live one) and prod. Prod is changed only by running the numbered files, with the owner's approval.
 
@@ -68,11 +69,20 @@ Two databases: dev (used by every address except the live one) and prod. Prod is
 | Test | What it proves | What it does not |
 | :- | :- | :- |
 | `tests/smoke.py` | The built page opens on a phone and a desktop size with no script errors, every tab opens, no sideways scroll | That anything on the tabs is correct |
-| `tests/account.py` | Sign-in, pending and active states, invites, saving trips, usage events, the admin page, requests: each as a scripted visit | It runs against a stand-in for the database, so it does not prove the real database answers the same way |
+| `tests/account.py` | Sign-in, pending and active states, invites, saving trips, usage events, the admin page, the playlist panel for genres and for place and time, requests and reruns: each as a scripted visit | It runs against a stand-in for the database, so it does not prove the real database answers the same way |
 | `db/test.sh` | The access rules: who can read and write what, the caps and flood guards, on a throwaway local database with the real SQL files | That the hosted database has had the same files run |
 | Synthetic listener tests | Whether a playlist's seed songs feel right to a simulated local of that place and time, scored 1 to 10, blind against the older lists | Nothing about a real person. They were run by hand in three rounds; the briefs, inputs and results are saved in `tests/listener/archive/`, but there is no way yet to rerun one from a recorded version (roadmap 0.2 to 0.4) |
 
 Not tested at all today: the correctness of the music data itself (beyond the listener rounds), the map and tunnel drawing, journeys, and the real sign-in round trip with Google.
+
+## How a request works
+
+The playlist panel is one sheet with two modes, a genre or a place and time. Both show two rows.
+
+- **Research** speaks in the pieces research is actually done in. For a genre that is the genre. For a place and time it is one country, decade by decade from the 1940s. A wide time filter lists its decades as researched, requested or not yet, and one button asks for the rest as a single request shared between them.
+- **Synthetic listener test** is about exactly what is on screen: the filters and the prompt are logged as they are, to be judged later.
+- "Done" comes from the data on the page (research) and from `data/tests.json` (listener tests). "Requested" is remembered in the visitor's browser only, because visitors cannot read the request list.
+- Only the owner is offered a rerun of finished work.
 
 ## Decisions and why
 
