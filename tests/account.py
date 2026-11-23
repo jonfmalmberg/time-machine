@@ -150,12 +150,15 @@ with sync_playwright() as pw:
     p.evaluate("document.getElementById('sttest').click()"); p.wait_for_timeout(400)
     assert reqs[-1]['req_kind'] == 'listener' and reqs[-1]['req_key'].startswith('g:' + full + '|') and reqs[-1]['req_ref']['gid'] == full, reqs[-1]
     shot(p, 'genre_playlist_phone')
+    # on a phone the open panel leaves the tab bar visible and usable
+    tb, pn = p.evaluate("[document.querySelector('nav.tabbar').getBoundingClientRect().top, document.getElementById('stpanel').getBoundingClientRect().bottom]")
+    assert pn <= tb + 1, 'the playlist panel covers the tab bar (%s > %s)' % (pn, tb)
     p.evaluate("openGenrePlaylist(%r)" % pend); p.wait_for_timeout(400)
     assert not p.is_visible('#stprompt') and not p.is_visible('#stcopy') and p.locator('#sttest').count() == 1 and p.locator('#streq').count() == 1, 'pending genre lacks a button'
     p.evaluate("document.getElementById('streq').click()"); p.wait_for_timeout(400)
     assert reqs[-1]['req_key'] == 'g:' + pend + '_new' and 'Requested' in p.inner_text('.rq[data-kind="research"]'), reqs[-1]
     shot(p, 'genre_pending_phone')
-    p.evaluate("showView('map')"); p.wait_for_timeout(300); assert not p.is_visible('#stpanel') and p.evaluate("GP") is None, 'genre playlist stayed open outside the list'
+    p.click('#tab-map'); p.wait_for_timeout(300); assert not p.is_visible('#stpanel') and p.evaluate("GP") is None, 'genre playlist stayed open outside the list'
     p.evaluate("stPanelOpen=false; stBarUI()")
     p.click('#whobtn'); p.wait_for_timeout(300)
     p.click('#acctin'); p.wait_for_timeout(500)

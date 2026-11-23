@@ -26,6 +26,10 @@ const sp=document.getElementById('stpanel');
 if(sp){ const g=document.createElement('div'); g.className='sheet-grab'; sp.insertBefore(g,sp.firstChild); const dis=()=>{ sp.style.transform=''; const x=document.getElementById('stpclose'); if(x) x.click(); };
   draggable(g,sp,dis); const h=sp.querySelector('.sthead'); if(h) draggable(h,sp,dis); const x=document.getElementById('stpclose'); if(x){ x.innerHTML=ic('x'); x.className='sheet-x'; } }
 window.UI={ sheet:{open,close,current:()=>cur&&cur.id}, ic };
+/* the playlist panel sits above the tab bar on phones, so the tabs stay in reach while it is open: --tabh is the bar's height when it is at the bottom, 0 when it is at the top */
+(function(){ const tb=document.querySelector('nav.tabbar'); if(!tb) return;
+  const set=()=>{ const r=tb.getBoundingClientRect(), atBottom=r.top>innerHeight/2; document.documentElement.style.setProperty('--tabh',(atBottom?Math.round(innerHeight-r.top):0)+'px'); };
+  set(); addEventListener('resize',set); addEventListener('orientationchange',set); setTimeout(set,400); if(window.ResizeObserver) new ResizeObserver(set).observe(tb); })();
 /* ---- reusable windowed list: only the rows on screen exist, so 10 rows and 100,000 rows cost the same ----
    UI.vlist(host,{rowH, count:()=>n, row:i=>html, scroller?}) -> {refresh(), update(), scrollTo(i)}
    Rows are fixed height and absolutely placed inside a spacer; the scroller is the view the list sits in. */

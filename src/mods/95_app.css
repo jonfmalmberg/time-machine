@@ -114,7 +114,7 @@ input[type=range]{accent-color:var(--accent)}
 #sheet-rand .sheet-body{padding-top:8px}
 #helpnote p,#help p{margin:0 0 10px} .keyline.inhelp{display:flex!important;flex-direction:column;align-items:flex-start;gap:6px;font-size:13px}
 /* playlist panel: a bottom sheet that leaves the view usable */
-.stpanel{left:0;right:0;bottom:0;top:auto;width:auto;max-height:74dvh;border:0;border-radius:18px 18px 0 0;background:var(--elev);box-shadow:0 -6px 40px rgb(0 0 0 / .24);padding:0 16px calc(16px + env(safe-area-inset-bottom,0px));z-index:30;gap:10px;animation:sheetup .34s cubic-bezier(.2,.9,.3,1);overscroll-behavior:contain}
+.stpanel{left:0;right:0;bottom:var(--tabh,0px);top:auto;width:auto;max-height:calc(74dvh - var(--tabh,0px));border:0;border-radius:18px 18px 0 0;background:var(--elev);box-shadow:0 -6px 40px rgb(0 0 0 / .24);padding:0 16px 16px;z-index:30;gap:10px;animation:sheetup .34s cubic-bezier(.2,.9,.3,1);overscroll-behavior:contain}
 @keyframes sheetup{from{transform:translateY(100%)}to{transform:none}}
 .stpanel .sthead{align-items:center;padding-top:2px;touch-action:none} .stpanel .sthead b{font:700 20px var(--display);letter-spacing:-.015em}
 .stpanel .sthead .label{display:none}
