@@ -1,0 +1,250 @@
+{
+ "dohori": {
+  "alias": {
+   "सालको पातको टपरी हुनी": "Salko Patko Tapari Huni",
+   "Banki Chari Banaima Ramayo": "Banki chari banaima ramayo (Wikipedia); Banki Chari (iTunes)",
+   "Siriri Lau Hawa Chalyo": "Siriri  Lau Hawa Chalyo",
+   "सितल दिने पिपल समी छ": "Sital Dine Pipal Sami Cha / Shital Dine Pipal Sami Cha",
+   "Phul Ramro Gulabko": "Phool Ramro Gulab Ko",
+   "Euta Aatma Chha": "Euta Aatma Cha",
+   "रुमाल हल्लाई हल्लाई": "Rumal Hallai Hallai (iTunes); Rumal Halai Halai (Wikipedia)",
+   "Simsime Panima": "Sim Sime Paanima",
+   "बोल माया": "Bola Maya; बोल मायामा",
+   "गल्बन्दि": "Galbandi; Galbandi Chyatiyo",
+   "Jhim Jhim Sanu Dohori": "Jhim jhim Sanu Dohori",
+   "Parewa Ko Jodi: Nepali Lok Dohori": "Parewa Ko Jode - Nepali Lok Dohori - EP",
+   "Siriri Lau Hawa Chalyo: Lok Dohori": "Siriri Lau Hawa Chalyo - Lok Dohori",
+   "Pare Sano Jaat": "Pare Sano Jaat (track); Parey Sano Jaat (album)",
+   "Devi Gharti Magar": "Devi Gharti; Devi Garti",
+   "Yam Chhetri": "Yaam Chhetri",
+   "Sero Phero Salaam Chha Mero": "Sero phero Salaam chha Mero"
+  },
+  "unverified": [
+   "Romanised titles are kept as the pages spell them where no page gives the Devanagari; Devanagari is used only where a Nepali Wikipedia page prints it (सालको पातको टपरी हुनी, सितल दिने पिपल समी छ, रुमाल हल्लाई हल्लाई, बोल माया, गल्बन्दि, ख्याल ख्यालमै दिल बस्यो कान्छी सालीमा, तानसेन खस्यौली). The lead may want Devanagari for the rest; none was invented.",
+   "Year conflict: 'Rumal Hallai Hallai' is 2021 on English Wikipedia (Kulendra Bishwakarma songs table) but 2024-09-24 on iTunes; the playlist uses 2021.",
+   "iTunes dates are digital release dates and may be later than first issue: 'Simsime Panima' track rows say 1996-04-29 on a 2023 Music Nepal reissue; Indreni Cassette Centre releases (2008-2011) may be reissues of older cassettes.",
+   "Prem Raja Mahat & Rekha Shah 'Simsime Panima': tied to dohori only by Mahat's page category 'Dohori singers' (and its Dohori link); no page calls the song itself dohori.",
+   "Badri Pangeni 'ख्याल ख्यालमै दिल बस्यो कान्छी सालीमा': Nepali Wikipedia names it his best-known song (album 'सुसुरालीमा') but gives no year; the next sentence credits a song with Sindhu Malla on the album 'ससुराली', so the duet partner is likely Sindhu Malla but is not stated for this title. Year null, partner left off.",
+   "Bom Bahadur Karki & Prem Raja Mahat 'Paanko Paat' (Music Nepal, 1988-07-14 on iTunes): exists, but a group song tied to dohori only by Mahat's category. Left out.",
+   "Pashupati Sharma 'Lutna Sake Lut' (2019 on Wikipedia, 2022 on iTunes): a solo satirical song, genre 'Satire' on Wikipedia; not a duet. Left out.",
+   "Prem Raja Mahat & Bam Bahadur Karki 'Khola Pari Nirmaya' (1986, Music Nepal's first folk song): named on Wikipedia, no record page read and no dohori tie for the song. Left out.",
+   "Field recordings of village or rodhi ghar dohori: none found on a page a script can read (CREM-CNRS search did not filter; no MusicBrainz release; Smithsonian not tried). Left out.",
+   "Anna Stirr's study (Free Library copy) refused scripts ('Just a moment'); the Himal Southasian article is paywalled after its opening paragraphs. Neither used beyond the readable text.",
+   "Ram Thapa's albums 'Sero Phero Salaam Chha Mero' and 'Arya Bhanjyang' are listed as dohori on Wikipedia with no year or track list; kept as albums only.",
+   "Near years: Hira Devi Waiba 'Chura ta Hoina Astura' and Narayan Gopal 'Euta Manchhe Ko' have no year on the pages read; stored null.",
+   "MusicBrainz: one search returned 'server busy' and the second found only one Nepali dohori release (Janaki Panth, 'Babal Dami (Teej Dohori)', 2014, f21bc10d-6cf3-44e4-a1cb-c3857950ef13); not used, as its MusicBrainz record was not read."
+  ]
+ },
+ "tamangselo": {
+  "alias": {
+   "Ramri Ta Ramri Kati Sar Ramri": "Smt. Hira Waiba",
+   "Aafuta Waiba (Tamang Selo)": "Aafuta Waiba (Tamang Selo) [feat. Sobit Rana, Krishna Lama & Dhaneswar Tiwari]",
+   "Chyangba Ho": "Chyangba HO",
+   "Kalkatye Kangiyo (Tamang Selo)": "Kalkatye Kangiyo (Tamang Selo) [Tune of Central Nepal] [feat. Kharka Bhudha Magar & Dhan Bdr. Gurung]",
+   "Jureli Mama (Tamang Selo)": "Jureli Mama  Tamang Selo (feat. Sumina Lo)",
+   "Hira Devi Waiba": "Smt. Hira Waiba",
+   "Mathi Mathi Sailungema": "Mathi Mathi Sailunge Ma (Kathmandu Post spelling; iTunes: Mathi Mathi Sailungema)"
+  },
+  "unverified": [
+   "Hira Devi Waiba, 'Chura ta Hoina Astura' (Wikipedia: 'said to be the first Tamang Selo ever recorded'): no recording found on iTunes or MusicBrainz, and the cited Tamang Online article (and its Wayback copy) could not be fetched (connection refused/closed). Left out of the playlist; recorded in the definition only through the Wikipedia sentence.",
+   "Paruhang Sumnima, 'Tamang Selo' (Charly Records compilation World Classics: Gum Jukeeyo, 2006; iTunes 164937090): found, but it sits on a reggae compilation with no other Nepali context; left out as doubtful.",
+   "Sarala, Parbati, Gajab Bahadur Josh Brody & Bhishan Mukarung, 'Tamang Selo Nachau' (Music Nepal compilation Solti, iTunes 1700868068): found; left out as a second version from the same Gajab Bahadur source as 'Tamang Selo' on Soaltee.",
+   "Roj Moktan & Indira Lama, 'Phaaparey Selo' (Ranjana, 2012; iTunes 1220120072): found; title names only 'selo', not Tamang, so not added beyond the Fapare Selo single already used.",
+   "Kutumba, 'Tamang Selo' on the 2023 album Kutumba (iTunes 1762994424): same band and title as the 2005 Folk Roots track; not added as a duplicate.",
+   "More than 100 single-track releases from 2023-2026 that name Tamang selo in the title (Raj Kumar Dong Tamang, Chitra Bahadur Tamang, Jivan Bomjan Tamang, Susmita Syangtan, Zidan Waiba Tamang, uploads credited to 'Tamang selo song'): seen in the iTunes search; only three were used, as the rest are hard to tell apart and some look like channel re-uploads.",
+   "Hira Devi Waiba's other Saregama tracks ('Fariyaa Layi Die Chan Tai Pani', 'E Sangho Sahanaiko Sanketle', 'Undho Janda Thiyo Sakhi Chitachange'; iTunes 1812080181): found, but nothing read ties these individual songs to Tamang selo rather than general Nepali folk song.",
+   "MusicBrainz: only three 'Tamang Selo' recordings (Kutumba x2, Dhaneswar Tiwari/Sobit Rana/Durga Gurung on 'Saurav (Music for Relaxation)'); the first query got a 503 busy reply and was retried once. Not used, as iTunes covered the same tracks.",
+   "Ekantipur, 'Damphu Selo's Century Journey' book (6 Nov 2026): only the summary is in the page text; the article body loads by script, so the book's history of the genre could not be read."
+  ]
+ },
+ "pasillo": {
+  "alias": {
+   "El alma en los labios": "El Alma en los Labios",
+   "Náufrago de amor": "Náufrago de Amor",
+   "A unos ojos": "A Unos Ojos (Pasillo Ecuador)",
+   "Profunda herida": "Profunda Herida (Pasillo Ecuador)",
+   "En las lejanías": "Lejanias",
+   "Esta pena mía": "Esta Pena Mia (feat. India Martínez)",
+   "Invernal": "Invernal (feat. Gaby Moreno)",
+   "Ángel de luz": "Ángel de Luz (feat. Trío Alvarado)",
+   "La gata golosa": "Gata Golosa",
+   "El trébol agorero": "El Trébol Agorero (Calvo's list: Trébol agorero)",
+   "Homenaje a Luis A. Calvo": "Homenaje a Luis A Calvo",
+   "Dúo Ecuador": "Dúo Ecuador (Enrique Ibáñez Mora & Nicasio Safadi",
+   "Julio Jaramillo": "julio jaramillo",
+   "Olimpo Cárdenas": "Olimpo Cardenas",
+   "Garzón y Collazos": "Garzon y Collazos",
+   "Dúo Benítez-Valencia": "Dúo Benítez-Valencia (also Benítez - Valencia)"
+  },
+  "unverified": [
+   "Silva y Villalba, 'Qué más quieres de mí' (won the 1976 Villavicencio festival as a pasillo, per their Spanish Wikipedia page): no recording found on a readable page, so left out.",
+   "Hermanos Miño Naranjo, 'Tú y yo': the Miño Naranjo page credits the song to Manuel Coello and dates the Barcelona win 1964; the Paredes Herrera page gives music by Paredes Herrera, poem by Manuel Coello, and 1963. Year written left null.",
+   "Garzón y Collazos, 'Hacia el calvario' (La Subienda, Vol. XII, ℗ 1962 Sonolux): found on iTunes, but no page read calls the song a pasillo, so only Olimpo Cárdenas's version on Los pasillos de oro (tie by album title) is used.",
+   "Carlos Vieco's own pasillos 'Invierno y primavera', 'Triste y lejano' and 'Atardecer' (named on his Spanish Wikipedia page): no recording looked up by title on a readable page.",
+   "Los Violines de Lima, 'Gala del Pasillo Ecuatoriano' (iTunes id 1743354225; tracks dated 1968, ℗ 2022 Manito Record's): seen, not used; the dates and the group's identity are unclear.",
+   "Julio Jaramillo, 'Guayaquil de mis amores' and 'Sendas distintas' on Mis mejores pasillos (Vol. 1): found, but not used to avoid repeating songs already in the list by their first interpreters.",
+   "Dúo Ecuador recordings: the 2018 Phorminx reissue covers 1930-1940; no page read gives the date of each take, so release years are null.",
+   "Olimpo Cárdenas, Los pasillos de oro: album ℗ 2006 but the tracks used carry the date 1996 on the store page; 1996 was used."
+  ]
+ },
+ "meringue": {
+  "alias": {
+   "Ti zwazo": "Ti zoizeau",
+   "Trois fois trois": "Trois Fois Trois (Three Times Three)",
+   "Angélique, oh": "Angelique, Oh",
+   "Nous allons dodo": "Nous Allons Dodo (We Are Going to Sleep)",
+   "Jazz Majestic Orchestra": "The Jazz Majestic Orchestra",
+   "Retour des Cayes": "Retour des cayes (meringue)",
+   "Jeannette": "Jeannette (meringue)",
+   "Deux amours": "Deux amours (meringue)",
+   "Lucia": "Lucia (meringue)",
+   "Haïti": "Haiti",
+   "Micaela": "MICAELA (Michaele)",
+   "Ernest Lamy y su Orquesta": "ERNEST LAMY Y SU ORQUESTA",
+   "Panama m tonbe": "Panamam tombe",
+   "Méringue": "Meringue",
+   "Élégie-Méringue": "Élégie-Meringue",
+   "Méringue Frangeul": "Meringue Frangeul",
+   "Edner Guignard & son Orchestre": "Edner Guignard & Son Ochestre",
+   "Les belles méringues d'Haïti": "Les Belles Méringues D'haïti",
+   "Emy de Pradines": "Émerante de Pradines",
+   "Gilles Sala & Orchestre E. Léardée": "Gilles SALA; Orchestre E. Léardée et son Ensemble Antillais",
+   "Méringue (Haïti chérie)": "Méringue (\"Haïtí Chérie\")",
+   "Issa El-Saieh & son Orchestre": "Issa El Saieh and his Orchestra / Saieh & son Orchestre"
+  },
+  "unverified": [
+   "Sidney Bechet with Willie 'The Lion' Smith's 'Haitian Orchestra', 'Magic Island', 'Mayotte', 'Sous les palmiers' (Victor, 1939-40): Internet Archive labels read 'Meringue' (found in a search listing), but left out by judgement: a New York jazz session in Haitian style, not Haitian méringue.",
+   "Various (unknown artists), Meringues and Folk Ballads of Haiti (Lyrichord LLST 7340, 1979; MusicBrainz cc855fce-e0e5-415d-9904-5f6146f2dcf3): read, but no page says which tracks are méringues and which are ballads; left out.",
+   "Lumane Casimir: French Wikipedia calls her 'reine de la meringue', but no recording by her was found on a readable page.",
+   "Jazz des Jeunes / Super Jazz des Jeunes, Orchestre Septentrional, Orchestre Citadelle, Ensemble aux Calebasses (pre-1955 sides): recordings exist on MusicBrainz and the Ostinato and Frémeaux compilations, but no page read calls these specific tracks méringues (English Wikipedia's Compas article treats Septentrional as konpa), so none is in the playlist.",
+   "Marc Ribot, 'Meringue Frangeul' (Marc Ribot Plays Solo Guitar Works of Frantz Casseus, 2021): seen in a MusicBrainz recording search only; the release was not read.",
+   "Occide Jeanty 'Zizipan', Justin Élie 'Méringue populaire' (1920), Ludovic Lamothe 'La Dangereuse', Michel Mauléart Monton 'Choucoune': named as méringues on Wikipedia, but no recording of Zizipan, Méringue populaire or La Dangereuse was read.",
+   "Emy de Pradines, 'Trois fois trois' (Original Meringues, 1953): verified on MusicBrainz (spelled 'Trois fois trios') but dropped so the playlist does not carry the same tune twice (the Jazz Majestic Orchestra version is kept).",
+   "Issa El-Saieh discography: further sides marked (Meringue) on French Wikipedia and not used, all verifiable on the same page: Dans tes bras (1947), Dodo Turgeau, Manzelle Roza, Erzulie Freda (1951), Yoyo, Jacot, Diane, Mon Capitaine, Patience ma fille, Contredanse N°1 (1955), Avadra, Le coq chante, Nous ce fan-mi, Bam pa'm sans douce, Arona leve (1956).",
+   "Surprise Jazz 'Instrumental Meringue' and Ludovic Lamothe 'Nibo': recorded by Alan Lomax in 1936-37 (album title); the exact year of each track was not read, so the playlist gives the 2009 issue year."
+  ]
+ },
+ "gaitazuliana": {
+  "alias": {
+   "Cardenales del Éxito": "Cardenales del Exito",
+   "Rincón Morales": "Rincon Morales",
+   "La grey zuliana": "La Grey Zuliana / Grey Zuliana",
+   "Maracaibo marginada": "Maracaibo Marginada",
+   "Ronda antañona": "Ronda Antañona",
+   "La pica pica": "La Pica Pica",
+   "Gaita del 65": "Gaita del 65'",
+   "Decreto papal": "Decreto Papal",
+   "Sentir zuliano": "Sentir Zuliano",
+   "La boda del cachicamo": "La Boda del Cachicamo",
+   "Alegría navideña": "Alegría Navideña",
+   "El negrito fullero": "El Negrito Fullero",
+   "Mi nostalgia": "Mi Nostalgia",
+   "Ya llegó la Navidad": "Ya Llego la Navidad",
+   "Gaita zuliana": "Gaita Zuliana",
+   "Maracaibo de ayer": "Maracaibo de Ayer",
+   "Gaita en mi sueño": "Gaita En Mi Sueño",
+   "Golpe gaitón": "Golpe Gaitón",
+   "Desde la Basílica": "Desde la Basilica",
+   "Tamborera No. 8": "Tamborera #8",
+   "La tarjeta de Navidad": "La Tarjeta de Navidad",
+   "Gaita y fama": "Gaita y Fama",
+   "El 18 de noviembre": "El 18 de Noviembre",
+   "Un ojo dimos": "Un Ojo Dimos",
+   "Gaita y rima": "Gaita y Rima"
+  },
+  "unverified": [
+   "Gaiteros del Zulia, 'Virgen de Chiquinquirá' (late 1940s): es.wikipedia calls it the first recorded gaita to the Virgin, but no recording was found on a readable page.",
+   "Adolfo de Pool, 'Noche Buena' (first played live on radio in 1928, es.wikipedia): no recording found.",
+   "Saladillo as a credited artist on its own: the only readable tracks are credited to Ricardo Aguirre with Saladillo, so no separate Saladillo song is listed. es.wikipedia has no article for the group.",
+   "Maracaibo 15, 'Viejo año': es.wikipedia (Betulio Medina) says 1983, iTunes dates the track 1986; left out rather than pick a year. Many Maracaibo 15 hits (La negra del tamunangue, Palo palo, parranda medleys) are parrandas or other Venezuelan forms, so only two tracks named as hits on the group's page were used.",
+   "Gran Coquivacoa with Neguito Borjas, 'Sin rencor', 'Las cabras', 'Punta Icotea' (Gaita del Año 1986-89, es.wikipedia): not found in the iTunes track lists read.",
+   "Guaco's 1970s gaita hits named on es.wikipedia ('La gaita tiene montuno', 'María la bollera'): not read on a track list.",
+   "Astolfo Romero, De parrandas (iTunes 458912245): seen in a search, not used; mixed dates (1980/2002) and the album title says parrandas."
+  ]
+ },
+ "pasodoble": {
+  "alias": {
+   "España cañí": "España Cañí",
+   "Paquito el chocolatero": "Paquito Chocolatero",
+   "La gracia de Dios": "La Gracia de Dios",
+   "Ragón Falez": "Ragón-Faléz",
+   "Francisco Alegre": "Francisco Alegre - Paso Doble al Torero",
+   "Los nardos": "Pasacalle de los Nardos",
+   "Madrecita María del Carmen": "Madrecita Maria del Carmen",
+   "No te vayas de Navarra": "No Te Vayas de Navarra (Pasodoble)",
+   "Cocidito madrileño": "Cocidito madrileño (Pasodoble)",
+   "La verbena de la Paloma: ¿Dónde vas con mantón de Manila?": "La Verbena de la Paloma: Donde Vas Con Mantón de Manila"
+  },
+  "unverified": [
+   "Angelillo, 'Chiclanera' (iTunes id 316211538; Spanish Wikipedia calls it a pasodoble-canción popularised by Angelillo in 1936): found on readable pages but not cited; left out only to avoid a second Angelillo track. Can be added.",
+   "Sabicas, 'El gato montés (Pasodoble)', Lucero Tena, 'España cañí (Pasodoble)' (castanets) and Sara Montiel, 'Suspiros de España' are on the Warner 'Pasodobles' compilation (iTunes 1528541963, read) but were not cited: the same tunes are already in the list.",
+   "España cañí, first recordings by the Banda del Regimiento de Ingenieros de Madrid (Odeon and Regal Zonophone, 1926) and Marcos Redondo's first sung version (Odeón, 1931): named on Spanish Wikipedia, but no readable track page was found, so no period band recording is in the list.",
+   "Mexican, Puerto Rican, Colombian and Ecuadorian pasodobles named on Spanish Wikipedia (Agustín Lara's 'Silverio Pérez', 'Feria de Manizales', 'Sangre ecuatoriana'): not researched.",
+   "Ballroom (DanceSport) pasodoble recordings: not researched; the form is the same España cañí-based music but a dance-floor world of its own.",
+   "La Entrada (Quintín Esquembre): Spanish Wikipedia gives its premiere both as 5 September 1925 and 5 September 1922 in the same article, so the year written is left null.",
+   "Pepe Blanco, 'Cocidito madrileño': tied to the genre only by the track title '(Pasodoble)' and the album title 'Pasodobles'; no Wikipedia article was read for the song or singer.",
+   "Release years: for sung pasodobles on reissue compilations (Raquel Meller, Estrellita Castro, Concha Piquer, Juanita Reina, Joselito, Manolo Escobar's 'Madrecita', Marifé de Triana, Perlita de Huelva) iTunes gives a reissue date, so release year is null; Perlita de Huelva's song is in Wikipedia's 1972 song categories but that was not used as a release year."
+  ]
+ },
+ "harana": {
+  "alias": {
+   "Harana Kings": "Florante Aguilar & Harana Kings",
+   "Dungawin Mo, Hirang": "Dungawin mo, Hirang / Dungawin Mo Hirang",
+   "Kay Lungkot Nitong Hatinggabi": "Kay lungkot nitong Hating-gabi",
+   "Natutulog Ka Na Ba, Sinta?": "Natutulog ka na ba, Sinta?",
+   "Ang Awit Ko, Irog": "Ang awit ko, Irog",
+   "Harana ng Puso": "Harana Ng Puso",
+   "Inday ng Buhay Ko": "Inday Ng Buhay Ko",
+   "Lihim na Pag-ibig": "Lihim Na Pagibig",
+   "Maalaala Mo Kaya": "Maala-ala Mo Kaya",
+   "Harana sa Dilim": "Harana Sa Dilim",
+   "Introducing the Harana Kings": "Introducing the Harana Kings (Reissue)",
+   "The Art of Harana: Serenades for Guitar": "The Art of Harana - Serenades for Guitar"
+  },
+  "unverified": [
+   "Ruben Tagalog recording years: the iTunes album 'Harana' carries ℗ 2006 Villar Records International, a reissue; the original 1940s-50s recording dates are on no page read, so all Ruben Tagalog years are null.",
+   "Introducing the Harana Kings: iTunes lists a reissue dated 2012-07-08 with ℗ 2012; no page read gives a different first-release date, so 2012 is used.",
+   "Stax Huguete, the 'Visayan Harana King' (Bisan sa Damgo Lang, Patay'ng Buhi, Dahong Laya): named on Wikipedia's Harana page, but no recording found in iTunes or on a readable page.",
+   "Felipe Alonzo's Ilocano harana records for Villar Records: named on the Hollywood Bowl and Asian Journal pages; no title or track found.",
+   "Raffy Lata, 'Philippine Guitar Music - Kundiman and Harana' Vols. 1-7 (2022-2026, iTunes): read for size only; tracks not used because the series mixes kundiman with harana and no page says which is which.",
+   "Charmaine Clamor's other My Harana tracks (O, Ilaw; Pakiusap; Dungawin Mo Hirang; Matud Nila and others): found on iTunes but left out to keep the jazz reinterpretation to one track.",
+   "Harana: The Search for the Lost Art of Serenade (documentary, 2013 per Asian Journal) and its soundtrack: haranathemovie.com read but had no track list.",
+   "The Harana boy band (ABS-CBN/Star Music, 2015) and dozens of pop singles titled 'Harana' on iTunes (2016-2026): pop ballads, not the serenade genre; left out.",
+   "MusicBrainz release search for 'harana' returned no releases during this run; not retried."
+  ]
+ },
+ "jiangnansizhu": {
+  "alias": {
+   "三六 (Sānliù)": "Three Six (Jiangnan Si Zhu)",
+   "Lu Chunling, Zhou Hui, Zhou Hao & Ma Shenglong": "陆春龄, 周惠, 周皓, 马圣龙",
+   "欢乐歌 (Huānlè gē)": "欢乐歌",
+   "行街 (Xíngjiē)": "Strolling In The Streets",
+   "上海民族乐团": "上海民族樂團",
+   "中花六板 (Zhōnghuā liùbǎn)": "Zhonghua Liuban",
+   "阳八曲 (Yángbā qǔ)": "阳八曲 (Yangbaqu)",
+   "慢六板 (Màn liùbǎn)": "慢六板 (Slow Liuban)",
+   "花三六 (Huā sānliù)": "花三六 (Hualiuban)",
+   "春晖曲 (Chūnhuī qǔ)": "春晖曲 (Spring Sunlight)",
+   "怀古 (Huáigǔ)": "怀古",
+   "云庆 (Yúnqìng)": "Cloud Celebration",
+   "薰风曲 (Xūnfēng qǔ)": "Song of a Warm Southerly Breeze: Song Of A Warm Southerly Breeze",
+   "四合如意 (Sìhé rúyì)": "四合如意",
+   "慢三六 (Màn sānliù)": "慢三六",
+   "梵王宫 (Fànwáng gōng)": "梵王工",
+   "霓裳曲 (Níshang qǔ)": "霓裳曲",
+   "灯月交辉 (Dēngyuè jiāohuī)": "Brilliance of Lantern and Moon",
+   "春江花月夜 (Chūnjiāng huāyuè yè)": "春江花月夜",
+   "华韵乐府": "華韻樂府",
+   "江南丝竹八大曲精编": "江南絲竹八大曲精編"
+  },
+  "unverified": [
+   "上海音乐学院教授丝竹研究组 / 上海国乐研究社, 江南丝竹(上)(下) (℗ 2001): the release is the CD set linked from Chinese Wikipedia's external links as YouTube playlists; the 2001 ℗ is the label's line on the digital edition and may not be the recording year.",
+   "Wuping Guoyue Tuan, 'Huanle Ge (Song of Happiness)' on Sizhu (Silk Bamboo): Chamber Music of South China (PAN, 1994): found on MusicBrainz but left out, because nothing read says whether this group plays the Jiangnan style (Wuping may be the county in Fujian).",
+   "Seven Seas (Japan) releases 江南絲竹の響き / 江南絲竹の調べ (1998, 1999, 2008), all eight pieces plus 霓裳曲, 陽八曲, 灯月交輝: found on MusicBrainz but the performer is [unknown], so not used.",
+   "Lu Chunling, Zhou Hui, Zhou Hao & Ma Shenglong, 2026 digital releases 江南丝竹·欢乐歌 and 江南丝竹·行街 (太平洋影音): only 怀古 was used; the other tracks (欢乐歌, 云庆, 行街, 四合如意(桥), 霓裳曲 and more) have no recording date on the page.",
+   "iTunes dates the quartet's 江南丝竹《三六》 to ℗ 1970 中国唱片, while MusicBrainz gives the China Record cassette as 1983; 1983 is used and 1970 looks like a placeholder date.",
+   "长风中乐团, 江南丝竹 (新时代影音, ℗ 1994) and 華韻樂府's other tracks: seen, not used, to keep the list from repeating the same pieces further.",
+   "Shanghai Traditional Music Society (Hugo, 1998): the other tracks (Rainbow Coloured Raiment, The Autumn Moon over the Han Palace, Fan Instead of Gong) not used; Han Palace Autumn Moon is a pipa/erhu piece whose Jiangnan tie rests only on the album title."
+  ]
+ }
+}
