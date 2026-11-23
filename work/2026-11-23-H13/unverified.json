@@ -1,0 +1,203 @@
+{
+ "gambangkromong": {
+  "alias": {
+   "Gambang Kromong Irama Bersatu & Masnah": "Gambang Kromong Irama Bersatu featuring Masnah",
+   "Gambang Kromong Slendang Betawi": "I Gambang Kromong Slendang Betaw & Mama Ong (iTunes)",
+   "Benyamin S. & Ida Royani": "Benjamin S. & Ida Daniar Royani",
+   "Mas Nona / Pobin Pe Pan Tau / Lopan Tukang Sado": "Mas Nona - Pobin Pe Pan Tau - Lopan Tukang Sado",
+   "Pobin Poa Si Li Tan / Poa Si Li Tan / Poblin Poa Si Li Tan": "Pobin Poa Si Li Tan - Poa Si Li Tan - Poblin Poa Si Li Tan",
+   "Poblin Pe Pan Tau / Burung Nori / Lopan Seng Kyok": "Poblin Pe Pan Tau - Burung Nori - Lopan Seng Kyok",
+   "Poblin Pe Pan Tau / Gula Ganting / Lopan Ce Cu Teng": "Poblin Pe Pan Tau - Gula Ganting - Lopan Ce Cu Teng",
+   "Ondel-Ondel": "Ondel Ondel",
+   "Jali-Jali Ujung Menteng": "Jali Jali Ujung Menteng",
+   "Jali-Jali Pasar Ikan": "Jali Jali Pasar Ikan",
+   "Kicir-Kicir": "Kitjir Kitjir",
+   "Stambul Jampang": "Stambul Jampang (Live)",
+   "Gambang Kromong Selendang Sutra Emas": "Pimp. Go Jin",
+   "Gambang: Panji Marga": "Gambang:Panji Marga",
+   "Gambang Sembuwuk": "Gambang Sembuwuk (album title: GAMBANG OF SEMBUUK)"
+  },
+  "unverified": [
+   "Years of the Benyamin S. and Ida Royani tracks: the recordings date from the late 1960s-70s by every account, but the only pages read are 2002-04 compilations; Indonesian Wikipedia lists a 1972 Indah Records duet album called Tukang Tuak, not shown to be the same recording as the compilation track, so all their years are null.",
+   "Folkways Music of Indonesia vol. 3 date: iTunes gives ℗ 1991, MusicBrainz 1992-07-13, the Pang Tjin Nio article 1991; 1991 is used.",
+   "Kramat Karam (Sinar Kramat & Phang Tong Wie) and Kicir-Kicir (Jetty with an Orchestra Gambang Keromong & Suhairi): found on a 2020 Golden Century compilation of old Indonesian records, whose release dates (2020, 2013) are reissue dates, so years are null. Phang Tong Wie leads GK Sinar Kramat per Indonesian Wikipedia.",
+   "Pang Tjin Nio's own Irama Masa cassette albums of the early 1980s (listed by name on Indonesian Wikipedia) were not found on any readable catalogue page.",
+   "Ida Royani's genre tie rests on the album title 100% Gambang Kromong and on Indonesian Wikipedia's account of the Naga Mustika group recruiting her to sing with Benyamin; no page read calls her a gambang kromong singer in those words.",
+   "Benyamin S., Funky Kromong Vol. 1 (2022, MusicBrainz 7ca00128-f008-43cd-bb28-a921f9d43e99): seen in a search only, not read, left out."
+  ]
+ },
+ "shokaandgunka": {
+  "alias": {
+   "箱根八里": "箱根八里(箱根の山)",
+   "鉄道唱歌": "鉄道唱歌 第1集「東海道編」 第1番-第3番",
+   "海ゆかば": "海行かば",
+   "軍艦行進曲": "軍艦行進曲 (Instrumental)"
+  },
+  "unverified": [
+   "暁に祈る (伊藤久男, film theme 1940): kept, but Japanese Wikipedia's lead calls it a 戦時歌謡 (wartime popular song); the gunka tie is only a section heading '軍歌『暁に祈る』'. The lead may prefer to drop it.",
+   "愛国行進曲 (東京音楽学校): the page calls it a national patriotic song and 'de facto second national anthem', not a gunka in so many words; the tie rests on that, on the album title (軍歌・愛国歌・戦時歌謡) and on the Columbia credit to the 東京音楽学校 on the same page.",
+   "Release years of the Columbia original-78 reissue tracks 愛国行進曲, 海ゆかば and 暁に祈る are left null: iTunes shows only the 2014 reissue or a 1955 date, and no page read dates those exact takes. 露営の歌 (1937), 燃ゆる大空 (1940) and 若鷲の歌 (1943) are dated by their Wikipedia pages naming the same singers and Columbia/Nitchiku.",
+   "ふじの山 and 朧月夜: tied only by the 文部省唱歌 page naming them among the best-known Monbushō shōka; no song page was read, so the year written is null (recalled as 1910 and 1914, not confirmed).",
+   "同期の桜: year written given as 1938, the date of Saijō Yaso's source poem 戦友の唄 in 少女倶楽部; the gunka text itself was adapted later (the page's first broadcast record is 1945).",
+   "軍艦: year written 1897 is the page's 'about 1897' (頃) for Setoguchi's setting; Toriyama's words date from 1893.",
+   "Recalled, not looked up or not reachable: 蛍の光 (1881), 春が来た, 紅葉, 村祭, 鯉のぼり (Japanese Wikipedia titles for the last three were not found by direct address and the search API refused the script with a rate limit), 元寇, 水師営の会見, 加藤隼戦闘隊, 父よあなたは強かった; all are on the albums read but have no genre tie read.",
+   "A Korean changga near-miss (e.g. 학도가, sung to the Tetsudō shōka tune) was not made: Korean Wikipedia has no page for it and no recording was read.",
+   "Nothing recorded before 1937 was verified: the earliest takes in the playlist are the Columbia 78s of 1937-43; Meiji and Taishō songs appear in post-war re-recordings with null or late release years."
+  ]
+ },
+ "nurthi": {
+  "alias": {
+   "දන්නෝ බුදුන්ගේ": "Danno Budunge",
+   "ලෝනා මුනි රජගේ": "Lona Muni Rajage",
+   "Ho Premey Babaley": "Ho Preme Babale (feat. Mohideen Beig & Bhagyarathi)",
+   "Mohideen Baig": "Mohideen Beig",
+   "Mohammed Gauss": "Mohamed Ghouse"
+  },
+  "unverified": [
+   "Rukmani Devi, 'Danno Budunge' (iTunes Swarna Gee, ℗ 2014 Maharaja Entertainments): iTunes gives the track date 1969-01-01, which looks like a placeholder; release year left null.",
+   "Tower Hall Nurthi Gee tracks: iTunes credits only the Tower Hall Theatre Foundation (℗ 2023 Tower Studio); singers, recording dates and the play each song belongs to are not on any page read. Play ties in the note are by title only.",
+   "Nanda Malini's 'Danno Budunge' on the Sadhu Nada cassette (Sinhala Wikipedia) and Hubert/Herman Rajapakse's 'Dharma Budunge' gramophone record: named on pages, no readable recording record found.",
+   "'Deweni Lokapathi' (Othello nurthi, first recorded Sinhala song, sung by Raddoluwe Jane Nona per Sinhala Wikipedia): no surviving release found.",
+   "English Wikipedia's '1903 album, entitled Nurthi ... via Radio Ceylon': Radio Ceylon was founded in 1925 by the same paragraph, so the claim is used only as a pointer to early recording, not as a fact.",
+   "P. Orr & Co. (Madras) 1908 gramophone record of John de Silva's songs with Lavji on harmonium: named by the Sunday Times; no catalogue record read.",
+   "Gerald Wickremesooriya's Nurthi Gee recording: named on English Wikipedia; not found on iTunes or MusicBrainz.",
+   "Shrilal Abeykoon's 1990s nurthi cassettes, Manike Attanayake and Ramya Wanigasekara (radio nurthi singers): no recording found on iTunes Sri Lanka.",
+   "Other renditions seen in iTunes search but not used: Danno Budunge by Stanley Peiris, Nanda Malini (not found), Mohideen Baig, Chandimal Fernando (instrumental); Lona Muni Rajage by Visharada Manoj Peiris and Amil Tharanga & Sahara Band.",
+   "Sunday Observer 2011 article (archives.sundayobserver.lk/2011/05/01/mon14.asp): the site answered with a bot check; not used.",
+   "MusicBrainz: searches for nurthi/nurti returned no releases."
+  ]
+ },
+ "funana": {
+  "alias": {
+   "Moças di Mangui": "Mocas Di Mangui",
+   "Nôs Cultura": "Nos Cultura",
+   "Rei di Funaná": "Rei di Funana",
+   "Etalvino Preta": "Etalvinho Preta",
+   "Kortel di Rabidanti": "Kortel Di Rabidanti",
+   "Zezé di Nha Reinalda & Zeca di Nha Reinalda": "Zézé Nha Reinalda & Zeca Nha Reinalda",
+   "Codé di Dona": "Code Di Dona",
+   "Cruz di Pico": "Cruz Di Pico",
+   "Febrei di Funaná": "Febrei Di Funaná",
+   "Legend of Funaná: The Forbidden Music of the Cape Verde Islands": "Bitori: Legend of Funaná, the Forbidden Music of the Cape Verde Island (Analog Africa No. 21)",
+   "Tchapéu di padja": "Tchapeu di padja"
+  },
+  "unverified": [
+   "Bulimundo, 'Sant' Antoni la Belêm' and 'Pombinha Mansa' on Batuco (Black Power Records LP 2233, 1981): listed as funaná examples on Portuguese Wikipedia, but the MusicBrainz track list (release 4c423ce4-8a23-4954-8b1b-a38d298b68f3) answered 'busy' three times, so not used; Pombinha Mansa enters through Zeca di Nha Reinalda's own later recording instead.",
+   "Finaçon, 'Si manera' on the album Funaná (Mélodie, 1990), Codé di Dona 'Pomba' (Globe Music, 1997), Eduíno e Petcha 'Puxim Semedo' (2007), Zezé di Nha Reinalda 'Djentis d’ aságua' (198?), Os Tubarões 'Li qu’ ê nha tchon' (1990), Bana 'Canta cu alma sem ser magoado': all on Portuguese Wikipedia's example list, but no track list was found on a readable store or catalogue page, so left out.",
+   "Simentera 'Codjeta': Raiz is 1992 on English Wikipedia (Simentera) and Portuguese Wikipedia (Funaná), 1995 on English Wikipedia (Coladeira) and on iTunes (℗ 1995 Lusafrica); the year is left null.",
+   "Os Tubarões 'Djonsinho Cabral': Portuguese Wikipedia gives the album 1978 (Ref. T-003), English Wikipedia (Os Tubarões) 1979; 1978 was used.",
+   "Codé di Dona 'Djan-Bai': the store copy carries ℗ 2014 Afrika Records; Wikipedia says he recorded albums in 1996 (Kap Vert) and 1998, so the original year is unknown and left null.",
+   "Zeca di Nha Reinalda 'Pombinha Mansa' (Rei Di Funaná, ℗ 2014 Afrika Records): 2014 is the store year and may be a reissue.",
+   "Cesária Évora 'Sodade': English Wikipedia's Sodade page gives the genre as morna, while its Coladeira page lists the same recording as a 'slow coladeira'; morna was used for the near-miss, as the tree's morna record describes this sound.",
+   "Grupo Pilon, Leite Quente Funaná de Cabo Verde (Ostinato, 2019): read, but Ostinato describes it as ColaZouk and 'electro-Funaná' from Luxembourg, so it was left out as a hybrid.",
+   "Orlando Pantera 'Rabidanti' and Avelino & Orlando Pantera 'Nha Lutcha' on Pour Me a Grog: left out; Pantera is better known for the new batuku and no page read calls him a funaná artist.",
+   "Ferro Gaita 'Rei Di Tabanka' (Pour Me a Grog, Rei di Funaná): left out because its title names tabanka.",
+   "Bitori tracks on the 1998 album are credited to Bitori Nha Bibinha & Chando Graciosa on MusicBrainz and to Bitori alone on the 2016 reissue; the playlist uses 'Bitori' as on the reissue. The release years of the four Pour Me a Grog tracks are not on any page read and are null.",
+   "Wikipedia example-row quotes for Fomi 47, Matrialistas, Codjeta and Nôs Cultura have a space where the page has a line break between composer and performer (the visible text runs together)."
+  ]
+ },
+ "porro": {
+  "alias": {
+   "Tolú": "Tolu",
+   "Playa blanca": "Playa Blanca (Porro)",
+   "La ñeca": "La Ñeca",
+   "El tirabuzón": "El Tirabuzon",
+   "El mecánico": "El Mecanico",
+   "Rocío": "Rocio (Porro)",
+   "María Elena": "Maria Elena (Porro)",
+   "Fiesta de negritos": "Fiesta de Negritos (Porro)",
+   "La esquina caliente": "La Esquina Caliente (Porro)",
+   "Borrachera": "Borrachera, Porro",
+   "Porro viejo pelayero": "Porro Viejo Pelayero (Instrumental)",
+   "Mi pueblo": "Mi Pueblo (Cumbia)",
+   "Porros, cumbias y gaitas": "Porros, Cumbias y Gaitas",
+   "Pacho Galán y su Orquesta": "Pacho Galan y Su Orquesta",
+   "Clímaco Sarmiento y su Orquesta": "Climaco Sarmiento y Su Orquesta",
+   "Jesús Nuncira Machado": "Jesus Nuncira Machado",
+   "Ramón Ropaín": "Ramon Ropain & His Piano And Band",
+   "Orquesta Sonoritmo": "Orquesta Sonoritmo Canta Maria Gareña",
+   "Lucho Bermúdez y su Orquesta": "Lucho Bermudez y Su Orquesta"
+  },
+  "unverified": [
+   "Release years: the years given for Porrovia tracks (La ñeca 1960, La buchaca 1960, La calle 13 1962, Bocachico sinuano and Linda cordobesa 1961, El tirabuzón 1960, El mecánico 1974, La vaca vieja 1968, Yo soy un porro 1969, El toro miura 1962) and Borrachera 1956 are iTunes track release dates in the same lookups, not checked as separate claims; other tracks on these reissues carry obviously late dates (Tolu 2006, Mi Sahagun 2010, Quiero Amanecer 1999 here but 1949 and 1968 on other iTunes albums), so those are null.",
+   "Tracks from Historia musical del porro pelayero (2004 anthology) carry null years: the anthology date is not the recording date. Porrovia also lists María Varilla by Banda 19 de Marzo de Laguneta with 1962-01-01, not used.",
+   "María Varilla's composer Alejandro Ramírez Ayazo and Lucho Bermúdez classics as recorded by himself (Carmen de Bolívar, Salsipuedes, San Fernando, Colombia tierra querida, on MusicBrainz 'San Fernando y otros éxitos inolvidables', Sonolux 1954): no readable page labels those recordings porro, so left out; the es.wikipedia pages for María Varilla (canción) and Alejandro Ramírez Ayazo returned 404.",
+   "Pachito E'ché, Se va el caimán and Me voy pa' Cataca are named on English Wikipedia as porros that influenced 1960s bands, but no recording of them was read, so left out.",
+   "Totó la Momposina, Juan Piña, Billo's Caracas Boys, Los Melódicos, Miguel Emiro Naranjo's other bands: named on Wikipedia as porro performers, not looked up for recordings.",
+   "Historia musical del porro pelayero also holds fandangos (e.g. Fandango viejo, Banda Bajera de San Pelayo); only tracks Wikipedia names as porros (María Varilla, La mona Carolina, Roque Guzmán, Soy pelayero) or that are not otherwise labelled (Sara Esther) were used, so Sara Esther's porro tie is by album title only.",
+   "Wikipedia API search was rate-limited during this run (too many requests), so Spanish Wikipedia song articles were not searched further."
+  ]
+ },
+ "changga": {
+  "alias": {
+   "희망가 (신카나리아)": "A Hope Song",
+   "희망가 (Hwang Geum Sim)": "The Hope Song",
+   "사의 찬미 (진송남, Jeonghee)": "사의찬미",
+   "사의 찬미 (한영애)": "사의 찬미 (1926년)"
+  },
+  "unverified": [
+   "No period recording (1920s 78) of any changga was found on a page a script can read: MusicBrainz has none for 희망가, 학도가 or 사의 찬미 before 1975; iTunes Korea store search returned nothing (the US store was used). Yun Sim-deok's own 1926 사의 찬미, Chae Gyu-yeop's 학도가 and 희망가, and Park Chae-seon and Lee Ryu-saek's 1925 이 풍진 세월 are named on Wikipedia but no release page was read.",
+   "Artist names in Hangul only where a fetched page shows them (고운봉 from English Wikipedia Trot; 신카나리아, 진송남, 별셋, 김경남 from iTunes; 한영애 from MusicBrainz search). Choi Jung Ja, Nam Il-hae, Hwang Geum Sim and Jeonghee are left as the iTunes page spells them; their Hangul (presumably 최정자, 남일해, 황금심) was not read from a page.",
+   "소년행진가 by 김경남 is tied by title only to 안창호's 소년행진가 named by the Encyclopedia of Korean Culture; the album page does not credit the lyricist.",
+   "1916 Hawaii Honolulu Korean Anthem (Incheon Concert Chamber, iTunes 1668257183) holds eleven patriotic songs that look like changga, but no page tying it to a changga songbook was found; left out.",
+   "용진가 and other tracks on 독립군가 모음집 are independence-army songs (E0015973) not named as 계몽창가 in E0072538; left out.",
+   "Start date conflict: the Encyclopedia of Korean Culture 창가 entry dates 황제탄신경축가 to 1876 in its summary and to 1896 in its body; Korean Wikipedia gives 동심가 of 1896. The window uses 1896.",
+   "Year written is given only for 사의 찬미 (1926, recorded that year). 희망가 is dated 1925 ('발표') on Korean Wikipedia 한국의 가요사 but that page was not cited as a claim; 학도가 exists in several versions (1905 Kim In-sik; the Railway Song melody) and the recorded one is not identified, so both carry null."
+  ]
+ },
+ "sudanesehaqiba": {
+  "alias": {
+   "متى مزاري": "متي مزاري",
+   "سيدة وجمالها فريد": "سيده وجمالها فريد",
+   "أفكر فيه وأتأمل": "افكر فيه وأتأمل",
+   "أنا ما معيون": "انا ما معيون",
+   "فلق الصباح": "Falq El Sabah",
+   "محمد أحمد سرور": "محمد احمد سرور",
+   "كرومة": "Karoma / Abdel Karim Karouma / عبد الكريم كرومة",
+   "مسوا نوركم": "Msawā nūrkum",
+   "الحبيب وين": "Elhabeeb Wain? (Where is My Sweetheart?) / الحبيب وين قالوا لي سافر",
+   "إبراهيم الكاشف": "Ibrahim El Kashif / Ibrahim al Kashif",
+   "أرض الخير": "Land of Good"
+  },
+  "unverified": [
+   "Years: every Nile Melodies Archive track (Karouma's 'اسطوانات - كرومة', the 'حقيبة الفن - <singer>' series, Daoud's 'عزة في هواك - EP') carries only the 2024 digital release date; the recordings are 78s and Radio Omdurman tapes from the late 1920s to the 1990s. Years left null in the playlist; fits for the two albums carry 2024 as the reissue year.",
+   "Mohamed Ahmed Sarour singles are on iTunes under an uploader account named 'محمد احمد سرور' with release dates of 2012–2013 and ℗ 2024; the recordings must date from before his death in the 1940s but no page gives a year. Years null.",
+   "Karouma 'مسوا نوركم': the BnF record dates the Odéon 78 only as [192.] and English Wikipedia says late 1920s or 1930s; year null. The Gallica audio page refused scripts (Cloudflare); the BnF catalogue record was used instead.",
+   "Insaf Fathi 'فلق الصباح': the page gives the track only in Latin ('Falq El Sabah'); Arabic spelling taken from the same song title on Karouma's tracklist. No page read says who Insaf Fathi is; the tie is the album title أمسية الحقيبة only.",
+   "عاصم البنا 'خماسيات الحقيبة (1)' (2025) and the 2024 'حقيبة الفن' series are tied to the genre by album title only; no performer page was read for Asim Albanna, Awad al-Karim Abdallah, Obeid al-Tayeb, Khidir Bashir, Awlad al-Mawrada, Mirghani al-Ma'mun or Kamal Tarbas saying they are haqiba singers (Tarbas's page calls him a pupil of the great haqiba singers).",
+   "'ما رأيت في الكون' (Karouma; Awad al-Karim Abdallah) left out: the page spells it with Arabic presentation-form characters that a check may not match.",
+   "Nabil AI 'حقيبة الفن (Vol.1)' and its 2026 singles on iTunes are AI-made covers; left out.",
+   "Ahmed al-Mustafa 'أنا ما معيون' (Nile Melodies Archive single, 2024) found but not used: same song as Karouma's, and no page read ties al-Mustafa to haqiba (English Wikipedia names him among 1940s Radio Omdurman performers).",
+   "Not found or not researched: recordings by Al-Amin Burhan, Wad El Faki, Ibrahim Abdel Jalil, Zinjar, the duo Thunai al-Asima; Khalil Farah's own historical recording of 'عزة في هواك' (on YouTube only). MusicBrainz searches for haqiba spellings returned 0 or 'busy'."
+  ]
+ },
+ "twoubadou": {
+  "alias": {
+   "Mariage à New York": "Mariage a New York",
+   "Haïti Chérie": "Haiti Cherie (feat. Jacques Sauveur Jean)",
+   "Pa Manyen Fanm Nan": "Pa Manyen Fanm Nan (feat. Michel Martelly & Black Alex)",
+   "Ma Rose": "Ma Rose (feat. Alan Cave)",
+   "Ou Pati": "Ou Pati (feat. Michael Benjamin)",
+   "Tu me touches": "Tu Me Touches (feat. Roberto Martino & Mamina Jacquet)",
+   "Ki Lang Ou Pale": "Ki Lang Ou Pale (feat. Jude Jean)",
+   "Ki Demon Sa A": "Ki Demon Sa A (feat. Gracia Delva)",
+   "Trio Select": "Trio Select Maestro & Vocal Gesner Henry (Dit \"Coupe Cloue\")",
+   "Lole-Lolay": "Lole - Lolay",
+   "Klasik Twoubadou, Vol. 2": "Klasik Twoubadou, Vol.2"
+  },
+  "unverified": [
+   "Auguste de Pradines (Kandjo), 'Pa fe m sa' and 'Erzulie': named on English Wikipedia as his songs, but no recording was found on a readable page, so the founding figure has no track.",
+   "Toto Nécessité (many albums on iTunes, 1985-2021): recalled as a twoubadou singer, but no page read calls him one; left out.",
+   "Ti Coca (Ti Coca & Toto Bissainthe, 'Haiti', 1995 on iTunes, id 1737983890): recalled as a twoubadou group leader (with Wanga Nègès), but no page read says so and the album was not read track by track.",
+   "Althiery Dorival (Bal chanmpêtre, 1979; Ti Ca; Natif Natal on iTunes): recalled as a guitar troubadour; no page read ties him to twoubadou.",
+   "Haiti Direct - Big Band, Mini Jazz & Twoubadou Sounds, 1960-1978 (Soundway, 2014; iTunes id 1790850380): the title names twoubadou but mixes it with big band and mini-jazz; no page says which tracks are twoubadou, so none were used.",
+   "Haiti Twoubadou original volumes (c. 2002 onward, produced by Fabrice Rouzier): only the 2026 Best Of compilation is on iTunes; tracks dated 2026 or 2023 there (Pa Manyen Fanm Nan, Ma Rose, Ou Pati, Tu Me Touches) are left with a null year because their first release date was not read.",
+   "Ti Paris song years: all three iTunes albums are Mini Records reissues (℗ 2010); French Wikipedia dates Ti Paris et sa guitare 1970-71, but no page dates single tracks, so years are null.",
+   "Trio Select album years conflict: iTunes dates Plein Caille 1971 and Gros Bambou 1973; French Wikipedia lists Plein calle 1970 and Gro banbou 1972. The iTunes years are used.",
+   "Mizik Mizik's Blakawout: English Wikipedia says 1999, iTunes dates the tracks 2000; 2000 is used.",
+   "MusicBrainz was busy (503-style error) on the first two searches and was not used again; no MusicBrainz release was checked.",
+   "Haitian Creole Wikipedia has no Twoubadou article (404).",
+   "That 'Michael Benjamin' on the Haiti Twoubadou Ou Pati is Mikaben, and that Roberto Martino is T-Vice's singer, is recalled, not read; the Wikipedia paragraph names the songs and Mikaben and T-Vice, the iTunes rows name the songs and the featured singers."
+  ]
+ }
+}

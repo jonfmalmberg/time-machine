@@ -75,7 +75,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Model, ask, hand back:** as H7, the next eight pending genres, following the evidence section of `work/README.md`: only songs whose claim the check script finds go into the add files.
 
 ## H13. Genre research, batch 6
-- **State:** open
+- **State:** handed back 2026-11-23
 - **Model, ask, hand back:** as H12, the next eight.
 
 ## H14. Records for two new genres: rways and Korean minyo
