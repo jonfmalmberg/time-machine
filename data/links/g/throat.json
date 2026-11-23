@@ -1,0 +1,13 @@
+[
+{"song":"s_kejvgqqxzx","scope":"g:throat","role":"intro"},
+{"song":"s_jpwrs2qe57","scope":"g:throat","role":"peak"},
+{"song":"s_7vg27mpbqk","scope":"g:throat","role":"peak"},
+{"song":"s_1req96av9y","scope":"g:throat","role":"peak"},
+{"song":"s_94z8crdh4p","scope":"g:throat","role":"peak"},
+{"song":"s_4mnyd998av","scope":"g:throat","role":"reference"},
+{"song":"s_2nwan3a99x","scope":"g:throat","role":"reference"},
+{"song":"s_9z1x4ks5yg","scope":"g:throat","role":"near miss","belongs_to":"hunnu","reason":"Throat singing inside a heavy rock band"},
+{"song":"s_s4c7bg8dqz","scope":"g:throat","role":"near miss","belongs_to":"katajjaq","reason":"Two Inuit women trading breath sounds, no overtone melody"},
+{"release":"r_x86908wgk6","scope":"g:throat","role":"album"},
+{"release":"r_5rstwwe8vr","scope":"g:throat","role":"album"}
+]

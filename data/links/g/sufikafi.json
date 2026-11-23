@@ -1,0 +1,19 @@
+[
+{"song":"s_t024tmfzcz","scope":"g:sufikafi","role":"intro"},
+{"song":"s_0ethkq0hpj","scope":"g:sufikafi","role":"intro"},
+{"song":"s_nm6cfky3me","scope":"g:sufikafi","role":"intro"},
+{"song":"s_n05jdyxy1d","scope":"g:sufikafi","role":"peak"},
+{"song":"s_pcjp8nd4v9","scope":"g:sufikafi","role":"peak"},
+{"song":"s_422wzvm50b","scope":"g:sufikafi","role":"peak"},
+{"song":"s_5gq07a2wej","scope":"g:sufikafi","role":"peak"},
+{"song":"s_zehvw0c2bp","scope":"g:sufikafi","role":"peak"},
+{"song":"s_fchmxfqq0m","scope":"g:sufikafi","role":"peak"},
+{"song":"s_8mfaa4dzd9","scope":"g:sufikafi","role":"peak"},
+{"song":"s_0ethkq0hpj","scope":"g:sufikafi","role":"reference"},
+{"song":"s_nm6cfky3me","scope":"g:sufikafi","role":"reference"},
+{"song":"s_t024tmfzcz","scope":"g:sufikafi","role":"reference"},
+{"song":"s_pnfxjr2d3r","scope":"g:sufikafi","role":"near miss","belongs_to":"softrock","reason":"Bulleh Shah's verse set to Indian pop-rock guitar"},
+{"song":"s_m24k7f642s","scope":"g:sufikafi","role":"near miss","belongs_to":"qawwali","reason":"Qawwali party with chorus and handclaps, not a solo kafi"},
+{"release":"r_xd4rvryq6e","scope":"g:sufikafi","role":"album"},
+{"release":"r_28aqsjasrz","scope":"g:sufikafi","role":"album"}
+]

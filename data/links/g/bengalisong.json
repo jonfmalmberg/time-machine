@@ -1,0 +1,20 @@
+[
+{"song":"s_hr5079v7a7","scope":"g:bengalisong","role":"intro"},
+{"song":"s_qyaxczrh3p","scope":"g:bengalisong","role":"intro"},
+{"song":"s_hbrebhrkq1","scope":"g:bengalisong","role":"intro"},
+{"song":"s_y2af0q0tsq","scope":"g:bengalisong","role":"peak"},
+{"song":"s_mrayvhj52b","scope":"g:bengalisong","role":"peak"},
+{"song":"s_kf2a1sjyd8","scope":"g:bengalisong","role":"peak"},
+{"song":"s_ygvj8g3wwa","scope":"g:bengalisong","role":"peak"},
+{"song":"s_yq6n9g7pwg","scope":"g:bengalisong","role":"peak"},
+{"song":"s_g3x34xpby3","scope":"g:bengalisong","role":"peak"},
+{"song":"s_gkd487pveb","scope":"g:bengalisong","role":"peak"},
+{"song":"s_pwycwkyx87","scope":"g:bengalisong","role":"peak"},
+{"song":"s_0dnvxdrjbr","scope":"g:bengalisong","role":"peak"},
+{"song":"s_pywaxf9dqv","scope":"g:bengalisong","role":"peak"},
+{"song":"s_67m3zrp778","scope":"g:bengalisong","role":"peak"},
+{"song":"s_hbrebhrkq1","scope":"g:bengalisong","role":"reference"},
+{"song":"s_qyaxczrh3p","scope":"g:bengalisong","role":"reference"},
+{"song":"s_hr5079v7a7","scope":"g:bengalisong","role":"reference"},
+{"song":"s_swqd2kyg4a","scope":"g:bengalisong","role":"near miss","belongs_to":"filmi","reason":"Hindi film song from Bombay"}
+]

@@ -1,0 +1,13 @@
+[
+{"id":"c:SE:1960s","status":"decade list","note":"","tests":[{"id":"SE-1960-1969-2026-11-13","y0":1960,"y1":1969,"date":"2026-11-13","scores":[9,9,9],"result":"pass","note":"after one fix round"}]},
+{"id":"c:SE:1960","status":"year list","note":"Thin evidence: no Swedish chart archive for 1960 was reachable (Tio i topp starts Oct 1961, Kvällstoppen July 1962, Svensktoppen Oct 1962). Only songs with a sourced sales or hit statement are listed; the Melodifestivalen winner has no chart confirmation."},
+{"id":"c:SE:1961","status":"year list","note":"Evidence covers only Oct-Dec 1961 (Tio i topp, a youth-vote radio chart, starts 14 Oct); no source for January-September apart from one Show Business chart peak. Home rows below rank 1 had only 1-2 chart weeks; 'April, april' is Melodifestivalen-only."},
+{"id":"c:SE:1962","status":"year list","note":"Kvällstoppen (sales) starts 10 July and Svensktoppen in October, so January-June rests on Tio i topp only."},
+{"id":"c:SE:1963","status":"year list","note":""},
+{"id":"c:SE:1964","status":"year list","note":""},
+{"id":"c:SE:1965","status":"year list","note":""},
+{"id":"c:SE:1966","status":"year list","note":""},
+{"id":"c:SE:1967","status":"year list","note":""},
+{"id":"c:SE:1968","status":"year list","note":""},
+{"id":"c:SE:1969","status":"year list","note":""}
+]

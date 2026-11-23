@@ -1,0 +1,20 @@
+[
+{"song":"s_8rmepkbkrx","scope":"g:concrete","role":"intro"},
+{"song":"s_a1b61zz79j","scope":"g:concrete","role":"intro"},
+{"song":"s_pygf1esjs0","scope":"g:concrete","role":"intro"},
+{"song":"s_6xgnzte6we","scope":"g:concrete","role":"peak"},
+{"song":"s_zw609rng3y","scope":"g:concrete","role":"peak"},
+{"song":"s_k93ycksbdg","scope":"g:concrete","role":"peak"},
+{"song":"s_w2htr18c0k","scope":"g:concrete","role":"peak"},
+{"song":"s_3asajv23q3","scope":"g:concrete","role":"peak"},
+{"song":"s_ejdhyqt5ky","scope":"g:concrete","role":"peak"},
+{"song":"s_sph00jmhnc","scope":"g:concrete","role":"peak"},
+{"song":"s_f2fbg3e1y4","scope":"g:concrete","role":"peak"},
+{"song":"s_0xnzc9wgs8","scope":"g:concrete","role":"peak"},
+{"song":"s_w14p2ckte6","scope":"g:concrete","role":"peak"},
+{"song":"s_8rmepkbkrx","scope":"g:concrete","role":"reference"},
+{"song":"s_pygf1esjs0","scope":"g:concrete","role":"reference"},
+{"song":"s_k93ycksbdg","scope":"g:concrete","role":"reference"},
+{"song":"s_ejdhyqt5ky","scope":"g:concrete","role":"reference"},
+{"song":"s_4wce3kgjkj","scope":"g:concrete","role":"near miss","belongs_to":"elektron","reason":"Built entirely from synthesised sine tones, not recorded sounds"}
+]

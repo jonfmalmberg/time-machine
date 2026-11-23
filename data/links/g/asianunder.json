@@ -1,0 +1,20 @@
+[
+{"song":"s_djtttf8gkn","scope":"g:asianunder","role":"intro"},
+{"song":"s_c6c97bjbne","scope":"g:asianunder","role":"intro"},
+{"song":"s_19vhwc4pgm","scope":"g:asianunder","role":"intro"},
+{"song":"s_pk6yr5jqa4","scope":"g:asianunder","role":"peak","released":1997},
+{"song":"s_3ndfy6bfvc","scope":"g:asianunder","role":"peak"},
+{"song":"s_hzqrgev465","scope":"g:asianunder","role":"peak"},
+{"song":"s_grxvcqe820","scope":"g:asianunder","role":"peak"},
+{"song":"s_67eb9ks025","scope":"g:asianunder","role":"peak"},
+{"song":"s_tsy2ww5kx7","scope":"g:asianunder","role":"peak"},
+{"song":"s_3df5trjxtx","scope":"g:asianunder","role":"peak"},
+{"song":"s_stccxjaywk","scope":"g:asianunder","role":"peak"},
+{"song":"s_ma3t29pjck","scope":"g:asianunder","role":"peak"},
+{"song":"s_m3m1cczvst","scope":"g:asianunder","role":"peak"},
+{"song":"s_3ndfy6bfvc","scope":"g:asianunder","role":"reference"},
+{"song":"s_pk6yr5jqa4","scope":"g:asianunder","role":"reference","released":1998},
+{"song":"s_67eb9ks025","scope":"g:asianunder","role":"reference"},
+{"song":"s_7zmwmx73yg","scope":"g:asianunder","role":"near miss","belongs_to":"bhangra","reason":"Punjabi party song with dhol, made for bhangra dancing"},
+{"song":"s_3bcgvzmyf5","scope":"g:asianunder","role":"near miss","belongs_to":"britpop","reason":"Indie guitar pop with Indian themes, not electronic"}
+]

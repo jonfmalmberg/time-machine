@@ -1,0 +1,23 @@
+[
+{"song":"s_tcshavx1ne","scope":"g:contemporarychrist","role":"intro"},
+{"song":"s_q64jmkr6sa","scope":"g:contemporarychrist","role":"intro"},
+{"song":"s_6hx3wsawqz","scope":"g:contemporarychrist","role":"intro"},
+{"song":"s_4cvpmjr4qy","scope":"g:contemporarychrist","role":"peak"},
+{"song":"s_skq14ktjab","scope":"g:contemporarychrist","role":"peak"},
+{"song":"s_xczcqen4pg","scope":"g:contemporarychrist","role":"peak"},
+{"song":"s_nd6zmtb2pj","scope":"g:contemporarychrist","role":"peak"},
+{"song":"s_1kmm05tp3r","scope":"g:contemporarychrist","role":"peak"},
+{"song":"s_28wt6twjjk","scope":"g:contemporarychrist","role":"peak"},
+{"song":"s_bbfrmbe37y","scope":"g:contemporarychrist","role":"peak"},
+{"song":"s_f2dsrxrav1","scope":"g:contemporarychrist","role":"peak"},
+{"song":"s_dn79xn7wv6","scope":"g:contemporarychrist","role":"peak"},
+{"song":"s_bvarqk4qw7","scope":"g:contemporarychrist","role":"peak"},
+{"song":"s_ycm24b8cfx","scope":"g:contemporarychrist","role":"peak"},
+{"song":"s_t60aa6ve6q","scope":"g:contemporarychrist","role":"peak"},
+{"song":"s_4cvpmjr4qy","scope":"g:contemporarychrist","role":"reference"},
+{"song":"s_tcshavx1ne","scope":"g:contemporarychrist","role":"reference"},
+{"song":"s_q64jmkr6sa","scope":"g:contemporarychrist","role":"reference"},
+{"song":"s_6hx3wsawqz","scope":"g:contemporarychrist","role":"reference"},
+{"song":"s_afs1qfcv04","scope":"g:contemporarychrist","role":"near miss","belongs_to":"dancepop","reason":"Secular chart pop from a CCM star"},
+{"song":"s_trzbcq997t","scope":"g:contemporarychrist","role":"near miss","belongs_to":"gospel","reason":"Black gospel choir tradition, a separate stream"}
+]

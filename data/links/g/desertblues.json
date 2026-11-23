@@ -1,0 +1,18 @@
+[
+{"song":"s_fje7f7pmz9","scope":"g:desertblues","role":"intro"},
+{"song":"s_wca408f96s","scope":"g:desertblues","role":"intro"},
+{"song":"s_rb79tahygg","scope":"g:desertblues","role":"intro"},
+{"song":"s_1tyarv46p6","scope":"g:desertblues","role":"peak"},
+{"song":"s_3adensv72g","scope":"g:desertblues","role":"peak"},
+{"song":"s_e1hw6pdjep","scope":"g:desertblues","role":"peak"},
+{"song":"s_s4ve8zfssv","scope":"g:desertblues","role":"peak"},
+{"song":"s_dzjmx7hnqx","scope":"g:desertblues","role":"peak"},
+{"song":"s_np2gzvyvph","scope":"g:desertblues","role":"peak"},
+{"song":"s_ved2jvbtqv","scope":"g:desertblues","role":"peak"},
+{"song":"s_yn92g8sxn7","scope":"g:desertblues","role":"peak"},
+{"song":"s_nn3kk1y9xd","scope":"g:desertblues","role":"peak"},
+{"song":"s_caxtw4m5x2","scope":"g:desertblues","role":"peak"},
+{"song":"s_rb79tahygg","scope":"g:desertblues","role":"reference"},
+{"song":"s_e1hw6pdjep","scope":"g:desertblues","role":"reference"},
+{"song":"s_dsabagnwtk","scope":"g:desertblues","role":"near miss","belongs_to":"griot","reason":"Malian, but solo kora in the griot tradition, no guitar riffs"}
+]

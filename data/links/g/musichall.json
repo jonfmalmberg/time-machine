@@ -1,0 +1,17 @@
+[
+{"song":"s_9vcpv23pmy","scope":"g:musichall","role":"intro"},
+{"song":"s_mmeq9t68sy","scope":"g:musichall","role":"intro"},
+{"song":"s_5hm7ck9rt0","scope":"g:musichall","role":"intro"},
+{"song":"s_5k5cs8cwwt","scope":"g:musichall","role":"peak"},
+{"song":"s_q1cge1s8mz","scope":"g:musichall","role":"peak"},
+{"song":"s_zmppjn7k3y","scope":"g:musichall","role":"peak"},
+{"song":"s_jwsvpyf238","scope":"g:musichall","role":"peak"},
+{"song":"s_57cy9d77he","scope":"g:musichall","role":"peak"},
+{"song":"s_7x7mty0hhg","scope":"g:musichall","role":"peak"},
+{"song":"s_x9t163js7a","scope":"g:musichall","role":"peak"},
+{"song":"s_j43c5s8n9g","scope":"g:musichall","role":"peak"},
+{"song":"s_me7aeghc9j","scope":"g:musichall","role":"peak"},
+{"song":"s_zn3fhf0ev7","scope":"g:musichall","role":"peak"},
+{"song":"s_x9t163js7a","scope":"g:musichall","role":"reference"},
+{"song":"s_32g8f2k78t","scope":"g:musichall","role":"near miss","belongs_to":"tinpan","reason":"New York ragtime-flavoured song, not a London stage number"}
+]

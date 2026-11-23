@@ -1,0 +1,15 @@
+[
+{"song":"s_2rqyxbhdqw","scope":"g:uzbekpop","role":"intro"},
+{"song":"s_zr4qcs96cg","scope":"g:uzbekpop","role":"intro"},
+{"song":"s_82vzap8ydr","scope":"g:uzbekpop","role":"intro"},
+{"song":"s_dezq99x1sq","scope":"g:uzbekpop","role":"peak"},
+{"song":"s_tyqct6yfc1","scope":"g:uzbekpop","role":"peak"},
+{"song":"s_t0ebfq5yk2","scope":"g:uzbekpop","role":"peak"},
+{"song":"s_aacgsdhpv5","scope":"g:uzbekpop","role":"peak"},
+{"song":"s_j38k5swy85","scope":"g:uzbekpop","role":"peak"},
+{"song":"s_2rqyxbhdqw","scope":"g:uzbekpop","role":"reference"},
+{"song":"s_zr4qcs96cg","scope":"g:uzbekpop","role":"reference"},
+{"song":"s_pemm3s7d6w","scope":"g:uzbekpop","role":"near miss","belongs_to":"estrada","reason":"Soviet-era VIA hit sung in Russian for the all-Union stage"},
+{"release":"r_gfqpj7h31k","scope":"g:uzbekpop","role":"album"},
+{"release":"r_rmq2p5rhfm","scope":"g:uzbekpop","role":"album"}
+]

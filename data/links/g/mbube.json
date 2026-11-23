@@ -1,0 +1,13 @@
+[
+{"song":"s_xfv1e0scva","scope":"g:mbube","role":"intro"},
+{"song":"s_15vtvmfrfm","scope":"g:mbube","role":"peak"},
+{"song":"s_xcq0ts6g60","scope":"g:mbube","role":"peak"},
+{"song":"s_r7zx9nm5px","scope":"g:mbube","role":"peak"},
+{"song":"s_7xczad6b3b","scope":"g:mbube","role":"peak"},
+{"song":"s_f25hn5mkj3","scope":"g:mbube","role":"peak"},
+{"song":"s_xfv1e0scva","scope":"g:mbube","role":"reference"},
+{"song":"s_15vtvmfrfm","scope":"g:mbube","role":"reference"},
+{"song":"s_bdx81pssdt","scope":"g:mbube","role":"near miss","belongs_to":"folkrev","reason":"Built on Mbube, but an American folk group with orchestra"},
+{"release":"r_4qr9c75w44","scope":"g:mbube","role":"album"},
+{"release":"r_6bz5b8gvx5","scope":"g:mbube","role":"album"}
+]

@@ -1,0 +1,19 @@
+[
+{"song":"s_4qdex88vt4","scope":"g:honkytonk","role":"intro"},
+{"song":"s_p2ryhba90b","scope":"g:honkytonk","role":"intro"},
+{"song":"s_g13rg2zjcm","scope":"g:honkytonk","role":"intro"},
+{"song":"s_32j3hg7as5","scope":"g:honkytonk","role":"peak"},
+{"song":"s_yk62e5q3dc","scope":"g:honkytonk","role":"peak"},
+{"song":"s_gng361eeq8","scope":"g:honkytonk","role":"peak"},
+{"song":"s_vwm7hmnbbh","scope":"g:honkytonk","role":"peak"},
+{"song":"s_rs5v6s546c","scope":"g:honkytonk","role":"peak"},
+{"song":"s_z4ef3cd8xh","scope":"g:honkytonk","role":"peak"},
+{"song":"s_mpq1h7q6hw","scope":"g:honkytonk","role":"peak"},
+{"song":"s_y4bsgd8jtf","scope":"g:honkytonk","role":"peak"},
+{"song":"s_erp14rnd1c","scope":"g:honkytonk","role":"peak"},
+{"song":"s_9fyh398vdv","scope":"g:honkytonk","role":"peak"},
+{"song":"s_4qdex88vt4","scope":"g:honkytonk","role":"reference"},
+{"song":"s_gng361eeq8","scope":"g:honkytonk","role":"reference"},
+{"song":"s_mpq1h7q6hw","scope":"g:honkytonk","role":"reference"},
+{"song":"s_rt8dj2hxk1","scope":"g:honkytonk","role":"near miss","belongs_to":"nashvillesound","reason":"Strings and backing choir replace fiddle and steel"}
+]

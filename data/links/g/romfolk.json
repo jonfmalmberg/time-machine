@@ -1,0 +1,16 @@
+[
+{"song":"s_w53j12pv90","scope":"g:romfolk","role":"intro"},
+{"song":"s_0zgfbh5tfx","scope":"g:romfolk","role":"intro","released":1937},
+{"song":"s_bwd4ygssse","scope":"g:romfolk","role":"intro","released":1994},
+{"song":"s_t7c9betv1y","scope":"g:romfolk","role":"peak"},
+{"song":"s_drq0wwcgc3","scope":"g:romfolk","role":"peak"},
+{"song":"s_1rwkcvte0d","scope":"g:romfolk","role":"peak"},
+{"song":"s_9tt5cscvek","scope":"g:romfolk","role":"peak"},
+{"song":"s_2zb4hrbmfm","scope":"g:romfolk","role":"peak"},
+{"song":"s_f27ra15ax7","scope":"g:romfolk","role":"peak"},
+{"song":"s_0zgfbh5tfx","scope":"g:romfolk","role":"reference","released":1937},
+{"song":"s_w53j12pv90","scope":"g:romfolk","role":"reference"},
+{"song":"s_bwd4ygssse","scope":"g:romfolk","role":"reference","released":1994},
+{"song":"s_yz17jm1d2q","scope":"g:romfolk","role":"near miss","belongs_to":"romabrass","reason":"Roma brass band, horns instead of strings"},
+{"release":"r_bynn0stx4a","scope":"g:romfolk","role":"album"}
+]

@@ -1,0 +1,21 @@
+[
+{"song":"s_4xmsz3x4db","scope":"g:emorap","role":"intro"},
+{"song":"s_df35sxzqax","scope":"g:emorap","role":"intro"},
+{"song":"s_w86fmjxw8y","scope":"g:emorap","role":"intro"},
+{"song":"s_njy8efwpjc","scope":"g:emorap","role":"peak"},
+{"song":"s_x19xr54932","scope":"g:emorap","role":"peak"},
+{"song":"s_k9091c6m3y","scope":"g:emorap","role":"peak"},
+{"song":"s_vdj8zqnjxt","scope":"g:emorap","role":"peak"},
+{"song":"s_9ch9wnvfbq","scope":"g:emorap","role":"peak"},
+{"song":"s_rgk2gvky93","scope":"g:emorap","role":"peak"},
+{"song":"s_kxk2hdakqz","scope":"g:emorap","role":"peak"},
+{"song":"s_n1sj9mfyw0","scope":"g:emorap","role":"peak"},
+{"song":"s_zxs10mg7g2","scope":"g:emorap","role":"peak"},
+{"song":"s_vt1333xf3t","scope":"g:emorap","role":"peak"},
+{"song":"s_gxqgekgaw8","scope":"g:emorap","role":"peak"},
+{"song":"s_4xmsz3x4db","scope":"g:emorap","role":"reference"},
+{"song":"s_njy8efwpjc","scope":"g:emorap","role":"reference"},
+{"song":"s_n1sj9mfyw0","scope":"g:emorap","role":"reference"},
+{"song":"s_kxk2hdakqz","scope":"g:emorap","role":"reference"},
+{"song":"s_2qmycfdb8e","scope":"g:emorap","role":"near miss","belongs_to":"melodic","reason":"Sung and sad, but synth-pop and 808, not emo or guitar"}
+]

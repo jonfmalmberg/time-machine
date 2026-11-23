@@ -1,0 +1,22 @@
+[
+{"song":"s_f241sketxd","scope":"g:afrobeats","role":"intro"},
+{"song":"s_65n2j12a7z","scope":"g:afrobeats","role":"intro"},
+{"song":"s_3dbrrgfac4","scope":"g:afrobeats","role":"intro"},
+{"song":"s_ehp6tvp3aw","scope":"g:afrobeats","role":"peak"},
+{"song":"s_9aktx4h1gr","scope":"g:afrobeats","role":"peak"},
+{"song":"s_rsj7ds5vcy","scope":"g:afrobeats","role":"peak"},
+{"song":"s_jggbmvhz7k","scope":"g:afrobeats","role":"peak"},
+{"song":"s_6j4gnxraah","scope":"g:afrobeats","role":"peak"},
+{"song":"s_34v0yjr3b2","scope":"g:afrobeats","role":"peak"},
+{"song":"s_fd0grhegqs","scope":"g:afrobeats","role":"peak"},
+{"song":"s_53na3gr0td","scope":"g:afrobeats","role":"peak"},
+{"song":"s_teadajyr2m","scope":"g:afrobeats","role":"peak"},
+{"song":"s_904wv2e4ws","scope":"g:afrobeats","role":"peak"},
+{"song":"s_4zthe5ab60","scope":"g:afrobeats","role":"peak"},
+{"song":"s_ehp6tvp3aw","scope":"g:afrobeats","role":"reference"},
+{"song":"s_rsj7ds5vcy","scope":"g:afrobeats","role":"reference"},
+{"song":"s_6j4gnxraah","scope":"g:afrobeats","role":"reference"},
+{"song":"s_fd0grhegqs","scope":"g:afrobeats","role":"reference"},
+{"song":"s_s4gg6gjcg4","scope":"g:afrobeats","role":"near miss","belongs_to":"amapiano","reason":"Similar crossover pop, but South African log-drum amapiano beat"},
+{"song":"s_em973htcm9","scope":"g:afrobeats","role":"near miss","belongs_to":"afrobeat","reason":"Live funk-jazz band, long vamps and political chant"}
+]

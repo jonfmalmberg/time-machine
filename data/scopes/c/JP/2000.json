@@ -1,0 +1,13 @@
+[
+{"id":"c:JP:2000s","status":"decade list","note":"","tests":[{"id":"JP-2000-2009-2026-11-16","y0":2000,"y1":2009,"date":"2026-11-16","scores":[8,9,8],"result":"pass","note":""}]},
+{"id":"c:JP:2000","status":"year list","note":"Home list is Oricon year-end singles. Foreign evidence thin: only Bon Jovi has both a ranked album and a 2000 single; Céline Dion and Beatles best-ofs ranked but had no single of the year."},
+{"id":"c:JP:2001","status":"year list","note":"Home list is Oricon year-end singles. Foreign songs are inferred from foreign albums in the year-end albums top 50 (single not separately ranked)."},
+{"id":"c:JP:2002","status":"year list","note":"Oricon #1 single was Ayumi Hamasaki's three-track 'H' (not a song title); her 'Voyage' (#9, Japan Cable Award) is listed instead. MONGOL800 and BoA rest on album ranks. No KICK THE CAN CREW single in the top 50."},
+{"id":"c:JP:2003","status":"year list","note":"Home list is Oricon year-end singles plus an unlabelled 50-row ranking on the same page. KICK THE CAN CREW ranked only as an album (magic number #16), no song listed."},
+{"id":"c:JP:2004","status":"year list","note":"Home list is Oricon year-end singles with 着うた/着信メロディ year-end lists from the same page. ASIAN KUNG-FU GENERATION has no single in the top 50."},
+{"id":"c:JP:2005","status":"year list","note":"Home list is Oricon year-end singles with 着うた year-end. Mr.Children's #3 '四次元 Four Dimensions' is a four-track single, not a song, and is omitted. 青春アミーゴ was also #3 in 2006."},
+{"id":"c:JP:2006","status":"year list","note":"Home list is Oricon year-end singles with 着うた/着うたフル year-end. No enka single in the top 50 this year."},
+{"id":"c:JP:2007","status":"year list","note":"Home list is Oricon year-end singles plus the RIAJ full-track million download list on the page."},
+{"id":"c:JP:2008","status":"year list","note":"Home list is Oricon year-end singles. Foreign evidence thin: only two foreign albums in the year-end top 50; the Billboard Japan Hot 100 year-end could not be read from the page. AKB48 and 東方神起 have no single in the 2008 top 50."},
+{"id":"c:JP:2009","status":"year list","note":"Home list is Oricon year-end singles (Johnny's-heavy) balanced with the full-track million download list and the Japan Record Award. Foreign Western songs are inferred from ranked albums."}
+]

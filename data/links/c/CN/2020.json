@@ -1,0 +1,14 @@
+[
+{"song":"s_nnkcn57e3g","scope":"c:CN:2020s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_e0n1ba1v0e","scope":"c:CN:2020s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_vbr80dcr1k","scope":"c:CN:2020s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_bkz82h4j6x","scope":"c:CN:2020s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_w5n1bfgn60","scope":"c:CN:2020s","role":"home","scene":"film","confidence":"h"},
+{"song":"s_j56esm3v5m","scope":"c:CN:2020s","role":"home","scene":"film","confidence":"h"},
+{"song":"s_wfjr800py3","scope":"c:CN:2020s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_dnnpzxcypj","scope":"c:CN:2020s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_38gfkv303x","scope":"c:CN:2020s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_hkz67gaxax","scope":"c:CN:2020s","role":"home","scene":"folk","confidence":"h"},
+{"song":"s_be4y9ybjpt","scope":"c:CN:2020s","role":"foreign","scene":"dance","confidence":"m"},
+{"song":"s_3qa5pge5zk","scope":"c:CN:2020s","role":"foreign","scene":"pop","confidence":"m"}
+]

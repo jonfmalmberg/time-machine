@@ -1,0 +1,18 @@
+[
+{"song":"s_8qfsnqhdm0","scope":"g:marrabenta","role":"intro"},
+{"song":"s_njtcx3fvcb","scope":"g:marrabenta","role":"intro"},
+{"song":"s_86b6k9x6gy","scope":"g:marrabenta","role":"intro"},
+{"song":"s_7gvg3w4fev","scope":"g:marrabenta","role":"peak"},
+{"song":"s_y0s1gyszv4","scope":"g:marrabenta","role":"peak"},
+{"song":"s_6y08jjf2kh","scope":"g:marrabenta","role":"peak"},
+{"song":"s_028ts02bxs","scope":"g:marrabenta","role":"peak"},
+{"song":"s_8qfsnqhdm0","scope":"g:marrabenta","role":"reference"},
+{"song":"s_86b6k9x6gy","scope":"g:marrabenta","role":"reference"},
+{"song":"s_njtcx3fvcb","scope":"g:marrabenta","role":"reference"},
+{"song":"s_q4zv4renpk","scope":"g:marrabenta","role":"near miss","belongs_to":"semba","reason":"Angolan, Kimbundu and Portuguese, built on the semba rhythm"},
+{"release":"r_vjmhd2m1d3","scope":"g:marrabenta","role":"album"},
+{"release":"r_cjhanezanb","scope":"g:marrabenta","role":"album"},
+{"release":"r_eqt32t625c","scope":"g:marrabenta","role":"album"},
+{"release":"r_vy956yby87","scope":"g:marrabenta","role":"album"},
+{"release":"r_20dc9nr19c","scope":"g:marrabenta","role":"album"}
+]

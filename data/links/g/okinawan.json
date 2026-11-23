@@ -1,0 +1,12 @@
+[
+{"song":"s_9m8qaaf2as","scope":"g:okinawan","role":"intro"},
+{"song":"s_3qmbt1d1py","scope":"g:okinawan","role":"intro"},
+{"song":"s_avsnqdnqnn","scope":"g:okinawan","role":"peak"},
+{"song":"s_nqzc59cp8g","scope":"g:okinawan","role":"peak"},
+{"song":"s_8fy8bzkdhd","scope":"g:okinawan","role":"peak"},
+{"song":"s_9m8qaaf2as","scope":"g:okinawan","role":"reference"},
+{"song":"s_3qmbt1d1py","scope":"g:okinawan","role":"reference"},
+{"song":"s_4sjde15stx","scope":"g:okinawan","role":"near miss","belongs_to":"jpop","reason":"Mainland J-pop band using Okinawan colour, not Ryukyuan song"},
+{"release":"r_vart1qkrzq","scope":"g:okinawan","role":"album"},
+{"release":"r_bhzx3yh508","scope":"g:okinawan","role":"album"}
+]

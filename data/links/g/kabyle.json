@@ -1,0 +1,17 @@
+[
+{"song":"s_n6ka6ygajz","scope":"g:kabyle","role":"intro"},
+{"song":"s_76b4c4ckyr","scope":"g:kabyle","role":"intro"},
+{"song":"s_p4b93wwzat","scope":"g:kabyle","role":"intro"},
+{"song":"s_aeskqkpnmb","scope":"g:kabyle","role":"peak"},
+{"song":"s_rgw86ce3xe","scope":"g:kabyle","role":"peak"},
+{"song":"s_pz051e755m","scope":"g:kabyle","role":"peak"},
+{"song":"s_5jp9mdje94","scope":"g:kabyle","role":"peak"},
+{"song":"s_agf3sr1nc8","scope":"g:kabyle","role":"peak"},
+{"song":"s_9v514ktty1","scope":"g:kabyle","role":"peak"},
+{"song":"s_aeskqkpnmb","scope":"g:kabyle","role":"reference"},
+{"song":"s_n6ka6ygajz","scope":"g:kabyle","role":"reference"},
+{"song":"s_agf3sr1nc8","scope":"g:kabyle","role":"reference"},
+{"song":"s_zg0hwfkwme","scope":"g:kabyle","role":"near miss","belongs_to":"rai","reason":"Arabic-language raï from Oran, built for the dancefloor"},
+{"release":"r_ae5wpm5a3f","scope":"g:kabyle","role":"album"},
+{"release":"r_69xz2g65rm","scope":"g:kabyle","role":"album"}
+]

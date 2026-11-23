@@ -1,0 +1,21 @@
+[
+{"song":"s_djbz6a42mk","scope":"g:rockesp","role":"intro"},
+{"song":"s_5kse9c5by1","scope":"g:rockesp","role":"intro"},
+{"song":"s_1g4sa4cmv1","scope":"g:rockesp","role":"intro"},
+{"song":"s_p490twhn00","scope":"g:rockesp","role":"peak"},
+{"song":"s_ybn75kdnw6","scope":"g:rockesp","role":"peak"},
+{"song":"s_frjwcwdf59","scope":"g:rockesp","role":"peak"},
+{"song":"s_kt47b23q1p","scope":"g:rockesp","role":"peak"},
+{"song":"s_6r7hy9jsfy","scope":"g:rockesp","role":"peak"},
+{"song":"s_25w66nxcdb","scope":"g:rockesp","role":"peak"},
+{"song":"s_2xxp35pkmr","scope":"g:rockesp","role":"peak","released":1994},
+{"song":"s_bg0reh039j","scope":"g:rockesp","role":"peak"},
+{"song":"s_3v3wkhp4np","scope":"g:rockesp","role":"peak"},
+{"song":"s_84n2s1924b","scope":"g:rockesp","role":"peak"},
+{"song":"s_vr4g1yp4h3","scope":"g:rockesp","role":"peak"},
+{"song":"s_djbz6a42mk","scope":"g:rockesp","role":"reference"},
+{"song":"s_p490twhn00","scope":"g:rockesp","role":"reference"},
+{"song":"s_25w66nxcdb","scope":"g:rockesp","role":"reference"},
+{"song":"s_3v3wkhp4np","scope":"g:rockesp","role":"reference"},
+{"song":"s_yv5xm22j53","scope":"g:rockesp","role":"near miss","belongs_to":"latinpop","reason":"Pop production for Latin radio, rock guitars only as colour"}
+]

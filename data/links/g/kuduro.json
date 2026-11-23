@@ -1,0 +1,12 @@
+[
+{"song":"s_5xkya267fx","scope":"g:kuduro","role":"intro"},
+{"song":"s_rf18n919jn","scope":"g:kuduro","role":"peak"},
+{"song":"s_r3s9327s06","scope":"g:kuduro","role":"peak"},
+{"song":"s_sgseapm26s","scope":"g:kuduro","role":"peak"},
+{"song":"s_g0277ggcqt","scope":"g:kuduro","role":"peak"},
+{"song":"s_r3s9327s06","scope":"g:kuduro","role":"reference"},
+{"song":"s_sgseapm26s","scope":"g:kuduro","role":"reference"},
+{"song":"s_5jkceaf9pb","scope":"g:kuduro","role":"near miss","belongs_to":"reggaeton","reason":"Borrows the name, but built on a reggaeton beat"},
+{"release":"r_z3x1q2y8m9","scope":"g:kuduro","role":"album"},
+{"release":"r_grs4vftsnz","scope":"g:kuduro","role":"album"}
+]

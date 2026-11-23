@@ -1,0 +1,18 @@
+[
+{"song":"s_w09nd6xh0m","scope":"g:norteno","role":"intro"},
+{"song":"s_st4dafc3h7","scope":"g:norteno","role":"intro"},
+{"song":"s_hq726ntp56","scope":"g:norteno","role":"intro"},
+{"song":"s_kdzjknaqfe","scope":"g:norteno","role":"peak"},
+{"song":"s_cf3f4gzb4q","scope":"g:norteno","role":"peak"},
+{"song":"s_mp5gwn1mvh","scope":"g:norteno","role":"peak"},
+{"song":"s_rw8kfpxrzx","scope":"g:norteno","role":"peak","released":1985},
+{"song":"s_798thgsr8g","scope":"g:norteno","role":"peak"},
+{"song":"s_yg030my0wb","scope":"g:norteno","role":"peak"},
+{"song":"s_7gstm7p8pm","scope":"g:norteno","role":"peak"},
+{"song":"s_wpm3s0m882","scope":"g:norteno","role":"peak"},
+{"song":"s_1kv5may8qm","scope":"g:norteno","role":"peak"},
+{"song":"s_wt208abhwr","scope":"g:norteno","role":"peak"},
+{"song":"s_rw8kfpxrzx","scope":"g:norteno","role":"reference","released":1986},
+{"song":"s_wt208abhwr","scope":"g:norteno","role":"reference"},
+{"song":"s_m79k5aaf21","scope":"g:norteno","role":"near miss","belongs_to":"tejano","reason":"Accordion-based, but synths, cumbia beat and Texas pop production"}
+]

@@ -1,0 +1,19 @@
+[
+{"song":"s_bd82x7ekxc","scope":"g:romantic","role":"intro"},
+{"song":"s_w334gytebs","scope":"g:romantic","role":"intro"},
+{"song":"s_73rq3nqjxe","scope":"g:romantic","role":"intro"},
+{"song":"s_0ehmd1m3eh","scope":"g:romantic","role":"peak"},
+{"song":"s_g2a84fmbes","scope":"g:romantic","role":"peak"},
+{"song":"s_cy8n7fehj9","scope":"g:romantic","role":"peak"},
+{"song":"s_s4rdw2yjwh","scope":"g:romantic","role":"peak"},
+{"song":"s_sn5rkb0exb","scope":"g:romantic","role":"peak"},
+{"song":"s_1bdhh9zzd2","scope":"g:romantic","role":"peak"},
+{"song":"s_0hff6kd22w","scope":"g:romantic","role":"peak"},
+{"song":"s_6hyqjs9j12","scope":"g:romantic","role":"peak"},
+{"song":"s_0twh15qmg3","scope":"g:romantic","role":"peak"},
+{"song":"s_ftqhstrpd7","scope":"g:romantic","role":"peak"},
+{"song":"s_jbqmg93qf4","scope":"g:romantic","role":"reference"},
+{"song":"s_52cw29v7sv","scope":"g:romantic","role":"reference"},
+{"song":"s_34y58ed165","scope":"g:romantic","role":"reference"},
+{"song":"s_nbwh3s3p0w","scope":"g:romantic","role":"near miss","belongs_to":"impression","reason":"Piano miniatures too, but blurred colour chords instead of singing melody"}
+]

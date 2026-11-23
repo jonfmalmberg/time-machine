@@ -1,0 +1,11 @@
+[
+{"song":"s_a4spswkhyb","scope":"g:joropo","role":"intro"},
+{"song":"s_mmjwsrat8t","scope":"g:joropo","role":"peak"},
+{"song":"s_mqqg1v26ks","scope":"g:joropo","role":"peak","released":2011},
+{"song":"s_4qybxm678d","scope":"g:joropo","role":"peak"},
+{"song":"s_mmjwsrat8t","scope":"g:joropo","role":"reference"},
+{"song":"s_mqqg1v26ks","scope":"g:joropo","role":"reference","released":2004},
+{"song":"s_jtyq4chdx5","scope":"g:joropo","role":"near miss","belongs_to":"flamenco","reason":"Quotes Caballo Viejo, but rumba flamenca guitars, no harp or cuatro"},
+{"release":"r_mjkhjad7tp","scope":"g:joropo","role":"album"},
+{"release":"r_59eahfg2xt","scope":"g:joropo","role":"album"}
+]

@@ -1,0 +1,19 @@
+[
+{"song":"s_4fj5x2e8vp","scope":"g:country","role":"intro"},
+{"song":"s_s88z3gf8n6","scope":"g:country","role":"intro"},
+{"song":"s_721p91p8r9","scope":"g:country","role":"intro"},
+{"song":"s_d8cj48xvrc","scope":"g:country","role":"peak"},
+{"song":"s_h5rhgw95jn","scope":"g:country","role":"peak","released":1928},
+{"song":"s_mka9922kp1","scope":"g:country","role":"peak"},
+{"song":"s_q4nnehe2r2","scope":"g:country","role":"peak"},
+{"song":"s_swxnr5be79","scope":"g:country","role":"peak"},
+{"song":"s_gzyq6wthbm","scope":"g:country","role":"peak"},
+{"song":"s_2cjd1nqj6s","scope":"g:country","role":"peak"},
+{"song":"s_ty5c8w7nyg","scope":"g:country","role":"peak"},
+{"song":"s_m0qsjpke0t","scope":"g:country","role":"peak"},
+{"song":"s_7efgcp1r3h","scope":"g:country","role":"peak"},
+{"song":"s_h5rhgw95jn","scope":"g:country","role":"reference","released":1927},
+{"song":"s_q4nnehe2r2","scope":"g:country","role":"reference"},
+{"song":"s_ty5c8w7nyg","scope":"g:country","role":"reference"},
+{"song":"s_mpq1h7q6hw","scope":"g:country","role":"near miss","belongs_to":"honkytonk","reason":"Barroom band with steel guitar and a shuffle beat"}
+]

@@ -1,0 +1,17 @@
+[
+{"song":"s_5bnn0vbzbs","scope":"c:CO:1990s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_hmbqyzeyjz","scope":"c:CO:1990s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_q2agc7tnpd","scope":"c:CO:1990s","role":"home","scene":"folk","confidence":"h"},
+{"song":"s_5h2xk3rjyt","scope":"c:CO:1990s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_n21t0kr4ba","scope":"c:CO:1990s","role":"home","scene":"rock","confidence":"h"},
+{"song":"s_yv5xm22j53","scope":"c:CO:1990s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_p3skdtn9b3","scope":"c:CO:1990s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_pbsxzdna2e","scope":"c:CO:1990s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_1vtaan002j","scope":"c:CO:1990s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_rr0sa5xqee","scope":"c:CO:1990s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_tg8bnwn1j5","scope":"c:CO:1990s","role":"foreign","scene":"rock","confidence":"h"},
+{"song":"s_jyhakr1csq","scope":"c:CO:1990s","role":"foreign","scene":"dance","confidence":"h"},
+{"song":"s_6phmedk8vy","scope":"c:CO:1990s","role":"foreign","scene":"dance","confidence":"h"},
+{"song":"s_bnp6cbktgf","scope":"c:CO:1990s","role":"foreign","scene":"ballad","confidence":"h"},
+{"song":"s_s8mqc9g84h","scope":"c:CO:1990s","role":"foreign","scene":"dance","confidence":"h"}
+]

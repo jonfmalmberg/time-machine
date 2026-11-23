@@ -1,0 +1,22 @@
+[
+{"song":"s_kpchh7bpm1","scope":"g:boombap","role":"intro"},
+{"song":"s_ha9n3he8c1","scope":"g:boombap","role":"intro"},
+{"song":"s_xefm5tdrw6","scope":"g:boombap","role":"intro"},
+{"song":"s_eqfpf86nnh","scope":"g:boombap","role":"peak"},
+{"song":"s_xbk3dsprjs","scope":"g:boombap","role":"peak"},
+{"song":"s_qq31g0mqjq","scope":"g:boombap","role":"peak"},
+{"song":"s_h9d6wnzcbf","scope":"g:boombap","role":"peak"},
+{"song":"s_9fekyg6vbc","scope":"g:boombap","role":"peak"},
+{"song":"s_3hstqbyasa","scope":"g:boombap","role":"peak"},
+{"song":"s_xv5yxjkr96","scope":"g:boombap","role":"peak"},
+{"song":"s_zgvwy0d4vj","scope":"g:boombap","role":"peak"},
+{"song":"s_djd6z9kzy0","scope":"g:boombap","role":"peak"},
+{"song":"s_zds0kr81f9","scope":"g:boombap","role":"peak"},
+{"song":"s_q7qwkfmnqc","scope":"g:boombap","role":"peak"},
+{"song":"s_1n6dgkzt16","scope":"g:boombap","role":"peak"},
+{"song":"s_xefm5tdrw6","scope":"g:boombap","role":"reference"},
+{"song":"s_9fekyg6vbc","scope":"g:boombap","role":"reference"},
+{"song":"s_zgvwy0d4vj","scope":"g:boombap","role":"reference"},
+{"song":"s_djd6z9kzy0","scope":"g:boombap","role":"reference"},
+{"song":"s_hzt28v54z6","scope":"g:boombap","role":"near miss","belongs_to":"gfunk","reason":"Slow P-Funk groove and whining synth lead instead of dusty loops"}
+]

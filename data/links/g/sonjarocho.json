@@ -1,0 +1,11 @@
+[
+{"song":"s_6sp9jv8g96","scope":"g:sonjarocho","role":"intro"},
+{"song":"s_4ee4fnpxc0","scope":"g:sonjarocho","role":"peak","released":1997},
+{"song":"s_84gfgc0hdk","scope":"g:sonjarocho","role":"peak"},
+{"song":"s_n5fmtpc20m","scope":"g:sonjarocho","role":"peak","released":1990},
+{"song":"s_4ee4fnpxc0","scope":"g:sonjarocho","role":"reference","released":2009},
+{"song":"s_n5fmtpc20m","scope":"g:sonjarocho","role":"reference","released":2018},
+{"song":"s_4s3qzwkpnr","scope":"g:sonjarocho","role":"near miss","belongs_to":"rocknroll","reason":"A son jarocho tune, played as electric rock and roll"},
+{"release":"r_5ytm40w1j1","scope":"g:sonjarocho","role":"album"},
+{"release":"r_ww9t7z1hk4","scope":"g:sonjarocho","role":"album"}
+]

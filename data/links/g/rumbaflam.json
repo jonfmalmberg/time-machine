@@ -1,0 +1,23 @@
+[
+{"song":"s_f0ez9mjh8p","scope":"g:rumbaflam","role":"intro"},
+{"song":"s_jtyq4chdx5","scope":"g:rumbaflam","role":"intro"},
+{"song":"s_xjbkkyrqa9","scope":"g:rumbaflam","role":"intro"},
+{"song":"s_hpnt5rjdfm","scope":"g:rumbaflam","role":"peak"},
+{"song":"s_5bve0pybqx","scope":"g:rumbaflam","role":"peak"},
+{"song":"s_qjy8fnd9tw","scope":"g:rumbaflam","role":"peak","released":1973},
+{"song":"s_e54knchjh2","scope":"g:rumbaflam","role":"peak"},
+{"song":"s_73na2wkypa","scope":"g:rumbaflam","role":"peak"},
+{"song":"s_fvxjztscnq","scope":"g:rumbaflam","role":"peak"},
+{"song":"s_eqykcm5df1","scope":"g:rumbaflam","role":"peak"},
+{"song":"s_qfa1n3714y","scope":"g:rumbaflam","role":"peak"},
+{"song":"s_5sd4n8vz26","scope":"g:rumbaflam","role":"peak"},
+{"song":"s_z8tevn8yk8","scope":"g:rumbaflam","role":"peak"},
+{"song":"s_80hafqvpz2","scope":"g:rumbaflam","role":"peak"},
+{"song":"s_cjwdsh2t0q","scope":"g:rumbaflam","role":"peak"},
+{"song":"s_hpnt5rjdfm","scope":"g:rumbaflam","role":"reference"},
+{"song":"s_f0ez9mjh8p","scope":"g:rumbaflam","role":"reference"},
+{"song":"s_xjbkkyrqa9","scope":"g:rumbaflam","role":"reference"},
+{"song":"s_jtyq4chdx5","scope":"g:rumbaflam","role":"reference"},
+{"song":"s_nx4myg8shf","scope":"g:rumbaflam","role":"near miss","belongs_to":"flamenco","reason":"Flamenco cante reshaped with rock, not the party rumba"},
+{"song":"s_5gk49c8wgp","scope":"g:rumbaflam","role":"near miss","released":1949,"belongs_to":"mambo","reason":"The Cuban big-band source of the rhythm"}
+]

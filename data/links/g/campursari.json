@@ -1,0 +1,18 @@
+[
+{"song":"s_w8hr2fzkyr","scope":"g:campursari","role":"intro"},
+{"song":"s_tf2rbv7bwr","scope":"g:campursari","role":"intro"},
+{"song":"s_2ajfe8va1a","scope":"g:campursari","role":"intro"},
+{"song":"s_q8y7vt4dqx","scope":"g:campursari","role":"peak"},
+{"song":"s_c2tgx9rqn5","scope":"g:campursari","role":"peak"},
+{"song":"s_6smb3hc2fb","scope":"g:campursari","role":"peak"},
+{"song":"s_mzceaadgzf","scope":"g:campursari","role":"peak"},
+{"song":"s_0x7cs3bzgz","scope":"g:campursari","role":"peak"},
+{"song":"s_161xy7aszr","scope":"g:campursari","role":"peak"},
+{"song":"s_hdxttc0hfn","scope":"g:campursari","role":"peak"},
+{"song":"s_fxfj40zacw","scope":"g:campursari","role":"peak"},
+{"song":"s_w8hr2fzkyr","scope":"g:campursari","role":"reference"},
+{"song":"s_tf2rbv7bwr","scope":"g:campursari","role":"reference"},
+{"song":"s_q8y7vt4dqx","scope":"g:campursari","role":"reference"},
+{"song":"s_gcg10sn373","scope":"g:campursari","role":"near miss","released":1968,"belongs_to":"kroncong","reason":"Older langgam Jawa with string band, no keyboard or gamelan mix"},
+{"release":"r_nb3z8h45ed","scope":"g:campursari","role":"album"}
+]

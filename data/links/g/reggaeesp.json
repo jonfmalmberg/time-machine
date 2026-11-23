@@ -1,0 +1,12 @@
+[
+{"song":"s_k9gmnpdk30","scope":"g:reggaeesp","role":"intro"},
+{"song":"s_bg3dvbqm3c","scope":"g:reggaeesp","role":"intro"},
+{"song":"s_1phg8417fq","scope":"g:reggaeesp","role":"peak"},
+{"song":"s_yxpfwxykqb","scope":"g:reggaeesp","role":"peak"},
+{"song":"s_30qj8xy5s1","scope":"g:reggaeesp","role":"peak"},
+{"song":"s_1phg8417fq","scope":"g:reggaeesp","role":"reference"},
+{"song":"s_30qj8xy5s1","scope":"g:reggaeesp","role":"reference"},
+{"song":"s_7yrdfjzjm2","scope":"g:reggaeesp","role":"near miss","belongs_to":"reggaeton","reason":"Dembow drum loop and Puerto Rican production"},
+{"release":"r_kx4mzmdzbh","scope":"g:reggaeesp","role":"album"},
+{"release":"r_kwkzebsxma","scope":"g:reggaeesp","role":"album"}
+]

@@ -1,0 +1,12 @@
+[
+{"song":"s_w3kbrj0p1v","scope":"g:sevdah","role":"intro"},
+{"song":"s_7n56ayrh8f","scope":"g:sevdah","role":"peak"},
+{"song":"s_w7k617n7pm","scope":"g:sevdah","role":"peak"},
+{"song":"s_magkk19rqr","scope":"g:sevdah","role":"peak"},
+{"song":"s_w3kbrj0p1v","scope":"g:sevdah","role":"reference"},
+{"song":"s_7n56ayrh8f","scope":"g:sevdah","role":"reference"},
+{"song":"s_w7k617n7pm","scope":"g:sevdah","role":"reference"},
+{"song":"s_2131ahz62m","scope":"g:sevdah","role":"near miss","belongs_to":"novokomp","reason":"Newly composed folk-pop made for the mass market"},
+{"release":"r_khf8fk5fck","scope":"g:sevdah","role":"album"},
+{"release":"r_fpt2fcddg7","scope":"g:sevdah","role":"album"}
+]

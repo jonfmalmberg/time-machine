@@ -1,0 +1,14 @@
+[
+{"song":"s_hb659sb5e8","scope":"g:saralagee","role":"intro","released":null},
+{"song":"s_w7gtjhhb35","scope":"g:saralagee","role":"intro"},
+{"song":"s_cq85r2d5hc","scope":"g:saralagee","role":"intro","released":null},
+{"song":"s_m0xe1vme5n","scope":"g:saralagee","role":"peak","released":null},
+{"song":"s_xgkdfah5g2","scope":"g:saralagee","role":"peak"},
+{"song":"s_dwyz87m6xe","scope":"g:saralagee","role":"peak"},
+{"song":"s_sd1a75pn3b","scope":"g:saralagee","role":"peak"},
+{"song":"s_tngd183yt5","scope":"g:saralagee","role":"peak"},
+{"song":"s_m0xe1vme5n","scope":"g:saralagee","role":"reference"},
+{"song":"s_hb659sb5e8","scope":"g:saralagee","role":"reference"},
+{"song":"s_cq85r2d5hc","scope":"g:saralagee","role":"reference"},
+{"song":"s_enh11rjvy3","scope":"g:saralagee","role":"near miss","belongs_to":"baila","reason":"Dance music in 6/8 from the Portuguese Burgher tradition"}
+]

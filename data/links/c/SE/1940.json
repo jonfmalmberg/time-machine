@@ -1,0 +1,15 @@
+[
+{"song":"s_3xf29vf70b","scope":"c:SE:1940s","role":"home","scene":"film","confidence":"h"},
+{"song":"s_t0d9k7xp8s","scope":"c:SE:1940s","role":"home","scene":"radio","confidence":"h"},
+{"song":"s_05nrw6xjgy","scope":"c:SE:1940s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_ga4qd5201d","scope":"c:SE:1940s","role":"home","scene":"film","confidence":"h"},
+{"song":"s_5ern84q0zp","scope":"c:SE:1940s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_6ha0hp6kbw","scope":"c:SE:1940s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_x8752r7269","scope":"c:SE:1940s","role":"home","released":1947,"scene":"dance","confidence":"m"},
+{"song":"s_8wdmjss074","scope":"c:SE:1940s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_zvbzkvx0j7","scope":"c:SE:1940s","role":"home","released":1931,"scene":"folk","confidence":"m"},
+{"song":"s_hyhwnejbe9","scope":"c:SE:1940s","role":"foreign","scene":"radio","confidence":"h"},
+{"song":"s_82n5qns66k","scope":"c:SE:1940s","role":"foreign","scene":"dance","confidence":"m"},
+{"song":"s_94e9aqxedz","scope":"c:SE:1940s","role":"foreign","scene":"radio","confidence":"m"},
+{"song":"s_0x1qee92hs","scope":"c:SE:1940s","role":"foreign","released":1945,"scene":"dance","confidence":"m"}
+]

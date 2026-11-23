@@ -1,0 +1,13 @@
+[
+{"song":"s_vydj0kv0qm","scope":"g:rumba","role":"intro"},
+{"song":"s_q9z65vhvkq","scope":"g:rumba","role":"intro"},
+{"song":"s_q5ctvfwh46","scope":"g:rumba","role":"peak","released":1987},
+{"song":"s_jk0v2tbbx5","scope":"g:rumba","role":"peak"},
+{"song":"s_z0pwdw5xvf","scope":"g:rumba","role":"peak"},
+{"song":"s_vydj0kv0qm","scope":"g:rumba","role":"reference"},
+{"song":"s_q5ctvfwh46","scope":"g:rumba","role":"reference","released":1970},
+{"song":"s_8892ngq9mk","scope":"g:rumba","role":"near miss","belongs_to":"son","reason":"Sold abroad as 'rhumba', but a son-pregón for a dance band"},
+{"release":"r_qtft3pw4s1","scope":"g:rumba","role":"album"},
+{"release":"r_7a42f8v653","scope":"g:rumba","role":"album"},
+{"release":"r_9c22p8hn4q","scope":"g:rumba","role":"album"}
+]

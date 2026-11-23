@@ -1,0 +1,21 @@
+[
+{"song":"s_qbhnhs3mem","scope":"g:australiancountrya","role":"intro"},
+{"song":"s_fdz6nxnd2j","scope":"g:australiancountrya","role":"intro"},
+{"song":"s_3g99h5saqj","scope":"g:australiancountrya","role":"intro"},
+{"song":"s_4kyymv24kz","scope":"g:australiancountrya","role":"peak"},
+{"song":"s_kpn5vxe8c2","scope":"g:australiancountrya","role":"peak"},
+{"song":"s_3pm0n0men4","scope":"g:australiancountrya","role":"peak"},
+{"song":"s_2h1smgtaph","scope":"g:australiancountrya","role":"peak"},
+{"song":"s_0xcp63py4a","scope":"g:australiancountrya","role":"peak"},
+{"song":"s_9qmnrpn565","scope":"g:australiancountrya","role":"peak"},
+{"song":"s_7ks7a9tfkq","scope":"g:australiancountrya","role":"peak"},
+{"song":"s_j73d5pxdd0","scope":"g:australiancountrya","role":"peak"},
+{"song":"s_16h5z9g62d","scope":"g:australiancountrya","role":"peak"},
+{"song":"s_zpzjfswyva","scope":"g:australiancountrya","role":"peak"},
+{"song":"s_56eevj1w6p","scope":"g:australiancountrya","role":"peak"},
+{"song":"s_qbhnhs3mem","scope":"g:australiancountrya","role":"reference"},
+{"song":"s_fdz6nxnd2j","scope":"g:australiancountrya","role":"reference"},
+{"song":"s_j73d5pxdd0","scope":"g:australiancountrya","role":"reference"},
+{"song":"s_zpzjfswyva","scope":"g:australiancountrya","role":"reference"},
+{"song":"s_f254jhhgkr","scope":"g:australiancountrya","role":"near miss","belongs_to":"countrypop","reason":"Australian-raised, but Nashville country-pop"}
+]

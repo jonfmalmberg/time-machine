@@ -1,0 +1,18 @@
+[
+{"song":"s_zs1j16s9d9","scope":"g:drill","role":"intro"},
+{"song":"s_3sh9f79vev","scope":"g:drill","role":"intro"},
+{"song":"s_d9gzm243r7","scope":"g:drill","role":"intro"},
+{"song":"s_f0ks7pbrn6","scope":"g:drill","role":"peak"},
+{"song":"s_6svwx9rsqd","scope":"g:drill","role":"peak"},
+{"song":"s_mhvqe3e0xk","scope":"g:drill","role":"peak"},
+{"song":"s_jp2kw2ypsr","scope":"g:drill","role":"peak"},
+{"song":"s_5n7mhs0a93","scope":"g:drill","role":"peak"},
+{"song":"s_kd7teaepfc","scope":"g:drill","role":"peak"},
+{"song":"s_rjnw5j0n2j","scope":"g:drill","role":"peak"},
+{"song":"s_ses7r1t1jt","scope":"g:drill","role":"peak"},
+{"song":"s_1csevygjsv","scope":"g:drill","role":"peak"},
+{"song":"s_w8m1bt6hxq","scope":"g:drill","role":"peak"},
+{"song":"s_7wtcv4fzya","scope":"g:drill","role":"reference"},
+{"song":"s_6svwx9rsqd","scope":"g:drill","role":"reference"},
+{"song":"s_pmn1pvfpf9","scope":"g:drill","role":"near miss","belongs_to":"ukdrill","reason":"Sliding 808 bass and UK-style skipping drums"}
+]

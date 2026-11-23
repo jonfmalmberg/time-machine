@@ -1,0 +1,20 @@
+[
+{"song":"s_3pq4st47ks","scope":"g:brostep","role":"intro"},
+{"song":"s_r3t6eegr4y","scope":"g:brostep","role":"intro"},
+{"song":"s_nmdpgy4zjh","scope":"g:brostep","role":"intro"},
+{"song":"s_xpf6243naj","scope":"g:brostep","role":"peak"},
+{"song":"s_24xh8ge2wd","scope":"g:brostep","role":"peak"},
+{"song":"s_0a65wbvgsw","scope":"g:brostep","role":"peak"},
+{"song":"s_g196tcapsc","scope":"g:brostep","role":"peak"},
+{"song":"s_8szc094xbe","scope":"g:brostep","role":"peak"},
+{"song":"s_1hhf2kn254","scope":"g:brostep","role":"peak"},
+{"song":"s_n2xfz3ex4e","scope":"g:brostep","role":"peak"},
+{"song":"s_5wwbfs7t5g","scope":"g:brostep","role":"peak"},
+{"song":"s_1eax6zq3sb","scope":"g:brostep","role":"peak"},
+{"song":"s_jzakskezae","scope":"g:brostep","role":"peak"},
+{"song":"s_3ehmjrvhz6","scope":"g:brostep","role":"peak"},
+{"song":"s_xpf6243naj","scope":"g:brostep","role":"reference"},
+{"song":"s_g196tcapsc","scope":"g:brostep","role":"reference"},
+{"song":"s_n2xfz3ex4e","scope":"g:brostep","role":"reference"},
+{"song":"s_kwenwwy1se","scope":"g:brostep","role":"near miss","belongs_to":"dubstep","reason":"Sub-bass and space, not midrange aggression"}
+]

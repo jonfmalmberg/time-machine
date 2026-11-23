@@ -1,0 +1,21 @@
+[
+{"song":"s_rwvjejhvqs","scope":"g:punjabipop","role":"intro"},
+{"song":"s_7nexghwked","scope":"g:punjabipop","role":"intro"},
+{"song":"s_s7n8tvya9s","scope":"g:punjabipop","role":"intro"},
+{"song":"s_10dtnwh6nz","scope":"g:punjabipop","role":"peak"},
+{"song":"s_w7yn0gjzs1","scope":"g:punjabipop","role":"peak"},
+{"song":"s_b4sw2smbtp","scope":"g:punjabipop","role":"peak"},
+{"song":"s_g5zjdxdee0","scope":"g:punjabipop","role":"peak"},
+{"song":"s_swfmcyba0k","scope":"g:punjabipop","role":"peak"},
+{"song":"s_e501gajaq5","scope":"g:punjabipop","role":"peak"},
+{"song":"s_c7ehgxsgxp","scope":"g:punjabipop","role":"peak"},
+{"song":"s_vc8n3zwqps","scope":"g:punjabipop","role":"peak"},
+{"song":"s_dqkdjq622p","scope":"g:punjabipop","role":"peak"},
+{"song":"s_9d2w9ag5xq","scope":"g:punjabipop","role":"peak"},
+{"song":"s_a1gyc3a1t5","scope":"g:punjabipop","role":"peak"},
+{"song":"s_rwvjejhvqs","scope":"g:punjabipop","role":"reference"},
+{"song":"s_7nexghwked","scope":"g:punjabipop","role":"reference"},
+{"song":"s_e501gajaq5","scope":"g:punjabipop","role":"reference"},
+{"song":"s_c7ehgxsgxp","scope":"g:punjabipop","role":"reference"},
+{"song":"s_7zmwmx73yg","scope":"g:punjabipop","role":"near miss","belongs_to":"bhangra","reason":"Bhangra-hop crossover, but built on 90s UK bhangra production, not trap"}
+]

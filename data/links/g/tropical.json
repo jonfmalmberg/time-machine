@@ -1,0 +1,20 @@
+[
+{"song":"s_jstzyc37en","scope":"g:tropical","role":"intro"},
+{"song":"s_kt1xdrm5q0","scope":"g:tropical","role":"intro"},
+{"song":"s_2h0fs79vbb","scope":"g:tropical","role":"intro"},
+{"song":"s_9z63sc7wje","scope":"g:tropical","role":"peak"},
+{"song":"s_3ehrjxm1sb","scope":"g:tropical","role":"peak"},
+{"song":"s_we1e9z545d","scope":"g:tropical","role":"peak"},
+{"song":"s_qg7ty2vsp2","scope":"g:tropical","role":"peak"},
+{"song":"s_bfp6acjxye","scope":"g:tropical","role":"peak"},
+{"song":"s_dy5d1e5e31","scope":"g:tropical","role":"peak"},
+{"song":"s_s5akpm50xr","scope":"g:tropical","role":"peak"},
+{"song":"s_f608c80ft4","scope":"g:tropical","role":"peak"},
+{"song":"s_310qykswh4","scope":"g:tropical","role":"peak"},
+{"song":"s_fzgb56c5ep","scope":"g:tropical","role":"peak"},
+{"song":"s_7xj8qzq1qg","scope":"g:tropical","role":"peak"},
+{"song":"s_9z63sc7wje","scope":"g:tropical","role":"reference"},
+{"song":"s_2h0fs79vbb","scope":"g:tropical","role":"reference"},
+{"song":"s_7xj8qzq1qg","scope":"g:tropical","role":"reference"},
+{"song":"s_z2ra0gnq37","scope":"g:tropical","role":"near miss","belongs_to":"dancehall","reason":"Dancehall-pop rhythm; borderline, fits both"}
+]

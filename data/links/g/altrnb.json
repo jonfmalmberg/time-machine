@@ -1,0 +1,22 @@
+[
+{"song":"s_3bwx59h0td","scope":"g:altrnb","role":"intro"},
+{"song":"s_fxqqqzr2dg","scope":"g:altrnb","role":"intro"},
+{"song":"s_xffnkw3rpg","scope":"g:altrnb","role":"intro"},
+{"song":"s_pevws7bpr9","scope":"g:altrnb","role":"peak"},
+{"song":"s_vnxjdcj24m","scope":"g:altrnb","role":"peak"},
+{"song":"s_zwthkwcbme","scope":"g:altrnb","role":"peak"},
+{"song":"s_vvztszqadx","scope":"g:altrnb","role":"peak"},
+{"song":"s_zcpp5mk882","scope":"g:altrnb","role":"peak"},
+{"song":"s_w2x49se73j","scope":"g:altrnb","role":"peak"},
+{"song":"s_mgnvbjgm5s","scope":"g:altrnb","role":"peak"},
+{"song":"s_9n0jrdbpa8","scope":"g:altrnb","role":"peak"},
+{"song":"s_brpfj3caz0","scope":"g:altrnb","role":"peak"},
+{"song":"s_rmtvrzx6sh","scope":"g:altrnb","role":"peak"},
+{"song":"s_sp157nb71d","scope":"g:altrnb","role":"peak"},
+{"song":"s_j2xgmpxs7f","scope":"g:altrnb","role":"peak"},
+{"song":"s_fxqqqzr2dg","scope":"g:altrnb","role":"reference"},
+{"song":"s_pevws7bpr9","scope":"g:altrnb","role":"reference"},
+{"song":"s_zwthkwcbme","scope":"g:altrnb","role":"reference"},
+{"song":"s_j2xgmpxs7f","scope":"g:altrnb","role":"reference"},
+{"song":"s_1nqg9ptq7w","scope":"g:altrnb","role":"near miss","belongs_to":"trapsoul","reason":"Trap drums and rap cadence under the singing"}
+]

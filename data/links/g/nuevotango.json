@@ -1,0 +1,18 @@
+[
+{"song":"s_xrdqyzsag1","scope":"g:nuevotango","role":"intro"},
+{"song":"s_d8kbtfe08c","scope":"g:nuevotango","role":"intro"},
+{"song":"s_tt4358emda","scope":"g:nuevotango","role":"intro"},
+{"song":"s_mxzcvrjn9c","scope":"g:nuevotango","role":"peak"},
+{"song":"s_aa0a0wjtfx","scope":"g:nuevotango","role":"peak"},
+{"song":"s_jm1xr8ta84","scope":"g:nuevotango","role":"peak"},
+{"song":"s_5h5yeaqy79","scope":"g:nuevotango","role":"peak"},
+{"song":"s_w4gjwjhsd9","scope":"g:nuevotango","role":"peak"},
+{"song":"s_5r05tvaz6q","scope":"g:nuevotango","role":"peak"},
+{"song":"s_s4n4kwma0s","scope":"g:nuevotango","role":"peak"},
+{"song":"s_521cd21vep","scope":"g:nuevotango","role":"peak"},
+{"song":"s_v949q49d9q","scope":"g:nuevotango","role":"peak","released":1965},
+{"song":"s_q9zzxbsb6h","scope":"g:nuevotango","role":"peak"},
+{"song":"s_5h5yeaqy79","scope":"g:nuevotango","role":"reference"},
+{"song":"s_v949q49d9q","scope":"g:nuevotango","role":"reference","released":1986},
+{"song":"s_kppk5fz5hm","scope":"g:nuevotango","role":"near miss","belongs_to":"tango","reason":"Dramatic and rhythmic, but still a dance orchestra for the milonga"}
+]

@@ -1,0 +1,18 @@
+[
+{"song":"s_61hsden67z","scope":"g:arabesk","role":"intro","released":1969},
+{"song":"s_pgmhj8q4s8","scope":"g:arabesk","role":"intro"},
+{"song":"s_vm74dhswx7","scope":"g:arabesk","role":"intro","released":1973},
+{"song":"s_qqgds212ed","scope":"g:arabesk","role":"peak"},
+{"song":"s_py1w0vvt1h","scope":"g:arabesk","role":"peak"},
+{"song":"s_8fmrjk0a8d","scope":"g:arabesk","role":"peak"},
+{"song":"s_jcfbkvvrxy","scope":"g:arabesk","role":"peak"},
+{"song":"s_8m346ra7as","scope":"g:arabesk","role":"peak"},
+{"song":"s_ds4jd0wnt5","scope":"g:arabesk","role":"peak"},
+{"song":"s_j408m0cnwx","scope":"g:arabesk","role":"peak","released":1985},
+{"song":"s_je14r923y7","scope":"g:arabesk","role":"peak"},
+{"song":"s_swq8xhn3s0","scope":"g:arabesk","role":"peak"},
+{"song":"s_4whzaeef2d","scope":"g:arabesk","role":"peak"},
+{"song":"s_61hsden67z","scope":"g:arabesk","role":"reference","released":1971},
+{"song":"s_vm74dhswx7","scope":"g:arabesk","role":"reference","released":1975},
+{"song":"s_7ethr7vg64","scope":"g:arabesk","role":"near miss","belongs_to":"anatolianpsych","reason":"Turkish folk melody, but electric rock band and fuzz, not strings and lament"}
+]

@@ -1,0 +1,12 @@
+[
+{"song":"s_3k6cba6tsc","scope":"g:semba","role":"intro"},
+{"song":"s_q4zv4renpk","scope":"g:semba","role":"peak"},
+{"song":"s_6fhw2asv86","scope":"g:semba","role":"peak"},
+{"song":"s_dnep1m3jsg","scope":"g:semba","role":"peak"},
+{"song":"s_4g8cdtrp65","scope":"g:semba","role":"peak"},
+{"song":"s_q4zv4renpk","scope":"g:semba","role":"reference"},
+{"song":"s_jjkxz272pa","scope":"g:semba","role":"reference"},
+{"song":"s_rf18n919jn","scope":"g:semba","role":"near miss","belongs_to":"kuduro","reason":"Luandan roots, but electronic, fast and aggressive club music"},
+{"release":"r_mct6cwe50z","scope":"g:semba","role":"album"},
+{"release":"r_wzc8ca8222","scope":"g:semba","role":"album"}
+]

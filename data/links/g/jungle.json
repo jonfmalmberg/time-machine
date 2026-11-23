@@ -1,0 +1,21 @@
+[
+{"song":"s_5q0yknnpgy","scope":"g:jungle","role":"intro"},
+{"song":"s_d7nxr6ea8j","scope":"g:jungle","role":"intro"},
+{"song":"s_vg28t19vza","scope":"g:jungle","role":"intro"},
+{"song":"s_gz5zjsqp09","scope":"g:jungle","role":"peak"},
+{"song":"s_a44vdxtpaq","scope":"g:jungle","role":"peak"},
+{"song":"s_dgbxz2zq9j","scope":"g:jungle","role":"peak"},
+{"song":"s_zasv4pv22j","scope":"g:jungle","role":"peak"},
+{"song":"s_ywjctntnzw","scope":"g:jungle","role":"peak"},
+{"song":"s_99jdkdp2as","scope":"g:jungle","role":"peak"},
+{"song":"s_mj44g1j3k9","scope":"g:jungle","role":"peak"},
+{"song":"s_7wpxwtr1yr","scope":"g:jungle","role":"peak"},
+{"song":"s_emnv042tyy","scope":"g:jungle","role":"peak"},
+{"song":"s_jhp75466xq","scope":"g:jungle","role":"peak"},
+{"song":"s_0tayx5rc3c","scope":"g:jungle","role":"peak"},
+{"song":"s_t7jgtadtxr","scope":"g:jungle","role":"peak"},
+{"song":"s_gz5zjsqp09","scope":"g:jungle","role":"reference"},
+{"song":"s_a44vdxtpaq","scope":"g:jungle","role":"reference"},
+{"song":"s_99jdkdp2as","scope":"g:jungle","role":"reference"},
+{"song":"s_xhr5mmv0rc","scope":"g:jungle","role":"near miss","belongs_to":"bigbeat","reason":"Slower breakbeat with rock riffs and a shouted vocal"}
+]

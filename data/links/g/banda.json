@@ -1,0 +1,18 @@
+[
+{"song":"s_8nemhkcfgw","scope":"g:banda","role":"intro"},
+{"song":"s_jhm2nmrjny","scope":"g:banda","role":"intro"},
+{"song":"s_wkwan2fv88","scope":"g:banda","role":"intro"},
+{"song":"s_hkm1p868p2","scope":"g:banda","role":"peak"},
+{"song":"s_wg32n0a229","scope":"g:banda","role":"peak"},
+{"song":"s_yebj999chq","scope":"g:banda","role":"peak"},
+{"song":"s_a6k95a3bbm","scope":"g:banda","role":"peak"},
+{"song":"s_2jb8q5392v","scope":"g:banda","role":"peak"},
+{"song":"s_h9vrrjbrzv","scope":"g:banda","role":"peak","released":2015},
+{"song":"s_ezk9razfhj","scope":"g:banda","role":"peak"},
+{"song":"s_p3j371d0vx","scope":"g:banda","role":"peak"},
+{"song":"s_56wd3bs752","scope":"g:banda","role":"peak"},
+{"song":"s_ygx54p608f","scope":"g:banda","role":"peak"},
+{"song":"s_h9vrrjbrzv","scope":"g:banda","role":"reference","released":2012},
+{"song":"s_ygx54p608f","scope":"g:banda","role":"reference"},
+{"song":"s_rw8kfpxrzx","scope":"g:banda","role":"near miss","released":1986,"belongs_to":"norteno","reason":"Same repertoire, but accordion and bajo sexto instead of brass"}
+]

@@ -1,0 +1,12 @@
+[
+{"song":"s_bsh0973xa6","scope":"g:japart","role":"intro"},
+{"song":"s_634fg3mcwf","scope":"g:japart","role":"intro"},
+{"song":"s_sy26929k9n","scope":"g:japart","role":"peak"},
+{"song":"s_r3w0377gs9","scope":"g:japart","role":"peak"},
+{"song":"s_y0dkwhhab7","scope":"g:japart","role":"peak"},
+{"song":"s_a6esvrajw6","scope":"g:japart","role":"reference"},
+{"song":"s_fs5p1mbztw","scope":"g:japart","role":"near miss","belongs_to":"tsugaru","reason":"Folk-derived, percussive shamisen virtuosity"},
+{"release":"r_dd4pa44eka","scope":"g:japart","role":"album"},
+{"release":"r_fz41gvzs6b","scope":"g:japart","role":"album"},
+{"release":"r_0nemadg25x","scope":"g:japart","role":"album"}
+]

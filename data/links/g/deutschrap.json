@@ -1,0 +1,22 @@
+[
+{"song":"s_b1bngw1ymb","scope":"g:deutschrap","role":"intro"},
+{"song":"s_tbs6h5mtgt","scope":"g:deutschrap","role":"intro"},
+{"song":"s_y73f9bekf6","scope":"g:deutschrap","role":"intro"},
+{"song":"s_p974dzvq3r","scope":"g:deutschrap","role":"peak"},
+{"song":"s_m9bapts0b4","scope":"g:deutschrap","role":"peak"},
+{"song":"s_nvp4900c0j","scope":"g:deutschrap","role":"peak"},
+{"song":"s_yt00p1370g","scope":"g:deutschrap","role":"peak"},
+{"song":"s_01v9txmy8t","scope":"g:deutschrap","role":"peak"},
+{"song":"s_sg416xy2kv","scope":"g:deutschrap","role":"peak"},
+{"song":"s_43hf0jmyme","scope":"g:deutschrap","role":"peak","released":2012},
+{"song":"s_0g17smnhtc","scope":"g:deutschrap","role":"peak"},
+{"song":"s_rz6kh0cmj4","scope":"g:deutschrap","role":"peak"},
+{"song":"s_hxjmy59wf0","scope":"g:deutschrap","role":"peak"},
+{"song":"s_j4ak8y8j5c","scope":"g:deutschrap","role":"peak"},
+{"song":"s_0wwd87r2v5","scope":"g:deutschrap","role":"peak"},
+{"song":"s_b1bngw1ymb","scope":"g:deutschrap","role":"reference"},
+{"song":"s_tbs6h5mtgt","scope":"g:deutschrap","role":"reference"},
+{"song":"s_rz6kh0cmj4","scope":"g:deutschrap","role":"reference"},
+{"song":"s_y73f9bekf6","scope":"g:deutschrap","role":"reference"},
+{"song":"s_6v94jsm9y9","scope":"g:deutschrap","role":"near miss","belongs_to":"synthpop","reason":"Rapped German verses, but a synth-pop hit"}
+]

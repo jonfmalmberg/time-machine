@@ -1,0 +1,17 @@
+[
+{"song":"s_e4ykt5vztc","scope":"g:medpoly","role":"intro"},
+{"song":"s_8znnpbxx26","scope":"g:medpoly","role":"intro"},
+{"song":"s_dj09dng6bq","scope":"g:medpoly","role":"intro"},
+{"song":"s_b1f6djpg28","scope":"g:medpoly","role":"peak"},
+{"song":"s_9mv5fk72tq","scope":"g:medpoly","role":"peak"},
+{"song":"s_a18mcj0bae","scope":"g:medpoly","role":"peak"},
+{"song":"s_3gnw6c4491","scope":"g:medpoly","role":"peak"},
+{"song":"s_0dc1js5cnn","scope":"g:medpoly","role":"reference"},
+{"song":"s_72wf44b9bg","scope":"g:medpoly","role":"reference"},
+{"song":"s_sy9ytwp75x","scope":"g:medpoly","role":"reference"},
+{"song":"s_fsp151ad20","scope":"g:medpoly","role":"near miss","belongs_to":"gregorian","reason":"Twelfth-century and sacred, but a single melodic line with no added voices"},
+{"song":"s_cdmknxyrf7","scope":"g:medpoly","role":"near miss","belongs_to":"renaiss","reason":"Smooth imitative counterpoint and full triads instead of open fifths"},
+{"release":"r_0rc607t6nn","scope":"g:medpoly","role":"album"},
+{"release":"r_8xsg2804v4","scope":"g:medpoly","role":"album"},
+{"release":"r_m4pexsxp02","scope":"g:medpoly","role":"album"}
+]

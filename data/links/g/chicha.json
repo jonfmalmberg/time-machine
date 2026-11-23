@@ -1,0 +1,20 @@
+[
+{"song":"s_6zzvr07q2r","scope":"g:chicha","role":"intro"},
+{"song":"s_0n5xngz907","scope":"g:chicha","role":"intro"},
+{"song":"s_nwpw6kmerx","scope":"g:chicha","role":"intro"},
+{"song":"s_xkcxz3xckp","scope":"g:chicha","role":"peak"},
+{"song":"s_bek86pgpzh","scope":"g:chicha","role":"peak"},
+{"song":"s_yk7pey0353","scope":"g:chicha","role":"peak"},
+{"song":"s_bw4s01kx8t","scope":"g:chicha","role":"peak"},
+{"song":"s_asdkeq02y5","scope":"g:chicha","role":"peak","released":1974},
+{"song":"s_1yqt70n2kb","scope":"g:chicha","role":"peak"},
+{"song":"s_erwc32f632","scope":"g:chicha","role":"peak"},
+{"song":"s_cpdpzsngrk","scope":"g:chicha","role":"peak"},
+{"song":"s_wcnyr2cq2p","scope":"g:chicha","role":"peak"},
+{"song":"s_0jm3skxthw","scope":"g:chicha","role":"peak"},
+{"song":"s_d8ak2dv4cy","scope":"g:chicha","role":"peak"},
+{"song":"s_r9323rc4kt","scope":"g:chicha","role":"peak","released":1982},
+{"song":"s_6zzvr07q2r","scope":"g:chicha","role":"reference"},
+{"song":"s_r9323rc4kt","scope":"g:chicha","role":"reference","released":1981},
+{"song":"s_wr3bqb30xv","scope":"g:chicha","role":"near miss","belongs_to":"cumbia","reason":"Colombian coastal cumbia, acoustic drums and voices, no electric lead"}
+]

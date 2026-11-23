@@ -1,0 +1,22 @@
+[
+{"song":"s_gdjmcgdn4p","scope":"g:soulpop","role":"intro"},
+{"song":"s_m96hs8p4e5","scope":"g:soulpop","role":"intro"},
+{"song":"s_v4wzzt5mtc","scope":"g:soulpop","role":"intro"},
+{"song":"s_tqmnn25tzy","scope":"g:soulpop","role":"peak"},
+{"song":"s_1cteg57y9j","scope":"g:soulpop","role":"peak"},
+{"song":"s_yy5vmd8smj","scope":"g:soulpop","role":"peak"},
+{"song":"s_c851axa6kd","scope":"g:soulpop","role":"peak"},
+{"song":"s_ymshye54r2","scope":"g:soulpop","role":"peak"},
+{"song":"s_ya28grn5tx","scope":"g:soulpop","role":"peak"},
+{"song":"s_xd8bx69ppb","scope":"g:soulpop","role":"peak"},
+{"song":"s_2dy2mdc4zw","scope":"g:soulpop","role":"peak"},
+{"song":"s_7mgpc9hak4","scope":"g:soulpop","role":"peak"},
+{"song":"s_mgt9m5yvfc","scope":"g:soulpop","role":"peak"},
+{"song":"s_978xqj9r9h","scope":"g:soulpop","role":"peak"},
+{"song":"s_m96hs8p4e5","scope":"g:soulpop","role":"reference"},
+{"song":"s_yy5vmd8smj","scope":"g:soulpop","role":"reference"},
+{"song":"s_ya28grn5tx","scope":"g:soulpop","role":"reference"},
+{"song":"s_xd8bx69ppb","scope":"g:soulpop","role":"reference"},
+{"song":"s_7mgpc9hak4","scope":"g:soulpop","role":"reference"},
+{"song":"s_r2mn715wbx","scope":"g:soulpop","role":"near miss","belongs_to":"countrypop","reason":"Ballad too, but Nashville storytelling, not soul"}
+]

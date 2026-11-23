@@ -1,0 +1,18 @@
+[
+{"song":"s_cxyxjva0gw","scope":"g:vallenato","role":"intro"},
+{"song":"s_p2nghtrcc1","scope":"g:vallenato","role":"intro"},
+{"song":"s_sn2d6mfteb","scope":"g:vallenato","role":"intro"},
+{"song":"s_8mm9serf5k","scope":"g:vallenato","role":"peak"},
+{"song":"s_tqmxt07ed5","scope":"g:vallenato","role":"peak"},
+{"song":"s_ye5zrjmar7","scope":"g:vallenato","role":"peak"},
+{"song":"s_82dp5jtb01","scope":"g:vallenato","role":"peak","released":1990},
+{"song":"s_wpb4pb8xyr","scope":"g:vallenato","role":"peak"},
+{"song":"s_p1bdf5d1re","scope":"g:vallenato","role":"peak"},
+{"song":"s_scvx324nk7","scope":"g:vallenato","role":"peak"},
+{"song":"s_fk8kw1cfqn","scope":"g:vallenato","role":"peak"},
+{"song":"s_v1s251y5ca","scope":"g:vallenato","role":"peak"},
+{"song":"s_vbxbs72e3z","scope":"g:vallenato","role":"peak"},
+{"song":"s_82dp5jtb01","scope":"g:vallenato","role":"reference","released":1986},
+{"song":"s_scvx324nk7","scope":"g:vallenato","role":"reference"},
+{"song":"s_65qwdam0ty","scope":"g:vallenato","role":"near miss","belongs_to":"latinpop","reason":"Accordion hook kept, but a reggaeton-pop beat and radio production"}
+]

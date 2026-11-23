@@ -1,0 +1,20 @@
+[
+{"song":"s_g5bts7spvj","scope":"g:yeye","role":"intro"},
+{"song":"s_ajb7p9rp69","scope":"g:yeye","role":"intro"},
+{"song":"s_6hrwjwg8hs","scope":"g:yeye","role":"intro","released":1962},
+{"song":"s_xbczfs6dft","scope":"g:yeye","role":"peak"},
+{"song":"s_7xjb58mdqk","scope":"g:yeye","role":"peak"},
+{"song":"s_qmg6w6r537","scope":"g:yeye","role":"peak"},
+{"song":"s_pp74h7r41t","scope":"g:yeye","role":"peak"},
+{"song":"s_6vqp3x32ds","scope":"g:yeye","role":"peak"},
+{"song":"s_gw1cdcvzh8","scope":"g:yeye","role":"peak"},
+{"song":"s_6jwzvq2gsa","scope":"g:yeye","role":"peak"},
+{"song":"s_wj38gcwr9k","scope":"g:yeye","role":"peak"},
+{"song":"s_87m5tf51pm","scope":"g:yeye","role":"peak"},
+{"song":"s_1gn62tjnvf","scope":"g:yeye","role":"peak"},
+{"song":"s_7554h1yncc","scope":"g:yeye","role":"peak"},
+{"song":"s_g5bts7spvj","scope":"g:yeye","role":"reference"},
+{"song":"s_xbczfs6dft","scope":"g:yeye","role":"reference"},
+{"song":"s_pp74h7r41t","scope":"g:yeye","role":"reference"},
+{"song":"s_kgwa78a3q1","scope":"g:yeye","role":"near miss","belongs_to":"chanson","reason":"Wordy adult chanson, not teen beat-pop"}
+]

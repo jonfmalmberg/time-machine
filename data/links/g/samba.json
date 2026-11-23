@@ -1,0 +1,20 @@
+[
+{"song":"s_vep5nzdwtk","scope":"g:samba","role":"intro"},
+{"song":"s_64cp46q6ms","scope":"g:samba","role":"intro"},
+{"song":"s_wra8wnagm0","scope":"g:samba","role":"intro"},
+{"song":"s_y9c5ekb7b1","scope":"g:samba","role":"peak"},
+{"song":"s_vw1fjt94gr","scope":"g:samba","role":"peak"},
+{"song":"s_bsp4ds80y3","scope":"g:samba","role":"peak"},
+{"song":"s_eat69x1kcn","scope":"g:samba","role":"peak"},
+{"song":"s_dw11sfb3x0","scope":"g:samba","role":"peak"},
+{"song":"s_mcmkjv5ges","scope":"g:samba","role":"peak"},
+{"song":"s_grd5h707g2","scope":"g:samba","role":"peak"},
+{"song":"s_f5gvyw3rbb","scope":"g:samba","role":"peak"},
+{"song":"s_zwn3gdr0h9","scope":"g:samba","role":"peak"},
+{"song":"s_ghzv4xtbm2","scope":"g:samba","role":"peak"},
+{"song":"s_vep5nzdwtk","scope":"g:samba","role":"reference"},
+{"song":"s_wra8wnagm0","scope":"g:samba","role":"reference"},
+{"song":"s_dw11sfb3x0","scope":"g:samba","role":"reference"},
+{"song":"s_zwn3gdr0h9","scope":"g:samba","role":"reference"},
+{"song":"s_vptj2y4yek","scope":"g:samba","role":"near miss","belongs_to":"bossa","reason":"Samba rhythm condensed onto one guitar, cool and quiet vocal"}
+]

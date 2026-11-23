@@ -1,0 +1,19 @@
+[
+{"song":"s_c0kpg703mv","scope":"g:muzicausoara","role":"intro"},
+{"song":"s_x4cws4y33q","scope":"g:muzicausoara","role":"intro"},
+{"song":"s_29733rs980","scope":"g:muzicausoara","role":"intro"},
+{"song":"s_bkdv03mjs7","scope":"g:muzicausoara","role":"peak"},
+{"song":"s_jnwps9m4w0","scope":"g:muzicausoara","role":"peak"},
+{"song":"s_66kfr3tk95","scope":"g:muzicausoara","role":"peak"},
+{"song":"s_hsqhvw6ycb","scope":"g:muzicausoara","role":"peak"},
+{"song":"s_ndrqbraw32","scope":"g:muzicausoara","role":"peak"},
+{"song":"s_1n31y0dd6x","scope":"g:muzicausoara","role":"peak"},
+{"song":"s_tgeg95yhqb","scope":"g:muzicausoara","role":"peak"},
+{"song":"s_7dfxzpbfre","scope":"g:muzicausoara","role":"peak"},
+{"song":"s_cvv04k2n8f","scope":"g:muzicausoara","role":"peak"},
+{"song":"s_wt75ep1qmr","scope":"g:muzicausoara","role":"peak"},
+{"song":"s_c0kpg703mv","scope":"g:muzicausoara","role":"reference"},
+{"song":"s_x4cws4y33q","scope":"g:muzicausoara","role":"reference"},
+{"song":"s_29733rs980","scope":"g:muzicausoara","role":"reference"},
+{"song":"s_0zgfbh5tfx","scope":"g:muzicausoara","role":"near miss","released":1938,"belongs_to":"romfolk","reason":"Folk and lăutar repertoire, not composed studio pop"}
+]

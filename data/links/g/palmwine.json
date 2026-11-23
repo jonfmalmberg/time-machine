@@ -1,0 +1,13 @@
+[
+{"song":"s_5f32jj9c59","scope":"g:palmwine","role":"peak"},
+{"song":"s_mmp2w0jk01","scope":"g:palmwine","role":"peak"},
+{"song":"s_5zkqbenqr2","scope":"g:palmwine","role":"peak"},
+{"song":"s_6kawwsfgwf","scope":"g:palmwine","role":"peak"},
+{"song":"s_t5cd04mnpv","scope":"g:palmwine","role":"peak"},
+{"song":"s_5zkqbenqr2","scope":"g:palmwine","role":"reference"},
+{"song":"s_6kawwsfgwf","scope":"g:palmwine","role":"reference"},
+{"song":"s_97tgnsfws1","scope":"g:palmwine","role":"near miss","released":1965,"belongs_to":"highlife","reason":"Guitar melody too, but an electric dance band"},
+{"release":"r_9t3n805kq0","scope":"g:palmwine","role":"album"},
+{"release":"r_c9pp3x3hm5","scope":"g:palmwine","role":"album"},
+{"release":"r_hmhqrsftpg","scope":"g:palmwine","role":"album"}
+]

@@ -1,0 +1,17 @@
+[
+{"song":"s_xq7jcnbrxq","scope":"g:georgianpolyphonic","role":"intro"},
+{"song":"s_71j84wm7pa","scope":"g:georgianpolyphonic","role":"intro"},
+{"song":"s_rbajxjpft0","scope":"g:georgianpolyphonic","role":"intro"},
+{"song":"s_ps5g545m9n","scope":"g:georgianpolyphonic","role":"peak"},
+{"song":"s_bjmasqfkwr","scope":"g:georgianpolyphonic","role":"peak"},
+{"song":"s_8y21av06y8","scope":"g:georgianpolyphonic","role":"peak"},
+{"song":"s_m33d2s8vhz","scope":"g:georgianpolyphonic","role":"peak"},
+{"song":"s_05jf2sh6t4","scope":"g:georgianpolyphonic","role":"peak"},
+{"song":"s_nbf72se1rx","scope":"g:georgianpolyphonic","role":"peak"},
+{"song":"s_4sdxj3g99y","scope":"g:georgianpolyphonic","role":"peak"},
+{"song":"s_71j84wm7pa","scope":"g:georgianpolyphonic","role":"reference"},
+{"song":"s_xq7jcnbrxq","scope":"g:georgianpolyphonic","role":"reference"},
+{"song":"s_8y21av06y8","scope":"g:georgianpolyphonic","role":"reference"},
+{"song":"s_r7cjmg8ckk","scope":"g:georgianpolyphonic","role":"near miss","belongs_to":"balkanfolk","reason":"Bulgarian women's choir in arranged, composed settings"},
+{"release":"r_jhvq4myy87","scope":"g:georgianpolyphonic","role":"album"}
+]

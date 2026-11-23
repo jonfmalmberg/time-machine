@@ -1,0 +1,18 @@
+[
+{"song":"s_4symh4zkks","scope":"g:exotica","role":"intro"},
+{"song":"s_mtve63bx9h","scope":"g:exotica","role":"intro"},
+{"song":"s_03n2qhm7pe","scope":"g:exotica","role":"peak"},
+{"song":"s_fynwnrhk4s","scope":"g:exotica","role":"peak"},
+{"song":"s_fx0asy1dk6","scope":"g:exotica","role":"peak"},
+{"song":"s_p2zr0c5zhp","scope":"g:exotica","role":"peak"},
+{"song":"s_hrknztg44z","scope":"g:exotica","role":"peak"},
+{"song":"s_cqytgwgfe5","scope":"g:exotica","role":"peak"},
+{"song":"s_2ff4eq5txq","scope":"g:exotica","role":"peak"},
+{"song":"s_waxvfnntbg","scope":"g:exotica","role":"peak"},
+{"song":"s_rtnb33mkvb","scope":"g:exotica","role":"peak"},
+{"song":"s_9gn4qzem64","scope":"g:exotica","role":"peak"},
+{"song":"s_03n2qhm7pe","scope":"g:exotica","role":"reference"},
+{"song":"s_fx0asy1dk6","scope":"g:exotica","role":"reference"},
+{"song":"s_cqytgwgfe5","scope":"g:exotica","role":"reference"},
+{"song":"s_a7cbe9a4tf","scope":"g:exotica","role":"near miss","belongs_to":"mambo","reason":"Real Cuban dance band, not imagined jungle mood"}
+]

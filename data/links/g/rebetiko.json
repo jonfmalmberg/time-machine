@@ -1,0 +1,18 @@
+[
+{"song":"s_xgm8cpdgsc","scope":"g:rebetiko","role":"intro"},
+{"song":"s_3axqvpwzvk","scope":"g:rebetiko","role":"intro"},
+{"song":"s_142sjmerq2","scope":"g:rebetiko","role":"intro"},
+{"song":"s_0tcrnkdr0b","scope":"g:rebetiko","role":"peak"},
+{"song":"s_kej0vtp6b9","scope":"g:rebetiko","role":"peak"},
+{"song":"s_x83zqt7czv","scope":"g:rebetiko","role":"peak"},
+{"song":"s_e9ae137k7d","scope":"g:rebetiko","role":"peak"},
+{"song":"s_cvg8vsnz56","scope":"g:rebetiko","role":"peak"},
+{"song":"s_yjzfh7n80m","scope":"g:rebetiko","role":"peak"},
+{"song":"s_qhq8135d9z","scope":"g:rebetiko","role":"peak"},
+{"song":"s_y0ba03p14n","scope":"g:rebetiko","role":"peak"},
+{"song":"s_br8bppgnz5","scope":"g:rebetiko","role":"peak"},
+{"song":"s_hbept7sweq","scope":"g:rebetiko","role":"peak"},
+{"song":"s_0tcrnkdr0b","scope":"g:rebetiko","role":"reference"},
+{"song":"s_yjzfh7n80m","scope":"g:rebetiko","role":"reference"},
+{"song":"s_gmqdt8hnpr","scope":"g:rebetiko","role":"near miss","belongs_to":"filmscore","reason":"Bouzouki sound, but a film theme accelerating into a staged sirtaki"}
+]

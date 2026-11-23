@@ -1,0 +1,22 @@
+[
+{"song":"s_dpxja13xpa","scope":"g:australianpubrock","role":"intro"},
+{"song":"s_fxyq43wjgc","scope":"g:australianpubrock","role":"intro"},
+{"song":"s_wn4tmcf81r","scope":"g:australianpubrock","role":"intro"},
+{"song":"s_296fyh3p0a","scope":"g:australianpubrock","role":"peak"},
+{"song":"s_2fmykp0yg2","scope":"g:australianpubrock","role":"peak"},
+{"song":"s_se34gnjsn4","scope":"g:australianpubrock","role":"peak"},
+{"song":"s_qhhnphkknx","scope":"g:australianpubrock","role":"peak"},
+{"song":"s_3hek1q671n","scope":"g:australianpubrock","role":"peak"},
+{"song":"s_yndp7amgfk","scope":"g:australianpubrock","role":"peak"},
+{"song":"s_wv2djrma2z","scope":"g:australianpubrock","role":"peak"},
+{"song":"s_w13pvdsg8c","scope":"g:australianpubrock","role":"peak"},
+{"song":"s_8pyc9hxjd2","scope":"g:australianpubrock","role":"peak"},
+{"song":"s_m17svmz9h8","scope":"g:australianpubrock","role":"peak"},
+{"song":"s_cnbtxmpec9","scope":"g:australianpubrock","role":"peak"},
+{"song":"s_y5hm5c60tp","scope":"g:australianpubrock","role":"peak"},
+{"song":"s_296fyh3p0a","scope":"g:australianpubrock","role":"reference"},
+{"song":"s_dpxja13xpa","scope":"g:australianpubrock","role":"reference"},
+{"song":"s_fxyq43wjgc","scope":"g:australianpubrock","role":"reference"},
+{"song":"s_wn4tmcf81r","scope":"g:australianpubrock","role":"reference"},
+{"song":"s_dkv8v0b2jg","scope":"g:australianpubrock","role":"near miss","belongs_to":"synthpop","reason":"Sleek funk-pop made for MTV, not the front bar"}
+]

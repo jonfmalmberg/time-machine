@@ -1,0 +1,13 @@
+[
+{"song":"s_92139y1gr8","scope":"g:nazrulgeeti","role":"intro","released":null},
+{"song":"s_30jps8vv8e","scope":"g:nazrulgeeti","role":"intro"},
+{"song":"s_g10mk0110b","scope":"g:nazrulgeeti","role":"intro"},
+{"song":"s_ght78n1119","scope":"g:nazrulgeeti","role":"peak"},
+{"song":"s_zhd03bxv81","scope":"g:nazrulgeeti","role":"peak"},
+{"song":"s_gv24weqjty","scope":"g:nazrulgeeti","role":"peak"},
+{"song":"s_vetcn6ntwy","scope":"g:nazrulgeeti","role":"peak"},
+{"song":"s_ght78n1119","scope":"g:nazrulgeeti","role":"reference"},
+{"song":"s_zhd03bxv81","scope":"g:nazrulgeeti","role":"reference"},
+{"song":"s_92139y1gr8","scope":"g:nazrulgeeti","role":"reference"},
+{"song":"s_f1t73ws7g9","scope":"g:nazrulgeeti","role":"near miss","belongs_to":"bengalisong","reason":"A modern Bengali song by Salil Chowdhury, outside the Nazrul canon"}
+]

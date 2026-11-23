@@ -1,0 +1,17 @@
+[
+{"song":"s_dh73grsr1b","scope":"c:CL:2000s","role":"home","scene":"rock","confidence":"h"},
+{"song":"s_gccgwxrvbz","scope":"c:CL:2000s","role":"home","scene":"kids","confidence":"h"},
+{"song":"s_xta4cx6ty1","scope":"c:CL:2000s","role":"home","scene":"kids","confidence":"m"},
+{"song":"s_4d7p5mgvcg","scope":"c:CL:2000s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_4a8fpv268f","scope":"c:CL:2000s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_a9wet0rh1w","scope":"c:CL:2000s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_nvdhg7wdt1","scope":"c:CL:2000s","role":"home","scene":"rock","confidence":"h"},
+{"song":"s_wvsb84524q","scope":"c:CL:2000s","role":"home","scene":"rock","confidence":"m"},
+{"song":"s_npdbcqmgtw","scope":"c:CL:2000s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_ptzhwya4qt","scope":"c:CL:2000s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_7yrdfjzjm2","scope":"c:CL:2000s","role":"foreign","scene":"dance","confidence":"h"},
+{"song":"s_c6cndq9afd","scope":"c:CL:2000s","role":"foreign","scene":"pop","confidence":"h"},
+{"song":"s_pvq4bcvcmy","scope":"c:CL:2000s","role":"foreign","released":2005,"scene":"pop","confidence":"h"},
+{"song":"s_qsbt5s4fz9","scope":"c:CL:2000s","role":"foreign","scene":"pop","confidence":"h"},
+{"song":"s_jd0hgkdtm7","scope":"c:CL:2000s","role":"foreign","scene":"dance","confidence":"m"}
+]

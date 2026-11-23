@@ -1,0 +1,20 @@
+[
+{"song":"s_yq88jg3n8r","scope":"g:funkcarioca","role":"intro"},
+{"song":"s_x7422xft56","scope":"g:funkcarioca","role":"intro"},
+{"song":"s_h9s7r5wepg","scope":"g:funkcarioca","role":"intro"},
+{"song":"s_c6d08vqt69","scope":"g:funkcarioca","role":"peak"},
+{"song":"s_50s722wnvt","scope":"g:funkcarioca","role":"peak"},
+{"song":"s_m8hez7sfn7","scope":"g:funkcarioca","role":"peak"},
+{"song":"s_8pf4fasap0","scope":"g:funkcarioca","role":"peak"},
+{"song":"s_ejv50wzs9x","scope":"g:funkcarioca","role":"peak"},
+{"song":"s_dpsdmt9eb0","scope":"g:funkcarioca","role":"peak"},
+{"song":"s_eyfdq7wfyt","scope":"g:funkcarioca","role":"peak"},
+{"song":"s_h44ep2hhtj","scope":"g:funkcarioca","role":"peak"},
+{"song":"s_0tarjb4z9f","scope":"g:funkcarioca","role":"peak"},
+{"song":"s_2r8z8n397q","scope":"g:funkcarioca","role":"peak"},
+{"song":"s_gqg7gp0gzg","scope":"g:funkcarioca","role":"peak"},
+{"song":"s_ejv50wzs9x","scope":"g:funkcarioca","role":"reference"},
+{"song":"s_h44ep2hhtj","scope":"g:funkcarioca","role":"reference"},
+{"song":"s_0tarjb4z9f","scope":"g:funkcarioca","role":"reference"},
+{"song":"s_j0bqwm3n2y","scope":"g:funkcarioca","role":"near miss","belongs_to":"reggaeton","reason":"Dembow rhythm and Spanish lyrics, not the tamborzão beat"}
+]

@@ -1,0 +1,19 @@
+[
+{"song":"s_shv0fyce9j","scope":"g:trot","role":"intro"},
+{"song":"s_z9j58g4rxj","scope":"g:trot","role":"intro"},
+{"song":"s_emvfkyp42n","scope":"g:trot","role":"intro"},
+{"song":"s_e9hh0yr9rc","scope":"g:trot","role":"peak"},
+{"song":"s_qrdytdxvrh","scope":"g:trot","role":"peak"},
+{"song":"s_7dyw7dpx42","scope":"g:trot","role":"peak"},
+{"song":"s_nbpmtd976n","scope":"g:trot","role":"peak"},
+{"song":"s_m8c4507p93","scope":"g:trot","role":"peak"},
+{"song":"s_2c4x0cdczc","scope":"g:trot","role":"peak"},
+{"song":"s_6mfp4vgy05","scope":"g:trot","role":"peak"},
+{"song":"s_t35vx1nj26","scope":"g:trot","role":"peak"},
+{"song":"s_nswfz2a9q9","scope":"g:trot","role":"peak"},
+{"song":"s_8fght5wz5z","scope":"g:trot","role":"peak"},
+{"song":"s_z9j58g4rxj","scope":"g:trot","role":"reference"},
+{"song":"s_e9hh0yr9rc","scope":"g:trot","role":"reference"},
+{"song":"s_6mfp4vgy05","scope":"g:trot","role":"reference"},
+{"song":"s_5y6jgwxmmc","scope":"g:trot","role":"near miss","belongs_to":"enka","reason":"Same lineage, sung in Japanese with enka's slower drama"}
+]

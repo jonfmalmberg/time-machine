@@ -1,0 +1,17 @@
+[
+{"song":"s_rj83cqs0z2","scope":"g:turbofolk","role":"intro"},
+{"song":"s_p755h90tpk","scope":"g:turbofolk","role":"intro"},
+{"song":"s_z7hh36v4cw","scope":"g:turbofolk","role":"intro"},
+{"song":"s_v025nax53h","scope":"g:turbofolk","role":"peak"},
+{"song":"s_fk5mwyq7gz","scope":"g:turbofolk","role":"peak"},
+{"song":"s_z4pd5rdq4b","scope":"g:turbofolk","role":"peak"},
+{"song":"s_5f6gwm2041","scope":"g:turbofolk","role":"peak"},
+{"song":"s_v3x0c1zgc2","scope":"g:turbofolk","role":"peak"},
+{"song":"s_y3ams7gt8e","scope":"g:turbofolk","role":"peak"},
+{"song":"s_2s04z5g3dn","scope":"g:turbofolk","role":"peak"},
+{"song":"s_z7hh36v4cw","scope":"g:turbofolk","role":"reference"},
+{"song":"s_v025nax53h","scope":"g:turbofolk","role":"reference"},
+{"song":"s_zcbgrcq3qm","scope":"g:turbofolk","role":"near miss","belongs_to":"balkanfolk","reason":"Same ornamented singing, but acoustic village choir with no beat or synths"},
+{"release":"r_97yskxdc99","scope":"g:turbofolk","role":"album"},
+{"release":"r_bjdhjb0k58","scope":"g:turbofolk","role":"album"}
+]

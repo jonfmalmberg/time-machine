@@ -1,0 +1,13 @@
+[
+{"song":"s_kx8arcgc0t","scope":"g:iberianpop","role":"intro"},
+{"song":"s_jknt4wyz81","scope":"g:iberianpop","role":"intro"},
+{"song":"s_g5pk7hm0nd","scope":"g:iberianpop","role":"peak"},
+{"song":"s_we6eqef93m","scope":"g:iberianpop","role":"peak"},
+{"song":"s_ce2wmtx0w2","scope":"g:iberianpop","role":"peak"},
+{"song":"s_emnkz8zkw1","scope":"g:iberianpop","role":"peak"},
+{"song":"s_jqbc2rwx8g","scope":"g:iberianpop","role":"reference"},
+{"song":"s_9fyagefpsp","scope":"g:iberianpop","role":"near miss","belongs_to":"flamenco","reason":"A later Andalusian form with its own rhythms and Romani song style"},
+{"release":"r_nqcvt4z9qe","scope":"g:iberianpop","role":"album"},
+{"release":"r_1y2pstp10d","scope":"g:iberianpop","role":"album"},
+{"release":"r_eepy3h5xkc","scope":"g:iberianpop","role":"album"}
+]

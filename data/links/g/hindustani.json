@@ -1,0 +1,19 @@
+[
+{"song":"s_jnn2gp939m","scope":"g:hindustani","role":"intro"},
+{"song":"s_6ep40bghdx","scope":"g:hindustani","role":"intro"},
+{"song":"s_4bzvftss6g","scope":"g:hindustani","role":"intro"},
+{"song":"s_s8gz7cghn7","scope":"g:hindustani","role":"peak"},
+{"song":"s_97smyjz4q0","scope":"g:hindustani","role":"peak"},
+{"song":"s_g5bt53aphp","scope":"g:hindustani","role":"peak"},
+{"song":"s_teqfv1zr6y","scope":"g:hindustani","role":"peak"},
+{"song":"s_1bq2n2qvbj","scope":"g:hindustani","role":"peak"},
+{"song":"s_v4f7twvc3d","scope":"g:hindustani","role":"peak"},
+{"song":"s_j5m4nft1c4","scope":"g:hindustani","role":"peak"},
+{"song":"s_w6jy4zb5pq","scope":"g:hindustani","role":"peak"},
+{"song":"s_v825gak0ep","scope":"g:hindustani","role":"peak"},
+{"song":"s_ra44gsr1q7","scope":"g:hindustani","role":"peak"},
+{"song":"s_rz6f9kymr4","scope":"g:hindustani","role":"reference"},
+{"song":"s_cz26mg3q7y","scope":"g:hindustani","role":"reference"},
+{"song":"s_swndaqnken","scope":"g:hindustani","role":"reference"},
+{"song":"s_xf0axed2m8","scope":"g:hindustani","role":"near miss","belongs_to":"psych","reason":"Sitar and tabla, but a three-minute rock song with no raga development"}
+]

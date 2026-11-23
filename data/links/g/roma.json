@@ -1,0 +1,13 @@
+[
+{"song":"s_bfs76xsqkg","scope":"g:roma","role":"intro"},
+{"song":"s_pmsy00at5f","scope":"g:roma","role":"intro"},
+{"song":"s_5tj3m3j82t","scope":"g:roma","role":"peak","released":1991},
+{"song":"s_xcfw03bhz1","scope":"g:roma","role":"peak"},
+{"song":"s_g8tk9tgkrt","scope":"g:roma","role":"peak"},
+{"song":"s_5tj3m3j82t","scope":"g:roma","role":"reference","released":1994},
+{"song":"s_xcfw03bhz1","scope":"g:roma","role":"reference"},
+{"song":"s_d7ehfdwyw0","scope":"g:roma","role":"near miss","released":1998,"belongs_to":"romabrass","reason":"Same Romani dance repertoire, but played by a brass band rather than strings"},
+{"song":"s_4vcw5ktb9s","scope":"g:roma","role":"near miss","belongs_to":"gypsyjazz","reason":"Romani guitar and violin, but swing harmony and a steady jazz pulse"},
+{"release":"r_6a3daq5rpy","scope":"g:roma","role":"album"},
+{"release":"r_vyvadhp87d","scope":"g:roma","role":"album"}
+]

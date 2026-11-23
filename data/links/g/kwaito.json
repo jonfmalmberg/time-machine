@@ -1,0 +1,14 @@
+[
+{"song":"s_02kwcw8njg","scope":"g:kwaito","role":"intro"},
+{"song":"s_1mcty562ss","scope":"g:kwaito","role":"intro"},
+{"song":"s_h3tmjgvgjy","scope":"g:kwaito","role":"intro"},
+{"song":"s_4taz1rs7dr","scope":"g:kwaito","role":"peak"},
+{"song":"s_qw4qhxs4a5","scope":"g:kwaito","role":"peak"},
+{"song":"s_1mcty562ss","scope":"g:kwaito","role":"reference"},
+{"song":"s_4taz1rs7dr","scope":"g:kwaito","role":"reference"},
+{"song":"s_qw4qhxs4a5","scope":"g:kwaito","role":"reference"},
+{"song":"s_gcmfgam89d","scope":"g:kwaito","role":"near miss","belongs_to":"amapiano","reason":"Log-drum bass and jazzy piano, a newer, slower style"},
+{"release":"r_2wgzqfy831","scope":"g:kwaito","role":"album"},
+{"release":"r_44hc6wgm7s","scope":"g:kwaito","role":"album"},
+{"release":"r_eyrzf9chtr","scope":"g:kwaito","role":"album"}
+]

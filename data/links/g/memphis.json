@@ -1,0 +1,13 @@
+[
+{"song":"s_dn8seg9ejm","scope":"g:memphis","role":"intro","released":1995},
+{"song":"s_rwvrk8tmv8","scope":"g:memphis","role":"intro"},
+{"song":"s_svwyfyfxcg","scope":"g:memphis","role":"peak"},
+{"song":"s_sgna4e0b8p","scope":"g:memphis","role":"peak"},
+{"song":"s_jzbfjejcdj","scope":"g:memphis","role":"peak"},
+{"song":"s_ashvdrzj78","scope":"g:memphis","role":"peak"},
+{"song":"s_dn8seg9ejm","scope":"g:memphis","role":"reference","released":1996},
+{"song":"s_rwvrk8tmv8","scope":"g:memphis","role":"reference"},
+{"song":"s_agq73qdyb1","scope":"g:memphis","role":"near miss","released":2022,"belongs_to":"phonk","reason":"Samples this sound but is an instrumental, cowbell-led electronic track"},
+{"release":"r_y7cahdva2z","scope":"g:memphis","role":"album"},
+{"release":"r_6kwjrk16zd","scope":"g:memphis","role":"album"}
+]

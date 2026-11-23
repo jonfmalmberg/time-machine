@@ -1,0 +1,19 @@
+[
+{"song":"s_pak8pm6nex","scope":"g:sertanejo","role":"intro"},
+{"song":"s_b5awtq7nad","scope":"g:sertanejo","role":"intro"},
+{"song":"s_bt3qcpw59g","scope":"g:sertanejo","role":"intro"},
+{"song":"s_mj9fkwdnqh","scope":"g:sertanejo","role":"peak"},
+{"song":"s_5ssre8yez0","scope":"g:sertanejo","role":"peak"},
+{"song":"s_m3hw3r70hs","scope":"g:sertanejo","role":"peak"},
+{"song":"s_prcp594ncw","scope":"g:sertanejo","role":"peak"},
+{"song":"s_5hsekfdsmw","scope":"g:sertanejo","role":"peak"},
+{"song":"s_5nc43sk3xs","scope":"g:sertanejo","role":"peak"},
+{"song":"s_72x7y683v4","scope":"g:sertanejo","role":"peak"},
+{"song":"s_pgwzqwtwp2","scope":"g:sertanejo","role":"peak"},
+{"song":"s_w8xvv44myk","scope":"g:sertanejo","role":"peak"},
+{"song":"s_mh87qvher8","scope":"g:sertanejo","role":"peak"},
+{"song":"s_mj9fkwdnqh","scope":"g:sertanejo","role":"reference"},
+{"song":"s_prcp594ncw","scope":"g:sertanejo","role":"reference"},
+{"song":"s_pgwzqwtwp2","scope":"g:sertanejo","role":"reference"},
+{"song":"s_1fajyr8c67","scope":"g:sertanejo","role":"near miss","belongs_to":"baiao","reason":"Northeastern accordion and zabumba, not Centre-South duo singing"}
+]

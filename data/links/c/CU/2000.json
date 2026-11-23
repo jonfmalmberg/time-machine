@@ -1,0 +1,13 @@
+[
+{"song":"s_ph44kw0g3y","scope":"c:CU:2000s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_t8vepzen5n","scope":"c:CU:2000s","role":"home","scene":"folk","confidence":"h"},
+{"song":"s_gw0kantcx8","scope":"c:CU:2000s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_v409jpz4v9","scope":"c:CU:2000s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_13zjwy737r","scope":"c:CU:2000s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_h0c9zjpp2c","scope":"c:CU:2000s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_k28ma8efzf","scope":"c:CU:2000s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_cvf212ynjp","scope":"c:CU:2000s","role":"foreign","scene":"ballad","confidence":"h"},
+{"song":"s_x85r5bwrw2","scope":"c:CU:2000s","role":"foreign","scene":"dance","confidence":"m"},
+{"song":"s_7yrdfjzjm2","scope":"c:CU:2000s","role":"foreign","scene":"dance","confidence":"h"},
+{"song":"s_pvq4bcvcmy","scope":"c:CU:2000s","role":"foreign","released":2004,"scene":"pop","confidence":"m"}
+]

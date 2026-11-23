@@ -1,0 +1,21 @@
+[
+{"song":"s_k7bd1xr5tw","scope":"g:phlengphueachiwit","role":"intro"},
+{"song":"s_52ttfvegns","scope":"g:phlengphueachiwit","role":"intro"},
+{"song":"s_mn8zdqfawm","scope":"g:phlengphueachiwit","role":"intro"},
+{"song":"s_jjskx7t9my","scope":"g:phlengphueachiwit","role":"peak"},
+{"song":"s_smeerw0vfz","scope":"g:phlengphueachiwit","role":"peak"},
+{"song":"s_q6feb4ahrb","scope":"g:phlengphueachiwit","role":"peak"},
+{"song":"s_s7apa565w2","scope":"g:phlengphueachiwit","role":"peak"},
+{"song":"s_jb1pck9m9m","scope":"g:phlengphueachiwit","role":"peak"},
+{"song":"s_90gf2wxas8","scope":"g:phlengphueachiwit","role":"peak"},
+{"song":"s_d193ckc69w","scope":"g:phlengphueachiwit","role":"peak"},
+{"song":"s_90mgckzbge","scope":"g:phlengphueachiwit","role":"peak"},
+{"song":"s_7k8dpp7fh3","scope":"g:phlengphueachiwit","role":"peak"},
+{"song":"s_a7ew2nxpb6","scope":"g:phlengphueachiwit","role":"peak"},
+{"song":"s_cpwzpttvhd","scope":"g:phlengphueachiwit","role":"peak"},
+{"song":"s_k7bd1xr5tw","scope":"g:phlengphueachiwit","role":"reference"},
+{"song":"s_q6feb4ahrb","scope":"g:phlengphueachiwit","role":"reference"},
+{"song":"s_52ttfvegns","scope":"g:phlengphueachiwit","role":"reference"},
+{"song":"s_a7ew2nxpb6","scope":"g:phlengphueachiwit","role":"reference"},
+{"song":"s_dg8279vf8t","scope":"g:phlengphueachiwit","role":"near miss","belongs_to":"lukthung","reason":"Country song for the dance floor, heartbreak rather than protest"}
+]

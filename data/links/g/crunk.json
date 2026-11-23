@@ -1,0 +1,19 @@
+[
+{"song":"s_cjsszyer7a","scope":"g:crunk","role":"intro"},
+{"song":"s_wnjj25neqy","scope":"g:crunk","role":"intro"},
+{"song":"s_spgj8cjdyk","scope":"g:crunk","role":"intro"},
+{"song":"s_2ya84dxsgq","scope":"g:crunk","role":"peak"},
+{"song":"s_4hkxbk1dzg","scope":"g:crunk","role":"peak"},
+{"song":"s_33jbar23ft","scope":"g:crunk","role":"peak"},
+{"song":"s_553yj53nq3","scope":"g:crunk","role":"peak"},
+{"song":"s_k9cvr6tphf","scope":"g:crunk","role":"peak"},
+{"song":"s_hhfcancht6","scope":"g:crunk","role":"peak"},
+{"song":"s_0y1swqks0q","scope":"g:crunk","role":"peak"},
+{"song":"s_1aqrnxvx1p","scope":"g:crunk","role":"peak"},
+{"song":"s_8mg6cnmppc","scope":"g:crunk","role":"peak"},
+{"song":"s_79qydjj2pv","scope":"g:crunk","role":"peak"},
+{"song":"s_2ya84dxsgq","scope":"g:crunk","role":"reference"},
+{"song":"s_553yj53nq3","scope":"g:crunk","role":"reference"},
+{"song":"s_0y1swqks0q","scope":"g:crunk","role":"reference"},
+{"song":"s_eqj05pp65m","scope":"g:crunk","role":"near miss","belongs_to":"southern","reason":"Snap music: finger snaps and minimal beats, no shouting"}
+]

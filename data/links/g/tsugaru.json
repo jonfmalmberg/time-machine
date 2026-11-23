@@ -1,0 +1,11 @@
+[
+{"song":"s_fs5p1mbztw","scope":"g:tsugaru","role":"intro"},
+{"song":"s_w9k4wgx01q","scope":"g:tsugaru","role":"intro"},
+{"song":"s_qsxwtv79dp","scope":"g:tsugaru","role":"peak"},
+{"song":"s_fw6ehch2ab","scope":"g:tsugaru","role":"peak"},
+{"song":"s_wb21r1rmwd","scope":"g:tsugaru","role":"peak"},
+{"song":"s_fs5p1mbztw","scope":"g:tsugaru","role":"reference"},
+{"song":"s_w9k4wgx01q","scope":"g:tsugaru","role":"reference"},
+{"song":"s_qvj77736eh","scope":"g:tsugaru","role":"near miss","belongs_to":"minyo","reason":"Voice leads and shamisen only accompanies"},
+{"release":"r_s7m3zse4g1","scope":"g:tsugaru","role":"album"}
+]

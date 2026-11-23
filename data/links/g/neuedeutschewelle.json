@@ -1,0 +1,22 @@
+[
+{"song":"s_1v37desbn9","scope":"g:neuedeutschewelle","role":"intro"},
+{"song":"s_th5krncz3v","scope":"g:neuedeutschewelle","role":"intro"},
+{"song":"s_tkfk9v2e5j","scope":"g:neuedeutschewelle","role":"intro"},
+{"song":"s_4rpkzktw43","scope":"g:neuedeutschewelle","role":"peak"},
+{"song":"s_xmkgq079mq","scope":"g:neuedeutschewelle","role":"peak"},
+{"song":"s_ddft3ddvbc","scope":"g:neuedeutschewelle","role":"peak"},
+{"song":"s_y14q91h4fs","scope":"g:neuedeutschewelle","role":"peak"},
+{"song":"s_tqzzd1qwqa","scope":"g:neuedeutschewelle","role":"peak"},
+{"song":"s_rgjg7sap11","scope":"g:neuedeutschewelle","role":"peak"},
+{"song":"s_q0sbdvxd17","scope":"g:neuedeutschewelle","role":"peak"},
+{"song":"s_n078z6cj00","scope":"g:neuedeutschewelle","role":"peak"},
+{"song":"s_cemdj52rpj","scope":"g:neuedeutschewelle","role":"peak"},
+{"song":"s_5t9kqpyr2g","scope":"g:neuedeutschewelle","role":"peak"},
+{"song":"s_qvzefnye98","scope":"g:neuedeutschewelle","role":"peak"},
+{"song":"s_f1vxw746s9","scope":"g:neuedeutschewelle","role":"peak"},
+{"song":"s_1v37desbn9","scope":"g:neuedeutschewelle","role":"reference"},
+{"song":"s_th5krncz3v","scope":"g:neuedeutschewelle","role":"reference"},
+{"song":"s_tkfk9v2e5j","scope":"g:neuedeutschewelle","role":"reference"},
+{"song":"s_y14q91h4fs","scope":"g:neuedeutschewelle","role":"reference"},
+{"song":"s_nrtrp2860q","scope":"g:neuedeutschewelle","role":"near miss","belongs_to":"synthpop","reason":"Earlier, all-electronic and outside the punk scene"}
+]

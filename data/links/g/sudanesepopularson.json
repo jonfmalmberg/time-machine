@@ -1,0 +1,19 @@
+[
+{"song":"s_30prj2cb7d","scope":"g:sudanesepopularson","role":"intro"},
+{"song":"s_bm8r4mcfbq","scope":"g:sudanesepopularson","role":"intro"},
+{"song":"s_nkedpjj2me","scope":"g:sudanesepopularson","role":"intro"},
+{"song":"s_9zdy2dtkdm","scope":"g:sudanesepopularson","role":"peak"},
+{"song":"s_bqsadgtj35","scope":"g:sudanesepopularson","role":"peak"},
+{"song":"s_4mpqp6rdy7","scope":"g:sudanesepopularson","role":"peak"},
+{"song":"s_p75wqnynm1","scope":"g:sudanesepopularson","role":"peak"},
+{"song":"s_ebsq3bd2h8","scope":"g:sudanesepopularson","role":"peak"},
+{"song":"s_1gndqzhp66","scope":"g:sudanesepopularson","role":"peak"},
+{"song":"s_nkedpjj2me","scope":"g:sudanesepopularson","role":"reference"},
+{"song":"s_30prj2cb7d","scope":"g:sudanesepopularson","role":"reference"},
+{"song":"s_bqsadgtj35","scope":"g:sudanesepopularson","role":"reference"},
+{"song":"s_tf8zgzh3ph","scope":"g:sudanesepopularson","role":"near miss","belongs_to":"tarab","reason":"Egyptian maqam song with a full takht orchestra"},
+{"song":"s_gwe1a8dxj9","scope":"g:sudanesepopularson","role":"near miss","belongs_to":"ethiopop","reason":"Ethiopian pentatonic pop with horn-led bands"},
+{"release":"r_8na0y3q35a","scope":"g:sudanesepopularson","role":"album"},
+{"release":"r_cdrzfszh0m","scope":"g:sudanesepopularson","role":"album"},
+{"release":"r_c7ap54jmc0","scope":"g:sudanesepopularson","role":"album"}
+]

@@ -1,0 +1,13 @@
+[
+{"song":"s_bhd84mx7qp","scope":"g:persian","role":"intro"},
+{"song":"s_xj8nsvwd26","scope":"g:persian","role":"peak"},
+{"song":"s_66chqe0m1x","scope":"g:persian","role":"peak"},
+{"song":"s_gh58hendj7","scope":"g:persian","role":"peak","released":1984},
+{"song":"s_5byab9nqvf","scope":"g:persian","role":"peak"},
+{"song":"s_r0tpwzp5xw","scope":"g:persian","role":"peak"},
+{"song":"s_66chqe0m1x","scope":"g:persian","role":"reference"},
+{"song":"s_gh58hendj7","scope":"g:persian","role":"reference","released":1985},
+{"song":"s_ckdq2hzp6z","scope":"g:persian","role":"near miss","belongs_to":"iranpop","reason":"Persian melody, but a rock band and pop song form, no improvised avaz"},
+{"release":"r_cw4j93r3zb","scope":"g:persian","role":"album"},
+{"release":"r_6yxb02wd12","scope":"g:persian","role":"album"}
+]

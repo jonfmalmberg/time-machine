@@ -1,0 +1,14 @@
+[
+{"song":"s_wa36wazz0s","scope":"g:arabelec","role":"peak"},
+{"song":"s_p7cjvz0rk1","scope":"g:arabelec","role":"peak"},
+{"song":"s_h8f1z4982w","scope":"g:arabelec","role":"peak"},
+{"song":"s_y9vzbnhqy3","scope":"g:arabelec","role":"peak","released":2019},
+{"song":"s_b5qc3czgmj","scope":"g:arabelec","role":"peak"},
+{"song":"s_wa36wazz0s","scope":"g:arabelec","role":"reference"},
+{"song":"s_y9vzbnhqy3","scope":"g:arabelec","role":"reference","released":2016},
+{"song":"s_b5qc3czgmj","scope":"g:arabelec","role":"reference"},
+{"song":"s_4dcbbpk16b","scope":"g:arabelec","role":"near miss","belongs_to":"mahraganat","reason":"Cairo street-wedding music, Auto-Tuned and local"},
+{"release":"r_az52fz8vxd","scope":"g:arabelec","role":"album"},
+{"release":"r_z9dz3469xn","scope":"g:arabelec","role":"album"},
+{"release":"r_mke11dv4ww","scope":"g:arabelec","role":"album"}
+]

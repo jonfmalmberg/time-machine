@@ -1,0 +1,18 @@
+[
+{"song":"s_cnn6q27xk6","scope":"g:hymns","role":"intro"},
+{"song":"s_9nmt817hqv","scope":"g:hymns","role":"intro"},
+{"song":"s_2tberarqz9","scope":"g:hymns","role":"intro"},
+{"song":"s_dar1cqp87d","scope":"g:hymns","role":"peak"},
+{"song":"s_rkzctfpr5w","scope":"g:hymns","role":"peak"},
+{"song":"s_qv6j0w275s","scope":"g:hymns","role":"peak"},
+{"song":"s_6xzf26s27q","scope":"g:hymns","role":"peak"},
+{"song":"s_r010vzp1rz","scope":"g:hymns","role":"peak"},
+{"song":"s_g5g5bd5tfy","scope":"g:hymns","role":"peak"},
+{"song":"s_g6q01f6415","scope":"g:hymns","role":"peak"},
+{"song":"s_zjy9z1fvg7","scope":"g:hymns","role":"peak"},
+{"song":"s_9v0w7rdeg0","scope":"g:hymns","role":"peak"},
+{"song":"s_tnpcanjte4","scope":"g:hymns","role":"peak"},
+{"song":"s_bbj36v491x","scope":"g:hymns","role":"reference"},
+{"song":"s_qv6j0w275s","scope":"g:hymns","role":"reference"},
+{"song":"s_53eswepfj9","scope":"g:hymns","role":"near miss","belongs_to":"gospel","reason":"Hymn texts, but improvised melisma, call and response and a swinging rhythm section"}
+]

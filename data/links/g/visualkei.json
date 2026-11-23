@@ -1,0 +1,22 @@
+[
+{"song":"s_j9mfrqf07q","scope":"g:visualkei","role":"intro"},
+{"song":"s_8tkmdj7dx7","scope":"g:visualkei","role":"intro"},
+{"song":"s_70dtt540tz","scope":"g:visualkei","role":"intro"},
+{"song":"s_9rqvtc5dxn","scope":"g:visualkei","role":"peak"},
+{"song":"s_v69h0v7jga","scope":"g:visualkei","role":"peak"},
+{"song":"s_hat27rsq6h","scope":"g:visualkei","role":"peak"},
+{"song":"s_0t54dzcbp2","scope":"g:visualkei","role":"peak"},
+{"song":"s_r5smexh85r","scope":"g:visualkei","role":"peak"},
+{"song":"s_sq4gzrdpv2","scope":"g:visualkei","role":"peak"},
+{"song":"s_sy0dbgafs4","scope":"g:visualkei","role":"peak"},
+{"song":"s_5zhffpahrq","scope":"g:visualkei","role":"peak"},
+{"song":"s_xh5q5snthp","scope":"g:visualkei","role":"peak"},
+{"song":"s_fkm5h145wv","scope":"g:visualkei","role":"peak"},
+{"song":"s_fxs0stq89t","scope":"g:visualkei","role":"peak"},
+{"song":"s_ey7arg243j","scope":"g:visualkei","role":"peak"},
+{"song":"s_j9mfrqf07q","scope":"g:visualkei","role":"reference"},
+{"song":"s_v69h0v7jga","scope":"g:visualkei","role":"reference"},
+{"song":"s_8tkmdj7dx7","scope":"g:visualkei","role":"reference"},
+{"song":"s_fkm5h145wv","scope":"g:visualkei","role":"reference"},
+{"song":"s_xzjgbdgtrs","scope":"g:visualkei","role":"near miss","belongs_to":"jpop","reason":"Mainstream pop-rock with no theatrical image"}
+]

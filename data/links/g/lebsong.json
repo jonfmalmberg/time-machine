@@ -1,0 +1,23 @@
+[
+{"song":"s_g1cppatvtr","scope":"g:lebsong","role":"intro"},
+{"song":"s_pg2sncpdqy","scope":"g:lebsong","role":"intro"},
+{"song":"s_m7ddsa630j","scope":"g:lebsong","role":"intro"},
+{"song":"s_jy37dknnpn","scope":"g:lebsong","role":"peak"},
+{"song":"s_h9dk1wpfx0","scope":"g:lebsong","role":"peak"},
+{"song":"s_me3gdg7dbc","scope":"g:lebsong","role":"peak"},
+{"song":"s_2yt21ca932","scope":"g:lebsong","role":"peak"},
+{"song":"s_2byg0e51p5","scope":"g:lebsong","role":"peak"},
+{"song":"s_98qex17aey","scope":"g:lebsong","role":"peak"},
+{"song":"s_p6b9cehh4t","scope":"g:lebsong","role":"peak"},
+{"song":"s_9awy88esfs","scope":"g:lebsong","role":"peak"},
+{"song":"s_4wakbnwqq8","scope":"g:lebsong","role":"peak"},
+{"song":"s_pdcwxm9m2y","scope":"g:lebsong","role":"peak"},
+{"song":"s_y728j7e38n","scope":"g:lebsong","role":"peak"},
+{"song":"s_7r0chb6gkw","scope":"g:lebsong","role":"peak"},
+{"song":"s_pg2sncpdqy","scope":"g:lebsong","role":"reference"},
+{"song":"s_g1cppatvtr","scope":"g:lebsong","role":"reference"},
+{"song":"s_4wakbnwqq8","scope":"g:lebsong","role":"reference"},
+{"song":"s_7r0chb6gkw","scope":"g:lebsong","role":"reference"},
+{"song":"s_tf8zgzh3ph","scope":"g:lebsong","role":"near miss","belongs_to":"tarab","reason":"Egyptian tarab, long and improvised"},
+{"song":"s_5tmk88snkv","scope":"g:lebsong","role":"near miss","belongs_to":"arabpop","reason":"Modern Arabic pop production"}
+]

@@ -1,0 +1,17 @@
+[
+{"song":"s_9pzrb37y0a","scope":"g:afgospel","role":"intro"},
+{"song":"s_8x2zvzwv2r","scope":"g:afgospel","role":"intro"},
+{"song":"s_b36pkwb5a6","scope":"g:afgospel","role":"intro"},
+{"song":"s_bhpb22qvpt","scope":"g:afgospel","role":"peak"},
+{"song":"s_e032xthzt6","scope":"g:afgospel","role":"peak"},
+{"song":"s_r8z5pwmbng","scope":"g:afgospel","role":"peak"},
+{"song":"s_ga17989d2y","scope":"g:afgospel","role":"peak"},
+{"song":"s_v06be9ww1k","scope":"g:afgospel","role":"peak"},
+{"song":"s_czr2bkcwt3","scope":"g:afgospel","role":"peak"},
+{"song":"s_n8d558ts8d","scope":"g:afgospel","role":"peak"},
+{"song":"s_9pzrb37y0a","scope":"g:afgospel","role":"reference"},
+{"song":"s_r8z5pwmbng","scope":"g:afgospel","role":"reference"},
+{"song":"s_ga17989d2y","scope":"g:afgospel","role":"reference"},
+{"song":"s_y9z2169fe0","scope":"g:afgospel","role":"near miss","belongs_to":"mbube","reason":"Secular isicathamiya a cappella, not church praise"},
+{"release":"r_33r85kp298","scope":"g:afgospel","role":"album"}
+]

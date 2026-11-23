@@ -1,0 +1,18 @@
+[
+{"song":"s_wyj6ar7qm2","scope":"g:mandepop","role":"intro"},
+{"song":"s_aw24b7338h","scope":"g:mandepop","role":"intro"},
+{"song":"s_k6q2zc166y","scope":"g:mandepop","role":"intro"},
+{"song":"s_s8rczxe6k9","scope":"g:mandepop","role":"peak"},
+{"song":"s_5xhshmv68t","scope":"g:mandepop","role":"peak"},
+{"song":"s_0rmtnfd05g","scope":"g:mandepop","role":"peak"},
+{"song":"s_6p8d99pzxb","scope":"g:mandepop","role":"peak"},
+{"song":"s_x2jyekkvbr","scope":"g:mandepop","role":"peak"},
+{"song":"s_rpvak52khv","scope":"g:mandepop","role":"peak"},
+{"song":"s_6gnkvcksxh","scope":"g:mandepop","role":"peak"},
+{"song":"s_wh9yz97qft","scope":"g:mandepop","role":"peak"},
+{"song":"s_vmr4x3m68e","scope":"g:mandepop","role":"peak"},
+{"song":"s_tagn3pht5x","scope":"g:mandepop","role":"peak"},
+{"song":"s_5xhshmv68t","scope":"g:mandepop","role":"reference"},
+{"song":"s_6gnkvcksxh","scope":"g:mandepop","role":"reference"},
+{"song":"s_dsabagnwtk","scope":"g:mandepop","role":"near miss","belongs_to":"griot","reason":"Solo kora in the hereditary griot style"}
+]

@@ -13,14 +13,32 @@ MODELS = {('place-time', 1): 'claude-opus-5-5'}   # the registered model per bri
 BAR = 8                                           # every tested year must score at least this
 
 def sha(b): return hashlib.sha256(b).hexdigest()[:16]
+DATA = os.path.join(ROOT, 'data')
 def data_print():
+    """Fingerprint of every file under data/, by path and content."""
     h = hashlib.sha256()
-    for f in sorted(os.listdir(os.path.join(ROOT, 'data'))):
-        h.update(f.encode()); h.update(open(os.path.join(ROOT, 'data', f), 'rb').read())
+    for folder, dirs, files in sorted(os.walk(DATA)):
+        dirs.sort()
+        for f in sorted(files):
+            p = os.path.join(folder, f)
+            h.update(os.path.relpath(p, DATA).replace(os.sep, '/').encode()); h.update(open(p, 'rb').read())
     return h.hexdigest()[:16]
 def commit(): return subprocess.run(['git', 'rev-parse', '--short', 'HEAD'], cwd=ROOT, capture_output=True, text=True).stdout.strip()
 def dirty(): return bool(subprocess.run(['git', 'status', '--porcelain', 'data', 'src'], cwd=ROOT, capture_output=True, text=True).stdout.strip())
-def load(name): return json.load(open(os.path.join(ROOT, 'data', name + '.json'), encoding='utf-8'))
+def load(name):
+    """Records of data/<name>.json, or of every file matching data/<name> when it is a pattern (scopes/c/*/*)."""
+    if '*' not in name: return json.load(open(os.path.join(DATA, name + '.json'), encoding='utf-8'))
+    return [r for p in sorted(glob.glob(os.path.join(DATA, name + '.json'))) for r in json.load(open(p, encoding='utf-8'))]
+def write_records(path, records):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    open(path, 'w', encoding='utf-8').write('[\n' + ',\n'.join(json.dumps(r, ensure_ascii=False, separators=(',', ':')) for r in records) + ('\n' if records else '') + ']\n')
+def all_tests():
+    """Every recorded listener test, oldest first, in the old tests.json shape (iso or g first)."""
+    out = []
+    for r in load('scopes/g/*') + load('scopes/c/*/*'):
+        head = {'g': r['id'][2:]} if r['id'].startswith('g:') else {'iso': r['id'].split(':')[1]}
+        out += [dict(head, **{k: v for k, v in t.items() if k != 'id'}) for t in r.get('tests', [])]
+    return sorted(out, key=lambda t: t['date'])
 
 def prepare(a):
     brief = os.path.join(HERE, 'briefs', '%s.v%d.md' % (a.brief, a.version))
@@ -66,15 +84,29 @@ def record(a):
     result = 'pass' if min(scores) >= BAR else 'below'
     man.update(status='recorded', model=a.model, recorded=datetime.date.today().isoformat(), scores=scores, result=result)
     json.dump(man, open(os.path.join(run, 'manifest.json'), 'w'), indent=1)
-    line = dict(iso=man['place'], y0=min(man['years']) // 10 * 10, y1=min(man['years']) // 10 * 10 + 9, date=man['recorded'], scores=scores, result=result, note='', run=man['run'])
+    dec = min(man['years']) // 10 * 10
+    line = dict(id=man['run'], y0=dec, y1=dec + 9, date=man['recorded'], scores=scores, result=result, note='', run=man['run'])
     text = json.dumps(line, ensure_ascii=False, separators=(',', ':'))
     if a.apply:
-        p = os.path.join(ROOT, 'data', 'tests.json'); s = open(p, encoding='utf-8').read().rstrip()
-        assert s.endswith(']'); open(p, 'w', encoding='utf-8').write(s[:-1].rstrip() + ',\n' + text + '\n]\n'); print('added to data/tests.json')
+        sid = 'c:%s:%ds' % (man['place'], dec)
+        p = os.path.join(DATA, 'scopes', 'c', man['place'], '%d.json' % dec)
+        recs = json.load(open(p, encoding='utf-8')) if os.path.exists(p) else []
+        if not any(r['id'] == sid for r in recs): recs.insert(0, dict(id=sid))
+        rec = next(r for r in recs if r['id'] == sid)
+        if any(t['id'] == line['id'] for t in rec.get('tests', [])): sys.exit('This run is already recorded in ' + os.path.relpath(p, ROOT))
+        rec.setdefault('tests', []).append(line)
+        write_records(p, recs); print('added to', os.path.relpath(p, ROOT), 'under', sid)
     print(result, scores); print(text)
 
 def coverage(a):
-    nodes, defs, pl, era, yearl, iso, tests = (load(k) for k in ('nodes', 'defs', 'playlists', 'era', 'yearl', 'iso', 'tests'))
+    genres, countries, tests = load('genres'), load('countries'), all_tests()
+    status = {r['id'][2:]: r.get('status') for r in load('scopes/g/*')}
+    era, yearl = {}, {}         # country -> decades with a decade list; country -> years with a year list
+    for r in load('scopes/c/*/*'):
+        _, i, y = r['id'].split(':')
+        if r.get('status') == 'decade list': era.setdefault(i, set()).add(y[:-1])
+        if r.get('status') == 'year list': yearl.setdefault(i, set()).add(y)
+    iso = {c['id']: [c['name']] for c in countries}
     runs = [json.load(open(m)) for m in sorted(glob.glob(os.path.join(HERE, 'runs', '*', 'manifest.json')))]
     def tested(i, d):
         out = []
@@ -88,10 +120,10 @@ def coverage(a):
          'Research states. Genre: **full**, **thin** or **none** is the playlist status; **definition only** has no playlist; **pending** has a name and a place on the tree and nothing else. '
          'Country-decade: **year lists** means hits researched year by year with sources; **decade list** is one list for the decade; blank is nothing.', '']
     gs = {}
-    for n in nodes:
-        st = 'pending' if n[0] not in defs else (pl[n[0]]['status'] if n[0] in pl else 'definition only'); gs.setdefault(st, []).append(n)
+    for g in genres:
+        st = 'pending' if 'definition' not in g else (status[g['id']] if status.get(g['id']) else 'definition only'); gs.setdefault(st, []).append([g['id'], g['name']])
     L += ['## Genres', '', '| Research state | Genres |', '| :- | -: |'] + ['| %s | %d |' % (k, len(gs[k])) for k in ('full', 'thin', 'none', 'definition only', 'pending') if k in gs]
-    L += ['| **Total** | **%d** |' % len(nodes), '', 'Listener tests of a genre playlist: %d. No brief for genre playlists is registered yet.' % sum(1 for t in tests if t.get('g')), '']
+    L += ['| **Total** | **%d** |' % len(genres), '', 'Listener tests of a genre playlist: %d. No brief for genre playlists is registered yet.' % sum(1 for t in tests if t.get('g')), '']
     for k in ('pending', 'thin', 'none', 'definition only'):
         if k in gs: L += ['### %s (%d)' % (k.capitalize(), len(gs[k])), '', ', '.join('%s (`%s`)' % (n[1], n[0]) for n in gs[k]), '']
     L += ['## Countries and decades', '', 'Only countries with any song list are shown: %d of %d. Research by year starts at the 1940s.' % (len(set(era) | set(yearl)), len(iso)), '',

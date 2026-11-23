@@ -1,0 +1,16 @@
+[
+{"song":"s_10rnzf01ab","scope":"c:CU:1970s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_3vqwn2357y","scope":"c:CU:1970s","role":"home","released":1974,"scene":"dance","confidence":"h"},
+{"song":"s_1rgrd4bcss","scope":"c:CU:1970s","role":"home","scene":"dance","confidence":"h"},
+{"song":"s_hn377fmvpn","scope":"c:CU:1970s","role":"home","scene":"dance","confidence":"h"},
+{"song":"s_ae588krstb","scope":"c:CU:1970s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_d5ry1hqrfk","scope":"c:CU:1970s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_1cgjf6h43r","scope":"c:CU:1970s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_1zxjhg4nge","scope":"c:CU:1970s","role":"home","scene":"other","confidence":"m"},
+{"song":"s_mg15km4k92","scope":"c:CU:1970s","role":"home","scene":"dance","confidence":"h"},
+{"song":"s_404khs5gy4","scope":"c:CU:1970s","role":"foreign","scene":"ballad","confidence":"m"},
+{"song":"s_dshk5hpejp","scope":"c:CU:1970s","role":"foreign","released":1973,"scene":"ballad","confidence":"m"},
+{"song":"s_xyewrrz5p8","scope":"c:CU:1970s","role":"foreign","scene":"ballad","confidence":"m"},
+{"song":"s_ra4z7p13c1","scope":"c:CU:1970s","role":"foreign","scene":"dance","confidence":"m"},
+{"song":"s_k0xdkpqh41","scope":"c:CU:1970s","role":"foreign","scene":"pop","confidence":"m"}
+]

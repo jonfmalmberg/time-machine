@@ -1,0 +1,21 @@
+[
+{"song":"s_s03csxnrsg","scope":"g:bachata","role":"intro"},
+{"song":"s_4ne21nhvh8","scope":"g:bachata","role":"intro"},
+{"song":"s_w16sp55ptm","scope":"g:bachata","role":"intro"},
+{"song":"s_4yd5md1f9e","scope":"g:bachata","role":"peak"},
+{"song":"s_2cb8x50v0z","scope":"g:bachata","role":"peak"},
+{"song":"s_d6w3bywqbr","scope":"g:bachata","role":"peak"},
+{"song":"s_x85r5bwrw2","scope":"g:bachata","role":"peak"},
+{"song":"s_9tm0frspnq","scope":"g:bachata","role":"peak"},
+{"song":"s_q6cgcq4166","scope":"g:bachata","role":"peak"},
+{"song":"s_shet8cagcb","scope":"g:bachata","role":"peak"},
+{"song":"s_zkqc61hf9v","scope":"g:bachata","role":"peak"},
+{"song":"s_xmxkd494cz","scope":"g:bachata","role":"peak"},
+{"song":"s_zh0gp9g98p","scope":"g:bachata","role":"peak"},
+{"song":"s_2cbgzy8790","scope":"g:bachata","role":"peak"},
+{"song":"s_s03csxnrsg","scope":"g:bachata","role":"reference"},
+{"song":"s_4yd5md1f9e","scope":"g:bachata","role":"reference"},
+{"song":"s_x85r5bwrw2","scope":"g:bachata","role":"reference"},
+{"song":"s_zh0gp9g98p","scope":"g:bachata","role":"reference"},
+{"song":"s_b162k6rjtk","scope":"g:bachata","role":"near miss","belongs_to":"merengue","reason":"Same artist and album, but fast merengue with brass and tambora"}
+]

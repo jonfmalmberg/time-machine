@@ -1,12 +1,12 @@
 [
-["eur","Europe"],
-["nam","North America"],
-["carib","Caribbean"],
-["latam","Latin America"],
-["afr","Africa"],
-["mena","Middle East & North Africa"],
-["sasia","South Asia"],
-["casia","Central Asia & Caucasus"],
-["easia","East Asia"],
-["seasia","Southeast Asia & Oceania"]
+{"id":"eur","name":"Europe"},
+{"id":"nam","name":"North America"},
+{"id":"carib","name":"Caribbean"},
+{"id":"latam","name":"Latin America"},
+{"id":"afr","name":"Africa"},
+{"id":"mena","name":"Middle East & North Africa"},
+{"id":"sasia","name":"South Asia"},
+{"id":"casia","name":"Central Asia & Caucasus"},
+{"id":"easia","name":"East Asia"},
+{"id":"seasia","name":"Southeast Asia & Oceania"}
 ]

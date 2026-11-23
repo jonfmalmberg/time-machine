@@ -1,0 +1,15 @@
+[
+{"song":"s_p59gk6dx58","scope":"g:nepalisong","role":"intro"},
+{"song":"s_31tczjh3mn","scope":"g:nepalisong","role":"intro"},
+{"song":"s_2wcd53yb3c","scope":"g:nepalisong","role":"intro"},
+{"song":"s_5d5yvkx3bq","scope":"g:nepalisong","role":"peak"},
+{"song":"s_mmk0645xck","scope":"g:nepalisong","role":"peak"},
+{"song":"s_ezemyq6edm","scope":"g:nepalisong","role":"peak"},
+{"song":"s_0vc8qxyqh5","scope":"g:nepalisong","role":"peak"},
+{"song":"s_pc050jdzr6","scope":"g:nepalisong","role":"peak"},
+{"song":"s_wshdt984qe","scope":"g:nepalisong","role":"peak"},
+{"song":"s_p59gk6dx58","scope":"g:nepalisong","role":"reference"},
+{"song":"s_31tczjh3mn","scope":"g:nepalisong","role":"reference"},
+{"song":"s_5d5yvkx3bq","scope":"g:nepalisong","role":"reference"},
+{"song":"s_x8je4gsg4c","scope":"g:nepalisong","role":"near miss","belongs_to":"filmi","reason":"Hindi film song, the model Kathmandu followed"}
+]

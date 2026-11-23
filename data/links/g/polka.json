@@ -1,0 +1,19 @@
+[
+{"song":"s_6h5z1fj8fx","scope":"g:polka","role":"intro"},
+{"song":"s_2fs63s4238","scope":"g:polka","role":"intro"},
+{"song":"s_gzef22tp5b","scope":"g:polka","role":"intro"},
+{"song":"s_n461kwhs3r","scope":"g:polka","role":"peak"},
+{"song":"s_cdtz2pm51e","scope":"g:polka","role":"peak"},
+{"song":"s_pnvnqpy7aj","scope":"g:polka","role":"peak"},
+{"song":"s_wy7t3s91vv","scope":"g:polka","role":"peak"},
+{"song":"s_6e6jfy89xp","scope":"g:polka","role":"peak"},
+{"song":"s_zkamewezd4","scope":"g:polka","role":"peak"},
+{"song":"s_rjk2c4tcba","scope":"g:polka","role":"peak"},
+{"song":"s_kb7g5p94ky","scope":"g:polka","role":"peak"},
+{"song":"s_etdehj015d","scope":"g:polka","role":"peak"},
+{"song":"s_114vksg7cq","scope":"g:polka","role":"peak"},
+{"song":"s_zkamewezd4","scope":"g:polka","role":"reference"},
+{"song":"s_6e6jfy89xp","scope":"g:polka","role":"reference"},
+{"song":"s_rjk2c4tcba","scope":"g:polka","role":"reference"},
+{"song":"s_8yyz5brsr7","scope":"g:polka","role":"near miss","belongs_to":"norteno","reason":"Accordion polka rhythm, but Mexican bajo sexto band and a sung narrative corrido"}
+]

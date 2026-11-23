@@ -1,0 +1,14 @@
+[
+{"song":"s_fspk1ygz18","scope":"g:chutney","role":"intro"},
+{"song":"s_3jeypw15bd","scope":"g:chutney","role":"intro","released":1979},
+{"song":"s_57ddwp9gva","scope":"g:chutney","role":"peak"},
+{"song":"s_91a9ntn30g","scope":"g:chutney","role":"peak"},
+{"song":"s_eyzyk5r4vm","scope":"g:chutney","role":"peak"},
+{"song":"s_fspk1ygz18","scope":"g:chutney","role":"reference"},
+{"song":"s_3jeypw15bd","scope":"g:chutney","role":"reference","released":1976},
+{"song":"s_91a9ntn30g","scope":"g:chutney","role":"reference"},
+{"song":"s_f6gfkw13ct","scope":"g:chutney","role":"near miss","belongs_to":"soca","reason":"Carnival soca with no dholak, dhantal or Indian-language singing"},
+{"release":"r_69rv0bpepq","scope":"g:chutney","role":"album"},
+{"release":"r_bt9wqg2gxd","scope":"g:chutney","role":"album"},
+{"release":"r_j2dpbzq34y","scope":"g:chutney","role":"album"}
+]

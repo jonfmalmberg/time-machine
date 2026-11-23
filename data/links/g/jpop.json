@@ -1,0 +1,22 @@
+[
+{"song":"s_6zk09gqw2w","scope":"g:jpop","role":"intro"},
+{"song":"s_fvchv0dpta","scope":"g:jpop","role":"intro"},
+{"song":"s_dza00yvnsm","scope":"g:jpop","role":"intro"},
+{"song":"s_xzjgbdgtrs","scope":"g:jpop","role":"peak"},
+{"song":"s_mcvcybkzkm","scope":"g:jpop","role":"peak"},
+{"song":"s_nrf9rh3nfz","scope":"g:jpop","role":"peak"},
+{"song":"s_ehd9kcr3n5","scope":"g:jpop","role":"peak"},
+{"song":"s_6tdxbt27hc","scope":"g:jpop","role":"peak"},
+{"song":"s_5jg6fe9kz7","scope":"g:jpop","role":"peak"},
+{"song":"s_w0a05kdd2y","scope":"g:jpop","role":"peak"},
+{"song":"s_hm7b26cpme","scope":"g:jpop","role":"peak"},
+{"song":"s_r8zjqx7vpn","scope":"g:jpop","role":"peak"},
+{"song":"s_csnhte32kf","scope":"g:jpop","role":"peak"},
+{"song":"s_exdt22z5fd","scope":"g:jpop","role":"peak"},
+{"song":"s_xjazs1ag7s","scope":"g:jpop","role":"peak"},
+{"song":"s_xzjgbdgtrs","scope":"g:jpop","role":"reference"},
+{"song":"s_nrf9rh3nfz","scope":"g:jpop","role":"reference"},
+{"song":"s_ehd9kcr3n5","scope":"g:jpop","role":"reference"},
+{"song":"s_exdt22z5fd","scope":"g:jpop","role":"reference"},
+{"song":"s_qmhf282h71","scope":"g:jpop","role":"near miss","belongs_to":"citypop","reason":"1980s live session-band AOR, before J-pop"}
+]

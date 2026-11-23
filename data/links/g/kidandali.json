@@ -1,0 +1,21 @@
+[
+{"song":"s_9j7hb13g9n","scope":"g:kidandali","role":"intro"},
+{"song":"s_9nxdx9ede1","scope":"g:kidandali","role":"intro"},
+{"song":"s_qpgqy1x3hz","scope":"g:kidandali","role":"intro"},
+{"song":"s_e0v12efjqa","scope":"g:kidandali","role":"peak"},
+{"song":"s_9nxdx9ede1","scope":"g:kidandali","role":"peak"},
+{"song":"s_4rdc6nrv6g","scope":"g:kidandali","role":"peak"},
+{"song":"s_z1m1qp8fdc","scope":"g:kidandali","role":"peak"},
+{"song":"s_m6n862f7wn","scope":"g:kidandali","role":"peak"},
+{"song":"s_amx2k0gvvs","scope":"g:kidandali","role":"peak"},
+{"song":"s_qpgqy1x3hz","scope":"g:kidandali","role":"peak"},
+{"song":"s_zarbwggqfv","scope":"g:kidandali","role":"peak"},
+{"song":"s_9j7hb13g9n","scope":"g:kidandali","role":"peak"},
+{"song":"s_f6v3c3m4qj","scope":"g:kidandali","role":"peak"},
+{"song":"s_mrc4f7b410","scope":"g:kidandali","role":"peak"},
+{"song":"s_9nxdx9ede1","scope":"g:kidandali","role":"reference"},
+{"song":"s_z1m1qp8fdc","scope":"g:kidandali","role":"reference"},
+{"song":"s_qpgqy1x3hz","scope":"g:kidandali","role":"reference"},
+{"song":"s_m2cycqq6t0","scope":"g:kidandali","role":"near miss","belongs_to":"afrobeats","reason":"Club-pop production in the afrobeats mould"},
+{"song":"s_x5q9hznzdb","scope":"g:kidandali","role":"near miss","belongs_to":"kadongokamu","reason":"Solo guitar storytelling, no dance band"}
+]

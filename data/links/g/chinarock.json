@@ -1,0 +1,16 @@
+[
+{"song":"s_h5fxpe6mt8","scope":"g:chinarock","role":"intro","released":1989},
+{"song":"s_ch7khf5hck","scope":"g:chinarock","role":"intro"},
+{"song":"s_k1hb22c7sx","scope":"g:chinarock","role":"intro"},
+{"song":"s_yey59cazcb","scope":"g:chinarock","role":"peak"},
+{"song":"s_t1apc739p7","scope":"g:chinarock","role":"peak"},
+{"song":"s_v4y2hcstrn","scope":"g:chinarock","role":"peak"},
+{"song":"s_0vtyp5zwxt","scope":"g:chinarock","role":"peak"},
+{"song":"s_8chd0c8pe1","scope":"g:chinarock","role":"peak"},
+{"song":"s_k54xsd1kms","scope":"g:chinarock","role":"peak"},
+{"song":"s_h5fxpe6mt8","scope":"g:chinarock","role":"reference","released":1986},
+{"song":"s_t1apc739p7","scope":"g:chinarock","role":"reference"},
+{"song":"s_v4y2hcstrn","scope":"g:chinarock","role":"reference"},
+{"release":"r_2zcz1959gk","scope":"g:chinarock","role":"album"},
+{"release":"r_eb6gndvmwd","scope":"g:chinarock","role":"album"}
+]

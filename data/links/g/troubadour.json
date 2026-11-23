@@ -1,0 +1,11 @@
+[
+{"song":"s_qahcp8f85t","scope":"g:troubadour","role":"intro"},
+{"song":"s_zqya3t141t","scope":"g:troubadour","role":"intro","released":1978},
+{"song":"s_w5ras26t2f","scope":"g:troubadour","role":"peak"},
+{"song":"s_g4ssyk74rf","scope":"g:troubadour","role":"peak"},
+{"song":"s_59tdcmy5he","scope":"g:troubadour","role":"peak"},
+{"song":"s_ft9rk1hmdq","scope":"g:troubadour","role":"peak"},
+{"song":"s_zqya3t141t","scope":"g:troubadour","role":"reference","released":1979},
+{"release":"r_kdd9ds9k6v","scope":"g:troubadour","role":"album"},
+{"release":"r_yt509954s7","scope":"g:troubadour","role":"album"}
+]

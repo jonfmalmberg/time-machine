@@ -1,0 +1,10 @@
+[
+{"song":"s_rh7e5t59sh","scope":"g:carnatic","role":"peak"},
+{"song":"s_mkerfdbnwr","scope":"g:carnatic","role":"peak"},
+{"song":"s_chvqmnd2jf","scope":"g:carnatic","role":"peak"},
+{"song":"s_gsvf34mbad","scope":"g:carnatic","role":"peak"},
+{"song":"s_g7navm2wz7","scope":"g:carnatic","role":"peak"},
+{"song":"s_jgm442vs38","scope":"g:carnatic","role":"reference"},
+{"song":"s_cz26mg3q7y","scope":"g:carnatic","role":"near miss","belongs_to":"hindustani","reason":"Raga music too, but long unmetred sitar alap and tabla, not a kriti with mridangam"},
+{"release":"r_w28cxhxpet","scope":"g:carnatic","role":"album"}
+]

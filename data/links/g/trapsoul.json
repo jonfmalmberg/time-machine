@@ -1,0 +1,20 @@
+[
+{"song":"s_1nqg9ptq7w","scope":"g:trapsoul","role":"intro"},
+{"song":"s_86h1aq3b6w","scope":"g:trapsoul","role":"intro"},
+{"song":"s_w8shk0pyfh","scope":"g:trapsoul","role":"intro"},
+{"song":"s_xpngw9r9tt","scope":"g:trapsoul","role":"peak"},
+{"song":"s_4abypnyzm9","scope":"g:trapsoul","role":"peak"},
+{"song":"s_fd4jg4j393","scope":"g:trapsoul","role":"peak"},
+{"song":"s_n478wvctac","scope":"g:trapsoul","role":"peak"},
+{"song":"s_nrfdqdek18","scope":"g:trapsoul","role":"peak"},
+{"song":"s_katenxzx50","scope":"g:trapsoul","role":"peak"},
+{"song":"s_8cyy7f427c","scope":"g:trapsoul","role":"peak"},
+{"song":"s_1a79pzq5kc","scope":"g:trapsoul","role":"peak"},
+{"song":"s_jr4jq91pzm","scope":"g:trapsoul","role":"peak"},
+{"song":"s_hzfs2nf9q0","scope":"g:trapsoul","role":"peak"},
+{"song":"s_1nqg9ptq7w","scope":"g:trapsoul","role":"reference"},
+{"song":"s_xpngw9r9tt","scope":"g:trapsoul","role":"reference"},
+{"song":"s_4abypnyzm9","scope":"g:trapsoul","role":"reference"},
+{"song":"s_n478wvctac","scope":"g:trapsoul","role":"reference"},
+{"song":"s_pevws7bpr9","scope":"g:trapsoul","role":"near miss","belongs_to":"altrnb","reason":"No trap drums; atmosphere over beat"}
+]

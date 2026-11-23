@@ -1,0 +1,10 @@
+[
+{"song":"s_mkqf27jfn6","scope":"c:ID:1950s","role":"home","released":1940,"scene":"radio","confidence":"h"},
+{"song":"s_c8wd6xr4ad","scope":"c:ID:1950s","role":"home","scene":"dance","confidence":"h"},
+{"song":"s_bxnxgey1na","scope":"c:ID:1950s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_56a8kmsxz7","scope":"c:ID:1950s","role":"home","scene":"film","confidence":"m"},
+{"song":"s_z81s3jbtyv","scope":"c:ID:1950s","role":"foreign","scene":"film","confidence":"m"},
+{"song":"s_xj1f3zxzfe","scope":"c:ID:1950s","role":"foreign","scene":"rock","confidence":"m"},
+{"song":"s_xcz17dseyh","scope":"c:ID:1950s","role":"foreign","scene":"ballad","confidence":"m"},
+{"song":"s_0ab3b98225","scope":"c:ID:1950s","role":"foreign","scene":"pop","confidence":"m"}
+]

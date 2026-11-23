@@ -1,0 +1,10 @@
+[
+{"song":"s_t9egz899v2","scope":"g:zamacueca","role":"intro"},
+{"song":"s_zy1ezqh11c","scope":"g:zamacueca","role":"intro"},
+{"song":"s_jej63mxj01","scope":"g:zamacueca","role":"peak"},
+{"song":"s_pfectge4nj","scope":"g:zamacueca","role":"peak","released":1967},
+{"song":"s_xs4j4zr1xg","scope":"g:zamacueca","role":"peak"},
+{"song":"s_jej63mxj01","scope":"g:zamacueca","role":"reference"},
+{"song":"s_pfectge4nj","scope":"g:zamacueca","role":"reference","released":1968},
+{"release":"r_yjjetwpfjk","scope":"g:zamacueca","role":"album"}
+]

@@ -1,0 +1,13 @@
+[
+{"id":"c:SE:1950s","status":"decade list","note":"Pre-chart decade; home list is thin (7) rather than padded with unverified titles.","tests":[{"id":"SE-1950-1959-2026-11-16","y0":1950,"y1":1959,"date":"2026-11-16","scores":[7,7,8],"result":"below","note":"sparse; no chart existed before 1958"}]},
+{"id":"c:SE:1950","status":"year list","note":"Very thin: no Swedish chart existed and no year-specific source was reachable. Only two Thory Bernhards records dated 1950 and named among her record successes."},
+{"id":"c:SE:1951","status":"year list","note":"Very thin: Expressen's Skivspegeln began Nov 1951 but its entries were not reachable. Dated releases with a general hit statement only."},
+{"id":"c:SE:1952","status":"year list","note":"Thin. Flottarkärlek is firmly 1952 (Karusellen 26 Jan 1952, 300,000+ sold). The Lönndahl title is dated 1952 by one source and 1954 by English Wikipedia's discography."},
+{"id":"c:SE:1953","status":"year list","note":"Thin; no chart entries reachable. Lönndahl number ones as dated by the source (English Wikipedia's discography puts That's Amore in 1954); På söndag is stated as a 1953 hit."},
+{"id":"c:SE:1954","status":"year list","note":"Thin; no chart entries reachable. Käre John was Sweden's first gold record (100,000+)."},
+{"id":"c:SE:1955","status":"year list","note":"Very thin. Only one chart fact: Rock Around the Clock went straight to no. 1 on Expressen's Skivspegeln in October 1955."},
+{"id":"c:SE:1956","status":"year list","note":"Thin; no chart entries reachable. No foreign song could be sourced."},
+{"id":"c:SE:1957","status":"year list","note":"Thin; no chart entries reachable. No foreign song could be sourced (Elvis, Tommy Steele and Paul Anka were certainly big but no reachable source ties a title to Sweden 1957)."},
+{"id":"c:SE:1958","status":"year list","note":"Show Business top-20 sales list started Jan 1958; only statements about it were reachable, not the list itself. No foreign song could be sourced."},
+{"id":"c:SE:1959","status":"year list","note":"Best-evidenced year (Show Business list statements), still partial. Lill-Babs's Klas-Göran and Siw Malmkvist's Flickor bak i bilen are left to 1960, their sourced peak year. Petite Fleur's Swedish no. 1 run is undated in the source; 1959 is inferred from its single release."}
+]

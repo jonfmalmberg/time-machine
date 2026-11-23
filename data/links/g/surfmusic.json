@@ -1,0 +1,23 @@
+[
+{"song":"s_1xh5jhv5rm","scope":"g:surfmusic","role":"intro"},
+{"song":"s_10km3v8xt9","scope":"g:surfmusic","role":"intro"},
+{"song":"s_pnkza17fy0","scope":"g:surfmusic","role":"intro"},
+{"song":"s_ht66qredkb","scope":"g:surfmusic","role":"peak"},
+{"song":"s_6j5c27x6cr","scope":"g:surfmusic","role":"peak"},
+{"song":"s_nzgzkq4drv","scope":"g:surfmusic","role":"peak"},
+{"song":"s_rr12h24yjh","scope":"g:surfmusic","role":"peak"},
+{"song":"s_nqk21nbfbn","scope":"g:surfmusic","role":"peak"},
+{"song":"s_6697zjms34","scope":"g:surfmusic","role":"peak"},
+{"song":"s_myyz8ev1rg","scope":"g:surfmusic","role":"peak"},
+{"song":"s_v3bx0dxezt","scope":"g:surfmusic","role":"peak"},
+{"song":"s_w143jbes2r","scope":"g:surfmusic","role":"peak"},
+{"song":"s_fbghntnjag","scope":"g:surfmusic","role":"peak"},
+{"song":"s_b1m2esdc1g","scope":"g:surfmusic","role":"peak"},
+{"song":"s_2jgz02kbgk","scope":"g:surfmusic","role":"peak"},
+{"song":"s_1xh5jhv5rm","scope":"g:surfmusic","role":"reference"},
+{"song":"s_10km3v8xt9","scope":"g:surfmusic","role":"reference"},
+{"song":"s_nqk21nbfbn","scope":"g:surfmusic","role":"reference"},
+{"song":"s_pnkza17fy0","scope":"g:surfmusic","role":"reference"},
+{"song":"s_02h6a1gfc7","scope":"g:surfmusic","role":"near miss","belongs_to":"psych","reason":"Studio-built psychedelic pop, long past the beach"},
+{"song":"s_682ktkxy8v","scope":"g:surfmusic","role":"near miss","belongs_to":"rocknroll","reason":"Earlier distorted instrumental, no surf reverb or scene"}
+]

@@ -1,0 +1,19 @@
+[
+{"song":"s_fy0t2ptzy1","scope":"g:arabpop","role":"intro"},
+{"song":"s_hc20rp3v9e","scope":"g:arabpop","role":"intro"},
+{"song":"s_sz26myp5gh","scope":"g:arabpop","role":"intro"},
+{"song":"s_fddns0s2f9","scope":"g:arabpop","role":"peak"},
+{"song":"s_540q8an38h","scope":"g:arabpop","role":"peak"},
+{"song":"s_qg32h951mm","scope":"g:arabpop","role":"peak"},
+{"song":"s_k1axe5whmf","scope":"g:arabpop","role":"peak"},
+{"song":"s_5tmk88snkv","scope":"g:arabpop","role":"peak"},
+{"song":"s_phm4yw8amp","scope":"g:arabpop","role":"peak"},
+{"song":"s_6ekzfhwach","scope":"g:arabpop","role":"peak"},
+{"song":"s_kfh5n0zm57","scope":"g:arabpop","role":"peak"},
+{"song":"s_esfepyt7q6","scope":"g:arabpop","role":"peak"},
+{"song":"s_0pxhza21s1","scope":"g:arabpop","role":"peak"},
+{"song":"s_ef86pez9zn","scope":"g:arabpop","role":"peak"},
+{"song":"s_fddns0s2f9","scope":"g:arabpop","role":"reference"},
+{"song":"s_5tmk88snkv","scope":"g:arabpop","role":"reference"},
+{"song":"s_tf8zgzh3ph","scope":"g:arabpop","role":"near miss","belongs_to":"tarab","reason":"Long orchestral performance built on vocal ecstasy"}
+]

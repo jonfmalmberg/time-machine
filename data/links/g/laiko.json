@@ -1,0 +1,18 @@
+[
+{"song":"s_zd5vg8jqpm","scope":"g:laiko","role":"intro"},
+{"song":"s_nejp90xpv0","scope":"g:laiko","role":"intro"},
+{"song":"s_cyrrmqaeyd","scope":"g:laiko","role":"intro"},
+{"song":"s_q3gfb12x9v","scope":"g:laiko","role":"peak"},
+{"song":"s_et7v5891gy","scope":"g:laiko","role":"peak"},
+{"song":"s_nz5q7n44as","scope":"g:laiko","role":"peak"},
+{"song":"s_2tmyvt9m77","scope":"g:laiko","role":"peak"},
+{"song":"s_xjxfafq37a","scope":"g:laiko","role":"peak","released":1975},
+{"song":"s_cqvzdj9s9v","scope":"g:laiko","role":"peak"},
+{"song":"s_xk17gwa4pt","scope":"g:laiko","role":"peak"},
+{"song":"s_nh12k4j25z","scope":"g:laiko","role":"peak"},
+{"song":"s_1s4j05bbnx","scope":"g:laiko","role":"peak"},
+{"song":"s_mjzsb6jwrm","scope":"g:laiko","role":"peak"},
+{"song":"s_xjxfafq37a","scope":"g:laiko","role":"reference","released":1973},
+{"song":"s_cqvzdj9s9v","scope":"g:laiko","role":"reference"},
+{"song":"s_0tcrnkdr0b","scope":"g:laiko","role":"near miss","belongs_to":"rebetiko","reason":"Earlier, rawer, from the urban underworld"}
+]

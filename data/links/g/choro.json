@@ -1,0 +1,18 @@
+[
+{"song":"s_j11q6xgfj3","scope":"g:choro","role":"intro"},
+{"song":"s_sg72xmp58t","scope":"g:choro","role":"intro"},
+{"song":"s_pgfte90mez","scope":"g:choro","role":"intro"},
+{"song":"s_zweex8gw9f","scope":"g:choro","role":"peak"},
+{"song":"s_xy8ns880js","scope":"g:choro","role":"peak"},
+{"song":"s_84ex6a3jca","scope":"g:choro","role":"peak"},
+{"song":"s_8083k8svmz","scope":"g:choro","role":"peak"},
+{"song":"s_q3hbwgd8wc","scope":"g:choro","role":"peak"},
+{"song":"s_9g1ty40yxm","scope":"g:choro","role":"peak"},
+{"song":"s_r2zjv3qd9y","scope":"g:choro","role":"peak"},
+{"song":"s_tmbf0xsgzj","scope":"g:choro","role":"peak"},
+{"song":"s_tarpgq6bzv","scope":"g:choro","role":"peak"},
+{"song":"s_1a3h6vc8s8","scope":"g:choro","role":"peak"},
+{"song":"s_zweex8gw9f","scope":"g:choro","role":"reference"},
+{"song":"s_84ex6a3jca","scope":"g:choro","role":"reference"},
+{"song":"s_dw11sfb3x0","scope":"g:choro","role":"near miss","belongs_to":"samba","reason":"Same cavaquinho and regional band, but a sung samba on a surdo pulse"}
+]

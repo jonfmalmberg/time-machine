@@ -1,0 +1,19 @@
+[
+{"song":"s_h5ksyb6bv0","scope":"g:mariachi","role":"intro"},
+{"song":"s_vcn3xgxm6v","scope":"g:mariachi","role":"intro"},
+{"song":"s_gfd5kaswyg","scope":"g:mariachi","role":"intro"},
+{"song":"s_7rd56h4a4r","scope":"g:mariachi","role":"peak"},
+{"song":"s_mwv4mbd2my","scope":"g:mariachi","role":"peak"},
+{"song":"s_41s55n28zy","scope":"g:mariachi","role":"peak"},
+{"song":"s_hxeqtmarj6","scope":"g:mariachi","role":"peak","released":1962},
+{"song":"s_6t96xsgqnm","scope":"g:mariachi","role":"peak"},
+{"song":"s_dx9gk25jwa","scope":"g:mariachi","role":"peak"},
+{"song":"s_hh2ztq9edj","scope":"g:mariachi","role":"peak"},
+{"song":"s_c7j7dfkaq7","scope":"g:mariachi","role":"peak"},
+{"song":"s_1g4kqpsmzn","scope":"g:mariachi","role":"peak"},
+{"song":"s_30xdm56fy8","scope":"g:mariachi","role":"peak"},
+{"song":"s_6t96xsgqnm","scope":"g:mariachi","role":"reference"},
+{"song":"s_dx9gk25jwa","scope":"g:mariachi","role":"reference"},
+{"song":"s_6pn4npq2db","scope":"g:mariachi","role":"reference"},
+{"song":"s_h9vrrjbrzv","scope":"g:mariachi","role":"near miss","released":2012,"belongs_to":"banda","reason":"Ranchera-style ballad, but brass band and tuba, no violins"}
+]

@@ -1,0 +1,18 @@
+[
+{"song":"s_wcz34j4bf8","scope":"g:gregorian","role":"intro"},
+{"song":"s_45whe7jym0","scope":"g:gregorian","role":"intro"},
+{"song":"s_523f0zba5q","scope":"g:gregorian","role":"intro"},
+{"song":"s_33efz2gawv","scope":"g:gregorian","role":"peak"},
+{"song":"s_kwgh0mm3qn","scope":"g:gregorian","role":"peak"},
+{"song":"s_0fkp63fvcq","scope":"g:gregorian","role":"peak"},
+{"song":"s_qs94mb664d","scope":"g:gregorian","role":"peak"},
+{"song":"s_qzqnck2x4g","scope":"g:gregorian","role":"peak"},
+{"song":"s_zfzsmec4ze","scope":"g:gregorian","role":"peak"},
+{"song":"s_c3kvh0ea28","scope":"g:gregorian","role":"peak"},
+{"song":"s_ecv21xh9d7","scope":"g:gregorian","role":"peak"},
+{"song":"s_24b6fcw52z","scope":"g:gregorian","role":"peak"},
+{"song":"s_mraxm5gq5y","scope":"g:gregorian","role":"peak"},
+{"song":"s_hhryd9jtm2","scope":"g:gregorian","role":"reference"},
+{"song":"s_9k4nt3brv5","scope":"g:gregorian","role":"reference"},
+{"song":"s_e4ykt5vztc","scope":"g:gregorian","role":"near miss","belongs_to":"medpoly","reason":"Built on chant, but extra voices weave over long held chant notes"}
+]

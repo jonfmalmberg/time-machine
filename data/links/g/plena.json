@@ -1,0 +1,11 @@
+[
+{"song":"s_szx71dgqhe","scope":"g:plena","role":"intro"},
+{"song":"s_qdxzq6mp6r","scope":"g:plena","role":"peak","released":1957},
+{"song":"s_jdzxzr8j9d","scope":"g:plena","role":"peak"},
+{"song":"s_fkg41jvt08","scope":"g:plena","role":"peak"},
+{"song":"s_2rqny78y0y","scope":"g:plena","role":"peak"},
+{"song":"s_qdxzq6mp6r","scope":"g:plena","role":"reference","released":1958},
+{"song":"s_2rqny78y0y","scope":"g:plena","role":"reference"},
+{"song":"s_00kdg2qpfe","scope":"g:plena","role":"near miss","belongs_to":"bomba","reason":"Barrel-drum bomba rhythm, not the pandereta pattern"},
+{"release":"r_10gkey0qmw","scope":"g:plena","role":"album"}
+]

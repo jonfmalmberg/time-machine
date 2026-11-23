@@ -1,0 +1,18 @@
+[
+{"song":"s_ykprmqgntw","scope":"g:phonk","role":"intro"},
+{"song":"s_z5pjw8867p","scope":"g:phonk","role":"intro"},
+{"song":"s_j7xsd6x2hn","scope":"g:phonk","role":"intro"},
+{"song":"s_99erghvtct","scope":"g:phonk","role":"peak"},
+{"song":"s_sm8pzdj4tq","scope":"g:phonk","role":"peak"},
+{"song":"s_5zfg8kjmrr","scope":"g:phonk","role":"peak"},
+{"song":"s_qwgd9ah7fr","scope":"g:phonk","role":"peak"},
+{"song":"s_6hd5vzv19r","scope":"g:phonk","role":"peak"},
+{"song":"s_36sysrf6tp","scope":"g:phonk","role":"peak"},
+{"song":"s_6bh9vjt681","scope":"g:phonk","role":"peak"},
+{"song":"s_agq73qdyb1","scope":"g:phonk","role":"peak","released":2021},
+{"song":"s_xn5xsbas41","scope":"g:phonk","role":"peak"},
+{"song":"s_1x5jgtrm04","scope":"g:phonk","role":"peak"},
+{"song":"s_99erghvtct","scope":"g:phonk","role":"reference"},
+{"song":"s_agq73qdyb1","scope":"g:phonk","role":"reference","released":2022},
+{"song":"s_dn8seg9ejm","scope":"g:phonk","role":"near miss","released":1996,"belongs_to":"memphis","reason":"The source: rapped songs, not instrumentals"}
+]

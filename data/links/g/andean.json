@@ -1,0 +1,12 @@
+[
+{"song":"s_wrhma12sew","scope":"g:andean","role":"intro"},
+{"song":"s_sfg5437vx9","scope":"g:andean","role":"peak"},
+{"song":"s_pm4762dmf1","scope":"g:andean","role":"peak"},
+{"song":"s_rfq8vf66yd","scope":"g:andean","role":"peak"},
+{"song":"s_rwengj69gv","scope":"g:andean","role":"peak"},
+{"song":"s_pm4762dmf1","scope":"g:andean","role":"reference"},
+{"song":"s_rfq8vf66yd","scope":"g:andean","role":"reference"},
+{"song":"s_kt8p9n5hcb","scope":"g:andean","role":"near miss","belongs_to":"folkrev","reason":"Andean backing track, but an English-language folk-pop song"},
+{"release":"r_ckdc3pvxt9","scope":"g:andean","role":"album"},
+{"release":"r_py2xbev9bg","scope":"g:andean","role":"album"}
+]

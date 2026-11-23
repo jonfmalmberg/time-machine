@@ -1,0 +1,20 @@
+[
+{"song":"s_e19a0npzj1","scope":"g:gfunk","role":"intro"},
+{"song":"s_hzt28v54z6","scope":"g:gfunk","role":"intro"},
+{"song":"s_vb5ewzj8ap","scope":"g:gfunk","role":"intro"},
+{"song":"s_dyhv9rf8kt","scope":"g:gfunk","role":"peak"},
+{"song":"s_3d4yg5dhsq","scope":"g:gfunk","role":"peak"},
+{"song":"s_p17p9ps86v","scope":"g:gfunk","role":"peak"},
+{"song":"s_r16dkrpsjy","scope":"g:gfunk","role":"peak","released":1993},
+{"song":"s_zcdvhpx355","scope":"g:gfunk","role":"peak"},
+{"song":"s_5xt8sn2tsh","scope":"g:gfunk","role":"peak"},
+{"song":"s_24d51n1jd0","scope":"g:gfunk","role":"peak"},
+{"song":"s_z24zvnzcp1","scope":"g:gfunk","role":"peak"},
+{"song":"s_jv1ej1rdc1","scope":"g:gfunk","role":"peak"},
+{"song":"s_3de1fbsdvv","scope":"g:gfunk","role":"peak"},
+{"song":"s_hzt28v54z6","scope":"g:gfunk","role":"reference"},
+{"song":"s_r16dkrpsjy","scope":"g:gfunk","role":"reference","released":1994},
+{"song":"s_zcdvhpx355","scope":"g:gfunk","role":"reference"},
+{"song":"s_z24zvnzcp1","scope":"g:gfunk","role":"reference"},
+{"song":"s_65q3n4p4ad","scope":"g:gfunk","role":"near miss","belongs_to":"gangsta","reason":"Harder and faster, no synth whine"}
+]

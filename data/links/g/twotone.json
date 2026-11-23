@@ -1,0 +1,22 @@
+[
+{"song":"s_8kdg6reh3j","scope":"g:twotone","role":"intro"},
+{"song":"s_cqd1d8102v","scope":"g:twotone","role":"intro"},
+{"song":"s_97nmpp1qmy","scope":"g:twotone","role":"intro"},
+{"song":"s_c5nrke9zz0","scope":"g:twotone","role":"peak"},
+{"song":"s_7kbqdgyzd9","scope":"g:twotone","role":"peak"},
+{"song":"s_7w9cpgtsdx","scope":"g:twotone","role":"peak"},
+{"song":"s_qawej2005f","scope":"g:twotone","role":"peak"},
+{"song":"s_82r4x2yf6v","scope":"g:twotone","role":"peak"},
+{"song":"s_2xwzb89k7j","scope":"g:twotone","role":"peak"},
+{"song":"s_vwze6q8wm0","scope":"g:twotone","role":"peak"},
+{"song":"s_yk5z84xa7d","scope":"g:twotone","role":"peak"},
+{"song":"s_a9jxyahqdw","scope":"g:twotone","role":"peak"},
+{"song":"s_ftp2y0w39h","scope":"g:twotone","role":"peak"},
+{"song":"s_yv2g4qkkyw","scope":"g:twotone","role":"peak"},
+{"song":"s_c5qzafyf92","scope":"g:twotone","role":"peak"},
+{"song":"s_8kdg6reh3j","scope":"g:twotone","role":"reference"},
+{"song":"s_7kbqdgyzd9","scope":"g:twotone","role":"reference"},
+{"song":"s_97nmpp1qmy","scope":"g:twotone","role":"reference"},
+{"song":"s_yv2g4qkkyw","scope":"g:twotone","role":"reference"},
+{"song":"s_h7hhgyj5fr","scope":"g:twotone","role":"near miss","belongs_to":"ska","reason":"Original Jamaican ska, jazzier and looser"}
+]

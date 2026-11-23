@@ -1,0 +1,17 @@
+[
+{"song":"s_j871aj18q7","scope":"g:russfolk","role":"intro"},
+{"song":"s_p8gnbpvjf8","scope":"g:russfolk","role":"intro"},
+{"song":"s_18pmq3myw8","scope":"g:russfolk","role":"intro"},
+{"song":"s_rw6khhwjhy","scope":"g:russfolk","role":"peak"},
+{"song":"s_cppa4hzr8x","scope":"g:russfolk","role":"peak"},
+{"song":"s_n5w7k6qqzh","scope":"g:russfolk","role":"peak"},
+{"song":"s_6p1jkz377m","scope":"g:russfolk","role":"peak"},
+{"song":"s_nmk3460bcf","scope":"g:russfolk","role":"peak"},
+{"song":"s_k0dh20mb32","scope":"g:russfolk","role":"peak"},
+{"song":"s_rw6khhwjhy","scope":"g:russfolk","role":"reference"},
+{"song":"s_n5w7k6qqzh","scope":"g:russfolk","role":"reference"},
+{"song":"s_j871aj18q7","scope":"g:russfolk","role":"reference"},
+{"song":"s_p8gnbpvjf8","scope":"g:russfolk","role":"reference"},
+{"song":"s_vxtr4jm6y7","scope":"g:russfolk","role":"near miss","belongs_to":"bard","reason":"City guitar poetry, not village song"},
+{"release":"r_p3y1z3knt9","scope":"g:russfolk","role":"album"}
+]

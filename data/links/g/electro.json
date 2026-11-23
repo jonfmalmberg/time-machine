@@ -1,0 +1,19 @@
+[
+{"song":"s_qccv3hpzjt","scope":"g:electro","role":"intro"},
+{"song":"s_ks7j9kdg1m","scope":"g:electro","role":"intro"},
+{"song":"s_zc9r94exk1","scope":"g:electro","role":"intro"},
+{"song":"s_ta9pffvfxs","scope":"g:electro","role":"peak"},
+{"song":"s_v6r33ame55","scope":"g:electro","role":"peak"},
+{"song":"s_29gz05x443","scope":"g:electro","role":"peak"},
+{"song":"s_nx27seakzv","scope":"g:electro","role":"peak"},
+{"song":"s_9q5s33qh93","scope":"g:electro","role":"peak"},
+{"song":"s_jnccxzmxx7","scope":"g:electro","role":"peak"},
+{"song":"s_9ef8jthsg2","scope":"g:electro","role":"peak"},
+{"song":"s_qt9bavkkqk","scope":"g:electro","role":"peak"},
+{"song":"s_xj92p5m0kz","scope":"g:electro","role":"peak"},
+{"song":"s_wa0sfm5akj","scope":"g:electro","role":"peak"},
+{"song":"s_ks7j9kdg1m","scope":"g:electro","role":"reference"},
+{"song":"s_nx27seakzv","scope":"g:electro","role":"reference"},
+{"song":"s_9ef8jthsg2","scope":"g:electro","role":"reference"},
+{"song":"s_5bb6kr7kaj","scope":"g:electro","role":"near miss","belongs_to":"techno","reason":"Straighter, more hypnotic machine rhythm, aimed at club DJs rather than breakdancers"}
+]

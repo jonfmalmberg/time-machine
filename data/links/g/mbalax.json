@@ -1,0 +1,12 @@
+[
+{"song":"s_1ejsdsgw37","scope":"g:mbalax","role":"peak"},
+{"song":"s_z61dgb8b0q","scope":"g:mbalax","role":"peak"},
+{"song":"s_612hv7znka","scope":"g:mbalax","role":"peak"},
+{"song":"s_3fnw0x0tzm","scope":"g:mbalax","role":"peak"},
+{"song":"s_cq8sdezam0","scope":"g:mbalax","role":"peak"},
+{"song":"s_z61dgb8b0q","scope":"g:mbalax","role":"reference"},
+{"song":"s_3fnw0x0tzm","scope":"g:mbalax","role":"reference"},
+{"song":"s_dnza918cyq","scope":"g:mbalax","role":"near miss","belongs_to":"son","reason":"Senegalese band, but a Cuban son groove with no sabar drums"},
+{"release":"r_dkqe3nyr63","scope":"g:mbalax","role":"album"},
+{"release":"r_bd7gn7a7ze","scope":"g:mbalax","role":"album"}
+]

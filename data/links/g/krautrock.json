@@ -1,0 +1,20 @@
+[
+{"song":"s_9zhf8tvs9k","scope":"g:krautrock","role":"intro"},
+{"song":"s_grk6dea4ye","scope":"g:krautrock","role":"intro"},
+{"song":"s_jknnvdrt45","scope":"g:krautrock","role":"intro"},
+{"song":"s_qrv60azm7t","scope":"g:krautrock","role":"peak"},
+{"song":"s_f83kxm02nx","scope":"g:krautrock","role":"peak"},
+{"song":"s_cbfryag6ej","scope":"g:krautrock","role":"peak"},
+{"song":"s_6m52zvhs7j","scope":"g:krautrock","role":"peak"},
+{"song":"s_myr48q5q17","scope":"g:krautrock","role":"peak"},
+{"song":"s_axak53yf8t","scope":"g:krautrock","role":"peak"},
+{"song":"s_7409cf78j2","scope":"g:krautrock","role":"peak"},
+{"song":"s_5fzvs93st9","scope":"g:krautrock","role":"peak"},
+{"song":"s_np9175mzeb","scope":"g:krautrock","role":"peak"},
+{"song":"s_jy1nw2ccmb","scope":"g:krautrock","role":"peak"},
+{"song":"s_6sfspchcct","scope":"g:krautrock","role":"peak"},
+{"song":"s_cbfryag6ej","scope":"g:krautrock","role":"reference"},
+{"song":"s_6m52zvhs7j","scope":"g:krautrock","role":"reference"},
+{"song":"s_7409cf78j2","scope":"g:krautrock","role":"reference"},
+{"song":"s_avjy9hn8s0","scope":"g:krautrock","role":"near miss","belongs_to":"synthpop","reason":"Short, fully electronic pop song with a verse and chorus"}
+]

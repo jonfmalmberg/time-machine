@@ -1,0 +1,20 @@
+[
+{"song":"s_zcf4rz7hwk","scope":"g:zouglou","role":"intro"},
+{"song":"s_2s1bfde984","scope":"g:zouglou","role":"intro"},
+{"song":"s_b9pjcaxtkp","scope":"g:zouglou","role":"intro"},
+{"song":"s_2s1bfde984","scope":"g:zouglou","role":"peak"},
+{"song":"s_zcf4rz7hwk","scope":"g:zouglou","role":"peak"},
+{"song":"s_b3qqf0b2cj","scope":"g:zouglou","role":"peak"},
+{"song":"s_wjepakq35g","scope":"g:zouglou","role":"peak"},
+{"song":"s_byczyqsh05","scope":"g:zouglou","role":"peak"},
+{"song":"s_b9pjcaxtkp","scope":"g:zouglou","role":"peak"},
+{"song":"s_2s1bfde984","scope":"g:zouglou","role":"reference"},
+{"song":"s_zcf4rz7hwk","scope":"g:zouglou","role":"reference"},
+{"song":"s_wjepakq35g","scope":"g:zouglou","role":"reference"},
+{"song":"s_b9pjcaxtkp","scope":"g:zouglou","role":"reference"},
+{"song":"s_e5nt0e1q3n","scope":"g:zouglou","role":"near miss","released":2003,"belongs_to":"coupe","reason":"Faster, flashier club style with DJ shout-outs"},
+{"release":"r_6nts73abxm","scope":"g:zouglou","role":"album"},
+{"release":"r_1ta46nqn5c","scope":"g:zouglou","role":"album"},
+{"release":"r_jc7zpjtbaf","scope":"g:zouglou","role":"album"},
+{"release":"r_gh2yk71knp","scope":"g:zouglou","role":"album"}
+]

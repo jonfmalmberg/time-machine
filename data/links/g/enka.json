@@ -1,0 +1,22 @@
+[
+{"song":"s_n689m8dbf0","scope":"g:enka","role":"intro"},
+{"song":"s_mbcs06q2ed","scope":"g:enka","role":"intro"},
+{"song":"s_8a15xb0k7r","scope":"g:enka","role":"intro"},
+{"song":"s_z2f2vzmgva","scope":"g:enka","role":"peak"},
+{"song":"s_0cjvph4yra","scope":"g:enka","role":"peak"},
+{"song":"s_5y6jgwxmmc","scope":"g:enka","role":"peak"},
+{"song":"s_7peev0kh3v","scope":"g:enka","role":"peak"},
+{"song":"s_q7nhnhgv8e","scope":"g:enka","role":"peak"},
+{"song":"s_31s90smj5r","scope":"g:enka","role":"peak"},
+{"song":"s_9z710etnd7","scope":"g:enka","role":"peak"},
+{"song":"s_whk1k96v9g","scope":"g:enka","role":"peak"},
+{"song":"s_axgdr4ytey","scope":"g:enka","role":"peak"},
+{"song":"s_mnc9z95cev","scope":"g:enka","role":"peak"},
+{"song":"s_xn9k7c9chp","scope":"g:enka","role":"peak"},
+{"song":"s_z2f2vzmgva","scope":"g:enka","role":"reference"},
+{"song":"s_5y6jgwxmmc","scope":"g:enka","role":"reference"},
+{"song":"s_31s90smj5r","scope":"g:enka","role":"reference"},
+{"song":"s_xn9k7c9chp","scope":"g:enka","role":"reference"},
+{"song":"s_0qtwfc5fwk","scope":"g:enka","role":"near miss","belongs_to":"kayokyoku","reason":"Major-key light pop, no kobushi"},
+{"song":"s_e9hh0yr9rc","scope":"g:enka","role":"near miss","belongs_to":"trot","reason":"Korean-language trot"}
+]

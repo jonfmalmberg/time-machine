@@ -1,0 +1,14 @@
+[
+{"song":"s_v51v5hqkx3","scope":"g:kankyo","role":"intro"},
+{"song":"s_8xm77g2yne","scope":"g:kankyo","role":"intro"},
+{"song":"s_3r6vfrjqx4","scope":"g:kankyo","role":"peak"},
+{"song":"s_9jj3y5fc0x","scope":"g:kankyo","role":"peak"},
+{"song":"s_eebsw2wdw6","scope":"g:kankyo","role":"peak"},
+{"song":"s_n973qw38ba","scope":"g:kankyo","role":"peak"},
+{"song":"s_8xm77g2yne","scope":"g:kankyo","role":"reference"},
+{"song":"s_3r6vfrjqx4","scope":"g:kankyo","role":"reference"},
+{"song":"s_y501tm4kng","scope":"g:kankyo","role":"near miss","belongs_to":"ambient","reason":"British ambient: longer, blurrier tape loops, less melodic"},
+{"release":"r_vtds249ngp","scope":"g:kankyo","role":"album"},
+{"release":"r_rmxr7n6xn8","scope":"g:kankyo","role":"album"},
+{"release":"r_9q41acph37","scope":"g:kankyo","role":"album"}
+]

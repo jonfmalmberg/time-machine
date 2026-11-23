@@ -1,0 +1,9 @@
+[
+{"song":"s_8b7ac9qdr0","scope":"c:IR:1960s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_d99k5e71j1","scope":"c:IR:1960s","role":"home","scene":"film","confidence":"m"},
+{"song":"s_0xq7cm1afw","scope":"c:IR:1960s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_c11xfeyzgd","scope":"c:IR:1960s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_2mbfcemwa0","scope":"c:IR:1960s","role":"foreign","scene":"ballad","confidence":"m"},
+{"song":"s_hkjdakb121","scope":"c:IR:1960s","role":"foreign","scene":"ballad","confidence":"m"},
+{"song":"s_6p3vrsjtwe","scope":"c:IR:1960s","role":"foreign","scene":"pop","confidence":"m"}
+]

@@ -1,0 +1,23 @@
+[
+{"song":"s_tjtxhb9e33","scope":"g:eurodance","role":"intro"},
+{"song":"s_tv7tpywa41","scope":"g:eurodance","role":"intro"},
+{"song":"s_1ekg995q9r","scope":"g:eurodance","role":"intro"},
+{"song":"s_b054bq7emt","scope":"g:eurodance","role":"peak"},
+{"song":"s_j6j7x91azp","scope":"g:eurodance","role":"peak"},
+{"song":"s_9dxps8ccth","scope":"g:eurodance","role":"peak"},
+{"song":"s_v4pxr1z43b","scope":"g:eurodance","role":"peak"},
+{"song":"s_s1rr531bwp","scope":"g:eurodance","role":"peak"},
+{"song":"s_5jftckp1jc","scope":"g:eurodance","role":"peak"},
+{"song":"s_tgwy4haqa2","scope":"g:eurodance","role":"peak"},
+{"song":"s_yxnbmbkjtb","scope":"g:eurodance","role":"peak"},
+{"song":"s_k5t2sms04j","scope":"g:eurodance","role":"peak"},
+{"song":"s_97envgjg31","scope":"g:eurodance","role":"peak"},
+{"song":"s_906c9339xq","scope":"g:eurodance","role":"peak"},
+{"song":"s_12qjp1c3hg","scope":"g:eurodance","role":"peak"},
+{"song":"s_tjtxhb9e33","scope":"g:eurodance","role":"reference"},
+{"song":"s_5jftckp1jc","scope":"g:eurodance","role":"reference"},
+{"song":"s_s1rr531bwp","scope":"g:eurodance","role":"reference"},
+{"song":"s_tv7tpywa41","scope":"g:eurodance","role":"reference"},
+{"song":"s_v3fc2csmx9","scope":"g:eurodance","role":"near miss","released":1993,"belongs_to":"house","reason":"US vocal house, with no rap verse or synth anthem riff"},
+{"song":"s_dbefrkfca3","scope":"g:eurodance","role":"near miss","belongs_to":"trance","reason":"Instrumental trance built on long builds"}
+]

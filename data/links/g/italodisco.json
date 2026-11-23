@@ -1,0 +1,22 @@
+[
+{"song":"s_knj27f01e8","scope":"g:italodisco","role":"intro"},
+{"song":"s_00n11065ay","scope":"g:italodisco","role":"intro"},
+{"song":"s_k6wnpzgzms","scope":"g:italodisco","role":"intro"},
+{"song":"s_m7cg2r9met","scope":"g:italodisco","role":"peak"},
+{"song":"s_s72m8vdsvw","scope":"g:italodisco","role":"peak"},
+{"song":"s_k6yxdcgmw3","scope":"g:italodisco","role":"peak"},
+{"song":"s_z2gt692w45","scope":"g:italodisco","role":"peak"},
+{"song":"s_vzngqf5bfg","scope":"g:italodisco","role":"peak"},
+{"song":"s_29bpkhbjk0","scope":"g:italodisco","role":"peak"},
+{"song":"s_4aa2b2hw8c","scope":"g:italodisco","role":"peak"},
+{"song":"s_gq8b8qqyxy","scope":"g:italodisco","role":"peak"},
+{"song":"s_cwhb49wdas","scope":"g:italodisco","role":"peak"},
+{"song":"s_rqfjyerc4a","scope":"g:italodisco","role":"peak"},
+{"song":"s_tykzf29wda","scope":"g:italodisco","role":"peak"},
+{"song":"s_2f85zc4qrw","scope":"g:italodisco","role":"peak"},
+{"song":"s_k6yxdcgmw3","scope":"g:italodisco","role":"reference"},
+{"song":"s_z2gt692w45","scope":"g:italodisco","role":"reference"},
+{"song":"s_vzngqf5bfg","scope":"g:italodisco","role":"reference"},
+{"song":"s_rqfjyerc4a","scope":"g:italodisco","role":"reference"},
+{"song":"s_jv77cgct4b","scope":"g:italodisco","role":"near miss","belongs_to":"disco","reason":"The Munich synth disco template, made before the Italian scene"}
+]

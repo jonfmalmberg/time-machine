@@ -1,0 +1,10 @@
+[
+{"song":"s_vg6bqf2g4d","scope":"g:novokomp","role":"intro"},
+{"song":"s_r8rnqr9d44","scope":"g:novokomp","role":"peak"},
+{"song":"s_phnv9h8tdt","scope":"g:novokomp","role":"peak"},
+{"song":"s_vy1fd6fb60","scope":"g:novokomp","role":"peak"},
+{"song":"s_2131ahz62m","scope":"g:novokomp","role":"peak"},
+{"song":"s_2131ahz62m","scope":"g:novokomp","role":"reference"},
+{"song":"s_z7hh36v4cw","scope":"g:novokomp","role":"near miss","belongs_to":"turbofolk","reason":"Electronic dance beats under the folk vocal"},
+{"release":"r_24k0vrvj8y","scope":"g:novokomp","role":"album"}
+]

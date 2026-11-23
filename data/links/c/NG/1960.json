@@ -1,0 +1,15 @@
+[
+{"song":"s_m2fm9j3pgy","scope":"c:NG:1960s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_ewf23nn0rj","scope":"c:NG:1960s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_pjbw18mw87","scope":"c:NG:1960s","role":"home","released":1963,"scene":"dance","confidence":"m"},
+{"song":"s_771dgh47z4","scope":"c:NG:1960s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_99xeh5avrs","scope":"c:NG:1960s","role":"home","scene":"dance","confidence":"h"},
+{"song":"s_wgz5sj4g2w","scope":"c:NG:1960s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_9h110pwyfz","scope":"c:NG:1960s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_66sn7p8b00","scope":"c:NG:1960s","role":"home","released":1968,"scene":"dance","confidence":"m"},
+{"song":"s_c2nx58hx0p","scope":"c:NG:1960s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_eshf8prex7","scope":"c:NG:1960s","role":"foreign","scene":"dance","confidence":"m"},
+{"song":"s_sh7173fpe5","scope":"c:NG:1960s","role":"foreign","scene":"ballad","confidence":"m"},
+{"song":"s_hga0waewy8","scope":"c:NG:1960s","role":"foreign","scene":"dance","confidence":"m"},
+{"song":"s_61dt72frs4","scope":"c:NG:1960s","role":"foreign","scene":"pop","confidence":"m"}
+]

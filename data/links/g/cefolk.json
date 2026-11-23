@@ -1,0 +1,7 @@
+[
+{"song":"s_hthmbjee1x","scope":"g:cefolk","role":"intro"},
+{"song":"s_hthmbjee1x","scope":"g:cefolk","role":"reference"},
+{"song":"s_zkamewezd4","scope":"g:cefolk","role":"near miss","belongs_to":"polka","reason":"Same Alpine band sound, but a brisk 2/4 polka"},
+{"song":"s_0d2pbx7q34","scope":"g:cefolk","role":"near miss","belongs_to":"filmscore","reason":"Viennese zither, but a composed film theme, not a dance tune"},
+{"release":"r_6zyg6ep2xe","scope":"g:cefolk","role":"album"}
+]

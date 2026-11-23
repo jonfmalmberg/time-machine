@@ -1,0 +1,21 @@
+[
+{"song":"s_jxjcwkjzm0","scope":"g:melodic","role":"intro"},
+{"song":"s_2g5w8sk2qt","scope":"g:melodic","role":"intro"},
+{"song":"s_06dzm14g2e","scope":"g:melodic","role":"intro"},
+{"song":"s_mne4j42nzx","scope":"g:melodic","role":"peak"},
+{"song":"s_6re3p4yfa4","scope":"g:melodic","role":"peak"},
+{"song":"s_2qmycfdb8e","scope":"g:melodic","role":"peak"},
+{"song":"s_qkpykg2fdq","scope":"g:melodic","role":"peak"},
+{"song":"s_ymqxm51xx1","scope":"g:melodic","role":"peak"},
+{"song":"s_x643cgmwee","scope":"g:melodic","role":"peak"},
+{"song":"s_5gn234asjj","scope":"g:melodic","role":"peak"},
+{"song":"s_zbc4e2bg6d","scope":"g:melodic","role":"peak"},
+{"song":"s_81gr6jbnw5","scope":"g:melodic","role":"peak"},
+{"song":"s_zsj7rb5062","scope":"g:melodic","role":"peak"},
+{"song":"s_ybhxkmwqds","scope":"g:melodic","role":"peak"},
+{"song":"s_2g5w8sk2qt","scope":"g:melodic","role":"reference"},
+{"song":"s_06dzm14g2e","scope":"g:melodic","role":"reference"},
+{"song":"s_2qmycfdb8e","scope":"g:melodic","role":"reference"},
+{"song":"s_zbc4e2bg6d","scope":"g:melodic","role":"reference"},
+{"song":"s_4xmsz3x4db","scope":"g:melodic","role":"near miss","belongs_to":"emorap","reason":"Guitar loops and emo vocal lineage, lo-fi SoundCloud sound"}
+]

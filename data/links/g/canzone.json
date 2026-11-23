@@ -1,0 +1,21 @@
+[
+{"song":"s_6q2zmw2vej","scope":"g:canzone","role":"intro"},
+{"song":"s_zf5tcs7re4","scope":"g:canzone","role":"intro"},
+{"song":"s_whqgkfgcnb","scope":"g:canzone","role":"intro"},
+{"song":"s_cwzn6fr4x9","scope":"g:canzone","role":"peak"},
+{"song":"s_04mp6feht3","scope":"g:canzone","role":"peak"},
+{"song":"s_j989pm4e21","scope":"g:canzone","role":"peak"},
+{"song":"s_7nvf5t49an","scope":"g:canzone","role":"peak"},
+{"song":"s_v346d6pyaw","scope":"g:canzone","role":"peak"},
+{"song":"s_bpdk1g6mmd","scope":"g:canzone","role":"peak"},
+{"song":"s_nh8gk0bsc5","scope":"g:canzone","role":"peak"},
+{"song":"s_hc5e10f4n9","scope":"g:canzone","role":"peak"},
+{"song":"s_1224dznjcn","scope":"g:canzone","role":"peak"},
+{"song":"s_qshnzsw5dp","scope":"g:canzone","role":"peak"},
+{"song":"s_ppnx19b0vc","scope":"g:canzone","role":"peak"},
+{"song":"s_6q2zmw2vej","scope":"g:canzone","role":"reference"},
+{"song":"s_zf5tcs7re4","scope":"g:canzone","role":"reference"},
+{"song":"s_bpdk1g6mmd","scope":"g:canzone","role":"reference"},
+{"song":"s_whqgkfgcnb","scope":"g:canzone","role":"reference"},
+{"song":"s_q9xz8rpngd","scope":"g:canzone","role":"near miss","belongs_to":"napoletana","reason":"Neapolitan dialect and swing, the Naples line"}
+]

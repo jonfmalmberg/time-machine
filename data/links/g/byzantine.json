@@ -1,0 +1,5 @@
+[
+{"song":"s_nv18x7sc3g","scope":"g:byzantine","role":"reference"},
+{"song":"s_hhryd9jtm2","scope":"g:byzantine","role":"near miss","belongs_to":"gregorian","reason":"Latin plainchant: no drone, plain diatonic modes, smoother line"},
+{"release":"r_m56nh52gqa","scope":"g:byzantine","role":"album"}
+]

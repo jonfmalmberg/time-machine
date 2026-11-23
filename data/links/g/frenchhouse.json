@@ -1,0 +1,21 @@
+[
+{"song":"s_f90x2fbw7y","scope":"g:frenchhouse","role":"intro"},
+{"song":"s_qsc3qtft2a","scope":"g:frenchhouse","role":"intro"},
+{"song":"s_wt8t8pnk4f","scope":"g:frenchhouse","role":"intro"},
+{"song":"s_ygxys7555b","scope":"g:frenchhouse","role":"peak"},
+{"song":"s_c12dvm6n41","scope":"g:frenchhouse","role":"peak"},
+{"song":"s_wb5dasm0hv","scope":"g:frenchhouse","role":"peak"},
+{"song":"s_ts889bzbg2","scope":"g:frenchhouse","role":"peak"},
+{"song":"s_r9zr2v0rac","scope":"g:frenchhouse","role":"peak"},
+{"song":"s_ye62yc692j","scope":"g:frenchhouse","role":"peak"},
+{"song":"s_rb0716js57","scope":"g:frenchhouse","role":"peak"},
+{"song":"s_4rp931x1qx","scope":"g:frenchhouse","role":"peak"},
+{"song":"s_a6ypxxr0x1","scope":"g:frenchhouse","role":"peak"},
+{"song":"s_3mgpc47k1a","scope":"g:frenchhouse","role":"peak"},
+{"song":"s_7dk79rbtzv","scope":"g:frenchhouse","role":"peak"},
+{"song":"s_wt8t8pnk4f","scope":"g:frenchhouse","role":"reference"},
+{"song":"s_c12dvm6n41","scope":"g:frenchhouse","role":"reference"},
+{"song":"s_ts889bzbg2","scope":"g:frenchhouse","role":"reference"},
+{"song":"s_ye62yc692j","scope":"g:frenchhouse","role":"reference"},
+{"song":"s_39hy5x8hmv","scope":"g:frenchhouse","role":"near miss","belongs_to":"bloghouse","reason":"Distorted, compressed electro sound, harsher and later"}
+]

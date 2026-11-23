@@ -1,0 +1,20 @@
+[
+{"song":"s_prfmwv31bf","scope":"g:indiefolk","role":"intro"},
+{"song":"s_b2pxsv90vz","scope":"g:indiefolk","role":"intro"},
+{"song":"s_e9wzfd486k","scope":"g:indiefolk","role":"intro"},
+{"song":"s_0fvxjb9t2k","scope":"g:indiefolk","role":"peak"},
+{"song":"s_ksbwwzzzwx","scope":"g:indiefolk","role":"peak"},
+{"song":"s_bdv60c1nc4","scope":"g:indiefolk","role":"peak"},
+{"song":"s_q5y235r73s","scope":"g:indiefolk","role":"peak"},
+{"song":"s_0a07b428fm","scope":"g:indiefolk","role":"peak"},
+{"song":"s_gxv2q18jj3","scope":"g:indiefolk","role":"peak"},
+{"song":"s_h25pkxx3np","scope":"g:indiefolk","role":"peak"},
+{"song":"s_pq6m7v55be","scope":"g:indiefolk","role":"peak"},
+{"song":"s_rxer3sydq8","scope":"g:indiefolk","role":"peak"},
+{"song":"s_fgeps4q96h","scope":"g:indiefolk","role":"peak"},
+{"song":"s_prfmwv31bf","scope":"g:indiefolk","role":"reference"},
+{"song":"s_e9wzfd486k","scope":"g:indiefolk","role":"reference"},
+{"song":"s_0fvxjb9t2k","scope":"g:indiefolk","role":"reference"},
+{"song":"s_rxer3sydq8","scope":"g:indiefolk","role":"reference"},
+{"song":"s_vharxw664s","scope":"g:indiefolk","role":"near miss","belongs_to":"countrypop","reason":"Same artist; Nashville pop production"}
+]

@@ -1,0 +1,23 @@
+[
+{"song":"s_arag9d4pmw","scope":"g:blues","role":"intro"},
+{"song":"s_9mxjywadjp","scope":"g:blues","role":"intro"},
+{"song":"s_1nhe7fk2fk","scope":"g:blues","role":"intro"},
+{"song":"s_qb4793q4t1","scope":"g:blues","role":"peak"},
+{"song":"s_g3x93drw33","scope":"g:blues","role":"peak"},
+{"song":"s_553v6eeahd","scope":"g:blues","role":"peak"},
+{"song":"s_pcqj8dh2ej","scope":"g:blues","role":"peak"},
+{"song":"s_cakwnhd58k","scope":"g:blues","role":"peak"},
+{"song":"s_g5fspsebj6","scope":"g:blues","role":"peak"},
+{"song":"s_sw16b9wahy","scope":"g:blues","role":"peak","released":1937},
+{"song":"s_hw0xj4ngq0","scope":"g:blues","role":"peak"},
+{"song":"s_16pccrrmjy","scope":"g:blues","role":"peak"},
+{"song":"s_vmrqwbqhtn","scope":"g:blues","role":"peak"},
+{"song":"s_emma3kvjj4","scope":"g:blues","role":"peak"},
+{"song":"s_kpkk7pv2az","scope":"g:blues","role":"peak"},
+{"song":"s_1yq42bxa6c","scope":"g:blues","role":"peak"},
+{"song":"s_23rjpx72yy","scope":"g:blues","role":"peak"},
+{"song":"s_qb4793q4t1","scope":"g:blues","role":"reference"},
+{"song":"s_pcqj8dh2ej","scope":"g:blues","role":"reference"},
+{"song":"s_sw16b9wahy","scope":"g:blues","role":"reference","released":1936},
+{"song":"s_h164rhhteh","scope":"g:blues","role":"near miss","belongs_to":"chicagoblues","reason":"Electric band with amplified harmonica"}
+]

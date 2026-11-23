@@ -1,0 +1,21 @@
+[
+{"song":"s_qzw8werwkt","scope":"g:crnb","role":"intro"},
+{"song":"s_dbec9cf9aa","scope":"g:crnb","role":"intro"},
+{"song":"s_928ehjx5ez","scope":"g:crnb","role":"intro"},
+{"song":"s_1mn51rb044","scope":"g:crnb","role":"peak"},
+{"song":"s_5cd4mac8et","scope":"g:crnb","role":"peak"},
+{"song":"s_3tcyng2yq1","scope":"g:crnb","role":"peak"},
+{"song":"s_015tm7fej3","scope":"g:crnb","role":"peak"},
+{"song":"s_nr50rzwjc1","scope":"g:crnb","role":"peak"},
+{"song":"s_9f40zxa1n9","scope":"g:crnb","role":"peak"},
+{"song":"s_35qn3mj2vp","scope":"g:crnb","role":"peak"},
+{"song":"s_tts8axx09t","scope":"g:crnb","role":"peak"},
+{"song":"s_7hh7b7s73d","scope":"g:crnb","role":"peak"},
+{"song":"s_njty4bgkq3","scope":"g:crnb","role":"peak"},
+{"song":"s_jjjqcayp6t","scope":"g:crnb","role":"peak"},
+{"song":"s_qzw8werwkt","scope":"g:crnb","role":"reference"},
+{"song":"s_928ehjx5ez","scope":"g:crnb","role":"reference"},
+{"song":"s_5cd4mac8et","scope":"g:crnb","role":"reference"},
+{"song":"s_nr50rzwjc1","scope":"g:crnb","role":"reference"},
+{"song":"s_0zcjssdbhk","scope":"g:crnb","role":"near miss","belongs_to":"hiphopsoul","reason":"Sample-based boom bap beat under the vocal"}
+]

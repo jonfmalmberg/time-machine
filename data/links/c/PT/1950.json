@@ -1,0 +1,15 @@
+[
+{"song":"s_w7xecrpsb9","scope":"c:PT:1950s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_bs64x0w8pe","scope":"c:PT:1950s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_t30vpzsr17","scope":"c:PT:1950s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_anxewp40mh","scope":"c:PT:1950s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_y078kc6q5z","scope":"c:PT:1950s","role":"home","scene":"film","confidence":"m"},
+{"song":"s_678f1qmvz1","scope":"c:PT:1950s","role":"home","scene":"radio","confidence":"h"},
+{"song":"s_mc28jmhfv7","scope":"c:PT:1950s","role":"home","scene":"film","confidence":"h"},
+{"song":"s_2kw7zw2yg2","scope":"c:PT:1950s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_xj1f3zxzfe","scope":"c:PT:1950s","role":"foreign","scene":"rock","confidence":"m"},
+{"song":"s_j5qpw8cd9h","scope":"c:PT:1950s","role":"foreign","scene":"pop","confidence":"m"},
+{"song":"s_xcz17dseyh","scope":"c:PT:1950s","role":"foreign","scene":"ballad","confidence":"m"},
+{"song":"s_0ab3b98225","scope":"c:PT:1950s","role":"foreign","scene":"pop","confidence":"m"},
+{"song":"s_6q2zmw2vej","scope":"c:PT:1950s","role":"foreign","scene":"pop","confidence":"m"}
+]

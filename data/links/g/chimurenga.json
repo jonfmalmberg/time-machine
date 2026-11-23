@@ -1,0 +1,13 @@
+[
+{"song":"s_02y3p92f00","scope":"g:chimurenga","role":"intro","released":1977},
+{"song":"s_2hkg0dk54n","scope":"g:chimurenga","role":"peak"},
+{"song":"s_9bmaw0h25q","scope":"g:chimurenga","role":"peak"},
+{"song":"s_q51dcft4ps","scope":"g:chimurenga","role":"peak"},
+{"song":"s_mpgh7199pj","scope":"g:chimurenga","role":"peak"},
+{"song":"s_02y3p92f00","scope":"g:chimurenga","role":"reference","released":1978},
+{"song":"s_q51dcft4ps","scope":"g:chimurenga","role":"reference"},
+{"song":"s_9wqfr65gce","scope":"g:chimurenga","role":"near miss","belongs_to":"mbira","reason":"The same cycles on acoustic mbira, as ritual music"},
+{"release":"r_9zsgddbmq4","scope":"g:chimurenga","role":"album"},
+{"release":"r_v2bzy2fm9n","scope":"g:chimurenga","role":"album"},
+{"release":"r_mr45gbybdd","scope":"g:chimurenga","role":"album"}
+]

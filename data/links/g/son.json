@@ -1,0 +1,18 @@
+[
+{"song":"s_bnr6dczp5c","scope":"g:son","role":"intro"},
+{"song":"s_j3q0sgnf5p","scope":"g:son","role":"intro"},
+{"song":"s_pvvsed6y4g","scope":"g:son","role":"intro"},
+{"song":"s_sqyqd8fvp1","scope":"g:son","role":"peak"},
+{"song":"s_6fhh07zwhw","scope":"g:son","role":"peak"},
+{"song":"s_y6htx6r8re","scope":"g:son","role":"peak"},
+{"song":"s_t3zb5ftghv","scope":"g:son","role":"peak"},
+{"song":"s_f5hbr2q1vf","scope":"g:son","role":"peak"},
+{"song":"s_d36p0y8343","scope":"g:son","role":"peak"},
+{"song":"s_3g16skwnbz","scope":"g:son","role":"peak"},
+{"song":"s_w0njvs0537","scope":"g:son","role":"peak"},
+{"song":"s_ry619y162j","scope":"g:son","role":"peak"},
+{"song":"s_dxktnphga1","scope":"g:son","role":"peak"},
+{"song":"s_pvvsed6y4g","scope":"g:son","role":"reference"},
+{"song":"s_dxktnphga1","scope":"g:son","role":"reference"},
+{"song":"s_6b6vk5h3vf","scope":"g:son","role":"near miss","belongs_to":"salsa","reason":"New York arrangement: trombones, piano and a harder, faster edge"}
+]

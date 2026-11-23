@@ -1,0 +1,21 @@
+[
+{"song":"s_j3b7vdnn42","scope":"g:latinpop","role":"intro"},
+{"song":"s_mt1apf24qn","scope":"g:latinpop","role":"intro"},
+{"song":"s_67grcmmrgm","scope":"g:latinpop","role":"intro"},
+{"song":"s_hf5cg3na4m","scope":"g:latinpop","role":"peak"},
+{"song":"s_j106w6n5te","scope":"g:latinpop","role":"peak"},
+{"song":"s_s8mqc9g84h","scope":"g:latinpop","role":"peak"},
+{"song":"s_mtg4974qb8","scope":"g:latinpop","role":"peak"},
+{"song":"s_3qqnqck2nt","scope":"g:latinpop","role":"peak"},
+{"song":"s_yw5zkt9hna","scope":"g:latinpop","role":"peak"},
+{"song":"s_s2qsh39nks","scope":"g:latinpop","role":"peak"},
+{"song":"s_3mpgh4abng","scope":"g:latinpop","role":"peak"},
+{"song":"s_9zx3hydt8a","scope":"g:latinpop","role":"peak"},
+{"song":"s_j6ks90jncb","scope":"g:latinpop","role":"peak"},
+{"song":"s_neb19gk6e4","scope":"g:latinpop","role":"peak"},
+{"song":"s_4637gs7487","scope":"g:latinpop","role":"peak"},
+{"song":"s_mt1apf24qn","scope":"g:latinpop","role":"reference"},
+{"song":"s_3qqnqck2nt","scope":"g:latinpop","role":"reference"},
+{"song":"s_j6ks90jncb","scope":"g:latinpop","role":"reference"},
+{"song":"s_7yrdfjzjm2","scope":"g:latinpop","role":"near miss","belongs_to":"reggaeton","reason":"Dembow beat and rapped vocals"}
+]

@@ -1,0 +1,12 @@
+[
+{"song":"s_408q6w47jr","scope":"g:screw","role":"intro"},
+{"song":"s_qdmpz6tfac","scope":"g:screw","role":"intro"},
+{"song":"s_x2959axwcc","scope":"g:screw","role":"peak"},
+{"song":"s_xkbz8nagfe","scope":"g:screw","role":"peak"},
+{"song":"s_agbt69r82m","scope":"g:screw","role":"peak"},
+{"song":"s_qx6t8f2pb9","scope":"g:screw","role":"peak"},
+{"song":"s_408q6w47jr","scope":"g:screw","role":"reference"},
+{"song":"s_agbt69r82m","scope":"g:screw","role":"reference"},
+{"release":"r_a4y1cghjhm","scope":"g:screw","role":"album"},
+{"release":"r_rdfxn21cc3","scope":"g:screw","role":"album"}
+]

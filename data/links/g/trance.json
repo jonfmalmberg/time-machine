@@ -1,0 +1,21 @@
+[
+{"song":"s_f3r9raxayv","scope":"g:trance","role":"intro"},
+{"song":"s_sjdmbwk1r9","scope":"g:trance","role":"intro"},
+{"song":"s_z4n3h3r6px","scope":"g:trance","role":"intro"},
+{"song":"s_ndhjet8cq0","scope":"g:trance","role":"peak"},
+{"song":"s_a0cw7hf6xt","scope":"g:trance","role":"peak","released":1994},
+{"song":"s_zdpg9waxhm","scope":"g:trance","role":"peak"},
+{"song":"s_cs2v9z5nz9","scope":"g:trance","role":"peak"},
+{"song":"s_qqs99gcte0","scope":"g:trance","role":"peak"},
+{"song":"s_hedydekyvt","scope":"g:trance","role":"peak"},
+{"song":"s_jg0fsehnjf","scope":"g:trance","role":"peak"},
+{"song":"s_dbefrkfca3","scope":"g:trance","role":"peak"},
+{"song":"s_s1tgz9rb56","scope":"g:trance","role":"peak"},
+{"song":"s_nn71avqw8a","scope":"g:trance","role":"peak"},
+{"song":"s_m56jp6egqc","scope":"g:trance","role":"peak"},
+{"song":"s_re238ppzcq","scope":"g:trance","role":"peak"},
+{"song":"s_ndhjet8cq0","scope":"g:trance","role":"reference"},
+{"song":"s_zdpg9waxhm","scope":"g:trance","role":"reference"},
+{"song":"s_jg0fsehnjf","scope":"g:trance","role":"reference"},
+{"song":"s_6e18w9zn3e","scope":"g:trance","role":"near miss","belongs_to":"edm","reason":"Shorter, punchier build-and-drop at 128 BPM"}
+]

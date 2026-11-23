@@ -1,0 +1,11 @@
+[
+{"song":"s_0j1tpyx422","scope":"g:lukthung","role":"intro"},
+{"song":"s_b65d5xc460","scope":"g:lukthung","role":"intro"},
+{"song":"s_cgvds1pn4h","scope":"g:lukthung","role":"peak"},
+{"song":"s_qw4s7t4z5v","scope":"g:lukthung","role":"peak"},
+{"song":"s_c8a3t1xgjz","scope":"g:lukthung","role":"peak"},
+{"song":"s_cgvds1pn4h","scope":"g:lukthung","role":"reference"},
+{"song":"s_qw4s7t4z5v","scope":"g:lukthung","role":"reference"},
+{"song":"s_7sgyz879bv","scope":"g:lukthung","role":"near miss","belongs_to":"morlam","reason":"Khaen and phin drive the music; Isan, not Central Thai"},
+{"release":"r_8g8w3560h3","scope":"g:lukthung","role":"album"}
+]

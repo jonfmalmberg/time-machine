@@ -1,0 +1,15 @@
+[
+{"song":"s_r8jkb8a77p","scope":"g:shaabi","role":"intro","released":1974},
+{"song":"s_jp44sf2qeq","scope":"g:shaabi","role":"intro"},
+{"song":"s_fbe2bhnm9a","scope":"g:shaabi","role":"peak"},
+{"song":"s_mw9t88htyd","scope":"g:shaabi","role":"peak","released":1978},
+{"song":"s_a79j5cd1ev","scope":"g:shaabi","role":"peak"},
+{"song":"s_smsvs796cf","scope":"g:shaabi","role":"peak"},
+{"song":"s_ts6shv6w68","scope":"g:shaabi","role":"peak"},
+{"song":"s_r8jkb8a77p","scope":"g:shaabi","role":"reference","released":1973},
+{"song":"s_mw9t88htyd","scope":"g:shaabi","role":"reference","released":1977},
+{"song":"s_smsvs796cf","scope":"g:shaabi","role":"reference"},
+{"song":"s_p8dxr4ygdq","scope":"g:shaabi","role":"near miss","belongs_to":"mahraganat","reason":"Same street audience, but auto-tuned vocals over electronic beats"},
+{"release":"r_tz0z6nz05r","scope":"g:shaabi","role":"album"},
+{"release":"r_sh4b3n8z2t","scope":"g:shaabi","role":"album"}
+]

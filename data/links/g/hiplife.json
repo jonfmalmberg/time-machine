@@ -1,0 +1,22 @@
+[
+{"song":"s_fec2w8g9bm","scope":"g:hiplife","role":"intro"},
+{"song":"s_3mnsbf9g44","scope":"g:hiplife","role":"intro"},
+{"song":"s_3gz8hf2z1p","scope":"g:hiplife","role":"intro"},
+{"song":"s_r1dghmtmyx","scope":"g:hiplife","role":"peak"},
+{"song":"s_rabea06yzf","scope":"g:hiplife","role":"peak"},
+{"song":"s_3jnd0928gs","scope":"g:hiplife","role":"peak"},
+{"song":"s_fec2w8g9bm","scope":"g:hiplife","role":"peak"},
+{"song":"s_63ry839br3","scope":"g:hiplife","role":"peak"},
+{"song":"s_3mnsbf9g44","scope":"g:hiplife","role":"peak"},
+{"song":"s_jtdk4mbn9h","scope":"g:hiplife","role":"peak"},
+{"song":"s_2jxmfzfzkc","scope":"g:hiplife","role":"peak"},
+{"song":"s_nnhxs2f4f7","scope":"g:hiplife","role":"peak"},
+{"song":"s_zhpr7tb7pj","scope":"g:hiplife","role":"peak"},
+{"song":"s_3gz8hf2z1p","scope":"g:hiplife","role":"peak"},
+{"song":"s_fec2w8g9bm","scope":"g:hiplife","role":"reference"},
+{"song":"s_3jnd0928gs","scope":"g:hiplife","role":"reference"},
+{"song":"s_3mnsbf9g44","scope":"g:hiplife","role":"reference"},
+{"song":"s_jtdk4mbn9h","scope":"g:hiplife","role":"reference"},
+{"song":"s_p0kws1r112","scope":"g:hiplife","role":"near miss","belongs_to":"highlife","reason":"Sung burger highlife, no rapping"},
+{"song":"s_zsw60nqxj6","scope":"g:hiplife","role":"near miss","released":2014,"belongs_to":"afrobeats","reason":"Later pan-African afrobeats production"}
+]

@@ -1,0 +1,22 @@
+[
+{"song":"s_ya6tqv8ags","scope":"g:danishrock","role":"intro"},
+{"song":"s_h61eyevz6z","scope":"g:danishrock","role":"intro"},
+{"song":"s_6aqr85bkb2","scope":"g:danishrock","role":"intro"},
+{"song":"s_j2y7mm1ese","scope":"g:danishrock","role":"peak"},
+{"song":"s_e61f9dfx8k","scope":"g:danishrock","role":"peak"},
+{"song":"s_4qvkmdvqsq","scope":"g:danishrock","role":"peak"},
+{"song":"s_ex544s6s4q","scope":"g:danishrock","role":"peak"},
+{"song":"s_x6t96h2eks","scope":"g:danishrock","role":"peak"},
+{"song":"s_jetjsbbgw7","scope":"g:danishrock","role":"peak"},
+{"song":"s_z8xxpqm4zn","scope":"g:danishrock","role":"peak"},
+{"song":"s_wt2j3a94ne","scope":"g:danishrock","role":"peak"},
+{"song":"s_vy3px1hchk","scope":"g:danishrock","role":"peak"},
+{"song":"s_fr5rgzzz96","scope":"g:danishrock","role":"peak"},
+{"song":"s_20spgk9g0g","scope":"g:danishrock","role":"peak"},
+{"song":"s_ebnffqdpqg","scope":"g:danishrock","role":"peak"},
+{"song":"s_0jjv2fvf90","scope":"g:danishrock","role":"peak"},
+{"song":"s_ya6tqv8ags","scope":"g:danishrock","role":"reference"},
+{"song":"s_h61eyevz6z","scope":"g:danishrock","role":"reference"},
+{"song":"s_6aqr85bkb2","scope":"g:danishrock","role":"reference"},
+{"song":"s_51hqj9djdr","scope":"g:danishrock","role":"near miss","belongs_to":"metal","reason":"Danish band, but English-language hard rock for export"}
+]

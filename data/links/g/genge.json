@@ -1,0 +1,20 @@
+[
+{"song":"s_g76kgy8tse","scope":"g:genge","role":"intro"},
+{"song":"s_same2cwx8r","scope":"g:genge","role":"intro"},
+{"song":"s_rsbpsegm2a","scope":"g:genge","role":"intro"},
+{"song":"s_g6vsxc2ak8","scope":"g:genge","role":"peak"},
+{"song":"s_g76kgy8tse","scope":"g:genge","role":"peak"},
+{"song":"s_rjfyt6f9gg","scope":"g:genge","role":"peak"},
+{"song":"s_2xkncpq024","scope":"g:genge","role":"peak"},
+{"song":"s_sddshkej9f","scope":"g:genge","role":"peak"},
+{"song":"s_same2cwx8r","scope":"g:genge","role":"peak"},
+{"song":"s_zhwvtdnymh","scope":"g:genge","role":"peak"},
+{"song":"s_n7hjcwt67c","scope":"g:genge","role":"peak"},
+{"song":"s_dr70frfhnb","scope":"g:genge","role":"peak"},
+{"song":"s_rsbpsegm2a","scope":"g:genge","role":"peak"},
+{"song":"s_7d4ad6gb9f","scope":"g:genge","role":"peak"},
+{"song":"s_g76kgy8tse","scope":"g:genge","role":"reference"},
+{"song":"s_same2cwx8r","scope":"g:genge","role":"reference"},
+{"song":"s_n7hjcwt67c","scope":"g:genge","role":"reference"},
+{"song":"s_cqwb4z3yz4","scope":"g:genge","role":"near miss","released":2013,"belongs_to":"bongoflava","reason":"Tanzanian, sung in standard Swahili, smoother"}
+]

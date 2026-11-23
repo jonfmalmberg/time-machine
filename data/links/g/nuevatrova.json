@@ -1,0 +1,18 @@
+[
+{"song":"s_107nkb7twf","scope":"g:nuevatrova","role":"intro"},
+{"song":"s_ae588krstb","scope":"g:nuevatrova","role":"intro"},
+{"song":"s_kycm6d7fka","scope":"g:nuevatrova","role":"intro"},
+{"song":"s_85c3htt5cw","scope":"g:nuevatrova","role":"peak"},
+{"song":"s_5k2ardht70","scope":"g:nuevatrova","role":"peak"},
+{"song":"s_d5ry1hqrfk","scope":"g:nuevatrova","role":"peak"},
+{"song":"s_89tjzgzn16","scope":"g:nuevatrova","role":"peak"},
+{"song":"s_3w7wwhbnvz","scope":"g:nuevatrova","role":"peak"},
+{"song":"s_vz4k60hydx","scope":"g:nuevatrova","role":"peak"},
+{"song":"s_s65pp16x49","scope":"g:nuevatrova","role":"peak"},
+{"song":"s_xvjq1x1nke","scope":"g:nuevatrova","role":"peak"},
+{"song":"s_e785zqfhfa","scope":"g:nuevatrova","role":"peak"},
+{"song":"s_n8xk3pbnwq","scope":"g:nuevatrova","role":"peak"},
+{"song":"s_d5ry1hqrfk","scope":"g:nuevatrova","role":"reference"},
+{"song":"s_vz4k60hydx","scope":"g:nuevatrova","role":"reference"},
+{"song":"s_p6215vb0tr","scope":"g:nuevatrova","role":"near miss","belongs_to":"nuevacancion","reason":"Chilean nueva canción, with Andean folk roots instead of Cuban trova"}
+]

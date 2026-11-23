@@ -1,0 +1,21 @@
+[
+{"song":"s_p5ejyxkx5b","scope":"g:makossa","role":"intro"},
+{"song":"s_t090m5khw0","scope":"g:makossa","role":"intro"},
+{"song":"s_k34a8c5x32","scope":"g:makossa","role":"intro"},
+{"song":"s_p5ejyxkx5b","scope":"g:makossa","role":"peak"},
+{"song":"s_ypcxxgt48b","scope":"g:makossa","role":"peak"},
+{"song":"s_qfb58sxww3","scope":"g:makossa","role":"peak"},
+{"song":"s_xb44h0nake","scope":"g:makossa","role":"peak"},
+{"song":"s_t090m5khw0","scope":"g:makossa","role":"peak"},
+{"song":"s_k34a8c5x32","scope":"g:makossa","role":"peak"},
+{"song":"s_4ddenm9846","scope":"g:makossa","role":"peak"},
+{"song":"s_ev72znv5tt","scope":"g:makossa","role":"peak"},
+{"song":"s_4wh8a2qa0m","scope":"g:makossa","role":"peak"},
+{"song":"s_qjhhn35dd7","scope":"g:makossa","role":"peak"},
+{"song":"s_p5ejyxkx5b","scope":"g:makossa","role":"reference"},
+{"song":"s_xb44h0nake","scope":"g:makossa","role":"reference"},
+{"song":"s_t090m5khw0","scope":"g:makossa","role":"reference"},
+{"song":"s_4ddenm9846","scope":"g:makossa","role":"reference"},
+{"song":"s_4852k54fgx","scope":"g:makossa","role":"near miss","belongs_to":"highlife","reason":"Cameroonian-Nigerian guitar highlife, lighter and lilting"},
+{"song":"s_df4p24za5c","scope":"g:makossa","role":"near miss","belongs_to":"rumbacongo","reason":"Long Congolese guitar sebene rather than bass-led groove"}
+]

@@ -1,0 +1,19 @@
+[
+{"song":"s_f9s23jt5vp","scope":"g:nashvillesound","role":"intro"},
+{"song":"s_jgge3nfn9w","scope":"g:nashvillesound","role":"intro"},
+{"song":"s_77fvs60dfh","scope":"g:nashvillesound","role":"intro"},
+{"song":"s_7mejvc9exn","scope":"g:nashvillesound","role":"peak"},
+{"song":"s_yh59gty6e4","scope":"g:nashvillesound","role":"peak"},
+{"song":"s_175r2k158j","scope":"g:nashvillesound","role":"peak"},
+{"song":"s_wxz5tb1hsq","scope":"g:nashvillesound","role":"peak"},
+{"song":"s_rt8dj2hxk1","scope":"g:nashvillesound","role":"peak"},
+{"song":"s_cgdrrwtyjg","scope":"g:nashvillesound","role":"peak"},
+{"song":"s_sak20fw2xr","scope":"g:nashvillesound","role":"peak"},
+{"song":"s_953qcj0037","scope":"g:nashvillesound","role":"peak"},
+{"song":"s_5x7z60zxym","scope":"g:nashvillesound","role":"peak"},
+{"song":"s_zq72p0y4e7","scope":"g:nashvillesound","role":"peak"},
+{"song":"s_ej43fmrj9q","scope":"g:nashvillesound","role":"peak"},
+{"song":"s_yh59gty6e4","scope":"g:nashvillesound","role":"reference"},
+{"song":"s_rt8dj2hxk1","scope":"g:nashvillesound","role":"reference"},
+{"song":"s_0rdxszhg1g","scope":"g:nashvillesound","role":"near miss","belongs_to":"outlaw","reason":"Stripped back and artist-controlled"}
+]

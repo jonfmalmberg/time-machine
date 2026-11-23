@@ -1,0 +1,14 @@
+[
+{"song":"s_yp20ksar5k","scope":"c:IR:1980s","role":"home","scene":"religious","confidence":"h"},
+{"song":"s_haeq1ce8y0","scope":"c:IR:1980s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_krf0rhkpes","scope":"c:IR:1980s","role":"home","scene":"religious","confidence":"m"},
+{"song":"s_9ykcf06ngj","scope":"c:IR:1980s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_5md2bw2vc2","scope":"c:IR:1980s","role":"home","scene":"other","confidence":"h"},
+{"song":"s_5yc7fxfbf5","scope":"c:IR:1980s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_8fd4zn90p1","scope":"c:IR:1980s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_6pshdg1032","scope":"c:IR:1980s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_svrbzwmsjs","scope":"c:IR:1980s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_rfm13at80w","scope":"c:IR:1980s","role":"foreign","scene":"pop","confidence":"m"},
+{"song":"s_25tf9mc845","scope":"c:IR:1980s","role":"foreign","scene":"dance","confidence":"m"},
+{"song":"s_743g01cbqn","scope":"c:IR:1980s","role":"foreign","scene":"ballad","confidence":"m"}
+]

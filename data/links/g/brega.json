@@ -1,0 +1,21 @@
+[
+{"song":"s_75f7dgg4ge","scope":"g:brega","role":"intro"},
+{"song":"s_15r6sq2h8b","scope":"g:brega","role":"intro"},
+{"song":"s_gx4h7tcg47","scope":"g:brega","role":"intro"},
+{"song":"s_k3spj5e9gb","scope":"g:brega","role":"peak"},
+{"song":"s_nbvbpt107w","scope":"g:brega","role":"peak"},
+{"song":"s_m16dvbxqp8","scope":"g:brega","role":"peak"},
+{"song":"s_0yk0n0rv70","scope":"g:brega","role":"peak"},
+{"song":"s_n9enxvh7t5","scope":"g:brega","role":"peak"},
+{"song":"s_x4qxm80pb2","scope":"g:brega","role":"peak"},
+{"song":"s_qdeyrdcs6t","scope":"g:brega","role":"peak"},
+{"song":"s_hnrc6v9bmf","scope":"g:brega","role":"peak"},
+{"song":"s_wzj8429yz6","scope":"g:brega","role":"peak"},
+{"song":"s_njg7fw95jx","scope":"g:brega","role":"peak"},
+{"song":"s_gx4h7tcg47","scope":"g:brega","role":"reference"},
+{"song":"s_75f7dgg4ge","scope":"g:brega","role":"reference"},
+{"song":"s_qdeyrdcs6t","scope":"g:brega","role":"reference"},
+{"song":"s_15r6sq2h8b","scope":"g:brega","role":"reference"},
+{"song":"s_rv9w4f1bsy","scope":"g:brega","role":"near miss","belongs_to":"balada","reason":"Polished romantic ballad, the respectable side brega was measured against"},
+{"song":"s_mj9fkwdnqh","scope":"g:brega","role":"near miss","belongs_to":"sertanejo","reason":"Country-duo harmonies and viola"}
+]

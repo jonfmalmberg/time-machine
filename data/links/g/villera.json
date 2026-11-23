@@ -1,0 +1,13 @@
+[
+{"song":"s_mftthqvx36","scope":"g:villera","role":"intro"},
+{"song":"s_ypbk53wh00","scope":"g:villera","role":"intro"},
+{"song":"s_jfka4agawj","scope":"g:villera","role":"peak"},
+{"song":"s_mxnhhkkp4d","scope":"g:villera","role":"peak","released":2001},
+{"song":"s_pkkv624pm2","scope":"g:villera","role":"peak"},
+{"song":"s_2atad5bg0x","scope":"g:villera","role":"peak"},
+{"song":"s_mftthqvx36","scope":"g:villera","role":"reference"},
+{"song":"s_mxnhhkkp4d","scope":"g:villera","role":"reference","released":2002},
+{"release":"r_112mmtyava","scope":"g:villera","role":"album"},
+{"release":"r_wr14j5hhcm","scope":"g:villera","role":"album"},
+{"release":"r_b8vzsx9stk","scope":"g:villera","role":"album"}
+]

@@ -1,0 +1,21 @@
+[
+{"song":"s_3qec7f22by","scope":"g:string","role":"intro"},
+{"song":"s_p6ns9qbcxp","scope":"g:string","role":"intro"},
+{"song":"s_6r77zg1b31","scope":"g:string","role":"intro"},
+{"song":"s_kx4b3z9bgt","scope":"g:string","role":"peak"},
+{"song":"s_w2stjq6ja9","scope":"g:string","role":"peak"},
+{"song":"s_99ka54nbap","scope":"g:string","role":"peak"},
+{"song":"s_dzpnpbb7m9","scope":"g:string","role":"peak"},
+{"song":"s_srrk0m74vz","scope":"g:string","role":"peak"},
+{"song":"s_44hs8aj9nq","scope":"g:string","role":"peak"},
+{"song":"s_e0wez1p8x0","scope":"g:string","role":"peak"},
+{"song":"s_q2vmrysrm9","scope":"g:string","role":"peak"},
+{"song":"s_6yrp00528c","scope":"g:string","role":"peak"},
+{"song":"s_h58f54h5rr","scope":"g:string","role":"peak"},
+{"song":"s_3qec7f22by","scope":"g:string","role":"reference"},
+{"song":"s_99ka54nbap","scope":"g:string","role":"reference"},
+{"song":"s_dzpnpbb7m9","scope":"g:string","role":"reference"},
+{"song":"s_6r77zg1b31","scope":"g:string","role":"reference"},
+{"song":"s_7gad21j6v3","scope":"g:string","role":"near miss","belongs_to":"lukthung","reason":"Country song with heavy vocal ornament and rural themes"},
+{"release":"r_h4qj5x6pgq","scope":"g:string","role":"album"}
+]

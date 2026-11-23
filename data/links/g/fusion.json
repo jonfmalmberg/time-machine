@@ -1,0 +1,21 @@
+[
+{"song":"s_tzq0djbjtz","scope":"g:fusion","role":"intro"},
+{"song":"s_p70w9m7wxa","scope":"g:fusion","role":"intro"},
+{"song":"s_r484wkwdsq","scope":"g:fusion","role":"intro"},
+{"song":"s_4c0hrkbvgv","scope":"g:fusion","role":"peak"},
+{"song":"s_dk26ykr3d1","scope":"g:fusion","role":"peak"},
+{"song":"s_cmgx36c941","scope":"g:fusion","role":"peak"},
+{"song":"s_9553gsn001","scope":"g:fusion","role":"peak"},
+{"song":"s_yn50j0k1at","scope":"g:fusion","role":"peak"},
+{"song":"s_s6abr8ezz7","scope":"g:fusion","role":"peak"},
+{"song":"s_ekwxafd0nx","scope":"g:fusion","role":"peak"},
+{"song":"s_egvpz11mpm","scope":"g:fusion","role":"peak"},
+{"song":"s_tr2295m2w2","scope":"g:fusion","role":"peak"},
+{"song":"s_nad0b39fkn","scope":"g:fusion","role":"peak"},
+{"song":"s_ghdttf1w2h","scope":"g:fusion","role":"peak"},
+{"song":"s_r484wkwdsq","scope":"g:fusion","role":"reference"},
+{"song":"s_cmgx36c941","scope":"g:fusion","role":"reference"},
+{"song":"s_9553gsn001","scope":"g:fusion","role":"reference"},
+{"song":"s_tr2295m2w2","scope":"g:fusion","role":"reference"},
+{"song":"s_egffgxwtsn","scope":"g:fusion","role":"near miss","belongs_to":"softrock","reason":"Jazz players and harmony, but a sung pop-rock song with short solos"}
+]

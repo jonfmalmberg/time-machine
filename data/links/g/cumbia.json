@@ -1,0 +1,18 @@
+[
+{"song":"s_f9hyw2bg0a","scope":"g:cumbia","role":"intro"},
+{"song":"s_eweja0nm4t","scope":"g:cumbia","role":"intro"},
+{"song":"s_te1pjcd3zb","scope":"g:cumbia","role":"intro"},
+{"song":"s_bnjhq3h42t","scope":"g:cumbia","role":"peak"},
+{"song":"s_vm9fm0ns06","scope":"g:cumbia","role":"peak"},
+{"song":"s_kjbr5q95c9","scope":"g:cumbia","role":"peak"},
+{"song":"s_xr7hmwfkgx","scope":"g:cumbia","role":"peak"},
+{"song":"s_5vg9jszh4r","scope":"g:cumbia","role":"peak"},
+{"song":"s_zt8j8chdv7","scope":"g:cumbia","role":"peak"},
+{"song":"s_sah0xpz9ak","scope":"g:cumbia","role":"peak"},
+{"song":"s_wr3bqb30xv","scope":"g:cumbia","role":"peak"},
+{"song":"s_9jpn6ktp5p","scope":"g:cumbia","role":"peak"},
+{"song":"s_bre2ycjb5m","scope":"g:cumbia","role":"peak"},
+{"song":"s_wr3bqb30xv","scope":"g:cumbia","role":"reference"},
+{"song":"s_bre2ycjb5m","scope":"g:cumbia","role":"reference"},
+{"song":"s_6zzvr07q2r","scope":"g:cumbia","role":"near miss","belongs_to":"chicha","reason":"Cumbia beat, but led by surf-psych electric guitar"}
+]

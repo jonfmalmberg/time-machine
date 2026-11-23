@@ -8,7 +8,7 @@ Pick a place and a year and hear what people there were listening to. The site e
 | :- | :- |
 | `src/template.html` | The page: markup, core styles and core script. |
 | `src/mods/NN_name.js`, `.css` | Feature modules, added to the page in file-name order. |
-| `data/*.json` | The music data, one file per key of the page's `DATA` object. One entry per line so changes show up clearly in a diff. |
+| `data/` | The music data: songs, artists, genres, places and research state as records with keys (see `docs/ARCHITECTURE.md`). One record per line so changes show up clearly in a diff. |
 | `build.py` | Joins the three into `dist/index.html`. Standard-library Python only. |
 | `serve.py` | Runs the site on your own computer and rebuilds on every change. |
 | `db/*.sql` | Database changes for Supabase, in order. See `db/README.md`. |

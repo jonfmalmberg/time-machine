@@ -1,0 +1,13 @@
+[
+{"song":"s_21nfvrrgfw","scope":"g:wadrum","role":"peak","released":1959},
+{"song":"s_b849d2xd0t","scope":"g:wadrum","role":"peak"},
+{"song":"s_cxh501f068","scope":"g:wadrum","role":"peak","released":1959},
+{"song":"s_9zh4v2hv35","scope":"g:wadrum","role":"peak"},
+{"song":"s_4xeg2r5ayf","scope":"g:wadrum","role":"peak"},
+{"song":"s_cxh501f068","scope":"g:wadrum","role":"reference","released":1960},
+{"song":"s_21nfvrrgfw","scope":"g:wadrum","role":"reference","released":1960},
+{"song":"s_g0w5hgfasx","scope":"g:wadrum","role":"near miss","belongs_to":"juju","reason":"Talking drum present, but within an electric guitar band"},
+{"release":"r_dzhmvxtdq2","scope":"g:wadrum","role":"album"},
+{"release":"r_1t3t82bmts","scope":"g:wadrum","role":"album"},
+{"release":"r_3jzbyfadry","scope":"g:wadrum","role":"album"}
+]

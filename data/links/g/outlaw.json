@@ -1,0 +1,19 @@
+[
+{"song":"s_7x29h6wpsz","scope":"g:outlaw","role":"intro"},
+{"song":"s_sytvwhge1m","scope":"g:outlaw","role":"intro"},
+{"song":"s_9bfaby6pxb","scope":"g:outlaw","role":"intro"},
+{"song":"s_0rdxszhg1g","scope":"g:outlaw","role":"peak"},
+{"song":"s_3txxjev8bz","scope":"g:outlaw","role":"peak"},
+{"song":"s_mtp4xwazbs","scope":"g:outlaw","role":"peak"},
+{"song":"s_x1ep6vjdk0","scope":"g:outlaw","role":"peak"},
+{"song":"s_t4kvc9z7nr","scope":"g:outlaw","role":"peak"},
+{"song":"s_qv7r7rd44b","scope":"g:outlaw","role":"peak"},
+{"song":"s_cxf62s0nrs","scope":"g:outlaw","role":"peak"},
+{"song":"s_qzsxws6p8h","scope":"g:outlaw","role":"peak"},
+{"song":"s_6ehjxek1mf","scope":"g:outlaw","role":"peak"},
+{"song":"s_t7knbjnbv0","scope":"g:outlaw","role":"peak"},
+{"song":"s_0rdxszhg1g","scope":"g:outlaw","role":"reference"},
+{"song":"s_qv7r7rd44b","scope":"g:outlaw","role":"reference"},
+{"song":"s_qzsxws6p8h","scope":"g:outlaw","role":"reference"},
+{"song":"s_5qh829rd1r","scope":"g:outlaw","role":"near miss","belongs_to":"countrypop","reason":"Polished pop production"}
+]

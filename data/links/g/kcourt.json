@@ -1,0 +1,8 @@
+[
+{"song":"s_bjbs3pwa7b","scope":"g:kcourt","role":"peak"},
+{"song":"s_t9vvqdw51k","scope":"g:kcourt","role":"peak"},
+{"song":"s_bjbs3pwa7b","scope":"g:kcourt","role":"reference"},
+{"song":"s_t9vvqdw51k","scope":"g:kcourt","role":"reference"},
+{"song":"s_hymgn44vqc","scope":"g:kcourt","role":"near miss","belongs_to":"kpop","reason":"Samples royal processional music inside a trap K-pop track"},
+{"release":"r_y2r32b2ywj","scope":"g:kcourt","role":"album"}
+]

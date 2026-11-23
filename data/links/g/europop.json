@@ -1,0 +1,22 @@
+[
+{"song":"s_ne2b0vvph8","scope":"g:europop","role":"intro"},
+{"song":"s_sprv02c1j1","scope":"g:europop","role":"intro"},
+{"song":"s_8sm2zcbxyw","scope":"g:europop","role":"intro"},
+{"song":"s_2dx8ev91nh","scope":"g:europop","role":"peak"},
+{"song":"s_yprvspb9v2","scope":"g:europop","role":"peak"},
+{"song":"s_fs17kwbb2k","scope":"g:europop","role":"peak"},
+{"song":"s_b2468068gn","scope":"g:europop","role":"peak"},
+{"song":"s_ra4z7p13c1","scope":"g:europop","role":"peak"},
+{"song":"s_ftkxhjhd03","scope":"g:europop","role":"peak"},
+{"song":"s_5vty91ynd1","scope":"g:europop","role":"peak"},
+{"song":"s_ek7cwvz5k2","scope":"g:europop","role":"peak"},
+{"song":"s_np5avnbykm","scope":"g:europop","role":"peak"},
+{"song":"s_r7w110bfdg","scope":"g:europop","role":"peak"},
+{"song":"s_25tf9mc845","scope":"g:europop","role":"peak"},
+{"song":"s_ne2b0vvph8","scope":"g:europop","role":"reference"},
+{"song":"s_sprv02c1j1","scope":"g:europop","role":"reference"},
+{"song":"s_fs17kwbb2k","scope":"g:europop","role":"reference"},
+{"song":"s_ftkxhjhd03","scope":"g:europop","role":"reference"},
+{"song":"s_jv77cgct4b","scope":"g:europop","role":"near miss","belongs_to":"disco","reason":"Munich sequencer disco built for the dancefloor, not the singalong"},
+{"song":"s_2nx91dk8qh","scope":"g:europop","role":"near miss","belongs_to":"eurodance","reason":"Later club-built dance-pop over reggae and house beats"}
+]

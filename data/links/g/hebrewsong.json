@@ -1,0 +1,15 @@
+[
+{"song":"s_akzwevn2dd","scope":"g:hebrewsong","role":"intro"},
+{"song":"s_67hak24wjs","scope":"g:hebrewsong","role":"intro"},
+{"song":"s_2emreqtyg9","scope":"g:hebrewsong","role":"intro"},
+{"song":"s_m3m8jw8vzn","scope":"g:hebrewsong","role":"peak"},
+{"song":"s_znpfy4q32e","scope":"g:hebrewsong","role":"peak"},
+{"song":"s_9vy74js1g0","scope":"g:hebrewsong","role":"peak"},
+{"song":"s_vzt78nqhj0","scope":"g:hebrewsong","role":"peak"},
+{"song":"s_2emreqtyg9","scope":"g:hebrewsong","role":"reference"},
+{"song":"s_znpfy4q32e","scope":"g:hebrewsong","role":"reference"},
+{"song":"s_akzwevn2dd","scope":"g:hebrewsong","role":"reference"},
+{"song":"s_9vy74js1g0","scope":"g:hebrewsong","role":"reference"},
+{"song":"s_xqkmfef9f4","scope":"g:hebrewsong","role":"near miss","belongs_to":"softrock","reason":"Tel Aviv rock songwriting that followed the folk-song era"},
+{"release":"r_57g0k563v2","scope":"g:hebrewsong","role":"album"}
+]

@@ -1,0 +1,15 @@
+[
+{"song":"s_8cw4em2zxv","scope":"g:dansi","role":"intro"},
+{"song":"s_6b4b71dkes","scope":"g:dansi","role":"intro"},
+{"song":"s_ce5g6rxr83","scope":"g:dansi","role":"intro"},
+{"song":"s_ty55cbjgc2","scope":"g:dansi","role":"peak"},
+{"song":"s_tkb1m6mgwv","scope":"g:dansi","role":"peak"},
+{"song":"s_vgs919bn5v","scope":"g:dansi","role":"peak"},
+{"song":"s_7m23zrs46b","scope":"g:dansi","role":"peak"},
+{"song":"s_8cw4em2zxv","scope":"g:dansi","role":"reference"},
+{"song":"s_6b4b71dkes","scope":"g:dansi","role":"reference"},
+{"song":"s_ce5g6rxr83","scope":"g:dansi","role":"reference"},
+{"song":"s_cqwb4z3yz4","scope":"g:dansi","role":"near miss","released":2014,"belongs_to":"bongoflava","reason":"Bongo Flava: Tanzanian hip hop and R&B-based pop"},
+{"release":"r_wtmc5mfa0x","scope":"g:dansi","role":"album"},
+{"release":"r_dmm6nvj8dm","scope":"g:dansi","role":"album"}
+]

@@ -1,0 +1,20 @@
+[
+{"song":"s_h0brx3f1hr","scope":"g:tejano","role":"intro"},
+{"song":"s_jac3h4ea3j","scope":"g:tejano","role":"intro"},
+{"song":"s_6edhs0d0wp","scope":"g:tejano","role":"intro"},
+{"song":"s_mewbrt7g3r","scope":"g:tejano","role":"peak"},
+{"song":"s_47w2de1cst","scope":"g:tejano","role":"peak"},
+{"song":"s_az1pq2jcmv","scope":"g:tejano","role":"peak"},
+{"song":"s_57qdh0jrwg","scope":"g:tejano","role":"peak"},
+{"song":"s_653gbc6x62","scope":"g:tejano","role":"peak"},
+{"song":"s_rmwq7ysa4q","scope":"g:tejano","role":"peak"},
+{"song":"s_511xdfy2xq","scope":"g:tejano","role":"peak"},
+{"song":"s_m79k5aaf21","scope":"g:tejano","role":"peak"},
+{"song":"s_s19krcvxc3","scope":"g:tejano","role":"peak"},
+{"song":"s_car516mah8","scope":"g:tejano","role":"peak"},
+{"song":"s_hg7w92qt1n","scope":"g:tejano","role":"peak"},
+{"song":"s_7p91gz70f3","scope":"g:tejano","role":"peak"},
+{"song":"s_rmwq7ysa4q","scope":"g:tejano","role":"reference"},
+{"song":"s_m79k5aaf21","scope":"g:tejano","role":"reference"},
+{"song":"s_rw8kfpxrzx","scope":"g:tejano","role":"near miss","released":1986,"belongs_to":"norteno","reason":"Accordion and bajo sexto without the synths and pop gloss"}
+]

@@ -1,0 +1,18 @@
+[
+{"song":"s_hx5xa2anhp","scope":"g:altpop","role":"intro"},
+{"song":"s_yxx6dv947g","scope":"g:altpop","role":"intro"},
+{"song":"s_5wqs2sgjc7","scope":"g:altpop","role":"intro"},
+{"song":"s_qw3zaqhm6w","scope":"g:altpop","role":"peak"},
+{"song":"s_j2drvev88f","scope":"g:altpop","role":"peak"},
+{"song":"s_90v1nf7ert","scope":"g:altpop","role":"peak"},
+{"song":"s_snkxdm75ca","scope":"g:altpop","role":"peak"},
+{"song":"s_yc7hveas9x","scope":"g:altpop","role":"peak"},
+{"song":"s_fkq137vv18","scope":"g:altpop","role":"peak"},
+{"song":"s_wjhcs8gb49","scope":"g:altpop","role":"peak"},
+{"song":"s_b7drr1wnmk","scope":"g:altpop","role":"peak"},
+{"song":"s_582nyby3ma","scope":"g:altpop","role":"peak"},
+{"song":"s_cbr51w3nxh","scope":"g:altpop","role":"peak"},
+{"song":"s_hx5xa2anhp","scope":"g:altpop","role":"reference"},
+{"song":"s_wjhcs8gb49","scope":"g:altpop","role":"reference"},
+{"song":"s_4m5t06k2bj","scope":"g:altpop","role":"near miss","belongs_to":"indiefolk","reason":"Closer to lo-fi bedroom indie than to pop production"}
+]

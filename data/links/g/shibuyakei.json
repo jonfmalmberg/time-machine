@@ -1,0 +1,19 @@
+[
+{"song":"s_marym09ggd","scope":"g:shibuyakei","role":"intro"},
+{"song":"s_fmk96pzesn","scope":"g:shibuyakei","role":"intro"},
+{"song":"s_5z7pasbagh","scope":"g:shibuyakei","role":"intro"},
+{"song":"s_hg5wkdhynx","scope":"g:shibuyakei","role":"peak"},
+{"song":"s_23a9m5b5c0","scope":"g:shibuyakei","role":"peak"},
+{"song":"s_p520bc0t9h","scope":"g:shibuyakei","role":"peak"},
+{"song":"s_6bthrz24t0","scope":"g:shibuyakei","role":"peak"},
+{"song":"s_v13635a53t","scope":"g:shibuyakei","role":"peak"},
+{"song":"s_pz68rcp64w","scope":"g:shibuyakei","role":"peak"},
+{"song":"s_5zw31m0dcg","scope":"g:shibuyakei","role":"peak"},
+{"song":"s_mz0ay4830j","scope":"g:shibuyakei","role":"peak"},
+{"song":"s_wv2es894sh","scope":"g:shibuyakei","role":"peak"},
+{"song":"s_0k7q63zy2e","scope":"g:shibuyakei","role":"peak"},
+{"song":"s_fmk96pzesn","scope":"g:shibuyakei","role":"reference"},
+{"song":"s_hg5wkdhynx","scope":"g:shibuyakei","role":"reference"},
+{"song":"s_mz0ay4830j","scope":"g:shibuyakei","role":"reference"},
+{"song":"s_8czf5rn4hj","scope":"g:shibuyakei","role":"near miss","belongs_to":"jpop","reason":"Inherits the sound but is mainstream idol electropop"}
+]

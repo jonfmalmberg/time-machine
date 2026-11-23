@@ -1,0 +1,21 @@
+[
+{"song":"s_2tx5ezde8h","scope":"g:malaypop","role":"intro"},
+{"song":"s_jnb38wm6n4","scope":"g:malaypop","role":"intro"},
+{"song":"s_9bva3ccykv","scope":"g:malaypop","role":"intro"},
+{"song":"s_zfrqrkrxph","scope":"g:malaypop","role":"peak"},
+{"song":"s_8mpkt7zarg","scope":"g:malaypop","role":"peak"},
+{"song":"s_kz9zshqf2g","scope":"g:malaypop","role":"peak"},
+{"song":"s_vejpzd2nmf","scope":"g:malaypop","role":"peak"},
+{"song":"s_xtm3r8z9d1","scope":"g:malaypop","role":"peak"},
+{"song":"s_95mg3g56wv","scope":"g:malaypop","role":"peak"},
+{"song":"s_vmrckpaj1f","scope":"g:malaypop","role":"peak"},
+{"song":"s_1wwn3sp2pc","scope":"g:malaypop","role":"peak"},
+{"song":"s_pqazv2r021","scope":"g:malaypop","role":"peak"},
+{"song":"s_w63dksfhen","scope":"g:malaypop","role":"peak"},
+{"song":"s_kmn2zf4ses","scope":"g:malaypop","role":"peak"},
+{"song":"s_zfrqrkrxph","scope":"g:malaypop","role":"reference"},
+{"song":"s_2tx5ezde8h","scope":"g:malaypop","role":"reference"},
+{"song":"s_jnb38wm6n4","scope":"g:malaypop","role":"reference"},
+{"song":"s_9bva3ccykv","scope":"g:malaypop","role":"reference"},
+{"song":"s_5r1vpqjjg2","scope":"g:malaypop","role":"near miss","released":1975,"belongs_to":"dangdut","reason":"Indonesian dangdut: tabla-like drums and Hindustani-style melody"}
+]

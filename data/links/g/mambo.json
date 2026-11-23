@@ -1,0 +1,22 @@
+[
+{"song":"s_j9xy6kfj3g","scope":"g:mambo","role":"intro"},
+{"song":"s_m3sjn7rnyh","scope":"g:mambo","role":"intro"},
+{"song":"s_37y3ye4za8","scope":"g:mambo","role":"intro"},
+{"song":"s_v3skn383bs","scope":"g:mambo","role":"peak"},
+{"song":"s_avqqhenq25","scope":"g:mambo","role":"peak"},
+{"song":"s_v7mavmw4p9","scope":"g:mambo","role":"peak"},
+{"song":"s_en47v4dhq9","scope":"g:mambo","role":"peak"},
+{"song":"s_358d2921p7","scope":"g:mambo","role":"peak"},
+{"song":"s_a867y1asj9","scope":"g:mambo","role":"peak"},
+{"song":"s_xktnjptjbg","scope":"g:mambo","role":"peak"},
+{"song":"s_rexcabqear","scope":"g:mambo","role":"peak"},
+{"song":"s_d36p0y8343","scope":"g:mambo","role":"peak"},
+{"song":"s_55ykvypk1z","scope":"g:mambo","role":"peak"},
+{"song":"s_2x7kxchysc","scope":"g:mambo","role":"peak"},
+{"song":"s_360tcm0sq2","scope":"g:mambo","role":"peak"},
+{"song":"s_wsyvgwfgge","scope":"g:mambo","role":"reference"},
+{"song":"s_a7cbe9a4tf","scope":"g:mambo","role":"reference"},
+{"song":"s_zffzaksqb2","scope":"g:mambo","role":"reference"},
+{"song":"s_t54p43xz3b","scope":"g:mambo","role":"near miss","belongs_to":"afrocubanjazz","reason":"Bebop horn writing and solos, a jazz piece rather than a dance number"},
+{"song":"s_bc0jf9aphq","scope":"g:mambo","role":"near miss","belongs_to":"psych","reason":"Puente's cha-cha-chá redone as rock with guitar and organ"}
+]

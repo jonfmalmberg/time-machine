@@ -1,0 +1,11 @@
+[
+{"song":"s_x9j2aybnkd","scope":"g:frevo","role":"intro"},
+{"song":"s_5cc7b1stjq","scope":"g:frevo","role":"peak","released":1979},
+{"song":"s_x8xjpz3aky","scope":"g:frevo","role":"peak"},
+{"song":"s_nx82sdkr7x","scope":"g:frevo","role":"peak"},
+{"song":"s_01vz0s81r4","scope":"g:frevo","role":"peak"},
+{"song":"s_x9j2aybnkd","scope":"g:frevo","role":"reference"},
+{"song":"s_5cc7b1stjq","scope":"g:frevo","role":"reference","released":1957},
+{"song":"s_x8xjpz3aky","scope":"g:frevo","role":"reference"},
+{"release":"r_zds22rbrhy","scope":"g:frevo","role":"album"}
+]

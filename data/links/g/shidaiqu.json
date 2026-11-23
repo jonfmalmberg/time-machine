@@ -1,0 +1,20 @@
+[
+{"song":"s_wpj89rk1y2","scope":"g:shidaiqu","role":"intro"},
+{"song":"s_jn79re1qv3","scope":"g:shidaiqu","role":"intro"},
+{"song":"s_7bbw6j6hnm","scope":"g:shidaiqu","role":"intro"},
+{"song":"s_kj4zyx6jb7","scope":"g:shidaiqu","role":"peak"},
+{"song":"s_hj48trz2w5","scope":"g:shidaiqu","role":"peak"},
+{"song":"s_6rrbehmxad","scope":"g:shidaiqu","role":"peak"},
+{"song":"s_d336m9r72r","scope":"g:shidaiqu","role":"peak"},
+{"song":"s_p6zr2h5hb3","scope":"g:shidaiqu","role":"peak"},
+{"song":"s_g52cfnzx48","scope":"g:shidaiqu","role":"peak"},
+{"song":"s_r4dt2bqed0","scope":"g:shidaiqu","role":"peak"},
+{"song":"s_s8gd1eeb8m","scope":"g:shidaiqu","role":"peak"},
+{"song":"s_xz9cad0ezc","scope":"g:shidaiqu","role":"peak"},
+{"song":"s_242rywsaj8","scope":"g:shidaiqu","role":"peak"},
+{"song":"s_wpj89rk1y2","scope":"g:shidaiqu","role":"reference"},
+{"song":"s_kj4zyx6jb7","scope":"g:shidaiqu","role":"reference"},
+{"song":"s_hj48trz2w5","scope":"g:shidaiqu","role":"reference"},
+{"song":"s_242rywsaj8","scope":"g:shidaiqu","role":"reference"},
+{"song":"s_tzt1qxd4bg","scope":"g:shidaiqu","role":"near miss","belongs_to":"cantopop","reason":"Sung in Cantonese for Hong Kong"}
+]

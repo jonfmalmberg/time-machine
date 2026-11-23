@@ -1,0 +1,23 @@
+[
+{"song":"s_yfqc9nbfkb","scope":"g:bebop","role":"intro"},
+{"song":"s_edvs89j99w","scope":"g:bebop","role":"intro"},
+{"song":"s_va022j29c6","scope":"g:bebop","role":"peak"},
+{"song":"s_ctw2t8d5vg","scope":"g:bebop","role":"peak"},
+{"song":"s_b7cqnyk9b9","scope":"g:bebop","role":"peak"},
+{"song":"s_0r556fh3jc","scope":"g:bebop","role":"peak"},
+{"song":"s_gjnk40tvff","scope":"g:bebop","role":"peak"},
+{"song":"s_pfpjk6kcy1","scope":"g:bebop","role":"peak"},
+{"song":"s_qbafsf6nka","scope":"g:bebop","role":"peak"},
+{"song":"s_r9y1eq0sae","scope":"g:bebop","role":"peak"},
+{"song":"s_yfdnmy2gf7","scope":"g:bebop","role":"peak"},
+{"song":"s_48te0awx6c","scope":"g:bebop","role":"peak"},
+{"song":"s_eg26pgbeev","scope":"g:bebop","role":"peak"},
+{"song":"s_56299jnsjx","scope":"g:bebop","role":"peak"},
+{"song":"s_qd53tq3bq8","scope":"g:bebop","role":"peak"},
+{"song":"s_agz4s4976y","scope":"g:bebop","role":"peak"},
+{"song":"s_1xetewk1ph","scope":"g:bebop","role":"peak"},
+{"song":"s_wcm7ghjbx5","scope":"g:bebop","role":"reference"},
+{"song":"s_b7cqnyk9b9","scope":"g:bebop","role":"reference"},
+{"song":"s_agz4s4976y","scope":"g:bebop","role":"reference"},
+{"song":"s_2jkcxt73cx","scope":"g:bebop","role":"near miss","belongs_to":"modjazz","reason":"Bebop vocabulary, but soft nonet voicings and relaxed cool tempo"}
+]

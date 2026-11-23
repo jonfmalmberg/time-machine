@@ -1,0 +1,11 @@
+[
+{"song":"s_25tqkxqrgn","scope":"g:cailuong","role":"intro"},
+{"song":"s_15cp7p7w74","scope":"g:cailuong","role":"intro"},
+{"song":"s_9gf6qk0p4v","scope":"g:cailuong","role":"intro"},
+{"song":"s_rxdeqg63yg","scope":"g:cailuong","role":"peak"},
+{"song":"s_j79w9tkh3t","scope":"g:cailuong","role":"peak"},
+{"song":"s_25tqkxqrgn","scope":"g:cailuong","role":"reference"},
+{"song":"s_15cp7p7w74","scope":"g:cailuong","role":"reference"},
+{"song":"s_9gf6qk0p4v","scope":"g:cailuong","role":"reference"},
+{"song":"s_09vxx8dk76","scope":"g:cailuong","role":"near miss","belongs_to":"nhacvang","reason":"Saigon's Western-style ballad song"}
+]

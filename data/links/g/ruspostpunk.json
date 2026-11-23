@@ -1,0 +1,13 @@
+[
+{"song":"s_r3023e2r8m","scope":"g:ruspostpunk","role":"intro"},
+{"song":"s_xt8n4fh150","scope":"g:ruspostpunk","role":"intro"},
+{"song":"s_bc3haygdb5","scope":"g:ruspostpunk","role":"peak"},
+{"song":"s_4wmvw4x8mz","scope":"g:ruspostpunk","role":"peak"},
+{"song":"s_tpvpg8vfeg","scope":"g:ruspostpunk","role":"peak"},
+{"song":"s_qd79x9cy4m","scope":"g:ruspostpunk","role":"peak"},
+{"song":"s_xt8n4fh150","scope":"g:ruspostpunk","role":"reference"},
+{"song":"s_r3023e2r8m","scope":"g:ruspostpunk","role":"reference"},
+{"song":"s_bg0p6fpvfh","scope":"g:ruspostpunk","role":"near miss","belongs_to":"postpunk","reason":"The original Soviet 1980s band these acts imitate"},
+{"release":"r_8n9vmrcsp8","scope":"g:ruspostpunk","role":"album"},
+{"release":"r_jr4e5gfy8n","scope":"g:ruspostpunk","role":"album"}
+]

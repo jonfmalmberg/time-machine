@@ -1,0 +1,18 @@
+[
+{"song":"s_bk4xngz53r","scope":"g:flamenco","role":"intro"},
+{"song":"s_8bx7ergmky","scope":"g:flamenco","role":"intro"},
+{"song":"s_d6qeqja9r4","scope":"g:flamenco","role":"intro"},
+{"song":"s_5ysz4rr8qy","scope":"g:flamenco","role":"peak"},
+{"song":"s_9fyagefpsp","scope":"g:flamenco","role":"peak"},
+{"song":"s_anv5yjb42p","scope":"g:flamenco","role":"peak"},
+{"song":"s_1y4n8324hz","scope":"g:flamenco","role":"peak"},
+{"song":"s_6kpbeev5yj","scope":"g:flamenco","role":"peak"},
+{"song":"s_c77r3c9e11","scope":"g:flamenco","role":"peak"},
+{"song":"s_q08x4fzags","scope":"g:flamenco","role":"peak"},
+{"song":"s_rsygg52naf","scope":"g:flamenco","role":"peak"},
+{"song":"s_2rax8gx5xq","scope":"g:flamenco","role":"peak"},
+{"song":"s_znwca42nrn","scope":"g:flamenco","role":"peak"},
+{"song":"s_9fyagefpsp","scope":"g:flamenco","role":"reference"},
+{"song":"s_q08x4fzags","scope":"g:flamenco","role":"reference"},
+{"song":"s_jtyq4chdx5","scope":"g:flamenco","role":"near miss","belongs_to":"roma","reason":"Gitano singers and guitars, but steady 4/4 pop rumba without compás or cante jondo"}
+]

@@ -1,0 +1,19 @@
+[
+{"song":"s_6f30yyd7gk","scope":"g:hokkienpop","role":"intro"},
+{"song":"s_8x5h5emjqm","scope":"g:hokkienpop","role":"intro"},
+{"song":"s_30tkjbwbf3","scope":"g:hokkienpop","role":"intro"},
+{"song":"s_xpjyrj88zw","scope":"g:hokkienpop","role":"peak"},
+{"song":"s_0xvgpahzx2","scope":"g:hokkienpop","role":"peak"},
+{"song":"s_5rm49pcs2f","scope":"g:hokkienpop","role":"peak"},
+{"song":"s_1cb2491kta","scope":"g:hokkienpop","role":"peak"},
+{"song":"s_va2sakw4a5","scope":"g:hokkienpop","role":"peak"},
+{"song":"s_jg0mgtpn02","scope":"g:hokkienpop","role":"peak"},
+{"song":"s_fza1jsjbdt","scope":"g:hokkienpop","role":"peak"},
+{"song":"s_x188pg0gf3","scope":"g:hokkienpop","role":"peak"},
+{"song":"s_fdb3p2v5wn","scope":"g:hokkienpop","role":"peak"},
+{"song":"s_b3003n96gm","scope":"g:hokkienpop","role":"peak"},
+{"song":"s_hhpfm5eze8","scope":"g:hokkienpop","role":"reference"},
+{"song":"s_8x5h5emjqm","scope":"g:hokkienpop","role":"reference"},
+{"song":"s_fdb3p2v5wn","scope":"g:hokkienpop","role":"reference"},
+{"song":"s_31ctvw5kk4","scope":"g:hokkienpop","role":"near miss","belongs_to":"shidaiqu","reason":"A Mandarin ballad, the official-language pop of the era"}
+]

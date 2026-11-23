@@ -1,0 +1,15 @@
+[
+{"song":"s_3kyng1rsyq","scope":"g:hawaiian","role":"intro","released":1947},
+{"song":"s_8pzanw8jx0","scope":"g:hawaiian","role":"intro"},
+{"song":"s_4xy9rb0z3k","scope":"g:hawaiian","role":"peak"},
+{"song":"s_1xnva8k40x","scope":"g:hawaiian","role":"peak"},
+{"song":"s_zenr9x65vw","scope":"g:hawaiian","role":"peak"},
+{"song":"s_gppzt9pdcm","scope":"g:hawaiian","role":"peak"},
+{"song":"s_jm35yj2jq5","scope":"g:hawaiian","role":"peak"},
+{"song":"s_9wsv9srcqa","scope":"g:hawaiian","role":"peak"},
+{"song":"s_3kyng1rsyq","scope":"g:hawaiian","role":"reference","released":1946},
+{"song":"s_d4nj747dfy","scope":"g:hawaiian","role":"reference"},
+{"song":"s_cqytgwgfe5","scope":"g:hawaiian","role":"near miss","belongs_to":"exotica","reason":"Mainland lounge fantasy of Hawaii, not Hawaiian guitar"},
+{"release":"r_jd9zb27sx0","scope":"g:hawaiian","role":"album"},
+{"release":"r_xcc4bnckn6","scope":"g:hawaiian","role":"album"}
+]

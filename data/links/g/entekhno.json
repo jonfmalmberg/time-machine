@@ -1,0 +1,19 @@
+[
+{"song":"s_xaqbj2fwxh","scope":"g:entekhno","role":"intro"},
+{"song":"s_gmqdt8hnpr","scope":"g:entekhno","role":"intro"},
+{"song":"s_4bwzbp2pvx","scope":"g:entekhno","role":"intro"},
+{"song":"s_8vgrztsc15","scope":"g:entekhno","role":"peak"},
+{"song":"s_4v9kp9pjpj","scope":"g:entekhno","role":"peak"},
+{"song":"s_786j0vym30","scope":"g:entekhno","role":"peak"},
+{"song":"s_w5p6efc84b","scope":"g:entekhno","role":"peak"},
+{"song":"s_x0y5tsq5xj","scope":"g:entekhno","role":"peak"},
+{"song":"s_n56vpawg7e","scope":"g:entekhno","role":"peak"},
+{"song":"s_x6tkmk6vw6","scope":"g:entekhno","role":"peak"},
+{"song":"s_t8vz9r8e6q","scope":"g:entekhno","role":"peak"},
+{"song":"s_786j0vym30","scope":"g:entekhno","role":"reference"},
+{"song":"s_x0y5tsq5xj","scope":"g:entekhno","role":"reference"},
+{"song":"s_4bwzbp2pvx","scope":"g:entekhno","role":"reference"},
+{"song":"s_cqvzdj9s9v","scope":"g:entekhno","role":"near miss","belongs_to":"laiko","reason":"Tavern laïko: one singer's heartbreak, not set poetry"},
+{"release":"r_6p0fpd49wm","scope":"g:entekhno","role":"album"},
+{"release":"r_c118mndv7f","scope":"g:entekhno","role":"album"}
+]

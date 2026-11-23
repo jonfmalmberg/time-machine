@@ -1,0 +1,20 @@
+[
+{"song":"s_3stch54bvk","scope":"g:sovmass","role":"intro"},
+{"song":"s_4f27r8p8k9","scope":"g:sovmass","role":"intro"},
+{"song":"s_m7a2z7jb99","scope":"g:sovmass","role":"intro"},
+{"song":"s_5z4em4vxr4","scope":"g:sovmass","role":"peak"},
+{"song":"s_7y31scmjp6","scope":"g:sovmass","role":"peak"},
+{"song":"s_beryv316eg","scope":"g:sovmass","role":"peak"},
+{"song":"s_ekj7p5ty6d","scope":"g:sovmass","role":"peak"},
+{"song":"s_ya27ktjnbp","scope":"g:sovmass","role":"peak"},
+{"song":"s_gcwwdm7hft","scope":"g:sovmass","role":"peak"},
+{"song":"s_jjzm1enm48","scope":"g:sovmass","role":"peak"},
+{"song":"s_j69be9ve9h","scope":"g:sovmass","role":"peak"},
+{"song":"s_ahchneyggx","scope":"g:sovmass","role":"peak"},
+{"song":"s_r9aw6raxnf","scope":"g:sovmass","role":"peak"},
+{"song":"s_5z4em4vxr4","scope":"g:sovmass","role":"reference"},
+{"song":"s_beryv316eg","scope":"g:sovmass","role":"reference"},
+{"song":"s_ekj7p5ty6d","scope":"g:sovmass","role":"reference"},
+{"song":"s_4f27r8p8k9","scope":"g:sovmass","role":"reference"},
+{"song":"s_a6rcf6vvdy","scope":"g:sovmass","role":"near miss","released":1968,"belongs_to":"bard","reason":"One poet with a guitar, outside the official song system"}
+]

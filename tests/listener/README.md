@@ -33,7 +33,7 @@ The judging itself is done by an agent on the registered model: it is given `INS
 ```
 python3 tests/listener/run.py record tests/listener/runs/<run> --model claude-opus-5-5
 ```
-checks that every case has a score, refuses a model other than the registered one, writes the scores and the verdict into `manifest.json`, and prints the line to add to `data/tests.json` (add `--apply` to append it).
+checks that every case has a score, refuses a model other than the registered one, writes the scores and the verdict into `manifest.json`, and prints the test record to add to the country-decade's scope in `data/scopes/c/` (add `--apply` to add it).
 
 ```
 python3 tests/listener/run.py coverage
@@ -42,4 +42,4 @@ rewrites [`../../docs/COVERAGE.md`](../../docs/COVERAGE.md): for every genre and
 
 ## What came before
 
-`archive/` holds the briefs, inputs and results of the rounds run before this registry (7 to 16 November). Their scores are in `data/tests.json` without a run id and are provisional until rerun here.
+`archive/` holds the briefs, inputs and results of the rounds run before this registry (7 to 16 November). Their scores are in `data/scopes/c/` without a run and are provisional until rerun here.

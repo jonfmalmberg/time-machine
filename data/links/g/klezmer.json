@@ -1,0 +1,14 @@
+[
+{"song":"s_0y18mrd2jq","scope":"g:klezmer","role":"intro"},
+{"song":"s_53zk482jmx","scope":"g:klezmer","role":"intro","released":1923},
+{"song":"s_7g1zr34fmg","scope":"g:klezmer","role":"intro"},
+{"song":"s_kd7aapv6cy","scope":"g:klezmer","role":"peak"},
+{"song":"s_q858wtb1mf","scope":"g:klezmer","role":"peak"},
+{"song":"s_x4q0te4395","scope":"g:klezmer","role":"peak"},
+{"song":"s_53zk482jmx","scope":"g:klezmer","role":"reference","released":1926},
+{"song":"s_q858wtb1mf","scope":"g:klezmer","role":"reference"},
+{"song":"s_x4q0te4395","scope":"g:klezmer","role":"reference"},
+{"song":"s_63cpq427j6","scope":"g:klezmer","role":"near miss","belongs_to":"swing","reason":"A klezmer trumpet break inside a swing big-band pop song"},
+{"release":"r_ac4g3m38z5","scope":"g:klezmer","role":"album"},
+{"release":"r_6h7q2xjrf7","scope":"g:klezmer","role":"album"}
+]

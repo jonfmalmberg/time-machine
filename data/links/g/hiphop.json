@@ -1,0 +1,19 @@
+[
+{"song":"s_axmghr90rh","scope":"g:hiphop","role":"intro"},
+{"song":"s_1mt6stv3t5","scope":"g:hiphop","role":"intro"},
+{"song":"s_q9xns7edfk","scope":"g:hiphop","role":"intro"},
+{"song":"s_85d4gf8hqk","scope":"g:hiphop","role":"peak"},
+{"song":"s_dcq54qpdq8","scope":"g:hiphop","role":"peak"},
+{"song":"s_dtakrm76g5","scope":"g:hiphop","role":"peak"},
+{"song":"s_qm4d63vjmg","scope":"g:hiphop","role":"peak"},
+{"song":"s_ks7j9kdg1m","scope":"g:hiphop","role":"peak"},
+{"song":"s_zt31zdjf0d","scope":"g:hiphop","role":"peak"},
+{"song":"s_1m96hmnjpz","scope":"g:hiphop","role":"peak"},
+{"song":"s_dfxsyywv1m","scope":"g:hiphop","role":"peak"},
+{"song":"s_9xazzxaaz0","scope":"g:hiphop","role":"peak"},
+{"song":"s_gjdyexjw55","scope":"g:hiphop","role":"peak"},
+{"song":"s_1mt6stv3t5","scope":"g:hiphop","role":"reference"},
+{"song":"s_85d4gf8hqk","scope":"g:hiphop","role":"reference"},
+{"song":"s_zt31zdjf0d","scope":"g:hiphop","role":"reference"},
+{"song":"s_1m96hmnjpz","scope":"g:hiphop","role":"near miss","belongs_to":"boombap","reason":"Stripped drum machine and hard delivery point forward to the golden age"}
+]

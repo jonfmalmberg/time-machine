@@ -1,0 +1,16 @@
+[
+{"song":"s_00qfr9y0fs","scope":"g:dembow","role":"intro"},
+{"song":"s_grk11k40bc","scope":"g:dembow","role":"intro"},
+{"song":"s_d8f0s98wem","scope":"g:dembow","role":"peak"},
+{"song":"s_00ykew4krn","scope":"g:dembow","role":"peak"},
+{"song":"s_z7q6b33mcg","scope":"g:dembow","role":"peak"},
+{"song":"s_5vjm7g5ynf","scope":"g:dembow","role":"peak"},
+{"song":"s_vds4ffm937","scope":"g:dembow","role":"peak"},
+{"song":"s_ye2gw7sesj","scope":"g:dembow","role":"peak"},
+{"song":"s_00ykew4krn","scope":"g:dembow","role":"reference"},
+{"song":"s_5vjm7g5ynf","scope":"g:dembow","role":"reference"},
+{"song":"s_ye2gw7sesj","scope":"g:dembow","role":"reference"},
+{"song":"s_7yrdfjzjm2","scope":"g:dembow","role":"near miss","belongs_to":"reggaeton","reason":"Slower Puerto Rican groove with full sung choruses"},
+{"release":"r_xra7n1qcqg","scope":"g:dembow","role":"album"},
+{"release":"r_9r44tj91b3","scope":"g:dembow","role":"album"}
+]

@@ -1,0 +1,23 @@
+[
+{"song":"s_n82tm56660","scope":"g:koreanhiphop","role":"intro"},
+{"song":"s_9vr2erhvdf","scope":"g:koreanhiphop","role":"intro"},
+{"song":"s_htydne6tkj","scope":"g:koreanhiphop","role":"intro"},
+{"song":"s_9twff7g1ya","scope":"g:koreanhiphop","role":"peak"},
+{"song":"s_ty35cmrn0y","scope":"g:koreanhiphop","role":"peak"},
+{"song":"s_qee5594nrf","scope":"g:koreanhiphop","role":"peak"},
+{"song":"s_s9evcksr1m","scope":"g:koreanhiphop","role":"peak"},
+{"song":"s_ngctsh12h4","scope":"g:koreanhiphop","role":"peak"},
+{"song":"s_36das6svdk","scope":"g:koreanhiphop","role":"peak"},
+{"song":"s_2vdrne87f4","scope":"g:koreanhiphop","role":"peak"},
+{"song":"s_4b1y57apre","scope":"g:koreanhiphop","role":"peak"},
+{"song":"s_b3bc71t7tk","scope":"g:koreanhiphop","role":"peak"},
+{"song":"s_v2p4cc1nq7","scope":"g:koreanhiphop","role":"peak"},
+{"song":"s_sayqkt0x20","scope":"g:koreanhiphop","role":"peak"},
+{"song":"s_n3n6vtv67e","scope":"g:koreanhiphop","role":"peak"},
+{"song":"s_9twff7g1ya","scope":"g:koreanhiphop","role":"reference"},
+{"song":"s_n82tm56660","scope":"g:koreanhiphop","role":"reference"},
+{"song":"s_htydne6tkj","scope":"g:koreanhiphop","role":"reference"},
+{"song":"s_v2p4cc1nq7","scope":"g:koreanhiphop","role":"reference"},
+{"song":"s_q4aje3v01z","scope":"g:koreanhiphop","role":"near miss","belongs_to":"kpop","reason":"Idol group pop with rap sections"},
+{"song":"s_8szbrcepw6","scope":"g:koreanhiphop","role":"near miss","belongs_to":"kpop","reason":"Rap inside a dance-pop idol format"}
+]

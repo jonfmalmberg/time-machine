@@ -1,0 +1,13 @@
+[
+{"song":"s_esfn9httk6","scope":"g:nhaco","role":"intro"},
+{"song":"s_98xmvhqby5","scope":"g:nhaco","role":"intro"},
+{"song":"s_f962amw82e","scope":"g:nhaco","role":"intro"},
+{"song":"s_c7784k3r73","scope":"g:nhaco","role":"peak"},
+{"song":"s_8pgnvkky1v","scope":"g:nhaco","role":"peak"},
+{"song":"s_asv6arx0wy","scope":"g:nhaco","role":"peak"},
+{"song":"s_ne96pqk7z9","scope":"g:nhaco","role":"reference"},
+{"song":"s_fww7yxhbt5","scope":"g:nhaco","role":"reference"},
+{"song":"s_z6hhy4r49p","scope":"g:nhaco","role":"reference"},
+{"song":"s_jm6bct42m0","scope":"g:nhaco","role":"reference"},
+{"song":"s_7q1dm1bhkg","scope":"g:nhaco","role":"near miss","belongs_to":"nhacvang","reason":"Southern, sentimental and private, not collective"}
+]
