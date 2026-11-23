@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (schema: cities over time, tree rule, a song's genres)
+
+- Owner: cities should carry their country over time, formation and name changes, as groundwork for a later map feature, not for the music data. Added as a dated country link on the city; founding, ending and dated names already exist.
+- Owner's tree rule recorded and to be enforced by the build: one principal parent and at most two others. Checked: the data already obeys it (25 roots, 111 with one parent, 306 with two, 151 with three, exactly one principal each), and the parent lists and the weighted edges are the same 1,176 lines stored twice.
+- Owner's suggestion adopted for mapping a song to genres: one principal and at most two other fingerprints. Claude added: most specific genre only, none allowed, a genre's own playlist limited to songs whose principal it is, and a recorded basis for each assignment.
+- Found while checking: year-list songs carry a free-text scene label (80 labels over 2,359 songs; 447 match a genre in the tree, 946 say "pop"), so chart songs are not mapped to genres today.
+
 ## 2026-11-23 (schema revised; tests and colours approved)
 
 - Owner approved the test registry and the iOS colours: both squash-merged to `dev`. Not on `main`; he has not said to release them.
