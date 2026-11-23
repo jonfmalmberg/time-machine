@@ -52,7 +52,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Hand back:** `triage.json` (file, scope, n, the class, exact text where found, a one-line reason), and in the report the counts per class, per genre, and the songs that now have no supporting source at all.
 
 ## H10. Evidence for data already on the site: pilot on two scopes (roadmap 2.15)
-- **State:** open
+- **State:** handed back 2026-11-23
 - **Model:** Opus for the run; Sonnet sub-agents may extract rows from pages already fetched.
 - **Ask:** The songs on the site were collected before sources were checked. Measure how good they are on two scopes, following "Evidence: how a researcher records a source" in `work/README.md` exactly (raw page text from the shell, never the page-reading tool for quotes).
   1. **Japan, 1980 to 1989, year lists.** `data/links/c/JP/1980.json` holds the links (scopes `c:JP:1980` to `c:JP:1989`); songs are in `data/songs/`, artists in `data/artists/`, and each link's source is an evidence id in `data/evidence/` (title and address only). For every link: fetch the source page raw, find the row or line that names this song for this year, and record the exact string. If the page does not name it, say so; do not look for another source.
