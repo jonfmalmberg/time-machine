@@ -1,0 +1,241 @@
+{
+ "JP1984A": {
+  "persona": {"name": "Hiroshi Tanaka", "born": 1970, "town": "Omiya, Saitama", "background": "Salaryman father commuting to Tokyo, mother part-time at a supermarket. Watched The Best Ten (TBS) on Thursdays and Yoru no Hit Studio (Fuji TV) with his older sister; taped songs off Bunka Hoso and FM Tokyo onto cassettes; borrowed LPs from the local rental record shop to dub. Bought his first single (Checkers) in 1984."},
+  "seeds": [
+   {"song": "Checkers - Namida no Request", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Tatsuro Yamashita - Christmas Eve", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Anzen Chitai - Wine Red no Kokoro", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Eisaku Okawa - Sazanka no Yado", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Akina Nakamori - Shojo A", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Seiko Matsuda - Akai Sweet Pea", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Eiichi Ohtaki - Kimi wa Tennenshoku", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Hiroko Yakushimaru - Sailor-fuku to Kikanju", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Masahiko Kondo - Ginginragin ni Sarigenaku", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Akira Terao - Ruby no Yubiwa", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Mayumi Itsuwa - Koibito yo", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Seiko Matsuda - Aoi Sangosho", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Wham! - Last Christmas", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Dead or Alive - You Spin Me Round (Like a Record)", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Madonna - Like a Virgin", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Cyndi Lauper - Girls Just Want to Have Fun", "knew": "yes", "origin": "foreign", "anachronism": false}
+  ],
+  "score": 8,
+  "wouldSay": "Namida no Request! Everyone in my class did the Checkers hair. And Wine Red no Kokoro was on Best Ten every week that winter.",
+  "missing": [
+   "Akina Nakamori - Kazari ja Nai no yo Namida wa (1984)",
+   "Seiko Matsuda - Rock'n Rouge (1984)",
+   "Hiroko Yakushimaru - Main Theme (1984)",
+   "Kyoko Koizumi - Nagisa no Haikara Ningyo (1984)",
+   "Checkers - Gizagiza Heart no Komoriuta (1983)",
+   "Anri - Kanashimi ga Tomaranai (1983)"
+  ],
+  "fake": "Little feels fake, but most of the middle is 1980-82, so it drifts to 'early 80s' rather than 1984, and three of the foreign hits were released only in Nov-Dec 1984 and really landed in Japan in 1985."
+ },
+ "JP1984B": {
+  "persona": {"name": "Hiroshi Tanaka", "born": 1970, "town": "Omiya, Saitama", "background": "Salaryman father commuting to Tokyo, mother part-time at a supermarket. Watched The Best Ten (TBS) on Thursdays and Yoru no Hit Studio (Fuji TV) with his older sister; taped songs off Bunka Hoso and FM Tokyo onto cassettes; borrowed LPs from the local rental record shop to dub. Bought his first single (Checkers) in 1984."},
+  "seeds": [
+   {"song": "Mariya Takeuchi - Plastic Love", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Junko Ohashi - Telephone Number", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Anri - Cat's Eye", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Tomoko Aran - Midnight Pretenders", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Tatsuro Yamashita - Christmas Eve", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Yurie Kokubu - Just a Joke", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Mari Iijima - Ai Oboete Imasu ka", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Mitsuko Horie - Candy Candy", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Isao Sasaki - Uchu Senkan Yamato", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Akina Nakamori - Shojo A", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Seiko Matsuda - Aoi Sangosho", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Momoe Yamaguchi - Playback Part 2", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Teresa Teng - Tsugunai", "knew": "yes", "origin": "foreign", "anachronism": false},
+   {"song": "Saburo Kitajima - Matsuri", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Casiopea - Galactic Funk", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Casiopea - Domino Line", "knew": "maybe", "origin": "local", "anachronism": false}
+  ],
+  "score": 4,
+  "wouldSay": "Plastic Love? Never heard it on the radio. Ah, Cat's Eye, that one I know from the anime. But who is this Midnight Pretenders?",
+  "missing": [
+   "Checkers - Namida no Request (1984)",
+   "Anzen Chitai - Wine Red no Kokoro (1983)",
+   "Akina Nakamori - Kazari ja Nai no yo Namida wa (1984)",
+   "Seiko Matsuda - Rock'n Rouge (1984)",
+   "Hiroko Yakushimaru - Main Theme (1984)",
+   "Kyoko Koizumi - Nagisa no Haikara Ningyo (1984)"
+  ],
+  "fake": "It opens with the 2010s YouTube city-pop revival canon (Plastic Love, Midnight Pretenders, Just a Joke were album tracks nobody my age heard), then pads with childhood anime themes, and has no foreign hits at all though Wham! and Cyndi Lauper were everywhere."
+ },
+ "NG1978A": {
+  "persona": {"name": "Adebayo Ogunleye", "born": 1963, "town": "Surulere, Lagos", "background": "Yoruba family; father a federal civil servant, mother a trader at Oyingbo market. Listened to Radio Nigeria and Radio Lagos request shows, watched NTA Lagos, heard records blasted from record stalls and at owambe parties with juju bands; older cousins went to Fela's Shrine; bought 45s and tapes on the street."},
+  "seeds": [
+   {"song": "Fela Kuti & Africa 70 - Shuffering and Shmiling", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Fela Kuti & Africa 70 - Sorrow, Tears and Blood", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Fela Kuti & Africa 70 - Zombie", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Fela Kuti & Africa 70 - Water No Get Enemy", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Fela Kuti & Africa 70 - Expensive Shit", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Tony Allen - Jealousy", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Alhaji Garba Leao - Wurin Allah Muki Nema", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Alhaji Garba Leao - Sarkin Mallamai Garba Kaita", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Alhaji Garba Leao - Kida Rawa", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Babatunde Olatunji - Jin-Go-Lo-Ba", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Babatunde Olatunji - Akiwowo", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Commodores - Brick House", "knew": "yes", "origin": "foreign", "anachronism": false},
+   {"song": "Culture - Two Sevens Clash", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Chic - Le Freak", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Prince Nico Mbarga - Sweet Mother", "knew": "yes", "origin": "local", "anachronism": false}
+  ],
+  "score": 5,
+  "wouldSay": "Fela, Fela, Fela, Fela... yes, Zombie was everywhere after the soldiers burned Kalakuta. But where is Sunny Ade? Where is Obey? This is not what my parents' parties sounded like.",
+  "missing": [
+   "Sonny Okosuns - Fire in Soweto (1977)",
+   "Victor Uwaifo - Joromi (1969)",
+   "Bongos Ikwue - Still Searching (c.1976, year unsure)",
+   "King Sunny Ade & His African Beats - any mid-70s juju side (specific title unsure)",
+   "Ebenezer Obey & His Inter-Reformers - any mid-70s juju side (specific title unsure)",
+   "Boney M. - Rivers of Babylon (1978)"
+  ],
+  "fake": "It is a Western crate-digger's Nigeria: five Fela tracks back to back, three obscure Hausa reissue tracks and an expatriate drummer's US albums, with no juju, no highlife beyond Sweet Mother and none of the Nigerian pop that actually filled radio."
+ },
+ "NG1978B": {
+  "persona": {"name": "Adebayo Ogunleye", "born": 1963, "town": "Surulere, Lagos", "background": "Yoruba family; father a federal civil servant, mother a trader at Oyingbo market. Listened to Radio Nigeria and Radio Lagos request shows, watched NTA Lagos, heard records blasted from record stalls and at owambe parties with juju bands; older cousins went to Fela's Shrine; bought 45s and tapes on the street."},
+  "seeds": [
+   {"song": "Bongos Ikwue - Still Searching", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Sonny Okosuns - Fire in Soweto", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Sonny Okosuns - Papa's Land", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Prince Nico Mbarga & Rocafil Jazz - Sweet Mother", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Fela Kuti - Zombie", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Nelly Uchendu - Love Nwantiti", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Fela Kuti - Water No Get Enemy", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Ebenezer Obey - The Horse, The Man & His Son", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Fela Kuti - Lady", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Celestine Ukwu - Okwukwe Na Nchekwube", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Boney M. - Rivers of Babylon", "knew": "yes", "origin": "foreign", "anachronism": false},
+   {"song": "Kenny Rogers - The Gambler", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Bob Marley & The Wailers - No Woman, No Cry - Live", "knew": "yes", "origin": "foreign", "anachronism": false},
+   {"song": "Manu Dibango - Soul Makossa", "knew": "yes", "origin": "foreign", "anachronism": false}
+  ],
+  "score": 7,
+  "wouldSay": "Ah, Bongos! Still Searching! And Sonny Okosuns, Fire in Soweto, we sang that at school when everybody was talking about South Africa.",
+  "missing": [
+   "Victor Uwaifo - Joromi (1969)",
+   "King Sunny Ade & His African Beats - any mid-70s juju side (specific title unsure)",
+   "Lijadu Sisters - Danger (1976)",
+   "Christy Essien - a late-70s hit (specific title unsure)",
+   "Jimmy Cliff - Many Rivers to Cross (1969)",
+   "Osita Osadebe - a 1970s highlife side (specific title unsure)"
+  ],
+  "fake": "Mostly right, but for a Lagos family it is thin on juju (one Obey track whose date I am unsure of) and the year-of-release on The Gambler (Nov 1978) means it only reached Nigeria afterwards."
+ },
+ "EG1965A": {
+  "persona": {"name": "Samira Abdel Fattah", "born": 1951, "town": "Shubra, Cairo", "background": "Father a schoolteacher, mother at home. Family gathered around the radio for Umm Kulthum's first-Thursday concerts on Idha'at al-Qahira and Sawt al-Arab; saw Abdel Halim and Shadia films at the neighbourhood cinema; patriotic songs at school assemblies; a neighbour had a gramophone with Sono Cairo records."},
+  "seeds": [
+   {"song": "Umm Kulthum - Amal Hayati", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Umm Kulthum - Enta Omri", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Mohammed Abdel Wahab - El Watan El Akbar", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Nagat El Saghira - Ayazon", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Umm Kulthum - Hagartak", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Umm Kulthum - Arouh Le Meen", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Abdel Halim Hafez - Ahwak", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Umm Kulthum - Awedt Einy", "knew": "yes", "origin": "local", "anachronism": false}
+  ],
+  "score": 7,
+  "wouldSay": "Amal Hayati, the new one that year, my father would not let anyone speak during it. And Enta Omri, the whole street listened.",
+  "missing": [
+   "Abdel Halim Hafez - Hikayat Shaab (1960)",
+   "Shadia - a mid-60s film song (specific title unsure)",
+   "Mohamed Fawzi - Mama Zamanha Gaya (1950s)",
+   "Faiza Ahmed - Ya Imma El Amar Ala El Bab (1950s)",
+   "Mohamed Rushdi - Adawiya (1960s, year unsure)",
+   "Farid al-Atrash - Al Rabie (1949)"
+  ],
+  "fake": "Every track is real and loved, but five of eight are hour-long Umm Kulthum concert pieces, so it plays like a grandparent's tarab evening rather than a teenager's 1965 of film songs, Abdel Halim, Shadia and the light pop on the radio."
+ },
+ "EG1965B": {
+  "persona": {"name": "Samira Abdel Fattah", "born": 1951, "town": "Shubra, Cairo", "background": "Father a schoolteacher, mother at home. Family gathered around the radio for Umm Kulthum's first-Thursday concerts on Idha'at al-Qahira and Sawt al-Arab; saw Abdel Halim and Shadia films at the neighbourhood cinema; patriotic songs at school assemblies; a neighbour had a gramophone with Sono Cairo records."},
+  "seeds": [
+   {"song": "Umm Kulthum - Enta Omri", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Abdel Halim Hafez - Ahwak", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Farid al-Atrash - Al Rabie", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Umm Kulthum - Ghanili Shwaya Shwaya", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Asmahan - Layali el Uns fi Vienna", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Mohammed Abdel Wahab - Ya Msafer Wahdak", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Mohamed Siddiq El-Minshawi - Surat Al-Insan", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Lata Mangeshkar - Pyar Kiya To Darna Kya", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Henry Mancini - The Pink Panther Theme", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Cheikha Rimitti - Charrak Gatta", "knew": "no", "origin": "foreign", "anachronism": false}
+  ],
+  "score": 6,
+  "wouldSay": "Enta Omri, then Ahwak, yes. Al Rabie, my mother's favourite. But Quran recitation in the middle of songs? And this Algerian woman, who is she?",
+  "missing": [
+   "Umm Kulthum - Amal Hayati (1965)",
+   "Abdel Halim Hafez - Hikayat Shaab (1960)",
+   "Mohammed Abdel Wahab - El Watan El Akbar (1960)",
+   "Nagat El Saghira - Ayazon (1960)",
+   "Shadia - a mid-60s film song (specific title unsure)",
+   "Mohamed Fawzi - Mama Zamanha Gaya (1950s)"
+  ],
+  "fake": "The opening is right, but the rest is a museum of Arab music (1940s Asmahan and Abdel Wahab) with token 'world' inserts: a Quran recitation treated as a song, an Algerian rai singer unknown in Cairo, and Indian and Hollywood items of uncertain reach."
+ },
+ "RU1980A": {
+  "persona": {"name": "Andrei Volkov", "born": 1966, "town": "Tula", "background": "Father a lathe operator at the arms plant, mother a nurse. Watched Pesnya Goda and Goluboy Ogonyok on Central Television, radio Mayak in the kitchen; Melodiya LPs and flexidiscs from Krugozor; older brother copied Vysotsky and Mashina Vremeni onto reel-to-reel from friends; school discotheques played Boney M. and ABBA; 1980 Olympics on TV."},
+  "seeds": [
+   {"song": "Mashina Vremeni - Povorot", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Alla Pugacheva - Vsyo mogut koroli", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Samotsvety - Uvezu tebya ya v tundru", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Pesniary - Vologda", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Alla Pugacheva - Mne nravitsya", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Lev Leshchenko - Den Pobedy", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Alla Pugacheva - Arlekino", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Muslim Magomaev - Melodiya", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Oleg Anofriev - Yest tolko mig", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Samotsvety - Moy adres - Sovetskiy Soyuz", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Valery Obodzinsky - Eti glaza naprotiv", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Vladimir Vysotsky - Koni priveredlivye", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Boney M. - Rivers of Babylon", "knew": "yes", "origin": "foreign", "anachronism": false},
+   {"song": "Smokie - Living Next Door to Alice", "knew": "yes", "origin": "foreign", "anachronism": false},
+   {"song": "ABBA - Money, Money, Money", "knew": "yes", "origin": "foreign", "anachronism": false},
+   {"song": "Joe Dassin - Et si tu n'existais pas", "knew": "yes", "origin": "foreign", "anachronism": false}
+  ],
+  "score": 9,
+  "wouldSay": "Povorot! My brother's tape, we wore it out. And then Vsyo mogut koroli, Pugacheva was on TV every New Year.",
+  "missing": [
+   "Lev Leshchenko & Tatyana Antsiferova - Do svidaniya, Moskva (1980)",
+   "Sergey & Tatyana Nikitin - Aleksandra (1980)",
+   "Sofia Rotaru - Chervona ruta (1971)",
+   "Pesniary - Belovezhskaya pushcha (1975)",
+   "Afric Simone - Hafanana (1975)",
+   "Ottawan - D.I.S.C.O. (1979)"
+  ],
+  "fake": "Almost nothing; the only doubts are that the 'Uvezu tebya ya v tundru' I remember is Kola Beldy's, not Samotsvety's (I am unsure a Samotsvety recording is the famous one), and the 1980 Olympic songs are absent."
+ },
+ "RU1980B": {
+  "persona": {"name": "Andrei Volkov", "born": 1966, "town": "Tula", "background": "Father a lathe operator at the arms plant, mother a nurse. Watched Pesnya Goda and Goluboy Ogonyok on Central Television, radio Mayak in the kitchen; Melodiya LPs and flexidiscs from Krugozor; older brother copied Vysotsky and Mashina Vremeni onto reel-to-reel from friends; school discotheques played Boney M. and ABBA; 1980 Olympics on TV."},
+  "seeds": [
+   {"song": "Olga Voronets - Belym snegom", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Lyudmila Zykina - Orenburgsky pukhovy platok", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Lyudmila Zykina - Techot reka Volga", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Lidiya Ruslanova - Valenki", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Feodor Chaliapin - Dubinushka", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Feodor Chaliapin - Ey, ukhnem", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Pesniary - Belovezhskaya pushcha", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Alla Pugacheva - Arlekino", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Lev Leshchenko - Den Pobedy", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Sergey & Tatyana Nikitin - Brich-Mulla", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Oleg Mityaev - Kak zdorovo", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Vladimir Vysotsky - Ballada o lyubvi", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Judas Priest - Breaking the Law", "knew": "no", "origin": "foreign", "anachronism": false},
+   {"song": "Sister Sledge - We Are Family", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Devo - Whip It", "knew": "no", "origin": "foreign", "anachronism": false},
+   {"song": "Joy Division - Love Will Tear Us Apart", "knew": "no", "origin": "foreign", "anachronism": false}
+  ],
+  "score": 3,
+  "wouldSay": "Zykina, Ruslanova, Chaliapin... this is my grandmother's radio, not mine. Where is Pugacheva? Oh, there she is, eighth.",
+  "missing": [
+   "Mashina Vremeni - Povorot (1979)",
+   "Alla Pugacheva - Vsyo mogut koroli (1978)",
+   "Boney M. - Rivers of Babylon (1978)",
+   "ABBA - Money, Money, Money (1976)",
+   "Lev Leshchenko & Tatyana Antsiferova - Do svidaniya, Moskva (1980)",
+   "Smokie - Living Next Door to Alice (1976)"
+  ],
+  "fake": "It opens on a folkloric 'eternal Russia' of Zykina, wartime Ruslanova and pre-revolutionary Chaliapin, and ends with Western metal and post-punk (Judas Priest, Devo, Joy Division) that no Soviet teenager in 1980 had heard, instead of the ABBA, Boney M. and Smokie actually played at school discos."
+ }
+}

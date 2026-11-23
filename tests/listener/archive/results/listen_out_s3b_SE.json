@@ -1,0 +1,596 @@
+{
+ "SE1953A": {
+  "persona": {
+   "name": "Gunvor",
+   "born": 1941,
+   "town": "Vindeln, Västerbotten",
+   "background": "Smallholder and forest-worker family; father floats timber on Vindelälven in spring. One radio channel (Radiotjänst): Karusellen with Lennart Hyland, Frukostklubben with Sigge Fürst, Grammofontimmen, Sunday service. Accordion and gammaldans at the dansbana and Folkets hus, hymns and string-band songs at the missionshus, a wind-up gramophone at the neighbour's."
+  },
+  "seeds": [
+   {
+    "song": "Snoddas - Flottarkärlek",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Harry Brandelius - Hur tokigt som helst",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lasse Dahlquist - De' ä' dans på Brännö brygga",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Andrews Sisters - Rum and Coca-Cola",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Ulla Billquist - Min soldat",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Alice Babs - Swing it, magistern",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Karl Gerhard - Den ökända hästen från Troja",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Evert Taube - Calle Schewens vals",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Charlie Parker - Confirmation",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": true,
+    "when": "later"
+   },
+   {
+    "song": "The Soul Stirrers - Jesus Gave Me Water",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Duke Ellington and His Orchestra - Take the 'A' Train",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Anton Karas - The Third Man Theme",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 4,
+  "wouldSay": "Snoddas, ja! Det där minns jag, pappa sjöng med. Men resten är ju beredskapstiden, mammas skivor från kriget, och sen den där negerjazzen och amerikansk kyrkosång har jag aldrig hört i hela mitt liv.",
+  "missing": [
+   "Lily Berglund - Valpen i fönstret, 1953",
+   "Thory Bernhards - Vildandens sång, 1952",
+   "Snoddas - Charlie Truck, 1952",
+   "Bertil Boo - Violer till mor, c.1948 (still everywhere)",
+   "Gösta 'Snoddas' Nordgren - Hadderian Hadderá, 1952",
+   "Lapp-Lisa - Barnatro, 1930s (missionshus standard)"
+  ],
+  "fake": "Only one song is actually from 1952-53; five are wartime (1931-41) evergreens and four are American jazz/gospel that never reached a Västerbotten kitchen radio (Parker's 'Confirmation' was not even released until 1954, I believe).",
+  "missingScene": "The 1953 schlager year itself (Swedish covers of American and German hits), accordion/gammaldans (Calle Jularbo, Carl Jularbo-style dansbana music), and läsarsånger/free-church song (Lapp-Lisa, Einar Ekberg) which was the biggest music in rural Norrland."
+ },
+ "SE1953B": {
+  "persona": {
+   "name": "Gunvor",
+   "born": 1941,
+   "town": "Vindeln, Västerbotten",
+   "background": "Smallholder and forest-worker family; father floats timber on Vindelälven in spring. One radio channel (Radiotjänst): Karusellen with Lennart Hyland, Frukostklubben with Sigge Fürst, Grammofontimmen, Sunday service. Accordion and gammaldans at the dansbana and Folkets hus, hymns and string-band songs at the missionshus, a wind-up gramophone at the neighbour's."
+  },
+  "seeds": [
+   {
+    "song": "Lasse Lönndahl - Sången från Moulin Rouge",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Snoddas - Flottarkärlek",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lasse Lönndahl - That's Amore",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": true,
+    "when": "later"
+   },
+   {
+    "song": "Lasse Lönndahl - Ett vänligt litet ord",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": true,
+    "when": "later"
+   },
+   {
+    "song": "Zarah Leander - Wunderbar",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Stig Olin - På söndag",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lily Berglund - Valpen i fönstret",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lily Berglund - Vaya con Dios",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Thory Bernhards - Mjölnarens Iréne",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": true,
+    "when": "later"
+   }
+  ],
+  "score": 7,
+  "wouldSay": "Ja, det här är Grammofontimmen! Valpen i fönstret sjöng vi på skolgården, och Snoddas förstås. Lasse Lönndahl kom väl lite senare för oss, men rösten känner jag igen direkt.",
+  "missing": [
+   "Thory Bernhards - Vildandens sång, 1952",
+   "Snoddas - Charlie Truck, 1952",
+   "Alice Babs - Käre John, 1953",
+   "Bertil Boo - Violer till mor, c.1948",
+   "Gösta 'Snoddas' Nordgren - Hadderian Hadderá, 1952",
+   "Lapp-Lisa - Barnatro"
+  ],
+  "fake": "Right sound and all in Swedish, but it is Stockholm schlager only with Lönndahl three times, and three seeds look like 1954 records ('Ett vänligt litet ord' is 'Little Things Mean a Lot', 'That's Amore' and 'Mjölnarens Iréne' I place in 1954; unsure of exact release dates).",
+  "missingScene": "Accordion and gammaldans from the dansbana, and free-church/string-band song (Lapp-Lisa, Einar Ekberg); no foreign original at all, though Swedes then mostly heard the Swedish covers anyway."
+ },
+ "SE1957A": {
+  "persona": {
+   "name": "Bengt",
+   "born": 1945,
+   "town": "Majorna, Göteborg (emigrated to Vancouver 1970)",
+   "background": "Father a plater at Götaverken, mother a cleaner. Radio at home (Frukostklubben, Grammofontimmen, Karusellen), Radio Luxembourg at night on the older brother's set, jukebox at the café, Liseberg stage in summer, Bildjournalen pictures, 78s and the first EPs at a friend's. No TV at home yet."
+  },
+  "seeds": [
+   {
+    "song": "Lill-Babs - Min mammas boogie",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Snoddas - Flottarkärlek",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Paul Anka - Diana",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Elvis Presley - Jailhouse Rock",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lasse Dahlquist - De' ä' dans på Brännö brygga",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Ulla Billquist - Min soldat",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Alice Babs - Swing it, magistern",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Karl Gerhard - Den ökända hästen från Troja",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Evert Taube - Calle Schewens vals",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Charlie Parker - Confirmation",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Jerry Lee Lewis - Great Balls of Fire",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Miles Davis - 'Round Midnight",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Soul Stirrers - Touch the Hem of His Garment",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 5,
+  "wouldSay": "Diana and Jailhouse Rock, yes, that was us boys at the café jukebox. Brännö brygga is Göteborg all right, but that's what my father sang, and Min soldat is from the war. Where are the Swedish records from that year? And who is this gospel group?",
+  "missing": [
+   "Owe Thörnqvist - Rotmos rock, 1956",
+   "Rock-Ragge - Be-Bop-A-Lula, 1957",
+   "Lasse Lönndahl - Kärleksbrev i sanden, 1957",
+   "Tommy Steele - Singing the Blues, 1957",
+   "Little Richard - Long Tall Sally, 1956",
+   "Harry Belafonte - Banana Boat Song (Day-O), 1957"
+  ],
+  "fake": "No Swedish seed is from 1955-57: the local half is a 1931-41 evergreen shelf plus 1952 and 1954 hits, and the bebop, Miles Davis and Soul Stirrers tracks are records no shipyard family in Majorna owned.",
+  "missingScene": "The 1957 Swedish schlager and cover scene (Lönndahl, Lily Berglund, Brita Borg), Swedish rock'n'roll (Rock-Ragge, Owe Thörnqvist, Little Gerhard), Knäppupp/Povel Ramel, and trad jazz/skiffle, which were what Göteborg youth actually had."
+ },
+ "SE1957B": {
+  "persona": {
+   "name": "Bengt",
+   "born": 1945,
+   "town": "Majorna, Göteborg (emigrated to Vancouver 1970)",
+   "background": "Father a plater at Götaverken, mother a cleaner. Radio at home (Frukostklubben, Grammofontimmen, Karusellen), Radio Luxembourg at night on the older brother's set, jukebox at the café, Liseberg stage in summer, Bildjournalen pictures, 78s and the first EPs at a friend's. No TV at home yet."
+  },
+  "seeds": [
+   {
+    "song": "Lasse Lönndahl - Kärleksbrev i sanden",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lasse Lönndahl - Man måste vara två",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Thore Skogman - Älgjakten",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lasse Lönndahl - Cindy min Cindy",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Brita Borg - Fat Mammy Brown",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": true,
+    "when": "later"
+   },
+   {
+    "song": "Owe Thörnqvist - Titta titta",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Rock-Ragge - Be-Bop-A-Lula",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lily Berglund - Kärlek, nål och tråd",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lily Berglund - Bär du solsken i ditt sinne",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Thory Bernhards - Fiskarflickans sång",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 7,
+  "wouldSay": "Kärleksbrev i sanden, that was on the radio every morning, my mother loved Lasse Lönndahl. Titta titta, and Rock-Ragge! This is the radio at home. But for me at twelve it was Elvis and Tommy Steele, and there's not one of them here.",
+  "missing": [
+   "Elvis Presley - Jailhouse Rock, 1957",
+   "Paul Anka - Diana, 1957",
+   "Tommy Steele - Singing the Blues, 1957",
+   "Owe Thörnqvist - Rotmos rock, 1956",
+   "Harry Belafonte - Banana Boat Song (Day-O), 1957",
+   "Little Richard - Long Tall Sally, 1956"
+  ],
+  "fake": "Authentic radio schlager, but it is the parents' and mother's half of 1957 with no foreign rock'n'roll originals at all, and 'Fat Mammy Brown' I place at 1959 rather than 1957 (unsure).",
+  "missingScene": "Imported rock'n'roll and skiffle (Elvis, Tommy Steele, Little Richard, Paul Anka) that defined 1957 for anyone under 18; also Göteborg's own (Lasse Dahlquist, Sten-Åke Cederhök revue tradition) and trad jazz."
+ },
+ "SE1959A": {
+  "persona": {
+   "name": "Birgitta",
+   "born": 1945,
+   "town": "Västerås",
+   "background": "Father a fitter at ASEA, mother in a shop. Family got a TV in 1958 (Stora famnen, Melodifestivalen 1959); radio Frukostklubben and Grammofontimmen, Radio Luxembourg under the blanket, older sister's EPs, Bildjournalen, artists at Folkets park in Västerås, school dances."
+  },
+  "seeds": [
+   {
+    "song": "Lill-Babs - Är du kär i mej ännu Klas-Göran?",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Little Gerhard - Buona sera",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Brita Borg - Augustin",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Owe Thörnqvist - Varm korv boogie",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Alice Babs - Lilla stjärna",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Domenico Modugno - Nel blu, dipinto di blu",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Paul Anka - Diana",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 9,
+  "wouldSay": "Klas-Göran! Åh, den kunde vi utantill, vi härmade Lill-Babs på rasterna. Och Varm korv boogie, och Augustin från Melodifestivalen på teve. Ja, det här är precis när jag var fjorton.",
+  "missing": [
+   "Gunnar Wiklund - Nu tändas åter ljusen i min lilla stad, 1959",
+   "Cliff Richard - Living Doll, 1959",
+   "Elvis Presley - A Fool Such as I, 1959",
+   "Lasse Lönndahl - Piccolissima serenata, 1958",
+   "Towa Carson - Banjo Boy? (1960, unsure) / Siw Malmkvist - Augustin, 1959",
+   "Chris Barber - Petite Fleur, 1959"
+  ],
+  "fake": "Nothing false; it is only thin (seven seeds), and 'Diana' is two years old by 1959.",
+  "missingScene": "Thore Skogman and the Folkets park dansband/gammaldans side, trad jazz ('dixie') that school youth were mad about, and the Elvis/Cliff/Tommy Steele originals."
+ },
+ "SE1959B": {
+  "persona": {
+   "name": "Birgitta",
+   "born": 1945,
+   "town": "Västerås",
+   "background": "Father a fitter at ASEA, mother in a shop. Family got a TV in 1958 (Stora famnen, Melodifestivalen 1959); radio Frukostklubben and Grammofontimmen, Radio Luxembourg under the blanket, older sister's EPs, Bildjournalen, artists at Folkets park in Västerås, school dances."
+  },
+  "seeds": [
+   {
+    "song": "Martin Ljung - Rock-Fnykis",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Little Gerhard - Buona Sera",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Cliff Richard - Living Doll",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Alice Babs - Sugartime",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Siw Malmkvist - Augustin",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Elvis Presley - (Now and Then There's) A Fool Such as I",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Thore Skogman - Storfiskarvalsen",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lily Berglund - Vita syrener",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Chris Barber's Jazz Band - Petite Fleur",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lasse Lönndahl - I dina kvarter",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Thore Skogman - Penninggaloppen",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Brita Borg - Trudie",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lily Berglund - Goodbye Jimmy Goodbye",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lily Berglund - Så kom våren till Tarina",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Gunnar Wiklund - Nu tändas åter ljusen i min lilla stad",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 8,
+  "wouldSay": "Rock-Fnykis, haha, pappa skrattade så han grät. Buona sera, Living Doll, och Augustin! Och Petite Fleur dansade vi tryckare till. Ja, så här lät det hemma, både mitt och mammas.",
+  "missing": [
+   "Lill-Babs - Är du kär i mej ännu Klas-Göran?, 1959",
+   "Owe Thörnqvist - Varm korv boogie, 1959",
+   "Alice Babs - Lilla stjärna, 1958",
+   "Domenico Modugno - Nel blu, dipinto di blu, 1958",
+   "Lasse Lönndahl - Piccolissima serenata, 1958",
+   "Paul Anka - Lonely Boy, 1959"
+  ],
+  "fake": "Broad and correct, but the single biggest Swedish record of 1959 (Klas-Göran) and Varm korv boogie are absent, Lily Berglund fills three slots with lesser titles, and it opens on a 1957 comedy number (dates of the two Skogman titles unsure).",
+  "missingScene": "Lill-Babs and Owe Thörnqvist as the teenage faces of the year; otherwise well covered (schlager, Skogman, trad jazz, Elvis/Cliff)."
+ }
+}

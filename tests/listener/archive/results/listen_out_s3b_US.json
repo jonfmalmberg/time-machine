@@ -1,0 +1,596 @@
+{
+ "US2011A": {
+  "persona": {
+   "name": "Marisol Reyes",
+   "born": 1996,
+   "town": "Pasadena, Texas (Houston suburb)",
+   "background": "Mexican-American, 15 in 2011, dad a refinery pipefitter, Catholic family. Top 40 on 104.1 KRBE and Mix 96.5 in mom's car, 97.9 The Box on the school bus and at dances, regional Mexican and Latin pop on Spanish radio at home and at quinceaneras, YouTube on the family computer, iPod Nano. Station details from memory, not checked."
+  },
+  "seeds": [
+   {
+    "song": "Kesha - TiK ToK",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "LMFAO - Party Rock Anthem",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Adele - Rolling in the Deep",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lady A - Need You Now",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Katy Perry - Firework",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Rihanna - S&M",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Train - Hey, Soul Sister",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Katy Perry feat. Kanye West - E.T.",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Enrique Iglesias feat. Ludacris - Tonight (I'm Lovin' You)",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Tenth Avenue North - You Are More",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Prince Royce - Corazon Sin Cara",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Rihanna feat. Drake - What's My Name?",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Nicki Minaj - Super Bass",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Pitbull - Give Me Everything",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "CeeLo Green - Forget You",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bruno Mars - Grenade",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 8,
+  "wouldSay": "Party Rock Anthem, oh my God, everybody was shuffling in the cafeteria. This is freshman-sophomore year, Super Bass on the bus, Give Me Everything at every quince.",
+  "missing": [
+   "Lil Wayne - 6 Foot 7 Foot (2010/11)",
+   "Chris Brown feat. Lil Wayne & Busta Rhymes - Look at Me Now (2011)",
+   "Foster the People - Pumped Up Kicks (2011)",
+   "Wiz Khalifa - Black and Yellow (2010/11)",
+   "Jason Aldean - Dirt Road Anthem (2011)",
+   "LMFAO - Sexy and I Know It (2011)"
+  ],
+  "fake": "TiK ToK, Need You Now and Hey, Soul Sister are 2010 songs (one year stale, under the three-year throwback line), and there is almost no straight rap, which is what The Box actually played.",
+  "missingScene": "Southern/Houston rap radio (Lil Wayne, Wiz Khalifa, Waka Flocka, Chris Brown), country beyond one crossover (Aldean, Taylor Swift, Blake Shelton), regional Mexican banda/norteno that ran every Texas quinceanera, indie crossover (Foster the People), and YouTube virals (Rebecca Black - Friday). Christian seed is real for the Houston suburbs but not for a Catholic Latino household."
+ },
+ "US2011B": {
+  "persona": {
+   "name": "Marisol Reyes",
+   "born": 1996,
+   "town": "Pasadena, Texas (Houston suburb)",
+   "background": "Mexican-American, 15 in 2011, dad a refinery pipefitter, Catholic family. Top 40 on 104.1 KRBE and Mix 96.5 in mom's car, 97.9 The Box on the school bus and at dances, regional Mexican and Latin pop on Spanish radio at home and at quinceaneras, YouTube on the family computer, iPod Nano. Station details from memory, not checked."
+  },
+  "seeds": [
+   {
+    "song": "Maroon 5 feat. Christina Aguilera - Moves Like Jagger",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Katy Perry - Firework",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bruno Mars - Just the Way You Are",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Black Eyed Peas - I Gotta Feeling",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Carly Rae Jepsen - Call Me Maybe",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "later"
+   },
+   {
+    "song": "Gotye - Somebody That I Used To Know",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "later"
+   }
+  ],
+  "score": 5,
+  "wouldSay": "Moves Like Jagger and Firework, yeah, that's about right... wait, Call Me Maybe was the summer after, 2012. And I Gotta Feeling was middle school.",
+  "missing": [
+   "LMFAO - Party Rock Anthem (2011)",
+   "Adele - Rolling in the Deep (2011)",
+   "Nicki Minaj - Super Bass (2011)",
+   "Pitbull feat. Ne-Yo - Give Me Everything (2011)",
+   "Lil Wayne - 6 Foot 7 Foot (2010/11)",
+   "Prince Royce - Corazon Sin Cara (2010/11)"
+  ],
+  "fake": "Two of six seeds (Call Me Maybe, Somebody That I Used to Know) were released abroad in 2011 but nobody in the US heard them until 2012, I Gotta Feeling is a 2009 song, and it is a generic all-time-streams pop list with no rap, Latin or country.",
+  "missingScene": "Everything outside evergreen top-40: hip-hop and R&B, Latin (bachata, regional Mexican), country, Christian, club/EDM-pop (LMFAO, Pitbull), and the year's defining record, Adele's 21."
+ },
+ "US2014A": {
+  "persona": {
+   "name": "Yadiel 'Yadi' Pena",
+   "born": 1999,
+   "town": "University Heights, the Bronx, New York",
+   "background": "Dominican mother, Puerto Rican father, 15 in 2014. Hot 97 and Power 105.1 for rap, La Mega 97.9 for bachata and reggaeton at home and in the bodega, Z100 in stores, YouTube, Vine and WorldStar on his phone, block parties and school dances."
+  },
+  "seeds": [
+   {
+    "song": "Pharrell Williams - Happy",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Macklemore & Ryan Lewis - Thrift Shop",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Iggy Azalea feat. Charli XCX - Fancy",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Katy Perry feat. Juicy J - Dark Horse",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Robin Thicke feat. T.I. & Pharrell - Blurred Lines",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "MAGIC! - Rude",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "John Legend - All of Me",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Imagine Dragons - Radioactive",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Sam Smith - Stay With Me",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Carrie Underwood - Something in the Water",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Romeo Santos - Propuesta Indecente",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bastille - Pompeii",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Florida Georgia Line feat. Luke Bryan - This Is How We Roll",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "OneRepublic - Counting Stars",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Jason Derulo feat. 2 Chainz - Talk Dirty",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Meghan Trainor - All About That Bass",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 6,
+  "wouldSay": "Happy, Fancy, okay, that's ninth grade, that's Z100 in the store. Propuesta Indecente, that's my mother's kitchen. But where's Bobby Shmurda? Where's Hot 97? This is what the white kids downtown were hearing.",
+  "missing": [
+   "Bobby Shmurda - Hot N*gga (2014)",
+   "DJ Snake & Lil Jon - Turn Down for What (2013/14)",
+   "Nicki Minaj - Anaconda (2014)",
+   "Chris Brown feat. Lil Wayne & Tyga - Loyal (2014)",
+   "Beyonce feat. Jay-Z - Drunk in Love (2013/14)",
+   "Enrique Iglesias feat. Descemer Bueno & Gente de Zona - Bailando (2014)"
+  ],
+  "fake": "For 2014 it has no actual rap or R&B lead artist except Iggy Azalea, in the year of Shmoney dance, Loyal, Drunk in Love and Tuesday; Thrift Shop, Blurred Lines and Radioactive are 2013 hits.",
+  "missingScene": "Urban radio and street rap (Bobby Shmurda, Rae Sremmurd, YG, Migos, Schoolboy Q, Drake - 0 to 100, Jeremih - Don't Tell 'Em), Vine dance records (Nae Nae, Shmoney), festival EDM (Turn Down for What, Avicii, Calvin Harris - Summer), Latin urban beyond one bachata (Bailando, J Balvin - 6 AM, Dominican dembow), and Taylor Swift/Ariana Grande. Two country seeds meant nothing in the Bronx but are fair for the country as a whole."
+ },
+ "US2014B": {
+  "persona": {
+   "name": "Yadiel 'Yadi' Pena",
+   "born": 1999,
+   "town": "University Heights, the Bronx, New York",
+   "background": "Dominican mother, Puerto Rican father, 15 in 2014. Hot 97 and Power 105.1 for rap, La Mega 97.9 for bachata and reggaeton at home and in the bodega, Z100 in stores, YouTube, Vine and WorldStar on his phone, block parties and school dances."
+  },
+  "seeds": [
+   {
+    "song": "Taylor Swift - Shake It Off",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Pharrell Williams - Happy",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Imagine Dragons - Radioactive",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Macklemore & Ryan Lewis - Thrift Shop",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Maroon 5 feat. Christina Aguilera - Moves Like Jagger",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "PSY - Gangnam Style",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 4,
+  "wouldSay": "Shake It Off and Happy, sure, 2014. Gangnam Style? That was seventh grade, we were done with that. Moves Like Jagger is older than that. This is a wedding DJ, not my block.",
+  "missing": [
+   "Bobby Shmurda - Hot N*gga (2014)",
+   "Iggy Azalea feat. Charli XCX - Fancy (2014)",
+   "Romeo Santos - Propuesta Indecente (2013/14)",
+   "John Legend - All of Me (2013/14)",
+   "Nicki Minaj - Anaconda (2014)",
+   "DJ Snake & Lil Jon - Turn Down for What (2013/14)"
+  ],
+  "fake": "Only two of six seeds are 2014 hits; Moves Like Jagger is 2011, Gangnam Style is a dead 2012 fad (two years, so under the throwback line but not 'then' in any real sense), Thrift Shop and Radioactive are 2013.",
+  "missingScene": "All hip-hop and R&B, all Latin, country, EDM, and the year's own pop (Fancy, Dark Horse, All of Me, Problem, Stay With Me, All About That Bass)."
+ },
+ "US2018A": {
+  "persona": {
+   "name": "Kaylee Dawson",
+   "born": 2003,
+   "town": "Hazlehurst, Jeff Davis County, Georgia",
+   "background": "White, 15 in 2018, dad drives a log truck, Baptist church youth group. Country radio in the truck and Christian radio in mom's car (local call signs not checked), Atlanta trap on the school bus and at Friday-night football, Snapchat, YouTube, Musical.ly/TikTok and Spotify free on her phone."
+  },
+  "seeds": [
+   {
+    "song": "Luis Fonsi & Daddy Yankee feat. Justin Bieber - Despacito (Remix)",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bebe Rexha feat. Florida Georgia Line - Meant to Be",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Drake - God's Plan",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bruno Mars - That's What I Like",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Camila Cabello feat. Young Thug - Havana",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Ed Sheeran - Perfect",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Post Malone feat. 21 Savage - rockstar",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Post Malone feat. Ty Dolla $ign - Psycho",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Zedd, Maren Morris & Grey - The Middle",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Cory Asbury - Reckless Love",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Imagine Dragons - Thunder",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Drake - In My Feelings",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Maroon 5 feat. Cardi B - Girls Like You",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Cardi B, Bad Bunny & J Balvin - I Like It",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Juice WRLD - Lucid Dreams",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bruno Mars feat. Cardi B - Finesse (Remix)",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 8,
+  "wouldSay": "Meant to Be, that was on every single station, country and pop both. God's Plan, rockstar, that's the bus. And Reckless Love, we sang that at youth group all year. Yeah, this is ninth grade.",
+  "missing": [
+   "Luke Combs - When It Rains It Pours (2017/18)",
+   "Kane Brown - Heaven (2017/18)",
+   "Migos - Walk It Talk It (2018)",
+   "Lil Baby & Gunna - Drip Too Hard (2018)",
+   "Travis Scott - SICKO MODE (2018)",
+   "Lauren Daigle - You Say (2018)"
+  ],
+  "fake": "Despacito and That's What I Like are 2017 songs, and for Georgia it has the pop edge of country and rap but neither real country radio nor Atlanta trap.",
+  "missingScene": "Atlanta trap, which was the home-state sound (Migos, Lil Baby, Gunna, 21 Savage solo, Childish Gambino - This Is America), mainstream country (Luke Combs, Kane Brown, Jason Aldean, Dan + Shay - Tequila, Morgan Wallen - Up Down), SoundCloud rap (XXXTentacion - SAD!, Lil Uzi), R&B (Ella Mai - Boo'd Up), and Ariana Grande."
+ },
+ "US2018B": {
+  "persona": {
+   "name": "Kaylee Dawson",
+   "born": 2003,
+   "town": "Hazlehurst, Jeff Davis County, Georgia",
+   "background": "White, 15 in 2018, dad drives a log truck, Baptist church youth group. Country radio in the truck and Christian radio in mom's car (local call signs not checked), Atlanta trap on the school bus and at Friday-night football, Snapchat, YouTube, Musical.ly/TikTok and Spotify free on her phone."
+  },
+  "seeds": [
+   {
+    "song": "Lady Gaga & Bradley Cooper - Shallow",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Post Malone & Swae Lee - Sunflower",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Kendrick Lamar - HUMBLE.",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Taylor Swift - Shake It Off",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Ed Sheeran - Shape of You",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Drake - Hotline Bling",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 4,
+  "wouldSay": "Shallow was right at the end of the year, okay. But Shake It Off was fifth grade and Hotline Bling was middle school. This is just a 2010s playlist, I couldn't tell you what year it's supposed to be.",
+  "missing": [
+   "Drake - God's Plan (2018)",
+   "Bebe Rexha feat. Florida Georgia Line - Meant to Be (2017/18)",
+   "Post Malone feat. 21 Savage - rockstar (2017/18)",
+   "Cardi B, Bad Bunny & J Balvin - I Like It (2018)",
+   "Travis Scott - SICKO MODE (2018)",
+   "Luke Combs - When It Rains It Pours (2017/18)"
+  ],
+  "fake": "Two throwbacks (Shake It Off 2014, Hotline Bling 2015), two 2017 hits (HUMBLE., Shape of You), and the only two 2018 releases came out in the last quarter and peaked in 2019, so nothing here is what 2018 actually sounded like.",
+  "missingScene": "Almost all of 2018: Drake's Scorpion year, Cardi B, Post Malone's 2018 singles, Juice WRLD/XXXTentacion, Atlanta trap, country and country-pop crossovers, Christian radio, Latin crossover."
+ }
+}

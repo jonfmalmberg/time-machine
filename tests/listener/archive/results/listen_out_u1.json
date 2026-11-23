@@ -1,0 +1,687 @@
+{
+ "AU1975A": {
+  "persona": {
+   "name": "Leanne",
+   "born": 1961,
+   "town": "Frankston, Victoria",
+   "background": "Plumber's daughter, two older brothers. Transistor radio tuned to 3XY and 3UZ, Countdown on ABC every Sunday night (in colour from March 1975), Go-Set and TV Week, singles bought at Brashs, blue-light and school socials."
+  },
+  "seeds": [
+   {
+    "song": "AC/DC - It's a Long Way to the Top (If You Wanna Rock 'n' Roll)",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Skyhooks - Horror Movie",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Skyhooks - Living in the 70's",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Daddy Cool - Eagle Rock",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "ABBA - Mamma Mia",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Various Artists - Tribal Music of Australia (album)",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Ace - How Long",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "The Kinks - Sunny Afternoon",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Earth, Wind & Fire - Shining Star",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Van McCoy - The Hustle",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 8,
+  "wouldSay": "Skyhooks! Horror Movie was on Countdown every week, Molly nearly wore it out. And Eagle Rock at every school social.",
+  "missing": [
+   "The Ted Mulry Gang - Jump in My Car (1975)",
+   "Sherbet - Summer Love (1975)",
+   "John Paul Young - Yesterday's Hero (1975)",
+   "Hush - Boney Moronie (1974)",
+   "William Shakespeare - My Little Angel (1975)",
+   "Skyhooks - Ego Is Not a Dirty Word (1975)"
+  ],
+  "fake": "The opening is right, but the back half drifts into a 1953 Folkways field-recording album nobody my age played and a 1966 Kinks song, and Long Way to the Top was really a 1976 hit (the Countdown truck clip), so it reads a little like hindsight.",
+  "suspect": []
+ },
+ "AU1975B": {
+  "persona": {
+   "name": "Leanne",
+   "born": 1961,
+   "town": "Frankston, Victoria",
+   "background": "Plumber's daughter, two older brothers. Transistor radio tuned to 3XY and 3UZ, Countdown on ABC every Sunday night (in colour from March 1975), Go-Set and TV Week, singles bought at Brashs, blue-light and school socials."
+  },
+  "seeds": [
+   {
+    "song": "Various Artists - Tribal Music of Australia (album)",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Ace - How Long",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "The Kinks - Sunny Afternoon",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Earth, Wind & Fire - Shining Star",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Van McCoy - The Hustle",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 2,
+  "wouldSay": "What is this, a museum recording? Then the Kinks? Where's Sherbet, where's Skyhooks?",
+  "missing": [
+   "Skyhooks - Horror Movie (1974)",
+   "Sherbet - Summer Love (1975)",
+   "The Ted Mulry Gang - Jump in My Car (1975)",
+   "John Paul Young - Yesterday's Hero (1975)",
+   "Daddy Cool - Eagle Rock (1971)",
+   "Hush - Boney Moronie (1974)"
+  ],
+  "fake": "Not one Australian pop record: it opens with an ethnographic field-recording album no teenager heard, then a run of foreign songs (one from 1966) that were at most mid-chart here.",
+  "suspect": []
+ },
+ "AU1975C": {
+  "persona": {
+   "name": "Leanne",
+   "born": 1961,
+   "town": "Frankston, Victoria",
+   "background": "Plumber's daughter, two older brothers. Transistor radio tuned to 3XY and 3UZ, Countdown on ABC every Sunday night (in colour from March 1975), Go-Set and TV Week, singles bought at Brashs, blue-light and school socials."
+  },
+  "seeds": [
+   {
+    "song": "AC/DC - It's a Long Way to the Top (If You Wanna Rock 'n' Roll)",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "The Ted Mulry Gang - Jump in My Car",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Skyhooks - Horror Movie",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Skyhooks - Living in the 70's",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Daddy Cool - Eagle Rock",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "ABBA - Mamma Mia",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 9,
+  "wouldSay": "Jump in My Car! Ted Mulry Gang on Countdown, then Skyhooks, then Mamma Mia over summer, that's 1975 exactly.",
+  "missing": [
+   "Sherbet - Summer Love (1975)",
+   "John Paul Young - Yesterday's Hero (1975)",
+   "Hush - Boney Moronie (1974)",
+   "William Shakespeare - My Little Angel (1975)",
+   "Skyhooks - Ego Is Not a Dirty Word (1975)",
+   "Bay City Rollers - Bye Bye Baby (1975)"
+  ],
+  "fake": "Very little; only that Long Way to the Top peaked in early 1976 rather than 1975, and Sherbet, the biggest teen band of the year, is missing.",
+  "suspect": []
+ },
+ "DZ1985A": {
+  "persona": {
+   "name": "Karim",
+   "born": 1969,
+   "town": "Oran (Medina Jdida / Hai Es-Sabah)",
+   "background": "Son of an SNTF railway worker, five siblings. Raï cassettes bought from stalls at Medina Jdida and played on the family radio-cassette, weddings with live raï, RTA Chaîne 3 and Radio Oran, Egyptian films on RTA TV with his mother, Qur'an recitation at home on Fridays, older sister listened to Barbara and French radio."
+  },
+  "seeds": [
+   {
+    "song": "Chaba Fadela & Cheb Sahraoui - N'sel Fik",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Khaled - Trigue Lycée",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Cheikha Rimitti - Charrak Gatta",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Lounis Aït Menguellet - A Mmi",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Djamel Allam - Mara D Yughal",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Idir - A Vava Inouva",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Amar Ezzahi - Ya Rebbi Sidi",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "El Hachemi Guerouabi - El Bareh",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Boudjemaa El Ankis - Rah El Ghali Rah",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Abdul Basit Abdul Samad - Surat Maryam",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Jil Jilala - Laayoune Ayniya",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Barbara - L'Aigle noir",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Abdel Halim Hafez - Zay El Hawa",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 8,
+  "wouldSay": "N'sel fik! That cassette was in every taxi in Oran. And Trig el Lycée, Khaled when he was still a kid, then Rimitti, my uncle would turn that one down when we were in the room.",
+  "missing": [
+   "Dahmane El Harrachi - Ya Rayah (1973)",
+   "Ahmed Wahby - Wahran Wahran (1960s)",
+   "Rabah Driassa - Nedjma Qotbiya (1970s)",
+   "Nass El Ghiwane - Mahmouma (1970s)",
+   "Warda - Haramt Ahebak (1970s)"
+  ],
+  "fake": "Nothing rings false in the opening; the later Algiers chaabi and Kabyle picks are real but lean toward what an anthology would choose rather than what an Oran teenager played, and Dahmane El Harrachi's Ya Rayah, which everyone knew, is absent.",
+  "suspect": []
+ },
+ "DZ1985B": {
+  "persona": {
+   "name": "Karim",
+   "born": 1969,
+   "town": "Oran (Medina Jdida / Hai Es-Sabah)",
+   "background": "Son of an SNTF railway worker, five siblings. Raï cassettes bought from stalls at Medina Jdida and played on the family radio-cassette, weddings with live raï, RTA Chaîne 3 and Radio Oran, Egyptian films on RTA TV with his mother, Qur'an recitation at home on Fridays, older sister listened to Barbara and French radio."
+  },
+  "seeds": [
+   {
+    "song": "Chaba Fadela & Cheb Sahraoui - N'sel Fik",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Khaled - Trigue Lycée",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Cheikha Rimitti - Charrak Gatta",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Lounis Aït Menguellet - A Mmi",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Djamel Allam - Mara D Yughal",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Idir - A Vava Inouva",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Amar Ezzahi - Ya Rebbi Sidi",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "El Hachemi Guerouabi - El Bareh",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Boudjemaa El Ankis - Rah El Ghali Rah",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Abdul Basit Abdul Samad - Surat Maryam",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Jil Jilala - Laayoune Ayniya",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Barbara - L'Aigle noir",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Abdel Halim Hafez - Zay El Hawa",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 8,
+  "wouldSay": "N'sel fik! That cassette was in every taxi in Oran. And Trig el Lycée, Khaled when he was still a kid, then Rimitti, my uncle would turn that one down when we were in the room.",
+  "missing": [
+   "Dahmane El Harrachi - Ya Rayah (1973)",
+   "Ahmed Wahby - Wahran Wahran (1960s)",
+   "Rabah Driassa - Nedjma Qotbiya (1970s)",
+   "Nass El Ghiwane - Mahmouma (1970s)",
+   "Warda - Haramt Ahebak (1970s)"
+  ],
+  "fake": "Nothing rings false in the opening; the later Algiers chaabi and Kabyle picks are real but lean toward what an anthology would choose rather than what an Oran teenager played, and Dahmane El Harrachi's Ya Rayah, which everyone knew, is absent.",
+  "suspect": []
+ },
+ "DZ1985C": {
+  "persona": {
+   "name": "Karim",
+   "born": 1969,
+   "town": "Oran (Medina Jdida / Hai Es-Sabah)",
+   "background": "Son of an SNTF railway worker, five siblings. Raï cassettes bought from stalls at Medina Jdida and played on the family radio-cassette, weddings with live raï, RTA Chaîne 3 and Radio Oran, Egyptian films on RTA TV with his mother, Qur'an recitation at home on Fridays, older sister listened to Barbara and French radio."
+  },
+  "seeds": [
+   {
+    "song": "Cheb Khaled - Trig El Lycée",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Chaba Fadela & Cheb Sahraoui - N'sel Fik",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Warda - Haramt Ahebak",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Chaba Fadela - Ana Ma Hlali Ennoum",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Khaled - Trigue Lycée",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Cheikha Rimitti - Charrak Gatta",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Lounis Aït Menguellet - A Mmi",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Djamel Allam - Mara D Yughal",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Idir - A Vava Inouva",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Amar Ezzahi - Ya Rebbi Sidi",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "El Hachemi Guerouabi - El Bareh",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Boudjemaa El Ankis - Rah El Ghali Rah",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Abdul Basit Abdul Samad - Surat Maryam",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Jil Jilala - Laayoune Ayniya",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Barbara - L'Aigle noir",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Abdel Halim Hafez - Zay El Hawa",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 7,
+  "wouldSay": "Trig el Lycée, N'sel fik, then Warda, yes this is home. But wait, why is Trig el Lycée playing again?",
+  "missing": [
+   "Dahmane El Harrachi - Ya Rayah (1973)",
+   "Ahmed Wahby - Wahran Wahran (1960s)",
+   "Rabah Driassa - Nedjma Qotbiya (1970s)",
+   "Nass El Ghiwane - Mahmouma (1970s)"
+  ],
+  "fake": "The same Khaled song is listed twice under two spellings (Cheb Khaled - Trig El Lycée and Khaled - Trigue Lycée), so it plays twice within five tracks, which no real person's memory would do.",
+  "suspect": []
+ },
+ "HU1985A": {
+  "persona": {
+   "name": "Gábor",
+   "born": 1970,
+   "town": "Miskolc",
+   "background": "Father a lathe operator at DIGÉP, mother a nurse. Petőfi Rádió (Csúcsforgalom, Poptarisznya), Magyar Televízió's pop shows, Pepita/Hungaroton LPs and dubbed cassettes from older cousins, school discos and KISZ camp dances, Edda as the hometown band, Radio Luxembourg at night for Western hits."
+  },
+  "seeds": [
+   {
+    "song": "Iron Maiden - The Trooper",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Tears for Fears - Everybody Wants to Rule the World",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Madonna - Into the Groove",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Sister Sledge - We Are Family",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 2,
+  "wouldSay": "This is just Western radio. Maiden played the Budapest Sportcsarnok in '84, sure, but where is anything Hungarian? We didn't dance to Sister Sledge, we danced to R-GO.",
+  "missing": [
+   "Edda Művek - Kölyköd voltam (1980)",
+   "Neoton Família - Santa Maria (1980)",
+   "KFT - Bál az operában (1983)",
+   "R-GO - Szeretlek is meg nem is (1983)",
+   "Omega - Gyöngyhajú lány (1969)",
+   "Korál - Kevés voltam neked (1982)"
+  ],
+  "fake": "Every seed is foreign, and these are UK/US chart picks rather than what Hungarian radio and school discos actually played in 1985 (Modern Talking, Opus, Italo); with zero Hungarian songs it could be any country.",
+  "suspect": []
+ },
+ "HU1985C": {
+  "persona": {
+   "name": "Gábor",
+   "born": 1970,
+   "town": "Miskolc",
+   "background": "Father a lathe operator at DIGÉP, mother a nurse. Petőfi Rádió (Csúcsforgalom, Poptarisznya), Magyar Televízió's pop shows, Pepita/Hungaroton LPs and dubbed cassettes from older cousins, school discos and KISZ camp dances, Edda as the hometown band, Radio Luxembourg at night for Western hits."
+  },
+  "seeds": [
+   {
+    "song": "Iron Maiden - The Trooper",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Tears for Fears - Everybody Wants to Rule the World",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Madonna - Into the Groove",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Sister Sledge - We Are Family",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 2,
+  "wouldSay": "This is just Western radio. Maiden played the Budapest Sportcsarnok in '84, sure, but where is anything Hungarian? We didn't dance to Sister Sledge, we danced to R-GO.",
+  "missing": [
+   "Edda Művek - Kölyköd voltam (1980)",
+   "Neoton Família - Santa Maria (1980)",
+   "KFT - Bál az operában (1983)",
+   "R-GO - Szeretlek is meg nem is (1983)",
+   "Omega - Gyöngyhajú lány (1969)",
+   "Korál - Kevés voltam neked (1982)"
+  ],
+  "fake": "Every seed is foreign, and these are UK/US chart picks rather than what Hungarian radio and school discos actually played in 1985 (Modern Talking, Opus, Italo); with zero Hungarian songs it could be any country.",
+  "suspect": []
+ },
+ "HU1985B": {
+  "persona": {
+   "name": "Gábor",
+   "born": 1970,
+   "town": "Miskolc",
+   "background": "Father a lathe operator at DIGÉP, mother a nurse. Petőfi Rádió (Csúcsforgalom, Poptarisznya), Magyar Televízió's pop shows, Pepita/Hungaroton LPs and dubbed cassettes from older cousins, school discos and KISZ camp dances, Edda as the hometown band, Radio Luxembourg at night for Western hits."
+  },
+  "seeds": [
+   {
+    "song": "Edda Művek - Kölyköd voltam",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Zorán - Kell ott fenn egy ország",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "R-GO - Szeretlek is meg nem is",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Demjén Ferenc - Hogyan tudnék élni nélküled",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "KFT - Bál az operában",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Dolly Roll - Eldorádó",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Hungária - Csókkirály",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Neoton Família - Santa Maria",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Opus - Live Is Life",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Modern Talking - You're My Heart, You're My Soul",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Toto Cutugno - L'italiano",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 9,
+  "wouldSay": "Kölyköd voltam! Pataky in Miskolc, the whole town sang it. Then R-GO, Bál az operában, this is a Friday school disco in '85.",
+  "missing": [
+   "Omega - Gyöngyhajú lány (1969)",
+   "Szűcs Judit - Meleg az éjszaka (c.1981)",
+   "Korál - Kevés voltam neked (1982)",
+   "Neoton Família - Holnap hajnalig (c.1983)",
+   "Locomotiv GT - Neked írom a dalt (1973)"
+  ],
+  "fake": "Almost nothing; my one doubt is dating, since I cannot confirm that Demjén's Hogyan tudnék élni nélküled and Zorán's Kell ott fenn egy ország were out by 1985 rather than a year or two later.",
+  "suspect": []
+ }
+}

@@ -1,0 +1,822 @@
+{
+ "FR1968A": {
+  "persona": {
+   "name": "Martine",
+   "born": 1953,
+   "town": "Saint-Étienne",
+   "background": "Daughter of a Manufrance factory worker and a mother at home; 15 in 1968. Music came from the family transistor tuned to Europe n°1 for 'Salut les copains' at 5 pm, RTL, the monthly SLC magazine, 45s on a Teppaz record player shared with her older brother, the juke-box at the café on the corner, 'Âge tendre et tête de bois' on ORTF, and the accordion bal on 14 July."
+  },
+  "seeds": [
+   {
+    "song": "Michel Polnareff - La poupée qui fait non",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Jacques Dutronc - Et moi, et moi, et moi",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Charles Aznavour - La bohème",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "France Gall - Poupée de cire, poupée de son",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Jean Ferrat - La montagne",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Sylvie Vartan - La plus belle pour aller danser",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Sheila - L'école est finie",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Enrico Macias - Adieu mon pays",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Claude François - Belles ! Belles ! Belles !",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Françoise Hardy - Tous les garçons et les filles",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Richard Anthony - J'entends siffler le train",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Johnny Hallyday - Retiens la nuit",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Procol Harum - A Whiter Shade of Pale",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "The Rolling Stones - (I Can't Get No) Satisfaction",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "The Beatles - Michelle",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Adamo - Tombe la neige",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 8,
+  "wouldSay": "Polnareff, puis Dutronc ! C'est 'Salut les copains', ça — on écoutait ça en rentrant du collège. Mais où est 1968 ? On dirait 1965.",
+  "missing": [
+   "Jacques Dutronc - Il est cinq heures, Paris s'éveille (1968)",
+   "Claude François - Comme d'habitude (1967)",
+   "Nino Ferrer - Le téléfon (1967)",
+   "Christophe - Aline (1965)",
+   "Joe Dassin - Siffler sur la colline (1968)",
+   "Aphrodite's Child - Rain and Tears (1968)"
+  ],
+  "fake": "Nothing is actually from 1967–68: it stops at the 1962–66 yé-yé years, so it sounds like my older brother's youth rather than the year I was fifteen."
+ },
+ "FR1968B": {
+  "persona": {
+   "name": "Martine",
+   "born": 1953,
+   "town": "Saint-Étienne",
+   "background": "Daughter of a Manufrance factory worker and a mother at home; 15 in 1968. Music came from the family transistor tuned to Europe n°1 for 'Salut les copains' at 5 pm, RTL, the monthly SLC magazine, 45s on a Teppaz record player shared with her older brother, the juke-box at the café on the corner, 'Âge tendre et tête de bois' on ORTF, and the accordion bal on 14 July."
+  },
+  "seeds": [
+   {
+    "song": "Charles Aznavour - La Bohème",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Jacques Brel - Amsterdam",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Georges Brassens - Les Copains d'abord",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Édith Piaf - Non, je ne regrette rien",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Françoise Hardy - Comment te dire adieu",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Sylvie Vartan - Comme un garçon",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Jacqueline Taïeb - 7 heures du matin",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Leonard Bernstein - The Unanswered Question",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Borodin Quartet - Shostakovich: String Quartet No. 8",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Columbia Symphony Orchestra, Igor Stravinsky - Stravinsky: The Rite of Spring",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Bernard Parmegiani - Capture éphémère",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Bernard Parmegiani - Violostries",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Django Reinhardt - Anouman",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Django Reinhardt - Douce ambiance",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Jo Privat - Balajo",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Tony Murena - Indifférence",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   }
+  ],
+  "score": 4,
+  "wouldSay": "Aznavour, Brel, Brassens, Piaf… c'est la France des parents, celle des cartes postales. Et après, Chostakovitch et de la musique concrète ? Personne n'écoutait ça chez nous.",
+  "missing": [
+   "Michel Polnareff - La poupée qui fait non (1966)",
+   "Jacques Dutronc - Il est cinq heures, Paris s'éveille (1968)",
+   "Claude François - Comme d'habitude (1967)",
+   "Johnny Hallyday - Retiens la nuit (1961)",
+   "Sheila - L'école est finie (1963)",
+   "Procol Harum - A Whiter Shade of Pale (1967)"
+  ],
+  "fake": "Half of it is a conservatoire syllabus (Ives, Shostakovich, Stravinsky, GRM musique concrète) and the rest is the tourist chanson canon plus prewar musette, with almost none of the yé-yé or foreign pop a teenager actually heard on Europe n°1. Unsure: the first disc release date of Parmegiani's 'Capture éphémère' (composed 1967)."
+ },
+ "ES1980A": {
+  "persona": {
+   "name": "Javier",
+   "born": 1967,
+   "town": "Getafe (Madrid)",
+   "background": "Son of a CASA aircraft-factory worker from Jaén and a mother who cleaned houses; 13 in 1980. Music came from Los 40 Principales on Cadena SER, the kitchen radio on Radio Nacional, TVE's 'Aplauso' on Saturdays, the rumba cassettes his father bought at petrol stations for the Seat 124 on the summer drive to the pueblo, the verbenas in August, and 'Grease' at the local cinema."
+  },
+  "seeds": [
+   {
+    "song": "Los Chunguitos - Me quedo contigo",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Manzanita - Verde",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Los Chunguitos - Dame veneno",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Peret - Canta y sé feliz",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Las Grecas - Te estoy amando locamente",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Los Amaya - Caramelos",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Camarón de la Isla - La Leyenda del Tiempo",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Camarón de la Isla - Volando voy",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Paco de Lucía - Río Ancho",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Julio Iglesias - Hey",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Judas Priest - Breaking the Law",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Sister Sledge - We Are Family",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Héctor Lavoe - El Cantante",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 6,
+  "wouldSay": "¡Los Chunguitos y Manzanita! Esto es la cinta de gasolinera que ponía mi padre en el coche camino del pueblo. Pero, ¿y Camilo Sesto, y Bosé? Esto es solo una parte.",
+  "missing": [
+   "Miguel Bosé - Don Diablo (1980)",
+   "Pecos - Esperando nacer (1979)",
+   "Camilo Sesto - Vivir así es morir de amor (1978)",
+   "Miguel Ríos - Santa Lucía (1980)",
+   "Tequila - Salta (1979)",
+   "Pink Floyd - Another Brick in the Wall (Part 2) (1979)"
+  ],
+  "fake": "It plays only the rumba-and-flamenco corner of 1980 (with Camarón's 1979 album, a commercial flop at the time, treated as a hit) plus a New York salsa track nobody here knew, and misses the ballads and pop that filled Los 40 Principales."
+ },
+ "ES1980B": {
+  "persona": {
+   "name": "Javier",
+   "born": 1967,
+   "town": "Getafe (Madrid)",
+   "background": "Son of a CASA aircraft-factory worker from Jaén and a mother who cleaned houses; 13 in 1980. Music came from Los 40 Principales on Cadena SER, the kitchen radio on Radio Nacional, TVE's 'Aplauso' on Saturdays, the rumba cassettes his father bought at petrol stations for the Seat 124 on the summer drive to the pueblo, the verbenas in August, and 'Grease' at the local cinema."
+  },
+  "seeds": [
+   {
+    "song": "Los Chunguitos - Me quedo contigo",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Nacha Pop - Chica de ayer",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Camilo Sesto - Vivir así es morir de amor",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Julio Iglesias - Soy un truhán, soy un señor",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Baccara - Yes Sir, I Can Boogie",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Cecilia - Un ramito de violetas",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Las Grecas - Te estoy amando locamente",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Jeanette - Porque te vas",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Paco de Lucía - Entre dos aguas",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Fórmula V - Eva María",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Manolo Escobar - Y viva España",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Camilo Sesto - Algo de mí",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "John Travolta, Olivia Newton-John - You're the One That I Want",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Raffaella Carrà - Hay que venir al sur",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Boney M. - Rivers of Babylon",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Bee Gees - Stayin' Alive",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 9,
+  "wouldSay": "¡Me quedo contigo! Y Camilo Sesto, y el Truhán de Julio… esto sonaba en la radio de la cocina de mi madre todos los días. Esto es mi infancia.",
+  "missing": [
+   "Miguel Bosé - Don Diablo (1980)",
+   "Pecos - Esperando nacer (1979)",
+   "Miguel Ríos - Santa Lucía (1980)",
+   "Rocío Jurado - Señora (1979)",
+   "Tequila - Salta (1979)",
+   "Mocedades - Eres tú (1973)"
+  ],
+  "fake": "Only that it leans on 1973–78 hits; almost nothing sounds like 1980 itself (no Bosé, Pecos, Tequila or Miguel Ríos), and 'Chica de ayer' was not yet the anthem it later became."
+ },
+ "PL1975A": {
+  "persona": {
+   "name": "Ewa",
+   "born": 1961,
+   "town": "Łódź",
+   "background": "Daughter of two textile-mill workers; 14 in 1975. Music came from Polskie Radio Program I and Trójka ('Lato z radiem'), the Opole and Sopot festivals on TVP every summer, Polskie Nagrania LPs and pocztówki dźwiękowe bought at kiosks, prywatki with a borrowed Unitra tape recorder, and Radio Luxembourg late at night through the crackle."
+  },
+  "seeds": [
+   {
+    "song": "Van McCoy - The Hustle",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "The Kinks - Sunny Afternoon",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Deep Purple - Smoke on the Water",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Osvaldo Pugliese - La Yumba",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 2,
+  "wouldSay": "To jest jakaś zachodnia stacja… Deep Purple chłopaki puszczali, owszem, ale gdzie są nasi? Gdzie Jantar, gdzie Rodowicz? I skąd tu argentyńskie tango?",
+  "missing": [
+   "Anna Jantar - Tyle słońca w całym mieście (1974)",
+   "Maryla Rodowicz - Małgośka (1973)",
+   "Czesław Niemen - Dziwny jest ten świat (1967)",
+   "Czerwone Gitary - Biały krzyż (1969)",
+   "Skaldowie - Wszystko mi mówi, że mnie ktoś pokochał (1969)",
+   "ABBA - Waterloo (1974)"
+  ],
+  "fake": "Not one Polish song: it is a Western radio list plus an Argentine tango, with 'The Hustle' a 1975 US disco record that had not reached a Łódź teenager that year."
+ },
+ "PL1975B": {
+  "persona": {
+   "name": "Ewa",
+   "born": 1961,
+   "town": "Łódź",
+   "background": "Daughter of two textile-mill workers; 14 in 1975. Music came from Polskie Radio Program I and Trójka ('Lato z radiem'), the Opole and Sopot festivals on TVP every summer, Polskie Nagrania LPs and pocztówki dźwiękowe bought at kiosks, prywatki with a borrowed Unitra tape recorder, and Radio Luxembourg late at night through the crackle."
+  },
+  "seeds": [
+   {
+    "song": "Irena Jarocka - Motylem jestem",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Budka Suflera - Cień wielkiej góry",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Anna Jantar - Tyle słońca w całym mieście",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Danuta Rinn - Gdzie ci mężczyźni",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maryla Rodowicz - Małgośka",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Stan Borys - Jaskółka uwięziona",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Marek Grechuta - Dni, których nie znamy",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Breakout - Gdybyś kochał, hej",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Skaldowie - Wszystko mi mówi, że mnie ktoś pokochał",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Czesław Niemen - Dziwny jest ten świat",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Ada Rusowicz - Za daleko mieszkasz miły",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Demis Roussos - Forever and Ever",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Shocking Blue - Venus",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 9,
+  "wouldSay": "Jarocka! A potem Budka i Jantar, 'Tyle słońca'… to było lato z radiem i Opole w telewizorze. Tak, to moja młodość.",
+  "missing": [
+   "Czerwone Gitary - Biały krzyż (1969)",
+   "2 plus 1 - Chodź, pomaluj mój świat (1973)",
+   "Trzy Korony / Krzysztof Klenczon - 10 w skali Beauforta (c.1970)",
+   "ABBA - Waterloo (1974)"
+  ],
+  "fake": "Little feels fake; it leans on 1967–74 Opole classics and leaves out Czerwone Gitary, the band every school dance played. Unsure of exact years for Ada Rusowicz and Klenczon."
+ },
+ "ZA1988A": {
+  "persona": {
+   "name": "Lerato",
+   "born": 1973,
+   "town": "Orlando East, Soweto",
+   "background": "Daughter of a domestic worker in the northern suburbs and a bus driver; 15 in 1988, during the State of Emergency. Music came from Radio Metro and Radio Zulu/Radio Setswana, TV2/TV3 and 'Ezodumo' on Sunday, cassettes from street hawkers and the taxi rank, street bashes and stokvel parties, the church choir, and her uncle's reggae records."
+  },
+  "seeds": [
+   {
+    "song": "Johannes Kerkorrel - Hillbrow",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": true
+   },
+   {
+    "song": "Bright Blue - Weeping",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Johnny Clegg & Savuka - Scatterlings of Africa",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Lucky Dube - Slave",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Café Society - Woodpeckers from Space",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Yvonne Chaka Chaka - I'm in Love with a DJ",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Sipho \"Hotstix\" Mabuse - Burn Out",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Via Afrika - Hey Boy",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Brenda Fassie - Weekend Special",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Steve Kekana - The Bushman",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Juluka - Impi",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "David Kramer - Hak Hom Blokkies",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Kylie Minogue - The Loco-Motion",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Chris de Burgh - The Lady in Red",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Billy Ocean - Loverboy",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "UB40 - Red Red Wine",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 6,
+  "wouldSay": "Who is this singing in Afrikaans? … Ah, Clegg, and Lucky Dube 'Slave' — that one played at every bash. But where is Brenda? She should be first.",
+  "missing": [
+   "Chicco - We Miss You Manelo (1986)",
+   "Stimela - Whispers in the Deep (1986)",
+   "Mahlathini and the Mahotella Queens - Thokozile (1987)",
+   "Steve Kekana - Raising My Family (1980)",
+   "Paul Simon & Ladysmith Black Mambazo - Homeless (1986)",
+   "Mercy Pakela - Ayeye (c.1987)"
+  ],
+  "fake": "It opens with white-campus protest rock — Kerkorrel's 'Hillbrow' (on Eet Kreef, 1989 per the SAHA archive, so after 1988) and Bright Blue — before the bubblegum and mbaqanga we actually played, and later adds a David Kramer Afrikaans song no township kid knew. Unsure of the year of Kekana's 'The Bushman'."
+ },
+ "ZA1988B": {
+  "persona": {
+   "name": "Lerato",
+   "born": 1973,
+   "town": "Orlando East, Soweto",
+   "background": "Daughter of a domestic worker in the northern suburbs and a bus driver; 15 in 1988, during the State of Emergency. Music came from Radio Metro and Radio Zulu/Radio Setswana, TV2/TV3 and 'Ezodumo' on Sunday, cassettes from street hawkers and the taxi rank, street bashes and stokvel parties, the church choir, and her uncle's reggae records."
+  },
+  "seeds": [
+   {
+    "song": "Ladysmith Black Mambazo - Hello My Baby",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Ladysmith Black Mambazo - Nansi Imali",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Paul Simon - Homeless",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Ladysmith Black Mambazo - Nomathemba",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Solomon Linda and the Evening Birds - Mbube",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Abdullah Ibrahim - The Wedding",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Abdullah Ibrahim - Mandela",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Abdullah Ibrahim - Tuang Guru",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Rebecca Malope - Shine On",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Mahlathini and the Mahotella Queens - Thokozile",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Various artists - The Indestructible Beat of Soweto",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Gregory Isaacs - Night Nurse",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Paula Abdul - Straight Up",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Tears for Fears - Everybody Wants to Rule the World",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Wayne Smith - Under Mi Sleng Teng",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 4,
+  "wouldSay": "Mambazo — that's my grandfather's Sunday radio, and the Paul Simon song everybody talked about. But then this jazz from overseas? This is not what we danced to.",
+  "missing": [
+   "Brenda Fassie - Weekend Special (1983)",
+   "Yvonne Chaka Chaka - I'm in Love with a DJ (1985)",
+   "Chicco - We Miss You Manelo (1986)",
+   "Lucky Dube - Slave (1987)",
+   "Sipho \"Hotstix\" Mabuse - Burn Out (1984)",
+   "Stimela - Whispers in the Deep (1986)"
+  ],
+  "fake": "It is the Graceland-and-world-music-shop South Africa — three Mambazo tracks, exiled jazz the SABC never played, a British compilation LP listed as a song, Rebecca Malope before she was famous (she only won Shell Road to Fame in 1987) — with no bubblegum at all, which was the actual sound of 1988."
+ }
+}

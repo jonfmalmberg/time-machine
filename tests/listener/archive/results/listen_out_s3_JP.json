@@ -1,0 +1,806 @@
+{
+ "JP2001A": {
+  "persona": {
+   "name": "Yuki Sato",
+   "born": 1986,
+   "town": "Sendai, Miyagi",
+   "background": "15 in 2001; father a city-hall clerk, mother part-time at a supermarket. Music via Music Station and HEY!HEY!HEY! on TV, CDTV countdown late Saturday, Date FM, rental CDs from Tsutaya dubbed to MiniDisc, karaoke boxes with classmates, drama theme songs; grandparents watched NHK Kayo Concert and Kohaku."
+  },
+  "seeds": [
+   {
+    "song": "MONGOL800 - 小さな恋のうた",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "宇多田ヒカル - Can You Keep A Secret?",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "中島みゆき - 地上の星",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "サザンオールスターズ - TSUNAMI",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "美空ひばり - 悲しき口笛",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "藤山一郎 - 長崎の鐘",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "藤山一郎, 奈良光枝 - 青い山脈",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "近江俊郎 - 湯の町エレジー",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "笠置シヅ子 - 東京ブギウギ",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "竹山逸郎, 中村耕造 - 異国の丘",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "菊池章子 - 星の流れに",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "平野愛子 - 港が見える丘",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "田端義夫 - かえり船",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Dinah Shore - Buttons and Bows",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Les Brown & His Orchestra, Doris Day - Sentimental Journey",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Bing Crosby - White Christmas",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 4,
+  "wouldSay": "Ah, Monpachi, Utada, TSUNAMI — that's my third year of junior high... wait, why is it suddenly my grandmother's occupation-era records? That's not my youth, that's hers.",
+  "missing": [
+   "浜崎あゆみ - M (2000)",
+   "モーニング娘。 - 恋愛レボリューション21 (2000)",
+   "CHEMISTRY - PIECES OF A DREAM (2001)",
+   "ウルフルズ - 明日があるさ (2001)",
+   "桑田佳祐 - 波乗りジョニー (2001)",
+   "Kiroro - 長い間 (1998)"
+  ],
+  "fake": "Four correct 2000–01 hits are followed by twelve 1945–49 occupation-era songs, with nothing at all from 1950–1999, so it sounds like two unrelated playlists glued together.",
+  "missingScene": "avex/Hamasaki and Komuro-era dance pop, Hello! Project idols, Johnny's (SMAP, KinKi Kids), visual-kei and band boom (GLAY, L'Arc), R&B wave (MISIA, Chemistry), anime songs, and the whole 1950s–90s kayokyoku/enka/new music/idol canon. I am unsure only of exactly how known 東京ブギウギ and 青い山脈 were to a 2001 teenager (TV natsumero specials)."
+ },
+ "JP2001B": {
+  "persona": {
+   "name": "Yuki Sato",
+   "born": 1986,
+   "town": "Sendai, Miyagi",
+   "background": "15 in 2001; father a city-hall clerk, mother part-time at a supermarket. Music via Music Station and HEY!HEY!HEY! on TV, CDTV countdown late Saturday, Date FM, rental CDs from Tsutaya dubbed to MiniDisc, karaoke boxes with classmates, drama theme songs; grandparents watched NHK Kayo Concert and Kohaku."
+  },
+  "seeds": [
+   {
+    "song": "もんた&ブラザーズ - ダンシング・オールナイト",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "寺尾聰 - ルビーの指環",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Irene Cara - Flashdance... What a Feeling",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "大川栄策 - さざんかの宿",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "あみん - 待つわ",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "USA for Africa - We Are the World",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "わらべ - もしも明日が…。",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "チェッカーズ - ジュリアに傷心",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Nolans - I'm in the Mood for Dancing",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Dragon Ash feat. ラッパ我リヤ - Deep Impact",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "慎吾ママ - 慎吾ママのおはロック",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Quincy Jones - Ai No Corrida",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "三木道三 - Lifetime Respect",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "杏里 - CAT'S EYE",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "福山雅治 - 桜坂",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "薬師丸ひろ子 - セーラー服と機関銃",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 3,
+  "wouldSay": "Ruby no Yubiwa, Matsu wa... this is what my mum sings at karaoke. Oh, Oha Rock and Lifetime Respect — okay, those are mine, but I had to wait a long time for them.",
+  "missing": [
+   "宇多田ヒカル - Can You Keep A Secret? (2001)",
+   "浜崎あゆみ - M (2000)",
+   "サザンオールスターズ - TSUNAMI (2000)",
+   "モーニング娘。 - 恋愛レボリューション21 (2000)",
+   "MONGOL800 - 小さな恋のうた (2001)",
+   "CHEMISTRY - PIECES OF A DREAM (2001)"
+  ],
+  "fake": "It opens with nine straight 1980–85 hits, my parents' youth, and only four of sixteen seeds are from my own time and they arrive late.",
+  "missingScene": "Everything 1986–1999 (band boom, Being, Komuro, Mr.Children/Spitz, Utada's debut), plus 2001's avex pop, Hello! Project, Johnny's and R&B. The 80s block itself is accurate for Japan (Nolans and Ai No Corrida really were big there) but is the wrong generation."
+ },
+ "JP2004A": {
+  "persona": {
+   "name": "Daisuke Nakamura",
+   "born": 1989,
+   "town": "Kurume, Fukuoka",
+   "background": "15 in 2004; father a tyre-factory worker, mother a nursery teacher. Music via Music Station, Utaban, CDTV, drama and CM tie-ups, rental CDs ripped to MD, first keitai ringtones (chaku-mero/chaku-uta), school chorus and graduation songs, baseball-club karaoke."
+  },
+  "seeds": [
+   {
+    "song": "もんた&ブラザーズ - ダンシング・オールナイト",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "寺尾聰 - ルビーの指環",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Irene Cara - Flashdance... What a Feeling",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "大川栄策 - さざんかの宿",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "あみん - 待つわ",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "USA for Africa - We Are the World",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "わらべ - もしも明日が…。",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "チェッカーズ - ジュリアに傷心",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Nolans - I'm in the Mood for Dancing",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "三木道三 - Lifetime Respect",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "ストロベリー・フラワー - 愛のうた",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Quincy Jones - Ai No Corrida",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "杏里 - CAT'S EYE",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Dragon Ash - Life goes on",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "元ちとせ - ワダツミの木",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "薬師丸ひろ子 - セーラー服と機関銃",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 2,
+  "wouldSay": "This is the stuff on those 'natsukashi no 80s' TV specials my dad watches. The Pikmin song and Lifetime Respect are from elementary school — where's anything from 2003 or 2004?",
+  "missing": [
+   "平井堅 - 瞳をとじて (2004)",
+   "SMAP - 世界に一つだけの花 (2003)",
+   "ORANGE RANGE - 花 (2004)",
+   "一青窈 - ハナミズキ (2004)",
+   "Mr.Children - Sign (2004)",
+   "大塚愛 - さくらんぼ (2003)"
+  ],
+  "fake": "Nine opening songs are early-80s parent music and the newest seed is from 2002, so not one song from 2003–2004 is present.",
+  "missingScene": "The 2003–04 sakura-ballad and drama-theme boom, Okinawan bands (Orange Range, HY), seishun punk (175R, Sambomaster), Johnny's, anime/Jump tie-ups (Asian Kung-Fu Generation), Matsuken Samba, and everything 1986–1999."
+ },
+ "JP2004B": {
+  "persona": {
+   "name": "Daisuke Nakamura",
+   "born": 1989,
+   "town": "Kurume, Fukuoka",
+   "background": "15 in 2004; father a tyre-factory worker, mother a nursery teacher. Music via Music Station, Utaban, CDTV, drama and CM tie-ups, rental CDs ripped to MD, first keitai ringtones (chaku-mero/chaku-uta), school chorus and graduation songs, baseball-club karaoke."
+  },
+  "seeds": [
+   {
+    "song": "一青窈 - ハナミズキ",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "ORANGE RANGE - 花",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "平井堅 - 瞳をとじて",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "森山直太朗 - さくら（独唱）",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "SMAP - 世界に一つだけの花",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "MONGOL800 - 小さな恋のうた",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "宇多田ヒカル - Can You Keep A Secret?",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "中島みゆき - 地上の星",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "サザンオールスターズ - TSUNAMI",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "美空ひばり - 悲しき口笛",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "藤山一郎 - 長崎の鐘",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "藤山一郎, 奈良光枝 - 青い山脈",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Avril Lavigne - Complicated",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "BoA - VALENTI",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Dinah Shore - Buttons and Bows",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Les Brown & His Orchestra, Doris Day - Sentimental Journey",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 8,
+  "wouldSay": "Hanamizuki, Hana, Hitomi wo Tojite — that's exactly third-year junior high, we sang Sakura at graduation and Sekai ni Hitotsu at the culture festival. ...Then who put grandpa's 1949 records at the end?",
+  "missing": [
+   "Mr.Children - Sign (2004)",
+   "大塚愛 - さくらんぼ (2003)",
+   "平原綾香 - Jupiter (2003)",
+   "河口恭吾 - 桜 (2003)",
+   "ORANGE RANGE - ロコローション (2004)",
+   "松平健 - マツケンサンバII (2004)"
+  ],
+  "fake": "The first nine are right, but five 1945–49 occupation-era songs sit in the tail with a fifty-year hole between them and 2000.",
+  "missingScene": "Upbeat side of 2004 (Otsuka Ai, Orange Range party songs, seishun punk, Japanese hip-hop like Ketsumeishi/Rip Slyme), Johnny's beyond SMAP, anime themes, and the 1950s–90s canon. BoA is Korean but VALENTI was a Japanese-language J-pop hit, so I counted it local."
+ },
+ "JP2008A": {
+  "persona": {
+   "name": "Misaki Kobayashi",
+   "born": 1993,
+   "town": "Nagaoka, Niigata",
+   "background": "15 in 2008; parents run a small rice shop. Music via Music Station, Utaban, drama themes (Hana Yori Dango, Nobuta wo Produce, Rookies), chaku-uta full downloads on a keitai, Nico Nico Douga and YouTube, rental CDs to an iPod nano, karaoke after school, school chorus contests."
+  },
+  "seeds": [
+   {
+    "song": "GReeeeN - キセキ",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Perfume - ポリリズム",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "嵐 - Love so sweet",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "秋川雅史 - 千の風になって",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "レミオロメン - 粉雪",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "修二と彰 - 青春アミーゴ",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "一青窈 - ハナミズキ",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "ORANGE RANGE - 花",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "平井堅 - 瞳をとじて",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "森山直太朗 - さくら（独唱）",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "SMAP - 世界に一つだけの花",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "MONGOL800 - 小さな恋のうた",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Daniel Powter - Bad Day",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "James Blunt - You're Beautiful",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Avril Lavigne - Complicated",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "BoA - VALENTI",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 9,
+  "wouldSay": "Kiseki! That's Rookies, the whole class cried. Love so sweet is Hana Yori Dango, and Seishun Amigo — we all did the dance in elementary school. This is exactly my keitai playlist.",
+  "missing": [
+   "青山テルマ feat. SoulJa - そばにいるね (2008)",
+   "EXILE - Ti Amo (2008)",
+   "コブクロ - 蕾 (2007)",
+   "YUI - CHE.R.RY (2007)",
+   "Mr.Children - HANABI (2008)",
+   "いきものがかり - ブルーバード (2008)"
+  ],
+  "fake": "Nothing feels fake; it only leans a little heavy on 2003–04 ballads compared with 2007–08 chaku-uta R&B and girl singer-songwriters.",
+  "missingScene": "Chaku-uta love-song R&B (Aoyama Thelma, Kato Miliyah, Nishino Kana's start), EXILE/Koda Kumi, anime songs and Nico Nico/Vocaloid (Hatsune Miku from 2007), YUI/Aiko/Ikimonogakari, enka (Jero's 海雪 2008), TVXQ and the early K-pop wave."
+ },
+ "JP2008B": {
+  "persona": {
+   "name": "Misaki Kobayashi",
+   "born": 1993,
+   "town": "Nagaoka, Niigata",
+   "background": "15 in 2008; parents run a small rice shop. Music via Music Station, Utaban, drama themes (Hana Yori Dango, Nobuta wo Produce, Rookies), chaku-uta full downloads on a keitai, Nico Nico Douga and YouTube, rental CDs to an iPod nano, karaoke after school, school chorus contests."
+  },
+  "seeds": [
+   {
+    "song": "もんた&ブラザーズ - ダンシング・オールナイト",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "寺尾聰 - ルビーの指環",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Irene Cara - Flashdance... What a Feeling",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "大川栄策 - さざんかの宿",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "あみん - 待つわ",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "USA for Africa - We Are the World",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "わらべ - もしも明日が…。",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "チェッカーズ - ジュリアに傷心",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Nolans - I'm in the Mood for Dancing",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "杏里 - CAT'S EYE",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "羞恥心 - 羞恥心",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Quincy Jones - Ai No Corrida",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "湘南乃風 - 純恋歌",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "ケツメイシ - さくら",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "元ちとせ - ワダツミの木",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "薬師丸ひろ子 - セーラー服と機関銃",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 3,
+  "wouldSay": "Eh? This is Showa — my dad's car cassettes. Shuchishin and Junrenka are mine, yes, but they're buried at the back behind all this 80s kayokyoku.",
+  "missing": [
+   "GReeeeN - キセキ (2008)",
+   "嵐 - Love so sweet (2007)",
+   "青山テルマ feat. SoulJa - そばにいるね (2008)",
+   "Perfume - ポリリズム (2007)",
+   "レミオロメン - 粉雪 (2005)",
+   "修二と彰 - 青春アミーゴ (2005)"
+  ],
+  "fake": "Nine opening songs are 1980–85 hits from before I was born, and only three of sixteen seeds come from 2005–08.",
+  "missingScene": "Johnny's (Arashi, KAT-TUN, NEWS), drama themes, chaku-uta R&B, Perfume/techno-pop, EXILE, anime/Vocaloid/Nico Nico, band scene (Bump, Radwimps, Remioromen), and all of 1986–2001. (I recognise セーラー服と機関銃 only through the 2006 Nagasawa Masami remake.)"
+ }
+}

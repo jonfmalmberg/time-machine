@@ -1,0 +1,809 @@
+{
+ "PE1965A": {
+  "persona": {
+   "name": "Jorge Salazar",
+   "born": 1952,
+   "town": "Lima (Barrios Altos)",
+   "background": "Son of a tram worker; weekend jaranas criollas at home with uncles playing guitar and cajon; Radio Panamericana and Radio America for the nueva ola and Mexican boleros; Mexican films at the neighbourhood cinema; huaynos from Andean migrant neighbours; school dances where Los Saicos and twist were the thing."
+  },
+  "seeds": [
+   {
+    "song": "Los Saicos - Demolición",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Lucho Barrios - Marabú",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Jesús Vásquez - Mi Perú",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Julio Jaramillo - Nuestro Juramento",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Los Incas - El Cóndor Pasa",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Jesús Vásquez - El Plebeyo",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Jesús Vásquez - Murió el Maestro",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Los Morochucos - La Flor de la Canela",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Violeta Parra - La cueca del balance",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Violeta Parra - Cueca del organillo",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Violeta Parra - Cueca larga de Los Meneses (Segundo pie)",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Andrés Landero y su Conjunto - La Pava Congona",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Nat King Cole - Quizás, Quizás, Quizás",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Javier Solís - Sombras",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Tito Puente - Oye Como Va",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 8,
+  "wouldSay": "¡Los Saicos! Demolición, we jumped around to that at every fiesta. Then Lucho Barrios, Jesús Vásquez, Julio Jaramillo — that's my mother's kitchen radio.",
+  "missing": [
+   "Los Saicos - Ana (1965)",
+   "Lucho Barrios - Me engañas mujer (c.1962, year unsure)",
+   "Los Troveros Criollos - Alma, corazón y vida (c.1960, year unsure)",
+   "Chabuca Granda - José Antonio (1957)",
+   "Pedro Infante - Cien años (1953)"
+  ],
+  "fake": "Three Chilean Violeta Parra field-style cuecas, a Paris-made Andean instrumental and Tito Puente's pre-Santana original are collector picks no Lima kid heard on the radio.",
+  "suspect": [],
+  "unsure": [
+   "Jesús Vásquez - Murió el Maestro (not sure she recorded it)",
+   "Violeta Parra - La cueca del balance / Cueca del organillo (exact titles unverified)"
+  ]
+ },
+ "PE1965B": {
+  "persona": {
+   "name": "Jorge Salazar",
+   "born": 1952,
+   "town": "Lima (Barrios Altos)",
+   "background": "Son of a tram worker; weekend jaranas criollas at home with uncles playing guitar and cajon; Radio Panamericana and Radio America for the nueva ola and Mexican boleros; Mexican films at the neighbourhood cinema; huaynos from Andean migrant neighbours; school dances where Los Saicos and twist were the thing."
+  },
+  "seeds": [
+   {
+    "song": "Los Incas - El Cóndor Pasa",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Jesús Vásquez - El Plebeyo",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Jesús Vásquez - Murió el Maestro",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Los Morochucos - La Flor de la Canela",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Violeta Parra - La cueca del balance",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Violeta Parra - Cueca del organillo",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Violeta Parra - Cueca larga de Los Meneses (Segundo pie)",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Andrés Landero y su Conjunto - La Pava Congona",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Nat King Cole - Quizás, Quizás, Quizás",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Javier Solís - Sombras",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Tito Puente - Oye Como Va",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 5,
+  "wouldSay": "El Cóndor Pasa, sure, but this is the version for tourists in Paris. El Plebeyo, La Flor de la Canela — yes, those are ours. But where's the nueva ola, where's Lucho Barrios?",
+  "missing": [
+   "Los Saicos - Demolición (1965)",
+   "Los Saicos - Ana (1965)",
+   "Lucho Barrios - Me engañas mujer (c.1962, year unsure)",
+   "Los Troveros Criollos - Alma, corazón y vida (c.1960, year unsure)",
+   "Chabuca Granda - José Antonio (1957)"
+  ],
+  "fake": "Opens on a foreign group's folklore export and only three of eleven seeds are Peruvian performers, with a three-cueca Chilean block that reads like a world-music anthology.",
+  "suspect": [],
+  "unsure": [
+   "Jesús Vásquez - Murió el Maestro (not sure she recorded it)",
+   "Violeta Parra - La cueca del balance / Cueca del organillo (exact titles unverified)"
+  ]
+ },
+ "PE1965C": {
+  "persona": {
+   "name": "Jorge Salazar",
+   "born": 1952,
+   "town": "Lima (Barrios Altos)",
+   "background": "Son of a tram worker; weekend jaranas criollas at home with uncles playing guitar and cajon; Radio Panamericana and Radio America for the nueva ola and Mexican boleros; Mexican films at the neighbourhood cinema; huaynos from Andean migrant neighbours; school dances where Los Saicos and twist were the thing."
+  },
+  "seeds": [
+   {
+    "song": "Los Saicos - Demolición",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Los Incas - El Cóndor Pasa",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Jesús Vásquez - El Plebeyo",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Jesús Vásquez - Murió el Maestro",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Los Morochucos - La Flor de la Canela",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Violeta Parra - La cueca del balance",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Violeta Parra - Cueca del organillo",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Violeta Parra - Cueca larga de Los Meneses (Segundo pie)",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Andrés Landero y su Conjunto - La Pava Congona",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Nat King Cole - Quizás, Quizás, Quizás",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Javier Solís - Sombras",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Tito Puente - Oye Como Va",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 6,
+  "wouldSay": "Demolición! That's 1965 for sure. Then El Cóndor Pasa and El Plebeyo... that's more my grandparents' Peru, but it's Peru.",
+  "missing": [
+   "Lucho Barrios - Me engañas mujer (c.1962, year unsure)",
+   "Los Troveros Criollos - Alma, corazón y vida (c.1960, year unsure)",
+   "Chabuca Granda - José Antonio (1957)",
+   "Pedro Infante - Cien años (1953)",
+   "Jesús Vásquez - Mi Perú (c.1950s)"
+  ],
+  "fake": "After Los Saicos it drifts into a folkloric/world-music register (Paris Andean group, three Chilean cuecas, Puente's original Oye Como Va) instead of the boleros, valses and cumbias on Lima radio.",
+  "suspect": [],
+  "unsure": [
+   "Jesús Vásquez - Murió el Maestro (not sure she recorded it)",
+   "Violeta Parra - La cueca del balance / Cueca del organillo (exact titles unverified)"
+  ]
+ },
+ "PK1995A": {
+  "persona": {
+   "name": "Faisal Mahmood",
+   "born": 1980,
+   "town": "Lahore (Samanabad)",
+   "background": "Middle-class family; pirated cassettes from Hall Road and Anarkali; PTV pop shows and Music Channel Charts, STN; Indian film songs via VCR rentals, cable and Amritsar Doordarshan spillover; FM100 from 1995; dhol and Punjabi pop at cousins' weddings; Abida and Nusrat were his parents' and grandparents' qawwali/kafi listening."
+  },
+  "seeds": [
+   {
+    "song": "Abrar-ul-Haq - Billo De Ghar",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Vital Signs - Dil Dil Pakistan",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Abida Parveen - Mendha Ishq Wee Toon",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Abida Parveen - Aawas Mandrrhe Kol",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Abida Parveen - Ishq Na Darda",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Nusrat Fateh Ali Khan - Mustt Mustt",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Abdul Basit Abdul Samad - Surat Maryam",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Pankaj Udhas - Chandi Jaisa Rang Hai Tera",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Bally Sagoo - Chura Liya",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 7,
+  "wouldSay": "Billo De Ghar! Everyone was shouting 'Billo' at weddings that year. And Dil Dil Pakistan — we sang it at school assembly.",
+  "missing": [
+   "Sajjad Ali - Babia (1993)",
+   "Ali Haider - Purani Jeans (c.1993)",
+   "Junoon - Talaash (1993)",
+   "Strings - Sar Kiye Yeh Pahar (1992)",
+   "Kumar Sanu & Lata Mangeshkar - Tujhe Dekha To (1995)",
+   "Udit Narayan & Kavita Krishnamurthy - Tu Cheez Badi Hai Mast Mast (1994)"
+  ],
+  "fake": "After two perfect openers it becomes a Sufi/devotional set (three obscure Abida kafis, a Real World Nusrat track, a Qur'an recitation) that is not what a teenager's tape deck played, and Bollywood film songs are missing.",
+  "suspect": [],
+  "unsure": [
+   "Abida Parveen - Aawas Mandrrhe Kol and Ishq Na Darda (do not recognise these titles; release dates may be after 1995)"
+  ]
+ },
+ "PK1995B": {
+  "persona": {
+   "name": "Faisal Mahmood",
+   "born": 1980,
+   "town": "Lahore (Samanabad)",
+   "background": "Middle-class family; pirated cassettes from Hall Road and Anarkali; PTV pop shows and Music Channel Charts, STN; Indian film songs via VCR rentals, cable and Amritsar Doordarshan spillover; FM100 from 1995; dhol and Punjabi pop at cousins' weddings; Abida and Nusrat were his parents' and grandparents' qawwali/kafi listening."
+  },
+  "seeds": [
+   {
+    "song": "Abrar-ul-Haq - Billo De Ghar",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Sajjad Ali - Babia",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Ali Haider - Purani Jeans",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Attaullah Khan Esakhelvi - Bedardi Se Pyar",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Vital Signs - Dil Dil Pakistan",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Kumar Sanu & Lata Mangeshkar - Tujhe Dekha To",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 9,
+  "wouldSay": "Billo De Ghar, Babia, Purani Jeans — this is exactly my cassette collection from Hall Road. And Attaullah on every bus and truck!",
+  "missing": [
+   "Junoon - Talaash (1993)",
+   "Strings - Sar Kiye Yeh Pahar (1992)",
+   "Nazia Hassan - Disco Deewane (1981)",
+   "Noor Jehan - Sanu Nehar Wale Pul Te Bula Ke (1970s)",
+   "Udit Narayan & Kavita Krishnamurthy - Tu Cheez Badi Hai Mast Mast (1994)"
+  ],
+  "fake": "Nothing much; Tujhe Dekha To only arrived late in 1995 so it is borderline, and Junoon/Strings are absent.",
+  "suspect": [],
+  "unsure": [
+   "Abrar-ul-Haq - Billo De Ghar released late 1995; borderline for a 1995 cut-off"
+  ]
+ },
+ "PK1995C": {
+  "persona": {
+   "name": "Faisal Mahmood",
+   "born": 1980,
+   "town": "Lahore (Samanabad)",
+   "background": "Middle-class family; pirated cassettes from Hall Road and Anarkali; PTV pop shows and Music Channel Charts, STN; Indian film songs via VCR rentals, cable and Amritsar Doordarshan spillover; FM100 from 1995; dhol and Punjabi pop at cousins' weddings; Abida and Nusrat were his parents' and grandparents' qawwali/kafi listening."
+  },
+  "seeds": [
+   {
+    "song": "Abida Parveen - Mendha Ishq Wee Toon",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Abida Parveen - Aawas Mandrrhe Kol",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Abida Parveen - Ishq Na Darda",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Nusrat Fateh Ali Khan - Mustt Mustt",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Abdul Basit Abdul Samad - Surat Maryam",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Pankaj Udhas - Chandi Jaisa Rang Hai Tera",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Bally Sagoo - Chura Liya",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 3,
+  "wouldSay": "Abida Parveen... that's my nana's music, Sufi nights. This is nice, but it's not my 1995 — where's Billo, where's Vital Signs?",
+  "missing": [
+   "Abrar-ul-Haq - Billo De Ghar (1995)",
+   "Vital Signs - Dil Dil Pakistan (1987)",
+   "Sajjad Ali - Babia (1993)",
+   "Ali Haider - Purani Jeans (c.1993)",
+   "Junoon - Talaash (1993)",
+   "Kumar Sanu & Lata Mangeshkar - Tujhe Dekha To (1995)"
+  ],
+  "fake": "Opens with three obscure Saraiki/Sindhi kafis and a Qur'an recitation: it plays Pakistan as a Sufi world-music export with no pop, bhangra or film songs.",
+  "suspect": [],
+  "unsure": [
+   "Abida Parveen - Aawas Mandrrhe Kol and Ishq Na Darda (do not recognise these titles; release dates may be after 1995)"
+  ]
+ },
+ "RO1975A": {
+  "persona": {
+   "name": "Mihai Popescu",
+   "born": 1961,
+   "town": "Brașov",
+   "background": "Father a tractor-factory engineer; Radio România Programul 1 and 3 at home; Electrecord LPs of muzică ușoară; secretly listening to Cornel Chiriac's Metronom on Radio Free Europe; Phoenix and Sfinx at student concerts; Saturday dances at the Casa de Cultură; Cerbul de Aur broadcasts on TVR; summers at grandparents' village near Făgăraș where the radio played Maria Tănase and Maria Lătărețu."
+  },
+  "seeds": [
+   {
+    "song": "Maria Tănase - Lume, lume",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maria Lătărețu - Lie ciocârlie",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maria Tănase - Mărie și Mărioară",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maria Tănase - Ciuleandra",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maria Tănase - Doina din Maramureș",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maria Tănase - Leliță cârciumăreasă",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Esma Redžepova - Čaje Šukarije",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Osvaldo Pugliese - La Yumba",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Le Mystère des Voix Bulgares - Pilentse pee",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Tarras Instrumental Trio - Der glater bulgar",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Yossele Rosenblatt - El Male Rachamim",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 3,
+  "wouldSay": "Lume, lume... that's what bunica had on the radio in the village. But who put Bulgarian choirs, tango and a cantor in here? Where is Phoenix, where is Spătaru? This isn't what we danced to.",
+  "missing": [
+   "Phoenix - Negru Vodă (1975)",
+   "Dan Spătaru - Ți-am dat un inel (c.1970s, year unsure)",
+   "Gică Petrescu - Ce frumoasă e iubirea (1960s, year unsure)",
+   "Sfinx - Lume albă (c.1975, year unsure)",
+   "ABBA - Waterloo (1974)",
+   "Joe Dassin - L'été indien (1975)"
+  ],
+  "fake": "After two folk evergreens it turns into a Western world-music shelf of Balkan, klezmer, tango and synagogue recordings no Romanian teenager heard in 1975, with zero muzică ușoară, rock or foreign pop.",
+  "suspect": [],
+  "unsure": [
+   "Maria Tănase - Leliță cârciumăreasă (title not certain to be in her catalogue)"
+  ]
+ },
+ "RO1975B": {
+  "persona": {
+   "name": "Mihai Popescu",
+   "born": 1961,
+   "town": "Brașov",
+   "background": "Father a tractor-factory engineer; Radio România Programul 1 and 3 at home; Electrecord LPs of muzică ușoară; secretly listening to Cornel Chiriac's Metronom on Radio Free Europe; Phoenix and Sfinx at student concerts; Saturday dances at the Casa de Cultură; Cerbul de Aur broadcasts on TVR; summers at grandparents' village near Făgăraș where the radio played Maria Tănase and Maria Lătărețu."
+  },
+  "seeds": [
+   {
+    "song": "Maria Tănase - Lume, lume",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maria Lătărețu - Lie ciocârlie",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maria Tănase - Mărie și Mărioară",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maria Tănase - Ciuleandra",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maria Tănase - Doina din Maramureș",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maria Tănase - Leliță cârciumăreasă",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Esma Redžepova - Čaje Šukarije",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Osvaldo Pugliese - La Yumba",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Le Mystère des Voix Bulgares - Pilentse pee",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Tarras Instrumental Trio - Der glater bulgar",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Yossele Rosenblatt - El Male Rachamim",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 3,
+  "wouldSay": "Lume, lume... that's what bunica had on the radio in the village. But who put Bulgarian choirs, tango and a cantor in here? Where is Phoenix, where is Spătaru? This isn't what we danced to.",
+  "missing": [
+   "Phoenix - Negru Vodă (1975)",
+   "Dan Spătaru - Ți-am dat un inel (c.1970s, year unsure)",
+   "Gică Petrescu - Ce frumoasă e iubirea (1960s, year unsure)",
+   "Sfinx - Lume albă (c.1975, year unsure)",
+   "ABBA - Waterloo (1974)",
+   "Joe Dassin - L'été indien (1975)"
+  ],
+  "fake": "After two folk evergreens it turns into a Western world-music shelf of Balkan, klezmer, tango and synagogue recordings no Romanian teenager heard in 1975, with zero muzică ușoară, rock or foreign pop.",
+  "suspect": [],
+  "unsure": [
+   "Maria Tănase - Leliță cârciumăreasă (title not certain to be in her catalogue)"
+  ]
+ },
+ "RO1975C": {
+  "persona": {
+   "name": "Mihai Popescu",
+   "born": 1961,
+   "town": "Brașov",
+   "background": "Father a tractor-factory engineer; Radio România Programul 1 and 3 at home; Electrecord LPs of muzică ușoară; secretly listening to Cornel Chiriac's Metronom on Radio Free Europe; Phoenix and Sfinx at student concerts; Saturday dances at the Casa de Cultură; Cerbul de Aur broadcasts on TVR; summers at grandparents' village near Făgăraș where the radio played Maria Tănase and Maria Lătărețu."
+  },
+  "seeds": [
+   {
+    "song": "Dan Spătaru - Drumurile noastre",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Phoenix - Mugur de fluier",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Phoenix - Andrii Popa",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Gică Petrescu - Ce frumoasă e iubirea",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maria Tănase - Lume, lume",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maria Lătărețu - Lie ciocârlie",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maria Tănase - Mărie și Mărioară",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maria Tănase - Ciuleandra",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maria Tănase - Doina din Maramureș",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maria Tănase - Leliță cârciumăreasă",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Esma Redžepova - Čaje Šukarije",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Osvaldo Pugliese - La Yumba",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Le Mystère des Voix Bulgares - Pilentse pee",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Tarras Instrumental Trio - Der glater bulgar",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Yossele Rosenblatt - El Male Rachamim",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 7,
+  "wouldSay": "Dan Spătaru! And Phoenix — Andrii Popa, we knew Cantafabule by heart before they left the country. Gică Petrescu, that's every New Year's on TV.",
+  "missing": [
+   "Phoenix - Negru Vodă (1975)",
+   "Dan Spătaru - Ți-am dat un inel (c.1970s, year unsure)",
+   "Sfinx - Lume albă (c.1975, year unsure)",
+   "Margareta Pâslaru - any 1960s-70s hit (title unsure)",
+   "ABBA - Waterloo (1974)",
+   "Joe Dassin - L'été indien (1975)"
+  ],
+  "fake": "The strong opening is diluted by five foreign Balkan, klezmer, tango and cantorial recordings that never played in Romania and no Western pop at all.",
+  "suspect": [],
+  "unsure": [
+   "Dan Spătaru - Drumurile noastre (exact title/year unsure)",
+   "Maria Tănase - Leliță cârciumăreasă (title not certain to be in her catalogue)"
+  ]
+ }
+}

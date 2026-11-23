@@ -1,0 +1,603 @@
+{
+ "JP2001A": {
+  "persona": {
+   "name": "佐藤 由紀 (Yuki Sato)",
+   "born": 1986,
+   "town": "Morioka, Iwate (Tohoku)",
+   "background": "15 in 2001, third year of junior high. Father a JR East worker, mother part-time at a supermarket, grandmother at home. Music came from Music Station, HEY!HEY!HEY!, Utaban, CDTV countdown late Saturday, FM Iwate, TV drama themes, CD singles rented at Tsutaya and copied to MD, karaoke boxes with friends; grandmother's NHK enka programmes."
+  },
+  "seeds": [
+   {
+    "song": "宇多田ヒカル - Can You Keep A Secret?",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "サザンオールスターズ - TSUNAMI",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Janet Jackson - All for You",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "浜崎あゆみ - M",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "福山雅治 - 桜坂",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Backstreet Boys - Drowning",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "CHEMISTRY - PIECES OF A DREAM",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "宇多田ヒカル - Wait & See 〜リスク〜",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Aerosmith - Jaded",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "氷川きよし - 箱根八里の半次郎",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "ポルノグラフィティ - アゲハ蝶",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "ABBA - SOS",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "三木道三 - Lifetime Respect",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "桑田佳祐 - 波乗りジョニー",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "モーニング娘。 - 恋愛レボリューション21",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "KinKi Kids - ボクの背中には羽根がある",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 8,
+  "wouldSay": "「うわ、Can You Keep A Secret? って『HERO』やん、キムタクの。で、ヒカルのあとにあゆの M、ケミストリー…これ中3のときMDに入れとったまんまだ。ABBAのSOSは『ストロベリー・オンザ・ショートケーキ』だべ。ばあちゃんの『やだねったら、やだね』まで入ってる」",
+  "missing": [
+   "浜崎あゆみ - Dearest (2001)",
+   "BUMP OF CHICKEN - 天体観測 (2001)",
+   "ミニモニ。 - ミニモニ。ジャンケンぴょん! (2001)",
+   "ウルフルズ / Re:Japan - 明日があるさ (2001)",
+   "ゴスペラーズ - ひとり (2001)",
+   "Dragon Ash - Life goes on / RIP SLYME - STEPPER'S DELIGHT (2001)"
+  ],
+  "fake": "About a third of it is really the year 2000 (TSUNAMI, 桜坂, Wait & See, M, 半次郎) and the Western picks other than ABBA (Drowning, Jaded) are radio filler a Tohoku teenager only half noticed.",
+  "missingScene": "No band/indies side (BUMP OF CHICKEN, Hi-STANDARD, GLAY/L'Arc tail end), no J-hip-hop beyond the one reggae hit (Dragon Ash, RIP SLYME, KICK THE CAN CREW), no TV-variety novelty hits (明日があるさ, ミニモニ。) and no anime songs. [SOS is a 1975 record; I mark it 'then' because the 2001 TBS drama and the ABBA compilation made it a current hit in Japan. Unsure how big Jaded and Drowning were outside FM radio.]"
+ },
+ "JP2001B": {
+  "persona": {
+   "name": "佐藤 由紀 (Yuki Sato)",
+   "born": 1986,
+   "town": "Morioka, Iwate (Tohoku)",
+   "background": "15 in 2001, third year of junior high. Father a JR East worker, mother part-time at a supermarket, grandmother at home. Music came from Music Station, HEY!HEY!HEY!, Utaban, CDTV countdown late Saturday, FM Iwate, TV drama themes, CD singles rented at Tsutaya and copied to MD, karaoke boxes with friends; grandmother's NHK enka programmes."
+  },
+  "seeds": [
+   {
+    "song": "MONGOL800 - 小さな恋のうた",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "later"
+   },
+   {
+    "song": "宇多田ヒカル - Can You Keep A Secret?",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "中島みゆき - 地上の星",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "サザンオールスターズ - TSUNAMI",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "モーニング娘。 - LOVEマシーン",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Backstreet Boys - I Want It That Way",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 5,
+  "wouldSay": "「モンパチ? これ高校入ってからだよ、2002年にみんなカラオケで歌ったやつ。LOVEマシーンは中1。知ってる曲ばっかりだけど、2001年っていうより『あの頃のベスト』って感じだな」",
+  "missing": [
+   "浜崎あゆみ - M (2000)",
+   "CHEMISTRY - PIECES OF A DREAM (2001)",
+   "ポルノグラフィティ - アゲハ蝶 (2001)",
+   "三木道三 - Lifetime Respect (2001)",
+   "桑田佳祐 - 波乗りジョニー (2001)",
+   "KinKi Kids - ボクの背中には羽根がある (2001)"
+  ],
+  "fake": "Only one of six seeds is actually a 2001 hit; it opens on a song that broke in 2002 and leans on 1999 (LOVEマシーン, I Want It That Way), so it reads as a 'best of Heisei' list rather than one year.",
+  "missingScene": "No Ayumi Hamasaki at all in her peak year, no R&B wave (CHEMISTRY, MISIA, 平井堅), no Johnny's, no enka (氷川きよし), no reggae/hip-hop, no drama themes beyond HERO. [地上の星 was heard weekly on NHK Project X in 2001 but only topped the chart in January 2003; marked 'then' on the strength of TV exposure.]"
+ },
+ "JP2004A": {
+  "persona": {
+   "name": "田中 大輔 (Daisuke Tanaka)",
+   "born": 1989,
+   "town": "Kurume, Fukuoka (Kyushu)",
+   "background": "15 in 2004, first year of high school, baseball club. Father works at a tyre plant, mother a nurse hooked on Winter Sonata. Music came from Music Station, Utaban, CDTV, drama and film themes (Pride, Sekachu), CROSS FM, chaku-mero ringtones on a keitai, Tsutaya rentals onto MD, school festival bands and karaoke."
+  },
+  "seeds": [
+   {
+    "song": "平井堅 - 瞳をとじて",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "SMAP - 世界に一つだけの花",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Queen - I Was Born to Love You",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Mr.Children - Sign",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "福山雅治 - 虹",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Avril Lavigne - My Happy Ending",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "平原綾香 - Jupiter",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "宇多田ヒカル - COLORS",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Ryu - 最初から今まで",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "氷川きよし - 番場の忠太郎",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "nobodyknows+ - ココロオドル",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Britney Spears - Toxic",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Gorie with Jasmine & Joann - Mickey",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "ORANGE RANGE - 花",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "柴咲コウ - かたち あるもの",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "ORANGE RANGE - ロコローション",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 9,
+  "wouldSay": "「瞳をとじて…セカチューやん! で、クイーンは『プライド』のキムタクたい。うちの母ちゃんが毎週泣きよった冬ソナの曲まで入っとる。ゴリエのMickeyは文化祭で女子が踊りよった。これ高1の一年そのままばい」",
+  "missing": [
+   "一青窈 - ハナミズキ (2004)",
+   "大塚愛 - さくらんぼ (2003/2004)",
+   "ゆず - 栄光の架橋 (2004)",
+   "松平健 - マツケンサンバII (2004)",
+   "ASIAN KUNG-FU GENERATION - リライト (2004)",
+   "EXILE - Carry On / 河口恭吾 - 桜 (2003-04)"
+  ],
+  "fake": "Very little; the 2003 carry-overs (COLORS, 虹, 世界に一つだけの花) and Toxic are the only spots where it drifts off the year.",
+  "missingScene": "The guitar-band wave boys actually formed bands to (ASIAN KUNG-FU GENERATION, BUMP OF CHICKEN, サンボマスター, 175R), anime openings (Naruto, 鋼の錬金術師), the Athens Olympics song, and マツケンサンバ. [Unsure how far 番場の忠太郎 reached teenagers; known mainly through grandparents and Kohaku.]"
+ },
+ "JP2004B": {
+  "persona": {
+   "name": "田中 大輔 (Daisuke Tanaka)",
+   "born": 1989,
+   "town": "Kurume, Fukuoka (Kyushu)",
+   "background": "15 in 2004, first year of high school, baseball club. Father works at a tyre plant, mother a nurse hooked on Winter Sonata. Music came from Music Station, Utaban, CDTV, drama and film themes (Pride, Sekachu), CROSS FM, chaku-mero ringtones on a keitai, Tsutaya rentals onto MD, school festival bands and karaoke."
+  },
+  "seeds": [
+   {
+    "song": "一青窈 - ハナミズキ",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "ORANGE RANGE - 花",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "平井堅 - 瞳をとじて",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "森山直太朗 - さくら（独唱）",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "SMAP - 世界に一つだけの花",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Avril Lavigne - Complicated",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "BoA - VALENTI",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 6,
+  "wouldSay": "「ハナミズキ、花、瞳をとじて…ああ、高1やね。ばってん、さくらは中学の卒業式で歌ったし、VALENTIとComplicatedは中2の頃やろ。バラードばっかりで、ちょっと眠かね」",
+  "missing": [
+   "Mr.Children - Sign (2004)",
+   "ORANGE RANGE - ロコローション (2004)",
+   "nobodyknows+ - ココロオドル (2004)",
+   "Queen - I Was Born to Love You (2004 drama 'Pride')",
+   "大塚愛 - さくらんぼ (2003/2004)",
+   "柴咲コウ - かたち あるもの (2004)"
+  ],
+  "fake": "Four of seven seeds are 2002-2003 songs and nearly everything is a slow ballad that is still a karaoke standard today, so it sounds like a later 'J-pop classics' compilation rather than what 2004 felt like.",
+  "missingScene": "No up-tempo or youth side at all (ORANGE RANGE's party singles, hip-hop like nobodyknows+/ケツメイシ, guitar bands), no Korean-wave Winter Sonata music, no TV novelty (ゴリエ, マツケンサンバ), no enka, no anime. [BoA is Korean but VALENTI is a Japanese-language avex single, so marked local; both it and Complicated are 2002, two years early.]"
+ },
+ "JP2008A": {
+  "persona": {
+   "name": "越智 美咲 (Misaki Ochi)",
+   "born": 1993,
+   "town": "Matsuyama, Ehime (Shikoku)",
+   "background": "15 in 2008, third year of junior high, brass band club. Parents run a small mikan farm outside town, grandparents next door. Music came from chaku-uta full downloads on an au phone, Music Station, Quiz Hexagon II, drama themes, Kohaku with the grandparents, Nico Nico Douga on the family PC, an iPod nano, karaoke after school."
+  },
+  "seeds": [
+   {
+    "song": "GReeeeN - キセキ",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Perfume - ポリリズム",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "嵐 - Love so sweet",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "秋川雅史 - 千の風になって",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "レミオロメン - 粉雪",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "修二と彰 - 青春アミーゴ",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 5,
+  "wouldSay": "「キセキは『ROOKIES』やけん中3の夏そのものやね。でも粉雪と青春アミーゴは小6のときやし、Love so sweet も花男2で中1。全部知っとるけど、2008年ていうより小学校から中学までのごちゃまぜやわ」",
+  "missing": [
+   "嵐 - truth / One Love (2008)",
+   "青山テルマ feat. SoulJa - そばにいるね (2008)",
+   "羞恥心 - 羞恥心 (2008)",
+   "Mr.Children - HANABI (2008)",
+   "EXILE - Ti Amo (2008)",
+   "藤岡藤巻と大橋のぞみ - 崖の上のポニョ (2008)"
+  ],
+  "fake": "Only one seed (キセキ) is a 2008 release; two are 2005 hits and the rest are 2006-07, so it plays as a mid-2000s mix, not the year.",
+  "missingScene": "The keitai chaku-uta R&B love-song scene (青山テルマ, 清水翔太, HY), Hexagon variety-show acts (羞恥心, Pabo), EXILE, the Ponyo song every child sang, enka's Jero moment, anime songs, and Vocaloid/Nico Nico Douga (supercell - メルト)."
+ },
+ "JP2008B": {
+  "persona": {
+   "name": "越智 美咲 (Misaki Ochi)",
+   "born": 1993,
+   "town": "Matsuyama, Ehime (Shikoku)",
+   "background": "15 in 2008, third year of junior high, brass band club. Parents run a small mikan farm outside town, grandparents next door. Music came from chaku-uta full downloads on an au phone, Music Station, Quiz Hexagon II, drama themes, Kohaku with the grandparents, Nico Nico Douga on the family PC, an iPod nano, karaoke after school."
+  },
+  "seeds": [
+   {
+    "song": "嵐 - truth",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "秋川雅史 - 千の風になって",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Coldplay - Viva la Vida",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "嵐 - One Love",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "宇多田ヒカル - Flavor Of Life",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Madonna - 4 Minutes",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "サザンオールスターズ - I AM YOUR SINGER",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "コブクロ - 蕾",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "ジェロ - 海雪",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "藤岡藤巻と大橋のぞみ - 崖の上のポニョ",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "青山テルマ feat. SoulJa - そばにいるね",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Mr.Children - HANABI",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "GReeeeN - キセキ",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "羞恥心 - 羞恥心",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "EXILE - Ti Amo",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "すぎもとまさと - 吾亦紅",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 8,
+  "wouldSay": "「truth! 『魔王』やん、大野くんの。One Love は花男の映画。そばにいるねは着うたでみんな入れとった。羞恥心とポニョが続いたら笑うわ、これ中3の一年まるごとやね。ジェロもおじいちゃんが紅白で喜んどった」",
+  "missing": [
+   "いきものがかり - ブルーバード / 帰りたくなったよ (2008)",
+   "Perfume - love the world (2008)",
+   "Superfly - 愛をこめて花束を (2008)",
+   "Aqua Timez - 虹 (2008)",
+   "KAT-TUN - DON'T U EVER STOP (2008)",
+   "supercell feat. 初音ミク - メルト (2007-08)"
+  ],
+  "fake": "It is the Oricon year-end and Kohaku view of 2008, tilted to parents and grandparents (千の風になって, 吾亦紅, 海雪, Southern All Stars), with two Western singles a provincial 15-year-old barely registered.",
+  "missingScene": "The girl-and-band side teenagers actually played (いきものがかり, YUI, Perfume, BUMP OF CHICKEN, RADWIMPS), anime songs (Macross Frontier, Gundam 00), Vocaloid/Nico Nico Douga, and more of the chaku-uta love-song wave (清水翔太, HY - 366日, 西野カナ). [千の風になって, 蕾, Flavor Of Life and 吾亦紅 are 2007 hits, one year early, still everywhere in 2008. Unsure how far 4 Minutes travelled beyond FM radio.]"
+ }
+}

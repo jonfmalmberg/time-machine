@@ -2,6 +2,14 @@
 
 Read this before changing anything. The owner is Jon (GitHub `jonfmalmberg`).
 
+## Start here, every session
+1. `docs/vision/` holds dated records of what the owner wants and why. Their text is not rewritten: a change of direction is a new dated file, and anything in a record later found wrong gets a dated correction added inline at that spot. Errors are never left standing uncorrected. Read the newest, and the two founding ones if you have not: `2026-11-23-origins.md` (where the app came from and what it is) and `2026-11-23-direction.md` (where it is going).
+2. `docs/PRINCIPLES.md`: how to judge a choice when no rule covers it.
+3. `docs/ARCHITECTURE.md`: how the site is built and why, written for the owner. Update it in the same change as any work that alters the data model, the database, the tests or how the parts fit.
+4. `docs/ROADMAP.md`: the plan and its order. GitHub milestones and issues track the same items; keep the two in step.
+5. `docs/WORKLOG.md`: add an entry at the end of every session (what was done, what was decided and why, what is untested).
+The app only succeeds if it feels good to use. Rules here are a floor; the vision record is the intent.
+
 ## Run, build, test (all local, no Cloudflare build used)
 - `python3 serve.py` builds, serves http://localhost:8000 and rebuilds on every change to `src/` or `data/`.
 - `python3 build.py` writes `dist/index.html` (never committed).

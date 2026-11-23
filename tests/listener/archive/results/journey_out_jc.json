@@ -1,0 +1,919 @@
+{
+ "persona": {
+  "name": "Yui",
+  "born": "March 1990, Fukuoka, Japan",
+  "bio": "Grew up in Fukuoka (father a Chage & Aska / Checkers fan, mother Yuming, Southern All Stars, Dreams Come True). Elementary 1996-2002, junior high 2002-2005, high school 2005-2008. Moved to Vancouver at 18 in September 2008 (language school, then college), back to Japan 2012-2014 for an office job in Tokyo, back to Vancouver 2014-2019. Trips: New York August 2010 from Vancouver, Montreal September 2013 from Japan, Bali autumn 2016 from Vancouver.",
+  "howMusicReachedHer": "0-4: parents' car cassettes and TV, Chibi Maruko-chan, Sailor Moon, Okaasan to Issho. 5-12: Music Station, HEY!HEY!HEY!, Utaban, CDTV, Kouhaku, anime themes, school chorus. 12-18: TV dramas (Nobuta, Gokusen, 1 Litre of Tears, Hana Yori Dango), Tsutaya rentals to MD then iPod, ringtone downloads, karaoke. Vancouver 2008-12: Virgin 95.3 and The Beat 94.5 in shops and buses, Granville clubs, the 2010 Olympics, and J-pop via YouTube and Japanese-student karaoke. Japan 2012-14: TV, convenience stores, office parties, karaoke. Vancouver 2014-19: Spotify, radio at work, Japanese dramas and anime films online.",
+  "judgingNotes": "'when' is the song's date against the stop using the brief's rule (throwback = 3+ years before the stop began). Several songs marked 'then' sit 1-2 years before the stop and feel earlier; those are called out in 'fake'. No web search used; uncertain points are flagged in the text."
+ },
+ "stops": {
+  "jc1": {
+   "age": "0-4",
+   "score": 6,
+   "wouldSay": "This is my parents' car cassette, not mine. Dad is a Fukuoka man so SAY YES and Ai wa Katsu are right, and Odoru Ponpokorin is the one song here I actually sang. Everything else I know because it never went away, not because I remember 1992.",
+   "seeds": [
+    {
+     "song": "米米CLUB - 君がいるだけで (Kimi ga Iru dake de)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "B'z - 愛のままにわがままに 僕は君だけを傷つけない",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "ZARD - 負けないで (Makenaide)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "槇原敬之 - どんなときも。(Donna Toki mo.)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "CHAGE and ASKA - SAY YES",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "小田和正 - ラブ・ストーリーは突然に (Love Story wa Totsuzen ni)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Mr.Children - Tomorrow never knows",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "KAN - 愛は勝つ (Ai wa Katsu)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "B.B.クィーンズ - おどるポンポコリン (Odoru Ponpokorin)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "美空ひばり - 川の流れのように (Kawa no Nagare no Yō ni)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "光GENJI - パラダイス銀河 (Paradise Ginga)",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Whitney Houston - I Will Always Love You",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Mariah Carey - All I Want for Christmas Is You",
+     "knew": "yes",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "DALI - ムーンライト伝説 (Sailor Moon opening), 1992",
+    "ドリーミング - アンパンマンのマーチ, 1988",
+    "DREAMS COME TRUE - 決戦は金曜日, 1992",
+    "松任谷由実 - 春よ、来い, 1994",
+    "大事MANブラザーズバンド - それが大事, 1991"
+   ],
+   "fake": "It is the adult million-seller chart for years when I was a baby and a kindergartner. One children's song out of thirteen. Hikaru Genji (1988) was already fading by 1990. Whitney is plausible for my mother but I cannot claim it. Technically nothing is wrong; it just is not a child's memory."
+  },
+  "jc2": {
+   "age": "5-9",
+   "score": 6,
+   "wouldSay": "Amuro, globe, GLAY, Automatic, Love Machine: yes, that is Music Station and HEY!HEY!HEY! in our living room. But why am I hearing Makenaide, B'z, Kome Kome Club and Mr.Children again? I just left those behind. And where is SPEED? Every girl in my class wanted to be SPEED.",
+   "seeds": [
+    {
+     "song": "GLAY - HOWEVER",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "安室奈美恵 - CAN YOU CELEBRATE?",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "宇多田ヒカル - Automatic",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "globe - DEPARTURES",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "モーニング娘。 - LOVEマシーン (Love Machine)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "DREAMS COME TRUE - LOVE LOVE LOVE",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Mr.Children - Tomorrow never knows",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "B'z - 愛のままにわがままに 僕は君だけを傷つけない",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "ZARD - 負けないで (Makenaide)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "米米CLUB - 君がいるだけで (Kimi ga Iru dake de)",
+     "knew": "yes",
+     "when": "throwback"
+    },
+    {
+     "song": "Céline Dion - My Heart Will Go On",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Backstreet Boys - As Long as You Love Me",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Backstreet Boys - I Want It That Way",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Mariah Carey - All I Want for Christmas Is You",
+     "knew": "yes",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "SPEED - White Love, 1997",
+    "速水けんたろう・茂森あゆみ - だんご3兄弟, 1999",
+    "松本梨香 - めざせポケモンマスター, 1997",
+    "ポケットビスケッツ - YELLOW YELLOW HAPPY, 1996",
+    "スピッツ - チェリー, 1996"
+   ],
+   "fake": "Five of fourteen seeds are carried over from the 1990-94 stop (four J-pop plus Mariah), and Kimi ga Iru dake de (1992) is a throwback here. Two Backstreet Boys songs is one too many for an elementary schoolgirl in Fukuoka; I learned them properly later. No anime, no children's TV, no SPEED, no Komuro-family depth beyond two songs."
+  },
+  "jc3": {
+   "age": "10-14",
+   "score": 7,
+   "wouldSay": "TSUNAMI, Utada, BoA, Sekai ni Hitotsu Dake no Hana at the school chorus, Hitomi wo Tojite, the Pikmin song: this is right. But there is no Ayu at all, which for a girl who was 10 to 14 in these years is like leaving out the weather. Mago is my grandfather's karaoke song, and I have no idea what the Janet Jackson one is.",
+   "seeds": [
+    {
+     "song": "サザンオールスターズ (Southern All Stars) - TSUNAMI",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "宇多田ヒカル (Hikaru Utada) - Can You Keep A Secret?",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Bon Jovi - It's My Life",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "宇多田ヒカル (Hikaru Utada) - traveling",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "SMAP - 世界に一つだけの花 (Sekai ni Hitotsu Dake no Hana)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Janet Jackson - All for You",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "平井堅 (Ken Hirai) - 瞳をとじて (Hitomi wo Tojite)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "福山雅治 (Masaharu Fukuyama) - 桜坂 (Sakurazaka)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "BoA - LISTEN TO MY HEART",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "大泉逸郎 (Itsuro Oizumi) - 孫 (Mago)",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "中島みゆき (Miyuki Nakajima) - 地上の星 (Chijou no Hoshi)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "BoA - VALENTI",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "三木道三 (Miki Dozan) - Lifetime Respect",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "ストロベリー・フラワー (Strawberry Flower) - 愛のうた (Ai no Uta)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Dragon Ash - Life goes on",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Mr.Children - Sign",
+     "knew": "yes",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "浜崎あゆみ - SEASONS, 2000",
+    "ORANGE RANGE - 花, 2004",
+    "大塚愛 - さくらんぼ, 2003",
+    "BUMP OF CHICKEN - 天体観測, 2001",
+    "一青窈 - ハナミズキ, 2004"
+   ],
+   "fake": "Skews to what adults bought (Mago, Chijou no Hoshi, Bon Jovi, Janet Jackson) rather than what a late-elementary and junior-high girl lived on. No Hamasaki Ayumi, no Minimoni/Hello! Project after 1999, no Orange Range. Janet Jackson - All for You never reached me."
+  },
+  "jc4": {
+   "age": "15-18",
+   "score": 8,
+   "wouldSay": "Seishun Amigo, Real Face, Konayuki, NO MORE CRY, Junrenka at karaoke, Shuchishin, Ponyo the summer I left: this is high school. This is the first stop that is actually mine. I just want the songs that were on my phone: GReeeeN, YUI, Flavor Of Life.",
+   "seeds": [
+    {
+     "song": "修二と彰 (Shuji to Akira) - 青春アミーゴ (Seishun Amigo)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "KAT-TUN - Real Face",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "O-Zone - 恋のマイアヒ (Dragostea Din Tei)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "秋川雅史 (Masafumi Akikawa) - 千の風になって (Sen no Kaze ni Natte)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "嵐 (Arashi) - truth",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Daniel Powter - Bad Day",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "ケツメイシ (Ketsumeishi) - さくら (Sakura)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "レミオロメン (Remioromen) - 粉雪 (Konayuki)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Avril Lavigne - Girlfriend",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "ジェロ (Jero) - 海雪 (Umiyuki)",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "藤岡藤巻と大橋のぞみ (Fujioka Fujimaki & Nozomi Ohashi) - 崖の上のポニョ (Gake no Ue no Ponyo)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Coldplay - Viva la Vida",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "EXILE - Lovers Again",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "D-51 - NO MORE CRY",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "羞恥心 (Shuchishin) - 羞恥心 (Shuchishin)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "湘南乃風 (Shonan no Kaze) - 純恋歌 (Junrenka)",
+     "knew": "yes",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "GReeeeN - キセキ, 2008",
+    "YUI - CHE.R.RY, 2007",
+    "宇多田ヒカル - Flavor Of Life, 2007",
+    "青山テルマ feat. SoulJa - そばにいるね, 2008",
+    "レミオロメン - 3月9日, 2004 (graduation song for my year, via 1リットルの涙 in 2005)"
+   ],
+   "fake": "Sen no Kaze ni Natte and Jero are Kouhaku/parents' songs, known but not mine. Coldplay I know from the iPod commercial, not as a song I lived with. The stop ends with me leaving Japan and there is nothing that sounds like graduation or goodbye."
+  },
+  "jc5": {
+   "age": "18-22",
+   "score": 5,
+   "wouldSay": "Call Me Maybe, TiK ToK, California Gurls, Rolling in the Deep, Gotye, and I Believe from the Olympics when the whole city went mad: yes. But who is Dean Brody? Who is Vincent Vallieres? That is not Vancouver. And half of what I listened to in those years was still Japanese, on YouTube and at karaoke with the other Japanese students. None of that is here.",
+   "seeds": [
+    {
+     "song": "Carly Rae Jepsen - Call Me Maybe",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Young Artists for Haiti - Wavin' Flag",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Katy Perry feat. Snoop Dogg - California Gurls",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Martin Solveig & Dragonette - Hello",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Hedley - Perfect",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Adele - Rolling in the Deep",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Alyssa Reid feat. P. Reign - Alone Again",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Simple Plan feat. Natasha Bedingfield - Jet Lag",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Gotye feat. Kimbra - Somebody That I Used to Know",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Dean Brody - Canadian Girls",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Shawn Desman - Electric",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Kesha - TiK ToK",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Vincent Vallières - On va s'aimer encore",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Down with Webster - Your Man",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Hedley - Kiss You Inside Out",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Nikki Yanofsky - I Believe",
+     "knew": "yes",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "Lady Gaga - Poker Face, 2008",
+    "Justin Bieber feat. Ludacris - Baby, 2010",
+    "Michael Bublé - Haven't Met You Yet, 2009",
+    "LMFAO - Party Rock Anthem, 2011",
+    "西野カナ - 会いたくて 会いたくて, 2010 (heard in Vancouver, not in Japan)"
+   ],
+   "fake": "The prompt says 'the way someone who grew up there remembers it'; I arrived at 18 with no English radio habits. The seed list is a Canadian-content chart: Hedley twice, Down with Webster, Shawn Desman, Alyssa Reid, a country song and a Quebec francophone song that was never played in BC. An international student heard the US/global top 40 on Virgin 95.3 and The Beat 94.5, plus J-pop from home. Nothing here from 2008-2009, my first and most disoriented years."
+  },
+  "jc6": {
+   "age": "20 (one week, August 2010)",
+   "score": 6,
+   "wouldSay": "Love the Way You Lie, Dynamite, California Gurls, Airplanes: that was every shop and every taxi that August. But it was also every shop in Vancouver. Where is Empire State of Mind? It was playing in Times Square, in the souvenir shops, everywhere. That is the one song that means New York 2010 to me.",
+   "seeds": [
+    {
+     "song": "Kesha - TiK ToK",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Lady A - Need You Now",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Taio Cruz - Dynamite",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Train - Hey, Soul Sister",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Katy Perry feat. Snoop Dogg - California Gurls",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Taio Cruz feat. Ludacris - Break Your Heart",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "USHER feat. will.i.am - OMG",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "B.o.B feat. Hayley Williams - Airplanes",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Enrique Iglesias feat. Pitbull - I Like It",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "MercyMe - All of Creation",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Aventura - Dile al Amor",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Rihanna - Rude Boy",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Eminem feat. Rihanna - Love the Way You Lie",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Lady Gaga - Bad Romance",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Lee Brice - Love Like Crazy",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Alicia Keys - Un-Thinkable (I'm Ready)",
+     "knew": "maybe",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "Jay-Z feat. Alicia Keys - Empire State of Mind, 2009",
+    "Katy Perry - Teenage Dream, 2010",
+    "Travie McCoy feat. Bruno Mars - Billionaire, 2010",
+    "Lady Gaga - Alejandro, 2010",
+    "Mike Posner - Cooler Than Me, 2010"
+   ],
+   "fake": "It is the US national year-end chart, not New York. MercyMe (Christian radio) and Lee Brice (country, in a city with no country station at the time) are things no visitor to Manhattan heard. Aventura is right for the city but I would not have recognised it. TiK ToK and California Gurls I already heard one stop ago. Placed after 2008-2012 ends, so I go 2012 back to 2010."
+  },
+  "jc7": {
+   "age": "22-24",
+   "score": 6,
+   "wouldSay": "Koisuru Fortune Cookie, yes, our office filmed the dance. R.Y.U.S.E.I., Let It Go in Japanese, the Taylor Swift one from Terrace House: right. But Aitakute, Arigato, Toire no Kamisama and Heavy Rotation are all 2010. I heard those in my room in Vancouver, homesick. By the time I was back they were old. And Gangnam Style was the one country where it was not big.",
+   "seeds": [
+    {
+     "song": "AKB48 - 恋するフォーチュンクッキー (Koisuru Fortune Cookie)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "三代目 J SOUL BROTHERS from EXILE TRIBE - R.Y.U.S.E.I.",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "松たか子 - レット・イット・ゴー～ありのままで～ (Let It Go)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "西野カナ - 会いたくて 会いたくて (Aitakute Aitakute)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "いきものがかり - ありがとう (Arigatō)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "植村花菜 - トイレの神様 (Toire no Kamisama)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "AKB48 - ヘビーローテーション (Heavy Rotation)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "PSY - Gangnam Style (강남스타일)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Taylor Swift - We Are Never Ever Getting Back Together",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Carly Rae Jepsen - Call Me Maybe",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "The Black Eyed Peas - I Gotta Feeling",
+     "knew": "yes",
+     "when": "throwback"
+    }
+   ],
+   "missing": [
+    "ゴールデンボンバー - 女々しくて, 2009 (the karaoke song of 2012-13)",
+    "きゃりーぱみゅぱみゅ - つけまつける, 2012",
+    "SEKAI NO OWARI - RPG, 2013",
+    "秦基博 - ひまわりの約束, 2014",
+    "西野カナ - Darling, 2014"
+   ],
+   "fake": "Only eleven seeds and only three are Japanese songs released inside 2012-2014. Four are 2010 hits that belong to my Vancouver years. I Gotta Feeling (2009) is a throwback with no Japanese reason to be here. Gangnam Style did poorly in Japan compared with everywhere else. Call Me Maybe again."
+  },
+  "jc8": {
+   "age": "23 (one week, September 2013, visiting a friend from Vancouver)",
+   "score": 4,
+   "wouldSay": "Blurred Lines, Thrift Shop, Hold On We're Going Home, Ho Hey, fine, that was in the bars. But Montreal sounded French to me, that was the whole shock of it, and there are two French songs here and two country songs. Country, in Montreal. And Call Me Maybe, a year late, for the third time.",
+   "seeds": [
+    {
+     "song": "Karim Ouellet - L'amour",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Daniel Bélanger - Je poursuis mon bonheur",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Robin Thicke feat. T.I. & Pharrell - Blurred Lines",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Carly Rae Jepsen - Call Me Maybe",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Serena Ryder - Stompa",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Macklemore & Ryan Lewis feat. Wanz - Thrift Shop",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Classified feat. David Myles - Inner Ninja",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Walk Off the Earth - Red Hands",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "P!nk feat. Nate Ruess - Just Give Me a Reason",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Dean Brody - Bounty",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Drake feat. Majid Jordan - Hold On, We're Going Home",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "The Lumineers - Ho Hey",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Justin Bieber feat. Nicki Minaj - Beauty and a Beat",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Tegan and Sara - Closer",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Hedley - Anything",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Gord Bamford - When Your Lips Are So Close",
+     "knew": "no",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "Daft Punk feat. Pharrell Williams - Get Lucky, 2013",
+    "Avicii - Wake Me Up, 2013",
+    "Arcade Fire - Reflektor, 2013",
+    "Lorde - Royals, 2013",
+    "Stromae - Papaoutai, 2013 (unsure how much Quebec radio played it)"
+   ],
+   "fake": "This is the English-Canada CanCon chart with two francophone tracks added. Dean Brody, Gord Bamford, Hedley, Classified, Serena Ryder: a visitor on the Plateau did not hear these. I knew 7 of 16 for certain. I was living in Japan at this point, so I had not been hearing Canadian radio at all; the stop assumes I had. Also placed after the 2012-2014 stop ends, so time runs backwards."
+  },
+  "jc9": {
+   "age": "24-29",
+   "score": 7,
+   "wouldSay": "Yes. Happy and Rude the summer I came back, Uptown Funk, Sorry, One Dance, Shape of You, God's Plan, Old Town Road the last summer. Drake and Bieber really were everywhere, so the Canadian quota works by accident this time. But I was also watching Nigehaji and Your Name and listening to Yonezu Kenshi. Again there is no Japan in my Canada.",
+   "seeds": [
+    {
+     "song": "Justin Bieber - Sorry",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Drake - God's Plan",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Pharrell Williams - Happy",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Magic! - Rude",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Justin Bieber - Love Yourself",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Mark Ronson feat. Bruno Mars - Uptown Funk",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "The Weeknd - Can't Feel My Face",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Shawn Mendes & Camila Cabello - Señorita",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Ed Sheeran - Shape of You",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Dallas Smith - Drop",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "The Strumbellas - Salvation",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Lil Nas X feat. Billy Ray Cyrus - Old Town Road (Remix)",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Roxane Bruneau - Des p'tits bouts de toi",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Loud Luxury feat. Brando - Body",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Drake - In My Feelings",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Drake feat. Wizkid & Kyla - One Dance",
+     "knew": "yes",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "星野源 - 恋, 2016",
+    "RADWIMPS - 前前前世, 2016",
+    "米津玄師 - Lemon, 2018",
+    "Luis Fonsi & Daddy Yankee feat. Justin Bieber - Despacito (Remix), 2017",
+    "Alessia Cara - Scars to Your Beautiful, 2016"
+   ],
+   "fake": "Dallas Smith (country), Roxane Bruneau (Quebec) and The Strumbellas - Salvation (their hit was Spirits; I am not sure Salvation charted much) never reached me. Four Drake seeds is heavy. Six years in one stop is long: 2014 and 2019 did not sound alike."
+  },
+  "jc10": {
+   "age": "26 (ten days, September-October 2016)",
+   "score": 4,
+   "wouldSay": "Closer, Cold Water, Let Me Love You, Don't Let Me Down: exactly the beach clubs in Seminyak that autumn. The other twelve I do not know. Maybe one was on in a taxi. What I remember is tropical house, acoustic covers of Western songs in the cafes, and reggae bars.",
+   "seeds": [
+    {
+     "song": "Anji - Dia",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Tulus - Pamit",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "The Chainsmokers, Halsey - Closer",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Ayu Ting Ting - Kekasihku",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Rizky Febian - Kesempurnaan Cinta",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "The Chainsmokers, Daya - Don't Let Me Down",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "HIVI! - Pelangi",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Repvblik - Aku Tetap Cinta",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Major Lazer, Justin Bieber, MØ - Cold Water",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Afgan, Raisa - Percayalah",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Rossa - Jangan Hilangkan Dia",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "DJ Snake, Justin Bieber - Let Me Love You",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Melly Goeslaw, Marthino Lio - Ratusan Purnama",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Isyana Sarasvati - Mimpi",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Agnez Mo - Sebuah Rasa",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Raisa - Kali Kedua",
+     "knew": "no",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "Steven & Coconut Treez - Welcome to My Paradise, 2005 (every reggae bar in Kuta)",
+    "Calvin Harris feat. Rihanna - This Is What You Came For, 2016",
+    "Sia - Cheap Thrills, 2016",
+    "Kygo feat. Conrad Sewell - Firestone, 2014",
+    "Bob Marley & The Wailers - Three Little Birds, 1977"
+   ],
+   "fake": "Twelve of sixteen seeds are the Jakarta pop radio chart. That is what an Indonesian resident heard, not a tourist in Seminyak and Ubud. The prompt says 'the way someone who lived there then remembers'; I was there ten days. I cannot check the Indonesian release years (unsure Ayu Ting Ting and Repvblik are 2016). The journey ends here, in 2016, three years before my Canadian years end."
+  }
+ },
+ "journey": {
+  "score": 5,
+  "order": "The Japan childhood (four stops, 1990-2008) is the right length and in order, but cut at calendar half-decades instead of my life: 1990-94 is my parents' music, and the cuts at 1999/2000 and 2004/2005 fall mid-school. School stages (to 1996, 1996-2002, 2002-2005, 2005-2008) would fit better. The three trips are placed after the long stop that contains them, so time runs backwards three times: 2012 to 2010, 2014 to 2013, 2019 to 2016. The journey ends on Bali 2016 instead of on my last Vancouver years. Canada 2014-2019 is too long as one stop (2014 and 2019 sound different) and should split around 2016-17, which is also where Bali falls. Montreal sits inside my Japan years but is built as if I had been living in Canada. Residences are country-level (Canada) while trips are city-level; my Canada was Vancouver only.",
+  "transitions": "The emigration in 2008 is a hard cut: Japanese pop stops completely and a CanCon chart starts, with the prompt telling Spotify I grew up there. In reality J-pop continued for years. The proof is in the journey itself: the 2010 J-pop hits (Aitakute Aitakute, Arigato, Heavy Rotation, Toire no Kamisama) that I heard in Vancouver turn up in the 2012-2014 Japan stop instead. No leaving or graduation song at the end of 2005-2008 (3月9日, 手紙, キセキ). The 2012 return works a little because Call Me Maybe was big in both countries. The 2014 return works (Happy, Rude). Canada 2014-2019 again has zero Japanese music (恋, 前前前世, Lemon). The brief trips are written as 'someone who lived there', so they come out as the local national chart (US year-end, English-Canada CanCon, Jakarta radio) rather than what a visitor hears; New York is indistinguishable from the Vancouver stop before it, and Bali is 75% songs I never heard.",
+  "repeats": "Yes. Call Me Maybe is a seed in three stops (Canada 2008-12, Japan 2012-14, Montreal 2013). TiK ToK and California Gurls are in both Canada 2008-12 and New York 2010. Five seeds of Japan 1995-99 are repeated from Japan 1990-94 (Tomorrow never knows, the B'z single, Makenaide, Kimi ga Iru dake de, Mariah Carey's Christmas song). Hedley has three seeds across two stops and Dean Brody two. The repeats make adjacent stops blur and waste seed slots that should carry the change.",
+  "change": "Make every stop after the emigration a newcomer's stop rather than a native's: tell the prompt she is a Japanese woman who arrived in Vancouver at 18, drop the two-thirds-local quota in favour of what was on top-40 radio in that city, and give roughly a third of the seeds to that period's J-pop that she kept hearing from home. That one change fixes the 2008 cut, moves the 2010 J-pop to where she heard it, and removes the country and Quebec songs.",
+  "notes": "Second priority: put each trip in chronological position by splitting the surrounding stop (Canada 2008-10 / New York 2010 / Canada 2010-12; same for Montreal and Bali) so the journey ends where the life does, and write trip prompts from a visitor's ears (international hits of that season, the city's signature songs, a few local songs), not a resident's. Third: forbid a seed from appearing in more than one stop. Strongest stop: Japan 2005-2008 (8). Weakest: Montreal 2013 and Bali 2016 (4 each). Seeds I knew for certain: Japan stops about 80-90%; Canada 2008-12 8 of 16; Montreal 7 of 16; Bali 4 of 16. Unsure of: release years and chart weight of several Indonesian seeds, Strumbellas - Salvation, and how much Quebec radio played Stromae in 2013."
+ }
+}
