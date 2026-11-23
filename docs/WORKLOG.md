@@ -2,6 +2,11 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (research tiers proposal)
+
+- Owner: the colour palette is better. More seed songs are needed; data and tests should come in tiers (about 25 songs for a good genre list, 50 for a deep one, by duration; years from 6 up to 50 to 100 for big markets); research breadth first with weights by importance to the listener; songs ranked and weighted, not all equal; a synthetic test that measures each research scope directly, like a factory acceptance test, with cross-scope tests after.
+- Written as a proposal, not built: `docs/proposals/2026-11-23-research-tiers.md`, roadmap 2.12. Four decisions in it are the owner's: tier sizes, the weight blend, the breadth-against-depth table, pass thresholds.
+
 ## 2026-11-23 (iOS colours)
 
 - Owner asked for the region and tradition colours on the tree, map and tunnel to come from an iOS palette. Built on branch `ios-colours`: the ten region colours replaced with Apple's system colours, light and dark, values read from the Human Interface Guidelines Color page today (updated June 2025; they differ from the older, commonly quoted ones). Only the ten tokens in `src/template.html` changed. Europe indigo, North America blue, Caribbean purple, Latin America green, Africa brown, Middle East and North Africa cyan, South Asia orange, Central Asia yellow, East Asia red, Southeast Asia and Oceania mint. Pink and teal left out: too close to red and to cyan.

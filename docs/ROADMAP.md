@@ -86,6 +86,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 - 2.9 Fix the data faults found in 2.1.
 - 2.10 Proposal: how the data is stored and delivered as it grows. Today everything sits inside one page of about 2.5 MB, which cannot grow tenfold. The free database is for user data (500 MB), not for a catalogue. Likely answer: data split into files that the page loads when needed, served by Cloudflare (free, up to 20,000 files of 25 MiB). To be decided before large-scale collection.
 - 2.11 Proposal: what "a database of all music" means in practice: our own records for what we have researched, plus MusicBrainz identifiers that point at everything else, not a copy of the world's catalogue. Each song and album carries its MusicBrainz identifier where one exists, which also unlocks album art (see milestone 7).
+- 2.12 `review` Proposal: research in tiers, with weights and acceptance tests: [`proposals/2026-11-23-research-tiers.md`](proposals/2026-11-23-research-tiers.md). Depth tiers for genres (to 25 and 50 songs) and for country-years (6, 20, 50, 100), a weighted breadth-first order, weights on songs, and an acceptance test for each scope and pass. Shapes 2.3, 2.6, 2.8 and milestones 3 and 4.
 
 **Done when:** the schema, regions and weights are approved, the data has moved, and both kinds of test run from the registry.
 
