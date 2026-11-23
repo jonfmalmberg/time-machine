@@ -319,7 +319,7 @@ function renderSet(){ const k=J.kind;
   root.querySelectorAll('.j4kind button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.kind===k)));
   root.querySelector('#j4intro').textContent=INTRO[k];
   root.querySelector('#j4set').innerHTML=`<details class="j4box"${J.open?' open':''}><summary>${k==='life'?'Legs of the journey':k==='trav'?'Route and settings':'Settings'}</summary><div class="j4body">${k==='life'?lifeSet():k==='hist'?histSet():k==='trav'?travSet():discSet()}
-    <div class="j4line"><label class="jo"><input type="checkbox" data-f="hide"${J.hide?' checked':''}> Hide what I have already heard</label><span class="fine">${pid()==='guest'?'Travelling as Guest: ticks stay on this device and copies are not kept. Pick a person with the 👤 button to keep a history.':'Ticks, settings and copied prompts are kept under your name.'}</span></div></div></details>`; }
+    <div class="j4line"><label class="jo"><input type="checkbox" data-f="hide"${J.hide?' checked':''}> Hide what I have already heard</label><span class="fine">${pid()==='guest'?'Travelling as a guest: ticks stay on this device and copies are not kept. Sign in from the round account button to keep a history.':'Ticks, settings and copied prompts are kept under your name.'}</span></div></div></details>`; }
 function render(){ try{ state(); if(!root.querySelector('#j4list')){
       root.innerHTML=`<div class="seg j4kind" role="group" aria-label="Kind of journey">${KINDS.map(([k,l])=>`<button type="button" data-kind="${k}" aria-pressed="false">${l}</button>`).join('')}</div>
         <p class="jintro" id="j4intro"></p><div id="j4set"></div><div id="j4filt"></div><p class="fine" id="j4prog" aria-live="polite"></p><div id="j4list"></div>`; }

@@ -78,3 +78,5 @@
   .j4h .j4act{margin-left:0}
   .j4txt{max-width:none}
 }
+/* the view is a scrolling column: its rows must keep their height (the kind switch was being squeezed to nothing) */
+#view-journey>*{flex:none}

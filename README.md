@@ -10,15 +10,28 @@ Pick a place and a year and hear what people there were listening to. The site e
 | `src/mods/NN_name.js`, `.css` | Feature modules, added to the page in file-name order. |
 | `data/*.json` | The music data, one file per key of the page's `DATA` object. One entry per line so changes show up clearly in a diff. |
 | `build.py` | Joins the three into `dist/index.html`. Standard-library Python only. |
+| `serve.py` | Runs the site on your own computer and rebuilds on every change. |
+| `db/*.sql` | Database changes for Supabase, in order. See `db/README.md`. |
 | `tests/smoke.py` | Loads the built page at phone and desktop size, opens every tab, fails on any script error. |
+| `tests/account.py` | Checks accounts, travels and the admin page with a stand-in for the sign-in library. |
 
 `dist/` is build output and is never committed.
+
+## Run it on your computer
+
+```
+python3 serve.py            # then open http://localhost:8000
+```
+
+Needs Python 3 only. A local copy talks to the dev database.
 
 ## Build and test
 
 ```
 python3 build.py
 python3 tests/smoke.py    # needs Python Playwright with Chromium
+python3 tests/account.py
+bash db/test.sh           # needs a local Postgres server
 ```
 
 Open `dist/index.html` in a browser, or serve the `dist` folder from any static host.
@@ -31,9 +44,17 @@ Open `dist/index.html` in a browser, or serve the `dist` folder from any static 
 
 Pull requests are welcome; open them against `dev`.
 
+## Builds
+
+Cloudflare builds and publishes every push: `main` to the live site, every other branch to its own preview address (`<branch>-time-machine…workers.dev`). Builds are a limited free allowance, so:
+
+- Work is built and tested locally (`build.py`, `tests/`, `db/test.sh`) and pushed once per review round, not once per change.
+- Pushes that touch only `db/`, `tests/` or `*.md` files should not build at all: set **Build watch paths** in Cloudflare to exclude `db/*`, `tests/*` and `*.md`.
+- Data updates (`data/`) change the site, so they do build; they are batched into one push.
+
 ## Loads from other sites
 
-Google Fonts, jsDelivr (world map outlines, satellite image fallback), MusicBrainz and the Cover Art Archive (cover thumbnails, looked up in the visitor's browser and not stored here). Links open YouTube, Google, Wikipedia and TuneMyMusic in a new tab.
+Google Fonts, jsDelivr (world map outlines, satellite image fallback, the sign-in library for people who sign in) and Supabase (sign-in, tester data, the anonymous usage log). Album art from MusicBrainz and the Cover Art Archive is switched off for now (`COVERS_ENABLED` in `src/template.html`). Links open YouTube, Google, Wikipedia and TuneMyMusic in a new tab.
 
 ## Licence
 

@@ -23,6 +23,8 @@ def run(pw, name, viewport):
         page.click('#' + t)
         page.wait_for_timeout(250)
         assert page.get_attribute('#' + t, 'aria-selected') == 'true', t + ' did not open'
+    page.click('#whobtn'); page.wait_for_timeout(250)
+    assert page.evaluate('curView()') == 'me', 'account button did not open the Account page'
     wide = page.evaluate('document.documentElement.scrollWidth > innerWidth')
     assert not wide, 'page scrolls sideways'
     browser.close()
