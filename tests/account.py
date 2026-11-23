@@ -109,7 +109,7 @@ with sync_playwright() as pw:
         shot(p, 'acct_pending_' + name)
         p.fill('#acctcode', 'nope'); p.click('#acctuse'); p.wait_for_timeout(300); assert 'not valid' in p.inner_text('#acctbox')
         p.fill('#acctcode', 'aaaa-bbbb-cccc'); p.press('#acctcode', 'Enter'); p.wait_for_timeout(500)
-        txt = p.inner_text('#acctbox'); assert 'Under review' not in txt and 'Beta tester' in txt and 'You are in' in txt, txt
+        txt = p.inner_text('#view-me'); assert 'Under review' not in txt and 'Beta tester' in p.inner_text('#view-me .mewho') and 'You are in' in txt, txt
         assert 'wait' not in p.get_attribute('#whobtn', 'class')
         assert 'night_owl' in p.inner_text('#view-me .mewho') and p.locator("[data-page='me']").count() == 1, 'Account page did not follow the account'
         p.click('#acctnew'); p.wait_for_timeout(300)
@@ -161,6 +161,6 @@ with sync_playwright() as pw:
     assert 'invite' not in p.evaluate('location.search') and not asked
     assert not errs, errs; b.close()
     b, p, errs, asked = open_page(pw, PHONE, init={}, query='?invite=AAAA-BBBB-CCCC'); p.wait_for_timeout(900)
-    txt = p.inner_text('#acctbox'); assert 'Beta tester' in txt and 'You are in' in txt and p.is_visible('#acctnew'), txt
+    txt = p.inner_text('#view-me'); assert 'Beta tester' in p.inner_text('#view-me .mewho') and 'You are in' in txt and p.is_visible('#acctnew'), txt
     assert p.evaluate("localStorage.getItem('wmft-invite')") is None
     assert not errs, errs; b.close(); print('ok invite link')
