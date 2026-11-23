@@ -23,7 +23,7 @@ Read this before changing anything. The owner is Jon (GitHub `jonfmalmberg`).
 - Two projects: dev and prod. Addresses and public keys are in `src/mods/04_config.js`. The prod address uses prod; every other address, including localhost, uses dev.
 - Work freely in dev. Change prod only with the owner's approval, by running the numbered files in `db/` in order.
 - User data in prod is immutable without the owner's explicit approval: no change may delete, rewrite or break it.
-- Every table: `revoke all` first, row-level security on, explicit grants for exactly what the site uses. Nothing is readable by visitors who are not signed in; the only things they can do are add rows to `anon_events` and file a request through `request_add()`.
+- Every table: `revoke all` first, row-level security on, explicit grants for exactly what the site uses. Nothing is readable by visitors who are not signed in; the only things they can do are add rows to `anon_events` and file a request through `request_add()` or `request_many()`.
 - Never commit a secret key. Only publishable keys appear in the repository.
 - Stay on free plans with no payment card, so no bill is possible.
 

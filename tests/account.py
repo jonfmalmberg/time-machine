@@ -31,6 +31,7 @@ window.supabase={createClient(url,key,opt){ const st=window.__sb; st.url=url; st
         ok({data,error}); } }; return o; };
   return { from:q,
      rpc(name,args){ st.calls.push('rpc '+name+' '+JSON.stringify(args||{}));
+        if(name==='request_many'){ const out={}; args.req_items.forEach(it=>{ st.requests.push({id:100+st.requests.length,kind:args.req_kind,key:it.key,ref:it.ref,n:1,w:1/args.req_items.length,status:'open',last_at:new Date().toISOString()}); out[it.key]='open'; }); return Promise.resolve({data:out,error:null}); }
         if(name==='request_add'){ const ex=st.requests.find(x=>x.kind===args.req_kind&&x.key===args.req_key); if(ex){ ex.n++; return Promise.resolve({data:ex.status,error:null}); } st.requests.push({id:99,kind:args.req_kind,key:args.req_key,ref:args.req_ref,n:1,status:'open',last_at:new Date().toISOString()}); return Promise.resolve({data:'open',error:null}); }
         if(name==='create_invite'){ const c='1234ABCD00'+String(10+st.invites.length); st.invites.push(c); return Promise.resolve({data:c,error:null}); }
         if(name==='redeem_invite'){ const c=String(args.invite_code).replace(/[^0-9a-f]/gi,'').toUpperCase();
@@ -54,6 +55,8 @@ def open_page(pw, viewport, init=None, dark=False, query=''):
     def route(r):
         u = r.request.url
         if u.startswith('file:'): return r.continue_()
+        if '/rest/v1/rpc/request_many' in u:   # one ask for several decades
+            d = json.loads(r.request.post_data or '{}'); reqs.append(d); return r.fulfill(status=200, content_type='application/json', body=json.dumps({i['key']: 'open' for i in d['req_items']}))
         if '/rest/v1/rpc/request_add' in u:   # a visitor's request: plain call, no library
             reqs.append(json.loads(r.request.post_data or '{}')); return r.fulfill(status=200, content_type='application/json', body='"open"')
         if '/rest/v1/anon_events' in u:   # the anonymous usage log: plain requests, no library
@@ -110,9 +113,23 @@ with sync_playwright() as pw:
     p.evaluate("setYear(1955); setPlace({k:'cty',iso:'AR'}); stPanelUpdate()"); p.wait_for_timeout(400)
     p.evaluate("document.getElementById('streq').click()"); p.wait_for_timeout(400)
     assert reqs[-1]['req_kind'] == 'research' and reqs[-1]['req_key'] == 'AR_1950_new' and 'Request received' in p.inner_text('.rq[data-kind="research"]'), reqs[-1]
-    # before 1940 and without a country there are still both buttons
+    # research is asked for in the pieces it is done in: one country, decade by decade. No country or before 1940: nothing to ask for.
     p.evaluate("setYear(1850); setPlace(null); stPanelUpdate()"); p.wait_for_timeout(400)
-    assert p.locator('#sttest').count() == 1 and p.locator('#streq').count() == 1, p.inner_text('#ststatus')
+    assert p.locator('#sttest').count() == 1 and p.locator('#streq').count() == 0 and 'Choose a country' in p.inner_text('#ststatus'), p.inner_text('#ststatus')
+    # the United Kingdom over all of history: every decade from the 1940s, one request shared between the unresearched ones
+    p.evaluate("resetFilters('all'); setPlace({k:'cty',iso:'GB'}); stPanelOpen=true; stBarUI(); stPanelUpdate()"); p.wait_for_timeout(400)
+    todo = p.evaluate("[1940,1950,1960,1970,1980,1990,2000,2010,2020].filter(d=>!Object.keys(YEARL.GB||{}).some(y=>decadeKey(+y)===String(d)))")
+    assert len(todo) >= 2 and '9 decades' in p.inner_text('#ststatus') and p.inner_text('#streq') == 'Request %d decades' % len(todo), (todo, p.inner_text('#ststatus'))
+    p.evaluate("document.getElementById('streq').click()"); p.wait_for_timeout(400)
+    assert reqs[-1]['req_kind'] == 'research' and [i['key'] for i in reqs[-1]['req_items']] == ['GB_%d_new' % d for d in todo], reqs[-1]
+    assert p.locator('#streq').count() == 0 and 'Requested' in p.inner_text('.rq[data-kind="research"]'); shot(p, 'request_decades_phone')
+    n_before = len(reqs)   # narrowing to one of those decades shows it as already asked for
+    p.evaluate("setYear(%d); setStay(0); stPanelUpdate()" % (todo[-1] + 1)); p.wait_for_timeout(400)
+    assert p.locator('#streq').count() == 0 and 'Request received' in p.inner_text('.rq[data-kind="research"]') and len(reqs) == n_before, p.inner_text('#ststatus')
+    # the listener test logs the filters as they are
+    p.evaluate("resetFilters('all'); setPlace({k:'cty',iso:'GB'}); stPanelOpen=true; stBarUI(); stPanelUpdate()"); p.wait_for_timeout(400)
+    p.evaluate("document.getElementById('sttest').click()"); p.wait_for_timeout(400)
+    f = reqs[-1]['req_ref']['filter']; assert reqs[-1]['req_kind'] == 'listener' and f['pl'] == 'cty:GB' and f['until'] is True and f['y1'] >= 2026 and f['y0'] < 0, reqs[-1]['req_ref']
     # genres: the list has one Playlist button per genre, which opens the same panel
     p.evaluate("resetFilters('all'); stPanelOpen=false; stBarUI()")
     p.click('#tab-list'); p.wait_for_timeout(400)

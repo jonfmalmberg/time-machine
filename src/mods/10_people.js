@@ -151,7 +151,7 @@ let AD={stats:null,people:null,reqs:null,err:'',at:0};
 const ROLEN={beta:'Beta tester',principal:'Principal tester',owner:'Owner'};
 async function adminLoad(){ const c=cl(); if(!c) return; AD.at=Date.now();
   try{ const [s,p,q]=await Promise.all([c.rpc('admin_stats'),c.from('profiles').select('id,handle,role,status,joined').order('joined',{ascending:false}).limit(1000),
-      c.from('requests').select('id,kind,key,ref,n,status,last_at').eq('status','open').order('n',{ascending:false}).limit(100)]);
+      c.from('requests').select('id,kind,key,ref,n,w,status,last_at').eq('status','open').order('w',{ascending:false}).limit(100)]);
     if(s.error) throw s.error; if(p.error) throw p.error; AD.stats=s.data; AD.people=p.data||[]; AD.reqs=q.error?null:(q.data||[]); AD.err=''; }
   catch(e){ AD.err=(e&&e.message)||'The admin data could not be read.'; }
   if(curView()==='me'&&page==='admin') render(); }
@@ -169,10 +169,12 @@ function adminHtml(){ if(!AD.people&&!AD.err){ if(Date.now()-AD.at>3000) adminLo
     <p class="fine">Issues and feedback from testers will be listed here once that feature is built.</p></div>`; }
 /* Requests for a listener test or for research: most asked-for first. Tap one to read it and settle it. */
 const reqTitle=r=>{ const f=r.ref||{}; return (r.kind==='listener'?'Listener test':'Research')+' · '+(f.label||r.key)+(r.kind==='listener'&&f.y0!=null?' · '+(f.y0===f.y1?fmtY(f.y0):fmtY(f.y0)+'–'+fmtY(f.y1)):''); };
+/* n counts asks; w is their weight: an ask spread over ten decades adds 0.1 to each */
+const askN=r=>`Asked ${r.n} time${r.n===1?'':'s'}`+(r.w!=null&&Math.abs(r.w-r.n)>.005?`, weight ${(+r.w).toFixed(2).replace(/0$/,'')}`:'');
 function reqHtml(){ const R=AD.reqs; if(R==null) return `<p class="fine adnone">Not available.</p>`; if(!R.length) return `<p class="fine adnone">No open requests.</p>`;
-  return `<div class="rows">${R.map(r=>`<button type="button" class="rowb adp" data-rq="${r.id}"><span class="rmain"><b>${esc(reqTitle(r))}</b><small>Asked ${r.n} time${r.n===1?'':'s'} · last ${fmtD(Date.parse(r.last_at))}</small></span><span class="rchev">${ic('chev')}</span></button>`).join('')}</div>${R.length===100?'<p class="fine">Showing the 100 most asked-for.</p>':''}`; }
+  return `<div class="rows">${R.map(r=>`<button type="button" class="rowb adp" data-rq="${r.id}"><span class="rmain"><b>${esc(reqTitle(r))}</b><small>${askN(r)} · last ${fmtD(Date.parse(r.last_at))}</small></span><span class="rchev">${ic('chev')}</span></button>`).join('')}</div>${R.length===100?'<p class="fine">Showing the 100 most asked-for.</p>':''}`; }
 function openReq(id){ const r=(AD.reqs||[]).find(x=>String(x.id)===String(id)), c=cl(); if(!r||!c) return; const f=r.ref||{};
-  const b=UI.detail(reqTitle(r),`<p class="fine dsub">Asked ${r.n} time${r.n===1?'':'s'} · last ${fmtD(Date.parse(r.last_at))}${f.mode?' · '+(f.mode==='home'?'made there':'heard there'):''}</p>
+  const b=UI.detail(reqTitle(r),`<p class="fine dsub">${askN(r)} · last ${fmtD(Date.parse(r.last_at))}${f.mode?' · '+(f.mode==='home'?'made there':'heard there'):''}</p>
     ${f.prompt?`<p class="shlabel">The prompt to test</p><textarea class="adprompt" readonly rows="8">${esc(f.prompt)}</textarea>`:''}
     <div class="rows adacts"><button type="button" class="rowb adact" data-st="done">Mark as done</button><button type="button" class="rowb adact danger" data-st="declined">Decline</button></div>`);
   b.onclick=async ev=>{ const x=ev.target.closest('.adact'); if(!x) return; UI.sheet.close(); const {error}=await c.from('requests').update({status:x.dataset.st}).eq('id',r.id); AD.err=error?(error.message||'That did not work.'):''; await adminLoad(); }; }

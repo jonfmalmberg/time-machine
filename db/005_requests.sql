@@ -9,9 +9,12 @@
 --
 -- What this file does, in order:
 --   1. public.requests: one row per distinct request.
---   2. request_add(): the only way to add or repeat a request. Anyone may
---      call it, signed in or not. It refuses floods (more than 60 distinct
---      requests a minute in total) and stops at 5,000 open requests.
+--   2. request_add() and request_many(): the only ways to add or repeat a
+--      request. Anyone may call them, signed in or not. request_many() takes
+--      one ask that covers several pieces of work (research for a country
+--      over several decades) and gives each piece an equal share of one
+--      request. Floods are refused (more than 200 new rows a minute in
+--      total) and the list stops at 5,000 open requests.
 --   3. Only the owner can read the list, mark a request done or declined,
 --      and add a note.
 --   4. admin_stats() also reports the number of open requests.
@@ -30,6 +33,9 @@ create table public.requests (
   ref       jsonb check (ref is null or pg_column_size(ref) <= 12000),
   -- How many times it has been asked for.
   n         int not null default 1,
+  -- How much it has been asked for. One ask adds 1 in total: an ask that
+  -- covers 10 decades adds 0.1 to each of the 10 rows.
+  w         real not null default 1,
   status    text not null default 'open'
             check (status in ('open', 'done', 'declined')),
   first_at  timestamptz not null default now(),
@@ -46,7 +52,8 @@ alter table public.requests enable row level security;
 
 -- 2. Adding or repeating a request ------------------------------------------
 
-create function public.request_add(req_kind text, req_key text, req_ref jsonb)
+-- The shared step. Not callable from the website.
+create function public.request_put(req_kind text, req_key text, req_ref jsonb, req_w real)
 returns text
 language plpgsql
 security definer
@@ -57,7 +64,7 @@ declare
 begin
   if not exists (select 1 from public.requests where kind = req_kind and key = req_key) then
     if (select count(*) from public.requests
-         where first_at > now() - interval '1 minute') >= 60 then
+         where first_at > now() - interval '1 minute') >= 200 then
       raise exception 'Too many requests right now. Try again in a minute.';
     end if;
     if (select count(*) from public.requests where status = 'open') >= 5000 then
@@ -65,10 +72,11 @@ begin
     end if;
   end if;
 
-  insert into public.requests (kind, key, ref, user_id)
-  values (req_kind, req_key, req_ref, (select auth.uid()))
+  insert into public.requests (kind, key, ref, w, user_id)
+  values (req_kind, req_key, req_ref, req_w, (select auth.uid()))
   on conflict (kind, key) do update
      set n = least(public.requests.n + 1, 1000000),
+         w = least(public.requests.w + req_w, 1000000),
          last_at = now()
   returning status into result;
 
@@ -76,8 +84,51 @@ begin
 end;
 $$;
 
+revoke execute on function public.request_put(text, text, jsonb, real) from public, anon, authenticated;
+
+-- One request for one thing.
+create function public.request_add(req_kind text, req_key text, req_ref jsonb)
+returns text
+language sql
+security definer
+set search_path = ''
+as $$ select public.request_put(req_kind, req_key, req_ref, 1) $$;
+
 revoke execute on function public.request_add(text, text, jsonb) from public;
 grant  execute on function public.request_add(text, text, jsonb) to anon, authenticated;
+
+-- One request that covers 1 to 40 pieces of work, given as
+-- [{"key": ..., "ref": ...}, ...]. Each piece gets an equal share.
+-- Returns {key: status} so the page can show what is already done.
+create function public.request_many(req_kind text, req_items jsonb)
+returns jsonb
+language plpgsql
+security definer
+set search_path = ''
+as $$
+declare
+  cnt    int;
+  item   jsonb;
+  result jsonb := '{}'::jsonb;
+begin
+  if req_items is null or jsonb_typeof(req_items) <> 'array' then
+    raise exception 'Nothing to request.';
+  end if;
+  cnt := jsonb_array_length(req_items);
+  if cnt < 1 or cnt > 40 then
+    raise exception 'A request covers 1 to 40 items.';
+  end if;
+  for item in select * from jsonb_array_elements(req_items) loop
+    result := result || jsonb_build_object(
+      item->>'key',
+      public.request_put(req_kind, item->>'key', item->'ref', (1.0 / cnt)::real));
+  end loop;
+  return result;
+end;
+$$;
+
+revoke execute on function public.request_many(text, jsonb) from public;
+grant  execute on function public.request_many(text, jsonb) to anon, authenticated;
 
 -- 3. What the website may do ------------------------------------------------
 
