@@ -1,5 +1,5 @@
 [
-{"id":"c:JP:2000s","status":"decade list","note":"","tests":[{"id":"JP-2000-2009-2026-11-16","y0":2000,"y1":2009,"date":"2026-11-16","scores":[8,9,8],"result":"pass","note":""}]},
+{"id":"c:JP:2000s","status":"decade list","note":"","tests":[{"id":"JP-2000-2009-2026-11-16","y0":2000,"y1":2009,"date":"2026-11-16","scores":[8,9,8],"result":"pass","note":"","years":[2001,2004,2008]}]},
 {"id":"c:JP:2000","status":"year list","note":"Home list is Oricon year-end singles. Foreign evidence thin: only Bon Jovi has both a ranked album and a 2000 single; Céline Dion and Beatles best-ofs ranked but had no single of the year."},
 {"id":"c:JP:2001","status":"year list","note":"Home list is Oricon year-end singles. Foreign songs are inferred from foreign albums in the year-end albums top 50 (single not separately ranked)."},
 {"id":"c:JP:2002","status":"year list","note":"Oricon #1 single was Ayumi Hamasaki's three-track 'H' (not a song title); her 'Voyage' (#9, Japan Cable Award) is listed instead. MONGOL800 and BoA rest on album ranks. No KICK THE CAN CREW single in the top 50."},

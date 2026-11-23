@@ -1,5 +1,5 @@
 [
-{"id":"c:KR:2000s","status":"decade list","note":"","tests":[{"id":"KR-2000-2009-2026-11-16","y0":2000,"y1":2009,"date":"2026-11-16","scores":[8,9,9],"result":"pass","note":""}]},
+{"id":"c:KR:2000s","status":"decade list","note":"","tests":[{"id":"KR-2000-2009-2026-11-16","y0":2000,"y1":2009,"date":"2026-11-16","scores":[8,9,9],"result":"pass","note":"","years":[2002,2005,2008]}]},
 {"id":"c:KR:2000","status":"year list","note":"No foreign song listed: no Korea-specific song-level source (chart, airplay or ringtone list) was found for this year. Ranking from year-end broadcaster awards, then weeks at number one on SBS Inkigayo and MBC Music Camp."},
 {"id":"c:KR:2001","status":"year list","note":"No foreign song listed: no Korea-specific song-level source (chart, airplay or ringtone list) was found for this year. Music Camp list has gaps (Apr-Jun, Oct 2001); Inkigayo list is complete."},
 {"id":"c:KR:2002","status":"year list","note":"No foreign song listed: no Korea-specific song-level source (chart, airplay or ringtone list) was found for this year. Thin evidence: the Inkigayo source has no 2002 entries and the Music Camp list lacks Jan, Apr-Jul and most of Oct 2002 (World Cup break), so spring/summer hits are under-covered; no trot or World Cup song could be sourced."},

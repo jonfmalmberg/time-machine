@@ -1,5 +1,5 @@
 [
-{"id":"c:MY:1960s","tests":[{"id":"MY-1960-1969-2026-11-16","y0":1960,"y1":1969,"date":"2026-11-16","scores":[7,7,6],"result":"below","note":"thin sources"}]},
+{"id":"c:MY:1960s","tests":[{"id":"MY-1960-1969-2026-11-16","y0":1960,"y1":1969,"date":"2026-11-16","scores":[7,7,6],"result":"below","note":"thin sources","years":[1962,1965,1967]}]},
 {"id":"c:MY:1960","status":"year list","note":"Very thin. No chart existed and only one song could be tied to 1960 by a source: a film song dated by its film's release, with a retrospective (not year-specific) popularity statement. No foreign hit could be sourced to Malaya/Singapore for 1960."},
 {"id":"c:MY:1961","status":"year list","note":"Very thin. No home song could be sourced as a 1961 hit (P. Ramlee's 1961 films Ali Baba Bujang Lapok and Seniman Bujang Lapok have song lists but no source calling a song a hit). Foreign rows rest on memoir-level evidence around Cliff Richard and The Shadows' November 1961 Singapore/Kuala Lumpur shows, not on a chart."},
 {"id":"c:MY:1962","status":"year list","note":"Thin. Home rows are P. Ramlee film songs dated by film release (Ibu Mertua-ku, 7 Mar 1962; Labu dan Labi, 29 Aug 1962) plus retrospective statements that they are among his/Saloma's best-known songs; no year-specific popularity measure. The single foreign row is memoir-level."},

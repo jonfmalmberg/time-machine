@@ -1,5 +1,5 @@
 [
-{"id":"c:SE:1950s","status":"decade list","note":"Pre-chart decade; home list is thin (7) rather than padded with unverified titles.","tests":[{"id":"SE-1950-1959-2026-11-16","y0":1950,"y1":1959,"date":"2026-11-16","scores":[7,7,8],"result":"below","note":"sparse; no chart existed before 1958"}]},
+{"id":"c:SE:1950s","status":"decade list","note":"Pre-chart decade; home list is thin (7) rather than padded with unverified titles.","tests":[{"id":"SE-1950-1959-2026-11-16","y0":1950,"y1":1959,"date":"2026-11-16","scores":[7,7,8],"result":"below","note":"sparse; no chart existed before 1958","years":[1953,1957,1959]}]},
 {"id":"c:SE:1950","status":"year list","note":"Very thin: no Swedish chart existed and no year-specific source was reachable. Only two Thory Bernhards records dated 1950 and named among her record successes."},
 {"id":"c:SE:1951","status":"year list","note":"Very thin: Expressen's Skivspegeln began Nov 1951 but its entries were not reachable. Dated releases with a general hit statement only."},
 {"id":"c:SE:1952","status":"year list","note":"Thin. Flottarkärlek is firmly 1952 (Karusellen 26 Jan 1952, 300,000+ sold). The Lönndahl title is dated 1952 by one source and 1954 by English Wikipedia's discography."},

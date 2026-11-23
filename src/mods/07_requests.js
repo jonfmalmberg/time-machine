@@ -59,7 +59,8 @@ function momentRows(){ const place=placeName()||'the world', pl=STP&&window.PLKE
         +(n?` Not yet: ${dl(todo.map(d=>d.dec))}. One request is shared between ${n===1?'it':'these '+n}.`:'')}; }
   const prompt=$('stprompt').value||'', g=FG&&window.GKEY?window.GKEY(FG):null, t=iso&&!g&&TESTS.find(x=>x.iso===iso&&a>=x.y0&&b<=x.y1);
   const lis={key:[pl,a+'-'+b,PMODE,hash(prompt)].join('|').slice(0,200),ref:{pl,label:place+(g?' · '+fgName():''),y0:a,y1:b,mode:PMODE,filter:{pl,g,y0:a,y1:b,year:STY,until:STFROM!=null,time:FTM,place:FPL},prompt:prompt.slice(0,3000)}};
-  if(t){ lis.done=true; lis.text=`${cn}, ${t.y0}–${t.y1}. `+tested(t); } else lis.text=`Not run for ${place}${g?', '+fgName():''}, ${stWhen()}. The test uses exactly these filters.`;
+  if(t){ lis.done=true; lis.t=t; lis.text=`${cn}, ${t.y0}–${t.y1}. `+tested(t); } else lis.text=`Not run for ${place}${g?', '+fgName():''}, ${stWhen()}. The test uses exactly these filters.`;
+  res.ctx={mode:'moment',iso,cn,place,D,year:a===b?STY:null}; lis.ctx={mode:'moment',cn:iso?cn:place,when:t?`${t.y0}–${t.y1}`:stWhen()};
   return [res,lis]; }
 
 function genreRows(){ const id=GP, n=byId[id], d=DEFS[id], pl=PL[id], ref=k=>({gid:id,kind:k,label:n.name});
@@ -69,22 +70,70 @@ function genreRows(){ const id=GP, n=byId[id], d=DEFS[id], pl=PL[id], ref=k=>({g
   const prompt=$('stprompt').hidden?'':($('stprompt').value||''), t=TESTS.find(x=>x.g===id);
   const lis=prompt?{key:['g:'+id,useLang(langOfMovement(id))||'en',hash(prompt)].join('|').slice(0,200),ref:{gid:id,label:n.name,prompt:prompt.slice(0,3000)}}
     :{key:'g:'+id+'|pending',ref:{gid:id,label:n.name}};
-  if(t){ lis.done=true; lis.text=tested(t); } else lis.text=prompt?'Not run for this playlist.':'No playlist to test yet. A request is kept and run once the research is done.';
+  if(t){ lis.done=true; lis.t=t; lis.text=tested(t); } else lis.text=prompt?'Not run for this playlist.':'No playlist to test yet. A request is kept and run once the research is done.';
+  res.ctx={mode:'genre',id,name:n.name,d,pl}; lis.ctx={mode:'genre',name:n.name,noList:!prompt};
   return [res,lis]; }
 
 let ROWS=[], busy=false; const MSG={};
+/* ---- status: one coloured word per row, and a card that explains it to someone with no context ---- */
+const TONE={ok:'ok',warn:'warn',none:'none',info:'info'};
+const pill=(tone,label)=>`<span class="stp ${tone}"><i></i>${esc(label)}</span>`;
+// what a row's state is, in one word: [tone, label]
+function status(r){ const s=SENT[r.kind+'|'+r.key], asked=s&&s.status==='open';
+  if(r.kind==='listener'){ if(r.t) return s&&s.rerun&&asked?['info','Rerun requested']:r.t.result==='pass'?['ok','Passed']:['warn','Below standard'];
+    return asked?['info','Requested']:s&&s.status==='done'?['ok','Tested']:s&&s.status==='declined'?['none','Declined']:['none','Not tested']; }
+  if(r.none) return ['none','Not available'];
+  if(r.group) return r.n?(r.items.length<r.ctx.D.length?['warn','Partly researched']:['none','Not researched']):r.asked?['info','Requested']:['ok','Researched'];
+  if(r.done) return s&&s.rerun&&asked?['info','Rerun requested']:['ok','Researched'];
+  if(asked) return ['info','Requested']; if(s&&s.status==='done') return ['ok','Researched']; if(s&&s.status==='declined') return ['none','Declined'];
+  if(r.btn) return ['warn','Thin'];
+  const c=r.ctx||{}; if(c.mode==='moment'&&c.D&&c.D.length===1&&(ERA[c.iso]||{})[String(c.D[0].dec)]) return ['warn','Decade list only'];
+  return ['none','Not researched']; }
+// the short line under the title: what the row is about
+function where(r){ const c=r.ctx||{};
+  if(r.kind==='listener') return c.mode==='genre'?(c.noList?'No playlist to test yet':'This playlist'):`${c.cn}, ${c.when}`;
+  if(r.none) return r.text;
+  if(c.mode==='genre') return c.name;
+  const D=c.D||[]; return D.length>1?`${c.cn}, ${D[0].dec}s to ${D[D.length-1].dec}s: ${D.length} decades`:`${c.cn}, ${D[0].dec}s`; }
+const sec=(h,body)=>body?`<p class="shlabel">${h}</p><div class="cardp">${body}</div>`:'';
+const bar=(n)=>`<span class="scb" aria-hidden="true"><i style="width:${n*10}%"></i></span>`;
+function listenerCard(r){ const c=r.ctx, t=r.t, st=status(r), genre=c.mode==='genre';
+  const asks=genre?`Would someone who lives in this music hear this playlist and say “yes, this is ${c.name}”, and find the recordings that define it?`
+    :`Would someone who grew up in ${c.cn} in those years hear the first songs of this playlist and say “this is the music of my youth”?`;
+  const std=genre?'Not set yet. No genre playlist has been tested so far.':'A few years of the decade are tested, one invented local per year. Every year must score 8 out of 10 or more.';
+  let res='';
+  if(t){ const ys=t.years||[]; res='<div class="scl">'+t.scores.map((n,i)=>`<div class="scr ${n>=8?'ok':'warn'}"><span class="scy">${ys[i]!=null?ys[i]:'Year '+(i+1)}</span>${bar(n)}<b>${n}</b><span class="scv">${n>=8?'meets it':'below'}</span></div>`).join('')+'</div>'; }
+  const how=t?`${day(t.date)}. The listener is simulated: an AI asked to judge as an ordinary person from that place and time. No real person has checked this list.${t.run?'':' This result is from before tests were recorded with their exact inputs, so treat it as provisional.'}`
+    :'Not tested yet. A test is run by a simulated listener: an AI asked to judge as an ordinary person from that place and time.'+(st[1]==='Requested'?' Your request is in the queue for the next research run.':'');
+  return `<div class="cardst">${pill(st[0],st[1])}<span class="fine">${esc(where(r))}</span></div>`
+    +sec('What this test asks',esc(asks))+sec('The standard',std)+sec('Result',res)
+    +sec(t&&t.result!=='pass'?'What fell short':'Note',t&&t.note?esc(t.note.charAt(0).toUpperCase()+t.note.slice(1))+'.':'')+sec('How it was run',how); }
+function researchCard(r){ const c=r.ctx, st=status(r); let means, std, have='';
+  if(r.none){ means='Research collects the songs people in one country actually heard, year by year, from the charts and press of the time.'; std='It is done for one country at a time, from the 1940s on.'; have=esc(r.text); }
+  else if(c.mode==='genre'){ const pl=c.pl, d=c.d;
+    means='A written definition of the genre, reference tracks that fit it, and a playlist of its defining recordings from its beginnings and its peak.';
+    std='Full: 12 or more songs. Thin: the genre is researched but few recordings exist or were found. Longer lists, sized to how much of the genre exists, are planned.';
+    have=!d?'Nothing yet. It has a name and a place on the tree.':`<div class="scl">${[['Definition',d?'yes':'no'],['Reference tracks',d.fits.length],['Playlist songs',pl?pl.intro.length+pl.peak.length:0],['Albums',pl&&pl.albums?pl.albums.length:0]].map(x=>`<div class="scr"><span class="scy wide">${x[0]}</span><b>${x[1]}</b></div>`).join('')}</div>${pl&&pl.note?`<p class="fine">${esc(pl.note)}</p>`:''}`; }
+  else{ const D=c.D, L=YEARL[c.iso]||{}, E=(ERA[c.iso]||{});
+    means=`For each year, the songs people in ${esc(c.cn)} actually heard: that year's hits from published charts and the press of the time, home-grown and foreign, each with its source.`;
+    std='A year counts as researched with 6 or more home-grown songs backed by a source. Before that, a decade has one shared list. Deeper levels, sized to how many hits a country had, are planned.';
+    have='<div class="scl">'+D.map(d=>{ const asked=SENT['research|'+c.iso+'_'+d.dec+'_new']; const p=d.has?pill('ok','By year'):asked?pill('info','Requested'):E[String(d.dec)]?pill('warn','Decade list'):pill('none','Nothing');
+      return `<div class="scr"><span class="scy">${d.dec}s</span>${p}</div>`; }).join('')+'</div>';
+    if(c.year!=null&&L[c.year]){ const n=(L[c.year].songs||[]).filter(x=>x[3]==='home').length; have+=`<p class="fine">${c.year}: ${n} home-grown song${n===1?'':'s'} with a source.</p>`; } }
+  return `<div class="cardst">${pill(st[0],st[1])}<span class="fine">${r.none?'':esc(where(r))}</span></div>`+sec('What research means here',means)+sec('The standard',std)+sec('What exists',have); }
+function openCard(i){ const r=ROWS[i]; if(!r||!window.UI||!UI.detail) return; UI.detail(r.title,r.kind==='listener'?listenerCard(r):researchCard(r)); }
+
 function render(){ const box=$('ststatus'); if(!box||$('stpanel').hidden) return;
   const rs=GP!=null?genreRows():momentRows(); rs[0].kind='research'; rs[0].title=RT_; rs[1].kind='listener'; rs[1].title=LT_; ROWS=rs; const own=owner();
-  box.innerHTML='<div class="rqs">'+rs.map((r,i)=>{ const s=SENT[r.kind+'|'+r.key], id=r.kind==='listener'?'sttest':'streq'; let sub=esc(r.text), right;
-    const btn=(l,re)=>`<button class="lbtn" id="${id}" type="button" data-rqi="${i}"${re?' data-rerun="1"':''}${busy?' disabled':''}>${l}</button>`, tag=(l,ok)=>`<span class="rqb${ok?' ok':''}">${l}</span>`;
+  box.innerHTML='<div class="rqs">'+rs.map((r,i)=>{ const s=SENT[r.kind+'|'+r.key], id=r.kind==='listener'?'sttest':'streq', st=status(r); let right='';
+    const btn=(l,re)=>`<button class="lbtn" id="${id}" type="button" data-rqi="${i}"${re?' data-rerun="1"':''}${busy?' disabled':''}>${l}</button>`;
     if(r.none) right='';
-    else if(r.group) right=r.n?`<button class="lbtn" id="${id}" type="button" data-rqi="${i}"${busy?' disabled':''}>Request ${r.n} decade${r.n===1?'':'s'}</button>`:tag(r.asked?'Requested':'Done',1);
-    else if(r.done){ if(s&&s.rerun&&s.status==='open'){ right=tag('Rerun requested',1); } else right=tag('Done',1)+(own?btn('Rerun',1):''); }
+    else if(r.group) right=r.n?`<button class="lbtn" id="${id}" type="button" data-rqi="${i}"${busy?' disabled':''}>Request ${r.n} decade${r.n===1?'':'s'}</button>`:'';
+    else if(r.done) right=(s&&s.rerun&&s.status==='open')?'':(own?btn('Rerun',1):'');
     else if(!s) right=btn(r.btn||'Request');
-    else if(s.status==='open'){ right=tag(s.rerun?'Rerun requested':'Requested',1); sub=(r.kind==='listener'?'':sub+' ')+'Request received. '+(r.kind==='listener'?'A synthetic listener will test this in the next research run; the result goes into the research notes.':'It is in the research queue.'); }
-    else if(s.status==='done'){ right=tag('Done',1)+(own?btn('Rerun',1):''); sub+=' This request has already been carried out.'; }
-    else{ right=tag('Declined')+(own?btn('Rerun',1):''); sub+=' This request was declined.'; }
-    const m=MSG[r.kind]; return `<div class="rq" data-kind="${r.kind}"><div class="rqm"><b>${r.title}</b><small>${sub}${m?` <span class="reqerr">${esc(m)}</span>`:''}</small></div><div class="rqr">${right}</div></div>`; }).join('')+'</div>'; }
+    else if(s.status!=='open') right=own?btn('Rerun',1):'';
+    const m=MSG[r.kind];
+    return `<div class="rq" data-kind="${r.kind}"><button class="rqm" type="button" data-card="${i}"><b>${r.title}</b>${pill(st[0],st[1])}<small>${esc(where(r))}${m?` <span class="reqerr">${esc(m)}</span>`:''}</small></button><div class="rqr">${right||`<span class="rchev" aria-hidden="true">${window.UI?UI.ic('chev'):''}</span>`}</div></div>`; }).join('')+'</div>'; }
 async function act(r,rerun){ if(busy||r.none) return; busy=true; render(); const k=r.kind+'|'+r.key;
   if(r.group){ const res=r.items.length?await sendMany(r.kind,r.items):{ok:true}; MSG[r.kind]=res.ok?'':res.msg; busy=false; render(); return; }
   const res=await send(r.kind,r.key,rerun?Object.assign({},r.ref,{rerun:true}):r.ref); let msg=res.ok?'':res.msg;
@@ -92,6 +141,7 @@ async function act(r,rerun){ if(busy||r.none) return; busy=true; render(); const
     if(res.status!=='open'){ try{ const cl=window.ACCOUNT.client(), {error}=await cl.from('requests').update({status:'open'}).eq('kind',r.kind).eq('key',r.key); if(error) msg=error.message||'The rerun could not be requested.'; }catch(e){ msg='The rerun could not be requested.'; } }
     if(!msg){ SENT[k]={at:Date.now(),status:'open',rerun:true}; keep(); } }
   MSG[r.kind]=msg; busy=false; render(); }
-const box=$('ststatus'); if(box) box.addEventListener('click',e=>{ const b=e.target.closest('button[data-rqi]'); if(!b) return; const r=ROWS[+b.dataset.rqi]; if(r) act(r,!!b.dataset.rerun&&owner()); });
+const box=$('ststatus'); if(box) box.addEventListener('click',e=>{ const b=e.target.closest('button[data-rqi]'); if(b){ const r=ROWS[+b.dataset.rqi]; if(r) act(r,!!b.dataset.rerun&&owner()); return; }
+  const c=e.target.closest('[data-card]'); if(c) openCard(+c.dataset.card); });
 stStatus=function(){ MSG.research=MSG.listener=''; try{ render(); }catch(e){} };
 setTimeout(()=>{ try{ if(window.ACCOUNT&&window.ACCOUNT.onChange) window.ACCOUNT.onChange(()=>{ try{ render(); }catch(e){} }); }catch(e){} },0);

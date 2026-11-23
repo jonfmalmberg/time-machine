@@ -2,6 +2,11 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (cards provisionally accepted; prominence is still wrong)
+
+- Owner: the status cards look good provisionally, no faults in a brief check; "provisionally" means the tiers must reach the schema and the cards, and both must be on the roadmap and the tracker. Squash-merged to `dev`. Added as roadmap 2.14 (tiers and size estimates stored on scopes) and 7.9 (cards show the tier reached and each scope's own standard).
+- Owner on the prominence report: knowing what causes the prominence does not make the mechanism right. The result is wrong: Qur'anic recitation is not that large a part of day-to-day listening in the modern era, yet it leads the tunnel. Recorded as the test any new formula must pass (roadmap 2.6): what is prominent at a moment must match how much of ordinary listening it was at that moment, not how significant it is in history or how long it has existed.
+
 ## 2026-11-23 (population figures)
 
 - H6 accepted: `work/2026-11-23-H6/population.json`, 226 countries by decade from the 1950s to the 2020s, from the United Nations World Population Prospects 2024, each figure with the exact row of the UN file it came from, cross-checked against the UN's Excel file with no differences. The 1940s are empty: the UN series starts in 1950. This is the "people" part of the weight table.
@@ -20,6 +25,12 @@ One entry per working session, newest first: what was done, what was decided and
 - H5 accepted: `docs/research/2026-11-23-prominence.md`. The genre that seems to fill the tunnel is Qur'anic recitation, and it dominates by its name, not by drawn light: its peak is recorded as 700 to 2026 so it never leaves the front, its significance is 5 which gives its name top priority, its region is anchored nearest the centre, and names are drawn toward the centre. Its name is the largest drawn in 121 of 201 sampled moments. This was inferred from measurement, not from the owner's screen.
 - Owner: usage at 64%, two more helper runs allowed today (eight in all); the lead should work on its own task while helpers run and review hand-backs when convenient, not immediately.
 - Queue: H7 and H8 added (genre batches 3 and 4). Helper fired for H6 (population).
+## 2026-11-23 (status flags and explanation cards)
+
+- Owner tested `dev`: works. His comment on the Japan 1990s row: a typical user has no idea what "scores 9, 6, 6" means; show a coloured status with a detail card that explains, without prior context and briefly, the result and the standard it was measured against, especially now that tests come in tiers.
+- Built on branch `status-cards`: each row in the playlist panel shows one coloured word (Researched, Thin, Decade list only, Not researched, Passed, Below standard, Not tested, Requested). Tapping the row opens a card: what the test asks, the standard, the result per year as bars against the standard, what fell short, and how it was run (a simulated listener, not a real person; provisional where the inputs were not recorded). The research card says what research means for that scope, the standard, and what exists per decade.
+- Test records now carry the years tested where the rounds recorded them (12 of 18).
+- The card's "standard" section is where a tier's target will go once scopes have their own targets.
 
 ## 2026-11-23 (layout method recovered; web access; batch 2)
 
