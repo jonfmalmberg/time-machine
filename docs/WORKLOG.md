@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (researched genres can enter the data; the page says what is verified)
+
+- Branch `ingest` (built on `unverified-flag`), by an Opus sub-agent to a written specification, tests rerun by the lead: `tools/ingest.py` puts a helper's hand-back into the data, taking only songs whose claim the check script found. Run on genre batch 3: eight genres that had a name only now have a definition and a full playlist (18 to 27 songs each); 215 new songs, 114 new artists, 57 releases, 392 evidence records with their exact strings. Pending genres go from 132 to 124.
+- Left out, all in Hardanger fiddle: one song whose source refuses scripts, and three entries whose spelling in the hand-back differs from the spelling in its own claims (probably the same recordings; not guessed). The playlist note mentioned the left-out 1928 recording; the lead removed that sentence so the note does not describe a song that is not in the list.
+- The page now reads how many of a list's songs were found on their cited page: Verified, Partly verified (with the count), or Unverified. The eight new genres show Verified; everything collected earlier shows Unverified.
+- Not merged: waits for the owner's review together with `unverified-flag`.
+
 ## 2026-11-23 (evidence triage; shareable links)
 
 - H9 accepted. Of 161 unconfirmed claims from batches 1 and 2: 10 confirmed, 6 reworded, 30 source gone, 1 wrong source, 114 cannot tell (the sites refuse scripts, and the page-reading tool needs a permission nobody was there to give). The 17 claims on `download.osmand.net` cite a dead copy of a Wikimedia Commons page and are all on the original. 66 of 207 playlist songs in those batches have no supporting claim at present.
