@@ -89,11 +89,22 @@ function status(r){ const s=SENT[r.kind+'|'+r.key], asked=s&&s.status==='open';
   if(r.btn) return ['plain','Thin'];
   const c=r.ctx||{}; if(c.mode==='moment'&&c.D&&c.D.length===1&&(ERA[c.iso]||{})[String(c.D[0].dec)]) return ['plain','Decade list only'];
   return ['none','Not researched']; }
-/* Verification. The owner's rule is that nothing unverified is shown as sourced. Every list on the site today was collected
-   before sources were checked claim by claim, so every research row that has a list carries this flag until its scope is checked.
-   When scopes record their checked share (roadmap 2.15) this reads it; today the share is nil everywhere. */
+/* Verification. The owner's rule is that nothing unverified is shown as sourced. DATA.verified holds, per scope, how many
+   song links it has and how many of them the evidence-check script found on the page cited for them (built by
+   tools/legacy_data.py). A genre row reads its genre; a place-and-time row adds up the decades in view. A list with every
+   song checked is Verified, one with some is Partly verified, one with none (every list collected before claims were
+   checked one by one) stays Unverified. */
+const VER=DATA.verified||{g:{},c:{}};
+function share(r){ const c=r.ctx||{};
+  if(c.mode==='genre') return (VER.g||{})[c.id]||null;
+  if(c.mode==='moment'&&c.iso){ const C=(VER.c||{})[c.iso]||{}; let links=0, checked=0;
+    (c.D||[]).forEach(d=>{ const v=C[String(d.dec)]; if(v){ links+=v.links; checked+=v.checked; } }); return {links,checked}; }
+  return null; }
 const hasList=r=>r.kind==='research'&&!r.none&&(r.done||!!r.btn||(r.group&&r.items.length<r.ctx.D.length)||status(r)[1]==='Decade list only');
-const verif=r=>hasList(r)?['warn','Unverified']:null;
+const verif=r=>{ if(!hasList(r)) return null; const v=share(r);
+  if(v&&v.links&&v.checked===v.links) return ['ok','Verified'];
+  if(v&&v.checked) return ['warn','Partly verified'];
+  return ['warn','Unverified']; };
 // the short line under the title: what the row is about
 function where(r){ const c=r.ctx||{};
   if(r.kind==='listener') return c.mode==='genre'?(c.noList?'No playlist to test yet':'This playlist'):`${c.cn}, ${c.when}`;
@@ -127,7 +138,9 @@ function researchCard(r){ const c=r.ctx, st=status(r); let means, std, have='';
     if(c.year!=null&&L[c.year]){ const n=(L[c.year].songs||[]).filter(x=>x[3]==='home').length; have+=`<p class="fine">${c.year}: ${n} home-grown song${n===1?'':'s'} with a source.</p>`; } }
   const v=verif(r);
   return `<div class="cardst">${pill(st[0],st[1])}${v?pill(v[0],v[1]):''}<span class="fine">${r.none?'':esc(where(r))}</span></div>`+sec('What research means here',means)+sec('The standard',std)+sec('What exists',have)
-    +sec('Verification',v?'<b>Not verified yet.</b> These songs were collected before each one was checked against its source. Some may be wrong: a song that was not a hit there, a wrong year, a wrong artist. Each list is being checked song by song; until this one is, treat it as a draft.':''); }
+    +sec('Verification',!v?'':v[1]==='Verified'?'<b>Verified.</b> Every song in this list was found on the page cited for it, by a script. That shows the source says it, not that the source is right.'
+      :v[1]==='Partly verified'?(x=>`<b>${x.checked} of ${x.links} songs checked against their source.</b> Each of those was found on the page cited for it, by a script. The others were collected before songs were checked one by one; treat them as a draft.`)(share(r))
+      :'<b>Not verified yet.</b> These songs were collected before each one was checked against its source. Some may be wrong: a song that was not a hit there, a wrong year, a wrong artist. Each list is being checked song by song; until this one is, treat it as a draft.'); }
 function openCard(i){ const r=ROWS[i]; if(!r||!window.UI||!UI.detail) return; UI.detail(r.title,r.kind==='listener'?listenerCard(r):researchCard(r)); }
 
 function render(){ const box=$('ststatus'); if(!box||$('stpanel').hidden) return;

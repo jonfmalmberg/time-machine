@@ -213,6 +213,8 @@ for p in sorted(glob.glob(os.path.join(D, 'scopes', 'g', '*.json')) + glob.glob(
             bad('scope placement', w, '%s is in the wrong file' % sid)
         if r.get('fold') is not None and r['fold'] not in genres:
             bad('reference', w, 'fold %r does not exist' % r['fold'])
+        if r.get('passes') and not r.get('size'):
+            bad('scope size', w, '%s records research passes but no size estimate' % sid)
 
 # ---- links ----
 chosen = {}         # song -> genres where it is intro, peak or reference
@@ -240,6 +242,15 @@ for p in sorted(glob.glob(os.path.join(D, 'links', 'g', '*.json')) + glob.glob(o
                 bad('reference', w, 'evidence %r does not exist' % e)
         if kind == 'g' and role in ('intro', 'peak', 'reference'):
             chosen.setdefault(l.get('song'), set()).add(sid[2:])
+
+# ---- evidence: every id named exists; a checked record says what was checked where ----
+for g in genres.values():
+    for e in (g.get('definition') or {}).get('evidence', []):
+        if e not in evidence:
+            bad('reference', 'genres.json ' + g['id'], 'definition evidence %r does not exist' % e)
+for k, r in evidence.items():
+    if 'check' in r and not (r.get('text') and r.get('url')):
+        bad('evidence', k, 'has a check but no text or no url')
 
 # ---- a song's principal genre is backed by its genre's playlist ----
 for k, s in songs.items():

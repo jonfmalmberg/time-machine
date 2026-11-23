@@ -1,13 +1,16 @@
 [
+{"id":"e_12grx6zy62","url":"https://musicbrainz.org/ws/2/release/625e0952-e88f-4cc5-9173-cea655fc0309?inc=recordings+artist-credits&fmt=json","text":"Michael Glinka","read":"2026-11-23","check":{"result":"found","date":"2026-11-23"}},
 {"id":"e_130g2gghgv","title":"Billboard Canadian Hot 100 Year-End 2010 #33 (Wikipedia, 2010 in Canadian music)","url":"https://en.wikipedia.org/wiki/2010_in_Canadian_music"},
 {"id":"e_13qj7ybjex","title":"Wikipedia: Billboard Year-End Hot 100 singles of 2011 (#5)","url":"https://en.wikipedia.org/wiki/Billboard_Year-End_Hot_100_singles_of_2011"},
 {"id":"e_15s442yezr","title":"Billboard Canadian Hot 100 Year-End 2017 #70 (Wikipedia, 2017 in Canadian music)","url":"https://en.wikipedia.org/wiki/2017_in_Canadian_music"},
 {"id":"e_16drjzvdf1","title":"RPM Top Cancon Singles of 1984 (year-end), #6","url":"https://www.worldradiohistory.com/CANADA/RPM/80s/1985/RPM-1985-01-05.pdf"},
 {"id":"e_16ezsrmqt0","title":"Wikipedia: 1941 in music (Billboard Best Selling Retail Records year ranking)","url":"https://en.wikipedia.org/wiki/1941_in_music"},
+{"id":"e_17k5xnpm35","url":"https://musicbrainz.org/ws/2/release/b64af927-f2fa-4547-882c-6ab0e11280a7?inc=recordings+artist-credits+labels&fmt=json","text":"Sandsdal-springaren","read":"2026-11-23","check":{"result":"found","date":"2026-11-23"}},
 {"id":"e_18dg1r0gf8","title":"Wikipedia: List of Billboard Year-End number-one singles and albums (Hot R&B/Hip-Hop Songs year-end #1, 2010)","url":"https://en.wikipedia.org/wiki/List_of_Billboard_Year-End_number-one_singles_and_albums"},
 {"id":"e_19zqwm76zs","title":"Oricon year-end singles chart 1983, #5 (ja.wikipedia 1983年の音楽)","url":"https://ja.wikipedia.org/wiki/1983年の音楽"},
 {"id":"e_1aeq3tghmq","title":"Billboard Canadian Hot 100 Year-End 2016 #10 (Wikipedia, 2016 in Canadian music)","url":"https://en.wikipedia.org/wiki/2016_in_Canadian_music"},
 {"id":"e_1am0j2wpph","title":"NostalgiListan: Tio i topp 1961 (weeks on chart, weeks at no. 1)","url":"https://www.nostalgilistan.se/tio-i-topp/1961"},
+{"id":"e_1bg68y2a7z","url":"https://en.banglapedia.org/index.php/Bhawaiya","title":"Bhawaiya","text":"Bhawaiya may be of two types: one draws out the voice in melancholy notes, while the other has a chatka or skipping tone.","read":"2026-11-23","check":{"result":"found","date":"2026-11-23"}},
 {"id":"e_1bq3szc2jy","title":"Oricon year-end singles chart 1983, #10 (ja.wikipedia 1983年の音楽)","url":"https://ja.wikipedia.org/wiki/1983年の音楽"},
 {"id":"e_1bz1te5rs9","title":"RPM Top 100 Singles of 1984 (year-end), #6","url":"https://www.worldradiohistory.com/CANADA/RPM/80s/1985/RPM-1985-01-05.pdf"},
 {"id":"e_1c0pmjhmx7","title":"Snedtänktpedia: Gunnar Wiklund [dated release + general hit statement]","url":"https://www.snedtanktpedia.se/personer/gunnar-wiklund/info"},
@@ -22,7 +25,9 @@
 {"id":"e_1nfhy94vg3","title":"Wikipedia: Billboard Hot Latin Songs Year-End Chart (2010, #3)","url":"https://en.wikipedia.org/wiki/Billboard_Hot_Latin_Songs_Year-End_Chart"},
 {"id":"e_1nmxv02eyx","title":"Oricon year-end singles chart 1980, #3 (ja.wikipedia 1980年の音楽)","url":"https://ja.wikipedia.org/wiki/1980年の音楽"},
 {"id":"e_1q0550t3xv","title":"Billboard Canadian Hot 100 Year-End 2013 #24 (Wikipedia, 2013 in Canadian music)","url":"https://en.wikipedia.org/wiki/2013_in_Canadian_music"},
+{"id":"e_1q89t9zp8s","url":"https://api.discogs.com/releases/10316028","text":"\"title\":\"Tea House Music Of Afghanistan\"","read":"2026-11-23","check":{"result":"found","date":"2026-11-23"}},
 {"id":"e_1qayea8c5g","title":"Oricon year-end singles chart 1985, #42 (ja.wikipedia 1985年の音楽)","url":"https://ja.wikipedia.org/wiki/1985年の音楽"},
+{"id":"e_1qejd7e4zp","url":"https://api.discogs.com/releases/2245725","text":"\"title\":\"Cari Hiburan\"","read":"2026-11-23","check":{"result":"found","date":"2026-11-23"}},
 {"id":"e_1r6b8nmcjq","title":"Wikipedia: Haruna Ishola","url":"https://en.wikipedia.org/wiki/Haruna_Ishola"},
 {"id":"e_1s5g5vcy54","title":"RPM number-one singles of 1977 (Wikipedia)","url":"https://en.wikipedia.org/wiki/List_of_number-one_singles_of_1977_(Canada)"},
 {"id":"e_1se2z4e63n","title":"Mais Tocadas – Top 100 músicas mais tocadas em 1977","url":"https://maistocadas.mus.br/1977/"},
@@ -36,5 +41,7 @@
 {"id":"e_1y6pe3qs93","title":"Wikipedia: List of best-selling singles by country (Sweden)","url":"https://en.wikipedia.org/wiki/List_of_best-selling_singles_by_country"},
 {"id":"e_1ybawsy8jy","title":"ADISQ 2012 'Chanson populaire de l'annee' nominee (Paperblog)","url":"https://www.paperblog.fr/5783987/gala-de-l-adisq-2012-les-favoris/"},
 {"id":"e_1yea18qf15","title":"francomusique.ca, La musique en 1984","url":"https://francomusique.ca/2020/04/03/la-musique-en-1984/"},
-{"id":"e_1yqc3a1ayh","title":"29th SOCAN Montreal Awards 2018: most-played francophone songs of 2017","url":"https://www.socanmagazine.ca/news/socan-salutes-female-music-creators-at-2018-montreal-awards/"}
+{"id":"e_1yhjv7xb9v","url":"https://www.womex.com/virtual/astronave_1/siba_e_a_fuloresta","text":"becoming on the main masters of the new generation of ciranda and maracatu nowadays","read":"2026-11-23","check":{"result":"found","date":"2026-11-23"}},
+{"id":"e_1yqc3a1ayh","title":"29th SOCAN Montreal Awards 2018: most-played francophone songs of 2017","url":"https://www.socanmagazine.ca/news/socan-salutes-female-music-creators-at-2018-montreal-awards/"},
+{"id":"e_1zggndasht","url":"https://folkways-media.si.edu/docs/folkways/artwork/SFW40514.pdf","title":"Currulao","text":"instrument called the guasá, a bamboo tube filled with tiny seeds","read":"2026-11-23","check":{"result":"found","date":"2026-11-23"}}
 ]

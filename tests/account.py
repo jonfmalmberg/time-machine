@@ -150,6 +150,19 @@ with sync_playwright() as pw:
     p.evaluate("document.getElementById('sttest').click()"); p.wait_for_timeout(400)
     assert reqs[-1]['req_kind'] == 'listener' and reqs[-1]['req_key'].startswith('g:' + full + '|') and reqs[-1]['req_ref']['gid'] == full, reqs[-1]
     shot(p, 'genre_playlist_phone')
+    # a genre that came in through the master-table step (tools/ingest.py): every song checked, so Verified
+    ing = 'jota'
+    p.evaluate("openGenrePlaylist(%r)" % ing); p.wait_for_timeout(400)
+    assert p.is_visible('#stprompt') and p.input_value('#stprompt') == p.evaluate("promptFor(%r)" % ing) and p.locator('#stlinks ol li').count() > 3
+    st = p.inner_text('.rq[data-kind="research"]')
+    assert ('Researched' in st or 'Thin' in st) and 'Verified' in st and 'Unverified' not in st and 'Partly' not in st, st
+    assert p.evaluate("DATA.verified.g[%r].checked===DATA.verified.g[%r].links&&DATA.verified.g[%r].links>0" % (ing, ing, ing))
+    shot(p, 'genre_verified_phone')
+    p.click('.rq[data-kind="research"] .rqm'); p.wait_for_timeout(500); card = p.inner_text('#sheet-detail')
+    assert 'Verified' in card and 'found on the page cited for it' in card and 'Not verified yet' not in card, card
+    shot(p, 'card_genre_verified_phone'); p.evaluate('UI.sheet.close()'); p.wait_for_timeout(350)
+    p.evaluate("openGenrePlaylist('swing')"); p.wait_for_timeout(400)
+    st = p.inner_text('.rq[data-kind="research"]'); assert 'Unverified' in st, st
     p.evaluate("openGenrePlaylist(%r)" % pend); p.wait_for_timeout(400)
     assert not p.is_visible('#stprompt') and not p.is_visible('#stcopy') and p.locator('#sttest').count() == 1 and p.locator('#streq').count() == 1, 'pending genre lacks a button'
     p.evaluate("document.getElementById('streq').click()"); p.wait_for_timeout(400)
