@@ -71,7 +71,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Hand back:** the rebuilt files, `evidence-check.json`, and per genre: songs before, songs kept, songs dropped and why.
 
 ## H12. Genre research, batch 5
-- **State:** open
+- **State:** accepted 2026-11-23 as candidates. Lead reran the check: 649 of 649 found, agreeing with the helper.
 - **Model, ask, hand back:** as H7, the next eight pending genres, following the evidence section of `work/README.md`: only songs whose claim the check script finds go into the add files.
 
 ## H13. Genre research, batch 6

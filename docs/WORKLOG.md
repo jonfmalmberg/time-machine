@@ -2,6 +2,15 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (genre batch 5)
+
+- Helper hand-back H12 reviewed and taken into `work/2026-11-23-H12/` as candidates: dohori, Tamang selo, pasillo, Haitian méringue, gaita zuliana, pasodoble, harana, Jiangnan sizhu. All eight full, 211 songs. Run configured as `claude-opus-5-5`, sub-agents Opus.
+- Lead reran `tools/check_evidence.py`: 649 of 649 claims found, agreeing with the helper (`evidence-check.lead.json`).
+- The check proves the strings are on the pages, not that the genre tie is sound. Weak ties: dohori 16 of 26 and Tamang selo 20 of 26 songs rest on a track or album title naming the genre; harana and Jiangnan sizhu rest mostly on album titles. 33 of 211 songs have no release year; many years are reissue years. Sizes are all low confidence. These must be weighed at the master-table step, not ingested blind.
+- For the owner (tree): Jiangnan sizhu's parents (kunqu principal, guqin other) are not supported by the pages read; a line Jiangnan sizhu → guoyue is. About 40 named neighbours have no genre id (REPORT.md, question 5). One title character standardised by the helper (梵王工 on the page, 梵王宫 in the playlist): keep the page form until a second source is found.
+- 48 of 132 pending genres now researched as candidates. Nothing ingested: `ingest` branch still waits for review.
+- Helper fired for H13 (genre batch 6) at 21:12 UTC: run 6 of 8 since 08:40 Pacific.
+
 ## 2026-11-23 (batches 1 and 2 redone under the evidence rule)
 
 - H11 accepted as candidates. Of 207 songs in the 16 genres, 175 are kept, each with a claim the check finds that names it. Lead's rerun: 444 of 576 claims found, the helper's 447; the three that differ are sites the lead's run could not reach at that moment.

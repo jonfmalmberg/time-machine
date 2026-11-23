@@ -1,0 +1,5418 @@
+{
+ "dohori": [
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Jugalbandi: Between town and country",
+   "url": "https://www.himalmag.com/between-town-and-country/",
+   "quote": "form the backbone of the commercial recording industry",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "National Folk and Duet Song Academy Nepal",
+   "url": "https://en.wikipedia.org/wiki/National_Folk_and_Duet_Song_Academy_Nepal",
+   "quote": "is a non-governmental and nonprofit organization of dohori singers, composers, and artists founded on October 2, 2000",
+   "read": "2026-11-23",
+   "note": "Same page gives the academy 4000 members."
+  },
+  {
+   "kind": "size",
+   "artist": "Bishnu Majhi",
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Bishnu_Majhi",
+   "quote": "she has recorded over 5,000 songs in a career spanning 15 years",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": "Raju Pariyar",
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Raju_Pariyar",
+   "quote": "In career spanning over two decades he has recorded over 16,000 songs.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Dohori",
+   "url": "https://en.wikipedia.org/wiki/Dohori",
+   "quote": "is a Nepali type of music usually sung by two teams, usually one comprising men and the other women.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Dohori",
+   "url": "https://en.wikipedia.org/wiki/Dohori",
+   "quote": "It is in the form of question and answer where a team sings a question and the opponent replies through an equally lyrical impromptu couplet and vice versa.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Dohori",
+   "url": "https://en.wikipedia.org/wiki/Dohori",
+   "quote": "Dohori is sung on a repeating main phrase of a well-known folk song but the song is adapted as the questions are posed and answered.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Dohori",
+   "url": "https://en.wikipedia.org/wiki/Dohori",
+   "quote": "The dohori is said to have stretched to seven days and nights during the past.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Music of Nepal",
+   "url": "https://en.wikipedia.org/wiki/Music_of_Nepal",
+   "quote": "Dohori is a genre of Nepali folk music and has roots in the rural courtship traditions.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Music of Nepal",
+   "url": "https://en.wikipedia.org/wiki/Music_of_Nepal",
+   "quote": "The song starts with a question, usually from the boys' side.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "दोहोरी गीत",
+   "url": "https://ne.wikipedia.org/wiki/%E0%A4%A6%E0%A5%8B%E0%A4%B9%E0%A5%8B%E0%A4%B0%E0%A5%80_%E0%A4%97%E0%A5%80%E0%A4%A4",
+   "quote": "यसमा सवाल जवाफका रूपमा पनि गीत गाइन्छ।",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Festival dohori in the Kathmandu Valley",
+   "url": "https://blog.oup.com/2017/11/festival-dohori-kathmandu-valley/",
+   "quote": "Groups would gather around someone with a madal drum, onlookers pressing in to hear the lyrics, a few dancers twirling in the middle of the circle.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Festival dohori in the Kathmandu Valley",
+   "url": "https://blog.oup.com/2017/11/festival-dohori-kathmandu-valley/",
+   "quote": "Success in improvising couplets meant perfect adherence to meter and end rhymes",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Festival dohori in the Kathmandu Valley",
+   "url": "https://blog.oup.com/2017/11/festival-dohori-kathmandu-valley/",
+   "quote": "They improvised their couplets to the tune of a 2006 hit",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Nepali folk songs move beyond love and loss",
+   "url": "https://www.nepalitimes.com/banner/nepali-folk-songs-move-beyond-love-and-loss/",
+   "quote": "Called lok dohori (people’s duet) this genre originated with the Gurung community and its tradition of the rodi ghar dance halls.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Nepali folk songs move beyond love and loss",
+   "url": "https://www.nepalitimes.com/banner/nepali-folk-songs-move-beyond-love-and-loss/",
+   "quote": "young men and women challenged each other with duets in which the musical repartee had to come within 30 seconds",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jugalbandi: Between town and country",
+   "url": "https://www.himalmag.com/between-town-and-country/",
+   "quote": "Young, unmarried men and women gathered at the rodhi ghar sat on two opposing sides, and engaged in a playful battle of wit deep into the night.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jugalbandi: Between town and country",
+   "url": "https://www.himalmag.com/between-town-and-country/",
+   "quote": "restaurants advertising themselves as dohori sanjh (dohori evening) or rodhi ghar (club house)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": "Ram Prasad Khanal",
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Ram_Prasad_Khanal",
+   "quote": "on Nepal Television in 1998, which considerably promoted his fame in the field",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": "Pashupati Sharma",
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Pashupati_Sharma",
+   "quote": "Vocals, harmonium and madal",
+   "read": "2026-11-23",
+   "note": "Instruments of a lok dohori singer (infobox)."
+  },
+  {
+   "kind": "def",
+   "artist": "Prem Raja Mahat",
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Prem_Raja_Mahat",
+   "quote": "Mahat plays the sarangi, madal, and harmonium, the first two of which are indigenous Nepalese instruments.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": "Prem Raja Mahat",
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Prem_Raja_Mahat",
+   "quote": "Mahat first sang for the radio in 1978, and his first song was also recorded in the same year.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": "Prem Raja Mahat",
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Prem_Raja_Mahat",
+   "quote": "he sang Khola Pari Nirmaya",
+   "read": "2026-11-23",
+   "note": "Same sentence: Music Nepal's first folk song, released in 1986."
+  },
+  {
+   "kind": "near",
+   "artist": "Hira Devi Waiba",
+   "title": "Chura ta Hoina Astura",
+   "url": "https://en.wikipedia.org/wiki/Tamang_Selo",
+   "quote": "Her song \"Chura ta Hoina Astura\" (Nepali: चुरा त होइन अस्तुरा) is said to be the first Tamang Selo ever recorded.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": null,
+   "title": "Tamang Selo",
+   "url": "https://en.wikipedia.org/wiki/Tamang_Selo",
+   "quote": "It is usually accompanied by the Tamang instruments: Damphu, Madal and Tungna.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Narayan Gopal",
+   "title": "Euta Manchhe Ko",
+   "url": "https://en.wikipedia.org/wiki/Music_of_Nepal",
+   "quote": "He sang hits like \"Euta Manchhe Ko\", and \"Yeti Dherai Maya Dii\".",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": null,
+   "title": "Music of Nepal",
+   "url": "https://en.wikipedia.org/wiki/Music_of_Nepal",
+   "quote": "Adhunik Geet are popular songs in Nepal and are also known as sugam sangeet.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Kulendra Bishwakarma & Bishnu Majhi",
+   "title": "सालको पातको टपरी हुनी",
+   "url": "https://ne.wikipedia.org/wiki/%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%AA%E0%A4%BE%E0%A4%A4%E0%A4%95%E0%A5%8B_%E0%A4%9F%E0%A4%AA%E0%A4%B0%E0%A5%80_%E0%A4%B9%E0%A5%81%E0%A4%A8%E0%A5%80",
+   "quote": "यो गीतले युट्युबमा सबैभन्दा बढी हेरिएको लोक दोहोरी गीतको किर्तिमानी कायम गरेको छ।",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Kulendra Bishwakarma & Bishnu Majhi",
+   "title": "सालको पातको टपरी हुनी",
+   "url": "https://en.wikipedia.org/wiki/Bishnu_Majhi",
+   "quote": "Her 2018 song \"Salko Patko Tapari Huni\" set the record for most viewed Nepali folk duet on Youtube",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Kulendra Bishwakarma & Bishnu Majhi",
+   "title": "सालको पातको टपरी हुनी",
+   "url": "https://ne.wikipedia.org/wiki/%E0%A4%B8%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B_%E0%A4%AA%E0%A4%BE%E0%A4%A4%E0%A4%95%E0%A5%8B_%E0%A4%9F%E0%A4%AA%E0%A4%B0%E0%A5%80_%E0%A4%B9%E0%A5%81%E0%A4%A8%E0%A5%80",
+   "quote": "यो गीतले युट्युबमा सबैभन्दा बढी हेरिएको लोक दोहोरी गीतको किर्तिमानी कायम गरेको छ।",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Prakash Saput & Preeti Ale",
+   "title": "Dohori Battle",
+   "url": "https://itunes.apple.com/lookup?id=1708455777&entity=song",
+   "quote": "\"trackName\":\"Dohori Battle\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Prakash Saput & Preeti Ale",
+   "title": "Dohori Battle",
+   "url": "https://en.wikipedia.org/wiki/Prakash_Saput",
+   "quote": "he gained recognition by a mass audience with the release of songs like Dohori Battle in 2018",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Prakash Saput & Preeti Ale",
+   "title": "Dohori Battle",
+   "url": "https://itunes.apple.com/lookup?id=1708455777&entity=song",
+   "quote": "\"releaseDate\":\"2018-03-09T12:00:00Z\"",
+   "read": "2026-11-23",
+   "note": "Release date on the iTunes record; the title names the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "Arjun Sapkota & Devi Gharti Magar",
+   "title": "Banki Chari Banaima Ramayo",
+   "url": "https://en.wikipedia.org/wiki/Arjun_Sapkota",
+   "quote": "Sapkota came to limelight after his 2019 Lok Dohori song \"Banki chari banaima ramayo\" with Devi Gharti Magar",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Arjun Sapkota & Devi Gharti Magar",
+   "title": "Banki Chari Banaima Ramayo",
+   "url": "https://itunes.apple.com/lookup?id=1638095867&entity=song",
+   "quote": "\"artistName\":\"Arjun Sapkota & Devi Gharti\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Arjun Sapkota & Devi Gharti Magar",
+   "title": "Banki Chari Banaima Ramayo",
+   "url": "https://en.wikipedia.org/wiki/Arjun_Sapkota",
+   "quote": "his 2019 Lok Dohori song \"Banki chari banaima ramayo\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bishnu Majhi & Yam Chhetri",
+   "title": "Phul Ramro Gulabko",
+   "url": "https://en.wikipedia.org/wiki/Bishnu_Majhi",
+   "quote": "In 2011, \"Shital Dine Pipal Sami Cha\" and \"Phul Ramro Gulabko\", sung with Yaam Chhetri, became popular",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bishnu Majhi & Yam Chhetri",
+   "title": "Phul Ramro Gulabko",
+   "url": "https://en.wikipedia.org/wiki/Bishnu_Majhi",
+   "quote": "New Nepali Lok Dohori | Phool Ramro Gulab Ko - Bishnu Majhi and Yam Chhetri",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bishnu Majhi & Yam Chhetri",
+   "title": "सितल दिने पिपल समी छ",
+   "url": "https://en.wikipedia.org/wiki/Bishnu_Majhi",
+   "quote": "the former was the most listened folk song of that year",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bishnu Majhi & Yam Chhetri",
+   "title": "सितल दिने पिपल समी छ",
+   "url": "https://ne.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%A3%E0%A5%81_%E0%A4%AE%E0%A4%BE%E0%A4%9D%E0%A5%80",
+   "quote": "सितल दिने पिपल समी छ",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bishnu Majhi",
+   "title": null,
+   "url": "https://ne.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%A3%E0%A5%81_%E0%A4%AE%E0%A4%BE%E0%A4%9D%E0%A5%80",
+   "quote": "विष्णु माझीले नेपाली लोक दोहोरी क्षेत्रमा निकै ठूलो योगदान पुराएकि छिन्",
+   "read": "2026-11-23",
+   "note": "Genre tie for Bishnu Majhi's songs."
+  },
+  {
+   "kind": "song",
+   "artist": "Bishnu Majhi & Pashupati Sharma",
+   "title": "Euta Aatma Chha",
+   "url": "https://en.wikipedia.org/wiki/Bishnu_Majhi",
+   "quote": "Her 2012 song \"Euta Aatma Cha\", sung with Pashupati Sharma for the album Campus Padhna Aaune, was also popular.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bishnu Majhi & Kulendra Bishwakarma",
+   "title": "रुमाल हल्लाई हल्लाई",
+   "url": "https://itunes.apple.com/lookup?id=1770304251&entity=song",
+   "quote": "\"trackName\":\"Rumal Hallai Hallai\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bishnu Majhi & Kulendra Bishwakarma",
+   "title": "रुमाल हल्लाई हल्लाई",
+   "url": "https://ne.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A5%8D%E0%A4%A3%E0%A5%81_%E0%A4%AE%E0%A4%BE%E0%A4%9D%E0%A5%80",
+   "quote": "रुमाल हल्लाई हल्लाई",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bishnu Majhi & Kulendra Bishwakarma",
+   "title": "रुमाल हल्लाई हल्लाई",
+   "url": "https://en.wikipedia.org/wiki/Kulendra_Bishwakarma",
+   "quote": "Rumal Halai Halai\nFolk Duet\nSinger\n2021",
+   "read": "2026-11-23",
+   "note": "Row of the songs table on the singer's page: genre column 'Folk Duet', year 2021."
+  },
+  {
+   "kind": "song",
+   "artist": "Prem Raja Mahat & Rekha Shah",
+   "title": "Simsime Panima",
+   "url": "https://en.wikipedia.org/wiki/Prem_Raja_Mahat",
+   "quote": "In 2022, singer Rekha Shah accused Mahat for stealing her song Simsime Panima, which was sung by the two of them.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Prem Raja Mahat & Rekha Shah",
+   "title": "Simsime Panima",
+   "url": "https://itunes.apple.com/lookup?id=1680397721&entity=song",
+   "quote": "\"releaseDate\":\"1996-04-29T12:00:00Z\"",
+   "read": "2026-11-23",
+   "note": "Music Nepal reissue; track rows dated 1996-04-29."
+  },
+  {
+   "kind": "song",
+   "artist": "Prem Raja Mahat",
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Prem_Raja_Mahat",
+   "quote": "Dohori singers",
+   "read": "2026-11-23",
+   "note": "Category on the page; the only tie of Mahat to dohori."
+  },
+  {
+   "kind": "song",
+   "artist": "Raju Pariyar & Devi Gharti Magar",
+   "title": "Siriri Lau Hawa Chalyo",
+   "url": "https://itunes.apple.com/lookup?id=1433777423&entity=song",
+   "quote": "\"collectionName\":\"Siriri Lau Hawa Chalyo - Lok Dohori\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Raju Pariyar & Devi Gharti Magar",
+   "title": "Siriri Lau Hawa Chalyo",
+   "url": "https://itunes.apple.com/lookup?id=1433777423&entity=song",
+   "quote": "Indreni Cassette Center",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Raju Pariyar",
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Raju_Pariyar",
+   "quote": "Pariyar began his musical career by performing in Dohori Saanjh.",
+   "read": "2026-11-23",
+   "note": "Genre tie for Raju Pariyar."
+  },
+  {
+   "kind": "song",
+   "artist": "Raju Pariyar, Asha & Devi Gharti Magar",
+   "title": "Parewa Ko Jodi",
+   "url": "https://itunes.apple.com/lookup?id=1391544690&entity=song",
+   "quote": "\"collectionName\":\"Parewa Ko Jode - Nepali Lok Dohori - EP\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Raju Pariyar, Radhika Hamal & Dahni Sara",
+   "title": "Karnali Ko Chhal",
+   "url": "https://itunes.apple.com/lookup?id=1391546069&entity=song",
+   "quote": "\"trackName\":\"Karnali Ko Chhal\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Raju Pariyar, Radhika Hamal & Dahni Sara",
+   "title": "Karnali Ko Chhal",
+   "url": "https://itunes.apple.com/lookup?id=1391546069&entity=song",
+   "quote": "\"collectionName\":\"Charke Gau Runchu - Nepali Lok Dohori\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Beg Rana & Muna Thapa Magar",
+   "title": "Budhi Ramro Arkako",
+   "url": "https://itunes.apple.com/lookup?id=1364396976&entity=song",
+   "quote": "\"trackName\":\"Budhi Ramro Arkako\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Beg Rana & Muna Thapa Magar",
+   "title": "Budhi Ramro Arkako",
+   "url": "https://itunes.apple.com/lookup?id=1364396976&entity=song",
+   "quote": "\"collectionName\":\"Charchit Lok Dohori Song\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ramesh Pathak & Bishnu Majhi",
+   "title": "Sacho Maya Maile Gardani",
+   "url": "https://itunes.apple.com/lookup?id=1364396976&entity=song",
+   "quote": "\"trackName\":\"Sacho Maya Maile Gardani\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Chandraman Tamang & Binu Tamang",
+   "title": "Rodhi Ghar",
+   "url": "https://itunes.apple.com/lookup?id=1364396976&entity=song",
+   "quote": "\"trackName\":\"Rodhi Ghar\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Prakash Saput & Preeti Ale",
+   "title": "Dohori Battle 2",
+   "url": "https://itunes.apple.com/lookup?id=1708449050&entity=song",
+   "quote": "\"trackName\":\"Dohori Battle 2\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Prakash Saput, Narayan Rayamajhi & Shanti Shree Pariyar",
+   "title": "बोल माया",
+   "url": "https://en.wikipedia.org/wiki/Bola_Maya",
+   "quote": "Released on 17 May 2018, the song won the Best Folk Song Collection at the 2018 Tuborg Image Awards.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Prakash Saput, Narayan Rayamajhi & Shanti Shree Pariyar",
+   "title": "बोल माया",
+   "url": "https://ne.wikipedia.org/wiki/%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80_%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%B0",
+   "quote": "शान्ति श्री परियार एक नेपाली लोक दोहोरी गायिका हुन्।",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Prakash Saput, Narayan Rayamajhi & Shanti Shree Pariyar",
+   "title": "बोल माया",
+   "url": "https://ne.wikipedia.org/wiki/%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80_%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%B0",
+   "quote": "बोल मायामा",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Prakash Saput & Shanti Shree Pariyar",
+   "title": "गल्बन्दि",
+   "url": "https://itunes.apple.com/lookup?id=1708555883&entity=song",
+   "quote": "\"trackName\":\"Galbandi\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Prakash Saput & Shanti Shree Pariyar",
+   "title": "गल्बन्दि",
+   "url": "https://ne.wikipedia.org/wiki/%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%80_%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A4%BE%E0%A4%B0",
+   "quote": "गल्बन्दि",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Prakash Saput & Shanti Shree Pariyar",
+   "title": "गल्बन्दि",
+   "url": "https://en.wikipedia.org/wiki/Bola_Maya",
+   "quote": "In 2019, \"Galbandi\", a sequel to the song, was released.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Pashupati Sharma & Laxmi Malla",
+   "title": "Dohori Ko Raja",
+   "url": "https://itunes.apple.com/lookup?id=1817230760&entity=song",
+   "quote": "\"trackName\":\"Dohori Ko Raja\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Pashupati Sharma & Rita Thapa Magar",
+   "title": "Roila Dohori",
+   "url": "https://itunes.apple.com/lookup?id=1643768772&entity=song",
+   "quote": "\"trackName\":\"Roila Dohori\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Gamesh Dulal & Indira Gurung",
+   "title": "Maya Numberi",
+   "url": "https://itunes.apple.com/lookup?id=1391941876&entity=song",
+   "quote": "\"collectionName\":\"Maya Numberi - Nepali Lok Dohori - Single\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Resham Thapa & Gita Devi",
+   "title": "Gayal Mutu",
+   "url": "https://itunes.apple.com/lookup?id=1408541337&entity=song",
+   "quote": "\"collectionName\":\"Gayal Mutu - Nepali Lok Dohori\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Madhav Bhandre & Krishna Maya Pariyar",
+   "title": "Pare Sano Jaat",
+   "url": "https://itunes.apple.com/lookup?id=1391545381&entity=song",
+   "quote": "\"trackName\":\"Pare Sano Jaat\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Madhav Bhandre & Krishna Maya Pariyar",
+   "title": "Pare Sano Jaat",
+   "url": "https://itunes.apple.com/lookup?id=1391545381&entity=song",
+   "quote": "\"collectionName\":\"Parey Sano Jaat - Nepali Lok Dohori - EP\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ramji Khand & Nirjala Gurung",
+   "title": "Dami Dekhinchha (Live Dohori)",
+   "url": "https://itunes.apple.com/lookup?id=1689761146&entity=song",
+   "quote": "\"trackName\":\"Dami Dekhinchha (Live Dohori)\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Laxman Lamsal & Ratna Shrestha",
+   "title": "Jhim Jhim Sanu Dohori",
+   "url": "https://itunes.apple.com/lookup?id=1676039364&entity=song",
+   "quote": "\"trackName\":\"Jhim jhim Sanu Dohori\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Raju Pariyar & Kala Lamsal",
+   "title": "Pachheuri Leu Baina Live Dohori 2",
+   "url": "https://itunes.apple.com/lookup?id=1737773686&entity=song",
+   "quote": "\"trackName\":\"Pachheuri Leu Baina Live Dohori 2\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Badri Pangeni",
+   "title": "ख्याल ख्यालमै दिल बस्यो कान्छी सालीमा",
+   "url": "https://ne.wikipedia.org/wiki/%E0%A4%AC%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A5%80_%E0%A4%AA%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A5%87%E0%A4%A8%E0%A5%80",
+   "quote": "उनलाई सर्वाधिक चर्चामा पुर्‍याएको गीत ‘सुसुरालीमा’ एल्बमको ‘ख्याल ख्यालमै दिल बस्यो कान्छी सालीमा’ हो।",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Badri Pangeni",
+   "title": "ख्याल ख्यालमै दिल बस्यो कान्छी सालीमा",
+   "url": "https://ne.wikipedia.org/wiki/%E0%A4%AC%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A5%80_%E0%A4%AA%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A5%87%E0%A4%A8%E0%A5%80",
+   "quote": "चर्चित लोक तथा दोहोरी गायक बद्री पंगेनी पाल्पा जिल्लाको रामपुरमा जन्मिएका हुन्।",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Ram Thapa",
+   "title": "Sero Phero Salaam Chha Mero",
+   "url": "https://en.wikipedia.org/wiki/Ram_Thapa",
+   "quote": "Sero phero Salaam chha Mero (Dohori)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Ram Thapa",
+   "title": "Arya Bhanjyang",
+   "url": "https://en.wikipedia.org/wiki/Ram_Thapa",
+   "quote": "Arya Bhanjyang (Dohori)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Badri Pangeni",
+   "title": "तानसेन खस्यौली",
+   "url": "https://ne.wikipedia.org/wiki/%E0%A4%AC%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A5%80_%E0%A4%AA%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A5%87%E0%A4%A8%E0%A5%80",
+   "quote": "पहिलो लोक दोहोरी एल्वम ‘तानसेन खस्यौली’ सार्वजनिक गरेका थिए।",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Prem Raja Mahat and others",
+   "title": "Simsime Panima",
+   "url": "https://itunes.apple.com/lookup?id=1680397721&entity=song",
+   "quote": "\"collectionName\":\"Simsime Panima\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Raju Pariyar, Asha & Devi Gharti Magar",
+   "title": "Parewa Ko Jodi: Nepali Lok Dohori",
+   "url": "https://itunes.apple.com/lookup?id=1391544690&entity=song",
+   "quote": "Parewa Ko Jode - Nepali Lok Dohori - EP",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various",
+   "title": "Siriri Lau Hawa Chalyo: Lok Dohori",
+   "url": "https://itunes.apple.com/lookup?id=1433777423&entity=song",
+   "quote": "Siriri Lau Hawa Chalyo - Lok Dohori",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various",
+   "title": "Charchit Lok Dohori Song",
+   "url": "https://itunes.apple.com/lookup?id=1364396976&entity=song",
+   "quote": "Charchit Lok Dohori Song",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Ramesh Pathak, Manju Lawati & Bhumika Giri",
+   "title": "Lok Dohori Songs",
+   "url": "https://itunes.apple.com/lookup?id=1516514748&entity=song",
+   "quote": "\"collectionName\":\"Lok Dohori Songs\"",
+   "read": "2026-11-23"
+  }
+ ],
+ "tamangselo": [
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://en.wikipedia.org/wiki/Tamang_Selo",
+   "quote": "is a genre of Nepali folk song sung by the Tamang people of Nepal",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://en.wikipedia.org/wiki/Tamang_Selo",
+   "quote": "It is usually accompanied by the Tamang instruments: Damphu, Madal and Tungna.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://en.wikipedia.org/wiki/Tamang_Selo",
+   "quote": "A Selo could be very catchy and lively or slow and melodious and is usually sung to express love, sorrow and stories of day to day life.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://en.wikipedia.org/wiki/Tamang_Selo",
+   "quote": "is widely popular among the Nepali-speaking community in Nepal, in India, and around the world",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://en.wikipedia.org/wiki/Tamang_people",
+   "quote": "It has a brisk movement and rhythmic beat specific to the Tamangs.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://en.wikipedia.org/wiki/Damphu_drum",
+   "quote": "is a percussion instrument similar to a large tambourine",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://en.wikipedia.org/wiki/Damphu_drum",
+   "quote": "The skin is tightened and held in place by 32 koirala kath pegs.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://en.wikipedia.org/wiki/Music_of_Nepal",
+   "quote": "Some modern Tamang Selo music also shows influences of western and Indian instruments.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://en.wikipedia.org/wiki/Music_of_Sikkim",
+   "quote": "This music of the Tamang community is performed to the rhythmic sound of",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://nepaltraveller.com/sidetrack/selo-nach-the-rhythmic-heart-of-tamang-cultural-heritage",
+   "quote": "its rhythm is driven primarily by the damphu, a traditional Tamang frame drum",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://nepaltraveller.com/sidetrack/selo-nach-the-rhythmic-heart-of-tamang-cultural-heritage",
+   "quote": "passed down through generations in the mid-hill regions surrounding the Kathmandu Valley, including Rasuwa, Nuwakot, Dhading",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://nepaltraveller.com/sidetrack/selo-nach-the-rhythmic-heart-of-tamang-cultural-heritage",
+   "quote": "Traditionally performed during Lhosar (Tamang New Year) , weddings, harvest celebrations and communal gatherings",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://en.wikipedia.org/wiki/Hira_Devi_Waiba",
+   "quote": "is said to be the first Tamang Selo (a genre of Nepali folk music) ever recorded",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://en.wikipedia.org/wiki/Hira_Devi_Waiba",
+   "quote": "Her singing career began when she recorded three songs in Kurseong for Radio Nepal in 1966.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://en.wikipedia.org/wiki/Hira_Devi_Waiba",
+   "quote": "is the only Nepali folk singer to have cut albums (in 1974 and 1978) with His Master's Voice.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://kathmandupost.com/38/2020/04/20/iconic-songs-that-still-rule-the-nepali-playlist",
+   "quote": "It was a mixture of pop and traditional Nepali folk beat, which made it something that didn’t exist in the market during the early ’90s.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": "Hira Devi Waiba",
+   "title": "Tamang selo",
+   "url": "https://en.wikipedia.org/wiki/Hira_Devi_Waiba",
+   "quote": "She has sung nearly 300 folk songs during her musical career spanning 40 years.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://ekantipur.com/literature/2026/11/06/en/book-damphu-cello-centennial-journey-released-40-36.html",
+   "quote": "through an analysis of 100 episodes of the Damphu Selo programme",
+   "read": "2026-11-23",
+   "note": "A television/radio programme devoted to damphu selo ran at least 100 episodes."
+  },
+  {
+   "kind": "size",
+   "artist": "Indira Gole Gurung",
+   "title": "Tamang selo",
+   "url": "https://www.tamangsamaj.com/?p=1844",
+   "quote": "Total Released Albums Solo (Tamang): 2 Nepal Selo: 3 Lok Dohori (Collaborative): 9",
+   "read": "2026-11-23",
+   "note": "One established singer: three selo albums."
+  },
+  {
+   "kind": "size",
+   "artist": "Raj Kumar Dong Tamang",
+   "title": "Tamang selo",
+   "url": "https://itunes.apple.com/lookup?id=1716216136&entity=song&country=US",
+   "quote": "koshipari Shailung New Tamang Selo Song",
+   "read": "2026-11-23",
+   "note": "One of about 20 single-track Tamang selo releases by this one artist on iTunes US in 2023-2024 (search for \"tamang selo\", 2026-11-23); the iTunes search returned well over 100 releases naming the genre, most of them 2023-2026 singles."
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Tamang selo",
+   "url": "https://itunes.apple.com/lookup?id=1496320130&entity=song&country=US",
+   "quote": "\"collectionName\":\"Tamang Selo\"",
+   "read": "2026-11-23",
+   "note": "A 9-track various-artists compilation (Genius Digital Music, ℗ 2019); two more compilations from the same label (Tamang Selo Collection, Tamang Selo Songs)."
+  },
+  {
+   "kind": "song",
+   "artist": "Kunti Moktan",
+   "title": "Mathi Mathi Sailungema",
+   "url": "https://itunes.apple.com/lookup?id=1698888121&entity=song&country=US",
+   "quote": "\"trackName\":\"Mathi Mathi Sailungema\"",
+   "read": "2026-11-23",
+   "note": "Tie: Kathmandu Post says the song \"played on the beat of Tamang Selo\" (pop and folk mixture). Year 1998 is the iTunes album Mero Mann; the Post places the song in the early 1990s."
+  },
+  {
+   "kind": "song",
+   "artist": "Kutumba",
+   "title": "Tamang Selo",
+   "url": "https://itunes.apple.com/lookup?id=1524424611&entity=song&country=US",
+   "quote": "\"trackName\":\"Tamang Selo\"",
+   "read": "2026-11-23",
+   "note": "Tie: title names the genre (instrumental). Album Folk Roots, ℗ 2005."
+  },
+  {
+   "kind": "song",
+   "artist": "Hira Devi Waiba",
+   "title": "Ramri Ta Ramri Kati Sar Ramri",
+   "url": "https://itunes.apple.com/lookup?id=1812080181&entity=song&country=US",
+   "quote": "Ramri Ta Ramri Kati Sar Ramri",
+   "read": "2026-11-23",
+   "note": "Tie: performer page only (Wikipedia lists Tamang Selo as her genre and calls her its pioneer). Saregama (HMV) recording; iTunes gives a placeholder date of 1917, Wikipedia says her HMV albums were cut in 1974 and 1978, so the year is left null."
+  },
+  {
+   "kind": "song",
+   "artist": "Tuluk Bahadur Lama",
+   "title": "Oh Saili (Tamang Selo)",
+   "url": "https://itunes.apple.com/lookup?id=1215567058&entity=song&country=US",
+   "quote": "Oh Saili (Tamang Selo)",
+   "read": "2026-11-23",
+   "note": "Tie: title names the genre. Album Ghar ta Hetauda, ℗ 1996 Ranjana Music Industries."
+  },
+  {
+   "kind": "song",
+   "artist": "Sur Sudha",
+   "title": "Tamangselo",
+   "url": "https://itunes.apple.com/lookup?id=552290844&entity=song&country=US",
+   "quote": "\"trackName\":\"Tamangselo\"",
+   "read": "2026-11-23",
+   "note": "Tie: title names the genre (instrumental). Album Melodies of Nepal; track date 1996."
+  },
+  {
+   "kind": "song",
+   "artist": "Bukun Gandharba & Amrit Rana",
+   "title": "Aafuta Waiba (Tamang Selo)",
+   "url": "https://itunes.apple.com/lookup?id=1813490120&entity=song&country=US",
+   "quote": "Aafuta Waiba (Tamang Selo) [feat. Sobit Rana, Krishna Lama & Dhaneswar Tiwari]",
+   "read": "2026-11-23",
+   "note": "Tie: title names the genre (sarangi instrumental). ℗ 2001 Gaurab Music; track date 2000."
+  },
+  {
+   "kind": "song",
+   "artist": "Gajab Bahadur Lama Gurung",
+   "title": "Tamang Selo",
+   "url": "https://itunes.apple.com/lookup?id=451199565&entity=song&country=US",
+   "quote": "\"trackName\":\"Tamang Selo\"",
+   "read": "2026-11-23",
+   "note": "Tie: title names the genre. Album Soaltee, ℗ 2001 Music Nepal."
+  },
+  {
+   "kind": "song",
+   "artist": "Sac",
+   "title": "Oe Na Na Oe Na Na (Tamang Selo)",
+   "url": "https://itunes.apple.com/lookup?id=1784070440&entity=song&country=US",
+   "quote": "Oe Na Na Oe Na Na (Tamang Selo)",
+   "read": "2026-11-23",
+   "note": "Tie: title names the genre. Album Machhapuchhre Typical Nepali Folk Song, dated 2004 (℗ 2024 reissue)."
+  },
+  {
+   "kind": "song",
+   "artist": "Raktim Pariwar",
+   "title": "Tamang Selo",
+   "url": "https://itunes.apple.com/lookup?id=1874517544&entity=song&country=US",
+   "quote": "\"trackName\":\"Tamang Selo\"",
+   "read": "2026-11-23",
+   "note": "Tie: title names the genre. Album Raktim Phoolbari, 2006."
+  },
+  {
+   "kind": "song",
+   "artist": "Suresh Bajracharya, Krishna Gurung, Kharka Bahadur Budha & Akal Birahi",
+   "title": "Tamang Selo",
+   "url": "https://itunes.apple.com/lookup?id=1142121937&entity=song&country=US",
+   "quote": "\"trackName\":\"Tamang Selo\"",
+   "read": "2026-11-23",
+   "note": "Tie: title names the genre (folk tune). Album Lokalaya: Traditional Nepali Folk Tunes; track date 2006."
+  },
+  {
+   "kind": "song",
+   "artist": "Chandra Kumar Dong & Sasikala Moktan",
+   "title": "Gadejeyaba Maichang",
+   "url": "https://itunes.apple.com/lookup?id=1392919475&entity=song&country=US",
+   "quote": "\"trackName\":\"Gadejeyaba Maichang\"",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (Ja Changaba - Tamang Selo, ℗ 2009 Indreni)."
+  },
+  {
+   "kind": "song",
+   "artist": "Nischal Bikram Moktan, Binod Kumar Moktan, Chedup Moktan & Sasikala Moktan",
+   "title": "Taxi Motor Car",
+   "url": "https://itunes.apple.com/lookup?id=1392919475&entity=song&country=US",
+   "quote": "\"trackName\":\"Taxi Motor Car\"",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (Ja Changaba - Tamang Selo, ℗ 2009 Indreni)."
+  },
+  {
+   "kind": "song",
+   "artist": "Padam Geyapak & Shree Maya Ghishing",
+   "title": "Nignila Dolmo",
+   "url": "https://itunes.apple.com/lookup?id=1391944862&entity=song&country=US",
+   "quote": "\"trackName\":\"Nignila Dolmo\"",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (Gangjola Dini - Tamang Selo, ℗ 2009 Indreni)."
+  },
+  {
+   "kind": "song",
+   "artist": "Min Bahadur Tamang & Indira Gole Gurung",
+   "title": "Supari Dana",
+   "url": "https://itunes.apple.com/lookup?id=1653087525&entity=song&country=US",
+   "quote": "\"trackName\":\"Supari Dana\"",
+   "read": "2026-11-23",
+   "note": "Tie: album title Fapare Selo (selo only, not \"Tamang\") and the Tamang Samaj directory calls Indira Gole Gurung a singer of Nepal Selo and Tamang music. Track date 2009."
+  },
+  {
+   "kind": "song",
+   "artist": "Norsang Dong & Indira Gurung",
+   "title": "Surti Ta Khane Saal Ko Paata",
+   "url": "https://itunes.apple.com/lookup?id=1391657350&entity=song&country=US",
+   "quote": "\"trackName\":\"Surti Ta Khane Saal Ko Paata\"",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (Tamang Selo Juhari - Helambu Sero, 2010; ℗ 2015 Indreni)."
+  },
+  {
+   "kind": "song",
+   "artist": "Mings Lama",
+   "title": "Chyangba Ho",
+   "url": "https://itunes.apple.com/lookup?id=1496320130&entity=song&country=US",
+   "quote": "\"trackName\":\"Chyangba HO\"",
+   "read": "2026-11-23",
+   "note": "Tie: on the various-artists compilation titled Tamang Selo (Genius Digital). Track date 2013."
+  },
+  {
+   "kind": "song",
+   "artist": "Deep Chandra Lama",
+   "title": "Kalkatye Kangiyo (Tamang Selo)",
+   "url": "https://itunes.apple.com/lookup?id=1646918581&entity=song&country=US",
+   "quote": "Kalkatye Kangiyo (Tamang Selo) [Tune of Central Nepal]",
+   "read": "2026-11-23",
+   "note": "Tie: title names the genre (flute instrumental). Track date 2014."
+  },
+  {
+   "kind": "song",
+   "artist": "Hawal Lama",
+   "title": "Dhalak Dhalak",
+   "url": "https://itunes.apple.com/lookup?id=1496320130&entity=song&country=US",
+   "quote": "\"trackName\":\"Dhalak Dhalak\"",
+   "read": "2026-11-23",
+   "note": "Tie: on the compilation titled Tamang Selo. Track date 2017."
+  },
+  {
+   "kind": "song",
+   "artist": "Namlo",
+   "title": "Tamang Selo",
+   "url": "https://itunes.apple.com/lookup?id=1218739361&entity=song&country=US",
+   "quote": "\"trackName\":\"Tamang Selo\"",
+   "read": "2026-11-23",
+   "note": "Tie: title names the genre. Album Namlo, ℗ 2017."
+  },
+  {
+   "kind": "song",
+   "artist": "Navneet Aditya Waiba",
+   "title": "Jhilke Naachayko",
+   "url": "https://itunes.apple.com/lookup?id=1323957683&entity=song&country=US",
+   "quote": "\"trackName\":\"Jhilke Naachayko\"",
+   "read": "2026-11-23",
+   "note": "Tie: Wikipedia lists Tamang Selo among her genres, and her mother's page links the song as \"Jhilke Naachayko - Damphu Geet\". Album Ama Lai Shraddhanjali, released 3 November 2017."
+  },
+  {
+   "kind": "song",
+   "artist": "Navneet Aditya Waiba",
+   "title": "Aye Syangbo",
+   "url": "https://itunes.apple.com/lookup?id=1323957683&entity=song&country=US",
+   "quote": "\"trackName\":\"Aye Syangbo\"",
+   "read": "2026-11-23",
+   "note": "Tie: performer page only (Wikipedia genre list includes Tamang Selo). Re-recording of a Hira Devi Waiba song; 2017."
+  },
+  {
+   "kind": "song",
+   "artist": "Kopila Ghising",
+   "title": "Himali Bhegma",
+   "url": "https://itunes.apple.com/lookup?id=1496320130&entity=song&country=US",
+   "quote": "\"trackName\":\"Himali Bhegma\"",
+   "read": "2026-11-23",
+   "note": "Tie: on the compilation titled Tamang Selo. Track date 2020."
+  },
+  {
+   "kind": "song",
+   "artist": "Shailap Waiba",
+   "title": "Tala Tala Trisguli Bazar (Tamang Selo)",
+   "url": "https://itunes.apple.com/lookup?id=1673922366&entity=song&country=US",
+   "quote": "Tala Tala Trisguli Bazar (Tamang Selo)",
+   "read": "2026-11-23",
+   "note": "Tie: title names the genre. Single, 2023."
+  },
+  {
+   "kind": "song",
+   "artist": "Nirmal Waiba & Sumina Lo",
+   "title": "Jureli Mama (Tamang Selo)",
+   "url": "https://itunes.apple.com/lookup?id=1710977283&entity=song&country=US",
+   "quote": "Jureli Mama  Tamang Selo (feat. Sumina Lo)",
+   "read": "2026-11-23",
+   "note": "Tie: title names the genre. Single, 2023."
+  },
+  {
+   "kind": "song",
+   "artist": "Mings Lama",
+   "title": "Damphu Ma Selo",
+   "url": "https://itunes.apple.com/lookup?id=1732000506&entity=song&country=US",
+   "quote": "\"trackName\":\"Damphu Ma Selo\"",
+   "read": "2026-11-23",
+   "note": "Tie: title names damphu and selo; artist also on the Tamang Selo compilation. Single, 2024."
+  },
+  {
+   "kind": "song",
+   "artist": "Jitu Lopchan & Bijay Tamang",
+   "title": "Korbari Nagarkot (Tamang Selo)",
+   "url": "https://itunes.apple.com/lookup?id=1763791879&entity=song&country=US",
+   "quote": "Korbari Nagarkot (Tamang Selo)",
+   "read": "2026-11-23",
+   "note": "Tie: title names the genre. Single, 2024."
+  },
+  {
+   "kind": "song",
+   "artist": "Kunti Moktan",
+   "title": "Mathi Mathi Sailungema",
+   "url": "https://kathmandupost.com/38/2020/04/20/iconic-songs-that-still-rule-the-nepali-playlist",
+   "quote": "‘Mathi Mathi Sailunge Ma’ played on the beat of Tamang Selo, and also used drums, electric guitar and piano.",
+   "read": "2026-11-23",
+   "note": "Genre tie for the song."
+  },
+  {
+   "kind": "song",
+   "artist": "Hira Devi Waiba",
+   "title": "Ramri Ta Ramri Kati Sar Ramri",
+   "url": "https://en.wikipedia.org/wiki/Hira_Devi_Waiba",
+   "quote": "Waiba's popular songs include Phariya Lyaaidiyechan, Ora Daudi Jaanda and Ramri tah Ramri.",
+   "read": "2026-11-23",
+   "note": "Performer tie: same page gives her genre as Tamang Selo."
+  },
+  {
+   "kind": "song",
+   "artist": "Hira Devi Waiba",
+   "title": "Ramri Ta Ramri Kati Sar Ramri",
+   "url": "https://en.wikipedia.org/wiki/Hira_Devi_Waiba",
+   "quote": "Tamang Selo, Nepali Folk",
+   "read": "2026-11-23",
+   "note": "Infobox genre line."
+  },
+  {
+   "kind": "song",
+   "artist": "Navneet Aditya Waiba",
+   "title": "Jhilke Naachayko",
+   "url": "https://en.wikipedia.org/wiki/Hira_Devi_Waiba",
+   "quote": "Navneet Aditya Waiba | Jhilke Naachayko - Damphu Geet",
+   "read": "2026-11-23",
+   "note": "Genre tie for the song (damphu song): an external-link label on her mother Hira Devi Waiba's page."
+  },
+  {
+   "kind": "song",
+   "artist": "Navneet Aditya Waiba",
+   "title": "Aye Syangbo",
+   "url": "https://en.wikipedia.org/wiki/Navneet_Aditya_Waiba",
+   "quote": "Nepali Folk, Tamang Selo Sorathi, Madalay",
+   "read": "2026-11-23",
+   "note": "Infobox genre line: performer tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Min Bahadur Tamang & Indira Gole Gurung",
+   "title": "Supari Dana",
+   "url": "https://www.tamangsamaj.com/?p=1844",
+   "quote": "She specializes in folk, modern, Lok Dohori, Nepal Selo, and Tamang cultural music",
+   "read": "2026-11-23",
+   "note": "Performer tie for Indira Gole Gurung."
+  },
+  {
+   "kind": "song",
+   "artist": "Kutumba",
+   "title": "Tamang Selo",
+   "url": "https://en.wikipedia.org/wiki/Folk_Roots_(album)",
+   "quote": "is the second studio album by Nepali folk band Kutumba",
+   "read": "2026-11-23",
+   "note": "Album identity; track 9 is Tamang Selo on the same page."
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "Ja Changaba - Tamang Selo",
+   "url": "https://itunes.apple.com/lookup?id=1392919475&entity=song&country=US",
+   "quote": "\"collectionName\":\"Ja Changaba - Tamang Selo\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Padam Geyapak & Shree Maya Ghishing",
+   "title": "Gangjola Dini - Tamang Selo",
+   "url": "https://itunes.apple.com/lookup?id=1391944862&entity=song&country=US",
+   "quote": "\"collectionName\":\"Gangjola Dini - Tamang Selo\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Norsang Dong, Indira Gurung & Sasikala Moktan",
+   "title": "Tamang Selo Juhari - Helambu Sero",
+   "url": "https://itunes.apple.com/lookup?id=1391657350&entity=song&country=US",
+   "quote": "\"collectionName\":\"Tamang Selo Juhari - Helambu Sero\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "Tamang Selo",
+   "url": "https://itunes.apple.com/lookup?id=1496320130&entity=song&country=US",
+   "quote": "\"collectionName\":\"Tamang Selo\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Navneet Aditya Waiba",
+   "title": "Ama Lai Shraddhanjali",
+   "url": "https://itunes.apple.com/lookup?id=1323957683&entity=song&country=US",
+   "quote": "\"collectionName\":\"Ama Lai Shraddhanjali\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Min Bahadur Tamang, Pawan Wang, Indira Gole Gurung & Rose Moktan",
+   "title": "Fapare Selo",
+   "url": "https://itunes.apple.com/lookup?id=1653087525&entity=song&country=US",
+   "quote": "\"collectionName\":\"Fapare Selo - Single\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Kunti Moktan",
+   "title": "Mathi Mathi Sailungema",
+   "url": "https://kathmandupost.com/38/2020/04/20/iconic-songs-that-still-rule-the-nepali-playlist",
+   "quote": "‘Mathi Mathi Sailunge Ma’ played on the beat of Tamang Selo",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Tuluk Bahadur Lama",
+   "title": "Oh Saili (Tamang Selo)",
+   "url": "https://itunes.apple.com/lookup?id=1215567058&entity=song&country=US",
+   "quote": "Oh Saili (Tamang Selo)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Chandra Kumar Dong & Sasikala Moktan",
+   "title": "Gadejeyaba Maichang",
+   "url": "https://itunes.apple.com/lookup?id=1392919475&entity=song&country=US",
+   "quote": "Ja Changaba - Tamang Selo",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Navneet Aditya Waiba",
+   "title": "Jhilke Naachayko",
+   "url": "https://en.wikipedia.org/wiki/Hira_Devi_Waiba",
+   "quote": "Jhilke Naachayko - Damphu Geet",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Kutumba",
+   "title": "Tamang Selo",
+   "url": "https://en.wikipedia.org/wiki/Folk_Roots_(album)",
+   "quote": "Tamang Selo 7:24",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Raju Pariyar",
+   "title": "Kishimkotma Chari Nacheko",
+   "url": "https://en.wikipedia.org/wiki/Raju_Pariyar",
+   "quote": "He recorded his first song \"Kishimkotma Chari Nacheko\" at Reema Recording Studio",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Raju Pariyar",
+   "title": "Kishimkotma Chari Nacheko",
+   "url": "https://en.wikipedia.org/wiki/Raju_Pariyar",
+   "quote": "Pariyar began his musical career by performing in Dohori Saanjh.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Narayan Gopal",
+   "title": "Yo Kasto Byatha Ho",
+   "url": "https://en.wikipedia.org/wiki/Narayan_Gopal",
+   "quote": "and \"Yo Kasto Byatha Ho\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Narayan Gopal",
+   "title": "Yo Kasto Byatha Ho",
+   "url": "https://en.wikipedia.org/wiki/Narayan_Gopal",
+   "quote": "Narayan Gopal Ka Adhunik Geet Haru Vol 1–9",
+   "read": "2026-11-23"
+  }
+ ],
+ "pasillo": [
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Pasillo_(m%C3%BAsica)",
+   "quote": "El pasillo es un género musical y danza folclórica autóctono de Ecuador y Colombia",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Pasillo_(m%C3%BAsica)",
+   "quote": "en las primeras décadas del siglo XIX como una adaptación del vals austriaco",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Pasillo_(m%C3%BAsica)",
+   "quote": "A fines del siglo XIX pasó de Colombia a Ecuador y Panamá",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Pasillo_(m%C3%BAsica)",
+   "quote": "el pasillo se extendió a finales del siglo XIX hacia Centroamérica",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Pasillo_(m%C3%BAsica)",
+   "quote": "En sus inicios el pasillo era solamente instrumental y su ejecución se basaba en los tres instrumentos \"básicos\" de la música andina : bandola , tiple y guitarra",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Pasillo_(m%C3%BAsica)",
+   "quote": "El “pasillo” es de 3/4",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Pasillo_(m%C3%BAsica)",
+   "quote": "El pasillo instrumental fiestero, que es el más característico de las fiestas populares",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Pasillo_(m%C3%BAsica)",
+   "quote": "El pasillo lento vocal o instrumental, es característico de los cantos enamorados, desilusiones, luto y recuerdos",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Pasillo_(m%C3%BAsica)",
+   "quote": "En la ejecución instrumental del pasillo hoy se considera insustituible la percusión de “cucharas”",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Pasillo_ecuatoriano",
+   "quote": "El pasillo ecuatoriano adoptó un ritmo lento y melancólico que se toca en tonos bajos",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Pasillo_ecuatoriano",
+   "quote": "La adición del requinto y un arreglo armónico a tres voces produjo lo que Mullo y Guerrero han llamado la \"bolerización\" del pasillo.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://en.wikipedia.org/wiki/Pasillo",
+   "quote": "Born in the Andes during the independence wars, it spread to other areas",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://en.wikipedia.org/wiki/Pasillo",
+   "quote": "Venezuelans refer to this style of music as \"vals\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://en.wikipedia.org/wiki/Pasillo",
+   "quote": "UNESCO's representative list of the Intangible Cultural Heritage of Humanity includes Pasillo from 2021.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Pasillo_(m%C3%BAsica)",
+   "quote": "en la conjugación de las dos voces típicas, primo y segundo",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://en.wikipedia.org/wiki/Pasillo",
+   "quote": "In 1911, of the 272 pieces recorded in the country, 67 were pasillos",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Carlos_Vieco",
+   "quote": "273 Pasillos (incluidos sus pasillos fiesteros y sus pasillos lentos)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Francisco_Paredes_Herrera",
+   "quote": "compuso 857 canciones, de las cuales, 219 obras, son pasillos",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Julio_Jaramillo",
+   "quote": "grabó más de 200 discos",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Nicasio_Safadi",
+   "quote": "además de otras 37 canciones en 19 discos de carbón de 78 rpm, el 19 de junio de 1930",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Pasillo",
+   "url": "https://es.wikipedia.org/wiki/Garz%C3%B3n_y_Collazos",
+   "quote": "conformando una discografía que abarcó 216 canciones",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Dúo Ecuador",
+   "title": "Guayaquil de mis amores",
+   "url": "https://es.wikipedia.org/wiki/Nicasio_Safadi",
+   "quote": "Grabó así el pasillo Guayaquil de mis amores",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Julio Jaramillo",
+   "title": "El alma en los labios",
+   "url": "https://es.wikipedia.org/wiki/El_alma_en_los_labios",
+   "quote": "interpretaron el tema, causando que se vuelva uno de los pasillos más importantes de la música ecuatoriana",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Carlota Jaramillo",
+   "title": "Sendas distintas",
+   "url": "https://es.wikipedia.org/wiki/Carlota_Jaramillo",
+   "quote": "pasillo ecuatoriano, como «Rondador», «Sendas distintas» y «Sombras»",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Garzón y Collazos",
+   "title": "Espumas",
+   "url": "https://es.wikipedia.org/wiki/Jorge_Villamil",
+   "quote": "Su pasillo 'Espumas', de 1962, grabado primero por Los Tolimenses sin mucha trascendencia y posteriormente con los arreglos y voces de Garzón y Collazos",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Oriol Rangel",
+   "title": "La gata golosa",
+   "url": "https://es.wikipedia.org/wiki/Fulgencio_Garc%C3%ADa",
+   "quote": "Su composición más conocida es \"La Gata Golosa\", un pasillo instrumental que escribió en 1912",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Silva y Villalba",
+   "title": "El barcino",
+   "url": "https://es.wikipedia.org/wiki/Bambuco",
+   "quote": "\"El barcino\" [ 27 ] y \"María Manuela\", [ 28 ] del huilense Jorge Villamil",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Silva y Villalba",
+   "title": "El barcino",
+   "url": "https://itunes.apple.com/lookup?id=1326370629&entity=song&country=CO",
+   "quote": "El Barcino",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Los Morochucos",
+   "title": "La flor de la canela",
+   "url": "https://es.wikipedia.org/wiki/La_flor_de_la_canela",
+   "quote": "fue grabada por primera vez en el invierno de 1953 por el trío Los Morochucos",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Los Morochucos",
+   "title": "La flor de la canela",
+   "url": "https://es.wikipedia.org/wiki/La_flor_de_la_canela",
+   "quote": "Género vals peruano",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Julio Jaramillo",
+   "title": "El alma en los labios",
+   "url": "https://itunes.apple.com/lookup?id=1570398768&entity=song&country=EC",
+   "quote": "El Alma en los Labios",
+   "read": "2026-11-23",
+   "note": "Recording found on the album Mis Mejores Pasillos (Vol. 1), ℗ 1971 J.D. Feraud Guzmán; the album title names the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "Julio Jaramillo",
+   "title": "El alma en los labios",
+   "url": "https://es.wikipedia.org/wiki/El_alma_en_los_labios",
+   "quote": "Canciones de 1919",
+   "read": "2026-11-23",
+   "note": "Year written (category on the song page; the poem is from 1918)."
+  },
+  {
+   "kind": "song",
+   "artist": "Garzón y Collazos",
+   "title": "Espumas",
+   "url": "https://itunes.apple.com/lookup?id=1742082432&entity=song&country=CO",
+   "quote": "Espumas",
+   "read": "2026-11-23",
+   "note": "Recording on Lo Mejor de Garzón y Collazos, ℗ 1973 Sonolux. Tie: Jorge Villamil page calls Espumas his pasillo, of 1962, sung by Garzón y Collazos (fit claim)."
+  },
+  {
+   "kind": "song",
+   "artist": "Carlota Jaramillo",
+   "title": "Sendas distintas",
+   "url": "https://itunes.apple.com/lookup?id=1423161117&entity=song&country=EC",
+   "quote": "Sendas Distintas",
+   "read": "2026-11-23",
+   "note": "Recording on Amor Imposible (track date 1935; ℗ 2018 Tropicalia Music). Tie: Carlota Jaramillo page (fit claim)."
+  },
+  {
+   "kind": "song",
+   "artist": "Hermanos Miño Naranjo",
+   "title": "Tú y yo",
+   "url": "https://itunes.apple.com/lookup?id=1560880387&entity=song&country=EC",
+   "quote": "Tú y Yo",
+   "read": "2026-11-23",
+   "note": "Recording on Nuestra Música, ℗ 1995 J.D. Feraud Guzmán."
+  },
+  {
+   "kind": "song",
+   "artist": "Hermanos Miño Naranjo",
+   "title": "Tú y yo",
+   "url": "https://es.wikipedia.org/wiki/Hermanos_Mi%C3%B1o_Naranjo",
+   "quote": "alcanzaron su reconocimiento con el pasillo «Tú y yo»",
+   "read": "2026-11-23",
+   "note": "Tie: performer page names the song a pasillo."
+  },
+  {
+   "kind": "song",
+   "artist": "Dúo Ecuador",
+   "title": "Guayaquil de mis amores",
+   "url": "https://itunes.apple.com/lookup?id=1352384855&entity=song&country=EC",
+   "quote": "Guayaquil de mis amores",
+   "read": "2026-11-23",
+   "note": "Recording on La canción del olvido (1930-1940), ℗ 2018 Phorminx (a reissue of the duo's 1930s recordings; the exact date of this take is not given)."
+  },
+  {
+   "kind": "song",
+   "artist": "Dúo Ecuador",
+   "title": "Guayaquil de mis amores",
+   "url": "https://es.wikipedia.org/wiki/Guayaquil_de_mis_amores",
+   "quote": "es una composición musical con tono de pasillo",
+   "read": "2026-11-23",
+   "note": "Tie: song page."
+  },
+  {
+   "kind": "song",
+   "artist": "Carlota Jaramillo",
+   "title": "A unos ojos",
+   "url": "https://itunes.apple.com/lookup?id=1423161117&entity=song&country=EC",
+   "quote": "A Unos Ojos (Pasillo Ecuador)",
+   "read": "2026-11-23",
+   "note": "Tie: the track title names the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "Carlota Jaramillo",
+   "title": "Profunda herida",
+   "url": "https://itunes.apple.com/lookup?id=1423161117&entity=song&country=EC",
+   "quote": "Profunda Herida (Pasillo Ecuador)",
+   "read": "2026-11-23",
+   "note": "Tie: the track title names the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "Dúo Ecuador",
+   "title": "Adoración",
+   "url": "https://itunes.apple.com/lookup?id=1352384855&entity=song&country=EC",
+   "quote": "Adoración",
+   "read": "2026-11-23",
+   "note": "Recording on La canción del olvido (1930-1940)."
+  },
+  {
+   "kind": "song",
+   "artist": "Dúo Ecuador",
+   "title": "Adoración",
+   "url": "https://es.wikipedia.org/wiki/Pasillo_(m%C3%BAsica)",
+   "quote": "\"Adoración\" del ecuatoriano Genaro Castro musicalizado por el también ecuatoriano Enrique Ibáñez Mora",
+   "read": "2026-11-23",
+   "note": "Tie: named as a sung pasillo (a musicalised poem) on the Spanish Pasillo page; Ibáñez Mora is half of the Dúo Ecuador."
+  },
+  {
+   "kind": "song",
+   "artist": "Julio Jaramillo",
+   "title": "Sombras",
+   "url": "https://itunes.apple.com/lookup?id=1570398768&entity=song&country=EC",
+   "quote": "Sombras",
+   "read": "2026-11-23",
+   "note": "On Mis Mejores Pasillos (Vol. 1), 1971."
+  },
+  {
+   "kind": "song",
+   "artist": "Julio Jaramillo",
+   "title": "Sombras",
+   "url": "https://es.wikipedia.org/wiki/Pasillo_(m%C3%BAsica)",
+   "quote": "\"Sombras\", de la poeta mexicana Rosario Sansores y musicalizado por el ecuatoriano Carlos Brito",
+   "read": "2026-11-23",
+   "note": "Tie: named as a sung pasillo on the Spanish Pasillo page."
+  },
+  {
+   "kind": "song",
+   "artist": "Julio Jaramillo",
+   "title": "Náufrago de amor",
+   "url": "https://itunes.apple.com/lookup?id=1570398768&entity=song&country=EC",
+   "quote": "Náufrago de Amor",
+   "read": "2026-11-23",
+   "note": "On Mis Mejores Pasillos (Vol. 1); track date 1959. Tie by album title only."
+  },
+  {
+   "kind": "song",
+   "artist": "Dúo Benítez-Valencia",
+   "title": "Lamparilla",
+   "url": "https://itunes.apple.com/lookup?id=6793523253&entity=song&country=EC",
+   "quote": "Lamparilla",
+   "read": "2026-11-23",
+   "note": "On Recital De Pasillos Ecuatorianos Vol. 3, ℗ 1980 Producciones GBG; the album title names the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "Dúo Benítez-Valencia",
+   "title": "Lamparilla",
+   "url": "https://es.wikipedia.org/wiki/Juan_Fernando_Velasco",
+   "quote": "tradicionales pasillos como ‘Lamparilla’",
+   "read": "2026-11-23",
+   "note": "Tie: Juan Fernando Velasco page calls Lamparilla a traditional pasillo."
+  },
+  {
+   "kind": "song",
+   "artist": "Dúo Benítez-Valencia",
+   "title": "Mis flores negras",
+   "url": "https://itunes.apple.com/lookup?id=6793523253&entity=song&country=EC",
+   "quote": "Mis Flores Negras",
+   "read": "2026-11-23",
+   "note": "On Recital De Pasillos Ecuatorianos Vol. 3, 1980."
+  },
+  {
+   "kind": "song",
+   "artist": "Dúo Benítez-Valencia",
+   "title": "Mis flores negras",
+   "url": "https://es.wikipedia.org/wiki/Pasillo_(m%C3%BAsica)",
+   "quote": "\"Mis flores negras\" poema del colombiano Julio Flórez cuya versión musicalizada se atribuye al ecuatoriano Carlos Amable Ortiz",
+   "read": "2026-11-23",
+   "note": "Tie: named as a sung pasillo on the Spanish Pasillo page."
+  },
+  {
+   "kind": "song",
+   "artist": "Dúo Benítez-Valencia",
+   "title": "Horas de pasión",
+   "url": "https://itunes.apple.com/lookup?id=6793523253&entity=song&country=EC",
+   "quote": "Horas De Pasión",
+   "read": "2026-11-23",
+   "note": "On Recital De Pasillos Ecuatorianos Vol. 3, 1980."
+  },
+  {
+   "kind": "song",
+   "artist": "Dúo Benítez-Valencia",
+   "title": "Horas de pasión",
+   "url": "https://es.wikipedia.org/wiki/Francisco_Paredes_Herrera",
+   "quote": "bellísimos pasillos como son: El Alma en lo Labios , Horas de Pasión",
+   "read": "2026-11-23",
+   "note": "Tie: Paredes Herrera page lists it among his pasillos."
+  },
+  {
+   "kind": "song",
+   "artist": "Dueto Maridueña Rubira",
+   "title": "Nadie me espera",
+   "url": "https://itunes.apple.com/lookup?id=1738134886&entity=song&country=EC",
+   "quote": "Nadie Me Espera",
+   "read": "2026-11-23",
+   "note": "On Pasillos Ecuatorianos, ℗ 1979 Sonolux; the album title names the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "Dueto Maridueña Rubira",
+   "title": "Nadie me espera",
+   "url": "https://es.wikipedia.org/wiki/Francisco_Paredes_Herrera",
+   "quote": "Muy pronto es mi partida Nadie me espera Nido de amor",
+   "read": "2026-11-23",
+   "note": "Tie: in the Pasillos list of Paredes Herrera's works."
+  },
+  {
+   "kind": "song",
+   "artist": "Dueto Maridueña Rubira",
+   "title": "Mi destino es amarte",
+   "url": "https://itunes.apple.com/lookup?id=1738134886&entity=song&country=EC",
+   "quote": "Mi Destino Es Amarte",
+   "read": "2026-11-23",
+   "note": "On Pasillos Ecuatorianos, 1979."
+  },
+  {
+   "kind": "song",
+   "artist": "Dueto Maridueña Rubira",
+   "title": "Mi destino es amarte",
+   "url": "https://es.wikipedia.org/wiki/Francisco_Paredes_Herrera",
+   "quote": "Mi alma enferma Mi amor Mi destino es amarte Mi linda porteña",
+   "read": "2026-11-23",
+   "note": "Tie: in the Pasillos list of Paredes Herrera's works."
+  },
+  {
+   "kind": "song",
+   "artist": "Olimpo Cárdenas",
+   "title": "Romance de mi destino",
+   "url": "https://itunes.apple.com/lookup?id=591386119&entity=song&country=EC",
+   "quote": "Romance de Mi Destino",
+   "read": "2026-11-23",
+   "note": "On Los Pasillos de Oro (℗ 2006 Suramericana del Disco; the track carries the date 1996); the album title names the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "Olimpo Cárdenas",
+   "title": "Romance de mi destino",
+   "url": "https://es.wikipedia.org/wiki/Pasillo_ecuatoriano",
+   "quote": "En la década de 1940 se compusieron nuevos pasillos con un fuerte tono de pérdida y nostalgia por un pasado idealizado, como \"Romance de mi destino\"",
+   "read": "2026-11-23",
+   "note": "Tie: Spanish Pasillo ecuatoriano page."
+  },
+  {
+   "kind": "song",
+   "artist": "Olimpo Cárdenas",
+   "title": "En las lejanías",
+   "url": "https://itunes.apple.com/lookup?id=591386119&entity=song&country=EC",
+   "quote": "Lejanias",
+   "read": "2026-11-23",
+   "note": "On Los Pasillos de Oro; page spelling Lejanias."
+  },
+  {
+   "kind": "song",
+   "artist": "Olimpo Cárdenas",
+   "title": "En las lejanías",
+   "url": "https://es.wikipedia.org/wiki/Olimpo_C%C3%A1rdenas",
+   "quote": "el pasillo «En las lejanías»",
+   "read": "2026-11-23",
+   "note": "Tie: performer page; he first recorded it with Carlos Rubira in 1946."
+  },
+  {
+   "kind": "song",
+   "artist": "Olimpo Cárdenas",
+   "title": "Hacia el calvario",
+   "url": "https://itunes.apple.com/lookup?id=591386119&entity=song&country=EC",
+   "quote": "Hacia el Calvario",
+   "read": "2026-11-23",
+   "note": "On Los Pasillos de Oro. Tie by album title only."
+  },
+  {
+   "kind": "song",
+   "artist": "Hermanos Miño Naranjo",
+   "title": "El aguacate",
+   "url": "https://itunes.apple.com/lookup?id=1560880387&entity=song&country=EC",
+   "quote": "El Aguacate",
+   "read": "2026-11-23",
+   "note": "On Nuestra Música, 1995."
+  },
+  {
+   "kind": "song",
+   "artist": "Hermanos Miño Naranjo",
+   "title": "El aguacate",
+   "url": "https://en.wikipedia.org/wiki/Pasillo",
+   "quote": "Some Ecuadorian pasillos include \"Pasional\", \"Invernal\", \"Ángel de Luz\", \"El aguacate\"",
+   "read": "2026-11-23",
+   "note": "Tie: English Pasillo page."
+  },
+  {
+   "kind": "song",
+   "artist": "Juan Fernando Velasco",
+   "title": "Esta pena mía",
+   "url": "https://itunes.apple.com/lookup?id=1434938715&entity=song&country=EC",
+   "quote": "Esta Pena Mia (feat. India Martínez)",
+   "read": "2026-11-23",
+   "note": "On Misquilla, ℗ 2015 Chuquiragua Music."
+  },
+  {
+   "kind": "song",
+   "artist": "Juan Fernando Velasco",
+   "title": "Esta pena mía",
+   "url": "https://es.wikipedia.org/wiki/Juan_Fernando_Velasco",
+   "quote": "‘Lamparilla’, ‘Esta pena mía’, ‘Invernal’",
+   "read": "2026-11-23",
+   "note": "Tie: performer page names these as the traditional pasillos the album revives."
+  },
+  {
+   "kind": "song",
+   "artist": "Juan Fernando Velasco",
+   "title": "Invernal",
+   "url": "https://itunes.apple.com/lookup?id=1434938715&entity=song&country=EC",
+   "quote": "Invernal (feat. Gaby Moreno)",
+   "read": "2026-11-23",
+   "note": "On Misquilla, 2015."
+  },
+  {
+   "kind": "song",
+   "artist": "Juan Fernando Velasco",
+   "title": "Invernal",
+   "url": "https://en.wikipedia.org/wiki/Pasillo",
+   "quote": "Some Ecuadorian pasillos include \"Pasional\", \"Invernal\"",
+   "read": "2026-11-23",
+   "note": "Tie: English Pasillo page; also the Velasco page."
+  },
+  {
+   "kind": "song",
+   "artist": "Alexandra Cabanilla",
+   "title": "Ángel de luz",
+   "url": "https://itunes.apple.com/lookup?id=1588099631&entity=song&country=EC",
+   "quote": "Ángel de Luz (feat. Trío Alvarado)",
+   "read": "2026-11-23",
+   "note": "On Pasillo Eterno, ℗ 2021 Museo del Pasillo; the album title names the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "Alexandra Cabanilla",
+   "title": "Ángel de luz",
+   "url": "https://es.wikipedia.org/wiki/Alexandra_Cabanilla",
+   "quote": "Género Pasillo Jazz World Music Pop",
+   "read": "2026-11-23",
+   "note": "Tie: performer page lists pasillo as her genre; English Pasillo page names Ángel de Luz an Ecuadorian pasillo."
+  },
+  {
+   "kind": "song",
+   "artist": "Garzón y Collazos",
+   "title": "Oropel",
+   "url": "https://itunes.apple.com/lookup?id=1742082432&entity=song&country=CO",
+   "quote": "Oropel",
+   "read": "2026-11-23",
+   "note": "On Lo Mejor de Garzón y Collazos, 1973."
+  },
+  {
+   "kind": "song",
+   "artist": "Garzón y Collazos",
+   "title": "Oropel",
+   "url": "https://en.wikipedia.org/wiki/Pasillo",
+   "quote": "Famous Colombian pasillos include \"Espumas\", \"Pueblito viejo\", \"Pescador lucero y río\", and \"Oropel\".",
+   "read": "2026-11-23",
+   "note": "Tie: English Pasillo page."
+  },
+  {
+   "kind": "song",
+   "artist": "Garzón y Collazos",
+   "title": "Pueblito viejo",
+   "url": "https://itunes.apple.com/lookup?id=1742082432&entity=song&country=CO",
+   "quote": "Pueblito Viejo",
+   "read": "2026-11-23",
+   "note": "On Lo Mejor de Garzón y Collazos, 1973."
+  },
+  {
+   "kind": "song",
+   "artist": "Garzón y Collazos",
+   "title": "Pueblito viejo",
+   "url": "https://en.wikipedia.org/wiki/Pasillo",
+   "quote": "Famous Colombian pasillos include \"Espumas\", \"Pueblito viejo\"",
+   "read": "2026-11-23",
+   "note": "Tie: English Pasillo page, which also names Garzón y Collazos among the duets that popularised pasillo."
+  },
+  {
+   "kind": "song",
+   "artist": "Silva y Villalba",
+   "title": "Pescador, lucero y río",
+   "url": "https://itunes.apple.com/lookup?id=1326370629&entity=song&country=CO",
+   "quote": "Pescador, Lucero y Río",
+   "read": "2026-11-23",
+   "note": "On Pescador, Lucero y Río (track date 1993)."
+  },
+  {
+   "kind": "song",
+   "artist": "Silva y Villalba",
+   "title": "Pescador, lucero y río",
+   "url": "https://en.wikipedia.org/wiki/Pasillo",
+   "quote": "Famous Colombian pasillos include \"Espumas\", \"Pueblito viejo\", \"Pescador lucero y río\"",
+   "read": "2026-11-23",
+   "note": "Tie: English Pasillo page."
+  },
+  {
+   "kind": "song",
+   "artist": "Oriol Rangel",
+   "title": "La gata golosa",
+   "url": "https://itunes.apple.com/lookup?id=1739143283&entity=song&country=CO",
+   "quote": "Gata Golosa",
+   "read": "2026-11-23",
+   "note": "On Nocturnal Colombiano, ℗ 1981 Sonolux; page spelling Gata Golosa. Tie: Fulgencio García page (fit claim), written 1912."
+  },
+  {
+   "kind": "song",
+   "artist": "Jaime Llano González & Oriol Rangel",
+   "title": "Coqueteos",
+   "url": "https://itunes.apple.com/lookup?id=1739123845&entity=song&country=CO",
+   "quote": "Coqueteos",
+   "read": "2026-11-23",
+   "note": "On Inspiración, ℗ 1964 Sonolux."
+  },
+  {
+   "kind": "song",
+   "artist": "Jaime Llano González & Oriol Rangel",
+   "title": "Coqueteos",
+   "url": "https://es.wikipedia.org/wiki/Fulgencio_Garc%C3%ADa",
+   "quote": "Pasillos: \"Coqueteos\", \"Mi Negra\", \"Mística Pastoril\"",
+   "read": "2026-11-23",
+   "note": "Tie: composer page lists it among Fulgencio García's pasillos."
+  },
+  {
+   "kind": "song",
+   "artist": "Oriol Rangel",
+   "title": "Genio alegre",
+   "url": "https://itunes.apple.com/lookup?id=1739143283&entity=song&country=CO",
+   "quote": "Genio Alegre",
+   "read": "2026-11-23",
+   "note": "On Nocturnal Colombiano, 1981."
+  },
+  {
+   "kind": "song",
+   "artist": "Oriol Rangel",
+   "title": "Genio alegre",
+   "url": "https://es.wikipedia.org/wiki/Luis_Antonio_Calvo",
+   "quote": "Pasillos [ editar ] Blanquita Genio alegre Noel Trébol agorero",
+   "read": "2026-11-23",
+   "note": "Tie: composer page (Luis Antonio Calvo) lists it among his pasillos."
+  },
+  {
+   "kind": "song",
+   "artist": "Oriol Rangel",
+   "title": "Blanquita",
+   "url": "https://itunes.apple.com/lookup?id=1749165568&entity=song&country=CO",
+   "quote": "Blanquita",
+   "read": "2026-11-23",
+   "note": "On Homenaje a Luis A Calvo, ℗ 1967 Sonolux."
+  },
+  {
+   "kind": "song",
+   "artist": "Oriol Rangel",
+   "title": "Blanquita",
+   "url": "https://es.wikipedia.org/wiki/Luis_Antonio_Calvo",
+   "quote": "Pasillos [ editar ] Blanquita Genio alegre",
+   "read": "2026-11-23",
+   "note": "Tie: Calvo's pasillo list."
+  },
+  {
+   "kind": "song",
+   "artist": "Oriol Rangel",
+   "title": "El trébol agorero",
+   "url": "https://itunes.apple.com/lookup?id=1749165568&entity=song&country=CO",
+   "quote": "El Trébol Agorero",
+   "read": "2026-11-23",
+   "note": "On Homenaje a Luis A Calvo, 1967."
+  },
+  {
+   "kind": "song",
+   "artist": "Oriol Rangel",
+   "title": "El trébol agorero",
+   "url": "https://es.wikipedia.org/wiki/Luis_Antonio_Calvo",
+   "quote": "Noel Trébol agorero Entusiasmo",
+   "read": "2026-11-23",
+   "note": "Tie: Calvo's pasillo list (as Trébol agorero)."
+  },
+  {
+   "kind": "album",
+   "artist": "Julio Jaramillo",
+   "title": "Mis Mejores Pasillos (Vol. 1)",
+   "url": "https://itunes.apple.com/lookup?id=1570398768&entity=song&country=EC",
+   "quote": "Mis Mejores Pasillos (Vol. 1)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Dúo Benítez-Valencia",
+   "title": "Recital de pasillos ecuatorianos Vol. 3",
+   "url": "https://itunes.apple.com/lookup?id=6793523253&entity=song&country=EC",
+   "quote": "Recital De Pasillos Ecuatorianos Vol. 3",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Dueto Maridueña Rubira",
+   "title": "Pasillos ecuatorianos",
+   "url": "https://itunes.apple.com/lookup?id=1738134886&entity=song&country=EC",
+   "quote": "Pasillos Ecuatorianos",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Olimpo Cárdenas",
+   "title": "Los pasillos de oro",
+   "url": "https://itunes.apple.com/lookup?id=591386119&entity=song&country=EC",
+   "quote": "Los Pasillos de Oro",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "Pasillo eterno",
+   "url": "https://itunes.apple.com/lookup?id=1588099631&entity=song&country=EC",
+   "quote": "Pasillo Eterno",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Dúo Ecuador",
+   "title": "La canción del olvido (1930-1940)",
+   "url": "https://itunes.apple.com/lookup?id=1352384855&entity=song&country=EC",
+   "quote": "La canción del olvido (1930-1940)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Oriol Rangel",
+   "title": "Homenaje a Luis A. Calvo",
+   "url": "https://itunes.apple.com/lookup?id=1749165568&entity=song&country=CO",
+   "quote": "Homenaje a Luis A Calvo",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Juan Fernando Velasco",
+   "title": "Misquilla",
+   "url": "https://itunes.apple.com/lookup?id=1434938715&entity=song&country=EC",
+   "quote": "Misquilla",
+   "read": "2026-11-23"
+  }
+ ],
+ "meringue": [
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Haitian méringue",
+   "url": "https://en.wikipedia.org/wiki/M%C3%A9ringue",
+   "quote": "is a dance music and national symbol in Haiti",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Haitian méringue",
+   "url": "https://en.wikipedia.org/wiki/M%C3%A9ringue",
+   "quote": "It is a string-based style played on the guitar, horn section, piano, and other string instruments unlike the accordion-based merengue",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Haitian méringue",
+   "url": "https://en.wikipedia.org/wiki/M%C3%A9ringue",
+   "quote": "The méringue is based on a five-note rhythm, or quintuplet, known in French as a quintolet and Spanish (from Cuba) as a cinquillo.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Haitian méringue",
+   "url": "https://en.wikipedia.org/wiki/M%C3%A9ringue",
+   "quote": "wrote méringue for solo piano and sometimes for small groups of wind instruments",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Haitian méringue",
+   "url": "https://en.wikipedia.org/wiki/M%C3%A9ringue",
+   "quote": "Méringue were also used by proletarian audiences during Carnival time, especially in the nineteenth century.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Haitian méringue",
+   "url": "https://en.wikipedia.org/wiki/M%C3%A9ringue",
+   "quote": "a syncopated five-beat pattern (often spoken as \"dak-ta-dak-ta-dak\")",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Haitian méringue",
+   "url": "https://en.wikipedia.org/wiki/M%C3%A9ringue",
+   "quote": "Mid-19th century, [[Haiti]]",
+   "read": "2026-11-23",
+   "note": "Infobox field cultural_origins, read in the raw page source."
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Haitian méringue",
+   "url": "https://en.wikipedia.org/wiki/Dance_in_Haiti",
+   "quote": "Unlike the accordion-driven Dominican merengue, Haitian méringue is primarily string-based with a slower, more nostalgic sound",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Haitian méringue",
+   "url": "https://folkways-media.si.edu/docs/folkways/artwork/FW06837.pdf",
+   "quote": "The Haitian Meringue differs from the Dominican dance of the same name in several respects.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Haitian méringue",
+   "url": "https://folkways-media.si.edu/docs/folkways/artwork/FW06837.pdf",
+   "quote": "The Haitian dance is slower, but there is more musical variety and change in cadence.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Haitian méringue",
+   "url": "https://folkways-media.si.edu/docs/folkways/artwork/FW06837.pdf",
+   "quote": "This third form is frequently heard during the carnivals.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Haitian méringue",
+   "url": "https://fr.wikipedia.org/wiki/M%C3%A9ringue",
+   "quote": "La méringue est devenue une danse nationale haïtienne.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Haitian méringue",
+   "url": "https://fr.wikipedia.org/wiki/M%C3%A9ringue",
+   "quote": "En 1920, il compose la Méringue populaire.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Haitian méringue",
+   "url": "https://en.wikipedia.org/wiki/Music_of_Haiti",
+   "quote": "is the modern méringue (mereng in creole) that was popularized in the mid-1950s by the sax and guitar player Nemours Jean-Baptiste",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": "Issa El-Saieh & son Orchestre",
+   "title": "La Belle Créole discography",
+   "url": "https://fr.wikipedia.org/wiki/Discographie_d%27Issa_El-Saieh_et_son_Orchestre",
+   "quote": "Les enregistrements ont été effectués entre 1947 et 1956",
+   "read": "2026-11-23",
+   "note": "About 35 sides on this one label are marked (Meringue) in the table."
+  },
+  {
+   "kind": "size",
+   "artist": "Fabre Duroseau",
+   "title": "Haitian Piano",
+   "url": "https://folkways-media.si.edu/docs/folkways/artwork/FW06837.pdf",
+   "quote": "The Duroseau brothers have composed So many Meringues and other pieces that they are sometimes confused as to authorship.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Tanbou Toujou Lou",
+   "url": "https://musicbrainz.org/release/a0088cb5-ea62-4921-aecc-98262d0e9b3b",
+   "quote": "Tanbou Toujou Lou: Meringue, Kompa Kreyol, Vodou Jazz & Electric Folklore from Haiti 1960 - 1981",
+   "read": "2026-11-23",
+   "note": "Shows the méringue label still in use on 1960-1981 records."
+  },
+  {
+   "kind": "fit",
+   "artist": "Fabre Duroseau",
+   "title": "Haitian Piano (album)",
+   "url": "https://musicbrainz.org/release/1058558c-84f4-4ea4-b6ce-0ceb2b738a6a",
+   "quote": "Haitian Piano",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Fabre Duroseau",
+   "title": "Haitian Piano (album)",
+   "url": "https://folkways-media.si.edu/docs/folkways/artwork/FW06837.pdf",
+   "quote": "Jeannette\" -- one of the lovely typical concert Meringues in this recording",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Issa El-Saieh & son Orchestre",
+   "title": "Cabane Choucoune",
+   "url": "https://fr.wikipedia.org/wiki/Discographie_d%27Issa_El-Saieh_et_son_Orchestre",
+   "quote": "Cabane Choucoune (Meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Emy de Pradines",
+   "title": "Original Meringues (album)",
+   "url": "https://musicbrainz.org/release/9b730d3c-8e17-480b-921a-18d2c99c13ed",
+   "quote": "Original Meringues",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Guy Durosier & His Rhythm",
+   "title": "Tarlatane",
+   "url": "https://fr.wikipedia.org/wiki/Discographie_d%27Issa_El-Saieh_et_son_Orchestre",
+   "quote": "Tarlatane (Meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Luis Alberti",
+   "title": "Compadre Pedro Juan",
+   "url": "https://en.wikipedia.org/wiki/Merengue_music",
+   "quote": "The first merengue to attain success at all levels of society was Alberti's famous 1936 work, \"Compadre Pedro Juan\".",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Nemours Jean-Baptiste",
+   "title": "Ti Carole",
+   "url": "https://en.wikipedia.org/wiki/Nemours_Jean-Baptiste",
+   "quote": "The 1967 composition \"Ti Carole\", dedicated to his fan Kouri, became famous and is still a favorite.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Nemours Jean-Baptiste",
+   "title": "Ti Carole",
+   "url": "https://en.wikipedia.org/wiki/Nemours_Jean-Baptiste",
+   "quote": "He is credited with being the inventor of Konpa",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Issa El-Saieh & son Orchestre",
+   "title": "Cabane Choucoune",
+   "url": "https://fr.wikipedia.org/wiki/Discographie_d%27Issa_El-Saieh_et_son_Orchestre",
+   "quote": "Cabane Choucoune (Meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Issa El-Saieh & son Orchestre",
+   "title": "Cabane Choucoune",
+   "url": "https://archive.org/details/78_cabane-choucoune_issa-el-saieh-and-his-orchestra-saieh-and-johnson_gbia0076483a",
+   "quote": "Performer: Issa El Saieh and his Orchestra Writer: Saieh and Johnson Merinque.",
+   "read": "2026-11-23",
+   "note": "The label misspells Meringue."
+  },
+  {
+   "kind": "song",
+   "artist": "Fabre Duroseau",
+   "title": "Jeannette",
+   "url": "https://musicbrainz.org/release/1058558c-84f4-4ea4-b6ce-0ceb2b738a6a",
+   "quote": "Jeannette (meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Fabre Duroseau",
+   "title": "Jeannette",
+   "url": "https://folkways-media.si.edu/docs/folkways/artwork/FW06837.pdf",
+   "quote": "Band 1. Jeannette (Meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Emy de Pradines",
+   "title": "Ti zwazo",
+   "url": "https://musicbrainz.org/release/9b730d3c-8e17-480b-921a-18d2c99c13ed",
+   "quote": "Ti zoizeau",
+   "read": "2026-11-23",
+   "note": "Ti zwazo is the popular name of Choucoune."
+  },
+  {
+   "kind": "song",
+   "artist": "Emy de Pradines",
+   "title": "Ti zwazo",
+   "url": "https://en.wikipedia.org/wiki/M%C3%A9ringue",
+   "quote": "or commonly known as \"Ti Zwazo\", an old méringue",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Emy de Pradines",
+   "title": "Ti zwazo",
+   "url": "https://fr.wikipedia.org/wiki/Choucoune",
+   "quote": "La chanson est devenue une lente méringue (mereng), populaire en Haïti",
+   "read": "2026-11-23",
+   "note": "Choucoune; year written."
+  },
+  {
+   "kind": "song",
+   "artist": "Emy de Pradines",
+   "title": "Ti zwazo",
+   "url": "https://fr.wikipedia.org/wiki/Choucoune",
+   "quote": "en compose la musique en 1893",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Issa El-Saieh & son Orchestre",
+   "title": "Angelico",
+   "url": "https://fr.wikipedia.org/wiki/Discographie_d%27Issa_El-Saieh_et_son_Orchestre",
+   "quote": "Angelico (Meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Issa El-Saieh & son Orchestre",
+   "title": "Angelico",
+   "url": "https://archive.org/details/78_angelico_saieh-and-his-orchestra-guy-durosier_gbia0482087a",
+   "quote": "Performer: SAIEH and his Orchestra Writer: Guy Durosier Méringue; Haitian Folklore; Vocal.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Surprise Jazz",
+   "title": "Instrumental Meringue",
+   "url": "https://musicbrainz.org/release/bb3bbb53-6370-4aba-9ba3-059af254c613",
+   "quote": "Instrumental Meringue",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Surprise Jazz",
+   "title": "Instrumental Meringue",
+   "url": "https://musicbrainz.org/release/bb3bbb53-6370-4aba-9ba3-059af254c613",
+   "quote": "Alan Lomax in Haiti 1936-1937 Recordings for the Library of Congress",
+   "read": "2026-11-23",
+   "note": "Recorded 1936-37, first issued 2009."
+  },
+  {
+   "kind": "song",
+   "artist": "Ludovic Lamothe",
+   "title": "Nibo",
+   "url": "https://musicbrainz.org/release/bb3bbb53-6370-4aba-9ba3-059af254c613",
+   "quote": "Nibo",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ludovic Lamothe",
+   "title": "Nibo",
+   "url": "https://fr.wikipedia.org/wiki/M%C3%A9ringue",
+   "quote": "pour laquelle il compose des airs lents (La Dangereuse, Nibo)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Issa El-Saieh & son Orchestre",
+   "title": "Carelite",
+   "url": "https://fr.wikipedia.org/wiki/Discographie_d%27Issa_El-Saieh_et_son_Orchestre",
+   "quote": "Carelite (Meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Issa El-Saieh & son Orchestre",
+   "title": "Ti mâmâ",
+   "url": "https://fr.wikipedia.org/wiki/Discographie_d%27Issa_El-Saieh_et_son_Orchestre",
+   "quote": "Ti mâmâ (Meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Issa El-Saieh & son Orchestre",
+   "title": "Ti mâmâ",
+   "url": "https://archive.org/details/78_ti-mm_issa-el-saieh-and-his-orchestra-joseph-trouillot_gbia0482094a",
+   "quote": "Performer: Issa El Saieh and his Orchestra; Joseph Trouillot Meringue; Vocal.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Issa El-Saieh & son Orchestre",
+   "title": "Roi tcha-tcha",
+   "url": "https://fr.wikipedia.org/wiki/Discographie_d%27Issa_El-Saieh_et_son_Orchestre",
+   "quote": "Roi tcha-tcha (Meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Issa El-Saieh & son Orchestre",
+   "title": "Roi tcha-tcha",
+   "url": "https://archive.org/details/78_roi-tcha-tcha_issa-el-saieh-and-his-orchestra-joseph-trouillot_gbia0076450a",
+   "quote": "Roi Tcha-Tcha by Issa El Saieh and his Orchestra",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Issa El-Saieh & son Orchestre",
+   "title": "Basilica",
+   "url": "https://fr.wikipedia.org/wiki/Discographie_d%27Issa_El-Saieh_et_son_Orchestre",
+   "quote": "Basilica (Meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Issa El-Saieh & son Orchestre",
+   "title": "Marié bon marié pa bon",
+   "url": "https://fr.wikipedia.org/wiki/Discographie_d%27Issa_El-Saieh_et_son_Orchestre",
+   "quote": "Marié bon marié pa bon (Meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "La Belle Creole Trio",
+   "title": "Souvenir d’Haïti",
+   "url": "https://fr.wikipedia.org/wiki/Discographie_d%27Issa_El-Saieh_et_son_Orchestre",
+   "quote": "Souvenir d’Haïti (Meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Jazz Majestic Orchestra",
+   "title": "Trois fois trois",
+   "url": "https://musicbrainz.org/release/0b64b1a2-1d1e-4714-9771-6d1620210e5b",
+   "quote": "Trois Fois Trois (Three Times Three)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Jazz Majestic Orchestra",
+   "title": "Angélique, oh",
+   "url": "https://musicbrainz.org/release/0b64b1a2-1d1e-4714-9771-6d1620210e5b",
+   "quote": "Angelique, Oh",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Jazz Majestic Orchestra",
+   "title": "Nous allons dodo",
+   "url": "https://musicbrainz.org/release/0b64b1a2-1d1e-4714-9771-6d1620210e5b",
+   "quote": "Nous Allons Dodo (We Are Going to Sleep)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Jazz Majestic Orchestra",
+   "title": "Trois fois trois",
+   "url": "https://folkways-media.si.edu/docs/folkways/artwork/FW06837.pdf",
+   "quote": "For other examples of Haitian Meringues see Folkways Record FP 8, Calypso & Meringues",
+   "read": "2026-11-23",
+   "note": "Ties the FP 8 Haitian side to the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "Fabre Duroseau",
+   "title": "Retour des Cayes",
+   "url": "https://musicbrainz.org/release/1058558c-84f4-4ea4-b6ce-0ceb2b738a6a",
+   "quote": "Retour des cayes (meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Fabre Duroseau",
+   "title": "Deux amours",
+   "url": "https://musicbrainz.org/release/1058558c-84f4-4ea4-b6ce-0ceb2b738a6a",
+   "quote": "Deux amours (meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Fabre Duroseau",
+   "title": "Lucia",
+   "url": "https://musicbrainz.org/release/1058558c-84f4-4ea4-b6ce-0ceb2b738a6a",
+   "quote": "Lucia (meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Bebo Valdés & His Rhythm",
+   "title": "Péligre (Carnaval 1955)",
+   "url": "https://fr.wikipedia.org/wiki/Discographie_d%27Issa_El-Saieh_et_son_Orchestre",
+   "quote": "Péligre (Carnaval 1955) (Meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Wébert Sicot & His Cabane Choucoune Ensemble",
+   "title": "Rédi-rédi",
+   "url": "https://fr.wikipedia.org/wiki/Discographie_d%27Issa_El-Saieh_et_son_Orchestre",
+   "quote": "Rédi-rédi (Meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Guy Durosier & His Rhythm",
+   "title": "Tarlatane",
+   "url": "https://fr.wikipedia.org/wiki/Discographie_d%27Issa_El-Saieh_et_son_Orchestre",
+   "quote": "Tarlatane (Meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Issa El-Saieh & son Orchestre",
+   "title": "Au Perchoir",
+   "url": "https://fr.wikipedia.org/wiki/Discographie_d%27Issa_El-Saieh_et_son_Orchestre",
+   "quote": "Au Perchoir (Meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Issa El-Saieh & son Orchestre",
+   "title": "Haïti",
+   "url": "https://fr.wikipedia.org/wiki/Discographie_d%27Issa_El-Saieh_et_son_Orchestre",
+   "quote": "Haiti (Meringue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ernest Lamy y su Orquesta",
+   "title": "Micaela",
+   "url": "https://archive.org/details/78_micaela-michaele_ernest-lamy-y-su-orquesta-joseph-trouillot-raoul-guillamme_gbia0263257a",
+   "quote": "MICAELA (Michaele) by ERNEST LAMY Y SU ORQUESTA",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ernest Lamy y su Orquesta",
+   "title": "Micaela",
+   "url": "https://archive.org/details/78_micaela-michaele_ernest-lamy-y-su-orquesta-joseph-trouillot-raoul-guillamme_gbia0263257a",
+   "quote": "Merengue Haitiano; Grabado en Haiti",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Gilles Sala & Orchestre E. Léardée",
+   "title": "Haïti chérie",
+   "url": "https://archive.org/details/78_hati-chrie_gilles-sala-orchestre-e-larde-et-son-ensemble-antillais-marc-lanjea_gbia0444468b",
+   "quote": "Writer: Marc Lanjean Méringue Haïtienne",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Jean-Léon Destiné et sa troupe",
+   "title": "Méringue",
+   "url": "https://musicbrainz.org/release/54012de8-ba1d-469c-902f-f4da4a4a593a",
+   "quote": "Jean-Léon Destiné et sa troupe",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Jean-Léon Destiné et sa troupe",
+   "title": "Méringue",
+   "url": "https://musicbrainz.org/release/54012de8-ba1d-469c-902f-f4da4a4a593a",
+   "quote": "63c3953e-e91a-4e2f-af57-515f70bf42d6",
+   "read": "2026-11-23",
+   "note": "Recording id of the track titled \"Meringue\" on this release."
+  },
+  {
+   "kind": "song",
+   "artist": "Ti Band L'Avenir",
+   "title": "Haïti chérie",
+   "url": "https://musicbrainz.org/release/df6a5743-e188-4f72-9882-9c9242bd7233",
+   "quote": "Méringue (\"Haïtí Chérie\")",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ti Band L'Avenir",
+   "title": "Haïti chérie",
+   "url": "https://musicbrainz.org/release/df6a5743-e188-4f72-9882-9c9242bd7233",
+   "quote": "Haïti chérie",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ti Band L'Avenir",
+   "title": "Panama m tonbe",
+   "url": "https://musicbrainz.org/release/df6a5743-e188-4f72-9882-9c9242bd7233",
+   "quote": "Panamam tombe",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Edner Guignard & son Orchestre",
+   "title": "Ti Joceline",
+   "url": "https://musicbrainz.org/release/b9897ac2-a5b8-46e6-8baa-347a15fd8b12",
+   "quote": "Les Belles Méringues D'haïti",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Edner Guignard & son Orchestre",
+   "title": "Ti Joceline",
+   "url": "https://musicbrainz.org/release/b9897ac2-a5b8-46e6-8baa-347a15fd8b12",
+   "quote": "Ti Joceline",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Marianne Parker",
+   "title": "Élégie-Méringue",
+   "url": "https://musicbrainz.org/release/8bcdc810-e425-4013-9597-f525c7133152",
+   "quote": "Élégie-Meringue",
+   "read": "2026-11-23",
+   "note": "Composed by Edmond Saintonge."
+  },
+  {
+   "kind": "song",
+   "artist": "Alberto Mesirca",
+   "title": "Méringue Frangeul",
+   "url": "https://musicbrainz.org/release/3c9252f9-1f8c-4435-8634-c168d591e931",
+   "quote": "Meringue Frangeul",
+   "read": "2026-11-23",
+   "note": "Composed by Frantz Casséus."
+  },
+  {
+   "kind": "album",
+   "artist": "Fabre Duroseau",
+   "title": "Haitian Piano",
+   "url": "https://musicbrainz.org/release/1058558c-84f4-4ea4-b6ce-0ceb2b738a6a",
+   "quote": "FW06837",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various",
+   "title": "Calypso and Meringues",
+   "url": "https://musicbrainz.org/release/0b64b1a2-1d1e-4714-9771-6d1620210e5b",
+   "quote": "Calypso and Meringues",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Emy de Pradines",
+   "title": "Original Meringues",
+   "url": "https://musicbrainz.org/release/9b730d3c-8e17-480b-921a-18d2c99c13ed",
+   "quote": "Remington Records",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various",
+   "title": "Méringue (Haïti chérie)",
+   "url": "https://musicbrainz.org/release/df6a5743-e188-4f72-9882-9c9242bd7233",
+   "quote": "Corason Records",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Edner Guignard & son Orchestre",
+   "title": "Les belles méringues d'Haïti",
+   "url": "https://musicbrainz.org/release/b9897ac2-a5b8-46e6-8baa-347a15fd8b12",
+   "quote": "Marc Records",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various",
+   "title": "Haïti: Meringue & Konpa 1952–1962",
+   "url": "https://musicbrainz.org/release/54012de8-ba1d-469c-902f-f4da4a4a593a",
+   "quote": "Haïti : Meringue & Konpa 1952–1962",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Alberto Mesirca",
+   "title": "Haitian Suite: The Music of Frantz Casséus",
+   "url": "https://musicbrainz.org/release/3c9252f9-1f8c-4435-8634-c168d591e931",
+   "quote": "Haitian Suite: The Music of Frantz Casséus",
+   "read": "2026-11-23"
+  }
+ ],
+ "gaitazuliana": [
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Gaita zuliana",
+   "url": "https://en.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "is a style of Venezuelan folk music (and dance) from Maracaibo , Zulia State",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Gaita zuliana",
+   "url": "https://en.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "Other instruments used in gaita include maracas , cuatro , charrasca and tambora",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Gaita zuliana",
+   "url": "https://en.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "which is the skin generally used for the membrane of the furro drum",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Gaita zuliana",
+   "url": "https://en.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "Although gaitas are most commonly heard around Christmas time",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Gaita zuliana",
+   "url": "https://en.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "The style became popular throughout Venezuela in the 1960s, and it fused with other styles such as salsa and merengue in the 1970s.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Gaita zuliana",
+   "url": "https://es.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "Tiene un esquema rítmico de 6x8",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Gaita zuliana",
+   "url": "https://es.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "tiene una estructura formal de estrofa-estribillo, el cual el primero es entonado por un solista y el segundo por el coro",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Gaita zuliana",
+   "url": "https://es.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "Pudiera decirse que el furro es el bajo en la ejecución de la gaita.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Gaita zuliana",
+   "url": "https://es.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "El cuatro es el instrumento cantante de la gaita zuliana, conjuntamente con las voces.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Gaita zuliana",
+   "url": "https://es.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "La temporada gaitera originalmente estaba comprendida entre la víspera del Día de la Chinita, el 18 de noviembre",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Gaita zuliana",
+   "url": "https://es.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "tal vez en las primeras décadas del siglo XIX",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Gaita zuliana",
+   "url": "https://es.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "Surge a principios de la década de 1970 como resultado de la fusión de la gaita de tambora y los chimbángueles de San Benito",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Gaita zuliana",
+   "url": "https://es.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "quienes la grabaron en el último quinquenio de los años cuarenta, con la agrupación Gaiteros del Zulia",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Gaita zuliana",
+   "url": "https://es.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "El principal argumento de la Gaita Zuliana sigue siendo la Vinculación Espiritual con la Virgen de Chiquinquirá",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Gaita zuliana",
+   "url": "https://es.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "Las temáticas que tratan los intérpretes de este género van desde cantos al amor y a figuras religiosas, hasta canciones jocosas y de denuncia.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Gaita zuliana",
+   "url": "https://es.wikipedia.org/wiki/Gran_Coquivacoa",
+   "quote": "Desde su fundación Gran Coquivacoa edita un disco todos los años, su última producción es la del año 2011",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": "Cardenales del Exito",
+   "title": "Cardenales del Éxito catalogue (iTunes)",
+   "url": "https://itunes.apple.com/lookup?id=1739499681&entity=song",
+   "quote": "℗ 1966 Cardenales Del Exito",
+   "read": "2026-11-23",
+   "note": "One of more than 20 Cardenales del Éxito albums an iTunes search lists, from 1966 to 2026."
+  },
+  {
+   "kind": "size",
+   "artist": "Cardenales del Exito",
+   "title": "Cardenales del Éxito catalogue (iTunes)",
+   "url": "https://itunes.apple.com/lookup?id=1659679427&entity=song",
+   "quote": "60 Años (1962-2022)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": "Barrio Obrero",
+   "title": "La Máxima Expresión de la Gaita Zuliana",
+   "url": "https://itunes.apple.com/lookup?id=1627762380&entity=song",
+   "quote": "℗ 1989 El Disco De Moda C.A.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Ricardo Aguirre",
+   "title": "La grey zuliana",
+   "url": "https://es.wikipedia.org/wiki/Ricardo_Aguirre",
+   "quote": "y «La grey zuliana» (1968)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Ricardo Aguirre",
+   "title": "La grey zuliana",
+   "url": "https://es.wikipedia.org/wiki/Ricardo_Aguirre",
+   "quote": "fue el compositor del himno gaitero más popular del país «La Grey Zuliana»",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Cardenales del Éxito",
+   "title": "La boda del cachicamo (album)",
+   "url": "https://itunes.apple.com/lookup?id=1739499681&entity=song",
+   "quote": "La Boda del Cachicamo",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Cardenales del Éxito",
+   "title": "La boda del cachicamo (album)",
+   "url": "https://itunes.apple.com/lookup?id=1739499681&entity=song",
+   "quote": "1966-01-01",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Gran Coquivacoa",
+   "title": "Los reyes de la tamborera (album)",
+   "url": "https://itunes.apple.com/lookup?id=935084009&entity=song",
+   "quote": "Los Reyes de la Tamborera",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Gran Coquivacoa",
+   "title": "Los reyes de la tamborera (album)",
+   "url": "https://itunes.apple.com/lookup?id=935084009&entity=song",
+   "quote": "1976-01-01",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Barrio Obrero",
+   "title": "La máxima expresión de la gaita zuliana (album)",
+   "url": "https://itunes.apple.com/lookup?id=1627762380&entity=song",
+   "quote": "La Máxima Expresión de la Gaita Zuliana",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Los Gaiteros de San Jacinto",
+   "title": "Un fuego de sangre pura",
+   "url": "https://en.wikipedia.org/wiki/Los_Gaiteros_de_San_Jacinto",
+   "quote": "Los Gaiteros de San Jacinto are a Colombian traditional folkloric cumbia group",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Los Gaiteros de San Jacinto",
+   "title": "Un fuego de sangre pura",
+   "url": "https://en.wikipedia.org/wiki/Los_Gaiteros_de_San_Jacinto",
+   "quote": "The gaiteros meaning those who play the gaita flute",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Los Gaiteros de San Jacinto",
+   "title": "Un fuego de sangre pura",
+   "url": "https://en.wikipedia.org/wiki/Los_Gaiteros_de_San_Jacinto",
+   "quote": "In 2006, the group recorded an album for the Smithsonian Folkways Recordings label.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Pedro Elías Gutiérrez",
+   "title": "Alma llanera",
+   "url": "https://en.wikipedia.org/wiki/Alma_Llanera",
+   "quote": "is a Venezuelan song, a joropo , created by Venezuelan musicians Pedro Elías Gutiérrez (composer) and Rafael Bolívar Coronado (lyricist)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Pedro Elías Gutiérrez",
+   "title": "Alma llanera",
+   "url": "https://en.wikipedia.org/wiki/Alma_Llanera",
+   "quote": "whose premiere was on September 19, 1914",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ricardo Aguirre",
+   "title": "La grey zuliana",
+   "url": "https://es.wikipedia.org/wiki/Ricardo_Aguirre",
+   "quote": "El Monumental de la Gaita",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ricardo Aguirre",
+   "title": "La grey zuliana",
+   "url": "https://en.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "An important singer involved in Gaita Zuliana music is Ricardo Aguirre",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Cardenales del Éxito",
+   "title": "(performer tie)",
+   "url": "https://en.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "Famous gaita groups include Cardenales del Éxito, Rincón Morales, Estrellas del Zulia, Barrio Obrero",
+   "read": "2026-11-23",
+   "note": "Performer tie for the groups named in this sentence; Gran Coquivacoa, Saladillo and Maracaibo 15 follow in the same sentence."
+  },
+  {
+   "kind": "song",
+   "artist": "Rincón Morales",
+   "title": "(performer tie)",
+   "url": "https://en.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "Famous gaita groups include Cardenales del Éxito, Rincón Morales, Estrellas del Zulia, Barrio Obrero",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Estrellas del Zulia",
+   "title": "(performer tie)",
+   "url": "https://en.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "Famous gaita groups include Cardenales del Éxito, Rincón Morales, Estrellas del Zulia, Barrio Obrero",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Barrio Obrero",
+   "title": "(performer tie)",
+   "url": "https://en.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "Famous gaita groups include Cardenales del Éxito, Rincón Morales, Estrellas del Zulia, Barrio Obrero",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Saladillo",
+   "title": "(performer tie)",
+   "url": "https://en.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "Saladillo, Universidad de la Gaita, Koquimba, Melody Gaita, and Maracaibo 15",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Gran Coquivacoa",
+   "title": "(performer tie)",
+   "url": "https://es.wikipedia.org/wiki/Gran_Coquivacoa",
+   "quote": "Gran Coquivacoa es una agrupación musical de gaita zuliana",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Maracaibo 15",
+   "title": "(performer tie)",
+   "url": "https://es.wikipedia.org/wiki/Maracaibo_15",
+   "quote": "decide fundar la agrupación gaitera Maracaibo 15",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Guaco",
+   "title": "(performer tie)",
+   "url": "https://es.wikipedia.org/wiki/Guaco_(banda)",
+   "quote": "Su primera producción fue grabada en 1964, bajo el género de gaita zuliana",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Guaco",
+   "title": "(performer tie)",
+   "url": "https://es.wikipedia.org/wiki/Guaco_(banda)",
+   "quote": "En esta primera etapa, Guaco era un grupo de gaita tradicional",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Barrio Obrero",
+   "title": "Un ojo dimos",
+   "url": "https://en.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "the gaita song “Un ojo dimos”",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ricardo Aguirre",
+   "title": "La grey zuliana",
+   "url": "https://itunes.apple.com/lookup?id=6813529478&entity=song",
+   "quote": "Ricardo Aguirre Con El Conjunto Saladillo",
+   "read": "2026-11-23",
+   "note": "Track 'Grey Zuliana' on the Discomoda compilation; recorded 1968 with Saladillo (es.wikipedia). Tie: performer page (es.wikipedia Ricardo Aguirre: 'El Monumental de la Gaita', 'El Padre de la Gaita'; en.wikipedia Gaita zuliana names him)."
+  },
+  {
+   "kind": "song",
+   "artist": "Ricardo Aguirre",
+   "title": "La grey zuliana",
+   "url": "https://itunes.apple.com/lookup?id=1869707031&entity=song",
+   "quote": "La Grey Zuliana",
+   "read": "2026-11-23",
+   "note": "Tie: performer page (es.wikipedia Ricardo Aguirre: 'El Monumental de la Gaita', 'El Padre de la Gaita'; en.wikipedia Gaita zuliana names him)."
+  },
+  {
+   "kind": "song",
+   "artist": "Ricardo Aguirre",
+   "title": "Maracaibo marginada",
+   "url": "https://itunes.apple.com/lookup?id=1869707031&entity=song",
+   "quote": "Maracaibo Marginada",
+   "read": "2026-11-23",
+   "note": "Tie: performer page (es.wikipedia Ricardo Aguirre: 'El Monumental de la Gaita', 'El Padre de la Gaita'; en.wikipedia Gaita zuliana names him). iTunes dates the track 1970-01-01."
+  },
+  {
+   "kind": "song",
+   "artist": "Ricardo Aguirre",
+   "title": "Ronda antañona",
+   "url": "https://itunes.apple.com/lookup?id=1869707031&entity=song",
+   "quote": "Ronda Antañona",
+   "read": "2026-11-23",
+   "note": "Tie: performer page (es.wikipedia Ricardo Aguirre: 'El Monumental de la Gaita', 'El Padre de la Gaita'; en.wikipedia Gaita zuliana names him). Recorded with Saladillo after 1967 (es.wikipedia); no exact year read."
+  },
+  {
+   "kind": "song",
+   "artist": "Ricardo Aguirre",
+   "title": "La pica pica",
+   "url": "https://itunes.apple.com/lookup?id=1869707031&entity=song",
+   "quote": "La Pica Pica",
+   "read": "2026-11-23",
+   "note": "Tie: performer page (es.wikipedia Ricardo Aguirre: 'El Monumental de la Gaita', 'El Padre de la Gaita'; en.wikipedia Gaita zuliana names him)."
+  },
+  {
+   "kind": "song",
+   "artist": "Ricardo Aguirre",
+   "title": "Gaita del 65",
+   "url": "https://itunes.apple.com/lookup?id=1869707031&entity=song",
+   "quote": "Gaita del 65'",
+   "read": "2026-11-23",
+   "note": "Tie: performer page (es.wikipedia Ricardo Aguirre: 'El Monumental de la Gaita', 'El Padre de la Gaita'; en.wikipedia Gaita zuliana names him)."
+  },
+  {
+   "kind": "song",
+   "artist": "Ricardo Aguirre",
+   "title": "Decreto papal",
+   "url": "https://itunes.apple.com/lookup?id=1869707031&entity=song",
+   "quote": "Decreto Papal",
+   "read": "2026-11-23",
+   "note": "Tie: performer page (es.wikipedia Ricardo Aguirre: 'El Monumental de la Gaita', 'El Padre de la Gaita'; en.wikipedia Gaita zuliana names him)."
+  },
+  {
+   "kind": "song",
+   "artist": "Ricardo Aguirre",
+   "title": "Ronda antañona",
+   "url": "https://es.wikipedia.org/wiki/Ricardo_Aguirre",
+   "quote": "con ellos grabó «Ronda antañona», «La pica pica»",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ricardo Aguirre",
+   "title": "Decreto papal",
+   "url": "https://es.wikipedia.org/wiki/Ricardo_Aguirre",
+   "quote": "Regresó a Cardenales del Éxito donde grabó «El decreto papal», «La vivarachera», «Maracaibo marginada»",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Cardenales del Éxito",
+   "title": "Sentir zuliano",
+   "url": "https://itunes.apple.com/lookup?id=1438167000&entity=song",
+   "quote": "Sentir Zuliano",
+   "read": "2026-11-23",
+   "note": "Tie: performer page (en.wikipedia Gaita zuliana). iTunes dates the track 1972-01-01."
+  },
+  {
+   "kind": "song",
+   "artist": "Cardenales del Éxito",
+   "title": "Sentir zuliano",
+   "url": "https://itunes.apple.com/lookup?id=1438167000&entity=song",
+   "quote": "1972-01-01",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Cardenales del Éxito",
+   "title": "La boda del cachicamo",
+   "url": "https://itunes.apple.com/lookup?id=1739499681&entity=song",
+   "quote": "La Boda del Cachicamo",
+   "read": "2026-11-23",
+   "note": "Tie: performer page. Album ℗ 1966."
+  },
+  {
+   "kind": "song",
+   "artist": "Cardenales del Éxito",
+   "title": "Alegría navideña",
+   "url": "https://itunes.apple.com/lookup?id=1739499681&entity=song",
+   "quote": "Alegría Navideña",
+   "read": "2026-11-23",
+   "note": "Tie: performer page. Album ℗ 1966."
+  },
+  {
+   "kind": "song",
+   "artist": "Cardenales del Éxito",
+   "title": "El negrito fullero",
+   "url": "https://itunes.apple.com/lookup?id=1870708046&entity=song",
+   "quote": "El Negrito Fullero",
+   "read": "2026-11-23",
+   "note": "Tie: performer page. iTunes dates the track 1975-01-01 on this compilation."
+  },
+  {
+   "kind": "song",
+   "artist": "Cardenales del Éxito",
+   "title": "Mi nostalgia",
+   "url": "https://itunes.apple.com/lookup?id=1870708046&entity=song",
+   "quote": "Mi Nostalgia",
+   "read": "2026-11-23",
+   "note": "Tie: performer page. iTunes dates the track 1975-01-01."
+  },
+  {
+   "kind": "song",
+   "artist": "Cardenales del Éxito",
+   "title": "Ya llegó la Navidad",
+   "url": "https://itunes.apple.com/lookup?id=1630828835&entity=song",
+   "quote": "Ya Llego la Navidad",
+   "read": "2026-11-23",
+   "note": "Tie: performer page. Album ℗ 1981 El Disco De Moda."
+  },
+  {
+   "kind": "song",
+   "artist": "Cardenales del Éxito",
+   "title": "Ya llegó la Navidad",
+   "url": "https://itunes.apple.com/lookup?id=1630828835&entity=song",
+   "quote": "℗ 1981 El Disco De Moda C.A.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Estrellas del Zulia",
+   "title": "Gaita zuliana",
+   "url": "https://itunes.apple.com/lookup?id=1648014179&entity=song",
+   "quote": "Gaita Zuliana",
+   "read": "2026-11-23",
+   "note": "Tie: performer page (en.wikipedia) and the title names the genre. Release date 1967-08-29 (℗ 2022 Promus reissue)."
+  },
+  {
+   "kind": "song",
+   "artist": "Estrellas del Zulia",
+   "title": "Maracaibo de ayer",
+   "url": "https://itunes.apple.com/lookup?id=1648014179&entity=song",
+   "quote": "Maracaibo de Ayer",
+   "read": "2026-11-23",
+   "note": "Tie: performer page."
+  },
+  {
+   "kind": "song",
+   "artist": "Estrellas del Zulia",
+   "title": "Gaita zuliana",
+   "url": "https://itunes.apple.com/lookup?id=1648014179&entity=song",
+   "quote": "1967-08-29",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Barrio Obrero",
+   "title": "Un ojo dimos",
+   "url": "https://itunes.apple.com/lookup?id=6813529478&entity=song",
+   "quote": "Un Ojo Dimos",
+   "read": "2026-11-23",
+   "note": "Tie: performer page and en.wikipedia names it as a gaita song. iTunes dates the track 1989-01-01."
+  },
+  {
+   "kind": "song",
+   "artist": "Barrio Obrero",
+   "title": "Gaita y rima",
+   "url": "https://itunes.apple.com/lookup?id=1627762380&entity=song",
+   "quote": "Gaita y Rima",
+   "read": "2026-11-23",
+   "note": "Tie: performer page and album title names the genre. ℗ 1989."
+  },
+  {
+   "kind": "song",
+   "artist": "Rincón Morales",
+   "title": "La tarjeta de Navidad",
+   "url": "https://itunes.apple.com/lookup?id=1301768020&entity=song",
+   "quote": "La Tarjeta de Navidad",
+   "read": "2026-11-23",
+   "note": "Tie: performer page. Release date 1980-04-13 (℗ 2017 reissue)."
+  },
+  {
+   "kind": "song",
+   "artist": "Rincón Morales",
+   "title": "Gaita y fama",
+   "url": "https://itunes.apple.com/lookup?id=1301768020&entity=song",
+   "quote": "Gaita y Fama",
+   "read": "2026-11-23",
+   "note": "Tie: performer page."
+  },
+  {
+   "kind": "song",
+   "artist": "Rincón Morales",
+   "title": "Gaita y fama",
+   "url": "https://itunes.apple.com/lookup?id=1301768020&entity=song",
+   "quote": "1980-04-13",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Guaco",
+   "title": "Gaita en mi sueño",
+   "url": "https://itunes.apple.com/lookup?id=1882544248&entity=song",
+   "quote": "Gaita En Mi Sueño",
+   "read": "2026-11-23",
+   "note": "Tie: performer page (es.wikipedia: began as a traditional gaita group) and album title 'Gaita a Todo Color'. ℗ 1973."
+  },
+  {
+   "kind": "song",
+   "artist": "Guaco",
+   "title": "Golpe gaitón",
+   "url": "https://itunes.apple.com/lookup?id=1882544248&entity=song",
+   "quote": "Golpe Gaitón",
+   "read": "2026-11-23",
+   "note": "Tie: performer page and album title."
+  },
+  {
+   "kind": "song",
+   "artist": "Guaco",
+   "title": "Gaita en mi sueño",
+   "url": "https://itunes.apple.com/lookup?id=1882544248&entity=song",
+   "quote": "℗ 1973 5G Production LLC",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Gran Coquivacoa",
+   "title": "Desde la Basílica",
+   "url": "https://itunes.apple.com/lookup?id=935084009&entity=song",
+   "quote": "Desde la Basilica",
+   "read": "2026-11-23",
+   "note": "Tie: performer page; es.wikipedia lists 'Desde la Basílica' among the group's songs. Album date 1976-01-01 (℗ 2014 reissue)."
+  },
+  {
+   "kind": "song",
+   "artist": "Gran Coquivacoa",
+   "title": "Desde la Basílica",
+   "url": "https://es.wikipedia.org/wiki/Gran_Coquivacoa",
+   "quote": "Desde la Basílica",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Gran Coquivacoa",
+   "title": "Tamborera No. 8",
+   "url": "https://itunes.apple.com/lookup?id=935084009&entity=song",
+   "quote": "Tamborera #8",
+   "read": "2026-11-23",
+   "note": "Tie: performer page; tamborera is the gaita subgenre the group created (es.wikipedia Gaita zuliana)."
+  },
+  {
+   "kind": "song",
+   "artist": "Gran Coquivacoa",
+   "title": "Tamborera No. 8",
+   "url": "https://es.wikipedia.org/wiki/Gaita_zuliana",
+   "quote": "Su creador fue el célebre cantautor gaitero Nelson Martínez de la mano con el Gran Coquivacoa",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Maracaibo 15",
+   "title": "Amparito",
+   "url": "https://itunes.apple.com/lookup?id=1441086053&entity=song",
+   "quote": "Amparito",
+   "read": "2026-11-23",
+   "note": "Tie: performer page (es.wikipedia: 'agrupación gaitera'); es.wikipedia lists Amparito among its hits. iTunes dates the track 1978-01-01."
+  },
+  {
+   "kind": "song",
+   "artist": "Maracaibo 15",
+   "title": "Amparito",
+   "url": "https://es.wikipedia.org/wiki/Maracaibo_15",
+   "quote": "Entre sus éxitos figuran: Amparito",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Maracaibo 15",
+   "title": "El 18 de noviembre",
+   "url": "https://itunes.apple.com/lookup?id=1441086053&entity=song",
+   "quote": "El 18 de Noviembre",
+   "read": "2026-11-23",
+   "note": "Tie: performer page; es.wikipedia lists it among the group's hits. iTunes dates the track 1983-01-01."
+  },
+  {
+   "kind": "song",
+   "artist": "Maracaibo 15",
+   "title": "El 18 de noviembre",
+   "url": "https://es.wikipedia.org/wiki/Maracaibo_15",
+   "quote": "El 18 de noviembre",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "Maracaibo marginada (year)",
+   "url": "https://itunes.apple.com/lookup?id=1869707031&entity=song",
+   "quote": "1970-01-01",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "Mi nostalgia (year)",
+   "url": "https://itunes.apple.com/lookup?id=1870708046&entity=song",
+   "quote": "1975-01-01",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "Un ojo dimos (year)",
+   "url": "https://itunes.apple.com/lookup?id=6813529478&entity=song",
+   "quote": "1989-01-01",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "Amparito (year)",
+   "url": "https://itunes.apple.com/lookup?id=1441086053&entity=song",
+   "quote": "1978-01-01",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "El 18 de noviembre (year)",
+   "url": "https://itunes.apple.com/lookup?id=1441086053&entity=song",
+   "quote": "1983-01-01",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "Desde la Basílica (year)",
+   "url": "https://itunes.apple.com/lookup?id=935084009&entity=song",
+   "quote": "1976-01-01",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "Gaita y rima (year)",
+   "url": "https://itunes.apple.com/lookup?id=1627762380&entity=song",
+   "quote": "1989-06-01",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "La boda del cachicamo (year)",
+   "url": "https://itunes.apple.com/lookup?id=1739499681&entity=song",
+   "quote": "1966-01-01",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Ricardo Aguirre",
+   "title": "Lo Mejor del Monumental",
+   "url": "https://itunes.apple.com/lookup?id=1869707031&entity=song",
+   "quote": "Lo Mejor del Monumental",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Cardenales del Exito",
+   "title": "La Boda del Cachicamo",
+   "url": "https://itunes.apple.com/lookup?id=1739499681&entity=song",
+   "quote": "La Boda del Cachicamo",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Cardenales del Exito",
+   "title": "Clásicos de Oro de los Cardenales del Éxito",
+   "url": "https://itunes.apple.com/lookup?id=1870708046&entity=song",
+   "quote": "Clásicos de Oro de los Cardenales del Éxito",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Cardenales del Exito",
+   "title": "Ya Llegó la Navidad",
+   "url": "https://itunes.apple.com/lookup?id=1630828835&entity=song",
+   "quote": "Ya Llegó la Navidad",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Estrellas del Zulia",
+   "title": "Estrellas del Zulia",
+   "url": "https://itunes.apple.com/lookup?id=1648014179&entity=song",
+   "quote": "Estrellas del Zulia",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Barrio Obrero",
+   "title": "La Máxima Expresión de la Gaita Zuliana",
+   "url": "https://itunes.apple.com/lookup?id=1627762380&entity=song",
+   "quote": "La Máxima Expresión de la Gaita Zuliana",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Rincon Morales",
+   "title": "Oh Maracaibo",
+   "url": "https://itunes.apple.com/lookup?id=1301768020&entity=song",
+   "quote": "Oh Maracaibo",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Guaco",
+   "title": "Gaita a Todo Color con Los Guaco",
+   "url": "https://itunes.apple.com/lookup?id=1882544248&entity=song",
+   "quote": "Gaita a Todo Color con Los Guaco",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Gran Coquivacoa",
+   "title": "Los Reyes de la Tamborera",
+   "url": "https://itunes.apple.com/lookup?id=935084009&entity=song",
+   "quote": "Los Reyes de la Tamborera",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Maracaibo 15",
+   "title": "Súper Éxitos Maracaibo 15",
+   "url": "https://itunes.apple.com/lookup?id=1441086053&entity=song",
+   "quote": "Súper Éxitos Maracaibo 15",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "Lo Máximo en la Historia de la Gaita",
+   "url": "https://itunes.apple.com/lookup?id=6813529478&entity=song",
+   "quote": "Lo Máximo en la Historia de la Gaita",
+   "read": "2026-11-23"
+  }
+ ],
+ "pasodoble": [
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasodoble",
+   "url": "https://es.wikipedia.org/wiki/Pasodoble",
+   "quote": "es una marcha ligera de origen español utilizada en los desfiles militares",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasodoble",
+   "url": "https://es.wikipedia.org/wiki/Pasodoble",
+   "quote": "La música que acompaña esta marcha posee compás binario y movimiento moderado y fue introducida en las corridas de toros.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasodoble",
+   "url": "https://es.wikipedia.org/wiki/Pasodoble",
+   "quote": "ya que en España hay partituras de pasodoble que datan de 1780",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasodoble",
+   "url": "https://es.wikipedia.org/wiki/Pasodoble",
+   "quote": "y que la música no se introdujo en las corridas de toros hasta el siglo XIX.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasodoble",
+   "url": "https://es.wikipedia.org/wiki/Pasodoble",
+   "quote": "Su estructura musical consiste en una introducción basada en el acorde de dominante de la pieza, seguida de un primer fragmento basado en el tono principal y una segunda parte, denominada \"el trío\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasodoble",
+   "url": "https://es.wikipedia.org/wiki/Pasodoble",
+   "quote": "El último segmento del pasodoble suele ser \"el trío\" tocado con fuerza.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasodoble",
+   "url": "https://es.wikipedia.org/wiki/Pasodoble",
+   "quote": "Los diferentes tipos de pasodoble -popular, taurino, militar- pueden variar en ritmo, siendo los pasodobles taurinos los más lentos y los populares los más rápidos y, muchas veces, incorporando voz.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasodoble",
+   "url": "https://es.wikipedia.org/wiki/Pasodoble",
+   "quote": "El pasodoble forma parte del repertorio de las bandas de música españolas y suele constar de introducción y dos partes principales, con un ritmo aflamencado.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Pasodoble",
+   "url": "https://es.wikipedia.org/wiki/Pasodoble",
+   "quote": "En la España moderna, la composición más prolífica de pasodobles se está dando en la costa levantina, asociada a las fiestas de Moros y Cristianos.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Suspiros de España",
+   "url": "https://es.wikipedia.org/wiki/Suspiros_de_Espa%C3%B1a",
+   "quote": "Su composición en el modo musical menor evoca tristeza",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "España cañí",
+   "url": "https://es.wikipedia.org/wiki/Espa%C3%B1a_ca%C3%B1%C3%AD",
+   "quote": "Las primeras grabaciones fueron realizadas por la Banda del Regimiento de Ingenieros de Madrid y publicadas por los sellos Odeon y Regal Zonophone Records en 1926.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Pasodoble",
+   "url": "https://es.wikipedia.org/wiki/Pasodoble",
+   "quote": "El mayor foco de producción de pasodobles se centra en el Levante peninsular, en torno a las fiestas de moros y cristianos.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Paquito el chocolatero",
+   "url": "https://es.wikipedia.org/wiki/Paquito_el_chocolatero",
+   "quote": "Según un informe de la SGAE, es la pieza musical más interpretada en vivo durante el año 2007.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": "Various Artists",
+   "title": "Pasodobles",
+   "url": "https://itunes.apple.com/lookup?id=1528541963&entity=song&country=es",
+   "quote": "Warner Music Group - X5 Music Group",
+   "read": "2026-11-23",
+   "note": "30-track compilation of sung and played pasodobles, 2020."
+  },
+  {
+   "kind": "size",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "Pasodobles Taurinos",
+   "url": "https://itunes.apple.com/lookup?id=1129716458&entity=song&country=es",
+   "quote": "Pasodobles Taurinos",
+   "read": "2026-11-23",
+   "note": "One of dozens of whole band albums of pasodobles on iTunes Spain."
+  },
+  {
+   "kind": "album",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "El Pasodoble",
+   "url": "https://itunes.apple.com/lookup?id=1445730995&entity=song&country=es",
+   "quote": "El Pasodoble",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "Pasodobles Taurinos",
+   "url": "https://itunes.apple.com/lookup?id=1129716458&entity=song&country=es",
+   "quote": "Pasodobles Taurinos",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Unidad de Música de la Guardia Real",
+   "title": "Pasodobles Taurinos",
+   "url": "https://itunes.apple.com/lookup?id=260712793&entity=song&country=es",
+   "quote": "Unidad de Música de la Guardia Real",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Banda de la Plaza de Las Ventas",
+   "title": "Pasodobles Toreros (Vol. 2)",
+   "url": "https://itunes.apple.com/lookup?id=608268592&entity=song&country=es",
+   "quote": "Pasodobles Toreros (Vol. 2)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Banda Sinfónica \"La Artística\" Buñol",
+   "title": "Pasodobles, Vol. 2 (Pasodoble Valenciano)",
+   "url": "https://itunes.apple.com/lookup?id=579184185&entity=song&country=es",
+   "quote": "Pasodobles, Vol. 2 (Pasodoble Valenciano)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Coral Ambrosio Cotes & Banda Municipal de Villena",
+   "title": "Moros y Cristianos - Pasodobles de Villena y Sus Fiestas - Música y Letra",
+   "url": "https://itunes.apple.com/lookup?id=1543474859&entity=song&country=es",
+   "quote": "Moros y Cristianos - Pasodobles de Villena y Sus Fiestas",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "Pasodobles",
+   "url": "https://itunes.apple.com/lookup?id=1528541963&entity=song&country=es",
+   "quote": "X5 Music Group",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "20 Pasodobles Cantados. Antología del Pasodoble en España",
+   "url": "https://itunes.apple.com/lookup?id=471133110&entity=song&country=es",
+   "quote": "20 Pasodobles Cantados. Antología del Pasodoble en España",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "Pasodobles Cantados por Sus Creadores",
+   "url": "https://itunes.apple.com/lookup?id=1051040347&entity=song&country=es",
+   "quote": "Pasodobles Cantados por Sus Creadores",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "El Pasodoble (album)",
+   "url": "https://itunes.apple.com/lookup?id=1445730995&entity=song&country=es",
+   "quote": "El Pasodoble",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "El Pasodoble (album)",
+   "url": "https://itunes.apple.com/lookup?id=1445730995&entity=song&country=es",
+   "quote": "Radiotelevisión Española",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Unidad de Música de la Guardia Real",
+   "title": "Pasodobles Taurinos (album)",
+   "url": "https://itunes.apple.com/lookup?id=260712793&entity=song&country=es",
+   "quote": "España Cañí (Pasodoble Torero)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Estrellita Castro",
+   "title": "Mi jaca",
+   "url": "https://es.wikipedia.org/wiki/Mi_jaca",
+   "quote": "es una canción compuesta por Juan Mostazo y Ramón Perelló con ritmo de pasodoble.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Estrellita Castro",
+   "title": "Mi jaca",
+   "url": "https://itunes.apple.com/lookup?id=1528541963&entity=song&country=es",
+   "quote": "Mi jaca",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Juanita Reina",
+   "title": "Francisco Alegre",
+   "url": "https://es.wikipedia.org/wiki/Francisco_Alegre",
+   "quote": "Se trata de un pasodoble, uno de los más célebres del siglo XX,",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Juanita Reina",
+   "title": "Francisco Alegre",
+   "url": "https://itunes.apple.com/lookup?id=471133110&entity=song&country=es",
+   "quote": "Francisco Alegre - Paso Doble al Torero",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Amigos de Gines",
+   "title": "El adiós",
+   "url": "https://es.wikipedia.org/wiki/Amigos_de_Gines",
+   "quote": "\"El adiós\" es una sevillana, escrita por Manuel Garrido",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Amigos de Gines",
+   "title": "El adiós",
+   "url": "https://es.wikipedia.org/wiki/Amigos_de_Gines",
+   "quote": "En su álbum de 1975, graban la sevillana por la que han llegado a ser conocidos mundialmente.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Amigos de Gines",
+   "title": "El adiós",
+   "url": "https://itunes.apple.com/lookup?id=690462051&entity=song&country=es",
+   "quote": "El Adiós",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": null,
+   "title": "Sevillanas",
+   "url": "https://es.wikipedia.org/wiki/Sevillanas",
+   "quote": "El cante de una sevillana tiene un compás de ¾, es decir, tres tiempos",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Ataulfo Argenta",
+   "title": "La verbena de la Paloma: ¿Dónde vas con mantón de Manila?",
+   "url": "https://itunes.apple.com/lookup?id=371160322&entity=song&country=es",
+   "quote": "La Verbena de la Paloma: Donde Vas Con Mantón de Manila",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Ataulfo Argenta",
+   "title": "La verbena de la Paloma: ¿Dónde vas con mantón de Manila?",
+   "url": "https://itunes.apple.com/lookup?id=371160322&entity=song&country=es",
+   "quote": "24 Grandes Éxitos de Zarzuela, Vol. 2",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": null,
+   "title": "La verbena de la Paloma",
+   "url": "https://es.wikipedia.org/wiki/La_verbena_de_la_Paloma",
+   "quote": "siendo una zarzuela prototipo del género chico",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Banda de la Plaza de Las Ventas",
+   "title": "España cañí",
+   "url": "https://itunes.apple.com/lookup?id=608268592&entity=song&country=es",
+   "quote": "España Cañí",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Banda de la Plaza de Las Ventas",
+   "title": "España cañí",
+   "url": "https://es.wikipedia.org/wiki/Espa%C3%B1a_ca%C3%B1%C3%AD",
+   "quote": "es un pasodoble compuesto por Pascual Marquina Narro (1873-1948) en 1923.",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Estrellita Castro",
+   "title": "Mi jaca",
+   "url": "https://itunes.apple.com/lookup?id=1528541963&entity=song&country=es",
+   "quote": "Mi jaca",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Estrellita Castro",
+   "title": "Mi jaca",
+   "url": "https://es.wikipedia.org/wiki/Mi_jaca",
+   "quote": "El tema fue estrenado por la cantante de copla Estrellita Castro en el Teatro Coliseum de Madrid en septiembre de 1933.",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "Paquito el chocolatero",
+   "url": "https://itunes.apple.com/lookup?id=1445730995&entity=song&country=es",
+   "quote": "Paquito Chocolatero",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "Paquito el chocolatero",
+   "url": "https://es.wikipedia.org/wiki/Paquito_el_chocolatero",
+   "quote": "creada en 1937 por el compositor español Gustavo Pascual Falcó",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Juanita Reina",
+   "title": "Francisco Alegre",
+   "url": "https://itunes.apple.com/lookup?id=471133110&entity=song&country=es",
+   "quote": "Francisco Alegre - Paso Doble al Torero",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Juanita Reina",
+   "title": "Francisco Alegre",
+   "url": "https://es.wikipedia.org/wiki/Francisco_Alegre",
+   "quote": "escrito expresamente para la tonadillera Juanita Reina,",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "La gracia de Dios",
+   "url": "https://itunes.apple.com/lookup?id=1445730995&entity=song&country=es",
+   "quote": "La Gracia de Dios",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "La gracia de Dios",
+   "url": "https://es.wikipedia.org/wiki/La_Gracia_de_Dios",
+   "quote": "La Gracia de Dios es un pasodoble compuesto en 1880 por Ramón Roig y Torné",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "Suspiros de España",
+   "url": "https://itunes.apple.com/lookup?id=1445730995&entity=song&country=es",
+   "quote": "Suspiros de España",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "Suspiros de España",
+   "url": "https://es.wikipedia.org/wiki/Suspiros_de_Espa%C3%B1a",
+   "quote": "Fue compuesto por el maestro marteño Antonio Álvarez Alonso en la ciudad española de Cartagena en 1902.",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "Amparito Roca",
+   "url": "https://itunes.apple.com/lookup?id=1445730995&entity=song&country=es",
+   "quote": "Amparito Roca",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "Amparito Roca",
+   "url": "https://es.wikipedia.org/wiki/Amparito_Roca",
+   "quote": "es el nombre de un pasodoble compuesto en 1925 por el músico y compositor catalán Jaume Texidor Dalmau",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "El abanico",
+   "url": "https://itunes.apple.com/lookup?id=1445730995&entity=song&country=es",
+   "quote": "El Abanico",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "El abanico",
+   "url": "https://es.wikipedia.org/wiki/Suspiros_de_Espa%C3%B1a",
+   "quote": "y El Abanico (Alfredo Javaloyes López, 1910)",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "Valencia",
+   "url": "https://itunes.apple.com/lookup?id=1445730995&entity=song&country=es",
+   "quote": "Valencia",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "Valencia",
+   "url": "https://es.wikipedia.org/wiki/Pasodoble",
+   "quote": "Islas Canarias, En er Mundo, Costa Dorada, Brisas de Málaga, Valencia.",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "Ragón Falez",
+   "url": "https://itunes.apple.com/lookup?id=1129716458&entity=song&country=es",
+   "quote": "Ragón-Faléz",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "Ragón Falez",
+   "url": "https://es.wikipedia.org/wiki/Rag%C3%B3n_Falez",
+   "quote": "compuesto en 1935 por el compositor y director de banda de música, el toledano Emilio Cebrián Ruiz",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "Agüero",
+   "url": "https://itunes.apple.com/lookup?id=1129716458&entity=song&country=es",
+   "quote": "Agüero",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "Agüero",
+   "url": "https://es.wikipedia.org/wiki/Pasodoble",
+   "quote": "Taurinos: España cañí, Agüero, La Gracia de Dios,",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "El gato montés",
+   "url": "https://itunes.apple.com/lookup?id=1129716458&entity=song&country=es",
+   "quote": "El Gato Montés",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "El gato montés",
+   "url": "https://es.wikipedia.org/wiki/Pasodoble",
+   "quote": "El Gato Montés, Viva el pasodoble, Tercio de Quites, Pan y toros, Cielo Andaluz,",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "El gato montés",
+   "url": "https://es.wikipedia.org/wiki/El_gato_mont%C3%A9s",
+   "quote": "La ópera, que contiene un popular pasodoble",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "Tercio de quites",
+   "url": "https://itunes.apple.com/lookup?id=1129716458&entity=song&country=es",
+   "quote": "Tercio de Quites",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "Tercio de quites",
+   "url": "https://es.wikipedia.org/wiki/Pasodoble",
+   "quote": "El Gato Montés, Viva el pasodoble, Tercio de Quites, Pan y toros, Cielo Andaluz,",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Coral Ambrosio Cotes & Banda Municipal de Villena",
+   "title": "La entrada",
+   "url": "https://itunes.apple.com/lookup?id=1543474859&entity=song&country=es",
+   "quote": "La Entrada",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Coral Ambrosio Cotes & Banda Municipal de Villena",
+   "title": "La entrada",
+   "url": "https://es.wikipedia.org/wiki/La_Entrada",
+   "quote": "es un pasodoble compuesto por Quintín Esquembre y dedicado a las fiestas de moros y cristianos de su Villena natal",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica \"La Artística\" Buñol",
+   "title": "El fallero",
+   "url": "https://itunes.apple.com/lookup?id=579184185&entity=song&country=es",
+   "quote": "El Fallero",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica \"La Artística\" Buñol",
+   "title": "El fallero",
+   "url": "https://es.wikipedia.org/wiki/El_fallero",
+   "quote": "es un pasodoble fallero compuesto en 1929 por José Serrano",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Banda Sinfónica \"La Artística\" Buñol",
+   "title": "El fallero",
+   "url": "https://es.wikipedia.org/wiki/El_fallero",
+   "quote": "El fallero es considerado como el himno de las fallas de Valencia",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Los Sabandeños",
+   "title": "Pasodoble Islas Canarias",
+   "url": "https://itunes.apple.com/lookup?id=1443327858&entity=song&country=es",
+   "quote": "Pasodoble Islas Canarias",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Los Sabandeños",
+   "title": "Pasodoble Islas Canarias",
+   "url": "https://es.wikipedia.org/wiki/Pasodoble_Islas_Canarias",
+   "quote": "Agrupaciones y artistas como Hermanas Gómez, Orquesta Plantación, Elfidio Alonso y Los Sabandeños.",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Raquel Meller",
+   "title": "El relicario",
+   "url": "https://itunes.apple.com/lookup?id=1528541963&entity=song&country=es",
+   "quote": "El relicario",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Raquel Meller",
+   "title": "El relicario",
+   "url": "https://es.wikipedia.org/wiki/El_relicario_(pasodoble)",
+   "quote": "El relicario es un pasodoble compuesto por José Padilla en 1914",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Concha Piquer",
+   "title": "En tierra extraña",
+   "url": "https://itunes.apple.com/lookup?id=1046277898&entity=song&country=es",
+   "quote": "En Tierra Extraña",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Concha Piquer",
+   "title": "En tierra extraña",
+   "url": "https://es.wikipedia.org/wiki/En_tierra_extra%C3%B1a",
+   "quote": "es un pasodoble compuesto en 1927 por el valenciano Manuel Penella para la cantante Concha Piquer.",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Angelillo",
+   "title": "La morena de mi copla",
+   "url": "https://itunes.apple.com/lookup?id=1051040347&entity=song&country=es",
+   "quote": "La Morena de Mi Copla",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Angelillo",
+   "title": "La morena de mi copla",
+   "url": "https://es.wikipedia.org/wiki/La_morena_de_mi_copla",
+   "quote": "es un pasodoble compuesto en 1929",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Celia Gámez",
+   "title": "Los nardos",
+   "url": "https://itunes.apple.com/lookup?id=1669470544&entity=song&country=es",
+   "quote": "Pasacalle de los Nardos",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Celia Gámez",
+   "title": "Los nardos",
+   "url": "https://es.wikipedia.org/wiki/Los_nardos",
+   "quote": "A ritmo de pasacalle o pasodoble",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Celia Gámez",
+   "title": "Los nardos",
+   "url": "https://es.wikipedia.org/wiki/Los_nardos",
+   "quote": "Interpretada por primera vez por Celia Gámez",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Joselito",
+   "title": "Campanera",
+   "url": "https://itunes.apple.com/lookup?id=1051040347&entity=song&country=es",
+   "quote": "Campanera",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Joselito",
+   "title": "Campanera",
+   "url": "https://es.wikipedia.org/wiki/Campanera",
+   "quote": "Campanera es un popular pasodoble español publicado por primera vez en 1953",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Joselito",
+   "title": "Campanera",
+   "url": "https://es.wikipedia.org/wiki/Campanera",
+   "quote": "sobre todo el cantante infantil Joselito",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Lolita Sevilla",
+   "title": "Cántame un pasodoble español",
+   "url": "https://itunes.apple.com/lookup?id=630716019&entity=song&country=es",
+   "quote": "Cántame un Pasodoble Español",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Lolita Sevilla",
+   "title": "Cántame un pasodoble español",
+   "url": "https://es.wikipedia.org/wiki/C%C3%A1ntame_un_pasodoble_espa%C3%B1ol",
+   "quote": "La versión que tuvo mayor éxito y recorrido fue la de la tonadillera Lolita Sevilla",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Manolo Escobar",
+   "title": "Madrecita María del Carmen",
+   "url": "https://itunes.apple.com/lookup?id=259480030&entity=song&country=es",
+   "quote": "Madrecita Maria del Carmen",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Manolo Escobar",
+   "title": "Madrecita María del Carmen",
+   "url": "https://es.wikipedia.org/wiki/Madrecita_Mar%C3%ADa_del_Carmen",
+   "quote": "es un pasodoble compuesto en 1960 por José María García Escobar e interpretada por su hermano, Manolo Escobar",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Manolo Escobar",
+   "title": "Y viva España",
+   "url": "https://itunes.apple.com/lookup?id=155661078&entity=song&country=es",
+   "quote": "Y Viva España",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Manolo Escobar",
+   "title": "Y viva España",
+   "url": "https://es.wikipedia.org/wiki/Y_viva_Espa%C3%B1a",
+   "quote": "Musicalmente, la canción tiene un estilo pasodoble español.",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Manolo Escobar",
+   "title": "Y viva España",
+   "url": "https://es.wikipedia.org/wiki/Y_viva_Espa%C3%B1a",
+   "quote": "y posteriormente por Manolo Escobar",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Marifé de Triana",
+   "title": "No te vayas de Navarra",
+   "url": "https://itunes.apple.com/lookup?id=273920932&entity=song&country=es",
+   "quote": "No Te Vayas de Navarra (Pasodoble)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Marifé de Triana",
+   "title": "No te vayas de Navarra",
+   "url": "https://es.wikipedia.org/wiki/No_te_vayas_de_Navarra",
+   "quote": "fue grabada y popularizada por la cantante de copla Marifé de Triana",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Perlita de Huelva",
+   "title": "De Andalucía yo soy",
+   "url": "https://itunes.apple.com/lookup?id=1838096417&entity=song&country=es",
+   "quote": "De Andalucía Yo Soy",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Perlita de Huelva",
+   "title": "De Andalucía yo soy",
+   "url": "https://es.wikipedia.org/wiki/De_Andaluc%C3%ADa_yo_soy",
+   "quote": "es un pasodoble compuesto por Ruiz de Padilla, Félix Lapardi y Ramón Rodó Sellés",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Perlita de Huelva",
+   "title": "De Andalucía yo soy",
+   "url": "https://es.wikipedia.org/wiki/De_Andaluc%C3%ADa_yo_soy",
+   "quote": "Canciones de Perlita de Huelva",
+   "read": "2026-11-23",
+   "note": "Genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Pepe Blanco",
+   "title": "Cocidito madrileño",
+   "url": "https://itunes.apple.com/lookup?id=1528541963&entity=song&country=es",
+   "quote": "Cocidito madrileño (Pasodoble)",
+   "read": "2026-11-23"
+  }
+ ],
+ "harana": [
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Harana",
+   "url": "https://en.wikipedia.org/wiki/Harana_(serenade)",
+   "quote": "is a serenade tradition in rural areas of the Philippines in which young men may formally meet single lady visitors.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Harana",
+   "url": "https://en.wikipedia.org/wiki/Harana_(serenade)",
+   "quote": "The main accompanying instrument used for harana is the guitar, which is played by the courter.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Harana",
+   "url": "https://en.wikipedia.org/wiki/Harana_(serenade)",
+   "quote": "A decline in the practice of harana has been observed since the 1980s.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Harana",
+   "url": "https://en.wikipedia.org/wiki/Harana_(serenade)",
+   "quote": "Harana's love songs are commonly sung in a major key and rhythmically performed in a",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Harana",
+   "url": "https://www.asianjournal.com/magazines/mdwk-magazine/remembering-harana-a-lost-filipino-tradition-of-courtship-through-song/",
+   "quote": "the practice is believed to have started in the 1800s and was influenced by Spanish folk songs.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Harana",
+   "url": "https://www.asianjournal.com/magazines/mdwk-magazine/remembering-harana-a-lost-filipino-tradition-of-courtship-through-song/",
+   "quote": "For one, the haranas follow a 2/4 habanera rhythm.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Harana",
+   "url": "https://www.asianjournal.com/magazines/mdwk-magazine/remembering-harana-a-lost-filipino-tradition-of-courtship-through-song/",
+   "quote": "This differs from the 3/4 timing of another traditional form of love song, the kundiman.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Harana",
+   "url": "https://www.asianjournal.com/magazines/mdwk-magazine/remembering-harana-a-lost-filipino-tradition-of-courtship-through-song/",
+   "quote": "haranas begin with a solo guitar introduction, followed by verse one and verse two, another solo guitar in the middle, then back to verse two until the end.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Harana",
+   "url": "https://www.asianjournal.com/magazines/mdwk-magazine/remembering-harana-a-lost-filipino-tradition-of-courtship-through-song/",
+   "quote": "Harana lyrics also use pure and archaic Tagalog words no longer used in everyday conversations.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Harana",
+   "url": "https://www.asianjournal.com/magazines/mdwk-magazine/remembering-harana-a-lost-filipino-tradition-of-courtship-through-song/",
+   "quote": "A good clue is in the lyrics, which places the singer right in the middle of serenading,",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Harana",
+   "url": "https://en.wikipedia.org/wiki/Kundiman",
+   "quote": "Kundiman is often mistaken for a harana because haranistas would oftentimes sing kundiman songs during a harana, but they are stylistically different.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Harana",
+   "url": "https://www.hollywoodbowl.com/musicdb/artists/2846/harana-kings",
+   "quote": "They represent the truest practitioners of the vanished custom of serenading.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": "Harana Kings",
+   "title": "Introducing the Harana Kings",
+   "url": "https://www.asianjournal.com/magazines/mdwk-magazine/remembering-harana-a-lost-filipino-tradition-of-courtship-through-song/",
+   "quote": "which features 14 tracks recorded by Aguilar, Alonzo, Aniel, and Bergunio.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": "Harana Kings",
+   "title": null,
+   "url": "https://www.hollywoodbowl.com/musicdb/artists/2846/harana-kings",
+   "quote": "Alonzo, who is a self-taught guitarist, recorded Ilocano haranas for Villar Records.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": "Raffy Lata",
+   "title": "Philippine Guitar Music - Harana and Kundiman, Vol. 7",
+   "url": "https://itunes.apple.com/lookup?id=6825374731&entity=song&country=PH",
+   "quote": "Philippine Guitar Music - Harana and Kundiman, Vol. 7",
+   "read": "2026-11-23",
+   "note": "Seventh volume of a guitar series (2022-2026); not used for songs because the series mixes kundiman and harana."
+  },
+  {
+   "kind": "fit",
+   "artist": "Ruben Tagalog",
+   "title": "Dungawin Mo, Hirang",
+   "url": "https://en.wikipedia.org/wiki/Ruben_Tagalog",
+   "quote": "Tagalog is also known for harana or serenade songs such as \"Dungawin Mo, Hirang\" and \"Kay Lungkot Nitong Hatinggabi\".",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Ruben Tagalog",
+   "title": "Kay Lungkot Nitong Hatinggabi",
+   "url": "https://www.asianjournal.com/magazines/mdwk-magazine/remembering-harana-a-lost-filipino-tradition-of-courtship-through-song/",
+   "quote": "Classic examples of traditional harana songs are Ruben Tagalog",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Harana Kings",
+   "title": "Aking Bituin (O Ilaw)",
+   "url": "https://www.asianjournal.com/magazines/mdwk-magazine/remembering-harana-a-lost-filipino-tradition-of-courtship-through-song/",
+   "quote": "the Harana Kings helped the young man named Brian court a classmate of his by performing",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Harana Kings",
+   "title": "Aking Bituin (O Ilaw)",
+   "url": "https://itunes.apple.com/lookup?id=1851304463&entity=song&country=PH",
+   "quote": "Aking Bituin (O Ilaw)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Florante Aguilar",
+   "title": "The Art of Harana: Serenades for Guitar (album)",
+   "url": "https://itunes.apple.com/lookup?id=4275575&entity=song&country=PH",
+   "quote": "The Art of Harana - Serenades for Guitar",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Florante Aguilar",
+   "title": null,
+   "url": "https://www.hollywoodbowl.com/musicdb/artists/2846/harana-kings",
+   "quote": "Florante Aguilar is considered one of the leading proponents of Philippine harana music in America today.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Parokya ni Edgar",
+   "title": "Harana",
+   "url": "https://www.asianjournal.com/magazines/mdwk-magazine/remembering-harana-a-lost-filipino-tradition-of-courtship-through-song/",
+   "quote": "Its music — unlike the Parokya Ni Edgar song — featured sweet habanera rhythms and impassioned lyrics.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Parokya ni Edgar",
+   "title": "Harana",
+   "url": "https://en.wikipedia.org/wiki/Parokya_ni_Edgar",
+   "quote": "1997: \"Harana\" (composed by Eric Yaptangco",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Parokya ni Edgar",
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Parokya_ni_Edgar",
+   "quote": "is a Filipino rock band formed in 1993",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Ruben Tagalog",
+   "title": "Bayan Ko",
+   "url": "https://en.wikipedia.org/wiki/Ruben_Tagalog",
+   "quote": "He was the first artist to record \"Bayan Ko\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": null,
+   "title": "Bayan Ko",
+   "url": "https://en.wikipedia.org/wiki/Bayan_Ko",
+   "quote": "The song, which is a kundiman",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Harana Kings",
+   "title": null,
+   "url": "https://www.hollywoodbowl.com/musicdb/artists/2846/harana-kings",
+   "quote": "HARANA KINGS is the result of Florante Aguilar's search for master haranistas as chronicled in the documentary film Harana.",
+   "read": "2026-11-23",
+   "note": "Performer tie for all Harana Kings tracks."
+  },
+  {
+   "kind": "song",
+   "artist": "Ruben Tagalog",
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Ruben_Tagalog",
+   "quote": "Tagalog is also known for harana or serenade songs such as \"Dungawin Mo, Hirang\"",
+   "read": "2026-11-23",
+   "note": "Performer tie for Ruben Tagalog tracks; the rest by the album title Harana."
+  },
+  {
+   "kind": "song",
+   "artist": "Florante Aguilar",
+   "title": null,
+   "url": "https://www.hollywoodbowl.com/musicdb/artists/2846/harana-kings",
+   "quote": "Florante Aguilar is considered one of the leading proponents of Philippine harana music in America today.",
+   "read": "2026-11-23",
+   "note": "Performer tie for the three guitar serenades."
+  },
+  {
+   "kind": "song",
+   "artist": "Charmaine Clamor",
+   "title": "My Harana: A Filipino Serenade",
+   "url": "https://en.wikipedia.org/wiki/Charmaine_Clamor",
+   "quote": "Clamor released My Harana: A Filipino Serenade",
+   "read": "2026-11-23",
+   "note": "Album-title tie only; Clamor is a jazz singer."
+  },
+  {
+   "kind": "song",
+   "artist": "Harana Kings",
+   "title": "Dungawin Mo Sana",
+   "url": "https://itunes.apple.com/lookup?id=1851304463&entity=song&country=PH",
+   "quote": "Dungawin Mo Sana",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Harana Kings",
+   "title": "Aking Bituin (O Ilaw)",
+   "url": "https://itunes.apple.com/lookup?id=1851304463&entity=song&country=PH",
+   "quote": "Aking Bituin (O Ilaw)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Harana Kings",
+   "title": "Sapagkat Mahal Kita",
+   "url": "https://itunes.apple.com/lookup?id=1851304463&entity=song&country=PH",
+   "quote": "Sapagkat Mahal Kita",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Harana Kings",
+   "title": "Inday Ng Buhay Ko",
+   "url": "https://itunes.apple.com/lookup?id=1851304463&entity=song&country=PH",
+   "quote": "Inday Ng Buhay Ko",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Harana Kings",
+   "title": "Dardarepdep",
+   "url": "https://itunes.apple.com/lookup?id=1851304463&entity=song&country=PH",
+   "quote": "Dardarepdep",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Harana Kings",
+   "title": "Sa Magdamag",
+   "url": "https://itunes.apple.com/lookup?id=1851304463&entity=song&country=PH",
+   "quote": "Sa Magdamag",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Harana Kings",
+   "title": "No Duaduaem Pay",
+   "url": "https://itunes.apple.com/lookup?id=1851304463&entity=song&country=PH",
+   "quote": "No Duaduaem Pay",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Harana Kings",
+   "title": "Maruja",
+   "url": "https://itunes.apple.com/lookup?id=1851304463&entity=song&country=PH",
+   "quote": "Maruja",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Harana Kings",
+   "title": "Lihim Na Pagibig",
+   "url": "https://itunes.apple.com/lookup?id=1851304463&entity=song&country=PH",
+   "quote": "Lihim Na Pagibig",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Harana Kings",
+   "title": "Dalagang Pilipina",
+   "url": "https://itunes.apple.com/lookup?id=1851304463&entity=song&country=PH",
+   "quote": "Dalagang Pilipina",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Harana Kings",
+   "title": "Dungawin Mo Hirang",
+   "url": "https://itunes.apple.com/lookup?id=1851304463&entity=song&country=PH",
+   "quote": "Dungawin Mo Hirang",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ruben Tagalog",
+   "title": "Dungawin mo, Hirang",
+   "url": "https://itunes.apple.com/lookup?id=375608254&entity=song&country=PH",
+   "quote": "Dungawin mo, Hirang",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ruben Tagalog",
+   "title": "Kay lungkot nitong Hating-gabi",
+   "url": "https://itunes.apple.com/lookup?id=375608254&entity=song&country=PH",
+   "quote": "Kay lungkot nitong Hating-gabi",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ruben Tagalog",
+   "title": "O Ilaw",
+   "url": "https://itunes.apple.com/lookup?id=375608254&entity=song&country=PH",
+   "quote": "O Ilaw",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ruben Tagalog",
+   "title": "Awit Ko'y Dinggin",
+   "url": "https://itunes.apple.com/lookup?id=375608254&entity=song&country=PH",
+   "quote": "Awit Ko'y Dinggin",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ruben Tagalog",
+   "title": "Mutya Niyaring Puso",
+   "url": "https://itunes.apple.com/lookup?id=375608254&entity=song&country=PH",
+   "quote": "Mutya Niyaring Puso",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ruben Tagalog",
+   "title": "Natutulog ka na ba, Sinta?",
+   "url": "https://itunes.apple.com/lookup?id=375608254&entity=song&country=PH",
+   "quote": "Natutulog ka na ba, Sinta?",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ruben Tagalog",
+   "title": "Harana Ng Puso",
+   "url": "https://itunes.apple.com/lookup?id=375608254&entity=song&country=PH",
+   "quote": "Harana Ng Puso",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ruben Tagalog",
+   "title": "Ang awit ko, Irog",
+   "url": "https://itunes.apple.com/lookup?id=375608254&entity=song&country=PH",
+   "quote": "Ang awit ko, Irog",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ruben Tagalog",
+   "title": "Paraluman",
+   "url": "https://itunes.apple.com/lookup?id=375608254&entity=song&country=PH",
+   "quote": "Paraluman",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Ruben Tagalog",
+   "title": "Umaga Na Pala",
+   "url": "https://itunes.apple.com/lookup?id=375608254&entity=song&country=PH",
+   "quote": "Umaga Na Pala",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Florante Aguilar",
+   "title": "Maala-ala Mo Kaya",
+   "url": "https://itunes.apple.com/lookup?id=4275575&entity=song&country=PH",
+   "quote": "Maala-ala Mo Kaya",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Florante Aguilar",
+   "title": "Usahay",
+   "url": "https://itunes.apple.com/lookup?id=4275575&entity=song&country=PH",
+   "quote": "Usahay",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Florante Aguilar",
+   "title": "Matud Nila",
+   "url": "https://itunes.apple.com/lookup?id=4275575&entity=song&country=PH",
+   "quote": "Matud Nila",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "Charmaine Clamor",
+   "title": "Harana Sa Dilim",
+   "url": "https://itunes.apple.com/lookup?id=291757658&entity=song&country=PH",
+   "quote": "Harana Sa Dilim",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Harana Kings",
+   "title": "Introducing the Harana Kings",
+   "url": "https://itunes.apple.com/lookup?id=1851304463&entity=song&country=PH",
+   "quote": "Introducing the Harana Kings (Reissue)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Harana Kings",
+   "title": "Introducing the Harana Kings",
+   "url": "https://www.asianjournal.com/magazines/mdwk-magazine/remembering-harana-a-lost-filipino-tradition-of-courtship-through-song/",
+   "quote": "there’s the Harana Kings’ album “Introducing the Harana Kings”",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Florante Aguilar",
+   "title": "The Art of Harana: Serenades for Guitar",
+   "url": "https://itunes.apple.com/lookup?id=4275575&entity=song&country=PH",
+   "quote": "The Art of Harana - Serenades for Guitar",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Ruben Tagalog",
+   "title": "Harana",
+   "url": "https://itunes.apple.com/lookup?id=375608254&entity=song&country=PH",
+   "quote": "Villar Records International",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Charmaine Clamor",
+   "title": "My Harana: A Filipino Serenade",
+   "url": "https://itunes.apple.com/lookup?id=291757658&entity=song&country=PH",
+   "quote": "My Harana: A Filipino Serenade",
+   "read": "2026-11-23"
+  }
+ ],
+ "jiangnansizhu": [
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://en.wikipedia.org/wiki/Jiangnan_sizhu",
+   "quote": "is a style of traditional Chinese instrumental music from the Jiangnan region of China",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://en.wikipedia.org/wiki/Jiangnan_sizhu",
+   "quote": "By the early part of the 20th century, Shanghai had become the centre of sizhu activities; the city's elite organized numerous amateur clubs that played for social functions and for their own entertainment.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://en.wikipedia.org/wiki/Jiangnan_sizhu",
+   "quote": "with the erhu, dizi or xiao, pipa, and yangqin being the core instruments",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://en.wikipedia.org/wiki/Jiangnan_sizhu",
+   "quote": "Usually only one of each instrument is used, and an ensemble can range from as few as two to as many as ten or more musicians",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://en.wikipedia.org/wiki/Jiangnan_sizhu",
+   "quote": "Guban – Wooden clapper ( paiban ) and small drum",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://en.wikipedia.org/wiki/Guangdong_music_(genre)",
+   "quote": "The gaohu is the most common lead instrument used in performing Cantonese music.",
+   "read": "2026-11-23",
+   "note": "For the guangdongmusic near-miss."
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://en.wikipedia.org/wiki/Jiangnan_sizhu",
+   "quote": "At the centre of the repertory are the Eight Great Pieces",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://en.wikipedia.org/wiki/Jiangnan_sizhu",
+   "quote": "Jiangnan sizhu is generally considered to be a folk tradition rather than a professional one, and is most often performed by amateurs.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://en.wikipedia.org/wiki/Jiangnan_sizhu",
+   "quote": "It is typically performed in informal gatherings, often at tea houses.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://en.wikipedia.org/wiki/Jiangnan_sizhu",
+   "quote": "As in an Irish traditional music session, the instrumentation is not fixed",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://en.wikipedia.org/wiki/Jiangnan_sizhu",
+   "quote": "These were elaborated to create new pieces such as Zhong Hua Liu Ban",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://en.wikipedia.org/wiki/Jiangnan_sizhu",
+   "quote": "Shanghai opera, which was developed in the mid-20th century, has a musical style and accompaniment that is closely related to Jiangnan sizhu.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E5%8D%97%E4%B8%9D%E7%AB%B9",
+   "quote": "清咸丰庚申年（1860年）开始流行",
+   "read": "2026-11-23",
+   "note": "Supports the tree start of 1860."
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E5%8D%97%E4%B8%9D%E7%AB%B9",
+   "quote": "不過正式定名則是在20世紀50年代",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E5%8D%97%E4%B8%9D%E7%AB%B9",
+   "quote": "你繁我簡，你高我低，加花變奏，嵌擋讓路，即興發揮",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E5%8D%97%E4%B8%9D%E7%AB%B9",
+   "quote": "江南丝竹的音樂屬 支声复调 ，不同乐器可以自由加花、变奏。",
+   "read": "2026-11-23",
+   "note": "Heterophony: each instrument ornaments and varies the shared melody."
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E5%8D%97%E4%B8%9D%E7%AB%B9",
+   "quote": "它與 昆曲 有一定的關係，以至於有人認為它發源於昆曲。不過江南丝竹八大名曲和昆曲的曲牌並沒有聯繫。",
+   "read": "2026-11-23",
+   "note": "Bears on the kunqu principal line in data/parentage.json."
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E5%8D%97%E4%B8%9D%E7%AB%B9",
+   "quote": "它與 十番锣鼓 的關係更近",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://zh.wikipedia.org/wiki/%E6%B1%9F%E5%8D%97%E4%B8%9D%E7%AB%B9",
+   "quote": "笛子和北方短而高亢的“ 梆笛 ”不同，是长的“ 曲笛 ”",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://en.wikipedia.org/wiki/Chinese_orchestra",
+   "quote": "This modern Chinese orchestra first developed out of Jiangnan sizhu ensemble in the 1920s",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Jiangnan sizhu",
+   "url": "https://en.wikipedia.org/wiki/Jiangnan_sizhu",
+   "quote": "By the mid-20th century, it had also entered the curriculum of China's conservatories, where it continues to be performed by large ensembles of traditional instruments in fully scored arrangements.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "size",
+   "artist": "上海音乐学院教授丝竹研究组",
+   "title": "江南丝竹(上) (中国地方音乐大系1)",
+   "url": "https://itunes.apple.com/lookup?id=1417371955&entity=song",
+   "quote": "江南丝竹(上) (中国地方音乐大系1)",
+   "read": "2026-11-23",
+   "note": "One of many single-genre albums: a 2001 two-volume regional series; the iTunes search for the genre name returns some 30 albums from 1991 to 2026, each one more reading of the same eight pieces."
+  },
+  {
+   "kind": "size",
+   "artist": "范临风",
+   "title": "丝竹生生——范临风江南丝竹音乐专辑",
+   "url": "https://itunes.apple.com/lookup?id=1767855692&entity=song",
+   "quote": "℗ 2024 上海音乐出版社有限公司",
+   "read": "2026-11-23",
+   "note": "New recordings still appear (2024)."
+  },
+  {
+   "kind": "fit",
+   "artist": "Lu Chunling, Zhou Hui, Zhou Hao & Ma Shenglong",
+   "title": "三六 (album)",
+   "url": "https://musicbrainz.org/release/50fa0fbb-b5da-43de-acf5-7def06f04ff0",
+   "quote": "三六（江南丝竹）San Liu Silk-and-Bamboo Music of East China",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Lu Chunling, Zhou Hui, Zhou Hao & Ma Shenglong",
+   "title": "三六 (album)",
+   "url": "https://musicbrainz.org/release/50fa0fbb-b5da-43de-acf5-7def06f04ff0",
+   "quote": "\"date\":\"1983\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Lu Chunling, Zhou Hui, Zhou Hao & Ma Shenglong",
+   "title": "三六 (album)",
+   "url": "https://en.wikipedia.org/wiki/Jiangnan_sizhu",
+   "quote": "a quartet from China playing Jiangnan sizhu repertoire as well as newly composed pieces comprised four men: dizi player Lu Chunling (1921–2018), pipa player Ma Shenglong ( 马圣龙 , 1934–2003), yangqin player Zhou Hui ( 周惠 , 1922–2011), and erhu player Zhou Hao ( 周皓 , 1929–2023).",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Shanghai Conservatory Jiangnan Ensemble",
+   "title": "Si-Zhu: Jiangnan Classics (album)",
+   "url": "https://itunes.apple.com/lookup?id=362730662&entity=song",
+   "quote": "China Si-Zhu: Jiangnan Classics",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Shanghai Conservatory Jiangnan Ensemble",
+   "title": "Si-Zhu: Jiangnan Classics (album)",
+   "url": "https://itunes.apple.com/lookup?id=362730662&entity=song",
+   "quote": "℗ 2002 Naxos",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "上海民族乐团",
+   "title": "江南丝竹八大曲精编 (album)",
+   "url": "https://itunes.apple.com/lookup?id=1804462468&entity=song",
+   "quote": "江南絲竹八大曲精編",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "上海民族乐团",
+   "title": "江南丝竹八大曲精编 (album)",
+   "url": "https://itunes.apple.com/lookup?id=1804462468&entity=song",
+   "quote": "℗ 1991 Wing Hang Record Trading Co., Ltd.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Huxing Ting Teahouse Ensemble",
+   "title": "中花六板 (Zhōnghuā liùbǎn)",
+   "url": "https://musicbrainz.org/release/07ab419f-dbec-43a8-80a6-9462ea77a1b5",
+   "quote": "Zhonghua Liuban (Moderately-decorated six-beat)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Huxing Ting Teahouse Ensemble",
+   "title": "中花六板 (Zhōnghuā liùbǎn)",
+   "url": "https://musicbrainz.org/release/07ab419f-dbec-43a8-80a6-9462ea77a1b5",
+   "quote": "\"date\":\"1994-03-01\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Shanghai Traditional Music Society",
+   "title": "Jiangnan Sizhu: Beautiful Traditional Music from Southeastern China (album)",
+   "url": "https://musicbrainz.org/release/190ec23c-59dc-41b4-9c0d-df02f9920769",
+   "quote": "Jiangnan Sizhu: Beautiful Traditional Music from Southeastern China",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "fit",
+   "artist": "Shanghai Traditional Music Society",
+   "title": "Jiangnan Sizhu: Beautiful Traditional Music from Southeastern China (album)",
+   "url": "https://musicbrainz.org/release/190ec23c-59dc-41b4-9c0d-df02f9920769",
+   "quote": "\"date\":\"1998\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "China Broadcast National Orchestra",
+   "title": "金蛇狂舞 (Jīnshé kuángwǔ)",
+   "url": "https://itunes.apple.com/lookup?id=211825050&entity=song",
+   "quote": "Dance of the Golden Snake",
+   "read": "2026-11-23",
+   "note": "Album and track of that name by the China Broadcast National Orchestra, ℗ 2005 China Record Corporation."
+  },
+  {
+   "kind": "near",
+   "artist": "China Broadcast National Orchestra",
+   "title": "金蛇狂舞 (Jīnshé kuángwǔ)",
+   "url": "https://en.wikipedia.org/wiki/Nie_Er",
+   "quote": "arranged from the last fast section of the Jiangnan sizhu piece \"Yang Ba Qu\"",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "China Broadcast National Orchestra",
+   "title": "金蛇狂舞 (Jīnshé kuángwǔ)",
+   "url": "https://en.wikipedia.org/wiki/Chinese_orchestra",
+   "quote": "Such orchestras usually perform Chinese orchestral music called guoyue or minyue",
+   "read": "2026-11-23",
+   "note": "The orchestra is matched by name to the Central Broadcasting Station Orchestra / China Broadcasting Chinese Orchestra on this page."
+  },
+  {
+   "kind": "near",
+   "artist": "Faculty Ensemble at Xinghai Conservatory",
+   "title": "平湖秋月 (Pínghú qiūyuè)",
+   "url": "https://musicbrainz.org/release/07ab419f-dbec-43a8-80a6-9462ea77a1b5",
+   "quote": "Pinghu Qiuyue (Peaceful Lake, Autumn Moon)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "near",
+   "artist": "Faculty Ensemble at Xinghai Conservatory",
+   "title": "平湖秋月 (Pínghú qiūyuè)",
+   "url": "https://en.wikipedia.org/wiki/Guangdong_music_(genre)",
+   "quote": "Ping Hu Qiu Yue 《平湖秋月》(Autumn Moon Over the Calm Lake) - by Lü Wencheng",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Lu Chunling, Zhou Hui, Zhou Hao & Ma Shenglong",
+   "title": "三六",
+   "url": "https://musicbrainz.org/release/50fa0fbb-b5da-43de-acf5-7def06f04ff0",
+   "quote": "\"format\":\"Cassette\"",
+   "read": "2026-11-23",
+   "note": "1983 China Record (中国唱片) cassette."
+  },
+  {
+   "kind": "album",
+   "artist": "上海民族乐团",
+   "title": "江南丝竹八大曲精编",
+   "url": "https://itunes.apple.com/lookup?id=1804462468&entity=song",
+   "quote": "江南絲竹八大曲精編",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "Sizhu (Silk Bamboo): Chamber Music of South China",
+   "url": "https://musicbrainz.org/release/07ab419f-dbec-43a8-80a6-9462ea77a1b5",
+   "quote": "Sizhu (Silk Bamboo): Chamber Music of South China",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Shanghai Traditional Music Society",
+   "title": "Jiangnan Sizhu: Beautiful Traditional Music from Southeastern China",
+   "url": "https://musicbrainz.org/release/190ec23c-59dc-41b4-9c0d-df02f9920769",
+   "quote": "Hugo Productions",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "上海音乐学院教授丝竹研究组",
+   "title": "江南丝竹(上) (中国地方音乐大系1)",
+   "url": "https://itunes.apple.com/lookup?id=1417371955&entity=song",
+   "quote": "江南丝竹(上) (中国地方音乐大系1)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "上海音乐学院教授丝竹研究组",
+   "title": "江南丝竹(下) (中国地方音乐大系2)",
+   "url": "https://itunes.apple.com/lookup?id=1417348863&entity=song",
+   "quote": "江南丝竹(下) (中国地方音乐大系2)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Shanghai Conservatory Jiangnan Ensemble",
+   "title": "Si-Zhu: Jiangnan Classics",
+   "url": "https://itunes.apple.com/lookup?id=362730662&entity=song",
+   "quote": "China Si-Zhu: Jiangnan Classics",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "Guo Gan & Lingling Yu",
+   "title": "Yue Luo (Chinese Classic Music / Jiangnan Sizhu Music)",
+   "url": "https://itunes.apple.com/lookup?id=465687004&entity=song",
+   "quote": "Yue Luo (Chinese Classic Music / Jiangnan Sizhu Music)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "华韵乐府",
+   "title": "江南丝竹",
+   "url": "https://itunes.apple.com/lookup?id=1089459347&entity=song",
+   "quote": "℗ 2015 Shanghai Leyi Culture & Communication Co.,Ltd.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "album",
+   "artist": "范临风",
+   "title": "丝竹生生——范临风江南丝竹音乐专辑",
+   "url": "https://itunes.apple.com/lookup?id=1767855692&entity=song",
+   "quote": "丝竹生生——范临风江南丝竹音乐专辑",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "song",
+   "artist": "陆春龄, 周惠, 周皓, 马圣龙",
+   "title": "三六 (San Liu)",
+   "url": "https://musicbrainz.org/release/50fa0fbb-b5da-43de-acf5-7def06f04ff0",
+   "quote": "三六 (San Liu)",
+   "read": "2026-11-23",
+   "note": "Tie: performer page (English Wikipedia names the quartet of Lu Chunling, Ma Shenglong, Zhou Hui and Zhou Hao as players of Jiangnan sizhu) and the album title (江南丝竹)."
+  },
+  {
+   "kind": "song",
+   "artist": "Shanghai Conservatory Jiangnan Ensemble",
+   "title": "Song of Happiness: Song Of Happiness",
+   "url": "https://itunes.apple.com/lookup?id=362730662&entity=song",
+   "quote": "Song of Happiness: Song Of Happiness",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (Si-Zhu: Jiangnan Classics)."
+  },
+  {
+   "kind": "song",
+   "artist": "上海民族樂團",
+   "title": "行街",
+   "url": "https://itunes.apple.com/lookup?id=1804462468&entity=song",
+   "quote": "行街",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (江南絲竹八大曲精編)."
+  },
+  {
+   "kind": "song",
+   "artist": "Huxing Ting Teahouse Ensemble",
+   "title": "Zhonghua Liuban (Moderately-decorated six-beat)",
+   "url": "https://musicbrainz.org/release/07ab419f-dbec-43a8-80a6-9462ea77a1b5",
+   "quote": "Zhonghua Liuban (Moderately-decorated six-beat)",
+   "read": "2026-11-23",
+   "note": "Tie: title only. The piece is one of the Eight Great Pieces on English Wikipedia; the album is titled Sizhu (Silk Bamboo); the ensemble is named after a teahouse. No page read describes the ensemble."
+  },
+  {
+   "kind": "song",
+   "artist": "陆春龄, 周惠, 周皓, 马圣龙",
+   "title": "阳八曲 (Yangbaqu)",
+   "url": "https://musicbrainz.org/release/50fa0fbb-b5da-43de-acf5-7def06f04ff0",
+   "quote": "阳八曲 (Yangbaqu)",
+   "read": "2026-11-23",
+   "note": "Tie: performer page (English Wikipedia names the quartet of Lu Chunling, Ma Shenglong, Zhou Hui and Zhou Hao as players of Jiangnan sizhu) and the album title (江南丝竹)."
+  },
+  {
+   "kind": "song",
+   "artist": "陆春龄, 周惠, 周皓, 马圣龙",
+   "title": "慢六板 (Slow Liuban)",
+   "url": "https://musicbrainz.org/release/50fa0fbb-b5da-43de-acf5-7def06f04ff0",
+   "quote": "慢六板 (Slow Liuban)",
+   "read": "2026-11-23",
+   "note": "Tie: performer page (English Wikipedia names the quartet of Lu Chunling, Ma Shenglong, Zhou Hui and Zhou Hao as players of Jiangnan sizhu) and the album title (江南丝竹)."
+  },
+  {
+   "kind": "song",
+   "artist": "陆春龄, 周惠, 周皓, 马圣龙",
+   "title": "花三六 (Hualiuban)",
+   "url": "https://musicbrainz.org/release/50fa0fbb-b5da-43de-acf5-7def06f04ff0",
+   "quote": "花三六 (Hualiuban)",
+   "read": "2026-11-23",
+   "note": "Tie: performer page (English Wikipedia names the quartet of Lu Chunling, Ma Shenglong, Zhou Hui and Zhou Hao as players of Jiangnan sizhu) and the album title (江南丝竹). The page glosses the title as Hualiuban; the characters read Hua sanliu."
+  },
+  {
+   "kind": "song",
+   "artist": "陆春龄, 周惠, 周皓, 马圣龙",
+   "title": "春晖曲 (Spring Sunlight)",
+   "url": "https://musicbrainz.org/release/50fa0fbb-b5da-43de-acf5-7def06f04ff0",
+   "quote": "春晖曲 (Spring Sunlight)",
+   "read": "2026-11-23",
+   "note": "Tie: performer page (English Wikipedia names the quartet of Lu Chunling, Ma Shenglong, Zhou Hui and Zhou Hao as players of Jiangnan sizhu) and the album title (江南丝竹). English Wikipedia lists Chun Hui Qu among new Jiangnan sizhu compositions."
+  },
+  {
+   "kind": "song",
+   "artist": "陆春龄, 马圣龙, 周惠 & 周皓",
+   "title": "怀古",
+   "url": "https://itunes.apple.com/lookup?id=6789017059&entity=song",
+   "quote": "怀古",
+   "read": "2026-11-23",
+   "note": "Tie: performer page (English Wikipedia names the quartet of Lu Chunling, Ma Shenglong, Zhou Hui and Zhou Hao as players of Jiangnan sizhu) and the album title (江南丝竹). Release year left null: the only page is a 2026 digital release (℗ 2026 太平洋影音有限公司) with no recording date."
+  },
+  {
+   "kind": "song",
+   "artist": "Shanghai Conservatory Jiangnan Ensemble",
+   "title": "Cloud Celebration",
+   "url": "https://itunes.apple.com/lookup?id=362730662&entity=song",
+   "quote": "Cloud Celebration",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (Si-Zhu: Jiangnan Classics)."
+  },
+  {
+   "kind": "song",
+   "artist": "Shanghai Conservatory Jiangnan Ensemble",
+   "title": "Song of a Warm Southerly Breeze: Song Of A Warm Southerly Breeze",
+   "url": "https://itunes.apple.com/lookup?id=362730662&entity=song",
+   "quote": "Song of a Warm Southerly Breeze: Song Of A Warm Southerly Breeze",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (Si-Zhu: Jiangnan Classics). English Wikipedia gives Xun Feng Qu as another name of Zhong Hua Liu Ban."
+  },
+  {
+   "kind": "song",
+   "artist": "Shanghai Conservatory Jiangnan Ensemble",
+   "title": "Strolling In The Streets",
+   "url": "https://itunes.apple.com/lookup?id=362730662&entity=song",
+   "quote": "Strolling In The Streets",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (Si-Zhu: Jiangnan Classics)."
+  },
+  {
+   "kind": "song",
+   "artist": "上海民族樂團",
+   "title": "四合如意",
+   "url": "https://itunes.apple.com/lookup?id=1804462468&entity=song",
+   "quote": "四合如意",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (江南絲竹八大曲精編)."
+  },
+  {
+   "kind": "song",
+   "artist": "上海民族樂團",
+   "title": "慢三六",
+   "url": "https://itunes.apple.com/lookup?id=1804462468&entity=song",
+   "quote": "慢三六",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (江南絲竹八大曲精編)."
+  },
+  {
+   "kind": "song",
+   "artist": "上海音乐学院教授丝竹研究组",
+   "title": "中花六板",
+   "url": "https://itunes.apple.com/lookup?id=1417371955&entity=song",
+   "quote": "中花六板",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (江南丝竹(上))."
+  },
+  {
+   "kind": "song",
+   "artist": "上海国乐研究社",
+   "title": "梵王工",
+   "url": "https://itunes.apple.com/lookup?id=1417371955&entity=song",
+   "quote": "梵王工",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (江南丝竹(上)). English Wikipedia gives Fan Wang Gong (凡忘工 / 梵王宫) as another name of Yang Ba Qu."
+  },
+  {
+   "kind": "song",
+   "artist": "浙江歌舞剧院民族乐团",
+   "title": "霓裳曲",
+   "url": "https://itunes.apple.com/lookup?id=1417348863&entity=song",
+   "quote": "霓裳曲",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (江南丝竹(下)). English Wikipedia lists Ni Chang Qu as a Jiangnan ensemble piece."
+  },
+  {
+   "kind": "song",
+   "artist": "Shanghai Traditional Music Society",
+   "title": "Brilliance of Lantern and Moon",
+   "url": "https://musicbrainz.org/release/190ec23c-59dc-41b4-9c0d-df02f9920769",
+   "quote": "Brilliance of Lantern and Moon",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (Jiangnan Sizhu: Beautiful Traditional Music from Southeastern China). English Wikipedia lists Deng Yue Jiao Hui as a Jiangnan piece from Hangzhou."
+  },
+  {
+   "kind": "song",
+   "artist": "Guo Gan & Lingling Yu",
+   "title": "Zhonghua Liuban",
+   "url": "https://itunes.apple.com/lookup?id=465687004&entity=song",
+   "quote": "Zhonghua Liuban",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (Yue Luo (Chinese Classic Music / Jiangnan Sizhu Music))."
+  },
+  {
+   "kind": "song",
+   "artist": "范临风",
+   "title": "欢乐歌",
+   "url": "https://itunes.apple.com/lookup?id=1767855692&entity=song",
+   "quote": "欢乐歌",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (丝竹生生——范临风江南丝竹音乐专辑)."
+  },
+  {
+   "kind": "song",
+   "artist": "華韻樂府",
+   "title": "春江花月夜",
+   "url": "https://itunes.apple.com/lookup?id=1089459347&entity=song",
+   "quote": "春江花月夜",
+   "read": "2026-11-23",
+   "note": "Tie: album title names the genre (江南絲竹). Written year: English Wikipedia says the piece was adapted from a pipa solo in 1925 by the Datong Music Club."
+  },
+  {
+   "kind": "song",
+   "artist": "Guochun Ding, Yuezhong Liu, Xin Wang & Zaixin Yao",
+   "title": "Three Six (Jiangnan Si Zhu)",
+   "url": "https://itunes.apple.com/lookup?id=1594141769&entity=song",
+   "quote": "Three Six (Jiangnan Si Zhu)",
+   "read": "2026-11-23",
+   "note": "Tie: track title names the genre (Jiangnan Si Zhu)."
+  },
+  {
+   "kind": "song",
+   "artist": "华韵乐府",
+   "title": "春江花月夜",
+   "url": "https://en.wikipedia.org/wiki/Jiangnan_sizhu",
+   "quote": "adapted from an ancient pipa solo in 1925 by the Datong Music Club",
+   "read": "2026-11-23",
+   "note": "Year written for the playlist entry."
+  }
+ ]
+}
