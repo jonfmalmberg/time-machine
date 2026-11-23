@@ -1,0 +1,14 @@
+#view-me{max-width:980px}
+.mehead h2,.meadmin h2{font:600 20px var(--display,var(--body));margin:10px 0 6px}
+.meadmin{margin-top:28px;border-top:1px solid var(--line);padding-top:8px}
+.meadmin h3{font:600 14px var(--body);margin:16px 0 6px}
+.tlist{margin-top:10px}
+.trow{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}
+.trow .tdate{flex:0 0 7.5em;color:var(--muted);font-size:12px}
+.trow .twhat{flex:1 1 220px;min-width:0}
+.trow select,.trow .tnote{font:12.5px var(--body);color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:4px 6px;min-width:0;max-width:100%}
+.trow .tnote{flex:1 1 120px}
+.trow.st-never .twhat b,.trow.st-left .twhat b{text-decoration:line-through;text-decoration-color:var(--muted);opacity:.7}
+.mepers{border-bottom:1px solid var(--line);padding:6px 0}
+.mepers summary{cursor:pointer}
+.unrev{color:var(--accent)}

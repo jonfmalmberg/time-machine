@@ -1,0 +1,14 @@
+.fbar{margin:8px 0 2px}
+.fhead{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
+.fcrumb{font-size:12.5px;color:var(--muted);margin:0 0 6px}
+.flist{display:flex;flex-wrap:wrap;gap:5px;max-height:240px;overflow:auto}
+.flist small{color:var(--muted)}
+.ftime{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;font-size:13px}
+.ftime select,.ftime input{font:13px var(--body);color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:4px 6px;max-width:100%}
+.ftime input{width:6.5em}
+.fquick{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+
+.fsp{flex:1}
+#ftslot{margin-bottom:10px}
+#ftslot .stctl{flex:1 1 auto}
+.fdot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px}

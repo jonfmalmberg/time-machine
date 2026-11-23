@@ -1,0 +1,1821 @@
+<title>World Music Time Machine</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: header, view tabs, region legend, then the active view (tree or map) at full width. */
+:root{
+  --bg:#f2f4f6; --panel:#ffffff; --fg:#18202b; --muted:#5a6575; --line:#d3d9e0; --band:#eceff3; --sea:#dbe7ef; --land:#ece5d6; --coast:#cfc4ad; --grat:#c3d3de; --accent:#1d4ed8;
+  --r-eur:#6d4fc0; --r-nam:#2463b4; --r-carib:#cc3f6e; --r-latam:#3f8a3a; --r-afr:#8a5a24;
+  --r-mena:#13879b; --r-sasia:#d8691d; --r-casia:#7f7a20; --r-easia:#c0392f; --r-seasia:#5d6b80;
+  --display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body:"IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --console:#141a24; --console-fg:#e8edf5; --console-line:#3a4556; --console-accent:#7aa2ff; --tun-bg:#0b0f17; --tun-fg:#e8edf5; --tun-ring:#8fa6c8;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0f141b; --panel:#161d27; --fg:#e5eaf0; --muted:#94a0b0; --line:#2a3441; --band:#1a222d; --sea:#0e1923; --land:#2a2e27; --coast:#3b4036; --grat:#1c2a36; --accent:#7aa2ff;
+  --r-eur:#a48bf0; --r-nam:#6fa3ec; --r-carib:#f07aa0; --r-latam:#78bf6e; --r-afr:#c98f59;
+  --r-mena:#45c3d6; --r-sasia:#f39a55; --r-casia:#c3bd52; --r-easia:#ef6b60; --r-seasia:#a2b0c4;
+  --console:#1d2633; --console-fg:#e8edf5; --console-line:#3a4556; --console-accent:#7aa2ff; --tun-bg:#070a10; --tun-fg:#e8edf5; --tun-ring:#8fa6c8;
+  color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#0f141b; --panel:#161d27; --fg:#e5eaf0; --muted:#94a0b0; --line:#2a3441; --band:#1a222d; --sea:#0e1923; --land:#2a2e27; --coast:#3b4036; --grat:#1c2a36; --accent:#7aa2ff;
+  --r-eur:#a48bf0; --r-nam:#6fa3ec; --r-carib:#f07aa0; --r-latam:#78bf6e; --r-afr:#c98f59;
+  --r-mena:#45c3d6; --r-sasia:#f39a55; --r-casia:#c3bd52; --r-easia:#ef6b60; --r-seasia:#a2b0c4;
+  --console:#1d2633; --console-fg:#e8edf5; --console-line:#3a4556; --console-accent:#7aa2ff; --tun-bg:#070a10; --tun-fg:#e8edf5; --tun-ring:#8fa6c8;
+  color-scheme:dark }
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:14px;line-height:1.5}
+.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 32px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+input[type=search]{font:13px var(--body);color:var(--fg);background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:7px 10px;width:220px;max-width:100%}
+.legend{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.legend .lbl{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-right:4px}
+.rchip{display:inline-flex;align-items:center;gap:6px;font:500 12px var(--body);color:var(--fg);background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:3px 10px 3px 8px;cursor:pointer}
+.rchip i{width:9px;height:9px;border-radius:50%;display:block}
+.rchip[aria-pressed="true"]{border-color:var(--fg);box-shadow:inset 0 0 0 1px var(--fg)}
+.keyline{display:flex;flex-wrap:wrap;gap:16px;font-size:12px;color:var(--muted);align-items:center}
+.keyline svg{vertical-align:middle;margin-right:6px}
+.selbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:6px 8px 6px 12px}
+.selbar[hidden]{display:none}
+.selbar i{width:10px;height:10px;border-radius:50%;flex:none}
+.selbar b{font-family:var(--display);font-size:15px}
+.selbar #selmeta{font-size:12px;color:var(--muted)}
+.selbar .sp{flex:1}
+.selbar .lbl{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.wview{background:var(--panel);border:1px solid var(--line);border-radius:10px;min-width:0;overflow:hidden}
+.treebox{position:relative;height:78vh;min-height:420px;overflow:hidden;touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none}
+.treebox:active{cursor:grabbing}
+#tree{display:block;width:100%;height:100%}
+#tree text{font-family:var(--body)}
+.axisbg{fill:var(--panel)}
+.axis text{font-family:var(--mono);font-size:10.5px;fill:var(--muted)}
+.zoombar{position:absolute;right:10px;bottom:10px;z-index:3;display:flex;align-items:center;gap:6px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:4px 6px 4px 10px;box-shadow:0 2px 10px rgb(0 0 0 / .08);cursor:default}
+.zoombar span{font-size:12px;color:var(--muted);margin-right:4px}
+#view-list{padding:14px 16px;display:flex;flex-direction:column;gap:12px}
+#view-list[hidden]{display:none}
+#view-journey{padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+#view-journey[hidden]{display:none}
+.jintro{margin:0;font-size:13.5px;max-width:95ch}
+.jctl{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.jw{display:inline-flex;align-items:center;gap:6px;font-size:12.5px}
+.jw input{width:90px;accent-color:var(--accent)}
+.jw .mono{width:1.5em;font-size:11px;color:var(--muted)}
+.jo{display:inline-flex;align-items:center;gap:5px;font-size:12.5px}
+#jprog a{color:var(--accent)}
+.jrow{border-top:1px solid var(--line)}
+.jrow>summary{list-style:none;display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;padding:7px 2px;cursor:pointer}
+.jrow>summary::-webkit-details-marker{display:none}
+.jrow.done .jname{text-decoration:line-through;color:var(--muted)}
+.jrow.next{background:var(--band)}
+.jn{width:2.6em;text-align:right;color:var(--muted);font-size:11px}
+.jdot{width:9px;height:9px;border-radius:50%;flex:none}
+.jname{font-weight:600}
+.jmeta{font-size:12px;color:var(--muted)}
+.jtags{display:inline-flex;gap:4px;flex-wrap:wrap}
+.jt{font-size:10.5px;border:1px solid var(--line);border-radius:4px;padding:0 5px;color:var(--muted)}
+.jt.ph-home{color:var(--r-nam);border-color:currentColor}
+.jt.ph-abroad{color:var(--r-afr);border-color:currentColor}
+.jt.ph-past{color:var(--r-eur);border-color:currentColor}
+.jbars{display:inline-flex;gap:6px;margin-left:auto}
+.jb{display:inline-flex;align-items:center;gap:3px;font-size:10px;color:var(--muted)}
+.jb em{font-style:normal}
+.jb .trk{display:block;width:26px;height:5px;background:var(--line);border-radius:2px;overflow:hidden}
+.jb .trk i{display:block;height:100%;background:var(--fg);opacity:.6}
+.jbody{padding:4px 0 10px 3em;display:flex;flex-direction:column;gap:6px}
+.jbody textarea{width:100%;font:12.5px/1.45 var(--mono);color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px;resize:vertical;box-sizing:border-box}
+.jbody a{color:var(--accent)}
+@media (max-width:700px){ .jbars{margin-left:3.4em} }
+.lctl{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.lctl label{font-size:13px;display:inline-flex;gap:6px;align-items:center}
+.lgroup{border-top:1px solid var(--line)}
+.lgroup[hidden]{display:none}
+.lgroup>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;padding:10px 2px}
+.lgroup>summary::-webkit-details-marker{display:none}
+.lgroup>summary::before{content:"▸";color:var(--muted);font-size:13px;transition:transform .15s}
+.lgroup[open]>summary::before{transform:rotate(90deg)}
+.lgroup h3{font-family:var(--display);font-size:18px;margin:0}
+.lgroup[open]{padding-bottom:10px}
+.ltrad h4{font-family:var(--display);font-size:14px;margin:12px 0 4px;color:var(--muted)}
+.ltrad h4 .tspan{font-family:var(--mono);font-size:11px;font-weight:400;margin-left:6px}
+.ltrad[hidden]{display:none}
+.lgroup h3 .cnt{font-family:var(--mono);font-size:11px;color:var(--muted);font-weight:400;margin-left:6px}
+.gitem{border-top:1px solid var(--line);padding:6px 2px}
+.gitem summary{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px;cursor:pointer;list-style:none}
+.gitem summary::-webkit-details-marker{display:none}
+.gitem summary i{width:9px;height:9px;border-radius:50%;flex:none;align-self:center}
+.gname{font-weight:600}
+.gmeta{font-size:12px;color:var(--muted)}
+.todo{font-size:11px;color:var(--muted);border:1px dashed var(--line);border-radius:4px;padding:0 5px}
+.gbody{padding:6px 0 8px 19px;display:flex;flex-direction:column;gap:8px;max-width:110ch}
+.gbody p{margin:0}
+.gpar{font-size:12.5px;color:var(--muted)}
+.gbody a{color:var(--accent);text-decoration:none}
+.gbody a:hover{text-decoration:underline}
+.gsound{font-size:14px}
+.gcols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:8px 24px}
+.gbody ul{margin:0;padding-left:18px;font-size:13px;display:flex;flex-direction:column;gap:2px}
+.gbody .mono{font-family:var(--mono);font-size:11px;color:var(--muted)}
+.gitem.flash{background:var(--band)}
+.pl{border:1px solid var(--line);border-radius:8px;padding:6px 10px;margin-top:4px;background:var(--bg)}
+.pl>summary{cursor:pointer;display:flex;gap:10px;align-items:baseline;list-style:none}
+.pl>summary::-webkit-details-marker{display:none}
+.pl>summary::before{content:"▸";color:var(--muted);font-size:12px}
+.pl[open]>summary::before{content:"▾"}
+.pl .label{margin:0}
+.plst{font-size:12px;font-weight:600}
+.pl-full .plst{color:var(--r-latam)}
+.pl-thin .plst{color:var(--r-sasia)}
+.pl-none .plst{color:var(--r-easia)}
+.plbody{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:8px 24px;padding:8px 0 4px}
+.plbody>p,.plbody>div:last-child{grid-column:1/-1}
+.plbody ol{margin:0;padding-left:22px;font-size:13px;display:flex;flex-direction:column;gap:1px}
+.plbody textarea{min-height:15em;width:100%;font:12px/1.45 var(--mono);color:var(--fg);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:8px;box-sizing:border-box;margin:4px 0 6px;resize:vertical}
+.jt-none{color:var(--r-easia);border-color:currentColor}
+.gbody .label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:0 0 2px}
+.node{cursor:pointer;transition:none}
+.node text{font-size:11.5px;fill:var(--fg);paint-order:stroke;stroke:var(--panel);stroke-width:3.5px;stroke-linejoin:round}
+.node circle{stroke:var(--panel);stroke-width:1.5}
+.tlink{fill:none}
+.life{stroke-width:3;opacity:.32;stroke-linecap:round}
+.stream{opacity:.09}
+.tradlabel{font-family:var(--display);font-size:11.5px;font-weight:600;fill:var(--muted);paint-order:stroke;stroke:var(--panel);stroke-width:3.5px;stroke-linejoin:round}
+.branch{fill:none;stroke-width:7;opacity:.1;stroke-linecap:round}
+.life.hot{opacity:.7 !important}
+.tlink.p{stroke-width:1.5;opacity:.5}
+.tlink.s{stroke-width:1;opacity:.35;stroke-dasharray:4 3}
+.dim{opacity:.1 !important}
+.tlink.hot{opacity:.95 !important;stroke-width:2.2}
+.node.sel circle{stroke:var(--fg);stroke-width:2.5}
+.node.sel text{font-weight:600}
+#axis text{font-family:var(--mono);font-size:10.5px;fill:var(--muted)}
+.tgrid line{stroke:var(--line)}
+.bandlabel{font-family:var(--display);font-size:13px;font-weight:700;fill:var(--fg);paint-order:stroke;stroke:var(--panel);stroke-width:4px;stroke-linejoin:round}
+.bandrect{fill:var(--band)}
+#view-map{background:var(--sea);position:relative}
+.mappop[hidden]{display:none}
+.mappop{position:absolute;z-index:4;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px;box-shadow:0 8px 28px rgb(0 0 0 / .16);display:flex;flex-direction:column;gap:2px;max-height:60%;overflow:auto;min-width:220px}
+.mappop .label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:0 0 4px 4px}
+.mappop button{display:flex;align-items:center;gap:8px;font:13px var(--body);color:var(--fg);background:none;border:0;border-radius:6px;padding:4px 6px;cursor:pointer;text-align:left}
+.mappop button:hover,.mappop button:focus-visible{background:var(--bg);outline:none}
+.mappop button i{width:9px;height:9px;border-radius:50%;flex:none}
+.mappop button .mono{margin-left:auto;font-family:var(--mono);font-size:11px;color:var(--muted);padding-left:12px}
+#map{height:68vh;min-height:300px;margin:0 auto;max-width:100%}
+.mapnote{font-size:12px;color:var(--muted);padding:8px 12px;border-top:1px solid var(--line);margin:0}
+.fine{font-size:12px;color:var(--muted);margin:0;max-width:110ch}
+@media (prefers-reduced-motion:no-preference){.tlink,.node{transition:opacity .2s}}
+/* ---------- v2: time travel ---------- */
+.fillsw{display:inline-flex;align-items:center;gap:4px;margin-left:6px;cursor:pointer}
+
+.strow{display:flex;gap:8px;flex-wrap:wrap}
+.listener{border-top:1px solid var(--line);padding-top:8px;display:flex;flex-direction:column;gap:4px}
+.listener p{margin:0}
+
+
+.only-tmt{}
+.wrap:not([data-view="tree"]) .keyline{display:none}
+.wrap[data-view="journey"] .only-tmt,.wrap[data-view="me"] .only-tmt{display:none!important}
+.wrap[data-view="list"] .only-map,.wrap[data-view="data"] .only-map{display:none!important}
+.wrap[data-view="me"] .only-lj,.wrap[data-view="journey"] .only-lj{display:none!important}
+.wrap[data-view="list"] .stpanel,.wrap[data-view="journey"] .stpanel{display:none!important}
+#map{position:relative;height:auto;min-height:0}
+#mapcv{display:block;width:100%;height:100%;touch-action:none;cursor:grab;border-radius:6px}
+.mapbtns{position:absolute;top:10px;left:10px;display:flex;gap:6px}
+.maptip{position:absolute;pointer-events:none;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:6px 9px;font-size:12px;box-shadow:0 6px 18px rgb(0 0 0 / .14);max-width:260px;z-index:3}
+.maptip[hidden]{display:none}
+.mappop .hbar{flex:none;width:46px;height:5px;border-radius:3px;background:var(--line);margin-left:10px;overflow:hidden}
+.mappop .hbar b{display:block;height:100%;background:var(--accent)}
+.comets .cometpath{fill:none;stroke-width:1.2;stroke-dasharray:3 5}
+.comets .comettail{fill:none;stroke-linecap:round;opacity:.55}
+.tlink.wl{stroke-width:3.2!important;opacity:.95}
+#tpflash{position:fixed;inset:0;z-index:60;pointer-events:none;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle,rgb(255 255 255 / .95),rgb(255 245 220 / .75) 40%,rgb(120 150 255 / 0) 80%);opacity:0}
+#tpflash[hidden]{display:none}
+#tpflash.go{animation:tpflash 1.8s ease-out forwards}
+#tpcap{display:flex;flex-direction:column;align-items:center;gap:4px;color:#10131a;text-align:center}
+#tpcap span{font:700 clamp(36px,9vw,84px)/1 var(--mono);letter-spacing:.03em}
+#tpcap b{font:600 clamp(16px,3.6vw,28px)/1.2 var(--body)}
+@keyframes tpflash{0%{opacity:0}8%{opacity:1}30%{opacity:.85}100%{opacity:0}}
+
+.stbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.stctl{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;flex:1 1 520px;min-width:0;background:var(--console);color:var(--console-fg);border-radius:10px;padding:8px 12px}
+.stctl[hidden]{display:none}
+.stctl select{font:500 13px var(--body);color:var(--fg);background:var(--f7-searchbar-input-bg-color,rgb(118 118 128 / .12));border:0;border-radius:8px;padding:5px 9px}
+.stctl .yr{font:600 28px/1 var(--mono);letter-spacing:.02em;min-width:5.6ch;text-align:right;font-variant-numeric:tabular-nums}
+.stctl .yr small{font-size:13px;font-weight:500;opacity:.7;margin-left:4px}
+.stctl .where{font:500 13px var(--body);opacity:.85;min-width:0}
+.stctl input[type=range]{flex:1 1 200px;min-width:120px;accent-color:var(--console-accent)}
+.stctl .sp{flex:1}
+.stctl label{font-size:12px;opacity:.8;display:inline-flex;gap:6px;align-items:center}
+.stctl select option{color:#111}
+.stpanel{box-sizing:border-box;position:fixed;z-index:20;right:max(16px,env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));width:min(420px,calc(100vw - 32px));max-height:min(64vh,calc(100vh - 32px));overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:8px;box-shadow:0 12px 40px rgb(0 0 0 / .22)}
+@media (max-width:640px){.stpanel{top:auto;bottom:calc(8px + env(safe-area-inset-bottom,0px));max-height:62vh}}
+.stpanel .sthead .sp{flex:1}
+.stpanel label{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.stpanel select{font:13px var(--body);color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:4px 6px}
+.node.anc text{font-style:italic}
+.stpanel[hidden]{display:none}
+.stpanel .sthead{display:flex;flex-wrap:wrap;gap:8px;align-items:baseline}
+.stpanel .sthead b{font:600 18px var(--display)}
+.stpanel input{font:13px var(--body);color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:6px 9px;width:min(340px,100%)}
+.stpanel>*{flex:none}
+.stpanel textarea{min-height:13.5em;box-sizing:border-box;width:100%;font:12px/1.45 var(--mono);color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px;resize:vertical}
+.stchips{display:flex;flex-wrap:wrap;gap:6px}
+.stchips button i{width:8px;height:8px;border-radius:50%}
+.stchips .anc{opacity:.6;font-style:italic}
+.nowline{stroke:var(--accent);stroke-width:1.5}
+.nowlabel{fill:var(--accent);font:600 11px var(--mono)}
+#view-tunnel{position:relative}
+#tunnel{display:block;width:100%;height:70vh;min-height:320px;border-radius:10px;background:var(--tun-bg);touch-action:none;cursor:default}
+.tunnote{font-size:12px;color:var(--muted);margin:8px 2px 0}
+
+.lkb{border:0;background:none;color:var(--accent,currentColor);cursor:pointer;font:inherit;padding:0 4px;opacity:.75}
+.lkb:hover,.lkb:focus-visible{opacity:1}
+.lkrow{display:flex;flex-wrap:wrap;gap:2px 14px;font-size:12px;padding:2px 0 4px}
+.lkrow b,.lkline b{font-weight:600;margin-right:4px}
+.lkrow a,.lkline a,.seedl a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.lkline{margin:6px 0 0}
+.reqline{margin:0;display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center}
+.seedl ol{margin:6px 0;padding-left:22px;font-size:13px;display:flex;flex-direction:column;gap:3px}
+.seedl summary{cursor:pointer}
+img.cv{width:34px;height:34px;object-fit:cover;border-radius:4px;vertical-align:middle;margin-right:6px}
+#stlinks{display:flex;flex-direction:column;gap:6px}
+/*@MODCSS@*/
+</style>
+
+<div id="tpflash" hidden aria-hidden="true"><div id="tpcap"></div></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-tree" viewBox="0 0 24 24"><path d="M4 12h5M9 12c3 0 3-6 6-6h5M9 12c3 0 3 6 6 6h5M9 12h11"/></symbol>
+<symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.2 3 14.800 0 18M12 3c-3 3.2-3 14.800 0 18"/></symbol>
+<symbol id="i-tunnel" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></symbol>
+<symbol id="i-list" viewBox="0 0 24 24"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></symbol>
+<symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="18" r="2.2"/><circle cx="18" cy="6" r="2.2"/><path d="M8.200 18H15a3.500 3.500 0 0 0 0-7H9a3.500 3.500 0 0 1 0-7h6.800"/></symbol>
+<symbol id="i-table" viewBox="0 0 24 24"><rect x="3.500" y="4.500" width="17" height="15" rx="2.500"/><path d="M3.500 9.500h17M3.500 14.500h17M9.500 4.500v15"/></symbol>
+<symbol id="i-person" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 20.500c1.200-4 4.300-6 8-6s6.800 2 8 6"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.500"/><path d="M16 16l4.500 4.500"/></symbol>
+<symbol id="i-shuffle" viewBox="0 0 24 24"><path d="M3 7h3.500c5 0 6 10 11 10H21M3 17h3.500c1.700 0 2.900-1.100 4-2.600M21 7h-3.500c-1.700 0-2.900 1.100-4 2.600M18 4l3 3-3 3M18 14l3 3-3 3"/></symbol>
+<symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.500h.01"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.200 7-11.500a7 7 0 0 0-14 0C5 14.800 12 21 12 21z"/><circle cx="12" cy="9.500" r="2.500"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.500 2"/></symbol>
+<symbol id="i-note" viewBox="0 0 24 24"><path d="M9 18V6l10-2v12"/><circle cx="6.500" cy="18" r="2.500"/><circle cx="16.500" cy="16" r="2.500"/></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.500v13l11-6.500z"/></symbol>
+<symbol id="i-up" viewBox="0 0 24 24"><path d="M7 10.500v9.500H4.500a1 1 0 0 1-1-1v-7.500a1 1 0 0 1 1-1zM7 10.500l3.600-6.800c1.900 0 3 1.500 2.600 3.300l-.6 2.700h5a2 2 0 0 1 2 2.400l-1.200 6.300a2 2 0 0 1-2 1.600H7"/></symbol>
+<symbol id="i-down" viewBox="0 0 24 24"><g transform="rotate(180 12 12)"><path d="M7 10.500v9.500H4.500a1 1 0 0 1-1-1v-7.500a1 1 0 0 1 1-1zM7 10.500l3.600-6.800c1.900 0 3 1.500 2.600 3.300l-.6 2.700h5a2 2 0 0 1 2 2.400l-1.200 6.300a2 2 0 0 1-2 1.600H7"/></g></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20.500s-7.500-4.600-7.500-10.200A4.200 4.200 0 0 1 12 7.700a4.200 4.200 0 0 1 7.500 2.600c0 5.600-7.500 10.200-7.500 10.200z"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.500l4.500 4.500L19 7.500"/></symbol>
+<symbol id="i-exit" viewBox="0 0 24 24"><path d="M13.500 4.500H17a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-3.500M10 8l-4 4 4 4M6 12h9"/></symbol>
+<symbol id="i-chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+<symbol id="i-ticket" viewBox="0 0 24 24"><path d="M3.500 8a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4zM14 6v12"/></symbol>
+<symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 3L5 14h6l-1 7 8-11h-6z"/></symbol>
+</defs></svg>
+<div id="app" class="app wrap" data-view="tree">
+<header class="topbar">
+  <h1 id="vtitle">Family tree</h1>
+  <div class="tb-actions">
+    <button type="button" class="ib" id="helpbtn" aria-label="About this view"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg></button>
+    <button type="button" class="ib" id="msearchb" aria-label="Search"><svg class="ic" aria-hidden="true"><use href="#i-search"/></svg></button>
+    <button type="button" class="ib" id="mrandb" aria-label="Random"><svg class="ic" aria-hidden="true"><use href="#i-shuffle"/></svg></button>
+    <button type="button" class="avatar" id="whobtn" aria-haspopup="dialog" aria-label="Who is travelling"></button>
+  </div>
+</header>
+<nav class="tabbar vtabs" role="tablist" aria-label="View">
+  <button type="button" class="tab-link" id="tab-tree" role="tab" aria-selected="true" data-view="tree" data-title="Family tree"><svg class="ic" aria-hidden="true"><use href="#i-tree"/></svg><span>Tree</span></button>
+  <button type="button" class="tab-link" id="tab-map" role="tab" aria-selected="false" data-view="map" data-title="World map"><svg class="ic" aria-hidden="true"><use href="#i-globe"/></svg><span>Map</span></button>
+  <button type="button" class="tab-link" id="tab-tunnel" role="tab" aria-selected="false" data-view="tunnel" data-title="Time tunnel"><svg class="ic" aria-hidden="true"><use href="#i-tunnel"/></svg><span>Tunnel</span></button>
+  <button type="button" class="tab-link" id="tab-list" role="tab" aria-selected="false" data-view="list" data-title="List"><svg class="ic" aria-hidden="true"><use href="#i-list"/></svg><span>List</span></button>
+  <button type="button" class="tab-link" id="tab-journey" role="tab" aria-selected="false" data-view="journey" data-title="Journey"><svg class="ic" aria-hidden="true"><use href="#i-route"/></svg><span>Journey</span></button>
+  <button type="button" class="tab-link" id="tab-data" role="tab" aria-selected="false" data-view="data" data-title="Data"><svg class="ic" aria-hidden="true"><use href="#i-table"/></svg><span>Data</span></button>
+  <button type="button" class="tab-link" id="tab-me" role="tab" aria-selected="false" data-view="me" data-title="My travels"><svg class="ic" aria-hidden="true"><use href="#i-person"/></svg><span>Me</span></button>
+</nav>
+<div class="filterrow" id="filterrow">
+<div class="controls" hidden>
+      <div class="dice only-lj"><button id="rollany" type="button">Random</button><button id="rollnew" type="button">Not heard yet</button></div>
+      <div class="dice only-tmt"><button id="rolltp" type="button">Teleport</button><button id="rolltpnew" type="button">Somewhere new</button></div>
+      <input id="search" type="search" list="glist" aria-hidden="true" tabindex="-1"><datalist id="glist"></datalist>
+  </div>
+  <div class="stbar only-tmt"><div class="stctl" id="stctl" role="group" aria-label="Time">
+    <button id="stback" type="button" aria-pressed="false" title="Travel back in time">◀ Back</button>
+    <input type="range" id="stslider" min="0" max="1000" value="1000" aria-label="Year">
+    <button id="stfwd" type="button" aria-pressed="false" title="Travel forward in time">Forward ▶</button>
+    <label>Speed <select id="stspeed"><option value="0.5">½×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option></select></label>
+    <span class="yr" id="styr">2026</span><span class="where" id="stwhere"></span><span class="sp"></span>
+    <button id="stmoment" type="button" aria-pressed="false">Playlist for this moment</button>
+    <button id="stexit" type="button" title="Back to now, everywhere, everything">Reset all</button>
+  </div></div>
+  </div>
+<main class="content" id="content">
+  <div class="stpanel" id="stpanel" hidden>
+    <div class="sthead"><span class="label">You are in</span><b id="sthere"></b><span class="sp"></span><button id="stpclose" type="button" aria-label="Close">✕</button></div>
+    <label class="fine">How long you stay <select id="stspan"><option value="0">Just that year</option><option value="2">A few years</option><option value="5">A decade</option><option value="12">A lifetime</option></select></label>
+    <p class="fine">Change the place by clicking a country or city on the map, or a region chip.</p>
+    <p class="label">Alive here now: bold at their peak, faint rising or fading</p><div class="stchips" id="stpeaks"></div>
+    <p class="label">Copy-ready Spotify prompt <span class="mono" id="stlen"></span> <span id="stpmode"></span> <span id="stplang"></span></p><p class="fine" id="stsrc"></p>
+    <textarea id="stprompt" readonly rows="6"></textarea>
+    <div class="strow"><button class="lbtn" id="stcopy" type="button">Copy prompt</button><button class="lbtn" id="sttest" type="button" hidden>Test with a synthetic listener</button></div>
+    <div id="streqbox"></div>
+    <div id="stlinks"></div>
+    <div id="stlisten"></div>
+  </div>
+  <div class="legend" id="legend" aria-label="Regions" hidden></div>
+  <div class="keyline">
+    <span><svg width="34" height="8" aria-hidden="true"><line x1="0" y1="4" x2="34" y2="4" stroke="currentColor" stroke-width="1.6"/></svg>Principal parent (closest style)</span>
+    <span><svg width="34" height="8" aria-hidden="true"><line x1="0" y1="4" x2="34" y2="4" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/></svg>Other parent</span>
+    <span>Soft bands are traditions (streams); dots with bars are movements and their active years · bands group by sound · colour shows region · scroll or pinch to zoom for finer movements</span>
+  </div>
+  <div class="selbar" id="selbar" hidden><i id="seldot"></i><b id="selname"></b><span id="selmeta"></span><span class="sp"></span><span class="lbl">Show in</span><button data-show="tree">Tree</button><button data-show="map">Map</button><button data-show="tunnel">Tunnel</button><button data-show="list">List</button><button id="selclear" aria-label="Clear selection">✕</button></div>
+  <div>
+      <section class="wview" id="view-tree" aria-label="Family tree">
+        <div class="treebox" id="treebox">
+          <svg id="tree" role="img" aria-label="Family tree of world music genres, grouped into bands by sound, on a time axis"></svg>
+          <div class="zoombar"><span id="zlevel"></span><button id="zout" aria-label="Zoom out">−</button><button id="zin" aria-label="Zoom in">+</button><button id="zfit" aria-label="Zoom to fit">⤢</button></div>
+        </div>
+      </section>
+      <section class="wview" id="view-map" aria-label="World map" hidden>
+        <div id="map"><canvas id="mapcv" aria-label="World map: click a country or city to travel there"></canvas><div class="mapbtns"><button id="mproj" type="button">Globe</button><button id="mzin" type="button" aria-label="Zoom in">+</button><button id="mzout" type="button" aria-label="Zoom out">−</button></div><div class="maptip" id="maptip" hidden></div></div>
+        <div class="mappop" id="mappop" hidden></div>
+        <p class="mapnote" id="mapnote">Dots sit where each genre was born; in time travel their size and colour show how alive each one is at that moment. A ring with a number is a city with several genres, split by how much each matters right now; click it to pick one. Click a country or city to travel there; cities appear as they are founded and take their names of the time. Drag to pan or spin the globe, scroll or pinch to zoom.</p>
+      </section>
+      <section class="wview" id="view-tunnel" aria-label="Time tunnel" hidden>
+        <canvas id="tunnel" tabindex="0" aria-label="Time tunnel: movements are stars and traditions are galaxies; the past recedes toward the centre"></canvas>
+        <p class="tunnote">You are travelling through time, looking back into the past. Every movement is a star: the brighter and larger it burns, the stronger it is here and now. A star is born in a shell of light, rides the rim at its peak, then falls away down the tunnel, dims and goes out. Stars that belong to one tradition gather into a galaxy. When time moves, everything streaks. Direction follows the map: Europe up, the Americas left, Africa down, Asia right. Press Back or Forward to travel, scroll to scrub, click a name to select it, pick a region chip to see only what that place loved.</p>
+      </section>
+      <section class="wview" id="view-journey" aria-label="Listening journey" hidden>
+        <p class="jintro">A suggested order through every movement: the most significant first, rotating home, abroad and back in time, with a guard that follows hard listening with something easier. Move the sliders to re-sort; ticks and weights are remembered in this browser.</p>
+        <div class="jctl" id="jctl"></div>
+        <p class="fine" id="jprog"></p>
+        <div id="jlist"></div>
+      </section>
+      <section class="wview" id="view-data" aria-label="Data lookup" hidden></section>
+      <section class="wview" id="view-me" aria-label="My travels" hidden></section>
+      <section class="wview" id="view-list" aria-label="Genre list" hidden>
+        <div class="lctl"><input id="lfilter" type="search" placeholder="Filter by genre, place, artist or song…" aria-label="Filter the list">
+          <div class="seg" id="lscope" role="group" aria-label="What to show"><button data-scope="one">Selected</button><button data-scope="family">Family</button><button data-scope="lineage">Full lineage</button><button data-scope="all">Everything</button></div>
+          <button class="lbtn" id="lexpand">Open all areas</button><button class="lbtn" id="lcollapse">Close all</button></div>
+        <p class="fine" id="lcount"></p>
+        <div id="listbody"></div>
+      </section>
+  </div>
+</main>
+</div>
+<div class="sheet-backdrop" id="sheetbd" hidden></div>
+<section class="sheet" id="sheet-help" role="dialog" aria-label="About" hidden><div class="sheet-grab"></div><div class="sheet-head"><b>About</b><button type="button" class="sheet-x" data-close aria-label="Close"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button></div><div class="sheet-body" id="help"><div id="helpnote"></div><p id="sub"></p><p class="fine" id="method"></p><div id="helpkey"></div></div></section>
+<section class="sheet" id="sheet-rand" role="dialog" aria-label="Random" hidden><div class="sheet-grab"></div><div class="sheet-body"><div class="rows" id="mrand"></div></div></section>
+<section class="sheet" id="sheet-who" role="dialog" aria-label="Who is travelling" hidden><div class="sheet-grab"></div><div class="sheet-head"><b>Who is travelling?</b><button type="button" class="sheet-x" data-close aria-label="Close"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button></div><div class="sheet-body whopop" id="whopop"></div></section>
+<section class="sheet" id="sheet-filter" role="dialog" aria-label="Filter" hidden><div class="sheet-grab"></div><div class="sheet-head"><b id="fsheett">Filter</b><span class="fine" id="fcount"></span><button type="button" class="sheet-x" data-close aria-label="Close"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button></div><div class="sheet-body" id="fsheetb"></div></section>
+<section class="sheet" id="sheet-detail" role="dialog" aria-label="Details" hidden><div class="sheet-grab"></div><div class="sheet-head"><b id="dett"></b><button type="button" class="sheet-x" data-close aria-label="Close"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button></div><div class="sheet-body" id="detb"></div></section>
+<section class="searchov" id="searchov" role="dialog" aria-label="Search" hidden><div class="searchbar"><div class="sfield"><svg class="ic" aria-hidden="true"><use href="#i-search"/></svg><input type="search" id="msq" placeholder="Genres, places, artists" aria-label="Search" autocomplete="off" autocapitalize="off" spellcheck="false" enterkeyhint="search"></div><button type="button" class="tbtn" id="mscancel">Cancel</button></div><div class="rows" id="msres"></div></section>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts@4.9.0/dist/echarts.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+<script>
+const DATA = __DATA__;
+const REG = DATA.regions, BANDS = DATA.bands, NOTES = DATA.notes;
+const N = DATA.nodes.map(([id,name,reg,band,year,place,lat,lon,parents])=>({id,name,reg,band,year,place,lat,lon,parents,children:[]}));
+const byId = Object.fromEntries(N.map(n=>[n.id,n]));
+N.forEach(n=>n.parents.forEach((p,k)=>byId[p].children.push(n.id)));
+const regName = Object.fromEntries(REG), bandName = Object.fromEntries(BANDS);
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const regColor = r => css('--r-'+r);
+const fmtYear = y => y<0 ? 'c. '+(-y)+' BCE' : (y<1600 ? 'c. '+y+' CE' : 'c. '+y);
+const esc = s => String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+document.getElementById('sub').textContent = `${N.length} traditions and genres, from Vedic chant to corridos tumbados. Each genre hangs from one principal parent, its closest style, and at most two others. Pick any genre to light up its lineage on the tree and trace it across the map; click the background to clear it. Hover a genre for its date, origin and notes. The List tab defines each movement with what to listen for, tracks that fit, and close calls that belong elsewhere.`;
+document.getElementById('method').textContent = DATA.method;
+
+let selected=null, regFocus=null;
+function lineage(id){
+  const anc=new Set(), des=new Set();
+  (function up(x){ byId[x].parents.forEach(p=>{ if(!anc.has(p)){anc.add(p);up(p);} }); })(id);
+  (function down(x){ byId[x].children.forEach(c=>{ if(!des.has(c)){des.add(c);down(c);} }); })(id);
+  return {anc,des};
+}
+
+/* ---------- tree: one fixed layout; zoom only changes scale, line weights and which names show ---------- */
+const LAY=DATA.layout, EDGES=DATA.edges, TIER=DATA.tier, TRADN=DATA.trad, TRAD_OF=DATA.tradOf, MEND=DATA.ends;
+const TRADM={}; for(const id in TRAD_OF) (TRADM[TRAD_OF[id]]=TRADM[TRAD_OF[id]]||[]).push(id);
+const TSTART={}, TEND={}, TREG={};
+for(const t in TRADM){ const ms=TRADM[t].slice().sort((a,b)=>byId[a].year-byId[b].year); TSTART[t]=byId[ms[0]].year; TEND[t]=ms.some(m=>MEND[m]==null)?null:Math.max(...ms.map(m=>MEND[m])); TREG[t]=byId[ms[0]].reg; }
+const W0=1640, X0=190, X1=1450, PITCH=6, HEAD=24, LANEGAP=6, PADB=6, AXH=28, SMAX=8;
+const ZL={1:1,2:1.8,3:3};
+const T0=-1500, T1=2026;
+const lg = y => Math.log((2056 - Math.min(T1,Math.max(T0,y)))/30);
+const L0 = lg(T0);
+const sx = y => X1 - (lg(y)/L0)*(X1 - X0);
+const svgNS='http://www.w3.org/2000/svg';
+const el=(tag,attrs={},parent)=>{ const e=document.createElementNS(svgNS,tag); for(const k in attrs) e.setAttribute(k,attrs[k]); if(parent) parent.appendChild(e); return e; };
+let s=0.75, tx=0, ty=AXH, nodeEls={}, linkEls=[], lifeEls=[], gB, gG, gS, gF, gL, gC, gN, gA, built=false;
+const TICKCAND=[-1500,-1000,-500,0,250,500,750,1000,1100,1200,1300,1400,1500,1600,1650,1700,1750,1800,1825,1850,1875,1900,1910,1920,1930,1940,1950,1955,1960,1965,1970,1975,1980,1985,1990,1995,2000,2005,2010,2015,2020,2025];
+// fixed geometry: each lane has a top in row units (scales with zoom) plus a constant pixel offset for headers and gaps
+let GEO=buildGeo(null);
+// fr: how open each tradition lane is (0..1); lanes open and close smoothly during time travel
+function buildGeo(fr){ let rows=0, px=0; const bands=[], lanes=[], top={};
+  LAY.bandOrder.forEach(b=>{ const ls=LAY.laneOrder[b]||[]; if(!ls.length) return; const fb=fr?Math.max(0,...ls.map(t=>fr[t]||0)):1;
+    const b0={rows,px}; if(fb<0.002){ ls.forEach(t=>top[t]={rows,px,f:0}); return; } px+=HEAD*fb;
+    ls.forEach(t=>{ const f=fr?(fr[t]||0):1; top[t]={rows,px,f}; if(f<0.002){ top[t].f=0; return; } lanes.push({t,rows,px,n:LAY.R[t]*f,f}); rows+=LAY.R[t]*f; px+=LANEGAP*f; });
+    px+=PADB*fb; bands.push({b,r0:b0.rows,p0:b0.px,r1:rows,p1:px,f:fb}); });
+  return {bands,lanes,top,rows,px}; }
+const box=()=>document.getElementById('treebox');
+const pxk=()=>Math.min(1,s);                       // headers and gaps shrink a little when zoomed far out
+const hx=()=>Math.max(s, fitW());                   // horizontal scale never drops below fit-to-width
+const fitW=()=>Math.min(1, box().clientWidth/W0);
+const fitH=()=>{ const h=box().clientHeight-AXH-10; let lo=0.05, hi=3; for(let i=0;i<30;i++){ const m=(lo+hi)/2; (GEO.rows*PITCH*m+GEO.px*Math.min(1,m)<=h)?lo=m:hi=m; } return lo; };
+const smin=()=>Math.min(fitH(), 0.75);
+const YR=(rows,px)=>ty+rows*PITCH*s+px*pxk();
+const SX=id=>sx(byId[id].year)*hx()+tx;
+const SY=id=>{ const t=GEO.top[TRAD_OF[id]]; if(!t) return -1e4; return YR(t.rows+(LAY.row[id]+0.5)*t.f,t.px); };
+const clamp01=v=>Math.max(0,Math.min(1,v));
+// how far a tier has "arrived" at the current zoom: 0 = pencil line only, 1 = full dot and name
+const arrive=t=>clamp01((s/ZL[t]-0.5)/0.3);
+
+function buildTree(){
+  const svg=document.getElementById('tree'); svg.innerHTML='';
+  gB=el('g',{},svg); gG=el('g',{class:'tgrid'},svg); gS=el('g',{},svg); gF=el('g',{},svg); gL=el('g',{},svg); gC=el('g',{class:'comets'},svg); gN=el('g',{},svg); gA=el('g',{class:'axis'},svg);
+  nodeEls={}; lifeEls=[]; linkEls=[];
+  N.forEach(n=>{
+    const e=MEND[n.id]==null?2026:MEND[n.id];
+    lifeEls.push({id:n.id,end:Math.max(e,n.year),path:el('line',{class:'life',stroke:regColor(n.reg)},gF)});
+    const g=el('g',{class:'node',tabindex:0,role:'button','aria-label':n.name,'data-id':n.id},gN);
+    el('circle',{r:5,fill:regColor(n.reg)},g);
+    const t=el('text',{x:9,y:4},g); t.textContent=n.name;
+    const tt=el('title',{},g); tt.textContent=`${n.name} · ${fmtYear(n.year)} · ${n.place}`+(NOTES[n.id]?`\n${NOTES[n.id]}`:'');
+    g.addEventListener('keydown',e=>{ if(e.key==='Enter'||e.key===' '){e.preventDefault();select(n.id);} });
+    nodeEls[n.id]=g;
+  });
+  EDGES.slice().sort((a,b)=>a[2]-b[2]).forEach(([a,b,w])=>{
+    const branch=w>=1 && TRAD_OF[a]!==TRAD_OF[b] && TRADM[TRAD_OF[b]].every(m=>byId[m].year>=byId[b].year);
+    const under=branch?el('path',{class:'branch',stroke:regColor(byId[a].reg)},gL):null;
+    linkEls.push({path:el('path',{class:'tlink '+(w>=1?'p':'s'),stroke:regColor(byId[a].reg)},gL),under,from:a,to:b,tier:Math.max(TIER[a],TIER[b])});
+  });
+  if(!built){ s=smin(); tx=0; ty=AXH; built=true; }
+  clampView(); render(); applyHighlight();
+}
+function clampView(){
+  const b=box(), cw=W0*hx(), ch=GEO.rows*PITCH*s+GEO.px*pxk();
+  // soft edges: the view may run a little past the tree, so zooming holds the point under the fingers instead of sliding to an edge.
+  // At the smallest zoom the tree snaps back to fill the view.
+  const W=b.clientWidth, H=b.clientHeight, fit=s<=smin()*1.03, mx=fit?0:W*0.3, my=fit?0:H*0.45;
+  tx = cw<=W ? (W-cw)/2 : Math.min(mx, Math.max(W-cw-mx, tx));
+  ty = ch<=H-AXH ? (fit?AXH:Math.max(AXH-ch*0.6, Math.min(H-ch*0.4, ty))) : Math.min(AXH+my, Math.max(H-ch-8-my, ty));
+}
+function setScale(ns, fx, fy){
+  ns=Math.max(smin(), Math.min(SMAX, ns));
+  // keep the point under the cursor fixed (in data terms) while zooming
+  const ox=(fx-tx)/hx(), oy=fy;
+  let anchor=null, best=1e9; for(const id in nodeEls){ const d=Math.abs(SY(id)-fy)+Math.abs(SX(id)-fx)*0.2; if(d<best){best=d;anchor=id;} }
+  const ay=anchor?SY(anchor):fy;
+  s=ns; tx=fx-ox*hx();
+  if(anchor) ty+=ay-SY(anchor);
+  clampView(); renderSoon();
+}
+// zooming and panning draw at most once per frame, and skip the soft underlays while the view is moving
+let rqR=0, busyT=0;
+function renderSoon(){ const sv=document.getElementById('tree'); if(sv){ sv.classList.add('busy'); clearTimeout(busyT); busyT=setTimeout(()=>sv.classList.remove('busy'),220); } if(!rqR) rqR=requestAnimationFrame(()=>{ rqR=0; render(); }); }
+function render(){
+  const b=box(), W=b.clientWidth, Hh=b.clientHeight, H=hx();
+  gB.innerHTML='';
+  GEO.bands.forEach((bd,i)=>{ const y=YR(bd.r0,bd.p0), h=YR(bd.r1,bd.p1)-y;
+    if(i%2===0) el('rect',{x:0,y,width:W,height:h,class:'bandrect'},gB);
+    if(h>14){ const t=el('text',{x:12,y:y+Math.min(16,h-2),class:'bandlabel',opacity:bd.f.toFixed(2)},gB); t.textContent=bandName[bd.b]; } });
+  gG.innerHTML=''; gA.innerHTML='';
+  el('rect',{x:0,y:0,width:W,height:AXH,class:'axisbg'},gA);
+  let last=-1e9;
+  TICKCAND.forEach(t=>{ const x=sx(t)*H+tx; if(x<-20||x>W+20||x-last<46) return; last=x;
+    el('line',{x1:x,x2:x,y1:AXH,y2:Hh,'stroke-dasharray':'2 4'},gG);
+    const tt=el('text',{x,y:18,'text-anchor':'middle'},gA); tt.textContent=t<0?(-t)+' BCE':(t===0?'1 CE':t); });
+  if(STV){ const x=sx(STYf)*H+tx; el('line',{x1:x,x2:x,y1:AXH,y2:Hh,class:'nowline'},gG); el('rect',{x:x-26,y:3,width:52,height:20,rx:4,class:'axisbg'},gA); const nt=el('text',{x,y:18,'text-anchor':'middle',class:'nowlabel'},gA); nt.textContent=fmtY(STY); }
+  // tradition streams
+  gS.innerHTML='';
+  GEO.lanes.forEach(ln=>{ const t=ln.t, x0=sx(TSTART[t])*H+tx-8, x1=sx(Math.min(STV?STYf:2026,TEND[t]==null?2026:TEND[t]))*H+tx+6, y=YR(ln.rows,ln.px), hh=Math.max(ln.n*PITCH*s,3);
+    el('rect',{x:x0,y:y+0.5,width:Math.max(0,x1-x0),height:Math.max(1,hh-1),rx:Math.min(8,hh/2),class:'stream',fill:regColor(TREG[t]),opacity:Math.min(1,ln.f*1.5).toFixed(2)},gS);
+    if(TRADM[t].length>1 && s>=0.45 && ln.f>0.6){ const tl=el('text',{x:x0-6,y:y+Math.min(hh/2,9*Math.max(1,s))+4,'text-anchor':'end',class:'tradlabel'},gS); tl.textContent=TRADN[t]; } });
+  // movement bars: important movements thick when zoomed out; all converge to the same weight when zoomed in
+  const k=clamp01(Math.log(s/0.3)/Math.log(3/0.3));
+  const wt={1:4.5-1.5*k, 2:1.1+1.9*k, 3:0.5+2.5*k};
+  const offY=y=>y<-30||y>Hh+30;
+  lifeEls.forEach(l=>{ if((STV&&!STV.has(l.id))||offY(SY(l.id))){ l.path.style.display='none'; return; } l.path.style.display=''; if(STV) l.path.setAttribute('stroke',stColor(l.id)); else l.path.setAttribute('stroke',regColor(byId[l.id].reg)); const y=SY(l.id).toFixed(1), t=TIER[l.id]; l.path.setAttribute('x1',SX(l.id).toFixed(1)); l.path.setAttribute('x2',(sx(STV?Math.min(l.end,Math.max(STYf,byId[l.id].year)):l.end)*H+tx).toFixed(1)); l.path.setAttribute('y1',y); l.path.setAttribute('y2',y); l.path.setAttribute('stroke-width',wt[t].toFixed(2)); l.path.style.opacity=((0.25+0.35*(t===1?1:arrive(t)))*stOp(l.id)*growth(l.id)).toFixed(2); });
+  N.forEach(n=>{ const g=nodeEls[n.id], a=arrive(TIER[n.id]);
+    const nx=SX(n.id), ny=SY(n.id);
+    if(a<=0.01||(STV&&!STV.has(n.id))||offY(ny)||nx<-300||nx>W+20){ if(g._d!=='none'){ g.style.display='none'; g._d='none'; } return; }
+    const gr=growth(n.id); if(g._d!==''){ g.style.display=''; g._d=''; } g.style.opacity=(a*stOp(n.id)*gr).toFixed(2);
+    const fill=STV?stColor(n.id):regColor(n.reg); if(g._f!==fill){ (g._c||(g._c=g.querySelector('circle'))).setAttribute('fill',fill); g._f=fill; }
+    g.classList.toggle('anc',!!(STV&&STV.get(n.id).anc));
+    g.setAttribute('transform',`translate(${nx.toFixed(1)},${ny.toFixed(1)})`+(gr<1?` scale(${(0.25+0.75*gr).toFixed(3)})`:''));
+    const fs=(11.5*Math.min(1,0.7+0.3*a)*Math.min(1,s/0.75+0.25)).toFixed(2); if(g._fs!==fs){ (g._t||(g._t=g.querySelector('text'))).setAttribute('font-size',fs); g._fs=fs; } });
+  linkEls.forEach(l=>{ const ya=SY(l.from), yb=SY(l.to); const off=(STV&&(!STV.has(l.from)||!STV.has(l.to)))||(ya<-30&&yb<-30)||(ya>Hh+30&&yb>Hh+30); l.path.style.display=off?'none':''; if(l.under) l.under.style.display=off?'none':''; if(off) return; const ax=SX(l.from), ay=SY(l.from), bx=SX(l.to), by=SY(l.to);
+    const pe=sx(MEND[l.from]==null?2026:Math.max(MEND[l.from],byId[l.from].year))*H+tx;
+    const x0=Math.max(ax, Math.min(bx-Math.min(56,Math.max(0,bx-ax)), pe)), mx=x0+(bx-x0)/2;
+    const dd=`M${x0.toFixed(1)},${ay.toFixed(1)} C${mx.toFixed(1)},${ay.toFixed(1)} ${mx.toFixed(1)},${by.toFixed(1)} ${bx.toFixed(1)},${by.toFixed(1)}`;
+    l.path.setAttribute('d',dd); if(l.under){ l.under.setAttribute('d',dd); l.under.style.opacity=STV?(0.1*growth(l.to)).toFixed(3):''; }
+    const a=(l.tier===1?1:Math.max(0.25,arrive(l.tier)))*growth(l.to); l.path.style.opacity=l.path.classList.contains('hot')||l.path.classList.contains('wl')?(STV?growth(l.to).toFixed(2):''):(a*(l.path.classList.contains('p')?0.5:0.35)).toFixed(2); });
+  // comets: a parent's influence travels along the link and lands as the new movement is born
+  gC.innerHTML='';
+  if(STV) linkEls.forEach(l=>{ const c=byId[l.to], du=U(c.year)-stU; if(du<=0||du>COMET_DU||!STV.has(l.from)||!placeKnown(l.to,c.year)) return;
+    const q=1-du/COMET_DU, ax=SX(l.from), ay=SY(l.from), bx=SX(l.to), by=SY(l.to);
+    const pe=sx(Math.min(STYf,MEND[l.from]==null?2026:Math.max(MEND[l.from],byId[l.from].year)))*H+tx;
+    const x0=Math.max(ax, Math.min(bx-Math.min(56,Math.max(0,bx-ax)), pe)), mx=x0+(bx-x0)/2;
+    const P=t=>{ const u=1-t; return [u*u*u*x0+3*u*u*t*mx+3*u*t*t*mx+t*t*t*bx, u*u*u*ay+3*u*u*t*ay+3*u*t*t*by+t*t*t*by]; };
+    const col=RCC[byId[l.from].reg]||regColor(byId[l.from].reg), prim=l.path.classList.contains('p');
+    el('path',{d:`M${x0.toFixed(1)},${ay.toFixed(1)} C${mx.toFixed(1)},${ay.toFixed(1)} ${mx.toFixed(1)},${by.toFixed(1)} ${bx.toFixed(1)},${by.toFixed(1)}`,class:'cometpath',stroke:col,opacity:(0.08+0.22*q).toFixed(2)},gC);
+    const tail=[]; for(let i=0;i<=10;i++) tail.push(P(Math.max(0,q-0.22*(1-i/10))));
+    el('polyline',{points:tail.map(p=>p[0].toFixed(1)+','+p[1].toFixed(1)).join(' '),class:'comettail',stroke:col,'stroke-width':prim?2.6:1.6},gC);
+    const [hx_,hy_]=P(q); el('circle',{cx:hx_.toFixed(1),cy:hy_.toFixed(1),r:prim?8:5,fill:col,opacity:.22},gC); el('circle',{cx:hx_.toFixed(1),cy:hy_.toFixed(1),r:prim?3.4:2.4,fill:col},gC); });
+  const pool=STV?N.filter(n=>STV.has(n.id)):N, vis=pool.filter(n=>arrive(TIER[n.id])>0.5).length;
+  document.getElementById('zlevel').textContent=`${vis} of ${pool.length} named`+(vis<pool.length?' · zoom in for more':'');
+}
+function applyHighlight(){
+  let keep=null, hot=null;
+  if(selected){
+    const {anc,des}=lineage(selected);
+    const up=new Set([selected,...anc]), down=new Set([selected,...des]);
+    keep=new Set([...up,...down]);
+    hot=l=>(up.has(l.from)&&up.has(l.to))||(down.has(l.from)&&down.has(l.to));
+  } else if(regFocus){
+    keep=new Set(N.filter(n=>n.reg===regFocus).map(n=>n.id));
+    hot=l=>keep.has(l.from)||keep.has(l.to);
+  }
+  const touched=new Set();
+  if(regFocus && !selected) linkEls.forEach(l=>{ if(hot(l)){ touched.add(l.from); touched.add(l.to);} });
+  for(const id in nodeEls){ nodeEls[id].classList.toggle('dim', !!keep && !keep.has(id) && !touched.has(id)); nodeEls[id].classList.toggle('sel', id===selected); }
+  const wl=new Set(); if(WL) for(let i=1;i<WL.length;i++) wl.add(WL[i-1]+'>'+WL[i]);
+  linkEls.forEach(l=>{ l.path.classList.toggle('wl',wl.has(l.from+'>'+l.to)); const h=hot?hot(l):false; l.path.classList.toggle('hot',h); l.path.classList.toggle('dim',!!hot&&!h); if(l.under) l.under.classList.toggle('dim',!!hot&&!h); });
+  lifeEls.forEach(l=>{ const on=!keep||keep.has(l.id)||touched.has(l.id); l.path.classList.toggle('dim',!on); l.path.classList.toggle('hot',!!keep&&keep.has(l.id)); });
+  if(gN) render();
+}
+function focusTree(id){
+  const b=box(); if(!b.clientWidth) return;
+  const need=ZL[TIER[id]];
+  if(s<need) setScale(need, b.clientWidth/2, b.clientHeight/2);
+  const x=SX(id), y=SY(id);
+  if(x<40||x>b.clientWidth-200||y<AXH+20||y>b.clientHeight-30){ tx+=b.clientWidth/2-x; ty+=b.clientHeight/2-y; clampView(); render(); }
+}
+let dragMoved=false;
+(function(){
+  const b=document.getElementById('treebox'); const pts=new Map(); let start=null, pinch=null;
+  b.addEventListener('wheel',e=>{ e.preventDefault(); const r=b.getBoundingClientRect();
+    const k=Math.exp(-e.deltaY*(e.ctrlKey?0.012:0.0018)); setScale(s*k, e.clientX-r.left, e.clientY-r.top); },{passive:false});
+  let downNode=null, downBar=false;
+  b.addEventListener('pointerdown',e=>{ downBar=!!e.target.closest('.zoombar'); if(downBar) return; pts.set(e.pointerId,{x:e.clientX,y:e.clientY});
+    const nd=e.target.closest('.node'); downNode=nd?nd.dataset.id:null; if(nd) e.preventDefault();
+    dragMoved=false; start={x:e.clientX,y:e.clientY,tx,ty};
+    if(pts.size===2){ const [p,q]=[...pts.values()]; pinch={d:Math.hypot(p.x-q.x,p.y-q.y),s}; } });
+  b.addEventListener('pointermove',e=>{ if(!pts.has(e.pointerId)) return; pts.set(e.pointerId,{x:e.clientX,y:e.clientY});
+    const r=b.getBoundingClientRect();
+    if(pts.size===2&&pinch){ const [p,q]=[...pts.values()]; const d=Math.hypot(p.x-q.x,p.y-q.y); dragMoved=true; setScale(pinch.s*d/pinch.d,(p.x+q.x)/2-r.left,(p.y+q.y)/2-r.top); return; }
+    if(!start) return; const dx=e.clientX-start.x, dy=e.clientY-start.y;
+    if(!dragMoved && Math.abs(dx)+Math.abs(dy)>4){ dragMoved=true; try{ b.setPointerCapture(e.pointerId); }catch(_){} }
+    if(dragMoved){ tx=start.tx+dx; ty=start.ty+dy; clampView(); renderSoon(); } });
+  const end=e=>{ pts.delete(e.pointerId); if(pts.size<2) pinch=null; if(!pts.size){ start=null; } else if(pts.size===1){ const p=[...pts.values()][0]; start={x:p.x,y:p.y,tx,ty}; } };
+  b.addEventListener('pointerup',e=>{ const wasDrag=dragMoved, was=start; end(e); if(downBar||!was) return;
+    if(!wasDrag){ if(downNode) select(downNode); else if(selected) select(null); }
+    setTimeout(()=>dragMoved=false,0); });
+  b.addEventListener('pointercancel',end);
+  b.addEventListener('dblclick',e=>{ if(e.target.closest('.zoombar')) return; const r=b.getBoundingClientRect(); setScale(s*1.8,e.clientX-r.left,e.clientY-r.top); });
+  document.getElementById('zin').onclick=()=>setScale(s*1.5,b.clientWidth/2,b.clientHeight/2);
+  document.getElementById('zout').onclick=()=>setScale(s/1.5,b.clientWidth/2,b.clientHeight/2);
+  document.getElementById('zfit').onclick=()=>{ s=smin(); tx=0; ty=AXH; clampView(); render(); };
+  window.addEventListener('resize',()=>{ if(!document.getElementById('view-tree').hidden){ s=Math.max(s,smin()); clampView(); render(); } });
+})();
+
+/* ---------- list ---------- */
+const DEFS=DATA.defs;
+function trackLi(t){ return `<li><span>${esc(t[0])} — “${esc(t[1])}” <span class="mono">${t[2]}</span></span> ${lkBtn(t[0],t[1])}</li>`; }
+function goLink(id){ return `<a href="#list" data-go="${id}">${esc(byId[id].name)}</a>`; }
+function listItem(id){
+  const n=byId[id], d=DEFS[id];
+  const par=n.parents.length?n.parents.map((p,k)=>k===0?`<b>${goLink(p)}</b>`:goLink(p)).join(', '):'a root tradition';
+  const kids=n.children.length?n.children.map(goLink).join(', '):'';
+  const hay=(n.name+' '+n.place+' '+(d?d.fits.map(f=>f[0]+' '+f[1]).join(' '):'')).toLowerCase();
+  return `<details class="gitem${d?' def':''}" id="g-${id}" data-id="${id}" data-hay="${esc(hay)}">
+  <summary><i style="background:${regColor(n.reg)}"></i><span class="gname">${esc(n.name)}</span><span class="gmeta">${d?esc(d.window):fmtYear(n.year)} · ${esc(n.place)}</span>${d?'':'<span class="todo">pending</span>'}</summary>
+  <div class="gbody">
+    <p class="gpar">From ${par}${kids?` · Leads to ${kids}`:''}</p>
+    ${d?`<p class="gsound">${esc(d.sound)}</p>
+    <div class="gcols"><div><p class="label">Listen for</p><ul>${d.markers.map(m=>`<li>${esc(m)}</li>`).join('')}</ul></div>
+    <div><p class="label">Fits</p><ul class="tracks">${d.fits.map(trackLi).join('')}</ul></div></div>
+    ${d.near.length?`<p class="label">Close, but belongs elsewhere</p><ul class="near">${d.near.map(x=>`<li>${esc(x[0])} — “${esc(x[1])}” <span class="mono">${x[2]}</span> → ${goLink(x[3])}. ${esc(x[4])}</li>`).join('')}</ul>`:''}`
+    :'<p class="fine">Pending: listed by name and placed on the tree, the map and the timeline. Its definition, reference tracks and playlist are still to come.</p>'}
+    ${lookupLine(n.name,`${n.name} music ${n.place}`,`${n.name} music`)}
+    ${playlistBlock(id)}
+  </div></details>`;
+}
+// list scope: what the list shows; 'family' = the selected genre, its parents and its children
+let listScope='all';
+function buildList(){
+  const body=document.getElementById('listbody');
+  body.innerHTML=LAY.bandOrder.map(b=>{ const ts=LAY.laneOrder[b]||[]; if(!ts.length) return '';
+    return `<details class="lgroup" data-band="${b}"><summary><h3>${esc(bandName[b])} <span class="cnt"></span></h3></summary>`+ts.map(t=>{ const ids=TRADM[t].slice().sort((x,y)=>byId[x].year-byId[y].year);
+      return `<div class="ltrad">${ids.length>1?`<h4>${esc(TRADN[t])} <span class="tspan">${fmtYear(TSTART[t])} – ${TEND[t]==null?'today':TEND[t]}</span></h4>`:''}${ids.map(listItem).join('')}</div>`; }).join('')+'</details>'; }).join('');
+  body.querySelectorAll('.plcopy').forEach(b=>b.onclick=()=>{ const t=promptFor(b.dataset.id); copyText(b,t,b.previousElementSibling); logCopy('genre',{id:b.dataset.id,lang:useLang(langOfMovement(b.dataset.id))||'en',prompt:t}); });
+  body.querySelectorAll('a[data-go]').forEach(a=>a.onclick=e=>{ e.preventDefault(); const id=a.dataset.go; select(id); if(listScope!=='all') filterList(); goTo(id); });
+  body.querySelectorAll('details.gitem').forEach(d=>d.addEventListener('toggle',()=>{ if(d.open && selected!==d.dataset.id) select(d.dataset.id); }));
+  filterList();
+}
+function scopeSet(){
+  if(!selected || listScope==='all') return null;
+  const n=byId[selected];
+  if(listScope==='one') return new Set([selected]);
+  if(listScope==='family') return new Set([selected,...n.parents,...n.children]);
+  const {anc,des}=lineage(selected); return new Set([selected,...anc,...des]);
+}
+let wasFiltered=false;
+function filterList(){
+  const q=document.getElementById('lfilter').value.trim().toLowerCase(), sc=scopeSet();
+  const fa=fActive(), filtered=!!(q||sc||fa);
+  let total=0;
+  document.querySelectorAll('#listbody .lgroup').forEach(g=>{ let c=0;
+    g.querySelectorAll('.gitem').forEach(it=>{ const id=it.dataset.id;
+      const ok=(!q||it.dataset.hay.includes(q))&&(!sc||sc.has(id))&&(!fa||inF(id)); it.hidden=!ok; if(ok) c++; });
+    g.querySelectorAll('.ltrad').forEach(t=>{ t.hidden=![...t.querySelectorAll('.gitem')].some(i=>!i.hidden); });
+    g.hidden=!c; g.querySelector('.cnt').textContent=c; if(filtered) g.open=c>0; else if(wasFiltered) g.open=false; total+=c; });
+  wasFiltered=filtered;
+  document.querySelectorAll('#lscope button').forEach(b=>{ b.setAttribute('aria-pressed',String(b.dataset.scope===listScope)); b.disabled=b.dataset.scope!=='all'&&!selected; });
+  const parts=[];
+  if(sc) parts.push(`${{one:'only',family:'family of',lineage:'full lineage of'}[listScope]} ${byId[selected].name}`);
+  if(fa) parts.push('the filters above ('+document.getElementById('stwhere').textContent.replace(/^ · /,'')+')');
+  if(q) parts.push(`matching “${q}”`);
+  document.getElementById('lcount').textContent = filtered ? `Showing ${total} of ${N.length} movements · ${parts.join(' · ')}` : `${N.length} movements in ${Object.keys(TRADM).length} traditions. Open an area to browse; reference tracks are a first pass, not a verified canon.`;
+}
+function setScope(sc){ listScope=sc; filterList(); if(selected && sc!=='all') goTo(selected); }
+function goTo(id){
+  const it=document.getElementById('g-'+id); if(!it) return;
+  if(it.hidden){ document.getElementById('lfilter').value=''; filterList(); }
+  if(it.hidden&&fActive()&&!inF(id)){ resetFilters('all'); }
+  if(it.hidden){ listScope='all'; filterList(); }
+  const g=it.closest('.lgroup'); if(g) g.open=true;
+  it.open=true; it.scrollIntoView({block:'center',behavior:'smooth'}); it.classList.add('flash'); setTimeout(()=>it.classList.remove('flash'),1200);
+}
+
+/* ---------- journey: a suggested listening order with Spotify prompts ---------- */
+const SC=DATA.scores, KNOWN=new Set(DATA.known), INDOC=new Set(DATA.indoc);
+const PROMPT_A="Please make me a playlist that takes me back in time to relive [GENRE] at its peak. You're the time machine, carrying me on a one way voyage forward through time. Ease me in with a few early tracks that set my feet in the era. Then drop me into the years when the sound owned the room and keep me there: the era is the trip, so fill it with the music that truly defined it, the songs people danced to, drove to and fell in love to back then, in the original recordings when possible. Only at the very end, bring me home the way a dream fades into morning, with a last glimpse or two of the present: well-known later songs that are the genre at heart, the hits that revived it, or famous modern tracks that sample or nod to it. Obscure new songs don't count; they would land me in an alternate present, not mine. If none truly fit, let the era have the last word. Below are intro and peak tracks to set out from. Play as many of them as feel right, but they are only the first steps: fill the rest of the voyage with everything else that belongs, and make it as long a trip as you can. Play everything in the order it happened, each song flowing into the next so I never feel the jump between years.";
+const PROMPT_B="Please make me a playlist that immerses me in [GENRE]. This music lived long before recording, so take me there through the finest performances and field recordings of today: the pieces and performers its own masters and listeners would call essential, not fusions or modern remakes. Open with something welcoming that sets the scene, then go deep into the heart of the tradition and stay there, letting the music unfold at its own pace. Mix the defining works with a few that show its range. Below are recordings to set out from. Play as many of them as feel right, then go well beyond them and let me stay as long as you can. Order everything so each piece flows into the next and nothing jars.";
+const usesB=id=>byId[id].year<1890;
+const PL=DATA.playlists||{};
+/* ---------- song and artist names: as listed, original script only, or romanized only ---------- */
+// lists hold a name either in one form or as "original script (romanized or international name)"; the switch picks which form goes into a prompt
+let NMODE='both'; try{ const v=localStorage.getItem('wmft-names'); if(v==='orig'||v==='rom') NMODE=v; }catch(e){}
+const LATINISH=/^[\p{Script=Latin}\p{N}\p{P}\p{Z}\p{S}]*$/u;
+function nameForms(x){ x=String(x); const m=/^(.*?)\s*\(([^()]+)\)\s*$/.exec(x);
+  if(m){ const a=m[1].trim(), b=m[2].trim(), al=LATINISH.test(a), bl=LATINISH.test(b); if(a&&b){ if(!al&&bl) return {orig:a,rom:b,two:true}; if(al&&!bl) return {orig:b,rom:a,two:true}; } }
+  return {orig:x,rom:x,two:false}; }
+const nm=x=>{ if(NMODE==='both') return x; const f=nameForms(x); return NMODE==='orig'?f.orig:f.rom; };
+const hasTwoForms=xs=>xs.some(x=>nameForms(x[0]).two||nameForms(x[1]).two);
+function namesToggle(show){ if(!show) return ''; const b=(k,l,t)=>`<button type="button" data-nm="${k}" aria-pressed="${NMODE===k}" title="${t}">${l}</button>`;
+  return ` <span class="plang" role="group" aria-label="Song names">${b('both','Both names','Each name as listed: original script with the romanized name in brackets')}${b('orig','Original script','Only the name in its own script, as most streaming services list it')}${b('rom','Romanized','Only the romanized or international name')}</span>`; }
+function setNmode(v){ NMODE=v==='orig'||v==='rom'?v:'both'; try{ localStorage.setItem('wmft-names',NMODE); }catch(e){} refreshPromptBoxes(); stPanelUpdate(); }
+document.addEventListener('click',e=>{ const b=e.target.closest&&e.target.closest('[data-nm]'); if(!b) return; e.preventDefault(); setNmode(b.dataset.nm); });
+const plLine=(k,xs)=>xs.length?`${k}: `+xs.map(x=>`${nm(x[0])} - ${nm(x[1])}`).join('; '):'';
+function promptFor(id){
+  const n=byId[id], d=DEFS[id], B=usesB(id), pl=PL[id], code=useLang(langOfMovement(id)), T=code?LT(code):null;
+  const tpl=B?(T?T.genreB:PROMPT_B):(T?T.genreA:PROMPT_A), lab=k=>T?T.labels[k]:({intro:'Intro',peak:'Peak',recordings:'Recordings'})[k];
+  const win=windowIn(code,d.window);
+  let head=tpl.replace('[GENRE]',`${n.name} (${n.place}, ${win})`);
+  if(pl && (pl.intro.length+pl.peak.length)>=4){
+    let peak=pl.peak.slice(), intro=pl.intro.slice(), t;
+    const build=()=>head+'\n\n'+[plLine(lab('intro'),intro),plLine(lab('peak'),peak)].filter(Boolean).join('\n');
+    if(build().length>2000) head=tpl.replace('[GENRE]',`${n.name} (${win})`); // drop the place before any track
+    t=build(); while(t.length>2000&&(peak.length>2||intro.length>1)){ if(peak.length>2) peak.pop(); else intro.pop(); t=build(); }
+    return t;
+  }
+  let t=head+(code&&d.fits.length?'':`\n\nSound: ${d.sound}`);
+  if(d.fits.length) t+=`${code?'\n\n':'\n'}${B?lab('recordings'):lab('peak')}: `+d.fits.map(f=>`${f[0]} - ${f[1]}`).join('; ');
+  return t;
+}
+const plStatus=id=>(PL[id]&&PL[id].status)||'thin';
+const ST={full:'Full playlist',thin:'Thin: few recordings',none:'No playlist: listen to albums'};
+function playlistBlock(id){
+  const pl=PL[id]; if(!pl) return '';
+  const li=xs=>xs.map(x=>`<li><span>${esc(x[0])} — ${esc(x[1])}</span> ${lkBtn(x[0],x[1])}</li>`).join('');
+  const n=(pl.intro.length+pl.peak.length);
+  const txt=promptFor(id);
+  return `<details class="pl pl-${pl.status}"><summary><span class="label">Playlist</span><span class="plst">${ST[pl.status]}</span>${n?`<span class="gmeta">${n} tracks</span>`:''}</summary>
+    <div class="plbody">
+    ${pl.note?`<p class="fine">${esc(pl.note)}</p>`:''}
+    ${pl.intro.length?`<div><p class="label">Intro</p><ol>${li(pl.intro)}</ol></div>`:''}
+    ${pl.peak.length?`<div><p class="label">Peak</p><ol>${li(pl.peak)}</ol></div>`:''}
+    ${pl.albums&&pl.albums.length?`<div><p class="label">Albums to listen to instead</p><ul>${pl.albums.map(a=>`<li><span>${esc(a[0])} — <i>${esc(a[1])}</i></span> ${lkBtn(a[0],a[1])}</li>`).join('')}</ul></div>`:''}
+    ${pl.fold&&byId[pl.fold]?`<p class="fine">For a playable mix of this sound, use the playlist for ${goLink(pl.fold)}.</p>`:''}
+    ${pl.status!=='none'?`<div><p class="label">Copy-ready Spotify prompt <span class="mono"><span data-pidlen="${id}">${txt.length}</span> characters</span> ${plangToggle(langOfMovement(id))}${namesToggle(hasTwoForms([...pl.intro,...pl.peak]))}</p><textarea readonly rows="7" data-pid="${id}">${esc(txt)}</textarea><button class="lbtn plcopy" type="button" data-id="${id}">Copy prompt</button></div>`:''}
+    </div></details>`;
+}
+function copyText(btn,t,ta){ const ok=()=>{ const o=btn.textContent; btn.textContent='Copied'; setTimeout(()=>btn.textContent=o,1400); };
+  const fb=()=>{ if(ta){ ta.focus(); ta.select(); } btn.textContent='Selected: press Ctrl/Cmd+C'; };
+  try{ navigator.clipboard.writeText(t).then(ok,fb); }catch(_){ fb(); } }
+const phaseOf=id=>{ const n=byId[id]; if(n.year<1920) return 'past'; return (n.reg==='nam'||n.reg==='eur')?'home':'abroad'; };
+const PH={home:'Home',abroad:'Abroad',past:'Back in time'};
+let JW={S:7,A:5,F:3,I:5}, JOPT={knownLast:true,roots:true,hideDone:false};
+let DONE=new Set(DATA.done);
+try{ const s=JSON.parse(localStorage.getItem('wmft-journey')||'null'); if(s){ if(s.done) DONE=new Set(s.done); if(s.w) JW=s.w; if(s.o) JOPT={...JOPT,...s.o}; } }catch(e){}
+const saveJ=()=>{ try{ localStorage.setItem('wmft-journey',JSON.stringify({done:[...DONE],w:JW,o:JOPT})); }catch(e){} };
+// Greedy ordering: significance-led, rotating home -> abroad -> back in time, with breadth and an ear-fatigue guard
+function journeyOrder(){
+  const ws=JW.S+JW.A+JW.F+JW.I||1;
+  const base=id=>{ const [S,A,F,I]=SC[id]; return (JW.S*S+JW.A*A+JW.F*F+JW.I*I)/ws; };
+  const rem=new Set(N.map(n=>n.id)); const seq=[]; const cyc=['home','abroad','past']; let load=1.5;
+  const lastBands=[], lastRegs=[];
+  while(rem.size){
+    const phase=cyc[seq.length%3]; let best=null, bv=-1e9;
+    for(const id of rem){
+      const n=byId[id], A=SC[id][1], diff=6-A; let v=base(id);
+      if(phaseOf(id)===phase) v+=1.3;
+      const bc=lastBands.slice(-6).filter(b=>b===n.band).length; v+= bc? -0.55*bc : 0.4;
+      const rc=lastRegs.slice(-6).filter(r=>r===n.reg).length; v+= rc? -0.45*rc : 0.3;   // spread regions, not just bands
+      if(JOPT.knownLast && KNOWN.has(id)) v-=1.6;
+      if(load+0.45*(diff-load)>3.1 && A<=3) v-=2.2;        // ears tired: hold back hard listening
+      if(JOPT.roots){ const p=n.parents[0]; if(p && rem.has(p) && base(p)>=base(id)-0.6) v-=0.5; }
+      if(v>bv){ bv=v; best=id; }
+    }
+    seq.push(best); rem.delete(best); load=load+0.45*((6-SC[best][1])-load);
+    lastBands.push(byId[best].band); lastRegs.push(byId[best].reg);
+  }
+  return seq;
+}
+function bars(id){ const [S,A,F,I]=SC[id]; const b=(l,v,t)=>`<span class="jb" title="${t}: ${v}/5"><em>${l}</em><span class="trk"><i style="width:${v*20}%"></i></span></span>`;
+  return b('Sig',S,'Significance')+b('Ease',A,'Ease of listening')+b('Known',F,'How well known')+b('Intr',I,'Intrigue'); }
+function renderJourney(){
+  const seq=journeyOrder(), box=document.getElementById('jlist');
+  const next=seq.find(id=>!DONE.has(id));
+  let i=0;
+  box.innerHTML=seq.map(id=>{ i++; const n=byId[id], done=DONE.has(id); if(JOPT.hideDone&&done) return '';
+    const tags=[`<span class="jt ph-${phaseOf(id)}">${PH[phaseOf(id)]}</span>`, KNOWN.has(id)?'<span class="jt">Familiar</span>':'', INDOC.has(id)?'<span class="jt" title="A longer hand-picked list for this one is in the Genre playlists doc">In doc</span>':'', usesB(id)?'<span class="jt" title="Uses the tradition prompt, not the time-machine prompt">Tradition prompt</span>':'', plStatus(id)==='none'?'<span class="jt jt-none" title="No real playlist: listen to the albums in its List entry">Album listen</span>':(plStatus(id)==='thin'?'<span class="jt" title="Few recordings on streaming; the list is short">Thin</span>':'')].join('');
+    return `<details class="jrow${done?' done':''}${id===next?' next':''}" data-id="${id}"><summary>
+      <span class="jn mono">${i}</span><input type="checkbox" class="jdone" ${done?'checked':''} aria-label="Mark ${esc(n.name)} as listened">
+      <i class="jdot" style="background:${regColor(n.reg)}"></i><span class="jname">${esc(n.name)}</span><span class="jmeta">${esc(DEFS[id].window)} · ${esc(n.place)}</span>
+      <span class="jtags">${tags}</span><span class="jbars">${bars(id)}</span>
+      ${plStatus(id)==='none'?'<button class="jcopy" type="button" data-albums="1">See albums</button>':'<button class="jcopy" type="button">Copy prompt</button>'}</summary>
+      <div class="jbody"><div>${plangToggle(langOfMovement(id))}${namesToggle(!!PL[id]&&hasTwoForms([...PL[id].intro,...PL[id].peak]))}</div><textarea readonly rows="9" data-pid="${id}">${esc(promptFor(id))}</textarea>
+      <p class="fine"><span class="mono" data-pidlen="${id}">${promptFor(id).length}</span> characters (Spotify's limit is 2,000) · <a href="#tree" data-jgo="${id}">Show in tree</a> · <a href="#list" data-jlist="${id}">Show definition</a></p></div></details>`; }).join('');
+  const doneN=seq.filter(id=>DONE.has(id)).length;
+  document.getElementById('jprog').innerHTML=`<b>${doneN}</b> of ${seq.length} listened`+(next?` · next up: <a href="#journey" data-jnext="${next}">${esc(byId[next].name)}</a>`:'');
+  box.querySelectorAll('.jrow').forEach(r=>{ const id=r.dataset.id;
+    r.querySelector('.jdone').addEventListener('click',e=>{ e.stopPropagation(); e.target.checked?DONE.add(id):DONE.delete(id); saveJ(); renderJourney(); });
+    r.querySelector('.jcopy').addEventListener('click',e=>{ e.preventDefault(); e.stopPropagation(); if(e.target.dataset.albums){ select(id); location.hash='list'; setTimeout(()=>{ const pl=document.querySelector(`#g-${id} .pl`); if(pl) pl.open=true; },300); return; } const t=promptFor(id), btn=e.target;
+      const ok=()=>{ btn.textContent='Copied'; setTimeout(()=>btn.textContent='Copy prompt',1400); };
+      const fallback=()=>{ r.open=true; const ta=r.querySelector('textarea'); ta.focus(); ta.select(); btn.textContent='Selected: press Ctrl/Cmd+C'; };
+      try{ navigator.clipboard.writeText(t).then(ok,fallback); }catch(_){ fallback(); } });
+    r.querySelectorAll('a[data-jgo]').forEach(a=>a.onclick=e=>{ e.preventDefault(); select(id); location.hash='tree'; });
+    r.querySelectorAll('a[data-jlist]').forEach(a=>a.onclick=e=>{ e.preventDefault(); select(id); location.hash='list'; });
+  });
+  const nx=document.querySelector('[data-jnext]'); if(nx) nx.onclick=e=>{ e.preventDefault(); const r=box.querySelector(`.jrow[data-id="${nx.dataset.jnext}"]`); if(r){ r.open=true; r.scrollIntoView({block:'center',behavior:'smooth'}); } };
+}
+function buildJourneyControls(){
+  const c=document.getElementById('jctl');
+  const lab={S:'Significance',A:'Easy listening',F:'Well known',I:'Intrigue'};
+  c.innerHTML=Object.keys(lab).map(k=>`<label class="jw">${lab[k]}<input type="range" min="0" max="10" step="1" value="${JW[k]}" data-w="${k}"><span class="mono">${JW[k]}</span></label>`).join('')+
+    `<label class="jo"><input type="checkbox" data-o="knownLast" ${JOPT.knownLast?'checked':''}> Genres I already know go last</label>`+
+    `<label class="jo"><input type="checkbox" data-o="roots" ${JOPT.roots?'checked':''}> Roots before branches</label>`+
+    `<label class="jo"><input type="checkbox" data-o="hideDone" ${JOPT.hideDone?'checked':''}> Hide listened</label>`+
+    `<button class="lbtn" id="jreset" type="button">Reset weights</button>`;
+  c.querySelectorAll('input[data-w]').forEach(r=>r.oninput=()=>{ JW[r.dataset.w]=+r.value; r.nextElementSibling.textContent=r.value; saveJ(); renderJourney(); });
+  c.querySelectorAll('input[data-o]').forEach(r=>r.onchange=()=>{ JOPT[r.dataset.o]=r.checked; saveJ(); renderJourney(); });
+  document.getElementById('jreset').onclick=()=>{ JW={S:7,A:5,F:3,I:5}; saveJ(); buildJourneyControls(); renderJourney(); };
+}
+
+/* ---------- map: own canvas renderer, flat (Miller) or globe (orthographic). Click a country or city to travel there ---------- */
+const toRad=Math.PI/180;
+const ISO=DATA.iso, NE_ALIAS=DATA.neAlias, CITIES=DATA.cities||[];
+const ISO_BY_NAME={}; for(const k in ISO) ISO_BY_NAME[ISO[k][0]]=k;
+const isoOf=name=>NE_ALIAS[name]||ISO_BY_NAME[name]||null;
+const isoName=iso=>ISO[iso]?ISO[iso][0]:iso, isoReg=iso=>ISO[iso]?ISO[iso][1]:null;
+// unit vectors and great circles
+const vec=(lon,lat)=>[Math.cos(lat*toRad)*Math.cos(lon*toRad),Math.cos(lat*toRad)*Math.sin(lon*toRad),Math.sin(lat*toRad)];
+const unvec=v=>[Math.atan2(v[1],v[0])/toRad, Math.atan2(v[2],Math.hypot(v[0],v[1]))/toRad];
+function gcPoints(a,b,n=48){ const v1=vec(a[0],a[1]), v2=vec(b[0],b[1]); const d=Math.acos(Math.max(-1,Math.min(1,v1[0]*v2[0]+v1[1]*v2[1]+v1[2]*v2[2])));
+  if(d<1e-6) return [a,b]; const out=[]; for(let i=0;i<=n;i++){ const t=i/n, s1=Math.sin((1-t)*d)/Math.sin(d), s2=Math.sin(t*d)/Math.sin(d); out.push(unvec([s1*v1[0]+s2*v2[0],s1*v1[1]+s2*v2[1],s1*v1[2]+s2*v2[2]])); } return out; }
+const gcDist=(a,b)=>{ const v1=vec(a[0],a[1]), v2=vec(b[0],b[1]); return Math.acos(Math.max(-1,Math.min(1,v1[0]*v2[0]+v1[1]*v2[1]+v1[2]*v2[2]))); };
+
+// world geometry from the ECharts world map file (loaded from the CDN), decoded once
+let COUNTRIES=null, LAND=null;
+function decodeWorld(){
+  try{
+    const m=window.echarts&&echarts.getMap&&echarts.getMap('world'); const gj=m&&(m.geoJson||m.geoJSON); if(!gj||!gj.features) return null;
+    const scale=gj.UTF8Scale==null?1024:gj.UTF8Scale;
+    const dec=(ring,off)=>{ if(typeof ring!=='string') return ring; const r=[]; let px=off?off[0]:0, py=off?off[1]:0;
+      for(let i=0;i<ring.length;i+=2){ let x=ring.charCodeAt(i)-64, y=ring.charCodeAt(i+1)-64; x=(x>>1)^(-(x&1)); y=(y>>1)^(-(y&1)); x+=px; y+=py; px=x; py=y; r.push([x/scale,y/scale]); } return r; };
+    const okRing=r=>Array.isArray(r)&&r.length>2&&r.every(p=>Array.isArray(p)&&isFinite(p[0])&&isFinite(p[1]));
+    return gj.features.map(f=>{ try{ const g=f.geometry; if(!g||!g.coordinates) return null; const eo=g.encodeOffsets, polys=[];
+      const add=rings=>{ const rs=(rings||[]).filter(okRing); if(rs.length) polys.push(rs); };
+      if(g.type==='Polygon') add(g.coordinates.map((r,i)=>dec(r,eo&&eo[i])));
+      else if(g.type==='MultiPolygon') g.coordinates.forEach((p,i)=>add((p||[]).map((r,j)=>dec(r,eo&&eo[i]&&eo[i][j]))));
+      if(!polys.length) return null;
+      const name=(f.properties&&f.properties.name)||''; const bb=[180,90,-180,-90]; let big=null, bigA=-1;
+      polys.forEach(p=>{ let a=0; p[0].forEach(([x,y],i)=>{ bb[0]=Math.min(bb[0],x); bb[1]=Math.min(bb[1],y); bb[2]=Math.max(bb[2],x); bb[3]=Math.max(bb[3],y); const q=p[0][(i+1)%p[0].length]; a+=x*q[1]-q[0]*y; }); if(Math.abs(a)>bigA){ bigA=Math.abs(a); big=p[0]; } });
+      let cx=0, cy=0; if(big){ big.forEach(([x,y])=>{ cx+=x; cy+=y; }); cx/=big.length; cy/=big.length; }
+      return {name, iso:isoOf(name), polys, bb, c:[cx,cy]}; }catch(e){ return null; } }).filter(c=>c&&c.polys.length&&c.name&&c.name!=='Antarctica');
+  }catch(e){ console.warn('map outline failed to decode',e); return null; }
+}
+function inRing(pt,ring){ let inside=false; for(let i=0,j=ring.length-1;i<ring.length;j=i++){ const [xi,yi]=ring[i],[xj,yj]=ring[j]; if(((yi>pt[1])!==(yj>pt[1]))&&(pt[0]<(xj-xi)*(pt[1]-yi)/(yj-yi)+xi)) inside=!inside; } return inside; }
+function countryAt(ll){ if(!COUNTRIES) return null; for(const c of COUNTRIES){ if(ll[0]<c.bb[0]||ll[0]>c.bb[2]||ll[1]<c.bb[1]||ll[1]>c.bb[3]) continue;
+  for(const p of c.polys){ if(inRing(ll,p[0])&&!p.slice(1).some(h=>inRing(ll,h))) return c; } } return null; }
+const onLand=ll=>!COUNTRIES||!!countryAt(ll);
+
+// view state. flat: centre (radians lon, Miller y) and zoom k (1 = world fills the width). globe: centre lon/lat and zoom gk
+const MILLER=lat=>1.25*Math.log(Math.tan(Math.PI/4+0.4*Math.max(-89,Math.min(89,lat))*toRad));
+const IMILLER=y=>(Math.atan(Math.exp(y/1.25))-Math.PI/4)/0.4/toRad;
+const MY0=MILLER(-57), MY1=MILLER(83), MWID=2*Math.PI, MHGT=MY1-MY0;
+let MV={proj:'flat', cx:0.15, cy:MILLER(25), k:1, glon:15, glat:25, gk:1}, MW=0, MH=0, mapAnim=null, mapHover=null, MAPHITS=[], mapRAF=0, mapUser=0;
+const mcv=()=>document.getElementById('mapcv');
+function mapResize(){ const cv=mcv(); if(!cv) return; const box=document.getElementById('map'); const W=box.clientWidth;
+  const H=Math.round(Math.max(200,document.getElementById('view-map').clientHeight||window.innerHeight*0.6)); box.style.height=H+'px';
+  const dpr=Math.min(2,window.devicePixelRatio||1); cv.width=Math.round(W*dpr); cv.height=Math.round(H*dpr); MW=W; MH=H; clampMap(); }
+const base=()=>MW/MWID;
+function project(lon,lat){
+  if(MV.proj==='flat'){ let dl=lon*toRad-MV.cx; return [MW/2+dl*base()*MV.k, MH/2-(MILLER(lat)-MV.cy)*base()*MV.k, true]; }
+  const l0=MV.glon*toRad, p0=MV.glat*toRad, l=lon*toRad, p=lat*toRad, R=gR();
+  const cosc=Math.sin(p0)*Math.sin(p)+Math.cos(p0)*Math.cos(p)*Math.cos(l-l0);
+  return [MW/2+R*Math.cos(p)*Math.sin(l-l0), MH/2-R*(Math.cos(p0)*Math.sin(p)-Math.sin(p0)*Math.cos(p)*Math.cos(l-l0)), cosc>=0];
+}
+const gR=()=>Math.min(MW,MH)*0.46*MV.gk;
+function unproject(x,y){
+  if(MV.proj==='flat'){ const lon=(MV.cx+(x-MW/2)/(base()*MV.k))/toRad, my=MV.cy-(y-MH/2)/(base()*MV.k); if(lon<-180||lon>180||my<MY0-.2||my>MY1+.2) return null; return [lon,IMILLER(my)]; }
+  const R=gR(), px=x-MW/2, py=-(y-MH/2), rho=Math.hypot(px,py); if(rho>R) return null; if(rho<1e-9) return [MV.glon,MV.glat];
+  const c=Math.asin(rho/R), p0=MV.glat*toRad, l0=MV.glon*toRad;
+  const lat=Math.asin(Math.cos(c)*Math.sin(p0)+py*Math.sin(c)*Math.cos(p0)/rho), lon=l0+Math.atan2(px*Math.sin(c), rho*Math.cos(c)*Math.cos(p0)-py*Math.sin(c)*Math.sin(p0));
+  return [((lon/toRad+540)%360)-180, lat/toRad];
+}
+function clampMap(){
+  if(MV.proj==='flat'){ const kmin=Math.max(1,MW&&MH?MH/(MHGT*base()):1);   // never zoom out past the point where the map fills the view
+    MV.k=Math.max(kmin,Math.min(Math.max(40,kmin*8),MV.k)); const hw=MW/2/(base()*MV.k), hh=MH/2/(base()*MV.k);
+    MV.cx=Math.max(-Math.PI+hw,Math.min(Math.PI-hw,MV.cx)); MV.cy=MHGT/2<hh?(MY0+MY1)/2:Math.max(MY0+hh,Math.min(MY1-hh,MV.cy)); }
+  else { MV.gk=Math.max(.7,Math.min(30,MV.gk)); MV.glat=Math.max(-80,Math.min(80,MV.glat)); MV.glon=((MV.glon+540)%360)-180; }
+}
+// pixels per degree of longitude at the view centre: drives when city clusters fan out
+const pxPerDeg=()=>MV.proj==='flat'?base()*MV.k*toRad:gR()*toRad;
+function mapCenterLL(){ return MV.proj==='flat'?[MV.cx/toRad,IMILLER(MV.cy)]:[MV.glon,MV.glat]; }
+function setMapCenter(ll,zoomPx){ if(MV.proj==='flat'){ MV.cx=ll[0]*toRad; MV.cy=MILLER(ll[1]); if(zoomPx) MV.k=zoomPx/(base()*toRad); } else { MV.glon=ll[0]; MV.glat=ll[1]; if(zoomPx) MV.gk=zoomPx/(Math.min(MW,MH)*.46*toRad); } clampMap(); }
+
+// genres from the same city share one dot; zoomed in, they fan out in a spiral that stays on land
+const CLUSTERS=(()=>{ const groups=[];
+  N.forEach(n=>{ const g=groups.find(g=>Math.abs(g.lat0-n.lat)<0.6&&Math.abs(g.lon0-n.lon)<0.6); if(g) g.ids.push(n.id); else groups.push({lat0:n.lat,lon0:n.lon,ids:[n.id]}); });
+  groups.forEach((g,i)=>{ g.key='c'+i; g.ids.sort((a,b)=>byId[a].year-byId[b].year); g.pos=[g.ids.reduce((s,id)=>s+byId[id].lon,0)/g.ids.length, g.ids.reduce((s,id)=>s+byId[id].lat,0)/g.ids.length]; });
+  return groups; })();
+const CLUSTER_OF={}; CLUSTERS.forEach(g=>g.ids.forEach(id=>CLUSTER_OF[id]=g));
+let MAPPOS=Object.fromEntries(N.map(n=>[n.id,CLUSTER_OF[n.id].pos])), EXPANDED=new Set(), fanKey=null;
+const SPACING_PX=11, FAN_MAX_DEG=1.2;
+function updatePositions(){
+  const ppd=pxPerDeg(), key=Math.round(Math.log2(ppd)*3)+MV.proj; if(key===fanKey) return; fanKey=key;
+  EXPANDED=new Set(); MAPPOS={}; const golden=Math.PI*(3-Math.sqrt(5));
+  CLUSTERS.forEach(g=>{ const n=g.ids.length;
+    if(n===1||SPACING_PX*Math.sqrt(n)/ppd>FAN_MAX_DEG){ g.ids.forEach(id=>MAPPOS[id]=g.pos); return; }
+    EXPANDED.add(g.key); const step=SPACING_PX/ppd, [lon,lat]=g.pos, k=1/Math.max(.3,Math.cos(lat*toRad));
+    const spot=c=>{ const r=step*Math.sqrt(c+0.5), a=c*golden; return [lon+r*Math.cos(a)*k, lat+r*Math.sin(a)]; };
+    let c=0, ok=!!COUNTRIES; const placed={};
+    if(ok) for(const id of g.ids){ let t=0; while(t<300&&!onLand(spot(c))){ c++; t++; } if(t>=300){ ok=false; break; } placed[id]=spot(c); c++; }
+    g.ids.forEach((id,i)=>MAPPOS[id]=ok?placed[id]:spot(i)); });
+}
+
+/* cities: appear when founded, vanish when abandoned, renamed over time */
+function cityName(c,y){ let nm=c.name.replace(/ \(.*\)$/,''); if(c.names) c.names.forEach(([fy,n])=>{ if(fy<=y) nm=n; }); if(c.names&&c.names.length&&y<c.names[0][0]) nm=c.names[0][1]; return nm; }
+function cityAlive(c,y){ return c.founded<=y&&(c.ended==null||y<c.ended); }
+const cityFade=(c,y)=>{ const a=clamp01((y-c.founded)/Math.max(3,(2026-c.founded)*.02)), b=c.ended==null?1:clamp01((c.ended-y)/Math.max(3,(c.ended-c.founded)*.03)); return Math.min(a,b); };
+
+/* drawing */
+function requestMapDraw(){ if(!mapRAF) mapRAF=requestAnimationFrame(t=>{ mapRAF=0; mapDraw(t); }); }
+function mapDraw(now){
+  const cv=mcv(); if(!cv||document.getElementById('view-map').hidden||!MW) return;
+  if(COUNTRIES===null||COUNTRIES===undefined){ COUNTRIES=decodeWorld(); if(COUNTRIES){ fanKey=null; } }
+  if(mapAnim) stepMapAnim(now);
+  updatePositions();
+  const dpr=cv.width/MW, ctx=cv.getContext('2d'); ctx.setTransform(dpr,0,0,dpr,0,0);
+  const C={sea:css('--sea'),land:css('--land'),coast:css('--coast'),grat:css('--grat'),fg:css('--fg'),panel:css('--panel'),accent:css('--accent'),bg:css('--bg'),muted:css('--muted')};
+  const Y=STON?STYf:2026, flat=MV.proj==='flat';
+  ctx.fillStyle=flat?C.sea:C.bg; ctx.fillRect(0,0,MW,MH);
+  if(!flat){ const R=gR(); const g=ctx.createRadialGradient(MW/2-R*.3,MH/2-R*.3,R*.1,MW/2,MH/2,R); g.addColorStop(0,C.sea); g.addColorStop(1,mixC(C.sea,C.fg,.12)); ctx.fillStyle=g; ctx.beginPath(); ctx.arc(MW/2,MH/2,R,0,Math.PI*2); ctx.fill(); }
+  // graticule
+  ctx.strokeStyle=C.grat; ctx.lineWidth=.6; ctx.globalAlpha=.8;
+  const line=pts=>{ ctx.beginPath(); let pen=false, last=null; pts.forEach(([lo,la])=>{ const [x,y,v]=project(lo,la); if(!v||(last&&Math.abs(x-last)>MW*.5)){ pen=false; last=null; return; } if(pen) ctx.lineTo(x,y); else ctx.moveTo(x,y); pen=true; last=x; }); ctx.stroke(); };
+  for(let lo=-180;lo<=180;lo+=30){ const p=[]; for(let la=-80;la<=80;la+=4) p.push([lo,la]); line(p); }
+  for(let la=-60;la<=80;la+=30){ const p=[]; for(let lo=-180;lo<=180;lo+=4) p.push([lo,la]); line(p); }
+  ctx.globalAlpha=1;
+  // countries; the chosen place is tinted
+  const pl=STP, tintIso=pl&&(pl.k==='cty'||pl.k==='city')?pl.iso:null, tintReg=pl&&pl.k==='reg'?pl.reg:null;
+  const R=gR();
+  if(COUNTRIES) COUNTRIES.forEach(c=>{
+    if(flat){ const [x0]=project(c.bb[0],0), [x1]=project(c.bb[2],0), [,y0]=project(0,c.bb[3]), [,y1]=project(0,c.bb[1]); if(x1<0||x0>MW||y1<0||y0>MH) return; }
+    ctx.beginPath(); let any=false;
+    c.polys.forEach(p=>p.forEach(ring=>{ let first=true;
+      ring.forEach(([lo,la])=>{ let [x,y,v]=project(lo,la); if(!flat&&!v){ const dx=x-MW/2, dy=y-MH/2, d=Math.hypot(dx,dy)||1; x=MW/2+dx/d*R; y=MH/2+dy/d*R; } else any=true; if(first){ ctx.moveTo(x,y); first=false; } else ctx.lineTo(x,y); }); ctx.closePath(); }));
+    if(!any) return;
+    const hot=c.iso&&(c.iso===tintIso||(tintReg&&isoReg(c.iso)===tintReg)), hov=mapHover&&mapHover.kind==='cty'&&mapHover.ref===c;
+    ctx.fillStyle=hot?mixC(C.land,C.accent,c.iso===tintIso?.42:.22):(hov?mixC(C.land,C.fg,.1):C.land); ctx.fill('evenodd');
+    ctx.strokeStyle=hot&&c.iso===tintIso?C.accent:C.coast; ctx.lineWidth=hot&&c.iso===tintIso?1.4:.5; ctx.stroke(); });
+  else { ctx.fillStyle=C.muted; ctx.font='13px '+css('--body'); ctx.fillText('The map outline did not load; genre dots still work.',16,24); }
+  if(!flat){ ctx.strokeStyle=C.coast; ctx.lineWidth=1; ctx.beginPath(); ctx.arc(MW/2,MH/2,R,0,Math.PI*2); ctx.stroke(); }
+  MAPHITS=[];
+  // cities (alive at this moment)
+  const ppd=pxPerDeg(), cityMin=ppd>14?1:(ppd>5?2:3), boxes=[];
+  ctx.font='11px '+css('--body'); ctx.textBaseline='middle';
+  CITIES.forEach((c,i)=>{ if(!cityAlive(c,Y)||c.size<cityMin-(c.x?0:1)||(c.kind==='area'&&!(STP&&STP.k==='city'&&STP.i===i))) return; const [x,y,v]=project(c.lon,c.lat); if(!v||x<-20||x>MW+20||y<-20||y>MH+20) return;
+    const a=cityFade(c,Y), chosen=pl&&pl.k==='city'&&pl.i===i;
+    ctx.globalAlpha=.55*a+(chosen?.45:0); ctx.strokeStyle=chosen?C.accent:C.fg; ctx.lineWidth=chosen?2:1; ctx.beginPath(); ctx.rect(x-2.2,y-2.2,4.4,4.4); ctx.stroke();
+    MAPHITS.push({kind:'city',ref:i,x,y,r:6});
+    if(c.size>=cityMin||chosen){ const nm=cityName(c,Y), w=ctx.measureText(nm).width, bx={x0:x+5,x1:x+7+w,y0:y-7,y1:y+7};
+      if(chosen||!boxes.some(o=>bx.x0<o.x1&&bx.x1>o.x0&&bx.y0<o.y1&&bx.y1>o.y0)){ boxes.push(bx); ctx.globalAlpha=(chosen?1:.62)*a; ctx.fillStyle=C.fg; ctx.fillText(nm,x+6,y); } } });
+  ctx.globalAlpha=1; ctx.textBaseline='alphabetic';
+  // ancestry trails of the selected genre, fading with each generation
+  let depth=null; const fade=d=>Math.max(.12,.95*Math.pow(.62,d));
+  if(selected){ depth=new Map([[selected,0]]); let fr=[selected];
+    while(fr.length){ const nx=[]; fr.forEach(id=>byId[id].parents.forEach(p=>{ if(!depth.has(p)){ depth.set(p,depth.get(id)+1); nx.push(p); } })); fr=nx; }
+    depth.forEach((d,id)=>byId[id].parents.forEach((p,k)=>{ if(!stVis(p)||!stVis(id)) return; ctx.strokeStyle=RCC[byId[p].reg]||regColor(byId[p].reg); ctx.globalAlpha=fade(d); ctx.lineWidth=k===0?2.2:1.4; ctx.setLineDash(k===0?[]:[5,4]); line(gcPoints(MAPPOS[p],MAPPOS[id])); }));
+    ctx.setLineDash([]); ctx.globalAlpha=1; }
+  // genres: dot size and colour follow how alive each one is at this moment; a city's dot is a ring split by relevance
+  const hOf=id=>STV?STV.get(id).h:1;
+  CLUSTERS.forEach(g0=>{ const ids=g0.ids.filter(stVis); if(!ids.length) return;
+    const collapsed=ids.length>1&&!EXPANDED.has(g0.key);
+    if(!collapsed){ ids.forEach(id=>{ const [x,y,v]=project(...MAPPOS[id]); if(!v) return; const h=hOf(id), sel=id===selected, dim=selected&&!(depth&&depth.has(id));
+        const r=(STV?2.5+4.5*h:4)+(sel?3:0); ctx.globalAlpha=(dim?.25:1)*(STV?stOp(id):.95)*(selected&&depth&&depth.has(id)?Math.max(.35,fade(depth.get(id))):1);
+        ctx.fillStyle=STV?stColor(id):regColor(byId[id].reg); ctx.beginPath(); ctx.arc(x,y,r,0,Math.PI*2); ctx.fill();
+        ctx.strokeStyle=sel?C.fg:C.panel; ctx.lineWidth=sel?2.5:1; ctx.stroke(); MAPHITS.push({kind:'genre',ref:id,x,y,r:Math.max(r,6)}); }); return; }
+    const [x,y,v]=project(...g0.pos); if(!v) return;
+    const hs=ids.map(hOf), tot=hs.reduce((a,b)=>a+b,0)||1, r=8+3*Math.sqrt(ids.length), inSel=selected&&ids.some(id=>depth&&depth.has(id));
+    ctx.globalAlpha=selected&&!inSel?.3:1; let a0=-Math.PI/2;
+    ids.forEach((id,i)=>{ const a1=a0+Math.PI*2*hs[i]/tot; ctx.strokeStyle=STV?stColor(id):regColor(byId[id].reg); ctx.lineWidth=5; ctx.beginPath(); ctx.arc(x,y,r,a0,a1); ctx.stroke(); a0=a1; });
+    ctx.fillStyle=C.panel; ctx.beginPath(); ctx.arc(x,y,r-2.5,0,Math.PI*2); ctx.fill();
+    ctx.fillStyle=C.fg; ctx.font='600 11px '+css('--body'); ctx.textAlign='center'; ctx.textBaseline='middle'; ctx.fillText(String(ids.length),x,y+.5); ctx.textAlign='left'; ctx.textBaseline='alphabetic';
+    if(ids.includes(selected)){ ctx.strokeStyle=C.fg; ctx.lineWidth=2; ctx.beginPath(); ctx.arc(x,y,r+4,0,Math.PI*2); ctx.stroke(); }
+    MAPHITS.push({kind:'cluster',ref:g0,ids,x,y,r:r+3}); });
+  ctx.globalAlpha=1;
+  // names of the selected genre and three generations of ancestors
+  if(depth){ ctx.font='11px '+css('--body'); const seen=new Set();
+    depth.forEach((d,id)=>{ if(d>3||!stVis(id)) return; const g=CLUSTER_OF[id], key=EXPANDED.has(g.key)?id:g.key; if(seen.has(key)) return; seen.add(key);
+      const [x,y,v]=project(...MAPPOS[id]); if(!v) return; const nm=g.ids.filter(i=>depth.has(i)&&depth.get(i)<=3&&stVis(i)).map(i=>byId[i].name).join(' · ');
+      ctx.font=(d===0?'600 ':'')+'11.5px '+css('--body'); ctx.lineWidth=3; ctx.strokeStyle=C.panel; ctx.globalAlpha=Math.max(.5,fade(d)); ctx.strokeText(nm,x+12,y+4); ctx.fillStyle=C.fg; ctx.fillText(nm,x+12,y+4); });
+    ctx.globalAlpha=1; }
+  // flight trail during a teleport
+  if(mapAnim&&mapAnim.trail){ const e=mapAnim.e||0, pts=mapAnim.trail, n=Math.max(2,Math.round(pts.length*e)); ctx.strokeStyle=C.accent; ctx.lineWidth=2.5; ctx.setLineDash([2,6]); ctx.globalAlpha=.9; line(pts.slice(0,n)); ctx.setLineDash([]);
+    const [x,y,v]=project(...pts[n-1]); if(v){ ctx.fillStyle=C.accent; ctx.beginPath(); ctx.arc(x,y,5,0,Math.PI*2); ctx.fill(); ctx.globalAlpha=.3; ctx.beginPath(); ctx.arc(x,y,12,0,Math.PI*2); ctx.fill(); } ctx.globalAlpha=1; }
+  if(mapAnim) requestMapDraw();
+}
+function renderMap(){ requestMapDraw(); }
+
+/* flights: zoom out, travel along the great circle, zoom in */
+const easeIO=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+function flyTo(ll,zoomPx,dur=2200,trail=false){
+  const from=mapCenterLL(), fromPpd=pxPerDeg(), to=ll, toPpd=zoomPx||Math.max(fromPpd,6), dist=gcDist(from,to);
+  mapAnim={t0:performance.now(),dur,from,to,fromPpd,toPpd,dip:Math.min(2.2,dist*1.4),path:gcPoints(from,to,80),trail:trail?gcPoints(from,to,80):null};
+  requestMapDraw();
+}
+function stepMapAnim(now){
+  const a=mapAnim, t=Math.min(1,(now-a.t0)/a.dur), e=easeIO(t); a.e=e;
+  const ll=a.path[Math.round(e*(a.path.length-1))];
+  const lp=Math.log(a.fromPpd)+(Math.log(a.toPpd)-Math.log(a.fromPpd))*e-a.dip*Math.sin(Math.PI*e);
+  setMapCenter(ll,Math.exp(lp));
+  if(t>=1){ mapAnim=null; fanKey=null; }
+}
+function mapFocus(id){ if(!MW) return; flyTo(MAPPOS[id], Math.max(pxPerDeg(),8), 1200); }
+
+/* popover for a city with several genres: sorted by how alive each is right now */
+function closePop(){ const p=document.getElementById('mappop'); if(p) p.hidden=true; }
+function openPop(g,ids,x,y){
+  const p=document.getElementById('mappop'), hOf=id=>STV?STV.get(id).h:1;
+  const list=ids.slice().sort((a,b)=>hOf(b)-hOf(a)||byId[a].year-byId[b].year);
+  p.innerHTML=`<p class="label">${esc(byId[g.ids[0]].place)} · ${ids.length} genres${STV?' · brightest now first':''}</p>`+list.map(id=>`<button data-id="${id}"><i style="background:${STV?stColor(id):regColor(byId[id].reg)}"></i>${esc(byId[id].name)}${STV?`<span class="hbar"><b style="width:${Math.round(hOf(id)*100)}%"></b></span>`:''}<span class="mono">${byId[id].year}</span></button>`).join('');
+  p.hidden=false;
+  const box=document.getElementById('view-map').getBoundingClientRect(), mb=document.getElementById('map').getBoundingClientRect();
+  const left=Math.min(Math.max(8,mb.left-box.left+x+10), box.width-p.offsetWidth-8), top=Math.min(Math.max(8,mb.top-box.top+y-10), box.height-p.offsetHeight-8);
+  p.style.left=left+'px'; p.style.top=top+'px';
+  p.querySelectorAll('button[data-id]').forEach(b=>b.onclick=ev=>{ ev.stopPropagation(); closePop(); select(b.dataset.id); });
+}
+function mapHit(x,y){
+  for(let i=MAPHITS.length-1;i>=0;i--){ const h=MAPHITS[i]; if(h.kind!=='city'&&Math.hypot(h.x-x,h.y-y)<=h.r) return h; }
+  for(let i=MAPHITS.length-1;i>=0;i--){ const h=MAPHITS[i]; if(h.kind==='city'&&Math.hypot(h.x-x,h.y-y)<=h.r) return h; }
+  const ll=unproject(x,y); if(!ll) return null; const c=countryAt(ll); return c&&c.iso?{kind:'cty',ref:c}:null;
+}
+function mapTip(h,x,y){
+  const t=document.getElementById('maptip'); if(!h){ t.hidden=true; return; }
+  const Y=STON?STY:2026; let s='';
+  if(h.kind==='genre'){ const n=byId[h.ref]; s=`<b>${esc(n.name)}</b><br>${fmtYear(n.year)} · ${esc(n.place)}`; }
+  else if(h.kind==='cluster'){ s=`<b>${esc(byId[h.ref.ids[0]].place)}</b> · ${h.ids.length} genres<br><span class="fine">Click to pick one</span>`; }
+  else if(h.kind==='city'){ const c=CITIES[h.ref]; s=`<b>${esc(cityName(c,Y))}</b> · ${esc(isoName(c.iso2))}<br><span class="fine">${c.kind==='area'?'Area':(c.founded>-9000?'Founded '+fmtY(c.founded):'City')}${c.ended!=null?` · ended ${fmtY(c.ended)}`:''} · click to travel here</span>`; }
+  else s=`<b>${esc(isoName(h.ref.iso))}</b><br><span class="fine">Click to travel here</span>`;
+  t.innerHTML=s; t.hidden=false; t.style.left=Math.min(x+14,MW-t.offsetWidth-4)+'px'; t.style.top=Math.max(4,y-10)+'px';
+}
+function buildMap(){
+  const cv=mcv(); if(!cv) return;
+  if(!cv.dataset.wired){ cv.dataset.wired='1';
+    const pts=new Map(); let start=null, pinch=null, moved=false;
+    cv.addEventListener('pointerdown',e=>{ pts.set(e.pointerId,{x:e.offsetX,y:e.offsetY}); moved=false; start={x:e.offsetX,y:e.offsetY,mv:{...MV}}; mapAnim=null;
+      if(pts.size===2){ const [p,q]=[...pts.values()]; pinch={d:Math.hypot(p.x-q.x,p.y-q.y),k:MV.k,gk:MV.gk,ll:unproject((p.x+q.x)/2,(p.y+q.y)/2)}; } });
+    cv.addEventListener('pointermove',e=>{
+      if(!pts.has(e.pointerId)){ const h=mapHit(e.offsetX,e.offsetY); const same=h&&mapHover&&h.kind===mapHover.kind&&h.ref===mapHover.ref; if(!same){ mapHover=h; requestMapDraw(); } cv.style.cursor=h?'pointer':'grab'; mapTip(h,e.offsetX,e.offsetY); return; }
+      pts.set(e.pointerId,{x:e.offsetX,y:e.offsetY});
+      if(pinch&&pts.size===2){ const [p,q]=[...pts.values()], r=Math.hypot(p.x-q.x,p.y-q.y)/pinch.d; if(MV.proj==='flat'){ MV.k=pinch.k*r; clampMap(); if(pinch.ll){ const [x,y]=project(pinch.ll[0],pinch.ll[1]); MV.cx+=(x-(p.x+q.x)/2)/(base()*MV.k); MV.cy-=(y-(p.y+q.y)/2)/(base()*MV.k); } } else MV.gk=pinch.gk*r; clampMap(); requestMapDraw(); moved=true; return; }
+      const dx=e.offsetX-start.x, dy=e.offsetY-start.y; if(!moved&&Math.hypot(dx,dy)<4) return;
+      if(!moved){ moved=true; try{ cv.setPointerCapture(e.pointerId); }catch(_){} closePop(); mapTip(null); }
+      if(MV.proj==='flat'){ MV.cx=start.mv.cx-dx/(base()*MV.k); MV.cy=start.mv.cy+dy/(base()*MV.k); }
+      else { const R=gR(); MV.glon=start.mv.glon-dx/R/toRad*.9; MV.glat=start.mv.glat+dy/R/toRad*.9; }
+      clampMap(); requestMapDraw(); });
+    const end=e=>{ pts.delete(e.pointerId); if(pts.size<2) pinch=null; if(pts.size===1){ const p=[...pts.values()][0]; start={x:p.x,y:p.y,mv:{...MV}}; } };
+    cv.addEventListener('pointerup',e=>{ const was=moved; end(e); if(was) return;
+      const h=mapHit(e.offsetX,e.offsetY);
+      if(!h){ closePop(); if(selected) select(null); else if(STP) setPlace(null); return; }
+      if(h.kind==='genre'){ closePop(); select(h.ref); }
+      else if(h.kind==='cluster') openPop(h.ref,h.ids,e.offsetX,e.offsetY);
+      else if(h.kind==='city'){ closePop(); setPlace({k:'city',i:h.ref,iso:CITIES[h.ref].iso2}); }
+      else if(h.kind==='cty'){ closePop(); setPlace({k:'cty',iso:h.ref.iso}); } });
+    cv.addEventListener('pointercancel',end);
+    cv.addEventListener('pointerleave',()=>{ mapTip(null); if(mapHover){ mapHover=null; requestMapDraw(); } });
+    cv.addEventListener('wheel',e=>{ e.preventDefault(); mapAnim=null; mapTip(null); const f=Math.exp(-e.deltaY*(e.ctrlKey?0.01:0.0016)); const ll=unproject(e.offsetX,e.offsetY);
+      if(MV.proj==='flat'){ MV.k*=f; clampMap(); if(ll){ const [x,y]=project(ll[0],ll[1]); MV.cx+=(x-e.offsetX)/(base()*MV.k); MV.cy-=(y-e.offsetY)/(base()*MV.k); } }
+      else MV.gk*=f;
+      clampMap(); closePop(); requestMapDraw(); },{passive:false});
+    document.getElementById('mzin').onclick=()=>{ if(MV.proj==='flat') MV.k*=1.5; else MV.gk*=1.5; clampMap(); requestMapDraw(); };
+    document.getElementById('mzout').onclick=()=>{ if(MV.proj==='flat') MV.k/=1.5; else MV.gk/=1.5; clampMap(); requestMapDraw(); };
+    document.getElementById('mproj').onclick=()=>{ const ll=mapCenterLL(), ppd=pxPerDeg(); MV.proj=MV.proj==='flat'?'globe':'flat'; document.getElementById('mproj').textContent=MV.proj==='flat'?'Globe':'Flat map';
+      setMapCenter(ll, MV.proj==='globe'?Math.max(ppd,Math.min(MW,MH)*.46*toRad):Math.max(ppd,base()*toRad)); fanKey=null; requestMapDraw(); };
+    window.addEventListener('resize',()=>{ if(!document.getElementById('view-map').hidden){ mapResize(); fanKey=null; requestMapDraw(); } });
+  }
+  mapResize(); requestMapDraw();
+}
+
+/* ---------- selection, legend, views ---------- */
+const curView=()=>['tree','map','tunnel','list','journey','data','me'].find(k=>!document.getElementById('view-'+k).hidden)||'tree';
+function updateSelbar(){
+  const bar=document.getElementById('selbar'); if(!selected){ bar.hidden=true; return; }
+  const n=byId[selected]; bar.hidden=false;
+  document.getElementById('seldot').style.background=regColor(n.reg);
+  document.getElementById('selname').textContent=n.name;
+  document.getElementById('selmeta').textContent=`${fmtYear(n.year)} · ${n.place} · ${TRADN[TRAD_OF[n.id]]}`;
+  const v=curView(); bar.querySelectorAll('button[data-show]').forEach(b=>b.setAttribute('aria-current',String(b.dataset.show===v)));
+}
+function select(id){
+  selected=id; if(id) regFocus=null; if(!id) listScope='all'; WL=STON?worldline(id):null;
+  syncLegend(); applyHighlight(); renderMap(); updateSelbar();
+  if(curView()==='list') filterList();
+  if(id && curView()==='tree') focusTree(id);
+  if(STON) stKick();
+}
+document.getElementById('selbar').addEventListener('click',e=>{ const b=e.target.closest('button[data-show]'); if(b){ if(curView()===b.dataset.show) showView(b.dataset.show); else location.hash=b.dataset.show; } });
+document.getElementById('selclear').onclick=()=>select(null);
+function syncLegend(){ document.querySelectorAll('.rchip').forEach(c=>c.setAttribute('aria-pressed',(STP&&STP.k==='reg'&&STP.reg===c.dataset.r)?'true':'false')); }
+const fgName=(G=FG)=>{ if(!G) return ''; if(G.k==='multi'){ const n=G.items.map(x=>fgName(x)); return n.length>3?n.slice(0,2).join(', ')+' and '+(n.length-2)+' more':n.slice(0,-1).join(', ')+' and '+n[n.length-1]; } return G.k==='band'?bandName[G.id]:G.k==='trad'?(TRADN[G.id]||G.id):byId[G.id].name; };
+function buildLegend(){
+  const L=document.getElementById('legend'); if(L.hidden){ L.style.display='none'; return; }
+  L.innerHTML='<span class="lbl">Region</span>'+REG.map(([r,name])=>`<button class="rchip" data-r="${r}" aria-pressed="false"><i style="background:${regColor(r)}"></i>${esc(name)}</button>`).join('');
+  L.querySelectorAll('.rchip').forEach(c=>c.onclick=()=>{ setPlace(STP&&STP.k==='reg'&&STP.reg===c.dataset.r?null:{k:'reg',reg:c.dataset.r}); });
+}
+const VIEWS=['tree','map','tunnel','list','journey','data','me'], VIEWHOOK={};
+function showView(v){
+  document.querySelector('.wrap').dataset.view=v; closePop();
+  VIEWS.forEach(k=>{ document.getElementById('view-'+k).hidden=k!==v; document.getElementById('tab-'+k).setAttribute('aria-selected',String(k===v)); }); { const tt=document.getElementById('tab-'+v), vt=document.getElementById('vtitle'); if(tt&&vt) vt.textContent=tt.dataset.title; }
+  if(VIEWHOOK[v]){ try{ VIEWHOOK[v](); }catch(e){ console.error(e); } }
+  if(v==='map'){ buildMap(); if(selected) setTimeout(()=>mapFocus(selected),40); }
+  if(v==='tree'){ clampView(); render(); if(selected) focusTree(selected); }
+  if(v==='journey'){ renderJourney(); }
+  if(v==='tunnel'){ if(!STON) stSet(true); stKick(); }
+  if(v==='tree'&&STON) stKick();
+  stBarUI();
+  if(v==='list'){ if(selected && listScope==='all') listScope='family'; if(!selected) listScope='all'; filterList(); if(selected) goTo(selected); }
+  updateSelbar();
+}
+const viewFromHash=()=>{ const h=location.hash.replace('#',''); return VIEWS.includes(h)?h:'tree'; };
+document.querySelectorAll('.vtabs .tab-link').forEach(b=>b.onclick=()=>{ location.hash=b.dataset.view; });
+window.addEventListener('hashchange',()=>showView(viewFromHash()));
+
+document.getElementById('glist').innerHTML=N.slice().sort((a,b)=>a.name.localeCompare(b.name)).map(n=>`<option value="${esc(n.name)}"></option>`).join('');
+document.getElementById('search').addEventListener('change',e=>{ const q=e.target.value.trim().toLowerCase(); if(!q) return; const n=N.find(n=>n.name.toLowerCase()===q)||N.find(n=>n.name.toLowerCase().includes(q)); if(n){ select(n.id); if(!document.getElementById('view-list').hidden) goTo(n.id); } });
+
+
+/* ---------- dice: jump to a random movement and open its playlist ---------- */
+let rolling=false;
+// what this person has heard: Journey ticks plus genre playlists they copied and did not mark as never started
+function heardSet(){ const s=new Set(DONE); try{ if(window.PEOPLE) window.PEOPLE.heardGenres().forEach(x=>s.add(x)); }catch(e){} return s; }
+function roll(btn,unheard){
+  if(rolling) return; const fa=fActive(), heard=unheard?heardSet():null; const pool=N.filter(n=>(!fa||inF(n.id))&&(!unheard||!heard.has(n.id)));
+  if(!pool.length){ const t=btn.textContent; btn.textContent=unheard?'Nothing unheard in these filters':'Nothing in these filters'; setTimeout(()=>{ btn.textContent=t; },1800); return; }
+  rolling=true; const label=btn.textContent, pick=pool[Math.floor(Math.random()*pool.length)].id;
+  const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches; let i=0, frames=reduce?0:14;
+  btn.classList.add('rolling');
+  const step=()=>{ if(i<frames){ btn.textContent='🎲 '+pool[Math.floor(Math.random()*pool.length)].name; i++; setTimeout(step,40+i*i*1.6); return; }
+    btn.textContent=label; btn.classList.remove('rolling'); rolling=false;
+    select(pick); const pl=document.querySelector(`#g-${pick} .pl`); if(pl) pl.open=true;
+    if(curView()==='list') showView('list'); else location.hash='list'; };
+  step();
+}
+document.getElementById('rollany').onclick=e=>roll(e.currentTarget,false);
+document.getElementById('rollnew').onclick=e=>roll(e.currentTarget,true);
+
+
+/* ---------- v2: time travel. Filter everything to a moment and a place; time flows continuously ---------- */
+const STD=DATA.st;                                  // id -> [peakStart, peakEnd, [regions], {region: later year}]
+const CNT=DATA.cnt||{};                             // id -> [origin ISO2, [countries at peak], {ISO2: later year}]
+const ANC={}; N.forEach(n=>ANC[n.id]=lineage(n.id).anc);
+// filters: a place at any depth (STP), a time (STY with a stay, or a range from STFROM to STY; T0 = all of history up to STY), a branch of the family tree (FG),
+// and for place and time whether a movement counts when it was heard there/then or only when it was made there/then
+let STFROM=T0, FPL='heard', FTM='heard', FG=null;
+const FHOOKS=[];                                    // called after any filter change
+let STON=true, STYf=2026, STY=2026, STP=null, STSPAN=1, STV=null, stU=1, stPlay=0, stMult=1, stRAF=0, stLast=0, stPanelOpen=false, stPanelT=0, TP=null;
+const U=y=>1-lg(y)/L0;                              // the tree's log time scale: 0 = 1500 BCE, 1 = today
+const UinvF=u=>2056-30*Math.exp((1-Math.max(0,Math.min(1,u)))*L0);
+const fmtY=y=>{ y=Math.round(y); return y<0?`${-y} BCE`:(y<1000?`${y} CE`:String(y)); };
+function stVis(id){ return !STV||STV.has(id); }
+function knownIn(id,r,y){ const st=STD[id]; if(st[2].includes(r)) return true; const ly=st[3][r]; return ly!=null&&ly<=y; }
+// is this movement known in the chosen place by year y?
+function placeKnown(id,y,p=STP){
+  if(!p) return true; if(p.k==='multi') return p.items.some(q=>placeKnown(id,y,q)); if(p.k==='reg') return knownIn(id,p.reg,y);
+  const c=CNT[id]; if(!c) return knownIn(id,isoReg(p.iso),y);
+  if(c[1].includes(p.iso)) return true; const ly=c[2][p.iso]; return ly!=null&&ly<=y;
+}
+function placeName(p=STP){ if(!p) return ''; if(p.k==='multi'){ const n=p.items.map(q=>placeName(q).split(', ')[0]); return n.length>4?n.slice(0,3).join(', ')+' and '+(n.length-3)+' more':n.slice(0,-1).join(', ')+' and '+n[n.length-1]; } if(p.k==='reg') return regName[p.reg]; if(p.k==='cty') return isoName(p.iso);
+  const c=CITIES[p.i]; return `${cityName(c,STY)}, ${isoName(c.iso2)}`; }
+function placeLL(p=STP){ if(!p||p.k==='multi') return null;
+  if(p.k==='city') return [CITIES[p.i].lon,CITIES[p.i].lat];
+  if(p.k==='cty'){ const c=COUNTRIES&&COUNTRIES.find(c=>c.iso===p.iso); if(c) return c.c; const city=CITIES.find(c=>c.iso2===p.iso); if(city) return [city.lon,city.lat]; }
+  const ns=N.filter(n=>n.reg===(p.k==='reg'?p.reg:isoReg(p.iso))); return ns.length?[ns.reduce((s,n)=>s+n.lon,0)/ns.length, ns.reduce((s,n)=>s+n.lat,0)/ns.length]:[0,20]; }
+// 0 before it exists; rising to its peak; 1 at its peak; then fading, slower for more significant movements
+function heatAt(id,y){ const n=byId[id], a=STD[id][0], b=STD[id][1];
+  if(y<n.year) return 0; if(y<a) return .45+.55*(y-n.year)/Math.max(1,a-n.year); if(y<=b) return 1;
+  // still an active, living practice (its window runs on): never drops below "alive"; once it has ended, it fades toward a trace
+  const e=MEND[id], alive=e==null||y<=e;
+  return Math.max(alive?.55:.06,Math.exp(-(y-b)/(8+6*SC[id][0]))); }
+let RCC={}, ST_MUTED='#888';
+function stCompute(){
+  RCC={}; REG.forEach(([r])=>RCC[r]=regColor(r)); ST_MUTED=css('--muted');
+  if(!STON){ STV=null; return; }
+  STV=new Map(); const single=stSingle(), [r0,r1]=single?[STYf,STYf]:stRange(), y=single?STYf:r1, m0=single?STY:r0;
+  N.forEach(n=>{ if(n.year>y||!fMember(n.id)) return;
+    if(FTM==='made'&&(n.year<m0||n.year>Math.round(y))) return;                       // made then: it began inside the window
+    if(!(FPL==='made'?placeMade(n.id):placeKnown(n.id,y))) return;
+    STV.set(n.id,{h:single?heatAt(n.id,y):rangeHeat(n.id,r0,r1),anc:false}); });
+  if(STP||FG||FTM==='made') [...STV.keys()].forEach(id=>ANC[id].forEach(p=>{ if(!STV.has(p)&&byId[p].year<=y) STV.set(p,{h:Math.min(.3,heatAt(p,y)),anc:true}); }));
+}
+// in the chosen branch of the family tree: a sound family (band), a tradition, or a movement and everything descended from it
+function fMember(id,G=FG){ if(!G) return true; if(G.k==='multi') return G.items.some(x=>fMember(id,x)); const n=byId[id]; return G.k==='band'?n.band===G.id:G.k==='trad'?TRAD_OF[id]===G.id:(id===G.id||ANC[id].includes(G.id)); }
+// made in the chosen place: born in that region, country, or within reach of that city or area
+function placeMade(id,p=STP){ if(!p) return true; if(p.k==='multi') return p.items.some(q=>placeMade(id,q)); const n=byId[id]; if(p.k==='reg') return n.reg===p.reg;
+  if(p.k==='cty'){ const c=CNT[id]; return !!(c&&c[0])&&c[0]===p.iso; }
+  const c=CITIES[p.i]; return gcDist([c.lon,c.lat],[n.lon,n.lat])<(c.r?c.r/6371:0.016); }
+// strongest it was at any point in a window
+function rangeHeat(id,y0,y1){ const a=STD[id][0], b=STD[id][1]; if(y0<=b&&y1>=a) return 1; return y1<a?heatAt(id,y1):heatAt(id,y0); }
+const hex2=c=>{ c=c.replace('#',''); if(c.length===3) c=c.split('').map(x=>x+x).join(''); return [0,2,4].map(i=>parseInt(c.slice(i,i+2),16)); };
+function mixC(a,b,t){ const A=hex2(a), B=hex2(b); if(A.some(isNaN)||B.some(isNaN)) return a; return '#'+A.map((v,i)=>Math.round(v+(B[i]-v)*t).toString(16).padStart(2,'0')).join(''); }
+function stColor(id){ const base=RCC[byId[id].reg]||regColor(byId[id].reg), v=STV&&STV.get(id); if(!v) return base; return mixC(base,ST_MUTED,v.anc?.8:Math.max(0,1-v.h)*.85); }
+function stOp(id){ const v=STV&&STV.get(id); if(!v) return 1; return v.anc?.3:.18+.82*v.h; }
+// a newborn movement grows in over a short stretch of (log) time
+const GROW_DU=0.007, COMET_DU=0.022, LANE_DU=0.03;
+const growth=id=>STON?clamp01((stU-U(byId[id].year))/GROW_DU):1;
+
+/* tree: lanes open ahead of a birth, so the space arrives before the movement */
+const LANEF={}; Object.keys(TRADM).forEach(t=>LANEF[t]=1);
+function laneTargets(){ const T={}; if(!STON){ for(const t in TRADM) T[t]=1; return T; }
+  const yl=UinvF(stU+LANE_DU);
+  for(const t in TRADM) T[t]=TRADM[t].some(m=>STV.has(m)||(byId[m].year>STYf&&byId[m].year<=yl&&placeKnown(m,yl)))?1:0;
+  return T; }
+let WL=null;                                         // the selected movement's world line: principal ancestors, itself, its most significant descendants
+function worldline(id){
+  if(!id) return null; const up=[]; let x=byId[id]; while(x.parents.length){ x=byId[x.parents[0]]; up.unshift(x.id); }
+  const down=[]; let y=id; for(let k=0;k<40;k++){ const kids=byId[y].children.filter(c=>byId[c].year>=byId[y].year&&placeKnown(c,2026)); if(!kids.length) break;
+    kids.sort((a,b)=>(SC[b][0]+SC[b][2])-(SC[a][0]+SC[a][2])||byId[a].year-byId[b].year); y=kids[0]; down.push(y); }
+  return [...up,id,...down];
+}
+const smooth=t=>t*t*(3-2*t);
+function worldlineY(){ if(!WL) return null; let k=-1; WL.forEach((id,i)=>{ if(byId[id].year<=STYf) k=i; });
+  if(k<0) return SY(WL[0]); if(k===WL.length-1) return SY(WL[k]);
+  const a=WL[k], b=WL[k+1], p=clamp01((stU-U(byId[a].year))/Math.max(1e-6,U(byId[b].year)-U(byId[a].year)));
+  return SY(a)+(SY(b)-SY(a))*smooth(p); }
+let treeUser=0;                                      // last time the person dragged or zoomed the tree: the camera backs off
+function treeFrame(dt){
+  const b=box(), W=b.clientWidth, H=b.clientHeight; if(!W) return false;
+  const T=laneTargets(); let moving=false;
+  // anchor: keep what is in the middle of the view still while lanes above it open or close
+  let anchor=null, ay=0; if(!WL||!(stPlay||TP)){ let best=1e9; for(const id of (STV?STV.keys():Object.keys(nodeEls))){ const y=SY(id), d=Math.abs(y-H/2); if(y>AXH&&y<H&&d<best){ best=d; anchor=id; } } if(anchor) ay=SY(anchor); }
+  const k=1-Math.exp(-dt*4.5);
+  for(const t in T){ const d=T[t]-LANEF[t]; if(Math.abs(d)>0.002){ LANEF[t]+=dt?d*k:d; moving=true; } else LANEF[t]=T[t]; }
+  GEO=buildGeo(STON?LANEF:null);
+  if(anchor) ty+=ay-SY(anchor);
+  const follow=(stPlay||TP)&&performance.now()-treeUser>2500;
+  if(follow&&!TP){ const kk=1-Math.exp(-dt*3);
+    if(W0*hx()>W){ tx+=(0.62*W-sx(STYf)*hx()-tx)*kk; }
+    const fy=worldlineY(); if(fy!=null) ty+=(H/2-fy)*kk; }
+  clampView(); render();
+  return moving;
+}
+function stBarUI(){
+  document.getElementById('stctl').hidden=!STON;
+  document.getElementById('stslider').value=Math.round(stU*1000);
+  document.getElementById('styr').innerHTML=STY<0?`${-STY}<small>BCE</small>`:(STY<1000?`${STY}<small>CE</small>`:String(STY));
+  document.getElementById('stwhere').textContent=(STFROM===T0?(STY>=T1?'all of history':'and everything before'):STFROM!=null?`from ${fmtY(STFROM)}`:STSPAN?`± ${STSPAN} years`:'')+(STP?` · ${FPL==='made'?'made':'heard'} in ${placeName()}`:' · everywhere')+(FG?` · ${fgName()}`:'');
+  document.getElementById('stback').setAttribute('aria-pressed',String(stPlay<0));
+  document.getElementById('stfwd').setAttribute('aria-pressed',String(stPlay>0));
+  document.getElementById('stmoment').setAttribute('aria-pressed',String(stPanelOpen));
+  document.getElementById('stpanel').hidden=!(STON&&stPanelOpen&&['tree','map','tunnel'].includes(curView()));
+}
+// one loop drives time, the tree, the map and the tunnel
+function stApply(){ stCompute(); stBarUI(); WL=worldline(selected); stKick(); if(curView()==='map') requestMapDraw(); stPanelUpdate(); if(curView()==='list') filterList(); FHOOKS.forEach(f=>{ try{ f(); }catch(e){} }); }
+function stKick(){ if(!stRAF){ stLast=0; stRAF=requestAnimationFrame(stTick); } }
+function stTick(ts){
+  stRAF=0; const dt=stLast?Math.min(.08,(ts-stLast)/1000):0; stLast=ts; let busy=false;
+  if(TP) busy=tpStep(ts)||busy;
+  else if(stPlay){ stU=Math.max(0,Math.min(1,stU+stPlay*stMult*0.016*dt)); setYearU(stU);
+    if((stU<=0&&stPlay<0)||(stU>=1&&stPlay>0)){ stopPlay(); }
+    stCompute(); stBarUI(); busy=true;
+    if(ts-stPanelT>400){ stPanelT=ts; stPanelUpdate(); } }
+  const v=curView();
+  if(v==='tree') busy=treeFrame(dt)||busy;
+  else if(v==='map'&&(stPlay||TP)) requestMapDraw();
+  else if(v==='tunnel'){ tunnelDraw(dt); busy=true; }
+  if(busy||stPlay) stRAF=requestAnimationFrame(stTick); else stLast=0;
+}
+function setYearU(u){ stU=Math.max(0,Math.min(1,u)); STYf=UinvF(stU); STY=Math.round(STYf); }
+function setYear(y){ STYf=Math.max(T0,Math.min(T1,y)); STY=Math.round(STYf); stU=U(STYf); }
+function stopPlay(){ stPlay=0; stBarUI(); }
+function stSet(on){ if(!on) resetFilters('all'); }
+function setPlace(p){
+  if(p&&!STON){ STON=true; regFocus=null; }
+  STP=p; syncLegend(); stApply(); applyHighlight();
+}
+
+/* "this moment": what was at its peak here, and a Spotify prompt for the place and time */
+// who is asking (set by life journeys): 'visitor' on a short trip, 'newcomer' after a move, 'carry' for the old country's music kept at home; and songs already used by earlier stops
+let STROLE=null, STSKIP=null;
+const skKey=(a,t)=>String(a).toLowerCase().replace(/\s*\(.*?\)/g,'').trim()+'|'+String(t).toLowerCase().replace(/\s*\(.*?\)/g,'').trim();
+const skipped=s=>!!STSKIP&&STSKIP.has(skKey(s[0],s[1]));
+function stRange(){ return STFROM!=null?[Math.min(STFROM,STY),STY]:[STY-STSPAN, Math.min(T1,STY+STSPAN)]; }
+const stSingle=()=>STFROM==null&&!STSPAN;
+// the stay: a number of years either side, 'until' (everything up to the year) or a start year
+function setStay(v,from){ if(v==='until'){ STFROM=T0; STSPAN=1; } else if(v==='from'){ STFROM=Math.max(T0,Math.min(STY,Math.round(+from))); STSPAN=1; } else { STFROM=null; STSPAN=+v||0; } }
+const timeIsDefault=()=>STFROM===T0&&STY>=T1;
+const fActive=()=>!!(STP||FG||!timeIsDefault()||FTM==='made');
+const inF=id=>{ const v=STV&&STV.get(id); return !!v&&!v.anc; };
+function resetFilters(which){ stopPlay();
+  if(which==='place'||which==='all'){ STP=null; FPL='heard'; }
+  if(which==='time'||which==='all'){ setYear(T1); setStay('until'); FTM='heard'; }
+  if(which==='genre'||which==='all'){ FG=null; }
+  if(which==='all') stPanelOpen=false;
+  syncLegend(); stApply(); applyHighlight(); }
+function stWhen(){ return whenIn(null); }
+function bornHere(id,P=STP){ if(!P||P.k!=='city') return false; const c=CITIES[P.i], n=byId[id]; return gcDist([c.lon,c.lat],[n.lon,n.lat])<0.012; }
+function stCands(){
+  const [y0,y1]=stRange();
+  const ids=N.filter(n=>n.year<=y1&&placeKnown(n.id,y1)).map(n=>n.id);
+  const h=id=>Math.max(heatAt(id,y0),heatAt(id,STY),heatAt(id,y1));
+  // several places: a movement counts by the place that knows it best
+  const PS=!STP?[]:(STP.k==='multi'?STP.items:[STP]), pIso=P=>P.k==='city'?CITIES[P.i].iso2:P.iso;
+  const local1=(id,P)=>P.k==='reg'?(byId[id].reg===P.reg?3:0):((CNT[id]&&CNT[id][0]===pIso(P))?3:0)+(bornHere(id,P)?2:0);
+  const local=id=>PS.length?Math.max(...PS.map(P=>local1(id,P))):0;
+  // how strongly this place took to it: home sound > one of its biggest markets > one of many > a later arrival
+  const strength1=(id,P)=>{ const c=CNT[id]; if(P.k==='reg'){ return byId[id].reg===P.reg?1:.7; }
+    const iso=pIso(P); if(!c) return .6; if(c[0]===iso) return 1; const i=c[1].indexOf(iso); if(i<0) return .45; return i<3?.85:(i<8?.7:.55); };
+  const strength=id=>PS.length?Math.max(...PS.map(P=>strength1(id,P))):1;
+  // home sounds get a boost scaled by how widely known they are (F), so a big country's niche scenes don't drown its mainstream
+  // a country with only a few home sounds: they lead. A country that originated many (the US, the UK): weigh its home sounds by how widely known they are
+  const nLoc=ids.filter(id=>local(id)>0&&Math.max(heatAt(id,y0),heatAt(id,STY),heatAt(id,y1))>=.5).length;
+  const w=c=>c.h*(2+SC[c.id][0]+.8*SC[c.id][2])*strength(c.id)+local(c.id)*(nLoc<=4?1:(.25+.75*SC[c.id][2]/5));
+  return ids.map(id=>({id,h:h(id),s:strength(id),loc:local(id)>0})).filter(c=>c.h>=.5).sort((a,b)=>w(b)-w(a));
+}
+// tracks that existed by the end of the visit, nearest to the chosen year first.
+// Recorded era: by release year. Before recording: by when the piece was written (modern recordings of old works are fine)
+function datedTracks(id){
+  const out=[], pl=PL[id], d=DEFS[id];
+  // albums and anthologies stand in for single songs in some reference lists; a seed list needs songs
+  const notSong=f=>/^various\b/i.test(f[0])||/\(album\)|anthologie|anthology|benga blast|benga beat|trance of seven colors|indestructible beat of soweto|tribal music of/i.test(f[1]);
+  if(d) d.fits.forEach(f=>{ if(+f[2]&&!notSong(f)) out.push({a:f[0],t:f[1],rel:+f[2],work:null}); });
+  if(pl&&pl.status!=='none'){ const L=[...pl.intro,...pl.peak], Y=pl.yrs||[]; L.forEach((x,i)=>{ const y=Y[i]; out.push({a:x[0],t:x[1],rel:y?y[0]:null,work:y?y[1]:null}); }); }
+  return out;
+}
+function stTracks(id,k,old){
+  const [y0,y1]=stRange(), seen=new Set(), out=[];
+  // before about 1925 few recordings exist: a piece counts if it was written by then (work) or recorded by then (rel)
+  // a modern performance of an undated piece in a tradition older than recording counts as that tradition's repertoire
+  const trad=byId[id].year<1900?byId[id].year:null;
+  const when=x=>old?(x.work!=null?x.work:(x.rel!=null&&x.rel<=y1?x.rel:trad)):x.rel;
+  const pool=datedTracks(id).filter(x=>{ const w=when(x); return w!=null&&w<=y1; });
+  pool.sort((p,q)=>Math.abs(when(p)-STY)-Math.abs(when(q)-STY));
+  for(const x of pool){ const key=x.t.toLowerCase(); if(seen.has(key)) continue; seen.add(key); out.push([x.a,x.t]); if(out.length>=k) break; }
+  return out;
+}
+function stPrompt(){
+  const place=placeName(), when=stWhen(), [y0,y1]=stRange(), there=place?'there':'around the world';
+  const go=place?`takes me to ${place}`:'takes me around the world', cands=stCands(), mode=PMODE;
+  // genre fallback where no era list exists: home sounds first; in "heard there" foreign sounds fill at most a quarter, in "made there" none
+  const collect=old=>{ const picks=[]; let used=0, nForeign=0;
+    const order=[...cands.filter(c=>c.loc),...(mode==='home'&&STP?[]:cands.filter(c=>!c.loc))];
+    for(const c of order){ if(picks.length>=16||used>=9) break;
+      if(STP&&STY>=1900&&c.id==='tilawa') continue;            // recitation is not a song on a what-was-on-the-radio list
+      if(!c.loc&&STP&&nForeign>=4) continue;
+      const nl=cands.filter(x=>x.loc).indexOf(c), k=c.loc?(nl===0?(c.h>=.99?6:4):nl<3?3:2):1;
+      const t=stTracks(c.id,Math.min(k,16-picks.length),old); if(t.length){ used++; picks.push(...t); if(!c.loc) nForeign+=t.length; } }
+    return picks; };
+  let old=y1<1925, picks=null, era=false;
+  const ys=!old&&STP?yearSeeds(mode):null; if(ys&&ys.length>=6){ picks=ys.map(x=>[x[0],x[1]]); era='year'; }
+  else if(ys&&ys.length){ // a thin year: its sourced hits first, then the decade list
+    const es=eraSeeds(mode)||[], all=dedupeSongs([...ys,...es]); if(all.length>=6){ picks=all.slice(0,16).map(x=>[x[0],x[1]]); era='year'; }
+    else{ picks=dedupeSongs([...all.map(x=>[x[0],x[1]]),...collect(old)]).slice(0,16); era='mix'; } }   // very thin: the few sourced songs lead, the sounds alive there fill the rest
+  if(!picks&&!old&&STP){ const es=eraSeeds(mode); if(es&&es.length>=6){ picks=es.map(x=>[x[0],x[1]]); era=true; }
+    else if(es&&es.length){ // a short list: its songs first, the rest from the sounds alive there
+      picks=dedupeSongs([...es.map(x=>[x[0],x[1]]),...collect(old)]).slice(0,16); era='mix'; } }
+  if(!picks){ picks=collect(old); if(!old&&picks.length<4&&y1<1960){ const p2=collect(true); if(p2.length>picks.length){ old=true; picks=p2; } } }
+  if(STSKIP) picks=picks.filter(x=>!skipped(x));
+  const code=STROLE?null:useLang(langOfPlace()), T=code?LT(code):null, E=LANGS.en;
+  const fill=t=>t.replace(/\{place\}/g,code?placeNameIn(code):(place||'the world')).replace(/\{when\}/g,code?whenIn(code):when).replace(/\{end\}/g,code?fmtYIn(code,y1):fmtY(y1));
+  const pick=L=>old?L.momentOld:(STP?(mode==='home'?(L.momentHome||L.momentRec):(L.momentHeard||L.momentRec)):L.momentRec);
+  let head=T?fill(pick(T)):(STP||old?fill(pick(E)).replace('takes me to  in','takes me around the world in'):
+    `Please make me a playlist that ${go} in ${when} and lets me live there for a while. Play what people ${there} were really listening to at that time, in the original recordings: the hits on the radio, the records at parties, the songs in cafés and on the street, the local sounds and the imports everyone loved, all released by ${fmtY(y1)}. Ease me in with the biggest songs of the moment, then wander through everything the world was loving, from the famous to the local favourites. Below are tracks from the sounds alive ${there} then, all released by ${fmtY(y1)}. They are only where the trip begins: play as many of them as feel right, then keep going and fill my whole stay with everything else that belongs there. Take me on as long a trip as you can, and don't bring me home early. Order everything so each song flows into the next and nothing jars.`);
+  if(!T&&STP&&!old&&y0===y1){ head=head.replace('(the radio hits, the dance and party favourites, the film songs, the evergreens everyone knew by heart)',`(that year's biggest hits on the radio, on TV, on YouTube and in the streaming charts, the dance and party favourites, and the regional and street sounds everyone was playing)`)
+      .replace('Start with the songs below, which were heard there then','Start with the songs below, which were the hits there that year').replace('the way someone who grew up there remembers it','the way someone who lived there then remembers that year')
+      .replace('Mix the biggest local hits with the songs every local knew by heart','Mix that year\'s biggest local hits from every scene'); }
+  if(!T&&STP&&!old&&STROLE){ const sub=(re,to)=>{ head=head.replace(re,to); };
+    if(STROLE==='visitor'){ sub(/ and lets me live there for a while, the way someone who (grew up there remembers it|lived there then remembers that year)\./,' on a short visit, the way a visitor remembers that trip: what was playing in the shops, taxis, cafés, bars and on the radio there right then.');
+      sub('fill my whole stay with','fill the visit with'); sub("Take me on as long a trip as you can, and don't bring me home early. ",''); }
+    else if(STROLE==='newcomer'){ sub(/the way someone who (grew up there remembers it|lived there then remembers that year)\./,'the way someone who had just moved there remembers it: what a newcomer heard on the radio, on television, at work and in the shops, the big songs everyone around them knew, not the deep local cuts.'); }
+    else if(STROLE==='carry'){ sub(/that takes me to (.+?) in (.+?), made only of music from there:/,'of the music from $1 that people who had moved abroad kept playing at home in $2, the records and tapes they brought along and the new hits sent from home:'); sub('fill my whole stay with','fill it with'); } }
+  let list=picks.slice(), txt;
+  do{ txt=head+(list.length?`\n\n${T?T.labels[old?'pieces':'tracks']:(old?'Pieces':'Tracks')}: `+list.map(x=>`${nm(x[0])} - ${nm(x[1])}`).join('; '):''); if(txt.length<=2000) break; list.pop(); }while(list.length);
+  return {txt,cands,era,seeds:list};
+}
+function stPanelUpdate(){
+  if(!STON||!stPanelOpen) return;
+  const pr0=stPrompt(), {txt,cands}=pr0;
+  document.getElementById('sthere').textContent=`${placeName()||'Everywhere'} · ${stWhen()}`;
+  const chips=cands.slice(0,18);
+  document.getElementById('stpeaks').innerHTML=chips.length?chips.map(c=>`<button type="button" data-id="${c.id}" title="${c.h>=.99?'At its peak':(STY<STD[c.id][0]?'On the rise':'Past its peak, still loved')}"${c.h>=.99?'':' class="anc"'}><i style="background:${stColor(c.id)}"></i>${esc(byId[c.id].name)}</button>`).join(''):'<span class="fine">Nothing on record here at this moment. Travel on, or pick another place.</span>';
+  document.getElementById('stpeaks').querySelectorAll('button').forEach(b=>b.onclick=()=>select(b.dataset.id));
+  const ta=document.getElementById('stprompt'); ta.value=txt; document.getElementById('stlen').textContent=`${txt.length} characters`;
+  document.getElementById('stplang').innerHTML=plangToggle(langOfPlace())+namesToggle(hasTwoForms(pr0.seeds||[]));
+  document.getElementById('stpmode').innerHTML=STP?pmodeToggle():'';
+  const pr=stPrompt(), src=eraSource(), iso=placeIso(), key=iso&&(iso+'_'+decadeKey(STY));
+  document.getElementById('stsrc').innerHTML=(pr.era?`${pr.era==='year'?`Seed songs: the year's biggest hits in ${esc(isoName(iso))}, from published year-end charts.`:''}${pr.era==='year'?'':`Seed songs: ${pr.era==='mix'?'partly ':''}what people in ${esc(isoName(iso))} heard then, ${PMODE==='home'?'home-grown only':'mostly home-grown'}, from ${src==='researched'?'a researched list':src==='verified'?'a list verified after an earlier trip':'<b>an AI draft, not yet verified</b>'}.`}`
+    :(key&&drafting.has(key)?'Drafting a song list for this place and decade…':(STP?'Seed songs: from the sounds alive here (no song list for this place and time yet).':'')))
+    +(STP&&iso&&SAMPLE&&DB?` <label class="fine fillsw"><input type="checkbox" id="stfill"${FILL?' checked':''}> Fill gaps with AI drafts</label>`:'');
+  const fb=document.getElementById('stfill'); if(fb) fb.onchange=()=>{ FILL=fb.checked; try{ localStorage.setItem('wmft-fill',FILL?'on':'off'); }catch(e){} stPanelUpdate(); };
+  stLinks(pr); maybeFill(); logTravel();
+  const rq=document.getElementById('streqbox'); if(rq){ rq.innerHTML=researchLine(); const rb=document.getElementById('streq'); if(rb) rb.onclick=askResearch; }
+  document.getElementById('sttest').hidden=!SAMPLE;
+}
+
+/* ---------- time tunnel: the past recedes toward a point of light at the centre, what is at its peak rides the rim ---------- */
+const hash01=s=>{ let h=2166136261; for(const c of s){ h^=c.charCodeAt(0); h=Math.imul(h,16777619); } return ((h>>>0)%10007)/10007; };
+// where a star sits: its tradition is a galaxy, placed by the geography of its members (Europe up, Americas left, Africa down, Asia right); members cluster around it
+const TANG={}, TRAD01={}, GALA={}, GALR={};
+{ const geo=n=>Math.atan2(-(n.lat-18)*1.6, n.lon-15);
+  for(const t in TRADM){ let sx_=0, sy_=0; TRADM[t].forEach(id=>{ const a=geo(byId[id]); sx_+=Math.cos(a); sy_+=Math.sin(a); });
+    GALA[t]=Math.atan2(sy_,sx_)+(hash01('ga'+t)-.5)*.25; GALR[t]=.5+.42*hash01('gr'+t); }
+  N.forEach(n=>{ const t=TRAD_OF[n.id], m=t?TRADM[t].length:1, spread=Math.min(.9,.2+.05*m);
+    TANG[n.id]=(t?GALA[t]:geo(n))+(hash01(n.id)-.5)*spread; TRAD01[n.id]=Math.max(.4,Math.min(.99,(t?GALR[t]:.7)+(hash01(n.id+'r')-.5)*.17)); }); }
+const STARS=Array.from({length:900},(_,i)=>({u:hash01('su'+i), a:hash01('sa'+i)*Math.PI*2, r:.35+hash01('sr'+i)*.85, w:.5+hash01('sw'+i), c:hash01('sc'+i)}));
+let TUNHITS=[], TUNHOVER=null, TUNV=0, TUNU=1;
+// soft round glow in one colour, drawn once and reused
+const GLOW={};
+function glow(col){ let c=GLOW[col]; if(c) return c; c=GLOW[col]=document.createElement('canvas'); c.width=c.height=64; const x=c.getContext('2d');
+  const g=x.createRadialGradient(32,32,0,32,32,32); g.addColorStop(0,'rgba(255,255,255,1)'); g.addColorStop(.18,'rgba(255,255,255,.7)'); g.addColorStop(.45,'rgba(255,255,255,.22)'); g.addColorStop(1,'rgba(255,255,255,0)');
+  x.fillStyle=g; x.fillRect(0,0,64,64); x.globalCompositeOperation='source-in'; x.fillStyle=col; x.fillRect(0,0,64,64); return c; }
+function tunnelDraw(dt){
+  const cv=document.getElementById('tunnel'); if(!cv) return;
+  const dpr=Math.min(2,window.devicePixelRatio||1), W=cv.clientWidth, H=cv.clientHeight; if(!W||!H) return;
+  if(cv.width!==Math.round(W*dpr)||cv.height!==Math.round(H*dpr)){ cv.width=Math.round(W*dpr); cv.height=Math.round(H*dpr); }
+  const ctx=cv.getContext('2d'); ctx.setTransform(dpr,0,0,dpr,0,0);
+  const bg=css('--tun-bg'), fg=css('--tun-fg'), ring=css('--tun-ring'), tnow=performance.now()/1000;
+  // speed through time drives every streak, whatever moved the clock
+  const vel=dt?(stU-TUNU)/dt:0; TUNU=stU; TUNV+=(vel-TUNV)*Math.min(1,dt*6);
+  ctx.globalCompositeOperation='source-over'; ctx.globalAlpha=1; ctx.fillStyle=bg; ctx.fillRect(0,0,W,H);
+  const cx=W/2, cy=H/2, R0=Math.min(W,H)*.5, K=15, ZMAX=7.5, cu=stU, deep=1-cu;
+  const speed=Math.min(1,Math.abs(TUNV)*32), dir=TUNV>=0?1:-1;          // 0 at rest, 1 at full speed; forward in time sends the past inward
+  const tail=speed*.75;                                                  // streak length as a share of the distance from the centre
+  // the source: a point of light at the vanishing point, brighter the further back you are
+  const glowR=R0*(.05+.55*Math.pow(deep,1.6))+speed*R0*.25, glowA=.12+.85*Math.pow(deep,1.3);
+  const gr=ctx.createRadialGradient(cx,cy,0,cx,cy,glowR); gr.addColorStop(0,`rgba(255,250,235,${glowA})`); gr.addColorStop(.25,`rgba(255,214,150,${glowA*.55})`); gr.addColorStop(1,'rgba(120,140,255,0)');
+  ctx.fillStyle=gr; ctx.beginPath(); ctx.arc(cx,cy,glowR,0,Math.PI*2); ctx.fill();
+  ctx.fillStyle=`rgba(255,255,255,${.35+.65*Math.pow(deep,1.2)})`; ctx.beginPath(); ctx.arc(cx,cy,1.5+5*Math.pow(deep,2),0,Math.PI*2); ctx.fill();
+  const zOf=u=>1+Math.max(0,cu-u)*K, fadeZ=z=>Math.max(0,1-(z-1)/(ZMAX-1));
+  // a streak from (r) trailing behind the motion: outward when the past is falling away, inward when it rushes back
+  const ray=(ang,r,len,w,col,a)=>{ if(len<.8){ return; } const r1=Math.max(0,r+dir*len), ca=Math.cos(ang), sa=Math.sin(ang);
+    const g=ctx.createLinearGradient(cx+ca*r,cy+sa*r,cx+ca*r1,cy+sa*r1); g.addColorStop(0,col); g.addColorStop(1,'rgba(0,0,0,0)');
+    ctx.globalAlpha=a; ctx.strokeStyle=g; ctx.lineWidth=w; ctx.beginPath(); ctx.moveTo(cx+ca*r,cy+sa*r); ctx.lineTo(cx+ca*r1,cy+sa*r1); ctx.stroke(); };
+  ctx.lineCap='round'; ctx.globalCompositeOperation='lighter';
+  // the field of distant stars
+  STARS.forEach(st=>{ if(st.u>cu) return; const z=zOf(st.u); if(z>ZMAX) return; const r=R0*st.r/z*1.15, a=fadeZ(z), ca=Math.cos(st.a), sa=Math.sin(st.a);
+    const tw=.75+.25*Math.sin(tnow*(1.2+st.w)+st.c*30), col=st.c<.12?'#ffd9a8':st.c>.9?'#a9c4ff':ring, w=Math.max(.5,1.5*st.w/z);
+    if(tail>0.01) ray(st.a,r,r*tail*(.5+.6*st.w),w,col,(.3+.5*a)*tw);
+    ctx.globalAlpha=(.22+.5*a)*tw; ctx.fillStyle=col; ctx.beginPath(); ctx.arc(cx+ca*r,cy+sa*r,w*.75,0,Math.PI*2); ctx.fill(); });
+  ctx.globalCompositeOperation='source-over';
+  ctx.font='500 11px '+css('--mono'); ctx.textAlign='center';
+  let lastR=1e9;
+  TICKCAND.forEach(t=>{ if(t>STYf) return; const z=zOf(U(t)); if(z>ZMAX) return; const r=R0*.98/z; if(lastR-r<14) return;
+    const a=fadeZ(z); ctx.globalAlpha=.05+.2*a; ctx.strokeStyle=ring; ctx.lineWidth=1; ctx.beginPath(); ctx.arc(cx,cy,r,0,Math.PI*2); ctx.stroke();
+    ctx.globalAlpha=.25+.5*a; ctx.fillStyle=fg; ctx.fillText(fmtY(t),cx,cy-r-4); lastR=r; });
+  ctx.globalAlpha=.13; ctx.fillStyle=fg; ctx.font=`600 ${Math.round(Math.min(W,H)*.13)}px ${css('--mono')}`; ctx.textBaseline='middle';
+  ctx.fillText(fmtY(STYf),cx,cy-Math.min(W,H)*.02); ctx.font=`500 ${Math.round(Math.min(W,H)*.03)+4}px ${css('--body')}`; ctx.fillText(placeName()||'Everywhere',cx,cy+Math.min(W,H)*.09);
+  ctx.textBaseline='alphabetic';
+  // the movements alive here and now, each a star
+  const items=[], gal={};
+  if(STV) STV.forEach((v,id)=>{ const b=STD[id][1]; const z=zOf(STYf<=b?cu:U(b)); if(z>ZMAX) return;
+    const g=growth(id), a=fadeZ(z)*g, ang=TANG[id], rad=R0*(.6+.34*TRAD01[id])/z*(1.25-.25*g);
+    const it={id,v,z,a,g,rad,x:cx+Math.cos(ang)*rad,y:cy+Math.sin(ang)*rad,ang,op:a*(v.anc?.3:.25+.75*v.h),pri:(id===selected?20:0)+(v.anc?0:v.h*3)+SC[id][0]*.5-z*.4};
+    items.push(it); const t=TRAD_OF[id]; if(t) (gal[t]=gal[t]||[]).push(it); });
+  // traditions as galaxies: a soft disc of light and dust around the stars that belong together
+  const dens=Math.min(1,Math.sqrt(55/Math.max(1,items.length)));       // a crowded sky gets fainter halos so it never burns out to white
+  ctx.globalCompositeOperation='lighter'; const galLabels=[];
+  for(const t in gal){ const ms=gal[t]; if(ms.length<2) continue; let wx=0, wy=0, w=0, hh=0; ms.forEach(m=>{ const k=.2+m.op; wx+=m.x*k; wy+=m.y*k; w+=k; hh+=m.op; });
+    const gx=wx/w, gy=wy/w, inten=Math.min(1,hh/ms.length*1.4); let rr=0; ms.forEach(m=>{ rr=Math.max(rr,Math.hypot(m.x-gx,m.y-gy)); }); rr=rr*1.25+10;
+    const col=RCC[TREG[t]]||regColor(TREG[t]), rot=Math.atan2(gy-cy,gx-cx)+Math.PI/2+(hash01('rot'+t)-.5)*.8, sq=.5+.25*hash01('sq'+t);
+    ctx.save(); ctx.translate(gx,gy); ctx.rotate(rot); ctx.scale(1,sq);
+    ctx.globalAlpha=(.1+.24*inten)*dens; ctx.drawImage(glow(col),-rr*1.7,-rr*1.7,rr*3.4,rr*3.4);
+    ctx.globalAlpha=(.04+.1*inten)*dens; ctx.drawImage(glow('#ffffff'),-rr*.4,-rr*.4,rr*.8,rr*.8);
+    // dust: small stars turning slowly around the core
+    const nd=rr<14?0:Math.min(30,6+ms.length*4), spin=tnow*.03*(hash01('sp'+t)<.5?-1:1); ctx.fillStyle=col;
+    for(let k=0;k<nd;k++){ const d=rr*1.25*Math.pow(hash01(t+'d'+k),1.4), a=hash01(t+'a'+k)*Math.PI*2+spin*(1.6-d/(rr*1.25))+d*.012;
+      ctx.globalAlpha=(.2+.4*inten)*(1-d/(rr*1.4))*(.5+.5*dens); ctx.beginPath(); ctx.arc(Math.cos(a)*d,Math.sin(a)*d,.7+.6*hash01(t+'s'+k),0,Math.PI*2); ctx.fill(); }
+    ctx.restore();
+    if(tail>0.01) ray(Math.atan2(gy-cy,gx-cx),Math.hypot(gx-cx,gy-cy),Math.hypot(gx-cx,gy-cy)*tail*.6,rr*.5,col,.05+.1*inten);
+    if(ms.length>=3) galLabels.push({t,x:gx,y:gy+rr*sq+11,inten,n:ms.length}); }
+  items.sort((p,q)=>q.z-p.z);
+  items.forEach(it=>{ const v=it.v, h=v.anc?.25:v.h, base=RCC[byId[it.id].reg]||regColor(byId[it.id].reg), col=mixC(base,ST_MUTED,v.anc?.8:Math.round(Math.max(0,1-v.h)*.85*5)/5);
+    const tw=h>.6?1+.1*Math.sin(tnow*2.3+TRAD01[it.id]*40):1, op=Math.min(1,it.op*tw), rr=Math.max(1.1,(1.3+4.6*h)/Math.sqrt(it.z));
+    // thickness and brightness carry the strength; the streak is its motion through time
+    if(tail>0.01) ray(it.ang,it.rad,it.rad*tail*(.55+.6*h),Math.max(1,rr*1.5),col,op*.9);
+    ctx.globalAlpha=op*(.3+.65*dens); ctx.drawImage(glow(col),it.x-rr*3.6,it.y-rr*3.6,rr*7.2,rr*7.2);
+    ctx.globalCompositeOperation='source-over';
+    ctx.globalAlpha=op*.9; ctx.fillStyle=col; ctx.beginPath(); ctx.arc(it.x,it.y,rr*.8,0,Math.PI*2); ctx.fill();
+    ctx.globalAlpha=op*(.45+.5*h); ctx.drawImage(glow('#ffffff'),it.x-rr*.9,it.y-rr*.9,rr*1.8,rr*1.8);
+    ctx.globalCompositeOperation='lighter';
+    // birth: a shell of light spreading from a new star
+    if(it.g<1){ ctx.globalAlpha=(1-it.g)*.9; ctx.strokeStyle=col; ctx.lineWidth=1.5; ctx.beginPath(); ctx.arc(it.x,it.y,rr*(1.5+9*it.g),0,Math.PI*2); ctx.stroke();
+      ctx.globalAlpha=(1-it.g)*.5; ctx.drawImage(glow('#ffffff'),it.x-rr*5,it.y-rr*5,rr*10,rr*10); } });
+  ctx.globalCompositeOperation='source-over';
+  items.forEach(it=>{ if(it.id===selected){ const rr=Math.max(1.1,(1.3+4.6*(it.v.anc?.25:it.v.h))/Math.sqrt(it.z)); ctx.globalAlpha=1; ctx.strokeStyle=fg; ctx.lineWidth=2; ctx.beginPath(); ctx.arc(it.x,it.y,rr+5,0,Math.PI*2); ctx.stroke(); } });
+  const boxes=[]; TUNHITS=[];
+  items.slice().sort((p,q)=>q.pri-p.pri).forEach(it=>{
+    const fs=Math.max(9.5,Math.min(15,15/Math.pow(it.z,.55))), op=it.a*(it.v.anc?.45:.35+.65*it.v.h);
+    TUNHITS.push({id:it.id,x0:it.x-8,x1:it.x+8,y0:it.y-8,y1:it.y+8});
+    if(op<.18&&it.id!==selected) return;
+    ctx.font=`${it.v.h>=.99&&!it.v.anc?600:400}${it.v.anc?' italic':''} ${fs.toFixed(1)}px ${css('--body')}`;
+    const w=ctx.measureText(byId[it.id].name).width; let right=Math.cos(it.ang)>=-.15; if(right&&it.x+11+w>W) right=false; else if(!right&&it.x-11-w<0) right=true;
+    const x0=Math.max(2,Math.min(W-w-2,right?it.x+9:it.x-9-w)), y0=it.y-fs*.7, bx={x0:x0-2,x1:x0+w+2,y0:y0-1,y1:y0+fs+1};
+    if(it.id!==selected&&boxes.some(o=>bx.x0<o.x1&&bx.x1>o.x0&&bx.y0<o.y1&&bx.y1>o.y0)) return;
+    boxes.push(bx); TUNHITS.push({id:it.id,...bx});
+    ctx.globalAlpha=Math.min(1,(op+(it.id===selected||it.id===TUNHOVER?.4:0))*(1-.45*speed)); ctx.fillStyle=fg; ctx.textAlign='left';
+    ctx.fillText(byId[it.id].name,x0,it.y+fs*.35); });
+  // the brightest galaxies carry their tradition's name, where there is room
+  ctx.textAlign='center'; ctx.font=`500 10px ${css('--body')}`;
+  galLabels.sort((a,b)=>b.inten*b.n-a.inten*a.n).slice(0,7).forEach(g=>{ const nm=TRADN[g.t]; if(!nm) return; const txt=nm.toUpperCase(), w=ctx.measureText(txt).width+txt.length*.8, bx={x0:g.x-w/2-2,x1:g.x+w/2+2,y0:g.y-9,y1:g.y+3};
+    if(bx.x0<4||bx.x1>W-4||bx.y1>H-4||boxes.some(o=>bx.x0<o.x1&&bx.x1>o.x0&&bx.y0<o.y1&&bx.y1>o.y0)) return; boxes.push(bx);
+    ctx.globalAlpha=(.3+.3*g.inten)*(1-.6*speed); ctx.fillStyle=ring; try{ ctx.letterSpacing='0.8px'; }catch(e){} ctx.fillText(txt,g.x,g.y); try{ ctx.letterSpacing='0px'; }catch(e){} });
+  ctx.globalAlpha=1; ctx.textAlign='left';
+}
+function tunnelHit(e){ const cv=document.getElementById('tunnel'), r=cv.getBoundingClientRect(), x=e.clientX-r.left, y=e.clientY-r.top;
+  for(let i=TUNHITS.length-1;i>=0;i--){ const h=TUNHITS[i]; if(x>=h.x0&&x<=h.x1&&y>=h.y0&&y<=h.y1) return h.id; } return null; }
+
+/* ---------- teleport: a flash, then the interface travels to a random place and moment ---------- */
+function pickPlace(y,rich){
+  // a random country weighted by how much music it knew at that moment (squared, so lively places win most of the time); sometimes a city in it
+  const isos=Object.keys(ISO).filter(k=>k!=='AQ'&&k!=='TF');
+  const cnt=isos.map(iso=>N.filter(n=>n.year<=y&&placeKnown(n.id,y,{k:'cty',iso})&&heatAt(n.id,y)>=.5).length);
+  const w=cnt.map(c=>rich&&c<5?0:Math.pow(c,0.9));
+  const tot=w.reduce((a,b)=>a+b,0); if(!tot) return null;
+  let x=Math.random()*tot, iso=isos[0]; for(let i=0;i<isos.length;i++){ x-=w[i]; if(x<=0){ iso=isos[i]; break; } }
+  const cities=CITIES.map((c,i)=>({c,i})).filter(o=>o.c.iso2===iso&&cityAlive(o.c,y)&&o.c.size>=2&&o.c.kind!=='area');
+  if(cities.length&&Math.random()<.65){ const o=cities[Math.floor(Math.random()*cities.length)]; return {k:'city',i:o.i,iso}; }
+  return {k:'cty',iso};
+}
+function placeInside(pl,within){ if(!within||within.k==='city') return true; if(within.k==='multi') return within.items.some(q=>placeInside(pl,q)); const iso=pl.k==='reg'?null:(pl.iso||CITIES[pl.i].iso2); if(!iso) return within.k==='reg'&&pl.reg===within.reg; return within.k==='reg'?isoReg(iso)===within.reg:iso===within.iso; }
+function teleportPick(fresh){ const within=STP, been=fresh&&window.PEOPLE?window.PEOPLE.travelled():null;
+  // most jumps land where and when a lot was happening; about one in eight may land in a sparse, older world
+  const rich=Math.random()<.88;
+  for(let k=0;k<160;k++){
+    const pool=N.filter(n=>STD[n.id][1]>=-1500&&(rich?STD[n.id][1]>=1900:STD[n.id][0]<1900)&&fMember(n.id)); const w=pool.map(n=>SC[n.id][0]+SC[n.id][2]), tot=w.reduce((a,b)=>a+b,0);
+    let x=Math.random()*tot, m=pool[0]; for(let i=0;i<pool.length;i++){ x-=w[i]; if(x<=0){ m=pool[i]; break; } }
+    const a=Math.max(rich?1900:T0,STD[m.id][0]), b=Math.min(rich?T1:1899,STD[m.id][1]); if(b<a) continue; const y=Math.round(a+Math.random()*(b-a)), place=pickPlace(y,rich);
+    if(!place||!placeInside(place,within)) continue;
+    if(been&&y>=1940&&been.has((place.iso||CITIES[place.i].iso2)+'_'+Math.floor(y/10)*10)) continue;
+    return {y,place};
+  }
+  return {y:1965,place:{k:'cty',iso:'SE'}};
+}
+// shortest path between two movements in the family graph, for the tree to travel along
+function graphPath(a,b){ if(!a||a===b) return [b]; const prev={[a]:null}, q=[a];
+  while(q.length){ const x=q.shift(); if(x===b) break; [...byId[x].parents,...byId[x].children].forEach(y=>{ if(!(y in prev)){ prev[y]=x; q.push(y); } }); }
+  if(!(b in prev)) return [b]; const p=[]; for(let x=b;x!=null;x=prev[x]) p.unshift(x); return p; }
+function teleport(fresh){
+  if(TP) return;
+  const dest=teleportPick(fresh===true), v=curView();
+  const fl=document.getElementById('tpflash'), cap=document.getElementById('tpcap');
+  const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // destination movement: the brightest thing there at that moment
+  const save=[STP,STYf,STFROM,STSPAN]; STP=dest.place; setYear(dest.y); setStay(0); const target=(stCands()[0]||{}).id||null; STP=save[0]; setYear(save[1]); STFROM=save[2]; STSPAN=save[3];
+  cap.innerHTML=`<span>${fmtY(dest.y)}</span><b>${esc(placeName(dest.place))}</b>`;
+  if(!reduce){ fl.hidden=false; fl.classList.remove('go'); void fl.offsetWidth; fl.classList.add('go'); setTimeout(()=>{ fl.hidden=true; },1900); }
+  stopPlay(); setStay(0); FTM='heard'; FPL='heard'; STP=dest.place; stPanelOpen=true; syncLegend();
+  const dur=reduce?10:(v==='tree'?2600:2400);
+  let anchor=selected; if(!anchor&&v==='tree'){ const H=box().clientHeight, W=box().clientWidth; let best=1e9; Object.keys(nodeEls).forEach(id=>{ const d=Math.hypot(SX(id)-W/2,SY(id)-H/2); if(d<best){ best=d; anchor=id; } }); }
+  TP={t0:performance.now(),dur,u0:stU,u1:U(dest.y),view:v,target,path:v==='tree'&&target?graphPath(anchor,target):null,s0:s,s1:Math.max(s,1.8)};
+  if(v==='map'&&MW){ const ll=placeLL(dest.place); flyTo(ll, dest.place.k==='city'?Math.max(18,pxPerDeg()):Math.max(7,pxPerDeg()), dur, true); }
+  stCompute(); stBarUI(); stKick();
+}
+function tpStep(ts){
+  const t=Math.min(1,(ts-TP.t0)/TP.dur), e=easeIO(t);
+  setYearU(TP.u0+(TP.u1-TP.u0)*e); stCompute(); stBarUI();
+  if(TP.view==='tree'&&TP.path){
+    s=TP.s0+(TP.s1-TP.s0)*smooth(Math.min(1,t*1.6));
+    const P=TP.path.length>1?TP.path:[TP.path[0],TP.path[0]], f=e*(P.length-1), i=Math.max(0,Math.min(P.length-2,Math.floor(f))), r=f-i;
+    const a=P[i], b=P[Math.min(P.length-1,i+1)], x=SX(a)+(SX(b)-SX(a))*r, y=SY(a)+(SY(b)-SY(a))*r, B=box();
+    tx+=B.clientWidth/2-x; ty+=B.clientHeight/2-y;
+  }
+  if(ts-stPanelT>350){ stPanelT=ts; stPanelUpdate(); }
+  if(t>=1){ const tgt=TP.target; TP=null; WL=worldline(tgt); if(tgt) select(tgt); stApply(); return false; }
+  return true;
+}
+
+/* wiring */
+(function(){
+  document.getElementById('stexit').onclick=()=>resetFilters('all');
+  document.getElementById('stslider').addEventListener('input',e=>{ const u=e.target.value/1000; stPlay=0; if(STFROM===T0) setStay(0); setYearU(u); stCompute(); stBarUI(); stKick(); if(curView()==='map') requestMapDraw(); stPanelUpdate(); });
+  const dir=d=>{ if(STFROM===T0) setStay(0); stPlay=stPlay===d?0:d; stMult=+document.getElementById('stspeed').value; stBarUI(); if(stPlay) stKick(); };
+  document.getElementById('stback').onclick=()=>dir(-1);
+  document.getElementById('stfwd').onclick=()=>dir(1);
+  document.getElementById('stspeed').onchange=e=>{ stMult=+e.target.value; };
+  document.getElementById('stspan').onchange=e=>{ setStay(e.target.value,STFROM); stApply(); };
+  document.getElementById('stmoment').onclick=()=>{ stPanelOpen=!stPanelOpen; stBarUI(); stPanelUpdate(); };
+  document.getElementById('stpclose').onclick=()=>{ stPanelOpen=false; stBarUI(); };
+  const testInfo=()=>{ const [y0,y1]=stRange(), pr=stPrompt(); return {place:placeName()||'the world',iso:placeIso(),year:STY,span:STSPAN,when:stWhen(),end:y1,mode:PMODE,lang:useLang(langOfPlace())||'en',era:pr.era,prompt:document.getElementById('stprompt').value}; };
+  document.getElementById('stcopy').onclick=async e=>{ copyText(e.currentTarget,document.getElementById('stprompt').value,document.getElementById('stprompt'));
+    if(!STP) return; const info=testInfo(); if(info.prompt===LASTCOPY||REVIEWS.has(info.prompt)||PENDING.has(info.prompt)){ LASTCOPY=info.prompt; runListener(null,info); return; }
+    LASTCOPY=info.prompt; const ref=await logCopy('moment',info); runListener(ref,info); };
+  document.getElementById('sttest').onclick=async()=>{ const info=testInfo(); if(REVIEWS.has(info.prompt)||PENDING.has(info.prompt)){ runListener(null,info); return; } const ref=await logCopy('test',info); runListener(ref,info); };
+  document.getElementById('rolltp').onclick=()=>teleport(false);
+  document.getElementById('rolltpnew').onclick=()=>teleport(true);
+  const cv=document.getElementById('tunnel');
+  cv.addEventListener('wheel',e=>{ e.preventDefault(); stopPlay(); setYearU(stU-e.deltaY*0.00035); stCompute(); stBarUI(); stKick(); },{passive:false});
+  cv.addEventListener('pointermove',e=>{ const id=tunnelHit(e); if(id!==TUNHOVER){ TUNHOVER=id; cv.style.cursor=id?'pointer':'default'; cv.title=id?`${byId[id].name} · ${fmtYear(byId[id].year)} · ${byId[id].place}`:''; } });
+  cv.addEventListener('click',e=>{ const id=tunnelHit(e); if(id) select(id); else if(selected) select(null); });
+  cv.addEventListener('keydown',e=>{ const k={ArrowLeft:-1,ArrowDown:-1,ArrowRight:1,ArrowUp:1}[e.key]; if(!k) return; e.preventDefault(); stopPlay(); setYearU(stU+k*0.004); stCompute(); stBarUI(); stKick(); });
+  // the tree camera backs off while the person drags or zooms
+  const tb=document.getElementById('treebox'); ['pointerdown','wheel'].forEach(ev=>tb.addEventListener(ev,()=>{ treeUser=performance.now(); },{passive:true}));
+})();
+
+
+/* ---------- looking things up elsewhere: YouTube, Google, Wikipedia, TuneMyMusic; cover art on the static site ---------- */
+const Q=encodeURIComponent;
+const LK={ yt:q=>`https://www.youtube.com/results?search_query=${Q(q)}`, g:q=>`https://www.google.com/search?q=${Q(q)}`, w:q=>`https://en.wikipedia.org/w/index.php?search=${Q(q)}`, tmm:'https://www.tunemymusic.com/transfer/freetext-to-spotify' };
+const ext=(href,label,title)=>`<a href="${href}" target="_blank" rel="noopener"${title?` title="${esc(title)}"`:''}>${label}</a>`;
+const trio=(q,wq)=>`${ext(LK.yt(q),'YouTube')} · ${ext(LK.g(q),'Google')} · ${ext(LK.w(wq||q),'Wikipedia')}`;
+const bare=t=>String(t).replace(/\s*\((album|live|remaster[^)]*)\)/ig,'').trim();
+// a small ↗ after a song opens the links for the song and for the artist
+const lkBtn=(a,t)=>`<button type="button" class="lkb" data-a="${esc(a)}" data-t="${esc(t)}" aria-label="Look up ${esc(t)}" title="Play or look up">↗</button>`;
+function lkRow(a,t){ t=bare(t); return `<span class="lkrow"><span><b>Song</b> ${ext(LK.yt(`${a} ${t}`),'YouTube','Play on YouTube')} · ${ext(LK.g(`${a} ${t} song`),'Google')} · ${ext(LK.w(`${t} ${a}`),'Wikipedia','The song, or the album it is on')}</span><span><b>Artist</b> ${trio(a,a+' musician')}</span></span>`; }
+document.addEventListener('click',e=>{ const b=e.target.closest&&e.target.closest('.lkb'); if(!b) return; e.preventDefault(); e.stopPropagation();
+  const host=b.parentElement, old=host.querySelector('.lkrow'); if(old){ old.remove(); return; } host.insertAdjacentHTML('beforeend',lkRow(b.dataset.a,b.dataset.t)); });
+const lookupLine=(what,q,wq)=>`<p class="fine lkline"><b>Look up ${esc(what)}</b> ${trio(q,wq)}</p>`;
+
+// cover art (MusicBrainz search, then the Cover Art Archive): only where the page may load outside images, i.e. not inside a Claude artifact
+const STATIC=typeof window.claude==='undefined';
+let COVERS=STATIC; try{ const v=localStorage.getItem('wmft-covers'); if(v==='on') COVERS=true; if(v==='off') COVERS=false; }catch(e){}
+const CVC={}; try{ Object.assign(CVC,JSON.parse(localStorage.getItem('wmft-covercache')||'{}')); }catch(e){}
+const cvKey=(a,t)=>(a+'|'+bare(t)).toLowerCase(); const cvQ=[]; let cvBusy=false;
+const cvUrl=id=>`https://coverartarchive.org/release-group/${id}/front-250`;
+function cvShow(k){ document.querySelectorAll('img.cv').forEach(im=>{ if(im.dataset.ck===k&&CVC[k]){ im.src=cvUrl(CVC[k]); im.hidden=false; } }); }
+async function cvNext(){ if(cvBusy) return; const j=cvQ.shift(); if(!j) return; cvBusy=true;
+  try{ const lq=x=>x.replace(/["\\]/g,' '); const r=await fetch(`https://musicbrainz.org/ws/2/recording?fmt=json&limit=5&query=${Q(`recording:"${lq(bare(j.t).replace(/\s*\(.*?\)/g,''))}" AND artist:"${lq(j.a)}"`)}`,{headers:{Accept:'application/json'}});
+    const d=r.ok?await r.json():{}; let id='';
+    for(const rec of d.recordings||[]){ const rel=(rec.releases||[]).find(x=>x['release-group']&&x['release-group'].id); if(rel){ id=rel['release-group'].id; break; } }
+    CVC[j.k]=id; try{ const ks=Object.keys(CVC); if(ks.length>600) ks.slice(0,200).forEach(x=>delete CVC[x]); localStorage.setItem('wmft-covercache',JSON.stringify(CVC)); }catch(e){}
+    cvShow(j.k);
+  }catch(e){}
+  setTimeout(()=>{ cvBusy=false; cvNext(); },1100);   // MusicBrainz asks for at most one request a second
+}
+function fillCovers(root){ if(!COVERS||!root) return; root.querySelectorAll('img.cv').forEach(im=>{ const k=im.dataset.ck; if(k in CVC){ if(CVC[k]){ im.src=cvUrl(CVC[k]); im.hidden=false; } return; }
+  if(!cvQ.some(j=>j.k===k)) cvQ.push({k,a:im.dataset.a,t:im.dataset.t}); }); cvNext(); }
+const cvImg=(a,t)=>COVERS?`<img class="cv" hidden alt="" loading="lazy" data-ck="${esc(cvKey(a,t))}" data-a="${esc(a)}" data-t="${esc(t)}" onerror="this.hidden=true">`:'';
+
+// the Time Machine panel: seed songs with links, a way to turn them into a real playlist, and searches for this place and time
+let SEEDOPEN=false, SEEDSIG='';
+function stLinks(pr){
+  const box=document.getElementById('stlinks'); if(!box) return; const seeds=pr.seeds||[], place=placeName(), when=stWhen();
+  const sig=JSON.stringify([seeds,place,when,COVERS]); if(sig===SEEDSIG) return; SEEDSIG=sig;
+  const iso=placeIso(), cn=iso?isoName(iso):place;
+  box.innerHTML=(seeds.length?`<details class="seedl"${SEEDOPEN?' open':''}><summary class="fine"><b>Seed songs (${seeds.length})</b>: play or look up each one</summary><ol>${seeds.map(x=>`<li>${cvImg(x[0],x[1])}<span>${esc(x[0])} — ${esc(x[1])}</span> ${lkBtn(x[0],x[1])}</li>`).join('')}</ol>
+    <div class="strow"><button class="lbtn" id="sttmm" type="button" title="Copies the songs as Artist - Title lines and opens TuneMyMusic, where you paste them to get a Spotify playlist of exactly these songs">Copy song list and open TuneMyMusic</button></div></details>`:'')
+    +(place?lookupLine(`the hits of ${place}, ${when}`,`${place} top hits ${when}`,`${cn} number-one singles ${when}`):'');
+  const dl=box.querySelector('details'); if(dl){ dl.addEventListener('toggle',()=>{ SEEDOPEN=dl.open; if(dl.open) fillCovers(dl); }); if(dl.open) fillCovers(dl); }
+  const tb=document.getElementById('sttmm'); if(tb) tb.onclick=()=>{ copyText(tb,seeds.map(x=>`${nm(x[0])} - ${bare(nm(x[1]))}`).join('\n'),null); window.open(LK.tmm,'_blank','noopener'); };
+}
+
+/* ---------- research state of a place and decade, and asking for more ---------- */
+// 'year' = hit lists for each year; 'sparse' = year lists exist but this year has under six sourced songs; 'none' = no year-by-year research yet
+const REQS={};   // `${iso}_${decade}` -> request doc
+function researchState(){ const iso=placeIso(); if(!iso||STY<1940) return null; const L=YEARL[iso], dec=decadeKey(STY);
+  const has=L&&Object.keys(L).some(y=>decadeKey(+y)===dec); if(!has) return {iso,dec,state:'none'};
+  const n=L[STY]?(L[STY].songs||[]).filter(x=>x[3]==='home').length:0; return {iso,dec,state:n>=6?'year':'sparse',n}; }
+function startReqDb(){ if(!DB) return; try{ DB.collection('requests').onSnapshot(snap=>{ snap.docs.forEach(d=>{ REQS[d.id]=d.data(); }); stPanelUpdate(); },()=>{}); }catch(e){} }
+async function askResearch(){ const r=researchState(); if(!r||!DB||r.state==='year') return; const key=r.iso+'_'+r.dec;
+  const doc={iso:r.iso,decade:+r.dec,year:STY,place:isoName(r.iso),kind:r.state==='none'?'new':'sparse',status:'open',at:Date.now()};
+  REQS[key]=doc; stPanelUpdate(); try{ await DB.doc('requests/'+key).set(doc); }catch(e){ delete REQS[key]; stPanelUpdate(); } }
+function researchLine(){ const r=researchState(); if(!r) return ''; const key=r.iso+'_'+r.dec, q=REQS[key], cn=esc(isoName(r.iso));
+  const note=r.state==='sparse'?`<b>Thinly sourced:</b> only ${r.n} home-grown song${r.n===1?'':'s'} with evidence for ${STY}; the rest comes from the decade list.`
+    :r.state==='none'?`No year-by-year research for ${cn} in the ${r.dec}s yet.`:'';
+  if(!note) return '';
+  const asked=q&&q.status!=='done'&&((q.kind==='new')===(r.state==='none'));
+  const btn=!DB?'':asked?' <span class="fine">Research requested; it is in the queue.</span>'
+    :` <button class="lbtn" id="streq" type="button">${r.state==='none'?`Request research for the ${r.dec}s`:'Request a fuller list'}</button>`;
+  return `<p class="fine reqline">${note}${btn}</p>`; }
+
+/* ---------- prompt language: English, or the language of the place the music comes from ---------- */
+const LANGS=DATA.langs||{}, ISOLANG=DATA.isoLang||{}, CITYLANG=DATA.cityLang||{};
+let PLANG='en'; try{ PLANG=localStorage.getItem('wmft-plang')==='local'?'local':'en'; }catch(e){}
+const LT=code=>(code&&LANGS[code])||null;
+function langOfPlace(p=STP){ if(!p||p.k==='reg') return null;
+  if(p.k==='city'){ const c=CITIES[p.i]; if(c&&c.name in CITYLANG) return LT(CITYLANG[c.name])?CITYLANG[c.name]:null; }
+  const l=ISOLANG[p.iso]; return LT(l)?l:null; }
+function langOfMovement(id){ const n=byId[id];
+  const city=CITIES.find(c=>gcDist([c.lon,c.lat],[n.lon,n.lat])<0.012&&c.name in CITYLANG); if(city&&LT(CITYLANG[city.name])) return CITYLANG[city.name];
+  const iso=CNT[id]&&CNT[id][0]; const l=iso&&ISOLANG[iso]; return LT(l)?l:null; }
+// the language a prompt will actually use under the current switch
+const useLang=local=>PLANG==='local'&&local?local:null;
+function regionNameIn(code,iso){ try{ return new Intl.DisplayNames([code],{type:'region'}).of(iso)||isoName(iso); }catch(e){ return isoName(iso); } }
+function placeNameIn(code,p=STP){ if(!code||(p&&p.k==='multi')) return placeName(p); if(!p) return '';
+  if(p.k==='cty') return regionNameIn(code,p.iso);
+  if(p.k==='city'){ const c=CITIES[p.i]; return `${cityName(c,STY)}, ${regionNameIn(code,c.iso2)}`; }
+  return regName[p.reg]; }
+function fmtYIn(code,y){ y=Math.round(y); if(!code) return fmtY(y); return y<0?LT(code).dates.bce.replace('{y}',-y):String(y); }
+function decadeOf(){ const [a,b]=stRange(); return ((STFROM==null?STSPAN===5:b===a+9)&&a>=1900&&a%10===0)?a:null; }
+function whenIn(code){ const [a,b]=stRange(); if(a===b) return fmtYIn(code,a); const d=decadeOf();
+  if(d!=null) return code?LT(code).dates.decade.replace('{d}',d):`the ${d}s`;
+  if(!code) return `${fmtY(a)}–${fmtY(b)}`.replace(/ BCE–(\d+) BCE/,'–$1 BCE');
+  return a<0&&b<0?LT(code).dates.bce.replace('{y}',`${-a}–${-b}`):`${fmtYIn(code,a)}–${fmtYIn(code,b)}`; }
+function windowIn(code,w){ if(!code) return w; const m=/^(\d+) onward$/.exec(w); return m?LT(code).dates.onward.replace('{y}',m[1]):w; }
+function refreshPromptBoxes(){ document.querySelectorAll('textarea[data-pid]').forEach(ta=>{ const t=promptFor(ta.dataset.pid); ta.value=t; const c=document.querySelector(`[data-pidlen="${ta.dataset.pid}"]`); if(c) c.textContent=t.length; });
+  document.querySelectorAll('.plang button[data-nm]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.nm===NMODE))); }
+function setPlang(v){ PLANG=v==='local'?'local':'en'; try{ localStorage.setItem('wmft-plang',PLANG); }catch(e){}
+  refreshPromptBoxes(); syncPlangButtons(); stPanelUpdate(); }
+function syncPlangButtons(){ document.querySelectorAll('.plang button[data-l]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.l===PLANG))); }
+function plangToggle(local){ const nm=local?LT(local).name:null;
+  return `<span class="plang" role="group" aria-label="Prompt language"><button type="button" data-l="en" aria-pressed="${PLANG==='en'}">English</button><button type="button" data-l="local" aria-pressed="${PLANG==='local'}"${nm?' title="For other AI tools. Spotify\'s AI playlists accept English prompts only and may refuse this one."':' disabled title="No local language available for this one; the prompt stays in English"'}>${nm?esc(nm):'Local'}</button></span>${PLANG==='local'&&nm?'<span class="fine"> Spotify accepts English prompts only.</span>':''}`; }
+document.addEventListener('click',e=>{ const b=e.target.closest&&e.target.closest('.plang button[data-l]'); if(!b||b.disabled) return; e.preventDefault(); e.stopPropagation(); setPlang(b.dataset.l); });
+
+
+/* ---------- what the locals heard: era song lists per country and decade, and the heard-there / made-there switch ---------- */
+const ERA=DATA.era||{};
+let PMODE='heard'; try{ PMODE=localStorage.getItem('wmft-pmode')==='home'?'home':'heard'; }catch(e){}
+const decadeKey=y=>String(Math.max(1940,Math.min(2020,Math.floor(y/10)*10)));
+function placeIso(p=STP){ if(!p||p.k==='reg') return null; if(p.k==='multi'){ const s=new Set(p.items.map(q=>placeIso(q))); return s.size===1?[...s][0]:null; } return p.k==='city'?CITIES[p.i].iso2:p.iso; }
+// songs from the era lists that existed by the end of the stay, nearest to the chosen year first; home-grown before foreign
+// same song under another spelling ("Trig El Lycée" / "Trigue Lycée"): compare titles without accents, articles or punctuation
+const normT=t=>String(t).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\(.*?\)/g,'').replace(/\b(the|el|la|le|les|al|a|il|lo|der|die|das)\b/g,'').replace(/[^\p{L}\p{N}]/gu,'');
+function sameTitle(a,b){ a=normT(a); b=normT(b); if(!a||!b) return false; if(a===b) return true; const lo=Math.min(a.length,b.length), hi=Math.max(a.length,b.length);
+  if(lo>5&&lo>=.75*hi&&(a.includes(b)||b.includes(a))) return true; if(lo<8||hi-lo>3) return false; const m=a.length,n=b.length; let prev=Array.from({length:n+1},(_,j)=>j);
+  for(let i=1;i<=m;i++){ const cur=[i]; for(let j=1;j<=n;j++) cur[j]=Math.min(prev[j]+1,cur[j-1]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1)); prev=cur; }
+  return prev[n]<=Math.max(1,Math.floor(Math.max(m,n)/5)); }
+// a title given in its own script with a romanization in brackets matches either form listed alone
+const tForms=t=>{ t=String(t); const m=/\(([^)]{4,})\)/.exec(t), f=[t]; if(m&&!/live|remaster|version|edit|mix|feat/i.test(m[1])) f.push(m[1]); return f; };
+function dedupeSongs(L,get=x=>x[1]){ const out=[]; for(const x of L) if(!out.some(y=>tForms(get(x)).some(a=>tForms(get(y)).some(b=>sameTitle(a,b))))) out.push(x); return out; }
+// year-end hit lists per country and year (from published charts), for visits to a specific year
+const YEARL=DATA.yearl||{};
+function yearSeeds(mode){
+  const iso=placeIso(); if(!iso||!YEARL[iso]) return null; const [y0,y1]=stRange();
+  const yrs=[]; for(let y=y0;y<=y1;y++) if(YEARL[iso][y]) yrs.push(y); if(!yrs.length) return null;
+  const take=y=>(YEARL[iso][y].songs||[]).filter(s=>s[2]<=y1&&!skipped(s)).slice().sort((a,b)=>a[4]-b[4]);
+  // spread across the years of the stay, best-ranked first
+  // a long stay (a lifetime, or all of history up to a year): a spread of years across the stay, the most recent first, not the oldest decade first
+  if(yrs.length>12){ const n=yrs.length, pick=[]; for(let k=0;k<12;k++){ const y=yrs[n-1-Math.round(k*(n-1)/11)]; if(!pick.includes(y)) pick.push(y); } yrs.length=0; yrs.push(...pick); }
+  const lists=yrs.map(take), all=[]; for(let i=0;lists.some(L=>i<L.length);i++) lists.forEach(L=>{ if(L[i]) all.push(L[i]); });
+  // last year's top hits still ring on in a one-year visit
+  if(!STSPAN&&YEARL[iso][y0-1]) all.push(...take(y0-1).slice(0,3));
+  const songs=dedupeSongs(all);
+  // home songs alternate between the scenes of that time (charts pop, dangdut, regional...) so no one scene fills the opening
+  const home=songs.filter(s=>s[3]==='home'), byKind={}; home.forEach(s=>(byKind[s[7]||'pop']=byKind[s[7]||'pop']||[]).push(s));
+  // strongest evidence first, never more than two of one scene in a row, and every scene of that year inside the first eight
+  const pool=home.slice().sort((a,b)=>a[4]-b[4]), mixed=[];
+  while(pool.length){ const n=mixed.length, run=n>=2&&(mixed[n-1][7]||'pop')===(mixed[n-2][7]||'pop')?(mixed[n-1][7]||'pop'):null;
+    let i=pool.findIndex(x=>(x[7]||'pop')!==run); if(i<0) i=0; mixed.push(pool.splice(i,1)[0]); }
+  // a city or area with its own language scene hears that scene first (Montréal and Quebec: francophone songs lead)
+  const sp=scenePref(); if(sp){ const a=mixed.filter(x=>x[7]===sp), r=mixed.filter(x=>x[7]!==sp), m2=[]; while(a.length||r.length){ if(a.length) m2.push(a.shift()); if(a.length) m2.push(a.shift()); if(r.length) m2.push(r.shift()); } mixed.length=0; mixed.push(...m2); }
+  Object.keys(byKind).forEach(k=>{ const at=mixed.findIndex(x=>(x[7]||'pop')===k); if(at>=8){ const x=mixed.splice(at,1)[0]; mixed.splice(Math.min(6,mixed.length),0,x); } });
+  const foreign=songs.filter(s=>s[3]==='foreign');
+  if(mode==='home') return mixed.slice(0,16);
+  const nf=Math.min(foreign.length,mixed.length>=6?4:Math.floor((mixed.length+foreign.length)/3));
+  const out=[...mixed.slice(0,16-nf)]; foreign.slice(0,nf).forEach((f,i)=>out.splice(Math.min(out.length,2+i*3),0,f)); // foreign hits sprinkled in, not stacked at the end
+  return out;
+}
+const SCENE_PREF={CA:{franco:/^(montr[eé]al|qu[eé]bec|trois-rivi[eè]res|sherbrooke|saguenay|gatineau|rimouski|chicoutimi|gasp[eé])/i}};
+function scenePref(){ if(!STP||STP.k!=='city') return null; const c=CITIES[STP.i], m=SCENE_PREF[c.iso2]; if(!m) return null; for(const k in m) if(m[k].test(c.name)) return k; return null; }
+function eraSeeds(mode){
+  const iso=placeIso(); if(!iso) return null; const [y0,y1]=stRange(); if(y1<1940) return null;
+  const lo=y0-(STSPAN?3:8), keys=new Set([decadeKey(lo),decadeKey(y0),decadeKey(STY),decadeKey(y1)]); let songs=[];
+  keys.forEach(k=>{ const c=eraCell(iso,k); if(c) songs.push(...c.songs); });
+  if(!songs.length) return null;
+  songs=songs.filter(s=>s[2]<=y1&&s[2]>=y0-(STSPAN?3:8)&&!skipped(s));               // released by the end of the stay, and not long before it
+  songs=dedupeSongs(songs);
+  if(!STSPAN){ // one year: that year and the two before it; older hits only to reach six songs
+    const recent=songs.filter(s=>s[2]>=y0-2), older=songs.filter(s=>s[2]<y0-2).sort((a,b)=>b[2]-a[2]);
+    songs=[...recent,...older.slice(0,Math.max(0,6-recent.length))]; }
+  const near=(a,b)=>Math.abs(a[2]-STY)-Math.abs(b[2]-STY)||(a[5]==='h'?-1:0);
+  const home=songs.filter(s=>s[3]==='home').sort(near), foreign=songs.filter(s=>s[3]==='foreign').sort(near);
+  if(mode==='home') return home.slice(0,16);
+  const nf=Math.min(foreign.length,home.length>=6?4:Math.floor((home.length+foreign.length)/3));   // like a local radio: home-grown carries it, at most four big foreign hits
+  return [...home.slice(0,16-nf),...foreign.slice(0,nf)];
+}
+function setPmode(v){ PMODE=v==='home'?'home':'heard'; try{ localStorage.setItem('wmft-pmode',PMODE); }catch(e){} stPanelUpdate(); }
+function pmodeToggle(){ return `<span class="plang" role="group" aria-label="Which songs"><button type="button" data-pm="heard" aria-pressed="${PMODE==='heard'}" title="What locals heard: mostly home-grown, plus the foreign hits that were big there">Heard there</button><button type="button" data-pm="home" aria-pressed="${PMODE==='home'}" title="Only music made there by local artists">Made there</button></span>`; }
+document.addEventListener('click',e=>{ const b=e.target.closest&&e.target.closest('[data-pm]'); if(!b) return; e.preventDefault(); setPmode(b.dataset.pm); });
+
+/* ---------- test log and synthetic listeners ---------- */
+let DB=null, SAMPLE=null, USERCAP=null;
+(async()=>{ try{ DB=await claude.use('db'); }catch(e){} try{ SAMPLE=await claude.use('sample'); }catch(e){} try{ USERCAP=await claude.use('user'); }catch(e){} startEraDb(); startReqDb(); stPanelUpdate(); })();
+let LASTLOG=null;
+async function logCopy(kind,info){
+  if(!DB) return null;
+  try{ const ref=await DB.collection('testlog').add({at:Date.now(),kind,...info}); return ref; }catch(e){ return null; }
+}
+function listenerPrompt(info){
+  return `You are helping user-test a "music time machine" that writes Spotify playlist prompts meant to make an older local person feel the nostalgia of their youth.
+
+Destination: ${info.place}, ${info.when} (songs released by ${info.end}). Mode: ${info.mode==='home'?'only music made there':'what locals heard there, mostly home-grown'}.
+
+1. Invent one plausible, ordinary person who was a child or teenager (about 8 to 18) in that place during that time. Be historically accurate: first name, birth year, town, family, and how music reached them (named radio stations or programmes, record players, cassettes, dances, films, TV shows, church, school).
+2. As that person, looking back now, react honestly to the seed songs below. For each: did you know it back then ("yes", "maybe", "no"), and was it local or foreign to you? Do not be generous: a famous song you would never have heard there is a "no".
+   Also mark when each seed belongs: "then" (a hit at that time), "throwback" (a hit three or more years earlier), or "later" (only became a hit afterwards). If the destination is a single year, it should sound like that year: throwbacks and later hits count against the score, however much you love them.
+   Think of the whole country, not only the capital: say if a big scene of that time is missing (regional, rural, working-class, religious, dance or youth styles, and what played on TV, YouTube or at weddings, not just on streaming).
+3. Would the first few songs make you say out loud "this is the music of my youth"? Score 1 to 10 and quote what you would say.
+4. Name up to 8 specific songs (artist - title, year) you would expect and are missing, all released by ${info.end}, mostly from your own country.
+5. In one sentence: what, if anything, makes it feel like a fake version of your past?
+
+Reply with JSON only:
+{"persona":{"name":"","born":0,"town":"","background":""},"seeds":[{"song":"","knew":"yes|maybe|no","origin":"local|foreign","when":"then|throwback|later"}],"score":0,"wouldSay":"","missing":[""],"missingScene":"","fake":""}
+
+The prompt being tested, with its seed songs:
+${info.prompt}`;
+}
+// one synthetic listener per distinct prompt: the same text is never judged twice
+const REVIEWS=new Map(), PENDING=new Set(); let LASTCOPY=null;
+try{ JSON.parse(localStorage.getItem('wmft-reviews')||'[]').forEach(([k,v])=>REVIEWS.set(k,v)); }catch(e){}
+function keepReview(k,r){ REVIEWS.set(k,r); try{ localStorage.setItem('wmft-reviews',JSON.stringify([...REVIEWS].slice(-20))); }catch(e){} }
+async function runListener(ref,info){
+  const box=document.getElementById('stlisten'); if(!SAMPLE||!box) return;
+  const k=info.prompt; if(REVIEWS.has(k)){ renderListener(REVIEWS.get(k),true); return; } if(PENDING.has(k)) return; PENDING.add(k);
+  box.innerHTML='<p class="fine">A synthetic listener is reading the playlist…</p>';
+  try{
+    const r=await SAMPLE.json(listenerPrompt(info),{modelTier:'default'});
+    keepReview(k,r); if(document.getElementById('stprompt').value===k) renderListener(r);
+    if(ref){ try{ await ref.update({review:r}); }catch(e){} }
+  }catch(e){ box.innerHTML=`<p class="fine">${e&&e.code==='not_granted'?'Synthetic listeners need permission to ask Claude; allow it in the page\'s permissions to use them.':'The synthetic listener could not answer this time.'}</p>`; }
+  finally{ PENDING.delete(k); }
+}
+function renderListener(r,reused){
+  const box=document.getElementById('stlisten'); if(!box||!r) return; const p=r.persona||{}, seeds=r.seeds||[];
+  const knew=seeds.filter(s=>s.knew==='yes').length;
+  box.innerHTML=`<div class="listener">${reused?'<p class="fine">Same prompt as before: showing the earlier result, no new test run.</p>':''}<p class="label">Synthetic listener · ${esc(p.name||'')}${p.born?`, born ${p.born}`:''}${p.town?`, ${esc(p.town)}`:''}</p>
+    <p class="fine">${esc(p.background||'')}</p>
+    <p><b>${+r.score||0}/10</b> · knew ${knew} of ${seeds.length} seeds${r.wouldSay?` · “${esc(r.wouldSay)}”`:''}</p>
+    ${r.fake?`<p class="fine"><b>Feels off:</b> ${esc(r.fake)}</p>`:''}${r.missingScene?`<p class="fine"><b>Missing scene:</b> ${esc(r.missingScene)}</p>`:''}
+    ${(r.missing||[]).length?`<p class="fine"><b>Would expect:</b> ${r.missing.map(esc).join('; ')}</p>`:''}
+    <details><summary class="fine">Song by song</summary><ul class="fine">${seeds.map(s=>`<li>${esc(s.song)}: ${esc(s.knew)}${s.origin?`, ${esc(s.origin)}`:''}${s.when&&s.when!=='then'?`, ${esc(s.when)}`:''}</li>`).join('')}</ul></details></div>`;
+}
+
+
+/* ---------- filling gaps: researched lists first, then lists kept in the page's database (verified later or drafted by Claude) ---------- */
+let FILL=true; try{ FILL=localStorage.getItem('wmft-fill')!=='off'; }catch(e){}
+const ERAX={};                       // `${iso}_${decade}` -> {songs, status:'draft'|'verified', at}
+let eraSub=null, drafting=new Set(), draftFail=new Set();
+function startEraDb(){ if(!DB||eraSub) return;
+  try{ DB.collection('year').onSnapshot(snap=>{ snap.docs.forEach(d=>{ const v=d.data(), m=/^([A-Z]{2})_(\d{4})$/.exec(d.id); if(m&&v&&Array.isArray(v.songs)){ const L=YEARL[m[1]]=YEARL[m[1]]||{}; if(!L[m[2]]||L[m[2]].status) L[m[2]]={songs:v.songs.map(x=>[x[0],x[1],+x[2]||+m[2],x[3],+x[4]||99,x[5]||'',x[6]||'',x[7]||'pop']),status:v.status||'verified',at:v.at||0,by:v.by||''}; } }); stPanelUpdate(); },()=>{}); }catch(e){}
+  try{ eraSub=DB.collection('era').onSnapshot(snap=>{ snap.docs.forEach(d=>{ const v=d.data(); if(v&&Array.isArray(v.songs)) ERAX[d.id]=v; }); stPanelUpdate(); },()=>{}); }catch(e){} }
+function eraCell(iso,dec){ if(window.__noEra) return null; const b=ERA[iso]&&ERA[iso][dec]; if(b&&b.songs&&b.songs.length) return {songs:b.songs,status:'researched'};
+  const x=ERAX[iso+'_'+dec]; return x&&x.songs&&x.songs.length?{songs:x.songs,status:x.status||'draft'}:null; }
+function eraSource(){ const iso=placeIso(); if(!iso||STY<1940) return null; const c=eraCell(iso,decadeKey(STY)); return c?c.status:null; }
+function draftPrompt(iso,dec){ const name=isoName(iso), end=Math.min(2026,+dec+9);
+  return `List the songs that ordinary people in ${name} actually heard and loved during the ${dec}s (${dec}–${end}): the songs an older person who grew up there would recognise at once.
+
+Give about 11 home-grown songs (artists from ${name}, usually in the local language, including local cover versions): the biggest local hits, evergreens everyone knew by heart, radio, dance, film and party favourites, spread across the decade and its main local styles. Then give up to 5 foreign songs that were genuinely big in ${name} at the time (not merely famous elsewhere).
+
+Only list a song if you are confident the artist and title are real and the recording was released by ${end}. Fewer is better than wrong: an invented title ruins the playlist. Use the artist and title as a streaming service would list them (original script with a romanization in parentheses where natural).
+
+Reply with JSON only: {"songs":[["artist","title",year,"home"|"foreign","h"|"m"]],"note":""} where "h" means you know it and "m" means fairly sure.`; }
+async function draftCell(iso,dec){
+  const key=iso+'_'+dec; if(!FILL||!SAMPLE||!DB||drafting.has(key)||draftFail.has(key)) return;
+  drafting.add(key); stPanelUpdate();
+  try{
+    const ref=DB.doc('era/'+key), cur=await ref.get();
+    if(cur.exists&&cur.data()&&Array.isArray(cur.data().songs)){ ERAX[key]=cur.data(); return; }
+    const r=await SAMPLE.json(draftPrompt(iso,dec),{modelTier:'default'});
+    const songs=(r&&Array.isArray(r.songs)?r.songs:[]).filter(s=>Array.isArray(s)&&s.length>=4&&s[0]&&s[1]&&+s[2]>=1900&&+s[2]<=+dec+9&&(s[3]==='home'||s[3]==='foreign')&&(s[4]==='h'||s[4]==='m'))
+      .map(s=>[String(s[0]),String(s[1]),+s[2],s[3],'other',s[4]]);
+    if(songs.length){ const doc={songs,status:'draft',at:Date.now(),note:String((r&&r.note)||'').slice(0,300)}; ERAX[key]=doc; await ref.set(doc); }
+    else draftFail.add(key);
+  }catch(e){ draftFail.add(key); }
+  finally{ drafting.delete(key); stPanelUpdate(); }
+}
+// ask for a draft when the traveller settles somewhere without a list
+let fillTimer=0;
+function maybeFill(){ clearTimeout(fillTimer); const iso=placeIso(); if(!FILL||!iso||STY<1940||stPlay||TP) return; const dec=decadeKey(STY);
+  if(eraCell(iso,dec)) return; fillTimer=setTimeout(()=>draftCell(iso,dec),1500); }
+
+/* every trip is logged (place, time, mode, language, where the seeds came from) for later research rounds */
+let travelTimer=0, lastTravel='';
+function logTravel(){ clearTimeout(travelTimer); if(!STON||!STP||stPlay||TP) return;
+  travelTimer=setTimeout(()=>{ if(!STP) return; const pr=stPrompt(), key=[placeIso()||STP.reg||placeName(),STY,STSPAN,PMODE].join('|'); if(key===lastTravel) return; lastTravel=key;
+    logCopy('travel',{place:placeName(),iso:placeIso(),reg:STP.k==='reg'?STP.reg:(placeIso()?isoReg(placeIso()):null),year:STY,span:STSPAN,mode:PMODE,lang:useLang(langOfPlace())||'en',source:pr.era==='year'?'year':(pr.era?(eraSource()||'researched'):'genre'),research:(researchState()||{}).state||null,seeds:pr.seeds.length}); },4000); }
+
+function repaint(){ stCompute(); fanKey=null; buildLegend(); syncLegend(); buildTree(); renderMap(); buildList(); }
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change',repaint);
+new MutationObserver(repaint).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+
+const helpBtn=document.getElementById('helpbtn'), helpBox=document.getElementById('help');
+function setHelp(open){}
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'){ setHelp(false); closePop(); } });
+stCompute(); buildLegend(); buildTree();
+buildList(); stBarUI(); buildJourneyControls();
+document.getElementById('lfilter').addEventListener('input',filterList);
+document.querySelectorAll('#lscope button').forEach(b=>b.onclick=()=>setScope(b.dataset.scope));
+document.getElementById('lexpand').onclick=()=>document.querySelectorAll('#listbody .lgroup:not([hidden])').forEach(g=>g.open=true);
+document.getElementById('lcollapse').onclick=()=>document.querySelectorAll('#listbody .lgroup').forEach(g=>g.open=false);
+showView(viewFromHash());
+/*@MODS@*/
+</script>

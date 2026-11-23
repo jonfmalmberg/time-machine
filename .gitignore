@@ -1,0 +1,8 @@
+# Build output. Built from src/ and data/ by build.py; never committed.
+dist/
+__pycache__/
+*.pyc
+.DS_Store
+# Keys and local settings never belong in the repository.
+.env
+.env.*

@@ -1,0 +1,7 @@
+/* satellite view: toggle button state and the imagery caption */
+.mapbtns{flex-wrap:wrap;max-width:calc(100% - 20px)}
+.mapbtns button[aria-pressed="true"]{background:var(--fg);color:var(--panel);border-color:var(--fg)}
+.mapbtns button[aria-busy="true"]{opacity:.7}
+/* the caption sits on the imagery, which is dark in both themes, so it carries its own backdrop */
+.satcap{position:absolute;left:8px;bottom:8px;z-index:2;pointer-events:none;font:11px/1.3 var(--body);color:#fff;background:rgb(6 10 16 / .66);padding:3px 8px;border-radius:6px;max-width:calc(100% - 16px);box-sizing:border-box}
+.satcap[hidden]{display:none}
