@@ -26,7 +26,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Hand back:** `defs.add.json` and `playlists.add.json` (only the new entries, one per line), `sizes.json`, `sources.json` (per genre, per song: address, the exact string from the page copied character for character, date read), and in the report one paragraph per genre on how confident the research is and why.
 
 ## H4. Genre research, batch 2
-- **State:** open
+- **State:** handed back 2026-11-23
 - **Model, ask, hand back:** as H3, the next eight (skip the eight in `work/2026-11-23-H3/`). Titles in the standard spelling of the language with diacritics; where the source page spells it differently, give that as `alias`. Where the natural neighbour of a genre has no id in the tree, say so in the report and do not stretch another id to cover it.
 
 ## H5. How prominence is decided, and why one genre can dominate the tunnel (roadmap 2.1, 2.6)
