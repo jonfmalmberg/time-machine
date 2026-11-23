@@ -1,0 +1,159 @@
+{
+ "huaer": {
+  "alias": {
+   "上去高山望平川": "上去高山望平川 - 甘肃民歌 = Shangqu Gaoshan Wanpingchuan = Climbing A Mountain To Look At A Calm River (Discogs)",
+   "大眼睛": "大眼睛 (女高音独唱) (Discogs)",
+   "苏平": "Su Ping",
+   "龚琳娜": "Gong Linna (Discogs artist credit)",
+   "Folk Music of China, Vol. 1: Folk Songs of Qinghai and Gansu": "Folk Music of China Vol.1: Folk Songs of Qinghai and Gansu (europadisc spelling)"
+  },
+  "unverified": [
+   "Zhu Zhonglu (朱仲禄), the best-known 'king of hua'er', and his 上去高山望平川: maigoo recommends his version but no release or track page was found; Discogs has no entry for him.",
+   "Su Ping (苏平) 远看黄河一条线: named as her signature piece on maigoo, no release page found.",
+   "Su Ping 美美的山丹花儿开 (same 1984 Discogs release): exists, but nothing ties it to hua'er.",
+   "Su Yang (苏阳) covered a traditional hua'er, The Night Journey, on his second album (2010) per China Daily; Chinese track title and album title not confirmed, so not used as a near-miss.",
+   "Hua'er-titled songs on the 2019 Naxos album other than the 'ling' tracks (e.g. 'Big Eyes', 'Yu'er, a love song', 'A Straight Melody') may be hua'er; the page does not say which tracks are.",
+   "Per-track performers on the Naxos album are not assigned on any fetched page (AllMusic fetch failed), so tracks are credited to Various Artists.",
+   "花儿与少年 sung versions (the famous Qinghai hua'er-based song) were not found with release data.",
+   "English Wikipedia 'Hua'er' redirects to Shan'ge, which only says hua'er is from Gansu, Ningxia and Qinghai; zh.wikipedia and Baidu Baike could not be fetched (not found / robots).",
+   "Direct curl to Wikipedia was refused by the proxy, so no raw page text was obtained; every quote came through the WebFetch summariser.",
+   "Smithsonian Folkways FE 4091 and FE 4092 (Vocal Music of Contemporary China, 1980) checked: neither has a hua'er track."
+  ]
+ },
+ "kulintang": {
+  "alias": {
+   "Binalig a Kulndet": "Binalig A Kuldnet",
+   "Ketawang: Puspawarna": "Ketawang: Puspåwarnå (Kinds of Flowers)",
+   "Duyog and Sinulog a Kamamatuan": "Duyug and Sinulog a Kamamatuan"
+  },
+  "unverified": [
+   "Folkways album page https://folkways.si.edu/kulintang-kultura-danongan-kalanduyan-and-gong-music-of-the-philippine-diaspora/world/music/album/smithsonian failed to fetch (client error); tracklist taken from Discogs 20905432 and the Folkways liner PDF instead.",
+   "last.fm page for World Kulintang Institute's album failed to fetch (client error).",
+   "Direct curl to folkways.si.edu and api.discogs.com was refused by the proxy (403); all fetches went through a summarising fetch tool, so every quote is as reported by that tool and needs re-checking against the live page.",
+   "Year of Lyrichord LLST 7322 (Muranao Kakolintang vol. 1, villages of Romayas and Buribid) not found; recalled as late 1970s, so 'Kasinolog' has year null.",
+   "Recalled but not checked: Usopay Cadar's Maranao recordings and University of Washington archive holdings; Aga Mayo Butocan's own releases; Sabah kulintangan and Sulu/Tausug kulintangan recordings (Folkways 'Murut Music of North Borneo' and Sabah state audio gallery seen only as search results, not opened).",
+   "Disc 2 of Kulintang Kultura (Han Han, Kulintronica, Noh Buddies, Asian Crisis, Subla Neokulintang etc.) and Toronto's Pantayo are kulintang-based fusion; left out of the playlist as they are not the tradition itself and the tree has no id for diaspora kulintang fusion.",
+   "Wikipedia's statement that one theory denies kulintang existed before the 15th century was reported only as a paraphrase by the fetch tool; exact wording not captured.",
+   "José Maceda Concrete track 2-3 'Magarib (Kulintang Ensemble) (1964)' seen on Discogs 7666728 but not used (ethnic group not stated on the page)."
+  ]
+ },
+ "malhun": {
+  "alias": {},
+  "unverified": [
+   "No single named malhun recording was confirmed on a fetched page; every item below is recalled or half-seen only.",
+   "Houcine Toulali recordings (e.g. qasidas 'Lharraz', 'Chamaa'): northsound.fm tags him malhun but lists no tracks; allmusic album page 'Haj Lhoucine Toulali' (mw0000911243) failed to fetch (client error).",
+   "Other recalled malhun singers with no verified release found: Haj Mohamed Bensouda, Abdelkrim and Saïd Guennoun, Abdelali Lamdaghri, Majda El Yahyaoui, Touria Hadraoui (le360 2022 article names only her album 'Mouachahat', which is muwashshah, not malhun), Mohamed Bajeddoub.",
+   "Jil Jilala's versions of malhun qasidas (recalled: 'Chamaa', 'Lharraz'): English Wikipedia says the group drew on 'the Malhun, sung in an antiquated form of Moroccan Arabic' but names no malhun track; Apple Music pages fetched gave no track list.",
+   "Samy Elmaghribi 'Mal Hbibi Malou' on The Rough Guide to the Music of Morocco (2012): possibly the disc's malhun item, but the page does not say so.",
+   "The Moroccan Ministry of Culture 3-CD malhun set: title, year and track list not found.",
+   "Fetch failures: en.wikipedia via curl (proxy 403), allmusic (client_error), telquel.ma 2018 Hadraoui interview (client_error), apple album 1515481925 (client_error), musicbrainz.org/ws/2 and api.deezer.com (robots disallowed).",
+   "Near-miss candidates not verified: an andalusi nuba (neighbour `andalusi`), a chaabi or aita song (neighbour `morchaabi`), Algerian chaâbi built on melhoun texts by El Hadj M'Hamed El Anka (neighbour `algchaabi`; French Wikipedia notes the form is found 'chez Hadj El Anka' but no specific recording was verified)."
+  ]
+ },
+ "garbaanddandiyaraa": {
+  "alias": {
+   "Vasaladi": "Vasaldi (Wikipedia album list)",
+   "Odhni Odhu Odhu Ne Udi Jaye": "Odhini Odhu (Wikipedia album list)",
+   "Indhana Winva": "Indhana Vinvaa / Indhana Winva Gayi Thi (LatestLY, Pinkvilla)",
+   "Tara Vina Shyam": "Tara vina Shyam vane (LatestLY body text)"
+  },
+  "unverified": [
+   "Hemant Chauhan 'Lakh Lakh Divda Ni Mandavdi': hindutone says 'versions include Hemant Chauhan's in his Tahuko series', but no release page for that track was found; Wikipedia only says he specializes in 'Bhajan, religious and Garba songs'",
+   "Praful Dave 'Madi Tara Naam Chhe Hajar': named on hindutone, no release page found",
+   "Kirtidan Gadhvi 'Gori Radha Ne Kaalo Kaan': hindutone calls it traditional but ties his version to the Gujarati film Wrong Side Raju (2016); left out as likely a film recording",
+   "Aditya Gadhvi 'Khalasi' (Coke Studio Bharat, 2023): a Gujarati folk-pop hit played at garba nights, but no page calls the song itself a garba; Wikipedia page for the song not found",
+   "Falguni Pathak's own Navratri albums: the last.fm 'Navaratri Songs' compilation page mixes Hindi pop singles with Gujarati garba and gives no dates; Non Stop Garba by Falguni Pathak page failed to load (client_error)",
+   "Ramzat 3 - Non Stop Garba (last.fm) failed to load (client_error)",
+   "Track lists of the 1976 Polydor and 1978 HMV LPs not found; individual tracks from them not verified",
+   "Release years of Atul Purohit recordings not found",
+   "The start date c. 1500 is the tree's date, not confirmed by a fetched page; the oldest garbi texts attributed to poets such as Vallabh Bhatt (17th-18th c.) are recalled, not sourced",
+   "Redbull list (Ishani Dave: 'Maar To Mele', 'Garbadiyo', 'Suraj Dheema Ugo'; 'Kesariyo Rang', 'Patai Raja') not used: performers mostly not named on the page",
+   "Direct downloads of Wikipedia pages were refused by the proxy, so all quotes come through a summarising fetch tool"
+  ]
+ },
+ "mahagita": {
+  "alias": {
+   "Mahagitá: Harp and Vocal Music of Burma (album)": "Mahagitá: Harp and Vocal Music of Burma",
+   "A huntsman enchanted": "Hpan htwei la",
+   "The king's potency": "Hseze yaun"
+  },
+  "unverified": [
+   "Burmese titles of Folkways SFW40492 tracks 1-4, 6-7 and 9: the liner-notes PDF (folkways-media.si.edu/docs/folkways/artwork/SFW40492.pdf) had no text layer; only tracks 5 (Hpan htwei la) and 8 (Hseze yaun) were named on the Folkways article page, so English titles are used",
+   "Whether the eight ibiblio Thachinkan files (Mahagita3_Thachinkan_...) are the 'Mahagita By Burmese Harp, Vol. 3' album tracks: inferred from file names only; also possible overlap with the Folkways tracks under different titles, not checked",
+   "Release years and labels of 'Mahagita By Burmese Harp' Vol. 3 and Vol. 5: no page gave them (last.fm tracklist did not render; last.fm artist page failed with client_error)",
+   "Release year of Tin Tin Mya's 'Pan Myaing Le': Wikipedia calls it a hit but gives no date or release",
+   "'Kyo Song (Royal Barge Music)' on Folkways 'Burmese Folk and Traditional Music' (female chorus, gongs, oboe): possibly one of the three mahagita barge kyo songs, but the page does not say so; left out",
+   "UNESCO/Auvidis 'Myanmar: Music by the Hsaing Waing Orchestra / The Burmese Harp' (2001) CD 1 harp solos (Maung Min Zaw, Maung Kyay, Maung That Win): the notes say Burmese music is vocal in origin but do not tie these pieces to the Maha Gita, so they are left out of the playlist",
+   "Burmese piano (sandaya) mahagita: U Ko Ko (Garfias, UMBC page says he draws on 'the classical repertoire, collectively known as the Maha Gita' and names a patt pyou song 'Leibauk Aukpyan') and U Yee Nwe 'The Spellbinding Piano of Burma' (AllMusic, no tracklist or year): no issued track verified",
+   "Moe Moe Yee 'Harpe Birmane: Myanmar Music (Burmese Harp)' (AllMusic, 1994): no tracklist or tie to mahagita on the page",
+   "Muriel Williamson Collection Vol. 11 'Songs: Voice and Saung Gauk': not tied to mahagita by name, so not listed",
+   "Repertoire titles named on Wikipedia (Phaung Ngin Kyo, Phaung La Kyo, Phaung Saik Kyo, Sein Chu Kya Naung, Ataing Mathi Mingala Awba Bwe) have no verified recording",
+   "Fetch failures: prestomusic.com (client_error), musicbrainz.org (JavaScript check), en.wikipedia.org and api.discogs.com via curl (proxy refused); Wikipedia read only through WebFetch, which returns processed text limited to short quotes"
+  ]
+ },
+ "kobzardumy": {
+  "alias": {
+   "Duma Pro Oleksiya Popovycha": "Duma Pro Oleksiya Popovycha with accompaniment",
+   "Black Sea Winds: The Kobzari of Ukraine": "BLACK SEA WINDS, THE KOBZARI OF UKRAINE"
+  },
+  "unverified": [
+   "Ostap Veresai: no sound recording of him was found on any fetched page (he is recalled as having died in 1890, before the cylinder work); he is not in the entries.",
+   "The brief's 'Kharkiv 1908 Kolessa expedition': the fetched Wikipedia page puts the 12th Archeological Congress (1902) in Kharkiv and Kolessa's invitation in 1908, but does not say where Kolessa recorded; no fetched page names Kharkiv for 1908.",
+   "Kolessa 1908 also recorded Opanas Slastion (Plach nevolnykiv) and Ostap Kalnyi, Antin Skoba, Petro Drevchenko (1909, Pro sestru i brata) per the Commons table; not all were put in the playlist to avoid near-duplicate subjects.",
+   "Julian Kytasty, Black Sea Winds tracks 'Cossack lament' and 'Fedir in the ditch' look like duma subjects (Fedir Bezridnyi) but the page does not say so.",
+   "Volodymyr Luciw, Ukrainian folk songs & dumy (Nash Format, 2009) has three tracks labelled Duma (Na smert' kozaka-bandurysta, Nevol'nyk, Burja na Chornomu mori), but they are bonus tracks by a concert singer; style not confirmed as kobzar duma, so left out.",
+   "No release with track titles was found for Taras Kompanichenko, Jurij Fedynsky, Mykola Budnyk, Eduard Drach or the Kyiv and Poltava kobzar guilds, though they are named as revival kobzari.",
+   "Heorhii Tkachenko (traditional kobzar recorded in the Soviet era) recalled but no recording found on a fetched page.",
+   "'Narodni dumy' (Nash Format, mp3) lists 32 duma titles but is read aloud by P. Panchuk, not sung; excluded.",
+   "Fetch failures: commons.wikimedia.org (Kolessa collection page) returned url_not_found, so a mirror was used; folkways-media.si.edu UNES08206 liner PDF returned client_error; uk.wikipedia.org pages for Думи / Дума (жанр) returned url_not_found; last.fm returned client_error; curl to en.wikipedia.org was blocked by the proxy."
+  ]
+ },
+ "tarantella": {
+  "alias": {
+   "Salvatore Gambale and Giovanni Marino": "Salcatore Gambale and Giovanni Marino (Folkways album page tracklist; the liner-notes PDF spells Salvatore)",
+   "Tammuriata D'O Pepe": "Tammuriata D'O Pepe (kept as printed by the seller; standard Neapolitan would be 'Tammurriata d''o pepe', not normalised because that form was not seen on a page)",
+   "Tarantella D'a Fatica": "Tarantella D'a Fatica (kept as printed)",
+   "Pizzica De Sira": "Pizzica De Sira (label page capitalisation kept)",
+   "Officina Zoè": "Officina Zoé (spelling on debaser.it and sonicbids; the group uses Zoè)"
+  },
+  "unverified": [
+   "Release years of Canzoniere Grecanico Salentino's 'Canzoniere' and Officina Zoè's 'Terra' (both recalled as 1990s-2010s) were not on the fetched pages; yrs left null",
+   "Release year of Folkways 'Festa Italiana' not on the fetched page",
+   "Athanasius Kircher's 'Antidotum tarantulae' (Magnes, 1641) as the earliest notated tarantella: recalled; the L'Arpeggiata track list credits Kircher but no fetched page gave the date, so the 1600 window start rests on the tree, not on a cited page",
+   "Uccio Aloisi, Alla Bua, Antonio Infantino, Enzo Avitabile & I Bottari, E Zezi and Marcello Colasurdo recordings: searched once, no page tied a specific track to pizzica or tammurriata",
+   "La Notte della Taranta yearly live albums (Ludovico Einaudi 2010 'Taranta' project etc.): recalled, not fetched",
+   "Rossini 'La danza' (Soirées musicales, 1835) is subtitled 'Tarantella Napolitana' on AllMusic, but no recording by a named major singer (e.g. Pavarotti) was confirmed on a fetched page, so it was not used as a near-miss",
+   "Liszt 'Venezia e Napoli: Tarantella' recordings: not searched",
+   "Wikipedia pages (Tarantella, Nuova Compagnia di Canto Popolare) were read through a summariser; for NCCP the tool refused verbatim quotes, so its facts (founded Naples 1969 by Eugenio Bennato, Carlo D'Angiò and Giovanni Mauriello; tammurriate among genres researched with Roberto De Simone) are not used as sources",
+   "Direct raw-page fetches (en.wikipedia.org, api.discogs.com) through curl were refused by the session proxy; Discogs was therefore not used",
+   "Folkways vol. 5 track 'La Pizzica (Tarantella)' by a 'North-African orchestra from Pagani' exists on the page, but the notes call it 'pure North African music', so it was left out",
+   "Cultural Equity 'Puglia: The Salento' (Rounder, recorded 1954) page gave no track list; its pizzica tracks are unverified"
+  ]
+ },
+ "iraqimaqam": {
+  "alias": {
+   "Maqām Ḥusaynī": "Maḳām Ḥusaynī (All Night Flight); Makam Husayni (CREM, MusicBrainz)",
+   "Maqām Saygah": "Maḳām Saygah (All Night Flight); Makam Saygah (CREM); Makam Sayghah (MusicBrainz)",
+   "Maqām Manṣūrī": "Maqâm Mansûri",
+   "Maqām Ḥijāz Dīwān": "Maqâm Hidjâz Diwân",
+   "Maqām Bayāt": "Maqâm Bayât",
+   "Maqām Nawā": "Maqâm Nawâ",
+   "Maqam Al Sa'idi Hijaz / Habibi Rah wa Ma Janeh": "Maqam Al Sa’idi Hijaz / Habibi Rah wa Ma Janeh",
+   "Maqam Al Iraq / Dar al-Fikir wa al Amjad": "Maqam Al Iraq / Dar al‐Fikir wa al Amjad",
+   "Maqam Al Mansuri / Ya Dada Ya Sha'lan": "Maqam Al Mansuri / Ya Dada Ya Sha’lan",
+   "Iraq: Makamat": "Ensemble al tchalghi al Baghdadi et Yusuf Omar - Iraq - Makamat"
+  },
+  "unverified": [
+   "Muhammad al-Qubanchi: his 1932 Cairo Congress recordings exist (archive.org copy of the BnF 2015 reissue lists 'Toi aux paupières langoureuses' and 'C'est comme si midi était la nuit' credited to Muhammad al-Qubbânjî and Azzûrî al-Awwâd), but only French titles were seen; the Arabic titles and which maqam each is were not found, so no Qubanchi track is in the playlist. Qatar Digital Library captions name 78s 'Rāḥat Liyālī Al-Hanā' and 'Al Jawqa Al Iraqi min yawm forqak' without dates or genre (maqam vs song).",
+   "Yusuf Omar Inédit 1995 double CD: MusicBrainz also lists 'Maqâm Rest' (probably Rast) and \"Maqâm 'Adjam\"; left out because 'Rest' looks like a data-entry typo and was not checked against the CD. Recording dates for the Inédit tracks were not found (Omar died 1987; 1995 is the release year). The Cambridge Yearbook review page could not be fetched (URL too long for the fetch proxy).",
+   "Ocora OCR 79 (1972): the americacophony blog mentions a third piece, Hleilawi, on a later CD edition; not seen in a tracklist.",
+   "Hamid Al-Saadi Maqam Al-Iraq: track listing seen only on MusicBrainz; the Maqam Records Bandcamp page showed no releases and the Torn Light and AllMusic pages had no tracklist.",
+   "Farida: Classical Music of Iraq (1998) tracklist not found (Proper Music and AllMusic pages have none); her tracks here come from Mawal & Maqamat Iraqi (New Samarkand, 1999 per MusicBrainz). Proper Music lists a Music & Words title 'Mawal E Magamat Iragi' (2005) that is probably the same album.",
+   "Husayn al-A‘dhami tracks rest on a fan archive blog; the label releases (Maqams in Divine Enchantment, Felmay/Music & Words) had no tracklist or year on the fetched pages. Several more A‘dhami items on the blog (Maqam Panjigah 2004, Maqam Chahargah, Maqam Nahawand, Maqam Dasht, Maqam Khanabat c. 1995) were seen but not added.",
+   "Nazem al-Ghazali recorded some maqams (Wikipedia) but no specific maqam recording by him was seen; Fog El Nakhal is dated only 'released between 1947-1954', so its year is left null.",
+   "Salima Murad, Rashid al-Qundarchi, Najm al-Shaykhli, Abd al-Rahman Khader, Farida al-A'dhami, Maeda Nazhat: named as maqam singers on Wikipedia but no recordings checked within the call budget.",
+   "Discogs search API needs authentication and returned nothing; Discogs data used only for the one release ID found by web search.",
+   "Start year 1600 comes from the map node; sources only say roots in the Abbasid era (8th–13th centuries). No source for 1600 was found."
+  ]
+ }
+}

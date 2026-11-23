@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (layout method recovered; web access; batch 2)
+
+- Owner reminded the lead that the tree layout was computed in this workspace. Found: the optimiser scripts were still in the workspace's scratch folder, which can be cleared at any time. Saved unchanged to `tools/layout/original/` with a description of the method. They cannot run as they are (they read a file of the old artifact); rewriting them is roadmap 2.13.
+- Owner switched on web access. Checked: a script in the workspace can now fetch a web page (one request to Wikipedia returned 200). The evidence-check script can be built. Whether helper runs have the same access is not yet known.
+- H4 (genre batch 2) accepted as candidates: six full, two with no playable list. With H3 that is 16 of the 132 pending genres researched and waiting to enter the data.
+- Helper fired for H5 (prominence).
+
 ## 2026-11-23 (data model on dev; when something is its own genre)
 
 - Owner: confident the schema work is correct without reviewing it. `schema` squash-merged to `dev`. Not released to `main`.
