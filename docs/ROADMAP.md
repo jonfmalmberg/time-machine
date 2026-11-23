@@ -119,7 +119,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 **Goal:** places, times and genres work as one thing, and any of them can be shared as a link.
 **Why:** "We're treating teleportation to a time and place and genres as if they are inherently different things."
 
-- 5.1 Shareable links: an address that opens the app at a given place, time, genre or combination.
+- 5.1 `review` Shareable links: the address carries the view, place, year, stay, genre filter and open playlist, follows what the person does, and a "Copy link" button sits beside "Copy prompt". Branch `share-links`. Not tested on the hosted address or on iOS Safari. The branch also fixes a fault on the live site: a single genre chosen as the genre filter threw a script error.
 - 5.2 Report: for genres with enough data, compare the characteristic "golden era" list with what the filters produce. Recommend whether a genre is simply a named filter, or whether "characteristic songs" should be a switch on the shared filter.
 - 5.3 Build whichever 5.2 concludes, after review.
 - 5.4 Proposal, then build: selecting a country, a city or a genre on the map without the current overlap.

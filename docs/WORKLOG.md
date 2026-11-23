@@ -2,6 +2,14 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (evidence triage; shareable links)
+
+- H9 accepted. Of 161 unconfirmed claims from batches 1 and 2: 10 confirmed, 6 reworded, 30 source gone, 1 wrong source, 114 cannot tell (the sites refuse scripts, and the page-reading tool needs a permission nobody was there to give). The 17 claims on `download.osmand.net` cite a dead copy of a Wikimedia Commons page and are all on the original. 66 of 207 playlist songs in those batches have no supporting claim at present.
+- The 10 confirmed were all faults in the check script, the third round of faults found in it today. Fixed: compressed replies, text in meta, title and alt attributes, both PDF readings, retry after a passing network fault. Rerun: batches 1 and 2 are 362 found, 7 near, 12 not found, 145 unreadable; batch 3 unchanged at 467 of 469. Controls pass.
+- Open for the owner: whether to run the check for the 60 Smithsonian Folkways claims from his own computer.
+- Shareable links (5.1) built by an Opus sub-agent on branch `share-links`, tests rerun by the lead, pushed for review. It found and fixed a fault that is on the live site: choosing a single genre as the genre filter throws a script error (a Set was read as a list).
+- Helper fired for H10 (pilot on data already on the site).
+
 ## 2026-11-23 (tree layout method runs again)
 
 - Roadmap 2.13, first part, by an Opus sub-agent to a written specification, checked by the lead (tests rerun): `tools/layout/optimise.py` reads today's data. The stored layout is valid by the method's own rule. Its cost comes out 0.2354% above the stored figure; the sub-agent ruled out end years, pending genres and layout changes as the cause and did not find it, and rejected near-matches found by trying combinations as chance. The test tolerance is set at 0.25% and the README says which small errors that would miss.

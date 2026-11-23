@@ -15,7 +15,7 @@ Each claim gets one result:
   no quote     the claim has no quoted string to check                  -> back to the researcher
 A page is fetched once and kept in a local cache folder, so a rerun does not ask the site again.
 """
-import argparse, hashlib, html, json, os, re, subprocess, sys, time, unicodedata, urllib.request, urllib.parse
+import argparse, gzip, hashlib, html, json, os, re, subprocess, sys, time, unicodedata, urllib.request, urllib.parse
 
 UA = 'time-machine-evidence-check/1 (+https://github.com/jonfmalmberg/time-machine)'
 CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '.cache', 'evidence')
@@ -46,19 +46,23 @@ def fetch(url):
             req = urllib.request.Request(urllib.parse.quote(url, safe=":/?#[]@!$&'()*+,;=%~"), headers={'User-Agent': UA, 'Accept-Language': 'en,*;q=0.5'})
             with urllib.request.urlopen(req, timeout=25) as r:
                 raw = r.read(40_000_000); m['status'] = r.status; m['type'] = r.headers.get('Content-Type', '')
+                if raw[:2] == b'\x1f\x8b':                      # some sites send a compressed body unasked
+                    try: raw = gzip.decompress(raw)
+                    except Exception: pass
                 cs = r.headers.get_content_charset() or 'utf-8'
                 if 'pdf' in m['type'] or raw[:5] == b'%PDF-':      # liner notes and catalogues are often PDFs
                     try:
-                        body = subprocess.run(['pdftotext', '-layout', '-', '-'], input=raw, capture_output=True, timeout=60).stdout.decode('utf-8', 'replace')
+                        body = ' '.join(subprocess.run(['pdftotext'] + mode + ['-', '-'], input=raw, capture_output=True, timeout=60).stdout.decode('utf-8', 'replace') for mode in (['-layout'], []))   # both readings: -layout keeps table rows, the plain one keeps columns apart
                         if not body.strip(): m['error'] = 'pdf with no text layer'
                     except Exception as e: m['error'] = 'pdf could not be read: ' + type(e).__name__
                 else: body = raw.decode(cs, 'replace')
         except urllib.error.HTTPError as e: m['status'] = e.code; m['error'] = 'HTTP %d' % e.code
         except Exception as e: m['error'] = type(e).__name__ + ': ' + str(e)[:120]
-        if m.get('status') not in (429, 503): break
+        if m.get('status') not in (429, 503) and not str(m.get('error', '')).startswith(('URLError', 'ConnectionResetError', 'TimeoutError', 'RemoteDisconnected', 'IncompleteRead')): break
         time.sleep(4 + 4 * attempt)
     last[host] = time.time()
-    json.dump(m, open(p + '.json', 'w')); open(p + '.body', 'w', encoding='utf-8').write(body)
+    if body or m.get('status') in (403, 404, 410):          # a passing network fault is not remembered: the next run asks again
+        json.dump(m, open(p + '.json', 'w')); open(p + '.body', 'w', encoding='utf-8').write(body)
     return m, body
 
 def strings(o):
@@ -71,6 +75,9 @@ def text_of(page):
         try: return page + ' ' + strings(json.loads(page))   # the raw text (a researcher may quote it with its field name) and the decoded values
         except ValueError: pass
     page = re.sub(r'(?is)<(script|style|noscript)\b.*?</\1>', ' ', page)
+    # text that lives only in markup: a meta tag's content, and title and alt attributes (track titles on shop pages)
+    attrs = ' '.join(re.findall(r'(?is)\b(?:content|title|alt)\s*=\s*"([^"]{2,300})"', page))
+    page = page + ' ' + attrs
     page = re.sub(r'(?s)<[^>]+>', ' ', page)
     return html.unescape(page)
 

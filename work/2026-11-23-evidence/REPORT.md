@@ -6,6 +6,10 @@ Date: 23 November 2026. Run by the lead with `tools/check_evidence.py` (no model
 
 The first version of this report counted 42 claims as "not found". That was wrong for 27 of them. The owner looked at five pages himself and saw a track title on a MusicBrainz page that the script had reported as absent. Cause: MusicBrainz and last.fm answer scripts with a browser-check page and a normal status, and the script read that page as the real one. Fixed: the script now recognises a bot-check page as "could not read", reads MusicBrainz through its open data interface, and asks a busy site again slowly. The owner's five observations are kept as control cases in `tests/evidence_controls.json` and the script is run against them with `python3 tests/evidence.py`. The numbers below are from the corrected script.
 
+## Second correction, same day
+
+The triage (H9) confirmed 10 claims by hand that the script had not found, each a fault in the script: a compressed reply read as text, a track title held only in markup, PDF columns interleaved, and passing network errors remembered as failures. Fixed, except numbers drawn as stacked fractions. Rerun over the same 526 claims: 362 found (69%), 7 near, 12 not found, 145 page not readable. The table below is the earlier run and is kept for the record.
+
 ## Result
 
 | Outcome | Claims | Share | Meaning |
