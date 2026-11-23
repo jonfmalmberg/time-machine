@@ -1,5 +1,5 @@
 [
-{"id":"c:CA:2010s","status":"decade list","note":"","tests":[{"id":"CA-2010-2019-2026-11-16","y0":2010,"y1":2019,"date":"2026-11-16","scores":[9,7,8],"result":"pass","note":"for anglophone listeners; 7 with a francophone listener"}]},
+{"id":"c:CA:2010s","status":"decade list","note":"","tests":[{"id":"CA-2010-2019-2026-11-16","y0":2010,"y1":2019,"date":"2026-11-16","scores":[9,7,8],"result":"pass","note":"for anglophone listeners; 7 with a francophone listener","years":[2011,2015,2019]}]},
 {"id":"c:CA:2010","status":"year list","note":"Home list rests on the Billboard year-end Canadian Hot 100; only two francophone songs sourced (ADISQ 2010 nominees, winner not confirmed). No Canadian act topped Canada Country in 2010; country entry is from SOCAN's award for 2010 airplay."},
 {"id":"c:CA:2011","status":"year list","note":"No Canadian act topped Canada Country in 2011; country entry is a Juno nominee/SOCAN country award. 'Hello' is by French DJ Martin Solveig with Toronto's Dragonette as co-lead, counted as home."},
 {"id":"c:CA:2012","status":"year list","note":""},

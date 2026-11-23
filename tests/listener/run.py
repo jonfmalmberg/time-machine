@@ -85,7 +85,7 @@ def record(a):
     man.update(status='recorded', model=a.model, recorded=datetime.date.today().isoformat(), scores=scores, result=result)
     json.dump(man, open(os.path.join(run, 'manifest.json'), 'w'), indent=1)
     dec = min(man['years']) // 10 * 10
-    line = dict(id=man['run'], y0=dec, y1=dec + 9, date=man['recorded'], scores=scores, result=result, note='', run=man['run'])
+    line = dict(id=man['run'], y0=dec, y1=dec + 9, date=man['recorded'], scores=scores, years=man['years'], result=result, note='', run=man['run'])
     text = json.dumps(line, ensure_ascii=False, separators=(',', ':'))
     if a.apply:
         sid = 'c:%s:%ds' % (man['place'], dec)

@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (status flags and explanation cards)
+
+- Owner tested `dev`: works. His comment on the Japan 1990s row: a typical user has no idea what "scores 9, 6, 6" means; show a coloured status with a detail card that explains, without prior context and briefly, the result and the standard it was measured against, especially now that tests come in tiers.
+- Built on branch `status-cards`: each row in the playlist panel shows one coloured word (Researched, Thin, Decade list only, Not researched, Passed, Below standard, Not tested, Requested). Tapping the row opens a card: what the test asks, the standard, the result per year as bars against the standard, what fell short, and how it was run (a simulated listener, not a real person; provisional where the inputs were not recorded). The research card says what research means for that scope, the standard, and what exists per decade.
+- Test records now carry the years tested where the rounds recorded them (12 of 18).
+- The card's "standard" section is where a tier's target will go once scopes have their own targets.
+
 ## 2026-11-23 (layout method recovered; web access; batch 2)
 
 - Owner reminded the lead that the tree layout was computed in this workspace. Found: the optimiser scripts were still in the workspace's scratch folder, which can be cleared at any time. Saved unchanged to `tools/layout/original/` with a description of the method. They cannot run as they are (they read a file of the old artifact); rewriting them is roadmap 2.13.
