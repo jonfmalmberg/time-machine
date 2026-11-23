@@ -81,7 +81,10 @@ create trigger on_auth_user_created
 
 -- 4. What the website may do ------------------------------------------------
 
--- Signed-in people only. Nothing is granted to anon (not signed in).
+-- Start from nothing: remove every privilege Supabase gives new tables by
+-- default, then add back only what the site uses. Signed-in people only;
+-- nothing is granted to anon (not signed in).
+revoke all on public.profiles from anon, authenticated;
 grant select          on public.profiles to authenticated;
 grant update (handle) on public.profiles to authenticated;
 

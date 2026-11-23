@@ -4,7 +4,7 @@ Each numbered `.sql` file is one change to the Supabase database, kept here so t
 
 | File | What it does | Dev | Prod |
 | :- | :- | :- | :- |
-| `001_profiles.sql` | Profiles table, sign-up trigger with the 1,000 cap, access rules | not yet | not yet |
+| `001_profiles.sql` | Profiles table, sign-up trigger with the 1,000 cap, access rules | 22 Nov 2026 | not yet |
 | `001_make_owner.sql` | Makes the first signed-in person the owner | not yet | not yet |
 
 ## How changes are applied
