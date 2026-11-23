@@ -79,7 +79,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Model, ask, hand back:** as H12, the next eight.
 
 ## H14. Records for two new genres: rways and Korean minyo
-- **State:** open
+- **State:** handed back 2026-11-23
 - **Model:** Opus.
 - **Ask:** The lead has decided (principle 27) that two genres belong on the tree: **rways** (Tashelhit professional singer-poets of the Sous, Morocco), separate from `amazighahwashandah`; and **Korean minyo** (Korean folk song), separate from `pungmul` and from the Japanese `minyo`. For each, propose a complete genre record in the shape of `data/genres.json` (read ten existing records and `docs/proposals/2026-11-23-schema.md`, "Genres and the tree"): id, name, region, family, tradition (an existing one, or say why none fits), began, ended, origin (text, latitude, longitude, country), definition (window, sound, three or more markers), one principal parent and at most two others from existing genre ids, and a first estimate of where and when it peaked. Every fact needs a source recorded as `work/README.md` requires (raw page text, exact string) and must pass `python3 tools/check_evidence.py`. Say which songs in `work/2026-11-23-H3/` listed under `pungmul` are Korean minyo and not percussion music. Do not edit `data/`.
 - **Hand back:** `genres.add.json`, `parentage.add.json`, `presence.add.json`, `sources.json`, `evidence-check.json`, and the list of `pungmul` songs to move.

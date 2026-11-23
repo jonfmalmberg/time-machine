@@ -1,0 +1,11 @@
+[
+{"genre":"rways","place":"MA","kind":"origin","from":1750,"basis":"first estimate","evidence":["rways:11","rways:14"]},
+{"genre":"rways","place":"mena","kind":"peak","from":1930,"to":1990,"basis":"first estimate","evidence":["rways:20","rways:21","rways:22","rways:24","rways:25"]},
+{"genre":"rways","place":"MA","kind":"peak","from":1930,"to":1990,"strength":0.85,"basis":"first estimate","evidence":["rways:20","rways:21","rways:22","rways:23","rways:24","rways:25","rways:26","rways:27"]},
+{"genre":"rways","place":"FR","kind":"later","from":1930,"basis":"first estimate","evidence":["rways:23","rways:29","rways:30","rways:31"]},
+{"genre":"koreanminyo","place":"KR","kind":"origin","from":1756,"basis":"first estimate","evidence":["koreanminyo:10","koreanminyo:12"]},
+{"genre":"koreanminyo","place":"easia","kind":"peak","from":1910,"to":1945,"basis":"first estimate","evidence":["koreanminyo:16","koreanminyo:17","koreanminyo:18","koreanminyo:19"]},
+{"genre":"koreanminyo","place":"KR","kind":"peak","from":1910,"to":1945,"strength":0.85,"basis":"first estimate","evidence":["koreanminyo:16","koreanminyo:17","koreanminyo:18","koreanminyo:19","koreanminyo:22"]},
+{"genre":"koreanminyo","place":"KP","kind":"peak","from":1910,"to":1945,"strength":0.85,"basis":"first estimate","evidence":["koreanminyo:17","koreanminyo:18","koreanminyo:20","koreanminyo:21"]},
+{"genre":"koreanminyo","place":"JP","kind":"later","from":1910,"basis":"first estimate","evidence":["koreanminyo:23","koreanminyo:24"]}
+]

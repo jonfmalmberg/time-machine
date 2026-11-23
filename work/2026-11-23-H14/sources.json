@@ -1,0 +1,644 @@
+{
+ "rways": [
+  {
+   "kind": "def",
+   "field": "name, definition",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Berber_music",
+   "quote": "A Shluh tradition of community music and dance is performed by the musicians and singers of the rrways style, led by a rrways or raiss.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound",
+   "artist": null,
+   "title": null,
+   "url": "https://sudestmaroc.com/en/amazigh-troubadours-morocco-ribab/",
+   "quote": "Raïs (pl. Rrways): a professional poet, composer, musician and singer in the Amazigh tradition, historically itinerant. In the Souss, the Rrays notably accompanies his poetry on the ribab, a single-stringed bowed instrument.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound, region",
+   "artist": null,
+   "title": null,
+   "url": "https://norient.com/sites/norient.com/files/2023-04/Chapter%201%20%E2%80%93%20Gilles%20Aubry%20%E2%80%93%20Sawt%20Bodies%20Species_colonial-ethical-noise.pdf",
+   "quote": "designating professional, itinerant musicians from the Berber-Tashlhit speaking area of southwestern Morocco (Souss)",
+   "read": "2026-11-23",
+   "note": "PDF; the string runs across line breaks in a margin note."
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Lhaj_Belaid",
+   "quote": "He sang in Tachelhit.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[0]",
+   "artist": null,
+   "title": null,
+   "url": "https://excavatedshellac.com/2010/09/20/rais-mohamed-ben-biak-caid-mokhtar/",
+   "quote": "The primary instruments used in a rwais ensemble are the rribab, the one stringed fiddle from the region made of walnut and olive wood, the lotar, which is a four-stringed lute with an enamel soup bowl as a resonator, and the naqus, which is a percussive bell that is played with a metal rod.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[0]",
+   "artist": null,
+   "title": null,
+   "url": "https://afropop.org/articles/ali-faiq-ccedit",
+   "quote": "The ribab is a one-stringed violin. And also there is the outar. Then there are percussion instruments, like a metallic instrument called naqqus, and also the bendir.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[1]",
+   "artist": null,
+   "title": null,
+   "url": "https://excavatedshellac.com/2010/09/20/rais-mohamed-ben-biak-caid-mokhtar/",
+   "quote": "The raïs sings his poetry line by line, and very often the chorus repeats it, line by line.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[2]",
+   "artist": null,
+   "title": null,
+   "url": "https://lematin.ma/journal/2005/Rythmes-et-modes-de-la-chanson-amazighe-des-Rways--Un-patrimoine-musical-menace-de-disparition/52627.html",
+   "quote": "une gamme musicale pentatonique et (c) une famille de rythmes binaires, ou composés (ternaires, quinaires et plus)",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[2]",
+   "artist": null,
+   "title": null,
+   "url": "https://lematin.ma/journal/2005/Rythmes-et-modes-de-la-chanson-amazighe-des-Rways--Un-patrimoine-musical-menace-de-disparition/52627.html",
+   "quote": "Le cycle rythmique à base de cinq temps (i.e. 5/8) très en usage dans la chanson des rways",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[3]",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Berber_music",
+   "quote": "A rrways performance starts with the astara, an instrumental session on the rebab or lutar, followed by the tambourine and flute.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[3]",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Berber_music",
+   "quote": "The tabbayt marks the final part, in which the rhythm first accelerates and then ceases abruptly.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "began",
+   "field": "began",
+   "artist": null,
+   "title": null,
+   "url": "https://afropop.org/articles/ali-faiq-ccedit",
+   "quote": "Rwayes is an urban music that began, I believe, in the 18th and 19th centuries.",
+   "read": "2026-11-23",
+   "note": "An interview with the musician Ali Faiq; his own hedge (\"I believe\") is kept. No source gives a firmer date."
+  },
+  {
+   "kind": "began",
+   "field": "began",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Hemmou_Talb",
+   "quote": "concludes that the poet most probably flourished in the second half of the 18th century",
+   "read": "2026-11-23",
+   "note": "Sidi Hammou is the earliest named poet tied to the rrways repertoire (next claim); this page itself does not call him a rays."
+  },
+  {
+   "kind": "began",
+   "field": "began",
+   "artist": null,
+   "title": null,
+   "url": "https://tamazghastudiesjournal.org/articles-spring2024-issue-01-article03",
+   "quote": "repurposed many traditional poems from the Rrways tradition of Southern Morocco, citing Boubaker Anchad, Hadj Belaid, and Sidi Hammou Outaleb among others as important influences",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "origin",
+   "field": "origin.text",
+   "artist": null,
+   "title": null,
+   "url": "https://afropop.org/articles/ali-faiq-ccedit",
+   "quote": "So, there were always two schools of rwayes–one in Marrakech, especially in Jemaa el Fnaa, and the other in Tiznit–the old city of the era.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "origin",
+   "field": "origin.text",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Lhaj_Belaid",
+   "quote": "Lhaj Belaid was born around 1873 in a small village near Ouijjane, but he lived most of his life travelling in the region of Souss.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "origin",
+   "field": "origin.lat, origin.lon",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Tiznit",
+   "quote": "29.717; -9.717",
+   "read": "2026-11-23",
+   "note": "Coordinates of Tiznit from its page."
+  },
+  {
+   "kind": "split",
+   "field": "separate from amazighahwashandah",
+   "artist": null,
+   "title": null,
+   "url": "https://afropop.org/articles/ali-faiq-ccedit",
+   "quote": "It’s an art that is professional. It’s not like ahwach, where everybody participates in collective songs.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "split",
+   "field": "separate from amazighahwashandah",
+   "artist": null,
+   "title": null,
+   "url": "https://fr.wikipedia.org/wiki/Chleuhs",
+   "quote": "Rwais and Ahwash: Opposing tendencies in Moroccan Berber Music and Society",
+   "read": "2026-11-23",
+   "note": "Title of Philip Schuyler (1979), cited on this page; the article itself was not read."
+  },
+  {
+   "kind": "parent",
+   "field": "amazighahwashandah -> rways",
+   "artist": null,
+   "title": null,
+   "url": "https://lematin.ma/journal/2005/Rythmes-et-modes-de-la-chanson-amazighe-des-Rways--Un-patrimoine-musical-menace-de-disparition/52627.html",
+   "quote": "Ce rythme est à la base des chants de danse des danses de l'ahwash, de l'ajmak ainsi que du mizan de Huwara dans le Sous.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "MA peak",
+   "artist": null,
+   "title": null,
+   "url": "https://excavatedshellac.com/2010/09/20/rais-mohamed-ben-biak-caid-mokhtar/",
+   "quote": "The Gramophone Company followed suit, recording rwais troupes in 1929.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "MA peak",
+   "artist": null,
+   "title": null,
+   "url": "https://excavatedshellac.com/2010/09/20/rais-mohamed-ben-biak-caid-mokhtar/",
+   "quote": "The first rwais recordings were made by Pathé only about 10 years earlier",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "MA peak",
+   "artist": null,
+   "title": null,
+   "url": "https://norient.com/sites/norient.com/files/2023-04/Chapter%201%20%E2%80%93%20Gilles%20Aubry%20%E2%80%93%20Sawt%20Bodies%20Species_colonial-ethical-noise.pdf",
+   "quote": "includes the famous El-Hajj Belaid who recorded for Baidaphone in 1929",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "MA peak, FR later",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Lhaj_Belaid",
+   "quote": "In 1937, he was one of the first Moroccan artists to be invited to record his music for the French Pathé-Marconi in Paris.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "MA peak",
+   "artist": null,
+   "title": null,
+   "url": "https://www.jadaliyya.com/Details/43446",
+   "quote": "Albensir and his music embody the social unrest that Moroccans went through in the 1970s and the 1980s.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "MA peak",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Hassan_Arsmouk",
+   "quote": "His singing career started early when he was young and became increasingly popular starting from the 1990s.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "MA",
+   "artist": null,
+   "title": null,
+   "url": "https://www.jadaliyya.com/Details/43446",
+   "quote": "Tirruyssā is a popular Amazigh genre that exists throughout the Tashlḥyt areas of Morocco",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "MA",
+   "artist": null,
+   "title": null,
+   "url": "https://afropop.org/articles/ali-faiq-ccedit",
+   "quote": "They used to travel all the way to Oujda.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "still alive (ended null)",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Brahim_El_Mazned",
+   "quote": "The anthology Rrways, a journey into the universe of itinerant Amazigh poet-singers was awarded another prize by the Académie Charles Cros in 2021",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "FR later",
+   "artist": null,
+   "title": null,
+   "url": "https://excavatedshellac.com/2010/09/20/rais-mohamed-ben-biak-caid-mokhtar/",
+   "quote": "In 1938, the Baidaphon company’s Paris outfit recorded the famed El-Hadj Belaïd",
+   "read": "2026-11-23",
+   "note": "Disagrees with the other dates for Belaid recording (1929 Baidaphone in Aubry; 1937 Pathé-Marconi on Wikipedia)."
+  },
+  {
+   "kind": "presence",
+   "field": "FR later",
+   "artist": null,
+   "title": null,
+   "url": "https://www.jadaliyya.com/Details/43446",
+   "quote": "In another masterpiece entitled Amuddu n Bārīz (A Trip to Paris), which dates from 1933",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "FR later",
+   "artist": null,
+   "title": null,
+   "url": "https://mwnlifestyle.com/2024/05/05/rouaiss-ancient-folk-heritage-rooted-in-souss-culture/",
+   "quote": "Cut off from their homeland and community, Rouaiss living abroad have developed a unique poetry of exile and longing.",
+   "read": "2026-11-23",
+   "note": "Does not name a country."
+  }
+ ],
+ "koreanminyo": [
+  {
+   "kind": "def",
+   "field": "name, definition.sound",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Korean_folk_music",
+   "quote": "Korean folk song or minyo, is varied and complex, but all forms maintain a set of rhythms (called 장단; Jangdan) and a loosely defined set of melodic modes",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[0]",
+   "artist": null,
+   "title": null,
+   "url": "https://ko.wikipedia.org/wiki/남도민요",
+   "quote": "한국민요는 대개 같은 가락의 사설을 1절, 2절하고 바꿔 부르는 장절형식(章節形式)이 많고, 흔히 후렴이 붙는다.",
+   "read": "2026-11-23",
+   "note": "\"Korean folk songs are mostly strophic, the same tune sung with verse 1, verse 2, and usually have a refrain.\""
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[0]",
+   "artist": null,
+   "title": null,
+   "url": "https://ich.unesco.org/en/RL/arirang-lyrical-folk-song-in-the-republic-of-korea-00445",
+   "quote": "it consists of the refrain ‘Arirang, arirang, arariyo’ and two simple lines, which differ from region to region",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[1]",
+   "artist": null,
+   "title": null,
+   "url": "https://ko.wikipedia.org/wiki/남도민요",
+   "quote": "굿거리·자진타령·세마치 등이 쓰인다",
+   "read": "2026-11-23",
+   "note": "Gyeonggi minyo: \"the rhythmic cycles gutgeori, jajin-taryeong, semachi and others are used\". An earlier quote from the 경기민요 page was dropped: a link inside the word 세마치장단이 splits it, so the check cannot match it."
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound",
+   "artist": null,
+   "title": null,
+   "url": "https://ko.wikipedia.org/wiki/경기민요",
+   "quote": "흥겹고 경쾌한 맛이 있다",
+   "read": "2026-11-23",
+   "note": "Gyeonggi minyo: \"has a lively, light feel\"."
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[2]",
+   "artist": null,
+   "title": null,
+   "url": "https://ko.wikipedia.org/wiki/남도민요",
+   "quote": "크게 나누면 경서도 민요(京西道民謠)와 남도민요(南道民謠)로 나뉘고, 경서도 민요는 경기 민요와 서도 민요로 나뉜다.",
+   "read": "2026-11-23",
+   "note": "\"Broadly divided into Gyeong-Seodo and Namdo minyo; Gyeong-Seodo divides into Gyeonggi and Seodo minyo.\""
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[2]",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Korean_folk_music",
+   "quote": "the folk songs of the Namdo region, where the famous musical genres pansori and sanjo were created, are rich and dramatic",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[2]",
+   "artist": null,
+   "title": null,
+   "url": "https://ko.wikipedia.org/wiki/남도민요",
+   "quote": "자유리듬이나 불규칙장단으로 된 것이 많다",
+   "read": "2026-11-23",
+   "note": "Pyongan (Seodo) songs: \"many are in free rhythm or irregular cycles\"."
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound",
+   "artist": null,
+   "title": null,
+   "url": "https://budamusique.com/en/catalogue/view/969/the-deep-song-of-korea?of=368",
+   "quote": "They are accompanied by a musical ensemble featuring two zithers, a flute, a fiddle, a oboe and a drum.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound",
+   "artist": null,
+   "title": null,
+   "url": "https://ko.wikipedia.org/wiki/남도민요",
+   "quote": "그 기원은 토속민요에 있으나 전문 소리꾼들에 의하여 음악적으로 세련되고 다채롭게 발전하여 대중에게 널리 알려진 민요를 말한다.",
+   "read": "2026-11-23",
+   "note": "Tongsok (popular) minyo: \"originates in local folk song but was refined by professional singers and became widely known\"."
+  },
+  {
+   "kind": "began",
+   "field": "began, attested",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Arirang",
+   "quote": "the first mention of the song was found in a 1756 manuscript",
+   "read": "2026-11-23",
+   "note": "Keith Howard as reported on the page; the song is older than the record."
+  },
+  {
+   "kind": "began",
+   "field": "attested",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Arirang",
+   "quote": "Some Jeongseon locals trace the song further back, to the era of Goryeo.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "origin",
+   "field": "origin (alternative)",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Arirang",
+   "quote": "It is believed that \"Arirang\" originated in Jeongseon, Gangwon Province.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "origin",
+   "field": "origin.text",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Song_So-hee",
+   "quote": "Gyeonggi Minyo is traditionally popular in the central area around Seoul.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "origin",
+   "field": "origin.lat, origin.lon",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Seoul",
+   "quote": "37.56000; 126.99000",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "parent",
+   "field": "koreanminyo -> pansori",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Korean_folk_music",
+   "quote": "Some Namdo folk songs are used in pansori or developed by professional singers and are included as part of their repertoires.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "KR peak",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Arirang",
+   "quote": "This version was first made popular when it was used as the theme song of the 1926 film Arirang.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "KR, KP peak",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Wang_Su-bok",
+   "quote": "was the most popular singer in Japanese-occupied Korea in 1935",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "KR, KP peak",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Wang_Su-bok",
+   "quote": "One of the styles in which she sang was kinminyo, a traditional folk style.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "KR peak",
+   "artist": null,
+   "title": null,
+   "url": "https://ko.wikipedia.org/wiki/신민요",
+   "quote": "1930년대 초반부터 민요풍으로 창작된 가요들이 유성기 음반을 통해 유포되고 신민요 스타 가수가 탄생하면서",
+   "read": "2026-11-23",
+   "note": "\"From the early 1930s songs written in folk-song style spread on gramophone records and new-folk-song stars were born.\" This is about sinminyo, a popular offshoot."
+  },
+  {
+   "kind": "presence",
+   "field": "KP",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Korean_folk_music",
+   "quote": "Doraji Taryeong is a minyo (folk song) of the Hwanghae Province region of Korea.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "KP, still alive",
+   "artist": null,
+   "title": null,
+   "url": "https://ich.unesco.org/en/RL/arirang-folk-song-in-the-democratic-people-s-republic-of-korea-00914",
+   "quote": "Inscribed in 2014 (9.COM) on the Representative List of the Intangible Cultural Heritage of Humanity",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "KR, still alive",
+   "artist": null,
+   "title": null,
+   "url": "https://ko.wikipedia.org/wiki/경기민요",
+   "quote": "1975년 중요무형문화재 제57호로 지정되었다.",
+   "read": "2026-11-23",
+   "note": "\"Designated Important Intangible Cultural Property No. 57 in 1975.\" (Gyeonggi minyo)"
+  },
+  {
+   "kind": "presence",
+   "field": "JP later",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Arirang",
+   "quote": "\"Arirang\" was introduced to Japan in the 1910s",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "presence",
+   "field": "JP later",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Arirang",
+   "quote": "between 1931 and 1943, more than 50 Japanese versions were released across various genres",
+   "read": "2026-11-23"
+  }
+ ],
+ "pungmul-move": [
+  {
+   "kind": "move",
+   "field": "album",
+   "artist": "Lee Chun-hee",
+   "title": "Arirang and Minyo Singing",
+   "url": "https://musicbrainz.org/release/f4f431dd-5adf-47bf-a34d-891a92757b58",
+   "quote": "Corée : Chant Arirang et Minyo",
+   "read": "2026-11-23",
+   "note": "Album title names minyo."
+  },
+  {
+   "kind": "move",
+   "field": "genre of each title",
+   "artist": null,
+   "title": null,
+   "url": "https://ko.wikipedia.org/wiki/남도민요",
+   "quote": "노랫가락·창부타령·이별가·청춘가·도라지타령·사발가·베틀가·오봉산타령·오돌또기·양류가·방아타령·자진방아타령·양산도·한강수타령·경복궁타령·개성난봉가·늴리리야·군밤타령·는실타령·건드렁타령·아리랑·긴아리랑·청춘가·노들강변",
+   "read": "2026-11-23",
+   "note": "Gyeonggi minyo list on the page: includes 노랫가락 (Noraetgarak), 창부타령 (Changbu Taryeong), 도라지타령 (Doraji/Torachi), 오돌또기 (Odolttogi), 아리랑, 긴아리랑 (Gin Arirang), 청춘가, 노들강변 (Nodeul Gangbyeon)."
+  },
+  {
+   "kind": "move",
+   "field": "song",
+   "artist": "Lee Chun-hee",
+   "title": "Changbu Taryeong",
+   "url": "https://en.wikipedia.org/wiki/Korean_folk_music",
+   "quote": "Changbu Taryeong is a minyo (folk song) of the Gyeonggi Province region of Korea.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "move",
+   "field": "song",
+   "artist": "Lee Chun-hee",
+   "title": "Nodeul Gangbyeon",
+   "url": "https://ko.wikipedia.org/wiki/노들강변",
+   "quote": "1930년대 신불출이 작사하고, 문호월이 작곡한 신민요다",
+   "read": "2026-11-23",
+   "note": "\"A new folk song (sinminyo) written by Sin Bul-chul and composed by Mun Ho-wol in the 1930s\": a composed song in minyo style, not an anonymous folk song."
+  },
+  {
+   "kind": "move",
+   "field": "song",
+   "artist": "Song So-hee",
+   "title": "Odolttogi",
+   "url": "https://en.wikipedia.org/wiki/Song_So-hee",
+   "quote": "South Korean Gyeonggi minyo (경기민요) or traditional folk singer.",
+   "read": "2026-11-23",
+   "note": "Singer is a Gyeonggi minyo singer; 오돌또기 is in the Gyeonggi list above."
+  },
+  {
+   "kind": "move",
+   "field": "song",
+   "artist": "Shilla traditional arts group",
+   "title": "Namdo Min Yo",
+   "url": "https://www.fremeaux.com/en/1665-coree-percussions-et-chants-de-hahoe-et-kyongju-3561302536828-fa5368.html",
+   "quote": "Namdo Min Yo",
+   "read": "2026-11-23",
+   "note": "The title itself names Namdo minyo."
+  },
+  {
+   "kind": "move",
+   "field": "album",
+   "artist": "Various Artists",
+   "title": "The 'Deep Song' of Korea",
+   "url": "https://budamusique.com/en/catalogue/view/969/the-deep-song-of-korea?of=368",
+   "quote": "Minyo is the traditional song of Korea.",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "move",
+   "field": "album",
+   "artist": "Kang Chaeong Ja & Park Jong Sul",
+   "title": "Arirang. Korean Kyonggi Minyo",
+   "url": "https://archives.crem-cnrs.fr/archives/collections/CNRSMH_E_1989_013_005/",
+   "quote": "ARIRANG. KOREAN KYONGGI MINYO",
+   "read": "2026-11-23"
+  },
+  {
+   "kind": "move",
+   "field": "song",
+   "artist": "Kim Ok-sim",
+   "title": "Ah-Rirang",
+   "url": "https://folkways.si.edu/korea-vocal-and-instrumental-music/world/album/smithsonian",
+   "quote": "Ah-Rirang",
+   "read": "2026-11-23",
+   "note": "Same page and string as H3; Folkways refuses scripts (H9), so this will not be found by the check."
+  },
+  {
+   "kind": "move",
+   "field": "song",
+   "artist": "Kim Ok-sim",
+   "title": "Torachi",
+   "url": "https://folkways.si.edu/korea-vocal-and-instrumental-music/world/album/smithsonian",
+   "quote": "Torachi",
+   "read": "2026-11-23",
+   "note": "As above."
+  },
+  {
+   "kind": "move",
+   "field": "near miss",
+   "artist": "SsingSsing",
+   "title": "청춘가",
+   "url": "https://en.wikipedia.org/wiki/SsingSsing",
+   "quote": "SsingSsing incorporates gyeonggi sori, a folk style of singing which originates from the central province around Seoul.",
+   "read": "2026-11-23",
+   "note": "Near miss 청춘가 should point at koreanminyo; 청춘가 is in the Gyeonggi list."
+  }
+ ]
+}
