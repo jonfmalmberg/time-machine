@@ -7,7 +7,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 ---
 
 ## H1. Inventory of the data as it is (roadmap 2.1)
-- **State:** open
+- **State:** handed back 2026-11-23
 - **Model:** Opus for the run; Sonnet sub-agents for counting.
 - **Ask:** For every file in `data/`, establish from the file and from how `src/template.html` and `src/mods/*.js` use it: what one entry is, what each field or list position means, how many entries, and which fields are actually read by the page. Where the meaning cannot be established from the code, say so; do not guess. Then list faults: genres with no definition, playlists with fewer than four songs, the same song spelled differently in different files, songs dated outside their genre's years, countries in `era.json` or `yearl.json` with empty decades, cities without a country, entries the page never reads. Include the three Hebrew chant dots in Israel reported by the owner (find which genres they are and why three appear).
 - **Hand back:** `inventory.md` (one table per file, then the fault list with counts and up to ten examples each) and `faults.json` (every fault, machine-readable: file, key, kind, detail).
