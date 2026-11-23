@@ -12,3 +12,13 @@
 .mepers{border-bottom:1px solid var(--line);padding:6px 0}
 .mepers summary{cursor:pointer}
 .unrev{color:var(--accent)}
+/* Account-based Me page and the owner's Admin page */
+.mewho{display:flex;align-items:center;gap:12px;margin:2px 0 12px} .mewho .rmain b{font:600 17px var(--body)} .mewho .lbtn{flex:none}
+.avatar.big.wait{background:linear-gradient(180deg,#ffb340,#ff9500);color:#fff;box-shadow:none}
+.rchev{color:var(--muted);opacity:.6;display:inline-flex;flex:none} .rchev .ic{width:14px;height:14px}
+.meadmin{margin-top:0;border-top:0;padding-top:0}
+.meadmin .rows,.adacts{background:var(--bg)}
+.meadmin .fine{margin:10px 4px 0} .meadmin .adnone{margin:0 4px}
+.adp .adok{align-self:center;min-height:30px;padding:4px 14px;display:inline-flex;align-items:center;border-radius:15px;flex:none}
+.adacts .adact{font-size:16.5px;color:var(--accent)} .adacts .adact.danger{color:#ff3b30} .adacts .rowb+.rowb::before{left:14px}
+.adtl{margin:0!important} .adtrip{height:60px;position:relative;border-bottom:.5px solid var(--sep)} .adtrip:last-child{border-bottom:0}

@@ -1,34 +1,59 @@
+/* People = accounts. A signed-in, active tester has a travel history kept in the database (table trips)
+   with a copy in this browser so the page is instant and survives a dropped connection. Everyone else
+   is a guest: nothing is kept. window.PEOPLE keeps the interface the other modules use. */
 const MEM={}; const LS={ get(k,d){ try{ const v=localStorage.getItem(k); if(v!=null) return JSON.parse(v); }catch(e){} return k in MEM?JSON.parse(MEM[k]):d; }, set(k,v){ MEM[k]=JSON.stringify(v); try{ localStorage.setItem(k,MEM[k]); }catch(e){} } };
-let PPL=LS.get('wmft-people',{list:[],cur:null});
-if(!PPL||!Array.isArray(PPL.list)) PPL={list:[],cur:null};
-const DBP={}, DBH={};                       // people and history rows seen in the shared database
-let dbOK=null;                              // null unknown, true wrote once, false refused
+const A=()=>window.ACCOUNT||null, cl=()=>{ const a=A(); return a&&a.client?a.client():null; };
 const subs=[];
-const uid=()=>Date.now().toString(36)+Math.random().toString(36).slice(2,7);
-const me=()=>PPL.list.find(p=>p.id===PPL.cur)||null;
+const uid=()=>{ try{ return crypto.randomUUID(); }catch(e){ return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,c=>{ const r=Math.random()*16|0; return (c==='x'?r:(r&3|8)).toString(16); }); } };
+const me=()=>{ const a=A(); if(!a||!a.isActive()) return null; const u=a.user(), p=a.profile(); return u?{id:u.id,name:(p&&p.handle)||'Tester',role:p?p.role:'beta'}:null; };
 const isGuest=()=>!me();
-let ownerFlag=false;
-const isAdmin=()=>{ const m=me(); return !!m&&(!!m.admin||ownerFlag); };   // a guest never sees admin, whoever owns the page
-const hkey=id=>'wmft-hist-'+id;
-const hist=(id=PPL.cur)=>id?LS.get(hkey(id),[]):[];
-const saveP=()=>LS.set('wmft-people',PPL);
-const fire=()=>{ subs.forEach(f=>{ try{ f(); }catch(e){} }); paintWho(); if(typeof curView==='function'&&curView()==='me'){ if(typeof soft==='function') soft(); } };
-async function pinHash(pid,pin){ const s='wmft:'+pid+':'+pin;
-  try{ const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s)); return [...new Uint8Array(b)].slice(0,8).map(x=>x.toString(16).padStart(2,'0')).join(''); }
-  catch(e){ let h=5381; for(let i=0;i<s.length;i++) h=((h<<5)+h+s.charCodeAt(i))|0; return 'x'+(h>>>0).toString(16); } }
-async function dbw(fn){ if(!DB) return false; try{ await fn(); dbOK=true; return true; }catch(e){ if(dbOK==null) dbOK=false; return false; } }
-function putEntry(pid,e){ const L=hist(pid), i=L.findIndex(x=>x.id===e.id); if(i>=0) L[i]=e; else L.push(e); LS.set(hkey(pid),L);
-  dbw(()=>DB.collection('hist').doc(e.id).set({who:pid,...e})); }
+const isAdmin=()=>{ const a=A(); return !!(a&&a.isOwner()); };
+const hkey=id=>'wmft-trips-'+id, dkey=id=>'wmft-trips-del-'+id;
+const hist=()=>{ const m=me(); return m?LS.get(hkey(m.id),[]):[]; };
+const fire=()=>{ subs.forEach(f=>{ try{ f(); }catch(e){} }); if(typeof curView==='function'&&curView()==='me') soft(); };
+
+/* ---- pointers: what is stored is a key into the site's data, never a copy of a name ---- */
+const cKey=c=>c.iso2+':'+c.name; let CIDX=null;
+const cFind=k=>{ if(!CIDX){ CIDX=new Map(); CITIES.forEach((c,i)=>CIDX.set(cKey(c),i)); } return CIDX.has(k)?CIDX.get(k):-1; };
+function plOut(p){ if(!p) return null; if(p.k==='city'){ const c=CITIES[p.i]; return c?{k:'city',c:cKey(c),iso:c.iso2}:(p.iso?{k:'cty',iso:p.iso}:null); }
+  if(p.k==='multi') return {k:'multi',items:(p.items||[]).map(plOut).filter(Boolean)}; if(p.k==='cty') return {k:'cty',iso:p.iso}; if(p.k==='reg') return {k:'reg',reg:p.reg}; return null; }
+function plIn(p){ if(!p||!p.k) return null; if(p.k==='city'){ const i=cFind(p.c); return i>=0?{k:'city',i,iso:CITIES[i].iso2}:(p.iso?{k:'cty',iso:p.iso}:null); }
+  if(p.k==='multi'){ const items=(p.items||[]).map(plIn).filter(Boolean); return items.length?{k:'multi',items}:null; } if(p.k==='cty'&&p.iso) return {k:'cty',iso:p.iso}; if(p.k==='reg'&&p.reg) return {k:'reg',reg:p.reg}; return null; }
+const plKey=p=>{ const o=plOut(p); if(!o) return ''; return o.k==='city'?'city:'+o.c:o.k==='cty'?'cty:'+o.iso:o.k==='reg'?'reg:'+o.reg:'multi:'+o.items.map(x=>x.c||x.iso||x.reg).join('+'); };
+/* the same wording the app uses for a time range, worked out from the stored numbers */
+function whenOf(e){ if(e.year==null) return ''; const y=e.year, a=e.from!=null?Math.min(e.from,y):y-(e.span||0), b=e.from!=null?y:Math.min(T1,y+(e.span||0));
+  if(a===b) return fmtY(a); if((e.from==null?e.span===5:b===a+9)&&a>=1900&&a%10===0) return `the ${a}s`; return `${fmtY(a)}–${fmtY(b)}`.replace(/ BCE–(\d+) BCE/,'–$1 BCE'); }
+const int=v=>v==null||isNaN(v)?null:Math.round(v);
+const toDb=e=>({id:e.id,kind:e.kind,key:String(e.key).slice(0,200),place:plOut(e.pl),iso:e.iso||null,reg:e.reg||null,year:int(e.year),span:int(e.span),from_year:int(e.from),mode:e.mode||null,gid:e.gid||null,
+  label:(!e.pl&&!e.gid&&!e.iso&&!e.reg)?String(e.place||'').slice(0,80)||null:null,status:e.status,react:e.react||null,rating:e.rating||null,note:e.note?String(e.note).slice(0,300):null,n:e.n||1,
+  created_at:new Date(e.at).toISOString(),updated_at:new Date(e.upd||e.at).toISOString()});
+function fromDb(r){ const pl=plIn(r.place)||(r.kind==='trip'?(r.iso?{k:'cty',iso:r.iso}:r.reg?{k:'reg',reg:r.reg}:null):null);
+  const e={id:r.id,at:Date.parse(r.created_at),upd:Date.parse(r.updated_at),kind:r.kind,key:r.key,pl,iso:r.iso,reg:r.reg,year:r.year,span:r.span,from:r.from_year,mode:r.mode,gid:r.gid,status:r.status,react:r.react,rating:r.rating,note:r.note,n:r.n||1};
+  e.place=r.kind==='genre'?(byId[r.gid]?byId[r.gid].place:''):(pl?placeName(pl):(r.label||'Somewhere')); e.when=whenOf(e); return e; }
+
+/* ---- keeping the browser copy and the database in step ---- */
+let SYNC='idle';                          /* idle | busy | ok | off */
+async function push(e){ const c=cl(); if(!c||!me()) return false; try{ const {error}=await c.from('trips').upsert(toDb(e)); if(error) throw error; return true; }catch(x){ SYNC='off'; return false; } }
+async function pushDel(id){ const c=cl(), m=me(); if(!c||!m) return; try{ const {error}=await c.from('trips').delete().eq('id',id); if(error) throw error; LS.set(dkey(m.id),LS.get(dkey(m.id),[]).filter(x=>x!==id)); }catch(x){ SYNC='off'; } }
+async function pull(){ const c=cl(), m=me(); if(!c||!m||SYNC==='busy') return; SYNC='busy';
+  try{ const {data,error}=await c.from('trips').select('*').eq('user_id',m.id).order('created_at',{ascending:false}).limit(5000); if(error) throw error;
+    const gone=new Set(LS.get(dkey(m.id),[])), L=LS.get(hkey(m.id),[]), seen=new Set();
+    (data||[]).forEach(r=>{ if(gone.has(r.id)) return; seen.add(r.id); const e=fromDb(r), i=L.findIndex(x=>x.id===e.id); if(i<0) L.push(e); else if((e.upd||0)>=(L[i].upd||0)) L[i]=e; });
+    LS.set(hkey(m.id),L); SYNC='ok'; fire();
+    /* anything made while offline goes up now; removals that did not reach the database are repeated */
+    for(const e of L){ if(!seen.has(e.id)||((data||[]).find(r=>r.id===e.id&&Date.parse(r.updated_at)<(e.upd||0)))) await push(e); }
+    for(const id of gone) await pushDel(id);
+  }catch(x){ SYNC='off'; } }
+function putEntry(e){ const m=me(); if(!m) return; const L=LS.get(hkey(m.id),[]), i=L.findIndex(x=>x.id===e.id); if(i>=0) L[i]=e; else L.push(e); LS.set(hkey(m.id),L); push(e); }
 function add(e){ const m=me(); if(!m) return null;
   const L=hist(), now=Date.now();
   // the same destination copied again within a day is one trip
   const same=L.find(x=>x.kind===e.kind&&x.key===e.key&&now-x.at<864e5&&x.status==='copied');
-  if(same){ same.at=now; same.n=(same.n||1)+1; putEntry(m.id,same); fire(); return same; }
-  const row={id:uid(),at:now,upd:now,status:'copied',...e}; putEntry(m.id,row); fire(); return row; }
-function setStatus(id,st){ const m=me(); if(!m) return; const e=hist().find(x=>x.id===id); if(!e) return; e.status=st; e.upd=Date.now(); putEntry(m.id,e); fire(); }
-function setField(id,o){ const m=me(); if(!m) return; const e=hist().find(x=>x.id===id); if(!e) return; Object.assign(e,o); e.upd=Date.now(); putEntry(m.id,e); fire(); }
-function setNote(id,t){ const m=me(); if(!m) return; const e=hist().find(x=>x.id===id); if(!e) return; e.note=String(t).slice(0,200); e.upd=Date.now(); putEntry(m.id,e); }
-function removeEntry(id){ const m=me(); if(!m) return; LS.set(hkey(m.id),hist().filter(x=>x.id!==id)); delete DBH[id]; dbw(()=>DB.collection('hist').doc(id).delete()); fire(); }
+  if(same){ same.upd=now; same.n=(same.n||1)+1; putEntry(same); fire(); return same; }
+  const row={id:uid(),at:now,upd:now,status:'copied',n:1,...e}; if(row.when==null) row.when=whenOf(row); putEntry(row); fire(); return row; }
+function setStatus(id,st){ if(!me()) return; const e=hist().find(x=>x.id===id); if(!e) return; e.status=st; e.upd=Date.now(); putEntry(e); fire(); }
+function setField(id,o){ if(!me()) return; const e=hist().find(x=>x.id===id); if(!e) return; Object.assign(e,o); e.upd=Date.now(); putEntry(e); fire(); }
+function removeEntry(id){ const m=me(); if(!m) return; LS.set(hkey(m.id),hist().filter(x=>x.id!==id)); LS.set(dkey(m.id),[...LS.get(dkey(m.id),[]),id]); pushDel(id); fire(); }
 const went=e=>e.status!=='never';
 const heardGenres=()=>new Set(hist().filter(e=>e.kind==='genre'&&went(e)&&e.gid).map(e=>e.gid));
 const travelled=()=>new Set(hist().filter(e=>e.kind==='trip'&&went(e)&&e.iso&&e.year>=1900).map(e=>e.iso+'_'+Math.floor(e.year/10)*10));
@@ -36,64 +61,23 @@ const travelled=()=>new Set(hist().filter(e=>e.kind==='trip'&&went(e)&&e.iso&&e.
 function taste(){ const reg={}, band={}; hist().forEach(e=>{ let w=e.status==='loved'?2:e.status==='listened'?1:e.status==='left'?-1.5:0; if(e.rating) w+=(e.rating-5.5)/3; if(!w) return;
     if(e.reg) reg[e.reg]=(reg[e.reg]||0)+w; if(e.gid&&byId[e.gid]){ const n=byId[e.gid]; band[n.band]=(band[n.band]||0)+w; reg[n.reg]=(reg[n.reg]||0)+w; } }); return {reg,band}; }
 
-/* capture: every copied prompt becomes a history row for the current person */
+/* ---- usage events (active testers only): batched, capped, never blocking ---- */
+const SES=Math.random().toString(36).slice(2,12); let EVQ=[], evN=0;
+function track(action,ref){ if(!me()||evN>=300) return; evN++; EVQ.push({session:SES,action:String(action).slice(0,24),ref:ref||null}); }
+async function flush(){ const c=cl(); if(!c||!me()||!EVQ.length) return; const batch=EVQ; EVQ=[]; try{ await c.from('events').insert(batch); }catch(e){} }
+setInterval(flush,20000); document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='hidden') flush(); });
+window.TRACK=track;
+const showView0=showView; showView=function(v){ const r=showView0.apply(this,arguments); try{ track('view',{v}); }catch(e){} return r; };
+
+/* capture: every copied prompt becomes a trip for the signed-in tester */
 const logCopy0=logCopy;
 logCopy=async function(kind,info){ const m=me(); let row=null;
-  try{ if(m&&kind==='moment') row=add({kind:'trip',key:[info.iso||info.place,info.year,info.span,STFROM,info.mode].join('|'),place:info.place,iso:info.iso||null,reg:info.iso?isoReg(info.iso):(STP&&STP.k==='reg'?STP.reg:null),year:info.year,span:info.span,from:STFROM,when:info.when,mode:info.mode,pl:STP?{...STP}:null});
+  try{ if(m&&kind==='moment'){ const pl=STP?{...STP}:(info.iso?{k:'cty',iso:info.iso}:null);
+      row=add({kind:'trip',key:[plKey(pl)||info.place,info.year,info.span,STFROM,info.mode].join('|'),place:info.place,iso:info.iso||null,reg:info.iso?isoReg(info.iso):(STP&&STP.k==='reg'?STP.reg:null),year:info.year,span:info.span,from:STFROM,when:info.when,mode:info.mode,pl}); }
     else if(m&&kind==='genre'&&info.id&&byId[info.id]) row=add({kind:'genre',key:info.id,gid:info.id,place:byId[info.id].place,reg:byId[info.id].reg,year:byId[info.id].year});
-    else if(m&&kind==='journey') row=add({kind:info.gid?'genre':'trip',...info}); }catch(e){}
+    else if(m&&kind==='journey') row=add({kind:info.gid?'genre':'trip',...info});
+    track('copy',{kind,gid:info.id||info.gid||null,pl:row&&row.pl?plKey(row.pl):null,year:int(info.year)}); }catch(e){}
   return logCopy0(kind,{...info,who:m?m.id:'guest',whoName:m?m.name:'Guest',hid:row?row.id:null}); };
-
-/* people */
-async function createPerson(name,pin){ name=String(name||'').trim().slice(0,24); if(!name) return 'Give a name.';
-  if(PPL.list.some(p=>p.name.toLowerCase()===name.toLowerCase())||Object.values(DBP).some(p=>p.name.toLowerCase()===name.toLowerCase())) return 'That name is taken: pick it from the list.';
-  const id=uid(), first=!PPL.list.length&&!Object.keys(DBP).length;
-  const p={id,name,pin:pin?await pinHash(id,pin):null,admin:first||ownerFlag,at:Date.now()};
-  PPL.list.push(p); PPL.cur=id; saveP(); dbw(()=>DB.collection('people').doc(id).set(p));
-  // the ticks made before there were people belong to the first person
-  if(first&&typeof DONE!=='undefined'&&DONE.size){ const L=[...DONE].filter(g=>byId[g]).map(g=>({id:uid(),at:0,upd:Date.now(),status:'listened',kind:'genre',key:g,gid:g,place:byId[g].place,reg:byId[g].reg,year:byId[g].year,old:1})); LS.set(hkey(id),L); }
-  fire(); return null; }
-async function signIn(id,pin){ let p=PPL.list.find(x=>x.id===id); const remote=DBP[id];
-  if(!p&&remote){ p={...remote}; }
-  if(!p) return 'Not found.';
-  if(p.pin){ if(!pin) return 'PIN needed.'; if(await pinHash(id,pin)!==p.pin) return 'Wrong PIN.'; }
-  if(!PPL.list.some(x=>x.id===id)) PPL.list.push(p);
-  PPL.cur=id; saveP(); mergeRemote(); fire(); return null; }
-function signOut(){ PPL.cur=null; saveP(); fire(); }
-function mergeRemote(){ const m=me(); if(!m) return; const L=hist(); let ch=false;
-  Object.values(DBH).forEach(r=>{ if(r.who!==m.id) return; const i=L.findIndex(x=>x.id===r.id); const {who,...e}=r;
-    if(i<0){ L.push(e); ch=true; } else if((e.upd||0)>(L[i].upd||0)){ L[i]=e; ch=true; } });
-  if(ch) LS.set(hkey(m.id),L); }
-function startDb(){ let n=0; const t=setInterval(()=>{ n++;
-    if(USERCAP&&!ownerFlag){ try{ Promise.resolve(USERCAP.isOwner()).then(v=>{ if(v){ ownerFlag=true; fire(); } }); }catch(e){} }
-    if(!DB){ if(n>40) clearInterval(t); return; } clearInterval(t);
-    try{ DB.collection('people').onSnapshot(s=>{ s.docs.forEach(d=>{ const v=d.data(); if(v&&v.name) DBP[d.id]={...v,id:d.id}; }); PPL.list.forEach(p=>{ const r=DBP[p.id]; if(r){ p.admin=!!r.admin; } }); saveP(); fire(); },()=>{}); }catch(e){}
-    try{ DB.collection('hist').onSnapshot(s=>{ for(const k in DBH) delete DBH[k]; s.docs.forEach(d=>{ const v=d.data(); if(v&&v.who) DBH[d.id]={...v,id:d.id}; }); mergeRemote(); if(curView()==='me') render(); },()=>{}); }catch(e){}
-  },300); }
-
-/* who button */
-const whoBtn=document.getElementById('whobtn'), whoPop=document.getElementById('whopop');
-function paintWho(){ const m=me(); whoBtn.innerHTML=m?esc(m.name.trim().slice(0,1).toUpperCase()):UI.ic('person'); whoBtn.classList.toggle('guest',!m); whoBtn.title=m?m.name+': your trips are kept under this name':'Guest: nothing is kept'; }
-function allPeople(){ const m=new Map(); PPL.list.forEach(p=>m.set(p.id,p)); Object.values(DBP).forEach(p=>{ if(!m.has(p.id)) m.set(p.id,p); }); return [...m.values()].sort((a,b)=>a.name.localeCompare(b.name)); }
-const pRow=(pid,name,sub,on)=>`<button type="button" class="rowb" data-pid="${pid}" aria-pressed="${on}"><span class="rmedia"><span class="avatar sm${pid?'':' guest'}">${pid?name.slice(0,1).toUpperCase():UI.ic('person')}</span></span><span class="rmain"><b>${name}</b>${sub?`<small>${sub}</small>`:''}</span><span class="rcheck">${on?'✓':''}</span></button>`;
-function paintPop(msg){ const cur=PPL.cur;
-  whoPop.innerHTML=`<div class="rows wholist">${allPeople().map(p=>pRow(p.id,esc(p.name),[p.pin?'PIN':'',p.admin&&isAdmin()?'admin':''].filter(Boolean).join(' · '),p.id===cur)).join('')}${pRow('','Guest','Nothing is kept',!cur)}</div>
-  <div class="formrow" id="whopin" hidden><input id="whopinv" type="password" inputmode="numeric" maxlength="8" placeholder="PIN" aria-label="PIN"><button class="lbtn primary" id="whopingo" type="button">Enter</button></div>
-  <p class="shlabel">New person</p>
-  <div class="formrow"><input id="whoname" type="text" maxlength="24" placeholder="Name" aria-label="Name"><input id="whonpin" type="password" inputmode="numeric" maxlength="8" placeholder="PIN (optional)" aria-label="Optional PIN"><button class="lbtn primary" id="whoadd" type="button">Add</button></div>
-  <p class="fine" id="whomsg">${esc(msg||'')}</p><p class="fine">Nothing sensitive is stored: a name, an optional short PIN and where you went. ${DB?(dbOK===false?'This view cannot write to the shared log, so your history stays on this device.':'History is also kept in the shared log so an admin can see it.'):'History is kept on this device only.'}</p>`;
-  let pending=null;
-  whoPop.querySelectorAll('[data-pid]').forEach(b=>b.onclick=async()=>{ const id=b.dataset.pid; if(!id){ signOut(); closePop2(); return; }
-    const p=allPeople().find(x=>x.id===id); if(p&&p.pin){ pending=id; const w=whoPop.querySelector('#whopin'); w.hidden=false; const f=w.querySelector('input'); f.placeholder='PIN for '+p.name; f.focus(); return; }
-    const err=await signIn(id); if(err) paintPop(err); else closePop2(); });
-  const go=async()=>{ if(!pending) return; const err=await signIn(pending,whoPop.querySelector('#whopinv').value); if(err) whoPop.querySelector('#whomsg').textContent=err; else closePop2(); };
-  whoPop.querySelector('#whopingo').onclick=go; whoPop.querySelector('#whopinv').onkeydown=e=>{ if(e.key==='Enter') go(); };
-  const addP=async()=>{ const err=await createPerson(whoPop.querySelector('#whoname').value,whoPop.querySelector('#whonpin').value); if(err) whoPop.querySelector('#whomsg').textContent=err; else closePop2(); };
-  whoPop.querySelector('#whoadd').onclick=addP; whoPop.querySelector('#whoname').onkeydown=e=>{ if(e.key==='Enter') addP(); };
-}
-function closePop2(){ UI.sheet.close('who'); }
-function openWho(){ paintPop(); UI.sheet.open('who'); }
-whoBtn.addEventListener('click',openWho);
 
 /* My travels: a windowed list (any length), quick marks on each row, swipe to cancel a ticket, details in a sheet */
 const ic=UI.ic;
@@ -133,52 +117,67 @@ function openTrip(id){ const e=hist().find(x=>x.id===id); if(!e) return;
     else if('rm' in d){ if(x.dataset.sure){ removeEntry(id); UI.sheet.close(); } else { x.dataset.sure=1; x.textContent='Tap again to remove'; } } };
   const tn=b.querySelector('#tnote'); tn.onchange=()=>setField(id,{note:tn.value.slice(0,300)}); }
 function soft(){ const box=document.getElementById('view-me'); if(!box||!box.querySelector('#melist')||page!=='me'||!me()){ render(); return; }
-  ROWS=myRows(); const st=box.querySelector('#mestats'); if(st) st.innerHTML=statsHtml(); const em=box.querySelector('#meempty'); if(em) em.hidden=ROWS.length>0; if(LIST) LIST.refresh(); }
-function render(){ const box=document.getElementById('view-me'); if(!box) return; const m=me(), adm=isAdmin(); if(!adm) page='me'; let h='';
+  ROWS=myRows(); const st=box.querySelector('#mestats'); if(st) st.innerHTML=statsHtml(); const em=box.querySelector('#meempty'); if(em) em.hidden=ROWS.length>0; const sy=box.querySelector('#mesync'); if(sy) sy.hidden=SYNC!=='off'; if(LIST) LIST.refresh(); }
+const hero=(cls,icn,title,text,btn)=>`<div class="meguest"><span class="avatar big ${cls}">${ic(icn)}</span><h2>${title}</h2><p>${text}</p><button class="lbtn primary" id="mewho" type="button">${btn}</button></div>`;
+function render(){ const box=document.getElementById('view-me'); if(!box) return; const a=A(), m=me(), adm=isAdmin(), p=a&&a.profile(), signed=!!(a&&a.user()); if(!adm) page='me'; let h='';
   if(adm) h+=`<div class="seg mepage" role="radiogroup" aria-label="Page">${[['me','My travels'],['admin','Admin']].map(([v,l])=>`<button type="button" role="radio" data-page="${v}" aria-pressed="${page===v}" aria-checked="${page===v}">${l}</button>`).join('')}</div>`;
   if(page==='admin'&&adm) h+=adminHtml();
-  else if(!m) h+=`<div class="meguest"><span class="avatar guest big">${ic('person')}</span><h2>Travelling as Guest</h2><p>Nothing is kept. Choose or add a person to keep a log of where you went, rate it, and get random picks and journeys that skip what you already heard.</p><button class="lbtn primary" id="mewho" type="button">Choose a person</button></div>`;
-  else h+=`<div class="mehead"><div class="mestats" id="mestats">${statsHtml()}</div>
+  else if(!signed) h+=hero('guest','person','Travelling as a guest','Nothing is kept. Testers sign in to keep a log of where they went, rate it, and get random picks and journeys that skip what they already heard.','Sign in');
+  else if(!m) h+=p&&p.status==='suspended'?hero('guest','x','Profile suspended','This profile has been suspended by the owner, so nothing is being kept.','Account')
+      :hero('wait','clock','Under review','Your tester profile has been requested. Until you are let in, you travel as a guest and nothing is kept. An invite code from a tester gets you in straight away.','Enter an invite code');
+  else h+=`<div class="mehead"><div class="mewho"><span class="avatar sm">${esc(m.name.slice(0,1).toUpperCase())}</span><span class="rmain"><b>${esc(m.name)}</b><small>${m.role==='owner'?'Owner':m.role==='principal'?'Principal tester':'Beta tester'}</small></span><button type="button" class="lbtn" id="mewho">Account</button></div>
+      <div class="mestats" id="mestats">${statsHtml()}</div>
       <div class="seg" id="meseg" role="group" aria-label="Show">${[['all','All'],['trip','Trips'],['genre','Genres'],['copied','To review']].map(([v,l])=>`<button type="button" data-mf="${v}" aria-pressed="${meFilter===v}">${l}</button>`).join('')}</div>
-      <p class="fine mehint">Copying a prompt buys the ticket. Mark what happened with ${ic('check')} ${ic('heart')} ${ic('exit')}, swipe a row right if you never boarded, tap it for reactions, a rating and notes.</p></div>
+      <p class="fine mehint">Copying a prompt buys the ticket. Mark what happened with ${ic('check')} ${ic('heart')} ${ic('exit')}, swipe a row right if you never boarded, tap it for reactions, a rating and notes.</p>
+      <p class="fine mesync" id="mesync"${SYNC==='off'?'':' hidden'}>Not reaching the database right now. Changes are kept on this device and sent when it is back.</p></div>
     <div id="melist" class="triplist"></div><p class="fine" id="meempty" hidden>Nothing here yet. Copy a playlist prompt anywhere in the app and it shows up here.</p>`;
-  box.innerHTML=h; LIST=null; ALIST=null;
+  box.innerHTML=h; LIST=null;
   box.querySelectorAll('[data-page]').forEach(b=>b.onclick=()=>{ page=b.dataset.page; render(); });
-  const w=box.querySelector('#mewho'); if(w) w.onclick=e=>{ e.stopPropagation(); openWho(); };
+  const w=box.querySelector('#mewho'); if(w) w.onclick=e=>{ e.stopPropagation(); if(a) a.open(); };
   box.querySelectorAll('[data-mf]').forEach(b=>b.onclick=()=>{ meFilter=b.dataset.mf; box.querySelectorAll('[data-mf]').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); soft(); });
   const host=box.querySelector('#melist');
   if(host){ ROWS=myRows(); box.querySelector('#meempty').hidden=ROWS.length>0; LIST=UI.vlist(host,{rowH:66,count:()=>ROWS.length,row:i=>tripRow(ROWS[i],true)});
-    host.onclick=ev=>{ const row=ev.target.closest('.trip'); if(!row) return; const id=row.dataset.hid, e=hist().find(x=>x.id===id); if(!e) return; const a=ev.target.closest('.tact');
-      if(a){ setStatus(id,e.status===a.dataset.st?'copied':a.dataset.st); return; } openTrip(id); };
+    host.onclick=ev=>{ const row=ev.target.closest('.trip'); if(!row) return; const id=row.dataset.hid, e=hist().find(x=>x.id===id); if(!e) return; const t=ev.target.closest('.tact');
+      if(t){ setStatus(id,e.status===t.dataset.st?'copied':t.dataset.st); return; } openTrip(id); };
     UI.swipe(host,{onSwipe:(row,i)=>{ const e=ROWS[i]; if(e) setStatus(e.id,e.status==='never'?'copied':'never'); }}); }
   if(page==='admin'&&adm) wireAdmin(box); }
-function unreviewed(){ const out=[]; for(const iso in YEARL) for(const y in YEARL[iso]){ const c=YEARL[iso][y]; if(c&&c.status==='unreviewed') out.push({iso,y:+y,n:(c.songs||[]).length,by:c.by||'',at:c.at||0}); } return out.sort((a,b)=>a.iso.localeCompare(b.iso)||a.y-b.y); }
-function adminHtml(){ let h=`<div class="meadmin">`;
-  const U=unreviewed(), groups={}; U.forEach(u=>{ const k=u.iso+'_'+Math.floor(u.y/10)*10; (groups[k]=groups[k]||[]).push(u); });
-  h+=`<h3>New research, not yet listener-tested</h3>`+(Object.keys(groups).length?`<p class="fine">These lists are live and marked "new research, not yet tested" where they are used. Test them from the map (Playlist for this moment → Test with a synthetic listener), then keep or remove them here.</p>`+Object.entries(groups).map(([k,L])=>`<div class="trow" data-ur="${k}"><span class="twhat"><b>${esc(isoName(L[0].iso))} ${k.slice(3)}s</b> <span class="fine">${L.length} years · ${L.reduce((s,u)=>s+u.n,0)} songs${L[0].by?' · by '+esc(L[0].by):''}${L[0].at?' · '+fmtD(L[0].at):''}</span></span><button class="lbtn urgo" type="button">Open</button><button class="lbtn urok" type="button">Mark tested</button><button class="lbtn urdel" type="button">Remove</button></div>`).join(''):`<p class="fine">${DB?'None waiting.':'The shared database is not reachable in this view, so new research cannot be listed here.'}</p>`);
-  const by={}; Object.values(DBH).forEach(r=>{ (by[r.who]=by[r.who]||[]).push(r); });
-  h+=`<h3>Everyone's travels</h3>`;
-  const ids=Object.keys(by).sort((a,b)=>by[b].length-by[a].length); if(!ids.includes(adminWho)) adminWho=ids[0]||null;
-  if(!ids.length) h+=`<p class="fine">${DB?'No history has reached the shared log yet.':'Only histories that reach the shared log can be shown, and it is not reachable in this view.'}</p>`;
-  else{ AROWS=by[adminWho].slice().sort((a,b)=>b.at-a.at);
-    h+=`<div class="seg" id="adwho" role="group" aria-label="Person">${ids.map(pid=>{ const p=DBP[pid]||PPL.list.find(x=>x.id===pid)||{name:pid}; return `<button type="button" data-aw="${pid}" aria-pressed="${pid===adminWho}">${esc(p.name)} · ${by[pid].length}</button>`; }).join('')}</div><div id="adlist" class="triplist"></div>`; }
-  const others=allPeople().filter(p=>p.id!==PPL.cur);
-  if(others.length) h+=`<h3>People</h3>`+others.map(p=>`<div class="trow" data-pp="${p.id}"><span class="twhat"><b>${esc(p.name)}</b> <span class="fine">${p.pin?'has a PIN':'no PIN'}${p.admin?' · admin':''}</span></span><button class="lbtn ppadm" type="button">${p.admin?'Remove admin':'Make admin'}</button><button class="lbtn pppin" type="button">Clear PIN</button></div>`).join('');
-  return h+`</div>`; }
-function wireAdmin(box){
-  box.querySelectorAll('[data-aw]').forEach(b=>b.onclick=()=>{ adminWho=b.dataset.aw; render(); });
-  const ah=box.querySelector('#adlist'); if(ah) ALIST=UI.vlist(ah,{rowH:60,count:()=>AROWS.length,row:i=>tripRow(AROWS[i],false)});
-  box.querySelectorAll('[data-ur]').forEach(r=>{ const k=r.dataset.ur, iso=k.slice(0,2), dec=+k.slice(3), ys=unreviewed().filter(u=>u.iso===iso&&Math.floor(u.y/10)*10===dec);
-    r.querySelector('.urgo').onclick=()=>{ resetFilters('all'); setYear(ys[0].y); setStay(0); stPanelOpen=true; setPlace({k:'cty',iso}); location.hash='map'; };
-    r.querySelector('.urok').onclick=async()=>{ for(const u of ys){ YEARL[iso][u.y].status='verified'; await dbw(()=>DB.collection('year').doc(iso+'_'+u.y).update({status:'verified',reviewedAt:Date.now(),reviewedBy:(me()||{}).name||'admin'})); } render(); };
-    const d=r.querySelector('.urdel'); d.onclick=async()=>{ if(!d.dataset.sure){ d.dataset.sure=1; d.textContent='Sure?'; return; } for(const u of ys){ delete YEARL[iso][u.y]; await dbw(()=>DB.collection('year').doc(iso+'_'+u.y).delete()); } render(); stPanelUpdate(); }; });
-  box.querySelectorAll('[data-pp]').forEach(r=>{ const id=r.dataset.pp, p=allPeople().find(x=>x.id===id); if(!p) return;
-    r.querySelector('.ppadm').onclick=()=>{ p.admin=!p.admin; const l=PPL.list.find(x=>x.id===id); if(l) l.admin=p.admin; saveP(); dbw(()=>DB.collection('people').doc(id).update({admin:p.admin})); render(); };
-    r.querySelector('.pppin').onclick=()=>{ p.pin=null; const l=PPL.list.find(x=>x.id===id); if(l) l.pin=null; saveP(); dbw(()=>DB.collection('people').doc(id).update({pin:null})); render(); }; }); }
 
-window.PEOPLE={ me, isGuest, isAdmin, history:()=>hist(), heardGenres, travelled, taste, add, setStatus, setField, remove:removeEntry, onChange:f=>subs.push(f), render, unreviewed };
+/* ---- Admin (owner only): totals, people waiting, every tester and what they did ---- */
+let AD={stats:null,people:null,err:'',at:0};
+const ROLEN={beta:'Beta tester',principal:'Principal tester',owner:'Owner'};
+async function adminLoad(){ const c=cl(); if(!c) return; AD.at=Date.now();
+  try{ const [s,p]=await Promise.all([c.rpc('admin_stats'),c.from('profiles').select('id,handle,role,status,joined').order('joined',{ascending:false}).limit(1000)]);
+    if(s.error) throw s.error; if(p.error) throw p.error; AD.stats=s.data; AD.people=p.data||[]; AD.err=''; }
+  catch(e){ AD.err=(e&&e.message)||'The admin data could not be read.'; }
+  if(curView()==='me'&&page==='admin') render(); }
+const pRow=p=>`<button type="button" class="rowb adp" data-ap="${p.id}"><span class="rmedia"><span class="avatar sm${p.status==='active'?'':' guest'}">${p.handle?esc(p.handle.slice(0,1).toUpperCase()):ic('person')}</span></span><span class="rmain"><b>${p.handle?esc(p.handle):'No handle yet'}</b><small>${esc((p.status==='active'?ROLEN[p.role]||p.role:p.status==='pending'?'Waiting':'Suspended')+' · joined '+fmtD(Date.parse(p.joined)))}</small></span>${p.status==='pending'?`<span class="lbtn primary adok" data-ok="${p.id}">Let in</span>`:`<span class="rchev">${ic('chev')}</span>`}</button>`;
+function adminHtml(){ if(!AD.people&&!AD.err){ if(Date.now()-AD.at>3000) adminLoad(); return `<p class="fine adwait">Reading…</p>`; }
+  if(Date.now()-AD.at>30000) adminLoad();
+  const s=AD.stats||{}, P=AD.people||[], mine=me(), wait=P.filter(p=>p.status==='pending'), rest=P.filter(p=>p.status!=='pending'&&(!mine||p.id!==mine.id));
+  const cell=(n,l)=>`<span class="stat"><b>${n==null?'–':n}</b><small>${l}</small></span>`;
+  return `<div class="meadmin">${AD.err?`<p class="fine acctmsg">${esc(AD.err)}</p>`:''}
+    <div class="mestats">${cell(s.active,'testers')}${cell(s.pending,'waiting')}${cell(s.trips,'trips')}${cell(s.rated,'rated')}${cell(s.events7,'events, 7 days')}${cell(s.invites,'open invites')}</div>
+    <p class="shlabel">Waiting to be let in</p>${wait.length?`<div class="rows">${wait.map(pRow).join('')}</div>`:`<p class="fine adnone">Nobody is waiting.</p>`}
+    <p class="shlabel">Testers</p>${rest.length?`<div class="rows">${rest.map(pRow).join('')}</div>`:`<p class="fine adnone">No other testers yet. Invite one from Account.</p>`}
+    <p class="fine">Issues and feedback from testers will be listed here once that feature is built.</p></div>`; }
+async function setProfile(id,role,status){ const c=cl(); if(!c) return; const {error}=await c.rpc('admin_set_profile',{target:id,new_role:role,new_status:status}); AD.err=error?(error.message||'That did not work.'):''; await adminLoad(); }
+async function openTester(id){ const p=(AD.people||[]).find(x=>x.id===id), c=cl(); if(!p||!c) return;
+  const act=(l,r,s,cls)=>`<button type="button" class="rowb adact ${cls||''}" data-r="${r}" data-s="${s}">${l}</button>`;
+  const b=UI.detail(p.handle||'No handle yet',`<p class="fine dsub">${esc((ROLEN[p.role]||p.role)+' · '+p.status+' · joined '+fmtD(Date.parse(p.joined)))}</p>
+    <div class="rows adacts">${p.status==='pending'?act('Let in',p.role,'active'):''}${p.status==='suspended'?act('Reinstate',p.role,'active'):''}${p.status==='active'&&p.role==='beta'?act('Make principal tester','principal','active'):''}${p.status==='active'&&p.role==='principal'?act('Back to beta tester','beta','active'):''}${p.status!=='suspended'?act('Suspend',p.role,'suspended','danger'):''}</div>
+    <p class="shlabel">Travels</p><div id="adtrips"><p class="fine">Reading…</p></div>`);
+  b.onclick=async ev=>{ const x=ev.target.closest('.adact'); if(!x) return; UI.sheet.close(); await setProfile(id,x.dataset.r,x.dataset.s); };
+  const {data,error}=await c.from('trips').select('*').eq('user_id',id).order('created_at',{ascending:false}).limit(200);
+  const host=b.querySelector('#adtrips'); if(!host) return;
+  host.innerHTML=error?`<p class="fine">${esc(error.message||'Could not read.')}</p>`:(data&&data.length?`<div class="triplist adtl">${data.map(r=>`<div class="adtrip">${tripRow(fromDb(r),false)}</div>`).join('')}</div>${data.length===200?'<p class="fine">Showing the latest 200.</p>':''}`:`<p class="fine">No travels yet.</p>`); }
+function wireAdmin(box){ box.querySelectorAll('[data-ap]').forEach(r=>r.onclick=ev=>{ const ok=ev.target.closest('[data-ok]'); const p=(AD.people||[]).find(x=>x.id===r.dataset.ap); if(!p) return; if(ok){ setProfile(p.id,p.role,'active'); return; } openTester(p.id); }); }
+
+window.PEOPLE={ me, isGuest, isAdmin, history:()=>hist(), heardGenres, travelled, taste, add, setStatus, setField, remove:removeEntry, onChange:f=>subs.push(f), render, unreviewed:()=>[] };
 VIEWHOOK.me=render;
-paintWho(); startDb(); if(curView()==='me') render();
+/* follow the account: when someone becomes an active tester, fetch their travels; redraw on every change */
+let lastId=null;
+if(A()) A().onChange(()=>{ const m=me(), id=m?m.id:null; if(id!==lastId){ lastId=id; SYNC='idle'; AD={stats:null,people:null,err:'',at:0}; if(id){ pull(); track('session',{w:innerWidth,h:innerHeight,dark:matchMedia('(prefers-color-scheme: dark)').matches,lang:navigator.language}); } } fire(); if(curView()==='me') render(); });
+if(curView()==='me') render();
 
 /* label lists that came from new research and have not been listener-tested */
 const stPanelUpdate0=stPanelUpdate;

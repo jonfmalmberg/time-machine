@@ -23,6 +23,8 @@ create table public.invites (
   code        text primary key check (code ~ '^[0-9A-F]{12}$'),
   created_by  uuid not null references public.profiles (id) on delete cascade,
   created_at  timestamptz not null default now(),
+  -- An unused code stops working after 14 days.
+  expires_at  timestamptz not null default now() + interval '14 days',
   -- Empty until someone uses the code. A code works once.
   used_by     uuid references public.profiles (id) on delete cascade,
   used_at     timestamptz,
@@ -35,7 +37,8 @@ create index invites_used_by_idx on public.invites (used_by);
 alter table public.invites enable row level security;
 
 -- 2. A new code for an active member ---------------------------------------
--- Members may hold three unused codes at a time; the owner has no limit.
+-- Members may hold three unused, unexpired codes at a time; the owner has
+-- no limit.
 
 create function public.create_invite()
 returns text
@@ -53,7 +56,8 @@ begin
     raise exception 'Only active members can invite.';
   end if;
   if mine.role <> 'owner'
-     and (select count(*) from public.invites where created_by = me and used_by is null) >= 3 then
+     and (select count(*) from public.invites
+          where created_by = me and used_by is null and expires_at > now()) >= 3 then
     raise exception 'You already have three unused invites.';
   end if;
   fresh := upper(substr(replace(gen_random_uuid()::text, '-', ''), 1, 12));
@@ -92,7 +96,7 @@ begin
 
   -- Lock the row so two people cannot use one code at the same moment.
   select * into inv from public.invites
-   where code = clean and used_by is null
+   where code = clean and used_by is null and expires_at > now()
    for update;
   if inv.code is null
      or inv.created_by = me
@@ -100,7 +104,7 @@ begin
                      where id = inv.created_by and status = 'active')
      or exists (select 1 from public.invites
                  where created_by = inv.created_by and used_by = me) then
-    raise exception 'That code is not valid or has already been used.';
+    raise exception 'That code is not valid, has expired or has already been used.';
   end if;
 
   update public.invites set used_by = me, used_at = now() where code = inv.code;

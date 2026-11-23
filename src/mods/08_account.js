@@ -30,7 +30,7 @@ const invGet=()=>{ try{ return localStorage.getItem(INV)||''; }catch(e){ return 
 const invSet=v=>{ try{ v?localStorage.setItem(INV,v):localStorage.removeItem(INV); }catch(e){} };
 const fmtCode=c=>String(c).replace(/(.{4})(?=.)/g,'$1-');
 const inviteLink=c=>location.origin+location.pathname+'?invite='+fmtCode(c);
-function openSheet(){ const b=document.getElementById('whobtn'); if(b&&UI.sheet.current()!=='who') b.click(); }
+function openSheet(){ paint(); if(UI.sheet.current()!=='who') UI.sheet.open('who'); }
 
 function load(){
   if(loading) return loading;
@@ -48,7 +48,7 @@ async function readProfile(){
   const {data,error}=await client.from('profiles').select('handle,role,status').eq('id',S.user.id).maybeSingle();
   if(error){ S.msg='Your profile could not be read. '+(error.message||''); return; }
   S.profile=data||null; if(!data) S.msg='No profile exists for this account yet.';
-  if(data&&data.status==='active'){ const r=await client.from('invites').select('code,created_at').is('used_by',null).order('created_at'); S.invites=(r&&r.data)||[]; }
+  if(data&&data.status==='active'){ const r=await client.from('invites').select('code,expires_at').is('used_by',null).gt('expires_at',new Date().toISOString()).order('created_at'); S.invites=(r&&r.data)||[]; }
   else S.invites=[];
 }
 async function onSession(session){
@@ -92,7 +92,7 @@ async function redeem(code,quiet){
 async function newInvite(){
   const {data,error}=await client.rpc('create_invite');
   if(error){ S.msg=error.message||'No invite was made.'; paint(); return; }
-  S.invites=[...S.invites,{code:data}]; S.msg=''; paint();
+  S.invites=[...S.invites,{code:data,expires_at:new Date(Date.now()+14*864e5).toISOString()}]; S.msg=''; paint();
 }
 async function copyLink(code,btn){
   const link=inviteLink(code);
@@ -101,29 +101,29 @@ async function copyLink(code,btn){
   setTimeout(()=>{ if(btn.isConnected) btn.textContent='Copy link'; },1800);
 }
 
-/* The account block sits at the top of the "Who is travelling?" sheet. */
-const body=document.getElementById('whopop');
-const box=document.createElement('div'); box.id='acct';
-/* The people module rewrites the sheet body each time it opens; keep the account block as its first child so the sheet scrolls as one. */
-if(body){ const keep=()=>{ if(box.parentNode!==body) body.prepend(box); }; keep(); new MutationObserver(keep).observe(body,{childList:true}); }
+/* The account sheet (opened from the round button at the top right) and that button. */
+const box=document.getElementById('whopop'), whoBtn=document.getElementById('whobtn');
+const daysLeft=t=>{ const d=Math.ceil((Date.parse(t)-Date.now())/864e5); return d<=1?'Expires within a day':'Expires in '+d+' days'; };
+function paintBtn(){ if(!whoBtn) return; const p=S.profile, inn=S.phase==='in', name=p&&p.handle?p.handle:'';
+  whoBtn.innerHTML=inn&&name?h(name.slice(0,1).toUpperCase()):UI.ic('person');
+  whoBtn.classList.toggle('guest',!inn); whoBtn.classList.toggle('wait',inn&&!!p&&p.status!=='active');
+  whoBtn.title=!inn?'Sign in':p&&p.status==='active'?(name||'Signed in'):'Signed in: under review'; whoBtn.setAttribute('aria-label','Account'); }
 const ROLE={beta:'Beta tester',principal:'Principal tester',owner:'Owner'};
 const NOTE={
   pending:['clock','Under review','Your profile has been requested. You get in when the owner approves it, or straight away with an invite code from a tester.'],
   suspended:['x','Suspended','This profile has been suspended by the owner.']};
 function paint(){
-  if(!box.isConnected) return;
+  paintBtn(); if(!box) return;
   const p=S.profile, msg=S.msg?`<p class="fine acctmsg" role="status">${h(S.msg)}</p>`:'';
   if(S.phase!=='in'){
     const inv=invGet();
-    box.innerHTML=`<p class="shlabel">Account</p>
-      ${inv?`<div class="acctnote ok"><span class="acctni">${UI.ic('ticket')}</span><span><b>You have an invite</b><small>Continue with Google and it is used automatically.</small></span></div>`:''}
+    box.innerHTML=`${inv?`<div class="acctnote ok"><span class="acctni">${UI.ic('ticket')}</span><span><b>You have an invite</b><small>Continue with Google and it is used automatically.</small></span></div>`:''}
       <div class="rows"><button type="button" class="rowb" id="acctin"${S.phase==='busy'?' disabled':''}><span class="rmedia">${UI.ic('person')}</span><span class="rmain"><b>${S.phase==='busy'?'Opening Google…':'Continue with Google'}</b><small>${inv?'Join as a tester':'Ask for a tester profile'}</small></span><span class="rchev">${UI.ic('chev')}</span></button></div>
-      ${msg}<p class="fine">Browsing needs no account. Signing in keeps a handle and your tester status, nothing else.</p>
-      <p class="shlabel">On this device</p>`;
+      ${msg}<p class="fine">Browsing needs no account. Testers sign in so their travels, ratings and notes are kept and can shape what gets built next.</p>`;
     box.querySelector('#acctin').onclick=signIn; return; }
   const name=p&&p.handle?p.handle:'', st=p?p.status:'', active=st==='active', note=NOTE[st];
   const sub=!p?'Reading your profile…':active?(ROLE[p.role]||p.role):note?note[1]:st;
-  box.innerHTML=`<p class="shlabel">Account${ENV==='dev'?' · dev':''}</p>
+  box.innerHTML=`${ENV==='dev'?'<p class="shlabel">Dev database</p>':''}
     ${note?`<div class="acctnote ${st}"><span class="acctni">${UI.ic(note[0])}</span><span><b>${note[1]}</b><small>${note[2]}</small></span></div>`:''}
     <div class="rows">
       <div class="rowb acctme"><span class="rmedia"><span class="avatar sm">${name?h(name.slice(0,1).toUpperCase()):UI.ic('person')}</span></span><span class="rmain"><b>${name?h(name):'No handle yet'}</b><small class="acctst ${st}">${active?UI.ic('check'):''}${h(sub)}</small></span></div>
@@ -131,11 +131,11 @@ function paint(){
       ${st==='pending'?`<label class="rowb acctrow"><span class="acctlab">Invite</span><input id="acctcode" type="text" maxlength="20" autocapitalize="characters" autocomplete="off" spellcheck="false" placeholder="Code, if you have one"><button type="button" class="lbtn primary" id="acctuse" hidden>Use</button></label>`:''}
     </div>${msg}
     ${active?`<p class="shlabel">Invite a tester</p><div class="rows">
-      ${S.invites.map(i=>`<div class="rowb acctinv"><span class="rmain"><b class="acctcode">${h(fmtCode(i.code))}</b><small>Works once</small></span><button type="button" class="lbtn" data-copy="${h(i.code)}">Copy link</button></div>`).join('')}
+      ${S.invites.map(i=>`<div class="rowb acctinv"><span class="rmain"><b class="acctcode">${h(fmtCode(i.code))}</b><small>Works once · ${h(daysLeft(i.expires_at))}</small></span><button type="button" class="lbtn" data-copy="${h(i.code)}">Copy link</button></div>`).join('')}
       <button type="button" class="rowb acctnew" id="acctnew">New invite link</button></div>
       <p class="fine">Whoever opens the link and signs in becomes a tester, vouched for by you.</p>`:''}
     <div class="rows acctoutw"><button type="button" class="rowb acctout" id="acctout">Sign out</button></div>
-    <p class="shlabel">On this device</p>`;
+    <p class="fine">Kept for your account: your handle, tester status, the trips you take with your ratings and notes, and which parts of the app you use.</p>`;
   const f=box.querySelector('#accth'), sv=box.querySelector('#acctsave'), ok=box.querySelector('#acctok'), go=()=>saveHandle(f.value);
   f.oninput=()=>{ const ch=f.value.trim()!==name&&f.value.trim()!==''; sv.hidden=!ch; if(ch) ok.hidden=true; };
   sv.onclick=go; f.onkeydown=e=>{ if(e.key==='Enter'){ e.preventDefault(); if(!sv.hidden) go(); } };
@@ -146,7 +146,8 @@ function paint(){
   box.querySelector('#acctout').onclick=signOut;
 }
 
-window.ACCOUNT={ env:ENV, user:()=>S.user, profile:()=>S.profile,
+if(whoBtn) whoBtn.addEventListener('click',openSheet);
+window.ACCOUNT={ env:ENV, open:openSheet, user:()=>S.user, profile:()=>S.profile,
   isActive:()=>!!(S.profile&&S.profile.status==='active'), isOwner:()=>!!(S.profile&&S.profile.status==='active'&&S.profile.role==='owner'),
   client:()=>client, onChange:f=>subs.push(f) };
 

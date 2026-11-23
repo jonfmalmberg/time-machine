@@ -114,6 +114,10 @@ begin
   if not public.is_owner() then
     raise exception 'Owner only.';
   end if;
+  -- The owner cannot demote or suspend themselves by accident.
+  if target = (select auth.uid()) then
+    raise exception 'You cannot change your own role or status.';
+  end if;
   update public.profiles
      set role = new_role, status = new_status
    where id = target;

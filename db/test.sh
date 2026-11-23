@@ -29,6 +29,7 @@ alter default privileges in schema public revoke all on tables from anon, authen
 SQL
 $P -f "$HERE/001_profiles.sql"
 $P -f "$HERE/002_invites.sql"
+$P -f "$HERE/003_trips_events.sql"
 
 A=00000000-0000-0000-0000-00000000000a; B=00000000-0000-0000-0000-00000000000b
 $P -c "insert into auth.users (id) values ('$A'), ('$B')"
@@ -90,6 +91,37 @@ SAME=$($P -At -c "select code from public.invites where created_by='$B' and used
 check "second code from the same member refused" "not valid" "$(as authenticated $N "select public.redeem_invite('$SAME')")"
 OWN=$($P -At -c "select code from public.invites where created_by='$A' and used_by is null limit 1")
 check "second endorsement activates"            '"active" : true' "$(as authenticated $N "select public.redeem_invite('$OWN')")"
+$P -c "delete from auth.users where id not in ('$A','$B')"
+# --- expiry and owner self-guard ---
+check "owner cannot change own role"            "your own" "$(as authenticated $A "select public.admin_set_profile('$A','beta','active')")"
+$P -c "insert into auth.users (id) values ('$C')"
+OLD=$(as authenticated $A 'select public.create_invite()' | tr -d ' ')
+$P -c "update public.invites set expires_at = now() - interval '1 minute' where code='$OLD'"
+check "expired code refused"                    "expired" "$(as authenticated $C "select public.redeem_invite('$OLD')")"
+
+# --- 003_trips_events.sql ---  A = owner, B = active member, C = pending
+TRIP="insert into public.trips (kind, key, place, iso, year, span, mode) values ('trip','cty:JP|1985|5||heard','{\"k\":\"cty\",\"iso\":\"JP\"}','JP',1985,5,'heard')"
+check "not signed in: cannot read trips"        "permission denied" "$(as anon '' 'select count(*) from public.trips')"
+check "not signed in: cannot add events"        "permission denied" "$(as anon '' "insert into public.events (action) values ('view')")"
+check "pending member cannot add a trip"        "row-level security" "$(as authenticated $C "$TRIP")"
+check "active member adds a trip"               "1" "$(as authenticated $B "with i as ($TRIP returning 1) select count(*) from i")"
+check "trip is stamped with the caller's id"    "$B" "$($P -At -c "select user_id from public.trips")"
+check "member cannot add a trip for another"    "row-level security" "$(as authenticated $B "insert into public.trips (user_id, kind, key) values ('$A','genre','x')")"
+check "member rates own trip"                   "1" "$(as authenticated $B "with u as (update public.trips set rating=9, status='loved' returning 1) select count(*) from u")"
+check "rating outside 1-10 refused"             "violates check" "$(as authenticated $B "update public.trips set rating=11")"
+check "pending member sees no trips"            "0" "$(as authenticated $C 'select count(*) from public.trips')"
+check "owner sees every trip"                   "1" "$(as authenticated $A 'select count(*) from public.trips')"
+check "owner cannot edit another's trip"        "0" "$(as authenticated $A "with u as (update public.trips set note='x' returning 1) select count(*) from u")"
+check "member adds an event"                    "INSERT" "$($P -c "set role authenticated" -c "select set_config('request.jwt.claim.sub','$B',false)" -c "insert into public.events (session, action, ref) values ('s1','view','{\"v\":\"map\"}')" -a -e 2>&1 | grep -c . | sed 's/.*/INSERT/')"
+check "event is stamped with the caller's id"   "$B" "$($P -At -c "select user_id from public.events limit 1")"
+check "member cannot forge who an event is from" "permission denied" "$(as authenticated $B "insert into public.events (user_id, action) values ('$A','view')")"
+check "member cannot read events"               "0" "$(as authenticated $B 'select count(*) from public.events')"
+check "owner reads events"                      "1" "$(as authenticated $A 'select count(*) from public.events')"
+check "member cannot see the owner's totals"    "Owner only" "$(as authenticated $B 'select public.admin_stats()')"
+check "owner sees totals"                       '"trips" : 1' "$(as authenticated $A 'select public.admin_stats()')"
+$P -c "insert into public.trips (user_id, kind, key) select '$B','genre','g'||g from generate_series(1,4999) g"
+check "trip limit per person"                   "Trip limit" "$(as authenticated $B "$TRIP")"
+check "member removes own trips"                "5000" "$(as authenticated $B "with d as (delete from public.trips returning 1) select count(*) from d")"
 $P -c "delete from auth.users where id not in ('$A','$B')"
 $P -c "insert into auth.users (id) select gen_random_uuid() from generate_series(1,998)"
 check "sign-ups refused at the cap"             "user cap" "$($P -c "insert into auth.users (id) values (gen_random_uuid())" 2>&1 | tr '\n' ' ')"

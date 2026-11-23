@@ -12,7 +12,7 @@ Pick a place and a year and hear what people there were listening to. The site e
 | `build.py` | Joins the three into `dist/index.html`. Standard-library Python only. |
 | `db/*.sql` | Database changes for Supabase, in order. See `db/README.md`. |
 | `tests/smoke.py` | Loads the built page at phone and desktop size, opens every tab, fails on any script error. |
-| `tests/account.py` | Checks the account block with a stand-in for the sign-in library. |
+| `tests/account.py` | Checks accounts, travels and the admin page with a stand-in for the sign-in library. |
 
 `dist/` is build output and is never committed.
 
@@ -34,6 +34,14 @@ Open `dist/index.html` in a browser, or serve the `dist` folder from any static 
 - Each feature is built on its own branch and squash-merged into `dev` once the owner approves it. Unfinished work stays on its feature branch.
 
 Pull requests are welcome; open them against `dev`.
+
+## Builds
+
+Cloudflare builds and publishes every push: `main` to the live site, every other branch to its own preview address (`<branch>-time-machine…workers.dev`). Builds are a limited free allowance, so:
+
+- Work is built and tested locally (`build.py`, `tests/`, `db/test.sh`) and pushed once per review round, not once per change.
+- Pushes that touch only `db/`, `tests/` or `*.md` files should not build at all: set **Build watch paths** in Cloudflare to exclude `db/*`, `tests/*` and `*.md`.
+- Data updates (`data/`) change the site, so they do build; they are batched into one push.
 
 ## Loads from other sites
 
