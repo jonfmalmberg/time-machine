@@ -15,13 +15,23 @@ Each claim gets one result:
   no quote     the claim has no quoted string to check                  -> back to the researcher
 A page is fetched once and kept in a local cache folder, so a rerun does not ask the site again.
 """
-import argparse, hashlib, html, json, os, re, subprocess, sys, time, unicodedata, urllib.request, urllib.parse
+import argparse, gzip, hashlib, html, json, os, re, subprocess, sys, time, unicodedata, urllib.request, urllib.parse
 
 UA = 'time-machine-evidence-check/1 (+https://github.com/jonfmalmberg/time-machine)'
 CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '.cache', 'evidence')
 last = {}
 
+MB = re.compile(r'^https?://(?:www\.)?musicbrainz\.org/(release|recording|artist|release-group|work)/([0-9a-f-]{36})')
+INC = {'release': 'recordings+artist-credits+labels', 'recording': 'artist-credits+releases', 'artist': 'aliases', 'release-group': 'artist-credits+releases', 'work': 'aliases'}
+def readable(url):
+    """MusicBrainz pages put a browser check in front of scripts; its data interface is open and holds the same facts."""
+    m = MB.match(url)
+    return 'https://musicbrainz.org/ws/2/%s/%s?inc=%s&fmt=json' % (m.group(1), m.group(2), INC[m.group(1)]) if m else url
+
+BOT = re.compile(r'verifying your browser|security verification|client challenge|verifies you are not a bot|your request is being verified|just a moment|checking your browser|enable javascript and cookies', re.I)
+
 def fetch(url):
+    url = readable(url)
     os.makedirs(CACHE, exist_ok=True)
     p = os.path.join(CACHE, hashlib.sha256(url.encode()).hexdigest()[:24])
     if os.path.exists(p + '.json'):
@@ -30,26 +40,44 @@ def fetch(url):
     host = urllib.parse.urlsplit(url).netloc
     wait = 1.2 - (time.time() - last.get(host, 0))      # at most one request a second to any one site
     if wait > 0: time.sleep(wait)
-    m, body = {'url': url, 'at': time.strftime('%Y-%m-%d')}, ''
-    try:
-        req = urllib.request.Request(urllib.parse.quote(url, safe=":/?#[]@!$&'()*+,;=%~"), headers={'User-Agent': UA, 'Accept-Language': 'en,*;q=0.5'})
-        with urllib.request.urlopen(req, timeout=25) as r:
-            raw = r.read(40_000_000); m['status'] = r.status; m['type'] = r.headers.get('Content-Type', '')
-            cs = r.headers.get_content_charset() or 'utf-8'
-            if 'pdf' in m['type'] or raw[:5] == b'%PDF-':      # liner notes and catalogues are often PDFs
-                try:
-                    body = subprocess.run(['pdftotext', '-layout', '-', '-'], input=raw, capture_output=True, timeout=60).stdout.decode('utf-8', 'replace')
-                    if not body.strip(): m['error'] = 'pdf with no text layer'
-                except Exception as e: m['error'] = 'pdf could not be read: ' + type(e).__name__
-            else: body = raw.decode(cs, 'replace')
-    except urllib.error.HTTPError as e: m['status'] = e.code; m['error'] = 'HTTP %d' % e.code
-    except Exception as e: m['error'] = type(e).__name__ + ': ' + str(e)[:120]
+    for attempt in range(4):                              # a busy site (429, 503) is asked again, slowly
+        m, body = {'url': url, 'at': time.strftime('%Y-%m-%d')}, ''
+        try:
+            req = urllib.request.Request(urllib.parse.quote(url, safe=":/?#[]@!$&'()*+,;=%~"), headers={'User-Agent': UA, 'Accept-Language': 'en,*;q=0.5'})
+            with urllib.request.urlopen(req, timeout=25) as r:
+                raw = r.read(40_000_000); m['status'] = r.status; m['type'] = r.headers.get('Content-Type', '')
+                if raw[:2] == b'\x1f\x8b':                      # some sites send a compressed body unasked
+                    try: raw = gzip.decompress(raw)
+                    except Exception: pass
+                cs = r.headers.get_content_charset() or 'utf-8'
+                if 'pdf' in m['type'] or raw[:5] == b'%PDF-':      # liner notes and catalogues are often PDFs
+                    try:
+                        body = ' '.join(subprocess.run(['pdftotext'] + mode + ['-', '-'], input=raw, capture_output=True, timeout=60).stdout.decode('utf-8', 'replace') for mode in (['-layout'], []))   # both readings: -layout keeps table rows, the plain one keeps columns apart
+                        if not body.strip(): m['error'] = 'pdf with no text layer'
+                    except Exception as e: m['error'] = 'pdf could not be read: ' + type(e).__name__
+                else: body = raw.decode(cs, 'replace')
+        except urllib.error.HTTPError as e: m['status'] = e.code; m['error'] = 'HTTP %d' % e.code
+        except Exception as e: m['error'] = type(e).__name__ + ': ' + str(e)[:120]
+        if m.get('status') not in (429, 503) and not str(m.get('error', '')).startswith(('URLError', 'ConnectionResetError', 'TimeoutError', 'RemoteDisconnected', 'IncompleteRead')): break
+        time.sleep(4 + 4 * attempt)
     last[host] = time.time()
-    json.dump(m, open(p + '.json', 'w')); open(p + '.body', 'w', encoding='utf-8').write(body)
+    if body or m.get('status') in (403, 404, 410):          # a passing network fault is not remembered: the next run asks again
+        json.dump(m, open(p + '.json', 'w')); open(p + '.body', 'w', encoding='utf-8').write(body)
     return m, body
 
+def strings(o):
+    if isinstance(o, dict): return ' '.join(strings(v) for v in o.values())
+    if isinstance(o, list): return ' '.join(strings(v) for v in o)
+    return str(o) if isinstance(o, (str, int)) else ''
+
 def text_of(page):
+    if page[:1] in '{[':
+        try: return page + ' ' + strings(json.loads(page))   # the raw text (a researcher may quote it with its field name) and the decoded values
+        except ValueError: pass
     page = re.sub(r'(?is)<(script|style|noscript)\b.*?</\1>', ' ', page)
+    # text that lives only in markup: a meta tag's content, and title and alt attributes (track titles on shop pages)
+    attrs = ' '.join(re.findall(r'(?is)\b(?:content|title|alt)\s*=\s*"([^"]{2,300})"', page))
+    page = page + ' ' + attrs
     page = re.sub(r'(?s)<[^>]+>', ' ', page)
     return html.unescape(page)
 
@@ -64,7 +92,9 @@ def check(claim):
     if not q: return {'result': 'no quote'}
     m, body = fetch(claim['url'])
     if not body: return {'result': 'no page', 'why': m.get('error') or 'empty page', 'status': m.get('status')}
-    t = norm(text_of(body)); nq = norm(q)
+    raw = text_of(body)
+    if len(raw) < 3000 and BOT.search(raw): return {'result': 'no page', 'why': 'the site answered with a bot check, not the page', 'status': m.get('status')}
+    t = norm(raw); nq = norm(q)
     if nq and nq in t: return {'result': 'found'}
     # the quote may run across table cells or be lightly trimmed: are its distinctive words all there, close together?
     words = [w for w in nq.split() if len(w) > 3 or w.isdigit()]

@@ -2,6 +2,49 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (evidence triage; shareable links)
+
+- H9 accepted. Of 161 unconfirmed claims from batches 1 and 2: 10 confirmed, 6 reworded, 30 source gone, 1 wrong source, 114 cannot tell (the sites refuse scripts, and the page-reading tool needs a permission nobody was there to give). The 17 claims on `download.osmand.net` cite a dead copy of a Wikimedia Commons page and are all on the original. 66 of 207 playlist songs in those batches have no supporting claim at present.
+- The 10 confirmed were all faults in the check script, the third round of faults found in it today. Fixed: compressed replies, text in meta, title and alt attributes, both PDF readings, retry after a passing network fault. Rerun: batches 1 and 2 are 362 found, 7 near, 12 not found, 145 unreadable; batch 3 unchanged at 467 of 469. Controls pass.
+- Open for the owner: whether to run the check for the 60 Smithsonian Folkways claims from his own computer.
+- Shareable links (5.1) built by an Opus sub-agent on branch `share-links`, tests rerun by the lead, pushed for review. It found and fixed a fault that is on the live site: choosing a single genre as the genre filter throws a script error (a Set was read as a list).
+- Helper fired for H10 (pilot on data already on the site).
+
+## 2026-11-23 (tree layout method runs again)
+
+- Roadmap 2.13, first part, by an Opus sub-agent to a written specification, checked by the lead (tests rerun): `tools/layout/optimise.py` reads today's data. The stored layout is valid by the method's own rule. Its cost comes out 0.2354% above the stored figure; the sub-agent ruled out end years, pending genres and layout changes as the cause and did not find it, and rejected near-matches found by trying combinations as chance. The test tolerance is set at 0.25% and the README says which small errors that would miss.
+- `place` gives a new genre a valid row without moving any existing genre; shown on two test genres. A full new search at two million steps is still 2.2% worse than the stored layout, so the stored layout is kept.
+- Merged to `dev` (tools, tests and documents only; nothing the site reads). Queue: H14 added, to source the records for rways and Korean minyo before they are placed.
+
+## 2026-11-23 (feature work while the owner sleeps)
+
+- Owner: hold the verification that needs him; focus on feature development and do as much as possible. He will comment on the triage when he wakes.
+- Built by the lead, each on its own branch, pushed once, waiting for review: `light-space` (7.10: light-theme tunnel and space around the globe), `panel-above-tabs` (7.6), `reshuffle` (1.1 and 1.2). `unverified-flag` (7.11) was built earlier and also waits.
+- Given to Opus sub-agents in separate working folders, with written specifications and objective checks: the tree layout method rewritten to read today's data (2.13; the check is reproducing the stored layout's cost), and shareable links (5.1).
+- Looked at by screenshot: the tunnel in light theme on phone and desktop, the panel above the tab bar on a phone, Shuffle again on a phone. Not looked at: the satellite globe in light theme (imagery does not load in the workspace), dark theme for the three branches beyond the automated tests.
+
+## 2026-11-23 (genre batch 3: the evidence rule works when followed)
+
+- H7 accepted as candidates: eight genres (Pashto folk song, bhawaiya and bhatiali, hsaing waing, zapin and joget, maracatu, currulao, jota, Hardanger fiddle), all full, 18 to 27 songs each. This run copied its strings from raw page text and ran the check itself: 469 claims, 467 found, 2 on a page that refuses scripts. Compare 63% for batches 1 and 2, which quoted through the page-reading tool.
+- The lead's rerun first disagreed (373 found): the lead's own change an hour earlier, reading data-interface pages as decoded values only, lost claims quoted with their field name. Fixed (raw text and decoded values are both searched) and added as a control case. Second fault in the checker found in one day, both by comparing against an independent result.
+- Helper fired for H9 (evidence triage).
+
+## 2026-11-23 (the owner's check found a fault in the checker)
+
+- Owner looked at five pages himself. Results: the ca trù sentence reads "In 1997, for the first time" (the tool's "1997 year" is a rewording); the Bihu sentence is not on the page (no source); the Folkways track title is on the page as a link (the script cannot read that site); the MusicBrainz track title is on the page as a link; the control string is on its page.
+- The fourth contradicted the script, which had said "not found". Cause: MusicBrainz and last.fm give scripts a browser-check page with a normal status, and the script took it for the real page. So 27 of the 42 "not found" in the first report were false. Fixed in `tools/check_evidence.py`: bot-check pages are reported as unreadable, MusicBrainz is read through its open data interface, busy sites are retried slowly. Corrected figures: 63% found, 6% near, 3% not found, 28% unreadable; of readable pages 96% confirmed. Report corrected with a dated note.
+- The owner's five observations are now control cases (`tests/evidence_controls.json`, run with `python3 tests/evidence.py`); the script passes all six. Lesson recorded: a checker needs control cases seen by a person before its numbers are trusted.
+
+## 2026-11-23 (two interface items from the owner)
+
+- Roadmap 7.10 added: light-mode versions of the globe and the tunnel, with no black background. Optional later feature recorded: the globe with sun or stars behind it and a shadow that follows the user's real time.
+
+## 2026-11-23 (old data marked unverified; third check by the owner)
+
+- Owner: two checks are not a quorum; he will look at some pages himself. Old collected data needs verification and must be marked as such to the user, by the rule that incorrect information is not left standing uncorrected; a simple status is enough. Usage is back to 16%: about eight more helper runs today.
+- Built on branch `unverified-flag`: every research row that has a list now shows a second flag, Unverified, and its card says in plain words that the songs were collected before each was checked and may be wrong. "Researched" is no longer shown in green.
+- Queue: H10 added and placed next after the triage: a pilot that measures the data already on the site against its sources on two scopes (Japan 1980s year lists, the swing genre). Then genre batch 4, H11 (batches 1 and 2 redone under the evidence rule), and batches 5 and 6.
+
 ## 2026-11-23 (release 3; the evidence rule)
 
 - Owner approved release of `dev` to the live site, provided `dev` is in a consistent state. Checked: all tests pass, the helper candidates are in `work/` only and not in the site's data, no database change is pending. `main` moved to `dev`.

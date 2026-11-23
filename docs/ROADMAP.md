@@ -60,8 +60,8 @@ Milestone 0 comes first because everything else depends on being able to see and
 **Why:** friends already have the link and there is no walkthrough. Random sends people "into the desert of sound" too often and takes three or four rounds of taps.
 **Measure:** shuffles before a person settles. Target: first try most of the time, within two usually, almost never more than five.
 
-- 1.1 Record the measure: log each Random pick and whether the person stays with it (copies, opens, or lingers) or shuffles again.
-- 1.2 One-tap reshuffle: the Random control stays available after a pick.
+- 1.1 `review` Record the measure: each Random pick is logged with its kind, what it landed on, and its place in the run of shuffles (1, 2, 3...). Branch `reshuffle`. Whether the person stays with a pick is read from the events that follow (playlist opened, prompt copied); no separate signal yet.
+- 1.2 `review` One-tap reshuffle: after a pick, "Shuffle again" appears under the filter bar for half a minute and repeats the same kind of pick. Branch `reshuffle`. Still slow: the random genre pick plays a two-second dice roll before it lands.
 - 1.3 Familiarity test, version 1: a blind synthetic test of how familiar each genre feels to a general listener. Run it under the registry; store the score per genre.
 - 1.4 Weighted Random: mostly familiar-but-new, sometimes strange, with the weights in one adjustable place.
 - 1.5 Proposal: the first screen for a new visitor (place, year, listen) and a short guided start. Design for review before building.
@@ -79,7 +79,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 - 2.2 `review` Report: open music data sources: [`research/2026-11-23-open-data-sources.md`](research/2026-11-23-open-data-sources.md). MusicBrainz, Wikidata, Discogs, ListenBrainz, Cover Art Archive, AcousticBrainz: what each holds, how it is obtained, licence wording, identifiers, limits. Main findings: only MusicBrainz gives a recording a stable identifier; its genre tags are in the non-commercial part; AcousticBrainz has ended; no open national chart archive was found. Four pages were not read (listed in the report).
 - 2.3 `done 23 Nov, on dev` The schema: [`proposals/2026-11-23-schema.md`](proposals/2026-11-23-schema.md), accepted by the owner and built. Songs, artists, releases and evidence have standalone keys in central files; scopes hold research state; links say which songs belong to which genre or country-year; credits point at individual artists.
 - 2.7 `done 23 Nov, on dev` The existing data moved into the schema; the built page is byte-identical before and after. Left for later steps: possible duplicate songs (809 listed), chart songs mapped to genres, compositions, weights, evidence strings.
-- 2.13 Rebuild the tree layout method inside the build, so a genre can be added. Then add rways and Korean minyo as named genres (lead's determinations under principle 27).
+- 2.13 `first part done 23 Nov, on dev` The tree layout method runs on today's data: `tools/layout/optimise.py` (check, place, optimise) and `tests/layout.py`. The stored layout is valid by the method's own rule; its cost is reproduced to within 0.24%, and the cause of that remainder was not found (the original's exact inputs are gone). `place` gives a new genre a row without moving any existing one. Not yet done: adding rways and Korean minyo (their records need sources first: helper assignment H14), a new tradition as a new lane, and running the layout inside the build.
 - 2.14 Tiers in the data: each scope stores its size estimate (how many songs exist that fit, with its basis and confidence), its own target per tier, the tier reached and the tier accepted by test, as the research tiers proposal describes. The scope files have the place for it; nothing fills it yet. The size estimates from the genre batches are the first input.
 - 2.15 Evidence for the data already in the site. The 10,700 songs moved from the old files have no recorded evidence string: year lists carry a source address only, genre playlists and decade lists carry nothing. By the rule "no made-up data" they are unverified, and the site should say so until they are checked. Plan the backfill by scope in the weighted order, and show the checked share on the status card.
 - 2.4 Proposal: regions. Which ones, how fine-grained, and how a place with no music data looks and behaves on the globe and in lists.
@@ -119,7 +119,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 **Goal:** places, times and genres work as one thing, and any of them can be shared as a link.
 **Why:** "We're treating teleportation to a time and place and genres as if they are inherently different things."
 
-- 5.1 Shareable links: an address that opens the app at a given place, time, genre or combination.
+- 5.1 `review` Shareable links: the address carries the view, place, year, stay, genre filter and open playlist, follows what the person does, and a "Copy link" button sits beside "Copy prompt". Branch `share-links`. Not tested on the hosted address or on iOS Safari. The branch also fixes a fault on the live site: a single genre chosen as the genre filter threw a script error.
 - 5.2 Report: for genres with enough data, compare the characteristic "golden era" list with what the filters produce. Recommend whether a genre is simply a named filter, or whether "characteristic songs" should be a switch on the shared filter.
 - 5.3 Build whichever 5.2 concludes, after review.
 - 5.4 Proposal, then build: selecting a country, a city or a genre on the map without the current overlap.
@@ -152,10 +152,12 @@ Milestone 0 comes first because everything else depends on being able to see and
 - 7.3 Account: travel log and trip sheet.
 - 7.4 Admin.
 - 7.5 Journey screens (look only; behaviour is milestone 9).
-- 7.6 The playlist panel no longer covers the tab bar on phones.
+- 7.6 `review` The playlist panel no longer covers the tab bar on phones: it sits above it. Branch `panel-above-tabs`.
 - 7.7 Album art back on, without lookups: where a song or its album has a MusicBrainz identifier (2.11), the browser loads the cover straight from the Cover Art Archive. No images are stored by us, because the archive gives no licence for copies.
 - 7.8 `done 23 Nov, on dev` Region colours on the tree, the map and the tunnel now come from Apple's system colours, light and dark (Human Interface Guidelines, Color, Specifications, values as updated June 2025). Europe indigo, North America blue, Caribbean purple, Latin America green, Africa brown, Middle East and North Africa cyan, South Asia orange, Central Asia yellow, East Asia red, Southeast Asia and Oceania mint. Not yet on the live site.
 - 7.9 `provisional, on dev` Status flags and explanation cards in the playlist panel: one coloured word per row, and a card saying what was tested, the standard, the result against it, and how it was run. Still to do before it is final: show the tier a scope has reached and that scope's own standard (needs 2.14), and a card for each new kind of test (recall, evidence, genre listener) as they are registered.
+- 7.11 `review` Research rows and cards carry an Unverified flag: every list on the site was collected before sources were checked claim by claim, and says so. Branch `unverified-flag`.
+- 7.10 `review` Light-mode versions of the globe and the tunnel, branch `light-space`. The tunnel is drawn as ink on a pale ground in the light theme (colour is multiplied instead of added, since light on a pale ground washes out); the area around the satellite globe and beyond the flat map takes the page's ground colour. The satellite globe in light mode could not be looked at in the workspace (the imagery does not load there).
 
 **Done when:** Jon has reviewed each screen on his phone against the style guide.
 
@@ -215,6 +217,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 
 - **Tree, globe and tunnel polish.** Good enough for now. Done later as sit-down sessions where Jon tries things and says what works.
 - **Visitor analytics.** Cloudflare Web Analytics is a toggle on Jon's side.
+- **Optional, later:** the globe with the sun or stars behind it and a day and night shadow that follows the real time where the user is (owner, 23 Nov).
 
 ## Outside the app: the owner's way of working
 

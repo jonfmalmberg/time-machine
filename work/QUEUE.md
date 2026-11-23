@@ -42,15 +42,44 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Hand back:** `population.json` (country code, decade, population, evidence), and in the report which countries and decades are missing and why.
 
 ## H7. Genre research, batch 3
-- **State:** open
+- **State:** accepted 2026-11-23 as candidates. Evidence check rerun by the lead with the corrected script: see `work/2026-11-23-H7/evidence-check.lead.json`.
 - **Model, ask, hand back:** as H3 with the additions in H4, the next eight pending genres (skip every genre already in a `work/*/defs.add.json` on `dev` or on a `helper/*` branch).
 
-## H9. Evidence triage: why 174 claims from batches 1 and 2 are unconfirmed
-- **State:** open
+## H9. Evidence triage: why 161 claims from batches 1 and 2 are unconfirmed
+- **State:** accepted 2026-11-23. Lead\'s answers: (1) re-point the 17 claims to the Commons address in H11; the string is the evidence and it is found there. (2) Done: the script now handles compressed replies, text in meta, title and alt attributes, both PDF readings, and asks again after a passing network fault. Stacked fractions are not handled. (3) The owner decides whether to run the check for Smithsonian Folkways from his own computer; until then H11 leaves those claims unverified and does not hunt for replacements for them.
 - **Model:** Opus for the run; Sonnet sub-agents may fetch pages.
-- **Ask:** `work/2026-11-23-evidence/evidence-check.json` holds the script's result for 526 claims; read `work/2026-11-23-evidence/REPORT.md` first. For every claim with result `not found` (42) and `no page` (132), work out which of these it is and record it: `confirmed` (the page does say it: give the exact text as it appears), `reworded` (the page supports the claim but the quote was not exact: give the exact text), `page unreadable by script only` (you could read it and it supports the claim: give the exact text), `source gone` (the address is dead for you too), `wrong source` (the page exists and does not support the claim), `cannot tell`. Start with the 17 claims on `download.osmand.net` and say what that source actually is. Do not repair the data and do not look for replacement sources: classify only. Also test and report whether your shell can fetch a web page directly (`curl -sS -m 15 -o /dev/null -w "%{http_code}" https://en.wikipedia.org/wiki/Music`), since that decides whether helpers can copy exact page text.
+- **Ask:** `work/2026-11-23-evidence/evidence-check.json` holds the script's result for 526 claims; read `work/2026-11-23-evidence/REPORT.md` first. For every claim with result `not found` (15) and `no page` (146), work out which of these it is and record it: `confirmed` (the page does say it: give the exact text as it appears), `reworded` (the page supports the claim but the quote was not exact: give the exact text), `page unreadable by script only` (you could read it and it supports the claim: give the exact text), `source gone` (the address is dead for you too), `wrong source` (the page exists and does not support the claim), `cannot tell`. Start with the 17 claims on `download.osmand.net` and say what that source actually is. Do not repair the data and do not look for replacement sources: classify only. Also test and report whether your shell can fetch a web page directly (`curl -sS -m 15 -o /dev/null -w "%{http_code}" https://en.wikipedia.org/wiki/Music`), since that decides whether helpers can copy exact page text.
 - **Hand back:** `triage.json` (file, scope, n, the class, exact text where found, a one-line reason), and in the report the counts per class, per genre, and the songs that now have no supporting source at all.
+
+## H10. Evidence for data already on the site: pilot on two scopes (roadmap 2.15)
+- **State:** open
+- **Model:** Opus for the run; Sonnet sub-agents may extract rows from pages already fetched.
+- **Ask:** The songs on the site were collected before sources were checked. Measure how good they are on two scopes, following "Evidence: how a researcher records a source" in `work/README.md` exactly (raw page text from the shell, never the page-reading tool for quotes).
+  1. **Japan, 1980 to 1989, year lists.** `data/links/c/JP/1980.json` holds the links (scopes `c:JP:1980` to `c:JP:1989`); songs are in `data/songs/`, artists in `data/artists/`, and each link's source is an evidence id in `data/evidence/` (title and address only). For every link: fetch the source page raw, find the row or line that names this song for this year, and record the exact string. If the page does not name it, say so; do not look for another source.
+  2. **The genre `swing`.** `data/links/g/swing.json`, roles intro, peak and reference. These have no source at all. For each song find one page a script can read that shows the recording exists, who made it and when, and record the exact string. Limit: three searches per song.
+  Run `python3 tools/check_evidence.py` on your `sources.json` (same shape as `work/2026-11-23-H4/sources.json`) and hand back its output.
+- **Hand back:** `sources.json`, `evidence-check.json`, and in the report, per scope: links checked, found, not found on the cited page, no readable source, and every song whose artist, title or year on the site differs from what the source says (give both).
 
 ## H8. Genre research, batch 4
 - **State:** open
-- **Model, ask, hand back:** as H7, the next eight.
+- **Model, ask, hand back:** as H7, the next eight, following the evidence section of `work/README.md`: only songs whose claim the check script finds go into the add files.
+
+## H11. Batches 1 and 2 again, under the evidence rule
+- **State:** open
+- **Model:** Opus for the run and for research sub-agents.
+- **Ask:** After H9. For the 16 genres in `work/2026-11-23-H3/` and `work/2026-11-23-H4/`: keep every claim the check found; for each claim that H9's `triage.json` did not class as confirmed, find a page a script can read and record the exact string from its raw text, or move the song to unverified. Rebuild `defs.add.json`, `playlists.add.json`, `sizes.json`, `sources.json` for all 16 so that every song in them has at least one claim with the result `found`, and run the check.
+- **Hand back:** the rebuilt files, `evidence-check.json`, and per genre: songs before, songs kept, songs dropped and why.
+
+## H12. Genre research, batch 5
+- **State:** open
+- **Model, ask, hand back:** as H7, the next eight pending genres, following the evidence section of `work/README.md`: only songs whose claim the check script finds go into the add files.
+
+## H13. Genre research, batch 6
+- **State:** open
+- **Model, ask, hand back:** as H12, the next eight.
+
+## H14. Records for two new genres: rways and Korean minyo
+- **State:** open
+- **Model:** Opus.
+- **Ask:** The lead has decided (principle 27) that two genres belong on the tree: **rways** (Tashelhit professional singer-poets of the Sous, Morocco), separate from `amazighahwashandah`; and **Korean minyo** (Korean folk song), separate from `pungmul` and from the Japanese `minyo`. For each, propose a complete genre record in the shape of `data/genres.json` (read ten existing records and `docs/proposals/2026-11-23-schema.md`, "Genres and the tree"): id, name, region, family, tradition (an existing one, or say why none fits), began, ended, origin (text, latitude, longitude, country), definition (window, sound, three or more markers), one principal parent and at most two others from existing genre ids, and a first estimate of where and when it peaked. Every fact needs a source recorded as `work/README.md` requires (raw page text, exact string) and must pass `python3 tools/check_evidence.py`. Say which songs in `work/2026-11-23-H3/` listed under `pungmul` are Korean minyo and not percussion music. Do not edit `data/`.
+- **Hand back:** `genres.add.json`, `parentage.add.json`, `presence.add.json`, `sources.json`, `evidence-check.json`, and the list of `pungmul` songs to move.
