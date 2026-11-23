@@ -1,0 +1,3 @@
+.reqok{color:#248a3d} .reqerr{color:#ff3b30}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .reqok{color:#30d158} }
+:root[data-theme="dark"] .reqok{color:#30d158}
