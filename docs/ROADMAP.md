@@ -75,7 +75,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 **Goal:** an agreed design for what we collect and why, and the current data moved into it, so research can scale without rework.
 **Why:** "We can't just have one big flat list of songs." A second research round has to continue the first.
 
-- 2.1 Report: inventory of the data as it is. What exists, in what shape, how much, and known faults, including the three Hebrew chant dots in Israel (duplicate rows or a drawing fault) and how prominence is calculated today (why one chant dominates half of the tunnel).
+- 2.1 `review` Report: inventory of the data as it is: [`research/2026-11-23-data-inventory.md`](research/2026-11-23-data-inventory.md). Every file, what each field means and whether the page reads it, and 812 faults in 20 kinds. The three Hebrew chant dots in Israel are one chant genre grouped on the map with four Tel Aviv genres and fanned out, not duplicate data. Still open from this item: how prominence is calculated and why one chant dominates half of the tunnel (helper assignment H5).
 - 2.2 Report: open music data sources: what each offers, how it is obtained, what attribution it needs. Licences already checked: MusicBrainz core data, Wikidata and Discogs are CC0; MusicBrainz supplementary data is non-commercial only. Still to check: ListenBrainz, Wikipedia, and how large each source is.
 - 2.3 Proposal: the schema. Songs, artists, albums, genres, places, the links between them, where each fact came from, and research status flags. Every property with its reason.
 - 2.4 Proposal: regions. Which ones, how fine-grained, and how a place with no music data looks and behaves on the globe and in lists.

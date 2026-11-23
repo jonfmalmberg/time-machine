@@ -7,7 +7,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 ---
 
 ## H1. Inventory of the data as it is (roadmap 2.1)
-- **State:** open
+- **State:** accepted 2026-11-23. Spot-checked by the lead against the code and data; copied to `docs/research/2026-11-23-data-inventory.md`. Answers to its questions: (1) and (3) go to roadmap 2.9; (2) is its own interface issue; (4) waits for song identities (2.7).
 - **Model:** Opus for the run; Sonnet sub-agents for counting.
 - **Ask:** For every file in `data/`, establish from the file and from how `src/template.html` and `src/mods/*.js` use it: what one entry is, what each field or list position means, how many entries, and which fields are actually read by the page. Where the meaning cannot be established from the code, say so; do not guess. Then list faults: genres with no definition, playlists with fewer than four songs, the same song spelled differently in different files, songs dated outside their genre's years, countries in `era.json` or `yearl.json` with empty decades, cities without a country, entries the page never reads. Include the three Hebrew chant dots in Israel reported by the owner (find which genres they are and why three appear).
 - **Hand back:** `inventory.md` (one table per file, then the fault list with counts and up to ten examples each) and `faults.json` (every fault, machine-readable: file, key, kind, detail).
@@ -27,3 +27,9 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 ## H4. Genre research, batch 2
 - **State:** open
 - **Model, ask, hand back:** as H3, the next eight.
+
+## H5. How prominence is decided, and why one genre can dominate the tunnel (roadmap 2.1, 2.6)
+- **State:** open
+- **Model:** Opus.
+- **Ask:** Write out, from `src/template.html` and `src/mods/50_tunnel.js`, `55_tunnelgest.js`, `60_satellite.js` and `40_journey.js`, every place where a genre's size, brightness, order or chance of being picked is computed: the formula as the code has it, which data fields feed it (`scores`, `tier`, `st`, `cnt`, heat), and what each term does. Then reproduce the owner's observation that one chant tradition fills about half of the tunnel at some year: find the year ranges where one genre or tradition takes more than a third of the tunnel's rim, by running the built page with Playwright, and explain from the formula why. Do not propose a new formula; describe the present one exactly and list its unstated judgements.
+- **Hand back:** `prominence.md` (one section per formula with file and line, a table of the dominance cases found with year, genre, share), and the script that measured it.

@@ -22,6 +22,8 @@ The site is one web page. A build script joins the page's markup, its feature mo
 
 ## The music data as it is today
 
+The full inventory, field by field, with 812 faults in 20 kinds, is in [`research/2026-11-23-data-inventory.md`](research/2026-11-23-data-inventory.md).
+
 Everything hangs off **genres** (the code calls them movements). There are 593, each with a stable id such as `swing`.
 
 | File | Entries | Holds |
@@ -31,7 +33,8 @@ Everything hangs off **genres** (the code calls them movements). There are 593, 
 | `defs.json` | 461 | A genre's definition: active years, the sound, what to listen for, reference tracks, near-misses. The 132 genres without an entry are "pending" |
 | `playlists.json` | 461 | A genre's playlist: status (full, thin, none), intro songs, peak songs, albums |
 | `st.json`, `cnt.json`, `ends.json` | 593 each | When and where a genre was at its peak: years, regions, countries, later arrivals elsewhere, end year |
-| `scores.json`, `tier.json` | 593 each | Prominence numbers used for sizing and ranking. Their exact meaning is not written down anywhere yet (roadmap 2.1 and 2.6) |
+| `scores.json` | 593 | Four judgements per genre, each 1 to 5: significance, ease of listening, how widely known, intrigue. How the values were assigned is not recorded |
+| `tier.json` | 593 | 1, 2 or 3: the tree zoom level at which a genre appears |
 | `trad.json`, `tradOf.json`, `bands.json`, `regions.json` | 163, 593, 20, 10 | Grouping: traditions, which tradition a genre belongs to, the 20 families, the 10 regions |
 | `layout.json` | | Pre-computed positions for the tree |
 | `era.json` | 36 countries | Per country and decade: a list of songs people there heard |
@@ -40,7 +43,8 @@ Everything hangs off **genres** (the code calls them movements). There are 593, 
 | `iso.json`, `cities.json`, `neAlias.json` | 226, 1,619, 112 | Countries, cities and areas (with founding dates and historical names), country-name aliases for the map |
 | `langs.json`, `isoLang.json`, `cityLang.json` | 42, 139, 14 | Prompt wording in 42 languages and which language goes with which place |
 | `tests.json` | 17 | Synthetic listener tests that have been run: country and year range (or genre), date, scores, result. The playlist panel reads it to show a test as done |
-| `known.json`, `done.json`, `indoc.json`, `notes.json`, `method.json` | small | Flags and notes carried over from the artifact. Not yet reviewed; some may be dead (roadmap 2.1) |
+| `known.json`, `done.json`, `notes.json`, `method.json` | small | Genres treated as familiar by journeys; three genres a new visitor starts with as "listened" (why those three is not recorded); hover notes for 23 genres; the tree's method text |
+| `indoc.json` | 42 | Dead: nothing on the page shows it any more (to be removed, roadmap 2.9) |
 
 **Known weaknesses of this model**, which milestone 2 exists to fix:
 
