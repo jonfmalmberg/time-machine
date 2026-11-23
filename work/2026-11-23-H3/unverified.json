@@ -1,0 +1,139 @@
+{
+ "kalevalarunosong": {
+  "unverified": [
+   "Sanna Kurki-Suonio's album Musta (1998) as runosong: worldmusic.net says runolaulu forms dominate her material, but no track on a fetched page was tied to runo song",
+   "Kardemimmit runo-song tracks (Introducing Kardemimmit): pages say they use runo rhythm but name no runo track",
+   "Folk Voices (Ondine 1995) tracks 'Huntiing the Devil's Elk' (Heikki Laitinen) and 'The Origin of Fire' look like Kalevala epic themes but the page does not call them runo songs",
+   "Pekka Huttu-Hiltunen and the trio Uroshämärä perform runosong per the Finnish living heritage wiki, but no release was found",
+   "Track list and label of The Kalevala Heritage archive CD (recalled as Ondine) not confirmed",
+   "Archive singers Arhippa Perttunen, Larin Paraske and Iivana Onoila: not recorded on sound (Perttunen, Paraske) or no issued track found (Onoila)",
+   "Okra Playground and Tuuletar settings of runo poems: no specific track confirmed"
+  ],
+  "fell_short": [
+   "MusicBrainz pages returned a JavaScript/bot check and could not be read",
+   "loc.gov item pages for the Sidney Robertson Cowell recordings failed (client_error); John Soininen recording confirmed via a Wikipedia/Commons file mirror instead",
+   "No Discogs or MusicBrainz track list found for The Kalevala Heritage archive CD",
+   "Fewer than 15 verifiable songs, so status is thin (12 songs)"
+  ]
+ },
+ "ngoma": {
+  "unverified": [
+   "The c. 1000 start year: no fetched page dates ngoma drum-dance practice that early.",
+   "Mzee Morris Nyunyusa's drum signature used for decades on Tanzanian broadcast news (Music in Africa confirms the role, but no release or track title was found).",
+   "Dizim Asili Series Vol. 1 'Ngoma Iko Huku - Vintage Tanzanian Dance Music 1955-1965' (seen only as a search-result title; MusicBrainz page would not load).",
+   "Singing Wells field videos of the Nyunyusa Dance Troupe (e.g. 'The Snake Dance', 'Ngokwa') exist on YouTube, but no commercial release was found.",
+   "Caprice 'Music from Tanzania and Zanzibar 1' track 13 'Muheme' (Trad. arr: Mchoya Mtachi Malogo) is probably by the Wagogo female drummers, but the page does not credit performers per track, so it is listed only as an album.",
+   "The year the Zinza ILAM recording was made (probably Hugh Tracey's 1950s Tanganyika tour, not stated on the page)."
+  ],
+  "fell_short": [
+   "MusicBrainz release pages (c713d283..., b82a2dce...) returned a JavaScript check; the mb.videolan.org mirror is blocked by robots.txt.",
+   "ilamcommons.ru.ac.za neighbouring items (vital:42576, 42579) failed with robots unreachable, so more Zaramo drum tracks could not be confirmed.",
+   "Smithsonian Folkways ILAM album pages often omit year, recordist and instruments; Giryama (Kenya) dance-song album page showed no tracklist.",
+   "The Bagamoyo Players 'Tanzania' album: no tracklist found, so it is listed only as an album.",
+   "No individually titled Sukuma (e.g. snake dance) or Makonde drum tracks were confirmed; SAMAP listing pages show descriptions but not track titles."
+  ]
+ },
+ "amazighahwashandah": {
+  "unverified": [
+   "Mouha Oulhoussein Achiban (1916-2016, El Kbab) led a famous ahidus troupe and recorded; Wikipedia confirms him as an ahidus master but no release or track was found",
+   "Le Chant du Monde LDX 74705 side titles beyond 'Ahwach' (Face A from 1972, Face B from Taslli village, Ayt Mgun, 1975)",
+   "Ouaboud Mohamed (Khenifra) cassette track 'Tahidoust' on Tasjilat Igly, 2010: blog lists it, but genre link to ahidus is inferred from the title only",
+   "Taskiwin (martial ahwash variant of the western High Atlas, UNESCO 2017) and the Albatros track 'Taskiouine A01' could be added as ahwash with a firmer source",
+   "Bowles track 'Ahmeilou (Tafraout)' by Maallem Ahmed and ensemble may be ahwash but the page does not say so",
+   "Paul Bowles Library of Congress LP (1972) Berber tracks"
+  ],
+  "fell_short": [
+   "UNT library catalogue record for the Library of Congress 'Music of Morocco' blocked by bot check",
+   "Archived LoC PDF (Morocco_opt.pdf) returned only the viewer shell",
+   "Sofarecords page for 'Maroc vol. 2: Moyen-Atlas' blocked by captcha",
+   "No Discogs or MusicBrainz release page with ahidus/ahwash tracks was found in the time spent; no named-artist commercial ahidus releases verified",
+   "No near-genre example from the allowed ids was verified, so near is empty (rways, the closest neighbour, is not in the allowed list)"
+  ]
+ },
+ "cheo": {
+  "unverified": [
+   "NSƯT Minh Phương album 'Chèo Cổ' on last.fm (appeared in search results; page fetch failed, tracklist not seen)",
+   "Recordings by NSND Thúy Cải and Quốc Anh of named làn điệu chèo; none found on a fetchable catalogue page",
+   "Vietnamese Institute for Musicology CD/VCD 'Excellent artist Minh Nhương with Vietnamese musical instrument \"Nhị Líu\" - 11 melodies of popular opera \"chèo\"' exists per vienamnhac.vn listing, but no tracklist was shown (instrumental, so omitted)",
+   "Fully diacritised forms of the Folkways titles (e.g. Sắp cổ phong, Sắp qua cầu, Đường trường tải lương, Lão say, Hề mồi) are my reconstruction, not seen on the page",
+   "Track 109 'Noi Lêch / Câm Gia' is on the album but its artist is listed as n/a, so it was left out"
+  ],
+  "fell_short": [
+   "last.fm album page for NSUT Minh Phương 'Chèo Cổ' returned a client error",
+   "AllMusic album page for 'Vietnam: Traditional Folk Theatre, Hat Cheo' returned a client error",
+   "MusicBrainz release page returned a JavaScript-required notice",
+   "No Discogs, Bandcamp or streaming-service tracklist for a modern chèo release was found by search",
+   "No source gives a count of chèo recordings; the size range is extrapolated from melody and play counts"
+  ]
+ },
+ "catru": {
+  "unverified": [
+   "Quách Thị Hồ solo albums or Vietnamese state-label (Vina/Hãng đĩa Việt Nam) releases, not found on a fetched page",
+   "Streaming availability (Spotify/Apple Music) of any of these tracks",
+   "Nimbus track 1 title rendered garbled ('Thết Nhc') in the fetched data, so it was left out",
+   "Ocora release of ca trù, not found"
+  ],
+  "fell_short": [
+   "discogs.com release pages returned client errors; used api.discogs.com JSON instead",
+   "melodigging.com and last.fm pages failed to fetch",
+   "CREM-CNRS archive page for the Inédit album had broken character encoding",
+   "No first-party UNESCO tracklist page fetched; Smithsonian Folkways page used for the UNESCO-series album",
+   "Buda album (2009) gives no per-track artists, so it is listed as an album only",
+   "Folkways page strips some diacritics (e.g. 'Tr?n Van Khê')"
+  ]
+ },
+ "quanho": {
+  "unverified": [
+   "Famous modern recordings by NSND Thúy Cải, Quý Trang and the Bắc Ninh Quan họ Folk Song Theatre of songs such as 'Bèo dạt mây trôi', 'Ngồi tựa mạn thuyền', 'Mời trầu' and 'Người ở đừng về'. No fetched page gave a track-level listing.",
+   "That Quach Thi Hô and track 103 'Ty bà hành' are ca trù, not quan họ. This is inferred from the album title (Ca Tru and Quan Ho) and the CREM listing order. The Folkways page does not label each track's genre.",
+   "That the 1984 ATTC LP 'Musique du Vietnam' track 'Le petit plateau de bétel, chant d'accueil, chant quan ho' is a new recording rather than a reuse of the 1976 Cơi trầu take (both recorded by Trần Văn Khê)",
+   "Tracklist of the 2016 Apple Music album 'Vietnam (Chant Quan Ho)' by 'Bac Ninh' (the page says 16 songs but shows no titles) and of the allmusic 'Vietnam: Chant Quan Ho' album",
+   "Whether Thúy Hoàn's 'Se chỉ luồn kim' (2020) is traditional or arranged. The article does not say."
+  ],
+  "fell_short": [
+   "allmusic.com album pages ('Vietnam: Chant Quan Ho', 'Làng Quan Họ Quê Tôi') returned client errors",
+   "musicbrainz.org pages returned a JavaScript browser-check page; Discogs had no quan họ hits in search",
+   "last.fm 'Duyên quan họ' album page returned a client error",
+   "Apple Music album page for 'Vietnam (Chant Quan Ho)' showed no track rows",
+   "RFA Vietnamese 'Music for Weekend' quan họ programmes name songs but not singers or releases",
+   "Viện Âm nhạc (vienamnhac.vn) lists 'A session of Quan Ho singing I–III' VCDs, but no tracklists were reachable; its 'Best selection' CD lists only 'Quan Ho singing / Performed by: Khanh Ha' without a song title",
+   "Far Side Music 'Quan Ho Bac Ninh' (FSD2892) page has no tracklist, label or year"
+  ]
+ },
+ "bihusongs": {
+  "unverified": [
+   "Pratima Barua Pandey as a Bihu singer: pages show her only on Goalpariya folk albums, so she is used as a near example",
+   "Bhupen Hazarika 'Buku Ham Ham Kore' (film Moniram Dewan) as a Bihu-flavoured film song: Saregama confirms the film credit, but no fetched page confirmed the Bihu link or the year",
+   "Release years for the Saregama Bihu tracks (likely HMV records from the 1960s-80s, not confirmed)",
+   "Zubeen Garg songs named as Bihu staples by India Today NE (e.g. Hiya Diya Niya, Mayabini Ratir Bukut): left out because the article mixes Bihu and non-Bihu songs",
+   "Title of the Smithsonian Folkways release holding the Bihu tracks (the page showed only a tracklist fragment)"
+  ],
+  "fell_short": [
+   "en.wikipedia.org/wiki/Moniram_Dewan: page not found",
+   "mahabahu.com article on 'Buku Hom Hom Kore': blocked by a bot-verification page",
+   "last.fm Zubeen Garg 'Jaanmoni And Anjaana' album page: fetch failed",
+   "thewire.in articles (Bihu songs; Archana Mahanta tribute): only metadata came back, no article text",
+   "List of Assamese films of the 1960s (Wikipedia): no data rows came back",
+   "No page found giving a current count of Rongali Bihu albums or YouTube singles per year",
+   "Saregama would not reproduce whole rows in one request, so each was fetched as title, Album/Film and Artiste lines"
+  ]
+ },
+ "pungmul": {
+  "unverified": [
+   "SamulNori, Record of Changes (CMP, 1988) and its track titles such as Pinari and Samdo Sul Janggu: album listed by melodigging, tracklist not confirmed",
+   "Red Sun / SamulNori, Then Comes the White Tiger (ECM, 1995) exact tracklist: only reconstructed from a review",
+   "Recordings by Kim Young-im, Ahn Bi-chwi, Muk Gye-wol, Kim So-hee as named albums with release years (Muk Gye-wol and Kim So-hee appear on a last.fm compilation page without title or date)",
+   "MBC Korean folk song field archive size",
+   "Iri, Pyeongtaek, Imsil Pilbong or Gangneung nongak troupe recordings on commercial releases",
+   "Year of Nonesuch Drums and Voices of Korea tracklist beyond track 3"
+  ],
+  "fell_short": [
+   "MusicBrainz search pages blocked (robots) and release pages require JavaScript; API query not attempted per tool restrictions",
+   "AllMusic Record of Changes page returned client error; AllMusic Then Comes the White Tiger page has no tracklist",
+   "last.fm pages for Lee Chun-hee and Kim Young-im minyo albums returned client errors",
+   "A last.fm 61-track compilation of Gyeonggi/Namdo/Seodo minyo (Kim Ok-sim, Muk Gye-wol, Kim So-hee) was fetched but shows no album title or release year, so it was not used",
+   "Buda Musique, Tower and ARC store pages give no tracklists",
+   "No Discogs page could be found via search for Korean minyo or SamulNori releases"
+  ]
+ }
+}
