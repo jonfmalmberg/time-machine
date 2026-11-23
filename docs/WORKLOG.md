@@ -2,6 +2,16 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (first measured quality of data already on the site)
+
+- H10 accepted; the lead reran the check on its 159 claims: all found, agreeing with the helper.
+- **Japan 1980 to 1989, 158 links.** 127 (80%) are rows of the Oricon year-end top 50 on the page they cite, including all 120 home-grown songs that cite a source. 6 foreign songs are on the cited page but not in the chart (an unranked list of foreign singles, a television award, a British award, a Japanese release title). 1 is on the page only as an album. 4 are not on the page at all. 20 decade-list links cite no source, and 12 of those are the same songs as year-list entries under different keys.
+- **The site's rank is not the chart position**: it matches in 62 of 127 cases. It is the order within the site's own selection (a chart entry skipped moves everything below it up). 10 titles and 2 artist credits differ from the page.
+- **Swing, 23 links, which had no source at all.** 22 now have one (Wikipedia song articles, one library record) and every recording year agrees. One has no readable source.
+- So for the one country-decade measured, the home-grown chart songs are real and sourced; the faults are in the foreign songs, the ranks and the unsourced decade list. This is one decade of one well-documented country and says nothing yet about the weaker ones.
+- For the owner: whether a foreign song named only in an unranked list or an award counts as "heard there"; whether to store the chart position beside or in place of the site's rank.
+- Helper fired for H8 (genre batch 4).
+
 ## 2026-11-23 (evidence triage; shareable links)
 
 - H9 accepted. Of 161 unconfirmed claims from batches 1 and 2: 10 confirmed, 6 reworded, 30 source gone, 1 wrong source, 114 cannot tell (the sites refuse scripts, and the page-reading tool needs a permission nobody was there to give). The 17 claims on `download.osmand.net` cite a dead copy of a Wikimedia Commons page and are all on the original. 66 of 207 playlist songs in those batches have no supporting claim at present.

@@ -1,0 +1,423 @@
+[
+ {
+  "scope": "g:swing",
+  "song": "s_ajjpztwz3b",
+  "role": "intro",
+  "site_title": "Sugar Foot Stomp",
+  "site_artist": [
+   "Fletcher Henderson"
+  ],
+  "site_year": 1925,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Dippermouth_Blues",
+    "quote": "During Armstrong's tenure in the Fletcher Henderson Orchestra, the song was recorded on May 29, 1925 in a new arrangement by Don Redman under the title Sugarfoot Stomp."
+   }
+  ],
+  "outcome": "source found",
+  "detail": "The page spells it \"Sugarfoot Stomp\" (one word); it is Fletcher Henderson's 1925 recording of \"Dippermouth Blues\"."
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_pgvz1b34hd",
+  "role": "intro",
+  "site_title": "Moten Swing",
+  "site_artist": [
+   "Bennie Moten"
+  ],
+  "site_year": 1932,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Moten_Swing",
+    "quote": "\"Moten Swing\" (originally \"Moten's Swing\") is a 1932 jazz standard by Bennie Moten and his Kansas City Orchestra."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Moten_Swing",
+    "quote": "The 1932 \"Moten Swing\", written by Bennie and Buster Moten, recorded at Camden, New Jersey, on December 13, 1932"
+   }
+  ],
+  "outcome": "source found",
+  "detail": null
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_0h6ph9ds41",
+  "role": "intro",
+  "site_title": "It Don't Mean a Thing",
+  "site_artist": [
+   "Duke Ellington"
+  ],
+  "site_year": 1932,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/It_Don%27t_Mean_a_Thing_(If_It_Ain%27t_Got_That_Swing)",
+    "quote": "The song was first recorded by Ellington and his orchestra for Brunswick Records on February 2, 1932."
+   }
+  ],
+  "outcome": "source found",
+  "detail": null
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_gp2hnrjvgv",
+  "role": "intro",
+  "site_title": "Let's Dance",
+  "site_artist": [
+   "Benny Goodman"
+  ],
+  "site_year": 1935,
+  "outcome": "no readable source",
+  "detail": "Three searches (Wikipedia article for the song, a web search, the MusicBrainz recording search) found no script-readable page giving a Goodman recording of \"Let's Dance\" in 1935. The Wikipedia article says the theme took its name from the 1934-1935 radio programme and gives no recording date; MusicBrainz lists only reissues (earliest 1958)."
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_cmwg4t23f6",
+  "role": "peak",
+  "site_title": "King Porter Stomp",
+  "site_artist": [
+   "Benny Goodman"
+  ],
+  "site_year": 1935,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/King_Porter_Stomp",
+    "quote": "On July 1, 1935, Benny Goodman and his orchestra recorded"
+   }
+  ],
+  "outcome": "source found",
+  "detail": "The sentence goes on \"Fletcher Henderson's arrangement of the number\"; the quote stops before it because the apostrophe follows a link and the check script would split the word."
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_ec3g0r7a4y",
+  "role": "peak",
+  "site_title": "Sing, Sing, Sing",
+  "site_artist": [
+   "Benny Goodman"
+  ],
+  "site_year": 1937,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Sing,_Sing,_Sing_(With_a_Swing)",
+    "quote": "On July 6, 1937, \"Sing, Sing, Sing\" was recorded in Hollywood with Benny Goodman on clarinet"
+   }
+  ],
+  "outcome": "source found",
+  "detail": null
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_xyhhbbnpcp",
+  "role": "peak",
+  "site_title": "One O'Clock Jump",
+  "site_artist": [
+   "Count Basie"
+  ],
+  "site_year": 1937,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/One_O%27Clock_Jump",
+    "quote": "Basie recorded \"One O'Clock Jump\" several times after the original performance for Decca in June 1937."
+   }
+  ],
+  "outcome": "source found",
+  "detail": null
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_30j2g6znhd",
+  "role": "peak",
+  "site_title": "For Dancers Only",
+  "site_artist": [
+   "Jimmie Lunceford"
+  ],
+  "site_year": 1937,
+  "claims": [
+   {
+    "url": "https://fittcollection.macewan.ca/node/46554",
+    "quote": "For Dancers Only Performer/Group Jimmie Lunceford and his Orchestra Place of Recording New York, US Date of Recording 15 JUN 1937"
+   }
+  ],
+  "outcome": "source found",
+  "detail": "Library catalogue record (Fitt Jazz Collection, MacEwan University) of the LP For dancers only (1936-1937), MCA 1307; the quote runs across the record's fields."
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_f197vvh2bs",
+  "role": "peak",
+  "site_title": "Song of India",
+  "site_artist": [
+   "Tommy Dorsey"
+  ],
+  "site_year": 1937,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Song_of_India_(song)",
+    "quote": "In January 1937, Tommy Dorsey recorded an instrumental jazz arrangement featuring Bunny Berigan on trumpet, which became a jazz standard."
+   }
+  ],
+  "outcome": "source found",
+  "detail": null
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_5264cc1mdm",
+  "role": "peak",
+  "site_title": "Begin the Beguine",
+  "site_artist": [
+   "Artie Shaw"
+  ],
+  "site_year": 1938,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Begin_the_Beguine",
+    "quote": "version by Artie Shaw and His Orchestra in 1938."
+   }
+  ],
+  "outcome": "source found",
+  "detail": "Quote is the end of a sentence that has a citation mark ([6]) inside it; the part after the mark is quoted. The page gives the session as July 24, 1938."
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_78kqafrman",
+  "role": "peak",
+  "site_title": "A-Tisket, A-Tasket",
+  "site_artist": [
+   "Chick Webb",
+   "Ella Fitzgerald"
+  ],
+  "site_year": 1938,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/A-Tisket,_A-Tasket",
+    "quote": "Ella Fitzgerald and Al Feldman (later known as Van Alexander), extended and embellished the rhyme into a jazz piece that was her breakthrough hit with the Chick Webb Orchestra in 1938."
+   }
+  ],
+  "outcome": "source found",
+  "detail": null
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_3f7stj4q2a",
+  "role": "peak",
+  "site_title": "Jumpin' at the Woodside",
+  "site_artist": [
+   "Count Basie"
+  ],
+  "site_year": 1938,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Jumpin%27_at_the_Woodside",
+    "quote": "\"Jumpin' at the Woodside\" is a song first recorded in 1938 by the Count Basie Orchestra, and considered one of the band's signature tunes."
+   }
+  ],
+  "outcome": "source found",
+  "detail": null
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_ndzgdy6fex",
+  "role": "peak",
+  "site_title": "Moonlight Serenade",
+  "site_artist": [
+   "Glenn Miller"
+  ],
+  "site_year": 1939,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Moonlight_Serenade",
+    "quote": "It was an immediate phenomenon when released in May 1939 as an instrumental arrangement, though it had been adopted and performed as Miller's signature tune as early as 1938"
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Moonlight_Serenade",
+    "quote": "The song was recorded on April 4, 1939 at the RCA Victor Studios in New York City and released on the RCA Bluebird label."
+   }
+  ],
+  "outcome": "source found",
+  "detail": "The second quote gives the recording date but does not repeat Miller's name; the first names Miller and the May 1939 release."
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_6gts1tvh0t",
+  "role": "peak",
+  "site_title": "In the Mood",
+  "site_artist": [
+   "Glenn Miller"
+  ],
+  "site_year": 1939,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/In_the_Mood",
+    "quote": "In 1983, the Glenn Miller recording from 1939 was inducted into the Grammy Hall of Fame."
+   }
+  ],
+  "outcome": "source found",
+  "detail": null
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_enn1egtqt0",
+  "role": "peak",
+  "site_title": "Body and Soul",
+  "site_artist": [
+   "Coleman Hawkins"
+  ],
+  "site_year": 1939,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Body_and_Soul_(1930_song)",
+    "quote": "One of the most famous and influential takes was recorded by Coleman Hawkins and His Orchestra on October 11, 1939, at their only recording session for Bluebird, a subsidiary of RCA Victor."
+   }
+  ],
+  "outcome": "source found",
+  "detail": null
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_3n5449ephm",
+  "role": "peak",
+  "site_title": "Tuxedo Junction",
+  "site_artist": [
+   "Erskine Hawkins"
+  ],
+  "site_year": 1939,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Tuxedo_Junction",
+    "quote": "The song was introduced by Erskine Hawkins and His Orchestra, a college dance band previously known as the Bama State Collegians."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Tuxedo_Junction",
+    "quote": "RCA released it in 1939 and it climbed to #7 on the American pop charts."
+   }
+  ],
+  "outcome": "source found",
+  "detail": "The first quote names Erskine Hawkins and His Orchestra as introducing the song; the second (the next sentence) gives the 1939 RCA release."
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_0jvq94eshv",
+  "role": "peak",
+  "site_title": "Boogie Woogie Bugle Boy",
+  "site_artist": [
+   "The Andrews Sisters"
+  ],
+  "site_year": 1941,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Boogie_Woogie_Bugle_Boy",
+    "quote": "The Andrews Sisters' Decca recording reached number six on the U.S. pop singles chart in the spring of 1941 when the film was in release."
+   }
+  ],
+  "outcome": "source found",
+  "detail": null
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_s4ect533c8",
+  "role": "peak",
+  "site_title": "Take the 'A' Train",
+  "site_artist": [
+   "Duke Ellington"
+  ],
+  "site_year": 1941,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Take_the_%22A%22_Train",
+    "quote": "In 1976, the 1941 recording by Duke Ellington on Victor Records was inducted into the Grammy Hall of Fame."
+   }
+  ],
+  "outcome": "source found",
+  "detail": null
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_82n5qns66k",
+  "role": "peak",
+  "site_title": "Chattanooga Choo Choo",
+  "site_artist": [
+   "Glenn Miller"
+  ],
+  "site_year": 1941,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Chattanooga_Choo_Choo",
+    "quote": "In 1996, the 1941 recording of \"Chattanooga Choo Choo\" by Glenn Miller and His Orchestra was inducted into the Grammy Hall of Fame."
+   }
+  ],
+  "outcome": "source found",
+  "detail": null
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_2wermgnvxh",
+  "role": "reference",
+  "site_title": "Sing, Sing, Sing",
+  "site_artist": [
+   "Benny Goodman and His Orchestra"
+  ],
+  "site_year": 1937,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Sing,_Sing,_Sing_(With_a_Swing)",
+    "quote": "On July 6, 1937, \"Sing, Sing, Sing\" was recorded in Hollywood with Benny Goodman on clarinet"
+   }
+  ],
+  "outcome": "source found",
+  "detail": null
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_dfp7fa1bet",
+  "role": "reference",
+  "site_title": "One O'Clock Jump",
+  "site_artist": [
+   "Count Basie and His Orchestra"
+  ],
+  "site_year": 1937,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/One_O%27Clock_Jump",
+    "quote": "Basie recorded \"One O'Clock Jump\" several times after the original performance for Decca in June 1937."
+   }
+  ],
+  "outcome": "source found",
+  "detail": null
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_zvn6704c35",
+  "role": "reference",
+  "site_title": "In the Mood",
+  "site_artist": [
+   "Glenn Miller and His Orchestra"
+  ],
+  "site_year": 1939,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/In_the_Mood",
+    "quote": "In 1983, the Glenn Miller recording from 1939 was inducted into the Grammy Hall of Fame."
+   }
+  ],
+  "outcome": "source found",
+  "detail": null
+ },
+ {
+  "scope": "g:swing",
+  "song": "s_t8znmxq3k7",
+  "role": "reference",
+  "site_title": "Take the 'A' Train",
+  "site_artist": [
+   "Duke Ellington and His Orchestra"
+  ],
+  "site_year": 1941,
+  "claims": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Take_the_%22A%22_Train",
+    "quote": "In 1976, the 1941 recording by Duke Ellington on Victor Records was inducted into the Grammy Hall of Fame."
+   }
+  ],
+  "outcome": "source found",
+  "detail": null
+ }
+]
