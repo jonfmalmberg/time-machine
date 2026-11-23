@@ -22,7 +22,7 @@ Pick a place and a year and hear what people there were listening to. The site e
 python3 build.py
 python3 tests/smoke.py    # needs Python Playwright with Chromium
 python3 tests/account.py
-bash db/test_001.sh       # needs a local Postgres server
+bash db/test.sh           # needs a local Postgres server
 ```
 
 Open `dist/index.html` in a browser, or serve the `dist` folder from any static host.

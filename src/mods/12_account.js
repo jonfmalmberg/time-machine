@@ -17,13 +17,20 @@ const LIB='https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.4/dist/umd/su
 const HANDLE=/^[A-Za-z0-9_]{3,24}$/;
 const h=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 
-const S={phase:'out',user:null,profile:null,msg:''};   /* phase: out | busy | in */
+const S={phase:'out',user:null,profile:null,invites:[],msg:'',saved:false};   /* phase: out | busy | in */
 const subs=[]; let client=null, loading=null;
 const fire=()=>{ paint(); subs.forEach(f=>{ try{ f(); }catch(e){} }); };
 
 function stored(){ try{ return !!localStorage.getItem('sb-'+REF+'-auth-token'); }catch(e){ return false; } }
 const QS=new URLSearchParams(location.search), returning=QS.has('code'), failed=QS.get('error_description');
 function cleanUrl(){ try{ history.replaceState(null,'',location.pathname+location.hash); }catch(e){} }
+/* An invite link (?invite=CODE) is remembered across the trip to Google and used once signed in. */
+const INV='wmft-invite';
+const invGet=()=>{ try{ return localStorage.getItem(INV)||''; }catch(e){ return ''; } };
+const invSet=v=>{ try{ v?localStorage.setItem(INV,v):localStorage.removeItem(INV); }catch(e){} };
+const fmtCode=c=>String(c).replace(/(.{4})(?=.)/g,'$1-');
+const inviteLink=c=>location.origin+location.pathname+'?invite='+fmtCode(c);
+function openSheet(){ const b=document.getElementById('whobtn'); if(b&&UI.sheet.current()!=='who') b.click(); }
 
 function load(){
   if(loading) return loading;
@@ -37,15 +44,24 @@ function load(){
   return loading;
 }
 
-async function onSession(session){
-  if(!session||!session.user){ S.phase='out'; S.user=null; S.profile=null; fire(); return; }
-  const first=!S.user; S.user=session.user; S.phase='in';
-  if(first){ S.profile=null; fire(); }
+async function readProfile(){
   const {data,error}=await client.from('profiles').select('handle,role,status').eq('id',S.user.id).maybeSingle();
-  if(error) S.msg='Your profile could not be read. '+(error.message||'');
-  else{ S.profile=data||null; if(!data) S.msg='No profile exists for this account yet.'; }
+  if(error){ S.msg='Your profile could not be read. '+(error.message||''); return; }
+  S.profile=data||null; if(!data) S.msg='No profile exists for this account yet.';
+  if(data&&data.status==='active'){ const r=await client.from('invites').select('code,created_at').is('used_by',null).order('created_at'); S.invites=(r&&r.data)||[]; }
+  else S.invites=[];
+}
+async function onSession(session){
+  if(!session||!session.user){ S.phase='out'; S.user=null; S.profile=null; S.invites=[]; fire(); return; }
+  const first=!S.user; S.user=session.user; S.phase='in';
+  if(!first) return;                       /* token refreshes need no re-read */
+  S.profile=null; fire();
+  await readProfile();
+  const code=invGet();
+  if(code&&S.profile&&S.profile.status==='pending'){ await redeem(code,true); }
+  else if(code){ invSet(''); }
   fire();
-  if(returning&&first){ cleanUrl(); const b=document.getElementById('whobtn'); if(b&&UI.sheet.current()!=='sheet-who'&&UI.sheet.current()!=='who') b.click(); }
+  if(returning||code){ cleanUrl(); openSheet(); }
 }
 
 async function signIn(){
@@ -61,34 +77,72 @@ async function saveHandle(v){
   if(!HANDLE.test(v)){ S.msg='A handle is 3 to 24 letters, digits or underscores.'; paint(); return; }
   const {error}=await client.from('profiles').update({handle:v}).eq('id',S.user.id);
   if(error) S.msg=error.code==='23505'?'That handle is taken.':'The handle was not saved. '+(error.message||'');
-  else{ S.profile={...(S.profile||{}),handle:v}; S.msg='Saved.'; }
+  else{ S.profile={...(S.profile||{}),handle:v}; S.msg=''; S.saved=true; setTimeout(()=>{ S.saved=false; paint(); },2200); }
   fire();
+}
+async function redeem(code,quiet){
+  code=String(code||'').trim(); if(!code){ S.msg='Enter the invite code.'; paint(); return; }
+  const {data,error}=await client.rpc('redeem_invite',{invite_code:code});
+  invSet('');
+  if(error){ S.msg=error.message||'That code did not work.'; if(!quiet) paint(); return; }
+  if(data&&data.active){ S.msg='You are in. Welcome.'; await readProfile(); }
+  else S.msg='Code accepted: '+(data?data.have:1)+' of '+(data?data.need:2)+' invites. One more is needed.';
+  if(!quiet) fire();
+}
+async function newInvite(){
+  const {data,error}=await client.rpc('create_invite');
+  if(error){ S.msg=error.message||'No invite was made.'; paint(); return; }
+  S.invites=[...S.invites,{code:data}]; S.msg=''; paint();
+}
+async function copyLink(code,btn){
+  const link=inviteLink(code);
+  try{ await navigator.clipboard.writeText(link); btn.textContent='Copied'; }
+  catch(e){ S.msg=link; paint(); return; }      /* no clipboard here: show the link to copy by hand */
+  setTimeout(()=>{ if(btn.isConnected) btn.textContent='Copy link'; },1800);
 }
 
 /* The account block sits at the top of the "Who is travelling?" sheet. */
-const sheet=document.getElementById('sheet-who'), body=document.getElementById('whopop');
-const box=document.createElement('div'); box.id='acct'; if(sheet&&body) sheet.insertBefore(box,body);
-const STATUS={pending:'Profile requested. Waiting to be let in.',active:'Active',suspended:'Suspended'};
+const body=document.getElementById('whopop');
+const box=document.createElement('div'); box.id='acct';
+/* The people module rewrites the sheet body each time it opens; keep the account block as its first child so the sheet scrolls as one. */
+if(body){ const keep=()=>{ if(box.parentNode!==body) body.prepend(box); }; keep(); new MutationObserver(keep).observe(body,{childList:true}); }
 const ROLE={beta:'Beta tester',principal:'Principal tester',owner:'Owner'};
+const NOTE={
+  pending:['clock','Under review','Your profile has been requested. You get in when the owner approves it, or straight away with an invite code from a tester.'],
+  suspended:['x','Suspended','This profile has been suspended by the owner.']};
 function paint(){
   if(!box.isConnected) return;
   const p=S.profile, msg=S.msg?`<p class="fine acctmsg" role="status">${h(S.msg)}</p>`:'';
   if(S.phase!=='in'){
+    const inv=invGet();
     box.innerHTML=`<p class="shlabel">Account</p>
-      <div class="rows"><button type="button" class="rowb" id="acctin"${S.phase==='busy'?' disabled':''}><span class="rmedia">${UI.ic('person')}</span><span class="rmain"><b>${S.phase==='busy'?'Opening Google…':'Continue with Google'}</b><small>Ask for a tester profile</small></span><span class="rchev">${UI.ic('chev')}</span></button></div>
+      ${inv?`<div class="acctnote ok"><span class="acctni">${UI.ic('ticket')}</span><span><b>You have an invite</b><small>Continue with Google and it is used automatically.</small></span></div>`:''}
+      <div class="rows"><button type="button" class="rowb" id="acctin"${S.phase==='busy'?' disabled':''}><span class="rmedia">${UI.ic('person')}</span><span class="rmain"><b>${S.phase==='busy'?'Opening Google…':'Continue with Google'}</b><small>${inv?'Join as a tester':'Ask for a tester profile'}</small></span><span class="rchev">${UI.ic('chev')}</span></button></div>
       ${msg}<p class="fine">Browsing needs no account. Signing in keeps a handle and your tester status, nothing else.</p>
       <p class="shlabel">On this device</p>`;
     box.querySelector('#acctin').onclick=signIn; return; }
-  const name=p&&p.handle?p.handle:'', sub=p?(p.status==='active'?(ROLE[p.role]||p.role):(STATUS[p.status]||p.status)):'Reading your profile…';
+  const name=p&&p.handle?p.handle:'', st=p?p.status:'', active=st==='active', note=NOTE[st];
+  const sub=!p?'Reading your profile…':active?(ROLE[p.role]||p.role):note?note[1]:st;
   box.innerHTML=`<p class="shlabel">Account${ENV==='dev'?' · dev':''}</p>
+    ${note?`<div class="acctnote ${st}"><span class="acctni">${UI.ic(note[0])}</span><span><b>${note[1]}</b><small>${note[2]}</small></span></div>`:''}
     <div class="rows">
-      <div class="rowb acctme"><span class="rmedia"><span class="avatar sm">${name?h(name.slice(0,1).toUpperCase()):UI.ic('person')}</span></span><span class="rmain"><b>${name?h(name):'No handle yet'}</b><small>${h(sub)}</small></span></div>
-      <label class="rowb acctrow"><span class="acctlab">Handle</span><input id="accth" type="text" maxlength="24" autocapitalize="off" autocomplete="off" spellcheck="false" placeholder="letters, digits, _" value="${h(name)}"${p?'':' disabled'}><button type="button" class="lbtn" id="acctsave"${p?'':' disabled'}>Save</button></label>
-      <button type="button" class="rowb acctout" id="acctout">Sign out</button>
+      <div class="rowb acctme"><span class="rmedia"><span class="avatar sm">${name?h(name.slice(0,1).toUpperCase()):UI.ic('person')}</span></span><span class="rmain"><b>${name?h(name):'No handle yet'}</b><small class="acctst ${st}">${active?UI.ic('check'):''}${h(sub)}</small></span></div>
+      <label class="rowb acctrow"><span class="acctlab">Handle</span><input id="accth" type="text" maxlength="24" autocapitalize="off" autocomplete="off" spellcheck="false" placeholder="${name?'':'Choose one: letters, digits, _'}" value="${h(name)}"${p?'':' disabled'}><span class="acctok" id="acctok"${S.saved?'':' hidden'}>${UI.ic('check')}Saved</span><button type="button" class="lbtn primary" id="acctsave" hidden>Save</button></label>
+      ${st==='pending'?`<label class="rowb acctrow"><span class="acctlab">Invite</span><input id="acctcode" type="text" maxlength="20" autocapitalize="characters" autocomplete="off" spellcheck="false" placeholder="Code, if you have one"><button type="button" class="lbtn primary" id="acctuse" hidden>Use</button></label>`:''}
     </div>${msg}
+    ${active?`<p class="shlabel">Invite a tester</p><div class="rows">
+      ${S.invites.map(i=>`<div class="rowb acctinv"><span class="rmain"><b class="acctcode">${h(fmtCode(i.code))}</b><small>Works once</small></span><button type="button" class="lbtn" data-copy="${h(i.code)}">Copy link</button></div>`).join('')}
+      <button type="button" class="rowb acctnew" id="acctnew">New invite link</button></div>
+      <p class="fine">Whoever opens the link and signs in becomes a tester, vouched for by you.</p>`:''}
+    <div class="rows acctoutw"><button type="button" class="rowb acctout" id="acctout">Sign out</button></div>
     <p class="shlabel">On this device</p>`;
-  const f=box.querySelector('#accth'), go=()=>saveHandle(f.value);
-  box.querySelector('#acctsave').onclick=go; f.onkeydown=e=>{ if(e.key==='Enter'){ e.preventDefault(); go(); } };
+  const f=box.querySelector('#accth'), sv=box.querySelector('#acctsave'), ok=box.querySelector('#acctok'), go=()=>saveHandle(f.value);
+  f.oninput=()=>{ const ch=f.value.trim()!==name&&f.value.trim()!==''; sv.hidden=!ch; if(ch) ok.hidden=true; };
+  sv.onclick=go; f.onkeydown=e=>{ if(e.key==='Enter'){ e.preventDefault(); if(!sv.hidden) go(); } };
+  const c=box.querySelector('#acctcode'), use=box.querySelector('#acctuse');
+  if(c){ c.oninput=()=>{ use.hidden=!c.value.trim(); }; use.onclick=()=>redeem(c.value); c.onkeydown=e=>{ if(e.key==='Enter'){ e.preventDefault(); redeem(c.value); } }; }
+  box.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>copyLink(b.dataset.copy,b));
+  const nw=box.querySelector('#acctnew'); if(nw) nw.onclick=newInvite;
   box.querySelector('#acctout').onclick=signOut;
 }
 
@@ -96,6 +150,9 @@ window.ACCOUNT={ env:ENV, user:()=>S.user, profile:()=>S.profile,
   isActive:()=>!!(S.profile&&S.profile.status==='active'), isOwner:()=>!!(S.profile&&S.profile.status==='active'&&S.profile.role==='owner'),
   client:()=>client, onChange:f=>subs.push(f) };
 
+const arrived=QS.get('invite');
+if(arrived){ invSet(arrived); cleanUrl(); }
 if(failed){ S.msg=/user cap/i.test(failed)?'Sign-ups are closed for now: the tester list is full.':'Sign-in did not finish. '+failed; cleanUrl(); }
 paint();
 if(returning||stored()){ S.phase=returning?'busy':'out'; paint(); load().catch(e=>{ S.phase='out'; S.msg=e.message; paint(); }); }
+else if(arrived) setTimeout(openSheet,600);

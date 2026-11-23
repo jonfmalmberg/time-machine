@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# Checks the access rules in 001_profiles.sql against a throwaway local
+# Checks the access rules in the db/*.sql files against a throwaway local
 # Postgres. Needs the Postgres server programs (initdb, pg_ctl) and psql.
 # Usage: bash db/test_001.sh        (as root it re-runs itself as "postgres")
 set -euo pipefail
 HERE="$(cd "$(dirname "$0")" && pwd)"
 if [ "$(id -u)" = 0 ]; then
-  T=$(mktemp -d); cp "$HERE"/001_profiles.sql "$0" "$T"/; chmod -R a+rX "$T"
+  T=$(mktemp -d); cp "$HERE"/0*.sql "$0" "$T"/; chmod -R a+rX "$T"
   exec runuser -u postgres -- bash "$T/$(basename "$0")"
 fi
 BIN=$(ls -d /usr/lib/postgresql/*/bin 2>/dev/null | tail -1); [ -n "$BIN" ] && PATH="$BIN:$PATH"
@@ -28,6 +28,7 @@ grant usage on schema public to anon, authenticated;
 alter default privileges in schema public revoke all on tables from anon, authenticated;
 SQL
 $P -f "$HERE/001_profiles.sql"
+$P -f "$HERE/002_invites.sql"
 
 A=00000000-0000-0000-0000-00000000000a; B=00000000-0000-0000-0000-00000000000b
 $P -c "insert into auth.users (id) values ('$A'), ('$B')"
@@ -57,6 +58,39 @@ $P -c "update public.profiles set handle='Jon' where id='$A'"
 check "handle taken, ignoring capitals"         "duplicate key" "$(as authenticated $B "update public.profiles set handle='jon' where id='$B'")"
 as authenticated $A "select public.admin_set_profile('$B','beta','active')" >/dev/null
 check "owner activates a member"                "beta|active" "$($P -At -c "select role||'|'||status from public.profiles where id='$B'")"
+# --- 002_invites.sql ---  A = owner (active), B = active member, C and N = pending
+C=00000000-0000-0000-0000-00000000000c; N=00000000-0000-0000-0000-00000000000d
+$P -c "insert into auth.users (id) values ('$C'), ('$N')"
+check "not signed in: cannot read invites"      "permission denied" "$(as anon '' 'select count(*) from public.invites')"
+check "not signed in: cannot create an invite"  "permission denied" "$(as anon '' 'select public.create_invite()')"
+check "pending member cannot create an invite"  "Only active" "$(as authenticated $C 'select public.create_invite()')"
+CODE=$(as authenticated $B 'select public.create_invite()' | tr -d ' ')
+check "active member gets a 12-character code"  "12" "${#CODE}"
+check "member cannot insert an invite directly" "permission denied" "$(as authenticated $B "insert into public.invites (code, created_by) values ('AAAAAAAAAAAA', '$B')")"
+check "member cannot edit an invite directly"   "permission denied" "$(as authenticated $C "update public.invites set used_by='$C'")"
+check "creator sees own invite"                 "1" "$(as authenticated $B 'select count(*) from public.invites')"
+check "others do not see it"                    "0" "$(as authenticated $C 'select count(*) from public.invites')"
+check "wrong code refused"                      "not valid" "$(as authenticated $C "select public.redeem_invite('000000000000')")"
+check "creator cannot use own code"             "not waiting" "$(as authenticated $B "select public.redeem_invite('$CODE')")"
+check "code works, with dashes and lower case"  '"active" : true' "$(as authenticated $C "select public.redeem_invite('$(echo ${CODE:0:4}-${CODE:4:4}-${CODE:8:4} | tr A-F a-f)')")"
+check "newcomer is now active"                  "active" "$($P -At -c "select status from public.profiles where id='$C'")"
+check "code cannot be used twice"               "not valid" "$(as authenticated $N "select public.redeem_invite('$CODE')")"
+as authenticated $B 'select public.create_invite()' >/dev/null; as authenticated $B 'select public.create_invite()' >/dev/null; as authenticated $B 'select public.create_invite()' >/dev/null
+check "member limited to three unused invites"  "three unused" "$(as authenticated $B 'select public.create_invite()')"
+check "owner has no limit"                      "4" "$(for i in 1 2 3 4; do as authenticated $A 'select public.create_invite()' >/dev/null; done; $P -At -c "select count(*) from public.invites where created_by='$A'")"
+$P -c "update public.profiles set status='suspended' where id='$B'"
+BAD=$($P -At -c "select code from public.invites where created_by='$B' and used_by is null limit 1")
+check "code from a suspended member refused"    "not valid" "$(as authenticated $N "select public.redeem_invite('$BAD')")"
+$P -c "update public.profiles set status='active' where id='$B'"
+# From 100 active members on, two endorsements are needed.
+$P -c "insert into auth.users (id) select gen_random_uuid() from generate_series(1,100)" -c "update public.profiles set status='active' where id not in ('$N')"
+check "at 100+ members one code is not enough"  '"active" : false' "$(as authenticated $N "select public.redeem_invite('$BAD')")"
+check "still pending after one endorsement"     "pending" "$($P -At -c "select status from public.profiles where id='$N'")"
+SAME=$($P -At -c "select code from public.invites where created_by='$B' and used_by is null limit 1")
+check "second code from the same member refused" "not valid" "$(as authenticated $N "select public.redeem_invite('$SAME')")"
+OWN=$($P -At -c "select code from public.invites where created_by='$A' and used_by is null limit 1")
+check "second endorsement activates"            '"active" : true' "$(as authenticated $N "select public.redeem_invite('$OWN')")"
+$P -c "delete from auth.users where id not in ('$A','$B')"
 $P -c "insert into auth.users (id) select gen_random_uuid() from generate_series(1,998)"
 check "sign-ups refused at the cap"             "user cap" "$($P -c "insert into auth.users (id) values (gen_random_uuid())" 2>&1 | tr '\n' ' ')"
 check "cap holds at 1000 profiles"              "1000" "$($P -At -c "select count(*) from public.profiles")"

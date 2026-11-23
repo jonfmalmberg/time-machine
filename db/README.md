@@ -5,6 +5,7 @@ Each numbered `.sql` file is one change to the Supabase database, kept here so t
 | File | What it does | Dev | Prod |
 | :- | :- | :- | :- |
 | `001_profiles.sql` | Profiles table, sign-up trigger with the 1,000 cap, access rules | 22 Nov 2026 | not yet |
+| `002_invites.sql` | One-time invite codes; a used code is an endorsement; activation at 1 endorsement (2 from 100 members), closed at 1,000 | 22 Nov 2026 | not yet |
 | `001_make_owner.sql` | Makes the first signed-in person the owner | not yet | not yet |
 
 ## How changes are applied
@@ -18,4 +19,4 @@ Each numbered `.sql` file is one change to the Supabase database, kept here so t
 - Every table has row-level security on and an explicit `grant` for exactly the columns and actions the site uses.
 - No keys or email addresses are written in these files.
 
-`test_001.sh` runs `001_profiles.sql` against a throwaway local Postgres with a stand-in for Supabase's sign-in tables and checks the access rules.
+`test.sh` runs the numbered files against a throwaway local Postgres with a stand-in for Supabase's sign-in tables and checks the access rules.
