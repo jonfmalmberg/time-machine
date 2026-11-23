@@ -1,0 +1,19 @@
+[
+{"song":"s_qjtn95kk5g","scope":"g:gangsta","role":"intro"},
+{"song":"s_2hcbbfhqef","scope":"g:gangsta","role":"intro"},
+{"song":"s_8wkqmqvxyb","scope":"g:gangsta","role":"intro"},
+{"song":"s_65q3n4p4ad","scope":"g:gangsta","role":"peak"},
+{"song":"s_fhz3mcsqrb","scope":"g:gangsta","role":"peak"},
+{"song":"s_9rw03v6q0s","scope":"g:gangsta","role":"peak"},
+{"song":"s_2kay8vx2b1","scope":"g:gangsta","role":"peak"},
+{"song":"s_nskv8bfd8h","scope":"g:gangsta","role":"peak"},
+{"song":"s_andn32j3dc","scope":"g:gangsta","role":"peak"},
+{"song":"s_61a5vt61xr","scope":"g:gangsta","role":"peak"},
+{"song":"s_k34s5zn4ya","scope":"g:gangsta","role":"peak"},
+{"song":"s_2pwgcwqv6s","scope":"g:gangsta","role":"peak"},
+{"song":"s_xwr6cshanm","scope":"g:gangsta","role":"peak"},
+{"song":"s_5b7v5fp104","scope":"g:gangsta","role":"peak"},
+{"song":"s_qjtn95kk5g","scope":"g:gangsta","role":"reference"},
+{"song":"s_65q3n4p4ad","scope":"g:gangsta","role":"reference"},
+{"song":"s_r16dkrpsjy","scope":"g:gangsta","role":"near miss","released":1994,"belongs_to":"gfunk","reason":"Same city and themes, but relaxed groove and melodic synths"}
+]

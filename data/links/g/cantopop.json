@@ -1,0 +1,20 @@
+[
+{"song":"s_910t8jxb9b","scope":"g:cantopop","role":"intro"},
+{"song":"s_tzt1qxd4bg","scope":"g:cantopop","role":"intro"},
+{"song":"s_x400tavvh3","scope":"g:cantopop","role":"intro"},
+{"song":"s_f03n8s5yme","scope":"g:cantopop","role":"peak"},
+{"song":"s_6k5k3cqbfe","scope":"g:cantopop","role":"peak"},
+{"song":"s_12ev5n62c7","scope":"g:cantopop","role":"peak"},
+{"song":"s_yms5z81cp2","scope":"g:cantopop","role":"peak","released":1986},
+{"song":"s_max1z4gzgz","scope":"g:cantopop","role":"peak"},
+{"song":"s_1abebqsn8c","scope":"g:cantopop","role":"peak"},
+{"song":"s_ebveq9mxk7","scope":"g:cantopop","role":"peak"},
+{"song":"s_jak013rvb6","scope":"g:cantopop","role":"peak"},
+{"song":"s_jd6y7ywf8t","scope":"g:cantopop","role":"peak"},
+{"song":"s_46qkayt9k2","scope":"g:cantopop","role":"peak"},
+{"song":"s_tzt1qxd4bg","scope":"g:cantopop","role":"reference"},
+{"song":"s_12ev5n62c7","scope":"g:cantopop","role":"reference"},
+{"song":"s_yms5z81cp2","scope":"g:cantopop","role":"reference","released":1985},
+{"song":"s_jd6y7ywf8t","scope":"g:cantopop","role":"reference"},
+{"song":"s_hj48trz2w5","scope":"g:cantopop","role":"near miss","belongs_to":"shidaiqu","reason":"Mandarin song from Taiwan"}
+]

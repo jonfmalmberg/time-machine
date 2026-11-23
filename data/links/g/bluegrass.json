@@ -1,0 +1,19 @@
+[
+{"song":"s_c8rm0yr5c6","scope":"g:bluegrass","role":"intro","released":1947},
+{"song":"s_wq2q6krwhw","scope":"g:bluegrass","role":"intro"},
+{"song":"s_13ws7sdah7","scope":"g:bluegrass","role":"intro","released":1950},
+{"song":"s_wj753xm9j7","scope":"g:bluegrass","role":"peak"},
+{"song":"s_j53br8cag0","scope":"g:bluegrass","role":"peak"},
+{"song":"s_ys175gpwnv","scope":"g:bluegrass","role":"peak"},
+{"song":"s_yra6wtferb","scope":"g:bluegrass","role":"peak"},
+{"song":"s_b02jp9bgrp","scope":"g:bluegrass","role":"peak"},
+{"song":"s_6yc3d22mrd","scope":"g:bluegrass","role":"peak"},
+{"song":"s_3vtswp17z8","scope":"g:bluegrass","role":"peak"},
+{"song":"s_2wz94h7yhr","scope":"g:bluegrass","role":"peak"},
+{"song":"s_8gmvcv6jwc","scope":"g:bluegrass","role":"peak"},
+{"song":"s_28vq33hv7z","scope":"g:bluegrass","role":"peak"},
+{"song":"s_c8rm0yr5c6","scope":"g:bluegrass","role":"reference","released":1946},
+{"song":"s_13ws7sdah7","scope":"g:bluegrass","role":"reference","released":1949},
+{"song":"s_ys175gpwnv","scope":"g:bluegrass","role":"reference"},
+{"song":"s_ja1r4kr3nn","scope":"g:bluegrass","role":"near miss","belongs_to":"rocknroll","reason":"Same song, sped up with slapback echo and rhythm-and-blues feel"}
+]

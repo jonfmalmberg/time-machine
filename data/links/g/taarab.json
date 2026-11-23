@@ -1,0 +1,7 @@
+[
+{"song":"s_2zyc1zr55t","scope":"g:taarab","role":"reference"},
+{"song":"s_c2erxm81rx","scope":"g:taarab","role":"reference"},
+{"song":"s_tf8zgzh3ph","scope":"g:taarab","role":"near miss","belongs_to":"tarab","reason":"The Cairo model taarab copied: Arabic lyrics and a large Egyptian orchestra"},
+{"release":"r_gf2aay7ckg","scope":"g:taarab","role":"album"},
+{"release":"r_dm45jq5akj","scope":"g:taarab","role":"album"}
+]

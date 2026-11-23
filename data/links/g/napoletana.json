@@ -1,0 +1,19 @@
+[
+{"song":"s_41f465ew53","scope":"g:napoletana","role":"intro"},
+{"song":"s_t3wgktdvy5","scope":"g:napoletana","role":"intro"},
+{"song":"s_pg6gd22c4k","scope":"g:napoletana","role":"intro"},
+{"song":"s_vry8p5tdm9","scope":"g:napoletana","role":"peak"},
+{"song":"s_ar3qwbvrx3","scope":"g:napoletana","role":"peak"},
+{"song":"s_zjxe48q14x","scope":"g:napoletana","role":"peak"},
+{"song":"s_2b2drsb79s","scope":"g:napoletana","role":"peak"},
+{"song":"s_q9xz8rpngd","scope":"g:napoletana","role":"peak"},
+{"song":"s_wjt9fytvbx","scope":"g:napoletana","role":"peak"},
+{"song":"s_sk6ja95ag1","scope":"g:napoletana","role":"peak"},
+{"song":"s_4wkbr28187","scope":"g:napoletana","role":"peak"},
+{"song":"s_tnhztxga9s","scope":"g:napoletana","role":"peak"},
+{"song":"s_cqakjs1npa","scope":"g:napoletana","role":"peak"},
+{"song":"s_41f465ew53","scope":"g:napoletana","role":"reference"},
+{"song":"s_pg6gd22c4k","scope":"g:napoletana","role":"reference"},
+{"song":"s_tnhztxga9s","scope":"g:napoletana","role":"reference"},
+{"song":"s_v9wgpk5783","scope":"g:napoletana","role":"near miss","belongs_to":"tinpan","reason":"American novelty pop imitating Italian style, sung in English"}
+]

@@ -1,0 +1,23 @@
+[
+{"song":"s_8kmgba493d","scope":"g:lamovidamadrilena","role":"intro"},
+{"song":"s_djax8q07k7","scope":"g:lamovidamadrilena","role":"intro"},
+{"song":"s_a5fapynnjd","scope":"g:lamovidamadrilena","role":"intro"},
+{"song":"s_11d8re9sxz","scope":"g:lamovidamadrilena","role":"peak"},
+{"song":"s_m4qskasnx6","scope":"g:lamovidamadrilena","role":"peak"},
+{"song":"s_nwmtjhgye4","scope":"g:lamovidamadrilena","role":"peak"},
+{"song":"s_ran1g23rb8","scope":"g:lamovidamadrilena","role":"peak"},
+{"song":"s_dqmwcjv4k5","scope":"g:lamovidamadrilena","role":"peak"},
+{"song":"s_wjc54rtbja","scope":"g:lamovidamadrilena","role":"peak"},
+{"song":"s_1a564whfvv","scope":"g:lamovidamadrilena","role":"peak"},
+{"song":"s_nfrf1gamz7","scope":"g:lamovidamadrilena","role":"peak"},
+{"song":"s_8ddz9fb0tm","scope":"g:lamovidamadrilena","role":"peak"},
+{"song":"s_cwpnd4w8yq","scope":"g:lamovidamadrilena","role":"peak"},
+{"song":"s_r5x8c924sv","scope":"g:lamovidamadrilena","role":"peak"},
+{"song":"s_rzp28zxn9y","scope":"g:lamovidamadrilena","role":"peak"},
+{"song":"s_8kmgba493d","scope":"g:lamovidamadrilena","role":"reference"},
+{"song":"s_djax8q07k7","scope":"g:lamovidamadrilena","role":"reference"},
+{"song":"s_dqmwcjv4k5","scope":"g:lamovidamadrilena","role":"reference"},
+{"song":"s_cwpnd4w8yq","scope":"g:lamovidamadrilena","role":"reference"},
+{"song":"s_25w66nxcdb","scope":"g:lamovidamadrilena","role":"near miss","belongs_to":"rockesp","reason":"Latin American rock en español, a later and separate scene"},
+{"song":"s_xh55p41kb5","scope":"g:lamovidamadrilena","role":"near miss","belongs_to":"synthpop","reason":"The British synth-pop it drew on"}
+]

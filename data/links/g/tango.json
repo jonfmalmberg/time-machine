@@ -1,0 +1,19 @@
+[
+{"song":"s_2ktwrrsvaw","scope":"g:tango","role":"intro"},
+{"song":"s_7hpv9f4fty","scope":"g:tango","role":"intro"},
+{"song":"s_w6neyfpvjt","scope":"g:tango","role":"intro"},
+{"song":"s_ktzwdt1e13","scope":"g:tango","role":"peak"},
+{"song":"s_wab875xx9z","scope":"g:tango","role":"peak"},
+{"song":"s_6h0ee8hrbg","scope":"g:tango","role":"peak"},
+{"song":"s_dckk791dwa","scope":"g:tango","role":"peak"},
+{"song":"s_qqf0hmka5b","scope":"g:tango","role":"peak"},
+{"song":"s_0psvwyy88x","scope":"g:tango","role":"peak"},
+{"song":"s_2yvc3nt3f3","scope":"g:tango","role":"peak"},
+{"song":"s_ph544r22a4","scope":"g:tango","role":"peak"},
+{"song":"s_s86zrq6hny","scope":"g:tango","role":"peak"},
+{"song":"s_kppk5fz5hm","scope":"g:tango","role":"peak"},
+{"song":"s_2ktwrrsvaw","scope":"g:tango","role":"reference"},
+{"song":"s_6h0ee8hrbg","scope":"g:tango","role":"reference"},
+{"song":"s_kppk5fz5hm","scope":"g:tango","role":"reference"},
+{"song":"s_5h5yeaqy79","scope":"g:tango","role":"near miss","belongs_to":"nuevotango","reason":"Tango instruments, but built for concert listening, not the dance floor"}
+]

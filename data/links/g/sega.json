@@ -1,0 +1,16 @@
+[
+{"song":"s_egxyxy1d8f","scope":"g:sega","role":"intro"},
+{"song":"s_jyz7t0n8w1","scope":"g:sega","role":"intro"},
+{"song":"s_vs2e0mav5e","scope":"g:sega","role":"intro"},
+{"song":"s_yt66y4spfd","scope":"g:sega","role":"peak"},
+{"song":"s_9msd9w390s","scope":"g:sega","role":"peak"},
+{"song":"s_8zzedensje","scope":"g:sega","role":"peak"},
+{"song":"s_t2aamecje1","scope":"g:sega","role":"peak"},
+{"song":"s_wtpr188qcm","scope":"g:sega","role":"peak"},
+{"song":"s_egxyxy1d8f","scope":"g:sega","role":"reference"},
+{"song":"s_yt66y4spfd","scope":"g:sega","role":"reference"},
+{"song":"s_jyz7t0n8w1","scope":"g:sega","role":"reference"},
+{"song":"s_rg7zqjpgyr","scope":"g:sega","role":"near miss","belongs_to":"wadrum","reason":"Réunion maloya: drums and voices only, a ritual root rather than dance-hall sega"},
+{"release":"r_88fzmjeeb6","scope":"g:sega","role":"album"},
+{"release":"r_nh1tjs43t9","scope":"g:sega","role":"album"}
+]

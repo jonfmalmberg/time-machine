@@ -1,0 +1,19 @@
+[
+{"song":"s_tzav48rae3","scope":"g:anatolianpsych","role":"intro"},
+{"song":"s_7ethr7vg64","scope":"g:anatolianpsych","role":"intro"},
+{"song":"s_gh8cnhvr4z","scope":"g:anatolianpsych","role":"intro","released":1970},
+{"song":"s_a21630zmm0","scope":"g:anatolianpsych","role":"peak"},
+{"song":"s_43mvzv7wn0","scope":"g:anatolianpsych","role":"peak"},
+{"song":"s_qdnnyfgn9q","scope":"g:anatolianpsych","role":"peak"},
+{"song":"s_mpnmz8trtm","scope":"g:anatolianpsych","role":"peak"},
+{"song":"s_wg0yrwsmvv","scope":"g:anatolianpsych","role":"peak"},
+{"song":"s_x52f34xw8e","scope":"g:anatolianpsych","role":"peak"},
+{"song":"s_vbrqftkgzv","scope":"g:anatolianpsych","role":"peak","released":1975},
+{"song":"s_3mb1e3ea4p","scope":"g:anatolianpsych","role":"peak"},
+{"song":"s_mrh803tpny","scope":"g:anatolianpsych","role":"peak"},
+{"song":"s_sqjx32f4fd","scope":"g:anatolianpsych","role":"peak"},
+{"song":"s_7ethr7vg64","scope":"g:anatolianpsych","role":"reference"},
+{"song":"s_43mvzv7wn0","scope":"g:anatolianpsych","role":"reference"},
+{"song":"s_mpnmz8trtm","scope":"g:anatolianpsych","role":"reference"},
+{"song":"s_vm74dhswx7","scope":"g:anatolianpsych","role":"near miss","released":1973,"belongs_to":"arabesk","reason":"Arabic-style string orchestra and lament vocal, not a rock band"}
+]

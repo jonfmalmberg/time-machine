@@ -1,0 +1,10 @@
+[
+{"song":"s_ck8tkwr1k3","scope":"g:nifolk","role":"intro"},
+{"song":"s_jsnvz73tym","scope":"g:nifolk","role":"intro"},
+{"song":"s_xtts9gv273","scope":"g:nifolk","role":"peak"},
+{"song":"s_3hbapyd5bq","scope":"g:nifolk","role":"peak","released":1977},
+{"song":"s_5t2bjt89sa","scope":"g:nifolk","role":"peak"},
+{"song":"s_3hbapyd5bq","scope":"g:nifolk","role":"reference","released":1976},
+{"song":"s_1jkr9vj078","scope":"g:nifolk","role":"near miss","belongs_to":"filmi","reason":"Folk voice, but used as Bollywood playback with a film orchestra"},
+{"release":"r_zmjbpxwys2","scope":"g:nifolk","role":"album"}
+]

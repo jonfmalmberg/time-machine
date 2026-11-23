@@ -1,0 +1,23 @@
+[
+{"song":"s_yy14xq52qr","scope":"g:iskelma","role":"intro"},
+{"song":"s_ac8k1hy1rq","scope":"g:iskelma","role":"intro"},
+{"song":"s_ng880yg8me","scope":"g:iskelma","role":"intro"},
+{"song":"s_hh68c0qr0r","scope":"g:iskelma","role":"peak"},
+{"song":"s_pvhe4f18qf","scope":"g:iskelma","role":"peak"},
+{"song":"s_b962dymbc4","scope":"g:iskelma","role":"peak"},
+{"song":"s_n18gcj8mbj","scope":"g:iskelma","role":"peak"},
+{"song":"s_a90g273382","scope":"g:iskelma","role":"peak"},
+{"song":"s_k7s75hqswr","scope":"g:iskelma","role":"peak"},
+{"song":"s_1h1p8pewhy","scope":"g:iskelma","role":"peak"},
+{"song":"s_ezjzfdhst4","scope":"g:iskelma","role":"peak"},
+{"song":"s_9w9e2n42a1","scope":"g:iskelma","role":"peak"},
+{"song":"s_c6mzc1czyx","scope":"g:iskelma","role":"peak"},
+{"song":"s_50nq4mmp5n","scope":"g:iskelma","role":"peak"},
+{"song":"s_qesjcm9x77","scope":"g:iskelma","role":"peak"},
+{"song":"s_ac8k1hy1rq","scope":"g:iskelma","role":"reference"},
+{"song":"s_b962dymbc4","scope":"g:iskelma","role":"reference"},
+{"song":"s_yy14xq52qr","scope":"g:iskelma","role":"reference"},
+{"song":"s_ng880yg8me","scope":"g:iskelma","role":"reference"},
+{"song":"s_h0dmfvgxgv","scope":"g:iskelma","role":"near miss","belongs_to":"tango","reason":"Argentine tango: bandoneón, rubato and swings between major and minor"},
+{"song":"s_qqketwam7a","scope":"g:iskelma","role":"near miss","belongs_to":"dansband","reason":"Swedish dance-band take on the same schlager melodies"}
+]

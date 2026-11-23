@@ -1,0 +1,16 @@
+[
+{"song":"s_v0jpak69ft","scope":"c:CO:1940s","role":"home","released":1943,"scene":"dance","confidence":"m"},
+{"song":"s_pn56zr04hv","scope":"c:CO:1940s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_bt26q4xfh6","scope":"c:CO:1940s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_gxc5014tvm","scope":"c:CO:1940s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_71nxwk7cqh","scope":"c:CO:1940s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_x2nb852p8r","scope":"c:CO:1940s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_k81mg971jn","scope":"c:CO:1940s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_ktst18z9n7","scope":"c:CO:1940s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_haqx7jb4y3","scope":"c:CO:1940s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_wab875xx9z","scope":"c:CO:1940s","role":"foreign","scene":"radio","confidence":"h"},
+{"song":"s_3bx6mz3gct","scope":"c:CO:1940s","role":"foreign","scene":"film","confidence":"h"},
+{"song":"s_mrdmx68vk2","scope":"c:CO:1940s","role":"foreign","scene":"ballad","confidence":"m"},
+{"song":"s_wa8j9k777y","scope":"c:CO:1940s","role":"foreign","scene":"radio","confidence":"m"},
+{"song":"s_qrswhx6xkp","scope":"c:CO:1940s","role":"foreign","scene":"dance","confidence":"m"}
+]

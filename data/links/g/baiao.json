@@ -1,0 +1,18 @@
+[
+{"song":"s_f12b0ae8yx","scope":"g:baiao","role":"intro"},
+{"song":"s_1fajyr8c67","scope":"g:baiao","role":"intro"},
+{"song":"s_wpjfqbc0pm","scope":"g:baiao","role":"intro"},
+{"song":"s_qh97gzd4dx","scope":"g:baiao","role":"peak"},
+{"song":"s_e1kr12hbmw","scope":"g:baiao","role":"peak"},
+{"song":"s_q3r24rzrsa","scope":"g:baiao","role":"peak"},
+{"song":"s_kmmb80tdmz","scope":"g:baiao","role":"peak"},
+{"song":"s_bnmrf5tt6b","scope":"g:baiao","role":"peak"},
+{"song":"s_xf1gtmxqag","scope":"g:baiao","role":"peak"},
+{"song":"s_y50vkfncw2","scope":"g:baiao","role":"peak"},
+{"song":"s_8b53fd130w","scope":"g:baiao","role":"peak"},
+{"song":"s_rc4910qvtf","scope":"g:baiao","role":"peak"},
+{"song":"s_79zvx0hdtq","scope":"g:baiao","role":"peak"},
+{"song":"s_1fajyr8c67","scope":"g:baiao","role":"reference"},
+{"song":"s_kmmb80tdmz","scope":"g:baiao","role":"reference"},
+{"song":"s_pgwzqwtwp2","scope":"g:baiao","role":"near miss","belongs_to":"sertanejo","reason":"Has accordion, but it is sertanejo pop from the Centre-South"}
+]

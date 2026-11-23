@@ -1,0 +1,21 @@
+[
+{"song":"s_p72bvsxa19","scope":"g:electropop","role":"intro"},
+{"song":"s_3szdwpgzms","scope":"g:electropop","role":"intro"},
+{"song":"s_1pdyfrrrwv","scope":"g:electropop","role":"intro"},
+{"song":"s_dnd22t26ga","scope":"g:electropop","role":"peak"},
+{"song":"s_k883ps75y3","scope":"g:electropop","role":"peak"},
+{"song":"s_k2xc7qbfpx","scope":"g:electropop","role":"peak"},
+{"song":"s_x64ancwf6a","scope":"g:electropop","role":"peak"},
+{"song":"s_hg9xetkqrf","scope":"g:electropop","role":"peak"},
+{"song":"s_zd4z3agzbh","scope":"g:electropop","role":"peak"},
+{"song":"s_ff88kdtsne","scope":"g:electropop","role":"peak"},
+{"song":"s_2s0h0r2m6w","scope":"g:electropop","role":"peak"},
+{"song":"s_gjp3d9aes0","scope":"g:electropop","role":"peak"},
+{"song":"s_3z35t58mwg","scope":"g:electropop","role":"peak"},
+{"song":"s_wqkw1vn8nt","scope":"g:electropop","role":"peak"},
+{"song":"s_p72bvsxa19","scope":"g:electropop","role":"reference"},
+{"song":"s_3szdwpgzms","scope":"g:electropop","role":"reference"},
+{"song":"s_k2xc7qbfpx","scope":"g:electropop","role":"reference"},
+{"song":"s_x64ancwf6a","scope":"g:electropop","role":"reference"},
+{"song":"s_p11thkh2be","scope":"g:electropop","role":"near miss","belongs_to":"edmpop","reason":"Built around a festival build and drop"}
+]

@@ -1,0 +1,17 @@
+[
+{"song":"s_42a6y0vj4p","scope":"g:musette","role":"intro"},
+{"song":"s_05bvyp9qzd","scope":"g:musette","role":"intro"},
+{"song":"s_bag2neq3th","scope":"g:musette","role":"intro"},
+{"song":"s_21tewtzzwp","scope":"g:musette","role":"peak"},
+{"song":"s_yb6t08822w","scope":"g:musette","role":"peak"},
+{"song":"s_bqc6r459vg","scope":"g:musette","role":"peak"},
+{"song":"s_g7kbcyw07e","scope":"g:musette","role":"peak"},
+{"song":"s_nsgjp5xxda","scope":"g:musette","role":"peak"},
+{"song":"s_yb6t08822w","scope":"g:musette","role":"reference"},
+{"song":"s_05bvyp9qzd","scope":"g:musette","role":"reference"},
+{"song":"s_42a6y0vj4p","scope":"g:musette","role":"reference"},
+{"song":"s_73772786xa","scope":"g:musette","role":"near miss","belongs_to":"chanson","reason":"A sung chanson réaliste riding a musette java"},
+{"song":"s_g2xzmqnqpx","scope":"g:musette","role":"near miss","belongs_to":"gypsyjazz","reason":"Guitar-led jazz improvisation, not dance-hall waltzes"},
+{"release":"r_90361bydge","scope":"g:musette","role":"album"},
+{"release":"r_fembjx4y3f","scope":"g:musette","role":"album"}
+]

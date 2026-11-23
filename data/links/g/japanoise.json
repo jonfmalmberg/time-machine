@@ -1,0 +1,12 @@
+[
+{"song":"s_qvfvgbct90","scope":"g:japanoise","role":"intro","released":1982},
+{"song":"s_gc5kvxd4bs","scope":"g:japanoise","role":"peak"},
+{"song":"s_es71apmbzn","scope":"g:japanoise","role":"peak"},
+{"song":"s_a2ab7dxaq4","scope":"g:japanoise","role":"peak"},
+{"song":"s_7v2xshp9cw","scope":"g:japanoise","role":"peak"},
+{"song":"s_qvfvgbct90","scope":"g:japanoise","role":"reference","released":1980},
+{"song":"s_gc5kvxd4bs","scope":"g:japanoise","role":"reference"},
+{"release":"r_a0811h58n9","scope":"g:japanoise","role":"album"},
+{"release":"r_7rc2thrb4g","scope":"g:japanoise","role":"album"},
+{"release":"r_a5cfg60kr6","scope":"g:japanoise","role":"album"}
+]

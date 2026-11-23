@@ -1,0 +1,19 @@
+[
+{"song":"s_kt5smtvrw3","scope":"g:afrobeat","role":"intro"},
+{"song":"s_k1a1zyy9e0","scope":"g:afrobeat","role":"intro"},
+{"song":"s_21a4ycj63q","scope":"g:afrobeat","role":"intro"},
+{"song":"s_4etdex2q7e","scope":"g:afrobeat","role":"peak"},
+{"song":"s_wz6xea63rd","scope":"g:afrobeat","role":"peak"},
+{"song":"s_c3k2k7s76b","scope":"g:afrobeat","role":"peak"},
+{"song":"s_eq3fqra3e7","scope":"g:afrobeat","role":"peak"},
+{"song":"s_em973htcm9","scope":"g:afrobeat","role":"peak"},
+{"song":"s_t04cherty7","scope":"g:afrobeat","role":"peak"},
+{"song":"s_75b4y2jvbm","scope":"g:afrobeat","role":"peak"},
+{"song":"s_gfjxptg8ee","scope":"g:afrobeat","role":"peak"},
+{"song":"s_45fexn50my","scope":"g:afrobeat","role":"peak"},
+{"song":"s_xxnh7h1yzc","scope":"g:afrobeat","role":"peak"},
+{"song":"s_4etdex2q7e","scope":"g:afrobeat","role":"reference"},
+{"song":"s_c3k2k7s76b","scope":"g:afrobeat","role":"reference"},
+{"song":"s_em973htcm9","scope":"g:afrobeat","role":"reference"},
+{"song":"s_6j4gnxraah","scope":"g:afrobeat","role":"near miss","belongs_to":"afrobeats","reason":"Nigerian and Fela-inspired, but short pop song with programmed beat"}
+]

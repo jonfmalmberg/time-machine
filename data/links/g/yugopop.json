@@ -1,0 +1,21 @@
+[
+{"song":"s_sya22hv0vt","scope":"g:yugopop","role":"intro"},
+{"song":"s_g4zvjegwqf","scope":"g:yugopop","role":"intro"},
+{"song":"s_jr5vdnsnkk","scope":"g:yugopop","role":"intro"},
+{"song":"s_hat8wd9gda","scope":"g:yugopop","role":"peak"},
+{"song":"s_btsqjdrvgm","scope":"g:yugopop","role":"peak"},
+{"song":"s_55qq4qnc9q","scope":"g:yugopop","role":"peak"},
+{"song":"s_8ajtnzg8h9","scope":"g:yugopop","role":"peak"},
+{"song":"s_khxmmw497k","scope":"g:yugopop","role":"peak"},
+{"song":"s_xksk3z2bt8","scope":"g:yugopop","role":"peak"},
+{"song":"s_6rfgg0c9r6","scope":"g:yugopop","role":"peak"},
+{"song":"s_pe0v3hmnjq","scope":"g:yugopop","role":"peak"},
+{"song":"s_yfcdjpwjhb","scope":"g:yugopop","role":"peak"},
+{"song":"s_g175s55tq6","scope":"g:yugopop","role":"peak"},
+{"song":"s_hat8wd9gda","scope":"g:yugopop","role":"reference"},
+{"song":"s_jr5vdnsnkk","scope":"g:yugopop","role":"reference"},
+{"song":"s_sya22hv0vt","scope":"g:yugopop","role":"reference"},
+{"song":"s_g175s55tq6","scope":"g:yugopop","role":"reference"},
+{"song":"s_46v4qxe3je","scope":"g:yugopop","role":"near miss","belongs_to":"postpunk","reason":"Zagreb new wave guitar band, not festival pop"},
+{"song":"s_2131ahz62m","scope":"g:yugopop","role":"near miss","belongs_to":"novokomp","reason":"Newly composed folk with accordion and folk vocal ornament"}
+]

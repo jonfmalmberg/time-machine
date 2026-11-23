@@ -1,0 +1,12 @@
+[
+{"song":"s_61vr25h4wc","scope":"g:zouk","role":"intro"},
+{"song":"s_3sy89afn10","scope":"g:zouk","role":"peak"},
+{"song":"s_rf9be4rqec","scope":"g:zouk","role":"peak"},
+{"song":"s_d7e205bpwv","scope":"g:zouk","role":"peak"},
+{"song":"s_fa4ncbrwy6","scope":"g:zouk","role":"peak"},
+{"song":"s_61vr25h4wc","scope":"g:zouk","role":"reference"},
+{"song":"s_d7e205bpwv","scope":"g:zouk","role":"reference"},
+{"song":"s_n3g6tntt63","scope":"g:zouk","role":"near miss","belongs_to":"kompa","reason":"Haitian kompa: live band, smoother mid-tempo groove"},
+{"release":"r_324qr42h4d","scope":"g:zouk","role":"album"},
+{"release":"r_8pkk96sfs5","scope":"g:zouk","role":"album"}
+]

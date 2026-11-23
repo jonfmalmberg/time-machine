@@ -1,0 +1,21 @@
+[
+{"song":"s_y888yd0v12","scope":"g:zarzuela","role":"intro"},
+{"song":"s_m78h32t2q7","scope":"g:zarzuela","role":"intro"},
+{"song":"s_2ybvnxbatf","scope":"g:zarzuela","role":"intro"},
+{"song":"s_jmqx5tvyzn","scope":"g:zarzuela","role":"peak"},
+{"song":"s_7cdysqg81v","scope":"g:zarzuela","role":"peak"},
+{"song":"s_r75020cf3e","scope":"g:zarzuela","role":"peak"},
+{"song":"s_bkj2fwxcyd","scope":"g:zarzuela","role":"peak"},
+{"song":"s_1h29d0x1rr","scope":"g:zarzuela","role":"peak"},
+{"song":"s_f1qn1de1hf","scope":"g:zarzuela","role":"peak"},
+{"song":"s_4s1hwtcy3r","scope":"g:zarzuela","role":"peak"},
+{"song":"s_x405p9sj3w","scope":"g:zarzuela","role":"peak"},
+{"song":"s_ap0yty5tyt","scope":"g:zarzuela","role":"peak"},
+{"song":"s_6q4m110x8z","scope":"g:zarzuela","role":"peak"},
+{"song":"s_y888yd0v12","scope":"g:zarzuela","role":"reference"},
+{"song":"s_2ybvnxbatf","scope":"g:zarzuela","role":"reference"},
+{"song":"s_kndp0v1paf","scope":"g:zarzuela","role":"reference"},
+{"song":"s_q2ztz4hqs9","scope":"g:zarzuela","role":"near miss","belongs_to":"opera","reason":"French opera on a Spanish subject, sung throughout"},
+{"release":"r_0s3jh3smms","scope":"g:zarzuela","role":"album"},
+{"release":"r_08662e8qs9","scope":"g:zarzuela","role":"album"}
+]

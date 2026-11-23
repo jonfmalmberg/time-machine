@@ -1,20 +1,19 @@
 #!/usr/bin/env python3
-"""Build the site: src/template.html + src/mods/* + data/*.json -> dist/index.html
+"""Build the site: src/template.html + src/mods/* + data/ -> dist/index.html
 
 No dependencies beyond the Python standard library. Run: python3 build.py
+The page still reads the data shape of 23 November 2026; tools/legacy_data.py makes it from the
+data model's files (docs/proposals/2026-11-23-schema.md).
 """
-import glob, json, os
+import glob, json, os, sys
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(ROOT, 'src')
 DATA = os.path.join(ROOT, 'data')
 OUT = os.path.join(ROOT, 'dist')
 
-# Order of the keys in the page's DATA object. One file per key in data/.
-KEYS = ['tests', 'era', 'yearl', 'ysrc', 'langs', 'isoLang', 'cityLang', 'st', 'cnt', 'iso',
-        'neAlias', 'cities', 'regions', 'bands', 'nodes', 'layout', 'scores',
-        'playlists', 'known', 'done', 'indoc', 'edges', 'tier', 'trad', 'tradOf',
-        'ends', 'defs', 'notes', 'method']
+sys.path.insert(0, os.path.join(ROOT, 'tools'))
+from legacy_data import legacy_data
 
 HEAD = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
@@ -29,7 +28,7 @@ def read(path):
 
 
 def main():
-    data = {k: json.loads(read(os.path.join(DATA, k + '.json'))) for k in KEYS}
+    data = legacy_data(DATA)
 
     # Modules are added in file-name order. Each script module runs in its own
     # function so a fault in one module cannot stop the others.

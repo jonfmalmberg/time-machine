@@ -1,0 +1,21 @@
+[
+{"song":"s_s3vr2z6a42","scope":"g:celticfolk","role":"intro"},
+{"song":"s_t7rzpm7y9d","scope":"g:celticfolk","role":"intro"},
+{"song":"s_aqxez2k767","scope":"g:celticfolk","role":"intro"},
+{"song":"s_gezrphby11","scope":"g:celticfolk","role":"peak"},
+{"song":"s_z4tq40d62e","scope":"g:celticfolk","role":"peak"},
+{"song":"s_20tnvngteb","scope":"g:celticfolk","role":"peak"},
+{"song":"s_53yyk5ghtb","scope":"g:celticfolk","role":"peak"},
+{"song":"s_6jb4w50zh4","scope":"g:celticfolk","role":"peak"},
+{"song":"s_rd6ae0y4jm","scope":"g:celticfolk","role":"peak"},
+{"song":"s_0f4e9kfm1c","scope":"g:celticfolk","role":"peak"},
+{"song":"s_75yjr3hrjb","scope":"g:celticfolk","role":"peak"},
+{"song":"s_3r5p7yevjy","scope":"g:celticfolk","role":"peak"},
+{"song":"s_jarefhkafv","scope":"g:celticfolk","role":"peak"},
+{"song":"s_m56zmk1mvh","scope":"g:celticfolk","role":"peak"},
+{"song":"s_gqsah29wg7","scope":"g:celticfolk","role":"peak"},
+{"song":"s_0f4e9kfm1c","scope":"g:celticfolk","role":"reference"},
+{"song":"s_25xf8mdvny","scope":"g:celticfolk","role":"reference"},
+{"song":"s_n7ybd25v6h","scope":"g:celticfolk","role":"near miss","belongs_to":"folkrev","reason":"Same ballad, rearranged as a soft studio duet with a new countermelody"},
+{"song":"s_3r5p7yevjy","scope":"g:celticfolk","role":"near miss","belongs_to":"folkrev","reason":"Traditional ballad played by an electric rock band"}
+]

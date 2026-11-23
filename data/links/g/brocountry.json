@@ -1,0 +1,20 @@
+[
+{"song":"s_4j5stpda53","scope":"g:brocountry","role":"intro","released":2010},
+{"song":"s_9v0dka6acs","scope":"g:brocountry","role":"intro"},
+{"song":"s_9mtp3sn7xx","scope":"g:brocountry","role":"intro"},
+{"song":"s_0hga00k1az","scope":"g:brocountry","role":"peak"},
+{"song":"s_ks3ggg734q","scope":"g:brocountry","role":"peak"},
+{"song":"s_t337emyjcg","scope":"g:brocountry","role":"peak"},
+{"song":"s_m96ez2bezz","scope":"g:brocountry","role":"peak"},
+{"song":"s_c9tww7dfnv","scope":"g:brocountry","role":"peak"},
+{"song":"s_wfphdd51aw","scope":"g:brocountry","role":"peak"},
+{"song":"s_pfatq9rk34","scope":"g:brocountry","role":"peak"},
+{"song":"s_b64yg7m5vb","scope":"g:brocountry","role":"peak"},
+{"song":"s_pkv4pqgjzz","scope":"g:brocountry","role":"peak"},
+{"song":"s_aepawjq9y9","scope":"g:brocountry","role":"peak"},
+{"song":"s_n28zk0envt","scope":"g:brocountry","role":"peak"},
+{"song":"s_4j5stpda53","scope":"g:brocountry","role":"reference","released":2011},
+{"song":"s_9v0dka6acs","scope":"g:brocountry","role":"reference"},
+{"song":"s_9mtp3sn7xx","scope":"g:brocountry","role":"reference"},
+{"song":"s_vharxw664s","scope":"g:brocountry","role":"near miss","belongs_to":"countrypop","reason":"Storytelling country-pop, no hip hop rhythm"}
+]

@@ -1,0 +1,20 @@
+[
+{"song":"s_0bha5etgpx","scope":"g:estrada","role":"intro"},
+{"song":"s_d5ag9sfdsn","scope":"g:estrada","role":"intro"},
+{"song":"s_77ebxgk0v4","scope":"g:estrada","role":"intro"},
+{"song":"s_jv2ffk1ghz","scope":"g:estrada","role":"peak"},
+{"song":"s_6vjjrc5cgb","scope":"g:estrada","role":"peak"},
+{"song":"s_5x040jkkrz","scope":"g:estrada","role":"peak"},
+{"song":"s_ds6sjm1s4f","scope":"g:estrada","role":"peak"},
+{"song":"s_tgvtmh7j0k","scope":"g:estrada","role":"peak"},
+{"song":"s_76bkhtqkc3","scope":"g:estrada","role":"peak"},
+{"song":"s_yx1zgmg8xv","scope":"g:estrada","role":"peak"},
+{"song":"s_q80hrhj866","scope":"g:estrada","role":"peak"},
+{"song":"s_7kyzes27da","scope":"g:estrada","role":"peak"},
+{"song":"s_xyeqwbzqqt","scope":"g:estrada","role":"peak"},
+{"song":"s_d5ag9sfdsn","scope":"g:estrada","role":"reference"},
+{"song":"s_77ebxgk0v4","scope":"g:estrada","role":"reference"},
+{"song":"s_76bkhtqkc3","scope":"g:estrada","role":"reference"},
+{"song":"s_0bha5etgpx","scope":"g:estrada","role":"reference"},
+{"song":"s_vxtr4jm6y7","scope":"g:estrada","role":"near miss","belongs_to":"bard","reason":"One voice and guitar, outside the official stage"}
+]

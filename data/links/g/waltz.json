@@ -1,0 +1,18 @@
+[
+{"song":"s_rt2wzad827","scope":"g:waltz","role":"intro"},
+{"song":"s_mscvspzxc5","scope":"g:waltz","role":"intro"},
+{"song":"s_n760xdtgxj","scope":"g:waltz","role":"intro"},
+{"song":"s_jqd08y30kn","scope":"g:waltz","role":"peak"},
+{"song":"s_51s1jzhdds","scope":"g:waltz","role":"peak"},
+{"song":"s_qzm4xe12yq","scope":"g:waltz","role":"peak"},
+{"song":"s_mzm4mmat6a","scope":"g:waltz","role":"peak"},
+{"song":"s_mxcehpg8d0","scope":"g:waltz","role":"peak"},
+{"song":"s_tqvpznma2j","scope":"g:waltz","role":"peak"},
+{"song":"s_dv6n8f6x6r","scope":"g:waltz","role":"peak"},
+{"song":"s_vd5ajc1hys","scope":"g:waltz","role":"peak"},
+{"song":"s_2rqa112fmv","scope":"g:waltz","role":"peak"},
+{"song":"s_2za8s3rb3s","scope":"g:waltz","role":"peak"},
+{"song":"s_arqv0p6vv1","scope":"g:waltz","role":"reference"},
+{"song":"s_84gnp8jbk1","scope":"g:waltz","role":"reference"},
+{"song":"s_zzgymxpx14","scope":"g:waltz","role":"near miss","belongs_to":"romantic","reason":"Waltz rhythm, but a solo piano concert piece for listening, not dancing"}
+]

@@ -1,0 +1,12 @@
+[
+{"song":"s_mq1wg8wmqx","scope":"g:timba","role":"intro"},
+{"song":"s_b78g5fw83j","scope":"g:timba","role":"peak"},
+{"song":"s_z4rbz4rk52","scope":"g:timba","role":"peak"},
+{"song":"s_4qhpw9k39v","scope":"g:timba","role":"peak"},
+{"song":"s_n8z80v294q","scope":"g:timba","role":"peak"},
+{"song":"s_z4rbz4rk52","scope":"g:timba","role":"reference"},
+{"song":"s_4qhpw9k39v","scope":"g:timba","role":"reference"},
+{"song":"s_6b6vk5h3vf","scope":"g:timba","role":"near miss","belongs_to":"salsa","reason":"Steady New York salsa, no funk bass or gear changes"},
+{"release":"r_dqr4ar1c3x","scope":"g:timba","role":"album"},
+{"release":"r_mgwvstesz9","scope":"g:timba","role":"album"}
+]

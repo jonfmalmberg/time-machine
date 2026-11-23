@@ -1,0 +1,19 @@
+[
+{"song":"s_4jgp3h99q6","scope":"g:tumbados","role":"intro"},
+{"song":"s_6d21fb9hsd","scope":"g:tumbados","role":"intro"},
+{"song":"s_dvtnm7189p","scope":"g:tumbados","role":"intro"},
+{"song":"s_jsyjgeaymj","scope":"g:tumbados","role":"peak"},
+{"song":"s_9mqnhpx965","scope":"g:tumbados","role":"peak"},
+{"song":"s_4dymn13tfr","scope":"g:tumbados","role":"peak"},
+{"song":"s_g3q83dy3k5","scope":"g:tumbados","role":"peak"},
+{"song":"s_kk1abqhbf7","scope":"g:tumbados","role":"peak"},
+{"song":"s_c875t5hmqq","scope":"g:tumbados","role":"peak"},
+{"song":"s_pzx0n9yn9e","scope":"g:tumbados","role":"peak"},
+{"song":"s_wjyymg68ej","scope":"g:tumbados","role":"peak"},
+{"song":"s_kq9634q0ea","scope":"g:tumbados","role":"peak","released":2024},
+{"song":"s_t87dh4ykgc","scope":"g:tumbados","role":"peak"},
+{"song":"s_dvtnm7189p","scope":"g:tumbados","role":"reference"},
+{"song":"s_4dymn13tfr","scope":"g:tumbados","role":"reference"},
+{"song":"s_kk1abqhbf7","scope":"g:tumbados","role":"reference"},
+{"song":"s_yaan9c805v","scope":"g:tumbados","role":"near miss","belongs_to":"corrido","reason":"Narco corrido, but accordion norteño and a traditional vocal style"}
+]

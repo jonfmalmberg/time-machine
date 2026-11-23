@@ -1,0 +1,17 @@
+[
+{"song":"s_9j360mbgzt","scope":"c:GR:1960s","role":"home","scene":"film","confidence":"h"},
+{"song":"s_1byqp8js1s","scope":"c:GR:1960s","role":"home","scene":"radio","confidence":"h"},
+{"song":"s_by5w9jv7pa","scope":"c:GR:1960s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_gmqdt8hnpr","scope":"c:GR:1960s","role":"home","scene":"film","confidence":"h"},
+{"song":"s_v4pbgtvdgw","scope":"c:GR:1960s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_hse3bdm0re","scope":"c:GR:1960s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_dg53tn6my8","scope":"c:GR:1960s","role":"home","scene":"film","confidence":"m"},
+{"song":"s_vf5nd657mp","scope":"c:GR:1960s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_a1grtd2dmm","scope":"c:GR:1960s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_cxr7t20gy1","scope":"c:GR:1960s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_qjs8e7dhh3","scope":"c:GR:1960s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_2mbfcemwa0","scope":"c:GR:1960s","role":"foreign","scene":"pop","confidence":"m"},
+{"song":"s_hkjdakb121","scope":"c:GR:1960s","role":"foreign","scene":"pop","confidence":"m"},
+{"song":"s_bpdk1g6mmd","scope":"c:GR:1960s","role":"foreign","scene":"pop","confidence":"m"},
+{"song":"s_6p3vrsjtwe","scope":"c:GR:1960s","role":"foreign","scene":"pop","confidence":"m"}
+]

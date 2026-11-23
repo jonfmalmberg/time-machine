@@ -1,0 +1,23 @@
+[
+{"song":"s_d4am8w43sj","scope":"g:discopolo","role":"intro"},
+{"song":"s_gawj31yncd","scope":"g:discopolo","role":"intro"},
+{"song":"s_5y7yj9ahdb","scope":"g:discopolo","role":"intro","released":2014},
+{"song":"s_ft1skqd87e","scope":"g:discopolo","role":"peak"},
+{"song":"s_bqefqgy403","scope":"g:discopolo","role":"peak"},
+{"song":"s_9fwzby71rg","scope":"g:discopolo","role":"peak"},
+{"song":"s_2rmyhagspq","scope":"g:discopolo","role":"peak"},
+{"song":"s_f1md3rp867","scope":"g:discopolo","role":"peak"},
+{"song":"s_7mtd4khnkh","scope":"g:discopolo","role":"peak"},
+{"song":"s_t00w37ywx2","scope":"g:discopolo","role":"peak"},
+{"song":"s_t08hybmw3p","scope":"g:discopolo","role":"peak"},
+{"song":"s_bvyjh6bvqg","scope":"g:discopolo","role":"peak"},
+{"song":"s_70pxcgdn4y","scope":"g:discopolo","role":"peak"},
+{"song":"s_3q3cq2njyd","scope":"g:discopolo","role":"peak"},
+{"song":"s_tksyqbc2zz","scope":"g:discopolo","role":"peak"},
+{"song":"s_ft1skqd87e","scope":"g:discopolo","role":"reference"},
+{"song":"s_2rmyhagspq","scope":"g:discopolo","role":"reference"},
+{"song":"s_d4am8w43sj","scope":"g:discopolo","role":"reference"},
+{"song":"s_gawj31yncd","scope":"g:discopolo","role":"reference"},
+{"song":"s_2f85zc4qrw","scope":"g:discopolo","role":"near miss","belongs_to":"italodisco","reason":"Italian studio disco in English, the model for the name"},
+{"song":"s_1w5qe5ap7k","scope":"g:discopolo","role":"near miss","belongs_to":"eurodance","reason":"Rave-tempo club track with no wedding-band melody"}
+]

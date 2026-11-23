@@ -1,0 +1,12 @@
+[
+{"song":"s_n221xjbjf7","scope":"g:kompa","role":"intro"},
+{"song":"s_n3g6tntt63","scope":"g:kompa","role":"peak"},
+{"song":"s_04m0vkqx3h","scope":"g:kompa","role":"peak"},
+{"song":"s_dcr2h5ww7k","scope":"g:kompa","role":"peak"},
+{"song":"s_xs8xp3zh4t","scope":"g:kompa","role":"peak","released":1989},
+{"song":"s_n3g6tntt63","scope":"g:kompa","role":"reference"},
+{"song":"s_xs8xp3zh4t","scope":"g:kompa","role":"reference","released":1983},
+{"song":"s_d7e205bpwv","scope":"g:kompa","role":"near miss","belongs_to":"zouk","reason":"Faster, synth-heavy Antillean zouk with a pounding drum machine"},
+{"release":"r_h21jjs6a5r","scope":"g:kompa","role":"album"},
+{"release":"r_gav0q8xn4z","scope":"g:kompa","role":"album"}
+]

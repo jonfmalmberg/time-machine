@@ -1,0 +1,19 @@
+[
+{"song":"s_8htyqb5rjf","scope":"g:miamibass","role":"intro"},
+{"song":"s_ghnth59ad7","scope":"g:miamibass","role":"intro"},
+{"song":"s_n8bgvz9wkh","scope":"g:miamibass","role":"intro"},
+{"song":"s_s7chpze9c6","scope":"g:miamibass","role":"peak"},
+{"song":"s_cjer693vy8","scope":"g:miamibass","role":"peak"},
+{"song":"s_t1b8mbe79y","scope":"g:miamibass","role":"peak"},
+{"song":"s_5gc8mtke5z","scope":"g:miamibass","role":"peak"},
+{"song":"s_9keczc9vdd","scope":"g:miamibass","role":"peak"},
+{"song":"s_1b2d2j122s","scope":"g:miamibass","role":"peak"},
+{"song":"s_aykc6bqztb","scope":"g:miamibass","role":"peak"},
+{"song":"s_djq736bqrg","scope":"g:miamibass","role":"peak"},
+{"song":"s_h52hgwycz1","scope":"g:miamibass","role":"peak"},
+{"song":"s_9s6gvzyy59","scope":"g:miamibass","role":"peak"},
+{"song":"s_cjer693vy8","scope":"g:miamibass","role":"reference"},
+{"song":"s_t1b8mbe79y","scope":"g:miamibass","role":"reference"},
+{"song":"s_9s6gvzyy59","scope":"g:miamibass","role":"reference"},
+{"song":"s_ks7j9kdg1m","scope":"g:miamibass","role":"near miss","belongs_to":"electro","reason":"Robotic synth melodies and vocoder, less bass weight"}
+]

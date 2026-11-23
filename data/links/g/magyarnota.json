@@ -1,0 +1,9 @@
+[
+{"song":"s_s06ht3bj5y","scope":"g:magyarnota","role":"intro"},
+{"song":"s_8pvfm2ggvn","scope":"g:magyarnota","role":"intro"},
+{"song":"s_mxtpyh9j0t","scope":"g:magyarnota","role":"intro"},
+{"song":"s_s06ht3bj5y","scope":"g:magyarnota","role":"reference"},
+{"song":"s_8pvfm2ggvn","scope":"g:magyarnota","role":"reference"},
+{"song":"s_mxtpyh9j0t","scope":"g:magyarnota","role":"reference"},
+{"song":"s_cmd3cm2mm8","scope":"g:magyarnota","role":"near miss","belongs_to":"romantic","reason":"Concert-hall arrangement of a nóta-style csárdás tune"}
+]

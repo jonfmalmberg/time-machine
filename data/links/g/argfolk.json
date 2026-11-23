@@ -1,0 +1,18 @@
+[
+{"song":"s_bb6syhq2rm","scope":"g:argfolk","role":"intro"},
+{"song":"s_wjg6g02kyf","scope":"g:argfolk","role":"intro"},
+{"song":"s_rc0rvphfjb","scope":"g:argfolk","role":"intro"},
+{"song":"s_02c87s2j8k","scope":"g:argfolk","role":"peak"},
+{"song":"s_3wgb34ewbr","scope":"g:argfolk","role":"peak"},
+{"song":"s_2b6f20chwx","scope":"g:argfolk","role":"peak"},
+{"song":"s_75z54q9r43","scope":"g:argfolk","role":"peak"},
+{"song":"s_9ncqdmv3ad","scope":"g:argfolk","role":"peak"},
+{"song":"s_yakff75a62","scope":"g:argfolk","role":"peak"},
+{"song":"s_s1ckndjp2v","scope":"g:argfolk","role":"peak"},
+{"song":"s_x5qwaw7kgr","scope":"g:argfolk","role":"peak"},
+{"song":"s_69kny4v3rh","scope":"g:argfolk","role":"peak"},
+{"song":"s_36r6ct7h9a","scope":"g:argfolk","role":"peak"},
+{"song":"s_2b6f20chwx","scope":"g:argfolk","role":"reference"},
+{"song":"s_75z54q9r43","scope":"g:argfolk","role":"reference"},
+{"song":"s_q0fdbkhg5y","scope":"g:argfolk","role":"near miss","belongs_to":"nuevacancion","reason":"Same singer, but a Violeta Parra protest-era song"}
+]

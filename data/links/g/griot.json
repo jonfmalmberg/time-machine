@@ -1,0 +1,14 @@
+[
+{"song":"s_dsabagnwtk","scope":"g:griot","role":"peak"},
+{"song":"s_rr0pf0m640","scope":"g:griot","role":"peak"},
+{"song":"s_gafjw6j797","scope":"g:griot","role":"peak"},
+{"song":"s_0553xmqcce","scope":"g:griot","role":"peak"},
+{"song":"s_j4dzscsckj","scope":"g:griot","role":"peak"},
+{"song":"s_rqdt39t47r","scope":"g:griot","role":"peak"},
+{"song":"s_dsabagnwtk","scope":"g:griot","role":"reference"},
+{"song":"s_ercer1xzk4","scope":"g:griot","role":"reference"},
+{"song":"s_rb79tahygg","scope":"g:griot","role":"near miss","belongs_to":"desertblues","reason":"Malian, but guitar-led and blues-like, not kora praise song"},
+{"release":"r_b1z3q78sve","scope":"g:griot","role":"album"},
+{"release":"r_n3a67j7wmt","scope":"g:griot","role":"album"},
+{"release":"r_exeza7t6na","scope":"g:griot","role":"album"}
+]

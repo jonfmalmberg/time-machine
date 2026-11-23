@@ -1,0 +1,22 @@
+[
+{"song":"s_4jt2yv36qf","scope":"g:chanson","role":"intro"},
+{"song":"s_wzfm0pk9pn","scope":"g:chanson","role":"intro"},
+{"song":"s_2f77b4mrcz","scope":"g:chanson","role":"intro"},
+{"song":"s_fnfr75p712","scope":"g:chanson","role":"peak"},
+{"song":"s_wvs1ph8j35","scope":"g:chanson","role":"peak"},
+{"song":"s_tbagrv9aap","scope":"g:chanson","role":"peak"},
+{"song":"s_cv9229vrs7","scope":"g:chanson","role":"peak"},
+{"song":"s_kgwa78a3q1","scope":"g:chanson","role":"peak"},
+{"song":"s_zxbrj5xrfx","scope":"g:chanson","role":"peak"},
+{"song":"s_3jqpbntrne","scope":"g:chanson","role":"peak"},
+{"song":"s_j6y8kkajj8","scope":"g:chanson","role":"peak"},
+{"song":"s_tb5563wreq","scope":"g:chanson","role":"peak"},
+{"song":"s_pxqr5wcybs","scope":"g:chanson","role":"peak"},
+{"song":"s_6f13fx09yp","scope":"g:chanson","role":"peak"},
+{"song":"s_kjjq7yb1mb","scope":"g:chanson","role":"peak"},
+{"song":"s_fnfr75p712","scope":"g:chanson","role":"reference"},
+{"song":"s_wvs1ph8j35","scope":"g:chanson","role":"reference"},
+{"song":"s_zxbrj5xrfx","scope":"g:chanson","role":"reference"},
+{"song":"s_3jqpbntrne","scope":"g:chanson","role":"reference"},
+{"song":"s_pp74h7r41t","scope":"g:chanson","role":"near miss","belongs_to":"yeye","reason":"Teen beat-pop sung by a young idol, not a lyric-first chanson"}
+]

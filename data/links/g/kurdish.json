@@ -1,0 +1,14 @@
+[
+{"song":"s_n8yjffkmbx","scope":"g:kurdish","role":"peak"},
+{"song":"s_ms51fej7hp","scope":"g:kurdish","role":"peak"},
+{"song":"s_rv0xwzbjgt","scope":"g:kurdish","role":"peak"},
+{"song":"s_5v1wxnqpvw","scope":"g:kurdish","role":"peak"},
+{"song":"s_mt1b9jfwea","scope":"g:kurdish","role":"peak"},
+{"song":"s_n8yjffkmbx","scope":"g:kurdish","role":"reference"},
+{"song":"s_rv0xwzbjgt","scope":"g:kurdish","role":"reference"},
+{"song":"s_5v1wxnqpvw","scope":"g:kurdish","role":"reference"},
+{"song":"s_j408m0cnwx","scope":"g:kurdish","role":"near miss","released":1986,"belongs_to":"arabesk","reason":"Turkish-language arabesk from a Kurdish-born star"},
+{"release":"r_xrmmpx01cv","scope":"g:kurdish","role":"album"},
+{"release":"r_59xd8h8bn7","scope":"g:kurdish","role":"album"},
+{"release":"r_qhaaj0vbrz","scope":"g:kurdish","role":"album"}
+]

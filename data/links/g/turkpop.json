@@ -1,0 +1,21 @@
+[
+{"song":"s_x0ptby37k7","scope":"g:turkpop","role":"intro"},
+{"song":"s_qyefw4rxmd","scope":"g:turkpop","role":"intro"},
+{"song":"s_fqjc82137p","scope":"g:turkpop","role":"intro"},
+{"song":"s_2s1gx6vfr5","scope":"g:turkpop","role":"peak"},
+{"song":"s_592xnfs0vw","scope":"g:turkpop","role":"peak"},
+{"song":"s_5ke99zk7z2","scope":"g:turkpop","role":"peak"},
+{"song":"s_3xavtyzeve","scope":"g:turkpop","role":"peak"},
+{"song":"s_6b6bhn24m7","scope":"g:turkpop","role":"peak"},
+{"song":"s_smp3e739m4","scope":"g:turkpop","role":"peak"},
+{"song":"s_qrdcwwheae","scope":"g:turkpop","role":"peak"},
+{"song":"s_m10g1d80ee","scope":"g:turkpop","role":"peak"},
+{"song":"s_am08p8ggnk","scope":"g:turkpop","role":"peak"},
+{"song":"s_vz8we4w1ag","scope":"g:turkpop","role":"peak"},
+{"song":"s_cn3hzqkf6s","scope":"g:turkpop","role":"peak"},
+{"song":"s_24qrpbmfs5","scope":"g:turkpop","role":"peak","released":2016},
+{"song":"s_fqjc82137p","scope":"g:turkpop","role":"reference"},
+{"song":"s_592xnfs0vw","scope":"g:turkpop","role":"reference"},
+{"song":"s_6b6bhn24m7","scope":"g:turkpop","role":"reference"},
+{"song":"s_vm74dhswx7","scope":"g:turkpop","role":"near miss","released":1973,"belongs_to":"arabesk","reason":"Melancholic, Arab-influenced, string-heavy"}
+]

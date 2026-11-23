@@ -1,0 +1,22 @@
+[
+{"song":"s_dcqbkqgbxe","scope":"g:opm","role":"intro","released":1979},
+{"song":"s_4e5bxxr1am","scope":"g:opm","role":"intro"},
+{"song":"s_mcbb209hdp","scope":"g:opm","role":"intro"},
+{"song":"s_ckj6adfth9","scope":"g:opm","role":"peak"},
+{"song":"s_77ckwxry8z","scope":"g:opm","role":"peak"},
+{"song":"s_ztpcj3schn","scope":"g:opm","role":"peak"},
+{"song":"s_qctw225srx","scope":"g:opm","role":"peak"},
+{"song":"s_pdmv708r5j","scope":"g:opm","role":"peak"},
+{"song":"s_bjq90csmkz","scope":"g:opm","role":"peak"},
+{"song":"s_dqsep3ww06","scope":"g:opm","role":"peak"},
+{"song":"s_x50y04fwrw","scope":"g:opm","role":"peak","released":1997},
+{"song":"s_c06356psd1","scope":"g:opm","role":"peak","released":1999},
+{"song":"s_gw6afhzw46","scope":"g:opm","role":"peak","released":2005},
+{"song":"s_yrvnrq1nba","scope":"g:opm","role":"peak"},
+{"song":"s_vrne3n9d4g","scope":"g:opm","role":"peak"},
+{"song":"s_a64bjpdfkt","scope":"g:opm","role":"peak"},
+{"song":"s_4e5bxxr1am","scope":"g:opm","role":"reference"},
+{"song":"s_ckj6adfth9","scope":"g:opm","role":"reference"},
+{"song":"s_bjq90csmkz","scope":"g:opm","role":"reference"},
+{"song":"s_25r24x69vw","scope":"g:opm","role":"near miss","released":1952,"belongs_to":"kundiman","reason":"Classical art-song ballad, not band pop"}
+]

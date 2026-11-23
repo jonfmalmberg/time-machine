@@ -1,0 +1,20 @@
+[
+{"song":"s_7mn7fhb3va","scope":"g:turkfolk","role":"intro"},
+{"song":"s_t5ejq351fg","scope":"g:turkfolk","role":"intro"},
+{"song":"s_4c4bs8sak1","scope":"g:turkfolk","role":"intro"},
+{"song":"s_e9kt6fmjhf","scope":"g:turkfolk","role":"peak"},
+{"song":"s_4aftzchaxr","scope":"g:turkfolk","role":"peak"},
+{"song":"s_rdbxwzpmw6","scope":"g:turkfolk","role":"peak"},
+{"song":"s_dcteekgwbk","scope":"g:turkfolk","role":"peak"},
+{"song":"s_b6kvfqf5vv","scope":"g:turkfolk","role":"peak"},
+{"song":"s_w5g8wrgszp","scope":"g:turkfolk","role":"peak"},
+{"song":"s_ta4v98nw3h","scope":"g:turkfolk","role":"peak"},
+{"song":"s_zjq73saqsk","scope":"g:turkfolk","role":"peak"},
+{"song":"s_shmv98m60q","scope":"g:turkfolk","role":"peak"},
+{"song":"s_1r1bwgjdkj","scope":"g:turkfolk","role":"peak"},
+{"song":"s_7mn7fhb3va","scope":"g:turkfolk","role":"reference"},
+{"song":"s_t5ejq351fg","scope":"g:turkfolk","role":"reference"},
+{"song":"s_b6kvfqf5vv","scope":"g:turkfolk","role":"reference"},
+{"song":"s_4c4bs8sak1","scope":"g:turkfolk","role":"reference"},
+{"song":"s_7ethr7vg64","scope":"g:turkfolk","role":"near miss","belongs_to":"anatolianpsych","reason":"Folk melody turned into electric rock"}
+]

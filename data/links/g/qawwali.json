@@ -1,0 +1,18 @@
+[
+{"song":"s_x7gd464pez","scope":"g:qawwali","role":"intro"},
+{"song":"s_tvg28qaz45","scope":"g:qawwali","role":"intro"},
+{"song":"s_mmb1tkxzwn","scope":"g:qawwali","role":"intro"},
+{"song":"s_ybhjkz9pa8","scope":"g:qawwali","role":"peak"},
+{"song":"s_zdbake69pw","scope":"g:qawwali","role":"peak"},
+{"song":"s_4re5070vmd","scope":"g:qawwali","role":"peak"},
+{"song":"s_6ag50tnxbj","scope":"g:qawwali","role":"peak"},
+{"song":"s_xx620qbcxp","scope":"g:qawwali","role":"peak"},
+{"song":"s_bh3j7p8rjh","scope":"g:qawwali","role":"peak"},
+{"song":"s_sr4apm04ff","scope":"g:qawwali","role":"peak"},
+{"song":"s_3yq5rctabp","scope":"g:qawwali","role":"peak"},
+{"song":"s_79qa7yw9x9","scope":"g:qawwali","role":"peak"},
+{"song":"s_32xedfj3qn","scope":"g:qawwali","role":"peak"},
+{"song":"s_tqyqhebntv","scope":"g:qawwali","role":"reference"},
+{"song":"s_ynd6ex803a","scope":"g:qawwali","role":"reference"},
+{"song":"s_dkqjdw0b6m","scope":"g:qawwali","role":"near miss","belongs_to":"ghazal","reason":"Urdu poetry too, but a soloist with light accompaniment, no chorus or handclaps"}
+]

@@ -1,0 +1,18 @@
+[
+{"song":"s_0gbjhw2m5j","scope":"g:spirituals","role":"intro"},
+{"song":"s_3skrmq2fc5","scope":"g:spirituals","role":"intro"},
+{"song":"s_8d7q2rbh02","scope":"g:spirituals","role":"intro"},
+{"song":"s_b15eezexsr","scope":"g:spirituals","role":"peak"},
+{"song":"s_49mmmp462c","scope":"g:spirituals","role":"peak"},
+{"song":"s_9d5ba07jh8","scope":"g:spirituals","role":"peak"},
+{"song":"s_bmygbxe2ja","scope":"g:spirituals","role":"peak"},
+{"song":"s_f24tmph6j1","scope":"g:spirituals","role":"peak"},
+{"song":"s_x6jj5vz26e","scope":"g:spirituals","role":"peak"},
+{"song":"s_4c3tbk70tf","scope":"g:spirituals","role":"peak"},
+{"song":"s_2ydnqga5t5","scope":"g:spirituals","role":"peak"},
+{"song":"s_wgtsgf8vmz","scope":"g:spirituals","role":"peak","released":1957,"written":1900},
+{"song":"s_qnbkaxpbfr","scope":"g:spirituals","role":"peak"},
+{"song":"s_x39v56krfe","scope":"g:spirituals","role":"reference"},
+{"song":"s_qnbkaxpbfr","scope":"g:spirituals","role":"reference"},
+{"song":"s_aec6m8hxwy","scope":"g:spirituals","role":"near miss","released":1947,"belongs_to":"gospel","reason":"Composed song with piano and a star soloist, not a communal folk song"}
+]

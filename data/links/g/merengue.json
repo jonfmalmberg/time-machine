@@ -1,0 +1,18 @@
+[
+{"song":"s_fjnkd80hex","scope":"g:merengue","role":"intro"},
+{"song":"s_mw5jx8vs43","scope":"g:merengue","role":"intro"},
+{"song":"s_1hcbjxafx8","scope":"g:merengue","role":"intro"},
+{"song":"s_z3dn2phea0","scope":"g:merengue","role":"peak"},
+{"song":"s_wf71p6fe1d","scope":"g:merengue","role":"peak"},
+{"song":"s_b162k6rjtk","scope":"g:merengue","role":"peak"},
+{"song":"s_07e8r2vw9y","scope":"g:merengue","role":"peak"},
+{"song":"s_m2aaas85m2","scope":"g:merengue","role":"peak"},
+{"song":"s_mpyg6m2y9d","scope":"g:merengue","role":"peak"},
+{"song":"s_bdvzt084xx","scope":"g:merengue","role":"peak"},
+{"song":"s_jrm92baxvy","scope":"g:merengue","role":"peak"},
+{"song":"s_bmm9hpv0b3","scope":"g:merengue","role":"peak"},
+{"song":"s_b7p45dty6x","scope":"g:merengue","role":"peak"},
+{"song":"s_b162k6rjtk","scope":"g:merengue","role":"reference"},
+{"song":"s_b7p45dty6x","scope":"g:merengue","role":"reference"},
+{"song":"s_x85r5bwrw2","scope":"g:merengue","role":"near miss","belongs_to":"bachata","reason":"Slower guitar-led bachata, no tambora drive"}
+]

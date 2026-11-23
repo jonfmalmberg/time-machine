@@ -1,0 +1,16 @@
+[
+{"song":"s_2j21t5vjmn","scope":"g:khaleeji","role":"intro"},
+{"song":"s_8cgg1m8ywg","scope":"g:khaleeji","role":"intro"},
+{"song":"s_q6hef19p9e","scope":"g:khaleeji","role":"intro"},
+{"song":"s_makcxmtkn5","scope":"g:khaleeji","role":"peak"},
+{"song":"s_fxercnxaw5","scope":"g:khaleeji","role":"peak"},
+{"song":"s_nx7ae4f1gz","scope":"g:khaleeji","role":"peak"},
+{"song":"s_3tb5eahh81","scope":"g:khaleeji","role":"peak"},
+{"song":"s_fg273hkvtq","scope":"g:khaleeji","role":"peak"},
+{"song":"s_vnbnr5qztn","scope":"g:khaleeji","role":"peak"},
+{"song":"s_2j21t5vjmn","scope":"g:khaleeji","role":"reference"},
+{"song":"s_8cgg1m8ywg","scope":"g:khaleeji","role":"reference"},
+{"song":"s_3tb5eahh81","scope":"g:khaleeji","role":"reference"},
+{"song":"s_0pxhza21s1","scope":"g:khaleeji","role":"near miss","belongs_to":"arabpop","reason":"A Gulf singer in Egyptian dialect and Cairo pop style"},
+{"release":"r_293rpm0jb0","scope":"g:khaleeji","role":"album"}
+]

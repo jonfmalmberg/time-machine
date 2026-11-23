@@ -1,0 +1,15 @@
+[
+{"song":"s_p7cjvz0rk1","scope":"g:dabke","role":"intro"},
+{"song":"s_yfyqtd55e4","scope":"g:dabke","role":"intro"},
+{"song":"s_302c4hwdxk","scope":"g:dabke","role":"intro"},
+{"song":"s_q0xdt6gara","scope":"g:dabke","role":"peak"},
+{"song":"s_wa36wazz0s","scope":"g:dabke","role":"peak"},
+{"song":"s_ejwrm36w4v","scope":"g:dabke","role":"peak"},
+{"song":"s_2tnq985j4p","scope":"g:dabke","role":"peak"},
+{"song":"s_p7cjvz0rk1","scope":"g:dabke","role":"reference"},
+{"song":"s_wa36wazz0s","scope":"g:dabke","role":"reference"},
+{"song":"s_yfyqtd55e4","scope":"g:dabke","role":"reference"},
+{"song":"s_tf8zgzh3ph","scope":"g:dabke","role":"near miss","belongs_to":"tarab","reason":"Long Cairo art song for listening, not dancing"},
+{"release":"r_89ce7bz394","scope":"g:dabke","role":"album"},
+{"release":"r_re2fyzwmca","scope":"g:dabke","role":"album"}
+]

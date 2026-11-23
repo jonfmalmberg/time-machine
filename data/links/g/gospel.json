@@ -1,0 +1,21 @@
+[
+{"song":"s_ewp8j5sa0f","scope":"g:gospel","role":"intro"},
+{"song":"s_x1a67d05gb","scope":"g:gospel","role":"intro"},
+{"song":"s_kcrav1brvm","scope":"g:gospel","role":"intro"},
+{"song":"s_e7mfej3hfd","scope":"g:gospel","role":"peak","released":1945},
+{"song":"s_aec6m8hxwy","scope":"g:gospel","role":"peak","released":1948},
+{"song":"s_ycrzkj7mm4","scope":"g:gospel","role":"peak"},
+{"song":"s_9kydsq52n7","scope":"g:gospel","role":"peak"},
+{"song":"s_wp222qsvcs","scope":"g:gospel","role":"peak"},
+{"song":"s_0sm7jqbevs","scope":"g:gospel","role":"peak"},
+{"song":"s_3ezdsys8b9","scope":"g:gospel","role":"peak"},
+{"song":"s_hk85ypk1fd","scope":"g:gospel","role":"peak"},
+{"song":"s_83bpp9vhtz","scope":"g:gospel","role":"peak"},
+{"song":"s_tm9sebt0cz","scope":"g:gospel","role":"peak"},
+{"song":"s_53eswepfj9","scope":"g:gospel","role":"peak"},
+{"song":"s_61aacne3mk","scope":"g:gospel","role":"peak"},
+{"song":"s_aec6m8hxwy","scope":"g:gospel","role":"reference","released":1947},
+{"song":"s_535g8yz3e6","scope":"g:gospel","role":"reference"},
+{"song":"s_hk85ypk1fd","scope":"g:gospel","role":"reference"},
+{"song":"s_74fk2s9qxe","scope":"g:gospel","role":"near miss","belongs_to":"soul","reason":"Gospel melody and shouting turned into a secular love song"}
+]

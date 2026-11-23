@@ -1,0 +1,20 @@
+[
+{"song":"s_8w56rdd7ng","scope":"g:fuji","role":"intro"},
+{"song":"s_tfzv4jdz8t","scope":"g:fuji","role":"intro"},
+{"song":"s_btr3qrrakc","scope":"g:fuji","role":"intro"},
+{"song":"s_29e2yt1j37","scope":"g:fuji","role":"peak"},
+{"song":"s_btr3qrrakc","scope":"g:fuji","role":"peak"},
+{"song":"s_nqzxsgdbf8","scope":"g:fuji","role":"peak"},
+{"song":"s_8w56rdd7ng","scope":"g:fuji","role":"peak"},
+{"song":"s_y60bmxxaeg","scope":"g:fuji","role":"peak"},
+{"song":"s_tfzv4jdz8t","scope":"g:fuji","role":"peak"},
+{"song":"s_btr3qrrakc","scope":"g:fuji","role":"reference"},
+{"song":"s_29e2yt1j37","scope":"g:fuji","role":"reference"},
+{"song":"s_8w56rdd7ng","scope":"g:fuji","role":"reference"},
+{"song":"s_g0w5hgfasx","scope":"g:fuji","role":"near miss","belongs_to":"juju","reason":"Guitar-led and Christian-rooted; fuji is drums and voice"},
+{"song":"s_y2q7yvf7pp","scope":"g:fuji","role":"near miss","belongs_to":"afrobeats","reason":"Rap-pop that samples fuji rather than playing it"},
+{"release":"r_brgvqfa34d","scope":"g:fuji","role":"album"},
+{"release":"r_dyvtvnp6g4","scope":"g:fuji","role":"album"},
+{"release":"r_5fq8vpjkd0","scope":"g:fuji","role":"album"},
+{"release":"r_959a1cbxr0","scope":"g:fuji","role":"album"}
+]

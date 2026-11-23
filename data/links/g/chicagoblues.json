@@ -1,0 +1,20 @@
+[
+{"song":"s_kpkk7pv2az","scope":"g:chicagoblues","role":"intro"},
+{"song":"s_8gka2cv3fn","scope":"g:chicagoblues","role":"intro"},
+{"song":"s_y9sfvv7csw","scope":"g:chicagoblues","role":"intro"},
+{"song":"s_h164rhhteh","scope":"g:chicagoblues","role":"peak"},
+{"song":"s_mqcb6ee98a","scope":"g:chicagoblues","role":"peak"},
+{"song":"s_7fmt7y95pm","scope":"g:chicagoblues","role":"peak"},
+{"song":"s_bfyhb21apn","scope":"g:chicagoblues","role":"peak"},
+{"song":"s_7k6t4659p0","scope":"g:chicagoblues","role":"peak"},
+{"song":"s_1yq42bxa6c","scope":"g:chicagoblues","role":"peak"},
+{"song":"s_3tr6nn5jzc","scope":"g:chicagoblues","role":"peak"},
+{"song":"s_wf6y1g01y7","scope":"g:chicagoblues","role":"peak"},
+{"song":"s_r4av7gk170","scope":"g:chicagoblues","role":"peak"},
+{"song":"s_489xx0sr97","scope":"g:chicagoblues","role":"peak"},
+{"song":"s_gqr2ns0bq3","scope":"g:chicagoblues","role":"peak"},
+{"song":"s_y9sfvv7csw","scope":"g:chicagoblues","role":"reference"},
+{"song":"s_h164rhhteh","scope":"g:chicagoblues","role":"reference"},
+{"song":"s_1yq42bxa6c","scope":"g:chicagoblues","role":"reference"},
+{"song":"s_sw16b9wahy","scope":"g:chicagoblues","role":"near miss","released":1936,"belongs_to":"blues","reason":"Solo acoustic, pre-war"}
+]

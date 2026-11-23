@@ -1,0 +1,20 @@
+[
+{"song":"s_xgc0df409p","scope":"g:russianchanson","role":"intro"},
+{"song":"s_kv466p2kav","scope":"g:russianchanson","role":"intro"},
+{"song":"s_vd5mzyaf0d","scope":"g:russianchanson","role":"intro"},
+{"song":"s_vr6x9bvr5w","scope":"g:russianchanson","role":"peak"},
+{"song":"s_wpytqk65zy","scope":"g:russianchanson","role":"peak"},
+{"song":"s_7d34hmr79h","scope":"g:russianchanson","role":"peak"},
+{"song":"s_f5d07ges1t","scope":"g:russianchanson","role":"peak"},
+{"song":"s_d28s9a3v86","scope":"g:russianchanson","role":"peak"},
+{"song":"s_r13jcfz2bd","scope":"g:russianchanson","role":"peak"},
+{"song":"s_jxxnrmsj45","scope":"g:russianchanson","role":"peak"},
+{"song":"s_ga1nmf06r3","scope":"g:russianchanson","role":"peak"},
+{"song":"s_yj51p4pm3p","scope":"g:russianchanson","role":"peak"},
+{"song":"s_rbe8964xbk","scope":"g:russianchanson","role":"peak"},
+{"song":"s_0fp50v6fy1","scope":"g:russianchanson","role":"peak"},
+{"song":"s_xgc0df409p","scope":"g:russianchanson","role":"reference"},
+{"song":"s_kv466p2kav","scope":"g:russianchanson","role":"reference"},
+{"song":"s_f5d07ges1t","scope":"g:russianchanson","role":"reference"},
+{"song":"s_cp5pvp72nm","scope":"g:russianchanson","role":"near miss","belongs_to":"bard","reason":"Intelligentsia poetry, not underworld themes"}
+]

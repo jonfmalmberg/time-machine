@@ -1,0 +1,11 @@
+[
+{"song":"s_7x2z74hdhs","scope":"g:gagaku","role":"peak"},
+{"song":"s_j8ssezzqy1","scope":"g:gagaku","role":"peak","released":1990},
+{"song":"s_adj0yvy9s7","scope":"g:gagaku","role":"peak"},
+{"song":"s_rtn9qajb9w","scope":"g:gagaku","role":"peak"},
+{"song":"s_j3s8mrq1dw","scope":"g:gagaku","role":"peak"},
+{"song":"s_j8ssezzqy1","scope":"g:gagaku","role":"reference","released":1961},
+{"song":"s_refp6fgqfn","scope":"g:gagaku","role":"near miss","belongs_to":"ambient","reason":"Built from gagaku sessions but processed into ambient drone, no court form"},
+{"release":"r_wrh68brh20","scope":"g:gagaku","role":"album"},
+{"release":"r_czpz3tkxgh","scope":"g:gagaku","role":"album"}
+]

@@ -1,0 +1,23 @@
+[
+{"song":"s_fcc04mhza6","scope":"g:glammetal","role":"intro"},
+{"song":"s_ddmk4py2p6","scope":"g:glammetal","role":"intro"},
+{"song":"s_wj4whjg68k","scope":"g:glammetal","role":"intro"},
+{"song":"s_h263zmgvcq","scope":"g:glammetal","role":"peak"},
+{"song":"s_rw3kpf0yde","scope":"g:glammetal","role":"peak"},
+{"song":"s_4txb5nqrc5","scope":"g:glammetal","role":"peak"},
+{"song":"s_yv3fjk8pmy","scope":"g:glammetal","role":"peak"},
+{"song":"s_eskb3evyrw","scope":"g:glammetal","role":"peak"},
+{"song":"s_w9sfddyrr8","scope":"g:glammetal","role":"peak"},
+{"song":"s_cdqkv0zpzr","scope":"g:glammetal","role":"peak"},
+{"song":"s_mzadq46tfh","scope":"g:glammetal","role":"peak"},
+{"song":"s_v81wwf8dqz","scope":"g:glammetal","role":"peak"},
+{"song":"s_345he7xrvc","scope":"g:glammetal","role":"peak"},
+{"song":"s_6gv8axbzyp","scope":"g:glammetal","role":"peak"},
+{"song":"s_1e8h634f4x","scope":"g:glammetal","role":"peak"},
+{"song":"s_rw3kpf0yde","scope":"g:glammetal","role":"reference"},
+{"song":"s_fcc04mhza6","scope":"g:glammetal","role":"reference"},
+{"song":"s_ddmk4py2p6","scope":"g:glammetal","role":"reference"},
+{"song":"s_345he7xrvc","scope":"g:glammetal","role":"reference"},
+{"song":"s_mvewd8wjtt","scope":"g:glammetal","role":"near miss","belongs_to":"thrash","reason":"Faster, harsher, no pop hooks or ballads"},
+{"song":"s_krj41z3yzz","scope":"g:glammetal","role":"near miss","belongs_to":"grunge","reason":"The sound that ended it"}
+]

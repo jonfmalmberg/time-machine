@@ -1,0 +1,13 @@
+[
+{"song":"s_vb9sync49y","scope":"g:hausa","role":"intro"},
+{"song":"s_pzmajvdhb7","scope":"g:hausa","role":"intro"},
+{"song":"s_hj5hp4qehe","scope":"g:hausa","role":"intro"},
+{"song":"s_ghd8e1ekac","scope":"g:hausa","role":"peak"},
+{"song":"s_0jpjjvnp0z","scope":"g:hausa","role":"peak"},
+{"song":"s_7bbgs29qc4","scope":"g:hausa","role":"peak"},
+{"song":"s_hj5hp4qehe","scope":"g:hausa","role":"reference"},
+{"song":"s_pzmajvdhb7","scope":"g:hausa","role":"reference"},
+{"song":"s_0jpjjvnp0z","scope":"g:hausa","role":"reference"},
+{"song":"s_gafjw6j797","scope":"g:hausa","role":"near miss","belongs_to":"griot","reason":"Mande kora griot art, not Hausa court praise"},
+{"release":"r_e3vszca5sk","scope":"g:hausa","role":"album"}
+]

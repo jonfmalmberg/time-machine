@@ -1,0 +1,21 @@
+[
+{"song":"s_tgm20q9f70","scope":"g:dancehall","role":"intro"},
+{"song":"s_m9kje3gtqr","scope":"g:dancehall","role":"intro","released":1983},
+{"song":"s_qh8b0qah3h","scope":"g:dancehall","role":"intro"},
+{"song":"s_70rkbh78jc","scope":"g:dancehall","role":"peak","released":1984},
+{"song":"s_te71hrga5d","scope":"g:dancehall","role":"peak"},
+{"song":"s_p5j9s1x419","scope":"g:dancehall","role":"peak"},
+{"song":"s_03rfmzyk9e","scope":"g:dancehall","role":"peak"},
+{"song":"s_25pmyyhgja","scope":"g:dancehall","role":"peak"},
+{"song":"s_m8d824ztwe","scope":"g:dancehall","role":"peak"},
+{"song":"s_80rhcs6ssn","scope":"g:dancehall","role":"peak"},
+{"song":"s_cff48g7vfb","scope":"g:dancehall","role":"peak","released":2002},
+{"song":"s_9ekcxwa5na","scope":"g:dancehall","role":"peak"},
+{"song":"s_7bgktz7mzw","scope":"g:dancehall","role":"peak"},
+{"song":"s_b0q6w0t8mx","scope":"g:dancehall","role":"peak","released":2010},
+{"song":"s_m9kje3gtqr","scope":"g:dancehall","role":"reference","released":1983},
+{"song":"s_qh8b0qah3h","scope":"g:dancehall","role":"reference"},
+{"song":"s_m8d824ztwe","scope":"g:dancehall","role":"reference"},
+{"song":"s_cff48g7vfb","scope":"g:dancehall","role":"reference","released":2003},
+{"song":"s_7yrdfjzjm2","scope":"g:dancehall","role":"near miss","belongs_to":"reggaeton","reason":"Spanish-language and locked to the dembow pattern"}
+]

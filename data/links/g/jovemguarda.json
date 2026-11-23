@@ -1,0 +1,23 @@
+[
+{"song":"s_kqaf2keyrn","scope":"g:jovemguarda","role":"intro"},
+{"song":"s_gz7x0dd5mr","scope":"g:jovemguarda","role":"intro"},
+{"song":"s_s9n1f07z7t","scope":"g:jovemguarda","role":"intro"},
+{"song":"s_74dj3hwn0k","scope":"g:jovemguarda","role":"peak"},
+{"song":"s_n1h35ks1jf","scope":"g:jovemguarda","role":"peak"},
+{"song":"s_djetxpewrp","scope":"g:jovemguarda","role":"peak"},
+{"song":"s_nkbqfews36","scope":"g:jovemguarda","role":"peak"},
+{"song":"s_rnt8bvmg3a","scope":"g:jovemguarda","role":"peak","released":1965},
+{"song":"s_6jrkg63290","scope":"g:jovemguarda","role":"peak"},
+{"song":"s_czk4hfnj9k","scope":"g:jovemguarda","role":"peak"},
+{"song":"s_40ga6j4569","scope":"g:jovemguarda","role":"peak"},
+{"song":"s_e05px51d9t","scope":"g:jovemguarda","role":"peak"},
+{"song":"s_8n3rthgpdg","scope":"g:jovemguarda","role":"peak"},
+{"song":"s_a9eb06g5rq","scope":"g:jovemguarda","role":"peak"},
+{"song":"s_g8hc6fc9av","scope":"g:jovemguarda","role":"peak"},
+{"song":"s_kqaf2keyrn","scope":"g:jovemguarda","role":"reference"},
+{"song":"s_gz7x0dd5mr","scope":"g:jovemguarda","role":"reference"},
+{"song":"s_s9n1f07z7t","scope":"g:jovemguarda","role":"reference"},
+{"song":"s_40ga6j4569","scope":"g:jovemguarda","role":"reference"},
+{"song":"s_ffnpr0p3rt","scope":"g:jovemguarda","role":"near miss","belongs_to":"mpb","reason":"Tropicália: electric too, but arty and political"},
+{"song":"s_n9enxvh7t5","scope":"g:jovemguarda","role":"near miss","belongs_to":"brega","reason":"Later sentimental heir, slower and adult"}
+]

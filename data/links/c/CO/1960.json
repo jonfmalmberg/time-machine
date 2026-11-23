@@ -1,0 +1,14 @@
+[
+{"song":"s_fhh4sxzkr6","scope":"c:CO:1960s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_mv2ht9ntgx","scope":"c:CO:1960s","role":"home","scene":"dance","confidence":"h"},
+{"song":"s_8he8c64k3x","scope":"c:CO:1960s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_rtt3cdagrc","scope":"c:CO:1960s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_af3md2av56","scope":"c:CO:1960s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_ttm66bt8dt","scope":"c:CO:1960s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_z2mkytcxfy","scope":"c:CO:1960s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_7mfhenfzce","scope":"c:CO:1960s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_g6nn1d38nk","scope":"c:CO:1960s","role":"foreign","scene":"rock","confidence":"m"},
+{"song":"s_hxeqtmarj6","scope":"c:CO:1960s","role":"foreign","released":1963,"scene":"ballad","confidence":"m"},
+{"song":"s_6adhd0tm3n","scope":"c:CO:1960s","role":"foreign","scene":"ballad","confidence":"h"},
+{"song":"s_369qg97sb8","scope":"c:CO:1960s","role":"foreign","scene":"ballad","confidence":"h"}
+]

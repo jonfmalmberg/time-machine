@@ -1,0 +1,20 @@
+[
+{"song":"s_bxbkafy131","scope":"g:soundcloud","role":"intro"},
+{"song":"s_w57x8k4t9r","scope":"g:soundcloud","role":"intro"},
+{"song":"s_3s93mm04jz","scope":"g:soundcloud","role":"intro"},
+{"song":"s_bftvz73ddk","scope":"g:soundcloud","role":"peak"},
+{"song":"s_bnmvc3txb4","scope":"g:soundcloud","role":"peak"},
+{"song":"s_54h4w31yky","scope":"g:soundcloud","role":"peak"},
+{"song":"s_jbg3frv4jj","scope":"g:soundcloud","role":"peak"},
+{"song":"s_13xyrd66qd","scope":"g:soundcloud","role":"peak"},
+{"song":"s_13swztcfsy","scope":"g:soundcloud","role":"peak"},
+{"song":"s_xfsb9taf3r","scope":"g:soundcloud","role":"peak"},
+{"song":"s_c58hard2hf","scope":"g:soundcloud","role":"peak"},
+{"song":"s_cyp9dhcgea","scope":"g:soundcloud","role":"peak"},
+{"song":"s_yteqgd21h3","scope":"g:soundcloud","role":"peak"},
+{"song":"s_ncr7k78xj6","scope":"g:soundcloud","role":"peak"},
+{"song":"s_w57x8k4t9r","scope":"g:soundcloud","role":"reference"},
+{"song":"s_54h4w31yky","scope":"g:soundcloud","role":"reference"},
+{"song":"s_c58hard2hf","scope":"g:soundcloud","role":"reference"},
+{"song":"s_kxk2hdakqz","scope":"g:soundcloud","role":"near miss","belongs_to":"emorap","reason":"Sung, sad melody over a guitar loop"}
+]

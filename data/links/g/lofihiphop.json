@@ -1,0 +1,20 @@
+[
+{"song":"s_m2x4xxbm9m","scope":"g:lofihiphop","role":"intro"},
+{"song":"s_dgn6pq1fcr","scope":"g:lofihiphop","role":"intro"},
+{"song":"s_4bnmp29k1p","scope":"g:lofihiphop","role":"intro"},
+{"song":"s_2ph5zndtyq","scope":"g:lofihiphop","role":"intro"},
+{"song":"s_bv58wcj3g8","scope":"g:lofihiphop","role":"peak"},
+{"song":"s_hzjz2x4tft","scope":"g:lofihiphop","role":"peak"},
+{"song":"s_mz8d7rc2qc","scope":"g:lofihiphop","role":"peak"},
+{"song":"s_019xpcy3s1","scope":"g:lofihiphop","role":"peak"},
+{"song":"s_863wy8db6t","scope":"g:lofihiphop","role":"peak"},
+{"song":"s_f58de3s5yn","scope":"g:lofihiphop","role":"peak"},
+{"song":"s_2zhtk6hhc8","scope":"g:lofihiphop","role":"peak"},
+{"song":"s_xp74r307t6","scope":"g:lofihiphop","role":"peak"},
+{"song":"s_ymya2xnjb1","scope":"g:lofihiphop","role":"peak"},
+{"song":"s_xqvgvg2w1v","scope":"g:lofihiphop","role":"peak"},
+{"song":"s_m2x4xxbm9m","scope":"g:lofihiphop","role":"reference"},
+{"song":"s_4bnmp29k1p","scope":"g:lofihiphop","role":"reference"},
+{"song":"s_2ph5zndtyq","scope":"g:lofihiphop","role":"reference"},
+{"song":"s_9fekyg6vbc","scope":"g:lofihiphop","role":"near miss","belongs_to":"boombap","reason":"The source: rapped songs, not background instrumentals"}
+]

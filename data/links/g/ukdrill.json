@@ -1,0 +1,19 @@
+[
+{"song":"s_5at090m4ez","scope":"g:ukdrill","role":"intro"},
+{"song":"s_1dez9rjs9g","scope":"g:ukdrill","role":"intro"},
+{"song":"s_78vrgzvq75","scope":"g:ukdrill","role":"intro"},
+{"song":"s_6pbjvf7eb4","scope":"g:ukdrill","role":"peak"},
+{"song":"s_04rra66vtx","scope":"g:ukdrill","role":"peak"},
+{"song":"s_wnaay0n4ye","scope":"g:ukdrill","role":"peak"},
+{"song":"s_pmn1pvfpf9","scope":"g:ukdrill","role":"peak"},
+{"song":"s_tj8k4fbab8","scope":"g:ukdrill","role":"peak"},
+{"song":"s_d0whkybjmt","scope":"g:ukdrill","role":"peak"},
+{"song":"s_6spea2y7bm","scope":"g:ukdrill","role":"peak"},
+{"song":"s_kjb5314bjt","scope":"g:ukdrill","role":"peak"},
+{"song":"s_r7h9h5kn88","scope":"g:ukdrill","role":"peak"},
+{"song":"s_k4cwtvstm2","scope":"g:ukdrill","role":"peak"},
+{"song":"s_04rra66vtx","scope":"g:ukdrill","role":"reference"},
+{"song":"s_pmn1pvfpf9","scope":"g:ukdrill","role":"reference"},
+{"song":"s_k4cwtvstm2","scope":"g:ukdrill","role":"reference"},
+{"song":"s_6svwx9rsqd","scope":"g:ukdrill","role":"near miss","belongs_to":"drill","reason":"No sliding bass; straight Chicago trap pattern"}
+]

@@ -1,0 +1,20 @@
+[
+{"song":"s_cspzt73jk3","scope":"g:modjazz","role":"intro"},
+{"song":"s_remrrnh9nf","scope":"g:modjazz","role":"intro"},
+{"song":"s_pxf96t9mrc","scope":"g:modjazz","role":"intro"},
+{"song":"s_ynccm1e4ga","scope":"g:modjazz","role":"peak","released":1959},
+{"song":"s_qvhgjfe9p7","scope":"g:modjazz","role":"peak"},
+{"song":"s_8brm6q2py6","scope":"g:modjazz","role":"peak"},
+{"song":"s_nxw1jd08z5","scope":"g:modjazz","role":"peak"},
+{"song":"s_thn3pm8f3r","scope":"g:modjazz","role":"peak"},
+{"song":"s_6j02816f1z","scope":"g:modjazz","role":"peak"},
+{"song":"s_e714q5ssve","scope":"g:modjazz","role":"peak"},
+{"song":"s_8na0h7kw97","scope":"g:modjazz","role":"peak"},
+{"song":"s_3c8e2yhd5b","scope":"g:modjazz","role":"peak"},
+{"song":"s_4bfawaapge","scope":"g:modjazz","role":"peak"},
+{"song":"s_vf0xf4tg2c","scope":"g:modjazz","role":"peak"},
+{"song":"s_ynccm1e4ga","scope":"g:modjazz","role":"reference","released":1958},
+{"song":"s_qvhgjfe9p7","scope":"g:modjazz","role":"reference"},
+{"song":"s_8brm6q2py6","scope":"g:modjazz","role":"reference"},
+{"song":"s_cxtma0m1w4","scope":"g:modjazz","role":"near miss","belongs_to":"freejazz","reason":"Composed theme, but solos move without set chord changes"}
+]

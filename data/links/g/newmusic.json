@@ -1,0 +1,21 @@
+[
+{"song":"s_5z205a7wzw","scope":"g:newmusic","role":"intro"},
+{"song":"s_smjsftrv3y","scope":"g:newmusic","role":"intro"},
+{"song":"s_swbew7d8x1","scope":"g:newmusic","role":"intro"},
+{"song":"s_r88hdt5kva","scope":"g:newmusic","role":"peak"},
+{"song":"s_6m28qj51x3","scope":"g:newmusic","role":"peak"},
+{"song":"s_x3cqgcgdya","scope":"g:newmusic","role":"peak"},
+{"song":"s_tgb7z0rz0f","scope":"g:newmusic","role":"peak"},
+{"song":"s_2gvz0n2bnm","scope":"g:newmusic","role":"peak"},
+{"song":"s_b8hwf82vsp","scope":"g:newmusic","role":"peak"},
+{"song":"s_aebvzk5avd","scope":"g:newmusic","role":"peak"},
+{"song":"s_tfpnyg336v","scope":"g:newmusic","role":"peak"},
+{"song":"s_ckajddwma0","scope":"g:newmusic","role":"peak"},
+{"song":"s_dd7rtsrva4","scope":"g:newmusic","role":"peak"},
+{"song":"s_1qhvr6pqr9","scope":"g:newmusic","role":"peak"},
+{"song":"s_hz4gv04d1b","scope":"g:newmusic","role":"peak"},
+{"song":"s_5z205a7wzw","scope":"g:newmusic","role":"reference"},
+{"song":"s_smjsftrv3y","scope":"g:newmusic","role":"reference"},
+{"song":"s_dd7rtsrva4","scope":"g:newmusic","role":"reference"},
+{"song":"s_5exj4hdwxd","scope":"g:newmusic","role":"near miss","belongs_to":"citypop","reason":"City pop: glossier, groove-led studio sound"}
+]

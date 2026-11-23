@@ -1,0 +1,17 @@
+[
+{"song":"s_kge2rqxn4c","scope":"c:PT:2000s","role":"home","scene":"radio","confidence":"h"},
+{"song":"s_xd4htcp0tt","scope":"c:PT:2000s","role":"home","scene":"rock","confidence":"m"},
+{"song":"s_emqsfre5y4","scope":"c:PT:2000s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_02h3atvhnf","scope":"c:PT:2000s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_kaj9vsf48t","scope":"c:PT:2000s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_btmhz5pmep","scope":"c:PT:2000s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_y07t9j7r2k","scope":"c:PT:2000s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_bxtctmxhwx","scope":"c:PT:2000s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_r3s9327s06","scope":"c:PT:2000s","role":"home","scene":"dance","confidence":"h"},
+{"song":"s_c0czspmjp2","scope":"c:PT:2000s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_kksc823e5s","scope":"c:PT:2000s","role":"foreign","scene":"rock","confidence":"h"},
+{"song":"s_c2tn0p2b0g","scope":"c:PT:2000s","role":"foreign","scene":"dance","confidence":"h"},
+{"song":"s_mt8zmfe41d","scope":"c:PT:2000s","role":"foreign","scene":"pop","confidence":"h"},
+{"song":"s_jd0hgkdtm7","scope":"c:PT:2000s","role":"foreign","scene":"dance","confidence":"m"},
+{"song":"s_bn72q81x5c","scope":"c:PT:2000s","role":"foreign","scene":"pop","confidence":"m"}
+]

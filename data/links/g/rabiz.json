@@ -1,0 +1,13 @@
+[
+{"song":"s_qnbab5k9ck","scope":"g:rabiz","role":"intro"},
+{"song":"s_k2vwmgjmkk","scope":"g:rabiz","role":"intro"},
+{"song":"s_zbjtp8dzn5","scope":"g:rabiz","role":"intro"},
+{"song":"s_81vcpgh6y9","scope":"g:rabiz","role":"peak"},
+{"song":"s_b9v03afwts","scope":"g:rabiz","role":"peak"},
+{"song":"s_1vdapsjpb7","scope":"g:rabiz","role":"peak"},
+{"song":"s_81vcpgh6y9","scope":"g:rabiz","role":"reference"},
+{"song":"s_qnbab5k9ck","scope":"g:rabiz","role":"reference"},
+{"song":"s_j408m0cnwx","scope":"g:rabiz","role":"near miss","released":1986,"belongs_to":"arabesk","reason":"The Turkish cousin: the same lament style, with a string orchestra"},
+{"release":"r_2mxwhst0e6","scope":"g:rabiz","role":"album"},
+{"release":"r_fftvtk0ca6","scope":"g:rabiz","role":"album"}
+]

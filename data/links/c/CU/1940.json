@@ -1,0 +1,12 @@
+[
+{"song":"s_5x786ykkvz","scope":"c:CU:1940s","role":"home","released":1930,"scene":"ballad","confidence":"h"},
+{"song":"s_xk5vegkhjw","scope":"c:CU:1940s","role":"home","scene":"dance","confidence":"h"},
+{"song":"s_e2zep0114n","scope":"c:CU:1940s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_8fhpagfagg","scope":"c:CU:1940s","role":"home","scene":"dance","confidence":"h"},
+{"song":"s_m0zpf8q7pw","scope":"c:CU:1940s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_ghneq8has4","scope":"c:CU:1940s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_z0k6kkte54","scope":"c:CU:1940s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_mad29dkdx6","scope":"c:CU:1940s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_x6ma0mf7eg","scope":"c:CU:1940s","role":"foreign","released":1948,"scene":"film","confidence":"m"},
+{"song":"s_mrdmx68vk2","scope":"c:CU:1940s","role":"foreign","scene":"ballad","confidence":"m"}
+]

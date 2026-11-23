@@ -1,0 +1,11 @@
+[
+{"song":"s_mkqf27jfn6","scope":"g:kroncong","role":"intro","released":1960},
+{"song":"s_gcg10sn373","scope":"g:kroncong","role":"intro","released":1970},
+{"song":"s_agcgsf4kjd","scope":"g:kroncong","role":"peak"},
+{"song":"s_6cerwgx4t5","scope":"g:kroncong","role":"peak"},
+{"song":"s_afjh35p2bv","scope":"g:kroncong","role":"peak"},
+{"song":"s_8bdrdwm664","scope":"g:kroncong","role":"peak"},
+{"song":"s_gcg10sn373","scope":"g:kroncong","role":"reference","released":1968},
+{"song":"s_1kgv71tac6","scope":"g:kroncong","role":"near miss","belongs_to":"kayokyoku","reason":"Japanese-language pop cover of the kroncong standard"},
+{"release":"r_hkxg4cg407","scope":"g:kroncong","role":"album"}
+]

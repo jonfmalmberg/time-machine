@@ -27,6 +27,7 @@ How to judge a choice when no rule covers it. Each principle comes from the two 
 15. **Completeness is tested separately from quality.** "Are the defining songs right" and "are the artists I listened to here" are different questions and need different research and different tests.
 16. **No weight is neutral.** Every ranking embeds a judgement about what matters. State it, make it adjustable, and tune it against how playlists are received.
 17. **Forward, with flags.** When research falls short, mark it precisely so it can be redone, and move on. Do not loop on a failure while the rest of the map is empty. What is thin is shown as thin, never dressed up.
+27. **When something is its own genre.** Two questions. Does it feel distinct? And is the category too big or too small for the data we have? Too big, and likely right to split, when its members sound like they could be distinct. Too small, and likely right to merge, when another genre sounds too similar to tell apart. A different language and a different place of origin, at a time before globalisation, is probably a separate thing whatever its size. Decide each case on its specific evidence, and write the evidence down. (Owner, 23 November 2026. Numbered 27 because it was added after 26; it belongs with the data principles.)
 
 ## Learning from people
 

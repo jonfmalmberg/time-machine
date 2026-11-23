@@ -1,0 +1,20 @@
+[
+{"song":"s_fwwgpx79bz","scope":"g:calypso","role":"intro"},
+{"song":"s_6dg28j8zs3","scope":"g:calypso","role":"intro"},
+{"song":"s_n2nyp08cr9","scope":"g:calypso","role":"intro"},
+{"song":"s_e9tbpqgsef","scope":"g:calypso","role":"peak"},
+{"song":"s_14y0a2yegy","scope":"g:calypso","role":"peak"},
+{"song":"s_2ydnqga5t5","scope":"g:calypso","role":"peak","written":null},
+{"song":"s_rngd91s46h","scope":"g:calypso","role":"peak"},
+{"song":"s_cahdmy4z3b","scope":"g:calypso","role":"peak"},
+{"song":"s_jerfs0tpfy","scope":"g:calypso","role":"peak"},
+{"song":"s_mr08rwn2x2","scope":"g:calypso","role":"peak"},
+{"song":"s_tea0hagrvc","scope":"g:calypso","role":"peak"},
+{"song":"s_4jn2800mtk","scope":"g:calypso","role":"peak"},
+{"song":"s_n3jsj4wmg6","scope":"g:calypso","role":"peak"},
+{"song":"s_a67mfxkws9","scope":"g:calypso","role":"peak"},
+{"song":"s_e9tbpqgsef","scope":"g:calypso","role":"reference"},
+{"song":"s_cahdmy4z3b","scope":"g:calypso","role":"reference"},
+{"song":"s_2ydnqga5t5","scope":"g:calypso","role":"near miss","belongs_to":"mento","reason":"A Jamaican folk song sold as calypso in the US boom"},
+{"song":"s_47ex30gffb","scope":"g:calypso","role":"near miss","belongs_to":"soca","reason":"Faster, driving party beat built for the road, not narrative verse"}
+]

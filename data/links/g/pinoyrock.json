@@ -1,0 +1,23 @@
+[
+{"song":"s_hr278fr7hv","scope":"g:pinoyrock","role":"intro"},
+{"song":"s_bjq90csmkz","scope":"g:pinoyrock","role":"intro"},
+{"song":"s_ag2nncc96n","scope":"g:pinoyrock","role":"intro"},
+{"song":"s_gd6faz1z8c","scope":"g:pinoyrock","role":"peak"},
+{"song":"s_nj8zk9jk75","scope":"g:pinoyrock","role":"peak"},
+{"song":"s_4e5bxxr1am","scope":"g:pinoyrock","role":"peak"},
+{"song":"s_e633a9sa9m","scope":"g:pinoyrock","role":"peak"},
+{"song":"s_23q9qa5p66","scope":"g:pinoyrock","role":"peak"},
+{"song":"s_pdmv708r5j","scope":"g:pinoyrock","role":"peak"},
+{"song":"s_rkbh2hz4z0","scope":"g:pinoyrock","role":"peak"},
+{"song":"s_5rrcbah27k","scope":"g:pinoyrock","role":"peak"},
+{"song":"s_pyj69ns6db","scope":"g:pinoyrock","role":"peak"},
+{"song":"s_v4v9dpqjd0","scope":"g:pinoyrock","role":"peak"},
+{"song":"s_dmrxhmfsyp","scope":"g:pinoyrock","role":"peak"},
+{"song":"s_c06356psd1","scope":"g:pinoyrock","role":"peak","released":1997},
+{"song":"s_gw6afhzw46","scope":"g:pinoyrock","role":"peak","released":2004},
+{"song":"s_hr278fr7hv","scope":"g:pinoyrock","role":"reference"},
+{"song":"s_5rrcbah27k","scope":"g:pinoyrock","role":"reference"},
+{"song":"s_bjq90csmkz","scope":"g:pinoyrock","role":"reference"},
+{"song":"s_gw6afhzw46","scope":"g:pinoyrock","role":"reference","released":2004},
+{"song":"s_dcqbkqgbxe","scope":"g:pinoyrock","role":"near miss","released":1976,"belongs_to":"opm","reason":"Smooth, disco-tinged Manila sound pop, not rock"}
+]

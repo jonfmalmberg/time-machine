@@ -1,0 +1,13 @@
+[
+{"song":"s_bd5jj792xy","scope":"c:IR:2000s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_zwmww8ceq4","scope":"c:IR:2000s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_19gjynmwvx","scope":"c:IR:2000s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_j1w60d5dpr","scope":"c:IR:2000s","role":"home","scene":"dance","confidence":"h"},
+{"song":"s_k3grgmn6pq","scope":"c:IR:2000s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_t13x08tas6","scope":"c:IR:2000s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_rrwq89cv4r","scope":"c:IR:2000s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_1e6pxb7nkp","scope":"c:IR:2000s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_qrdcwwheae","scope":"c:IR:2000s","role":"foreign","scene":"dance","confidence":"m"},
+{"song":"s_wd8vtgefhc","scope":"c:IR:2000s","role":"foreign","scene":"religious","confidence":"m"},
+{"song":"s_jd0hgkdtm7","scope":"c:IR:2000s","role":"foreign","scene":"dance","confidence":"m"}
+]

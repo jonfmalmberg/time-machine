@@ -1,0 +1,21 @@
+[
+{"song":"s_ksfmvy5y3c","scope":"g:bigbeat","role":"intro"},
+{"song":"s_s57q9e57gk","scope":"g:bigbeat","role":"intro"},
+{"song":"s_x4tjb7avym","scope":"g:bigbeat","role":"intro"},
+{"song":"s_xhr5mmv0rc","scope":"g:bigbeat","role":"peak"},
+{"song":"s_0g0nenq19j","scope":"g:bigbeat","role":"peak"},
+{"song":"s_cfdvbc3dx2","scope":"g:bigbeat","role":"peak"},
+{"song":"s_rfzcf5bfwy","scope":"g:bigbeat","role":"peak"},
+{"song":"s_m6teqn9tvs","scope":"g:bigbeat","role":"peak"},
+{"song":"s_j33e1t6dyr","scope":"g:bigbeat","role":"peak"},
+{"song":"s_27b85zkrh5","scope":"g:bigbeat","role":"peak"},
+{"song":"s_4gn8shbb08","scope":"g:bigbeat","role":"peak"},
+{"song":"s_1hn2tvzwvf","scope":"g:bigbeat","role":"peak"},
+{"song":"s_kzza8c5ap8","scope":"g:bigbeat","role":"peak"},
+{"song":"s_st0kxzs8gm","scope":"g:bigbeat","role":"peak"},
+{"song":"s_x3zs6g1xhd","scope":"g:bigbeat","role":"peak"},
+{"song":"s_xhr5mmv0rc","scope":"g:bigbeat","role":"reference"},
+{"song":"s_m6teqn9tvs","scope":"g:bigbeat","role":"reference"},
+{"song":"s_4gn8shbb08","scope":"g:bigbeat","role":"reference"},
+{"song":"s_39hy5x8hmv","scope":"g:bigbeat","role":"near miss","belongs_to":"bloghouse","reason":"French electro compression, no breakbeats"}
+]

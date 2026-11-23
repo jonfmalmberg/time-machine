@@ -1,0 +1,17 @@
+[
+{"song":"s_zth10zwmd0","scope":"g:manele","role":"intro"},
+{"song":"s_fx7q5v62nq","scope":"g:manele","role":"intro"},
+{"song":"s_z942vk4gvx","scope":"g:manele","role":"intro"},
+{"song":"s_5vyfy2a23n","scope":"g:manele","role":"peak"},
+{"song":"s_jn32darb5s","scope":"g:manele","role":"peak"},
+{"song":"s_03k0r2xn1p","scope":"g:manele","role":"peak"},
+{"song":"s_bx163x2xta","scope":"g:manele","role":"peak"},
+{"song":"s_4bpxxz4em6","scope":"g:manele","role":"peak"},
+{"song":"s_399tkb9zj0","scope":"g:manele","role":"peak"},
+{"song":"s_z942vk4gvx","scope":"g:manele","role":"reference"},
+{"song":"s_zth10zwmd0","scope":"g:manele","role":"reference"},
+{"song":"s_4bpxxz4em6","scope":"g:manele","role":"reference"},
+{"song":"s_v025nax53h","scope":"g:manele","role":"near miss","belongs_to":"turbofolk","reason":"Serbian sibling: the same synth-folk recipe on Serbian melodies"},
+{"song":"s_bwd4ygssse","scope":"g:manele","role":"near miss","released":1998,"belongs_to":"romfolk","reason":"Acoustic village lăutari, no synths or drum machine"},
+{"release":"r_k82nj2j48v","scope":"g:manele","role":"album"}
+]

@@ -1,0 +1,21 @@
+[
+{"song":"s_kx099kevft","scope":"g:maskandi","role":"intro"},
+{"song":"s_p9e69pqmvr","scope":"g:maskandi","role":"intro"},
+{"song":"s_p3g6rh5dk3","scope":"g:maskandi","role":"intro"},
+{"song":"s_sjwtt3tr04","scope":"g:maskandi","role":"peak"},
+{"song":"s_9xwscdmcqx","scope":"g:maskandi","role":"peak"},
+{"song":"s_akjzvxs3pt","scope":"g:maskandi","role":"peak"},
+{"song":"s_kx099kevft","scope":"g:maskandi","role":"peak"},
+{"song":"s_p9e69pqmvr","scope":"g:maskandi","role":"peak"},
+{"song":"s_2a5jcxwfcy","scope":"g:maskandi","role":"peak"},
+{"song":"s_7qxdpg5sb8","scope":"g:maskandi","role":"peak"},
+{"song":"s_p3g6rh5dk3","scope":"g:maskandi","role":"peak"},
+{"song":"s_sjwtt3tr04","scope":"g:maskandi","role":"reference"},
+{"song":"s_kx099kevft","scope":"g:maskandi","role":"reference"},
+{"song":"s_p9e69pqmvr","scope":"g:maskandi","role":"reference"},
+{"song":"s_vrjcqvcnbd","scope":"g:maskandi","role":"near miss","belongs_to":"mbaqanga","reason":"Electric township jive band with groaner lead"},
+{"song":"s_3gv1hkdqa8","scope":"g:maskandi","role":"near miss","belongs_to":"mbube","reason":"Unaccompanied Zulu male choir"},
+{"release":"r_j5axhnewpc","scope":"g:maskandi","role":"album"},
+{"release":"r_x5dwr7hdvz","scope":"g:maskandi","role":"album"},
+{"release":"r_a7p0g7dszb","scope":"g:maskandi","role":"album"}
+]

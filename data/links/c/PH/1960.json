@@ -1,0 +1,14 @@
+[
+{"song":"s_vk8zy9j1fe","scope":"c:PH:1960s","role":"home","scene":"rock","confidence":"h"},
+{"song":"s_3a8zyymxd5","scope":"c:PH:1960s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_2dq1rjhc2k","scope":"c:PH:1960s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_nx0keb6b52","scope":"c:PH:1960s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_skstk6cagh","scope":"c:PH:1960s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_0zjbskk7y4","scope":"c:PH:1960s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_hx82s2a4an","scope":"c:PH:1960s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_mtqqbhhnvm","scope":"c:PH:1960s","role":"foreign","scene":"ballad","confidence":"h"},
+{"song":"s_9ezwf6hw2b","scope":"c:PH:1960s","role":"foreign","scene":"film","confidence":"m"},
+{"song":"s_v268j2dxvm","scope":"c:PH:1960s","role":"foreign","scene":"pop","confidence":"h"},
+{"song":"s_ht66qredkb","scope":"c:PH:1960s","role":"foreign","scene":"rock","confidence":"m"},
+{"song":"s_dhez3nqedf","scope":"c:PH:1960s","role":"foreign","scene":"ballad","confidence":"m"}
+]

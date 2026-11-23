@@ -1,0 +1,19 @@
+[
+{"song":"s_qcdpttdssc","scope":"g:boogaloo","role":"intro"},
+{"song":"s_8n7d7rfewk","scope":"g:boogaloo","role":"intro"},
+{"song":"s_h15a32aeh3","scope":"g:boogaloo","role":"intro"},
+{"song":"s_yq0dfstfty","scope":"g:boogaloo","role":"peak"},
+{"song":"s_yag09s7kwb","scope":"g:boogaloo","role":"peak"},
+{"song":"s_1n23k3bjnw","scope":"g:boogaloo","role":"peak"},
+{"song":"s_v400mfs1f4","scope":"g:boogaloo","role":"peak"},
+{"song":"s_627afdjv3x","scope":"g:boogaloo","role":"peak"},
+{"song":"s_smghb1ak82","scope":"g:boogaloo","role":"peak"},
+{"song":"s_evjhe38e6g","scope":"g:boogaloo","role":"peak"},
+{"song":"s_8n7d7rfewk","scope":"g:boogaloo","role":"reference"},
+{"song":"s_yq0dfstfty","scope":"g:boogaloo","role":"reference"},
+{"song":"s_yag09s7kwb","scope":"g:boogaloo","role":"reference"},
+{"song":"s_490s040xye","scope":"g:boogaloo","role":"near miss","belongs_to":"latintrap","reason":"Built on a boogaloo sample, but a rap track"},
+{"song":"s_whm7q9d858","scope":"g:boogaloo","role":"near miss","belongs_to":"salsa","reason":"Spanish-language, son-based salsa with trombones"},
+{"release":"r_tme3vn3znj","scope":"g:boogaloo","role":"album"},
+{"release":"r_c4mrmy4xay","scope":"g:boogaloo","role":"album"}
+]

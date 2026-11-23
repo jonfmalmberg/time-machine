@@ -1,0 +1,17 @@
+[
+{"song":"s_kp9q9yc8ak","scope":"g:celticdance","role":"intro"},
+{"song":"s_6n3ty9p95a","scope":"g:celticdance","role":"intro"},
+{"song":"s_6b6hx81mj8","scope":"g:celticdance","role":"intro"},
+{"song":"s_a0wnxj0kk6","scope":"g:celticdance","role":"peak"},
+{"song":"s_a4gpwy22re","scope":"g:celticdance","role":"peak"},
+{"song":"s_qmbv1vyj6r","scope":"g:celticdance","role":"peak"},
+{"song":"s_7nv4snnw87","scope":"g:celticdance","role":"peak"},
+{"song":"s_w9965btnjs","scope":"g:celticdance","role":"peak"},
+{"song":"s_kp9q9yc8ak","scope":"g:celticdance","role":"reference"},
+{"song":"s_a0wnxj0kk6","scope":"g:celticdance","role":"reference"},
+{"song":"s_a4gpwy22re","scope":"g:celticdance","role":"reference"},
+{"song":"s_6b6hx81mj8","scope":"g:celticdance","role":"reference"},
+{"song":"s_577wz78sca","scope":"g:celticdance","role":"near miss","belongs_to":"celticfolk","reason":"A sung ballad, not a dance tune"},
+{"release":"r_0pm140c9fr","scope":"g:celticdance","role":"album"},
+{"release":"r_764dq8qa27","scope":"g:celticdance","role":"album"}
+]

@@ -1,0 +1,20 @@
+[
+{"song":"s_trf731qfrz","scope":"g:filmscore","role":"intro"},
+{"song":"s_0d2pbx7q34","scope":"g:filmscore","role":"intro"},
+{"song":"s_0g5rxvfqnf","scope":"g:filmscore","role":"intro"},
+{"song":"s_z1t30t60at","scope":"g:filmscore","role":"peak"},
+{"song":"s_gwejvb7bv4","scope":"g:filmscore","role":"peak"},
+{"song":"s_8kq0w6qae9","scope":"g:filmscore","role":"peak"},
+{"song":"s_n2hapsfvgg","scope":"g:filmscore","role":"peak"},
+{"song":"s_mm8vfvqyhf","scope":"g:filmscore","role":"peak"},
+{"song":"s_qjzjf6a4an","scope":"g:filmscore","role":"peak"},
+{"song":"s_np1vxk84rk","scope":"g:filmscore","role":"peak"},
+{"song":"s_qheknyzkcs","scope":"g:filmscore","role":"peak"},
+{"song":"s_antnefhk6h","scope":"g:filmscore","role":"peak"},
+{"song":"s_ghgqfsxs64","scope":"g:filmscore","role":"peak"},
+{"song":"s_z1t30t60at","scope":"g:filmscore","role":"reference"},
+{"song":"s_n2hapsfvgg","scope":"g:filmscore","role":"reference"},
+{"song":"s_qjzjf6a4an","scope":"g:filmscore","role":"reference"},
+{"song":"s_ghgqfsxs64","scope":"g:filmscore","role":"reference"},
+{"song":"s_m5rhn485z3","scope":"g:filmscore","role":"near miss","belongs_to":"synthwave","reason":"Cinematic mood, but a pop song on drum machine and analogue synths"}
+]

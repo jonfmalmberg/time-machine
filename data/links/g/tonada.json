@@ -1,0 +1,16 @@
+[
+{"song":"s_p9x2racvp7","scope":"g:tonada","role":"intro"},
+{"song":"s_t0n2xd05fk","scope":"g:tonada","role":"intro"},
+{"song":"s_f7t7t09807","scope":"g:tonada","role":"intro"},
+{"song":"s_va4tme6vc8","scope":"g:tonada","role":"peak"},
+{"song":"s_n6y880ykps","scope":"g:tonada","role":"peak"},
+{"song":"s_pfn5hrn1mg","scope":"g:tonada","role":"peak"},
+{"song":"s_rapnyw4sbd","scope":"g:tonada","role":"peak"},
+{"song":"s_b20w2a1dts","scope":"g:tonada","role":"peak"},
+{"song":"s_v3g2jm1ept","scope":"g:tonada","role":"peak"},
+{"song":"s_va4tme6vc8","scope":"g:tonada","role":"reference"},
+{"song":"s_f7t7t09807","scope":"g:tonada","role":"reference"},
+{"song":"s_b20w2a1dts","scope":"g:tonada","role":"reference"},
+{"song":"s_vn8hffnew4","scope":"g:tonada","role":"near miss","belongs_to":"nuevacancion","reason":"Same guitar, but protest-era new song"},
+{"release":"r_nz1sfqgay5","scope":"g:tonada","role":"album"}
+]

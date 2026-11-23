@@ -1,0 +1,21 @@
+[
+{"song":"s_prtsr0qwnw","scope":"g:koreanballad","role":"intro"},
+{"song":"s_qvjakjptqp","scope":"g:koreanballad","role":"intro"},
+{"song":"s_gdd20dkpab","scope":"g:koreanballad","role":"intro"},
+{"song":"s_f6r4tsv7mx","scope":"g:koreanballad","role":"peak"},
+{"song":"s_x0jsqaqcew","scope":"g:koreanballad","role":"peak"},
+{"song":"s_zabvnjhpj1","scope":"g:koreanballad","role":"peak"},
+{"song":"s_3mvdbzps46","scope":"g:koreanballad","role":"peak"},
+{"song":"s_rp1ctmpq04","scope":"g:koreanballad","role":"peak"},
+{"song":"s_tv6q0gr3j7","scope":"g:koreanballad","role":"peak"},
+{"song":"s_tng6kaxbn9","scope":"g:koreanballad","role":"peak"},
+{"song":"s_mrex042nfh","scope":"g:koreanballad","role":"peak"},
+{"song":"s_5j7p93bctv","scope":"g:koreanballad","role":"peak"},
+{"song":"s_rm249gt277","scope":"g:koreanballad","role":"peak"},
+{"song":"s_x0jsqaqcew","scope":"g:koreanballad","role":"reference"},
+{"song":"s_zabvnjhpj1","scope":"g:koreanballad","role":"reference"},
+{"song":"s_qvjakjptqp","scope":"g:koreanballad","role":"reference"},
+{"song":"s_3mvdbzps46","scope":"g:koreanballad","role":"reference"},
+{"song":"s_e9hh0yr9rc","scope":"g:koreanballad","role":"near miss","belongs_to":"trot","reason":"Two-beat trot rhythm and bending vocal"},
+{"song":"s_1fmg65afrz","scope":"g:koreanballad","role":"near miss","belongs_to":"kpop","reason":"Acoustic ballad from an idol-era pop star"}
+]

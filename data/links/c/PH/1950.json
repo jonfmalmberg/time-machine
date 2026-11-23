@@ -1,0 +1,13 @@
+[
+{"song":"s_veq3rwskms","scope":"c:PH:1950s","role":"home","released":1952,"scene":"ballad","confidence":"m"},
+{"song":"s_1z8waasvfx","scope":"c:PH:1950s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_tmztg8ebsb","scope":"c:PH:1950s","role":"home","scene":"film","confidence":"h"},
+{"song":"s_3g3q3kczt8","scope":"c:PH:1950s","role":"home","scene":"folk","confidence":"h"},
+{"song":"s_4f132n6tjw","scope":"c:PH:1950s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_vk8zy9j1fe","scope":"c:PH:1950s","role":"home","scene":"rock","confidence":"h"},
+{"song":"s_44xaed02w7","scope":"c:PH:1950s","role":"foreign","scene":"ballad","confidence":"m"},
+{"song":"s_xj1f3zxzfe","scope":"c:PH:1950s","role":"foreign","scene":"rock","confidence":"m"},
+{"song":"s_jjhjrtheyh","scope":"c:PH:1950s","role":"foreign","scene":"ballad","confidence":"m"},
+{"song":"s_xcz17dseyh","scope":"c:PH:1950s","role":"foreign","scene":"ballad","confidence":"h"},
+{"song":"s_0ab3b98225","scope":"c:PH:1950s","role":"foreign","scene":"pop","confidence":"m"}
+]

@@ -1,0 +1,22 @@
+[
+{"song":"s_9q89fp2xqx","scope":"g:ska","role":"intro"},
+{"song":"s_w52xbzf58f","scope":"g:ska","role":"intro"},
+{"song":"s_czb9nj7q6s","scope":"g:ska","role":"intro"},
+{"song":"s_x8cejk7jvt","scope":"g:ska","role":"peak"},
+{"song":"s_j9nfzsy650","scope":"g:ska","role":"peak"},
+{"song":"s_2yrqxh0xkp","scope":"g:ska","role":"peak"},
+{"song":"s_yfknj2a9n4","scope":"g:ska","role":"peak"},
+{"song":"s_74pwsy967y","scope":"g:ska","role":"peak"},
+{"song":"s_8eb1h59c7r","scope":"g:ska","role":"peak"},
+{"song":"s_h7hhgyj5fr","scope":"g:ska","role":"peak"},
+{"song":"s_xcepe7zkdq","scope":"g:ska","role":"peak"},
+{"song":"s_gqeexgcxq6","scope":"g:ska","role":"peak"},
+{"song":"s_sfkdws02en","scope":"g:ska","role":"peak"},
+{"song":"s_k15rg0c6s2","scope":"g:ska","role":"peak"},
+{"song":"s_86pys464n2","scope":"g:ska","role":"peak"},
+{"song":"s_czb9nj7q6s","scope":"g:ska","role":"reference"},
+{"song":"s_yfknj2a9n4","scope":"g:ska","role":"reference"},
+{"song":"s_h7hhgyj5fr","scope":"g:ska","role":"reference"},
+{"song":"s_3qr1jd9r0q","scope":"g:ska","role":"near miss","belongs_to":"rocksteady","reason":"Slower tempo, bass takes over from horns as the lead voice"},
+{"song":"s_c5nrke9zz0","scope":"g:ska","role":"near miss","belongs_to":"postpunk","reason":"UK 2 Tone revival: ska covered with punk-era energy and politics"}
+]

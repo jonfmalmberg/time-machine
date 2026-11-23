@@ -1,0 +1,21 @@
+[
+{"song":"s_9c2bt2ggjr","scope":"g:trap","role":"intro"},
+{"song":"s_q8xdj76tsm","scope":"g:trap","role":"intro"},
+{"song":"s_01rtyawczd","scope":"g:trap","role":"intro"},
+{"song":"s_kcntgxyj3y","scope":"g:trap","role":"peak"},
+{"song":"s_xc3kxse73m","scope":"g:trap","role":"peak"},
+{"song":"s_dgnqe4wknc","scope":"g:trap","role":"peak"},
+{"song":"s_v1mmds6x5g","scope":"g:trap","role":"peak"},
+{"song":"s_hz4ak5m9jj","scope":"g:trap","role":"peak"},
+{"song":"s_j2ke130xy7","scope":"g:trap","role":"peak"},
+{"song":"s_0k0s9kcbx3","scope":"g:trap","role":"peak"},
+{"song":"s_xy22vshv1p","scope":"g:trap","role":"peak"},
+{"song":"s_d8y3yyjpm9","scope":"g:trap","role":"peak"},
+{"song":"s_ds47dx6r5b","scope":"g:trap","role":"peak"},
+{"song":"s_kge4ndcxfr","scope":"g:trap","role":"peak"},
+{"song":"s_9c2bt2ggjr","scope":"g:trap","role":"reference"},
+{"song":"s_kcntgxyj3y","scope":"g:trap","role":"reference"},
+{"song":"s_dgnqe4wknc","scope":"g:trap","role":"reference"},
+{"song":"s_xy22vshv1p","scope":"g:trap","role":"reference"},
+{"song":"s_q6ndnh1bhe","scope":"g:trap","role":"near miss","belongs_to":"moderntrap","reason":"Rolling triplet hi-hats and triplet flow lead the track"}
+]

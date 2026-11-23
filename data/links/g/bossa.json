@@ -1,0 +1,19 @@
+[
+{"song":"s_vptj2y4yek","scope":"g:bossa","role":"intro"},
+{"song":"s_0eqpvqj6me","scope":"g:bossa","role":"intro"},
+{"song":"s_5r1831xg4f","scope":"g:bossa","role":"intro"},
+{"song":"s_wm9975fgk7","scope":"g:bossa","role":"peak"},
+{"song":"s_4yvht6vdsj","scope":"g:bossa","role":"peak"},
+{"song":"s_kjtyq2j053","scope":"g:bossa","role":"peak"},
+{"song":"s_42m0bbcbjb","scope":"g:bossa","role":"peak"},
+{"song":"s_1pygm6z6zs","scope":"g:bossa","role":"peak"},
+{"song":"s_tpkfp59619","scope":"g:bossa","role":"peak"},
+{"song":"s_gngr8nxb0x","scope":"g:bossa","role":"peak"},
+{"song":"s_16ckfytxj0","scope":"g:bossa","role":"peak"},
+{"song":"s_paxwn75rdr","scope":"g:bossa","role":"peak"},
+{"song":"s_9rt3zdc87m","scope":"g:bossa","role":"peak"},
+{"song":"s_vptj2y4yek","scope":"g:bossa","role":"reference"},
+{"song":"s_0eqpvqj6me","scope":"g:bossa","role":"reference"},
+{"song":"s_42m0bbcbjb","scope":"g:bossa","role":"reference"},
+{"song":"s_cs3wsk7q0y","scope":"g:bossa","role":"near miss","belongs_to":"mpb","reason":"Big festival performance and belted vocal instead of a hushed one"}
+]

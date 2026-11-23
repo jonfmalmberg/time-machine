@@ -1,0 +1,16 @@
+[
+{"song":"s_40em8q8vv1","scope":"c:JM:1950s","role":"home","scene":"folk","confidence":"h"},
+{"song":"s_xzatd8zj2x","scope":"c:JM:1950s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_tak1g4wzhk","scope":"c:JM:1950s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_qnwaqpnc6w","scope":"c:JM:1950s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_c4r3gpq05c","scope":"c:JM:1950s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_hmjv3pspjz","scope":"c:JM:1950s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_7pkqwm5qcy","scope":"c:JM:1950s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_8eb1h59c7r","scope":"c:JM:1950s","role":"home","scene":"dance","confidence":"h"},
+{"song":"s_9q89fp2xqx","scope":"c:JM:1950s","role":"home","scene":"dance","confidence":"h"},
+{"song":"s_d3yvmddxrf","scope":"c:JM:1950s","role":"foreign","scene":"dance","confidence":"h"},
+{"song":"s_qm2akdct1m","scope":"c:JM:1950s","role":"foreign","scene":"dance","confidence":"m"},
+{"song":"s_2ydnqga5t5","scope":"c:JM:1950s","role":"foreign","scene":"radio","confidence":"h"},
+{"song":"s_rngd91s46h","scope":"c:JM:1950s","role":"foreign","scene":"radio","confidence":"m"},
+{"song":"s_qhbrthr5bq","scope":"c:JM:1950s","role":"foreign","scene":"dance","confidence":"m"}
+]

@@ -1,0 +1,12 @@
+[
+{"song":"s_mkqf27jfn6","scope":"c:ID:1940s","role":"home","released":1940,"scene":"radio","confidence":"h"},
+{"song":"s_jzmnwqx864","scope":"c:ID:1940s","role":"home","scene":"other","confidence":"h"},
+{"song":"s_98v004smjg","scope":"c:ID:1940s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_kt63e7stzy","scope":"c:ID:1940s","role":"home","scene":"other","confidence":"h"},
+{"song":"s_sd2cv3je5j","scope":"c:ID:1940s","role":"home","scene":"other","confidence":"h"},
+{"song":"s_x9rfrgmy84","scope":"c:ID:1940s","role":"home","scene":"radio","confidence":"h"},
+{"song":"s_q253djxn24","scope":"c:ID:1940s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_9kcrephhqv","scope":"c:ID:1940s","role":"home","scene":"other","confidence":"m"},
+{"song":"s_zn249b1ed2","scope":"c:ID:1940s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_cw3yntkxr4","scope":"c:ID:1940s","role":"home","scene":"other","confidence":"m"}
+]

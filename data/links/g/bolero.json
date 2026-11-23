@@ -1,0 +1,19 @@
+[
+{"song":"s_zdvdsxy7rh","scope":"g:bolero","role":"intro"},
+{"song":"s_x8qdjkp7hq","scope":"g:bolero","role":"intro"},
+{"song":"s_vc34envcvy","scope":"g:bolero","role":"intro"},
+{"song":"s_dbhpe873p9","scope":"g:bolero","role":"peak"},
+{"song":"s_c1kz1vkkqv","scope":"g:bolero","role":"peak"},
+{"song":"s_5emgvkmqfa","scope":"g:bolero","role":"peak"},
+{"song":"s_20mjgm5894","scope":"g:bolero","role":"peak"},
+{"song":"s_tcrtecns2a","scope":"g:bolero","role":"peak"},
+{"song":"s_r3tewkfkn0","scope":"g:bolero","role":"peak"},
+{"song":"s_eh9nmww3nf","scope":"g:bolero","role":"peak"},
+{"song":"s_21zstw6ck4","scope":"g:bolero","role":"peak"},
+{"song":"s_mda89y5k70","scope":"g:bolero","role":"peak","released":1992},
+{"song":"s_k542amx08h","scope":"g:bolero","role":"peak"},
+{"song":"s_21zstw6ck4","scope":"g:bolero","role":"reference"},
+{"song":"s_mda89y5k70","scope":"g:bolero","role":"reference","released":1991},
+{"song":"s_k542amx08h","scope":"g:bolero","role":"reference"},
+{"song":"s_dxktnphga1","scope":"g:bolero","role":"near miss","belongs_to":"son","reason":"Same musicians, but a dance son with a montuno vamp and tres guitar"}
+]

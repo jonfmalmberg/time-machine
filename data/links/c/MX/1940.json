@@ -1,0 +1,17 @@
+[
+{"song":"s_xfx9r874v0","scope":"c:MX:1940s","role":"home","scene":"film","confidence":"h"},
+{"song":"s_1h53rvtkdk","scope":"c:MX:1940s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_x6ma0mf7eg","scope":"c:MX:1940s","role":"home","released":1948,"scene":"film","confidence":"h"},
+{"song":"s_mrdmx68vk2","scope":"c:MX:1940s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_xv9yqc5gry","scope":"c:MX:1940s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_x10685p1r1","scope":"c:MX:1940s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_pjkzx0jqrn","scope":"c:MX:1940s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_87cssgbsk8","scope":"c:MX:1940s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_877s5q6g4w","scope":"c:MX:1940s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_8hngyg3zj8","scope":"c:MX:1940s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_ega6atg2rf","scope":"c:MX:1940s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_2g40txgfxn","scope":"c:MX:1940s","role":"foreign","scene":"radio","confidence":"m"},
+{"song":"s_r0sx9dd3k9","scope":"c:MX:1940s","role":"foreign","scene":"ballad","confidence":"m"},
+{"song":"s_2hj344r1gz","scope":"c:MX:1940s","role":"foreign","scene":"dance","confidence":"m"},
+{"song":"s_475t1vn2qm","scope":"c:MX:1940s","role":"foreign","scene":"dance","confidence":"m"}
+]

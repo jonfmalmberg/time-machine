@@ -1,0 +1,12 @@
+[
+{"song":"s_57y33twxs4","scope":"g:kundiman","role":"intro"},
+{"song":"s_4292marzs8","scope":"g:kundiman","role":"intro"},
+{"song":"s_25r24x69vw","scope":"g:kundiman","role":"peak","released":1960},
+{"song":"s_01gpm6sap3","scope":"g:kundiman","role":"peak","released":1960},
+{"song":"s_veq3rwskms","scope":"g:kundiman","role":"peak","released":1960},
+{"song":"s_jxa426m83r","scope":"g:kundiman","role":"peak"},
+{"song":"s_25r24x69vw","scope":"g:kundiman","role":"reference","released":1952},
+{"song":"s_01gpm6sap3","scope":"g:kundiman","role":"reference","released":1952},
+{"song":"s_4e5bxxr1am","scope":"g:kundiman","role":"near miss","belongs_to":"opm","reason":"Folk-pop with guitar, not classical art song"},
+{"release":"r_eexrfyang8","scope":"g:kundiman","role":"album"}
+]

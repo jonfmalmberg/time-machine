@@ -1,0 +1,18 @@
+[
+{"song":"s_nvk0zd29nx","scope":"g:classical","role":"intro"},
+{"song":"s_zc0n9vxhmv","scope":"g:classical","role":"intro"},
+{"song":"s_svf3h6dxck","scope":"g:classical","role":"intro"},
+{"song":"s_knd3980m74","scope":"g:classical","role":"peak"},
+{"song":"s_dsm11rst7f","scope":"g:classical","role":"peak"},
+{"song":"s_0rn55ayaxm","scope":"g:classical","role":"peak"},
+{"song":"s_t11tvqfh9w","scope":"g:classical","role":"peak"},
+{"song":"s_h3ny8tg8tk","scope":"g:classical","role":"peak"},
+{"song":"s_857nq4myq5","scope":"g:classical","role":"peak"},
+{"song":"s_t61mkkxh9n","scope":"g:classical","role":"peak"},
+{"song":"s_0hn4p0fdcg","scope":"g:classical","role":"peak"},
+{"song":"s_tg7yzqpxwh","scope":"g:classical","role":"peak"},
+{"song":"s_fna8mkp305","scope":"g:classical","role":"peak"},
+{"song":"s_10y64nhf8q","scope":"g:classical","role":"reference"},
+{"song":"s_y6e2hr2wx8","scope":"g:classical","role":"reference"},
+{"song":"s_52cw29v7sv","scope":"g:classical","role":"near miss","belongs_to":"romantic","reason":"Concerto form, but huge orchestra, sweeping themes and heavy rubato"}
+]

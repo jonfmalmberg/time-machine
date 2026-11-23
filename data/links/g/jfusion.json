@@ -1,0 +1,21 @@
+[
+{"song":"s_d5gqqv5c0z","scope":"g:jfusion","role":"intro"},
+{"song":"s_yx3hg4xyz2","scope":"g:jfusion","role":"intro"},
+{"song":"s_cpnmst0kk9","scope":"g:jfusion","role":"intro"},
+{"song":"s_f2pf7vadsd","scope":"g:jfusion","role":"peak"},
+{"song":"s_sxqrsbxg9m","scope":"g:jfusion","role":"peak"},
+{"song":"s_rsv7prvctm","scope":"g:jfusion","role":"peak"},
+{"song":"s_2kq4tez7km","scope":"g:jfusion","role":"peak"},
+{"song":"s_nbwfrkeb8s","scope":"g:jfusion","role":"peak"},
+{"song":"s_93embbp1fa","scope":"g:jfusion","role":"peak"},
+{"song":"s_nvhrbmja3f","scope":"g:jfusion","role":"peak"},
+{"song":"s_a6ts9a0hcn","scope":"g:jfusion","role":"peak"},
+{"song":"s_jtfh84hk3z","scope":"g:jfusion","role":"peak"},
+{"song":"s_7a8fc6xbxe","scope":"g:jfusion","role":"peak"},
+{"song":"s_d5gqqv5c0z","scope":"g:jfusion","role":"reference"},
+{"song":"s_cpnmst0kk9","scope":"g:jfusion","role":"reference"},
+{"song":"s_f2pf7vadsd","scope":"g:jfusion","role":"reference"},
+{"song":"s_7a8fc6xbxe","scope":"g:jfusion","role":"reference"},
+{"song":"s_z43q99vnch","scope":"g:jfusion","role":"near miss","belongs_to":"citypop","reason":"Same session players and gloss, but a sung pop song"},
+{"song":"s_tr2295m2w2","scope":"g:jfusion","role":"near miss","belongs_to":"fusion","reason":"American fusion: looser, more improvised and darker in tone"}
+]

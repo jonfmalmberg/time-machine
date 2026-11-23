@@ -1,0 +1,11 @@
+[
+{"song":"s_xxb5t61gx5","scope":"c:VN:1980s","role":"home","scene":"kids","confidence":"m"},
+{"song":"s_yqggxg2jc7","scope":"c:VN:1980s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_ag9safrf07","scope":"c:VN:1980s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_d69byb681e","scope":"c:VN:1980s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_hyxxatw3fv","scope":"c:VN:1980s","role":"foreign","scene":"ballad","confidence":"m"},
+{"song":"s_45ejrs36hv","scope":"c:VN:1980s","role":"foreign","scene":"pop","confidence":"h"},
+{"song":"s_w1jdrntvvb","scope":"c:VN:1980s","role":"foreign","scene":"film","confidence":"m"},
+{"song":"s_654c51e19b","scope":"c:VN:1980s","role":"foreign","scene":"dance","confidence":"h"},
+{"song":"s_h8bgxgwxva","scope":"c:VN:1980s","role":"foreign","scene":"dance","confidence":"m"}
+]

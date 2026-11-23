@@ -1,0 +1,22 @@
+[
+{"song":"s_3mgpc47k1a","scope":"g:edm","role":"intro"},
+{"song":"s_hghdfhd1fp","scope":"g:edm","role":"intro"},
+{"song":"s_prbdt0yxt2","scope":"g:edm","role":"intro"},
+{"song":"s_xpf6243naj","scope":"g:edm","role":"peak"},
+{"song":"s_13msybbqnt","scope":"g:edm","role":"peak"},
+{"song":"s_6e18w9zn3e","scope":"g:edm","role":"peak"},
+{"song":"s_w5jdrdxw2k","scope":"g:edm","role":"peak"},
+{"song":"s_g64dw0q26d","scope":"g:edm","role":"peak"},
+{"song":"s_cwc8e4wh32","scope":"g:edm","role":"peak"},
+{"song":"s_qjxpwr9v9f","scope":"g:edm","role":"peak"},
+{"song":"s_gpxt3j6hps","scope":"g:edm","role":"peak"},
+{"song":"s_wn7hfyyxq9","scope":"g:edm","role":"peak"},
+{"song":"s_pb8ga1xa9m","scope":"g:edm","role":"peak"},
+{"song":"s_c1mem9ryaz","scope":"g:edm","role":"peak"},
+{"song":"s_5bnzdzhbgh","scope":"g:edm","role":"peak"},
+{"song":"s_1b5fj0ja6d","scope":"g:edm","role":"peak"},
+{"song":"s_6e18w9zn3e","scope":"g:edm","role":"reference"},
+{"song":"s_bwd4ypgbv2","scope":"g:edm","role":"reference"},
+{"song":"s_gpxt3j6hps","scope":"g:edm","role":"reference"},
+{"song":"s_p11thkh2be","scope":"g:edm","role":"near miss","belongs_to":"edmpop","reason":"A sung pop song in festival clothing"}
+]

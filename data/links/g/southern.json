@@ -1,0 +1,20 @@
+[
+{"song":"s_c8jsnm3yat","scope":"g:southern","role":"intro"},
+{"song":"s_5ns3stknbk","scope":"g:southern","role":"intro"},
+{"song":"s_zdrka5zz2j","scope":"g:southern","role":"intro"},
+{"song":"s_6vmb4q6rpe","scope":"g:southern","role":"peak"},
+{"song":"s_kqm51mrzm9","scope":"g:southern","role":"peak"},
+{"song":"s_k5arqzpvhs","scope":"g:southern","role":"peak"},
+{"song":"s_q20rerpkwk","scope":"g:southern","role":"peak"},
+{"song":"s_nnhs95xbft","scope":"g:southern","role":"peak"},
+{"song":"s_f0g66jd6pt","scope":"g:southern","role":"peak"},
+{"song":"s_cde6wmv99x","scope":"g:southern","role":"peak"},
+{"song":"s_fr6zn8rsey","scope":"g:southern","role":"peak"},
+{"song":"s_v1mmds6x5g","scope":"g:southern","role":"peak"},
+{"song":"s_n9mfbqcepx","scope":"g:southern","role":"peak"},
+{"song":"s_c8jsnm3yat","scope":"g:southern","role":"reference"},
+{"song":"s_kqm51mrzm9","scope":"g:southern","role":"reference"},
+{"song":"s_k5arqzpvhs","scope":"g:southern","role":"reference"},
+{"song":"s_n9mfbqcepx","scope":"g:southern","role":"reference"},
+{"song":"s_nb6nhyymwm","scope":"g:southern","role":"near miss","belongs_to":"crunk","reason":"Chants and club energy replace the storytelling"}
+]

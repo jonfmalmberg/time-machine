@@ -1,0 +1,15 @@
+[
+{"song":"s_7v42xsxxt1","scope":"g:biguine","role":"intro"},
+{"song":"s_q6wf6jcqpw","scope":"g:biguine","role":"intro"},
+{"song":"s_tndazmxq1j","scope":"g:biguine","role":"intro"},
+{"song":"s_qvt1cx52wb","scope":"g:biguine","role":"peak"},
+{"song":"s_m218cshpxy","scope":"g:biguine","role":"peak"},
+{"song":"s_0nfv2swva0","scope":"g:biguine","role":"peak"},
+{"song":"s_5xk273fyy5","scope":"g:biguine","role":"peak"},
+{"song":"s_7v42xsxxt1","scope":"g:biguine","role":"reference"},
+{"song":"s_0nfv2swva0","scope":"g:biguine","role":"reference"},
+{"song":"s_q6wf6jcqpw","scope":"g:biguine","role":"reference"},
+{"song":"s_61vr25h4wc","scope":"g:biguine","role":"near miss","belongs_to":"zouk","reason":"Electric 1980s Antillean dance on synths and drum machines"},
+{"release":"r_cfgsceb6mq","scope":"g:biguine","role":"album"},
+{"release":"r_f5aayxyz5s","scope":"g:biguine","role":"album"}
+]

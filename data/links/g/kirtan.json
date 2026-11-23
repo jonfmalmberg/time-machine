@@ -1,0 +1,14 @@
+[
+{"song":"s_h97hyd9e89","scope":"g:kirtan","role":"peak"},
+{"song":"s_w9f8m7tbqb","scope":"g:kirtan","role":"peak"},
+{"song":"s_y39682shx2","scope":"g:kirtan","role":"peak"},
+{"song":"s_3031zfxryg","scope":"g:kirtan","role":"peak"},
+{"song":"s_zaw58g1eyp","scope":"g:kirtan","role":"peak"},
+{"song":"s_28x5vjwqvz","scope":"g:kirtan","role":"peak"},
+{"song":"s_w9f8m7tbqb","scope":"g:kirtan","role":"reference"},
+{"song":"s_zaw58g1eyp","scope":"g:kirtan","role":"reference"},
+{"song":"s_28x5vjwqvz","scope":"g:kirtan","role":"reference"},
+{"song":"s_bh3j7p8rjh","scope":"g:kirtan","role":"near miss","belongs_to":"qawwali","reason":"Sufi qawwali from the Muslim side of Punjab, here remixed"},
+{"release":"r_pw0txsyew2","scope":"g:kirtan","role":"album"},
+{"release":"r_s7ss0d938v","scope":"g:kirtan","role":"album"}
+]

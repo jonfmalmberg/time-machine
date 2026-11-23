@@ -1,0 +1,20 @@
+[
+{"song":"s_r15phf8j9a","scope":"g:groupsounds","role":"intro"},
+{"song":"s_ad8j1tev8c","scope":"g:groupsounds","role":"intro"},
+{"song":"s_qpw1xcv3d9","scope":"g:groupsounds","role":"intro"},
+{"song":"s_d5hd3zdr4p","scope":"g:groupsounds","role":"peak"},
+{"song":"s_mryv24t7em","scope":"g:groupsounds","role":"peak"},
+{"song":"s_6yh7wp8z6s","scope":"g:groupsounds","role":"peak"},
+{"song":"s_zhjdrr4p09","scope":"g:groupsounds","role":"peak"},
+{"song":"s_98sx34v2dn","scope":"g:groupsounds","role":"peak"},
+{"song":"s_j2h84tsnxy","scope":"g:groupsounds","role":"peak"},
+{"song":"s_99s2dqg3c6","scope":"g:groupsounds","role":"peak"},
+{"song":"s_vyzez1nbxv","scope":"g:groupsounds","role":"peak"},
+{"song":"s_qwagxgb5rb","scope":"g:groupsounds","role":"peak"},
+{"song":"s_03ggggyghe","scope":"g:groupsounds","role":"peak"},
+{"song":"s_r15phf8j9a","scope":"g:groupsounds","role":"reference"},
+{"song":"s_ad8j1tev8c","scope":"g:groupsounds","role":"reference"},
+{"song":"s_qwagxgb5rb","scope":"g:groupsounds","role":"reference"},
+{"song":"s_qpw1xcv3d9","scope":"g:groupsounds","role":"reference"},
+{"song":"s_0qtwfc5fwk","scope":"g:groupsounds","role":"near miss","belongs_to":"kayokyoku","reason":"Solo singer with studio orchestra, no beat group"}
+]

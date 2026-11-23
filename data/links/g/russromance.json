@@ -1,0 +1,11 @@
+[
+{"song":"s_kqxfcbscc1","scope":"g:russromance","role":"intro"},
+{"song":"s_hske9rc4kn","scope":"g:russromance","role":"intro"},
+{"song":"s_ryvd9w7zqg","scope":"g:russromance","role":"peak"},
+{"song":"s_kvb28w6qyt","scope":"g:russromance","role":"peak"},
+{"song":"s_b9dt00pzr4","scope":"g:russromance","role":"peak"},
+{"song":"s_ryvd9w7zqg","scope":"g:russromance","role":"reference"},
+{"song":"s_kvb28w6qyt","scope":"g:russromance","role":"reference"},
+{"song":"s_a6rcf6vvdy","scope":"g:russromance","role":"near miss","released":1968,"belongs_to":"bard","reason":"Voice and guitar, but a poet singing his own blunt verse, not a lyrical romance"},
+{"release":"r_wfz2rvax0n","scope":"g:russromance","role":"album"}
+]

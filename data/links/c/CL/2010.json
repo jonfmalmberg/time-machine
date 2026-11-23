@@ -1,0 +1,16 @@
+[
+{"song":"s_n8qe4kx63t","scope":"c:CL:2010s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_t00v9a5hnk","scope":"c:CL:2010s","role":"home","scene":"rock","confidence":"h"},
+{"song":"s_t904s3kgp4","scope":"c:CL:2010s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_sqxq4d5q8k","scope":"c:CL:2010s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_warpkwhz86","scope":"c:CL:2010s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_vgvnvmrhe9","scope":"c:CL:2010s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_p0t5axyjp1","scope":"c:CL:2010s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_4a22rnh1ev","scope":"c:CL:2010s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_tp6zha9zjt","scope":"c:CL:2010s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_p99z9d2j4x","scope":"c:CL:2010s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_xn8f6fawke","scope":"c:CL:2010s","role":"foreign","scene":"pop","confidence":"m"},
+{"song":"s_aqmfgcvpmf","scope":"c:CL:2010s","role":"foreign","scene":"dance","confidence":"h"},
+{"song":"s_5awrekztkx","scope":"c:CL:2010s","role":"foreign","scene":"dance","confidence":"h"},
+{"song":"s_ac08p094dz","scope":"c:CL:2010s","role":"foreign","scene":"pop","confidence":"m"}
+]

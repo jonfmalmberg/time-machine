@@ -1,0 +1,13 @@
+[
+{"song":"s_g0w5hgfasx","scope":"g:juju","role":"peak"},
+{"song":"s_p3xqat3zae","scope":"g:juju","role":"peak"},
+{"song":"s_h25c3yttv3","scope":"g:juju","role":"peak"},
+{"song":"s_r6hkwck0xy","scope":"g:juju","role":"peak"},
+{"song":"s_yjgxvxfm8d","scope":"g:juju","role":"peak","released":1983},
+{"song":"s_g0w5hgfasx","scope":"g:juju","role":"reference"},
+{"song":"s_yjgxvxfm8d","scope":"g:juju","role":"reference","released":1983},
+{"song":"s_4852k54fgx","scope":"g:juju","role":"near miss","belongs_to":"highlife","reason":"Nigerian guitar band, but highlife lilt and no talking-drum dialogue"},
+{"release":"r_qfrpmr9rbj","scope":"g:juju","role":"album"},
+{"release":"r_8vnawmyhr4","scope":"g:juju","role":"album"},
+{"release":"r_x8f3wktg7t","scope":"g:juju","role":"album"}
+]

@@ -1,0 +1,13 @@
+[
+{"song":"s_fxarn6dxf5","scope":"g:gqom","role":"peak","released":2016},
+{"song":"s_9cytvda57f","scope":"g:gqom","role":"peak","released":2016},
+{"song":"s_22hrms5fca","scope":"g:gqom","role":"peak"},
+{"song":"s_kpv4c34rq1","scope":"g:gqom","role":"peak","released":2018},
+{"song":"s_9wn1598xpq","scope":"g:gqom","role":"peak"},
+{"song":"s_fxarn6dxf5","scope":"g:gqom","role":"reference","released":2015},
+{"song":"s_444jhy002z","scope":"g:gqom","role":"reference"},
+{"song":"s_qw4qhxs4a5","scope":"g:gqom","role":"near miss","belongs_to":"kwaito","reason":"Kwaito: slowed house groove with warm bass and chanted vocals"},
+{"release":"r_zwx04pknvx","scope":"g:gqom","role":"album"},
+{"release":"r_tg2qy5e0fz","scope":"g:gqom","role":"album"},
+{"release":"r_16aq4650hc","scope":"g:gqom","role":"album"}
+]

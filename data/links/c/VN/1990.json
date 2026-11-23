@@ -1,0 +1,15 @@
+[
+{"song":"s_sa1m1we1xk","scope":"c:VN:1990s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_4tmsjezwm0","scope":"c:VN:1990s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_d8n8q84gjf","scope":"c:VN:1990s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_8k8y7t2h2r","scope":"c:VN:1990s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_qa4fjt23aq","scope":"c:VN:1990s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_rsraa9tj95","scope":"c:VN:1990s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_e9ckbzzeft","scope":"c:VN:1990s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_dhnt3sj6bh","scope":"c:VN:1990s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_kzcjedp677","scope":"c:VN:1990s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_rzst0f9vvk","scope":"c:VN:1990s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_8z9q11sk03","scope":"c:VN:1990s","role":"foreign","scene":"ballad","confidence":"h"},
+{"song":"s_h3jyyb7w5g","scope":"c:VN:1990s","role":"foreign","scene":"film","confidence":"h"},
+{"song":"s_xn6d4s058k","scope":"c:VN:1990s","role":"foreign","scene":"pop","confidence":"m"}
+]

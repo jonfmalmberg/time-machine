@@ -1,0 +1,18 @@
+[
+{"song":"s_jn9db4mary","scope":"g:highlife","role":"intro"},
+{"song":"s_gbmehkrekq","scope":"g:highlife","role":"intro"},
+{"song":"s_pjbw18mw87","scope":"g:highlife","role":"intro","released":1961},
+{"song":"s_4r4q40es1g","scope":"g:highlife","role":"peak"},
+{"song":"s_97tgnsfws1","scope":"g:highlife","role":"peak","released":1969},
+{"song":"s_g9de0zgee6","scope":"g:highlife","role":"peak"},
+{"song":"s_0ysm7j6g0m","scope":"g:highlife","role":"peak"},
+{"song":"s_qxxj7r11nb","scope":"g:highlife","role":"peak"},
+{"song":"s_66sn7p8b00","scope":"g:highlife","role":"peak","released":1971},
+{"song":"s_4852k54fgx","scope":"g:highlife","role":"peak"},
+{"song":"s_ybecrdgr06","scope":"g:highlife","role":"peak"},
+{"song":"s_x34hv7j458","scope":"g:highlife","role":"peak"},
+{"song":"s_55qpe6tetq","scope":"g:highlife","role":"peak"},
+{"song":"s_97tgnsfws1","scope":"g:highlife","role":"reference","released":1965},
+{"song":"s_4852k54fgx","scope":"g:highlife","role":"reference"},
+{"song":"s_em973htcm9","scope":"g:highlife","role":"near miss","belongs_to":"afrobeat","reason":"Grew from highlife, but long funk vamps, horns and political chant"}
+]

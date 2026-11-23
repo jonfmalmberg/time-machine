@@ -1,0 +1,17 @@
+[
+{"song":"s_sxzwx96skk","scope":"c:ID:2000s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_ehaaasvqjz","scope":"c:ID:2000s","role":"home","scene":"rock","confidence":"h"},
+{"song":"s_0jksz0gswc","scope":"c:ID:2000s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_byh01f8k2z","scope":"c:ID:2000s","role":"home","scene":"film","confidence":"h"},
+{"song":"s_tet1zx9q9c","scope":"c:ID:2000s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_82nec524wp","scope":"c:ID:2000s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_2rx25wbv9v","scope":"c:ID:2000s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_ar858kdnth","scope":"c:ID:2000s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_0v373ez86e","scope":"c:ID:2000s","role":"home","scene":"religious","confidence":"m"},
+{"song":"s_vykc7rwkz1","scope":"c:ID:2000s","role":"home","scene":"film","confidence":"h"},
+{"song":"s_7sg27bf7v8","scope":"c:ID:2000s","role":"home","scene":"rock","confidence":"m"},
+{"song":"s_xzhs1gqc8k","scope":"c:ID:2000s","role":"foreign","scene":"ballad","confidence":"m"},
+{"song":"s_rmscnc5n37","scope":"c:ID:2000s","role":"foreign","scene":"rock","confidence":"m"},
+{"song":"s_1sf4zex7tc","scope":"c:ID:2000s","role":"foreign","scene":"pop","confidence":"m"},
+{"song":"s_bn72q81x5c","scope":"c:ID:2000s","role":"foreign","scene":"pop","confidence":"m"}
+]

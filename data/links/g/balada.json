@@ -1,0 +1,21 @@
+[
+{"song":"s_6adhd0tm3n","scope":"g:balada","role":"intro"},
+{"song":"s_8pbca24fpg","scope":"g:balada","role":"intro"},
+{"song":"s_w44j6q6gv7","scope":"g:balada","role":"intro"},
+{"song":"s_x7q09mpred","scope":"g:balada","role":"peak"},
+{"song":"s_4qh6x0kvar","scope":"g:balada","role":"peak"},
+{"song":"s_404khs5gy4","scope":"g:balada","role":"peak"},
+{"song":"s_8mt371z9ks","scope":"g:balada","role":"peak"},
+{"song":"s_64cs9ek14b","scope":"g:balada","role":"peak"},
+{"song":"s_vqsr9zcage","scope":"g:balada","role":"peak"},
+{"song":"s_vb0sjndewv","scope":"g:balada","role":"peak"},
+{"song":"s_z2a82ybd5d","scope":"g:balada","role":"peak"},
+{"song":"s_frhf6fz03h","scope":"g:balada","role":"peak"},
+{"song":"s_j2e01dakyk","scope":"g:balada","role":"peak"},
+{"song":"s_fnpf9ddqgf","scope":"g:balada","role":"peak"},
+{"song":"s_6adhd0tm3n","scope":"g:balada","role":"reference"},
+{"song":"s_x7q09mpred","scope":"g:balada","role":"reference"},
+{"song":"s_4qh6x0kvar","scope":"g:balada","role":"reference"},
+{"song":"s_8mt371z9ks","scope":"g:balada","role":"reference"},
+{"song":"s_yw5zkt9hna","scope":"g:balada","role":"near miss","belongs_to":"latinpop","reason":"Dance-pop beat and crossover production"}
+]

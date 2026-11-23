@@ -1,0 +1,23 @@
+[
+{"song":"s_qrttjkkhkh","scope":"g:popsa","role":"intro"},
+{"song":"s_ja1pbjn2nr","scope":"g:popsa","role":"intro"},
+{"song":"s_mj93ghwaps","scope":"g:popsa","role":"intro"},
+{"song":"s_nr0g1350jh","scope":"g:popsa","role":"peak"},
+{"song":"s_qpa90j9pq8","scope":"g:popsa","role":"peak"},
+{"song":"s_pzrygg7pj9","scope":"g:popsa","role":"peak"},
+{"song":"s_bzkx3sn6vn","scope":"g:popsa","role":"peak"},
+{"song":"s_fcrsxbzr89","scope":"g:popsa","role":"peak"},
+{"song":"s_5rrxhxrz60","scope":"g:popsa","role":"peak"},
+{"song":"s_rfrmczdn60","scope":"g:popsa","role":"peak"},
+{"song":"s_s62h3e2bt4","scope":"g:popsa","role":"peak"},
+{"song":"s_0q97rcpm9x","scope":"g:popsa","role":"peak"},
+{"song":"s_mmarcqmmnm","scope":"g:popsa","role":"peak"},
+{"song":"s_q80zadh3rg","scope":"g:popsa","role":"peak"},
+{"song":"s_bk24bn9nhp","scope":"g:popsa","role":"peak"},
+{"song":"s_nr0g1350jh","scope":"g:popsa","role":"reference"},
+{"song":"s_fcrsxbzr89","scope":"g:popsa","role":"reference"},
+{"song":"s_qrttjkkhkh","scope":"g:popsa","role":"reference"},
+{"song":"s_bk24bn9nhp","scope":"g:popsa","role":"reference"},
+{"song":"s_0bha5etgpx","scope":"g:popsa","role":"near miss","belongs_to":"estrada","reason":"Soviet estrada: orchestral variety-stage song"},
+{"song":"s_xt8n4fh150","scope":"g:popsa","role":"near miss","belongs_to":"ruspostpunk","reason":"Gloomy post-punk revival, not glossy pop"}
+]

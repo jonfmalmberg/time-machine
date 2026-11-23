@@ -1,0 +1,22 @@
+[
+{"song":"s_w2xmdcyaw0","scope":"g:salsa","role":"intro"},
+{"song":"s_whm7q9d858","scope":"g:salsa","role":"intro"},
+{"song":"s_10z2663t7f","scope":"g:salsa","role":"intro"},
+{"song":"s_8h0vkf1196","scope":"g:salsa","role":"peak"},
+{"song":"s_078bcf0azq","scope":"g:salsa","role":"peak"},
+{"song":"s_v0g0jzrpp4","scope":"g:salsa","role":"peak"},
+{"song":"s_87m4pybnss","scope":"g:salsa","role":"peak"},
+{"song":"s_v5hcn1gbr2","scope":"g:salsa","role":"peak"},
+{"song":"s_6b6vk5h3vf","scope":"g:salsa","role":"peak"},
+{"song":"s_gm3zas5nq6","scope":"g:salsa","role":"peak"},
+{"song":"s_0s3nh28tfc","scope":"g:salsa","role":"peak"},
+{"song":"s_1gg1vsyqxy","scope":"g:salsa","role":"peak"},
+{"song":"s_7fe9bjja7w","scope":"g:salsa","role":"peak"},
+{"song":"s_w439xrsk8s","scope":"g:salsa","role":"peak"},
+{"song":"s_8350c81zcs","scope":"g:salsa","role":"peak"},
+{"song":"s_whm7q9d858","scope":"g:salsa","role":"reference"},
+{"song":"s_87m4pybnss","scope":"g:salsa","role":"reference"},
+{"song":"s_6b6vk5h3vf","scope":"g:salsa","role":"reference"},
+{"song":"s_gm3zas5nq6","scope":"g:salsa","role":"reference"},
+{"song":"s_8n7d7rfewk","scope":"g:salsa","role":"near miss","belongs_to":"boogaloo","reason":"English chants and soul-style handclaps, the party sound before salsa"}
+]

@@ -1,0 +1,21 @@
+[
+{"song":"s_stx74rzd77","scope":"g:poprap","role":"intro"},
+{"song":"s_f0g66jd6pt","scope":"g:poprap","role":"intro"},
+{"song":"s_089fyr69hm","scope":"g:poprap","role":"intro"},
+{"song":"s_1km0j96dwj","scope":"g:poprap","role":"peak"},
+{"song":"s_01r3v7vw6a","scope":"g:poprap","role":"peak"},
+{"song":"s_464kn316hm","scope":"g:poprap","role":"peak"},
+{"song":"s_0shm307rsv","scope":"g:poprap","role":"peak"},
+{"song":"s_f57zgt9fq6","scope":"g:poprap","role":"peak"},
+{"song":"s_fpdbrjdv9h","scope":"g:poprap","role":"peak"},
+{"song":"s_v5qz4rar9v","scope":"g:poprap","role":"peak"},
+{"song":"s_p08x4sr0dy","scope":"g:poprap","role":"peak"},
+{"song":"s_sk1wq8qrmf","scope":"g:poprap","role":"peak"},
+{"song":"s_43a49q7yc0","scope":"g:poprap","role":"peak"},
+{"song":"s_1km0j96dwj","scope":"g:poprap","role":"reference"},
+{"song":"s_464kn316hm","scope":"g:poprap","role":"reference"},
+{"song":"s_fpdbrjdv9h","scope":"g:poprap","role":"reference"},
+{"song":"s_sk1wq8qrmf","scope":"g:poprap","role":"reference"},
+{"song":"s_p08x4sr0dy","scope":"g:poprap","role":"reference"},
+{"song":"s_9c2bt2ggjr","scope":"g:poprap","role":"near miss","belongs_to":"trap","reason":"Same artist, but street narrative and dark synth stabs, not a pop hook"}
+]

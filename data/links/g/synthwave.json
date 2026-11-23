@@ -1,0 +1,18 @@
+[
+{"song":"s_tvrd40ed0k","scope":"g:synthwave","role":"intro"},
+{"song":"s_ck56dfq5je","scope":"g:synthwave","role":"intro"},
+{"song":"s_a2p8nzvtjf","scope":"g:synthwave","role":"intro"},
+{"song":"s_m5rhn485z3","scope":"g:synthwave","role":"peak"},
+{"song":"s_bs0trkkvqd","scope":"g:synthwave","role":"peak"},
+{"song":"s_z4tdzj0g9h","scope":"g:synthwave","role":"peak"},
+{"song":"s_y1y3anawdz","scope":"g:synthwave","role":"peak"},
+{"song":"s_y9d83znvfn","scope":"g:synthwave","role":"peak"},
+{"song":"s_ef0zzx27a5","scope":"g:synthwave","role":"peak"},
+{"song":"s_kv82ve4m9y","scope":"g:synthwave","role":"peak"},
+{"song":"s_38ses7w3xe","scope":"g:synthwave","role":"peak"},
+{"song":"s_8kz0yvghr4","scope":"g:synthwave","role":"peak"},
+{"song":"s_k11621s9dy","scope":"g:synthwave","role":"peak"},
+{"song":"s_m5rhn485z3","scope":"g:synthwave","role":"reference"},
+{"song":"s_bs0trkkvqd","scope":"g:synthwave","role":"reference"},
+{"song":"s_h4vm6b1wyh","scope":"g:synthwave","role":"near miss","belongs_to":"synthrevival","reason":"Same palette, but a mainstream pop single"}
+]

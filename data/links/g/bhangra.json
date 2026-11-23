@@ -1,0 +1,13 @@
+[
+{"song":"s_6eyymgrme4","scope":"g:bhangra","role":"intro"},
+{"song":"s_se5ezez8pm","scope":"g:bhangra","role":"intro"},
+{"song":"s_m97f02j3kh","scope":"g:bhangra","role":"peak"},
+{"song":"s_ddyv6dxmhd","scope":"g:bhangra","role":"peak"},
+{"song":"s_7zmwmx73yg","scope":"g:bhangra","role":"peak"},
+{"song":"s_z454sktq4b","scope":"g:bhangra","role":"peak"},
+{"song":"s_wh8wvc629p","scope":"g:bhangra","role":"peak"},
+{"song":"s_7zmwmx73yg","scope":"g:bhangra","role":"reference"},
+{"song":"s_gmaryjrwrx","scope":"g:bhangra","role":"near miss","belongs_to":"dancehall","reason":"Punjabi-British artist, but patois toasting over a ragga beat"},
+{"release":"r_z2e3p8ck64","scope":"g:bhangra","role":"album"},
+{"release":"r_aznbca2xnh","scope":"g:bhangra","role":"album"}
+]

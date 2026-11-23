@@ -1,0 +1,16 @@
+[
+{"song":"s_gwe1a8dxj9","scope":"g:ethiopop","role":"intro"},
+{"song":"s_yz2547qdy2","scope":"g:ethiopop","role":"intro"},
+{"song":"s_ba090bnz5r","scope":"g:ethiopop","role":"intro"},
+{"song":"s_tj3pbp6z3p","scope":"g:ethiopop","role":"peak"},
+{"song":"s_jgaasr3tjh","scope":"g:ethiopop","role":"peak"},
+{"song":"s_zmgajv3by0","scope":"g:ethiopop","role":"peak"},
+{"song":"s_vw6fs5zfxp","scope":"g:ethiopop","role":"peak"},
+{"song":"s_dgr447rm0n","scope":"g:ethiopop","role":"peak"},
+{"song":"s_gwe1a8dxj9","scope":"g:ethiopop","role":"reference"},
+{"song":"s_yz2547qdy2","scope":"g:ethiopop","role":"reference"},
+{"song":"s_ba090bnz5r","scope":"g:ethiopop","role":"reference"},
+{"song":"s_3n4cht3h5b","scope":"g:ethiopop","role":"near miss","released":1974,"belongs_to":"ethiojazz","reason":"Instrumental jazz rather than song"},
+{"release":"r_mds1ctwta7","scope":"g:ethiopop","role":"album"},
+{"release":"r_gfg3717896","scope":"g:ethiopop","role":"album"}
+]

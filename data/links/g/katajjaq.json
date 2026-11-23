@@ -1,0 +1,7 @@
+[
+{"song":"s_t1e473psj9","scope":"g:katajjaq","role":"reference"},
+{"song":"s_s4c7bg8dqz","scope":"g:katajjaq","role":"reference"},
+{"song":"s_4mnyd998av","scope":"g:katajjaq","role":"near miss","belongs_to":"throat","reason":"One singer making two pitches at once, not a two-person breathing game"},
+{"release":"r_jppbmvtz8s","scope":"g:katajjaq","role":"album"},
+{"release":"r_wqp4n2305r","scope":"g:katajjaq","role":"album"}
+]

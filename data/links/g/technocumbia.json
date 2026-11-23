@@ -1,0 +1,21 @@
+[
+{"song":"s_rmwq7ysa4q","scope":"g:technocumbia","role":"intro"},
+{"song":"s_m79k5aaf21","scope":"g:technocumbia","role":"intro"},
+{"song":"s_3xp1pqafvf","scope":"g:technocumbia","role":"intro"},
+{"song":"s_f48edsa4yd","scope":"g:technocumbia","role":"peak"},
+{"song":"s_v738vy1w5c","scope":"g:technocumbia","role":"peak"},
+{"song":"s_zk402vejbs","scope":"g:technocumbia","role":"peak"},
+{"song":"s_ms38791bt4","scope":"g:technocumbia","role":"peak"},
+{"song":"s_h2dwawhrkc","scope":"g:technocumbia","role":"peak"},
+{"song":"s_7gsk3ezfzc","scope":"g:technocumbia","role":"peak"},
+{"song":"s_f08x6fgzdb","scope":"g:technocumbia","role":"peak"},
+{"song":"s_1zpvzeffeq","scope":"g:technocumbia","role":"peak"},
+{"song":"s_0wz6eg8jgs","scope":"g:technocumbia","role":"peak"},
+{"song":"s_phjwa3p8wh","scope":"g:technocumbia","role":"peak"},
+{"song":"s_fev9n8thw1","scope":"g:technocumbia","role":"peak"},
+{"song":"s_rmwq7ysa4q","scope":"g:technocumbia","role":"reference"},
+{"song":"s_f08x6fgzdb","scope":"g:technocumbia","role":"reference"},
+{"song":"s_3xp1pqafvf","scope":"g:technocumbia","role":"reference"},
+{"song":"s_b1125vf5vp","scope":"g:technocumbia","role":"near miss","belongs_to":"mexcumbia","reason":"Accordion-led sonidero cumbia, less synthetic"},
+{"song":"s_r9323rc4kt","scope":"g:technocumbia","role":"near miss","released":1981,"belongs_to":"chicha","reason":"Guitar-led Andean cumbia, before the keyboards took over"}
+]

@@ -1,0 +1,19 @@
+[
+{"song":"s_7v0zq03qk2","scope":"g:corrido","role":"intro"},
+{"song":"s_s6cqdgzja3","scope":"g:corrido","role":"intro"},
+{"song":"s_ztd9g02j22","scope":"g:corrido","role":"intro"},
+{"song":"s_b227t6vgx7","scope":"g:corrido","role":"peak"},
+{"song":"s_0wjqsszwa9","scope":"g:corrido","role":"peak"},
+{"song":"s_34w7d73kgd","scope":"g:corrido","role":"peak"},
+{"song":"s_w9g3jmrv8w","scope":"g:corrido","role":"peak"},
+{"song":"s_fswxxmrxyg","scope":"g:corrido","role":"peak"},
+{"song":"s_9y2n3p64w8","scope":"g:corrido","role":"peak"},
+{"song":"s_98wp9vvy8c","scope":"g:corrido","role":"peak"},
+{"song":"s_yaan9c805v","scope":"g:corrido","role":"peak"},
+{"song":"s_y1q70c82a1","scope":"g:corrido","role":"peak"},
+{"song":"s_v4zqdht9e6","scope":"g:corrido","role":"peak"},
+{"song":"s_0wjqsszwa9","scope":"g:corrido","role":"reference"},
+{"song":"s_yaan9c805v","scope":"g:corrido","role":"reference"},
+{"song":"s_y1q70c82a1","scope":"g:corrido","role":"reference"},
+{"song":"s_kk1abqhbf7","scope":"g:corrido","role":"near miss","belongs_to":"tumbados","reason":"Corrido form, but trap lyrics and requinto-led sierreño sound"}
+]

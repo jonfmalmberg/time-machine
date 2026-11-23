@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (data model on dev; when something is its own genre)
+
+- Owner: confident the schema work is correct without reviewing it. `schema` squash-merged to `dev`. Not released to `main`.
+- Owner's guidance on the tree, recorded as principle 27: use judgement, asking two questions. Does it feel distinct? Is the category too big or too small for the data? Too big is likely right to split if its members sound like they could be distinct; too small is likely right to merge if another genre sounds too similar to tell apart. A different language and a different place of origin, before globalisation, is probably a separate thing whatever its size. Decide on the specific evidence.
+- Lead's determinations from the evidence in the first genre batch: rways (Tashelhit professional troubadours) is its own genre, separate from the communal ahwash and ahidus dances; Korean minyo (folk song) is its own genre, separate from pungmul (percussion bands) and from Japanese min'yō. Both are to be added as named genres and the `pungmul` candidates divided between the two.
+- Found while preparing to add them: the tree's row layout is stored in `data/layout.json` and the method that produced it is not in the repository. A genre cannot be added to the tree until that method is rebuilt. Recorded as a gap in `ARCHITECTURE.md`.
+
 ## 2026-11-23 (third helper hand-back: first genre batch)
 
 - H3 accepted as candidates: eight genres (Kalevala runosong, ngoma, Amazigh ahwash and ahidus, chèo, ca trù, quan họ, Bihu songs, pungmul), 98 songs, each with a size estimate, sources with quoted lines, and a list of what could not be verified. Three came out full, five thin. They are not in the site's data: they wait for the data model to reach `dev`, the evidence check and a genre acceptance test.
@@ -14,6 +21,24 @@ One entry per working session, newest first: what was done, what was decided and
 - H2 (open data sources) reviewed and accepted with its shortfalls noted; copied to `docs/research/2026-11-23-open-data-sources.md`. Findings that matter for the model: only MusicBrainz gives a recording a stable identifier, and it publishes a CC0 mapping of every recording to one canonical version; MusicBrainz genre tags sit in its non-commercial part, so they cannot be copied in; AcousticBrainz has ended and its makers call the data not useful, so it is not a source for tempo or mood.
 - Seen in the helper's run: an unattended run cannot answer the fetch tool's permission requests, so some pages go unread; and the shell cannot download pages, which confirms the evidence-check script cannot run until web access for scripts is allowed.
 - Helper fired again for the next open assignment (genre batch 1).
+## 2026-11-23 (artist credits split)
+
+- Owner: a song with several credited artists must point at each artist in the master list; a version with a featured artist and one without are different songs.
+- Done on `schema` by an Opus sub-agent to a written specification, reviewed by the lead: 1,041 credits contained a joiner; 338 decided as one act, 685 as several acts with roles (main, featured, with), 18 left as unsure and still marked unsplit. 731 songs and 18 releases now point at individual artists and keep the credit as listed in `credit_text`. Artists 6,889 to 6,852.
+- Rule used, written into the schema: a duo or group performing under one name, and a leader with their own named band, is one artist; separately established acts credited together are several.
+- The page is still byte-identical (sha256 94940c40...), re-checked by the lead.
+- Limits: decisions came from the model's own knowledge, with no lookup, and each carries only a category as its basis. 30 artist pairs differ only in capitals (ROSALÍA and Rosalía) and are still separate records. The 18 unsure ones are listed in `work/2026-11-23-credits/decisions.json`.
+
+## 2026-11-23 (data moved to the new model)
+
+- Owner accepted the schema as the model to build and asked for work to continue without him until his review is needed.
+- Branch `schema`: today's 29 data files converted into the new model by `tools/migrate_2026_11_23.py` (written by an Opus sub-agent to a written specification, reviewed by the lead). `build.py` now reads only the new files and rebuilds the shape the page reads through `tools/legacy_data.py`. The page was not changed.
+- Proof: `dist/index.html` built from the old files on `dev` and from the new files on `schema` have the same sha256 (94940c40...). Checked by the lead independently of the sub-agent, by stashing the change and rebuilding.
+- New test `tests/data.py` enforces the model's rules, including the owner's tree rule (one principal parent, at most two others).
+- Counts: 10,700 songs, 6,889 artist credits (not yet split into individual artists), 310 releases, 1,205 evidence records, 14,495 links.
+- Lead's correction to its own specification: it asked for central files split by two key characters, which made 4,330 tiny files; regrouped by one character (32 files per folder).
+- Lists for decision in `work/2026-11-23-schema/`, nothing merged: 809 possible duplicate songs, 71 songs chosen for more than one genre's playlist, 165 songs whose lists disagree on the release year, 35 genres whose family differs from their tradition's family.
+- Not done in this step, by design: splitting artist credits, mapping chart songs to genres, compositions, weights, evidence strings. Three cities still point at countries that have no record (Gibraltar, Tuvalu, Nauru): adding them needs names and regions the lead will not invent.
 
 ## 2026-11-23 (schema: cities over time, tree rule, a song's genres)
 

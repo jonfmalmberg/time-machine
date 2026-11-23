@@ -1,0 +1,21 @@
+[
+{"song":"s_hpyz2h93te","scope":"g:suomirock","role":"intro"},
+{"song":"s_sr14jkg7bj","scope":"g:suomirock","role":"intro"},
+{"song":"s_a1tm7dcbhv","scope":"g:suomirock","role":"intro"},
+{"song":"s_73fm4104cf","scope":"g:suomirock","role":"peak"},
+{"song":"s_mb9day620p","scope":"g:suomirock","role":"peak"},
+{"song":"s_qx5ysj8vt7","scope":"g:suomirock","role":"peak"},
+{"song":"s_y9yakxxx9s","scope":"g:suomirock","role":"peak"},
+{"song":"s_83jzfezfpr","scope":"g:suomirock","role":"peak"},
+{"song":"s_zxkdwwn840","scope":"g:suomirock","role":"peak","released":1983},
+{"song":"s_3jk01ngets","scope":"g:suomirock","role":"peak"},
+{"song":"s_b626gcp316","scope":"g:suomirock","role":"peak"},
+{"song":"s_a1bakkajea","scope":"g:suomirock","role":"peak"},
+{"song":"s_zp2w9q7q48","scope":"g:suomirock","role":"peak"},
+{"song":"s_kwdp1gt4p2","scope":"g:suomirock","role":"peak"},
+{"song":"s_hpyz2h93te","scope":"g:suomirock","role":"reference"},
+{"song":"s_a1tm7dcbhv","scope":"g:suomirock","role":"reference"},
+{"song":"s_sr14jkg7bj","scope":"g:suomirock","role":"reference"},
+{"song":"s_e623hcrtb7","scope":"g:suomirock","role":"near miss","belongs_to":"metal","reason":"Finnish band, but English-language glam hard rock"},
+{"song":"s_178271dzka","scope":"g:suomirock","role":"near miss","belongs_to":"iskelma","reason":"Older Finnish schlager and tango, not rock"}
+]

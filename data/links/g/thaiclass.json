@@ -1,0 +1,10 @@
+[
+{"song":"s_4g4a65m5mm","scope":"g:thaiclass","role":"intro"},
+{"song":"s_4g4a65m5mm","scope":"g:thaiclass","role":"reference"},
+{"song":"s_z1t6mk00x2","scope":"g:thaiclass","role":"reference"},
+{"song":"s_ndv49ftwnf","scope":"g:thaiclass","role":"reference"},
+{"song":"s_z7fgt2bfth","scope":"g:thaiclass","role":"near miss","belongs_to":"gamelan","reason":"Javanese bronze gamelan, slower and built on gong cycles"},
+{"release":"r_s4anzhq7k1","scope":"g:thaiclass","role":"album"},
+{"release":"r_tdr12kf6ak","scope":"g:thaiclass","role":"album"},
+{"release":"r_1e0hzm2gp3","scope":"g:thaiclass","role":"album"}
+]

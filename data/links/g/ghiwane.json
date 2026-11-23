@@ -1,0 +1,14 @@
+[
+{"song":"s_53vhwtw276","scope":"g:ghiwane","role":"intro"},
+{"song":"s_s1nk2mp8zd","scope":"g:ghiwane","role":"intro"},
+{"song":"s_3wz6qgneah","scope":"g:ghiwane","role":"intro"},
+{"song":"s_ggypx9r512","scope":"g:ghiwane","role":"peak"},
+{"song":"s_qqar39np3z","scope":"g:ghiwane","role":"peak"},
+{"song":"s_18ay7zjnhe","scope":"g:ghiwane","role":"peak"},
+{"song":"s_zkjesptj7x","scope":"g:ghiwane","role":"peak"},
+{"song":"s_53vhwtw276","scope":"g:ghiwane","role":"reference"},
+{"song":"s_s1nk2mp8zd","scope":"g:ghiwane","role":"reference"},
+{"song":"s_3wz6qgneah","scope":"g:ghiwane","role":"reference"},
+{"song":"s_zg0hwfkwme","scope":"g:ghiwane","role":"near miss","belongs_to":"rai","reason":"Algerian raï: electric, dance-oriented, one star singer"},
+{"release":"r_bdvmawdc82","scope":"g:ghiwane","role":"album"}
+]

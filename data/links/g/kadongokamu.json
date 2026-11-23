@@ -1,0 +1,18 @@
+[
+{"song":"s_x5q9hznzdb","scope":"g:kadongokamu","role":"intro"},
+{"song":"s_hgbc2hampt","scope":"g:kadongokamu","role":"intro"},
+{"song":"s_h269d8ks9b","scope":"g:kadongokamu","role":"intro"},
+{"song":"s_kzkg5esnqn","scope":"g:kadongokamu","role":"peak"},
+{"song":"s_h269d8ks9b","scope":"g:kadongokamu","role":"peak"},
+{"song":"s_sbe3z41e3h","scope":"g:kadongokamu","role":"peak"},
+{"song":"s_x5q9hznzdb","scope":"g:kadongokamu","role":"peak"},
+{"song":"s_38h02phfma","scope":"g:kadongokamu","role":"peak"},
+{"song":"s_495y47twzc","scope":"g:kadongokamu","role":"peak"},
+{"song":"s_hgbc2hampt","scope":"g:kadongokamu","role":"peak"},
+{"song":"s_x5q9hznzdb","scope":"g:kadongokamu","role":"reference"},
+{"song":"s_h269d8ks9b","scope":"g:kadongokamu","role":"reference"},
+{"song":"s_kzkg5esnqn","scope":"g:kadongokamu","role":"reference"},
+{"song":"s_9nxdx9ede1","scope":"g:kadongokamu","role":"near miss","belongs_to":"kidandali","reason":"Full dance band with horns, not a lone guitarist"},
+{"release":"r_7598nvbxsm","scope":"g:kadongokamu","role":"album"},
+{"release":"r_88asmcf399","scope":"g:kadongokamu","role":"album"}
+]

@@ -1,0 +1,19 @@
+[
+{"song":"s_ttwatx3p61","scope":"g:ragtime","role":"intro"},
+{"song":"s_jfket29h6a","scope":"g:ragtime","role":"intro"},
+{"song":"s_76k8t4wpx9","scope":"g:ragtime","role":"peak"},
+{"song":"s_sjprha5erx","scope":"g:ragtime","role":"peak"},
+{"song":"s_a9nfpmpm7k","scope":"g:ragtime","role":"peak"},
+{"song":"s_3d1vez9tvq","scope":"g:ragtime","role":"peak"},
+{"song":"s_kh6q53x9xh","scope":"g:ragtime","role":"peak"},
+{"song":"s_tym2727jex","scope":"g:ragtime","role":"peak"},
+{"song":"s_zay8a95j2k","scope":"g:ragtime","role":"peak"},
+{"song":"s_jbknjzmfgh","scope":"g:ragtime","role":"peak"},
+{"song":"s_r4fptctss6","scope":"g:ragtime","role":"peak"},
+{"song":"s_2hedgx7nv3","scope":"g:ragtime","role":"peak"},
+{"song":"s_9gtfn5sp5g","scope":"g:ragtime","role":"peak"},
+{"song":"s_nc1fqxswg2","scope":"g:ragtime","role":"peak"},
+{"song":"s_t14gzvnz6y","scope":"g:ragtime","role":"reference"},
+{"song":"s_46r8kgrw6n","scope":"g:ragtime","role":"reference"},
+{"song":"s_n7c30awx0c","scope":"g:ragtime","role":"near miss","belongs_to":"jazz","reason":"Stride piano: faster, improvised, and swinging rather than strictly even"}
+]

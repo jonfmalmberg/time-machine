@@ -1,0 +1,21 @@
+[
+{"song":"s_2m8f8t3jtd","scope":"g:argentinecumbia","role":"intro"},
+{"song":"s_47kgxr676c","scope":"g:argentinecumbia","role":"intro"},
+{"song":"s_hvjpg6z2j7","scope":"g:argentinecumbia","role":"intro"},
+{"song":"s_sxpqssbgg1","scope":"g:argentinecumbia","role":"peak"},
+{"song":"s_vqw83xxw91","scope":"g:argentinecumbia","role":"peak"},
+{"song":"s_6qq6gkhwde","scope":"g:argentinecumbia","role":"peak"},
+{"song":"s_2ehw04ezw7","scope":"g:argentinecumbia","role":"peak"},
+{"song":"s_7d6xcmhhmz","scope":"g:argentinecumbia","role":"peak"},
+{"song":"s_h4pfbtr1cm","scope":"g:argentinecumbia","role":"peak"},
+{"song":"s_b9e4738xgr","scope":"g:argentinecumbia","role":"peak"},
+{"song":"s_4mrgsjak48","scope":"g:argentinecumbia","role":"peak"},
+{"song":"s_mba4704tj2","scope":"g:argentinecumbia","role":"peak"},
+{"song":"s_r97p6mtehj","scope":"g:argentinecumbia","role":"peak"},
+{"song":"s_ecjtngv8g6","scope":"g:argentinecumbia","role":"peak"},
+{"song":"s_sxpqssbgg1","scope":"g:argentinecumbia","role":"reference"},
+{"song":"s_2m8f8t3jtd","scope":"g:argentinecumbia","role":"reference"},
+{"song":"s_hvjpg6z2j7","scope":"g:argentinecumbia","role":"reference"},
+{"song":"s_47kgxr676c","scope":"g:argentinecumbia","role":"reference"},
+{"song":"s_mftthqvx36","scope":"g:argentinecumbia","role":"near miss","belongs_to":"villera","reason":"Slum-life lyrics, keytar and a rougher sound"}
+]

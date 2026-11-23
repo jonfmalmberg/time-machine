@@ -1,0 +1,8 @@
+[
+{"song":"s_00kdg2qpfe","scope":"g:bomba","role":"intro"},
+{"song":"s_2rmq55zppn","scope":"g:bomba","role":"intro"},
+{"song":"s_00kdg2qpfe","scope":"g:bomba","role":"reference"},
+{"song":"s_2rmq55zppn","scope":"g:bomba","role":"reference"},
+{"song":"s_qdxzq6mp6r","scope":"g:bomba","role":"near miss","released":1958,"belongs_to":"plena","reason":"Pandereta frame drums and news-like verses, not barrel drums"},
+{"release":"r_10gkey0qmw","scope":"g:bomba","role":"album"}
+]

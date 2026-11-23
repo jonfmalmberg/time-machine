@@ -1,0 +1,20 @@
+[
+{"song":"s_13ab3bmt6t","scope":"g:morna","role":"intro"},
+{"song":"s_n3xhmqcmb4","scope":"g:morna","role":"intro"},
+{"song":"s_my9np8kg9q","scope":"g:morna","role":"intro"},
+{"song":"s_f5dhch9a30","scope":"g:morna","role":"peak"},
+{"song":"s_vd6scqhqnj","scope":"g:morna","role":"peak"},
+{"song":"s_js5kd5v51n","scope":"g:morna","role":"peak"},
+{"song":"s_hmqeyekn5r","scope":"g:morna","role":"peak"},
+{"song":"s_bhjxxyrp64","scope":"g:morna","role":"peak"},
+{"song":"s_rardc8rckv","scope":"g:morna","role":"peak"},
+{"song":"s_0raq7xtfqz","scope":"g:morna","role":"peak"},
+{"song":"s_463cy28gpa","scope":"g:morna","role":"peak"},
+{"song":"s_3gxw062kqw","scope":"g:morna","role":"peak"},
+{"song":"s_s0c5jz01v5","scope":"g:morna","role":"peak"},
+{"song":"s_13ab3bmt6t","scope":"g:morna","role":"reference"},
+{"song":"s_my9np8kg9q","scope":"g:morna","role":"reference"},
+{"song":"s_f5dhch9a30","scope":"g:morna","role":"reference"},
+{"song":"s_hmqeyekn5r","scope":"g:morna","role":"reference"},
+{"song":"s_9ba79gpkpy","scope":"g:morna","role":"near miss","belongs_to":"fado","reason":"Lisbon fado: Portuguese guitar and Portuguese lyrics"}
+]

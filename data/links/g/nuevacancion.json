@@ -1,0 +1,18 @@
+[
+{"song":"s_zk3m0yvyf0","scope":"g:nuevacancion","role":"intro"},
+{"song":"s_spgz99yp0c","scope":"g:nuevacancion","role":"intro"},
+{"song":"s_vscrthftr5","scope":"g:nuevacancion","role":"intro"},
+{"song":"s_s0vh6664ka","scope":"g:nuevacancion","role":"peak"},
+{"song":"s_p6215vb0tr","scope":"g:nuevacancion","role":"peak"},
+{"song":"s_gw7ed477qt","scope":"g:nuevacancion","role":"peak"},
+{"song":"s_4vn6ft068y","scope":"g:nuevacancion","role":"peak"},
+{"song":"s_ewdw94nq5s","scope":"g:nuevacancion","role":"peak"},
+{"song":"s_58p8wwmxp3","scope":"g:nuevacancion","role":"peak"},
+{"song":"s_gyns8s3368","scope":"g:nuevacancion","role":"peak"},
+{"song":"s_50mhjeqrrz","scope":"g:nuevacancion","role":"peak"},
+{"song":"s_b8kn4xrtpc","scope":"g:nuevacancion","role":"peak"},
+{"song":"s_2zv6vbbaxg","scope":"g:nuevacancion","role":"peak"},
+{"song":"s_vscrthftr5","scope":"g:nuevacancion","role":"reference"},
+{"song":"s_p6215vb0tr","scope":"g:nuevacancion","role":"reference"},
+{"song":"s_d5ry1hqrfk","scope":"g:nuevacancion","role":"near miss","belongs_to":"nuevatrova","reason":"Same politics, but Cuban trova songwriting, less folk instrumentation"}
+]

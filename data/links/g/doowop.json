@@ -1,0 +1,22 @@
+[
+{"song":"s_1zvmbhnfqp","scope":"g:doowop","role":"intro"},
+{"song":"s_t1vvtfdeyk","scope":"g:doowop","role":"intro"},
+{"song":"s_n36t02zsnq","scope":"g:doowop","role":"intro"},
+{"song":"s_b3cn9rq09w","scope":"g:doowop","role":"peak"},
+{"song":"s_wtn3cjgkk5","scope":"g:doowop","role":"peak"},
+{"song":"s_82hq2pbn06","scope":"g:doowop","role":"peak"},
+{"song":"s_67vss7frye","scope":"g:doowop","role":"peak"},
+{"song":"s_jjhjrtheyh","scope":"g:doowop","role":"peak"},
+{"song":"s_tqdq6pfb5b","scope":"g:doowop","role":"peak"},
+{"song":"s_hwthkdz11z","scope":"g:doowop","role":"peak"},
+{"song":"s_8sp1sdcwct","scope":"g:doowop","role":"peak"},
+{"song":"s_vzc71qa7xz","scope":"g:doowop","role":"peak"},
+{"song":"s_pdfryj6dse","scope":"g:doowop","role":"peak"},
+{"song":"s_jfk486etr7","scope":"g:doowop","role":"peak"},
+{"song":"s_3keyys00xe","scope":"g:doowop","role":"peak"},
+{"song":"s_1zvmbhnfqp","scope":"g:doowop","role":"reference"},
+{"song":"s_t1vvtfdeyk","scope":"g:doowop","role":"reference"},
+{"song":"s_n36t02zsnq","scope":"g:doowop","role":"reference"},
+{"song":"s_pdfryj6dse","scope":"g:doowop","role":"reference"},
+{"song":"s_tqj3nhkx9q","scope":"g:doowop","role":"near miss","belongs_to":"soul","reason":"Strings and a Latin beat: uptown soul, past the street corner"}
+]

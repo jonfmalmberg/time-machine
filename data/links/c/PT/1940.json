@@ -1,0 +1,12 @@
+[
+{"song":"s_mbwx92qfp0","scope":"c:PT:1940s","role":"home","scene":"film","confidence":"h"},
+{"song":"s_wjmrbgr6n4","scope":"c:PT:1940s","role":"home","scene":"film","confidence":"h"},
+{"song":"s_806y8decex","scope":"c:PT:1940s","role":"home","scene":"radio","confidence":"h"},
+{"song":"s_ad8jmm743c","scope":"c:PT:1940s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_z6xkwydxez","scope":"c:PT:1940s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_wra8wnagm0","scope":"c:PT:1940s","role":"foreign","scene":"radio","confidence":"m"},
+{"song":"s_6gts1tvh0t","scope":"c:PT:1940s","role":"foreign","scene":"dance","confidence":"m"},
+{"song":"s_94e9aqxedz","scope":"c:PT:1940s","role":"foreign","scene":"radio","confidence":"m"},
+{"song":"s_fnfr75p712","scope":"c:PT:1940s","role":"foreign","scene":"radio","confidence":"m"},
+{"song":"s_wvs1ph8j35","scope":"c:PT:1940s","role":"foreign","scene":"radio","confidence":"m"}
+]

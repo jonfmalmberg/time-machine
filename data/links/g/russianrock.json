@@ -1,0 +1,23 @@
+[
+{"song":"s_bg0p6fpvfh","scope":"g:russianrock","role":"intro"},
+{"song":"s_hf5czxq0zq","scope":"g:russianrock","role":"intro"},
+{"song":"s_js9nrm4ady","scope":"g:russianrock","role":"intro"},
+{"song":"s_dybsx62fqr","scope":"g:russianrock","role":"peak"},
+{"song":"s_p8geecfcbc","scope":"g:russianrock","role":"peak"},
+{"song":"s_zqj8e520fp","scope":"g:russianrock","role":"peak"},
+{"song":"s_ne0c7na298","scope":"g:russianrock","role":"peak"},
+{"song":"s_nzjztm4y5m","scope":"g:russianrock","role":"peak"},
+{"song":"s_m1dhwhxqhg","scope":"g:russianrock","role":"peak"},
+{"song":"s_09n3mhprfa","scope":"g:russianrock","role":"peak"},
+{"song":"s_nqar01ajzm","scope":"g:russianrock","role":"peak"},
+{"song":"s_45jzv1b2h6","scope":"g:russianrock","role":"peak"},
+{"song":"s_arfahceqwp","scope":"g:russianrock","role":"peak"},
+{"song":"s_cfxkwc4szb","scope":"g:russianrock","role":"peak"},
+{"song":"s_j4t4cxgjcs","scope":"g:russianrock","role":"peak"},
+{"song":"s_bg0p6fpvfh","scope":"g:russianrock","role":"reference"},
+{"song":"s_js9nrm4ady","scope":"g:russianrock","role":"reference"},
+{"song":"s_ne0c7na298","scope":"g:russianrock","role":"reference"},
+{"song":"s_nqar01ajzm","scope":"g:russianrock","role":"reference"},
+{"song":"s_vxtr4jm6y7","scope":"g:russianrock","role":"near miss","belongs_to":"bard","reason":"One voice and guitar, no band"},
+{"song":"s_tkhf28yb3n","scope":"g:russianrock","role":"near miss","belongs_to":"ruspostpunk","reason":"Later Belarusian revival, colder and synth-led"}
+]

@@ -1,0 +1,20 @@
+[
+{"song":"s_sctb024fs4","scope":"g:dangdutkoplo","role":"intro"},
+{"song":"s_w78gg7e4jw","scope":"g:dangdutkoplo","role":"intro"},
+{"song":"s_sjavec7mx5","scope":"g:dangdutkoplo","role":"intro"},
+{"song":"s_w2mp20z686","scope":"g:dangdutkoplo","role":"peak"},
+{"song":"s_p3atz4r994","scope":"g:dangdutkoplo","role":"peak"},
+{"song":"s_r4153xnw55","scope":"g:dangdutkoplo","role":"peak"},
+{"song":"s_3mjp4ahx65","scope":"g:dangdutkoplo","role":"peak"},
+{"song":"s_7zr4xqzayk","scope":"g:dangdutkoplo","role":"peak"},
+{"song":"s_tmgqnf43md","scope":"g:dangdutkoplo","role":"peak"},
+{"song":"s_egvhech1t7","scope":"g:dangdutkoplo","role":"peak"},
+{"song":"s_011maf3vqx","scope":"g:dangdutkoplo","role":"peak"},
+{"song":"s_02jw6gg7zx","scope":"g:dangdutkoplo","role":"peak"},
+{"song":"s_pn0az5sxzw","scope":"g:dangdutkoplo","role":"peak"},
+{"song":"s_w2mp20z686","scope":"g:dangdutkoplo","role":"reference"},
+{"song":"s_sctb024fs4","scope":"g:dangdutkoplo","role":"reference"},
+{"song":"s_sjavec7mx5","scope":"g:dangdutkoplo","role":"reference"},
+{"song":"s_w78gg7e4jw","scope":"g:dangdutkoplo","role":"reference"},
+{"song":"s_t4estvv2rj","scope":"g:dangdutkoplo","role":"near miss","belongs_to":"dangdut","reason":"Classic dangdut at a steadier tempo, with flute and rock guitar"}
+]

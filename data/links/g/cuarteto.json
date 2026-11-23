@@ -1,0 +1,20 @@
+[
+{"song":"s_pbb9h9pmga","scope":"g:cuarteto","role":"intro"},
+{"song":"s_g0m31g78vj","scope":"g:cuarteto","role":"intro"},
+{"song":"s_veqmyq7p61","scope":"g:cuarteto","role":"intro"},
+{"song":"s_v5r7cynt1k","scope":"g:cuarteto","role":"peak"},
+{"song":"s_r7jbpwzp9a","scope":"g:cuarteto","role":"peak"},
+{"song":"s_53ppbk9pcg","scope":"g:cuarteto","role":"peak"},
+{"song":"s_jr7a52c01k","scope":"g:cuarteto","role":"peak"},
+{"song":"s_3be11v890b","scope":"g:cuarteto","role":"peak"},
+{"song":"s_9cyyqcs563","scope":"g:cuarteto","role":"peak"},
+{"song":"s_hcnbe3fv6b","scope":"g:cuarteto","role":"peak"},
+{"song":"s_fpg10grtvw","scope":"g:cuarteto","role":"peak"},
+{"song":"s_zfeh8t7ebs","scope":"g:cuarteto","role":"peak"},
+{"song":"s_1tvgqcp19v","scope":"g:cuarteto","role":"peak"},
+{"song":"s_kcrckjkz75","scope":"g:cuarteto","role":"peak"},
+{"song":"s_g0m31g78vj","scope":"g:cuarteto","role":"reference"},
+{"song":"s_pbb9h9pmga","scope":"g:cuarteto","role":"reference"},
+{"song":"s_veqmyq7p61","scope":"g:cuarteto","role":"reference"},
+{"song":"s_2m8f8t3jtd","scope":"g:cuarteto","role":"near miss","belongs_to":"cumbia","reason":"Cumbia as played in Argentina: slower shuffle, not the tunga-tunga"}
+]

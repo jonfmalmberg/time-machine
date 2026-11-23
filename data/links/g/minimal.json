@@ -1,0 +1,19 @@
+[
+{"song":"s_5zvt1c54nh","scope":"g:minimal","role":"intro"},
+{"song":"s_km2hyey2f9","scope":"g:minimal","role":"intro"},
+{"song":"s_ext1cywn6m","scope":"g:minimal","role":"intro"},
+{"song":"s_nv0cnran4r","scope":"g:minimal","role":"peak"},
+{"song":"s_9b1efjrvgs","scope":"g:minimal","role":"peak"},
+{"song":"s_rtbdv1kqrz","scope":"g:minimal","role":"peak"},
+{"song":"s_w7xgn84fwe","scope":"g:minimal","role":"peak"},
+{"song":"s_2pnsxqtj0z","scope":"g:minimal","role":"peak"},
+{"song":"s_j13k0498zs","scope":"g:minimal","role":"peak"},
+{"song":"s_8xmkz3d9b5","scope":"g:minimal","role":"peak"},
+{"song":"s_vn51dpndah","scope":"g:minimal","role":"peak"},
+{"song":"s_vkneq893fr","scope":"g:minimal","role":"peak"},
+{"song":"s_f083ee2d3z","scope":"g:minimal","role":"peak"},
+{"song":"s_ext1cywn6m","scope":"g:minimal","role":"reference"},
+{"song":"s_bg1mzcqtqn","scope":"g:minimal","role":"reference"},
+{"song":"s_5w0k7wtv6r","scope":"g:minimal","role":"reference"},
+{"song":"s_dv73csn02w","scope":"g:minimal","role":"near miss","belongs_to":"ambient","reason":"Slow and repetitive too, but tape-loop studio texture with no pulse"}
+]

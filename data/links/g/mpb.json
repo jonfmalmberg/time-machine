@@ -1,0 +1,20 @@
+[
+{"song":"s_k61yv0g7w4","scope":"g:mpb","role":"intro"},
+{"song":"s_ffnpr0p3rt","scope":"g:mpb","role":"intro"},
+{"song":"s_rwynbreptv","scope":"g:mpb","role":"intro"},
+{"song":"s_01gf6bh733","scope":"g:mpb","role":"peak"},
+{"song":"s_hr9cnkwct4","scope":"g:mpb","role":"peak"},
+{"song":"s_ypt5qjyq52","scope":"g:mpb","role":"peak"},
+{"song":"s_21t9nd7ddh","scope":"g:mpb","role":"peak"},
+{"song":"s_wfegggkbqg","scope":"g:mpb","role":"peak"},
+{"song":"s_v5g2a2vmwx","scope":"g:mpb","role":"peak"},
+{"song":"s_mcmad2rswg","scope":"g:mpb","role":"peak"},
+{"song":"s_ypwmfzsz3a","scope":"g:mpb","role":"peak"},
+{"song":"s_zn96t7nmtg","scope":"g:mpb","role":"peak"},
+{"song":"s_pann9syjab","scope":"g:mpb","role":"peak"},
+{"song":"s_vaw44ggjvf","scope":"g:mpb","role":"peak"},
+{"song":"s_01gf6bh733","scope":"g:mpb","role":"reference"},
+{"song":"s_v5g2a2vmwx","scope":"g:mpb","role":"reference"},
+{"song":"s_ypwmfzsz3a","scope":"g:mpb","role":"reference"},
+{"song":"s_vptj2y4yek","scope":"g:mpb","role":"near miss","belongs_to":"bossa","reason":"Pure bossa: one guitar, hushed voice, no rock or orchestral collage"}
+]

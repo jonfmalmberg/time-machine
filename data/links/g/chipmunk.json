@@ -1,0 +1,19 @@
+[
+{"song":"s_q148ft0ej2","scope":"g:chipmunk","role":"intro"},
+{"song":"s_f8j08cr8s2","scope":"g:chipmunk","role":"intro"},
+{"song":"s_44p8hpx3cb","scope":"g:chipmunk","role":"intro"},
+{"song":"s_zazndnmysw","scope":"g:chipmunk","role":"peak"},
+{"song":"s_g7xmd89474","scope":"g:chipmunk","role":"peak"},
+{"song":"s_6z6873y1s1","scope":"g:chipmunk","role":"peak"},
+{"song":"s_yc73pdsc74","scope":"g:chipmunk","role":"peak"},
+{"song":"s_6sx042mwwp","scope":"g:chipmunk","role":"peak"},
+{"song":"s_qpe828pnna","scope":"g:chipmunk","role":"peak"},
+{"song":"s_5h660exm6h","scope":"g:chipmunk","role":"peak"},
+{"song":"s_8wnv09x63j","scope":"g:chipmunk","role":"peak"},
+{"song":"s_432yfhh9ay","scope":"g:chipmunk","role":"peak"},
+{"song":"s_dehnddh4wg","scope":"g:chipmunk","role":"peak"},
+{"song":"s_f8j08cr8s2","scope":"g:chipmunk","role":"reference"},
+{"song":"s_44p8hpx3cb","scope":"g:chipmunk","role":"reference"},
+{"song":"s_6sx042mwwp","scope":"g:chipmunk","role":"reference"},
+{"song":"s_496fmmpv7s","scope":"g:chipmunk","role":"near miss","belongs_to":"poprap","reason":"Same producer, but stadium electro sample (Daft Punk)"}
+]

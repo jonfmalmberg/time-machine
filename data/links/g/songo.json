@@ -1,0 +1,12 @@
+[
+{"song":"s_5v5xsgajwr","scope":"g:songo","role":"intro"},
+{"song":"s_sepq7hh0rg","scope":"g:songo","role":"peak"},
+{"song":"s_6grezy8mpt","scope":"g:songo","role":"peak"},
+{"song":"s_qp6z4zjcgv","scope":"g:songo","role":"peak"},
+{"song":"s_32jay0c2j3","scope":"g:songo","role":"peak","released":1979},
+{"song":"s_3vqwn2357y","scope":"g:songo","role":"reference","released":1972},
+{"song":"s_32jay0c2j3","scope":"g:songo","role":"reference","released":1986},
+{"song":"s_4qhpw9k39v","scope":"g:songo","role":"near miss","belongs_to":"timba","reason":"Harder, funk- and hip hop-aware, with long call-and-response breakdowns"},
+{"release":"r_p814gvanqv","scope":"g:songo","role":"album"},
+{"release":"r_pg6gm6g20e","scope":"g:songo","role":"album"}
+]

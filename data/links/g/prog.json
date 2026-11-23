@@ -1,0 +1,23 @@
+[
+{"song":"s_fykd4ms86f","scope":"g:prog","role":"intro"},
+{"song":"s_shbat453pc","scope":"g:prog","role":"intro"},
+{"song":"s_dk6y14qz8q","scope":"g:prog","role":"peak"},
+{"song":"s_vdarz43swz","scope":"g:prog","role":"peak"},
+{"song":"s_9a6638rne1","scope":"g:prog","role":"peak"},
+{"song":"s_6ngj1gxq9v","scope":"g:prog","role":"peak"},
+{"song":"s_y519zjk0na","scope":"g:prog","role":"peak"},
+{"song":"s_kz2kp0x7c6","scope":"g:prog","role":"peak"},
+{"song":"s_f5dngcjqtw","scope":"g:prog","role":"peak"},
+{"song":"s_m67nn3hrw2","scope":"g:prog","role":"peak"},
+{"song":"s_t4j7j8tj81","scope":"g:prog","role":"peak"},
+{"song":"s_fh7m3snbtf","scope":"g:prog","role":"peak"},
+{"song":"s_bepj00pbqk","scope":"g:prog","role":"peak"},
+{"song":"s_aqeskrjw0f","scope":"g:prog","role":"peak"},
+{"song":"s_zkme3eaqm0","scope":"g:prog","role":"peak"},
+{"song":"s_m7yjxx09vd","scope":"g:prog","role":"peak"},
+{"song":"s_bzbjwam9ds","scope":"g:prog","role":"peak"},
+{"song":"s_shbat453pc","scope":"g:prog","role":"reference"},
+{"song":"s_9a6638rne1","scope":"g:prog","role":"reference"},
+{"song":"s_q06qknss85","scope":"g:prog","role":"reference"},
+{"song":"s_cmgx36c941","scope":"g:prog","role":"near miss","belongs_to":"fusion","reason":"Jazz musicians improvising over rock volume, not composed rock suites"}
+]

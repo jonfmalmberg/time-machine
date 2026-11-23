@@ -1,0 +1,13 @@
+[
+{"song":"s_ypz0kb513r","scope":"g:valscriollo","role":"intro"},
+{"song":"s_jpbd6yp2vz","scope":"g:valscriollo","role":"intro"},
+{"song":"s_yd9d35qdha","scope":"g:valscriollo","role":"peak","released":1954},
+{"song":"s_92vcs0jvv3","scope":"g:valscriollo","role":"peak"},
+{"song":"s_kseyg3e63s","scope":"g:valscriollo","role":"peak"},
+{"song":"s_hr4sjvx7ke","scope":"g:valscriollo","role":"peak","released":1971},
+{"song":"s_xc749hc200","scope":"g:valscriollo","role":"peak"},
+{"song":"s_yd9d35qdha","scope":"g:valscriollo","role":"reference","released":1950},
+{"song":"s_hr4sjvx7ke","scope":"g:valscriollo","role":"reference","released":1970},
+{"release":"r_a8gv3w1zeb","scope":"g:valscriollo","role":"album"},
+{"release":"r_t2yws7dc8a","scope":"g:valscriollo","role":"album"}
+]

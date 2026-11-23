@@ -1,0 +1,20 @@
+[
+{"song":"s_vp1y0s88mg","scope":"g:garage","role":"intro"},
+{"song":"s_fgzhj1d4we","scope":"g:garage","role":"intro"},
+{"song":"s_hgymnxv8sd","scope":"g:garage","role":"intro"},
+{"song":"s_36dtsxyg6d","scope":"g:garage","role":"peak"},
+{"song":"s_ex74krtkdn","scope":"g:garage","role":"peak"},
+{"song":"s_e02qhz7j52","scope":"g:garage","role":"peak"},
+{"song":"s_09dpdj4n75","scope":"g:garage","role":"peak"},
+{"song":"s_spc8pj0zrz","scope":"g:garage","role":"peak"},
+{"song":"s_z6pkcywwy3","scope":"g:garage","role":"peak"},
+{"song":"s_je1nqarttr","scope":"g:garage","role":"peak"},
+{"song":"s_e5vgzcmjxt","scope":"g:garage","role":"peak"},
+{"song":"s_bwtdrv68xr","scope":"g:garage","role":"peak"},
+{"song":"s_zrdt8rjfrs","scope":"g:garage","role":"peak"},
+{"song":"s_fgzhj1d4we","scope":"g:garage","role":"reference"},
+{"song":"s_je1nqarttr","scope":"g:garage","role":"reference"},
+{"song":"s_e5vgzcmjxt","scope":"g:garage","role":"reference"},
+{"song":"s_bwtdrv68xr","scope":"g:garage","role":"reference"},
+{"song":"s_tbceryn5rq","scope":"g:garage","role":"near miss","belongs_to":"punk","reason":"Faster, tighter and stripped to a deliberate formula"}
+]

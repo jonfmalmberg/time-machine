@@ -14,6 +14,7 @@ The app only succeeds if it feels good to use. Rules here are a floor; the visio
 - `python3 serve.py` builds, serves http://localhost:8000 and rebuilds on every change to `src/` or `data/`.
 - `python3 build.py` writes `dist/index.html` (never committed).
 - `python3 tests/smoke.py` and `python3 tests/account.py` need Python Playwright with Chromium.
+- `python3 tests/data.py` checks the music data against the data model's rules (standard library only).
 - `bash db/test.sh` checks the database access rules on a throwaway local Postgres.
 - All tests must pass before anything is pushed.
 
@@ -45,8 +46,9 @@ The app only succeeds if it feels good to use. Rules here are a floor; the visio
 
 ## Code layout
 - `src/template.html`: markup, core styles, core script. `src/mods/NN_name.js|css`: feature modules, joined in file-name order; each script module runs in its own function and reaches the page's top-level names directly.
-- `data/*.json`: one file per key of the page's `DATA` object, one entry per line.
-- `data/tests.json`: one line per synthetic-listener test that has been run (country `iso` with years `y0`–`y1`, or genre `g`). The playlist panel reads it to show a test as done; add a line whenever a test is run.
+- `data/`: the music data in the model described in `docs/proposals/2026-11-23-schema.md` and `docs/ARCHITECTURE.md`. Songs, artists and evidence are central files with standalone keys; `data/scopes/` holds research state and `data/links/` says which songs belong to which genre or country-year. One record per line. Only the lead's master-table step adds songs, artists or evidence.
+- The page still reads the old data shape, which `tools/legacy_data.py` rebuilds from the new files at build time. `data/legacy-order.json` exists only for that.
+- A synthetic-listener test that has been run is recorded in its scope file under `tests` (use `python3 tests/listener/run.py record --apply`).
 
 ## Helpers
 - A daily scheduled run works as a helper: it takes one assignment from `work/QUEUE.md`, writes only inside `work/`, pushes one `helper/<date>-<id>` branch and reports on the run log issue. Rules, roles and which model does which work are in `work/README.md`.

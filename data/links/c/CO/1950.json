@@ -1,0 +1,11 @@
+[
+{"song":"s_71nxwk7cqh","scope":"c:CO:1950s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_f2ak3d8zbp","scope":"c:CO:1950s","role":"home","scene":"dance","confidence":"h"},
+{"song":"s_3eha687hn4","scope":"c:CO:1950s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_v0jpak69ft","scope":"c:CO:1950s","role":"home","released":1958,"scene":"dance","confidence":"m"},
+{"song":"s_tdeqa2kchd","scope":"c:CO:1950s","role":"foreign","scene":"dance","confidence":"h"},
+{"song":"s_h94advf6s6","scope":"c:CO:1950s","role":"foreign","scene":"dance","confidence":"h"},
+{"song":"s_fgj42v3eay","scope":"c:CO:1950s","role":"foreign","scene":"dance","confidence":"h"},
+{"song":"s_anf4gwaafj","scope":"c:CO:1950s","role":"foreign","scene":"dance","confidence":"m"},
+{"song":"s_yx26t6fmn9","scope":"c:CO:1950s","role":"foreign","scene":"ballad","confidence":"h"}
+]

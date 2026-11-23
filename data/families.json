@@ -1,0 +1,22 @@
+[
+{"id":"chant","name":"Chant & Western classical","order":7},
+{"id":"maqam","name":"Maqam world","order":1},
+{"id":"raga","name":"Raga & South Asian song","order":18},
+{"id":"eastasia","name":"East Asian court, stage & folk","order":19},
+{"id":"indig","name":"Indigenous & overtone song","order":0},
+{"id":"folk","name":"European & American folk","order":6},
+{"id":"pop","name":"Popular song, ballad & idol pop","order":10},
+{"id":"westpop","name":"Western pop since 1980","order":13},
+{"id":"jazz","name":"Jazz, home and abroad","order":9},
+{"id":"soul","name":"Blues, gospel, soul & R&B","order":12},
+{"id":"hiphop","name":"Hip hop","order":15},
+{"id":"rock","name":"Rock","order":11},
+{"id":"dance","name":"Club & dance","order":16},
+{"id":"electronica","name":"Electronica & downtempo","order":14},
+{"id":"riddim","name":"Caribbean riddim","order":17},
+{"id":"afrocuban","name":"Afro-Cuban & Caribbean dance","order":3},
+{"id":"brazil","name":"Brazil","order":5},
+{"id":"mainland","name":"Cumbia, Mexico, Andes & River Plate","order":4},
+{"id":"africa","name":"African roots & pop","order":2},
+{"id":"sea","name":"Southeast Asia & Pacific","order":8}
+]

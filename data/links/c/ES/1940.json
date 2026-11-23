@@ -1,0 +1,15 @@
+[
+{"song":"s_tvt7e8qyhm","scope":"c:ES:1940s","role":"home","scene":"radio","confidence":"h"},
+{"song":"s_karp5fs2f9","scope":"c:ES:1940s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_as907ev96q","scope":"c:ES:1940s","role":"home","scene":"folk","confidence":"m"},
+{"song":"s_0ksfatx34s","scope":"c:ES:1940s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_zbedd4nvcq","scope":"c:ES:1940s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_zdcgx878hp","scope":"c:ES:1940s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_8d411j0fv8","scope":"c:ES:1940s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_hn2gkj8kba","scope":"c:ES:1940s","role":"home","scene":"radio","confidence":"h"},
+{"song":"s_4zz96gjny5","scope":"c:ES:1940s","role":"home","scene":"radio","confidence":"h"},
+{"song":"s_f07tkvfqyr","scope":"c:ES:1940s","role":"home","scene":"ballad","confidence":"m"},
+{"song":"s_wab875xx9z","scope":"c:ES:1940s","role":"foreign","scene":"ballad","confidence":"m"},
+{"song":"s_j5pfpa4zkb","scope":"c:ES:1940s","role":"foreign","scene":"film","confidence":"m"},
+{"song":"s_mrdmx68vk2","scope":"c:ES:1940s","role":"foreign","scene":"ballad","confidence":"m"}
+]

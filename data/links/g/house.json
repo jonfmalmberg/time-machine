@@ -1,0 +1,23 @@
+[
+{"song":"s_nx27seakzv","scope":"g:house","role":"intro"},
+{"song":"s_2f5k9rgzzb","scope":"g:house","role":"intro"},
+{"song":"s_wkbv88gvkj","scope":"g:house","role":"intro"},
+{"song":"s_m1r00jm0en","scope":"g:house","role":"peak"},
+{"song":"s_fngs3mm54e","scope":"g:house","role":"peak"},
+{"song":"s_nph1xe515d","scope":"g:house","role":"peak"},
+{"song":"s_fh86xpbzjf","scope":"g:house","role":"peak"},
+{"song":"s_n0rpdxy2zb","scope":"g:house","role":"peak"},
+{"song":"s_rbggwaetkc","scope":"g:house","role":"peak"},
+{"song":"s_zd8b0kq320","scope":"g:house","role":"peak"},
+{"song":"s_vze5g947tt","scope":"g:house","role":"peak"},
+{"song":"s_h860m3bn0f","scope":"g:house","role":"peak"},
+{"song":"s_5q4jtkz1qs","scope":"g:house","role":"peak"},
+{"song":"s_b054bq7emt","scope":"g:house","role":"peak"},
+{"song":"s_vpfeaf55gf","scope":"g:house","role":"peak"},
+{"song":"s_v6dmr5fx16","scope":"g:house","role":"peak"},
+{"song":"s_wcwx8htb04","scope":"g:house","role":"peak"},
+{"song":"s_v3fc2csmx9","scope":"g:house","role":"peak","released":1992},
+{"song":"s_m1r00jm0en","scope":"g:house","role":"reference"},
+{"song":"s_wkbv88gvkj","scope":"g:house","role":"reference"},
+{"song":"s_rb8w94fzdj","scope":"g:house","role":"near miss","belongs_to":"techno","reason":"Machine-futurist, Detroit; no gospel vocal"}
+]

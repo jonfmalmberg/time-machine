@@ -1,0 +1,22 @@
+[
+{"song":"s_gp34m87q11","scope":"g:schlager","role":"intro"},
+{"song":"s_ym7pecdcxe","scope":"g:schlager","role":"intro"},
+{"song":"s_rdhbc03zyr","scope":"g:schlager","role":"intro"},
+{"song":"s_krw38qpqds","scope":"g:schlager","role":"peak"},
+{"song":"s_eda3m92m1j","scope":"g:schlager","role":"peak"},
+{"song":"s_sxbjkfp7v0","scope":"g:schlager","role":"peak"},
+{"song":"s_t7x6jaa8vp","scope":"g:schlager","role":"peak"},
+{"song":"s_g2939jhq3a","scope":"g:schlager","role":"peak"},
+{"song":"s_rf8a5bmdd1","scope":"g:schlager","role":"peak"},
+{"song":"s_taq7pnbbba","scope":"g:schlager","role":"peak"},
+{"song":"s_7pwg2cbds8","scope":"g:schlager","role":"peak"},
+{"song":"s_m795dg4efz","scope":"g:schlager","role":"peak"},
+{"song":"s_ag36z920k6","scope":"g:schlager","role":"peak"},
+{"song":"s_5t21m89g4x","scope":"g:schlager","role":"peak"},
+{"song":"s_47srs6ah5c","scope":"g:schlager","role":"peak"},
+{"song":"s_krw38qpqds","scope":"g:schlager","role":"reference"},
+{"song":"s_sxbjkfp7v0","scope":"g:schlager","role":"reference"},
+{"song":"s_gp34m87q11","scope":"g:schlager","role":"reference"},
+{"song":"s_rdhbc03zyr","scope":"g:schlager","role":"reference"},
+{"song":"s_1v37desbn9","scope":"g:schlager","role":"near miss","belongs_to":"synthpop","reason":"Neue Deutsche Welle: a new-wave band sound, not schlager polish"}
+]

@@ -1,0 +1,13 @@
+[
+{"song":"s_0w0q8a1brn","scope":"g:tilawa","role":"intro"},
+{"song":"s_5qgmn72bp5","scope":"g:tilawa","role":"intro"},
+{"song":"s_9q0qmej8zs","scope":"g:tilawa","role":"intro"},
+{"song":"s_qc4ssff5b7","scope":"g:tilawa","role":"peak"},
+{"song":"s_22r0hy94sy","scope":"g:tilawa","role":"peak"},
+{"song":"s_66smqf5bj5","scope":"g:tilawa","role":"peak"},
+{"song":"s_t1p9xr9dzj","scope":"g:tilawa","role":"peak"},
+{"song":"s_9q0qmej8zs","scope":"g:tilawa","role":"reference"},
+{"song":"s_5qgmn72bp5","scope":"g:tilawa","role":"reference"},
+{"song":"s_t1p9xr9dzj","scope":"g:tilawa","role":"reference"},
+{"song":"s_m24k7f642s","scope":"g:tilawa","role":"near miss","belongs_to":"qawwali","reason":"Sufi devotional song with harmonium, clapping and chorus"}
+]

@@ -1,0 +1,17 @@
+[
+{"song":"s_2dgzpspd5b","scope":"g:bard","role":"intro"},
+{"song":"s_vywd6s9cr7","scope":"g:bard","role":"intro"},
+{"song":"s_5a8npms1t1","scope":"g:bard","role":"intro"},
+{"song":"s_1q846102hr","scope":"g:bard","role":"peak"},
+{"song":"s_a6rcf6vvdy","scope":"g:bard","role":"peak","released":1967},
+{"song":"s_bwznd3va7f","scope":"g:bard","role":"peak"},
+{"song":"s_3ffpmtj739","scope":"g:bard","role":"peak"},
+{"song":"s_zjznpaa1n3","scope":"g:bard","role":"peak"},
+{"song":"s_df6d60kxbg","scope":"g:bard","role":"peak"},
+{"song":"s_hzrcx3m2vv","scope":"g:bard","role":"peak"},
+{"song":"s_wt6jkmj828","scope":"g:bard","role":"peak"},
+{"song":"s_7nh2b7by92","scope":"g:bard","role":"peak"},
+{"song":"s_4f4m164sw2","scope":"g:bard","role":"peak"},
+{"song":"s_a6rcf6vvdy","scope":"g:bard","role":"reference","released":1968},
+{"song":"s_1g4we7e2ef","scope":"g:bard","role":"near miss","belongs_to":"folkrev","reason":"Same guitar-poet format, but American topical folk in English"}
+]

@@ -1,0 +1,21 @@
+[
+{"song":"s_bjfsqadn23","scope":"g:ukhouse","role":"intro"},
+{"song":"s_mxee1gzs0m","scope":"g:ukhouse","role":"intro"},
+{"song":"s_7sqzhs4pza","scope":"g:ukhouse","role":"intro"},
+{"song":"s_mhpc5nz5xz","scope":"g:ukhouse","role":"peak"},
+{"song":"s_5j1npdtjq2","scope":"g:ukhouse","role":"peak"},
+{"song":"s_xkf04jkxk2","scope":"g:ukhouse","role":"peak"},
+{"song":"s_adz315ehqy","scope":"g:ukhouse","role":"peak"},
+{"song":"s_j1c66tww1y","scope":"g:ukhouse","role":"peak"},
+{"song":"s_f4xtywvft4","scope":"g:ukhouse","role":"peak"},
+{"song":"s_07wne06ny8","scope":"g:ukhouse","role":"peak"},
+{"song":"s_z7sky7fjve","scope":"g:ukhouse","role":"peak"},
+{"song":"s_630qcrpw01","scope":"g:ukhouse","role":"peak"},
+{"song":"s_ph5v47y38z","scope":"g:ukhouse","role":"peak"},
+{"song":"s_3rsyr72wv6","scope":"g:ukhouse","role":"peak"},
+{"song":"s_rn5rrz0ejm","scope":"g:ukhouse","role":"peak"},
+{"song":"s_7sqzhs4pza","scope":"g:ukhouse","role":"reference"},
+{"song":"s_5j1npdtjq2","scope":"g:ukhouse","role":"reference"},
+{"song":"s_f4xtywvft4","scope":"g:ukhouse","role":"reference"},
+{"song":"s_fh86xpbzjf","scope":"g:ukhouse","role":"near miss","belongs_to":"deephouse","reason":"The original deep house: jazzy and restrained"}
+]

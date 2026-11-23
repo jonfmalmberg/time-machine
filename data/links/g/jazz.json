@@ -1,0 +1,21 @@
+[
+{"song":"s_g774kk671g","scope":"g:jazz","role":"intro"},
+{"song":"s_yjfg7d06ry","scope":"g:jazz","role":"intro"},
+{"song":"s_p67j4a3cz3","scope":"g:jazz","role":"intro"},
+{"song":"s_z54m257k8k","scope":"g:jazz","role":"peak"},
+{"song":"s_5sfd4sva5y","scope":"g:jazz","role":"peak"},
+{"song":"s_expwfnz11c","scope":"g:jazz","role":"peak"},
+{"song":"s_ekne2c3r55","scope":"g:jazz","role":"peak"},
+{"song":"s_pvkhqyy8e2","scope":"g:jazz","role":"peak"},
+{"song":"s_hm0kwry7pw","scope":"g:jazz","role":"peak"},
+{"song":"s_n7c30awx0c","scope":"g:jazz","role":"peak"},
+{"song":"s_sjsavbc1g3","scope":"g:jazz","role":"peak"},
+{"song":"s_23dyq5pgbq","scope":"g:jazz","role":"peak"},
+{"song":"s_rz89twerg4","scope":"g:jazz","role":"peak"},
+{"song":"s_fexq90dd5z","scope":"g:jazz","role":"peak"},
+{"song":"s_g774kk671g","scope":"g:jazz","role":"reference"},
+{"song":"s_yjfg7d06ry","scope":"g:jazz","role":"reference"},
+{"song":"s_wtzh1sbw9v","scope":"g:jazz","role":"reference"},
+{"song":"s_6ahrxzcwev","scope":"g:jazz","role":"reference"},
+{"song":"s_g3x93drw33","scope":"g:jazz","role":"near miss","belongs_to":"blues","reason":"Armstrong plays on it, but the song is a sung 12-bar blues"}
+]

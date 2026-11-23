@@ -1,0 +1,16 @@
+[
+{"song":"s_31c98rzr8v","scope":"g:pacreggae","role":"intro"},
+{"song":"s_s2g7217jsb","scope":"g:pacreggae","role":"intro"},
+{"song":"s_xbmay4xjyv","scope":"g:pacreggae","role":"peak"},
+{"song":"s_1srxh5yd8h","scope":"g:pacreggae","role":"peak"},
+{"song":"s_x84nb88ms3","scope":"g:pacreggae","role":"peak"},
+{"song":"s_beddemrxd0","scope":"g:pacreggae","role":"peak"},
+{"song":"s_cswny5yg4p","scope":"g:pacreggae","role":"peak"},
+{"song":"s_6s3zqt4g1t","scope":"g:pacreggae","role":"peak"},
+{"song":"s_31c98rzr8v","scope":"g:pacreggae","role":"reference"},
+{"song":"s_s2g7217jsb","scope":"g:pacreggae","role":"reference"},
+{"song":"s_xbmay4xjyv","scope":"g:pacreggae","role":"reference"},
+{"song":"s_pwtr98f170","scope":"g:pacreggae","role":"near miss","belongs_to":"reggae","reason":"British pop reggae, popular in the Pacific but not from it"},
+{"release":"r_38qx4gayd7","scope":"g:pacreggae","role":"album"},
+{"release":"r_q2ann6dk13","scope":"g:pacreggae","role":"album"}
+]

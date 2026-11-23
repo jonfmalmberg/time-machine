@@ -1,0 +1,21 @@
+[
+{"song":"s_d6a50wfbp3","scope":"g:russianhiphop","role":"intro"},
+{"song":"s_4sw2wxcvx3","scope":"g:russianhiphop","role":"intro"},
+{"song":"s_p7dw1r497x","scope":"g:russianhiphop","role":"intro"},
+{"song":"s_fxfr7qfdf0","scope":"g:russianhiphop","role":"peak"},
+{"song":"s_vexzta78t3","scope":"g:russianhiphop","role":"peak"},
+{"song":"s_vdv8ekn4nj","scope":"g:russianhiphop","role":"peak"},
+{"song":"s_46w3x76e96","scope":"g:russianhiphop","role":"peak"},
+{"song":"s_q2yvksj09k","scope":"g:russianhiphop","role":"peak"},
+{"song":"s_er3yjjqd39","scope":"g:russianhiphop","role":"peak"},
+{"song":"s_j2eggg4g5k","scope":"g:russianhiphop","role":"peak"},
+{"song":"s_nyaj53q433","scope":"g:russianhiphop","role":"peak"},
+{"song":"s_xgbza6wsq4","scope":"g:russianhiphop","role":"peak"},
+{"song":"s_erkt3bckf9","scope":"g:russianhiphop","role":"peak"},
+{"song":"s_6v51qd9zcm","scope":"g:russianhiphop","role":"peak"},
+{"song":"s_d6a50wfbp3","scope":"g:russianhiphop","role":"reference"},
+{"song":"s_er3yjjqd39","scope":"g:russianhiphop","role":"reference"},
+{"song":"s_xgbza6wsq4","scope":"g:russianhiphop","role":"reference"},
+{"song":"s_p7dw1r497x","scope":"g:russianhiphop","role":"reference"},
+{"song":"s_agq73qdyb1","scope":"g:russianhiphop","role":"near miss","released":2022,"belongs_to":"phonk","reason":"Instrumental cowbell phonk, not rapped"}
+]

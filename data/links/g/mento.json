@@ -1,0 +1,15 @@
+[
+{"song":"s_v83hkk03xv","scope":"g:mento","role":"intro"},
+{"song":"s_vrgg5rj35f","scope":"g:mento","role":"intro"},
+{"song":"s_nryp8sbwpc","scope":"g:mento","role":"intro"},
+{"song":"s_vgdp34dzmv","scope":"g:mento","role":"peak"},
+{"song":"s_znpgzd0qer","scope":"g:mento","role":"peak"},
+{"song":"s_f5d5nabx3k","scope":"g:mento","role":"peak"},
+{"song":"s_c2cas430r2","scope":"g:mento","role":"peak"},
+{"song":"s_j48xm28vrq","scope":"g:mento","role":"peak"},
+{"song":"s_c2cas430r2","scope":"g:mento","role":"reference"},
+{"song":"s_j48xm28vrq","scope":"g:mento","role":"reference"},
+{"song":"s_e9tbpqgsef","scope":"g:mento","role":"near miss","belongs_to":"calypso","reason":"Trinidadian calypso: horns or guitar band, no banjo or rumba box"},
+{"release":"r_fmhnexsx1c","scope":"g:mento","role":"album"},
+{"release":"r_m0xtaxevpg","scope":"g:mento","role":"album"}
+]

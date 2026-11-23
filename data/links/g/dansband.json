@@ -1,0 +1,22 @@
+[
+{"song":"s_k44vzznp55","scope":"g:dansband","role":"intro"},
+{"song":"s_eh1pfb77k4","scope":"g:dansband","role":"intro"},
+{"song":"s_zp33gkr6tm","scope":"g:dansband","role":"intro"},
+{"song":"s_kcmvecvey7","scope":"g:dansband","role":"peak"},
+{"song":"s_ad4qg65g7q","scope":"g:dansband","role":"peak","released":1966},
+{"song":"s_1qvtvk9av6","scope":"g:dansband","role":"peak"},
+{"song":"s_rxcx8ct2a5","scope":"g:dansband","role":"peak"},
+{"song":"s_f4myq48f58","scope":"g:dansband","role":"peak"},
+{"song":"s_qqketwam7a","scope":"g:dansband","role":"peak"},
+{"song":"s_nzn4xcncrr","scope":"g:dansband","role":"peak"},
+{"song":"s_a5rarbhwqd","scope":"g:dansband","role":"peak"},
+{"song":"s_sh5eyrd89d","scope":"g:dansband","role":"peak"},
+{"song":"s_k73kaxxw08","scope":"g:dansband","role":"peak","released":1989},
+{"song":"s_m62esvs8b1","scope":"g:dansband","role":"peak"},
+{"song":"s_stf2mp4j7s","scope":"g:dansband","role":"peak"},
+{"song":"s_qqketwam7a","scope":"g:dansband","role":"reference"},
+{"song":"s_eh1pfb77k4","scope":"g:dansband","role":"reference"},
+{"song":"s_zp33gkr6tm","scope":"g:dansband","role":"reference"},
+{"song":"s_ad4qg65g7q","scope":"g:dansband","role":"reference","released":1966},
+{"song":"s_ne2b0vvph8","scope":"g:dansband","role":"near miss","belongs_to":"europop","reason":"Studio pop made for radio and Eurovision, not the dance hall"}
+]

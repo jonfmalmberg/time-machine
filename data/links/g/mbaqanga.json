@@ -1,0 +1,13 @@
+[
+{"song":"s_ykxqmd2ymc","scope":"g:mbaqanga","role":"peak"},
+{"song":"s_1j9hxmdgmg","scope":"g:mbaqanga","role":"peak"},
+{"song":"s_3t14vz5cvc","scope":"g:mbaqanga","role":"peak"},
+{"song":"s_bjfdm0zbtp","scope":"g:mbaqanga","role":"peak"},
+{"song":"s_gf2emj86c8","scope":"g:mbaqanga","role":"peak"},
+{"song":"s_2krg8e3891","scope":"g:mbaqanga","role":"peak","released":1985},
+{"song":"s_vvd86xm5n0","scope":"g:mbaqanga","role":"reference"},
+{"song":"s_2krg8e3891","scope":"g:mbaqanga","role":"reference","released":1987},
+{"song":"s_15vtvmfrfm","scope":"g:mbaqanga","role":"near miss","belongs_to":"mbube","reason":"South African vocal group, but unaccompanied choral singing"},
+{"release":"r_0feje8bmcm","scope":"g:mbaqanga","role":"album"},
+{"release":"r_3c3kmqsb1b","scope":"g:mbaqanga","role":"album"}
+]

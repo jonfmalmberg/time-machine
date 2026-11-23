@@ -1,0 +1,14 @@
+[
+{"song":"s_82vzap8ydr","scope":"g:uzbeksong","role":"intro"},
+{"song":"s_zr4qcs96cg","scope":"g:uzbeksong","role":"intro"},
+{"song":"s_6v2qhwnwca","scope":"g:uzbeksong","role":"intro"},
+{"song":"s_9yzkqvd16t","scope":"g:uzbeksong","role":"peak"},
+{"song":"s_y0kcyhhrec","scope":"g:uzbeksong","role":"peak"},
+{"song":"s_74p33hqc7s","scope":"g:uzbeksong","role":"peak"},
+{"song":"s_82vzap8ydr","scope":"g:uzbeksong","role":"reference"},
+{"song":"s_zr4qcs96cg","scope":"g:uzbeksong","role":"reference"},
+{"song":"s_y0kcyhhrec","scope":"g:uzbeksong","role":"reference"},
+{"song":"s_gxncbyyr5q","scope":"g:uzbeksong","role":"near miss","belongs_to":"estrada","reason":"Soviet VIA pop with Uzbek colour, not folk song"},
+{"release":"r_x397ah90ng","scope":"g:uzbeksong","role":"album"},
+{"release":"r_2nctqm3msx","scope":"g:uzbeksong","role":"album"}
+]

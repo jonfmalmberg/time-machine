@@ -1,0 +1,20 @@
+[
+{"song":"s_cqf54m22fj","scope":"g:postminimal","role":"intro"},
+{"song":"s_xesq69v9zq","scope":"g:postminimal","role":"intro"},
+{"song":"s_kxhwv2vf0p","scope":"g:postminimal","role":"intro"},
+{"song":"s_bkcejjfwqr","scope":"g:postminimal","role":"peak"},
+{"song":"s_8p43r30v5s","scope":"g:postminimal","role":"peak"},
+{"song":"s_3fwm4x0qn8","scope":"g:postminimal","role":"peak"},
+{"song":"s_xhxg8mcz7s","scope":"g:postminimal","role":"peak"},
+{"song":"s_d4b6d5qw0t","scope":"g:postminimal","role":"peak"},
+{"song":"s_4zc14q5emf","scope":"g:postminimal","role":"peak"},
+{"song":"s_g0ffrrdgaz","scope":"g:postminimal","role":"peak"},
+{"song":"s_2ds4jz319c","scope":"g:postminimal","role":"peak"},
+{"song":"s_gsqeqqhc7p","scope":"g:postminimal","role":"peak"},
+{"song":"s_f96b5xdap3","scope":"g:postminimal","role":"peak"},
+{"song":"s_th17yz7k3m","scope":"g:postminimal","role":"reference"},
+{"song":"s_952twa7fp4","scope":"g:postminimal","role":"reference"},
+{"song":"s_d4b6d5qw0t","scope":"g:postminimal","role":"reference"},
+{"song":"s_4zc14q5emf","scope":"g:postminimal","role":"reference"},
+{"song":"s_bg1mzcqtqn","scope":"g:postminimal","role":"near miss","belongs_to":"minimal","reason":"Driven by pulse and process, not stillness"}
+]

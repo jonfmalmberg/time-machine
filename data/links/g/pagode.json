@@ -1,0 +1,18 @@
+[
+{"song":"s_rthpxzrgq9","scope":"g:pagode","role":"intro"},
+{"song":"s_00x75xqbwm","scope":"g:pagode","role":"intro"},
+{"song":"s_7kgxyy88m6","scope":"g:pagode","role":"intro"},
+{"song":"s_584pg1bz8t","scope":"g:pagode","role":"peak"},
+{"song":"s_d5yzxgwtr9","scope":"g:pagode","role":"peak"},
+{"song":"s_5e02cfjp4d","scope":"g:pagode","role":"peak"},
+{"song":"s_d0fj2w0rsh","scope":"g:pagode","role":"peak"},
+{"song":"s_cbymg7kmh3","scope":"g:pagode","role":"peak"},
+{"song":"s_ptmfm2fff4","scope":"g:pagode","role":"peak"},
+{"song":"s_a105fdn4nj","scope":"g:pagode","role":"peak"},
+{"song":"s_3p4j1nda3b","scope":"g:pagode","role":"peak"},
+{"song":"s_rrn4v9pvae","scope":"g:pagode","role":"peak"},
+{"song":"s_718xph4s7t","scope":"g:pagode","role":"peak"},
+{"song":"s_rthpxzrgq9","scope":"g:pagode","role":"reference"},
+{"song":"s_a105fdn4nj","scope":"g:pagode","role":"reference"},
+{"song":"s_zwn3gdr0h9","scope":"g:pagode","role":"near miss","belongs_to":"samba","reason":"Classic samba song without the pagode backyard percussion"}
+]

@@ -1,0 +1,7 @@
+[
+{"song":"s_0pxy7m18ee","scope":"g:pansori","role":"reference"},
+{"song":"s_fqvyqr6wdg","scope":"g:pansori","role":"reference"},
+{"song":"s_bjbs3pwa7b","scope":"g:pansori","role":"near miss","belongs_to":"kcourt","reason":"Instrumental court ensemble, no storyteller or drum-and-voice duo"},
+{"release":"r_8w7x5yhg2a","scope":"g:pansori","role":"album"},
+{"release":"r_msbpgtyhqb","scope":"g:pansori","role":"album"}
+]

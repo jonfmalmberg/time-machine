@@ -1,0 +1,13 @@
+[
+{"song":"s_y1mwghkcgb","scope":"g:bambuco","role":"intro"},
+{"song":"s_mrxgztb2s6","scope":"g:bambuco","role":"intro"},
+{"song":"s_d1d1tzchx1","scope":"g:bambuco","role":"intro"},
+{"song":"s_3bzqhhsabx","scope":"g:bambuco","role":"peak"},
+{"song":"s_xb2b1anp3x","scope":"g:bambuco","role":"peak"},
+{"song":"s_d3qz00m02m","scope":"g:bambuco","role":"peak"},
+{"song":"s_3bd0hmsz6j","scope":"g:bambuco","role":"peak"},
+{"song":"s_y1mwghkcgb","scope":"g:bambuco","role":"reference"},
+{"song":"s_mrxgztb2s6","scope":"g:bambuco","role":"reference"},
+{"song":"s_3bzqhhsabx","scope":"g:bambuco","role":"reference"},
+{"song":"s_rwengj69gv","scope":"g:bambuco","role":"near miss","belongs_to":"andean","reason":"Bolivian highland panpipes and charango, not Colombian strings"}
+]

@@ -1,0 +1,20 @@
+[
+{"song":"s_5bb6kr7kaj","scope":"g:techno","role":"intro"},
+{"song":"s_8mr677bntn","scope":"g:techno","role":"intro"},
+{"song":"s_w57zgva2xx","scope":"g:techno","role":"intro"},
+{"song":"s_nph1xe515d","scope":"g:techno","role":"peak"},
+{"song":"s_rbggwaetkc","scope":"g:techno","role":"peak"},
+{"song":"s_cn13g6mk0q","scope":"g:techno","role":"peak"},
+{"song":"s_z1z6dkf8k8","scope":"g:techno","role":"peak"},
+{"song":"s_z7wqb3qbky","scope":"g:techno","role":"peak"},
+{"song":"s_7rghr1f689","scope":"g:techno","role":"peak"},
+{"song":"s_5nrk2g9p77","scope":"g:techno","role":"peak"},
+{"song":"s_r4nyrned20","scope":"g:techno","role":"peak"},
+{"song":"s_9s4apyv5r7","scope":"g:techno","role":"peak"},
+{"song":"s_encz5ytx4d","scope":"g:techno","role":"peak"},
+{"song":"s_efpbzqmkp6","scope":"g:techno","role":"peak"},
+{"song":"s_5bb6kr7kaj","scope":"g:techno","role":"reference"},
+{"song":"s_rb8w94fzdj","scope":"g:techno","role":"reference"},
+{"song":"s_7rghr1f689","scope":"g:techno","role":"reference"},
+{"song":"s_rbggwaetkc","scope":"g:techno","role":"near miss","belongs_to":"house","reason":"Detroit-made, but a sung, soulful house song"}
+]

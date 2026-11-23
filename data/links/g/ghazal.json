@@ -1,0 +1,18 @@
+[
+{"song":"s_be22gkg2bx","scope":"g:ghazal","role":"intro"},
+{"song":"s_0k5s3ye2jq","scope":"g:ghazal","role":"intro"},
+{"song":"s_x9cjkprdv8","scope":"g:ghazal","role":"intro"},
+{"song":"s_69jy8xhycg","scope":"g:ghazal","role":"peak","released":1962},
+{"song":"s_j2w4zzvc6p","scope":"g:ghazal","role":"peak"},
+{"song":"s_sz0fsvme9f","scope":"g:ghazal","role":"peak"},
+{"song":"s_4te66cps8j","scope":"g:ghazal","role":"peak"},
+{"song":"s_j6wav8v46k","scope":"g:ghazal","role":"peak"},
+{"song":"s_q3wtfgwbha","scope":"g:ghazal","role":"peak"},
+{"song":"s_acrbd5y7d9","scope":"g:ghazal","role":"peak"},
+{"song":"s_ae886jjk8r","scope":"g:ghazal","role":"peak"},
+{"song":"s_evfcdtcccr","scope":"g:ghazal","role":"peak"},
+{"song":"s_e7fmnxksec","scope":"g:ghazal","role":"peak"},
+{"song":"s_69jy8xhycg","scope":"g:ghazal","role":"reference","released":1964},
+{"song":"s_dkqjdw0b6m","scope":"g:ghazal","role":"reference"},
+{"song":"s_ynd6ex803a","scope":"g:ghazal","role":"near miss","belongs_to":"qawwali","reason":"Urdu Sufi poetry, but a chorus with handclaps building to trance"}
+]

@@ -1,0 +1,22 @@
+[
+{"song":"s_m5rhn485z3","scope":"g:synthrevival","role":"intro"},
+{"song":"s_bs0trkkvqd","scope":"g:synthrevival","role":"intro"},
+{"song":"s_jbgdv2v9kk","scope":"g:synthrevival","role":"intro"},
+{"song":"s_pr9r93xjad","scope":"g:synthrevival","role":"peak"},
+{"song":"s_8kz0yvghr4","scope":"g:synthrevival","role":"peak"},
+{"song":"s_d5es2bexx1","scope":"g:synthrevival","role":"peak"},
+{"song":"s_6rwmb1zfj3","scope":"g:synthrevival","role":"peak"},
+{"song":"s_33ayq5qt6z","scope":"g:synthrevival","role":"peak"},
+{"song":"s_31mvgxnrv6","scope":"g:synthrevival","role":"peak"},
+{"song":"s_h4vm6b1wyh","scope":"g:synthrevival","role":"peak"},
+{"song":"s_x1ej39kxrx","scope":"g:synthrevival","role":"peak"},
+{"song":"s_vagdk87pj7","scope":"g:synthrevival","role":"peak"},
+{"song":"s_2x8n0zfemp","scope":"g:synthrevival","role":"peak"},
+{"song":"s_4xmxeen8aa","scope":"g:synthrevival","role":"peak"},
+{"song":"s_9qnf9w3sff","scope":"g:synthrevival","role":"peak"},
+{"song":"s_at5cjajz2b","scope":"g:synthrevival","role":"reference"},
+{"song":"s_d5es2bexx1","scope":"g:synthrevival","role":"reference"},
+{"song":"s_h4vm6b1wyh","scope":"g:synthrevival","role":"reference"},
+{"song":"s_x1ej39kxrx","scope":"g:synthrevival","role":"reference"},
+{"song":"s_m5rhn485z3","scope":"g:synthrevival","role":"near miss","belongs_to":"synthwave","reason":"Underground and cinematic; not built for pop radio"}
+]

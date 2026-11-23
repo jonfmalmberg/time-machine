@@ -1,0 +1,12 @@
+[
+{"song":"s_5ce0byjwmm","scope":"g:baila","role":"intro"},
+{"song":"s_kzv4c1bpq7","scope":"g:baila","role":"intro"},
+{"song":"s_8cf0kc6eqr","scope":"g:baila","role":"intro"},
+{"song":"s_6hy8v9daz9","scope":"g:baila","role":"peak"},
+{"song":"s_5khydc75by","scope":"g:baila","role":"peak"},
+{"song":"s_6hy8v9daz9","scope":"g:baila","role":"reference"},
+{"song":"s_5ce0byjwmm","scope":"g:baila","role":"reference"},
+{"song":"s_8cf0kc6eqr","scope":"g:baila","role":"reference"},
+{"song":"s_mkqf27jfn6","scope":"g:baila","role":"near miss","released":1940,"belongs_to":"kroncong","reason":"Indonesian kroncong: gentler, string-band ballad"},
+{"release":"r_eytrqbzwnq","scope":"g:baila","role":"album"}
+]

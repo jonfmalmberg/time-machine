@@ -1,0 +1,20 @@
+[
+{"song":"s_ndfs44s86k","scope":"g:banglarock","role":"intro"},
+{"song":"s_pd7ep5psfc","scope":"g:banglarock","role":"intro"},
+{"song":"s_sjf3vdmc12","scope":"g:banglarock","role":"intro"},
+{"song":"s_8sffrgc3z5","scope":"g:banglarock","role":"peak"},
+{"song":"s_w1vbcfqh3m","scope":"g:banglarock","role":"peak"},
+{"song":"s_ce7hs1fcpz","scope":"g:banglarock","role":"peak"},
+{"song":"s_eraejw1669","scope":"g:banglarock","role":"peak"},
+{"song":"s_sakcpx8cq2","scope":"g:banglarock","role":"peak"},
+{"song":"s_qvr9q4qxrb","scope":"g:banglarock","role":"peak"},
+{"song":"s_m7fzvx1w68","scope":"g:banglarock","role":"peak"},
+{"song":"s_jj055qxdkk","scope":"g:banglarock","role":"peak"},
+{"song":"s_666trhyqh3","scope":"g:banglarock","role":"peak"},
+{"song":"s_g5rss241nb","scope":"g:banglarock","role":"peak"},
+{"song":"s_h5tta7943p","scope":"g:banglarock","role":"peak"},
+{"song":"s_pd7ep5psfc","scope":"g:banglarock","role":"reference"},
+{"song":"s_sjf3vdmc12","scope":"g:banglarock","role":"reference"},
+{"song":"s_g5rss241nb","scope":"g:banglarock","role":"reference"},
+{"song":"s_fnb45x39zr","scope":"g:banglarock","role":"near miss","belongs_to":"baul","reason":"Sylheti folk songs set to studio electronics, not a band"}
+]

@@ -1,0 +1,22 @@
+[
+{"song":"s_jj648mtzff","scope":"g:bubblegum","role":"intro"},
+{"song":"s_ah2ayp45g5","scope":"g:bubblegum","role":"intro"},
+{"song":"s_24g74r885e","scope":"g:bubblegum","role":"intro"},
+{"song":"s_jj648mtzff","scope":"g:bubblegum","role":"peak"},
+{"song":"s_24g74r885e","scope":"g:bubblegum","role":"peak"},
+{"song":"s_w2dp2h7j92","scope":"g:bubblegum","role":"peak","released":1984},
+{"song":"s_56pjzs6mr0","scope":"g:bubblegum","role":"peak"},
+{"song":"s_gvxpmtcggy","scope":"g:bubblegum","role":"peak"},
+{"song":"s_eg9wz1ms5m","scope":"g:bubblegum","role":"peak"},
+{"song":"s_qxx6xhw7zv","scope":"g:bubblegum","role":"peak"},
+{"song":"s_wx5qcnqkry","scope":"g:bubblegum","role":"peak"},
+{"song":"s_ah2ayp45g5","scope":"g:bubblegum","role":"peak"},
+{"song":"s_wdh1q82pbz","scope":"g:bubblegum","role":"peak"},
+{"song":"s_bar3t2xr5a","scope":"g:bubblegum","role":"peak"},
+{"song":"s_jj648mtzff","scope":"g:bubblegum","role":"reference"},
+{"song":"s_ah2ayp45g5","scope":"g:bubblegum","role":"reference"},
+{"song":"s_wx5qcnqkry","scope":"g:bubblegum","role":"reference"},
+{"song":"s_24g74r885e","scope":"g:bubblegum","role":"reference"},
+{"song":"s_vrjcqvcnbd","scope":"g:bubblegum","role":"near miss","belongs_to":"mbaqanga","reason":"Live guitar-band jive, no synths"},
+{"song":"s_w4k37bmk2v","scope":"g:bubblegum","role":"near miss","belongs_to":"kwaito","reason":"Kwaito-era production, slowed house beat"}
+]

@@ -1,0 +1,12 @@
+[
+{"song":"s_jtyy1s2012","scope":"c:GR:1950s","role":"home","scene":"radio","confidence":"h"},
+{"song":"s_679sq6x3ym","scope":"c:GR:1950s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_ms2q8mx7vp","scope":"c:GR:1950s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_y1x9e5cs7y","scope":"c:GR:1950s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_q3k8rgqh9n","scope":"c:GR:1950s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_w977sjvn2p","scope":"c:GR:1950s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_e765w1jkbr","scope":"c:GR:1950s","role":"home","scene":"film","confidence":"m"},
+{"song":"s_6q2zmw2vej","scope":"c:GR:1950s","role":"foreign","scene":"pop","confidence":"m"},
+{"song":"s_xj1f3zxzfe","scope":"c:GR:1950s","role":"foreign","scene":"rock","confidence":"m"},
+{"song":"s_z81s3jbtyv","scope":"c:GR:1950s","role":"foreign","scene":"film","confidence":"m"}
+]

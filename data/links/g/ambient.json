@@ -1,0 +1,21 @@
+[
+{"song":"s_6azn5jymc2","scope":"g:ambient","role":"intro"},
+{"song":"s_y501tm4kng","scope":"g:ambient","role":"intro"},
+{"song":"s_jq0kws6w6p","scope":"g:ambient","role":"intro"},
+{"song":"s_ky51eyt03g","scope":"g:ambient","role":"peak"},
+{"song":"s_ghtp9x0k3q","scope":"g:ambient","role":"peak"},
+{"song":"s_nhp8rrbhnx","scope":"g:ambient","role":"peak"},
+{"song":"s_r4bypaqbtb","scope":"g:ambient","role":"peak"},
+{"song":"s_nm1kad5r8s","scope":"g:ambient","role":"peak"},
+{"song":"s_rcywes805a","scope":"g:ambient","role":"peak"},
+{"song":"s_egye5r9h7z","scope":"g:ambient","role":"peak"},
+{"song":"s_08ywrpg3mq","scope":"g:ambient","role":"peak"},
+{"song":"s_sexg01nb30","scope":"g:ambient","role":"peak"},
+{"song":"s_6vvp2516ff","scope":"g:ambient","role":"peak"},
+{"song":"s_6azn5jymc2","scope":"g:ambient","role":"reference"},
+{"song":"s_y501tm4kng","scope":"g:ambient","role":"reference"},
+{"song":"s_ky51eyt03g","scope":"g:ambient","role":"reference"},
+{"song":"s_nm1kad5r8s","scope":"g:ambient","role":"reference"},
+{"song":"s_8xm77g2yne","scope":"g:ambient","role":"near miss","belongs_to":"kankyo","reason":"Japanese environmental music: clearer melody, made for specific spaces"},
+{"song":"s_bg1mzcqtqn","scope":"g:ambient","role":"near miss","belongs_to":"minimal","reason":"Pulsing process music that asks for attention, not background"}
+]

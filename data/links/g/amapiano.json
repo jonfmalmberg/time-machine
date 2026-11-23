@@ -1,0 +1,20 @@
+[
+{"song":"s_wyphez5tbn","scope":"g:amapiano","role":"intro"},
+{"song":"s_tzb1c212jm","scope":"g:amapiano","role":"intro"},
+{"song":"s_y45dgnxb03","scope":"g:amapiano","role":"intro"},
+{"song":"s_9nahatpkp1","scope":"g:amapiano","role":"peak"},
+{"song":"s_gcmfgam89d","scope":"g:amapiano","role":"peak"},
+{"song":"s_8h89mp6rw6","scope":"g:amapiano","role":"peak"},
+{"song":"s_sy2hzte1my","scope":"g:amapiano","role":"peak"},
+{"song":"s_fjcz0zydbb","scope":"g:amapiano","role":"peak"},
+{"song":"s_w6dk1kpncg","scope":"g:amapiano","role":"peak"},
+{"song":"s_dvkeg3092v","scope":"g:amapiano","role":"peak"},
+{"song":"s_705s1x13c0","scope":"g:amapiano","role":"peak"},
+{"song":"s_jkc8xrf463","scope":"g:amapiano","role":"peak"},
+{"song":"s_s4gg6gjcg4","scope":"g:amapiano","role":"peak"},
+{"song":"s_wyphez5tbn","scope":"g:amapiano","role":"reference"},
+{"song":"s_gcmfgam89d","scope":"g:amapiano","role":"reference"},
+{"song":"s_8h89mp6rw6","scope":"g:amapiano","role":"reference"},
+{"song":"s_0ga02spwbj","scope":"g:amapiano","role":"near miss","belongs_to":"afrobeats","reason":"Uses the log drum, but built on Nigerian afrobeats vocals and structure"},
+{"song":"s_fxarn6dxf5","scope":"g:amapiano","role":"near miss","released":2015,"belongs_to":"gqom","reason":"Durban gqom: hollow, broken kick patterns, no piano"}
+]

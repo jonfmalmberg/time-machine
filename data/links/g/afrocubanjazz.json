@@ -1,0 +1,18 @@
+[
+{"song":"s_kjcg1cg0sy","scope":"g:afrocubanjazz","role":"intro"},
+{"song":"s_mnpjw5m9kz","scope":"g:afrocubanjazz","role":"intro"},
+{"song":"s_2f2m44fa7k","scope":"g:afrocubanjazz","role":"intro"},
+{"song":"s_381n86r5z6","scope":"g:afrocubanjazz","role":"peak","released":1948},
+{"song":"s_yhxbxkqw7r","scope":"g:afrocubanjazz","role":"peak"},
+{"song":"s_kyt9ma9879","scope":"g:afrocubanjazz","role":"peak"},
+{"song":"s_wjj2zjjxmw","scope":"g:afrocubanjazz","role":"peak"},
+{"song":"s_w0zxr4xn7v","scope":"g:afrocubanjazz","role":"peak"},
+{"song":"s_ha6cdpr70f","scope":"g:afrocubanjazz","role":"peak"},
+{"song":"s_gnbntsnhgz","scope":"g:afrocubanjazz","role":"peak"},
+{"song":"s_w8400ze7a3","scope":"g:afrocubanjazz","role":"peak"},
+{"song":"s_hhthsmzsfc","scope":"g:afrocubanjazz","role":"peak"},
+{"song":"s_bcx0rvesym","scope":"g:afrocubanjazz","role":"peak"},
+{"song":"s_381n86r5z6","scope":"g:afrocubanjazz","role":"reference","released":1947},
+{"song":"s_gnbntsnhgz","scope":"g:afrocubanjazz","role":"reference"},
+{"song":"s_42m0bbcbjb","scope":"g:afrocubanjazz","role":"near miss","belongs_to":"bossa","reason":"Latin jazz too, but soft Brazilian bossa rhythm, not Cuban clave and drums"}
+]

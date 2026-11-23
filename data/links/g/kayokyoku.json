@@ -1,0 +1,21 @@
+[
+{"song":"s_k678egyf6s","scope":"g:kayokyoku","role":"intro"},
+{"song":"s_n4qygmkzkk","scope":"g:kayokyoku","role":"intro"},
+{"song":"s_n0gkhz8fz0","scope":"g:kayokyoku","role":"intro"},
+{"song":"s_0qtwfc5fwk","scope":"g:kayokyoku","role":"peak"},
+{"song":"s_d64tgeanjq","scope":"g:kayokyoku","role":"peak"},
+{"song":"s_97bb4f3nxt","scope":"g:kayokyoku","role":"peak"},
+{"song":"s_n8becya9rh","scope":"g:kayokyoku","role":"peak"},
+{"song":"s_m7fewfgf7n","scope":"g:kayokyoku","role":"peak"},
+{"song":"s_tez8kb1e7g","scope":"g:kayokyoku","role":"peak"},
+{"song":"s_npa5gsptcx","scope":"g:kayokyoku","role":"peak"},
+{"song":"s_55y2cw0kpn","scope":"g:kayokyoku","role":"peak"},
+{"song":"s_45nh42p3r1","scope":"g:kayokyoku","role":"peak"},
+{"song":"s_hep52bq1gk","scope":"g:kayokyoku","role":"peak"},
+{"song":"s_c87gyytw1g","scope":"g:kayokyoku","role":"peak"},
+{"song":"s_k678egyf6s","scope":"g:kayokyoku","role":"reference"},
+{"song":"s_0qtwfc5fwk","scope":"g:kayokyoku","role":"reference"},
+{"song":"s_tez8kb1e7g","scope":"g:kayokyoku","role":"reference"},
+{"song":"s_55y2cw0kpn","scope":"g:kayokyoku","role":"reference"},
+{"song":"s_31s90smj5r","scope":"g:kayokyoku","role":"near miss","belongs_to":"enka","reason":"Heavy kobushi vibrato and sorrowful minor-key enka"}
+]

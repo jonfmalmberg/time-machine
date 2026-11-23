@@ -1,0 +1,19 @@
+[
+{"song":"s_74mjd5apbs","scope":"g:dubstep","role":"intro"},
+{"song":"s_aw7rkd2248","scope":"g:dubstep","role":"intro"},
+{"song":"s_x9f6emeag6","scope":"g:dubstep","role":"intro"},
+{"song":"s_cce23v843g","scope":"g:dubstep","role":"peak"},
+{"song":"s_xjzbxrsvyc","scope":"g:dubstep","role":"peak"},
+{"song":"s_0ctjm6ty82","scope":"g:dubstep","role":"peak"},
+{"song":"s_b246d21q87","scope":"g:dubstep","role":"peak"},
+{"song":"s_kwenwwy1se","scope":"g:dubstep","role":"peak"},
+{"song":"s_3zykb1vmr5","scope":"g:dubstep","role":"peak"},
+{"song":"s_rsmp9q4nmd","scope":"g:dubstep","role":"peak"},
+{"song":"s_ydx599ccvy","scope":"g:dubstep","role":"peak"},
+{"song":"s_ajpkxrnjvy","scope":"g:dubstep","role":"peak"},
+{"song":"s_7nk4tdjcx7","scope":"g:dubstep","role":"peak"},
+{"song":"s_aw7rkd2248","scope":"g:dubstep","role":"reference"},
+{"song":"s_kwenwwy1se","scope":"g:dubstep","role":"reference"},
+{"song":"s_3zykb1vmr5","scope":"g:dubstep","role":"reference"},
+{"song":"s_xpf6243naj","scope":"g:dubstep","role":"near miss","belongs_to":"brostep","reason":"Same tempo, but screeching midrange and metal energy"}
+]

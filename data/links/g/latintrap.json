@@ -1,0 +1,20 @@
+[
+{"song":"s_m7dbck9wnc","scope":"g:latintrap","role":"intro"},
+{"song":"s_whbh4z3pt6","scope":"g:latintrap","role":"intro"},
+{"song":"s_6ksma81c43","scope":"g:latintrap","role":"intro"},
+{"song":"s_4r18tn23m3","scope":"g:latintrap","role":"peak"},
+{"song":"s_8en24fprr5","scope":"g:latintrap","role":"peak"},
+{"song":"s_53cdksympe","scope":"g:latintrap","role":"peak"},
+{"song":"s_2nn1en110f","scope":"g:latintrap","role":"peak"},
+{"song":"s_4gpbjyt29x","scope":"g:latintrap","role":"peak"},
+{"song":"s_9b4t41tssx","scope":"g:latintrap","role":"peak"},
+{"song":"s_sgrrbgap65","scope":"g:latintrap","role":"peak"},
+{"song":"s_xfq7pknj2q","scope":"g:latintrap","role":"peak"},
+{"song":"s_0cqzq2pjbs","scope":"g:latintrap","role":"peak"},
+{"song":"s_788ktgdwep","scope":"g:latintrap","role":"peak"},
+{"song":"s_m7dbck9wnc","scope":"g:latintrap","role":"reference"},
+{"song":"s_4r18tn23m3","scope":"g:latintrap","role":"reference"},
+{"song":"s_2nn1en110f","scope":"g:latintrap","role":"reference"},
+{"song":"s_4gpbjyt29x","scope":"g:latintrap","role":"reference"},
+{"song":"s_7yrdfjzjm2","scope":"g:latintrap","role":"near miss","belongs_to":"reggaeton","reason":"Driven by the dembow drum pattern, not trap 808s and hi-hats"}
+]

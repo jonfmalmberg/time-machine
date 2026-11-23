@@ -1,0 +1,21 @@
+[
+{"song":"s_yccv5j0net","scope":"g:y2krnb","role":"intro"},
+{"song":"s_5mhcpmgs7h","scope":"g:y2krnb","role":"intro"},
+{"song":"s_zdgatz7p2h","scope":"g:y2krnb","role":"intro"},
+{"song":"s_6xzkk57r1z","scope":"g:y2krnb","role":"peak"},
+{"song":"s_by4kmbs38c","scope":"g:y2krnb","role":"peak"},
+{"song":"s_kcqza88qv2","scope":"g:y2krnb","role":"peak"},
+{"song":"s_tks3tnejnz","scope":"g:y2krnb","role":"peak"},
+{"song":"s_44jevvd6yf","scope":"g:y2krnb","role":"peak"},
+{"song":"s_3jfg08a1sk","scope":"g:y2krnb","role":"peak"},
+{"song":"s_by98d2wn94","scope":"g:y2krnb","role":"peak"},
+{"song":"s_737hd87032","scope":"g:y2krnb","role":"peak"},
+{"song":"s_s8jv69mrk3","scope":"g:y2krnb","role":"peak"},
+{"song":"s_2t6hevwd8a","scope":"g:y2krnb","role":"peak"},
+{"song":"s_hfjkrajb9v","scope":"g:y2krnb","role":"peak"},
+{"song":"s_6xzkk57r1z","scope":"g:y2krnb","role":"reference"},
+{"song":"s_kcqza88qv2","scope":"g:y2krnb","role":"reference"},
+{"song":"s_by98d2wn94","scope":"g:y2krnb","role":"reference"},
+{"song":"s_s8jv69mrk3","scope":"g:y2krnb","role":"reference"},
+{"song":"s_fxqqqzr2dg","scope":"g:y2krnb","role":"near miss","belongs_to":"altrnb","reason":"Dark and hazy rather than glossy"}
+]

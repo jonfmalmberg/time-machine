@@ -1,0 +1,16 @@
+[
+{"song":"s_cznqkzq118","scope":"g:sungura","role":"intro"},
+{"song":"s_vn027721dz","scope":"g:sungura","role":"intro"},
+{"song":"s_ra4cq4jcpp","scope":"g:sungura","role":"intro"},
+{"song":"s_r18gmp7kh5","scope":"g:sungura","role":"peak"},
+{"song":"s_c3mtfhvz0w","scope":"g:sungura","role":"peak"},
+{"song":"s_esc3h5rev4","scope":"g:sungura","role":"peak"},
+{"song":"s_jdkxpdt5ka","scope":"g:sungura","role":"peak"},
+{"song":"s_r18gmp7kh5","scope":"g:sungura","role":"reference"},
+{"song":"s_cznqkzq118","scope":"g:sungura","role":"reference"},
+{"song":"s_c3mtfhvz0w","scope":"g:sungura","role":"reference"},
+{"song":"s_jdkxpdt5ka","scope":"g:sungura","role":"reference"},
+{"song":"s_97404zrr12","scope":"g:sungura","role":"near miss","belongs_to":"chimurenga","reason":"Mbira-based protest music, slower and heavier"},
+{"release":"r_1pascjbsyd","scope":"g:sungura","role":"album"},
+{"release":"r_mm2hrnzk34","scope":"g:sungura","role":"album"}
+]

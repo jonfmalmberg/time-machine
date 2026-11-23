@@ -1,0 +1,8 @@
+[
+{"song":"s_9wqfr65gce","scope":"g:mbira","role":"intro"},
+{"song":"s_yd7ayvx9mg","scope":"g:mbira","role":"reference"},
+{"song":"s_9wqfr65gce","scope":"g:mbira","role":"reference"},
+{"song":"s_02y3p92f00","scope":"g:mbira","role":"near miss","released":1978,"belongs_to":"chimurenga","reason":"Mbira patterns, but played on electric guitars by a dance band"},
+{"release":"r_gfjpp1wxe0","scope":"g:mbira","role":"album"},
+{"release":"r_3g1tfzkpgr","scope":"g:mbira","role":"album"}
+]

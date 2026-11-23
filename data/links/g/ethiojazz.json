@@ -1,0 +1,18 @@
+[
+{"song":"s_g1jvkzs861","scope":"g:ethiojazz","role":"intro"},
+{"song":"s_dkw2fb95x9","scope":"g:ethiojazz","role":"intro"},
+{"song":"s_pr85x6d1t4","scope":"g:ethiojazz","role":"intro"},
+{"song":"s_3n4cht3h5b","scope":"g:ethiojazz","role":"peak","released":1969},
+{"song":"s_aemsbmwyrb","scope":"g:ethiojazz","role":"peak"},
+{"song":"s_ka8fqkj5aa","scope":"g:ethiojazz","role":"peak"},
+{"song":"s_n8cswqwx4h","scope":"g:ethiojazz","role":"peak"},
+{"song":"s_yczkzv9nja","scope":"g:ethiojazz","role":"peak"},
+{"song":"s_xycz421g07","scope":"g:ethiojazz","role":"peak"},
+{"song":"s_pz7a72qj9z","scope":"g:ethiojazz","role":"peak"},
+{"song":"s_m9q873445n","scope":"g:ethiojazz","role":"peak"},
+{"song":"s_wzbycnb2f0","scope":"g:ethiojazz","role":"peak"},
+{"song":"s_85ypjenvkr","scope":"g:ethiojazz","role":"peak"},
+{"song":"s_3n4cht3h5b","scope":"g:ethiojazz","role":"reference","released":1974},
+{"song":"s_n8cswqwx4h","scope":"g:ethiojazz","role":"reference"},
+{"song":"s_c3k2k7s76b","scope":"g:ethiojazz","role":"near miss","belongs_to":"afrobeat","reason":"Long horn-driven groove too, but Yoruba-funk polyrhythm and chanted vocals, not Ethiopian modes"}
+]

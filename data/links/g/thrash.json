@@ -1,0 +1,21 @@
+[
+{"song":"s_9jnrnb9xd9","scope":"g:thrash","role":"intro"},
+{"song":"s_9cjx9zqg7d","scope":"g:thrash","role":"intro"},
+{"song":"s_xnj95dx3fh","scope":"g:thrash","role":"intro"},
+{"song":"s_mvewd8wjtt","scope":"g:thrash","role":"peak"},
+{"song":"s_2pxbvvw5kg","scope":"g:thrash","role":"peak"},
+{"song":"s_59x66hw4gp","scope":"g:thrash","role":"peak"},
+{"song":"s_annfbztp76","scope":"g:thrash","role":"peak"},
+{"song":"s_fh5ah13qhq","scope":"g:thrash","role":"peak"},
+{"song":"s_f1mcfta3yf","scope":"g:thrash","role":"peak"},
+{"song":"s_3w2qeda8na","scope":"g:thrash","role":"peak"},
+{"song":"s_81hvc23j3s","scope":"g:thrash","role":"peak"},
+{"song":"s_h47akg9dcw","scope":"g:thrash","role":"peak"},
+{"song":"s_xczsk48rav","scope":"g:thrash","role":"peak"},
+{"song":"s_ag5fb4d4e5","scope":"g:thrash","role":"peak"},
+{"song":"s_96x5bmcf53","scope":"g:thrash","role":"peak"},
+{"song":"s_mvewd8wjtt","scope":"g:thrash","role":"reference"},
+{"song":"s_2pxbvvw5kg","scope":"g:thrash","role":"reference"},
+{"song":"s_annfbztp76","scope":"g:thrash","role":"reference"},
+{"song":"s_0sn52q0cdt","scope":"g:thrash","role":"near miss","belongs_to":"metal","reason":"Galloping and melodic, sung rather than shouted"}
+]

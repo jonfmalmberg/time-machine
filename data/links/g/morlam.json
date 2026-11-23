@@ -1,0 +1,13 @@
+[
+{"song":"s_5ggkpb4c7s","scope":"g:morlam","role":"intro"},
+{"song":"s_w67mmjbyrt","scope":"g:morlam","role":"intro"},
+{"song":"s_c19yd86zws","scope":"g:morlam","role":"peak"},
+{"song":"s_4r8xrb3zfe","scope":"g:morlam","role":"peak"},
+{"song":"s_pte4rfg19z","scope":"g:morlam","role":"peak"},
+{"song":"s_m9daa4knh6","scope":"g:morlam","role":"reference"},
+{"song":"s_7sgyz879bv","scope":"g:morlam","role":"reference"},
+{"song":"s_qw4s7t4z5v","scope":"g:morlam","role":"near miss","belongs_to":"lukthung","reason":"Central Thai country song with brass and strings, not khaen-led"},
+{"release":"r_8g8w3560h3","scope":"g:morlam","role":"album"},
+{"release":"r_t35x9f4fg3","scope":"g:morlam","role":"album"},
+{"release":"r_zhjxv4mf3z","scope":"g:morlam","role":"album"}
+]

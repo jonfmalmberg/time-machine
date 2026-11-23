@@ -1,0 +1,22 @@
+[
+{"song":"s_37aqg6ybs3","scope":"g:rocksteady","role":"intro"},
+{"song":"s_aba9fqmhhr","scope":"g:rocksteady","role":"intro"},
+{"song":"s_vncxncwwb7","scope":"g:rocksteady","role":"intro"},
+{"song":"s_3qr1jd9r0q","scope":"g:rocksteady","role":"peak"},
+{"song":"s_xyv3740szs","scope":"g:rocksteady","role":"peak"},
+{"song":"s_qvb66pmhag","scope":"g:rocksteady","role":"peak"},
+{"song":"s_zf85csffe6","scope":"g:rocksteady","role":"peak"},
+{"song":"s_jxn41a1zm6","scope":"g:rocksteady","role":"peak"},
+{"song":"s_52pd7re421","scope":"g:rocksteady","role":"peak"},
+{"song":"s_f02zpv183c","scope":"g:rocksteady","role":"peak"},
+{"song":"s_djvdj5505y","scope":"g:rocksteady","role":"peak"},
+{"song":"s_wxb5qkm3fr","scope":"g:rocksteady","role":"peak"},
+{"song":"s_xp9a4t1swb","scope":"g:rocksteady","role":"peak"},
+{"song":"s_yjrj13z02d","scope":"g:rocksteady","role":"peak"},
+{"song":"s_aba9fqmhhr","scope":"g:rocksteady","role":"reference"},
+{"song":"s_3qr1jd9r0q","scope":"g:rocksteady","role":"reference"},
+{"song":"s_qvb66pmhag","scope":"g:rocksteady","role":"reference"},
+{"song":"s_xyv3740szs","scope":"g:rocksteady","role":"reference"},
+{"song":"s_yfknj2a9n4","scope":"g:rocksteady","role":"near miss","belongs_to":"ska","reason":"Faster, horn-and-shuffle ska with a busy walking bass"},
+{"song":"s_c7ze10fpcz","scope":"g:rocksteady","role":"near miss","belongs_to":"reggae","reason":"Choppier organ shuffle and double-time guitar of early reggae"}
+]

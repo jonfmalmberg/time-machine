@@ -1,0 +1,18 @@
+[
+{"song":"s_tawt90ag4x","scope":"g:elektron","role":"intro"},
+{"song":"s_87g7a106th","scope":"g:elektron","role":"intro"},
+{"song":"s_4wce3kgjkj","scope":"g:elektron","role":"intro"},
+{"song":"s_f1pxf5fr6x","scope":"g:elektron","role":"peak"},
+{"song":"s_zb94kngqfm","scope":"g:elektron","role":"peak"},
+{"song":"s_5xahdtzbgv","scope":"g:elektron","role":"peak"},
+{"song":"s_jwcy61hx15","scope":"g:elektron","role":"peak"},
+{"song":"s_b5t80abv0a","scope":"g:elektron","role":"peak"},
+{"song":"s_hxz8r20bst","scope":"g:elektron","role":"peak"},
+{"song":"s_aqwam4gn7m","scope":"g:elektron","role":"peak"},
+{"song":"s_4wce3kgjkj","scope":"g:elektron","role":"reference"},
+{"song":"s_f1pxf5fr6x","scope":"g:elektron","role":"reference"},
+{"song":"s_b5t80abv0a","scope":"g:elektron","role":"reference"},
+{"song":"s_8rmepkbkrx","scope":"g:elektron","role":"near miss","belongs_to":"concrete","reason":"Made from recorded train sounds, not generated tones"},
+{"release":"r_0kjbshp4ce","scope":"g:elektron","role":"album"},
+{"release":"r_zz7kz32gsw","scope":"g:elektron","role":"album"}
+]

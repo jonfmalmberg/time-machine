@@ -1,0 +1,15 @@
+[
+{"song":"s_4qhxb5m2ed","scope":"c:FI:2020s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_jzg2sk0hw8","scope":"c:FI:2020s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_b84qfjym3v","scope":"c:FI:2020s","role":"home","scene":"rock","confidence":"m"},
+{"song":"s_1cqed4dwmh","scope":"c:FI:2020s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_hjttkq60vp","scope":"c:FI:2020s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_yxhx6j2cx4","scope":"c:FI:2020s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_q52bqwb8xg","scope":"c:FI:2020s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_tctv0k3akt","scope":"c:FI:2020s","role":"home","scene":"pop","confidence":"m"},
+{"song":"s_kvn9x3tcq4","scope":"c:FI:2020s","role":"home","scene":"pop","confidence":"h"},
+{"song":"s_h4vm6b1wyh","scope":"c:FI:2020s","role":"foreign","scene":"pop","confidence":"h"},
+{"song":"s_9qnf9w3sff","scope":"c:FI:2020s","role":"foreign","scene":"pop","confidence":"m"},
+{"song":"s_h28dhvcqs1","scope":"c:FI:2020s","role":"foreign","scene":"pop","confidence":"m"},
+{"song":"s_vxzc0tdn6v","scope":"c:FI:2020s","role":"foreign","scene":"pop","confidence":"m"}
+]

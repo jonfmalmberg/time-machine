@@ -1,0 +1,19 @@
+[
+{"song":"s_9cfv8dk9h0","scope":"g:dangdut","role":"intro"},
+{"song":"s_5r1vpqjjg2","scope":"g:dangdut","role":"intro","released":1973},
+{"song":"s_t4estvv2rj","scope":"g:dangdut","role":"intro"},
+{"song":"s_e681m0xbbj","scope":"g:dangdut","role":"peak"},
+{"song":"s_ma1yy6gqcp","scope":"g:dangdut","role":"peak"},
+{"song":"s_66et54wa1t","scope":"g:dangdut","role":"peak"},
+{"song":"s_c24mfycg6r","scope":"g:dangdut","role":"peak"},
+{"song":"s_9khr8mn02w","scope":"g:dangdut","role":"peak"},
+{"song":"s_824cybccbn","scope":"g:dangdut","role":"peak"},
+{"song":"s_f77n8tw441","scope":"g:dangdut","role":"peak"},
+{"song":"s_dqzptbrjrz","scope":"g:dangdut","role":"peak","released":2011},
+{"song":"s_r4153xnw55","scope":"g:dangdut","role":"peak"},
+{"song":"s_sctb024fs4","scope":"g:dangdut","role":"peak"},
+{"song":"s_sjavec7mx5","scope":"g:dangdut","role":"peak"},
+{"song":"s_9cfv8dk9h0","scope":"g:dangdut","role":"reference"},
+{"song":"s_t4estvv2rj","scope":"g:dangdut","role":"reference"},
+{"song":"s_gcg10sn373","scope":"g:dangdut","role":"near miss","released":1968,"belongs_to":"kroncong","reason":"Strummed small-string ensemble, no dance drum or guitar"}
+]

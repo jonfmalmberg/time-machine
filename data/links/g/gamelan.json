@@ -1,0 +1,12 @@
+[
+{"song":"s_z7fgt2bfth","scope":"g:gamelan","role":"intro"},
+{"song":"s_617n72749b","scope":"g:gamelan","role":"intro"},
+{"song":"s_jh2eaaw2qz","scope":"g:gamelan","role":"peak"},
+{"song":"s_a07544wzn1","scope":"g:gamelan","role":"peak"},
+{"song":"s_0egzbmqf4t","scope":"g:gamelan","role":"peak"},
+{"song":"s_z7fgt2bfth","scope":"g:gamelan","role":"reference"},
+{"song":"s_xf0315fg1c","scope":"g:gamelan","role":"reference"},
+{"song":"s_rwdtmq39we","scope":"g:gamelan","role":"near miss","belongs_to":"jaipongan","reason":"Kendang-driven Sundanese dance pop with a lead singer"},
+{"release":"r_yb5j3v52zv","scope":"g:gamelan","role":"album"},
+{"release":"r_1n0fcwweq1","scope":"g:gamelan","role":"album"}
+]

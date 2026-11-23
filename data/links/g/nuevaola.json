@@ -1,0 +1,23 @@
+[
+{"song":"s_5zp8fpykcr","scope":"g:nuevaola","role":"intro"},
+{"song":"s_qdyyszbrx5","scope":"g:nuevaola","role":"intro"},
+{"song":"s_5tkk5p2fq4","scope":"g:nuevaola","role":"intro"},
+{"song":"s_wtegbt1ztb","scope":"g:nuevaola","role":"peak"},
+{"song":"s_gmx8c003fq","scope":"g:nuevaola","role":"peak"},
+{"song":"s_dyapk2w4p5","scope":"g:nuevaola","role":"peak"},
+{"song":"s_n89x9hhg2s","scope":"g:nuevaola","role":"peak"},
+{"song":"s_cvat0m2exn","scope":"g:nuevaola","role":"peak"},
+{"song":"s_dtxhkpye81","scope":"g:nuevaola","role":"peak"},
+{"song":"s_g26yrd3x34","scope":"g:nuevaola","role":"peak"},
+{"song":"s_60ycsw72j7","scope":"g:nuevaola","role":"peak"},
+{"song":"s_x4xn0r74my","scope":"g:nuevaola","role":"peak"},
+{"song":"s_w8ant5z6sv","scope":"g:nuevaola","role":"peak"},
+{"song":"s_63cdtww3fs","scope":"g:nuevaola","role":"peak"},
+{"song":"s_3ayjj4j9rv","scope":"g:nuevaola","role":"peak"},
+{"song":"s_5tkk5p2fq4","scope":"g:nuevaola","role":"reference"},
+{"song":"s_n89x9hhg2s","scope":"g:nuevaola","role":"reference"},
+{"song":"s_qdyyszbrx5","scope":"g:nuevaola","role":"reference"},
+{"song":"s_dtxhkpye81","scope":"g:nuevaola","role":"reference"},
+{"song":"s_xwkft5cc9e","scope":"g:nuevaola","role":"near miss","belongs_to":"balada","reason":"Grown-up orchestral romantic ballad"},
+{"song":"s_k7yz0n4j2k","scope":"g:nuevaola","role":"near miss","belongs_to":"rockesp","reason":"Self-written rock in Spanish, the start of rock nacional"}
+]

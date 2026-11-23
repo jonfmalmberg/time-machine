@@ -1,0 +1,22 @@
+[
+{"song":"s_pegagdh2bk","scope":"g:soca","role":"intro"},
+{"song":"s_258hz3db51","scope":"g:soca","role":"intro"},
+{"song":"s_47ex30gffb","scope":"g:soca","role":"intro"},
+{"song":"s_9kvxe3jfq7","scope":"g:soca","role":"peak"},
+{"song":"s_c0hgyr5pz6","scope":"g:soca","role":"peak"},
+{"song":"s_x60ezjg9hf","scope":"g:soca","role":"peak"},
+{"song":"s_pt9qxh5zk7","scope":"g:soca","role":"peak"},
+{"song":"s_f6gfkw13ct","scope":"g:soca","role":"peak"},
+{"song":"s_389r9qrg08","scope":"g:soca","role":"peak"},
+{"song":"s_pydgb4a6jh","scope":"g:soca","role":"peak"},
+{"song":"s_f9g2xqh63x","scope":"g:soca","role":"peak"},
+{"song":"s_8n984ayymq","scope":"g:soca","role":"peak","released":2013},
+{"song":"s_h47059tb3g","scope":"g:soca","role":"peak"},
+{"song":"s_xbcxzh2vkj","scope":"g:soca","role":"peak"},
+{"song":"s_y9yhfgm1r5","scope":"g:soca","role":"peak"},
+{"song":"s_47ex30gffb","scope":"g:soca","role":"reference"},
+{"song":"s_f6gfkw13ct","scope":"g:soca","role":"reference"},
+{"song":"s_8n984ayymq","scope":"g:soca","role":"reference","released":2012},
+{"song":"s_cahdmy4z3b","scope":"g:soca","role":"near miss","belongs_to":"calypso","reason":"Narrative calypso: slower lilt, the story matters more than the beat"},
+{"song":"s_zwsnwry0hb","scope":"g:soca","role":"near miss","belongs_to":"dancehall","reason":"Bajan singer, but a dancehall-pop riddim, not a carnival soca beat"}
+]

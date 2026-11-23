@@ -1,0 +1,21 @@
+[
+{"song":"s_gt8ceqy638","scope":"g:chileancumbia","role":"intro"},
+{"song":"s_d3dxqwz7eb","scope":"g:chileancumbia","role":"intro"},
+{"song":"s_1fgcee8pkg","scope":"g:chileancumbia","role":"intro"},
+{"song":"s_kkdepj7bkd","scope":"g:chileancumbia","role":"peak"},
+{"song":"s_d4zqek6cjv","scope":"g:chileancumbia","role":"peak"},
+{"song":"s_97b1vwb4ns","scope":"g:chileancumbia","role":"peak"},
+{"song":"s_2ha1kkejb8","scope":"g:chileancumbia","role":"peak"},
+{"song":"s_vzvf5x2jer","scope":"g:chileancumbia","role":"peak"},
+{"song":"s_xs2nq255vv","scope":"g:chileancumbia","role":"peak"},
+{"song":"s_7rkp8ajq5y","scope":"g:chileancumbia","role":"peak"},
+{"song":"s_vqff4yy6g7","scope":"g:chileancumbia","role":"peak"},
+{"song":"s_rcm0yjp0h8","scope":"g:chileancumbia","role":"peak"},
+{"song":"s_qmfya22j95","scope":"g:chileancumbia","role":"peak"},
+{"song":"s_1st9wajyvs","scope":"g:chileancumbia","role":"peak","released":2015},
+{"song":"s_gt8ceqy638","scope":"g:chileancumbia","role":"reference"},
+{"song":"s_d3dxqwz7eb","scope":"g:chileancumbia","role":"reference"},
+{"song":"s_1fgcee8pkg","scope":"g:chileancumbia","role":"reference"},
+{"song":"s_7rkp8ajq5y","scope":"g:chileancumbia","role":"reference"},
+{"song":"s_asdkeq02y5","scope":"g:chileancumbia","role":"near miss","released":1973,"belongs_to":"chicha","reason":"Peruvian electric-guitar cumbia, no brass section"}
+]

@@ -1,0 +1,12 @@
+[
+{"song":"s_e5nt0e1q3n","scope":"g:coupe","role":"intro","released":2002},
+{"song":"s_vjj5z3h1ds","scope":"g:coupe","role":"peak","released":2005},
+{"song":"s_9wjy68x0df","scope":"g:coupe","role":"peak"},
+{"song":"s_6wf96yppsa","scope":"g:coupe","role":"peak"},
+{"song":"s_vek59ahqfj","scope":"g:coupe","role":"peak"},
+{"song":"s_v48zd5jp5a","scope":"g:coupe","role":"peak"},
+{"song":"s_vjj5z3h1ds","scope":"g:coupe","role":"reference","released":2008},
+{"song":"s_vek59ahqfj","scope":"g:coupe","role":"reference"},
+{"song":"s_wkvzfyff6p","scope":"g:coupe","role":"near miss","belongs_to":"rumbacongo","reason":"Same animation and dance beat, but live guitar ndombolo from Congo"},
+{"release":"r_vrwdq5ep3a","scope":"g:coupe","role":"album"}
+]

@@ -1,0 +1,11 @@
+[
+{"song":"s_25zgbttpfp","scope":"g:kizomba","role":"peak"},
+{"song":"s_8zg1d1gvt1","scope":"g:kizomba","role":"peak","released":2013},
+{"song":"s_xfvy71fr7r","scope":"g:kizomba","role":"peak"},
+{"song":"s_hdc0gzyh1m","scope":"g:kizomba","role":"peak"},
+{"song":"s_fr4y888m2r","scope":"g:kizomba","role":"peak"},
+{"song":"s_8zg1d1gvt1","scope":"g:kizomba","role":"reference","released":2012},
+{"song":"s_xfvy71fr7r","scope":"g:kizomba","role":"reference"},
+{"song":"s_d7e205bpwv","scope":"g:kizomba","role":"near miss","belongs_to":"zouk","reason":"Faster carnival zouk from the Antilles, not the slow Angolan glide"},
+{"release":"r_f0jvrrzgrk","scope":"g:kizomba","role":"album"}
+]

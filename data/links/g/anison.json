@@ -1,0 +1,20 @@
+[
+{"song":"s_v4exyzkr06","scope":"g:anison","role":"intro"},
+{"song":"s_t4qve5q197","scope":"g:anison","role":"intro"},
+{"song":"s_pegghtazpp","scope":"g:anison","role":"intro"},
+{"song":"s_9dh4skq9mg","scope":"g:anison","role":"peak"},
+{"song":"s_k6v6ey3gk0","scope":"g:anison","role":"peak"},
+{"song":"s_w2v0pp51yn","scope":"g:anison","role":"peak"},
+{"song":"s_cjhfntmddt","scope":"g:anison","role":"peak"},
+{"song":"s_f5fmv9zaj4","scope":"g:anison","role":"peak"},
+{"song":"s_x83v8memdy","scope":"g:anison","role":"peak"},
+{"song":"s_zer5zc6gtn","scope":"g:anison","role":"peak"},
+{"song":"s_pn3rnzdvjf","scope":"g:anison","role":"peak"},
+{"song":"s_1sg9g60ry8","scope":"g:anison","role":"peak"},
+{"song":"s_0fpcvc63h2","scope":"g:anison","role":"peak"},
+{"song":"s_zp3qcjdvzh","scope":"g:anison","role":"peak"},
+{"song":"s_k6v6ey3gk0","scope":"g:anison","role":"reference"},
+{"song":"s_v4exyzkr06","scope":"g:anison","role":"reference"},
+{"song":"s_pegghtazpp","scope":"g:anison","role":"reference"},
+{"song":"s_exdt22z5fd","scope":"g:anison","role":"near miss","belongs_to":"jpop","reason":"J-pop hit with no anime tie-in"}
+]

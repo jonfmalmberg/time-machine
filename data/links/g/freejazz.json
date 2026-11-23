@@ -1,0 +1,20 @@
+[
+{"song":"s_cxtma0m1w4","scope":"g:freejazz","role":"intro"},
+{"song":"s_xpp5yyvp55","scope":"g:freejazz","role":"intro"},
+{"song":"s_ycbxw3aa6a","scope":"g:freejazz","role":"intro"},
+{"song":"s_tw2czfjs5x","scope":"g:freejazz","role":"peak"},
+{"song":"s_g7238k0aft","scope":"g:freejazz","role":"peak"},
+{"song":"s_ypd3jah26t","scope":"g:freejazz","role":"peak","released":1965},
+{"song":"s_e6pscax776","scope":"g:freejazz","role":"peak"},
+{"song":"s_3wkwk7f69d","scope":"g:freejazz","role":"peak"},
+{"song":"s_cz0e0z3zyr","scope":"g:freejazz","role":"peak"},
+{"song":"s_kff159thqs","scope":"g:freejazz","role":"peak"},
+{"song":"s_8nbpbh3vy6","scope":"g:freejazz","role":"peak"},
+{"song":"s_btkt454hzb","scope":"g:freejazz","role":"peak"},
+{"song":"s_g3myzjzwb9","scope":"g:freejazz","role":"peak"},
+{"song":"s_m1eped520a","scope":"g:freejazz","role":"peak"},
+{"song":"s_cxtma0m1w4","scope":"g:freejazz","role":"reference"},
+{"song":"s_tw2czfjs5x","scope":"g:freejazz","role":"reference"},
+{"song":"s_ypd3jah26t","scope":"g:freejazz","role":"reference","released":1964},
+{"song":"s_ftetz529qc","scope":"g:freejazz","role":"near miss","belongs_to":"modjazz","reason":"Intense and spiritual, but built on a steady pulse and a modal vamp"}
+]

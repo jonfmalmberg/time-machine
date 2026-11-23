@@ -1,0 +1,22 @@
+[
+{"song":"s_dkjpvn2dj0","scope":"g:mizrahimusic","role":"intro"},
+{"song":"s_hdyp5d54t2","scope":"g:mizrahimusic","role":"intro"},
+{"song":"s_wb00r0cp6s","scope":"g:mizrahimusic","role":"intro"},
+{"song":"s_casvvsx3eq","scope":"g:mizrahimusic","role":"peak"},
+{"song":"s_c57731wksc","scope":"g:mizrahimusic","role":"peak"},
+{"song":"s_xdvgqspcnd","scope":"g:mizrahimusic","role":"peak"},
+{"song":"s_pat93c5aqh","scope":"g:mizrahimusic","role":"peak"},
+{"song":"s_4jhtr9q4wx","scope":"g:mizrahimusic","role":"peak"},
+{"song":"s_8208w0kp47","scope":"g:mizrahimusic","role":"peak"},
+{"song":"s_gw7sr590yx","scope":"g:mizrahimusic","role":"peak"},
+{"song":"s_sm3n544m0b","scope":"g:mizrahimusic","role":"peak"},
+{"song":"s_4ppr2w7f4z","scope":"g:mizrahimusic","role":"peak"},
+{"song":"s_rz4hvt5xst","scope":"g:mizrahimusic","role":"peak"},
+{"song":"s_3r4xzvgqh9","scope":"g:mizrahimusic","role":"peak"},
+{"song":"s_14666pj7pk","scope":"g:mizrahimusic","role":"peak"},
+{"song":"s_dkjpvn2dj0","scope":"g:mizrahimusic","role":"reference"},
+{"song":"s_pat93c5aqh","scope":"g:mizrahimusic","role":"reference"},
+{"song":"s_wb00r0cp6s","scope":"g:mizrahimusic","role":"reference"},
+{"song":"s_xqkmfef9f4","scope":"g:mizrahimusic","role":"near miss","belongs_to":"israelirock","reason":"Ashkenazi-led Israeli rock and pop mainstream"},
+{"song":"s_cqvzdj9s9v","scope":"g:mizrahimusic","role":"near miss","belongs_to":"laiko","reason":"The Greek laïko it borrowed from, sung in Greek"}
+]

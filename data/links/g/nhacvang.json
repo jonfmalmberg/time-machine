@@ -1,0 +1,13 @@
+[
+{"song":"s_09vxx8dk76","scope":"g:nhacvang","role":"peak"},
+{"song":"s_cvrk5xwv22","scope":"g:nhacvang","role":"peak"},
+{"song":"s_06q0y086e7","scope":"g:nhacvang","role":"peak"},
+{"song":"s_pkcwqpyj43","scope":"g:nhacvang","role":"peak"},
+{"song":"s_tw0rqqc6rh","scope":"g:nhacvang","role":"peak"},
+{"song":"s_jrda4h57wm","scope":"g:nhacvang","role":"reference"},
+{"song":"s_apbpxgsmr7","scope":"g:nhacvang","role":"reference"},
+{"song":"s_nmw1bnk1ga","scope":"g:nhacvang","role":"near miss","belongs_to":"vpop","reason":"Electronic pop production, youth-market V-pop"},
+{"release":"r_skrjwvvw75","scope":"g:nhacvang","role":"album"},
+{"release":"r_exdgratb8f","scope":"g:nhacvang","role":"album"},
+{"release":"r_qm0xd0zn1t","scope":"g:nhacvang","role":"album"}
+]

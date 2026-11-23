@@ -1,0 +1,22 @@
+[
+{"song":"s_dbhpe873p9","scope":"g:mexbolero","role":"intro"},
+{"song":"s_0j07655qqt","scope":"g:mexbolero","role":"intro"},
+{"song":"s_retr51db6s","scope":"g:mexbolero","role":"intro"},
+{"song":"s_vc34envcvy","scope":"g:mexbolero","role":"peak"},
+{"song":"s_c1kz1vkkqv","scope":"g:mexbolero","role":"peak"},
+{"song":"s_q1s6knnq5n","scope":"g:mexbolero","role":"peak"},
+{"song":"s_gfd5kaswyg","scope":"g:mexbolero","role":"peak"},
+{"song":"s_ksqv51wqkn","scope":"g:mexbolero","role":"peak"},
+{"song":"s_c1naha3n5a","scope":"g:mexbolero","role":"peak"},
+{"song":"s_8s8krc4sq6","scope":"g:mexbolero","role":"peak"},
+{"song":"s_40vk565rt1","scope":"g:mexbolero","role":"peak"},
+{"song":"s_qg7jgsgz5v","scope":"g:mexbolero","role":"peak"},
+{"song":"s_mda89y5k70","scope":"g:mexbolero","role":"peak","released":1991},
+{"song":"s_eakrdqp002","scope":"g:mexbolero","role":"peak"},
+{"song":"s_1h53rvtkdk","scope":"g:mexbolero","role":"reference"},
+{"song":"s_mrdmx68vk2","scope":"g:mexbolero","role":"reference"},
+{"song":"s_vz8cqrwskp","scope":"g:mexbolero","role":"reference"},
+{"song":"s_9vdyhdwt4d","scope":"g:mexbolero","role":"reference"},
+{"song":"s_5x786ykkvz","scope":"g:mexbolero","role":"near miss","released":1931,"belongs_to":"bolero","reason":"Cuban bolero-son that breaks into a montuno"},
+{"song":"s_4qh6x0kvar","scope":"g:mexbolero","role":"near miss","belongs_to":"balada","reason":"Orchestral pop ballad with no bolero rhythm"}
+]

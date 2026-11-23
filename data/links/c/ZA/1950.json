@@ -1,0 +1,11 @@
+[
+{"song":"s_cxsnrty8sq","scope":"c:ZA:1950s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_vaq59astqv","scope":"c:ZA:1950s","role":"home","scene":"dance","confidence":"m"},
+{"song":"s_2jtjp6f6pc","scope":"c:ZA:1950s","role":"home","scene":"radio","confidence":"h"},
+{"song":"s_y8gzj6jtcq","scope":"c:ZA:1950s","role":"home","released":1956,"scene":"dance","confidence":"m"},
+{"song":"s_p8j2gectvg","scope":"c:ZA:1950s","role":"foreign","scene":"dance","confidence":"m"},
+{"song":"s_xj1f3zxzfe","scope":"c:ZA:1950s","role":"foreign","scene":"rock","confidence":"m"},
+{"song":"s_a86kmjw8ck","scope":"c:ZA:1950s","role":"foreign","scene":"rock","confidence":"m"},
+{"song":"s_0ab3b98225","scope":"c:ZA:1950s","role":"foreign","scene":"pop","confidence":"m"},
+{"song":"s_yh59gty6e4","scope":"c:ZA:1950s","role":"foreign","scene":"ballad","confidence":"h"}
+]

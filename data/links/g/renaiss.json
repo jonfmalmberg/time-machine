@@ -1,0 +1,18 @@
+[
+{"song":"s_bp14vj4trw","scope":"g:renaiss","role":"intro"},
+{"song":"s_jsmkz8ae1e","scope":"g:renaiss","role":"intro"},
+{"song":"s_cr47md0jzx","scope":"g:renaiss","role":"intro"},
+{"song":"s_b89ezcqt8a","scope":"g:renaiss","role":"peak"},
+{"song":"s_hddp3x26z4","scope":"g:renaiss","role":"peak"},
+{"song":"s_7bstsytaqd","scope":"g:renaiss","role":"peak"},
+{"song":"s_s1825cc697","scope":"g:renaiss","role":"peak"},
+{"song":"s_18t6ce27y9","scope":"g:renaiss","role":"peak"},
+{"song":"s_9f0a6gh4dc","scope":"g:renaiss","role":"peak"},
+{"song":"s_hfwd82vtx7","scope":"g:renaiss","role":"peak"},
+{"song":"s_cbra6khgqp","scope":"g:renaiss","role":"peak"},
+{"song":"s_1q7j2134es","scope":"g:renaiss","role":"peak"},
+{"song":"s_5qxf5egm8h","scope":"g:renaiss","role":"peak"},
+{"song":"s_5zj6628x9m","scope":"g:renaiss","role":"reference"},
+{"song":"s_cdmknxyrf7","scope":"g:renaiss","role":"reference"},
+{"song":"s_72wf44b9bg","scope":"g:renaiss","role":"near miss","belongs_to":"medpoly","reason":"Sacred polyphony, but 1300s open fifths, hocket and angular rhythm"}
+]

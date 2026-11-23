@@ -1,0 +1,5 @@
+[
+{"song":"s_4wr9jqnnpd","scope":"g:kunqu","role":"reference"},
+{"song":"s_cvt6qn87ny","scope":"g:kunqu","role":"near miss","belongs_to":"shidaiqu","reason":"Mandopop song quoting kunqu lines, not stage opera"},
+{"release":"r_tztmdw8hcr","scope":"g:kunqu","role":"album"}
+]

@@ -1,0 +1,12 @@
+[
+{"song":"s_aht5t780m2","scope":"c:CL:1950s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_edjv6brcvz","scope":"c:CL:1950s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_0b92xap1ma","scope":"c:CL:1950s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_rrdb1rsd8p","scope":"c:CL:1950s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_4hbwtqk5pt","scope":"c:CL:1950s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_x6ma0mf7eg","scope":"c:CL:1950s","role":"foreign","released":1951,"scene":"film","confidence":"m"},
+{"song":"s_4vexajwkcm","scope":"c:CL:1950s","role":"foreign","scene":"dance","confidence":"m"},
+{"song":"s_xj1f3zxzfe","scope":"c:CL:1950s","role":"foreign","scene":"rock","confidence":"m"},
+{"song":"s_0ab3b98225","scope":"c:CL:1950s","role":"foreign","scene":"pop","confidence":"m"},
+{"song":"s_zffzaksqb2","scope":"c:CL:1950s","role":"foreign","scene":"dance","confidence":"m"}
+]

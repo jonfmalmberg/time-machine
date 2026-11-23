@@ -1,0 +1,18 @@
+[
+{"song":"s_jjcssbpbc8","scope":"g:mexcumbia","role":"intro"},
+{"song":"s_jakk9sqb8t","scope":"g:mexcumbia","role":"intro"},
+{"song":"s_54kfrvg088","scope":"g:mexcumbia","role":"intro","released":1974},
+{"song":"s_nsn2jq56gr","scope":"g:mexcumbia","role":"peak"},
+{"song":"s_f9q2601ga1","scope":"g:mexcumbia","role":"peak"},
+{"song":"s_a5xe5nmsh0","scope":"g:mexcumbia","role":"peak"},
+{"song":"s_8ajckszsba","scope":"g:mexcumbia","role":"peak"},
+{"song":"s_b1125vf5vp","scope":"g:mexcumbia","role":"peak"},
+{"song":"s_dcqtkms34m","scope":"g:mexcumbia","role":"peak"},
+{"song":"s_ckk5xs1fhv","scope":"g:mexcumbia","role":"peak"},
+{"song":"s_q1f6d9bdqx","scope":"g:mexcumbia","role":"peak"},
+{"song":"s_v9a0yqxkbz","scope":"g:mexcumbia","role":"peak"},
+{"song":"s_jd5fn6yd9z","scope":"g:mexcumbia","role":"peak"},
+{"song":"s_q1f6d9bdqx","scope":"g:mexcumbia","role":"reference"},
+{"song":"s_v9a0yqxkbz","scope":"g:mexcumbia","role":"reference"},
+{"song":"s_wr3bqb30xv","scope":"g:mexcumbia","role":"near miss","belongs_to":"cumbia","reason":"Colombian coastal cumbia with drums and gaitas"}
+]

@@ -1,0 +1,15 @@
+[
+{"song":"s_p8ak9599tq","scope":"g:afghanpopularsong","role":"intro"},
+{"song":"s_ptr4ac0bq1","scope":"g:afghanpopularsong","role":"intro"},
+{"song":"s_d6hr3x55f2","scope":"g:afghanpopularsong","role":"intro"},
+{"song":"s_4x00fq2zaj","scope":"g:afghanpopularsong","role":"peak"},
+{"song":"s_fcgmkgh0xx","scope":"g:afghanpopularsong","role":"peak"},
+{"song":"s_s8qq2y6nvr","scope":"g:afghanpopularsong","role":"peak"},
+{"song":"s_akjtnr2sm8","scope":"g:afghanpopularsong","role":"peak"},
+{"song":"s_6trmbscm2q","scope":"g:afghanpopularsong","role":"peak"},
+{"song":"s_p8ak9599tq","scope":"g:afghanpopularsong","role":"reference"},
+{"song":"s_ptr4ac0bq1","scope":"g:afghanpopularsong","role":"reference"},
+{"song":"s_d6hr3x55f2","scope":"g:afghanpopularsong","role":"reference"},
+{"song":"s_dv26pnjheb","scope":"g:afghanpopularsong","role":"near miss","belongs_to":"iranpop","reason":"An Afghan tune, but a Tehran studio pop production"},
+{"release":"r_4e9haxxrbb","scope":"g:afghanpopularsong","role":"album"}
+]

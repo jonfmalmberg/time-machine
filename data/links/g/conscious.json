@@ -1,0 +1,20 @@
+[
+{"song":"s_6m7bnhh2af","scope":"g:conscious","role":"intro"},
+{"song":"s_9qbcrpajpr","scope":"g:conscious","role":"intro"},
+{"song":"s_kd357s83r1","scope":"g:conscious","role":"intro"},
+{"song":"s_sn50s5fs3r","scope":"g:conscious","role":"peak"},
+{"song":"s_qdg6xt9vtc","scope":"g:conscious","role":"peak"},
+{"song":"s_yc73pdsc74","scope":"g:conscious","role":"peak"},
+{"song":"s_aj8yy8h8bn","scope":"g:conscious","role":"peak"},
+{"song":"s_5djfbcs2n9","scope":"g:conscious","role":"peak"},
+{"song":"s_v0fhws1njz","scope":"g:conscious","role":"peak"},
+{"song":"s_bfasbxzk98","scope":"g:conscious","role":"peak"},
+{"song":"s_mcb76b718c","scope":"g:conscious","role":"peak"},
+{"song":"s_yrda32srgz","scope":"g:conscious","role":"peak"},
+{"song":"s_q78mjddh19","scope":"g:conscious","role":"peak"},
+{"song":"s_6m7bnhh2af","scope":"g:conscious","role":"reference"},
+{"song":"s_sn50s5fs3r","scope":"g:conscious","role":"reference"},
+{"song":"s_bfasbxzk98","scope":"g:conscious","role":"reference"},
+{"song":"s_mcb76b718c","scope":"g:conscious","role":"reference"},
+{"song":"s_qvmg3ze8k1","scope":"g:conscious","role":"near miss","belongs_to":"moderntrap","reason":"Lyrical, but the sound is sparse 808 trap; fits both"}
+]

@@ -1,0 +1,12 @@
+[
+{"song":"s_rb9g7ya7m1","scope":"g:lukkrung","role":"intro"},
+{"song":"s_6fbv8wamyb","scope":"g:lukkrung","role":"intro"},
+{"song":"s_s0ec9mybv4","scope":"g:lukkrung","role":"intro"},
+{"song":"s_7b1385gyr5","scope":"g:lukkrung","role":"peak"},
+{"song":"s_5m9rrf743y","scope":"g:lukkrung","role":"peak"},
+{"song":"s_y3nca0w4ce","scope":"g:lukkrung","role":"peak"},
+{"song":"s_7b1385gyr5","scope":"g:lukkrung","role":"reference"},
+{"song":"s_rb9g7ya7m1","scope":"g:lukkrung","role":"reference"},
+{"song":"s_6fbv8wamyb","scope":"g:lukkrung","role":"reference"},
+{"song":"s_52ttfvegns","scope":"g:lukkrung","role":"near miss","belongs_to":"folkrev","reason":"Thai protest song (phleng phuea chiwit) from the folk-rock line, not ballroom crooning"}
+]

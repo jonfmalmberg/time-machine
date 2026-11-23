@@ -1,0 +1,15 @@
+[
+{"song":"s_kr2rgw1tgd","scope":"g:mezwed","role":"intro"},
+{"song":"s_fe81cpezjx","scope":"g:mezwed","role":"intro"},
+{"song":"s_tztvgfm30p","scope":"g:mezwed","role":"intro"},
+{"song":"s_xxyrvn0zxz","scope":"g:mezwed","role":"peak"},
+{"song":"s_ytpgezf2wb","scope":"g:mezwed","role":"peak"},
+{"song":"s_bqn6hs7ref","scope":"g:mezwed","role":"peak"},
+{"song":"s_kr2rgw1tgd","scope":"g:mezwed","role":"reference"},
+{"song":"s_fe81cpezjx","scope":"g:mezwed","role":"reference"},
+{"song":"s_616r60y4qh","scope":"g:mezwed","role":"reference"},
+{"song":"s_rqjg1jbwp2","scope":"g:mezwed","role":"near miss","belongs_to":"rai","reason":"Algerian raï: synths and pop production, no bagpipe"},
+{"release":"r_4d2q3ac11k","scope":"g:mezwed","role":"album"},
+{"release":"r_25rsnkqyzx","scope":"g:mezwed","role":"album"},
+{"release":"r_pyn2w32r26","scope":"g:mezwed","role":"album"}
+]

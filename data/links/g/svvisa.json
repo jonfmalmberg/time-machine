@@ -1,0 +1,23 @@
+[
+{"song":"s_zvbzkvx0j7","scope":"g:svvisa","role":"intro","released":1932},
+{"song":"s_6m059tse4y","scope":"g:svvisa","role":"intro"},
+{"song":"s_pfaef6cfc3","scope":"g:svvisa","role":"intro"},
+{"song":"s_3hzzbem19j","scope":"g:svvisa","role":"peak"},
+{"song":"s_3xf29vf70b","scope":"g:svvisa","role":"peak"},
+{"song":"s_t0d9k7xp8s","scope":"g:svvisa","role":"peak"},
+{"song":"s_05nrw6xjgy","scope":"g:svvisa","role":"peak"},
+{"song":"s_x8752r7269","scope":"g:svvisa","role":"peak","released":1941},
+{"song":"s_xw6zd46mzs","scope":"g:svvisa","role":"peak"},
+{"song":"s_e72geww19j","scope":"g:svvisa","role":"peak"},
+{"song":"s_5v413sxhm6","scope":"g:svvisa","role":"peak"},
+{"song":"s_zfjkbeex84","scope":"g:svvisa","role":"peak"},
+{"song":"s_hnjck29qv3","scope":"g:svvisa","role":"peak"},
+{"song":"s_svmpbg0d7y","scope":"g:svvisa","role":"peak"},
+{"song":"s_dk4bfzrcxz","scope":"g:svvisa","role":"peak","released":1962},
+{"song":"s_zvbzkvx0j7","scope":"g:svvisa","role":"reference","released":1932},
+{"song":"s_t0d9k7xp8s","scope":"g:svvisa","role":"reference"},
+{"song":"s_6m059tse4y","scope":"g:svvisa","role":"reference"},
+{"song":"s_pfaef6cfc3","scope":"g:svvisa","role":"reference"},
+{"song":"s_ad4qg65g7q","scope":"g:svvisa","role":"near miss","released":1966,"belongs_to":"dansband","reason":"Band-driven dance-hall music for couples"},
+{"song":"s_ne2b0vvph8","scope":"g:svvisa","role":"near miss","belongs_to":"europop","reason":"English-language studio pop for an international market"}
+]

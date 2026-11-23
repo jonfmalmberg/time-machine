@@ -1,0 +1,11 @@
+[
+{"song":"s_tf5s3zj2az","scope":"g:minyo","role":"peak"},
+{"song":"s_cp1tcb9py7","scope":"g:minyo","role":"peak"},
+{"song":"s_sqqqsf6kps","scope":"g:minyo","role":"peak"},
+{"song":"s_cf4mgfravq","scope":"g:minyo","role":"peak"},
+{"song":"s_nw6az2bvjw","scope":"g:minyo","role":"peak"},
+{"song":"s_tf5s3zj2az","scope":"g:minyo","role":"near miss","belongs_to":"cumbia","reason":"Min'yō melody set on cumbia and Latin grooves"},
+{"song":"s_fs5p1mbztw","scope":"g:minyo","role":"near miss","belongs_to":"tsugaru","reason":"Solo shamisen virtuosity takes over; the song is only a frame"},
+{"release":"r_8p5x1m348r","scope":"g:minyo","role":"album"},
+{"release":"r_9ve8bxb31t","scope":"g:minyo","role":"album"}
+]

@@ -1,0 +1,23 @@
+[
+{"song":"s_get2s23nvt","scope":"g:hunbeat","role":"intro"},
+{"song":"s_2kf29ak0ce","scope":"g:hunbeat","role":"intro"},
+{"song":"s_jep8k3wxj0","scope":"g:hunbeat","role":"intro"},
+{"song":"s_kcfz1y9g67","scope":"g:hunbeat","role":"peak"},
+{"song":"s_dc99y9fxtj","scope":"g:hunbeat","role":"peak"},
+{"song":"s_3dj16c30n4","scope":"g:hunbeat","role":"peak"},
+{"song":"s_3ycs3tfh2w","scope":"g:hunbeat","role":"peak"},
+{"song":"s_3jz7k5mtdm","scope":"g:hunbeat","role":"peak"},
+{"song":"s_wj0rmc464b","scope":"g:hunbeat","role":"peak"},
+{"song":"s_fqnkk57gdx","scope":"g:hunbeat","role":"peak"},
+{"song":"s_yg8tgt18f6","scope":"g:hunbeat","role":"peak"},
+{"song":"s_dwdwm4m1bh","scope":"g:hunbeat","role":"peak"},
+{"song":"s_rbgg6dpdr0","scope":"g:hunbeat","role":"peak"},
+{"song":"s_f63t32m945","scope":"g:hunbeat","role":"peak"},
+{"song":"s_jhzd6jdzjy","scope":"g:hunbeat","role":"peak"},
+{"song":"s_ph6cpw6kh7","scope":"g:hunbeat","role":"peak"},
+{"song":"s_2kf29ak0ce","scope":"g:hunbeat","role":"reference"},
+{"song":"s_get2s23nvt","scope":"g:hunbeat","role":"reference"},
+{"song":"s_wj0rmc464b","scope":"g:hunbeat","role":"reference"},
+{"song":"s_f63t32m945","scope":"g:hunbeat","role":"reference"},
+{"song":"s_dyh1cbvkk9","scope":"g:hunbeat","role":"near miss","belongs_to":"britbeat","reason":"The British template, in English"}
+]

@@ -1,0 +1,20 @@
+[
+{"song":"s_t6qmfa0mwp","scope":"g:israelirock","role":"intro"},
+{"song":"s_xqkmfef9f4","scope":"g:israelirock","role":"intro"},
+{"song":"s_t3y608adfd","scope":"g:israelirock","role":"intro"},
+{"song":"s_285za22hs9","scope":"g:israelirock","role":"peak"},
+{"song":"s_a7s6wv3s21","scope":"g:israelirock","role":"peak"},
+{"song":"s_wfsqw0rcgq","scope":"g:israelirock","role":"peak"},
+{"song":"s_8rqrnyb3my","scope":"g:israelirock","role":"peak"},
+{"song":"s_1bjpd16cqq","scope":"g:israelirock","role":"peak"},
+{"song":"s_0ykqhy844z","scope":"g:israelirock","role":"peak"},
+{"song":"s_0mg17mpp5t","scope":"g:israelirock","role":"peak"},
+{"song":"s_8cy3b9k3ky","scope":"g:israelirock","role":"peak"},
+{"song":"s_7r71n9dc65","scope":"g:israelirock","role":"peak"},
+{"song":"s_1mdxm12w6j","scope":"g:israelirock","role":"peak"},
+{"song":"s_285za22hs9","scope":"g:israelirock","role":"reference"},
+{"song":"s_t6qmfa0mwp","scope":"g:israelirock","role":"reference"},
+{"song":"s_t3y608adfd","scope":"g:israelirock","role":"reference"},
+{"song":"s_8cy3b9k3ky","scope":"g:israelirock","role":"reference"},
+{"song":"s_dkjpvn2dj0","scope":"g:israelirock","role":"near miss","belongs_to":"mizrahimusic","reason":"Mizrahi song, shut out of the rock mainstream at the time"}
+]

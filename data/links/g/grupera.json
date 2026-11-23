@@ -1,0 +1,22 @@
+[
+{"song":"s_87rpttk8g4","scope":"g:grupera","role":"intro"},
+{"song":"s_v738vy1w5c","scope":"g:grupera","role":"intro"},
+{"song":"s_5b7cxvsf64","scope":"g:grupera","role":"intro"},
+{"song":"s_4whray3n8x","scope":"g:grupera","role":"peak"},
+{"song":"s_xarndz0edn","scope":"g:grupera","role":"peak"},
+{"song":"s_djqx40xpfy","scope":"g:grupera","role":"peak"},
+{"song":"s_c9ehss7ajm","scope":"g:grupera","role":"peak"},
+{"song":"s_v0pvtd311y","scope":"g:grupera","role":"peak"},
+{"song":"s_9h10yf2ns8","scope":"g:grupera","role":"peak"},
+{"song":"s_197ef93z9b","scope":"g:grupera","role":"peak"},
+{"song":"s_1axfjycjnq","scope":"g:grupera","role":"peak"},
+{"song":"s_n49mpe9gwf","scope":"g:grupera","role":"peak"},
+{"song":"s_mxhjvqwk1p","scope":"g:grupera","role":"peak"},
+{"song":"s_dmnrekepqe","scope":"g:grupera","role":"peak"},
+{"song":"s_xmtp6r57y0","scope":"g:grupera","role":"peak"},
+{"song":"s_87rpttk8g4","scope":"g:grupera","role":"reference"},
+{"song":"s_v738vy1w5c","scope":"g:grupera","role":"reference"},
+{"song":"s_5b7cxvsf64","scope":"g:grupera","role":"reference"},
+{"song":"s_rmwq7ysa4q","scope":"g:grupera","role":"near miss","belongs_to":"tejano","reason":"Texas-Mexican, with polka and US pop in the mix"},
+{"song":"s_54kfrvg088","scope":"g:grupera","role":"near miss","released":1972,"belongs_to":"mexcumbia","reason":"Dance-first tropical cumbia"}
+]

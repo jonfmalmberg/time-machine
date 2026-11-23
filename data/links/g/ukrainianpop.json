@@ -1,0 +1,21 @@
+[
+{"song":"s_gr3wj7gz7d","scope":"g:ukrainianpop","role":"intro"},
+{"song":"s_mfsrrtz2ps","scope":"g:ukrainianpop","role":"intro"},
+{"song":"s_9wzww51f0w","scope":"g:ukrainianpop","role":"intro"},
+{"song":"s_9sy93yd6a0","scope":"g:ukrainianpop","role":"peak"},
+{"song":"s_h6nxwdevhn","scope":"g:ukrainianpop","role":"peak"},
+{"song":"s_k06qayd3zv","scope":"g:ukrainianpop","role":"peak"},
+{"song":"s_p0r2qhn4mz","scope":"g:ukrainianpop","role":"peak"},
+{"song":"s_8cewmbwk83","scope":"g:ukrainianpop","role":"peak"},
+{"song":"s_v2xv0ysgc0","scope":"g:ukrainianpop","role":"peak"},
+{"song":"s_mj93ghwaps","scope":"g:ukrainianpop","role":"peak"},
+{"song":"s_7vjy6t5q4e","scope":"g:ukrainianpop","role":"peak"},
+{"song":"s_45gne55gv4","scope":"g:ukrainianpop","role":"peak"},
+{"song":"s_5wjhnh0g7z","scope":"g:ukrainianpop","role":"peak"},
+{"song":"s_jzfdg1k8vk","scope":"g:ukrainianpop","role":"peak"},
+{"song":"s_gr3wj7gz7d","scope":"g:ukrainianpop","role":"reference"},
+{"song":"s_mfsrrtz2ps","scope":"g:ukrainianpop","role":"reference"},
+{"song":"s_45gne55gv4","scope":"g:ukrainianpop","role":"reference"},
+{"song":"s_jzfdg1k8vk","scope":"g:ukrainianpop","role":"reference"},
+{"song":"s_0bha5etgpx","scope":"g:ukrainianpop","role":"near miss","belongs_to":"estrada","reason":"Russian-language all-Union stage pop"}
+]

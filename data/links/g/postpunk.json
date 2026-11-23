@@ -1,0 +1,21 @@
+[
+{"song":"s_n6806kkcn1","scope":"g:postpunk","role":"intro"},
+{"song":"s_tryq42zyht","scope":"g:postpunk","role":"intro"},
+{"song":"s_rkysb311cd","scope":"g:postpunk","role":"intro"},
+{"song":"s_qmea7a0bvx","scope":"g:postpunk","role":"peak"},
+{"song":"s_thc34ns1tb","scope":"g:postpunk","role":"peak"},
+{"song":"s_7qwss43c5a","scope":"g:postpunk","role":"peak"},
+{"song":"s_k4cs0znf7b","scope":"g:postpunk","role":"peak"},
+{"song":"s_xykmfy5dh6","scope":"g:postpunk","role":"peak"},
+{"song":"s_qq2swqwtks","scope":"g:postpunk","role":"peak"},
+{"song":"s_s3v9tvek0v","scope":"g:postpunk","role":"peak"},
+{"song":"s_q94jkdb3b4","scope":"g:postpunk","role":"peak"},
+{"song":"s_c3rm9wmpp5","scope":"g:postpunk","role":"peak"},
+{"song":"s_cy0y7fymr2","scope":"g:postpunk","role":"peak"},
+{"song":"s_4dzkbe7vmb","scope":"g:postpunk","role":"peak"},
+{"song":"s_tryq42zyht","scope":"g:postpunk","role":"reference"},
+{"song":"s_7qwss43c5a","scope":"g:postpunk","role":"reference"},
+{"song":"s_k4cs0znf7b","scope":"g:postpunk","role":"reference"},
+{"song":"s_s3v9tvek0v","scope":"g:postpunk","role":"reference"},
+{"song":"s_xh55p41kb5","scope":"g:postpunk","role":"near miss","belongs_to":"synthpop","reason":"Synthesizers carry the song instead of guitars"}
+]

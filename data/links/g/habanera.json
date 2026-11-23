@@ -1,0 +1,9 @@
+[
+{"song":"s_4rg8qxsnn4","scope":"g:habanera","role":"intro"},
+{"song":"s_qjjrtnzt00","scope":"g:habanera","role":"intro"},
+{"song":"s_4rg8qxsnn4","scope":"g:habanera","role":"reference"},
+{"song":"s_qjjrtnzt00","scope":"g:habanera","role":"reference"},
+{"song":"s_rpb7pahdws","scope":"g:habanera","role":"near miss","belongs_to":"opera","reason":"French opera aria that borrows the habanera rhythm"},
+{"release":"r_xjfdfadqgk","scope":"g:habanera","role":"album"},
+{"release":"r_gvnej2j1ed","scope":"g:habanera","role":"album"}
+]

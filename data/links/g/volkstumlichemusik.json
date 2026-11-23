@@ -1,0 +1,22 @@
+[
+{"song":"s_rcnj4v9gvp","scope":"g:volkstumlichemusik","role":"intro"},
+{"song":"s_nav2txsn2c","scope":"g:volkstumlichemusik","role":"intro"},
+{"song":"s_afdwtx2bsv","scope":"g:volkstumlichemusik","role":"intro"},
+{"song":"s_5ppraw47kq","scope":"g:volkstumlichemusik","role":"peak"},
+{"song":"s_p5744qg71j","scope":"g:volkstumlichemusik","role":"peak"},
+{"song":"s_gzsty68ft3","scope":"g:volkstumlichemusik","role":"peak"},
+{"song":"s_y1s10nak07","scope":"g:volkstumlichemusik","role":"peak"},
+{"song":"s_t68m5bqa41","scope":"g:volkstumlichemusik","role":"peak"},
+{"song":"s_r79x4ke4ks","scope":"g:volkstumlichemusik","role":"peak"},
+{"song":"s_rbayf91d3a","scope":"g:volkstumlichemusik","role":"peak"},
+{"song":"s_8gpv91t5a3","scope":"g:volkstumlichemusik","role":"peak"},
+{"song":"s_435ar8xx46","scope":"g:volkstumlichemusik","role":"peak"},
+{"song":"s_rja7zapn99","scope":"g:volkstumlichemusik","role":"peak"},
+{"song":"s_x1j58wrs2q","scope":"g:volkstumlichemusik","role":"peak"},
+{"song":"s_rcnj4v9gvp","scope":"g:volkstumlichemusik","role":"reference"},
+{"song":"s_gzsty68ft3","scope":"g:volkstumlichemusik","role":"reference"},
+{"song":"s_nav2txsn2c","scope":"g:volkstumlichemusik","role":"reference"},
+{"song":"s_afdwtx2bsv","scope":"g:volkstumlichemusik","role":"reference"},
+{"song":"s_gp34m87q11","scope":"g:volkstumlichemusik","role":"near miss","belongs_to":"schlager","reason":"Urban pop schlager without folk costume"},
+{"song":"s_0xm49g25br","scope":"g:volkstumlichemusik","role":"near miss","belongs_to":"polka","reason":"Instrumental Oberkrainer dance band"}
+]

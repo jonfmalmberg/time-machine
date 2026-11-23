@@ -1,0 +1,7 @@
+[
+{"song":"s_mxzgw8rvj6","scope":"g:jewish","role":"peak"},
+{"song":"s_mxzgw8rvj6","scope":"g:jewish","role":"reference"},
+{"song":"s_gp3va3p26p","scope":"g:jewish","role":"near miss","belongs_to":"klezmer","reason":"Same Jewish modes, but a dance band with clarinet and fiddle, mostly instrumental"},
+{"release":"r_0qe9qw06h5","scope":"g:jewish","role":"album"},
+{"release":"r_8q2tdrpr83","scope":"g:jewish","role":"album"}
+]

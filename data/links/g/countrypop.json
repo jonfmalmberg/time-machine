@@ -1,0 +1,21 @@
+[
+{"song":"s_tg2wrqbdhd","scope":"g:countrypop","role":"intro"},
+{"song":"s_bjd21r3n4q","scope":"g:countrypop","role":"intro"},
+{"song":"s_e21cknmt1b","scope":"g:countrypop","role":"intro"},
+{"song":"s_5qh829rd1r","scope":"g:countrypop","role":"peak"},
+{"song":"s_1tw7re33kb","scope":"g:countrypop","role":"peak"},
+{"song":"s_71x4am4gbw","scope":"g:countrypop","role":"peak"},
+{"song":"s_dgn9dwn8wh","scope":"g:countrypop","role":"peak"},
+{"song":"s_4v0627gcgz","scope":"g:countrypop","role":"peak"},
+{"song":"s_ssexnw5wmj","scope":"g:countrypop","role":"peak"},
+{"song":"s_f254jhhgkr","scope":"g:countrypop","role":"peak"},
+{"song":"s_tsqfjtszr5","scope":"g:countrypop","role":"peak"},
+{"song":"s_f40n0ynw3j","scope":"g:countrypop","role":"peak","released":2005},
+{"song":"s_vharxw664s","scope":"g:countrypop","role":"peak"},
+{"song":"s_b52j14tszr","scope":"g:countrypop","role":"peak"},
+{"song":"s_5qh829rd1r","scope":"g:countrypop","role":"reference"},
+{"song":"s_1tw7re33kb","scope":"g:countrypop","role":"reference"},
+{"song":"s_f40n0ynw3j","scope":"g:countrypop","role":"reference","released":2006},
+{"song":"s_vharxw664s","scope":"g:countrypop","role":"reference"},
+{"song":"s_at5cjajz2b","scope":"g:countrypop","role":"near miss","belongs_to":"synthrevival","reason":"Same artist; 80s drum machine and synth, no country colour"}
+]

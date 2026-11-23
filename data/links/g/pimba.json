@@ -1,0 +1,21 @@
+[
+{"song":"s_z4zc7cyh7g","scope":"g:pimba","role":"intro"},
+{"song":"s_hn83yrhadn","scope":"g:pimba","role":"intro"},
+{"song":"s_qzf5wxy5g6","scope":"g:pimba","role":"intro"},
+{"song":"s_a3k5mfrpr3","scope":"g:pimba","role":"peak"},
+{"song":"s_eez89aef8w","scope":"g:pimba","role":"peak"},
+{"song":"s_vmy0kc40ah","scope":"g:pimba","role":"peak"},
+{"song":"s_c9arxqyqp1","scope":"g:pimba","role":"peak"},
+{"song":"s_rzb9ecyn3g","scope":"g:pimba","role":"peak"},
+{"song":"s_tqe8y7td4p","scope":"g:pimba","role":"peak"},
+{"song":"s_k11c3b7g7s","scope":"g:pimba","role":"peak"},
+{"song":"s_zcgcrx9z6b","scope":"g:pimba","role":"peak"},
+{"song":"s_sbzd2ynkjn","scope":"g:pimba","role":"peak"},
+{"song":"s_avkjcj4dbn","scope":"g:pimba","role":"peak"},
+{"song":"s_kx6c6bjwq3","scope":"g:pimba","role":"peak"},
+{"song":"s_b409gmbnjg","scope":"g:pimba","role":"peak"},
+{"song":"s_z4zc7cyh7g","scope":"g:pimba","role":"reference"},
+{"song":"s_hn83yrhadn","scope":"g:pimba","role":"reference"},
+{"song":"s_eez89aef8w","scope":"g:pimba","role":"reference"},
+{"song":"s_678f1qmvz1","scope":"g:pimba","role":"near miss","belongs_to":"fado","reason":"Fado: Portuguese guitar and a solemn voice, not dance pop"}
+]

@@ -1,0 +1,20 @@
+[
+{"song":"s_ahfmxyevy0","scope":"g:rave","role":"intro"},
+{"song":"s_fh0h907dsh","scope":"g:rave","role":"intro"},
+{"song":"s_p4py7x7009","scope":"g:rave","role":"intro"},
+{"song":"s_deq9acy148","scope":"g:rave","role":"peak"},
+{"song":"s_10p385jfdb","scope":"g:rave","role":"peak"},
+{"song":"s_q8n6c6k29j","scope":"g:rave","role":"peak"},
+{"song":"s_cdbmb1909q","scope":"g:rave","role":"peak"},
+{"song":"s_1v9xmzv39w","scope":"g:rave","role":"peak"},
+{"song":"s_zvcmgh3cjr","scope":"g:rave","role":"peak"},
+{"song":"s_8360hwc3mp","scope":"g:rave","role":"peak"},
+{"song":"s_2dvfc0nw9m","scope":"g:rave","role":"peak"},
+{"song":"s_ry0z455z38","scope":"g:rave","role":"peak"},
+{"song":"s_5tcnmthq54","scope":"g:rave","role":"peak"},
+{"song":"s_0pyyhxk6g2","scope":"g:rave","role":"peak"},
+{"song":"s_10p385jfdb","scope":"g:rave","role":"reference"},
+{"song":"s_1v9xmzv39w","scope":"g:rave","role":"reference"},
+{"song":"s_zvcmgh3cjr","scope":"g:rave","role":"reference"},
+{"song":"s_gz5zjsqp09","scope":"g:rave","role":"near miss","belongs_to":"jungle","reason":"Breaks now fast and intricate over deep reggae sub-bass"}
+]

@@ -1,0 +1,21 @@
+[
+{"song":"s_1gg1vsyqxy","scope":"g:colombiansalsa","role":"intro"},
+{"song":"s_ae006qv1cr","scope":"g:colombiansalsa","role":"intro"},
+{"song":"s_mdz2bb7e6x","scope":"g:colombiansalsa","role":"intro"},
+{"song":"s_jbqb24t9d2","scope":"g:colombiansalsa","role":"peak"},
+{"song":"s_m86vex24fk","scope":"g:colombiansalsa","role":"peak"},
+{"song":"s_0kfj4wcnh3","scope":"g:colombiansalsa","role":"peak"},
+{"song":"s_e9jre4scyy","scope":"g:colombiansalsa","role":"peak"},
+{"song":"s_7r6m8v64sz","scope":"g:colombiansalsa","role":"peak"},
+{"song":"s_8jwqvttn5q","scope":"g:colombiansalsa","role":"peak"},
+{"song":"s_71cbf6hqb9","scope":"g:colombiansalsa","role":"peak"},
+{"song":"s_2aw12qf409","scope":"g:colombiansalsa","role":"peak"},
+{"song":"s_xnxxc628x3","scope":"g:colombiansalsa","role":"peak"},
+{"song":"s_mbtpy7x0nv","scope":"g:colombiansalsa","role":"peak"},
+{"song":"s_djxxpfva1z","scope":"g:colombiansalsa","role":"peak"},
+{"song":"s_mdz2bb7e6x","scope":"g:colombiansalsa","role":"reference"},
+{"song":"s_1gg1vsyqxy","scope":"g:colombiansalsa","role":"reference"},
+{"song":"s_ae006qv1cr","scope":"g:colombiansalsa","role":"reference"},
+{"song":"s_xnxxc628x3","scope":"g:colombiansalsa","role":"reference"},
+{"song":"s_6b6vk5h3vf","scope":"g:colombiansalsa","role":"near miss","belongs_to":"salsa","reason":"New York Fania salsa, the model Colombia answered"}
+]
