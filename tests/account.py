@@ -96,6 +96,14 @@ with sync_playwright() as pw:
     assert [e for e in anon if e['action'] == 'filter'][0]['ref']['pl'] == 'cty:JP'
     assert all(set(e) == {'session', 'action', 'ref'} for e in anon), 'unexpected fields in anonymous events'
     p.click('#whobtn'); p.wait_for_timeout(300); assert p.evaluate("curView()") != 'me', 'second tap on the account button did not go back'
+    # Random: after a pick, "Shuffle again" repeats the same kind in one tap, and each pick is logged with its place in the run
+    p.click('#tab-tree'); p.wait_for_timeout(300); p.click('#mrandb'); p.wait_for_timeout(400); p.click("#mrand [data-go='rollany']"); p.wait_for_selector('#reshuf', state='visible', timeout=8000)
+    for _ in range(2):
+        p.click('#reshuf'); p.wait_for_timeout(300); p.wait_for_function('!rolling', timeout=8000); p.wait_for_timeout(400)
+    p.evaluate("window.TRACKFLUSH()"); p.wait_for_timeout(300)
+    rnd = [e['ref'] for e in anon if e['action'] == 'random']
+    assert [r['n'] for r in rnd] == [1, 2, 3] and all(r['kind'] == 'rollany' and r['to'] for r in rnd), rnd
+    shot(p, 'reshuffle_phone'); p.click('#reshufx'); p.wait_for_timeout(200); assert not p.is_visible('#reshuf')
     # requests without an account: a listener test of the prompt on screen, and research for an unresearched decade
     p.click('#tab-map'); p.wait_for_timeout(300)
     p.evaluate("resetFilters('all'); setYear(1985); setStay(0); setPlace({k:'cty',iso:'JP'}); stPanelOpen=true; stBarUI(); stPanelUpdate()"); p.wait_for_timeout(400)

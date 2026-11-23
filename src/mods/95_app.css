@@ -243,3 +243,7 @@ input[type=range]{accent-color:var(--accent)}
 .dprops{margin-top:4px} .dprop{display:flex;gap:12px;align-items:baseline;padding:10px 14px;font-size:15px} .dprop+.dprop{border-top:.5px solid var(--sep)} .dprop small{flex:0 0 96px;color:var(--muted);font-size:13px} .dprop span{min-width:0;overflow-wrap:anywhere}
 .dfoot{display:none}
 .meadmin{border-top:0;margin-top:0;padding-top:0}
+/* "Shuffle again": appears under the filter bar after a random pick, for half a minute */
+.reshuf{position:fixed;left:50%;transform:translateX(-50%);z-index:26;display:flex;align-items:center;gap:6px;padding:5px;border-radius:22px;background:var(--bar);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);box-shadow:0 4px 18px rgb(0 0 0 / .18)}
+.reshuf[hidden]{display:none} .reshuf .lbtn{display:inline-flex;align-items:center;gap:6px;border-radius:17px;min-height:34px;padding:6px 14px} .reshuf .lbtn .ic{width:17px;height:17px}
+.reshuf .sheet-x{width:30px;height:30px}
