@@ -3,7 +3,7 @@
 Read this before changing anything. The owner is Jon (GitHub `jonfmalmberg`).
 
 ## Start here, every session
-1. `docs/vision/` holds dated records of what the owner wants and why. They are never edited; a change of direction is a new dated file. Read the newest, and the first one (`2026-11-23-direction.md`) if you have not.
+1. `docs/vision/` holds dated records of what the owner wants and why. They are never edited; a change of direction is a new dated file. Read the newest, and the two founding ones if you have not: `2026-11-23-origins.md` (where the app came from and what it is) and `2026-11-23-direction.md` (where it is going).
 2. `docs/PRINCIPLES.md`: how to judge a choice when no rule covers it.
 3. `docs/ROADMAP.md`: the plan and its order. GitHub milestones and issues track the same items; keep the two in step.
 4. `docs/WORKLOG.md`: add an entry at the end of every session (what was done, what was decided and why, what is untested).

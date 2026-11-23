@@ -1,6 +1,6 @@
 # Roadmap
 
-The plan from where the project stands to the product described in [`vision/2026-11-23-direction.md`](vision/2026-11-23-direction.md). It changes as we learn; every change of order or scope gets a line in [`WORKLOG.md`](WORKLOG.md) saying why. Judgement calls follow [`PRINCIPLES.md`](PRINCIPLES.md).
+The plan from where the project stands to the product described in [`vision/2026-11-23-direction.md`](vision/2026-11-23-direction.md). The intent the app grew from is in [`vision/2026-11-23-origins.md`](vision/2026-11-23-origins.md). It changes as we learn; every change of order or scope gets a line in [`WORKLOG.md`](WORKLOG.md) saying why. Judgement calls follow [`PRINCIPLES.md`](PRINCIPLES.md).
 
 **Status of this file:** drafted 23 November 2026, waiting for the owner's review. Order and scope below are Claude's proposal from the conversation, not yet agreed.
 
@@ -200,3 +200,9 @@ Milestone 0 comes first because everything else depends on being able to see and
 - **Album art.** Only if the licence permits keeping our own copies. Images stay out of the code repository. Size is estimated for the finished database. Songs share their album's cover. Storage must not be able to produce a bill. Needs albums in the schema (2.3).
 - **Tree, globe and tunnel polish.** Good enough for now. Done later as sit-down sessions where Jon tries things and says what works.
 - **Visitor analytics.** Cloudflare Web Analytics is a toggle on Jon's side.
+
+## Outside the app: the owner's way of working
+
+Not part of the product and not on either track. Recorded so it is not lost.
+
+- **Local development with Claude Code or a similar tool on Jon's laptop**, loading the in-progress version locally and using Cloudflare builds only before a release. `serve.py` and `CLAUDE.md` are a first step. Jon will raise this as its own conversation; nothing further is planned until then.

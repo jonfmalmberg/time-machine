@@ -6,6 +6,8 @@ One entry per working session, newest first: what was done, what was decided and
 
 - Jon and Claude talked through the direction of the project by voice. Recorded in [`vision/2026-11-23-direction.md`](vision/2026-11-23-direction.md).
 - Wrote the design principles, the roadmap and this log from that conversation. No change to the site or to either database.
+- At Jon's request, added a second record, [`vision/2026-11-23-origins.md`](vision/2026-11-23-origins.md): the original intent from July to November 2026 and Claude's understanding of what the app is. Built from saved notes and a partial re-reading of the first conversation, not a full one. Three principles added from it (local first, out and back, genres are alive and continuous).
+- Noted as outside the app: Jon's goal of developing locally on his laptop with Claude Code. To be discussed separately.
 - Corrected `db/README.md`: files 001 to 004 were run in prod on 22 November.
 - Checked: Claude's GitHub connection has permission to create issues and milestones. The time filter does offer a from-to range ("From a year of my choosing"), so the finding is that it is hard to find, not missing.
 - Waiting on Jon: review of the roadmap. Milestones and issues are created on GitHub once he approves it.
