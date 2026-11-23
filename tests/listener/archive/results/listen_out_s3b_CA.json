@@ -1,0 +1,801 @@
+{
+ "CA1972A": {
+  "persona": {
+   "name": "Debbie Kowalchuk",
+   "born": 1958,
+   "town": "Moose Jaw, Saskatchewan",
+   "background": "Anglophone, 14 in 1972, Ukrainian-Canadian father works for the CPR, mother a hospital clerk. Music came from CHAB 800 Moose Jaw and CKCK Regina on a transistor radio, 45s from Woolworths, CTV's The Tommy Hunter Show and Don Messer reruns with her parents, school sock hops, community-hall wedding dances with old-time and polka bands."
+  },
+  "seeds": [
+   {
+    "song": "Neil Young - Heart of Gold",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Stampeders - Sweet City Woman",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Gordon Lightfoot - If You Could Read My Mind",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Guess Who - American Woman",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Anne Murray - Snowbird",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Elton John - Crocodile Rock",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 6,
+  "wouldSay": "Oh, Heart of Gold, that was all over CHAB that winter. But Snowbird and American Woman, that's grade six, not grade nine. This is every Canadian song anybody remembers from the early seventies, not my 1972.",
+  "missing": [
+   "The Stampeders - Wild Eyes, 1972",
+   "Lighthouse - Sunny Days, 1972",
+   "Edward Bear - Last Song, 1972",
+   "The Guess Who - Runnin' Back to Saskatoon, 1972",
+   "April Wine - You Could Have Been a Lady, 1972",
+   "A Foot in Coldwater - (Make Me Do) Anything You Want, 1972"
+  ],
+  "fake": "Only Heart of Gold and Crocodile Rock belong to 1972; the other four are the 1970-71 Canadian standards any outsider would pick, each one or two years stale (inside the three-year rule, but it reads as a greatest-hits list).",
+  "missingScene": "Country, which was half of Prairie listening (Tommy Hunter, Stompin' Tom, Family Brown, Charley Pride on tour); the 1972 CanCon rock bands on AM; the US/UK top 40 that still filled most of the dial (American Pie, Alone Again, Brandy); nothing in French."
+ },
+ "CA1972B": {
+  "persona": {
+   "name": "Debbie Kowalchuk",
+   "born": 1958,
+   "town": "Moose Jaw, Saskatchewan",
+   "background": "Anglophone, 14 in 1972, Ukrainian-Canadian father works for the CPR, mother a hospital clerk. Music came from CHAB 800 Moose Jaw and CKCK Regina on a transistor radio, 45s from Woolworths, CTV's The Tommy Hunter Show and Don Messer reruns with her parents, school sock hops, community-hall wedding dances with old-time and polka bands."
+  },
+  "seeds": [
+   {
+    "song": "Neil Young - Heart of Gold",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Stampeders - Sweet City Woman",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Don McLean - American Pie",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Frank Mills - Love Me, Love Me Love",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Bells - Stay Awhile",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Roberta Flack - The First Time Ever I Saw Your Face",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Anne Murray - Cotton Jenny",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "April Wine - You Could Have Been a Lady",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Gilbert O'Sullivan - Alone Again (Naturally)",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Michel Pagliaro - Mon cœur",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Stampeders - Wild Eyes",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Donny Osmond - Puppy Love",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Edward Bear - Masquerade",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lighthouse - Sunny Days",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Guess Who - Runnin' Back to Saskatoon",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Stompin' Tom Connors - Moon-Man Newfie",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 8,
+  "wouldSay": "American Pie, we sang every verse on the school bus. Frank Mills! The Bells! And Runnin' Back to Saskatoon, 'Moose Jaw, Broadview, Moosomin too', they played that every hour at home. This is exactly the radio in our kitchen.",
+  "missing": [
+   "Edward Bear - Last Song, 1972",
+   "A Foot in Coldwater - (Make Me Do) Anything You Want, 1972",
+   "Joni Mitchell - You Turn Me On, I'm a Radio, 1972",
+   "Valdy - Rock and Roll Song, 1972",
+   "Gordon Lightfoot - Beautiful, 1972",
+   "Looking Glass - Brandy (You're a Fine Girl), 1972"
+  ],
+  "fake": "Little; the one French track never reached Prairie radio (I am also unsure Mon cœur was Pagliaro's 1972 hit rather than J'entends frapper), and Sweet City Woman and Stay Awhile are 1971.",
+  "missingScene": "Prairie country beyond one Stompin' Tom novelty (Tommy Hunter show regulars, Family Brown, Dick Damron); old-time and polka dance bands at hall weddings; harder rock the older kids played (Deep Purple, Alice Cooper - School's Out)."
+ },
+ "CA1976A": {
+  "persona": {
+   "name": "Sylvie Gauthier",
+   "born": 1961,
+   "town": "Trois-Rivieres, Quebec",
+   "background": "Francophone, 15 in 1976, father at the Wayagamack paper mill, mother at home, three siblings. Music came from CHLN and CJMS/CKAC on AM, CHOM-FM and the new CKOI-FM when the signal held, her older brother's Harmonium and Beau Dommage LPs, Radio-Canada and Tele-Metropole variety shows, the Saint-Jean shows of 1975-76, polyvalente dances with disco, and the Olympic summer on TV."
+  },
+  "seeds": [
+   {
+    "song": "Sweeney Todd - Roxy Roller",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Gordon Lightfoot - The Wreck of the Edmund Fitzgerald",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Rod Stewart - Tonight's the Night (Gonna Be Alright)",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "THP Orchestra - Theme from S.W.A.T.",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Burton Cummings - Stand Tall",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "C.W. McCall - Convoy",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "André Gagnon - Wow",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "April Wine - The Whole World's Goin' Crazy",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Rick Dees & His Cast of Idiots - Disco Duck",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Beau Dommage - Le blues d'la métropole",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Carroll Baker - One Night of Cheatin'",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Elton John & Kiki Dee - Don't Go Breaking My Heart",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Patsy Gallant - From New York to L.A.",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Charity Brown - Anyway You Want",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Wednesday - Loving You Baby",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Boule Noire - Aimes-tu la vie comme moi?",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 5,
+  "wouldSay": "Roxy Roller? Lightfoot? C'est la radio de Toronto, ca. Ah, Andre Gagnon, Wow, la oui, on dansait la-dessus. Beau Dommage, enfin. But why is Patsy Gallant singing in English, chez nous c'etait Mon pays.",
+  "missing": [
+   "Robert Charlebois - Je reviendrai à Montréal, 1976",
+   "Harmonium - Comme un fou, 1976",
+   "Ginette Reno - Un peu plus haut, un peu plus loin, 1975-76",
+   "Toulouse - C'est toujours à recommencer, 1976",
+   "Joe Dassin - L'été indien, 1975",
+   "Gilles Vigneault - Gens du pays, 1975"
+  ],
+  "fake": "It is the 1976 RPM (English-Canadian) chart with three Quebec tracks dropped in; the first five songs give a francophone nothing in French, and English-Canadian country and CanCon pop (Carroll Baker, Charity Brown, Wednesday, Burton Cummings) never played on our stations.",
+  "missingScene": "The whole 1976 Quebec chanson and prog wave (Harmonium's L'Heptade, Charlebois, Dufresne, Ferland, Seguin, Octobre, Vigneault, the Saint-Jean and 1 fois 5 shows), French imports that were huge (Dassin, Fugain, Dave), Quebec country-western (Willie Lamothe, Paul Brunelle), and Montreal disco in French (Nanette Workman, Toulouse). Unsure whether the Boule Noire single is 1976 or 1978."
+ },
+ "CA1976B": {
+  "persona": {
+   "name": "Sylvie Gauthier",
+   "born": 1961,
+   "town": "Trois-Rivieres, Quebec",
+   "background": "Francophone, 15 in 1976, father at the Wayagamack paper mill, mother at home, three siblings. Music came from CHLN and CJMS/CKAC on AM, CHOM-FM and the new CKOI-FM when the signal held, her older brother's Harmonium and Beau Dommage LPs, Radio-Canada and Tele-Metropole variety shows, the Saint-Jean shows of 1975-76, polyvalente dances with disco, and the Olympic summer on TV."
+  },
+  "seeds": [
+   {
+    "song": "Gordon Lightfoot - The Wreck of the Edmund Fitzgerald",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Robert Charlebois - Je reviendrai à Montréal",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Harmonium - Pour un instant",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Beau Dommage - La complainte du phoque en Alaska",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Eagles - Hotel California",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "later"
+   },
+   {
+    "song": "ABBA - Dancing Queen",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 7,
+  "wouldSay": "Je reviendrai a Montreal, ah oui, c'etait l'hiver 76. Pour un instant, mon frere jouait ca a la guitare tous les soirs. Le phoque en Alaska, tout le monde la savait par coeur. Hotel California, non, ca c'est secondaire quatre, 1977.",
+  "missing": [
+   "Harmonium - Comme un fou, 1976",
+   "Beau Dommage - Le blues d'la métropole, 1975",
+   "Ginette Reno - Un peu plus haut, un peu plus loin, 1975-76",
+   "Patsy Gallant - Mon pays (From New York to L.A.), 1976",
+   "André Gagnon - Wow, 1976",
+   "Toulouse - C'est toujours à recommencer, 1976"
+  ],
+  "fake": "Pour un instant and Le phoque are 1974 songs, still everywhere but not that year's hits (two years early, inside the rule), and Hotel California only became a hit in 1977; the opener is English Canada's song, not ours.",
+  "missingScene": "Disco, which ran Montreal and every polyvalente dance in 1976 (Gagnon, Gallant, Boule Noire, Toulouse, Nanette Workman); French imports (Dassin, Fugain); Quebec country-western and kitchen-party music; for an anglophone listener the seeds have almost no English-Canadian 1976 (Sweeney Todd, April Wine, Burton Cummings, Heart)."
+ },
+ "CA1984A": {
+  "persona": {
+   "name": "Jennifer MacLeod",
+   "born": 1970,
+   "town": "Peterborough, Ontario",
+   "background": "Anglophone, 14 in 1984, father at General Electric, mother a school secretary. Music came from CHUM 1050 and CFTR 680 out of Toronto, local CKPT, Q107 from her older brother's room, CBC's Video Hits with Samantha Taylor, CITY-TV's Toronto Rocks, MuchMusic once cable carried it in the fall, taped-off-the-radio cassettes and school dances."
+  },
+  "seeds": [
+   {
+    "song": "Bryan Adams - Summer of '69",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "later"
+   },
+   {
+    "song": "The Parachute Club - Rise Up",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Corey Hart - Sunglasses at Night",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Céline Dion - D'amour ou d'amitié",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Men Without Hats - The Safety Dance",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Wham! - Wake Me Up Before You Go-Go",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Madonna - Like a Virgin",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 6,
+  "wouldSay": "Summer of '69 wasn't on the radio till the next summer, in '84 it was Run to You. Rise Up and Safety Dance were grade seven, 1983. Sunglasses at Night, okay, now that's the grade eight dance. Who's the French girl? Nobody in Peterborough had heard of Celine Dion.",
+  "missing": [
+   "Bryan Adams - Run to You, 1984",
+   "Platinum Blonde - Doesn't Really Matter, 1984",
+   "Kim Mitchell - Go for Soda, 1984",
+   "Honeymoon Suite - New Girl Now, 1984",
+   "Spoons - Tell No Lies, 1984",
+   "Rush - Distant Early Warning, 1984"
+  ],
+  "fake": "A best-of-the-Canadian-eighties list rather than 1984: the opener was a 1985 single, two more are 1983 hits, and the Celine Dion track never crossed out of Quebec.",
+  "missingScene": "Toronto new wave and the CFNY sound (Platinum Blonde, Spoons, Pukka Orchestra, Images in Vogue, Jane Siberry), Ontario hard rock (Rush, Triumph, Helix, Kim Mitchell), and the giant foreign 1984 (Prince, Springsteen, Van Halen, Cyndi Lauper, Ghostbusters)."
+ },
+ "CA1984B": {
+  "persona": {
+   "name": "Jennifer MacLeod",
+   "born": 1970,
+   "town": "Peterborough, Ontario",
+   "background": "Anglophone, 14 in 1984, father at General Electric, mother a school secretary. Music came from CHUM 1050 and CFTR 680 out of Toronto, local CKPT, Q107 from her older brother's room, CBC's Video Hits with Samantha Taylor, CITY-TV's Toronto Rocks, MuchMusic once cable carried it in the fall, taped-off-the-radio cassettes and school dances."
+  },
+  "seeds": [
+   {
+    "song": "Corey Hart - Sunglasses at Night",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Honeymoon Suite - New Girl Now",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Stevie Wonder - I Just Called to Say I Love You",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Pukka Orchestra - Listen to the Radio",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Kim Mitchell - Go for Soda",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Phil Collins - Against All Odds (Take a Look at Me Now)",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Daniel Lavoie - Tension attention",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bryan Adams - Run to You",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Tina Turner - What's Love Got to Do with It",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Anne Murray & Dave Loggins - Nobody Loves Me Like You Do",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "René Simard - Comment ça va",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Ray Parker Jr. - Ghostbusters",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Parachute Club - At the Feet of the Moon",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Pierre Bertrand - Ma blonde m'aime",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bruce Cockburn - Lovers in a Dangerous Time",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Luba - Let It Go",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 8,
+  "wouldSay": "Sunglasses at Night, New Girl Now, that's Video Hits after school. Listen to the Radio! I haven't heard that since CFTR. Go for Soda, my brother wore that tape out. This is grade eight, exactly.",
+  "missing": [
+   "Platinum Blonde - Doesn't Really Matter, 1984",
+   "Spoons - Tell No Lies, 1984",
+   "Helix - Rock You, 1984",
+   "Rush - Distant Early Warning, 1984",
+   "Prince - When Doves Cry, 1984",
+   "Jane Siberry - Mimi on the Beach, 1984"
+  ],
+  "fake": "Only the three Quebec tracks, which an Ontario kid never heard (and I am unsure all three are 1984 releases); the rest is right, though Let It Go really peaked in early 1985.",
+  "missingScene": "Platinum Blonde and the Toronto new-wave video bands, hard rock and metal for the boys (Helix, Triumph, Rush, Van Halen, Twisted Sister), and the Prince/Springsteen/Lauper/Culture Club imports that dominated CHUM."
+ },
+ "CA1988A": {
+  "persona": {
+   "name": "Kristina Lindqvist",
+   "born": 1973,
+   "town": "Burnaby, British Columbia",
+   "background": "Born in Canada to parents who emigrated from Varmland in 1968; father a millwright, mother a care aide; Swedish at home, Lucia and midsummer with the Swedish community, parents' ABBA and Sven-Ingvars LPs. Her own music, age 15: LG73 (CKLG) and CFOX on the radio, MuchMusic, CBC's Good Rockin' Tonite, cassettes from A&B Sound, high-school dances, and pride when Europe's The Final Countdown was on Canadian radio."
+  },
+  "seeds": [
+   {
+    "song": "Mitsou - Bye Bye mon cowboy",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Kim Mitchell - Patio Lanterns",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Glass Tiger - Don't Forget Me (When I'm Gone)",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bryan Adams - Summer of '69",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Whitney Houston - I Wanna Dance with Somebody (Who Loves Me)",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bon Jovi - Livin' on a Prayer",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 5,
+  "wouldSay": "Mitsou, okay, that video was on Much. But Patio Lanterns and Don't Forget Me are Expo summer, 1986, I was in grade seven. Summer of '69 is older still. I know every one of these, but none of it is grade ten.",
+  "missing": [
+   "Glass Tiger - I'm Still Searching, 1988",
+   "Tom Cochrane & Red Rider - Big League, 1988",
+   "Colin James - Voodoo Thing, 1988",
+   "Barney Bentall and the Legendary Hearts - Something to Live For, 1988",
+   "Blue Rodeo - Try, 1987-88",
+   "Men Without Hats - Pop Goes the World, 1987-88"
+  ],
+  "fake": "Five of six seeds are 1984-87 hits; only Mitsou is from 1988, so it plays as a generic mid-eighties Canada mix rather than the year asked for.",
+  "missingScene": "The Vancouver/West Coast scene of 1988 (Colin James, Barney Bentall, 54-40, Grapes of Wrath, Paul Janz), Much dance-pop (Candi, Sway, Rick Astley, Kylie), hair metal and Guns N' Roses, and for a Scandinavian household nothing of what came from home (Europe; Roxette only arrived in 1989)."
+ },
+ "CA1988B": {
+  "persona": {
+   "name": "Kristina Lindqvist",
+   "born": 1973,
+   "town": "Burnaby, British Columbia",
+   "background": "Born in Canada to parents who emigrated from Varmland in 1968; father a millwright, mother a care aide; Swedish at home, Lucia and midsummer with the Swedish community, parents' ABBA and Sven-Ingvars LPs. Her own music, age 15: LG73 (CKLG) and CFOX on the radio, MuchMusic, CBC's Good Rockin' Tonite, cassettes from A&B Sound, high-school dances, and pride when Europe's The Final Countdown was on Canadian radio."
+  },
+  "seeds": [
+   {
+    "song": "Glass Tiger - I'm Still Searching",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Céline Dion - Incognito",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Billy Ocean - Get Outta My Dreams, Get into My Car",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Corey Hart - In Your Soul",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Men Without Hats - Pop Goes the World",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Rick Astley - Never Gonna Give You Up",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Roy Orbison & k.d. lang - Crying",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "René et Nathalie Simard - Tourne la page",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Rick Astley - Together Forever",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Tom Cochrane & Red Rider - Big League",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Mitsou - Bye bye mon cowboy",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Tiffany - Could've Been",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Glass Tiger - Diamond Sun",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Luba - When a Man Loves a Woman",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Sway - Hands Up (Give Me Your Heart)",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Family Brown - Til I Find My Love",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 7,
+  "wouldSay": "I'm Still Searching, yes, that was LG73 all spring. Then somebody in French I don't know. Billy Ocean, Rick Astley, Pop Goes the World, okay, that's the grade ten dance. Big League still gets me.",
+  "missing": [
+   "Colin James - Voodoo Thing, 1988",
+   "Barney Bentall and the Legendary Hearts - Something to Live For, 1988",
+   "Blue Rodeo - Try, 1987-88",
+   "Candi - Dancing Under a Latin Moon, 1988",
+   "The Jeff Healey Band - Angel Eyes, 1988",
+   "Guns N' Roses - Sweet Child o' Mine, 1988"
+  ],
+  "fake": "The second song is a Quebec-only Celine Dion track no BC teenager knew in 1988, and with the Simards and Family Brown it reads like a national chart digest rather than one person's radio.",
+  "missingScene": "Vancouver's own 1988 (Colin James, Barney Bentall, 54-40, Grapes of Wrath, Skinny Puppy for the alternative kids), hard rock and hair metal on CFOX (Def Leppard, GN'R, Bon Jovi's New Jersey), George Michael/INXS/U2, and early hip-hop arriving on Much."
+ }
+}

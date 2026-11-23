@@ -1,0 +1,1070 @@
+{
+ "persona": {
+  "name": "Birgit (née Sundqvist)",
+  "born": "1935, Sollefteå, Ångermanland (river and timber town, regiment I 21)",
+  "family": "Father a sawmill worker and log-floater, mother at home, Mission Covenant chapel on Sundays. Married Gösta (b. 1933, Göinge, northern Skåne; fitter who came north for the power-station construction on the Ångerman river) in 1958. Children born 1959, 1962, 1965.",
+  "emigration": "1971 to Prince George, British Columbia, where Gösta took a millwright job at a pulp mill. Stayed; widowed later, still in BC in 2026 aged 91.",
+  "howMusicReachedHer": "1935-49: parents' wind-up gramophone (Jularbo accordion), chapel hymns, school songs, the single Radiotjänst channel (Barnens brevlåda, Grammofontimmen, Frukostklubben from 1946). 1950-59: Karusellen with Lennart Hyland, Saturday dances at the Folkets park and logdans, cinema, a few 78s then EPs; TV reached us about 1959-60 (exact year unsure). 1960-71: kitchen radio all day, Melodiradion from 1961, Svensktoppen from 1962, Hylands hörna and Melodifestivalen on TV, Sven-Ingvars at the folkpark. 1971-95 in BC: CKPG AM radio in the kitchen, CBC television (Tommy Hunter Show, Irish Rovers, Juno broadcasts), country radio in the car, the children's records through the wall; and at home the crate of Swedish LPs, cassettes sent by my sister, Swedish Christmas and Midsummer gatherings, a visit home every few years.",
+  "unsure": "Release years marked unsure above; exact arrival of TV in Sollefteå; several Thory Bernhards / Lily Berglund / Lasse Lönndahl seed titles I cannot date with confidence and marked 'maybe'."
+ },
+ "stops": {
+  "gp1": {
+   "age": "0-4",
+   "score": 3,
+   "wouldSay": "I was in the cradle. Taube and Rolf I know, but from later, from everybody singing them. The American jazz was not in our kitchen in Sollefteå; Pappa's gramophone had Jularbo and Mamma sang hymns.",
+   "seeds": [
+    {
+     "song": "Evert Taube - Calle Schewens vals",
+     "knew": "yes",
+     "when": "throwback"
+    },
+    {
+     "song": "Ernst Rolf - Bättre och bättre dag för dag",
+     "knew": "yes",
+     "when": "throwback"
+    },
+    {
+     "song": "Benny Goodman and His Orchestra - Sing, Sing, Sing",
+     "knew": "maybe",
+     "when": "later"
+    },
+    {
+     "song": "Cab Calloway - Minnie the Moocher",
+     "knew": "no",
+     "when": "later"
+    },
+    {
+     "song": "Fred Astaire - Cheek to Cheek",
+     "knew": "maybe",
+     "when": "later"
+    },
+    {
+     "song": "Golden Gate Quartet - Rock My Soul",
+     "knew": "maybe",
+     "when": "later"
+    }
+   ],
+   "missing": [
+    "Carl Jularbo - Livet i Finnskogarna (1915, still the dance tune of the 30s)",
+    "Lapp-Lisa - Barnatro (1936)",
+    "Edvard Persson - Jag har bott vid en landsväg (1939)",
+    "Harry Brandelius - Gamla Nordsjön (1938, year unsure)",
+    "Sven-Olof Sandberg - Två solröda segel (1936, year unsure)"
+   ],
+   "fake": "Four of six seeds are American swing/jazz for a Stockholm restaurant crowd; in a Norrland small town in the 30s it was accordion, schlager on the one radio channel, hymns and children's songs (Alice Tegnér). Both Swedish seeds predate the stop (1931, 1920s). Nobody 'remembers' age 0-4; this stop can only be the parents' music."
+  },
+  "gp2": {
+   "age": "5-9",
+   "score": 6,
+   "wouldSay": "Min soldat, yes, that is the war, Pappa away on beredskap and Ulla Billquist on the radio. Swing it magistern we sang in the schoolyard. But Zarah in German and Karl Gerhard's horse, that was not for a child in Ångermanland.",
+   "seeds": [
+    {
+     "song": "Zarah Leander - Ich weiß, es wird einmal ein Wunder geschehn",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Ulla Billquist - Min soldat",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Alice Babs - Swing it, magistern",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Karl Gerhard - Den ökända hästen från Troja",
+     "knew": "maybe",
+     "when": "later"
+    },
+    {
+     "song": "Ulla Billquist - Räkna de lyckliga stunderna blott",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Povel Ramel - Johanssons boogie-woogie-vals",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Bing Crosby - White Christmas",
+     "knew": "yes",
+     "when": "later"
+    },
+    {
+     "song": "Glenn Miller - Chattanooga Choo Choo",
+     "knew": "maybe",
+     "when": "later"
+    },
+    {
+     "song": "Lale Andersen - Lili Marleen",
+     "knew": "yes",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "Lapp-Lisa - Barnatro (1936, on the radio all through the war)",
+    "Alice Babs - Vårat gäng (1940, year unsure)",
+    "Ulla Billquist - Kring de små husen i gränderna vid hamnen (c.1941, unsure)",
+    "Obligationsmarschen (Lasse Dahlquist, 1940; singer unsure)",
+    "Evert Taube - Sjösala vals (1941)"
+   ],
+   "fake": "Zarah Leander in German: Swedes knew her Swedish records, the UFA originals were not Swedish radio fare. White Christmas reached Sweden after the war, not 1942-44. Trojan horse is a history-book song, a Stockholm revue number that was banned, not something a child heard. No children's radio (Barnens brevlåda), no accordion, no school songs."
+  },
+  "gp3": {
+   "age": "10-14",
+   "score": 4,
+   "wouldSay": "This is the same list as before! Räkna de lyckliga, Johansson, Zarah, White Christmas again. And Zarah was not played in Sweden after the war, she was frozen out. Where is Frukostklubben, where is Bertil Boo, Yngve Stoor at Christmas?",
+   "seeds": [
+    {
+     "song": "Lasse Dahlquist - De' ä' dans på Brännö brygga",
+     "knew": "yes",
+     "when": "throwback"
+    },
+    {
+     "song": "Harry Brandelius - Hur tokigt som helst",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Ulla Billquist - Räkna de lyckliga stunderna blott",
+     "knew": "yes",
+     "when": "throwback"
+    },
+    {
+     "song": "Povel Ramel - Johanssons boogie-woogie-vals",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Zarah Leander - Ich weiß, es wird einmal ein Wunder geschehn",
+     "knew": "no",
+     "when": "throwback"
+    },
+    {
+     "song": "The Andrews Sisters - Rum and Coca-Cola",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Bing Crosby - White Christmas",
+     "knew": "yes",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "Yngve Stoor - Sjömansjul på Hawaii (1945)",
+    "Bertil Boo - Violer till mor (c.1947, year unsure)",
+    "Evert Taube - Sjösala vals (1941, sung everywhere late 40s)",
+    "Povel Ramel - Titta det snöar (c.1948, year unsure)",
+    "Sigge Fürst / Frukostklubben songs (from 1946)"
+   ],
+   "fake": "Four of seven seeds are carried over from 1940-44 and one more (Brännö brygga, 1941) is older than the stop; only Rum and Coca-Cola and perhaps Brandelius are new. Zarah Leander 1945-49 is historically wrong: she was persona non grata in Sweden until about 1949. Nothing in the list sounds like peace arriving."
+  },
+  "gp4": {
+   "age": "15-19",
+   "score": 8,
+   "wouldSay": "Now it is me. Snoddas in Karusellen, we all sat at the radio that Saturday, and Flottarkärlek is our river. Lasse Lönndahl, yes, I had his picture. Vildandens sång, Valpen i fönstret. But four Thory and four Lasse, and Zarah in German again?",
+   "seeds": [
+    {
+     "song": "Thory Bernhards - Såpbubblor",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Thory Bernhards - Vildandens sång",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Snoddas - Flottarkärlek",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Lasse Lönndahl - Sången från Moulin Rouge",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Alice Babs & Charlie Norman - Käre John",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Zarah Leander - Wunderbar",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Thory Bernhards - Solsken var timma på dygnet",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Thory Bernhards - Guldbruna ögon",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Lasse Lönndahl - Ett vänligt litet ord",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Lasse Lönndahl - That's Amore",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Lasse Lönndahl - Legenden om Tina",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Stig Olin - På söndag",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Lily Berglund - Uppå källarbacken (American Patrol)",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Lily Berglund - Valpen i fönstret",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Lily Berglund - Vildrosen",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Lily Berglund - Vaya con Dios",
+     "knew": "yes",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "Povel Ramel - Far, jag kan inte få upp min kokosnöt (1950)",
+    "Jokkmokks-Jokke - Gulli-Gullan (c.1954, year unsure)",
+    "Anton Karas - The Harry Lime Theme (1950)",
+    "Carl Jularbo - any gammaldans from the Saturday dance",
+    "Bertil Boo - Violer till mor (still requested)"
+   ],
+   "fake": "Twelve of sixteen seeds are three singers (Bernhards, Lönndahl, Berglund); it reads like three artist discographies, several of them B-sides I cannot place. Zarah Leander - Wunderbar in German does not belong. No dance music: at 17-19 I was at the Folkets park and the logdans every Saturday, and none of that is here."
+  },
+  "gp5": {
+   "age": "20-24",
+   "score": 8,
+   "wouldSay": "Rock Around the Clock at the cinema, Little Gerhard, Martin Ljung's Rock-Fnykis made us cry laughing. Kärleksbrev i sanden was when Gösta and I were courting, Vita syrener at our wedding dance. Augustin on the new television.",
+   "seeds": [
+    {
+     "song": "Lasse Lönndahl - Man måste vara två",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Lasse Lönndahl - Kärleksbrev i sanden",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Bill Haley & His Comets - Rock Around the Clock",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Little Gerhard - Buona Sera",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Martin Ljung - Rock-Fnykis",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Cliff Richard - Living Doll",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Thory Bernhards - Ann-Caroline",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Thore Skogman - Älgjakten",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Elvis Presley - (Now and Then There's) A Fool Such as I",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Owe Thörnqvist - Titta titta",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Lasse Lönndahl - Cindy min Cindy",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Chris Barber's Jazz Band - Petite Fleur",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Alice Babs - Sugartime",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Brita Borg - Fat Mammy Brown",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Lily Berglund - Vita syrener",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Siw Malmkvist - Augustin",
+     "knew": "yes",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "Paul Anka - Diana (1957)",
+    "Gunnar Wiklund - Nu tändas åter ljusen i min lilla stad (1959)",
+    "Owe Thörnqvist - Varm korv boogie (1959)",
+    "Harry Belafonte - Banana Boat Song (1957)",
+    "The Platters - Only You (1955)"
+   ],
+   "fake": "Little is fake. Elvis is represented by a minor 1959 single instead of what we actually heard (Love Me Tender, Jailhouse Rock). Lill-Babs' Klas-Göran is 1959 and belongs here, not in the next stop."
+  },
+  "gp6": {
+   "age": "25-29",
+   "score": 9,
+   "wouldSay": "This is the kitchen radio with small children under my feet. Svensktoppen on Sundays, Sån't är livet, Tunna skivor, Jim Reeves, Trio me' Bumba. Göingeflickorna is Gösta's, he is from there. Yes. This one I would play twice.",
+   "seeds": [
+    {
+     "song": "Lill-Babs - Är du kär i mej ännu Klas-Göran?",
+     "knew": "yes",
+     "when": "throwback"
+    },
+    {
+     "song": "Anita Lindblom - Sån't är livet",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Larry Finnegan - Dear One",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Sven-Ingvars - Ett litet rött paket",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Trio me' Bumba - Spel-Olles gånglåt",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Jim Reeves - I Love You Because",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Siw Malmkvist - Tunna skivor",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Sven-Ingvars - Fröken Fräken",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Eddie Hodges - I'm Gonna Knock on Your Door",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Streaplers - Mule Skinner Blues",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Göingeflickorna - Kära mor",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Pat Boone - Speedy Gonzales",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "The Spotnicks - Amapola",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Hootenanny Singers - Jag väntar vid min mila",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Jerry Williams - Twistin' Patricia",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Per Myrberg - Trettifyran",
+     "knew": "yes",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "Monica Zetterlund - Sakta vi gå genom stan (1962)",
+    "Lill-Babs - En tuff brud i lyxförpackning (1961)",
+    "Ray Adams - Violetta (1961, year unsure)",
+    "Elvis Presley - It's Now or Never (1960)",
+    "The Beatles - She Loves You (1963)"
+   ],
+   "fake": "Almost nothing. Jerry Williams and the Streaplers' rock side were for teenagers, I was 28 with two children. No Beatles at all, which even a housewife heard in 1963-64."
+  },
+  "gp7": {
+   "age": "30-34",
+   "score": 8,
+   "wouldSay": "Lyckliga gatan! Sven-Ingvars at the folkpark, Kristina från Vilhelmina, Börja om från början. Malmsjö's green grass song. Hep Stars and Jerry Williams were the babysitter's music, not mine.",
+   "seeds": [
+    {
+     "song": "Gunnar Wiklund - Mest av allt",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Hep Stars - Consolation",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Nancy Sinatra & Dean Martin - Things",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Jan Malmsjö - En sång en gång för längesen",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Trio me' Bumba - Man ska leva för varandra",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "The Beatles - Rock and Roll Music",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Sven-Ingvars - Kristina från Vilhelmina",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Anna-Lena Löfgren - Lyckliga gatan",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "The Beatles - Penny Lane",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Jerry Williams - Keep On",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Eleanor Bodel - One Way Ticket",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Elvis Presley - In the Ghetto",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Hep Stars - I natt jag drömde",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Lars Ekborg - Bunta ihop dom",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Sven-Ingvars - Börja om från början",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Sven-Ingvars - Säg inte nej, säg kanske",
+     "knew": "yes",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "Lill Lindfors - Du är den ende (1967)",
+    "Claes-Göran Hederström - Det börjar verka kärlek, banne mej (1968)",
+    "Östen Warnerbring - Som en dröm (1967)",
+    "Lill Lindfors & Svante Thuresson - Nygammal vals (1966)",
+    "Tom Jones - Delilah (1968)"
+   ],
+   "fake": "'Nancy Sinatra & Dean Martin - Things' is an odd TV-special duet, I am not sure it was ever a hit at home. Beatles' Rock and Roll Music is a strange pick over Yesterday or Michelle. No Melodifestival songs although that was the TV evening of the year."
+  },
+  "gp8": {
+   "age": "35-36",
+   "score": 6,
+   "wouldSay": "Pippi was the children's, they sang it in the car to Gothenburg. Anna och mej, My Sweet Lord on the radio while we packed. But this is six songs for the biggest year of my life, and not one of them is about leaving.",
+   "seeds": [
+    {
+     "song": "Lalla Hansson - Anna och mej",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Jan Malmsjö - Hej clown",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Tommy Körberg - Judy min vän",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Inger Nilsson - Här kommer Pippi Långstrump",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "George Harrison - My Sweet Lord",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Mungo Jerry - In the Summertime",
+     "knew": "yes",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "Lena Andersson - Är det konstigt att man längtar bort nån gång (1971)",
+    "Family Four - Vita vidder (1971)",
+    "Agnetha Fältskog - Om tårar vore guld (1970)",
+    "Björn & Benny - Hej gamle man (1970)",
+    "Harry Brandelius - Hälsa dem därhemma (old, but the song for anyone who leaves)"
+   ],
+   "fake": "Not fake, but thin and half of it (Hej clown, Judy min vän, Pippi) is 1969. As a two-year stop it has no weight; as 'the year we left' it has no farewell in it: no Hälsa dem därhemma, no Barndomshemmet, no Vem kan segla, nothing we sang at the goodbye party."
+  },
+  "gp9": {
+   "age": "36-39",
+   "score": 6,
+   "wouldSay": "Seasons in the Sun and Tie a Yellow Ribbon, yes, CKPG in the kitchen in Prince George while I learned English from the announcers. Anne Murray, Lightfoot. But at home we played the records from the crate, Sven-Ingvars and Taube, and when ABBA won in 1974 I cried. Where is that?",
+   "seeds": [
+    {
+     "song": "Terry Jacks - Seasons in the Sun",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "The Stampeders - Sweet City Woman",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Three Dog Night - Joy to the World",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Neil Young - Heart of Gold",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Gordon Lightfoot - Sundown",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Don McLean - American Pie",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "The Bells - Stay Awhile",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Frank Mills - Love Me, Love Me Love",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Dawn featuring Tony Orlando - Tie a Yellow Ribbon Round the Ole Oak Tree",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Michel Pagliaro - Mon cœur",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Anne Murray - Cotton Jenny",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Helen Reddy - Delta Dawn",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Bachman-Turner Overdrive - You Ain't Seen Nothing Yet",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Gordon Lightfoot - If You Could Read My Mind",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Anne Murray - A Love Song",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Paul Anka - (You're) Having My Baby",
+     "knew": "yes",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "ABBA - Waterloo (1974)",
+    "Anne Murray - Snowbird (1970, still on every day)",
+    "John Denver - Take Me Home, Country Roads (1971)",
+    "Blue Swede - Hooked on a Feeling (1974)",
+    "Carpenters - Top of the World (1973)"
+   ],
+   "fake": "The prompt says 'the way someone who grew up there remembers it'. I did not grow up there; I arrived at 36 with a crate of Swedish LPs. Pagliaro in French was never on the radio in northern BC. Nothing Swedish at all, in the years when the house was still entirely Swedish."
+  },
+  "gp10": {
+   "age": "40-44",
+   "score": 6,
+   "wouldSay": "You Needed Me, You Light Up My Life, The Homecoming from the tea advertisement, the Edmund Fitzgerald. Night Fever was our daughter's. Gens du pays I have never heard in my life. And ABBA was on Canadian radio every hour and is not here.",
+   "seeds": [
+    {
+     "song": "Anne Murray - You Needed Me",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Anne Murray - I Just Fall in Love Again",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Captain & Tennille - Love Will Keep Us Together",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Patsy Gallant - Sugar Daddy",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Sweeney Todd - Roxy Roller",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Rod Stewart - Tonight's the Night (Gonna Be Alright)",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "April Wine - You Won't Dance with Me",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Paul Anka - I Believe (There's Nothing Stronger Than Our Love)",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Debby Boone - You Light Up My Life",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Gilles Vigneault - Gens du pays",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Hagood Hardy - The Homecoming",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Bee Gees - Night Fever",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Anne Murray - Shadows in the Moonlight",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Gordon Lightfoot - The Wreck of the Edmund Fitzgerald",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Bachman-Turner Overdrive - Hey You",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Nick Gilder - Hot Child in the City",
+     "knew": "maybe",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "ABBA - Dancing Queen (1976)",
+    "ABBA - Fernando (1976)",
+    "Kenny Rogers - Lucille (1977)",
+    "Roger Whittaker - The Last Farewell (1975)",
+    "Dan Hill - Sometimes When We Touch (1977)"
+   ],
+   "fake": "Gens du pays is Quebec's anthem and meant nothing in BC. April Wine, Sweeney Todd, BTO, Nick Gilder are my teenagers' records. The middle-of-the-road and country that a 42-year-old woman had on (Kenny Rogers, Whittaker, Glen Campbell, Tommy Hunter Show on CBC) is under-weighted."
+  },
+  "gp11": {
+   "age": "45-49",
+   "score": 3,
+   "wouldSay": "Could I Have This Dance, that was at our silver wedding in 1983. The Irish Rovers from the television. Stars on 45. The rest? Rush, Loverboy, four French songs. This is somebody else's Canada, a young man in Montreal perhaps.",
+   "seeds": [
+    {
+     "song": "Martha and the Muffins - Echo Beach",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Anne Murray - Could I Have This Dance",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Pink Floyd - Another Brick in the Wall, Pt. 2",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Ginette Reno - Je ne suis qu'une chanson",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "The Irish Rovers - Wasn't That a Party",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Stars on 45 - Stars on 45 Medley",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Rush - New World Man",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Robert Charlebois - J't'aime comme un fou",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Joan Jett & the Blackhearts - I Love Rock 'n Roll",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Corey Hart - Sunglasses at Night",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Burton Cummings - Fine State of Affairs",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "The Police - Every Breath You Take",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Diane Tell - Si j'étais un homme",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Claude Dubois - Plein de tendresse",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Loverboy - Hot Girls in Love",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Honeymoon Suite - New Girl Now",
+     "knew": "no",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "Kenny Rogers & Dolly Parton - Islands in the Stream (1983)",
+    "Anne Murray - A Little Good News (1983)",
+    "ABBA - The Winner Takes It All (1980)",
+    "Willie Nelson - Always on My Mind (1982)",
+    "Carola - Främling (1983, on a cassette my sister sent)"
+   ],
+   "fake": "Ten of sixteen never reached me. Four Quebec French songs (Reno, Charlebois, Tell, Dubois) had no airplay in Prince George. The rock is for people 30 years younger. The list follows the national chart, not a woman of 47 in the BC interior."
+  },
+  "gp12": {
+   "age": "50-54",
+   "score": 3,
+   "wouldSay": "Tears Are Not Enough, we all watched that on CBC. The Power of Love. La Bamba because it was everywhere. Otherwise I do not know these people. In those years I listened to Anne Murray, Rita MacNeil, and Roxette because they were Swedish and on the radio here.",
+   "seeds": [
+    {
+     "song": "Corey Hart - Never Surrender",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Glass Tiger - Don't Forget Me (When I'm Gone)",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Jennifer Rush - The Power of Love",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Platinum Blonde - Crying Over You",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Marjo - Chats sauvages",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Los Lobos - La Bamba",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Glass Tiger - I'm Still Searching",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Roch Voisine - Hélène",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Billy Ocean - Get Outta My Dreams, Get into My Car",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "k.d. lang and the Reclines - Full Moon Full of Love",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Martine St-Clair - Ce soir l'amour est dans tes yeux",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Madonna - Like a Prayer",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Corey Hart - Can't Help Falling in Love",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Céline Dion - Incognito",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Tom Cochrane & Red Rider - Good Times",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Northern Lights - Tears Are Not Enough",
+     "knew": "yes",
+     "when": "then"
+    }
+   ],
+   "missing": [
+    "Roxette - The Look (1989)",
+    "Rita MacNeil - Flying on Your Own (1987)",
+    "Anne Murray - Now and Forever (You and Me) (1986)",
+    "Chris de Burgh - The Lady in Red (1986)",
+    "Bette Midler - Wind Beneath My Wings (1989)"
+   ],
+   "fake": "Four Quebec French seeds again (Marjo, Voisine, St-Clair, Dion's Incognito). Platinum Blonde, Glass Tiger twice, Corey Hart twice: teenage CanCon. Nothing of the adult-contemporary and country stations that people my age in BC had on."
+  },
+  "gp13": {
+   "age": "55-60",
+   "score": 4,
+   "wouldSay": "Bryan Adams from the Robin Hood film, Whitney from The Bodyguard, yes. Insensitive I think I know. Nirvana and Oasis, no thank you. And then it just stops, at sixty? I am still here.",
+   "seeds": [
+    {
+     "song": "Great Big Sea - Ordinary Day",
+     "knew": "no",
+     "when": "later"
+    },
+    {
+     "song": "Céline Dion - Pour que tu m'aimes encore",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Alanis Morissette - Ironic",
+     "knew": "maybe",
+     "when": "later"
+    },
+    {
+     "song": "Jann Arden - Insensitive",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Crash Test Dummies - Mmm Mmm Mmm Mmm",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Barenaked Ladies - If I Had $1000000",
+     "knew": "maybe",
+     "when": "then"
+    },
+    {
+     "song": "Bryan Adams - (Everything I Do) I Do It for You",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Spirit of the West - Home for a Rest",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Alannah Myles - Black Velvet",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Roch Voisine - Hélène",
+     "knew": "no",
+     "when": "throwback"
+    },
+    {
+     "song": "Mitsou - Bye Bye mon cowboy",
+     "knew": "no",
+     "when": "throwback"
+    },
+    {
+     "song": "Oasis - Wonderwall",
+     "knew": "no",
+     "when": "later"
+    },
+    {
+     "song": "Whitney Houston - I Will Always Love You",
+     "knew": "yes",
+     "when": "then"
+    },
+    {
+     "song": "Nirvana - Smells Like Teen Spirit",
+     "knew": "no",
+     "when": "then"
+    },
+    {
+     "song": "Whitney Houston - I Wanna Dance with Somebody (Who Loves Me)",
+     "knew": "maybe",
+     "when": "throwback"
+    }
+   ],
+   "missing": [
+    "Céline Dion - The Power of Love (1993)",
+    "Roxette - It Must Have Been Love (1990)",
+    "Ace of Base - The Sign (1993)",
+    "Shania Twain - Any Man of Mine (1995)",
+    "Rita MacNeil - Working Man (1990)"
+   ],
+   "fake": "Great Big Sea - Ordinary Day is 1997, outside the stop. Ironic and Wonderwall were radio hits in 1996. I Wanna Dance with Somebody is 1987. Hélène repeats from the last stop. Céline is represented by a French song when in BC she was the English ballads. Grunge and Britpop for a grandmother."
+  }
+ },
+ "journey": {
+  "score": 5,
+  "order": "Order is right, lengths are not. Five-year slices are calendar, not life. 1935-39 (age 0-4) cannot stand as a stop: merge 1935-44 into one 'childhood, parents' music' stop where older songs are allowed. 1940-44 and 1945-49 come out as nearly the same list, so either merge them or force them apart (war vs peace). 1950-64 is the heart (ages 15-29) and works. 1970-71 is too short and thin as an ordinary stop; it should be 'the leaving'. The Canadian side is five stops of declining relevance, 6-6-3-3-4, and it ends in 1995 when I was 60: thirty years of my life in BC (retirement, grandchildren, Gösta's last years, Swedish radio and Allsång på Skansen over the internet) are simply absent.",
+  "transitions": "The emigration is not felt at all: one stop is 100% Sweden, the next is 100% Canadian chart, as if I had been swapped for a Canadian born there. In reality the house stayed Swedish for a decade: the LPs we brought, tapes from home, Lucia and Midsummer with the other Scandinavians, and enormous pride when ABBA, Blue Swede, later Roxette and Ace of Base came on Canadian radio. None of that thread exists; ABBA is not seeded once in 24 Canadian years. No leaving songs at 1970-71 (Hälsa dem därhemma, Barndomshemmet, Är det konstigt att man längtar bort nån gång). No return visits (we went home in 1977 and 1986 and came back with the records of that summer). The Canadian prompts literally ask for 'the way someone who grew up there remembers it', which is the wrong instruction for an immigrant who arrived at 36.",
+  "repeats": "Yes. gp2 and gp3 share four seeds (Räkna de lyckliga stunderna blott, Johanssons boogie-woogie-vals, Zarah Leander's Ich weiß..., White Christmas), which makes 1945-49 a rerun of the war. The Zarah repeat is the worst: it is placed in exactly the years she was shut out of Sweden. Hélène repeats in gp12 and gp13 and I never knew it either time. Within stops, one artist is repeated too much: Thory Bernhards x4, Lasse Lönndahl x4, Lily Berglund x4 in gp4; Anne Murray x3 in gp10; Glass Tiger x2 and Corey Hart x2 in gp12.",
+  "change": "After the move, stop generating 'Canada as a native remembers it' and generate 'what a Swedish immigrant woman of my age in British Columbia heard': the English-Canadian adult radio and CBC television for her age and region (no Quebec French chart, no teen rock), plus a continuing Swedish thread at home (records brought along, new Swedish hits arriving by tape and visit, Swedish acts on Canadian radio). That one change fixes the transition, the falling scores of gp9-gp13, and the Quebec problem together.",
+  "notes": "Seeds track the national chart, which coincides with my taste only between about 15 and 35; before that I was a child hearing my parents' music, after 40 the chart belongs to my children. Scores follow that exactly: 3,6,4 / 8,8,9,8 / 6 / 6,6,3,3,4. Canadian seeds count Quebec francophone hits as 'local' (11 French songs across gp9-gp13); for BC they are foreign. Anachronisms: Great Big Sea 1997 in a 1990-95 stop; Zarah Leander in 1945-49; White Christmas in 1940-44 Sweden. Gösta (b. 1933, Göinge in Skåne) would differ: he grew up with Edvard Persson films and Danish radio in reach, so he would ask for Edvard Persson in gp1-gp3 and care less for the Norrland colour (Flottarkärlek is my river, not his); Göingeflickorna's Kära mor and Thore Skogman's Älgjakten are his songs more than mine. Two years older, he was a swing-mad teenager in 1946-49 and would say yes to Rum and Coca-Cola, Glenn Miller and want Thore Ehrling and Alice Babs, so gp3 might be a 5 for him. He never cared for Lasse Lönndahl; gp4 would be a 6. In Canada he heard the lunchroom and truck radio at the mill, country and rock: he knows BTO, April Wine, Loverboy by ear and would miss Stompin' Tom Connors, Charley Pride and Johnny Cash, and Hockey Night in Canada's theme; he would give gp9-gp11 a point more than I do, but he would miss the Swedish thread just as much, especially accordion and Taube. Unsure items are flagged in the missing lists and persona."
+ }
+}

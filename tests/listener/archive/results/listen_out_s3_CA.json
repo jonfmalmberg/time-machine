@@ -1,0 +1,1074 @@
+{
+ "CA1972A": {
+  "persona": {
+   "name": "Doug Kowalchuk",
+   "born": 1957,
+   "town": "Moose Jaw, Saskatchewan",
+   "background": "Anglophone, Ukrainian-Canadian grain elevator agent's son. CHAB 800 Moose Jaw and CKCK Regina top-40 on a transistor radio, 45s from Woolworth's, CBC TV (Tommy Hunter Show, Don Messer's Jubilee, Singalong Jubilee) with his parents, dad's Wilf Carter and Hank Snow LPs, community-hall dances."
+  },
+  "seeds": [
+   {
+    "song": "Neil Young - Heart of Gold",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Stampeders - Sweet City Woman",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Gordon Lightfoot - If You Could Read My Mind",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Guess Who - American Woman",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Anne Murray - Snowbird",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Hank Snow - Marriage Vow",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Guy Lombardo & His Royal Canadians - Managua, Nicaragua",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Guy Lombardo & His Royal Canadians - Seems Like Old Times",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Guy Lombardo & His Royal Canadians - Humoresque",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Le Soldat Lebrun - L'adieu du soldat",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Wilf Carter - There's a Love Knot in My Lariat",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "La Bolduc - Ça va venir découragez-vous pas",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Elton John - Crocodile Rock",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Édith Piaf - La vie en rose",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Tino Rossi - Petit papa Noël",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Bing Crosby - White Christmas",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 6,
+  "wouldSay": "Heart of Gold, Sweet City Woman, Lightfoot, the Guess Who - that's CHAB the year I got my licence. Then it turns into my grandfather's 78s, Lombardo and some French soldier song, and I'd reach for the dial.",
+  "missing": [
+   "Lighthouse - One Fine Morning (1971)",
+   "Five Man Electrical Band - Signs (1971)",
+   "Ocean - Put Your Hand in the Hand (1971)",
+   "Edward Bear - Last Song (1972)",
+   "April Wine - You Could Have Been a Lady (1972)",
+   "Stompin' Tom Connors - Bud the Spud (1969)"
+  ],
+  "fake": "After five right songs, eleven of sixteen seeds are 1930s-40s records (three Lombardo, Piaf, Tino Rossi, two Christmas songs) that no Prairie teenager in 1972 played or heard as his own.",
+  "missingScene": "The CanCon-era rock wave (Lighthouse, April Wine, Crowbar, Five Man Electrical Band, Chilliwack), TV country and old-time (Tommy Hunter, Stompin' Tom, Don Messer fiddle), and 1960s Canadian pop (Ian & Sylvia, Bobby Curtola, early Guess Who) - the list jumps from 1949 straight to 1970. Unsure whether 'Marriage Vow' got any Prairie airplay after its 1949 run; I only knew 'I'm Movin' On'."
+ },
+ "CA1972B": {
+  "persona": {
+   "name": "Doug Kowalchuk",
+   "born": 1957,
+   "town": "Moose Jaw, Saskatchewan",
+   "background": "Anglophone, Ukrainian-Canadian grain elevator agent's son. CHAB 800 Moose Jaw and CKCK Regina top-40 on a transistor radio, 45s from Woolworth's, CBC TV (Tommy Hunter Show, Don Messer's Jubilee, Singalong Jubilee) with his parents, dad's Wilf Carter and Hank Snow LPs, community-hall dances."
+  },
+  "seeds": [
+   {
+    "song": "The Guess Who - American Woman",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Stampeders - Sweet City Woman",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Three Dog Night - Joy to the World",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Neil Young - Heart of Gold",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Mashmakhan - As the Years Go By",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Don McLean - American Pie",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Bells - Stay Awhile",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Frank Mills - Love Me, Love Me Love",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Simon & Garfunkel - Bridge Over Troubled Water",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Michel Pagliaro - Mon cœur",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Anne Murray - Cotton Jenny",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Partridge Family - I Think I Love You",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Gordon Lightfoot - If You Could Read My Mind",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Guess Who - No Time",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Anne Murray - Snowbird",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Stampeders - Carry Me",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 9,
+  "wouldSay": "American Woman, then Sweet City Woman with that banjo - that's the car radio on Main Street, 1971. Mashmakhan! I haven't heard that since high school.",
+  "missing": [
+   "Lighthouse - One Fine Morning (1971)",
+   "Five Man Electrical Band - Signs (1971)",
+   "Ocean - Put Your Hand in the Hand (1971)",
+   "Edward Bear - Last Song (1972)",
+   "April Wine - You Could Have Been a Lady (1972)",
+   "Stompin' Tom Connors - Bud the Spud (1969)"
+  ],
+  "fake": "Nothing much; it is narrowly 1970-72 soft AM pop, with no country and one French track I never heard (I knew Pagliaro only from 'Lovin' You Ain't Easy', and I am unsure 'Mon cœur' was a hit of his at all).",
+  "missingScene": "Country and old-time that filled Prairie radio and CBC TV (Stompin' Tom, Tommy Hunter, Wilf Carter, fiddle music), harder CanCon rock (Crowbar, April Wine, Chilliwack), and the Quebec side is one token song."
+ },
+ "CA1976A": {
+  "persona": {
+   "name": "Sylvie Gélinas",
+   "born": 1961,
+   "town": "Trois-Rivières, Québec",
+   "background": "Francophone, paper-mill worker's daughter. CHLN 550 and CKAC on AM, CKOI-FM from 1976, Jeunesse d'aujourd'hui on Télé-Métropole, older brother's Harmonium and Beau Dommage LPs, Saint-Jean shows of 1975-76, the 1976 Olympics and PQ election, mother's Ginette Reno records; English only from the hit parade."
+  },
+  "seeds": [
+   {
+    "song": "Gordon Lightfoot - The Wreck of the Edmund Fitzgerald",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Robert Charlebois - Je reviendrai à Montréal",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Harmonium - Pour un instant",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Beau Dommage - La complainte du phoque en Alaska",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bachman-Turner Overdrive - Takin' Care of Business",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Terry Jacks - Seasons in the Sun",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Neil Young - Heart of Gold",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Stampeders - Sweet City Woman",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Gordon Lightfoot - If You Could Read My Mind",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Guess Who - American Woman",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Anne Murray - Snowbird",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Hank Snow - Marriage Vow",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Eagles - Hotel California",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "later"
+   },
+   {
+    "song": "ABBA - Dancing Queen",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Queen - Bohemian Rhapsody",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Elton John - Crocodile Rock",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 7,
+  "wouldSay": "Charlebois, Harmonium, puis le phoque en Alaska... ça, c'est mon frère avec sa guitare sur la galerie, l'été des Olympiques. Après ça, ça vire en radio anglaise de Toronto.",
+  "missing": [
+   "Gilles Vigneault - Gens du pays (1975)",
+   "Beau Dommage - Le blues d'la métropole (1975)",
+   "Ginette Reno - Un peu plus haut, un peu plus loin (1975 Saint-Jean)",
+   "Joe Dassin - L'été indien (1975)",
+   "Jean-Pierre Ferland - Le petit roi (1970)",
+   "Offenbach - Câline de blues (1972)"
+  ],
+  "fake": "Only three French songs out of sixteen, then a block of 1970-72 English-Canadian AM hits and a 1949 Hank Snow side; Hotel California was a 1977 hit, not 1976.",
+  "missingScene": "Quebec disco and variety (Boule Noire, Toulouse, Patsy Gallant, René Simard, Michel Louvain), the chansonniers and Saint-Jean anthems (Vigneault, Ferland, Dubois, Dufresne, Les Séguin), country-western québécois (Willie Lamothe, Paul Brunelle), and the hits from France that ruled Quebec radio (Dassin, Fugain). 'Pour un instant' and 'La complainte du phoque' are 1974 but were still everywhere in 1976."
+ },
+ "CA1976B": {
+  "persona": {
+   "name": "Sylvie Gélinas",
+   "born": 1961,
+   "town": "Trois-Rivières, Québec",
+   "background": "Francophone, paper-mill worker's daughter. CHLN 550 and CKAC on AM, CKOI-FM from 1976, Jeunesse d'aujourd'hui on Télé-Métropole, older brother's Harmonium and Beau Dommage LPs, Saint-Jean shows of 1975-76, the 1976 Olympics and PQ election, mother's Ginette Reno records; English only from the hit parade."
+  },
+  "seeds": [
+   {
+    "song": "The Guess Who - American Woman",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Terry Jacks - Seasons in the Sun",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Three Dog Night - Joy to the World",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Stampeders - Sweet City Woman",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Neil Young - Heart of Gold",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Don McLean - American Pie",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Gordon Lightfoot - Sundown",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Mashmakhan - As the Years Go By",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Dawn featuring Tony Orlando - Tie a Yellow Ribbon Round the Ole Oak Tree",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Michel Pagliaro - Mon cœur",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Hagood Hardy - The Homecoming",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Captain & Tennille - Love Will Keep Us Together",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "THP Orchestra - Theme from S.W.A.T.",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Anne Murray - Cotton Jenny",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Bells - Stay Awhile",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Frank Mills - Love Me, Love Me Love",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 3,
+  "wouldSay": "C'est le palmarès anglais d'il y a cinq ans. Je connais American Woman pis Seasons in the Sun, mais c'est pas ma jeunesse - où est le français?",
+  "missing": [
+   "Harmonium - Pour un instant (1974)",
+   "Beau Dommage - La complainte du phoque en Alaska (1974)",
+   "Robert Charlebois - Je reviendrai à Montréal (1976)",
+   "Gilles Vigneault - Gens du pays (1975)",
+   "Joe Dassin - L'été indien (1975)",
+   "Ginette Reno - Un peu plus haut, un peu plus loin (1975)"
+  ],
+  "fake": "It is an English-Canadian 1970-73 oldies list with one French title (which I cannot place as a Pagliaro hit - I knew 'J'entends frapper'); nothing in it says Quebec 1976.",
+  "missingScene": "The whole Quebec scene at its peak: Harmonium, Beau Dommage, Charlebois, Vigneault, Dufresne, Ferland, Octobre, Offenbach; Quebec disco (Boule Noire, Toulouse, Patsy Gallant); France's hits; country-western québécois. Also for English Canada it lacks 1975-76 itself (BTO, Sweeney Todd, April Wine, Heart)."
+ },
+ "CA1984A": {
+  "persona": {
+   "name": "Karen Mitchell",
+   "born": 1969,
+   "town": "Peterborough, Ontario",
+   "background": "Anglophone, GM-supplier machinist's daughter. 1050 CHUM and 680 CFTR from Toronto, CKPT locally, CBC's Video Hits after school, CITY-TV The NewMusic, MuchMusic from autumn 1984 at a friend's with cable, taped songs off the radio, high-school dances; mother's kitchen radio played Anne Murray."
+  },
+  "seeds": [
+   {
+    "song": "The Guess Who - American Woman",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Terry Jacks - Seasons in the Sun",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Three Dog Night - Joy to the World",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Stampeders - Sweet City Woman",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Neil Young - Heart of Gold",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Don McLean - American Pie",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Gordon Lightfoot - Sundown",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Anne Murray - You Needed Me",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Dawn featuring Tony Orlando - Tie a Yellow Ribbon Round the Ole Oak Tree",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Irish Rovers - Wasn't That a Party",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Ginette Reno - Je ne suis qu'une chanson",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Captain & Tennille - Love Will Keep Us Together",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Anne Murray - Could I Have This Dance",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Patsy Gallant - Sugar Daddy",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Anne Murray - I Just Fall in Love Again",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Martha and the Muffins - Echo Beach",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 3,
+  "wouldSay": "That's my mom's kitchen radio and the oldies weekend on CHUM. I know every one, but I was in grade ten in 1984 - where's Corey Hart, where's Platinum Blonde?",
+  "missing": [
+   "Corey Hart - Sunglasses at Night (1984)",
+   "Platinum Blonde - Doesn't Really Matter (1983)",
+   "Bryan Adams - Run to You (1984)",
+   "The Parachute Club - Rise Up (1983)",
+   "Honeymoon Suite - New Girl Now (1984)",
+   "Men Without Hats - The Safety Dance (1982)"
+  ],
+  "fake": "Every seed is from 1970-80; there is not one song from 1981-84, and three Anne Murray ballads make it adult-contemporary radio rather than a teenager's 1984.",
+  "missingScene": "The whole video-era CanCon wave (Bryan Adams, Corey Hart, Loverboy, Platinum Blonde, Spoons, Luba, Rough Trade, Payola$), arena rock (Rush, Triumph, April Wine, Helix), and the US/UK pop that dominated CHUM (Michael Jackson, Prince, Madonna, Duran Duran, Culture Club)."
+ },
+ "CA1984B": {
+  "persona": {
+   "name": "Karen Mitchell",
+   "born": 1969,
+   "town": "Peterborough, Ontario",
+   "background": "Anglophone, GM-supplier machinist's daughter. 1050 CHUM and 680 CFTR from Toronto, CKPT locally, CBC's Video Hits after school, CITY-TV The NewMusic, MuchMusic from autumn 1984 at a friend's with cable, taped songs off the radio, high-school dances; mother's kitchen radio played Anne Murray."
+  },
+  "seeds": [
+   {
+    "song": "Bryan Adams - Summer of '69",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "later"
+   },
+   {
+    "song": "The Parachute Club - Rise Up",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Corey Hart - Sunglasses at Night",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Céline Dion - D'amour ou d'amitié",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Men Without Hats - The Safety Dance",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Rush - Tom Sawyer",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Loverboy - Working for the Weekend",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Diane Tell - Si j'étais un homme",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Hank Snow - Marriage Vow",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Guy Lombardo & His Royal Canadians - Managua, Nicaragua",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Guy Lombardo & His Royal Canadians - Seems Like Old Times",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Guy Lombardo & His Royal Canadians - Humoresque",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Wham! - Wake Me Up Before You Go-Go",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Madonna - Like a Virgin",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Michael Jackson - Billie Jean",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Édith Piaf - La vie en rose",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 7,
+  "wouldSay": "Rise Up and Sunglasses at Night - that's Video Hits after school, that's the gym dance. Tom Sawyer was every guy's jean jacket. But who put Guy Lombardo in here?",
+  "missing": [
+   "Platinum Blonde - Doesn't Really Matter (1983)",
+   "Bryan Adams - Run to You (1984)",
+   "Honeymoon Suite - New Girl Now (1984)",
+   "Spoons - Romantic Traffic (1984)",
+   "Luba - Let It Go (1984)",
+   "Rough Trade - High School Confidential (1980)"
+  ],
+  "fake": "A four-song 1940s block (Hank Snow and three Guy Lombardo) plus Piaf sits in the middle of a 1984 list, and Summer of '69 was a 1985 single although the album came out in November 1984.",
+  "missingScene": "Nothing between 1950 and 1980: no 1970s Canadian classics that were still on the radio (Guess Who, BTO, Lightfoot, April Wine, Trooper), and no Toronto new wave beyond Parachute Club (Spoons, Platinum Blonde, Rough Trade, Martha and the Muffins). The two Quebec songs never crossed to Ontario radio."
+ },
+ "CA1988A": {
+  "persona": {
+   "name": "Kristina Lindqvist",
+   "born": 1973,
+   "town": "Burnaby, British Columbia",
+   "background": "Canadian-born daughter of Swedish immigrants (father a millwright from Västerbotten). LG73 and CFOX 99.3 on a boombox, MuchMusic and CBC's Good Rockin' Tonite, cassettes from A&B Sound, Expo 86, school dances; at home her parents' ABBA and Swedish dansband LPs and Swedish Christmas records at the Scandinavian Centre."
+  },
+  "seeds": [
+   {
+    "song": "The Guess Who - American Woman",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Terry Jacks - Seasons in the Sun",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Three Dog Night - Joy to the World",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Corey Hart - Never Surrender",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Stampeders - Sweet City Woman",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Don McLean - American Pie",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Neil Young - Heart of Gold",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Gordon Lightfoot - Sundown",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Dawn featuring Tony Orlando - Tie a Yellow Ribbon Round the Ole Oak Tree",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Irish Rovers - Wasn't That a Party",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Ginette Reno - Je ne suis qu'une chanson",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Captain & Tennille - Love Will Keep Us Together",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Anne Murray - Could I Have This Dance",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Patsy Gallant - Sugar Daddy",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Anne Murray - You Needed Me",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Anne Murray - I Just Fall in Love Again",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 2,
+  "wouldSay": "This is the oldies station my dad's foreman had on in the truck. Never Surrender is the only one that's mine, and I was twelve then.",
+  "missing": [
+   "Glass Tiger - Don't Forget Me (When I'm Gone) (1986)",
+   "Bryan Adams - Heat of the Night (1987)",
+   "Blue Rodeo - Try (1987)",
+   "Tom Cochrane & Red Rider - Big League (1988)",
+   "Colin James - Voodoo Thing (1988)",
+   "Kim Mitchell - Patio Lanterns (1986)"
+  ],
+  "fake": "Fifteen of sixteen seeds are 1970-80 soft AM hits, none from 1986-88, with three Anne Murray songs; it is my parents' generation's English-Canadian radio, not a 1988 teenager's.",
+  "missingScene": "All of 1980s CanCon rock and pop (Bryan Adams, Loverboy, Glass Tiger, Honeymoon Suite, Luba, Platinum Blonde), the Vancouver scene (54-40, Barney Bentall, Colin James, Skinny Puppy, Images in Vogue), hair metal and US/UK pop on LG73 (Bon Jovi, Def Leppard, Whitney Houston, George Michael, INXS), and early Canadian hip hop and dance pop (Candi, Maestro just after)."
+ },
+ "CA1988B": {
+  "persona": {
+   "name": "Kristina Lindqvist",
+   "born": 1973,
+   "town": "Burnaby, British Columbia",
+   "background": "Canadian-born daughter of Swedish immigrants (father a millwright from Västerbotten). LG73 and CFOX 99.3 on a boombox, MuchMusic and CBC's Good Rockin' Tonite, cassettes from A&B Sound, Expo 86, school dances; at home her parents' ABBA and Swedish dansband LPs and Swedish Christmas records at the Scandinavian Centre."
+  },
+  "seeds": [
+   {
+    "song": "Mitsou - Bye Bye mon cowboy",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Kim Mitchell - Patio Lanterns",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Glass Tiger - Don't Forget Me (When I'm Gone)",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bryan Adams - Summer of '69",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Parachute Club - Rise Up",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Corey Hart - Sunglasses at Night",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Céline Dion - D'amour ou d'amitié",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Men Without Hats - The Safety Dance",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Rush - Tom Sawyer",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Loverboy - Working for the Weekend",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Diane Tell - Si j'étais un homme",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Hank Snow - Marriage Vow",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Whitney Houston - I Wanna Dance with Somebody (Who Loves Me)",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bon Jovi - Livin' on a Prayer",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Wham! - Wake Me Up Before You Go-Go",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Madonna - Like a Virgin",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 8,
+  "wouldSay": "Patio Lanterns, Glass Tiger, Summer of '69 - that's every school dance at Burnaby North and MuchMusic at my friend's place. Mitsou I only know from the video, and that came a bit later out here.",
+  "missing": [
+   "Blue Rodeo - Try (1987)",
+   "Tom Cochrane & Red Rider - Big League (1988)",
+   "Colin James - Voodoo Thing (1988)",
+   "Bryan Adams - Heat of the Night (1987)",
+   "Barney Bentall and the Legendary Hearts - Something to Live For (1988)",
+   "54-40 - One Day in Your Life (1987)"
+  ],
+  "fake": "Half the list is 1981-85, so it feels like junior high rather than 1988, and the opener is a French song that reached BC only through MuchMusic in 1989; Hank Snow and the two Quebec ballads I never heard.",
+  "missingScene": "The 1987-88 crop itself and the Vancouver scene (Colin James, Barney Bentall, 54-40, Paul Janz, Skinny Puppy), roots and country crossover (Blue Rodeo, k.d. lang), Jeff Healey, hair metal beyond Bon Jovi (Def Leppard, Guns N' Roses), and dance pop (Candi, Rick Astley, Kylie). An immigrant home's own music (ABBA, Europe's The Final Countdown, dansband LPs) is naturally absent."
+ }
+}

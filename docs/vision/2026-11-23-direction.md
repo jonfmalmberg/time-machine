@@ -1,6 +1,6 @@
 # Direction of the project, 23 November 2026
 
-**This file is a dated record and is never edited.** It writes down a long spoken conversation between Jon (the owner) and Claude on the night of 22 to 23 November 2026, the day the first release went live. It is not a transcript: Jon asked for his meaning to be captured cleanly, in his voice, not word for word. When the direction changes, a new dated file is added beside this one saying what changed and why. This one stays as it is, so that the original intent can always be read again.
+**This file is a dated record. Its text is not rewritten.** Where something in it has since been checked and found wrong or incomplete, a dated correction is added inline, marked as such, so that no error is left standing. It writes down a long spoken conversation between Jon (the owner) and Claude on the night of 22 to 23 November 2026, the day the first release went live. It is not a transcript: Jon asked for his meaning to be captured cleanly, in his voice, not word for word. When the direction changes, a new dated file is added beside this one saying what changed and why. This one stays as it is, so that the original intent can always be read again.
 
 It is written as reasoning, not rules. The project succeeds only if the app feels good to use, and feel does not reduce to instructions. When a rule elsewhere in the repository is unclear or does not cover a case, come back here and ask what Jon was trying to achieve.
 
@@ -28,9 +28,13 @@ The long-range ambition is larger than playlists for places and decades. Jon wan
 
 Today a person copies a prompt and pastes it into Spotify's AI playlist feature. That is friction most people will not push through, and Jon agrees it must become more seamless.
 
-He does not want that to be solved by simply generating playlists ourselves. In his experience the playlists Spotify's AI builds from our prompts are somewhat better than lists made directly from our own data. His reasoning: Spotify's system knows how songs sound, it can blend and fill in tracks we do not have, and it draws on a library far larger than ours. The number of users will follow the quality of the result, so a smoother path to a worse playlist would be a step backwards.
+He does not want that to be solved by simply generating playlists ourselves. In his experience the playlists Spotify's AI builds from our prompts are somewhat better than lists made directly from our own data. His reasoning: Spotify's system knows how songs sound, it can blend and fill in tracks we do not have, and it draws on a library far larger than ours.
+
+> **Correction, 23 Nov 2026.** One thing to add to that reasoning. Spotify states that a prompted playlist uses the listener's whole listening history. The playlist Jon gets from a prompt is shaped by his own taste, and is not what another person, or a local of that place, would get from the same prompt. Comparisons have to allow for this. See [`../research/2026-11-23-feasibility-checks.md`](../research/2026-11-23-feasibility-checks.md). The number of users will follow the quality of the result, so a smoother path to a worse playlist would be a step backwards.
 
 So the order is: first find out what the music services allow and remove friction wherever that is just a link or a simple connection. Do not switch to our own generated playlists until a real comparison says ours are at least as good. That comparison is impossible today because we only see our side. We need a way to get the song list of a Spotify-made playlist back to us, so that synthetic listeners, Jon's own judgement, beta testers and usage data can all compare the two.
+
+> **Correction, 23 Nov 2026.** Checked. Spotify does not allow this for a small public app: a new app may have five named users and its owner needs Premium, nothing reaches the Prompted Playlist feature, and a playlist's contents can only be read by its owner. So creating playlists in Spotify for the public is not available; reading a playlist back works for at most five named testers. The Prompted Playlist feature itself is limited to Premium subscribers in seven countries, in English, so for most people our own song list is the only playlist the app can offer. See [`../research/2026-11-23-feasibility-checks.md`](../research/2026-11-23-feasibility-checks.md). The rest of the order stands: no switch to our own playlists without a comparison.
 
 ## Data: decide what we collect before collecting more
 
@@ -41,6 +45,8 @@ Coverage is thin: a handful of country-decades have proper year-by-year lists, a
 - **Completeness, not only hits.** Jon listened to the Indonesia 2020 and Canada playlists for his own era and they did not feel authentic or familiar. His test is no longer "are the defining songs there" but "are the artists I actually listened to there, and filed in the right place". He named Taylor Swift, Beyoncé, Kanye West, Jay-Z, Kygo, Swedish House Mafia, The Weeknd and J. Cole. A related frustration: he knows songs and artists he loves and cannot tell whether they are in the app or where to find them.
 - That means more than one kind of research and more than one kind of test, each covering a different way of being wrong. Chart research finds the hits; other methods are needed for breadth.
 - **Feel.** People also choose music by mood. Jon wants to be able to avoid sad music, or ask for upbeat. Tempo, key, or a described vibe are candidates; a first set of feelings to tag songs with has to be chosen.
+
+  > **Correction, 23 Nov 2026.** Spotify closed its tempo, key and mood measures to new apps in November 2024, so these cannot come from Spotify. See [`../research/2026-11-23-feasibility-checks.md`](../research/2026-11-23-feasibility-checks.md).
 - Open sources should be surveyed before more hand research, with their licences checked: is there existing, freely usable music data we can build on.
 
 The order of research he set: genres first (many have a name and nothing else), then places and periods, then the general song database. Research that did not pass its tests, such as Nigeria in the 1970s and Malaysia in the 1960s, is flagged clearly and left; it is not retried now. "I don't think we should get stuck in the past." The broad song search will probably fix those gaps along the way. A practical check for the song database: are the songs Jon has liked on Spotify in our data, and if not, where can they be found.
@@ -71,7 +77,9 @@ The synthetic listener has been one of the best ideas in the project: fast, and 
 
 He was emphatic that a test is not passed for its own sake. It is easy, for a person or an AI that does not care, to say the tests are done. A test is worth something only if it tells us how the app feels to use. Claude is expected to look at the data that comes in, look for patterns without being asked, come back with what it shows and what should change, and to build each feature so that the cheap measurement that answers its question is already in place. If a measure turns out not to reflect real experience, change it and record why. "It's kind of like an art more than a science."
 
-There must also be a trail. Which tests were run on which data, with which version of the test, and what remains untested. Prompts for synthetic listeners must be kept as versions; Jon asked whether the prompts used for past results had already been lost, and Claude could not promise they had not. Progress on tests is tracked alongside progress on data, and the bookkeeping should be automated, not done by hand.
+There must also be a trail. Which tests were run on which data, with which version of the test, and what remains untested. Prompts for synthetic listeners must be kept as versions; Jon asked whether the prompts used for past results had already been lost, and Claude could not promise they had not.
+
+> **Correction, 23 Nov 2026.** They were not lost. The briefs, the inputs and the results of the earlier rounds were found and are saved in `tests/listener/archive/`. The old scores are still provisional, because the runs were not tied to a version of the data or of the brief. Progress on tests is tracked alongside progress on data, and the bookkeeping should be automated, not done by hand.
 
 ## How Jon and Claude work together
 
@@ -98,8 +106,19 @@ These are observations, recorded so they are not lost. The roadmap decides when 
 - **Trip review:** a slider for the rating, not ten buttons. The emoji reactions were added at Jon's request, but neither the user nor Jon can see what they are for or how they lead to better recommendations. There should be a place to paste a Spotify playlist link back in. Underneath is an undesigned question: if someone loves Japanese city pop, or a happy mood, what exactly does that change about what they are offered next?
 - **Travel log:** saving works on the live site. The look does not meet the standard (see How it should feel).
 - **Album art:** switched off because it was too slow. Jon agrees with keeping our own copies only if the licence allows it; the images must not live in the code repository; the size must be estimated for the finished database, not today's; songs should share their album's cover; and the question of where to keep them without risking a bill has to be answered first.
+
+  > **Correction, 23 Nov 2026.** Checked. The Cover Art Archive gives no licence for its images ("Use the images at your own risk"), so we should not keep copies. We do not need to: the slow part was looking up which image belongs to a song. Storing that identifier with the song during research (it is free data) lets the browser load the image directly, with nothing stored on our side. See [`../research/2026-11-23-feasibility-checks.md`](../research/2026-11-23-feasibility-checks.md).
 - **Tree, globe and tunnel:** occasionally glitchy, usually fixed by a reload, good enough for now. Polish belongs to a later redesign stage, done as sit-down sessions where Jon tries things and says what works.
 
 ## Stated in the conversation but not checked
 
 Claude said several things from memory that must be verified before anything is built on them: what Spotify, Apple Music and YouTube allow outside developers to do, and whether Spotify's AI playlist feature can be reached at all; the licences of MusicBrainz, Wikidata, Discogs, ListenBrainz, Wikipedia and the Cover Art Archive; the storage allowances of the services in use; the size estimates for album art; and whether the prompts behind past synthetic-listener results still exist.
+
+> **Correction, 23 Nov 2026.** The ones that could change the direction were checked the same day. See [`../research/2026-11-23-feasibility-checks.md`](../research/2026-11-23-feasibility-checks.md).
+
+> - **Spotify:** closed to a small public app (five users, owner needs Premium, no access to Prompted Playlist). During the conversation Claude said reading back a playlist you own "is the kind of thing their interface normally allows": true, but only for those five users.
+> - **Licences:** MusicBrainz core data, Wikidata and Discogs data are CC0 and free to build on, as Claude said. MusicBrainz's supplementary data is non-commercial only. The Cover Art Archive has no licence for its images; Claude's guess that the images "stay copyrighted by their owners" was right in effect.
+> - **Storage:** Supabase's free plan gives 500 MB of database and 1 GB of files, as Claude said. A music catalogue cannot live there; growing data has to be served as files from Cloudflare.
+> - **Album art size estimates:** no longer needed, since no images are to be stored.
+> - **Past listener prompts:** they exist and are archived.
+> - **Not checked, because the direction does not depend on them:** Apple Music, YouTube, ListenBrainz, Wikipedia's licence.

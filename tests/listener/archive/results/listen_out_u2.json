@@ -1,0 +1,689 @@
+{
+ "KE1995A": {
+  "persona": {
+   "name": "Otieno",
+   "born": 1979,
+   "town": "Nairobi (Kaloleni estate, family from Siaya)",
+   "background": "Son of a Kenya Railways clerk; in 1995 he is 16 at a day secondary school. Music reaches him through KBC General Service in Swahili and the KBC English Service, Luo benga cassettes his father plays on Sundays, Congolese rumba at weddings and in Eastlands bars, ragga and US hits blasting from matatus, and the Sunday disco at a hall in town."
+  },
+  "seeds": [
+   {
+    "song": "D.O. Misiani & Shirati Jazz - Benga Blast!",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Shirati Jazz - Benga Beat",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Papa Wemba - Yolele",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Buju Banton - Champion",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Remmy Ongala & Orchestre Super Matimila - Mambo Kwa Soksi",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Marvin Gaye - What's Going On",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 4,
+  "wouldSay": "Misiani, yes, my father's music, but which song is 'Benga Blast'? That is the name on a mzungu CD, not a song we sang. Buju Banton - now that is the matatu to Kencom.",
+  "missing": [
+   "Them Mushrooms - Jambo Bwana (1982)",
+   "Les Wanyika - Sina Makosa (1979)",
+   "Samba Mapangala & Orchestra Virunga - Malako (1981)",
+   "Princess Jully - Dunia Mbaya (early 1990s, year unsure)",
+   "Fadhili William - Malaika (1960)",
+   "Lucky Dube - Prisoner (1989)"
+  ],
+  "fake": "The two Kenyan seeds are Western export album titles (Benga Blast!, Benga Beat) rather than songs, and the rest is a world-music-shop selection with only one Kenyan artist, so it is not two-thirds local and the actual Kenyan radio and matatu sound of 1995 is missing.",
+  "suspect": [
+   "D.O. Misiani & Shirati Jazz - Benga Blast! (album title, not a track)",
+   "Shirati Jazz - Benga Beat (compilation album title, not a track)"
+  ]
+ },
+ "KE1995B": {
+  "persona": {
+   "name": "Otieno",
+   "born": 1979,
+   "town": "Nairobi (Kaloleni estate, family from Siaya)",
+   "background": "Son of a Kenya Railways clerk; in 1995 he is 16 at a day secondary school. Music reaches him through KBC General Service in Swahili and the KBC English Service, Luo benga cassettes his father plays on Sundays, Congolese rumba at weddings and in Eastlands bars, ragga and US hits blasting from matatus, and the Sunday disco at a hall in town."
+  },
+  "seeds": [
+   {
+    "song": "D.O. Misiani & Shirati Jazz - Benga Blast!",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Shirati Jazz - Benga Beat",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Papa Wemba - Yolele",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Buju Banton - Champion",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Remmy Ongala & Orchestre Super Matimila - Mambo Kwa Soksi",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Marvin Gaye - What's Going On",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 4,
+  "wouldSay": "Misiani, yes, my father's music, but which song is 'Benga Blast'? That is the name on a mzungu CD, not a song we sang. Buju Banton - now that is the matatu to Kencom.",
+  "missing": [
+   "Them Mushrooms - Jambo Bwana (1982)",
+   "Les Wanyika - Sina Makosa (1979)",
+   "Samba Mapangala & Orchestra Virunga - Malako (1981)",
+   "Princess Jully - Dunia Mbaya (early 1990s, year unsure)",
+   "Fadhili William - Malaika (1960)",
+   "Lucky Dube - Prisoner (1989)"
+  ],
+  "fake": "The two Kenyan seeds are Western export album titles (Benga Blast!, Benga Beat) rather than songs, and the rest is a world-music-shop selection with only one Kenyan artist, so it is not two-thirds local and the actual Kenyan radio and matatu sound of 1995 is missing.",
+  "suspect": [
+   "D.O. Misiani & Shirati Jazz - Benga Blast! (album title, not a track)",
+   "Shirati Jazz - Benga Beat (compilation album title, not a track)"
+  ]
+ },
+ "KE1995C": {
+  "persona": {
+   "name": "Otieno",
+   "born": 1979,
+   "town": "Nairobi (Kaloleni estate, family from Siaya)",
+   "background": "Son of a Kenya Railways clerk; in 1995 he is 16 at a day secondary school. Music reaches him through KBC General Service in Swahili and the KBC English Service, Luo benga cassettes his father plays on Sundays, Congolese rumba at weddings and in Eastlands bars, ragga and US hits blasting from matatus, and the Sunday disco at a hall in town."
+  },
+  "seeds": [
+   {
+    "song": "D.O. Misiani & Shirati Jazz - Benga Blast!",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Shirati Jazz - Benga Beat",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Papa Wemba - Yolele",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Buju Banton - Champion",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Remmy Ongala & Orchestre Super Matimila - Mambo Kwa Soksi",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Marvin Gaye - What's Going On",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 4,
+  "wouldSay": "Misiani, yes, my father's music, but which song is 'Benga Blast'? That is the name on a mzungu CD, not a song we sang. Buju Banton - now that is the matatu to Kencom.",
+  "missing": [
+   "Them Mushrooms - Jambo Bwana (1982)",
+   "Les Wanyika - Sina Makosa (1979)",
+   "Samba Mapangala & Orchestra Virunga - Malako (1981)",
+   "Princess Jully - Dunia Mbaya (early 1990s, year unsure)",
+   "Fadhili William - Malaika (1960)",
+   "Lucky Dube - Prisoner (1989)"
+  ],
+  "fake": "The two Kenyan seeds are Western export album titles (Benga Blast!, Benga Beat) rather than songs, and the rest is a world-music-shop selection with only one Kenyan artist, so it is not two-thirds local and the actual Kenyan radio and matatu sound of 1995 is missing.",
+  "suspect": [
+   "D.O. Misiani & Shirati Jazz - Benga Blast! (album title, not a track)",
+   "Shirati Jazz - Benga Beat (compilation album title, not a track)"
+  ]
+ },
+ "MA1995A": {
+  "persona": {
+   "name": "Youssef",
+   "born": 1980,
+   "town": "Casablanca (Hay Mohammadi)",
+   "background": "Son of a textile-factory worker in the neighbourhood that produced Nass El Ghiwane; at 15 in 1995 he hears RTM radio and Medi 1, 2M television, cassettes from the stalls at Derb Ghallef, chaabi bands at weddings, and Algerian rai cassettes passed around by older boys; Abdul Basit recitations play at funerals and in shops during Ramadan."
+  },
+  "seeds": [
+   {
+    "song": "Maleem Mahmoud Ghania with Pharoah Sanders - The Trance of Seven Colors",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maleem Mahmoud Ghania & Pharoah Sanders - La Allah Dayim Moulenah",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maleem Mahmoud Ghania & Pharoah Sanders - Bala Moussaka",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maleem Mahmoud Ghania & Pharoah Sanders - Peace in Essaouira (For Sonny Sharrock)",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maleem Mahmoud Ghania & Pharoah Sanders - Marhaba",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Hassan Hakmoun and Zahar - Soudan Minitara",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Najat Aatabou - Hadi Kedba Bayna",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Najat Aatabou - J'en ai marre",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Haja El Hamdaouia - Daba Yji",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Jil Jilala - Laayoune Ayniya",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Nass El Ghiwane - Ya Bani Insane",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Nass El Ghiwane - Fine Ghadi Biya Khouya",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Cheikha Rimitti - Sidi Mansour",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Abdul Basit Abdul Samad - Surat Maryam",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Ali Hemeida - Lolaki",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Ensemble Essoundoussia - Anthologie de la musique arabo-andalouse",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   }
+  ],
+  "score": 2,
+  "wouldSay": "What is this, a saxophone over the guembri? Gnawa yes, but this is for the tourists in Essaouira. Wait for it... ah, Najat Aatabou, 'Hadi kedba bayna' - now that was every wedding.",
+  "missing": [
+   "Mohamed Rouicha - Inas Inas (1980s-90s, year unsure)",
+   "Abdelwahab Doukkali - Marsoul El Hob (1970s)",
+   "Naima Samih - Jrit w Jarit (1980s)",
+   "Abdelhadi Belkhayat - Ya Bent Ennass (1960s)",
+   "Hamid Zahir - Lalla Fatima (1970s-80s, year unsure)",
+   "Cheb Khaled - Didi (1992)"
+  ],
+  "fake": "It opens with five tracks from a 1994 American jazz-label Gnawa record with a US saxophonist that no one in Casablanca owned or heard on the radio, so the real Moroccan hits (Aatabou, Nass El Ghiwane, Jil Jilala) only arrive after twenty-plus minutes of trance jazz, and the list ends on a CD-anthology title.",
+  "suspect": [
+   "Maleem Mahmoud Ghania with Pharoah Sanders - The Trance of Seven Colors (album title, likely not a track)",
+   "Ensemble Essoundoussia - Anthologie de la musique arabo-andalouse (anthology title, not a song)"
+  ]
+ },
+ "MA1995C": {
+  "persona": {
+   "name": "Youssef",
+   "born": 1980,
+   "town": "Casablanca (Hay Mohammadi)",
+   "background": "Son of a textile-factory worker in the neighbourhood that produced Nass El Ghiwane; at 15 in 1995 he hears RTM radio and Medi 1, 2M television, cassettes from the stalls at Derb Ghallef, chaabi bands at weddings, and Algerian rai cassettes passed around by older boys; Abdul Basit recitations play at funerals and in shops during Ramadan."
+  },
+  "seeds": [
+   {
+    "song": "Maleem Mahmoud Ghania with Pharoah Sanders - The Trance of Seven Colors",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maleem Mahmoud Ghania & Pharoah Sanders - La Allah Dayim Moulenah",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maleem Mahmoud Ghania & Pharoah Sanders - Bala Moussaka",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maleem Mahmoud Ghania & Pharoah Sanders - Peace in Essaouira (For Sonny Sharrock)",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maleem Mahmoud Ghania & Pharoah Sanders - Marhaba",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Hassan Hakmoun and Zahar - Soudan Minitara",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Najat Aatabou - Hadi Kedba Bayna",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Najat Aatabou - J'en ai marre",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Haja El Hamdaouia - Daba Yji",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Jil Jilala - Laayoune Ayniya",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Nass El Ghiwane - Ya Bani Insane",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Nass El Ghiwane - Fine Ghadi Biya Khouya",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Cheikha Rimitti - Sidi Mansour",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Abdul Basit Abdul Samad - Surat Maryam",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Ali Hemeida - Lolaki",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Ensemble Essoundoussia - Anthologie de la musique arabo-andalouse",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   }
+  ],
+  "score": 2,
+  "wouldSay": "What is this, a saxophone over the guembri? Gnawa yes, but this is for the tourists in Essaouira. Wait for it... ah, Najat Aatabou, 'Hadi kedba bayna' - now that was every wedding.",
+  "missing": [
+   "Mohamed Rouicha - Inas Inas (1980s-90s, year unsure)",
+   "Abdelwahab Doukkali - Marsoul El Hob (1970s)",
+   "Naima Samih - Jrit w Jarit (1980s)",
+   "Abdelhadi Belkhayat - Ya Bent Ennass (1960s)",
+   "Hamid Zahir - Lalla Fatima (1970s-80s, year unsure)",
+   "Cheb Khaled - Didi (1992)"
+  ],
+  "fake": "It opens with five tracks from a 1994 American jazz-label Gnawa record with a US saxophonist that no one in Casablanca owned or heard on the radio, so the real Moroccan hits (Aatabou, Nass El Ghiwane, Jil Jilala) only arrive after twenty-plus minutes of trance jazz, and the list ends on a CD-anthology title.",
+  "suspect": [
+   "Maleem Mahmoud Ghania with Pharoah Sanders - The Trance of Seven Colors (album title, likely not a track)",
+   "Ensemble Essoundoussia - Anthologie de la musique arabo-andalouse (anthology title, not a song)"
+  ]
+ },
+ "MA1995B": {
+  "persona": {
+   "name": "Youssef",
+   "born": 1980,
+   "town": "Casablanca (Hay Mohammadi)",
+   "background": "Son of a textile-factory worker in the neighbourhood that produced Nass El Ghiwane; at 15 in 1995 he hears RTM radio and Medi 1, 2M television, cassettes from the stalls at Derb Ghallef, chaabi bands at weddings, and Algerian rai cassettes passed around by older boys; Abdul Basit recitations play at funerals and in shops during Ramadan."
+  },
+  "seeds": [
+   {
+    "song": "Mohamed Rouicha - Inas Inas",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maleem Mahmoud Ghania with Pharoah Sanders - The Trance of Seven Colors",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maleem Mahmoud Ghania & Pharoah Sanders - La Allah Dayim Moulenah",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maleem Mahmoud Ghania & Pharoah Sanders - Bala Moussaka",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maleem Mahmoud Ghania & Pharoah Sanders - Peace in Essaouira (For Sonny Sharrock)",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Maleem Mahmoud Ghania & Pharoah Sanders - Marhaba",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Hassan Hakmoun and Zahar - Soudan Minitara",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Najat Aatabou - Hadi Kedba Bayna",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Najat Aatabou - J'en ai marre",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Haja El Hamdaouia - Daba Yji",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Jil Jilala - Laayoune Ayniya",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Nass El Ghiwane - Ya Bani Insane",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Nass El Ghiwane - Fine Ghadi Biya Khouya",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Cheikha Rimitti - Sidi Mansour",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Abdul Basit Abdul Samad - Surat Maryam",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Ali Hemeida - Lolaki",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 3,
+  "wouldSay": "Rouicha! 'Inas inas' - my uncle from Khenifra played that cassette until it wore out. Then... a saxophone? This Gnawa-jazz I never heard in my life. Bring back the loutar.",
+  "missing": [
+   "Abdelwahab Doukkali - Marsoul El Hob (1970s)",
+   "Naima Samih - Jrit w Jarit (1980s)",
+   "Abdelhadi Belkhayat - Ya Bent Ennass (1960s)",
+   "Hamid Zahir - Lalla Fatima (1970s-80s, year unsure)",
+   "Cheb Khaled - Didi (1992)",
+   "Cheb Hasni - Ma Ranich Mlih (early 1990s, year unsure)"
+  ],
+  "fake": "A strong Middle Atlas opener is immediately buried under five tracks from a 1994 American jazz-label Gnawa record no Moroccan teenager heard, so the familiar chaabi and ghiwane songs only arrive far too late.",
+  "suspect": [
+   "Maleem Mahmoud Ghania with Pharoah Sanders - The Trance of Seven Colors (album title, likely not a track)"
+  ]
+ },
+ "ML1975A": {
+  "persona": {
+   "name": "Moussa",
+   "born": 1960,
+   "town": "Bamako (Médina Coura, near the railway station)",
+   "background": "Son of a railway mechanic for the Régie du chemin de fer; at 15 in 1975 he hears Radio Mali, sneaks in to hear the Rail Band at the Buffet Hôtel de la Gare, spends evenings at the grin with a transistor radio, goes to 'surprise-parties' with soul and Congolese 45s, and hears Guinean Syliphone records of Bembeya; Quran recitation at the mosque and on Friday radio."
+  },
+  "seeds": [
+   {
+    "song": "Abdul Basit Abdul Samad - Surat Maryam",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Bembeya Jazz National - Mami Wata",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Babatunde Olatunji - Jin-Go-Lo-Ba",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 1,
+  "wouldSay": "A Quran recitation to start a dance playlist? Then a song I don't know and American drums. Where is the Rail Band? Where is anything from Bamako?",
+  "missing": [
+   "Rail Band - Mali Sadio (early 1970s)",
+   "Rail Band - Soundiata (1970s)",
+   "Boubacar Traoré - Mali Twist (1963)",
+   "Boubacar Traoré - Kar Kar Madison (1963)",
+   "Bembeya Jazz National - Regard sur le passé (1969)",
+   "Franco & TPOK Jazz - Azda (1973, year unsure)"
+  ],
+  "fake": "There is not one Malian artist: an Egyptian Quran recitation, a Bembeya title I cannot place, and a 1959 Nigerian-American drum record that never reached Bamako.",
+  "suspect": [
+   "Bembeya Jazz National - Mami Wata (title not found in Bembeya's known discography)"
+  ]
+ },
+ "ML1975B": {
+  "persona": {
+   "name": "Moussa",
+   "born": 1960,
+   "town": "Bamako (Médina Coura, near the railway station)",
+   "background": "Son of a railway mechanic for the Régie du chemin de fer; at 15 in 1975 he hears Radio Mali, sneaks in to hear the Rail Band at the Buffet Hôtel de la Gare, spends evenings at the grin with a transistor radio, goes to 'surprise-parties' with soul and Congolese 45s, and hears Guinean Syliphone records of Bembeya; Quran recitation at the mosque and on Friday radio."
+  },
+  "seeds": [
+   {
+    "song": "Abdul Basit Abdul Samad - Surat Maryam",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Bembeya Jazz National - Mami Wata",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Babatunde Olatunji - Jin-Go-Lo-Ba",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 1,
+  "wouldSay": "A Quran recitation to start a dance playlist? Then a song I don't know and American drums. Where is the Rail Band? Where is anything from Bamako?",
+  "missing": [
+   "Rail Band - Mali Sadio (early 1970s)",
+   "Rail Band - Soundiata (1970s)",
+   "Boubacar Traoré - Mali Twist (1963)",
+   "Boubacar Traoré - Kar Kar Madison (1963)",
+   "Bembeya Jazz National - Regard sur le passé (1969)",
+   "Franco & TPOK Jazz - Azda (1973, year unsure)"
+  ],
+  "fake": "There is not one Malian artist: an Egyptian Quran recitation, a Bembeya title I cannot place, and a 1959 Nigerian-American drum record that never reached Bamako.",
+  "suspect": [
+   "Bembeya Jazz National - Mami Wata (title not found in Bembeya's known discography)"
+  ]
+ },
+ "ML1975C": {
+  "persona": {
+   "name": "Moussa",
+   "born": 1960,
+   "town": "Bamako (Médina Coura, near the railway station)",
+   "background": "Son of a railway mechanic for the Régie du chemin de fer; at 15 in 1975 he hears Radio Mali, sneaks in to hear the Rail Band at the Buffet Hôtel de la Gare, spends evenings at the grin with a transistor radio, goes to 'surprise-parties' with soul and Congolese 45s, and hears Guinean Syliphone records of Bembeya; Quran recitation at the mosque and on Friday radio."
+  },
+  "seeds": [
+   {
+    "song": "Rail Band - Soundiata",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "Rail Band - Mali Sadio",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false
+   },
+   {
+    "song": "James Brown - Get Up (I Feel Like Being a) Sex Machine",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Abdul Basit Abdul Samad - Surat Maryam",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Bembeya Jazz National - Mami Wata",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   },
+   {
+    "song": "Babatunde Olatunji - Jin-Go-Lo-Ba",
+    "knew": "no",
+    "origin": "foreign",
+    "anachronism": false
+   }
+  ],
+  "score": 7,
+  "wouldSay": "Salif singing Mali Sadio with the Rail Band - this is the Buffet de la Gare on a Saturday night! And James Brown, we all danced that at the surprise-parties.",
+  "missing": [
+   "Boubacar Traoré - Mali Twist (1963)",
+   "Boubacar Traoré - Kar Kar Madison (1963)",
+   "Bembeya Jazz National - Regard sur le passé (1969)",
+   "Franco & TPOK Jazz - Azda (1973, year unsure)"
+  ],
+  "fake": "The first three are right, but the tail (Quran recitation, an unplaceable Bembeya title, Olatunji's 1959 US drum record) pulls it back toward a generic 'Africa' shelf and only two of six seeds are Malian.",
+  "suspect": [
+   "Bembeya Jazz National - Mami Wata (title not found in Bembeya's known discography)"
+  ]
+ }
+}

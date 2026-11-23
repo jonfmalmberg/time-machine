@@ -1,0 +1,189 @@
+{
+ "TH1985A": {
+  "persona": {"name": "Wanchai", "born": 1971, "town": "Song Phi Nong, Suphan Buri", "background": "Rice-farming family in central Thailand's luk thung heartland. Older brother bought Carabao cassettes at the district market; luk thung request programmes on AM radio; Pumpuang and other stars live on stage at temple fairs (ngan wat); Sunday luk thung shows on TV Channel 7; Songkran and New Year songs at school. Isan mor lam only heard when Isan labourers came for the harvest."},
+  "seeds": [
+   {"song": "Pumpuang Duangjan - Ue Hue Lor Jang", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Carabao - Made in Thailand", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Carabao - Wanipok", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Pumpuang Duangjan - Sao Na Sang Faen", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Carabao - Lung Khi Mao", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Chaweewan Dumnern - Lam Tung Wai", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Chaweewan Dumnern - Lam Toey Chaweewan", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Chaweewan Dumnern - Sao Lam Plearn", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Yenjit Porntawi - Lam Plearn Toh Lom Nhao", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "The Petch Phin Thong Band - Soul Lam Plearn", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Pumpuang Duangjan - Nad Pob Na Amphoe", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Suraphol Sombatcharoen - Nam Ta Lao Wieng", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Suraphol Sombatcharoen - Siphok Pi Haeng Khwam Lang", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Eua Sunthornsanan - Ngen Ngen Ngen", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Suntaraporn - Ram Wong Wan Songkran", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Suntaraporn - Ruen Roeng Thaloeng Sok", "knew": "yes", "origin": "local", "anachronism": false}
+  ],
+  "score": 8,
+  "wouldSay": "Ue hue lor jang! That's Pumpuang the year she was everywhere, and then Made in Thailand, my brother played that cassette until it stretched.",
+  "missing": ["Pumpuang Duangjan - Khon Dang Leum Lang Khwai (1985)", "Pumpuang Duangjan - Ja Hai Ror Por Sor Nai (1982)", "Carabao - Thahan Kean (1983)", "Carabao - Bua Loy (1984)", "Suraphol Sombatcharoen - Sao Suan Taeng (1950s-60s)", "Wham! - Careless Whisper (1984)"],
+  "fake": "The opening is right, but the middle turns into Isan mor lam pieces and 1960s collector rarities (Yenjit Porntawi, Petch Phin Thong) that never played on our radio in 1985.",
+  "suspect": []
+ },
+ "TH1985B": {
+  "persona": {"name": "Wanchai", "born": 1971, "town": "Song Phi Nong, Suphan Buri", "background": "Rice-farming family in central Thailand's luk thung heartland. Older brother bought Carabao cassettes at the district market; luk thung request programmes on AM radio; Pumpuang and other stars live on stage at temple fairs (ngan wat); Sunday luk thung shows on TV Channel 7; Songkran and New Year songs at school. Isan mor lam only heard when Isan labourers came for the harvest."},
+  "seeds": [
+   {"song": "Carabao - Made in Thailand", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Chaweewan Dumnern - Lam Tung Wai", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Chaweewan Dumnern - Lam Toey Chaweewan", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Chaweewan Dumnern - Sao Lam Plearn", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Yenjit Porntawi - Lam Plearn Toh Lom Nhao", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "The Petch Phin Thong Band - Soul Lam Plearn", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Pumpuang Duangjan - Nad Pob Na Amphoe", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Suraphol Sombatcharoen - Nam Ta Lao Wieng", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Suraphol Sombatcharoen - Siphok Pi Haeng Khwam Lang", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Eua Sunthornsanan - Ngen Ngen Ngen", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Suntaraporn - Ram Wong Wan Songkran", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Suntaraporn - Ruen Roeng Thaloeng Sok", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Madonna - Into the Groove", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Toto - Rosanna", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Big Brother & the Holding Company - Piece of My Heart", "knew": "no", "origin": "foreign", "anachronism": false}
+  ],
+  "score": 5,
+  "wouldSay": "Made in Thailand, yes, that's us. But then three lam pieces in a row? That's the old Isan ladies' music at a ngan wat, not what we were playing.",
+  "missing": ["Pumpuang Duangjan - Ue Hue Lor Jang (1985)", "Pumpuang Duangjan - Khon Dang Leum Lang Khwai (1985)", "Carabao - Thahan Kean (1983)", "Carabao - Bua Loy (1984)", "Pumpuang Duangjan - Sao Na Sang Faen (1983)", "Wham! - Careless Whisper (1984)"],
+  "fake": "One Carabao song is followed by a run of traditional mor lam and 1960s compilation rarities, Pumpuang shows up only once, and the 1968 Janis Joplin track was never a Thai hit in 1985.",
+  "suspect": []
+ },
+ "TH1985C": {
+  "persona": {"name": "Wanchai", "born": 1971, "town": "Song Phi Nong, Suphan Buri", "background": "Rice-farming family in central Thailand's luk thung heartland. Older brother bought Carabao cassettes at the district market; luk thung request programmes on AM radio; Pumpuang and other stars live on stage at temple fairs (ngan wat); Sunday luk thung shows on TV Channel 7; Songkran and New Year songs at school. Isan mor lam only heard when Isan labourers came for the harvest."},
+  "seeds": [
+   {"song": "Chaweewan Dumnern - Lam Tung Wai", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Chaweewan Dumnern - Lam Toey Chaweewan", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Chaweewan Dumnern - Sao Lam Plearn", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Yenjit Porntawi - Lam Plearn Toh Lom Nhao", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "The Petch Phin Thong Band - Soul Lam Plearn", "knew": "no", "origin": "local", "anachronism": false},
+   {"song": "Pumpuang Duangjan - Nad Pob Na Amphoe", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Suraphol Sombatcharoen - Nam Ta Lao Wieng", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Suraphol Sombatcharoen - Siphok Pi Haeng Khwam Lang", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Eua Sunthornsanan - Ngen Ngen Ngen", "knew": "maybe", "origin": "local", "anachronism": false},
+   {"song": "Suntaraporn - Ram Wong Wan Songkran", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Suntaraporn - Ruen Roeng Thaloeng Sok", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Madonna - Into the Groove", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Toto - Rosanna", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Big Brother & the Holding Company - Piece of My Heart", "knew": "no", "origin": "foreign", "anachronism": false}
+  ],
+  "score": 3,
+  "wouldSay": "This is a folk-music record, lam played with khaen. Thai, yes, but where's Carabao, where's Pumpuang? This isn't 1985.",
+  "missing": ["Carabao - Made in Thailand (1984)", "Pumpuang Duangjan - Ue Hue Lor Jang (1985)", "Carabao - Thahan Kean (1983)", "Pumpuang Duangjan - Khon Dang Leum Lang Khwai (1985)", "Carabao - Bua Loy (1984)", "Wham! - Careless Whisper (1984)"],
+  "fake": "It opens with five traditional mor lam and 1960s compilation tracks and leaves out Carabao and nearly all of Pumpuang's mid-80s hits, the two sounds that defined 1985.",
+  "suspect": []
+ },
+ "UA2005A": {
+  "persona": {"name": "Oksana", "born": 1990, "town": "Zaporizhzhia", "background": "Russian-speaking home, Ukrainian at school; father a steelworker at Zaporizhstal. Music came from the M1 and OTV music channels, Hit FM and Russkoe Radio Ukraina in the marshrutka, school discos, and pirated MP3 CDs from the market; Eurovision on TV with the whole family; Orange Revolution songs on the news in late 2004."},
+  "seeds": [
+   {"song": "Ruslana - Wild Dances", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Verka Serduchka - Vse budet khorosho", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "VIA Gra - Popytka No. 5", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "t.A.T.u. - Nas ne dogonyat", "knew": "yes", "origin": "foreign", "anachronism": false},
+   {"song": "Itzhak Perlman & The Klezmatics - Dybbuk Shers", "knew": "no", "origin": "foreign", "anachronism": false},
+   {"song": "Itzhak Perlman & Klezmer Conservatory Band - Der Heyser Bulgar", "knew": "no", "origin": "foreign", "anachronism": false},
+   {"song": "Tarras Instrumental Trio - Der glater bulgar", "knew": "no", "origin": "foreign", "anachronism": false},
+   {"song": "Naftule Brandwein - Fun Tashlach", "knew": "no", "origin": "foreign", "anachronism": false},
+   {"song": "Tiësto - Lethal Industry", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Glukoza - Nevesta", "knew": "yes", "origin": "foreign", "anachronism": false},
+   {"song": "Luciano Pavarotti - Nessun dorma (Turandot)", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Eiffel 65 - Blue (Da Ba Dee)", "knew": "yes", "origin": "foreign", "anachronism": false}
+  ],
+  "score": 8,
+  "wouldSay": "Ruslana, the year after she won Eurovision, then Serduchka and VIA Gra. Yes, that's every school disco I went to.",
+  "missing": ["GreenJolly - Razom nas bahato (2004)", "Okean Elzy - Bez boyu (2001)", "Zveri - Rayony-kvartaly (2004)", "Ruki Vverh - 18 mne uzhe (1998)", "Vopli Vidopliassova - Vesna (1989)"],
+  "fake": "Only three of twelve seeds are Ukrainian, and a block of four American klezmer recordings from the 1920s to 1990s sits in the middle; that is diaspora heritage music, not anything a Ukrainian teenager heard in 2005.",
+  "suspect": []
+ },
+ "UA2005B": {
+  "persona": {"name": "Oksana", "born": 1990, "town": "Zaporizhzhia", "background": "Russian-speaking home, Ukrainian at school; father a steelworker at Zaporizhstal. Music came from the M1 and OTV music channels, Hit FM and Russkoe Radio Ukraina in the marshrutka, school discos, and pirated MP3 CDs from the market; Eurovision on TV with the whole family; Orange Revolution songs on the news in late 2004."},
+  "seeds": [
+   {"song": "Ruslana - Wild Dances", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "VIA Gra - Popytka No. 5", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "t.A.T.u. - Nas ne dogonyat", "knew": "yes", "origin": "foreign", "anachronism": false},
+   {"song": "Itzhak Perlman & The Klezmatics - Dybbuk Shers", "knew": "no", "origin": "foreign", "anachronism": false},
+   {"song": "Itzhak Perlman & Klezmer Conservatory Band - Der Heyser Bulgar", "knew": "no", "origin": "foreign", "anachronism": false},
+   {"song": "Tarras Instrumental Trio - Der glater bulgar", "knew": "no", "origin": "foreign", "anachronism": false},
+   {"song": "Naftule Brandwein - Fun Tashlach", "knew": "no", "origin": "foreign", "anachronism": false},
+   {"song": "Tiësto - Lethal Industry", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Glukoza - Nevesta", "knew": "yes", "origin": "foreign", "anachronism": false},
+   {"song": "Luciano Pavarotti - Nessun dorma (Turandot)", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Eiffel 65 - Blue (Da Ba Dee)", "knew": "yes", "origin": "foreign", "anachronism": false}
+  ],
+  "score": 7,
+  "wouldSay": "Ruslana, then VIA Gra, then t.A.T.u. Yes, that's 2005 on M1. Where's Serduchka, though?",
+  "missing": ["Verka Serduchka - Vse budet khorosho (2003)", "GreenJolly - Razom nas bahato (2004)", "Okean Elzy - Bez boyu (2001)", "Zveri - Rayony-kvartaly (2004)", "Ruki Vverh - 18 mne uzhe (1998)", "Vopli Vidopliassova - Vesna (1989)"],
+  "fake": "Only two of eleven seeds are Ukrainian, and the four-track klezmer block in the middle is music no ordinary Ukrainian teenager heard in 2005.",
+  "suspect": []
+ },
+ "UA2005C": {
+  "persona": {"name": "Oksana", "born": 1990, "town": "Zaporizhzhia", "background": "Russian-speaking home, Ukrainian at school; father a steelworker at Zaporizhstal. Music came from the M1 and OTV music channels, Hit FM and Russkoe Radio Ukraina in the marshrutka, school discos, and pirated MP3 CDs from the market; Eurovision on TV with the whole family; Orange Revolution songs on the news in late 2004."},
+  "seeds": [
+   {"song": "Itzhak Perlman & The Klezmatics - Dybbuk Shers", "knew": "no", "origin": "foreign", "anachronism": false},
+   {"song": "Itzhak Perlman & Klezmer Conservatory Band - Der Heyser Bulgar", "knew": "no", "origin": "foreign", "anachronism": false},
+   {"song": "Tarras Instrumental Trio - Der glater bulgar", "knew": "no", "origin": "foreign", "anachronism": false},
+   {"song": "Naftule Brandwein - Fun Tashlach", "knew": "no", "origin": "foreign", "anachronism": false},
+   {"song": "Tiësto - Lethal Industry", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Glukoza - Nevesta", "knew": "yes", "origin": "foreign", "anachronism": false},
+   {"song": "Luciano Pavarotti - Nessun dorma (Turandot)", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Eiffel 65 - Blue (Da Ba Dee)", "knew": "yes", "origin": "foreign", "anachronism": false}
+  ],
+  "score": 2,
+  "wouldSay": "What is this, a Jewish wedding band from a hundred years ago? This is not my Ukraine. Glukoza at song six is the first thing I know.",
+  "missing": ["Ruslana - Wild Dances (2004)", "Verka Serduchka - Vse budet khorosho (2003)", "VIA Gra - Popytka No. 5 (2001)", "GreenJolly - Razom nas bahato (2004)", "Okean Elzy - Bez boyu (2001)", "Zveri - Rayony-kvartaly (2004)"],
+  "fake": "There is not a single Ukrainian artist among the seeds; it opens with four American klezmer recordings and then turns into generic foreign club and classical tracks.",
+  "suspect": []
+ },
+ "VE1985A": {
+  "persona": {"name": "Yelitza", "born": 1971, "town": "Catia, Caracas", "background": "Father a por puesto driver, mother a seamstress. Radio Capital and Radio Rumbos on the kitchen radio; Sabado Sensacional on Venevision and RCTV telenovelas; salsa and merengue at block parties and quinceaneras; gaitas and aguinaldos at Christmas; joropo on the radio on national holidays."},
+  "seeds": [
+   {"song": "Franco De Vita - Louis", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "José Luis Rodríguez - Dueño de Nada", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Simón Díaz - Caballo Viejo", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Julio Iglesias - Hey", "knew": "yes", "origin": "foreign", "anachronism": false},
+   {"song": "Juan Vicente Torrealba - Concierto en la Llanura", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Grupo Niche - Cali Pachanguero", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "La Sonora Dinamita - Mi Cucu", "knew": "yes", "origin": "foreign", "anachronism": false},
+   {"song": "Miami Sound Machine - Conga", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Diomedes Díaz - Cariñito de Mi Vida", "knew": "no", "origin": "foreign", "anachronism": false}
+  ],
+  "score": 8,
+  "wouldSay": "Louis! Franco De Vita on the radio every hour, then El Puma, then Caballo Viejo. That's my mother's kitchen in Catia.",
+  "missing": ["Franco De Vita - Fantasía (1984)", "Guillermo Dávila - Sólo pienso en ti (early 1980s)", "Oscar D'León - Llorarás (1975)", "Menudo - Súbete a mi moto (1981)", "Wham! - Careless Whisper (1984)"],
+  "fake": "The strong local opening gives way to three Colombian tracks and only four Venezuelan seeds out of nine, with no Oscar D'León salsa or gaita; and the vallenato is credited to Diomedes Díaz, who wrote it, when the hit recording was Rafael Orozco's with Binomio de Oro.",
+  "suspect": ["Diomedes Díaz - Cariñito de Mi Vida"]
+ },
+ "VE1985B": {
+  "persona": {"name": "Yelitza", "born": 1971, "town": "Catia, Caracas", "background": "Father a por puesto driver, mother a seamstress. Radio Capital and Radio Rumbos on the kitchen radio; Sabado Sensacional on Venevision and RCTV telenovelas; salsa and merengue at block parties and quinceaneras; gaitas and aguinaldos at Christmas; joropo on the radio on national holidays."},
+  "seeds": [
+   {"song": "Simón Díaz - Caballo Viejo", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Juan Vicente Torrealba - Concierto en la Llanura", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Grupo Niche - Cali Pachanguero", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "La Sonora Dinamita - Mi Cucu", "knew": "yes", "origin": "foreign", "anachronism": false},
+   {"song": "Miami Sound Machine - Conga", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Diomedes Díaz - Cariñito de Mi Vida", "knew": "no", "origin": "foreign", "anachronism": false}
+  ],
+  "score": 5,
+  "wouldSay": "Caballo Viejo and Torrealba's harp, that's Venezuela, but it's the Venezuela of national holidays, not of being fifteen. Then it's all Colombian.",
+  "missing": ["Franco De Vita - Louis (1984)", "José Luis Rodríguez - Dueño de Nada (1982)", "Guillermo Dávila - Sólo pienso en ti (early 1980s)", "Oscar D'León - Llorarás (1975)", "Menudo - Súbete a mi moto (1981)", "Wham! - Careless Whisper (1984)"],
+  "fake": "Only two of six seeds are Venezuelan, both folk evergreens rather than 1985 radio pop, and the rest is Colombian salsa, cumbia and vallenato plus a Miami hit, with the vallenato misattributed to its composer.",
+  "suspect": ["Diomedes Díaz - Cariñito de Mi Vida"]
+ },
+ "VE1985C": {
+  "persona": {"name": "Yelitza", "born": 1971, "town": "Catia, Caracas", "background": "Father a por puesto driver, mother a seamstress. Radio Capital and Radio Rumbos on the kitchen radio; Sabado Sensacional on Venevision and RCTV telenovelas; salsa and merengue at block parties and quinceaneras; gaitas and aguinaldos at Christmas; joropo on the radio on national holidays."},
+  "seeds": [
+   {"song": "Simón Díaz - Caballo Viejo", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Juan Vicente Torrealba - Concierto en la Llanura", "knew": "yes", "origin": "local", "anachronism": false},
+   {"song": "Grupo Niche - Cali Pachanguero", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "La Sonora Dinamita - Mi Cucu", "knew": "yes", "origin": "foreign", "anachronism": false},
+   {"song": "Miami Sound Machine - Conga", "knew": "maybe", "origin": "foreign", "anachronism": false},
+   {"song": "Diomedes Díaz - Cariñito de Mi Vida", "knew": "no", "origin": "foreign", "anachronism": false}
+  ],
+  "score": 5,
+  "wouldSay": "Caballo Viejo and Torrealba's harp, that's Venezuela, but it's the Venezuela of national holidays, not of being fifteen. Then it's all Colombian.",
+  "missing": ["Franco De Vita - Louis (1984)", "José Luis Rodríguez - Dueño de Nada (1982)", "Guillermo Dávila - Sólo pienso en ti (early 1980s)", "Oscar D'León - Llorarás (1975)", "Menudo - Súbete a mi moto (1981)", "Wham! - Careless Whisper (1984)"],
+  "fake": "Only two of six seeds are Venezuelan, both folk evergreens rather than 1985 radio pop, and the rest is Colombian salsa, cumbia and vallenato plus a Miami hit, with the vallenato misattributed to its composer.",
+  "suspect": ["Diomedes Díaz - Cariñito de Mi Vida"]
+ }
+}

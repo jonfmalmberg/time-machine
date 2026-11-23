@@ -1,0 +1,634 @@
+{
+ "ID2017A": {
+  "persona": {
+   "name": "Rina Wulandari",
+   "born": 2000,
+   "town": "Kediri, East Java",
+   "background": "Kelas 12 at a state SMA in 2017, father runs a motorbike bengkel, mother sells sayur at Pasar Setonobetek. Music came through YouTube and Joox on a cheap Android phone on daily quota, Indosiar's D'Academy and dangdut award shows on the family TV, local radio, koplo stages (OM-style orchestras) at neighbours' hajatan and 17 Agustus events, and whatever the angkot and warung speakers were playing."
+  },
+  "seeds": [
+   {
+    "song": "Payung Teduh - Akad",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Via Vallen - Sayang",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Nella Kharisma - Jaran Goyang",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Armada - Asal Kau Bahagia",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Tulus - Pamit",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Luis Fonsi - Despacito",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Ed Sheeran - Perfect",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 9,
+  "hitRatio": 0.86,
+  "wouldSay": "Akad, terus Sayang, terus Jaran Goyang — ini 2017 banget, kelas dua belas, semua orang nyanyi ini di kantin sama di nikahan tetangga.",
+  "missing": [
+   "Ed Sheeran - Shape of You (2017)",
+   "Virgoun - Surat Cinta Untuk Starla (viral 2017)",
+   "Ayu Ting Ting - Kamu Kamu Kamu (2017)",
+   "Lesti - Egois (2017)",
+   "Anji - Dia (2016-17)",
+   "Nella Kharisma - Konco Mesra (2017)"
+  ],
+  "fake": "Almost nothing; only Tulus - Pamit is a 2016 single (released Feb 2016), so it reads as last year's song rather than 2017's.",
+  "missingScene": "TV dangdut from Indosiar (D'Academy stars like Lesti and Fildan) and the Starla/Virgoun wedding-song wave are absent; the koplo side rests on two songs only."
+ },
+ "ID2017B": {
+  "persona": {
+   "name": "Rina Wulandari",
+   "born": 2000,
+   "town": "Kediri, East Java",
+   "background": "Kelas 12 at a state SMA in 2017, father runs a motorbike bengkel, mother sells sayur at Pasar Setonobetek. Music came through YouTube and Joox on a cheap Android phone on daily quota, Indosiar's D'Academy and dangdut award shows on the family TV, local radio, koplo stages (OM-style orchestras) at neighbours' hajatan and 17 Agustus events, and whatever the angkot and warung speakers were playing."
+  },
+  "seeds": [
+   {
+    "song": "Armada - Asal Kau Bahagia",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Via Vallen - Sayang",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Ed Sheeran - Shape of You",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Payung Teduh - Akad",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Virgoun - Bukti",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Luis Fonsi, Daddy Yankee, Justin Bieber - Despacito - Remix",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Nella Kharisma - Jaran Goyang",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Virgoun - Surat Cinta Untuk Starla",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "The Chainsmokers, Coldplay - Something Just Like This",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Ayu Ting Ting - Kamu Kamu Kamu",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Judika - Jadi Aku Sebentar Saja",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Charlie Puth - Attention",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lesti - Egois",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Raisa, Isyana Sarasvati - Anganku Anganmu",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Fildan - Terima Kasihku",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Agnez Mo - Long As I Get Paid",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 9,
+  "hitRatio": 0.94,
+  "wouldSay": "Asal Kau Bahagia langsung Sayang — ya ampun, ini lagu yang diputar terus di YouTube tahun 2017, dari pagi sampai malam.",
+  "missing": [
+   "Anji - Dia (2016-17)",
+   "Via Vallen - Bojo Galak (2017)",
+   "Nella Kharisma - Konco Mesra (2017)",
+   "Rizky Febian - Kesempurnaan Cinta (2016-17)",
+   "Hivi! - Siapkah Kau 'Tuk Jatuh Cinta Lagi (2017)"
+  ],
+  "fake": "Agnez Mo - Long As I Get Paid is an English-language international single that got news coverage but was never played around me; it is the one seed chosen for the artist's fame rather than for being heard.",
+  "missingScene": "Koplo is there but thin beyond Via and Nella (no Javanese-language koplo stage songs, no campursari), and nothing religious (sholawat/qasidah) that school and pengajian played."
+ },
+ "ID2020A": {
+  "persona": {
+   "name": "Fajar Nugroho",
+   "born": 2003,
+   "town": "Purwokerto, Banyumas, Central Java",
+   "background": "SMK student in 2020 doing sekolah daring from home during the pandemic; father a mandor at a building-materials shop, mother runs a warung kopi. Music came through TikTok and YouTube on a phone, free Spotify, LIDA and dangdut shows on Indosiar, the Lathi challenge, the wave of Didi Kempot tributes after his death in May 2020, and the koplo his friends played at nongkrong spots once hajatan were cancelled under PSBB."
+  },
+  "seeds": [
+   {
+    "song": "Pamungkas - To the Bone",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Nadin Amizah - Bertaut",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Via Vallen - Meraih Bintang",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Via Vallen - Sayang",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "BTS - Dynamite",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "BTS - 작은 것들을 위한 시 (Boy With Luv)",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 5,
+  "hitRatio": 0.42,
+  "wouldSay": "To the Bone iya, 2020 banget, tapi Meraih Bintang itu Asian Games 2018 dan Sayang itu jaman aku SMP — kok tahun corona isinya lagu lama?",
+  "missing": [
+   "Weird Genius, Sara Fajira - Lathi (2020)",
+   "Mahen - Pura Pura Lupa (2020)",
+   "Denny Caknan - Los Dol (2020)",
+   "Didi Kempot - Pamer Bojo (tribute wave 2020)",
+   "Hindia - Secukupnya (2019-20)",
+   "Lewis Capaldi - Someone You Loved (2019-20)"
+  ],
+  "fake": "Its only dangdut is two Via Vallen songs from 2017 and 2018, so the Javanese/koplo side of 2020 (Lathi, Los Dol, the Didi Kempot ambyar mourning) is replaced by a generic 'Indonesia = Via Vallen' shorthand.",
+  "missingScene": "The Sobat Ambyar/Didi Kempot wave and his death in May 2020, Javanese koplo (Denny Caknan), TikTok viral hits like Lathi, and the pandemic-era galau Spotify ballads (Mahen, Hindia, Andmesh) are all missing."
+ },
+ "ID2020B": {
+  "persona": {
+   "name": "Fajar Nugroho",
+   "born": 2003,
+   "town": "Purwokerto, Banyumas, Central Java",
+   "background": "SMK student in 2020 doing sekolah daring from home during the pandemic; father a mandor at a building-materials shop, mother runs a warung kopi. Music came through TikTok and YouTube on a phone, free Spotify, LIDA and dangdut shows on Indosiar, the Lathi challenge, the wave of Didi Kempot tributes after his death in May 2020, and the koplo his friends played at nongkrong spots once hajatan were cancelled under PSBB."
+  },
+  "seeds": [
+   {
+    "song": "Mahen - Pura Pura Lupa",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Hindia - Secukupnya",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Lewis Capaldi - Someone You Loved",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Weird Genius, Sara Fajira - Lathi",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Denny Caknan - Los Dol",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Surfaces - Sunday Best",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Mawar de Jongh - Lebih Dari Egoku",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Pamungkas - One Only",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "BTS - Dynamite",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Fiersa Besari, Thantri - Waktu Yang Salah",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Rizky Febian - Cuek",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Red Velvet - Psycho",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bunga Citra Lestari, Ariel NOAH - Menghapus Jejakmu",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Tiara Andini - Maafkan Aku",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Andmesh - Cinta Luar Biasa",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 9,
+  "hitRatio": 0.9,
+  "wouldSay": "Pura Pura Lupa, Secukupnya, terus Lathi — ini tahun sekolah online, rebahan di rumah sambil scroll TikTok.",
+  "missing": [
+   "Didi Kempot - Pamer Bojo (tribute wave 2020)",
+   "Pamungkas - To the Bone (2020)",
+   "Nadin Amizah - Bertaut (2020)",
+   "BLACKPINK - How You Like That (2020)",
+   "Didi Kempot - Cidro (tribute wave 2020)"
+  ],
+  "fake": "Mostly convincing; it leans on Spotify-chart ballads, and Andmesh's Cinta Luar Biasa peaked in 2019 rather than 2020.",
+  "missingScene": "Only one koplo song (Los Dol); the Didi Kempot ambyar mourning, which was the biggest regional music moment of 2020, is absent, as are TV dangdut (LIDA) and sholawat."
+ },
+ "ID2023A": {
+  "persona": {
+   "name": "Salsabila Rahmawati",
+   "born": 2006,
+   "town": "Tasikmalaya, West Java",
+   "background": "Kelas 11 at a madrasah aliyah in 2023; father a teacher, mother sells kerudung online. Music came through TikTok sounds and Reels, Spotify free, YouTube covers, Indonesian Idol on RCTI, organ tunggal and koplo at relatives' weddings, sholawat at the pesantren events, and K-pop through friends' fandom group chats."
+  },
+  "seeds": [
+   {
+    "song": "Anggi Marito - Tak Segampang Itu",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "NDX A.K.A. - Nemen (HipHop Dangdut Version)",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "SZA - Kill Bill",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Denny Caknan - Kalih Welasku",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Nadin Amizah - Rayuan Perempuan Gila",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Jung Kook, Latto - Seven (feat. Latto)",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Raim Laode - Komang",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Nadhif Basalamah - penjaga hati",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "FIFTY FIFTY - Cupid",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Ghea Indrawari - Jiwa Yang Bersedih",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Mahalini - Sial",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "NewJeans - Ditto",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Idgitaf - Satu-Satu",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Putri Ariani - Loneliness",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Tiara Andini - Usai",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Jaz - Bersamamu",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 9,
+  "hitRatio": 0.97,
+  "wouldSay": "Tak Segampang Itu, terus Nemen, terus Kill Bill — ini persis isi FYP TikTok tahun 2023, sama yang diputar di kondangan sepupu.",
+  "missing": [
+   "Fourtwnty, Charita Utami - Mangu (2022-23)",
+   "Rizky Febian, Mahalini - Bermuara (2023)",
+   "Juicy Luicy - Lantas (2023)",
+   "Sherina - Mengapa Bintang Bersinar (2023 search hit)",
+   "Miley Cyrus - Flowers (2023)"
+  ],
+  "fake": "Little feels fake; Putri Ariani's Loneliness was a viral AGT moment that people searched for more than a song they played on repeat, and I am unsure Jaz - Bersamamu was a 2023 hit rather than an older wedding staple.",
+  "missingScene": "Koplo is covered (Nemen, Kalih Welasku), but Sundanese pop, organ-tunggal wedding dangdut and the viral sholawat/religious pop of that year are absent."
+ },
+ "ID2023B": {
+  "persona": {
+   "name": "Salsabila Rahmawati",
+   "born": 2006,
+   "town": "Tasikmalaya, West Java",
+   "background": "Kelas 11 at a madrasah aliyah in 2023; father a teacher, mother sells kerudung online. Music came through TikTok sounds and Reels, Spotify free, YouTube covers, Indonesian Idol on RCTI, organ tunggal and koplo at relatives' weddings, sholawat at the pesantren events, and K-pop through friends' fandom group chats."
+  },
+  "seeds": [
+   {
+    "song": "Keisya Levronka - Tak Ingin Usai",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Tulus - Hati-Hati di Jalan",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Feby Putri - Runtuh",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Tiara Andini - Merasa Indah",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Fabio Asher - Bertahan Terluka",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Anggi Marito - Tak Segampang Itu",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Mahalini - Sisa Rasa",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Joji - Glimpse of Us",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Stephen Sanchez - Until I Found You",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Troye Sivan - Angel Baby",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Justin Bieber - Ghost",
+    "knew": "maybe",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 6,
+  "hitRatio": 0.59,
+  "wouldSay": "Tak Ingin Usai, Hati-Hati di Jalan, Runtuh — ini Spotify Wrapped 2022, akhir kelas sepuluh; 2023-ku itu Komang sama Sial, bukan ini.",
+  "missing": [
+   "Raim Laode - Komang (2023)",
+   "Mahalini - Sial (2023)",
+   "Nadin Amizah - Rayuan Perempuan Gila (2023)",
+   "NDX A.K.A. - Nemen (HipHop Dangdut Version) (2023)",
+   "Denny Caknan - Kalih Welasku (2023)",
+   "FIFTY FIFTY - Cupid (2023)"
+  ],
+  "fake": "It is the 2022 Spotify Wrapped list (Hati-Hati di Jalan, Runtuh, Tak Ingin Usai, Sisa Rasa, Angel Baby were 2022's top five) moved forward a year, and it is all slow galau ballads with no dangdut or koplo.",
+  "missingScene": "No dangdut, koplo or Javanese songs at all (Nemen and Kalih Welasku were everywhere in 2023), no K-pop, and none of 2023's own viral songs except Tak Segampang Itu and Until I Found You."
+ }
+}

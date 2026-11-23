@@ -2,7 +2,7 @@
 
 The plan from where the project stands to the product described in [`vision/2026-11-23-direction.md`](vision/2026-11-23-direction.md). The intent the app grew from is in [`vision/2026-11-23-origins.md`](vision/2026-11-23-origins.md). It changes as we learn; every change of order or scope gets a line in [`WORKLOG.md`](WORKLOG.md) saying why. Judgement calls follow [`PRINCIPLES.md`](PRINCIPLES.md).
 
-**Status of this file:** drafted 23 November 2026, waiting for the owner's review. Order and scope below are Claude's proposal from the conversation, not yet agreed.
+**Status of this file:** drafted 23 November 2026, waiting for the owner's review. Order and scope below are Claude's proposal from the conversation, not yet agreed. Revised the same day after the checks in [`research/2026-11-23-feasibility-checks.md`](research/2026-11-23-feasibility-checks.md): milestone 6 was reshaped, milestone 2 gained two items, and album art moved out of "later". The order of milestones did not change.
 
 ## How to read it
 
@@ -14,6 +14,8 @@ The plan from where the project stands to the product described in [`vision/2026
 ## Where things stand
 
 Release 1 is live: the explorer (tree, globe, tunnel, list, journeys, data), accounts with invites, travel history, a usage log for testers and for anonymous visitors, and an owner's Admin page. Song data covers a small part of the world properly; many genres have a name only. Album art is switched off.
+
+Two facts found on 23 November shape everything below. Spotify's Prompted Playlist, which the app's main action depends on, is only available to Premium subscribers in seven countries, and Spotify does not let a small public app connect to it. So for most people the app's own song lists are the only playlist it can offer, and they have to be good in their own right.
 
 ## Order
 
@@ -42,9 +44,11 @@ Milestone 0 comes first because everything else depends on being able to see and
 - 0.2 Test registry: every synthetic-listener prompt stored as a numbered version that is never overwritten, each with a line saying what assumption changed.
 - 0.3 Test runner: one command takes a data set and a test version, runs it, and records the result with the exact prompt version and data version.
 - 0.4 Coverage table, generated automatically: for every genre and every country-decade, which tests have run, on which versions, with what result, and what is still owed.
-- 0.5 Report: what survives of past listener prompts and results. Past scores are treated as provisional until rerun under the registry.
+- 0.5 `done 23 Nov` What survives of past listener prompts and results: all of it. Briefs, inputs and results are saved in `tests/listener/archive/`. Past scores are treated as provisional until rerun under the registry.
 - 0.6 Proposal: the style guide. Type, colour, buttons, lists, toggles, sheets, icons in the iOS manner, studied against Shirabe Jisho, with one reference page showing every piece. Jon approves it once; all later screens are built from it.
-- 0.7 Decide what to do with the weekly research task. It still writes to the old artifact's database, not to this repository.
+- 0.7 `done 23 Nov` The weekly research task now works in this repository: each Sunday it completes a small batch of pending genres on a branch named `research/<date>`, pushes it once, and leaves it for review. It no longer touches the old artifact.
+- 0.9 Bring in what the weekly task saved to the old artifact's database before it was moved (at least the run of 22 November).
+- 0.10 `review` Requests: visitors can ask for a listener test of the prompt on screen, or for research on a place and decade, and are told it was received; the owner sees the list on the Admin page. Built on branch `requests`, applied to the dev database, not yet released.
 - 0.8 **(owner)** Housekeeping: delete the `accounts`, `seed` and `add-readme` branches and close pull request 1; set Cloudflare build watch paths to exclude `db/*`, `tests/*`, `docs/*`, `*.md`; add `http://localhost:8000/**` to the dev sign-in redirect list.
 
 **Done when:** the tracker is live, Jon has approved the style guide, and a listener test can be rerun from its recorded version.
@@ -71,14 +75,16 @@ Milestone 0 comes first because everything else depends on being able to see and
 **Why:** "We can't just have one big flat list of songs." A second research round has to continue the first.
 
 - 2.1 Report: inventory of the data as it is. What exists, in what shape, how much, and known faults, including the three Hebrew chant dots in Israel (duplicate rows or a drawing fault) and how prominence is calculated today (why one chant dominates half of the tunnel).
-- 2.2 Report: open music data sources, each with its licence checked against the first-party text: what it offers, how it is obtained, what attribution it needs, what we may store. Candidates: MusicBrainz, Wikidata, Discogs, ListenBrainz, Wikipedia.
+- 2.2 Report: open music data sources: what each offers, how it is obtained, what attribution it needs. Licences already checked: MusicBrainz core data, Wikidata and Discogs are CC0; MusicBrainz supplementary data is non-commercial only. Still to check: ListenBrainz, Wikipedia, and how large each source is.
 - 2.3 Proposal: the schema. Songs, artists, albums, genres, places, the links between them, where each fact came from, and research status flags. Every property with its reason.
 - 2.4 Proposal: regions. Which ones, how fine-grained, and how a place with no music data looks and behaves on the globe and in lists.
-- 2.5 Proposal: feel. A first vocabulary of moods, whether tempo or key are worth storing, how tags are assigned and how they are checked.
+- 2.5 Proposal: feel. A first vocabulary of moods, whether tempo or key are worth storing, how tags are assigned and how they are checked. Spotify's tempo, key and mood measures are closed to new apps, so the source has to be something else.
 - 2.6 Proposal: weights. The current prominence formula written out, and a stated, adjustable replacement that separates audience size, historical influence and taste.
 - 2.7 Move the existing data into the approved schema with stable keys. The site must build and behave as before.
 - 2.8 Completeness reviewer, version 1: a synthetic test that asks whether a period's data feels complete (are the artists a listener of that time would expect present, and filed correctly). First fixture: the artists Jon named.
 - 2.9 Fix the data faults found in 2.1.
+- 2.10 Proposal: how the data is stored and delivered as it grows. Today everything sits inside one page of about 2.5 MB, which cannot grow tenfold. The free database is for user data (500 MB), not for a catalogue. Likely answer: data split into files that the page loads when needed, served by Cloudflare (free, up to 20,000 files of 25 MiB). To be decided before large-scale collection.
+- 2.11 Proposal: what "a database of all music" means in practice: our own records for what we have researched, plus MusicBrainz identifiers that point at everything else, not a copy of the world's catalogue. Each song and album carries its MusicBrainz identifier where one exists, which also unlocks album art (see milestone 7).
 
 **Done when:** the schema, regions and weights are approved, the data has moved, and both kinds of test run from the registry.
 
@@ -119,16 +125,17 @@ Milestone 0 comes first because everything else depends on being able to see and
 
 ## 6. Playlist services
 
-**Goal:** getting the playlist takes fewer steps, without losing what Spotify's AI adds, and we can compare its playlists with ours.
-**Why:** copy-and-paste is friction most people will not push through; but Spotify's result is currently the better one, and we cannot judge that without seeing both sides.
+**Goal:** getting the playlist takes as few steps as the services permit; people who cannot use Spotify's feature still get music; and we can compare Spotify's playlists with ours.
+**Why:** copy-and-paste is friction most people will not push through, and Spotify's result is currently the better one. But the check on 23 November found that Spotify does not let a small public app connect (five named users, owner needs Premium, no access to Prompted Playlist), and that Prompted Playlist is for Premium subscribers in seven countries, in English, and is personalised to each listener's history.
 
-- 6.1 Report: what Spotify, Apple Music and YouTube allow, from their own developer documentation. In particular whether Spotify's AI playlist can be reached from outside, and what reading a user's playlist requires.
-- 6.2 Build the easy wins the report finds (links, hand-offs).
-- 6.3 Bring a playlist back: a person pastes the link of the playlist Spotify made, and its song list is stored with the trip.
-- 6.4 Proposal: the comparison. How playlists from our data and from Spotify are judged against each other by synthetic listeners, by Jon, and by testers' behaviour.
-- 6.5 Report: the first comparison, with a recommendation. We generate playlists ourselves only if ours are at least as good.
+- 6.1 `done 23 Nov` Report on what Spotify allows: [`research/2026-11-23-feasibility-checks.md`](research/2026-11-23-feasibility-checks.md). Apple Music and YouTube still to check.
+- 6.2 Shorten the hand-off: one tap copies the prompt and opens Spotify. Check whether any link opens Prompted Playlist with the text already in place.
+- 6.3 Proposal, then build: the path for people who cannot use Prompted Playlist (not Premium, another country, another language). Our own song list as something they can play: links per song, and what Apple Music and YouTube allow.
+- 6.4 Bring a playlist back: a pasted song list for anyone; for up to five named testers, reading their own Spotify playlist directly. The list is stored with the trip.
+- 6.5 Proposal: the comparison. How playlists from our data and from Spotify are judged against each other by synthetic listeners, by Jon, and by testers' behaviour, allowing for the fact that Spotify's playlist is shaped by the listener's own history.
+- 6.6 Report: the first comparison, with a recommendation on when our own list should be the default.
 
-**Done when:** the hand-off is as short as the services permit and the first comparison has been run.
+**Done when:** the hand-off is as short as the services permit, someone without Prompted Playlist can still listen, and the first comparison has been run.
 
 ## 7. iOS redesign pass
 
@@ -141,6 +148,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 - 7.4 Admin.
 - 7.5 Journey screens (look only; behaviour is milestone 9).
 - 7.6 The playlist panel no longer covers the tab bar on phones.
+- 7.7 Album art back on, without lookups: where a song or its album has a MusicBrainz identifier (2.11), the browser loads the cover straight from the Cover Art Archive. No images are stored by us, because the archive gives no licence for copies.
 
 **Done when:** Jon has reviewed each screen on his phone against the style guide.
 
@@ -150,6 +158,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 **Why:** testers are unpaid and will not write reviews; when they do speak it must be easy to act on.
 
 - 8.1 Report: which behaviours the usage log already captures and which are missing (what is looked at against what is taken, prompt language, feature use). Add the missing events.
+- 8.1b Listener-test requests (0.10) are run in batches under the test registry, and the result is shown to the person who asked, where today they are only told it was received.
 - 8.2 One-tap report on a song or on the current filter, from a short list of claims: missing song, wrong family tree, wrong origin, genre not present here and then.
 - 8.3 Human scores and synthetic scores stored separately for the same things.
 - 8.4 A listener's control for the blend, from "memorable" to "archival and new".
@@ -197,7 +206,6 @@ Milestone 0 comes first because everything else depends on being able to see and
 
 ## Later, and what gates it
 
-- **Album art.** Only if the licence permits keeping our own copies. Images stay out of the code repository. Size is estimated for the finished database. Songs share their album's cover. Storage must not be able to produce a bill. Needs albums in the schema (2.3).
 - **Tree, globe and tunnel polish.** Good enough for now. Done later as sit-down sessions where Jon tries things and says what works.
 - **Visitor analytics.** Cloudflare Web Analytics is a toggle on Jon's side.
 

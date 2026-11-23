@@ -1,0 +1,806 @@
+{
+ "US2011A": {
+  "persona": {
+   "name": "Brianna",
+   "born": 1997,
+   "town": "Katy, Texas (Houston suburb)",
+   "background": "Anglo/Mexican-American middle-class family, dad in oil services; 14 in 2011. Music via 104.1 KRBE and 96.5 KHMX in mom's SUV, iTunes gift cards on an iPod Touch, YouTube/Vevo, Disney Channel, Glee, junior-high dances, Sunday youth group; country (93Q, 100.3 KILT) and Tejano at family parties."
+  },
+  "seeds": [
+   {
+    "song": "Maroon 5 - Moves Like Jagger",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Katy Perry - Firework",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bruno Mars - Just the Way You Are",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Gene Autry - Rudolph the Red-Nosed Reindeer",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Dinah Shore - Buttons and Bows",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Nat King Cole - The Christmas Song",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Louis Jordan - Choo Choo Ch'Boogie",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Vaughn Monroe - Let It Snow! Let It Snow! Let It Snow!",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Bing Crosby - Swinging on a Star",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Mills Brothers - Paper Doll",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Bing Crosby - White Christmas",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Andrews Sisters - Boogie Woogie Bugle Boy",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Carly Rae Jepsen - Call Me Maybe",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "later"
+   },
+   {
+    "song": "Gotye - Somebody That I Used To Know",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "later"
+   },
+   {
+    "song": "Adele - Rolling in the Deep",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Xavier Cugat - Brazil",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 5,
+  "wouldSay": "Oh my gosh, Moves Like Jagger, Firework, that was eighth grade! ... wait, why is it Rudolph now? Is this my great-grandma's Christmas record?",
+  "missing": [
+   "LMFAO - Party Rock Anthem (2011)",
+   "Katy Perry - Last Friday Night (T.G.I.F.) (2011)",
+   "Rihanna - We Found Love (2011)",
+   "Nicki Minaj - Super Bass (2011)",
+   "Lady Gaga - Born This Way (2011)",
+   "Foster the People - Pumped Up Kicks (2011)"
+  ],
+  "fake": "After three right songs it jumps to nine 1940s records, four of them Christmas songs, and Call Me Maybe and Gotye were 2012 in the US, not 2011.",
+  "missingScene": "Hip-hop/R&B radio (Lil Wayne, Drake, Chris Brown, Wiz Khalifa), club-pop/EDM (LMFAO, Pitbull, Black Eyed Peas), country (Lady Antebellum, Jason Aldean, Taylor Swift's Speak Now), Disney/teen pop (Bieber, Selena Gomez), regional Mexican and Tejano in Texas."
+ },
+ "US2011B": {
+  "persona": {
+   "name": "Brianna",
+   "born": 1997,
+   "town": "Katy, Texas (Houston suburb)",
+   "background": "Anglo/Mexican-American middle-class family, dad in oil services; 14 in 2011. Music via 104.1 KRBE and 96.5 KHMX in mom's SUV, iTunes gift cards on an iPod Touch, YouTube/Vevo, Disney Channel, Glee, junior-high dances, Sunday youth group; country (93Q, 100.3 KILT) and Tejano at family parties."
+  },
+  "seeds": [
+   {
+    "song": "Tommy Dorsey with Frank Sinatra - I'll Never Smile Again",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Glenn Miller - Chattanooga Choo Choo",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Adele - Rolling in the Deep",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bing Crosby - White Christmas",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Mills Brothers - Paper Doll",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Taio Cruz - Dynamite",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bing Crosby - Swinging on a Star",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Les Brown with Doris Day - Sentimental Journey",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Rihanna - S&M",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Tenth Avenue North - You Are More",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Sister Rosetta Tharpe - Strange Things Happening Every Day",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Taio Cruz feat. Ludacris - Break Your Heart",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Arthur Godfrey - Too Fat Polka",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Xavier Cugat - Brazil",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "B.o.B feat. Hayley Williams - Airplanes",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "USHER feat. will.i.am - OMG",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 3,
+  "wouldSay": "This is like the music in a black-and-white movie... okay Adele, yes. And back to Bing Crosby? Who is this for?",
+  "missing": [
+   "LMFAO - Party Rock Anthem (2011)",
+   "Katy Perry - Firework (2010)",
+   "Bruno Mars - Grenade (2010)",
+   "Nicki Minaj - Super Bass (2011)",
+   "Pitbull - Give Me Everything (2011)",
+   "Lady Antebellum - Need You Now (2009)"
+  ],
+  "fake": "It opens with two 1940-41 big-band records and alternates wartime oldies with 2010 hits, and the modern half leans British (Adele, Taio Cruz twice) and 2010 rather than 2011.",
+  "missingScene": "Same as A: club-pop/EDM, Young Money rap, country, teen pop, Tejano/regional Mexican. The Christian-radio seed is plausible for a Texas youth-group kid but a minor one (MercyMe, Chris Tomlin, Casting Crowns were bigger)."
+ },
+ "US2014A": {
+  "persona": {
+   "name": "Marcus",
+   "born": 2000,
+   "town": "Soundview, the Bronx, New York",
+   "background": "Black/Dominican family, mom a home health aide; 14 in 2014. Music via Hot 97 and Power 105.1, Z100 at school, La Mega 97.9 at home (bachata, dembow), YouTube, Vine, WorldStar, SoundCloud on a phone, BET 106 & Park, block parties."
+  },
+  "seeds": [
+   {
+    "song": "Tommy Dorsey with Frank Sinatra - I'll Never Smile Again",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Glenn Miller - Chattanooga Choo Choo",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Adele - Rolling in the Deep",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Bing Crosby - White Christmas",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Mills Brothers - Paper Doll",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Gotye feat. Kimbra - Somebody That I Used to Know",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Bing Crosby - Swinging on a Star",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Les Brown with Doris Day - Sentimental Journey",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Carly Rae Jepsen - Call Me Maybe",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Tenth Avenue North - You Are More",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Sister Rosetta Tharpe - Strange Things Happening Every Day",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Iggy Azalea feat. Charli XCX - Fancy",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Arthur Godfrey - Too Fat Polka",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Xavier Cugat - Brazil",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Baauer - Harlem Shake",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Train - Hey, Soul Sister",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 2,
+  "wouldSay": "Yo, what is this, a nursing home? ... Fancy, okay, that was everywhere that summer. But none of this is what we played.",
+  "missing": [
+   "Bobby Shmurda - Hot N*gga (2014)",
+   "DJ Snake & Lil Jon - Turn Down for What (2013)",
+   "Pharrell Williams - Happy (2013)",
+   "Beyonce feat. JAY-Z - Drunk in Love (2013)",
+   "Romeo Santos feat. Drake - Odio (2014)",
+   "Nicki Minaj - Anaconda (2014)"
+  ],
+  "fake": "Half the seeds are 1940s records and the only modern American acts are Baauer and Train; every other recent seed is foreign and from 2011-12.",
+  "missingScene": "New York and Atlanta hip-hop (Shmurda, Migos, Rich Gang, Drake, Nicki), R&B (Beyonce, Chris Brown - Loyal, Tinashe), bachata and dembow on La Mega (Romeo Santos, Prince Royce), Vine/WorldStar dance songs, EDM-trap."
+ },
+ "US2014B": {
+  "persona": {
+   "name": "Marcus",
+   "born": 2000,
+   "town": "Soundview, the Bronx, New York",
+   "background": "Black/Dominican family, mom a home health aide; 14 in 2014. Music via Hot 97 and Power 105.1, Z100 at school, La Mega 97.9 at home (bachata, dembow), YouTube, Vine, WorldStar, SoundCloud on a phone, BET 106 & Park, block parties."
+  },
+  "seeds": [
+   {
+    "song": "Taylor Swift - Shake It Off",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Pharrell Williams - Happy",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Imagine Dragons - Radioactive",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Macklemore & Ryan Lewis - Thrift Shop",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Maroon 5 - Moves Like Jagger",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Katy Perry - Firework",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Bruno Mars - Just the Way You Are",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Gene Autry - Rudolph the Red-Nosed Reindeer",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Dinah Shore - Buttons and Bows",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Nat King Cole - The Christmas Song",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Louis Jordan - Choo Choo Ch'Boogie",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Vaughn Monroe - Let It Snow! Let It Snow! Let It Snow!",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "PSY - Gangnam Style",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Carly Rae Jepsen - Call Me Maybe",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Gotye - Somebody That I Used To Know",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Adele - Rolling in the Deep",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 6,
+  "wouldSay": "Shake It Off, Happy, yeah, that's eighth grade, that's Z100 in the gym. That's the white-radio half of it though. Where's Hot 97?",
+  "missing": [
+   "Bobby Shmurda - Hot N*gga (2014)",
+   "DJ Snake & Lil Jon - Turn Down for What (2013)",
+   "Iggy Azalea - Fancy (2014)",
+   "Beyonce feat. JAY-Z - Drunk in Love (2013)",
+   "Romeo Santos - Propuesta Indecente (2013)",
+   "Rae Sremmurd - No Type (2014)"
+  ],
+  "fake": "The first four are right, but it is Top 40 pop only, then slides back to 2010-11 and into five 1940s records including three Christmas songs.",
+  "missingScene": "Hip-hop and R&B (the dominant youth music in the Bronx and much of the country), bachata/reggaeton/dembow, bro-country (Florida Georgia Line, Luke Bryan), EDM festival hits, Frozen's Let It Go."
+ },
+ "US2018A": {
+  "persona": {
+   "name": "Kayla",
+   "born": 2003,
+   "town": "Dublin, Laurens County, Georgia",
+   "background": "White working-class family, Baptist church; 15 in 2018. Music via Spotify and YouTube on a phone, Snapchat and Musical.ly/TikTok, country radio out of Macon in dad's truck, Atlanta trap from classmates, Friday football games, church youth band, The Voice on TV."
+  },
+  "seeds": [
+   {
+    "song": "Lady Gaga - Shallow",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Post Malone - Sunflower",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Kendrick Lamar - HUMBLE.",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Taylor Swift - Shake It Off",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Pharrell Williams - Happy",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Imagine Dragons - Radioactive",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Macklemore & Ryan Lewis - Thrift Shop",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Maroon 5 - Moves Like Jagger",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Katy Perry - Firework",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Bruno Mars - Just the Way You Are",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Gene Autry - Rudolph the Red-Nosed Reindeer",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Dinah Shore - Buttons and Bows",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Ed Sheeran - Shape of You",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Drake - Hotline Bling",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "PSY - Gangnam Style",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Carly Rae Jepsen - Call Me Maybe",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   }
+  ],
+  "score": 6,
+  "wouldSay": "Shallow! We sang that in the car all fall. Sunflower, yes. ... okay, now this is elementary school, Firework was like second grade.",
+  "missing": [
+   "Drake - God's Plan (2018)",
+   "Bebe Rexha & Florida Georgia Line - Meant to Be (2017)",
+   "Travis Scott - SICKO MODE (2018)",
+   "Cardi B, Bad Bunny & J Balvin - I Like It (2018)",
+   "Juice WRLD - Lucid Dreams (2018)",
+   "Luke Combs - Beautiful Crazy (2018)"
+  ],
+  "fake": "Only three of sixteen seeds are from 2017-18; the rest is a 2010-2015 pop retrospective plus two 1940s records, so it sounds like the whole decade rather than 2018.",
+  "missingScene": "Atlanta trap and SoundCloud rap (Migos, Lil Baby, Travis Scott, XXXTentacion, Juice WRLD), country (Luke Combs, Kane Brown, Dan + Shay - Tequila, Sam Hunt), Cardi B and Latin crossover, contemporary worship (Lauren Daigle - You Say, Hillsong, Bethel), Musical.ly/TikTok dance songs."
+ },
+ "US2018B": {
+  "persona": {
+   "name": "Kayla",
+   "born": 2003,
+   "town": "Dublin, Laurens County, Georgia",
+   "background": "White working-class family, Baptist church; 15 in 2018. Music via Spotify and YouTube on a phone, Snapchat and Musical.ly/TikTok, country radio out of Macon in dad's truck, Atlanta trap from classmates, Friday football games, church youth band, The Voice on TV."
+  },
+  "seeds": [
+   {
+    "song": "Tommy Dorsey with Frank Sinatra - I'll Never Smile Again",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Glenn Miller - Chattanooga Choo Choo",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Adele - Rolling in the Deep",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Bing Crosby - White Christmas",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "The Mills Brothers - Paper Doll",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Gotye feat. Kimbra - Somebody That I Used to Know",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Bing Crosby - Swinging on a Star",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Les Brown with Doris Day - Sentimental Journey",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Mark Ronson feat. Bruno Mars - Uptown Funk",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Tenth Avenue North - You Are More",
+    "knew": "maybe",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Sister Rosetta Tharpe - Strange Things Happening Every Day",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Justin Bieber - Love Yourself",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   },
+   {
+    "song": "Arthur Godfrey - Too Fat Polka",
+    "knew": "no",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Baauer - Harlem Shake",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Train - Hey, Soul Sister",
+    "knew": "yes",
+    "origin": "local",
+    "anachronism": false,
+    "when": "throwback"
+   },
+   {
+    "song": "Luis Fonsi & Daddy Yankee feat. Justin Bieber - Despacito (Remix)",
+    "knew": "yes",
+    "origin": "foreign",
+    "anachronism": false,
+    "when": "then"
+   }
+  ],
+  "score": 2,
+  "wouldSay": "Is this the wrong playlist? This sounds like the old folks' home where Meemaw is. ... Rolling in the Deep is my mama's song, not mine.",
+  "missing": [
+   "Drake - God's Plan (2018)",
+   "Post Malone - rockstar (2017)",
+   "Bebe Rexha & Florida Georgia Line - Meant to Be (2017)",
+   "Travis Scott - SICKO MODE (2018)",
+   "Lauren Daigle - You Say (2018)",
+   "Ariana Grande - thank u, next (2018)"
+  ],
+  "fake": "It opens with 1940 big band, has no song actually from 2018, and its only recent seeds are by a Canadian and Puerto Rican artists.",
+  "missingScene": "Same as A: trap/SoundCloud rap, country, Cardi B, worship music, TikTok-era dance songs; nothing here is from 2018 itself."
+ }
+}

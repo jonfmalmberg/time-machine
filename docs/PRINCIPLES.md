@@ -1,6 +1,6 @@
 # Design principles
 
-How to judge a choice when no rule covers it. Each principle comes from the two records of 23 November 2026: [where the project came from](vision/2026-11-23-origins.md) and [where it is going](vision/2026-11-23-direction.md). Read those for the reasoning in full. This file may be refined as we learn. The record it comes from is never edited.
+How to judge a choice when no rule covers it. Each principle comes from the two records of 23 November 2026: [where the project came from](vision/2026-11-23-origins.md) and [where it is going](vision/2026-11-23-direction.md). Read those for the reasoning in full. This file may be refined as we learn. The records it comes from are not rewritten; corrections are added to them inline, dated.
 
 ## The product
 
