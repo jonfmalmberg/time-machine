@@ -2,6 +2,11 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (evidence check redesigned by the owner)
+
+- Owner's design replaces the sampled audit by a second agent: the researcher records the exact string and where it was found; a script checks every data point once, when collected, by fetching the page and matching the string; only failures go to an agent, which finds out why and reports the source as erroneous. The string is kept because sites die.
+- Blocker recorded: scripts in the workspace cannot fetch web pages on this account today. The owner would have to allow it.
+
 ## 2026-11-23 (research tiers accepted as the initial method)
 
 - Owner accepted the method as a starting point, weights to be adjusted after a few runs. Two changes at his direction: tier numbers are rough intent and every scope sets its own targets from an estimate of how many songs exist for it, the estimate being part of the research; and the evidence audit's purpose was unclear, so it is now stated, the researcher records the supporting line from each source, small scopes are checked in full and large ones by sample with a full check on failure. The "10%, pass at 90%" figure was arbitrary and is withdrawn.
