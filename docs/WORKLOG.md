@@ -2,6 +2,21 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (iOS colours)
+
+- Owner asked for the region and tradition colours on the tree, map and tunnel to come from an iOS palette. Built on branch `ios-colours`: the ten region colours replaced with Apple's system colours, light and dark, values read from the Human Interface Guidelines Color page today (updated June 2025; they differ from the older, commonly quoted ones). Only the ten tokens in `src/template.html` changed. Europe indigo, North America blue, Caribbean purple, Latin America green, Africa brown, Middle East and North Africa cyan, South Asia orange, Central Asia yellow, East Asia red, Southeast Asia and Oceania mint. Pink and teal left out: too close to red and to cyan.
+- Judged by screenshot on phone light and desktop dark, tree and tunnel. The map was not looked at.
+- Waiting for review: branches `test-registry` (roadmap 0.2 to 0.4; its own work log entry and roadmap item 7.8 are on that branch) and `ios-colours`.
+
+## 2026-11-23 (first helper hand-back)
+
+- Owner set Cloudflare build watch paths for both sites. Weekly research task deleted at his instruction; the daily helper queue replaces it.
+- Daily helper: "Time Machine daily helper", every day at 22:41 Vancouver, on Opus. Rules, roles and the model table are in `work/README.md`; assignments in `work/QUEUE.md`; reports on issue 74.
+- Helper verification: the run reported `claude-opus-5-5` for itself, and `claude-sonnet-5-5` and `claude-opus-5-5` for sub-agents started with those models. A manual firing with an extra message does both the normal assignment and the extra request: it took H1 as well.
+- H1 (data inventory) reviewed and accepted: five of its claims spot-checked against code and data, all held. Copied to `docs/research/2026-11-23-data-inventory.md`; `ARCHITECTURE.md` updated with the field meanings it established. Its work folder and the queue update were committed to `dev` directly: they change nothing the site reads.
+- Lead's answers to the helper's questions: `none` playlists that still list songs and the dead `indoc.json` go to 2.9; the map's grouping radius is its own interface issue (76); spelling waits for song identities (2.7).
+- Queue: H5 added (how prominence is computed and the tunnel dominance case).
+
 ## 2026-11-23 (release 2)
 
 - Jon approved `requests` for `dev` and for the live site. `db/005_requests.sql` run in prod (checked as the visitor role: can call `request_add` and `request_many`, cannot read or insert, cannot call the shared step; the check was rolled back, the table is empty). Squash-merged to `dev`, then `main`.
