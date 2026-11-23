@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (feature work while the owner sleeps)
+
+- Owner: hold the verification that needs him; focus on feature development and do as much as possible. He will comment on the triage when he wakes.
+- Built by the lead, each on its own branch, pushed once, waiting for review: `light-space` (7.10: light-theme tunnel and space around the globe), `panel-above-tabs` (7.6), `reshuffle` (1.1 and 1.2). `unverified-flag` (7.11) was built earlier and also waits.
+- Given to Opus sub-agents in separate working folders, with written specifications and objective checks: the tree layout method rewritten to read today's data (2.13; the check is reproducing the stored layout's cost), and shareable links (5.1).
+- Looked at by screenshot: the tunnel in light theme on phone and desktop, the panel above the tab bar on a phone, Shuffle again on a phone. Not looked at: the satellite globe in light theme (imagery does not load in the workspace), dark theme for the three branches beyond the automated tests.
+
 ## 2026-11-23 (genre batch 3: the evidence rule works when followed)
 
 - H7 accepted as candidates: eight genres (Pashto folk song, bhawaiya and bhatiali, hsaing waing, zapin and joget, maracatu, currulao, jota, Hardanger fiddle), all full, 18 to 27 songs each. This run copied its strings from raw page text and ran the check itself: 469 claims, 467 found, 2 on a page that refuses scripts. Compare 63% for batches 1 and 2, which quoted through the page-reading tool.
