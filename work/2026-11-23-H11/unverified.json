@@ -1,0 +1,1632 @@
+{
+ "kalevalarunosong": {
+  "alias": {},
+  "unverified": [
+   "Sanna Kurki-Suonio's album Musta (1998) as runosong: worldmusic.net says runolaulu forms dominate her material, but no track on a fetched page was tied to runo song",
+   "Kardemimmit runo-song tracks (Introducing Kardemimmit): pages say they use runo rhythm but name no runo track",
+   "Folk Voices (Ondine 1995) tracks 'Huntiing the Devil's Elk' (Heikki Laitinen) and 'The Origin of Fire' look like Kalevala epic themes but the page does not call them runo songs",
+   "Pekka Huttu-Hiltunen and the trio Uroshämärä perform runosong per the Finnish living heritage wiki, but no release was found",
+   "Track list and label of The Kalevala Heritage archive CD (recalled as Ondine) not confirmed",
+   "Archive singers Arhippa Perttunen, Larin Paraske and Iivana Onoila: not recorded on sound (Perttunen, Paraske) or no issued track found (Onoila)",
+   "Okra Playground and Tuuletar settings of runo poems: no specific track confirmed"
+  ],
+  "dropped_by_h11": [],
+  "claims_not_found": [
+   {
+    "n": 10,
+    "kind": "fit",
+    "url": "https://worldmusiccentral.org/cd-review-sinikka-langeland/",
+    "quote": "In this case it is rune songs, which are partly based on shamanic incantations.",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 22,
+    "kind": "album",
+    "url": "https://www.allmusic.com/album/the-kalevala-heritage-archive-recordings-of-ancient-finnish-songs-mw0000637560",
+    "quote": "The Kalevala Heritage: Archive Recordings of Ancient Finnish Songs",
+    "result": "no page",
+    "why": "HTTP 403"
+   }
+  ]
+ },
+ "ngoma": {
+  "alias": {},
+  "unverified": [
+   "The c. 1000 start year: no fetched page dates ngoma drum-dance practice that early.",
+   "Mzee Morris Nyunyusa's drum signature used for decades on Tanzanian broadcast news (Music in Africa confirms the role, but no release or track title was found).",
+   "Dizim Asili Series Vol. 1 'Ngoma Iko Huku - Vintage Tanzanian Dance Music 1955-1965' (seen only as a search-result title; MusicBrainz page would not load).",
+   "Singing Wells field videos of the Nyunyusa Dance Troupe (e.g. 'The Snake Dance', 'Ngokwa') exist on YouTube, but no commercial release was found.",
+   "Caprice 'Music from Tanzania and Zanzibar 1' track 13 'Muheme' (Trad. arr: Mchoya Mtachi Malogo) is probably by the Wagogo female drummers, but the page does not credit performers per track, so it is listed only as an album.",
+   "The year the Zinza ILAM recording was made (probably Hugh Tracey's 1950s Tanganyika tour, not stated on the page)."
+  ],
+  "dropped_by_h11": [
+   {
+    "role": "peak",
+    "artist": "Bangilana Nduhila with Zinza men and women",
+    "title": "Ngoma yalilamuno yayenda Maraya Pemba",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   }
+  ],
+  "claims_not_found": [
+   {
+    "n": 2,
+    "kind": "fit",
+    "url": "https://ilamcommons.ru.ac.za/vital/access/manager/Repository/vital:42578",
+    "quote": "Madogoli dance song for men and women, with 5 Goblet pegged and footed drums, 4 cylindrical pegged drums and tin rattles",
+    "result": "no page",
+    "why": "URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>"
+   },
+   {
+    "n": 3,
+    "kind": "song",
+    "url": "https://folkways.si.edu/pipe-dances-with-viyanzi-flute-and-dance-songs-of-the-zaramo-people-from-dar-es-salaam-tanzania/world/music/album/smithsonian",
+    "quote": "Mshatulo kwenda ovyo",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 4,
+    "kind": "song",
+    "url": "https://ilamcommons.ru.ac.za/vital/access/manager/Repository/vital:42577",
+    "quote": "In this recording the rhythm of the four small goblet drums set against the single bass drum can be clearly distinguishe",
+    "result": "no page",
+    "why": "URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>"
+   },
+   {
+    "n": 6,
+    "kind": "song",
+    "url": "https://vital.seals.ac.za/vital/access/manager/Repository/vital:42447",
+    "quote": "Ngoma drum rhythms",
+    "result": "no page",
+    "why": "URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>"
+   },
+   {
+    "n": 7,
+    "kind": "song",
+    "url": "https://ilamcommons.ru.ac.za/vital/access/manager/Repository/vital:15150",
+    "quote": "Drum rhythms by five Haya men, with single laced conical drums (played with sticks)",
+    "result": "no page",
+    "why": "URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>"
+   },
+   {
+    "n": 8,
+    "kind": "song",
+    "url": "https://folkways.si.edu/wedding-entertainment-and-dance-songs-from-the-zinza-people-of-biharamulo-district-tanzania/world/music/album/smithsonian",
+    "quote": "He is playing his drum well because he is hoping to pick up a girl to take with him to Pemba",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 10,
+    "kind": "album",
+    "url": "https://forcedexposure.com/Catalog/HJR.068LP.html",
+    "quote": "Besides the Sengenya drums -- bumbumbu, dahdahe, chapuro, vumi, ngoma --",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 12,
+    "kind": "album",
+    "url": "https://www.forcedexposure.com/CATALOG/SWP.022CD.html",
+    "quote": "2003 release. Features master-musicians playing some of the many instruments that were to be found in this large country.",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 14,
+    "kind": "album",
+    "url": "https://musikverket.se/capricerecords/artikel/music-from-tanzania-and-zanzibar-1/?lang=en",
+    "quote": "Featured among others are the Wagogo Female Drummers.",
+    "result": "no page",
+    "why": "HTTP 404"
+   },
+   {
+    "n": 15,
+    "kind": "near",
+    "url": "https://www.anost.net/release/133A/salum-abdallah-and-cuban-marimba-band/ngoma-tanzania",
+    "quote": "Ngoma Iko Huku",
+    "result": "no page",
+    "why": "HTTP 404"
+   },
+   {
+    "n": 17,
+    "kind": "size",
+    "url": "https://samap.ukzn.ac.za/audio-people/gogo",
+    "quote": "Further details refer ILAM shellac record number: TP1544",
+    "result": "no page",
+    "why": "URLError: <urlopen error [Errno 104] Connection reset by peer>"
+   },
+   {
+    "n": 18,
+    "kind": "size",
+    "url": "https://samap.ukzn.ac.za/audio-language/sukuma?page=7",
+    "quote": "Phuwa dance song",
+    "result": "no page",
+    "why": "URLError: <urlopen error [Errno 104] Connection reset by peer>"
+   }
+  ]
+ },
+ "amazighahwashandah": {
+  "alias": {},
+  "unverified": [
+   "Mouha Oulhoussein Achiban (1916-2016, El Kbab) led a famous ahidus troupe and recorded; Wikipedia confirms him as an ahidus master but no release or track was found",
+   "Le Chant du Monde LDX 74705 side titles beyond 'Ahwach' (Face A from 1972, Face B from Taslli village, Ayt Mgun, 1975)",
+   "Ouaboud Mohamed (Khenifra) cassette track 'Tahidoust' on Tasjilat Igly, 2010: blog lists it, but genre link to ahidus is inferred from the title only",
+   "Taskiwin (martial ahwash variant of the western High Atlas, UNESCO 2017) and the Albatros track 'Taskiouine A01' could be added as ahwash with a firmer source",
+   "Bowles track 'Ahmeilou (Tafraout)' by Maallem Ahmed and ensemble may be ahwash but the page does not say so",
+   "Paul Bowles Library of Congress LP (1972) Berber tracks"
+  ],
+  "dropped_by_h11": [],
+  "claims_not_found": [
+   {
+    "n": 3,
+    "kind": "def",
+    "url": "https://archive.culturalequity.org/field-work/morocco-1967/aguelmouss-i-967",
+    "quote": "generally ahwash is performed by two large antiphonal choruses",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 23,
+    "kind": "size",
+    "url": "https://archive.culturalequity.org/field-work/morocco-1967/aguelmouss-i-967",
+    "quote": "Ahwash wedding dance (part 15)",
+    "result": "no page",
+    "why": "HTTP 403"
+   }
+  ]
+ },
+ "cheo": {
+  "alias": {},
+  "unverified": [
+   "NSƯT Minh Phương album 'Chèo Cổ' on last.fm (appeared in search results; page fetch failed, tracklist not seen)",
+   "Recordings by NSND Thúy Cải and Quốc Anh of named làn điệu chèo; none found on a fetchable catalogue page",
+   "Vietnamese Institute for Musicology CD/VCD 'Excellent artist Minh Nhương with Vietnamese musical instrument \"Nhị Líu\" - 11 melodies of popular opera \"chèo\"' exists per vienamnhac.vn listing, but no tracklist was shown (instrumental, so omitted)",
+   "Fully diacritised forms of the Folkways titles (e.g. Sắp cổ phong, Sắp qua cầu, Đường trường tải lương, Lão say, Hề mồi) are my reconstruction, not seen on the page",
+   "Track 109 'Noi Lêch / Câm Gia' is on the album but its artist is listed as n/a, so it was left out"
+  ],
+  "dropped_by_h11": [
+   {
+    "role": "intro",
+    "artist": "Bac Nam Ngu",
+    "title": "Sap Qua Câu",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "intro",
+    "artist": "Manh Tuân",
+    "title": "Lâo Say",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "intro",
+    "artist": "Bac Nam Ngu",
+    "title": "Hê Môi",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "intro",
+    "artist": "Bac Phâm",
+    "title": "Sa Lêch Bang",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "intro",
+    "artist": "Bac Phâm",
+    "title": "Sap Cô Phong",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "peak",
+    "artist": "Hông Vân & Thanh Hoài",
+    "title": "Thi Nhip; Vo Nuoc",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "peak",
+    "artist": "Bui Trong Dan",
+    "title": "Noi Su Ghe Râu; Noi Ke",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "peak",
+    "artist": "Bac Minh Ly",
+    "title": "Duong Truong Tai Luong",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "peak",
+    "artist": "Bac Phâm",
+    "title": "Hat Van Câm",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "peak",
+    "artist": "Bac Nam Ngu, Bac Phâm",
+    "title": "Bai Phû Thuy",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "peak",
+    "artist": "Bac Minh Ly",
+    "title": "Ke Hanh / Hat Ru Ke",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "fits",
+    "artist": "Bac Nam Ngu",
+    "title": "Sap Qua Câu",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "fits",
+    "artist": "Bac Minh Ly",
+    "title": "Duong Truong Tai Luong",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "fits",
+    "artist": "Manh Tuân",
+    "title": "Lâo Say",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "near",
+    "artist": "Quach Thi Hô",
+    "title": "Ty bà hành",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   }
+  ],
+  "claims_not_found": [
+   {
+    "n": 2,
+    "kind": "def",
+    "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+    "quote": "Hát chèo is a form of popular musical theatre dating back to the 11th century.",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 8,
+    "kind": "fit",
+    "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+    "quote": "Sap Qua Câu (Crossing the Bridge: Happy Song) Bac Nam Ngu 04:32",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 9,
+    "kind": "fit",
+    "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+    "quote": "Duong Truong Tai Luong (In the Expectation: Sad Song) Bac Minh Ly 05:40",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 10,
+    "kind": "fit",
+    "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+    "quote": "Lâo Say (Old Drunkard's Song) Manh Tuân 02:03",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 11,
+    "kind": "fit",
+    "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+    "quote": "Hát chèo is a form of popular musical theatre dating back to the 11th century.",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 12,
+    "kind": "near",
+    "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+    "quote": "103 Ty bà hành Quach Thi Hô, Dinh Khàc Ban, Truc Hiên Nguyên Nhu Lâm 13:17",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 13,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+    "quote": "Sap Qua Câu (Crossing the Bridge: Happy Song) Bac Nam Ngu 04:32",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 14,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+    "quote": "Lâo Say (Old Drunkard's Song) Manh Tuân 02:03",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 15,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+    "quote": "Hê Môi (Song of Clown with a Torch) Bac Nam Ngu 03:45",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 16,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+    "quote": "Sa Lêch Bang (Happy Song) Bac Phâm 02:36",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 17,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+    "quote": "Sap Cô Phong (Happy Song in Ancient Style) Bac Phâm 02:28",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 18,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+    "quote": "Thi Nhip; Vo Nuoc (Prologue) Hông Vân & Thanh Hoài 04:16",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 19,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+    "quote": "Noi Su Ghe Râu; Noi Ke (Declamation) Bui Trong Dan 04:06",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 20,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+    "quote": "Duong Truong Tai Luong (In the Expectation: Sad Song) Bac Minh Ly 05:40",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 21,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+    "quote": "Hat Van Câm (Sad Song) Bac Phâm 02:48",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 22,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+    "quote": "Bai Phû Thuy (Sorcerer's Chant from the Play Xuy Vân) Bac Nam Ngu, Bac Phâm 07:02",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 23,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-hat-cheo-traditional-folk-theatre/world/music/album/smithsonian",
+    "quote": "Ke Hanh / Hat Ru Ke (Declamation: Song / Role of Thi Kinh, from the Play Quan Am Thi Kinh) Bac Minh Ly 04:46",
+    "result": "no page",
+    "why": "HTTP 403"
+   }
+  ]
+ },
+ "catru": {
+  "alias": {},
+  "unverified": [
+   "Quách Thị Hồ solo albums or Vietnamese state-label (Vina/Hãng đĩa Việt Nam) releases, not found on a fetched page",
+   "Streaming availability (Spotify/Apple Music) of any of these tracks",
+   "Nimbus track 1 title rendered garbled ('Thết Nhc') in the fetched data, so it was left out",
+   "Ocora release of ca trù, not found"
+  ],
+  "dropped_by_h11": [
+   {
+    "role": "intro",
+    "artist": "Quách Thị Hồ",
+    "title": "Bắc phản",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "peak",
+    "artist": "Quách Thị Hồ",
+    "title": "Mưỡu / Hát nói",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "peak",
+    "artist": "Quách Thị Hồ",
+    "title": "Tỳ bà hành",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "album",
+    "artist": "Quách Thị Hồ and others",
+    "title": "Viet-Nam: Ca Tru & Quan Ho",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "fits",
+    "artist": "Quách Thị Hồ",
+    "title": "Tỳ bà hành",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "near",
+    "artist": "Hai Cai, Phuong Dua, Van Tich, Manh Thang",
+    "title": "Gọi đò",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   }
+  ],
+  "claims_not_found": [
+   {
+    "n": 0,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+    "quote": "Bác Phan | Quach Thi Hô, Dinh Khàc Ban, Truc Hiên Nguyên Nhu Lâm",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 6,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+    "quote": "Two thê: Muou / Hát Noi | Quach Thi Hô, Dinh Khàc Ban, Truc Hiên Nguyên Nhu Lâm",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 7,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+    "quote": "Ty bà hành | Quach Thi Hô, Dinh Khàc Ban, Truc Hiên Nguyên Nhu Lâm",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 20,
+    "kind": "near",
+    "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+    "quote": "Goi Do (I Call the Passer-by) | Hai Cai, Phuong Dua, Van Tich, Manh Thang",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 22,
+    "kind": "album",
+    "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+    "quote": "This 1976 recording was made in the Socialist Republic of Vietnam by noted musicologist Tr?n Van Khê.",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 23,
+    "kind": "album",
+    "url": "https://boutiqueenligne.maisondesculturesdumonde.org/en/cdsvinyls/318-le-ca-tru.html",
+    "quote": "Hanoi Ca Tru Thai Ha Ensemble",
+    "result": "no page",
+    "why": "HTTP 503"
+   },
+   {
+    "n": 29,
+    "kind": "def",
+    "url": "https://folkways.si.edu/news-and-press/unesco-collection-week-43-ca-tru-and-quan-ho-traditions-of-vietnam",
+    "quote": "An individual from the audience (usually a male) will play on an auxiliary drum known as the praise drum or trông-châu.",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 30,
+    "kind": "def",
+    "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+    "quote": "Ca trù singing was inscribed on the UNESCO List of Intangible Cultural Heritage in Need of Urgent Safeguarding in 2009.",
+    "result": "no page",
+    "why": "HTTP 403"
+   }
+  ]
+ },
+ "quanho": {
+  "alias": {},
+  "unverified": [
+   "Famous modern recordings by NSND Thúy Cải, Quý Trang and the Bắc Ninh Quan họ Folk Song Theatre of songs such as 'Bèo dạt mây trôi', 'Ngồi tựa mạn thuyền', 'Mời trầu' and 'Người ở đừng về'. No fetched page gave a track-level listing.",
+   "That Quach Thi Hô and track 103 'Ty bà hành' are ca trù, not quan họ. This is inferred from the album title (Ca Tru and Quan Ho) and the CREM listing order. The Folkways page does not label each track's genre.",
+   "That the 1984 ATTC LP 'Musique du Vietnam' track 'Le petit plateau de bétel, chant d'accueil, chant quan ho' is a new recording rather than a reuse of the 1976 Cơi trầu take (both recorded by Trần Văn Khê)",
+   "Tracklist of the 2016 Apple Music album 'Vietnam (Chant Quan Ho)' by 'Bac Ninh' (the page says 16 songs but shows no titles) and of the allmusic 'Vietnam: Chant Quan Ho' album",
+   "Whether Thúy Hoàn's 'Se chỉ luồn kim' (2020) is traditional or arranged. The article does not say."
+  ],
+  "dropped_by_h11": [
+   {
+    "role": "intro",
+    "artist": "Bắc Ninh quan họ singers",
+    "title": "Cơi trầu",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "intro",
+    "artist": "Bắc Ninh quan họ singers",
+    "title": "Gọi đò",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "peak",
+    "artist": "Bắc Ninh quan họ singers",
+    "title": "Đường bạn Kim Loan",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "peak",
+    "artist": "Bắc Ninh quan họ singers",
+    "title": "Sở cầu như ý",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "peak",
+    "artist": "Bắc Ninh quan họ singers",
+    "title": "Đêm qua nhớ bạn",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "peak",
+    "artist": "Bắc Ninh quan họ singers",
+    "title": "Kẻ Bắc người Nam",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "near",
+    "artist": "Quach Thi Hô",
+    "title": "Tỳ bà hành",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   }
+  ],
+  "claims_not_found": [
+   {
+    "n": 8,
+    "kind": "near",
+    "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+    "quote": "Ty bà hành",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 9,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+    "quote": "109 Gia Ban (Farewell Song): Nguoi oi nguoi o dung vê (Friends, Stay Here, Don't Go Home Now) n/a 03:42",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 10,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+    "quote": "105 Coi-Giâu (The Tray of Betel) Ba Manh, Tu Van, Son Ma, Van Tich 01:26",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 11,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+    "quote": "104 Goi Do (I Call the Passer-by) Hai Cai, Phuong Dua, Van Tich, Manh Thang 03:51",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 12,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+    "quote": "106 Duong Ban Kim Loan (The Road of Friendship) Nam Dang, Sau Ha, Huynh Bat, Son Ma, Công Huynh, Van Tich 03:10",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 13,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+    "quote": "107 So Câu Nhu Y (What One Desires Has Come True) Ba Manh, Tu Van 03:07",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 14,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+    "quote": "108 Dêm Qua Nho Ban (Last Evening I Thought of My Girlfriend or Boyfriend) Ba Trong, Hai Cai, Công Huynh, Nguyen Ngoc Trac 04:40",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 15,
+    "kind": "song",
+    "url": "https://folkways.si.edu/viet-nam-ca-tru-quan-ho-traditional-music/world/music/album/smithsonian",
+    "quote": "110 Gia Ban (Farewell Song): Ke bac nguoi nam (Some Are in the North, Some in the South)",
+    "result": "no page",
+    "why": "HTTP 403"
+   }
+  ]
+ },
+ "bihusongs": {
+  "alias": {},
+  "unverified": [
+   "Pratima Barua Pandey as a Bihu singer: pages show her only on Goalpariya folk albums, so she is used as a near example",
+   "Bhupen Hazarika 'Buku Ham Ham Kore' (film Moniram Dewan) as a Bihu-flavoured film song: Saregama confirms the film credit, but no fetched page confirmed the Bihu link or the year",
+   "Release years for the Saregama Bihu tracks (likely HMV records from the 1960s-80s, not confirmed)",
+   "Zubeen Garg songs named as Bihu staples by India Today NE (e.g. Hiya Diya Niya, Mayabini Ratir Bukut): left out because the article mixes Bihu and non-Bihu songs",
+   "Title of the Smithsonian Folkways release holding the Bihu tracks (the page showed only a tracklist fragment)"
+  ],
+  "dropped_by_h11": [
+   {
+    "role": "intro",
+    "artist": "Bihu dancers in Majuli",
+    "title": "Sirip sirip kori nasa hera nasoni (Jeng Bihu dance music)",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "intro",
+    "artist": "Various artists",
+    "title": "Toka Bihu- dehi oi lihiri kohua bon",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "fits",
+    "artist": "Various artists",
+    "title": "Toka Bihu- dehi oi lihiri kohua bon",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   }
+  ],
+  "claims_not_found": [
+   {
+    "n": 0,
+    "kind": "def",
+    "url": "https://en.wikipedia.org/wiki/Bihu_dance",
+    "quote": "Bihu is mentioned in the inscriptions of the 14th-century Chutia King Lakshminaryan as well.",
+    "result": "not found",
+    "why": "words not on the page: mentioned, inscriptions, 14th, century, lakshminaryan"
+   },
+   {
+    "n": 10,
+    "kind": "fit",
+    "url": "https://folkways.si.edu/bihu/india-world/music/album/smithsonian",
+    "quote": "Music for the festival of Bihu, accompanied by toka",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 13,
+    "kind": "song",
+    "url": "https://folkways.si.edu/bihu/india-world/music/album/smithsonian",
+    "quote": "Sirip sirip kori nasa hera nasoni (Jeng Bihu dance music)",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 14,
+    "kind": "song",
+    "url": "https://folkways.si.edu/bihu/india-world/music/album/smithsonian",
+    "quote": "Toka Bihu- dehi oi lihiri kohua bon",
+    "result": "no page",
+    "why": "HTTP 403"
+   }
+  ]
+ },
+ "pungmul": {
+  "alias": {},
+  "unverified": [
+   "SamulNori, Record of Changes (CMP, 1988) and its track titles such as Pinari and Samdo Sul Janggu: album listed by melodigging, tracklist not confirmed",
+   "Red Sun / SamulNori, Then Comes the White Tiger (ECM, 1995) exact tracklist: only reconstructed from a review",
+   "Recordings by Kim Young-im, Ahn Bi-chwi, Muk Gye-wol, Kim So-hee as named albums with release years (Muk Gye-wol and Kim So-hee appear on a last.fm compilation page without title or date)",
+   "MBC Korean folk song field archive size",
+   "Iri, Pyeongtaek, Imsil Pilbong or Gangneung nongak troupe recordings on commercial releases",
+   "Year of Nonesuch Drums and Voices of Korea tracklist beyond track 3"
+  ],
+  "dropped_by_h11": [
+   {
+    "role": "intro",
+    "artist": "Kim Ok-sim",
+    "title": "Ah-Rirang",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "intro",
+    "artist": "Kim Ok-sim",
+    "title": "Torachi",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "peak",
+    "artist": "Korean Women's Music Association",
+    "title": "Nong-Ahk",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "fits",
+    "artist": "Korean Women's Music Association",
+    "title": "Nong-Ahk",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "fits",
+    "artist": "Kim Ok-sim",
+    "title": "Ah-Rirang",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   }
+  ],
+  "claims_not_found": [
+   {
+    "n": 1,
+    "kind": "def",
+    "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/page/korea",
+    "quote": "In 1978 a quartet of musicians calling themselves SamulNori began a revival of stylistic elements of nongak",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 7,
+    "kind": "fit",
+    "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/page/korea",
+    "quote": "Drums and Voices of Korea: Samul-Nori: Youngnam Nong-ak",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 8,
+    "kind": "song",
+    "url": "https://omeka-s.grinnell.edu/s/MusicalInstruments/item/2940",
+    "quote": "Drums and Voices of Korea: Samul-Nori--Youngnam Nong-ak; Samul-Nori",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 9,
+    "kind": "fit",
+    "url": "https://folkways.si.edu/korea-vocal-and-instrumental-music/world/album/smithsonian",
+    "quote": "Nong-Ahk",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 10,
+    "kind": "fit",
+    "url": "https://folkways.si.edu/korea-vocal-and-instrumental-music/world/album/smithsonian",
+    "quote": "Ah-Rirang",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 11,
+    "kind": "song",
+    "url": "https://folkways.si.edu/korea-vocal-and-instrumental-music/world/album/smithsonian",
+    "quote": "Torachi",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 13,
+    "kind": "album",
+    "url": "https://en.cezamemusic.com/korea-arirang-and-minyo-singing-album-1306.html",
+    "quote": "Lee Chun-hee, one of the most prominent singer of minyo Korean folk songs,",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 14,
+    "kind": "song",
+    "url": "https://en.cezamemusic.com/korea-arirang-and-minyo-singing-album-1306.html",
+    "quote": "Gin Arirang [OCR560258 - 1]",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 15,
+    "kind": "song",
+    "url": "https://en.cezamemusic.com/korea-arirang-and-minyo-singing-album-1306.html",
+    "quote": "Gu Arirang [OCR560258 - 2]",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 16,
+    "kind": "song",
+    "url": "https://en.cezamemusic.com/korea-arirang-and-minyo-singing-album-1306.html",
+    "quote": "Arirang [OCR560258 - 3]",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 17,
+    "kind": "song",
+    "url": "https://en.cezamemusic.com/korea-arirang-and-minyo-singing-album-1306.html",
+    "quote": "Noraetgarak [OCR560258 - 4]",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 18,
+    "kind": "song",
+    "url": "https://en.cezamemusic.com/korea-arirang-and-minyo-singing-album-1306.html",
+    "quote": "Changbu Taryeong [OCR560258 - 5]",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 19,
+    "kind": "song",
+    "url": "https://en.cezamemusic.com/korea-arirang-and-minyo-singing-album-1306.html",
+    "quote": "Nodeul Gangbyeon [OCR560258 - 6]",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 20,
+    "kind": "song",
+    "url": "https://en.cezamemusic.com/korea-arirang-and-minyo-singing-album-1306.html",
+    "quote": "Taepyeongga [OCR560258 - 7]",
+    "result": "no page",
+    "why": "HTTP 403"
+   }
+  ]
+ },
+ "huaer": {
+  "alias": {
+   "上去高山望平川": "上去高山望平川 - 甘肃民歌 = Shangqu Gaoshan Wanpingchuan = Climbing A Mountain To Look At A Calm River (Discogs)",
+   "大眼睛": "大眼睛 (女高音独唱) (Discogs)",
+   "苏平": "Su Ping",
+   "龚琳娜": "Gong Linna (Discogs artist credit)",
+   "Folk Music of China, Vol. 1: Folk Songs of Qinghai and Gansu": "Folk Music of China Vol.1: Folk Songs of Qinghai and Gansu (europadisc spelling)"
+  },
+  "unverified": [
+   "Zhu Zhonglu (朱仲禄), the best-known 'king of hua'er', and his 上去高山望平川: maigoo recommends his version but no release or track page was found; Discogs has no entry for him.",
+   "Su Ping (苏平) 远看黄河一条线: named as her signature piece on maigoo, no release page found.",
+   "Su Ping 美美的山丹花儿开 (same 1984 Discogs release): exists, but nothing ties it to hua'er.",
+   "Su Yang (苏阳) covered a traditional hua'er, The Night Journey, on his second album (2010) per China Daily; Chinese track title and album title not confirmed, so not used as a near-miss.",
+   "Hua'er-titled songs on the 2019 Naxos album other than the 'ling' tracks (e.g. 'Big Eyes', 'Yu'er, a love song', 'A Straight Melody') may be hua'er; the page does not say which tracks are.",
+   "Per-track performers on the Naxos album are not assigned on any fetched page (AllMusic fetch failed), so tracks are credited to Various Artists.",
+   "花儿与少年 sung versions (the famous Qinghai hua'er-based song) were not found with release data.",
+   "English Wikipedia 'Hua'er' redirects to Shan'ge, which only says hua'er is from Gansu, Ningxia and Qinghai; zh.wikipedia and Baidu Baike could not be fetched (not found / robots).",
+   "Direct curl to Wikipedia was refused by the proxy, so no raw page text was obtained; every quote came through the WebFetch summariser.",
+   "Smithsonian Folkways FE 4091 and FE 4092 (Vocal Music of Contemporary China, 1980) checked: neither has a hua'er track."
+  ],
+  "dropped_by_h11": [],
+  "claims_not_found": [
+   {
+    "n": 4,
+    "kind": "def",
+    "url": "https://wiki.y.qq.com/i/c8s4d363deapfpf2m4pg",
+    "quote": "花儿产生于明代初年（公元1368年前后）",
+    "result": "no page",
+    "why": "HTTP 502"
+   },
+   {
+    "n": 5,
+    "kind": "def",
+    "url": "https://wiki.y.qq.com/i/c8s4d363deapfpf2m4pg",
+    "quote": "花儿产于临夏回族自治州",
+    "result": "no page",
+    "why": "HTTP 502"
+   },
+   {
+    "n": 6,
+    "kind": "def",
+    "url": "https://wiki.y.qq.com/i/c8s4d363deapfpf2m4pg",
+    "quote": "按照花儿的衬词又分为“白牡丹令”、“尕马尔令”、“花花尕妹令”、“好花儿令”、“溜溜儿山令”、“杨柳儿姐令”、“水红花令”、“咿呀咿令”等。",
+    "result": "no page",
+    "why": "HTTP 502"
+   },
+   {
+    "n": 7,
+    "kind": "def",
+    "url": "https://archive.shine.cn/feature/Huaer-The-blossoming-folk-songs-of-northwest-China/shdaily.shtml",
+    "quote": "Originating as early as the Ming Dynasty (1368-1644),",
+    "result": "no page",
+    "why": "URLError: <urlopen error [Errno 104] Connection reset by peer>"
+   },
+   {
+    "n": 12,
+    "kind": "size",
+    "url": "https://wiki.y.qq.com/i/c8s4d363deapfpf2m4pg",
+    "quote": "据统计，河湟地区有上百种曲调，不同的曲调有着不同的“令”。",
+    "result": "no page",
+    "why": "HTTP 502"
+   },
+   {
+    "n": 14,
+    "kind": "size",
+    "url": "https://europe.chinadaily.com.cn/life/2013-02/01/content_16193206.htm",
+    "quote": "A tape cassette containing his singing is widely spread in Northwest China",
+    "result": "no page",
+    "why": "HTTP 404"
+   }
+  ]
+ },
+ "kulintang": {
+  "alias": {
+   "Binalig a Kulndet": "Binalig A Kuldnet",
+   "Ketawang: Puspawarna": "Ketawang: Puspåwarnå (Kinds of Flowers)",
+   "Duyog and Sinulog a Kamamatuan": "Duyug and Sinulog a Kamamatuan"
+  },
+  "unverified": [
+   "Folkways album page https://folkways.si.edu/kulintang-kultura-danongan-kalanduyan-and-gong-music-of-the-philippine-diaspora/world/music/album/smithsonian failed to fetch (client error); tracklist taken from Discogs 20905432 and the Folkways liner PDF instead.",
+   "last.fm page for World Kulintang Institute's album failed to fetch (client error).",
+   "Direct curl to folkways.si.edu and api.discogs.com was refused by the proxy (403); all fetches went through a summarising fetch tool, so every quote is as reported by that tool and needs re-checking against the live page.",
+   "Year of Lyrichord LLST 7322 (Muranao Kakolintang vol. 1, villages of Romayas and Buribid) not found; recalled as late 1970s, so 'Kasinolog' has year null.",
+   "Recalled but not checked: Usopay Cadar's Maranao recordings and University of Washington archive holdings; Aga Mayo Butocan's own releases; Sabah kulintangan and Sulu/Tausug kulintangan recordings (Folkways 'Murut Music of North Borneo' and Sabah state audio gallery seen only as search results, not opened).",
+   "Disc 2 of Kulintang Kultura (Han Han, Kulintronica, Noh Buddies, Asian Crisis, Subla Neokulintang etc.) and Toronto's Pantayo are kulintang-based fusion; left out of the playlist as they are not the tradition itself and the tree has no id for diaspora kulintang fusion.",
+   "Wikipedia's statement that one theory denies kulintang existed before the 15th century was reported only as a paraphrase by the fetch tool; exact wording not captured.",
+   "José Maceda Concrete track 2-3 'Magarib (Kulintang Ensemble) (1964)' seen on Discogs 7666728 but not used (ethnic group not stated on the page)."
+  ],
+  "dropped_by_h11": [
+   {
+    "role": "peak",
+    "artist": "Danongan Kalanduyan, Bernard Ellorin and Eric Abutin",
+    "title": "Binalig a Kulndet",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "peak",
+    "artist": "Kim Kalanduyan",
+    "title": "Duyog and Sinulog a Kamamatuan",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   }
+  ],
+  "claims_not_found": [
+   {
+    "n": 5,
+    "kind": "def",
+    "url": "https://folklife.si.edu/magazine/kulintang-kultura-filipino-musical-musings-american-meanings",
+    "quote": "the tuned gong row that floats above an energetic and percussive rhythmic matrix",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 6,
+    "kind": "def",
+    "url": "https://folkways-media.si.edu/docs/folkways/artwork/FW04536.pdf",
+    "quote": "the kulintang; a Bet of e ight gongs arranged h orizontally. and the only one with a melody",
+    "result": "near",
+    "why": "all 8 distinctive words within 467 characters"
+   },
+   {
+    "n": 23,
+    "kind": "song",
+    "url": "https://folklife.si.edu/magazine/kulintang-kultura-filipino-musical-musings-american-meanings",
+    "quote": "An instructive example is “Sinulog a Kamamatuan” (disc 1, track 10)",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 33,
+    "kind": "song",
+    "url": "https://folklife.si.edu/magazine/kulintang-kultura-filipino-musical-musings-american-meanings",
+    "quote": "two traditional Magindanao pieces, “Binalig a Kulndet” (disc 2 track 12)",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 34,
+    "kind": "song",
+    "url": "https://folklife.si.edu/magazine/kulintang-kultura-filipino-musical-musings-american-meanings",
+    "quote": "“Duyug and Sinulog a Kamamatuan” (disc 2 track 13)",
+    "result": "no page",
+    "why": "HTTP 403"
+   }
+  ]
+ },
+ "malhun": {
+  "alias": {},
+  "unverified": [
+   "No single named malhun recording was confirmed on a fetched page; every item below is recalled or half-seen only.",
+   "Houcine Toulali recordings (e.g. qasidas 'Lharraz', 'Chamaa'): northsound.fm tags him malhun but lists no tracks; allmusic album page 'Haj Lhoucine Toulali' (mw0000911243) failed to fetch (client error).",
+   "Other recalled malhun singers with no verified release found: Haj Mohamed Bensouda, Abdelkrim and Saïd Guennoun, Abdelali Lamdaghri, Majda El Yahyaoui, Touria Hadraoui (le360 2022 article names only her album 'Mouachahat', which is muwashshah, not malhun), Mohamed Bajeddoub.",
+   "Jil Jilala's versions of malhun qasidas (recalled: 'Chamaa', 'Lharraz'): English Wikipedia says the group drew on 'the Malhun, sung in an antiquated form of Moroccan Arabic' but names no malhun track; Apple Music pages fetched gave no track list.",
+   "Samy Elmaghribi 'Mal Hbibi Malou' on The Rough Guide to the Music of Morocco (2012): possibly the disc's malhun item, but the page does not say so.",
+   "The Moroccan Ministry of Culture 3-CD malhun set: title, year and track list not found.",
+   "Fetch failures: en.wikipedia via curl (proxy 403), allmusic (client_error), telquel.ma 2018 Hadraoui interview (client_error), apple album 1515481925 (client_error), musicbrainz.org/ws/2 and api.deezer.com (robots disallowed).",
+   "Near-miss candidates not verified: an andalusi nuba (neighbour `andalusi`), a chaabi or aita song (neighbour `morchaabi`), Algerian chaâbi built on melhoun texts by El Hadj M'Hamed El Anka (neighbour `algchaabi`; French Wikipedia notes the form is found 'chez Hadj El Anka' but no specific recording was verified)."
+  ],
+  "dropped_by_h11": [],
+  "claims_not_found": []
+ },
+ "garbaanddandiyaraa": {
+  "alias": {
+   "Vasaladi": "Vasaldi (Wikipedia album list)",
+   "Odhni Odhu Odhu Ne Udi Jaye": "Odhini Odhu (Wikipedia album list)",
+   "Indhana Winva": "Indhana Vinvaa / Indhana Winva Gayi Thi (LatestLY, Pinkvilla)",
+   "Tara Vina Shyam": "Tara vina Shyam vane (LatestLY body text)"
+  },
+  "unverified": [
+   "Hemant Chauhan 'Lakh Lakh Divda Ni Mandavdi': hindutone says 'versions include Hemant Chauhan's in his Tahuko series', but no release page for that track was found; Wikipedia only says he specializes in 'Bhajan, religious and Garba songs'",
+   "Praful Dave 'Madi Tara Naam Chhe Hajar': named on hindutone, no release page found",
+   "Kirtidan Gadhvi 'Gori Radha Ne Kaalo Kaan': hindutone calls it traditional but ties his version to the Gujarati film Wrong Side Raju (2016); left out as likely a film recording",
+   "Aditya Gadhvi 'Khalasi' (Coke Studio Bharat, 2023): a Gujarati folk-pop hit played at garba nights, but no page calls the song itself a garba; Wikipedia page for the song not found",
+   "Falguni Pathak's own Navratri albums: the last.fm 'Navaratri Songs' compilation page mixes Hindi pop singles with Gujarati garba and gives no dates; Non Stop Garba by Falguni Pathak page failed to load (client_error)",
+   "Ramzat 3 - Non Stop Garba (last.fm) failed to load (client_error)",
+   "Track lists of the 1976 Polydor and 1978 HMV LPs not found; individual tracks from them not verified",
+   "Release years of Atul Purohit recordings not found",
+   "The start date c. 1500 is the tree's date, not confirmed by a fetched page; the oldest garbi texts attributed to poets such as Vallabh Bhatt (17th-18th c.) are recalled, not sourced",
+   "Redbull list (Ishani Dave: 'Maar To Mele', 'Garbadiyo', 'Suraj Dheema Ugo'; 'Kesariyo Rang', 'Patai Raja') not used: performers mostly not named on the page",
+   "Direct downloads of Wikipedia pages were refused by the proxy, so all quotes come through a summarising fetch tool"
+  ],
+  "dropped_by_h11": [
+   {
+    "role": "peak",
+    "artist": "Maniraj Barot",
+    "title": "Sanedo Sanedo Laal Sanedo",
+    "why": "no claim found: no page (www.latestly.com)"
+   },
+   {
+    "role": "album",
+    "artist": "Purushottam Upadhyay",
+    "title": "Garba Raas Ni Ramzat",
+    "why": "no claim found: no page (www.ebay.com)"
+   },
+   {
+    "role": "fits",
+    "artist": "Purushottam Upadhyay",
+    "title": "Garba Raas Ni Ramzat (album)",
+    "why": "no claim found: no page (www.ebay.com)"
+   }
+  ],
+  "claims_not_found": [
+   {
+    "n": 13,
+    "kind": "size",
+    "url": "https://www.last.fm/music/Aishwarya+Majmudar+&+Jigardan+Gadhavi/Rangtaali+2+-+Non+Stop+Garba",
+    "quote": "Rangtaali 2 - Non Stop Garba",
+    "result": "no page",
+    "why": "the site answered with a bot check, not the page"
+   },
+   {
+    "n": 14,
+    "kind": "fit",
+    "url": "https://last.fm/music/Atul+Purohit/+tracks",
+    "quote": "Tara Vina Shyam",
+    "result": "no page",
+    "why": "the site answered with a bot check, not the page"
+   },
+   {
+    "n": 16,
+    "kind": "song",
+    "url": "https://last.fm/music/Atul+Purohit/+tracks",
+    "quote": "Vhalam Ni Vaat Kai",
+    "result": "no page",
+    "why": "the site answered with a bot check, not the page"
+   },
+   {
+    "n": 17,
+    "kind": "song",
+    "url": "https://last.fm/music/Atul+Purohit/+tracks",
+    "quote": "He Maro Saybo - Gujarati Garba Song",
+    "result": "no page",
+    "why": "the site answered with a bot check, not the page"
+   },
+   {
+    "n": 18,
+    "kind": "song",
+    "url": "https://last.fm/music/Atul+Purohit/+tracks",
+    "quote": "Sharad Poonam Ni Raatdi - Gujarati Garba Song",
+    "result": "no page",
+    "why": "the site answered with a bot check, not the page"
+   },
+   {
+    "n": 19,
+    "kind": "song",
+    "url": "https://last.fm/music/Atul+Purohit/+tracks",
+    "quote": "Gori Radha Tane Jaata Joi Mor Bani Thangaat Kare (Live)",
+    "result": "no page",
+    "why": "the site answered with a bot check, not the page"
+   },
+   {
+    "n": 23,
+    "kind": "song",
+    "url": "https://www.last.fm/music/Aishwarya+Majmudar+&+Jigardan+Gadhavi/Rangtaali+2+-+Non+Stop+Garba",
+    "quote": "Van Ma Chandaliyo Ugyo Re",
+    "result": "no page",
+    "why": "the site answered with a bot check, not the page"
+   },
+   {
+    "n": 24,
+    "kind": "song",
+    "url": "https://www.last.fm/music/Aishwarya+Majmudar+&+Jigardan+Gadhavi/Rangtaali+2+-+Non+Stop+Garba",
+    "quote": "Saybo Re Govaliyo",
+    "result": "no page",
+    "why": "the site answered with a bot check, not the page"
+   },
+   {
+    "n": 25,
+    "kind": "song",
+    "url": "https://www.last.fm/music/Aishwarya+Majmudar+&+Jigardan+Gadhavi/Rangtaali+2+-+Non+Stop+Garba",
+    "quote": "Hal Kana Mane Dwarika Dekhad",
+    "result": "no page",
+    "why": "the site answered with a bot check, not the page"
+   },
+   {
+    "n": 26,
+    "kind": "fit",
+    "url": "https://www.last.fm/music/Aishwarya+Majmudar+&+Jigardan+Gadhavi/Rangtaali+2+-+Non+Stop+Garba",
+    "quote": "Rangtaali 2 - Non Stop Garba",
+    "result": "no page",
+    "why": "the site answered with a bot check, not the page"
+   },
+   {
+    "n": 33,
+    "kind": "song",
+    "url": "https://www.latestly.com/lifestyle/festivals-events/navaratri-songs-in-gujarati-traditional-dandiya-numbers-for-garba-enthusiasts-to-celebrate-navratri-2018-watch-videos-422768.html",
+    "quote": "Sanedo is a Gujarati folk song, popularized by the well-known Gujarati singer Maniraj Barot.",
+    "result": "no page",
+    "why": "HTTP 502"
+   },
+   {
+    "n": 34,
+    "kind": "song",
+    "url": "https://www.latestly.com/lifestyle/festivals-events/navaratri-songs-in-gujarati-traditional-dandiya-numbers-for-garba-enthusiasts-to-celebrate-navratri-2018-watch-videos-422768.html",
+    "quote": "Below are 5 traditional Gujarati songs famous with Garba and Dandiya Rasikas of all age-groups.",
+    "result": "no page",
+    "why": "HTTP 502"
+   },
+   {
+    "n": 35,
+    "kind": "album",
+    "url": "https://www.ebay.com/itm/146569191503",
+    "quote": "Purushottam Upadhyay - Garba Raas Ni Ramzat (VINYL)",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 39,
+    "kind": "album",
+    "url": "https://last.fm/music/Atul+Purohit/+tracks",
+    "quote": "Tara Vina Shyam - Raas Garba",
+    "result": "no page",
+    "why": "the site answered with a bot check, not the page"
+   }
+  ]
+ },
+ "mahagita": {
+  "alias": {
+   "Mahagitá: Harp and Vocal Music of Burma (album)": "Mahagitá: Harp and Vocal Music of Burma",
+   "A huntsman enchanted": "Hpan htwei la",
+   "The king's potency": "Hseze yaun"
+  },
+  "unverified": [
+   "Burmese titles of Folkways SFW40492 tracks 1-4, 6-7 and 9: the liner-notes PDF (folkways-media.si.edu/docs/folkways/artwork/SFW40492.pdf) had no text layer; only tracks 5 (Hpan htwei la) and 8 (Hseze yaun) were named on the Folkways article page, so English titles are used",
+   "Whether the eight ibiblio Thachinkan files (Mahagita3_Thachinkan_...) are the 'Mahagita By Burmese Harp, Vol. 3' album tracks: inferred from file names only; also possible overlap with the Folkways tracks under different titles, not checked",
+   "Release years and labels of 'Mahagita By Burmese Harp' Vol. 3 and Vol. 5: no page gave them (last.fm tracklist did not render; last.fm artist page failed with client_error)",
+   "Release year of Tin Tin Mya's 'Pan Myaing Le': Wikipedia calls it a hit but gives no date or release",
+   "'Kyo Song (Royal Barge Music)' on Folkways 'Burmese Folk and Traditional Music' (female chorus, gongs, oboe): possibly one of the three mahagita barge kyo songs, but the page does not say so; left out",
+   "UNESCO/Auvidis 'Myanmar: Music by the Hsaing Waing Orchestra / The Burmese Harp' (2001) CD 1 harp solos (Maung Min Zaw, Maung Kyay, Maung That Win): the notes say Burmese music is vocal in origin but do not tie these pieces to the Maha Gita, so they are left out of the playlist",
+   "Burmese piano (sandaya) mahagita: U Ko Ko (Garfias, UMBC page says he draws on 'the classical repertoire, collectively known as the Maha Gita' and names a patt pyou song 'Leibauk Aukpyan') and U Yee Nwe 'The Spellbinding Piano of Burma' (AllMusic, no tracklist or year): no issued track verified",
+   "Moe Moe Yee 'Harpe Birmane: Myanmar Music (Burmese Harp)' (AllMusic, 1994): no tracklist or tie to mahagita on the page",
+   "Muriel Williamson Collection Vol. 11 'Songs: Voice and Saung Gauk': not tied to mahagita by name, so not listed",
+   "Repertoire titles named on Wikipedia (Phaung Ngin Kyo, Phaung La Kyo, Phaung Saik Kyo, Sein Chu Kya Naung, Ataing Mathi Mingala Awba Bwe) have no verified recording",
+   "Fetch failures: prestomusic.com (client_error), musicbrainz.org (JavaScript check), en.wikipedia.org and api.discogs.com via curl (proxy refused); Wikipedia read only through WebFetch, which returns processed text limited to short quotes"
+  ],
+  "dropped_by_h11": [],
+  "claims_not_found": [
+   {
+    "n": 7,
+    "kind": "def",
+    "url": "https://folkways-media.si.edu/docs/folkways/artwork/UNES08281.pdf",
+    "quote": "Singing is generally accompanied by the harp, which can be transposed intellectually to hsaing waing instruments.",
+    "result": "near",
+    "why": "all 10 distinctive words within 533 characters"
+   },
+   {
+    "n": 13,
+    "kind": "album",
+    "url": "https://lib.ecu.edu/catalog-preview/catalog/5295235",
+    "quote": "In praise of the Burmese harp (12:01) -- The glory of the king (6:20) -- Rain and a princess (11:13)",
+    "result": "no page",
+    "why": "HTTP 503"
+   },
+   {
+    "n": 14,
+    "kind": "album",
+    "url": "https://folkways.si.edu/inle-myint-maung-and-yi-yi-thant/mahagita-harp-and-vocal-music-of-burma/world/album/smithsonian",
+    "quote": "Mahagitá: Harp and Vocal Music of Burma",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 24,
+    "kind": "song",
+    "url": "https://folkways.si.edu/mahagita-harp-vocal-burma/world/music/article/smithsonian",
+    "quote": "In Hpan htwei la (CD track #5) there is a slight adjustment to the tuning.",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 25,
+    "kind": "song",
+    "url": "https://folkways.si.edu/mahagita-harp-vocal-burma/world/music/article/smithsonian",
+    "quote": "as in Hseze yaun, CD track #8.",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 30,
+    "kind": "album",
+    "url": "https://www.last.fm/music/Inle+Myint+Maung/Mahagita+By+Burmese+Harp,+Vol.+3",
+    "quote": "Mahagita By Burmese Harp, Vol. 3",
+    "result": "no page",
+    "why": "the site answered with a bot check, not the page"
+   },
+   {
+    "n": 47,
+    "kind": "near",
+    "url": "https://folkways-media.si.edu/docs/folkways/artwork/UNES08281.pdf",
+    "quote": "By the hsaing waing orchestra of Master Sein Tin Htay,",
+    "result": "near",
+    "why": "all 6 distinctive words within 359 characters"
+   },
+   {
+    "n": 48,
+    "kind": "near",
+    "url": "https://folkways.si.edu/news-and-press/unesco-collection-week-58-lyric-epic-and-everyday-life-in-myanmar-and-ethiopia",
+    "quote": "The seven dances",
+    "result": "no page",
+    "why": "HTTP 403"
+   }
+  ]
+ },
+ "kobzardumy": {
+  "alias": {
+   "Duma Pro Oleksiya Popovycha": "Duma Pro Oleksiya Popovycha with accompaniment",
+   "Black Sea Winds: The Kobzari of Ukraine": "BLACK SEA WINDS, THE KOBZARI OF UKRAINE"
+  },
+  "unverified": [
+   "Ostap Veresai: no sound recording of him was found on any fetched page (he is recalled as having died in 1890, before the cylinder work); he is not in the entries.",
+   "The brief's 'Kharkiv 1908 Kolessa expedition': the fetched Wikipedia page puts the 12th Archeological Congress (1902) in Kharkiv and Kolessa's invitation in 1908, but does not say where Kolessa recorded; no fetched page names Kharkiv for 1908.",
+   "Kolessa 1908 also recorded Opanas Slastion (Plach nevolnykiv) and Ostap Kalnyi, Antin Skoba, Petro Drevchenko (1909, Pro sestru i brata) per the Commons table; not all were put in the playlist to avoid near-duplicate subjects.",
+   "Julian Kytasty, Black Sea Winds tracks 'Cossack lament' and 'Fedir in the ditch' look like duma subjects (Fedir Bezridnyi) but the page does not say so.",
+   "Volodymyr Luciw, Ukrainian folk songs & dumy (Nash Format, 2009) has three tracks labelled Duma (Na smert' kozaka-bandurysta, Nevol'nyk, Burja na Chornomu mori), but they are bonus tracks by a concert singer; style not confirmed as kobzar duma, so left out.",
+   "No release with track titles was found for Taras Kompanichenko, Jurij Fedynsky, Mykola Budnyk, Eduard Drach or the Kyiv and Poltava kobzar guilds, though they are named as revival kobzari.",
+   "Heorhii Tkachenko (traditional kobzar recorded in the Soviet era) recalled but no recording found on a fetched page.",
+   "'Narodni dumy' (Nash Format, mp3) lists 32 duma titles but is read aloud by P. Panchuk, not sung; excluded.",
+   "Fetch failures: commons.wikimedia.org (Kolessa collection page) returned url_not_found, so a mirror was used; folkways-media.si.edu UNES08206 liner PDF returned client_error; uk.wikipedia.org pages for Думи / Дума (жанр) returned url_not_found; last.fm returned client_error; curl to en.wikipedia.org was blocked by the proxy."
+  ],
+  "dropped_by_h11": [
+   {
+    "role": "intro",
+    "artist": "F. Jarko",
+    "title": "Duma about Marussia of Bohuslav",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "album",
+    "artist": "Julian Kytasty",
+    "title": "Songs of Truth: Music and Song from the Kobzar Tradition of Ukraine",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "album",
+    "artist": "Various Artists",
+    "title": "Ukraine: Traditional Music",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "fits",
+    "artist": "F. Jarko",
+    "title": "Duma about Marussia of Bohuslav",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   }
+  ],
+  "claims_not_found": [
+   {
+    "n": 26,
+    "kind": "song",
+    "url": "https://folkways.si.edu/ukraine-traditional-music/world/music/album/smithsonian",
+    "quote": "Duma about Marussia of Bohuslav",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 27,
+    "kind": "fit",
+    "url": "https://folkways.si.edu/ukraine-traditional-music/world/music/album/smithsonian",
+    "quote": "Non-ritual songs include dumy, or historical and political songs, and lyric songs of love, family life, and lullabies.",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 28,
+    "kind": "album",
+    "url": "https://folkways.si.edu/ukraine-traditional-music/world/music/album/smithsonian",
+    "quote": "Duma about Marussia of Bohuslav",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 32,
+    "kind": "song",
+    "url": "https://folkways.si.edu/julian-kytasty/songs-of-truth",
+    "quote": "Captive’s Lament (Невільницький плач)",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 33,
+    "kind": "fit",
+    "url": "https://worldmusiccentral.org/?p=109751",
+    "quote": "Kytasty presents historical epics alongside philosophical songs, satire, and dance pieces.",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 34,
+    "kind": "album",
+    "url": "https://folkways.si.edu/julian-kytasty/songs-of-truth",
+    "quote": "This plucked-string instrument has become a symbol of Ukraine through its association with the deep tradition of the kobzari.",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 35,
+    "kind": "song",
+    "url": "https://www.pointculture.be/album/MU9615",
+    "quote": "The widow and her three sons",
+    "result": "no page",
+    "why": "URLError: <urlopen error [Errno 104] Connection reset by peer>"
+   },
+   {
+    "n": 36,
+    "kind": "song",
+    "url": "https://www.pointculture.be/album/MU9615",
+    "quote": "The brother and sister",
+    "result": "no page",
+    "why": "URLError: <urlopen error [Errno 104] Connection reset by peer>"
+   },
+   {
+    "n": 37,
+    "kind": "album",
+    "url": "https://www.pointculture.be/album/MU9615",
+    "quote": "interprète le répertoire de chants épiques (dumy) de manière contemporaine",
+    "result": "no page",
+    "why": "URLError: <urlopen error [Errno 104] Connection reset by peer>"
+   }
+  ]
+ },
+ "tarantella": {
+  "alias": {
+   "Salvatore Gambale and Giovanni Marino": "Salcatore Gambale and Giovanni Marino (Folkways album page tracklist; the liner-notes PDF spells Salvatore)",
+   "Tammuriata D'O Pepe": "Tammuriata D'O Pepe (kept as printed by the seller; standard Neapolitan would be 'Tammurriata d''o pepe', not normalised because that form was not seen on a page)",
+   "Tarantella D'a Fatica": "Tarantella D'a Fatica (kept as printed)",
+   "Pizzica De Sira": "Pizzica De Sira (label page capitalisation kept)",
+   "Officina Zoè": "Officina Zoé (spelling on debaser.it and sonicbids; the group uses Zoè)"
+  },
+  "unverified": [
+   "Release years of Canzoniere Grecanico Salentino's 'Canzoniere' and Officina Zoè's 'Terra' (both recalled as 1990s-2010s) were not on the fetched pages; yrs left null",
+   "Release year of Folkways 'Festa Italiana' not on the fetched page",
+   "Athanasius Kircher's 'Antidotum tarantulae' (Magnes, 1641) as the earliest notated tarantella: recalled; the L'Arpeggiata track list credits Kircher but no fetched page gave the date, so the 1600 window start rests on the tree, not on a cited page",
+   "Uccio Aloisi, Alla Bua, Antonio Infantino, Enzo Avitabile & I Bottari, E Zezi and Marcello Colasurdo recordings: searched once, no page tied a specific track to pizzica or tammurriata",
+   "La Notte della Taranta yearly live albums (Ludovico Einaudi 2010 'Taranta' project etc.): recalled, not fetched",
+   "Rossini 'La danza' (Soirées musicales, 1835) is subtitled 'Tarantella Napolitana' on AllMusic, but no recording by a named major singer (e.g. Pavarotti) was confirmed on a fetched page, so it was not used as a near-miss",
+   "Liszt 'Venezia e Napoli: Tarantella' recordings: not searched",
+   "Wikipedia pages (Tarantella, Nuova Compagnia di Canto Popolare) were read through a summariser; for NCCP the tool refused verbatim quotes, so its facts (founded Naples 1969 by Eugenio Bennato, Carlo D'Angiò and Giovanni Mauriello; tammurriate among genres researched with Roberto De Simone) are not used as sources",
+   "Direct raw-page fetches (en.wikipedia.org, api.discogs.com) through curl were refused by the session proxy; Discogs was therefore not used",
+   "Folkways vol. 5 track 'La Pizzica (Tarantella)' by a 'North-African orchestra from Pagani' exists on the page, but the notes call it 'pure North African music', so it was left out",
+   "Cultural Equity 'Puglia: The Salento' (Rounder, recorded 1954) page gave no track list; its pizzica tracks are unverified"
+  ],
+  "dropped_by_h11": [
+   {
+    "role": "peak",
+    "artist": "Salvatore Ida and his Orchestra",
+    "title": "A Mala Mugghieri (The Bad Wife) - Tarantella Calabrese",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "peak",
+    "artist": "Aiello and his Orchestra",
+    "title": "Cu Abballa Abballa (Tarantella Commandata)",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "album",
+    "artist": "Various Artists",
+    "title": "Italian Folk Music, Vol. 5: Naples and Campania",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   },
+   {
+    "role": "album",
+    "artist": "Various Artists",
+    "title": "Festa Italiana",
+    "why": "only Smithsonian Folkways/Folklife sources, which refuse scripts; left unverified until the owner runs the check (lead, H9 answer 3)"
+   }
+  ],
+  "claims_not_found": [
+   {
+    "n": 10,
+    "kind": "def",
+    "url": "https://propermusic.com/collections/felmay/products/tammurriatadiscafati-bum",
+    "quote": "The basis of the tammurriata, a folk dance from Southern Italy, is the sound of the tammorra, a giant tambourine/frame drum.",
+    "result": "no page",
+    "why": "HTTP 404"
+   },
+   {
+    "n": 13,
+    "kind": "size",
+    "url": "https://folkways.si.edu/folk-music-from-italy/world/album/smithsonian",
+    "quote": "Various tarantellas peppered throughout the recording reflect the musical characteristics of their respective regions.",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 27,
+    "kind": "album",
+    "url": "https://sonicbids.com/band/officinazoe",
+    "quote": "Con Sangue Vivo l'Officina Zoé mette a nudo le radici della pizzica",
+    "result": "no page",
+    "why": "HTTP 404"
+   },
+   {
+    "n": 31,
+    "kind": "song",
+    "url": "https://folkways.si.edu/italian-folk-music-vol5-naples-and-campania/world/album/smithsonian",
+    "quote": "Tarantella from Capri: Amore ca ce Struje",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 34,
+    "kind": "album",
+    "url": "https://folkways.si.edu/italian-folk-music-vol5-naples-and-campania/world/album/smithsonian",
+    "quote": "Tarantella (Accordion, Tambourine & Castanets)",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 35,
+    "kind": "song",
+    "url": "https://folkways.si.edu/festa-italiana-songs-and-dances/world/music/album/smithsonian",
+    "quote": "A Mala Mugghieri (The Bad Wife) - Tarantella Calabrese",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 36,
+    "kind": "song",
+    "url": "https://folkways.si.edu/festa-italiana-songs-and-dances/world/music/album/smithsonian",
+    "quote": "Cu Abballa Abballa (Tarantella Commandata)",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 37,
+    "kind": "album",
+    "url": "https://folkways.si.edu/festa-italiana-songs-and-dances/world/music/album/smithsonian",
+    "quote": "The album features the music of five dance styles: Tarantella, Quadrille, Mazurka, Waltz, and Stornelli.",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 38,
+    "kind": "fit",
+    "url": "https://propermusic.com/collections/felmay/products/tammurriatadiscafati-bum",
+    "quote": "Tammurriata Di Scafati",
+    "result": "no page",
+    "why": "HTTP 404"
+   },
+   {
+    "n": 39,
+    "kind": "song",
+    "url": "https://propermusic.com/collections/felmay/products/tammurriatadiscafati-bum",
+    "quote": "Tammuriata D'O Pepe",
+    "result": "no page",
+    "why": "HTTP 404"
+   },
+   {
+    "n": 40,
+    "kind": "song",
+    "url": "https://propermusic.com/collections/felmay/products/tammurriatadiscafati-bum",
+    "quote": "Tarantella D'a Fatica",
+    "result": "no page",
+    "why": "HTTP 404"
+   },
+   {
+    "n": 41,
+    "kind": "near",
+    "url": "https://adpprod1.library.ucsb.edu/index.php/matrix/refer/700007647",
+    "quote": "Tarantella, piano, op. 43, A♭ major",
+    "result": "no page",
+    "why": "URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>"
+   }
+  ]
+ },
+ "iraqimaqam": {
+  "alias": {
+   "Maqām Ḥusaynī": "Maḳām Ḥusaynī (All Night Flight); Makam Husayni (CREM, MusicBrainz)",
+   "Maqām Saygah": "Maḳām Saygah (All Night Flight); Makam Saygah (CREM); Makam Sayghah (MusicBrainz)",
+   "Maqām Manṣūrī": "Maqâm Mansûri",
+   "Maqām Ḥijāz Dīwān": "Maqâm Hidjâz Diwân",
+   "Maqām Bayāt": "Maqâm Bayât",
+   "Maqām Nawā": "Maqâm Nawâ",
+   "Maqam Al Sa'idi Hijaz / Habibi Rah wa Ma Janeh": "Maqam Al Sa’idi Hijaz / Habibi Rah wa Ma Janeh",
+   "Maqam Al Iraq / Dar al-Fikir wa al Amjad": "Maqam Al Iraq / Dar al‐Fikir wa al Amjad",
+   "Maqam Al Mansuri / Ya Dada Ya Sha'lan": "Maqam Al Mansuri / Ya Dada Ya Sha’lan",
+   "Iraq: Makamat": "Ensemble al tchalghi al Baghdadi et Yusuf Omar - Iraq - Makamat"
+  },
+  "unverified": [
+   "Muhammad al-Qubanchi: his 1932 Cairo Congress recordings exist (archive.org copy of the BnF 2015 reissue lists 'Toi aux paupières langoureuses' and 'C'est comme si midi était la nuit' credited to Muhammad al-Qubbânjî and Azzûrî al-Awwâd), but only French titles were seen; the Arabic titles and which maqam each is were not found, so no Qubanchi track is in the playlist. Qatar Digital Library captions name 78s 'Rāḥat Liyālī Al-Hanā' and 'Al Jawqa Al Iraqi min yawm forqak' without dates or genre (maqam vs song).",
+   "Yusuf Omar Inédit 1995 double CD: MusicBrainz also lists 'Maqâm Rest' (probably Rast) and \"Maqâm 'Adjam\"; left out because 'Rest' looks like a data-entry typo and was not checked against the CD. Recording dates for the Inédit tracks were not found (Omar died 1987; 1995 is the release year). The Cambridge Yearbook review page could not be fetched (URL too long for the fetch proxy).",
+   "Ocora OCR 79 (1972): the americacophony blog mentions a third piece, Hleilawi, on a later CD edition; not seen in a tracklist.",
+   "Hamid Al-Saadi Maqam Al-Iraq: track listing seen only on MusicBrainz; the Maqam Records Bandcamp page showed no releases and the Torn Light and AllMusic pages had no tracklist.",
+   "Farida: Classical Music of Iraq (1998) tracklist not found (Proper Music and AllMusic pages have none); her tracks here come from Mawal & Maqamat Iraqi (New Samarkand, 1999 per MusicBrainz). Proper Music lists a Music & Words title 'Mawal E Magamat Iragi' (2005) that is probably the same album.",
+   "Husayn al-A‘dhami tracks rest on a fan archive blog; the label releases (Maqams in Divine Enchantment, Felmay/Music & Words) had no tracklist or year on the fetched pages. Several more A‘dhami items on the blog (Maqam Panjigah 2004, Maqam Chahargah, Maqam Nahawand, Maqam Dasht, Maqam Khanabat c. 1995) were seen but not added.",
+   "Nazem al-Ghazali recorded some maqams (Wikipedia) but no specific maqam recording by him was seen; Fog El Nakhal is dated only 'released between 1947-1954', so its year is left null.",
+   "Salima Murad, Rashid al-Qundarchi, Najm al-Shaykhli, Abd al-Rahman Khader, Farida al-A'dhami, Maeda Nazhat: named as maqam singers on Wikipedia but no recordings checked within the call budget.",
+   "Discogs search API needs authentication and returned nothing; Discogs data used only for the one release ID found by web search.",
+   "Start year 1600 comes from the map node; sources only say roots in the Abbasid era (8th–13th centuries). No source for 1600 was found."
+  ],
+  "dropped_by_h11": [],
+  "claims_not_found": [
+   {
+    "n": 13,
+    "kind": "size",
+    "url": "https://www.qdl.qa/en/microtones-piano-and-muhammad-al-qubanshi-–-first-congress-arabic-music-and-early-recordings-iraq",
+    "quote": "The most recorded artist was the well-known Iraqi Maqam singer, Muhammad Al-Qubanshi (1900/01-1989).",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 15,
+    "kind": "album",
+    "url": "https://allnightflightrecords.com/products/ensemble-al-tchalghi-al-baghdadi-yusuf-%e1%bd%80mar-iraq-makamat",
+    "quote": "Ocora – OCR 79, Office de Radiodiffusion-Télévision Française (ORTF) – OCR 79",
+    "result": "not found",
+    "why": "words not on the page: ocora, office, radiodiffusion, television, francaise, ortf"
+   },
+   {
+    "n": 16,
+    "kind": "album",
+    "url": "https://www.allmusic.com/album/irak-les-maqams-de-bagdad-iraq-the-maquams-of-baghdad-mw0000957078",
+    "quote": "This disc is a re-release of a recording made in 1972",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 23,
+    "kind": "album",
+    "url": "https://felmay.it/catalogue/item.php?id=8328",
+    "quote": "Maqams in Divine Enchantment",
+    "result": "no page",
+    "why": "HTTP 404"
+   },
+   {
+    "n": 28,
+    "kind": "near",
+    "url": "https://www.discogs.com/Munir-Bashir-Irak-LArt-Du-Ûd-The-Art-Of-The-Ûd/release/9032500",
+    "quote": "Taqsîm En Maqâm Lâmî",
+    "result": "no page",
+    "why": "HTTP 403"
+   },
+   {
+    "n": 31,
+    "kind": "song",
+    "url": "https://allnightflightrecords.com/products/ensemble-al-tchalghi-al-baghdadi-yusuf-%e1%bd%80mar-iraq-makamat",
+    "quote": "B Maḳām Ḥusaynī 20:15",
+    "result": "not found",
+    "why": "words not on the page: makam, husayni, 15"
+   },
+   {
+    "n": 35,
+    "kind": "song",
+    "url": "https://allnightflightrecords.com/products/ensemble-al-tchalghi-al-baghdadi-yusuf-%e1%bd%80mar-iraq-makamat",
+    "quote": "A Maḳām Saygah 20:25",
+    "result": "not found",
+    "why": "words not on the page: makam, saygah"
+   },
+   {
+    "n": 50,
+    "kind": "song",
+    "url": "https://folkways.si.edu/news-and-press/unesco-collection-week-59-iraq-and-egypt-sounding-out-two-cultural-hubs",
+    "quote": "The first track, “Mukhalif,” is based on a maqam specific to Iraq.",
+    "result": "no page",
+    "why": "HTTP 403"
+   }
+  ]
+ }
+}
