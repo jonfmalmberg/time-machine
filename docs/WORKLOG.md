@@ -2,6 +2,12 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (the owner's check found a fault in the checker)
+
+- Owner looked at five pages himself. Results: the ca trù sentence reads "In 1997, for the first time" (the tool's "1997 year" is a rewording); the Bihu sentence is not on the page (no source); the Folkways track title is on the page as a link (the script cannot read that site); the MusicBrainz track title is on the page as a link; the control string is on its page.
+- The fourth contradicted the script, which had said "not found". Cause: MusicBrainz and last.fm give scripts a browser-check page with a normal status, and the script took it for the real page. So 27 of the 42 "not found" in the first report were false. Fixed in `tools/check_evidence.py`: bot-check pages are reported as unreadable, MusicBrainz is read through its open data interface, busy sites are retried slowly. Corrected figures: 63% found, 6% near, 3% not found, 28% unreadable; of readable pages 96% confirmed. Report corrected with a dated note.
+- The owner's five observations are now control cases (`tests/evidence_controls.json`, run with `python3 tests/evidence.py`); the script passes all six. Lesson recorded: a checker needs control cases seen by a person before its numbers are trusted.
+
 ## 2026-11-23 (two interface items from the owner)
 
 - Roadmap 7.10 added: light-mode versions of the globe and the tunnel, with no black background. Optional later feature recorded: the globe with sun or stars behind it and a shadow that follows the user's real time.

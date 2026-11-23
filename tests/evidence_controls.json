@@ -1,0 +1,9 @@
+{
+"controls": [
+ {"url": "https://en.wikipedia.org/wiki/Ca_tru", "quote": "In 1997, for the first time \"Trên đỉnh Phù Vân\" was made public by singer Mỹ Linh.", "expect": ["found"], "seen_by_owner": "2026-11-23: reads exactly this"},
+ {"url": "https://en.wikipedia.org/wiki/Ca_tru", "quote": "In 1997 year, for the first time \"Trên đỉnh Phù Vân\" was made public by singer Mỹ Linh.", "expect": ["near", "not found"], "seen_by_owner": "2026-11-23: the page has no word 'year' there; this is what the page-reading tool returned"},
+ {"url": "https://en.wikipedia.org/wiki/Bihu_dance", "quote": "Bihu is mentioned in the inscriptions of the 14th-century Chutia King Lakshminaryan as well.", "expect": ["not found"], "seen_by_owner": "2026-11-23: not on the page, no hit for 'laksh'"},
+ {"url": "https://folkways.si.edu/pipe-dances-with-viyanzi-flute-and-dance-songs-of-the-zaramo-people-from-dar-es-salaam-tanzania/world/music/album/smithsonian", "quote": "Mshatulo kwenda ovyo", "expect": ["no page"], "seen_by_owner": "2026-11-23: on the page, as a link; the site refuses scripts, so the script must say it could not read the page, never 'not found'"},
+ {"url": "https://musicbrainz.org/release/bb471909-8357-4b37-a2b4-3beab5a1fd77", "quote": "Maqam Al Sa’idi Hijaz / Habibi Rah wa Ma Janeh", "expect": ["found"], "seen_by_owner": "2026-11-23: on the page, as a link. The first version of the script said 'not found' because it was given a browser-check page"},
+ {"url": "https://www.fmq.fi/articles/the-gift-of-runo-singing", "quote": "the double album Minä, Paraske. Sinä, Arhippa.", "expect": ["found"], "seen_by_owner": "2026-11-23: on the page exactly"}
+]}
