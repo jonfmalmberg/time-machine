@@ -38,6 +38,7 @@ Read this before changing anything. The owner is Jon (GitHub `jonfmalmberg`).
 ## Code layout
 - `src/template.html`: markup, core styles, core script. `src/mods/NN_name.js|css`: feature modules, joined in file-name order; each script module runs in its own function and reaches the page's top-level names directly.
 - `data/*.json`: one file per key of the page's `DATA` object, one entry per line.
+- `data/tests.json`: one line per synthetic-listener test that has been run (country `iso` with years `y0`–`y1`, or genre `g`). The playlist panel reads it to show a test as done; add a line whenever a test is run.
 
 ## People
 - Issues the owner raises can be worked on directly. Issues from other users need the owner's approval first.

@@ -176,7 +176,7 @@ input[type=search]{font:13px var(--body);color:var(--fg);background:var(--panel)
 .wrap[data-view="journey"] .only-tmt,.wrap[data-view="me"] .only-tmt{display:none!important}
 .wrap[data-view="list"] .only-map,.wrap[data-view="data"] .only-map{display:none!important}
 .wrap[data-view="me"] .only-lj,.wrap[data-view="journey"] .only-lj{display:none!important}
-.wrap[data-view="list"] .stpanel,.wrap[data-view="journey"] .stpanel{display:none!important}
+.wrap[data-view="journey"] .stpanel{display:none!important}
 #map{position:relative;height:auto;min-height:0}
 #mapcv{display:block;width:100%;height:100%;touch-action:none;cursor:grab;border-radius:6px}
 .mapbtns{position:absolute;top:10px;left:10px;display:flex;gap:6px}
@@ -305,15 +305,15 @@ img.cv{width:100%;height:100%;object-fit:cover;display:block}
 <main class="content" id="content">
   <div class="stpanel" id="stpanel" hidden>
     <div class="sthead"><span class="label">You are in</span><b id="sthere"></b><span class="sp"></span><button id="stpclose" type="button" aria-label="Close">✕</button></div>
-    <label class="fine">How long you stay <select id="stspan"><option value="0">Just that year</option><option value="2">A few years</option><option value="5">A decade</option><option value="12">A lifetime</option></select></label>
-    <p class="fine">Change the place by clicking a country or city on the map, or a region chip.</p>
-    <p class="label">Alive here now: bold at their peak, faint rising or fading</p><div class="stchips" id="stpeaks"></div>
-    <p class="label">Copy-ready Spotify prompt <span class="mono" id="stlen"></span> <span id="stpmode"></span> <span id="stplang"></span></p><p class="fine" id="stsrc"></p>
+    <label class="fine stmo">How long you stay <select id="stspan"><option value="0">Just that year</option><option value="2">A few years</option><option value="5">A decade</option><option value="12">A lifetime</option></select></label>
+    <p class="fine stmo">Change the place by clicking a country or city on the map, or a region chip.</p>
+    <p class="label stmo">Alive here now: bold at their peak, faint rising or fading</p><div class="stchips stmo" id="stpeaks"></div>
+    <p class="fine" id="stgnote" hidden></p>
+    <p class="label" id="stplabel">Copy-ready Spotify prompt <span class="mono" id="stlen"></span> <span id="stpmode"></span> <span id="stplang"></span></p><p class="fine" id="stsrc"></p>
     <textarea id="stprompt" readonly rows="6"></textarea>
-    <div class="strow"><button class="lbtn" id="stcopy" type="button">Copy prompt</button><button class="lbtn" id="sttest" type="button" hidden>Test with a synthetic listener</button></div>
-    <div id="streqbox"></div>
+    <div class="strow"><button class="lbtn" id="stcopy" type="button">Copy prompt</button></div>
+    <div id="ststatus"></div>
     <div id="stlinks"></div>
-    <div id="stlisten"></div>
   </div>
   <div class="legend" id="legend" aria-label="Regions" hidden></div>
   <div class="keyline">
@@ -598,7 +598,7 @@ function listItem(id){
     ${d.near.length?`<p class="label">Close, but belongs elsewhere</p><ul class="near">${d.near.map(x=>`<li>${esc(x[0])} — “${esc(x[1])}” <span class="mono">${x[2]}</span> → ${goLink(x[3])}. ${esc(x[4])}</li>`).join('')}</ul>`:''}`
     :'<p class="fine">Pending: listed by name and placed on the tree, the map and the timeline. Its definition, reference tracks and playlist are still to come.</p>'}
     ${lookupLine(n.name,`${n.name} music ${n.place}`,`${n.name} music`)}
-    ${playlistBlock(id)}
+    <div class="strow gplrow"><button class="lbtn" type="button" data-gpl="${id}">Playlist</button><span class="fine">${PL[id]?ST[PL[id].status]:(d?'Prompt from the reference tracks':'Not researched yet')}</span></div>
   </div></details>`;
 }
 // list scope: what the list shows; 'family' = the selected genre, its parents and its children
@@ -608,7 +608,6 @@ function buildList(){
   body.innerHTML=LAY.bandOrder.map(b=>{ const ts=LAY.laneOrder[b]||[]; if(!ts.length) return '';
     return `<details class="lgroup" data-band="${b}"><summary><h3>${esc(bandName[b])} <span class="cnt"></span></h3></summary>`+ts.map(t=>{ const ids=TRADM[t].slice().sort((x,y)=>byId[x].year-byId[y].year);
       return `<div class="ltrad">${ids.length>1?`<h4>${esc(TRADN[t])} <span class="tspan">${fmtYear(TSTART[t])} – ${TEND[t]==null?'today':TEND[t]}</span></h4>`:''}${ids.map(listItem).join('')}</div>`; }).join('')+'</details>'; }).join('');
-  body.querySelectorAll('.plcopy').forEach(b=>b.onclick=()=>{ const t=promptFor(b.dataset.id); copyText(b,t,b.previousElementSibling); logCopy('genre',{id:b.dataset.id,lang:useLang(langOfMovement(b.dataset.id))||'en',prompt:t}); });
   body.querySelectorAll('a[data-go]').forEach(a=>a.onclick=e=>{ e.preventDefault(); const id=a.dataset.go; select(id); if(listScope!=='all') filterList(); goTo(id); });
   body.querySelectorAll('details.gitem').forEach(d=>d.addEventListener('toggle',()=>{ if(d.open && selected!==d.dataset.id) select(d.dataset.id); }));
   filterList();
@@ -686,20 +685,28 @@ function promptFor(id){
 }
 const plStatus=id=>(PL[id]&&PL[id].status)||'thin';
 const ST={full:'Full playlist',thin:'Thin: few recordings',none:'No playlist: listen to albums'};
-function playlistBlock(id){
-  const pl=PL[id]; if(!pl) return '';
+/* The playlist panel has two modes: a place and time (the moment), or one genre. GP is the genre shown, or null. */
+let GP=null;
+function stStatus(){}   // research and listener-test rows; filled in by src/mods/07_requests.js
+function openGenrePlaylist(id){ if(!byId[id]) return; GP=id; stPanelOpen=true; stBarUI(); stPanelUpdate(); const p=document.getElementById('stpanel'); if(p) p.scrollTop=0; }
+function closeGenrePlaylist(){ if(GP==null) return; GP=null; stPanelOpen=false; SEEDSIG=''; stBarUI(); }
+document.addEventListener('click',e=>{ const b=e.target.closest&&e.target.closest('[data-gpl]'); if(!b) return; e.preventDefault(); openGenrePlaylist(b.dataset.gpl); });
+function stMode(){ const g=GP!=null; document.querySelectorAll('#stpanel .stmo').forEach(x=>x.hidden=g); document.getElementById('stpanel').dataset.mode=g?'genre':'moment'; return g; }
+function genrePanel(){
+  const id=GP, n=byId[id], d=DEFS[id], pl=PL[id], can=!!d&&!(pl&&pl.status==='none'), $=k=>document.getElementById(k);
+  stMode(); $('sthere').textContent=n.name;
+  const gn=$('stgnote'); gn.hidden=false;
+  gn.innerHTML=`${esc(d?d.window:fmtYear(n.year))} · ${esc(n.place)}`+(d?` · <b>${pl?ST[pl.status]:'Prompt from the reference tracks'}</b>${pl&&pl.note?'. '+esc(pl.note):''}`:' · <b>Pending</b>: no definition, reference tracks or playlist yet.');
+  $('stplabel').hidden=!can; $('stprompt').hidden=!can; $('stcopy').hidden=!can; $('stsrc').innerHTML=''; $('stpmode').innerHTML='';
+  if(can){ const txt=promptFor(id); $('stprompt').value=txt; $('stlen').textContent=`${txt.length} characters`;
+    $('stplang').innerHTML=plangToggle(langOfMovement(id))+namesToggle(!!pl&&hasTwoForms([...pl.intro,...pl.peak])); } else $('stprompt').value='';
   const li=xs=>xs.map(x=>`<li><span>${esc(x[0])} — ${esc(x[1])}</span> ${lkBtn(x[0],x[1])}</li>`).join('');
-  const n=(pl.intro.length+pl.peak.length);
-  const txt=promptFor(id);
-  return `<details class="pl pl-${pl.status}"><summary><span class="label">Playlist</span><span class="plst">${ST[pl.status]}</span>${n?`<span class="gmeta">${n} tracks</span>`:''}</summary>
-    <div class="plbody">
-    ${pl.note?`<p class="fine">${esc(pl.note)}</p>`:''}
-    ${pl.intro.length?`<div><p class="label">Intro</p><ol>${li(pl.intro)}</ol></div>`:''}
-    ${pl.peak.length?`<div><p class="label">Peak</p><ol>${li(pl.peak)}</ol></div>`:''}
-    ${pl.albums&&pl.albums.length?`<div><p class="label">Albums to listen to instead</p><ul>${pl.albums.map(a=>`<li><span>${esc(a[0])} — <i>${esc(a[1])}</i></span> ${lkBtn(a[0],a[1])}</li>`).join('')}</ul></div>`:''}
-    ${pl.fold&&byId[pl.fold]?`<p class="fine">For a playable mix of this sound, use the playlist for ${goLink(pl.fold)}.</p>`:''}
-    ${pl.status!=='none'?`<div><p class="label">Copy-ready Spotify prompt <span class="mono"><span data-pidlen="${id}">${txt.length}</span> characters</span> ${plangToggle(langOfMovement(id))}${namesToggle(hasTwoForms([...pl.intro,...pl.peak]))}</p><textarea readonly rows="7" data-pid="${id}">${esc(txt)}</textarea><button class="lbtn plcopy" type="button" data-id="${id}">Copy prompt</button></div>`:''}
-    </div></details>`;
+  const sec=(t,xs,tag,body)=>xs&&xs.length?`<details class="seedl" open><summary class="fine"><b>${t} (${xs.length})</b></summary><${tag}>${body||li(xs)}</${tag}></details>`:'';
+  $('stlinks').innerHTML=(pl?sec('Intro',pl.intro,'ol')+sec('Peak',pl.peak,'ol')+sec('Albums to listen to instead',pl.albums,'ul',pl.albums&&pl.albums.map(a=>`<li><span>${esc(a[0])} — <i>${esc(a[1])}</i></span> ${lkBtn(a[0],a[1])}</li>`).join(''))
+      +(pl.fold&&byId[pl.fold]?`<p class="fine">For a playable mix of this sound, use the playlist for <button class="lbtn" type="button" data-gpl="${pl.fold}">${esc(byId[pl.fold].name)}</button></p>`:'')
+    :(d&&d.fits.length?sec('Reference tracks',d.fits,'ol',d.fits.map(f=>`<li><span>${esc(f[0])} — ${esc(f[1])}</span> ${lkBtn(f[0],f[1])}</li>`).join('')):''))
+    +lookupLine(n.name,`${n.name} music ${n.place}`,`${n.name} music`);
+  SEEDSIG=''; stStatus();
 }
 function copyText(btn,t,ta){ const ok=()=>{ const o=btn.textContent; btn.textContent='Copied'; setTimeout(()=>btn.textContent=o,1400); };
   const fb=()=>{ if(ta){ ta.focus(); ta.select(); } btn.textContent='Selected: press Ctrl/Cmd+C'; };
@@ -1059,7 +1066,7 @@ function buildLegend(){
 }
 const VIEWS=['tree','map','tunnel','list','journey','data','me'], VIEWHOOK={};
 function showView(v){
-  document.querySelector('.wrap').dataset.view=v; closePop();
+  document.querySelector('.wrap').dataset.view=v; closePop(); if(GP!=null&&v!=='list') closeGenrePlaylist();
   VIEWS.forEach(k=>{ document.getElementById('view-'+k).hidden=k!==v; document.getElementById('tab-'+k).setAttribute('aria-selected',String(k===v)); }); { const tt=document.getElementById('tab-'+v), vt=document.getElementById('vtitle'); if(tt&&vt) vt.textContent=tt.dataset.title; }
   if(VIEWHOOK[v]){ try{ VIEWHOOK[v](); }catch(e){ console.error(e); } }
   if(v==='map'){ buildMap(); if(selected) setTimeout(()=>mapFocus(selected),40); }
@@ -1201,7 +1208,7 @@ function stBarUI(){
   document.getElementById('stback').setAttribute('aria-pressed',String(stPlay<0));
   document.getElementById('stfwd').setAttribute('aria-pressed',String(stPlay>0));
   document.getElementById('stmoment').setAttribute('aria-pressed',String(stPanelOpen));
-  document.getElementById('stpanel').hidden=!(STON&&stPanelOpen&&['tree','map','tunnel'].includes(curView()));
+  document.getElementById('stpanel').hidden=GP!=null?!(stPanelOpen&&curView()==='list'):!(STON&&stPanelOpen&&['tree','map','tunnel'].includes(curView()));
 }
 // one loop drives time, the tree, the map and the tunnel
 function stApply(){ stCompute(); stBarUI(); WL=worldline(selected); stKick(); if(curView()==='map') requestMapDraw(); stPanelUpdate(); if(curView()==='list') filterList(); FHOOKS.forEach(f=>{ try{ f(); }catch(e){} }); }
@@ -1327,7 +1334,9 @@ function stPrompt(){
   return {txt,cands,era,seeds:list};
 }
 function stPanelUpdate(){
+  if(GP!=null){ if(stPanelOpen) genrePanel(); return; }
   if(!STON||!stPanelOpen) return;
+  stMode(); { const $=k=>document.getElementById(k); $('stgnote').hidden=true; $('stplabel').hidden=false; $('stprompt').hidden=false; $('stcopy').hidden=false; }
   const pr0=stPrompt(), {txt,cands}=pr0;
   document.getElementById('sthere').textContent=`${placeName()||'Everywhere'} · ${stWhen()}`;
   const chips=cands.slice(0,18);
@@ -1342,8 +1351,7 @@ function stPanelUpdate(){
     +(STP&&iso&&SAMPLE&&DB?` <label class="fine fillsw"><input type="checkbox" id="stfill"${FILL?' checked':''}> Fill gaps with AI drafts</label>`:'');
   const fb=document.getElementById('stfill'); if(fb) fb.onchange=()=>{ FILL=fb.checked; try{ localStorage.setItem('wmft-fill',FILL?'on':'off'); }catch(e){} stPanelUpdate(); };
   stLinks(pr); maybeFill(); logTravel();
-  const rq=document.getElementById('streqbox'); if(rq){ rq.innerHTML=researchLine(); const rb=document.getElementById('streq'); if(rb) rb.onclick=askResearch; }
-  document.getElementById('sttest').hidden=!SAMPLE;
+  stStatus();
 }
 
 /* ---------- time tunnel: the past recedes toward a point of light at the centre, what is at its peak rides the rim ---------- */
@@ -1497,7 +1505,7 @@ function teleport(fresh){
   const save=[STP,STYf,STFROM,STSPAN]; STP=dest.place; setYear(dest.y); setStay(0); const target=(stCands()[0]||{}).id||null; STP=save[0]; setYear(save[1]); STFROM=save[2]; STSPAN=save[3];
   cap.innerHTML=`<span>${fmtY(dest.y)}</span><b>${esc(placeName(dest.place))}</b>`;
   if(!reduce){ fl.hidden=false; fl.classList.remove('go'); void fl.offsetWidth; fl.classList.add('go'); setTimeout(()=>{ fl.hidden=true; },1900); }
-  stopPlay(); setStay(0); FTM='heard'; FPL='heard'; STP=dest.place; stPanelOpen=true; syncLegend();
+  stopPlay(); setStay(0); FTM='heard'; FPL='heard'; STP=dest.place; GP=null; stPanelOpen=true; syncLegend();
   const dur=reduce?10:(v==='tree'?2600:2400);
   let anchor=selected; if(!anchor&&v==='tree'){ const H=box().clientHeight, W=box().clientWidth; let best=1e9; Object.keys(nodeEls).forEach(id=>{ const d=Math.hypot(SX(id)-W/2,SY(id)-H/2); if(d<best){ best=d; anchor=id; } }); }
   TP={t0:performance.now(),dur,u0:stU,u1:U(dest.y),view:v,target,path:v==='tree'&&target?graphPath(anchor,target):null,s0:s,s1:Math.max(s,1.8)};
@@ -1527,13 +1535,13 @@ function tpStep(ts){
   document.getElementById('stfwd').onclick=()=>dir(1);
   document.getElementById('stspeed').onchange=e=>{ stMult=+e.target.value; };
   document.getElementById('stspan').onchange=e=>{ setStay(e.target.value,STFROM); stApply(); };
-  document.getElementById('stmoment').onclick=()=>{ stPanelOpen=!stPanelOpen; stBarUI(); stPanelUpdate(); };
-  document.getElementById('stpclose').onclick=()=>{ stPanelOpen=false; stBarUI(); };
+  document.getElementById('stmoment').onclick=()=>{ if(GP!=null){ closeGenrePlaylist(); stPanelOpen=true; } else stPanelOpen=!stPanelOpen; stBarUI(); stPanelUpdate(); };
+  document.getElementById('stpclose').onclick=()=>{ GP=null; SEEDSIG=''; stPanelOpen=false; stBarUI(); };
   const testInfo=()=>{ const [y0,y1]=stRange(), pr=stPrompt(); return {place:placeName()||'the world',iso:placeIso(),year:STY,span:STSPAN,when:stWhen(),end:y1,mode:PMODE,lang:useLang(langOfPlace())||'en',era:pr.era,prompt:document.getElementById('stprompt').value}; };
   document.getElementById('stcopy').onclick=async e=>{ copyText(e.currentTarget,document.getElementById('stprompt').value,document.getElementById('stprompt'));
+    if(GP!=null){ logCopy('genre',{id:GP,lang:useLang(langOfMovement(GP))||'en',prompt:document.getElementById('stprompt').value}); return; }
     if(!STP) return; const info=testInfo(); if(info.prompt===LASTCOPY||REVIEWS.has(info.prompt)||PENDING.has(info.prompt)){ LASTCOPY=info.prompt; runListener(null,info); return; }
     LASTCOPY=info.prompt; const ref=await logCopy('moment',info); runListener(ref,info); };
-  document.getElementById('sttest').onclick=async()=>{ const info=testInfo(); if(REVIEWS.has(info.prompt)||PENDING.has(info.prompt)){ runListener(null,info); return; } const ref=await logCopy('test',info); runListener(ref,info); };
   document.getElementById('rolltp').onclick=()=>teleport(false);
   document.getElementById('rolltpnew').onclick=()=>teleport(true);
   const cv=document.getElementById('tunnel');

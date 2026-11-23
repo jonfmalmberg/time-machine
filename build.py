@@ -11,7 +11,7 @@ DATA = os.path.join(ROOT, 'data')
 OUT = os.path.join(ROOT, 'dist')
 
 # Order of the keys in the page's DATA object. One file per key in data/.
-KEYS = ['era', 'yearl', 'ysrc', 'langs', 'isoLang', 'cityLang', 'st', 'cnt', 'iso',
+KEYS = ['tests', 'era', 'yearl', 'ysrc', 'langs', 'isoLang', 'cityLang', 'st', 'cnt', 'iso',
         'neAlias', 'cities', 'regions', 'bands', 'nodes', 'layout', 'scores',
         'playlists', 'known', 'done', 'indoc', 'edges', 'tier', 'trad', 'tradOf',
         'ends', 'defs', 'notes', 'method']
