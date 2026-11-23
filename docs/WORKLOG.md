@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (release 3; the evidence rule)
+
+- Owner approved release of `dev` to the live site, provided `dev` is in a consistent state. Checked: all tests pass, the helper candidates are in `work/` only and not in the site's data, no database change is pending. `main` moved to `dev`.
+- Owner on the evidence results: they are poor, and made-up data cannot be in the database. He suggested comparing what the agent's default tool returns for a known page with the page itself. Done by the lead on one failing claim: the Wikipedia article on ca trù reads "In 1997, for the first time ...", and the page-reading tool, asked for that sentence character for character, returned "In 1997 year, for the first time ...". So the tool rewords, and a quote taken through it is not evidence. A second failing claim (a sentence about a 14th-century inscription, cited to the article "Bihu dance") is on neither that article nor "Bihu": it has no source.
+- Rule written into `CLAUDE.md` and `work/README.md`: nothing enters the data as sourced unless the check script finds its string on its page; researchers copy strings from raw page text fetched from the shell, run the script themselves, and hand back only what it finds. Sites that refuse scripts are not worked around (Smithsonian Folkways answers with a bot check even to a real browser); the same fact is looked for on a readable page.
+- Stated plainly for the record: the data already on the site predates this rule and has no evidence strings, so by the rule it is unverified. Roadmap 2.15.
+
 ## 2026-11-23 (cards provisionally accepted; prominence is still wrong)
 
 - Owner: the status cards look good provisionally, no faults in a brief check; "provisionally" means the tiers must reach the schema and the cards, and both must be on the roadmap and the tracker. Squash-merged to `dev`. Added as roadmap 2.14 (tiers and size estimates stored on scopes) and 7.9 (cards show the tier reached and each scope's own standard).

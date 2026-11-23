@@ -37,6 +37,7 @@ The app only succeeds if it feels good to use. Rules here are a floor; the visio
 - Stay on free plans with no payment card, so no bill is possible.
 
 ## Data and profiles
+- **No made-up data.** Nothing enters `data/` as sourced unless `python3 tools/check_evidence.py` finds its recorded string on its recorded page. A claim that cannot be checked (the site refuses scripts, the page is gone) stays out, or is stored marked unverified and is never shown as sourced. A model's reading of a page is not evidence: quotes are copied from the raw page text.
 - A profile holds the minimum. Saved history points at site data by stable key (country code, city key `ISO:name`, region id, genre id), never by copied name or list position.
 
 ## Look and feel

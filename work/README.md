@@ -27,6 +27,16 @@ Scheduled helper runs put everything they produce here, and nowhere else. Nothin
 - Invent. Every song, date and claim carries the address of the source it was read from the exact string on that page that supports it (the chart row or the sentence, copied character for character, never paraphrased), and the date it was read. The string is checked against the page later by a script, and it is the evidence that remains if the site disappears. Something recalled but not found in a source is listed separately as unverified.
 - Put a person's email address or any secret key anywhere.
 
+## Evidence: how a researcher records a source
+
+The owner's rule: no made-up data in the database. A first check of two genre batches found that the page-reading tool returns reworded text even when asked for a quote character for character (the page says "In 1997, for the first time"; the tool returned "In 1997 year, for the first time"), and that at least one quoted sentence was on no page at all. So:
+
+1. Use search and the page-reading tool only to **find** pages. Never take a quote from them.
+2. For every claim, fetch the page yourself from the shell (`curl -sL -A "time-machine-research/1" <address>`; `pdftotext` for PDFs) and copy the supporting string from that raw text, character for character.
+3. Before handing back, run `python3 tools/check_evidence.py <your sources.json> --out <your folder>/evidence-check.json` and include the output file.
+4. Only claims with the result `found` go into your `defs.add.json` and `playlists.add.json`. Everything else goes into `unverified.json` with the script's result and reason. A shorter true list is the right outcome.
+5. If a site refuses scripts (Smithsonian Folkways does), look for the same fact on a page a script can read: the album's liner-note PDF, a library or archive catalogue record, the MusicBrainz API (`https://musicbrainz.org/ws/2/...?fmt=json`, one request a second). Do not try to get around a site's bot check.
+
 ## Models
 
 Usage is limited, so the model is chosen per kind of work and recorded every time.
