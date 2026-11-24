@@ -96,7 +96,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Model, ask, hand back:** as H16 with `artists.B.json` and the key `"B"`.
 
 ## H18. Where chart artists are from: batch C (Americas outside the United States, Oceania, Asia, Africa)
-- **State:** open
+- **State:** handed back 2026-11-24
 - **Model, ask, hand back:** as H16 with `artists.C.json` and the key `"C"`. Many of these artists have their fullest article in Spanish or Portuguese: use it when the English one is missing or silent on origin.
 
 ## H19. Where chart artists are from: batch D (United States year-end charts)
