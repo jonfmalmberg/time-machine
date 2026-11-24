@@ -97,6 +97,11 @@ Milestone 0 comes first because everything else depends on being able to see and
 - 2.17 Charts from Wikipedia's list pages (`DECISIONS.md` D16): read about 1,170 pages by script into candidates; ingest step for place-and-time lists with chart position; then the release-year check over the new songs.
 - 2.17a `dev` Chart ingest (`DECISIONS.md` D22): rows checked against the live page enter as `charted` year lists. Remaining: the pages not yet read (United Kingdom top tens, Oricon, Billboard number ones), weeks at number one, decade pages whose rows carry no year.
 - 2.17b Where chart artists are from (helpers H16 to H19), then `charted` becomes `home` or `foreign` and "Made there" works for these lists.
+- 2.17c Chart sources for the 185 countries without year lists, most populous first (helper H23; `docs/research/2026-11-24-data-quality.md`).
+- 2.17d Weeks at number one and peak position from the pages already read; order chart lists by them.
+- 2.19 Combine step: a link records its source table; the master list for a country-year is built from all its tables by a stated rule (`DECISIONS.md` D30).
+- 2.20 Shape test for every text field in `tests/data.py` (debris from tables, sentences where a name should be).
+- 2.21 Split chart credits with the links the origin helpers read; merge spelling variants.
 - 2.18 Load a country's lists on demand instead of carrying every list in the page.
 
 **Done when:** the schema, regions and weights are approved, the data has moved, and both kinds of test run from the registry.
@@ -134,6 +139,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 - 5.3 Build whichever 5.2 concludes, after review.
 - 5.3a `review` Essential or Popular: with one genre as the genre filter, the playlist holds either the genre's own hand-picked songs (Essential) or what was most heard in the chosen place and time (Popular). Set in the genre filter; place and time chips are greyed while Essential is shown. This is the "switch on the shared filter" of 5.2, built ahead of the report at the owner's request.
 - 5.3b Map chart songs to genres, so Popular with a genre filter shows that genre's hits and not every hit of the place and time. Needs a genre on each chart song (today they carry only a loose "scene" word). Depends on 2.16 and 2.17.
+  Plan: `docs/research/2026-11-24-data-quality.md`, "Genres for chart songs"; first data from helper H25.
 - 5.3c Essential songs follow the time filter: a year on every essential song (many have none, see 2.16), then Essential narrowed to the chosen years, with a clear state when the years leave nothing.
 - 5.4 Proposal, then build: selecting a country, a city or a genre on the map without the current overlap.
 - 5.5 List view arrives at the genre's heading, with the main actions at the top and the prompt text lower down.
@@ -199,7 +205,8 @@ Milestone 0 comes first because everything else depends on being able to see and
 ## 9. Journeys
 
 - 9.0 `dev` The course, version 1: eleven chapters by era in the Journey tab (`DECISIONS.md` D25; proposal `docs/proposals/2026-11-24-journeys-and-course.md`).
-- 9.0a Course version 2: a sourced paragraph per chapter; thread chapters; a check at the end of a chapter.
+- 9.0a `dev` Course lectures: a thesis and a lecture per chapter, shown as not yet checked (`DECISIONS.md` D29). Source check: helper H24.
+- 9.0b Thread chapters; a check at the end of a chapter.
 
 **Goal:** journeys people can set up without irritation and that deliver what they promise.
 **Why:** entry is the first barrier; the course is a list, not a course; discovery has not earned its place.

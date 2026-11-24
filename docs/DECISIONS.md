@@ -4,6 +4,16 @@ The lead's standing choices: what was decided, why, and what is not known. One e
 
 ## 2026-11-23
 
+### D30. Source tables are kept; the master list for a country-year is a recorded choice (owner's rule, restated 24 Nov)
+- **Rule:** each source's table stays as researched; the master table combines them; a conflict is re-researched, reconciled or decided, and the decision is written down.
+- **State:** chart rows are kept whole in `work/2026-11-24-wikicharts/`. Where an older researched list existed for a country-year, it stands and the chart rows were not shown; the two were not compared. The combine step is not built. Details and targets: `docs/research/2026-11-24-data-quality.md`.
+
+### D29. The course has lectures, written as prose and marked until checked (owner, 24 Nov)
+- **Choice:** `data/course.json` holds a thesis for the course and one lecture per chapter: a title, the session's question, three or four paragraphs. The connecting idea is that four things move music (people, patrons, machines, other music) and the question "who could hear this, and how did it reach them". A lecture names the genres it discusses and those become the chapter's stops, in the order named; the significance ranking only fills the remaining places.
+- **Why (owner):** teach it as a professor would in a sit-down course: the connecting perspective, not one story per genre.
+- **How it squares with "no made-up data":** the lectures are the lead's writing from general knowledge, not sourced data, and are shown with a notice saying so. Helper assignment H24 classes every factual sentence against sources; wrong and too-strong sentences are corrected, and `status` becomes `checked` chapter by chapter. Statements were kept to dates and events that are widely documented.
+- **Supersedes** D25's "no prose story".
+
 ### D28. "Made there" for a chart song follows the first-named artist (lead, 24 Nov)
 - **Choice:** a chart link is `home` when the first-named artist of the credit is recorded as from that country, `foreign` when recorded as from elsewhere, `charted` when there is no record. A person with two recorded countries counts for both. Featured guests do not decide. A list taken from a chart keeps chart order for "Heard there" whatever the roles (the scope carries `basis: chart`); "Made there" shows its home songs in the same order.
 - **Why:** one rule a visitor can predict; a collaboration belongs first to the act it is credited to.

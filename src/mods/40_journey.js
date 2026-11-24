@@ -284,21 +284,32 @@ function course(){ if(CZ) return CZ;
   CZ=CERA.map(([a,b,title],i)=>{ const c=N.filter(n=>n.year>=a&&n.year<b&&ok(n)).sort(rank), pick=[], cr={}, ct={};
     for(const n of c){ if(pick.length>=CPER) break; const t=TRAD_OF[n.id]||n.id; if((cr[n.reg]||0)>=2||ct[t]) continue; pick.push(n); cr[n.reg]=(cr[n.reg]||0)+1; ct[t]=1; }
     for(const n of c){ if(pick.length>=Math.min(CPER,3)) break; if(!pick.includes(n)) pick.push(n); }   // a thin era still gets up to three
-    return {i,title,ids:pick.sort(chron).map(n=>n.id),pool:c.length}; }).filter(ch=>ch.ids.length);
+    const lec=((DATA.course||{}).chapters||[]).find(x=>x.era&&x.era[0]===a)||null;
+    // a lecture sets its own syllabus: the genres it names come first, in the order named; the ranking fills up to six
+    if(lec){ const by={}; N.forEach(n=>{ by[n.name.toLowerCase()]=n; }); const named=[]; lec.p.join(' ').replace(/\[\[([^\]|]+)/g,(m,nm)=>{ const n=by[nm.toLowerCase()]; if(n&&ok(n)&&!named.includes(n)) named.push(n); return m; });
+      if(named.length){ const rest=pick.filter(n=>!named.includes(n)); return {i,title,lec,ids:[...named,...rest.slice(0,Math.max(0,CPER-named.length))].map(n=>n.id),pool:c.length}; } }
+    return {i,title,lec,ids:pick.sort(chron).map(n=>n.id),pool:c.length}; }).filter(ch=>ch.ids.length);
   return CZ; }
+/* lecture prose: [[Genre name]] or [[Genre name|shown text]] becomes a link when a genre of that name is on the tree */
+let NBY=null;
+function czProse(t){ if(!NBY){ NBY={}; N.forEach(n=>{ NBY[n.name.toLowerCase()]=n.id; }); }
+  return String(t).split(/(\[\[[^\]]+\]\])/).map(x=>{ const m=/^\[\[([^\]|]+)(?:\|([^\]]+))?\]\]$/.exec(x); if(!m) return esc(x); const id=NBY[m[1].toLowerCase()]; return id?`<a href="#journey" data-czrel="${id}">${esc(m[2]||m[1])}</a>`:esc(m[2]||m[1]); }).join(''); }
+const czNote=()=>{ const c=DATA.course||{}; return c.status==='checked'?'':`<p class="czunv">${UI.ic('info')}<span>Lecture notes written by Claude from general knowledge. They have not yet been checked against sources; a check is under way and corrections will be made here.</span></p>`; };
 const czDone=(id,pp)=>!!J.done['g:'+id]||pp.hg.has(id);
 const czWhere=id=>course().findIndex(ch=>ch.ids.includes(id));
 function courseHtml(){ const C=course(), pp=people(), ch=J.course.ch!=null?C[J.course.ch]:null;
   const total=C.reduce((s,c)=>s+c.ids.length,0), doneAll=C.reduce((s,c)=>s+c.ids.filter(id=>czDone(id,pp)).length,0);
   if(!ch){ const next=C.find(c=>c.ids.some(id=>!czDone(id,pp)));
-    return `<div class="czhead"><div class="czbar"><i style="width:${total?Math.round(100*doneAll/total):0}%"></i></div><p class="fine"><b>${doneAll}</b> of ${total} stops heard · ${C.length} chapters</p></div>
+    const TH=(DATA.course||{}).thesis||[];
+    return (TH.length?`<div class="czlec czth">${TH.map(x=>`<p>${czProse(x)}</p>`).join('')}${czNote()}</div>`:'')+`<div class="czhead"><div class="czbar"><i style="width:${total?Math.round(100*doneAll/total):0}%"></i></div><p class="fine"><b>${doneAll}</b> of ${total} stops heard · ${C.length} chapters</p></div>
       <div class="rows czlist">${C.map((c,k)=>{ const d=c.ids.filter(id=>czDone(id,pp)).length, all=d===c.ids.length;
-        return `<button type="button" class="rowb czch${all?' all':''}" data-czch="${k}"><span class="cznum">${all?UI.ic('check'):k+1}</span><span class="rmain"><b>${esc(c.title)}</b><small>${esc(c.ids.map(id=>byId[id].name).join(' · '))}</small></span><span class="czcount">${c===next&&d<c.ids.length?`<i class="czgo">${d?'Continue':'Start'}</i>`:`${d}/${c.ids.length}`}</span><span class="rchev">${UI.ic('chev')}</span></button>`; }).join('')}</div>
+        return `<button type="button" class="rowb czch${all?' all':''}" data-czch="${k}"><span class="cznum">${all?UI.ic('check'):k+1}</span><span class="rmain"><b>${esc(c.lec?c.lec.title:c.title)}</b><small>${c.lec?`<em>${esc(c.title)}</em> · `:''}${esc(c.ids.map(id=>byId[id].name).join(' · '))}</small></span><span class="czcount">${c===next&&d<c.ids.length?`<i class="czgo">${d?'Continue':'Start'}</i>`:`${d}/${c.ids.length}`}</span><span class="rchev">${UI.ic('chev')}</span></button>`; }).join('')}</div>
       <p class="fine">Chapters are eras; a stop belongs to the era it began in. The year of an oral tradition is when it is first attested: the music is older. Stops are picked by the significance scores in the data, at most two per region in a chapter.</p>`; }
   const k=J.course.ch, d=ch.ids.filter(id=>czDone(id,pp)).length;
   const rel=(label,ids)=>ids.length?`<span class="czrel"><em>${label}</em> ${ids.map(x=>`<a href="#journey" data-czrel="${x}">${esc(byId[x].name)}</a>`).join(', ')}</span>`:'';
   return `<div class="cztop"><button type="button" class="lbtn" data-czch="-1">${UI.ic('chev')}<span>Chapters</span></button><span class="fine">${d} of ${ch.ids.length} heard</span></div>
-    <h3 class="cztitle"><small>Chapter ${k+1}</small>${esc(ch.title)}</h3>
+    <h3 class="cztitle"><small>Chapter ${k+1} · ${esc(ch.title)}</small>${esc(ch.lec?ch.lec.title:ch.title)}</h3>
+    ${ch.lec?`<div class="czlec"><p class="czq">${esc(ch.lec.q)}</p>${ch.lec.p.map(x=>`<p>${czProse(x)}</p>`).join('')}${czNote()}</div><p class="czlab czstops">The stops for this session</p>`:''}
     ${ch.ids.map((id,j)=>{ const n=byId[id], D=DEFS[id], done=czDone(id,pp), par=(n.parents||[]).filter(x=>byId[x]).slice(0,3), kids=N.filter(x=>(x.parents||[]).includes(id)).sort((a,b)=>SC[b.id][0]-SC[a.id][0]).slice(0,3).map(x=>x.id);
       return `<article class="czs${done?' done':''}" data-czs="${id}"><header><span class="czn">${j+1}</span><span class="czt"><b>${esc(n.name)}</b><small><i class="jdot" style="background:${regColor(n.reg)}"></i>${esc(D.window||fmtY(n.year))} · ${esc(n.place)}</small></span><button type="button" class="cztick" data-cztick="${id}" aria-pressed="${done}" aria-label="${done?'Heard':'Mark as heard'}">${UI.ic('check')}</button></header>
         <p class="czsound">${esc(D.sound)}</p>
@@ -361,7 +372,7 @@ function render(){ try{ state(); if(!root.querySelector('#j4list')){
       root.innerHTML=`<div class="seg j4kind" role="group" aria-label="Kind of journey">${KINDS.map(([k,l])=>`<button type="button" data-kind="${k}" aria-pressed="false">${l}</button>`).join('')}</div>
         <p class="jintro" id="j4intro"></p><div id="j4set"></div><div id="j4filt"></div><p class="fine" id="j4prog" aria-live="polite"></p><div id="j4list"></div>`; }
     const cz=J.kind==='course'; ['j4set','j4filt','j4prog'].forEach(id=>{ root.querySelector('#'+id).hidden=cz; });
-    if(cz){ root.querySelectorAll('.j4kind button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.kind==='course'))); root.querySelector('#j4intro').textContent=J.course.ch==null?INTRO.course:''; root.querySelector('#j4intro').hidden=J.course.ch!=null; root.querySelector('#j4list').innerHTML=courseHtml(); return; }
+    if(cz){ root.querySelectorAll('.j4kind button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.kind==='course'))); root.querySelector('#j4intro').textContent=''; root.querySelector('#j4intro').hidden=true; root.querySelector('#j4list').innerHTML=courseHtml(); return; }
     root.querySelector('#j4intro').hidden=false;
     renderSet(); renderList(); }catch(e){ console.error('journey',e); const L=root.querySelector('#j4list'); if(L) L.innerHTML='<p class="j4empty">The journey could not be drawn. Try another kind of journey.</p>'; } }
 

@@ -120,6 +120,27 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Ask:** As H14 (read its folder `work/2026-11-23-H14/` for the shape and its report for the standard), for: copla / canción española; dōyō; música guajira / punto cubano; nanguan / nanyin; modern Amazigh band music; batuku (with finaçon and tabanka as sub-genres). For each propose the genre record, its parent on the tree with the reason, where and when it was present, a definition with evidence, and a first playlist with evidence.
 - **Hand back:** as H14.
 
+## H23. Chart sources for the countries that have none (roadmap 2.17c)
+- **State:** open
+- **Model:** Opus.
+- **Why:** 41 of 226 countries have year-by-year lists. Of the most populous, China, India, Pakistan, Bangladesh, Ethiopia, the Philippines, Egypt, Vietnam, DR Congo, Iran, Thailand and Kenya have none. The owner wants the easiest sources found first.
+- **Ask:** A survey, not data collection. For each country in `data/countries.json` with no file under `data/scopes/c/<code>/` holding a `year list` (work out the list yourself), most populous first, as far as the run allows: find what a script could read to say what was popular there by year. Look in this order and stop at the first that works: (1) list pages on the Wikipedia of the country's own language (es: "Anexo:Sencillos número uno…", pt, ru, tr, ar, hi, id, th, vi, zh, ko and so on), fetched as rendered HTML through `https://<lang>.wikipedia.org/w/api.php?action=parse&page=<title>&prop=text&format=json`; (2) English Wikipedia pages we have not read: `work/2026-11-24-wikicharts/pages.json` lists what we have; look for year-end charts, award lists that a national public votes on, radio airplay charts, film-song lists for countries where film song is the popular music (India, Pakistan, Egypt); (3) a national chart body or archive site with tables a script can read. For each source record the page titles or address pattern, the years covered, one example row copied from the raw page, what it measures (sales, airplay, a jury: say which, because a jury's list does not count as heard there, decision D7), and whether `tools/wiki_charts.py` would read its tables as they are (try it on one page and give the output).
+- **Hand back:** `sources.json` (country, source, address pattern, years, measure, example row, reads with our tool: yes, no and why) and a ranked list in the report: which countries can be filled by script now, which need a new reader, which have nothing.
+
+## H24. Source check of the course lectures (decision D29)
+- **State:** open
+- **Model:** Opus for the run and for any sub-agents.
+- **Why:** the lead wrote eleven chapter lectures for the course from general knowledge (`data/course.json`). They are shown marked as not yet checked. Wrong statements must not stand.
+- **Ask:** For every sentence in every lecture that states a fact about the world (a date, a place, a cause, who did what, what came from what): find a source a script can read and copy the supporting string from its raw text, following "Evidence: how a researcher records a source" in `work/README.md`. Class each sentence: `supported` (give url and quote), `wrong` (give what the source says instead, with url and quote), `too strong` (the source supports a weaker claim: give the wording it supports), `opinion` (a framing or judgement, not checkable), `not found`. Do not rewrite the lectures.
+- **Hand back:** `claims.json` (chapter, sentence, class, url, quote, note), `sources.json` and `evidence-check.json` as usual, and in the report the counts per class and every `wrong` and `too strong` sentence in full.
+
+## H25. Genres for chart songs: what Wikipedia says, pilot (roadmap 5.3b)
+- **State:** open
+- **Model:** Opus for the run; Sonnet sub-agents may look up songs in parallel, each given a slice and the evidence rule in full.
+- **Why:** 611 of 21,748 chart songs have a genre. Without one, a genre filter cannot show that genre's hits.
+- **Ask:** `work/2026-11-24-chartgenres/songs.1.json` lists 1,500 chart songs, most-listed first. For each, fetch the song's English Wikipedia article as raw text (`?action=raw`), then the artist's own language. Copy the infobox `genre` field exactly as written (the whole value, links and all). No article, or no genre field: say so; do not look further and do not use what you remember. Do not map the strings to our genres: the lead does that.
+- **Hand back:** `genres.json` (`song`, `url`, `quote`: the genre field as written, `names`: the genre names in it as a list, `read`), `sources.json` and `evidence-check.json`; in the report: how far you got, how many had a field, and the 100 most frequent genre names with counts.
+
 ## H15. Genre research, batch 7
 - **State:** on hold 2026-11-23 (lead): 56 researched genres wait for ingest; no more genre batches until that is reviewed.
 - **Model, ask, hand back:** as H12, the next eight pending genres (skip every genre already in a `work/*/defs.add.json`). In the report, count for each genre how many songs are tied to it only by a track or album title, and try one further source (liner notes, a label page, a national library or archive catalogue) for each such song before accepting it.

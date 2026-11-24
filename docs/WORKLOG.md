@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-24 (02:22: lectures, data-quality review, more helper work)
+
+- Course lectures written and shown (D29), on `dev`, marked as not checked; H24 queued to check them.
+- `docs/research/2026-11-24-data-quality.md`: where the data is weak, targets, the plan for genres on chart songs, and how source tables relate to the master list (D30).
+- Queue: H23 (chart sources for countries without lists: 41 of 226 have year lists), H24 (lecture check), H25 (genre fields for 1,500 chart songs). Owner's own tasks are issue #85.
+- Not done: data split per country (owner: load time is acceptable for now); credit splitting; weeks at number one; the shape test.
+
 ## 2026-11-24 (01:54, owner back: release 6)
 
 - Owner: push to prod if safe. Released as release 6: `main` moved to `dev`; db 007 and 008 run on prod (a function and a new table; no existing row touched).

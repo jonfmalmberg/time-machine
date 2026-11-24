@@ -108,3 +108,14 @@
 .czend{margin:16px 0 8px;display:flex}.czend .lbtn{flex:1;min-height:44px}
 
 .j4kind{flex-wrap:nowrap;align-self:stretch}.j4kind button{flex:1 1 0;min-width:0;padding:7px 4px;overflow:hidden;text-overflow:ellipsis}
+
+/* lecture prose */
+.czlec{margin:0 0 14px;max-width:68ch}
+.czlec p{font:400 17px/1.55 var(--body);margin:0 0 12px}
+.czlec a{color:var(--accent);text-decoration:none}
+.czlec .czq{font:600 19px/1.35 var(--display);margin:0 0 12px}
+.czth p:first-child{font-size:18px}
+.czunv{display:flex;gap:8px;align-items:flex-start;font:400 13px/1.4 var(--body)!important;color:var(--muted);background:var(--fill);border-radius:10px;padding:8px 10px;margin:4px 0 0!important}
+.czunv .ic{flex:none;width:15px;height:15px;margin-top:1px}
+.czstops{margin:18px 4px 8px}
+.czch .rmain small em{font-style:normal;font-weight:600}

@@ -19,7 +19,7 @@ import glob, json, os
 KEYS = ['tests', 'verified', 'era', 'yearl', 'ysrc', 'langs', 'isoLang', 'cityLang', 'st', 'cnt', 'iso',
         'neAlias', 'cities', 'regions', 'bands', 'nodes', 'layout', 'scores',
         'playlists', 'known', 'done', 'indoc', 'edges', 'tier', 'trad', 'tradOf',
-        'ends', 'defs', 'notes', 'method', 'sub', 'relcheck']
+        'ends', 'defs', 'notes', 'method', 'sub', 'relcheck', 'course']
 CITY_FIELDS = [('name', 'name'), ('country', 'iso2'), ('lat', 'lat'), ('lon', 'lon'), ('founded', 'founded'),
                ('ended', 'ended'), ('names', 'names'), ('size', 'size'), ('kind', 'kind'), ('radius_km', 'r'),
                ('note', 'note'), ('x', 'x')]
@@ -252,5 +252,7 @@ def legacy_data(data_dir):
                      for r in songs.values() if (r.get('released') or {}).get('check')},
         # named sub-genres folded into a genre (DECISIONS.md D10): shown on its card and found by search
         'sub': {g: G[g]['subgenres'] for g in gid if G[g].get('subgenres')},
+        # the course's lectures (data/course.json): written prose, marked with whether it has been checked (DECISIONS.md D29)
+        'course': _load(os.path.join(data_dir, 'course.json')) if os.path.exists(os.path.join(data_dir, 'course.json')) else None,
     }
     return {k: data[k] for k in KEYS}
