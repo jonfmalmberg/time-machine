@@ -11,12 +11,13 @@ SHOTS = sys.argv[1] if len(sys.argv) > 1 else None
 
 # A tiny in-memory imitation of the parts of supabase-js the site uses.
 STUB = r"""
-window.__sb=Object.assign({requests:[{id:7,kind:'listener',key:'cty:JP|1985-1985|heard|abc',ref:{pl:'cty:JP',label:'Japan',y0:1985,y1:1985,mode:'heard',prompt:'PROMPT TEXT'},n:3,status:'open',last_at:'2026-11-22T10:00:00Z'}],calls:[],session:null,profile:{handle:null,role:'beta',status:'pending'},taken:['jon'],invites:[],good:'AAAABBBBCCCC',trips:[],events:[],
+window.__sb=Object.assign({requests:[{id:7,kind:'listener',key:'cty:JP|1985-1985|heard|abc',ref:{pl:'cty:JP',label:'Japan',y0:1985,y1:1985,mode:'heard',prompt:'PROMPT TEXT'},n:3,status:'open',last_at:'2026-11-22T10:00:00Z'}],calls:[],session:null,profile:{handle:null,role:'beta',status:'pending'},taken:['jon'],invites:[],good:'AAAABBBBCCCC',trips:[],events:[],ideas:[{id:1,slug:'a',title:'Hear a preview',body:'',area:'Playlist',size:'M',by:'lead',status:'idea',pos:1,created_at:'2026-11-24T00:00:00Z'},{id:2,slug:'b',title:'A music course',body:'',area:'Journey',size:'L',by:'lead',status:'idea',pos:2,created_at:'2026-11-24T00:00:00Z'},{id:3,slug:'c',title:'Guess the decade',body:'',area:'Play',size:'M',by:'lead',status:'idea',pos:3,created_at:'2026-11-24T00:00:00Z'}],
   people:[{id:'u2',handle:'ada',role:'beta',status:'pending',joined:'2026-11-20T10:00:00Z'},{id:'u3',handle:'bix',role:'beta',status:'active',joined:'2026-11-19T10:00:00Z'}]},window.__sb_init||{});
 window.supabase={createClient(url,key,opt){ const st=window.__sb; st.url=url; st.calls.push('createClient'); let cb=null;
   const q=(table)=>{ let op='select', val=null, f={}; const o={
      select(){ return o; }, update(v){ op='update'; val=v; return o; }, insert(v){ op='insert'; val=v; return o; }, upsert(v){ op='upsert'; val=v; return o; }, delete(){ op='delete'; return o; },
      eq(k,v){ f[k]=v; return o; }, is(){ return o; }, gt(){ return o; }, order(){ return o; }, limit(){ return o; },
+     single(){ return new Promise(r=>o.then(x=>r({data:Array.isArray(x.data)?x.data[0]:x.data,error:x.error}))); },
      maybeSingle(){ st.calls.push('select '+table); return Promise.resolve({data:st.session?{...st.profile}:null,error:null}); },
      then(ok){ st.calls.push(op+' '+table); let data=null, error=null;
         if(table==='profiles'&&op==='update'){ if(st.taken.includes(String(val.handle).toLowerCase())) error={code:'23505',message:'duplicate key'}; else Object.assign(st.profile,val); }
@@ -28,6 +29,10 @@ window.supabase={createClient(url,key,opt){ const st=window.__sb; st.url=url; st
         else if(table==='trips'&&op==='upsert'){ const i=st.trips.findIndex(t=>t.id===val.id); const row={user_id:'u1',...val}; if(i>=0) st.trips[i]=row; else st.trips.push(row); }
         else if(table==='trips'&&op==='delete'){ st.trips=st.trips.filter(t=>t.id!==f.id); }
         else if(table==='events'&&op==='insert'){ st.events.push(...val); }
+        else if(table==='ideas'&&op==='select') data=st.ideas.slice().sort((a,b)=>a.pos-b.pos);
+        else if(table==='ideas'&&op==='insert'){ const row={id:100+st.ideas.length,status:'idea',body:'',created_at:new Date().toISOString(),...val}; st.ideas.push(row); data=[row]; }
+        else if(table==='ideas'&&op==='update'){ const r=st.ideas.find(x=>x.id===f.id); if(r) Object.assign(r,val); }
+        else if(table==='ideas'&&op==='delete'){ st.ideas=st.ideas.filter(x=>x.id!==f.id); }
         ok({data,error}); } }; return o; };
   return { from:q,
      rpc(name,args){ st.calls.push('rpc '+name+' '+JSON.stringify(args||{}));
@@ -38,6 +43,7 @@ window.supabase={createClient(url,key,opt){ const st=window.__sb; st.url=url; st
            if(c!==st.good) return Promise.resolve({data:null,error:{message:'That code is not valid, has expired or has already been used.'}});
            st.profile.status='active'; return Promise.resolve({data:{active:true,have:1,need:1},error:null}); }
         if(name==='admin_stats') return Promise.resolve({data:{requests:st.requests.filter(x=>x.status==='open').length,anon:212000,anon_cap:250000,anon7:5300,anon_from:'2026-11-01T00:00:00Z',active:2,pending:st.people.filter(p=>p.status==='pending').length,suspended:0,trips:st.trips.length,rated:0,events7:st.events.length,invites:0},error:null});
+        if(name==='admin_usage') return Promise.resolve({data:{days:args.days,by_day:[{d:'2026-11-22',anon:12,member:2},{d:'2026-11-23',anon:30,member:5}],funnel:[{who:'anon',visits:42,stayed:30,chose:21,panel:18,played:6,took:9,shared:2,median_seconds:95},{who:'member',visits:7,stayed:7,chose:6,panel:5,played:3,took:4,shared:1,median_seconds:631}],actions:[{action:'view',n:200,member:40}],views:[{k:'map',n:40,member:6}],places:[{k:'cty:JP',n:12,member:3},{k:'city:MX:Tijuana',n:2,member:0}],genres:[{k:'mov:citypop',n:4,member:1}],decades:[{k:1980,n:15,member:2}],services:[{k:'spotify',n:6,member:3}],members:[{id:'u3',handle:'bix',visits:4,events:60,last:'2026-11-23T05:05:13Z',trips:3,reviewed:2}],trips:{total:3,rated:1,reviewed:2,mean_rating:8,by_status:{loved:1,copied:1,left:1}}},error:null});
         if(name==='admin_set_profile'){ const p=st.people.find(x=>x.id===args.target); p.role=args.new_role; p.status=args.new_status; return Promise.resolve({error:null}); } },
      auth:{
      onAuthStateChange(f){ cb=f; setTimeout(()=>f('INITIAL_SESSION',st.session),0); return {data:{subscription:{unsubscribe(){}}}}; },
@@ -240,20 +246,49 @@ with sync_playwright() as pw:
     assert 'session' in acts and 'view' in acts and 'copy' in acts, acts
     assert p.locator("[data-page='admin']").count() == 0, 'a beta tester sees the admin switch'
     assert not anon, 'an active tester was also logged anonymously'
+    # playing a song logs a trip and puts the feedback row in the panel; one tap marks it, the slider scores it
+    p.evaluate("document.getElementById('tab-map').click()"); p.wait_for_timeout(300)
+    p.evaluate("window.open=()=>null; resetFilters('all'); setYear(1975); setStay(0); setPlace({k:'cty',iso:'BR'}); stPanelOpen=true; stBarUI(); stPanelUpdate()"); p.wait_for_timeout(500)
+    n0 = p.evaluate("window.__sb.trips.length"); assert p.evaluate("!document.getElementById('stfb')||document.getElementById('stfb').hidden")
+    p.evaluate("document.querySelector('#stlinks .stplay').click()"); p.wait_for_timeout(500)
+    assert p.evaluate("window.__sb.trips.length") == n0 + 1 and p.is_visible('#stfb') and 'How is it?' in p.inner_text('#stfb')
+    p.evaluate("document.querySelector('#stlinks .stplay').click()"); p.wait_for_timeout(300); assert p.evaluate("window.__sb.trips.length") == n0 + 1, 'a second play logged a second trip'
+    shot(p, 'trip_feedback_ask'); p.evaluate("document.querySelector('#stfb [data-fb=loved]').click()"); p.wait_for_timeout(400)
+    assert p.evaluate("window.__sb.trips.find(t=>t.iso==='BR').status") == 'loved' and p.locator('#stfbr').count() == 1
+    p.evaluate("(()=>{const r=document.getElementById('stfbr'); r.value=9; r.dispatchEvent(new Event('change',{bubbles:true}));})()"); p.wait_for_timeout(400)
+    assert p.evaluate("window.__sb.trips.find(t=>t.iso==='BR').rating") == 9; shot(p, 'trip_feedback_marked')
+    assert p.evaluate('document.documentElement.scrollWidth > innerWidth') is False
     assert not errs, errs; b.close(); print('ok travels + events')
 
     # 4. Owner: admin page lists people, lets one in, opens a tester.
     for name, vp, dark in (('phone', PHONE, False), ('desktop', DESK, True)):
         b, p, errs, asked = open_page(pw, vp, init={'profile': {'handle': 'jon_m', 'role': 'owner', 'status': 'active'}, 'trips': [dict(old, user_id='u3')]}, dark=dark)
         p.click('#whobtn'); p.wait_for_timeout(300); p.click("[data-page='admin']"); p.wait_for_timeout(600)
-        txt = p.inner_text('#view-me').lower(); assert 'ada' in txt and 'bix' in txt and 'waiting to be let in' in txt and 'nearly full' in txt and '212,000 of 250,000' in txt, txt
+        # Usage is the first part: both kinds of visitor side by side, signed-in people listed
+        txt = p.inner_text('#view-me').lower(); assert 'how far visits get' in txt and 'not signed in' in txt and 'signed in' in txt and 'japan' in txt and 'city pop' in txt and '1980s' in txt and 'bix' in txt and 'nearly full' in txt and '212,000 of 250,000' in txt, txt
+        assert '49' in p.inner_text('.mestats'), p.inner_text('.mestats')
         shot(p, 'admin_' + name)
+        p.click("[data-addays='30']"); p.wait_for_timeout(500); assert any('admin_usage {"days":30}' in c for c in p.evaluate("window.__sb.calls"))
+        # Ideas: add one, it goes to the top; drag the third above the first; open one and change its state
+        p.click("[data-adtab='ideas']"); p.wait_for_timeout(500); assert p.locator('.idrow').count() == 3
+        p.fill('#idnew', 'A passport of stamps'); p.press('#idnew', 'Enter'); p.wait_for_timeout(400)
+        assert p.locator('.idrow').first.inner_text().startswith('1A passport') or 'A passport' in p.locator('.idrow').first.inner_text()
+        h = p.locator('.idrow').nth(3).locator('.idh').bounding_box(); p.mouse.move(h['x'] + 10, h['y'] + 20); p.mouse.down(); p.mouse.move(h['x'] + 10, h['y'] + 20 - 56 * 3 - 10, steps=6); p.mouse.up(); p.wait_for_timeout(500)
+        assert 'Guess the decade' in p.locator('.idrow').first.inner_text(), p.inner_text('#idlist')
+        shot(p, 'admin_ideas_' + name)
+        p.locator('.idrow').first.locator('.idmain').click(); p.wait_for_timeout(400); p.click("[data-idst='done']"); p.wait_for_timeout(400)
+        assert p.evaluate("window.__sb.ideas.find(x=>x.id===3).status") == 'done'; p.evaluate("UI.sheet.close()"); p.wait_for_timeout(300)
+        assert p.locator('.idrow').count() == 3
+        # Requests
+        p.click("[data-adtab='requests']"); p.wait_for_timeout(400); txt = p.inner_text('#view-me').lower()
         assert 'listener test · japan · 1985' in txt and 'asked 3 times' in txt, txt
         p.click("[data-rq='7']"); p.wait_for_timeout(400); assert 'PROMPT TEXT' in p.input_value('.adprompt')
         p.click(".adact[data-st='done']"); p.wait_for_timeout(600)
         assert p.evaluate("window.__sb.requests[0].status") == 'done' and 'No open requests' in p.inner_text('#view-me')
+        # People
+        p.click("[data-adtab='people']"); p.wait_for_timeout(400); txt = p.inner_text('#view-me').lower(); assert 'ada' in txt and 'bix' in txt and 'waiting to be let in' in txt, txt
         p.click("[data-ok='u2']"); p.wait_for_timeout(500)
-        assert p.evaluate("window.__sb.people.find(x=>x.id==='u2').status") == 'active' and 'Nobody is waiting' in p.inner_text('#view-me')
+        assert p.evaluate("window.__sb.people.find(x=>x.id==='u2').status") == 'active' and 'waiting to be let in' not in p.inner_text('#view-me').lower()
         p.click("[data-ap='u3']"); p.wait_for_timeout(500)
         assert 'Tokyo' in p.inner_text('#sheet-detail') and 'Suspend' in p.inner_text('#sheet-detail'); shot(p, 'admin_tester_' + name)
         # the owner may ask for finished work to be run again; a finished request goes back on the open list
