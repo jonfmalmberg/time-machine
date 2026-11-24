@@ -4,6 +4,11 @@ The lead's standing choices: what was decided, why, and what is not known. One e
 
 ## 2026-11-23
 
+### D27. Onward stops at the foot of every playlist (lead, 24 Nov)
+- **Choice:** under the songs, "Where next": from a genre, the genres it follows and leads to on the tree; from a place and time, the same place ten years earlier and later. One tap changes the playlist in place.
+- **Why:** the site is for exploring (positioning record); a list that ends with nothing to do next sends the visitor away. The links come from data already there.
+- **Not known:** whether tree neighbours are the stops people want; the usage log records `next`.
+
 ### D26. List and Data redone once on iOS list principles (lead, 24 Nov, at the owner's request)
 - **List:** a full-width search field; areas as inset cards with the count trailing and a chevron; each genre a two-line row (name, then years and place) with a chevron that turns when open; "Open all" and "Close all" removed on phones; the scope control hidden until a genre is selected (it was four disabled buttons). **Data:** tabs on one row; a search field with one "Filters" button that unfolds the six selects as labelled rows; results as an inset list.
 - **Why:** both views were first-week layouts: controls before content, small tap targets, browser-default disclosure triangles. iOS lists put content first and fold options away.

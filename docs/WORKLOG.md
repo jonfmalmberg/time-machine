@@ -2,6 +2,19 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-24 (overnight, owner away: branches, admin, trip log, course, List and Data, genre and chart data)
+
+- **Branches:** two only, `main` and `dev` (D21). `review` could not be deleted from this session (the connection refuses branch deletion); it is unused and the owner can delete it on GitHub. Old feature branches on GitHub are also unused.
+- **Fixed:** opening the site directly on the Journey tab stopped the whole page (a genre with no definition). Live since the new genres went in; fixed on `dev`.
+- **Built on `dev`:** admin Usage for signed-in and anonymous visits, and the Ideas list (D24; db 007 and 008, **dev database only**); trip logged on play and the feedback row in the panel (D23); the course, version 1 (D25); List and Data redone (D26); onward stops under every playlist (D27).
+- **Proposal written:** `docs/proposals/2026-11-24-journeys-and-course.md` (algorithms for the four journeys; only the course is built).
+- **Data in:** four accepted genre batches (H8, H11, H12, H13): 40 genres, 847 songs. `tools/ingest.py` failed on H11 (a list of years with gaps); fixed. Nurthi kept thin.
+- **Charts:** the reader's rows from the pages cached so far became candidates (`tools/chart_rows.py`), are checked against the live pages (`tools/check_chart_rows.py`) and ingested as `charted` year lists (`tools/ingest_charts.py`, D22). Numbers are in the entry's last line.
+- **Helpers:** queue H16 to H22 written; H16, H19, H20 and H22 started by hand, the rest wait for the daily run.
+- **Not tested:** `db/test.sh` (no Postgres here); anything on a real phone; dragging ideas with a finger (tested with a mouse pointer); the course and feedback row signed in against the real database.
+- **Awaiting the owner:** everything above is on `dev` for his review; db 007 and 008 go to prod only on his word.
+- **Chart numbers:** not ingested at the time of this entry; the check against the live pages was still running.
+
 ## 2026-11-23 (night: capsule, tour, open accounts)
 
 - On `review`: filter capsule at top centre, list entry marked, map controls bottom right, tour with Next/Done and held play (D20). Owner saw screenshots: "closer to what I want", not flawless; pushed for his phone test.
