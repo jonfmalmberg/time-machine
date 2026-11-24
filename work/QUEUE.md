@@ -128,7 +128,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Hand back:** `sources.json` (country, source, address pattern, years, measure, example row, reads with our tool: yes, no and why) and a ranked list in the report: which countries can be filled by script now, which need a new reader, which have nothing.
 
 ## H24. Source check of the course lectures (decision D29)
-- **State:** open
+- **State:** handed back 2026-11-24
 - **Model:** Opus for the run and for any sub-agents.
 - **Why:** the lead wrote eleven chapter lectures for the course from general knowledge (`data/course.json`). They are shown marked as not yet checked. Wrong statements must not stand.
 - **Ask:** For every sentence in every lecture that states a fact about the world (a date, a place, a cause, who did what, what came from what): find a source a script can read and copy the supporting string from its raw text, following "Evidence: how a researcher records a source" in `work/README.md`. Class each sentence: `supported` (give url and quote), `wrong` (give what the source says instead, with url and quote), `too strong` (the source supports a weaker claim: give the wording it supports), `opinion` (a framing or judgement, not checkable), `not found`. Do not rewrite the lectures.

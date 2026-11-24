@@ -1,0 +1,772 @@
+{
+ "course": [
+  {
+   "url": "https://en.wikipedia.org/wiki/History_of_music?action=raw",
+   "quote": "many texts survive without their accompanying music",
+   "artist": "",
+   "title": "1.1.1",
+   "claim": "Nearly all the music made before the year 1000 is gone.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+   "quote": "(bamboo mouth organ used to provide harmony)",
+   "artist": "",
+   "title": "1.2.2",
+   "claim": "There is one line of melody and no harmony under it.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+   "quote": "unaccompanied sacred song in [[Latin]]",
+   "artist": "",
+   "title": "1.2.2",
+   "claim": "There is one line of melody and no harmony under it.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+   "quote": "is performed using wind, percussion, and string instruments",
+   "artist": "",
+   "title": "1.2.4",
+   "claim": "The pace is set by breath, not by a drum.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+   "quote": "(small drum)",
+   "artist": "",
+   "title": "1.2.4",
+   "claim": "The pace is set by breath, not by a drum.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Guido_of_Arezzo?action=raw",
+   "quote": "he is regarded as the inventor—or by some, developer—of the modern [[Staff (music)|staff notation]]",
+   "artist": "",
+   "title": "2.1.1",
+   "claim": "In eleventh-century Europe, church musicians worked out a way to fix pitch on a set of lines.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Guido_of_Arezzo?action=raw",
+   "quote": "He thus moved to [[Arezzo]] in 1025",
+   "artist": "",
+   "title": "2.1.1",
+   "claim": "In eleventh-century Europe, church musicians worked out a way to fix pitch on a set of lines.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+   "quote": "Around the 12th-century, Hindustani classical music diverged from what eventually came to be identified as",
+   "artist": "",
+   "title": "2.2.2",
+   "claim": "In India, the northern and southern classical traditions, [[Hindustani classical]] and [[Carnatic classical]], grew apart in these centuries.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Indian_classical_music?action=raw",
+   "quote": "Indian classical music has two foundational elements",
+   "artist": "",
+   "title": "2.2.3",
+   "claim": "Their art is a single melodic line worked out by a soloist inside a mode and a rhythmic cycle, taught from teacher to student.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+   "quote": "Georgian polyphonic singing was among the first on the list of [[Masterpieces of the Oral and Intangible Heritage of Humanity]] in 2001",
+   "artist": "",
+   "title": "2.3.2",
+   "claim": "[[Georgian polyphonic singing]] shows that singing in several parts did not need notation.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Atlantic_slave_trade?action=raw",
+   "quote": "estimates that about 12 million slaves entered the Atlantic trade between the 16th and 19th centuries",
+   "artist": "",
+   "title": "3.1.1",
+   "claim": "From the sixteenth to the nineteenth century European ships carried millions of enslaved Africans to the Americas.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Call_and_response_(music)?action=raw",
+   "quote": "In many African cultures, call and response is a pervasive pattern of",
+   "artist": "",
+   "title": "3.1.2",
+   "claim": "They carried rhythm, call and response and the habit of music as something a whole gathering does.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+   "quote": "which merged varied African cultural influences with the experiences of being held in bondage in slavery",
+   "artist": "",
+   "title": "3.1.2",
+   "claim": "They carried rhythm, call and response and the habit of music as something a whole gathering does.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+   "quote": "’s origins lie in the investiture ceremonies of the",
+   "artist": "",
+   "title": "3.1.3",
+   "claim": "In Brazil that meeting gives [[Maracatu]].",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Gnawa?action=raw",
+   "quote": "who had been brought to Morocco as slaves from West Africa",
+   "artist": "",
+   "title": "3.1.4",
+   "claim": "In Morocco, [[Gnawa]] is the music of people brought north across the Sahara.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+   "quote": "composed from about 1600 to 1750",
+   "artist": "",
+   "title": "3.2.1",
+   "claim": "In Europe the same centuries are the [[Baroque]].",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Common_practice_period?action=raw",
+   "quote": "was the period of about 250 years during which the",
+   "artist": "",
+   "title": "3.2.2",
+   "claim": "Opera appears in Italy around 1600, and harmony settles into the system of keys that Western music used for the next three hundred years.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Opera?action=raw",
+   "quote": "in Italy at the end of the 16th century",
+   "artist": "",
+   "title": "3.2.2",
+   "claim": "Opera appears in Italy around 1600, and harmony settles into the system of keys that Western music used for the next three hundred years.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+   "quote": "The Baroque period saw the formalization of",
+   "artist": "",
+   "title": "3.2.2",
+   "claim": "Opera appears in Italy around 1600, and harmony settles into the system of keys that Western music used for the next three hundred years.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Teatro_San_Cassiano?action=raw",
+   "quote": "was the first 'public' opera house in the sense that it was the first to open to a paying audience",
+   "artist": "",
+   "title": "3.2.3",
+   "claim": "Notice who pays: courts and churches, and by the end, a public that buys tickets.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+   "quote": "The oldest record of flamenco music dates to 1774",
+   "artist": "",
+   "title": "3.3.1",
+   "claim": "Elsewhere courts and cities refine their own arts: the [[Ghazal (Urdu)]] of Mughal India, the [[Japanese art music (koto, shamisen, shakuhachi)]] of the Edo period, and in Andalusia the first reports of [[Flamenco]] among the Gitano communities.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+   "quote": "Historically a courtly art patronized by royalty",
+   "artist": "",
+   "title": "3.3.1",
+   "claim": "Elsewhere courts and cities refine their own arts: the [[Ghazal (Urdu)]] of Mughal India, the [[Japanese art music (koto, shamisen, shakuhachi)]] of the Edo period, and in Andalusia the first reports of [[Flamenco]] among the Gitano communities.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Koto_(instrument)?action=raw",
+   "quote": "Perhaps the most important influence on the development of koto was [[Yatsuhashi Kengyo]] (1614–1685)",
+   "artist": "",
+   "title": "3.3.1",
+   "claim": "Elsewhere courts and cities refine their own arts: the [[Ghazal (Urdu)]] of Mughal India, the [[Japanese art music (koto, shamisen, shakuhachi)]] of the Edo period, and in Andalusia the first reports of [[Flamenco]] among the Gitano communities.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+   "quote": "subculture of the [[Andalusia|Andalusian]] region",
+   "artist": "",
+   "title": "3.3.1",
+   "claim": "Elsewhere courts and cities refine their own arts: the [[Ghazal (Urdu)]] of Mughal India, the [[Japanese art music (koto, shamisen, shakuhachi)]] of the Edo period, and in Andalusia the first reports of [[Flamenco]] among the Gitano communities.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+   "quote": "housed the sheet-music publishers that were the center of American [[popular music]] in the early 20th century",
+   "artist": "",
+   "title": "4.1.2",
+   "claim": "Its product is paper.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Sheet_music?action=raw",
+   "quote": "encouraging amateur musicians of sufficient means, who could now afford sheet music, to perform",
+   "artist": "",
+   "title": "4.1.3",
+   "claim": "A song is printed, sold and played at home on the piano.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+   "quote": "dating its first use from 1903",
+   "artist": "",
+   "title": "4.1.4",
+   "claim": "By the end of the century the trade in New York has a name, [[Tin Pan Alley]], and a method: write to a formula, sell by the thousand.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Musical_nationalism?action=raw",
+   "quote": "emerged early in the 19th century in connection with political independence movements",
+   "artist": "",
+   "title": "4.2.1",
+   "claim": "The same century invents the nation, and nations want a sound.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Musical_nationalism?action=raw",
+   "quote": "emphasis on national musical elements such as the use of folk songs, folk dances or rhythms",
+   "artist": "",
+   "title": "4.2.2",
+   "claim": "[[Romantic]] composers put folk tunes in symphonies while collectors write down songs before they vanish.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+   "quote": "and plantation songs that evolved into the blues and gospel songs in church",
+   "artist": "",
+   "title": "4.3.2",
+   "claim": "[[Spirituals and work songs]] are the root of most of what America later exports.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Tango?action=raw",
+   "quote": "originated in the 1880s along the",
+   "artist": "",
+   "title": "4.3.3",
+   "claim": "In the port cities of Latin America, dancers and immigrants make [[Tango]] in Buenos Aires and Montevideo, [[Cumbia]] on Colombia's Caribbean coast, and [[Trova and bolero]] in eastern Cuba.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Tango?action=raw",
+   "quote": "packed with hundreds of thousands of European immigrants",
+   "artist": "",
+   "title": "4.3.3",
+   "claim": "In the port cities of Latin America, dancers and immigrants make [[Tango]] in Buenos Aires and Montevideo, [[Cumbia]] on Colombia's Caribbean coast, and [[Trova and bolero]] in eastern Cuba.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Cumbia?action=raw",
+   "quote": "Cumbia's background came from the coastal region of Colombia.",
+   "artist": "",
+   "title": "4.3.3",
+   "claim": "In the port cities of Latin America, dancers and immigrants make [[Tango]] in Buenos Aires and Montevideo, [[Cumbia]] on Colombia's Caribbean coast, and [[Trova and bolero]] in eastern Cuba.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+   "quote": "in the late 19th century as part of the [[trova]] tradition",
+   "artist": "",
+   "title": "4.3.3",
+   "claim": "In the port cities of Latin America, dancers and immigrants make [[Tango]] in Buenos Aires and Montevideo, [[Cumbia]] on Colombia's Caribbean coast, and [[Trova and bolero]] in eastern Cuba.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Phonograph?action=raw",
+   "quote": "The phonograph was invented in 1877 by",
+   "artist": "",
+   "title": "4.4.2",
+   "claim": "In 1877 Edison's phonograph records sound.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Enrico_Caruso?action=raw",
+   "quote": "the first international recording star, Caruso made around 250 commercially released recordings between 1902 and 1920",
+   "artist": "",
+   "title": "5.2.1",
+   "claim": "The first music to travel this way is Black American.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Chicago_blues?action=raw",
+   "quote": "Great Migration of African Americans]] of the first half of the twentieth century",
+   "artist": "",
+   "title": "5.2.2",
+   "claim": "During the Great Migration, families leave the rural South for northern cities and take [[Early blues (Delta, country, classic)]] with them.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Chicago_blues?action=raw",
+   "quote": "It is based on earlier blues idioms, such as [[Delta blues]]",
+   "artist": "",
+   "title": "5.2.2",
+   "claim": "During the Great Migration, families leave the rural South for northern cities and take [[Early blues (Delta, country, classic)]] with them.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Louis_Armstrong?action=raw",
+   "quote": "to Chicago to play in Oliver's Creole Jazz Band",
+   "artist": "",
+   "title": "5.2.3",
+   "claim": "[[Early jazz]] moves out of New Orleans the same way.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+   "quote": "made the music's first recordings early in 1917",
+   "artist": "",
+   "title": "5.2.4",
+   "claim": "Both are on record by the early 1920s.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Crazy_Blues?action=raw",
+   "quote": "recorded      = August 10, 1920",
+   "artist": "",
+   "title": "5.2.4",
+   "claim": "Both are on record by the early 1920s.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Chanson?action=raw",
+   "quote": "a specific style of [[French pop music]] which emerged in the 1950s and 1960s",
+   "artist": "",
+   "title": "5.3.1",
+   "claim": "The pattern repeats wherever there is a port, a recording studio and a radio station: [[Cuban son]] in Havana, [[Samba]] in Rio de Janeiro, [[Mariachi and ranchera]] in Mexico, [[Chanson]] in Paris.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+   "quote": "settled in Havana in 1906, many other trovadores followed him hoping to obtain a recording contract",
+   "artist": "",
+   "title": "5.3.1",
+   "claim": "The pattern repeats wherever there is a port, a recording studio and a radio station: [[Cuban son]] in Havana, [[Samba]] in Rio de Janeiro, [[Mariachi and ranchera]] in Mexico, [[Chanson]] in Paris.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+   "quote": "and it had its inaugural landmark in the song",
+   "artist": "",
+   "title": "5.3.1",
+   "claim": "The pattern repeats wherever there is a port, a recording studio and a radio station: [[Cuban son]] in Havana, [[Samba]] in Rio de Janeiro, [[Mariachi and ranchera]] in Mexico, [[Chanson]] in Paris.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+   "quote": "evolving over time in the countryside of various regions of western",
+   "artist": "",
+   "title": "5.3.1",
+   "claim": "The pattern repeats wherever there is a port, a recording studio and a radio station: [[Cuban son]] in Havana, [[Samba]] in Rio de Janeiro, [[Mariachi and ranchera]] in Mexico, [[Chanson]] in Paris.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Phonograph_record?action=raw",
+   "quote": "recorded the first electrical discs during the spring of 1925",
+   "artist": "",
+   "title": "5.4.2",
+   "claim": "From 1925 records are made with microphones.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Crooner?action=raw",
+   "quote": "singers had to project to the rear seats of a theater, which made for a very loud vocal style",
+   "artist": "",
+   "title": "5.4.3",
+   "claim": "A singer no longer has to shout into a horn.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Crooner?action=raw",
+   "quote": "that picked up quieter sounds and a wider range of frequencies than before",
+   "artist": "",
+   "title": "5.4.4",
+   "claim": "The quiet, close voice of later popular song begins here.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+   "quote": "was the dominant form of American popular music from roughly 1935 to 1946",
+   "artist": "",
+   "title": "6.2.1",
+   "claim": "In the United States the result is [[Swing]]: large dance bands, written arrangements, a beat for dancing.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+   "quote": "who would improvise on the [[melody]] over the [[arrangement]]",
+   "artist": "",
+   "title": "6.2.1",
+   "claim": "In the United States the result is [[Swing]]: large dance bands, written arrangements, a beat for dancing.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Alam_Ara?action=raw",
+   "quote": "is widely regarded as the first sound film of India",
+   "artist": "",
+   "title": "6.2.2",
+   "claim": "In India the first sound film appears in 1931 and film song, [[Filmi (Bollywood song)]], becomes the popular music of the subcontinent.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hindi_film_music?action=raw",
+   "quote": "which account for nearly 80% of the country's music revenue",
+   "artist": "",
+   "title": "6.2.2",
+   "claim": "In India the first sound film appears in 1931 and film song, [[Filmi (Bollywood song)]], becomes the popular music of the subcontinent.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Cha-cha-ch%C3%A1_(music)?action=raw",
+   "quote": "in the early 1950s, and became widely popular throughout the world",
+   "artist": "",
+   "title": "6.3.2",
+   "claim": "Its dance music reaches New York and Mexico City and comes back larger as [[Mambo and cha-cha-chá]].",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Mambo_(music)?action=raw",
+   "quote": "mambo had become a \"dance craze\" in [[Mexico]] and the [[United States]]",
+   "artist": "",
+   "title": "6.3.2",
+   "claim": "Its dance music reaches New York and Mexico City and comes back larger as [[Mambo and cha-cha-chá]].",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+   "quote": "Soul emerged during the late 1950s, with its roots in",
+   "artist": "",
+   "title": "6.3.3",
+   "claim": "In Black American churches [[Gospel]] develops the vocal technique that soul and rock singers will borrow in the next chapter.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+   "quote": "with stylistic influences from [[gospel music|gospel]]",
+   "artist": "",
+   "title": "6.3.3",
+   "claim": "In Black American churches [[Gospel]] develops the vocal technique that soul and rock singers will borrow in the next chapter.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Single_(music)?action=raw",
+   "quote": "rpm record was released March 31, 1949",
+   "artist": "",
+   "title": "7.1.1",
+   "claim": "Three cheap things arrive together: the 45 rpm single, the transistor radio and the electric guitar.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Transistor_radio?action=raw",
+   "quote": "was released in 1954 becoming the first commercial transistor radio",
+   "artist": "",
+   "title": "7.1.1",
+   "claim": "Three cheap things arrive together: the 45 rpm single, the transistor radio and the electric guitar.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Electric_guitar?action=raw",
+   "quote": "During the 1950s and 1960s, the electric guitar became the most important instrument in",
+   "artist": "",
+   "title": "7.1.1",
+   "claim": "Three cheap things arrive together: the 45 rpm single, the transistor radio and the electric guitar.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+   "quote": "are rooted in a blending of",
+   "artist": "",
+   "title": "7.1.3",
+   "claim": "[[Rock and roll]] is rhythm and blues and country music sold to that audience.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+   "quote": "and in [[country music|country]] records of the 1930s",
+   "artist": "",
+   "title": "7.1.3",
+   "claim": "[[Rock and roll]] is rhythm and blues and country music sold to that audience.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+   "quote": "as imported records by [[Sexteto Habanero]]",
+   "artist": "",
+   "title": "7.2.3",
+   "claim": "In Kinshasa and Brazzaville, bands hear Cuban records and recognise something.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+   "quote": "genre that blends elements of Spanish and African origin",
+   "artist": "",
+   "title": "7.2.4",
+   "claim": "Cuban son was built on African rhythm, and [[Congolese rumba and soukous]] takes it home and makes it new.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+   "quote": "surrounding Jamaica's independence from the UK in 1962",
+   "artist": "",
+   "title": "7.2.5",
+   "claim": "Jamaica becomes independent in 1962 with [[Ska]] as its sound.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+   "quote": "is a relaxed style of [[samba]]",
+   "artist": "",
+   "title": "7.3.1",
+   "claim": "Meanwhile [[Soul and Motown]] brings the gospel voice into songs about love, and in Rio [[Bossa nova]] turns samba down to a murmur.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+   "quote": "Late 1950s, [[South Zone (Rio de Janeiro)|South Zone]] of Rio de Janeiro",
+   "artist": "",
+   "title": "7.3.1",
+   "claim": "Meanwhile [[Soul and Motown]] brings the gospel voice into songs about love, and in Rio [[Bossa nova]] turns samba down to a murmur.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Multitrack_recording?action=raw",
+   "quote": "a lead singer adding many [[harmony vocal]]s with their own voice to their own lead vocal part",
+   "artist": "",
+   "title": "8.1.1",
+   "claim": "With multitrack tape a record can be built layer by layer and can hold sounds no band could make in a room.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Album_era?action=raw",
+   "quote": "usually defined as the mid-[[1960s]] decade to mid-[[2000s]] decade",
+   "artist": "",
+   "title": "8.1.2",
+   "claim": "The album becomes the unit, and the producer becomes an author.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+   "quote": "Funk typically consists of a complex percussive groove with",
+   "artist": "",
+   "title": "8.2.2",
+   "claim": "[[Funk]] makes every instrument a drum.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Disco?action=raw",
+   "quote": "to create a continuous, seamless mix of songs",
+   "artist": "",
+   "title": "8.2.3",
+   "claim": "[[Disco]] is made for clubs, where a DJ joins records into one long dance.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Dub_music?action=raw",
+   "quote": "usually through the removal of vocal parts, emphasis of the [[rhythm section]]",
+   "artist": "",
+   "title": "8.2.4",
+   "claim": "In Jamaica, engineers strip songs down to bass and drums and rebuild them as [[Reggae and dub]].",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Remix?action=raw",
+   "quote": "Modern remixing had its roots in the dance-hall culture of late-1960s and early-1970s [[Jamaica]].",
+   "artist": "",
+   "title": "8.2.5",
+   "claim": "The remix starts there.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+   "quote": "and Ghanaian (such as [[highlife]]) music",
+   "artist": "",
+   "title": "8.3.2",
+   "claim": "In Lagos, [[Afrobeat]] fuses highlife with American funk and jazz.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+   "quote": "[[funk]], [[jazz]], and [[Soul music|soul]] influences",
+   "artist": "",
+   "title": "8.3.2",
+   "claim": "In Lagos, [[Afrobeat]] fuses highlife with American funk and jazz.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+   "quote": "communities in the United States, specifically in [[New York City]]",
+   "artist": "",
+   "title": "8.3.3",
+   "claim": "In New York, Puerto Rican and Cuban musicians make [[Salsa]].",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Heavy_metal_music?action=raw",
+   "quote": "The electric guitar and the sonic power that it projects through amplification has historically been the key element in heavy metal.",
+   "artist": "",
+   "title": "8.3.4",
+   "claim": "At the loud end, amplification gives [[Heavy metal]].",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Roland_TR-808?action=raw",
+   "quote": "among underground musicians for its affordability on the used market",
+   "artist": "",
+   "title": "9.1.1",
+   "claim": "Around 1980 the drum machine, the synthesizer and then the sampler become cheap enough to own.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+   "quote": "originated from a [[Chicago]] club called the [[Warehouse (nightclub)|Warehouse]]",
+   "artist": "",
+   "title": "9.2.2",
+   "claim": "[[House]] comes from Chicago clubs and [[Techno]] from Detroit.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+   "quote": "Mid-1980s, [[Detroit]], [[Michigan]], U.S.",
+   "artist": "",
+   "title": "9.2.2",
+   "claim": "[[House]] comes from Chicago clubs and [[Techno]] from Detroit.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+   "quote": "with an entirely-digital rhythm hook",
+   "artist": "",
+   "title": "9.2.3",
+   "claim": "In Jamaica [[Dancehall]] goes digital in the middle of the decade.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+   "quote": "or other breakbeats from funk and [[jazz]] recordings",
+   "artist": "",
+   "title": "9.2.4",
+   "claim": "In Britain the early 1990s bring [[Jungle and drum and bass]], built from sped-up samples of old funk drumming.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+   "quote": "Early 1990s, United Kingdom",
+   "artist": "",
+   "title": "9.2.4",
+   "claim": "In Britain the early 1990s bring [[Jungle and drum and bass]], built from sped-up samples of old funk drumming.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/MTV?action=raw",
+   "quote": "the channel originally aired [[music video]]s",
+   "artist": "",
+   "title": "9.3.1",
+   "claim": "At the same time the compact disc and music television make pop a larger and more visual business, and countries outside the English-speaking world build industries of their own: [[J-pop]] in Japan, and from the early 1990s [[K-pop]] in South Korea.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Compact_disc?action=raw",
+   "quote": "First released in Japan in October 1982",
+   "artist": "",
+   "title": "9.3.1",
+   "claim": "At the same time the compact disc and music television make pop a larger and more visual business, and countries outside the English-speaking world build industries of their own: [[J-pop]] in Japan, and from the early 1990s [[K-pop]] in South Korea.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+   "quote": "that entered the musical mainstream of Japan in the 1990s",
+   "artist": "",
+   "title": "9.3.1",
+   "claim": "At the same time the compact disc and music television make pop a larger and more visual business, and countries outside the English-speaking world build industries of their own: [[J-pop]] in Japan, and from the early 1990s [[K-pop]] in South Korea.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+   "quote": "emerged in the 1990s as a form of [[youth subculture]]",
+   "artist": "",
+   "title": "9.3.1",
+   "claim": "At the same time the compact disc and music television make pop a larger and more visual business, and countries outside the English-speaking world build industries of their own: [[J-pop]] in Japan, and from the early 1990s [[K-pop]] in South Korea.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Napster?action=raw",
+   "quote": "It was launched in June 1999 by",
+   "artist": "",
+   "title": "10.1.1",
+   "claim": "In 1999 file sharing shows that music can move without any object at all.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Music_industry?action=raw",
+   "quote": "revenues in the U.S. dropped by half, from a high of",
+   "artist": "",
+   "title": "10.1.2",
+   "claim": "The record business shrinks for a decade.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Max_Martin?action=raw",
+   "quote": "Martin has written or co-written 31",
+   "artist": "",
+   "title": "10.2.1",
+   "claim": "Production concentrates in a few hands, as in [[Teen pop (Max Martin era)]], while distribution scatters.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+   "quote": "It has been popularized and dominated by artists from Puerto Rico since the early 1990s.",
+   "artist": "",
+   "title": "10.2.2",
+   "claim": "[[Reggaeton]] rises from Puerto Rico on a Jamaican rhythm that came by way of Panama.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+   "quote": "It evolved from [[dancehall]]",
+   "artist": "",
+   "title": "10.2.2",
+   "claim": "[[Reggaeton]] rises from Puerto Rico on a Jamaican rhythm that came by way of Panama.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+   "quote": "in the 2000s and 2010s",
+   "artist": "",
+   "title": "10.2.3",
+   "claim": "In Lagos and Accra a new pop, [[Afrobeats]], takes shape.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/808s_&_Heartbreak?action=raw",
+   "quote": "with vocals processed through [[Auto-Tune]]",
+   "artist": "",
+   "title": "10.3.1",
+   "claim": "One sound marks the end of the period: the pitch-corrected voice over deep drum-machine bass, the line this course calls [[Melodic rap (the 808s line)]].",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+   "quote": "concerning its origin, with various accounts of the musical styles in the [[Johannesburg]] townships",
+   "artist": "",
+   "title": "11.2.1",
+   "claim": "[[Amapiano]] comes out of South African townships and reaches the world's clubs without changing language.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Despacito?action=raw",
+   "quote": "it became the first Spanish-language song to top the",
+   "artist": "",
+   "title": "11.2.2",
+   "claim": "[[Latin trap]] and reggaeton put Spanish at the top of global charts.",
+   "read": "2026-11-24"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/BTS?action=raw",
+   "quote": "They are the first non-English-speaking and Asian act to sell out concerts at [[Wembley Stadium]]",
+   "artist": "",
+   "title": "11.2.3",
+   "claim": "Korean pop fills stadiums on every continent.",
+   "read": "2026-11-24"
+  }
+ ]
+}
