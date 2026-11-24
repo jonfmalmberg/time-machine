@@ -182,7 +182,7 @@ check "owner reads the usage summary"           '"funnel"' "$(as authenticated $
 check "a member cannot read the usage summary"  "Owner only" "$(as authenticated $O 'select public.admin_usage(7)')"
 check "a visitor cannot call it"                "permission denied" "$(as anon '' 'select public.admin_usage(7)')"
 check "nobody can call the inner function"      "permission denied" "$(as authenticated $A 'select public.admin_usage_raw(7)')"
-check "owner sees the seeded ideas"             "30" "$(as authenticated $A 'select count(*) from public.ideas')"
+check "owner sees the seeded ideas"             "31" "$(as authenticated $A 'select count(*) from public.ideas')"
 check "a member sees no ideas"                  "0" "$(as authenticated $O 'select count(*) from public.ideas')"
 check "a member cannot add an idea"             "row-level security" "$(as authenticated $O "insert into public.ideas (title) values ('x')")"
 check "a visitor cannot read ideas"             "permission denied" "$(as anon '' 'select count(*) from public.ideas')"

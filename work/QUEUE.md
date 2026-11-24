@@ -92,7 +92,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Hand back:** `origins.json`: one record per artist `{credit, artist, kind: person|group, country: <two-letter code from data/countries.json>, url, quote, read}` (a person with two nationalities in the first sentence: `country` is a list); `sources.json` in the shape `tools/check_evidence.py` reads (`{"A": [{url, quote, artist, title: ""}]}`) and its `evidence-check.json`; only `found` records in `origins.json`, the rest in `unverified.json` with the reason. In the report: how far down the list you got (the last credit done), counts found, not found and ambiguous, and every credit whose split you were unsure of.
 
 ## H17. Where chart artists are from: batch B (rest of Europe)
-- **State:** open
+- **State:** accepted 2026-11-24 and applied with `tools/apply_origins.py` (decision D28). The lead read the report; the evidence check was not rerun by the lead.
 - **Model, ask, hand back:** as H16 with `artists.B.json` and the key `"B"`.
 
 ## H18. Where chart artists are from: batch C (Americas outside the United States, Oceania, Asia, Africa)

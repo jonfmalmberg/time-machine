@@ -10,8 +10,8 @@ Each numbered `.sql` file is one change to the Supabase database, kept here so t
 | `004_anon_events.sql` | Bounded log of what visitors who are not signed in do: newest 250,000 rows kept, 600 a minute accepted, owner-only reading | 22 Nov 2026 | 22 Nov 2026 |
 | `005_requests.sql` | Requests for a listener test or for research: anyone may ask, repeats add to a count, one ask spread over several decades gives each an equal share, owner-only reading and settling, flood guard and a 5,000 limit | 23 Nov 2026 | 23 Nov 2026 |
 | `006_open_signups.sql` | New accounts start active (a travel log needs no approval); those waiting are let in. Approval is kept for issue filing and voting, not built yet | 23 Nov 2026 | 23 Nov 2026 |
-| `007_admin_usage_ideas.sql` | `admin_usage(days)`: one usage summary for signed-in and anonymous visits, owner only; the table `ideas`, owner only | 24 Nov 2026 | not yet |
-| `008_ideas_seed.sql` | Thirty feature ideas from the lead, for the owner to reorder | 24 Nov 2026 | not yet |
+| `007_admin_usage_ideas.sql` | `admin_usage(days)`: one usage summary for signed-in and anonymous visits, owner only; the table `ideas`, owner only | 24 Nov 2026 | 24 Nov 2026 |
+| `008_ideas_seed.sql` | Thirty feature ideas from the lead, for the owner to reorder | 24 Nov 2026 | 24 Nov 2026 |
 | `001_make_owner.sql` | Makes the first signed-in person the owner | 22 Nov 2026 | 22 Nov 2026 |
 
 ## How changes are applied

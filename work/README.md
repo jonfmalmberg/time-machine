@@ -11,7 +11,7 @@ Scheduled helper runs put everything they produce here, and nowhere else. Nothin
 ## What a helper run does
 
 1. Reads `CLAUDE.md`, this file and `QUEUE.md` on `dev`.
-2. Takes the first assignment whose state is `open`. If there is none, it posts "queue empty" to the run log and stops.
+2. Takes the first assignment whose state is `open`, unless the message that started the run names one ("take assignment H19"): then it takes that one, provided its state is `open` and no `helper/*` branch for it exists yet; if it is not open or already has a branch, it falls back to the first open one and says so in its report. If there is none, it posts "queue empty" to the run log and stops.
 3. Works on a branch named `helper/<date>-<assignment id>`, made from `dev`.
 4. Writes only inside `work/<date>-<assignment id>/`. Always a `REPORT.md` there (format below).
 5. Sets the assignment's state in `QUEUE.md` to `handed back <date>`. This is the only line it changes outside its own folder.

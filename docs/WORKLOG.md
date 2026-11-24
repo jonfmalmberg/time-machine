@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-24 (01:54, owner back: release 6)
+
+- Owner: push to prod if safe. Released as release 6: `main` moved to `dev`; db 007 and 008 run on prod (a function and a new table; no existing row touched).
+- H17 (artist origins, rest of Europe) accepted and applied with the new `tools/apply_origins.py`: 995 more entries home, 933 foreign; 13,897 chart entries still have no origin.
+- Of the four helper runs started by hand, two ran (H16, H17): a run takes the first open assignment whatever the starting message says. `work/README.md` now lets the starting message name one.
+- Not tested before release: a real phone; `db/test.sh`; the page's load time at 5.6 MB on a phone connection.
+
 ## 2026-11-24 (overnight, owner away: branches, admin, trip log, course, List and Data, genre and chart data)
 
 - **Branches:** two only, `main` and `dev` (D21). `review` could not be deleted from this session (the connection refuses branch deletion); it is unused and the owner can delete it on GitHub. Old feature branches on GitHub are also unused.
