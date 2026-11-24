@@ -2,6 +2,12 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (after release 4: usage check, duplicates, validation plan)
+
+- Release 4 confirmed serving on the live address (link title rewritten by the Worker, preview image present).
+- Owner asked whether usage reporting in prod is broken or the app is unused. Checked the prod database (read only) and made one anonymous test visit to the live site: the usage request was accepted (201) and the row count rose. Reporting works. The prod numbers are real: 10 anonymous visits in two days (9 on 22 Nov, 1 on 23 Nov; arrivals from Facebook and Instagram), one account (the owner, about 200 rows), no other testers, no requests. One known blind spot: visitors whose browser sends "do not track" or Global Privacy Control are not logged, by design. The lead's test visit added 2 or 3 anonymous rows on 23 Nov.
+- Duplicates in the Data tab: `DECISIONS.md` D14. Validation per field: D13 and the proposal. Neither built.
+
 ## 2026-11-23 (release 4)
 
 - Owner approved the `review` demo for publishing and accepted the Worker (100,000 page visits a day is enough). Squashed into `dev`, `main` moved to `dev`.

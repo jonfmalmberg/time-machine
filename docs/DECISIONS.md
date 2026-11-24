@@ -4,6 +4,17 @@ The lead's standing choices: what was decided, why, and what is not known. One e
 
 ## 2026-11-23
 
+### D14. What a duplicate is, and what the Data tab shows
+- **Found (owner's screenshot, Justin Bieber):** two different things look like duplicates. (1) The Data tab lists one row per appearance of a song in a list, and calls the rows "songs": "Sorry" is one song record that appears in six lists. (2) Real duplicates: "Baby" exists twice, once credited "feat. Ludacris". By exact title and main artists there are 242 surplus song records in 225 groups, out of 10,915.
+- **Choice:** the Data tab shows each song once, with its appearances under it. Song records with the same title, the same main artists and the same release year are merged by a script, keeping the fuller credit and all links; `tests/data.py` then forbids them. A version with a different main or featured line-up that is a different recording stays separate (owner's rule: with and without Rihanna are two songs); "feat." written on one copy and missing on the other, same year, is the same recording.
+- **Not known:** how many of the 809 looser match candidates (`work/2026-11-23-schema/`) are real duplicates.
+- **State:** not built.
+
+### D13. Validation is per field, by importance
+- **Choice:** each field has an importance and its own check; year, country, artist country, the genre tie and duplicates are high. Plan: `docs/proposals/2026-11-24-validation.md`. "Sources checked" today covers only that the song's name is on the cited page (D6).
+- **Why (owner):** song exists is a low bar; a wrong year or country breaks the filters.
+- **State:** proposal. Roadmap 2.16.
+
 ### D12. Link previews use one small Worker
 - **Choice:** `src/worker/index.js` runs for the page address only and writes the shared view ("Canada · 1980–2020 · Country") into the title and preview tags. The page itself sets the same words as the tab title and in the share sheet, from the same function (`src/worker/title.js`).
 - **Why:** chat apps build a preview without running the page's script, so the page cannot do this itself. On a phone the address is rarely shown in full; the title has to say what is offered.
