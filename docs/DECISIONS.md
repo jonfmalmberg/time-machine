@@ -4,6 +4,15 @@ The lead's standing choices: what was decided, why, and what is not known. One e
 
 ## 2026-11-23
 
+### D31. Chart songs get their genre from a synthetic expert test, measured before it is used (owner, 24 Nov)
+- **Choice:** a model acting as a music historian places each song in *our* genre set, from the genre definitions, in two independent runs. A source's own genre label (Wikipedia's infobox) is not mapped to our set: it uses other categories, lumps songs into "pop", "rock" and "folk", and is not applied consistently. It may be used later only to flag disagreement.
+- **Why (owner):** we want songs mapped to where they really belong in our set; another catalogue's categories cannot give that.
+- **Measured first:** the pilot (H25) hides about 930 songs whose genre we already researched among 500 chart songs. The lead scores the expert against them: exact genre, same tradition, and how often the two runs agree.
+- **Rule for use, to be set from the pilot's numbers and written here:** proposed: an assignment is kept only when the expert says it knows the recording, both runs give the same genre, and that class of answer scored well on the hidden songs. Everything else stays unassigned.
+- **How it is stored and shown:** as `genre_basis: synthetic expert` with the test's id, apart from researched genres (roadmap 8.3). It is a judgement, not a sourced fact, and the site must be able to say so.
+- **Known limits:** the hidden songs are in the repository, so blindness rests on the brief; a model's knowledge is weakest for the music we are thinnest in; `none` answers tell us which genres our set lacks, which is useful in itself.
+- **Supersedes** the Wikipedia-mapping plan in `docs/research/2026-11-24-data-quality.md` as first written.
+
 ### D30. Source tables are kept; the master list for a country-year is a recorded choice (owner's rule, restated 24 Nov)
 - **Rule:** each source's table stays as researched; the master table combines them; a conflict is re-researched, reconciled or decided, and the decision is written down.
 - **State:** chart rows are kept whole in `work/2026-11-24-wikicharts/`. Where an older researched list existed for a country-year, it stands and the chart rows were not shown; the two were not compared. The combine step is not built. Details and targets: `docs/research/2026-11-24-data-quality.md`.

@@ -40,11 +40,12 @@ The owner's rule: each source's table is kept as it was researched; the master t
 
 ## Genres for chart songs: how they will be chosen and assigned
 
-1. **Collect what a source says, per song.** The song's Wikipedia infobox has a `genre` field. A helper copies it as written, with the quote (H25, 1,500 most-listed songs first). No judgement at this step.
-2. **Map source names to our tree, once.** The lead builds a table from Wikipedia's genre names to our genre ids ("Pop rock" to ours; "Schlager" to ours). A few hundred names cover most songs. The table is reviewed data, kept in `data/`, and every assignment can be traced to a row of it.
-3. **Assign by rule.** A song gets every mapped genre from its field as a link with role `charted in genre` and the infobox quote as evidence; its principal genre is the first-listed mapped one. A song whose names do not map gets none and is counted.
-4. **Fall back to the artist, marked as weaker.** Where the song has no article, use the artist's infobox genres, recorded as "by artist" so the page can treat it as a weaker tie.
-5. **Check with what we already know.** 611 chart songs already have a genre from our own research: compare the rule's answer with ours before trusting it, and publish the agreement rate.
-6. **Then the filter works both ways:** Popular within a genre shows that genre's chart hits (roadmap 5.3b), and a genre card can show where and when it charted.
+Changed on 24 Nov after the owner's review (decision D31). The first plan mapped Wikipedia's infobox genres to our tree. That is dropped as the method: Wikipedia's categories are not ours, they lump songs into "pop", "rock" and "folk", and they are not applied consistently.
 
-Known bias of this method: Wikipedia's genre fields are edited by fans, favour English-language pop categories, and are missing for older and non-Western songs, which is where we are already thinnest.
+1. **A synthetic expert places each song in our own genre set.** A model briefed as a music historian reads our genre definitions and answers, per song: does it know the recording, which one of our genres it belongs to by its sound, a second genre if it sits between two, how sure it is, and "none of these" with what is missing.
+2. **Two independent runs.** A song is only a candidate when both runs agree.
+3. **Measured before use.** The pilot (H25) hides about 930 songs whose genre we researched among 500 chart songs. The lead scores exact genre, same tradition, and agreement between runs, split by how sure the expert said it was and by region and era, because the expert will be worse where we are thinnest.
+4. **A rule for keeping an answer, set from those numbers** and recorded in D31. Answers that do not meet it stay unassigned.
+5. **Stored apart and labelled** as a synthetic judgement, never as a sourced fact.
+6. **"None of these" is data too:** the most frequent missing genres are candidates for the tree.
+7. **Then the filter works both ways:** Popular within a genre shows that genre's chart hits (roadmap 5.3b).
