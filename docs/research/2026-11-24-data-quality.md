@@ -44,7 +44,7 @@ Changed on 24 Nov after the owner's review (decision D31). The first plan mapped
 
 1. **A synthetic expert places each song in our own genre set.** A model briefed as a music historian reads our genre definitions and answers, per song: does it know the recording, which one of our genres it belongs to by its sound, a second genre if it sits between two, how sure it is, and "none of these" with what is missing.
 2. **Two independent runs.** A song is only a candidate when both runs agree.
-3. **Measured before use.** The pilot (H25) hides about 930 songs whose genre we researched among 500 chart songs. The lead scores exact genre, same tradition, and agreement between runs, split by how sure the expert said it was and by region and era, because the expert will be worse where we are thinnest.
+3. **Measured before use.** The pilot (H25) hides 954 songs whose genre we researched among 500 chart songs. The lead scores exact genre, same tradition, and agreement between runs, split by how sure the expert said it was and by region and era, because the expert will be worse where we are thinnest.
 4. **A rule for keeping an answer, set from those numbers** and recorded in D31. Answers that do not meet it stay unassigned.
 5. **Stored apart and labelled** as a synthetic judgement, never as a sourced fact.
 6. **"None of these" is data too:** the most frequent missing genres are candidates for the tree.
