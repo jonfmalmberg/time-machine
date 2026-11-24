@@ -85,5 +85,5 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Hand back:** `genres.add.json`, `parentage.add.json`, `presence.add.json`, `sources.json`, `evidence-check.json`, and the list of `pungmul` songs to move.
 
 ## H15. Genre research, batch 7
-- **State:** open
+- **State:** on hold 2026-11-23 (lead): 56 researched genres wait for ingest; no more genre batches until that is reviewed.
 - **Model, ask, hand back:** as H12, the next eight pending genres (skip every genre already in a `work/*/defs.add.json`). In the report, count for each genre how many songs are tied to it only by a track or album title, and try one further source (liner notes, a label page, a national library or archive catalogue) for each such song before accepting it.
