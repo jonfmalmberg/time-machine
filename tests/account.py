@@ -130,11 +130,11 @@ with sync_playwright() as pw:
     p.click('.rq[data-kind="research"] .rqm'); p.wait_for_timeout(500); card = p.inner_text('#sheet-detail')
     assert 'Researched' in card and 'By year' in card and '6 or more home-grown' in card and 'Sources not checked yet' in card, card
     shot(p, 'card_research_phone'); p.evaluate('UI.sheet.close()'); p.wait_for_timeout(350)
-    # Japan 2015: decade list only, never tested: both buttons
-    p.evaluate("setYear(2015); stPanelUpdate()"); p.wait_for_timeout(400)
+    # India 2015 (Japan now has chart lists for most years): decade list only, never tested: both buttons
+    p.evaluate("setYear(2015); setPlace({k:'cty',iso:'IN'}); stPanelUpdate()"); p.wait_for_timeout(400)
     assert p.inner_text('#sttest') == 'Request' and p.inner_text('#streq') == 'Request' and 'Not tested' in p.inner_text('#ststatus') and 'Decade list only' in p.inner_text('#ststatus')
     p.evaluate("document.getElementById('sttest').click()"); p.wait_for_timeout(400)
-    assert len(reqs) == 1 and reqs[0]['req_kind'] == 'listener' and reqs[0]['req_ref']['pl'] == 'cty:JP' and reqs[0]['req_ref']['y0'] == 2015 and len(reqs[0]['req_ref']['prompt']) > 100, reqs
+    assert len(reqs) == 1 and reqs[0]['req_kind'] == 'listener' and reqs[0]['req_ref']['pl'] == 'cty:IN' and reqs[0]['req_ref']['y0'] == 2015 and len(reqs[0]['req_ref']['prompt']) > 100, reqs
     assert 'Requested' in p.inner_text('.rq[data-kind="listener"]') and p.locator('#sttest').count() == 0
     shot(p, 'request_listener_phone')
     p.evaluate("setYear(1955); setPlace({k:'cty',iso:'AR'}); stPanelUpdate()"); p.wait_for_timeout(400)
@@ -143,12 +143,12 @@ with sync_playwright() as pw:
     # research is asked for in the pieces it is done in: one country, decade by decade. No country or before 1940: nothing to ask for.
     p.evaluate("setYear(1850); setPlace(null); stPanelUpdate()"); p.wait_for_timeout(400)
     assert p.locator('#sttest').count() == 1 and p.locator('#streq').count() == 0 and 'Choose a country' in p.inner_text('#ststatus'), p.inner_text('#ststatus')
-    # the United Kingdom over all of history: every decade from the 1940s, one request shared between the unresearched ones
-    p.evaluate("resetFilters('all'); setPlace({k:'cty',iso:'GB'}); stPanelOpen=true; stBarUI(); stPanelUpdate()"); p.wait_for_timeout(400)
-    todo = p.evaluate("[1940,1950,1960,1970,1980,1990,2000,2010,2020].filter(d=>!Object.keys(YEARL.GB||{}).some(y=>decadeKey(+y)===String(d)))")
+    # the Netherlands (no year lists) over all of history: every decade from the 1940s, one request shared between the unresearched ones
+    p.evaluate("resetFilters('all'); setPlace({k:'cty',iso:'NL'}); stPanelOpen=true; stBarUI(); stPanelUpdate()"); p.wait_for_timeout(400)
+    todo = p.evaluate("[1940,1950,1960,1970,1980,1990,2000,2010,2020].filter(d=>!Object.keys(YEARL.NL||{}).some(y=>decadeKey(+y)===String(d)))")
     assert len(todo) >= 2 and '9 decades' in p.inner_text('#ststatus') and p.inner_text('#streq') == 'Request %d decades' % len(todo), (todo, p.inner_text('#ststatus'))
     p.evaluate("document.getElementById('streq').click()"); p.wait_for_timeout(400)
-    assert reqs[-1]['req_kind'] == 'research' and [i['key'] for i in reqs[-1]['req_items']] == ['GB_%d_new' % d for d in todo], reqs[-1]
+    assert reqs[-1]['req_kind'] == 'research' and [i['key'] for i in reqs[-1]['req_items']] == ['NL_%d_new' % d for d in todo], reqs[-1]
     assert p.locator('#streq').count() == 0 and 'Requested' in p.inner_text('.rq[data-kind="research"]'); shot(p, 'request_decades_phone')
     n_before = len(reqs)   # narrowing to one of those decades shows it as already asked for
     p.evaluate("setYear(%d); setStay(0); stPanelUpdate()" % (todo[-1] + 1)); p.wait_for_timeout(400)
