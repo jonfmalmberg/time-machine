@@ -139,7 +139,7 @@ function paint(){
   box.querySelector('#acctout').onclick=signOut;
 }
 
-window.ACCOUNT={ env:ENV, open:openSheet, mount, user:()=>S.user, profile:()=>S.profile,
+window.ACCOUNT={ env:ENV, open:openSheet, mount, signIn, user:()=>S.user, profile:()=>S.profile,
   isActive:()=>!!(S.profile&&S.profile.status==='active'), isOwner:()=>!!(S.profile&&S.profile.status==='active'&&S.profile.role==='owner'),
   client:()=>client, onChange:f=>subs.push(f) };
 

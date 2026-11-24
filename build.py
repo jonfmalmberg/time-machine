@@ -18,19 +18,19 @@ from legacy_data import legacy_data
 
 HEAD = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
-        '<meta name="description" content="Travel to a place and a year and hear what people there were listening to.">\n'
+        '<meta name="description" content="Explore the world&#39;s music by place and time, and find sounds you would never have heard.">\n'
         # Link previews and icons. The Worker (src/worker/index.js) rewrites the title, description, address and
         # image address for a shared view; these are what a plain visit shows.
         '<meta property="og:site_name" content="World Music Time Machine">\n'
         '<meta property="og:type" content="website">\n'
         '<meta property="og:title" content="World Music Time Machine">\n'
-        '<meta property="og:description" content="Travel to a place and a year and hear what people there were listening to.">\n'
+        '<meta property="og:description" content="Explore the world&#39;s music by place and time, and find sounds you would never have heard.">\n'
         '<meta property="og:url" content="">\n'
         '<meta property="og:image" content="/share.png">\n'
         '<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n'
         '<meta name="twitter:card" content="summary_large_image">\n'
         '<meta name="twitter:title" content="World Music Time Machine">\n'
-        '<meta name="twitter:description" content="Travel to a place and a year and hear what people there were listening to.">\n'
+        '<meta name="twitter:description" content="Explore the world&#39;s music by place and time, and find sounds you would never have heard.">\n'
         '<meta name="twitter:image" content="/share.png">\n'
         '<link rel="icon" href="/icon.svg" type="image/svg+xml">\n'
         '<link rel="apple-touch-icon" href="/apple-touch-icon.png">\n'

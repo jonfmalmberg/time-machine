@@ -51,6 +51,9 @@ def open_page(pw, viewport, init=None, dark=False, query=''):
     global anon, reqs; anon = []; reqs = []
     browser = pw.chromium.launch()
     page = browser.new_context(viewport=viewport, color_scheme='dark' if dark else 'light').new_page()
+    # The playlist panel is tabbed. These scenarios check what each section holds, so every section is laid out at once
+    # and the prompt is unfolded; the tabs themselves are checked in the scenario "panel tabs".
+    page.add_init_script("""document.addEventListener('DOMContentLoaded',()=>{ const st=document.createElement('style'); st.textContent='#stpanel.alltabs:not([data-mode=genre]) [data-stpane][hidden],#stpanel.alltabs[data-mode=genre] [data-stpane]:not([data-stpane=sounds])[hidden]{display:block!important}'; document.head.appendChild(st); const pn=document.getElementById('stpanel'); if(pn) pn.classList.add('alltabs'); const d=document.getElementById('stplabel'); if(d) d.open=true; });""")
     page.on('pageerror', lambda e: errors.append(str(e)))
     def route(r):
         u = r.request.url
@@ -97,15 +100,18 @@ with sync_playwright() as pw:
     assert all(set(e) == {'session', 'action', 'ref'} for e in anon), 'unexpected fields in anonymous events'
     p.click('#whobtn'); p.wait_for_timeout(300); assert p.evaluate("curView()") != 'me', 'second tap on the account button did not go back'
     # Random: after a pick, "Shuffle again" repeats the same kind in one tap, and each pick is logged with its place in the run
-    p.click('#tab-tree'); p.wait_for_timeout(300); p.click('#mrandb'); p.wait_for_timeout(400); p.click("#mrand [data-go='rollany']"); p.wait_for_selector('#reshuf', state='visible', timeout=8000)
+    p.evaluate("document.getElementById('tab-tree').click()"); p.wait_for_timeout(300); p.click('#mrandb'); p.wait_for_timeout(400); p.click("#mrand [data-go='rollany']"); p.wait_for_selector('#reshuf', state='visible', timeout=8000)
     for _ in range(2):
         p.click('#reshuf'); p.wait_for_timeout(300); p.wait_for_function('!rolling', timeout=8000); p.wait_for_timeout(400)
     p.evaluate("window.TRACKFLUSH()"); p.wait_for_timeout(300)
     rnd = [e['ref'] for e in anon if e['action'] == 'random']
     assert [r['n'] for r in rnd] == [1, 2, 3] and all(r['kind'] == 'rollany' and r['to'] for r in rnd), rnd
     shot(p, 'reshuffle_phone'); p.click('#reshufx'); p.wait_for_timeout(200); assert not p.is_visible('#reshuf')
+    # a random genre opens its playlist sheet over the view the person is in, not the list
+    assert p.evaluate("curView()") == 'tree' and p.evaluate('GP') == rnd[-1]['to'] and p.is_visible('#stpanel') and p.inner_text('#sthere') == p.evaluate("byId[GP].name")
+    p.evaluate('closeGenrePlaylist()'); p.wait_for_timeout(200)
     # requests without an account: a listener test of the prompt on screen, and research for an unresearched decade
-    p.click('#tab-map'); p.wait_for_timeout(300)
+    p.evaluate("document.getElementById('tab-map').click()"); p.wait_for_timeout(300)
     p.evaluate("resetFilters('all'); setYear(1985); setStay(0); setPlace({k:'cty',iso:'JP'}); stPanelOpen=true; stBarUI(); stPanelUpdate()"); p.wait_for_timeout(400)
     # Japan 1985 has year lists and a recorded listener test: both rows say so and offer no button to a visitor
     st = p.inner_text('#ststatus')
@@ -147,7 +153,7 @@ with sync_playwright() as pw:
     f = reqs[-1]['req_ref']['filter']; assert reqs[-1]['req_kind'] == 'listener' and f['pl'] == 'cty:GB' and f['until'] is True and f['y1'] >= 2026 and f['y0'] < 0, reqs[-1]['req_ref']
     # genres: the list has one Playlist button per genre, which opens the same panel
     p.evaluate("resetFilters('all'); stPanelOpen=false; stBarUI()")
-    p.click('#tab-list'); p.wait_for_timeout(400)
+    p.evaluate("document.getElementById('tab-list').click()"); p.wait_for_timeout(400)
     n_g, n_b = p.evaluate("[document.querySelectorAll('#listbody .gitem').length, document.querySelectorAll('#listbody [data-gpl]').length]")
     assert n_g > 100 and n_g == n_b and p.locator('#listbody details.pl').count() == 0, (n_g, n_b)
     full = p.evaluate("Object.keys(PL).find(k=>PL[k].status==='full'&&DEFS[k])"); pend = p.evaluate("Object.keys(byId).find(k=>!DEFS[k])")
@@ -176,7 +182,10 @@ with sync_playwright() as pw:
     p.evaluate("document.getElementById('streq').click()"); p.wait_for_timeout(400)
     assert reqs[-1]['req_key'] == 'g:' + pend + '_new' and 'Requested' in p.inner_text('.rq[data-kind="research"]'), reqs[-1]
     shot(p, 'genre_pending_phone')
-    p.evaluate("showView('map')"); p.wait_for_timeout(300); assert not p.is_visible('#stpanel') and p.evaluate("GP") is None, 'genre playlist stayed open outside the list'
+    # a genre's playlist sheet stays over the tree, map, tunnel and list, and closes on the views that have no sheet
+    p.evaluate("showView('map')"); p.wait_for_timeout(300); assert p.is_visible('#stpanel') and p.evaluate("GP") is not None, 'genre playlist closed on the map'
+    p.evaluate("showView('data')"); p.wait_for_timeout(300); assert not p.is_visible('#stpanel') and p.evaluate("GP") is None, 'genre playlist stayed open on the data view'
+    p.evaluate("showView('map')"); p.wait_for_timeout(200)
     p.evaluate("stPanelOpen=false; stBarUI()")
     p.click('#whobtn'); p.wait_for_timeout(300)
     p.click('#acctin'); p.wait_for_timeout(500)
@@ -249,7 +258,7 @@ with sync_playwright() as pw:
         assert 'Tokyo' in p.inner_text('#sheet-detail') and 'Suspend' in p.inner_text('#sheet-detail'); shot(p, 'admin_tester_' + name)
         # the owner may ask for finished work to be run again; a finished request goes back on the open list
         p.evaluate("UI.sheet.close(); window.__sb.requests.push({id:8,kind:'research',key:'JP_1980_rerun',ref:{},n:1,status:'done',last_at:'2026-11-22T10:00:00Z'})")
-        p.click('#tab-map'); p.wait_for_timeout(300)
+        p.evaluate("document.getElementById('tab-map').click()"); p.wait_for_timeout(300)
         p.evaluate("resetFilters('all'); setYear(1985); setStay(0); setPlace({k:'cty',iso:'JP'}); stPanelOpen=true; stBarUI(); stPanelUpdate()"); p.wait_for_timeout(400)
         assert p.inner_text('#streq') == 'Rerun' and p.inner_text('#sttest') == 'Rerun', p.inner_text('#ststatus')
         shot(p, 'rerun_' + name)

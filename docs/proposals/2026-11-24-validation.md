@@ -41,3 +41,17 @@ Importance is how much a wrong value damages what the user sees. High = it drive
 ## Not known
 - How many songs MusicBrainz will match by script. Old and non-Western recordings are thinly covered there; for those the year will stay an estimate.
 - Whether one request a second (MusicBrainz's limit) is fast enough for 11,000 songs in one run: about three hours, acceptable as a one-off.
+
+## Coverage as of 23 November 2026 (evening)
+What is actually checked today, field by field. "Place-list songs" are the 6,022 songs that sit in a country's year or decade list.
+
+| Field | Checked | Not checked | Note |
+| :- | :- | :- | :- |
+| Song exists under that name on its cited page | Every song that came in through ingest (eight genres); the 127 Japan 1980s chart songs (helper H10) | All other old data | Shown as "Sources checked / partly / not checked" |
+| Release year | 1,302 place-list songs confirmed by MusicBrainz; 32 flagged as possibly late | 4,688 place-list songs; every genre-only song | Shown per song in the Data tab. Wikipedia steps not built (D18) |
+| Duplicate songs | All: 182 merged, and the data test forbids new ones | Looser matches (809 candidates) not gone through | D14 |
+| Country and year of a chart list | None as a source-level check | All | Planned with the Wikipedia chart rows (D16) |
+| Chart position | 127 links (Japan, 1980s) | About 2,230 other chart links | D8 |
+| Artist's country | None | All | Not started |
+| Kind of genre tie | None stored | All | Helpers reported it per genre in their notes only |
+| Genre start dates and peaks | Marked estimate for the two new genres | The rest are unmarked | |

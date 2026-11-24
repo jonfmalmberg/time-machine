@@ -19,7 +19,7 @@ import glob, json, os
 KEYS = ['tests', 'verified', 'era', 'yearl', 'ysrc', 'langs', 'isoLang', 'cityLang', 'st', 'cnt', 'iso',
         'neAlias', 'cities', 'regions', 'bands', 'nodes', 'layout', 'scores',
         'playlists', 'known', 'done', 'indoc', 'edges', 'tier', 'trad', 'tradOf',
-        'ends', 'defs', 'notes', 'method']
+        'ends', 'defs', 'notes', 'method', 'sub', 'relcheck']
 CITY_FIELDS = [('name', 'name'), ('country', 'iso2'), ('lat', 'lat'), ('lon', 'lon'), ('founded', 'founded'),
                ('ended', 'ended'), ('names', 'names'), ('size', 'size'), ('kind', 'kind'), ('radius_km', 'r'),
                ('note', 'note'), ('x', 'x')]
@@ -127,7 +127,14 @@ def legacy_data(data_dir):
                 if e not in src_index:
                     src_index[e] = len(ysrc)
                     ysrc.append([evidence[e]['title'], evidence[e]['url']])
-                rows.append(list(pair(l)) + [year(l), l['role'], l['rank'], src_index[e], l.get('source_address', ''), l['scene']])
+                rows.append(list(pair(l)) + [year(l), l['role'], l['rank'], src_index[e], l.get('source_address', ''), l['scene'], l.get('chart_pos')])
+            # Order of a year list (DECISIONS.md D8, rule version 1). Only where the list has chart positions:
+            # charted songs in chart order, then the songs with no chart position in the order they were stored.
+            # The number shown as the list order follows the result. Lists with no chart positions are untouched.
+            if any(r[8] is not None for r in rows):
+                rows = sorted((r for r in rows if r[8] is not None), key=lambda r: r[8]) + [r for r in rows if r[8] is None]
+                for n, r in enumerate(rows, 1):
+                    r[4] = n
             yearl[iso][sid.split(':')[2]] = {'songs': rows, 'note': cscope[iso][sid].get('note', '')}
     for e in sorted(evidence):
         # The old source list also held sources no year list pointed at. Evidence that came in through the
@@ -240,5 +247,10 @@ def legacy_data(data_dir):
         'ends': {g: G[g]['ended'] for g in gid},
         'defs': defs, 'notes': {g: G[g]['note'] for g in _ordered(lo['notes'], [g for g in gid if 'note' in G[g]])},
         'method': plain('method'),
+        # release years checked against MusicBrainz (tools/check_musicbrainz.py): "artist\x01title" -> [state, their year]
+        'relcheck': {credit(r) + '\x01' + r['title']: [r['released']['check']['state'], r['released']['check']['year']]
+                     for r in songs.values() if (r.get('released') or {}).get('check')},
+        # named sub-genres folded into a genre (DECISIONS.md D10): shown on its card and found by search
+        'sub': {g: G[g]['subgenres'] for g in gid if G[g].get('subgenres')},
     }
     return {k: data[k] for k in KEYS}

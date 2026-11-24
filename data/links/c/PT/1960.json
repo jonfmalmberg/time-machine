@@ -1,5 +1,5 @@
 [
-{"song":"s_w5px8m8pxd","scope":"c:PT:1960s","role":"home","scene":"radio","confidence":"m"},
+{"song":"s_a036adq64a","scope":"c:PT:1960s","role":"home","scene":"radio","confidence":"m"},
 {"song":"s_gvgs3fxk2y","scope":"c:PT:1960s","role":"home","scene":"folk","confidence":"h"},
 {"song":"s_exew30m695","scope":"c:PT:1960s","role":"home","scene":"folk","confidence":"m"},
 {"song":"s_xbc8bv4nbw","scope":"c:PT:1960s","role":"home","scene":"ballad","confidence":"h"},
@@ -15,5 +15,5 @@
 {"song":"s_hkjdakb121","scope":"c:PT:1960s","role":"foreign","scene":"ballad","confidence":"m"},
 {"song":"s_v346d6pyaw","scope":"c:PT:1960s","role":"foreign","scene":"pop","confidence":"m"},
 {"song":"s_bpdk1g6mmd","scope":"c:PT:1960s","role":"foreign","scene":"pop","confidence":"m"},
-{"song":"s_5jm3bz06jb","scope":"c:PT:1960s","role":"foreign","scene":"rock","confidence":"m"}
+{"song":"s_kqaf2keyrn","scope":"c:PT:1960s","role":"foreign","scene":"rock","confidence":"m"}
 ]

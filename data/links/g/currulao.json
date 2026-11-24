@@ -24,7 +24,7 @@
 {"song":"s_1jz4rj3hy8","scope":"g:currulao","role":"reference","evidence":["e_v0gez6kpgh","e_vkr3qhsw6b"],"pass":1},
 {"song":"s_xha0avnqns","scope":"g:currulao","role":"reference","evidence":["e_y6svbep7tn"],"pass":1},
 {"song":"s_01dedxq2ac","scope":"g:currulao","role":"reference","evidence":["e_39tjf6hx1s"],"pass":1},
-{"song":"s_85yd2dfa73","scope":"g:currulao","role":"near miss","belongs_to":"colombiansalsa","reason":"Big-band salsa from Cali with brass, piano and congas: Pacific-born musicians, but no marimba, bombos or cantadora chorus","evidence":["e_7kwr33etpm","e_01kxewvkdm"],"pass":1},
+{"song":"s_1gg1vsyqxy","scope":"g:currulao","role":"near miss","belongs_to":"colombiansalsa","reason":"Big-band salsa from Cali with brass, piano and congas: Pacific-born musicians, but no marimba, bombos or cantadora chorus","evidence":["e_7kwr33etpm","e_01kxewvkdm"],"pass":1},
 {"release":"r_d6sedxsvqp","scope":"g:currulao","role":"album","evidence":["e_8cs5ew9dc8"],"pass":1},
 {"release":"r_a7rrewfw4z","scope":"g:currulao","role":"album","evidence":["e_h495vm9whw","e_anj056g7c6"],"pass":1},
 {"release":"r_qekky8t3k8","scope":"g:currulao","role":"album","evidence":["e_4a7vfhayg6"],"pass":1},

@@ -5508,5 +5508,14 @@
 {"genre":"budots","place":"seasia","kind":"peak","from":2019,"to":2026,"basis":"first estimate"},
 {"genre":"budots","place":"PH","kind":"peak","from":2019,"to":2026,"strength":0.85,"basis":"first estimate"},
 {"genre":"ppop","place":"seasia","kind":"peak","from":2020,"to":2026,"basis":"first estimate"},
-{"genre":"ppop","place":"PH","kind":"peak","from":2020,"to":2026,"strength":0.85,"basis":"first estimate"}
+{"genre":"ppop","place":"PH","kind":"peak","from":2020,"to":2026,"strength":0.85,"basis":"first estimate"},
+{"genre":"rways","place":"MA","kind":"origin","from":1750,"basis":"first estimate"},
+{"genre":"rways","place":"mena","kind":"peak","from":1930,"to":1990,"basis":"first estimate"},
+{"genre":"rways","place":"MA","kind":"peak","from":1930,"to":1990,"strength":0.85,"basis":"first estimate"},
+{"genre":"rways","place":"FR","kind":"later","from":1930,"basis":"first estimate"},
+{"genre":"koreanminyo","place":"KR","kind":"origin","from":1756,"basis":"first estimate"},
+{"genre":"koreanminyo","place":"easia","kind":"peak","from":1910,"to":1945,"basis":"first estimate"},
+{"genre":"koreanminyo","place":"KR","kind":"peak","from":1910,"to":1945,"strength":0.85,"basis":"first estimate"},
+{"genre":"koreanminyo","place":"KP","kind":"peak","from":1910,"to":1945,"strength":0.85,"basis":"first estimate"},
+{"genre":"koreanminyo","place":"JP","kind":"later","from":1910,"basis":"first estimate"}
 ]

@@ -43,7 +43,7 @@ with sync_playwright() as pw:
     assert s['panel'] and s['mode'] == 'moment' and s['gp'] is None, s
     prompt = p.input_value('#stprompt')
     assert 'Japan' in prompt and '1985' in prompt, prompt[:300]
-    assert p.is_visible('#stlink') and p.inner_text('#stlink') == 'Copy link'
+    assert p.is_visible('#sttabs') and p.is_visible('#shareb')
     # the address keeps saying the same thing once the page has settled
     p.wait_for_timeout(700)
     q = p.evaluate('location.search')
@@ -57,7 +57,7 @@ with sync_playwright() as pw:
     s = p.evaluate(STATE)
     assert s['view'] == 'list' and s['gp'] == 'swing' and s['panel'] and s['mode'] == 'genre', s
     assert p.inner_text('#sthere') == p.evaluate("byId['swing'].name"), p.inner_text('#sthere')
-    assert p.is_visible('#stlink')
+    assert p.is_visible('#sttabs') and not p.is_visible('#sttabs button[data-sttab="sounds"]')   # a genre has no Sounds tab
     no_sideways(p); shot(p, 'links-genre-phone-light')
     assert not errs, errs; b.close(); print('ok genre playlist link')
 
@@ -131,7 +131,7 @@ with sync_playwright() as pw:
     assert 'y=1990' in q and 'p=cty:JP' in q, q
     assert not errs, errs; b.close(); print('ok other parameters')
 
-    # (e) Copy link copies an address that reproduces the state
+    # (e) Share copies an address that reproduces the state, panel included
     for vp, dark, tag in ((PHONE, False, 'phone-light'), (DESK, True, 'desktop-dark')):
         b, p, errs = open_page(pw, vp, dark=dark, clipboard=True)
         p.evaluate("setPlace({k:'cty',iso:'BR'}); setYear(1972); setStay(5); FG={k:'mov',id:'swing'}; stApply(); applyHighlight(); location.hash='map';")
@@ -139,17 +139,11 @@ with sync_playwright() as pw:
         p.evaluate("stPanelOpen=true; stBarUI(); stPanelUpdate();")
         p.wait_for_timeout(300)
         want = p.evaluate(STATE)
-        p.click('#stlink')
-        p.wait_for_timeout(150)
-        assert p.inner_text('#stlink') == 'Copied', p.inner_text('#stlink')
+        p.evaluate("document.getElementById('shareb').click()")
+        p.wait_for_timeout(250)
+        assert 'copied' in p.inner_text('.sharetip'), p.inner_text('.sharetip')
         copied = p.evaluate('navigator.clipboard.readText()')
-        # the row of buttons stays on one line
-        tops = p.evaluate("[...document.querySelectorAll('#stpanel .strow')[0].querySelectorAll('button')].filter(x=>!x.hidden).map(x=>Math.round(x.getBoundingClientRect().top))")
-        assert len(set(tops)) == 1, tops
-        p.evaluate("document.getElementById('stprompt').scrollIntoView({block:'end'})")
         no_sideways(p); shot(p, 'links-copy-' + tag)
-        p.wait_for_timeout(1600)
-        assert p.inner_text('#stlink') == 'Copy link'
         assert not errs, errs; b.close()
         assert copied.startswith('file://') and '#' not in copied, copied
         b, p, errs = open_page(pw, vp, '?' + copied.split('?', 1)[1])
@@ -177,6 +171,28 @@ with sync_playwright() as pw:
     p.wait_for_timeout(700)
     assert p.title() == 'Canada · 1980–2020 · ' + p.evaluate("byId.swing.name") + ' · World Music Time Machine', p.title()
     assert not errs, errs; b.close(); print('ok title')
+
+    # (e4) the playlist panel: tabs, a play button per song, a row that unfolds, the display options pop-out
+    b, p, errs = open_page(pw, PHONE, '?v=map&p=cty:JP&y=1985&s=0&pl=1')
+    pane = lambda: p.evaluate("[...document.querySelectorAll('#stpanel [data-stpane]')].filter(x=>!x.hidden).map(x=>x.dataset.stpane)")
+    click = lambda sel: (p.evaluate("document.querySelector(%r).click()" % sel), p.wait_for_timeout(200))
+    assert pane() == ['songs'], pane()
+    assert p.inner_text('#sthere') == 'Japan · 1985' and 'Heard there' in p.inner_text('#stgnote')
+    n = p.locator('#stlinks .sgrow').count(); assert n > 5 and p.locator('#stlinks .sgrow .stplay').count() == n
+    assert p.locator('#stlinks .sgfind').count() == 0
+    click('#stlinks .sgrow'); assert p.locator('#stlinks .sgfind').count() == 1 and 'Wikipedia' in p.inner_text('#stlinks .sgfind')
+    click('#stlinks .sgrow'); assert p.locator('#stlinks .sgfind').count() == 0
+    assert not p.is_visible('#stmeta'); click('#stmore'); assert p.is_visible('#stmeta') and p.locator('#stmeta [data-nm]').count() == 2
+    click('#stmeta [data-nm="rom"]'); assert p.evaluate('NMODE') == 'orig'; click('#stmeta [data-nm="rom"]'); assert p.evaluate('NMODE') == 'both'
+    for t in ('listen', 'sounds', 'research', 'songs'):
+        click('#sttabs button[data-sttab="%s"]' % t); assert pane() == [t], (t, pane())
+    click('#sttabs button[data-sttab="listen"]')
+    assert p.is_visible('#stcopy') and 'in development' in p.inner_text('#stg-spotify').lower() and not p.is_visible('#stprompt')
+    click('#stplabel summary .rmain'); assert p.is_visible('#stprompt') and p.locator('#stpnames [data-pnm]').count() == 2
+    click('#stplat button[data-plat="youtube"]'); assert p.is_visible('#stg-other') and 'Search YouTube' in p.inner_text('#stg-other') and p.evaluate("document.getElementById('stplayon').value") == 'youtube'
+    click('#stplat button[data-plat="spotify"]')
+    no_sideways(p); shot(p, 'links-panel-tabs')
+    assert not errs, errs; b.close(); print('ok panel tabs')
 
     # (f) no sideways scroll at 400 px with a long multi-place, multi-genre state
     b, p, errs = open_page(pw, PHONE, '?v=map&p=multi:cty:JP+cty:BR+reg:eur+cty:NG&g=multi:mov:swing+band:%s&y=1960&s=from:1940&pl=1' % band)

@@ -119,6 +119,13 @@ tunnelDraw = function(dt){
     const s=GS[id]; if(!s) return; const G=s.g, g=growth(id), a=fadeZ(z)*g, k=R0/z*(1.12-.12*g);
     const it={id,v,z,a,g,s,x:cx+(G.x*EX+s.ox)*k,y:cy+(G.y*EY+s.oy)*k,op:a*(v.anc?.3:.25+.75*v.h),pri:(id===selected?20:0)+(v.anc?0:v.h*3)+SC[id][0]*.5-z*.4};
     items.push(it); if(G.m>1) (gal[G.t]=gal[G.t]||[]).push(it); });
+  // the lens: under a finger or the mouse, space is stretched so a crowded patch opens up (fisheye: full strength at the
+  // centre, none at the rim), and the stars inside it get their names. Their strength does not matter here, which is the
+  // point: a small genre under the lens is as readable as a big one.
+  const LENS=window.TUNLENS, lensOn=!!(LENS&&LENS.on)&&!(window.TUNZOOM&&TUNZOOM.k>1.001), LR=Math.min(W,H)*.3, LM=2.8;
+  if(lensOn) items.forEach(it=>{ const dx=it.x-LENS.x, dy=it.y-LENS.y, d=Math.hypot(dx,dy); if(d>=LR){ it.lens=0; return; }
+    if(d>.01){ const t=d/LR, t2=(LM+1)*t/(LM*t+1); it.x=LENS.x+dx/d*t2*LR; it.y=LENS.y+dy/d*t2*LR; }
+    it.lens=1-d/LR; it.pri+=40+60*it.lens; });
   // traditions as galaxies: a tilted disc of light, with dust along its arms
   const dens=Math.min(1,Math.sqrt(55/Math.max(1,items.length)));       // a crowded sky gets fainter halos so it never burns out to white
   ctx.globalCompositeOperation=ADD; const galLabels=[];
@@ -159,22 +166,23 @@ tunnelDraw = function(dt){
       ctx.globalAlpha=(1-it.g)*.5; ctx.drawImage(glow('#ffffff'),it.x-rr*5,it.y-rr*5,rr*10,rr*10); } });
   ctx.globalCompositeOperation='source-over';
   items.forEach(it=>{ if(it.id===selected){ ctx.globalAlpha=1; ctx.strokeStyle=fg; ctx.lineWidth=2; ctx.beginPath(); ctx.arc(it.x,it.y,it.rr+5,0,TAU); ctx.stroke(); } });
+  if(lensOn){ ctx.globalAlpha=.22; ctx.strokeStyle=ring; ctx.lineWidth=1; ctx.beginPath(); ctx.arc(LENS.x,LENS.y,LR,0,TAU); ctx.stroke(); ctx.globalAlpha=1; }
   const boxes=[], named={}; let nlab=0; const ZK=(window.TUNZOOM&&TUNZOOM.k>1.001)?TUNZOOM.k:1, LABMAX=ZK>1?46:Math.round(W*H/17000), fk=W<700?.87:1; TUNHITS=[];
   // magnified: only what is in view competes for names, and far more of them are shown
   const inView=it=>ZK===1||(Math.abs(it.x-TUNZOOM.cx)<W/2/ZK+6&&Math.abs(it.y-TUNZOOM.cy)<H/2/ZK+6);
   items.slice().sort((p,q)=>q.pri-p.pri).forEach(it=>{
     const fs=Math.max(9.5,Math.min(15,15/Math.pow(it.z,.55)))*fk, op=it.a*(it.v.anc?.45:.35+.65*it.v.h);
     TUNHITS.push({id:it.id,x0:it.x-8,x1:it.x+8,y0:it.y-8,y1:it.y+8});
-    if((op<.18&&it.id!==selected)||!inView(it)) return; const fz=ZK>1?fs*1.15/ZK:fs, gap=ZK>1?9/ZK+2:9;
+    if((op<.18&&it.id!==selected&&!it.lens)||!inView(it)) return; const fz=ZK>1?fs*1.15/ZK:fs, gap=ZK>1?9/ZK+2:9;
     ctx.font=`${it.v.h>=.99&&!it.v.anc?600:400}${it.v.anc?' italic':''} ${fs.toFixed(1)}px ${body}`;
     // the name goes on the outer side of the star's own galaxy, so names fan out from each core
     const w=ctx.measureText(byId[it.id].name).width; let right=it.s.side?it.s.side>0:it.x>=cx-W*.08; if(right&&it.x+11+w>W) right=false; else if(!right&&it.x-11-w<0) right=true;
     const x0=Math.max(2,Math.min(W-w-2,right?it.x+gap:it.x-gap-w)), y0=it.y-fz*.7, bx={x0:x0-1,x1:x0+w+1,y0:y0-.5,y1:y0+fz+.5};
     if(it.id!==selected&&boxes.some(o=>bx.x0<o.x1&&bx.x1>o.x0&&bx.y0<o.y1&&bx.y1>o.y0)) return;
     // a few names per galaxy, so the formations stay readable; the rest show on hover or when selected
-    const G=it.s.g, cap=ZK>1?12:W<700?1:G.m>=14?3:2, cnt=named[G.t]||0; if(it.id!==selected&&it.id!==TUNHOVER&&(cnt>=cap||nlab>=LABMAX)) return; named[G.t]=cnt+1; nlab++;
+    const G=it.s.g, cap=ZK>1?12:W<700?1:G.m>=14?3:2, cnt=named[G.t]||0; if(it.id!==selected&&it.id!==TUNHOVER&&!it.lens&&(cnt>=cap||nlab>=LABMAX)) return; named[G.t]=cnt+1; nlab++;
     boxes.push(bx); TUNHITS.push({id:it.id,...bx});
-    ctx.globalAlpha=Math.min(1,(op+(it.id===selected||it.id===TUNHOVER?.4:0))*(1-.45*speed)); ctx.fillStyle=fg; ctx.textAlign='left';
+    ctx.globalAlpha=Math.min(1,(Math.max(op,it.lens?.75:0)+(it.id===selected||it.id===TUNHOVER?.4:0))*(1-.45*speed)); ctx.fillStyle=fg; ctx.textAlign='left';
     ctx.fillText(byId[it.id].name,x0,it.y+fz*.35); });
   // the brightest galaxies carry their tradition's name, where there is room
   ctx.textAlign='center'; ctx.font=`500 10px ${body}`;

@@ -17,7 +17,7 @@
 {"id":"hindustanit","name":"Hindustani music","family":"raga"},
 {"id":"carnatict","name":"Carnatic music","family":"raga"},
 {"id":"bengali","name":"Bengali song","family":"raga"},
-{"id":"punjabi","name":"North Indian and Punjabi folk","family":"raga"},
+{"id":"punjabi","name":"Indian regional folk and Punjabi music","family":"raga"},
 {"id":"filmsong","name":"Indian film song","family":"raga"},
 {"id":"chineseclass","name":"Chinese classical and court music","family":"eastasia"},
 {"id":"chineseopera","name":"Chinese opera","family":"eastasia"},

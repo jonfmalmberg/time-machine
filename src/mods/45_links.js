@@ -59,7 +59,7 @@ function applyLink(){ const q=readQuery(), used={};
   const views=typeof VIEWS!=='undefined'?VIEWS:['tree','map','tunnel','list','journey','data','me'];
   let v=views.includes(q.v)?q.v:null;
   const plG=q.pl&&q.pl!=='1'&&has(byId,q.pl)?q.pl:null, plM=q.pl==='1';
-  if(plG) v='list';                               // a genre's playlist is shown in the list
+  if(plG&&!['tree','map','tunnel','list'].includes(v)) v='list';   // a genre's playlist sheet sits over the tree, map, tunnel or list
   if(place){ STP=place; used.p=placeKey(place); }
   if(y!=null){ setYear(y); used.y=y; }
   if(stay){ if(stay[0]==='from') setStay('from',Math.min(stay[1],STY)); else setStay(stay[0]); used.s=q.s; }
@@ -70,7 +70,7 @@ function applyLink(){ const q=readQuery(), used={};
   if(used.p||used.y!=null||used.s||used.g||used.tm||used.pm){ if(typeof stopPlay==='function') stopPlay(); syncLegend(); stApply(); applyHighlight(); }
   if(v){ used.v=v; if(location.hash.replace('#','')!==v){ try{ history.replaceState(history.state,'',location.href.split('#')[0]+'#'+v); }catch(e){} } showView(v); }
   if(!plG&&has(byId,q.sel||'')){ select(q.sel); used.sel=q.sel; }
-  if(plG){ select(plG); if(curView()!=='list') showView('list'); openGenrePlaylist(plG); used.pl=plG; }
+  if(plG){ select(plG); if(!['tree','map','tunnel','list'].includes(curView())) showView('list'); openGenrePlaylist(plG); used.pl=plG; }
   else if(plM){ GP=null; stPanelOpen=true; stBarUI(); stPanelUpdate(); used.pl='1'; }
   if(window.FILTERS&&window.FILTERS.paint){ try{ window.FILTERS.paint(); }catch(e){} }
   if(Object.keys(used).length){ try{ window.TRACK&&window.TRACK('open_link',used); }catch(e){} }
@@ -110,7 +110,7 @@ const sb=document.getElementById('shareb');
 if(sb){ sb.onclick=()=>{ const url=shareUrl(), title=what();
     try{ const o=state(); delete o.v; if(window.TRACK) window.TRACK('share',Object.assign({v:curView(),via:'top'},o)); }catch(e){}
     const copy=()=>{ try{ navigator.clipboard.writeText(url).then(()=>say(title?'Link copied: '+title:'Link copied'),()=>say('Could not copy the link')); }catch(e){ say('Could not copy the link'); } };
-    if(navigator.share&&matchMedia('(pointer:coarse)').matches){ navigator.share({title:title?title+' · '+SITE:SITE,text:title||SITE,url}).catch(e=>{ if(!e||e.name!=='AbortError') copy(); }); } else copy(); }; }
+    if(navigator.share&&matchMedia('(pointer:coarse)').matches){ navigator.share({title:title?title+' · '+SITE:SITE,url})   /* no `text`: with text and url together, iOS "Copy" puts only the text on the clipboard, so a paste into Signal lost the link (owner, 23 Nov). The link's own preview carries the title. */.catch(e=>{ if(!e||e.name!=='AbortError') copy(); }); } else copy(); }; }
 
 window.LINKS={ url:shareUrl, state, apply:applyLink };
 /* after every module has loaded, so the views they add or wrap are in place */

@@ -11,7 +11,7 @@ const fsb=document.getElementById('fsheetb'); fsb.innerHTML='<div class="fpanel"
 const anchor=document.querySelector('.stbar'); anchor.parentNode.insertBefore(bar,anchor);
 // the old time bar lives inside the time filter now: its transport (back, slider, forward, speed) moves into the panel when it opens
 const stctl=document.getElementById('stctl'), thost=bar.querySelector('#ftimehost'), moment=document.getElementById('stmoment');
-if(moment){ moment.className='fmoment'; moment.innerHTML=ic('note'); moment.title='Playlist for this moment'; moment.setAttribute('aria-label','Playlist for this moment'); bar.appendChild(moment); }
+if(moment){ moment.className='fmoment'; moment.innerHTML=ic('note'); moment.title='Playlist for this moment'; moment.setAttribute('aria-label','Playlist for this moment'); moment.setAttribute('data-keepsheet',''); bar.appendChild(moment); }
 ['stwhere','stexit'].forEach(id=>{ const e=document.getElementById(id); if(e) e.hidden=true; });
 if(stctl){ stctl.querySelectorAll('.sp').forEach(e=>e.remove()); thost.appendChild(stctl); const ob=document.querySelector('.stbar'); if(ob) ob.hidden=true; }
 const panel=document.getElementById('fpanel'); let open=null, drill={place:null,genre:null}, q={place:'',genre:''};
@@ -25,6 +25,8 @@ function paint(){
   $b('time').innerHTML=`${ic('clock')}<span>${esc(timeLabel())}${FTM==='made'?' <small>born then</small>':''}</span>`;
   $b('genre').innerHTML=`${ic('note')}<span>${FG?esc(fgName()):'Everything'}</span>`;
   ['place','time','genre'].forEach((k,n)=>$b(k).parentNode.classList.toggle('on',on[n]));
+  // a chip the open playlist does not use is greyed: Essential songs are the genre's own list, whatever the place and years
+  { const ess=typeof essentialOf==='function'&&essentialOf()&&stPanelOpen&&GP==null; $b('place').parentNode.classList.toggle('ign',!!ess&&on[0]); $b('time').parentNode.classList.toggle('ign',!!ess&&on[1]); }
   bar.querySelector('[data-fr="place"]').hidden=!STP; bar.querySelector('[data-fr="time"]').hidden=timeIsDefault()&&FTM!=='made'; bar.querySelector('[data-fr="genre"]').hidden=!FG;
   document.getElementById('fresetall').hidden=!fActive();
   let n=0; if(STV) STV.forEach(v=>{ if(!v.anc) n++; });
@@ -60,6 +62,9 @@ const pFrom=v=>{ const [k,x]=v.split(':'); return k==='reg'?{k:'reg',reg:x}:k===
 function toggle(L,key,kf,item){ L=L.slice(); const i=L.findIndex(x=>kf(x)===key); if(i>=0) L.splice(i,1); else L.push(item); return L; }
 function pickPlace(v){ const p=pFrom(v); if(!multi.place){ setPlace(p); close(); return; } setPlace(pack(toggle(items(STP),v,pk,p))); render(); }
 function pickGenre(v){ const [k,id]=v.split(':'), g={k,id}; if(!multi.genre){ FG=g; stApply(); applyHighlight(); close(); return; } FG=pack(toggle(items(FG),v,gk,g)); stApply(); applyHighlight(); render(); }
+/* which songs one genre brings to the playlist: the ones that define it, or the ones most heard */
+function songRow(){ const one=FG&&FG.k==='mov', b=(v,i,l,t)=>`<button type="button" data-fsong="${v}" aria-pressed="${FSONG===v}" title="${t}">${ic(i)}${l}</button>`;
+  return `<div class="fsongs${one?'':' off'}"><span class="seg" role="group" aria-label="Which songs">${b('essential','star','Essential','The songs that define the sound, hand-picked')}${b('popular','trend','Popular','What was most heard in the chosen place and time')}</span><small>${one?(FSONG==='essential'?'The songs that define the sound':'What was most heard there and then'):'Applies when one movement is chosen'}</small></div>`; }
 function modeRow(which){ const L=which==='place'?items(STP):items(FG), kf=which==='place'?pk:gk, nm=which==='place'?(x=>placeName(x).split(', ')[0]):(x=>fgName(x)), attr=which==='place'?'data-pl':'data-fg';
   return `<div class="fmode">${seg('fmm',multi[which]?'m':'s',[['s','One'],['m','Several']])}${multi[which]?`<button type="button" class="lbtn primary" data-done>Done</button>`:''}</div>`+
     (multi[which]&&L.length?`<div class="fsel">${L.map(x=>`<button type="button" class="fselb" ${attr}="${kf(x)}">${esc(nm(x))} ${ic('x')}</button>`).join('')}</div>`:''); }
@@ -79,7 +84,7 @@ function genreHtml(){ const s=norm(q.genre.trim()); let body='', crumbs='';
     body=`<button type="button" data-fg="band:${b}"><b>All of ${esc(bandName[b])}</b></button>`+tradsOf(b).map(t=>TRADM[t].length>1?`<span class="frow"><button type="button" data-fg="trad:${t}">${esc(TRADN[t]||t)}</button><button type="button" class="fmore" data-dg="trad:${t}">${TRADM[t].length} movements ›</button></span>`:`<button type="button" data-fg="mov:${TRADM[t][0]}">${esc(byId[TRADM[t][0]].name)}</button>`).join('');
   } else { const t=drill.genre.id, b=tradBand(t); crumbs=`<button type="button" data-dg="">All families</button> › <button type="button" data-dg="band:${b}">${esc(bandName[b])}</button> › <b>${esc(TRADN[t]||t)}</b>`;
     body=`<button type="button" data-fg="trad:${t}"><b>All of ${esc(TRADN[t]||t)}</b></button>`+TRADM[t].slice().sort((a,c)=>byId[a].year-byId[c].year).map(id=>`<button type="button" data-fg="mov:${id}">${esc(byId[id].name)} <small>${fmtY(byId[id].year)}</small></button>`).join(''); }
-  return `<div class="fhead"><div class="fqw"><input type="search" id="fq" placeholder="Search families, traditions and movements" value="${esc(q.genre)}" aria-label="Search genres"></div></div>${modeRow('genre')}
+  return `<div class="fhead"><div class="fqw"><input type="search" id="fq" placeholder="Search families, traditions and movements" value="${esc(q.genre)}" aria-label="Search genres"></div></div>${modeRow('genre')}${songRow()}
   ${crumbs?`<p class="fcrumb">${crumbs}</p>`:''}<div class="flist">${body}</div><p class="fine">A movement filter keeps the movement and everything descended from it.</p>`; }
 
 /* time */
@@ -116,6 +121,7 @@ panel.addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b) r
   if(d.pl){ pickPlace(d.pl); }
   else if('dr' in d){ const v=d.dr; drill.place=!v?null:v.startsWith('reg:')?{k:'reg',reg:v.slice(4)}:{k:'cty',iso:v.slice(4)}; render(); }
   else if(d.fpl){ FPL=d.fpl; stApply(); render(); }
+  else if(d.fsong){ FSONG=d.fsong; try{ localStorage.setItem('wmft-fsong',FSONG); }catch(_){} stApply(); stPanelUpdate(); render(); }
   else if(d.fg){ pickGenre(d.fg); }
   else if(d.fmm){ multi[open]=d.fmm==='m'; render(); }
   else if('done' in d){ close(); }

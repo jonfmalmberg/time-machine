@@ -1,5 +1,5 @@
 [
-{"song":"s_qn0crbmzbj","scope":"c:AR:2000s","role":"home","scene":"dance","confidence":"h"},
+{"song":"s_veqmyq7p61","scope":"c:AR:2000s","role":"home","scene":"dance","confidence":"h"},
 {"song":"s_608f3d75y4","scope":"c:AR:2000s","role":"home","scene":"dance","confidence":"h"},
 {"song":"s_nrjw1nzzv9","scope":"c:AR:2000s","role":"home","scene":"rock","confidence":"m"},
 {"song":"s_xdfqqs116q","scope":"c:AR:2000s","role":"home","scene":"pop","confidence":"h"},
@@ -11,6 +11,6 @@
 {"song":"s_pthqszpbk3","scope":"c:AR:2000s","role":"home","scene":"rock","confidence":"h"},
 {"song":"s_7yrdfjzjm2","scope":"c:AR:2000s","role":"foreign","scene":"dance","confidence":"h"},
 {"song":"s_c6cndq9afd","scope":"c:AR:2000s","role":"foreign","scene":"pop","confidence":"m"},
-{"song":"s_zfn86m1zzw","scope":"c:AR:2000s","role":"foreign","scene":"pop","confidence":"h"},
+{"song":"s_2hc6j9zjwd","scope":"c:AR:2000s","role":"foreign","scene":"pop","confidence":"h"},
 {"song":"s_pvq4bcvcmy","scope":"c:AR:2000s","role":"foreign","released":2005,"scene":"pop","confidence":"h"}
 ]

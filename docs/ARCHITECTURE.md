@@ -75,7 +75,7 @@ Only things that belong to people. Every table starts with all access removed; r
 
 | Table | Holds | Who can do what |
 | :- | :- | :- |
-| `profiles` | Handle, role (beta, principal, owner), status (pending, active, suspended) | A person reads and names their own; the owner manages all. Capped at 1,000 |
+| `profiles` | Handle, role (beta, principal, owner), status (active from sign-in since file 006; pending is no longer given; suspended) | A person reads and names their own; the owner manages all. Capped at 1,000 |
 | `invites` | Codes that expire after 14 days | Active members create up to 3; anyone signed in can redeem |
 | `trips` | A saved playlist request: place, years, genre (all as stable keys), status, rating, note | Active members, their own rows only |
 | `events` | Usage events from testers | Insert only; the owner reads |
@@ -107,6 +107,25 @@ The playlist panel is one sheet with two modes, a genre or a place and time. Bot
 - **Synthetic listener test** is about exactly what is on screen: the filters and the prompt are logged as they are, to be judged later.
 - "Done" comes from the data on the page (research) and from the tests recorded on each scope in `data/scopes/` (listener tests). "Requested" is remembered in the visitor's browser only, because visitors cannot read the request list.
 - Only the owner is offered a rerun of finished work.
+
+## The first visit
+
+A visitor who is not signed in sees a landing page (`src/mods/89_landing.js`): sign in, or explore without an account. Either way leads to the guided start (`src/mods/90_welcome.js`): one question, then three hints in the playlist sheet. Both are skipped for a shared link, and by the automated tests. Reasons: `DECISIONS.md` D19.
+
+## The playlist panel
+
+One panel serves a place and time and a genre. Its title gives the place and the span of years (or the genre's name), with "heard there" or "made there" as a subtitle; both are set in the filter bar, not in the panel. Under the title are four tabs:
+- **Songs:** the songs the site holds, five at first. A row unfolds the song's details; its play arrow opens the song on the service chosen with "Play on".
+- **Listen:** a row of services, and for each a short list of what it offers: a ready-made playlist (in development), the playlist prompt for Spotify with its own language and name-script options, an exact playlist through TuneMyMusic, a search, or the plain song list.
+- **Sounds** (a place and time only): the genres alive there then.
+- **Research:** how the list was made and checked, and the requests.
+On a phone only one bottom sheet shows at a time: a filter sheet takes the playlist sheet's place and the playlist button brings it back. The playlist sheet keeps one height across its tabs and is sized by dragging. Every way of listening is an outside link: the site plays nothing itself. The reasons for this layout are in `DECISIONS.md` D17.
+
+## Sub-genres and duplicates
+
+A genre record may carry `subgenres`: names of closely related styles folded into it (`DECISIONS.md` D10). They appear on the genre's entry as "Includes" and are found by search; they have no records, playlists or tests of their own.
+
+A song is stored once. `tools/merge_duplicates.py` merges records with the same title, main artists and release year (D14), and `tests/data.py` fails if such a pair exists. The Data tab lists each song once; a song that sits in several lists shows "In N lists" and unfolds them.
 
 ## Links
 

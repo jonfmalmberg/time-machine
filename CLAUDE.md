@@ -3,7 +3,7 @@
 Read this before changing anything. The owner is Jon (GitHub `jonfmalmberg`).
 
 ## Start here, every session
-1. `docs/vision/` holds dated records of what the owner wants and why. Their text is not rewritten: a change of direction is a new dated file, and anything in a record later found wrong gets a dated correction added inline at that spot. Errors are never left standing uncorrected. Read the newest, and the two founding ones if you have not: `2026-11-23-origins.md` (where the app came from and what it is) and `2026-11-23-direction.md` (where it is going).
+1. `docs/vision/` holds dated records of what the owner wants and why. Their text is not rewritten: a change of direction is a new dated file, and anything in a record later found wrong gets a dated correction added inline at that spot. Errors are never left standing uncorrected. Read the newest, and the two founding ones if you have not: `2026-11-23-origins.md` (where the app came from and what it is) and `2026-11-23-direction.md` (where it is going). `2026-11-23-positioning.md` says how people should meet the app: a way to explore the world's music, not a prompt generator.
 2. `docs/PRINCIPLES.md`: how to judge a choice when no rule covers it.
 3. `docs/ARCHITECTURE.md`: how the site is built and why, written for the owner. Update it in the same change as any work that alters the data model, the database, the tests or how the parts fit.
 4. `docs/ROADMAP.md`: the plan and its order. GitHub milestones and issues track the same items; keep the two in step.
@@ -31,6 +31,7 @@ The app only succeeds if it feels good to use. Rules here are a floor; the visio
 ## Cloudflare builds are a limited free allowance
 - Every push to GitHub builds. Work and test locally; push a feature branch only when there is something for the owner to review, once per review round.
 - Batch data updates (`data/`) into one push.
+- A change to how something looks goes to the owner first as before-and-after screenshots (phone width), made locally. It is pushed only after he has reacted to the pictures. A build is not spent on a first impression of a layout.
 - One demo per review round: everything waiting for the owner goes on the single branch `review` (made from `dev`), pushed once. Not one branch and one build per feature.
 
 ## Reporting to the owner

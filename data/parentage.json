@@ -658,8 +658,6 @@
 {"from":"iberianpop","to":"pasodoble","kind":"other"},
 {"from":"iberianpop","to":"harana","kind":"principal"},
 {"from":"habanera","to":"harana","kind":"other"},
-{"from":"kunqu","to":"jiangnansizhu","kind":"principal"},
-{"from":"guqin","to":"jiangnansizhu","kind":"other"},
 {"from":"waltz","to":"musette","kind":"principal"},
 {"from":"polka","to":"musette","kind":"other"},
 {"from":"gamelan","to":"gambangkromong","kind":"principal"},
@@ -700,7 +698,7 @@
 {"from":"chanson","to":"weimarcabaret","kind":"principal"},
 {"from":"musichall","to":"weimarcabaret","kind":"other"},
 {"from":"jazz","to":"weimarcabaret","kind":"other"},
-{"from":"guqin","to":"guoyue","kind":"principal"},
+{"from":"guqin","to":"guoyue","kind":"other"},
 {"from":"romantic","to":"guoyue","kind":"other"},
 {"from":"kunqu","to":"guangdongmusic","kind":"principal"},
 {"from":"jazz","to":"guangdongmusic","kind":"other"},
@@ -1174,5 +1172,7 @@
 {"from":"techno","to":"budots","kind":"principal"},
 {"from":"eurodance","to":"budots","kind":"other"},
 {"from":"kpop","to":"ppop","kind":"principal"},
-{"from":"opm","to":"ppop","kind":"other"}
+{"from":"opm","to":"ppop","kind":"other"},
+{"from":"jiangnansizhu","to":"guoyue","kind":"principal"},
+{"from":"koreanminyo","to":"pansori","kind":"other"}
 ]

@@ -169,7 +169,13 @@ check "a single ask on top adds a whole one"   "1.25|2" "$(as anon '' "select pu
 check "request_many reports each status"       '"GB_1960": "open"' "$(as anon '' "$RM")"
 check "more than 40 items refused"             "1 to 40" "$(as anon '' "select public.request_many('research',(select jsonb_agg(jsonb_build_object('key','k'||g)) from generate_series(1,41) g))")"
 check "the shared step cannot be called"       "permission denied" "$(as anon '' "select public.request_put('research','zz','{}'::jsonb,50)")"
-$P -c "insert into auth.users (id) select gen_random_uuid() from generate_series(1,998)"
+# --- 006_open_signups.sql ---  run here, after the checks above that rely on 'pending'
+$P -f "$HERE/006_open_signups.sql"
+O=00000000-0000-0000-0000-00000000000e
+$P -c "insert into auth.users (id) values ('$O')"
+check "a new sign-in is active at once"         "beta|active" "$($P -At -c "select role||'|'||status from public.profiles where id='$O'")"
+check "those who were waiting are let in"       "0" "$($P -At -c "select count(*) from public.profiles where status='pending'")"
+$P -c "insert into auth.users (id) select gen_random_uuid() from generate_series(1,997)"
 check "sign-ups refused at the cap"             "user cap" "$($P -c "insert into auth.users (id) values (gen_random_uuid())" 2>&1 | tr '\n' ' ')"
 check "cap holds at 1000 profiles"              "1000" "$($P -At -c "select count(*) from public.profiles")"
 exit $fail

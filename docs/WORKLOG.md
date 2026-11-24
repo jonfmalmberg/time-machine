@@ -2,6 +2,52 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (night: capsule, tour, open accounts)
+
+- On `review`: filter capsule at top centre, list entry marked, map controls bottom right, tour with Next/Done and held play (D20). Owner saw screenshots: "closer to what I want", not flawless; pushed for his phone test.
+- Accounts open (`db/006_open_signups.sql`): applied to dev and, with release 5, to prod (no one was waiting there, so only the default changed). `db/test.sh` has checks for it but was not run: no local Postgres in this session.
+- Open questions moved to one GitHub issue assigned to the owner (label `owner`), kept open across sessions (#84).
+- Wikipedia chart reader stopped at its time limit again with 854 of 1,166 pages cached. Not restarted; nothing ingested; the ingest step is not built.
+- Not tested: signed-in tour path; capsule on the tunnel; anything on a real phone.
+
+## 2026-11-23 (late: one sheet, landing page, walkthrough, list filter)
+
+- Built on `review` from the owner's review by screenshots: one bottom sheet at a time on a phone; fixed and draggable playlist sheet height; Essential or Popular in the genre filter with greyed chips; landing page; guided start with three hints; rewritten information sheet; random genre opens its sheet in place; "Filter to this genre" in the list. Reasons in `DECISIONS.md` D19.
+- Tests updated for the new behaviour (random genre in place; genre sheet over the map); data, layout, links, smoke, account pass.
+- Not tested: dragging the sheet with a finger; the landing page's sign-in button against the real Google sign-in; the Earth image on the hosted site (it comes from a public CDN copy of NASA's Blue Marble, as the map's does).
+- The owner approved the landing page and walkthrough from screenshots. Awaiting his test of the whole on a phone before release.
+
+## 2026-11-23 (panel redesign by screenshots; release-year pass; chart reader)
+
+- Owner: show layouts as before-and-after screenshots before any push (now in `CLAUDE.md`); the interface follows the vision, not the present functionality (principle 28).
+- The playlist panel was redesigned over about a dozen screenshot rounds with the owner and accepted "for now": `DECISIONS.md` D17. One build had been spent on the first version before the screenshots rule; none since.
+- Tests: the account scenarios lay out every tab at once and check the contents; a new scenario in `tests/links.py` checks the tabs, the song rows, the pop-out and the services. Data, layout, links, smoke and account pass.
+- MusicBrainz release-year pass stopped at its time limit after 1,821 of 6,022 songs; results stored; not continued (D18). Coverage table added to the validation proposal.
+- Wikipedia chart reader: 483 of 1,166 pages read when last looked; still running; nothing ingested.
+- Not tested: anything on a real phone (lens with a finger, share sheet, play links opening the apps).
+
+## 2026-11-23 (positioning; the playlist panel)
+
+- Owner: users think the app "just creates a prompt" and do not know Spotify is one service of several; the app is for exploring the world's music. Recorded in `vision/2026-11-23-positioning.md`; proposal `proposals/2026-11-24-first-visit.md`, reviewed by the owner with one change (do not hide the prompt).
+- Built on `review`: the panel leads with the songs, then "Get the playlist" with a choice of service; new one-line description and preview image wording.
+- Tests: smoke, links, account pass. Not checked: Apple Music link on a phone. Not built: the first-visit start; ready-made playlists.
+
+## 2026-11-23 (third review round, continued)
+
+- Added to `review`, not yet pushed: chart position with the ordering rule for Japan's 1980s (D8); release-year check script against MusicBrainz, running; reader for Wikipedia's chart list pages, running (D16); share sheet passes the address without a text (owner's Signal test, D12); tunnel lens (roadmap 7.12).
+- Owner on release years: MusicBrainz often holds reissues. Order of sources is now the song's Wikipedia article, the artist's discography table, the album article, the chart year as an upper bound, and MusicBrainz as confirmation only. The Wikipedia lookups are not built.
+- Not tested on a phone: the lens with a finger, the share sheet change.
+
+## 2026-11-23 (third review round: duplicates, sub-genres, tree, logging)
+
+- Built on `review` after the owner's "go ahead":
+  - Duplicates: 182 song records merged by rule; the data test forbids new ones; the Data tab shows each song once (D14).
+  - Sub-genres (D10) and the tree decisions (D9): `rways` and `koreanminyo` added and placed, `pungmul` renamed, Jiangnan sizhu a root and principal parent of guoyue, tradition renamed.
+  - Usage logging for every visitor, at the owner's request, with the About text corrected (D15).
+- Tests: data, layout, links, smoke, account pass.
+- Not built from the agreed list: chart position with the ordering rule (D8); release year and artist country against MusicBrainz (D13). Next.
+- Not tested: nothing in this round was seen on a real phone.
+
 ## 2026-11-23 (after release 4: usage check, duplicates, validation plan)
 
 - Release 4 confirmed serving on the live address (link title rewritten by the Worker, preview image present).

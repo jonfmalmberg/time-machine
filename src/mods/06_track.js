@@ -1,17 +1,16 @@
 /* Usage log: which views are opened, which place, time and genre are chosen, what is copied.
    Active testers: rows go to the table events under their account (see 10_people.js).
    Everyone else: rows go to the bounded table anon_events with no identifier beyond a random id for
-   this visit. Nothing is sent when the browser asks not to be tracked. Batched, capped per visit,
+   this visit. It records what was used in the site and nothing about who used it, so it is sent for every visitor,
+   including browsers that ask not to be tracked (owner's decision, DECISIONS.md D15). Batched, capped per visit,
    and never allowed to slow or break the page. */
 const C=window.WMCFG;
 const SES=Math.random().toString(36).slice(2,12), MAX=150;
 let Q=[], n=0;
-const quiet=()=>{ try{ return navigator.globalPrivacyControl===true||navigator.doNotTrack==='1'; }catch(e){ return false; } };
 const tester=()=>{ const a=window.ACCOUNT; return !!(a&&a.isActive&&a.isActive()&&a.client()); };
-function track(action,ref){ if(!C||!C.on||n>=MAX) return; if(!tester()&&quiet()) return; n++; Q.push({session:SES,action:String(action).slice(0,24),ref:ref||null}); }
+function track(action,ref){ if(!C||!C.on||n>=MAX) return; n++; Q.push({session:SES,action:String(action).slice(0,24),ref:ref||null}); }
 async function flush(){ if(!Q.length) return; const batch=Q; Q=[];
   try{ if(tester()){ await window.ACCOUNT.client().from('events').insert(batch); return; }
-    if(quiet()) return;
     await fetch(C.url+'/rest/v1/anon_events',{method:'POST',keepalive:true,headers:{'apikey':C.key,'Authorization':'Bearer '+C.key,'Content-Type':'application/json','Prefer':'return=minimal'},body:JSON.stringify(batch)});
   }catch(e){} }
 setInterval(flush,20000);

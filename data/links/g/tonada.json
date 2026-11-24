@@ -11,6 +11,6 @@
 {"song":"s_va4tme6vc8","scope":"g:tonada","role":"reference"},
 {"song":"s_f7t7t09807","scope":"g:tonada","role":"reference"},
 {"song":"s_b20w2a1dts","scope":"g:tonada","role":"reference"},
-{"song":"s_vn8hffnew4","scope":"g:tonada","role":"near miss","belongs_to":"nuevacancion","reason":"Same guitar, but protest-era new song"},
+{"song":"s_p6215vb0tr","scope":"g:tonada","role":"near miss","belongs_to":"nuevacancion","reason":"Same guitar, but protest-era new song"},
 {"release":"r_nz1sfqgay5","scope":"g:tonada","role":"album"}
 ]

@@ -257,6 +257,12 @@ for k, s in songs.items():
     if 'genre' in s and s.get('genre_basis') == 'chosen for the genre' and s['genre'] not in chosen.get(k, set()):
         bad('song genres', k, 'genre %r is set, but the song has no intro, peak or reference link to g:%s' % (s['genre'], s['genre']))
 
+# ---- no song is stored twice (DECISIONS.md D14) ----
+sys.path.insert(0, os.path.join(ROOT, 'tools'))
+from merge_duplicates import find_groups
+for g in find_groups([dict(v, id=k) for k, v in songs.items()]):
+    bad('duplicate songs', g[0], 'same title, main artists and release year as ' + ', '.join(g[1:]) + ' (run tools/merge_duplicates.py --write)')
+
 # ---- the page's data can still be made ----
 try:
     sys.path.insert(0, os.path.join(ROOT, 'tools'))

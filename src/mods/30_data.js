@@ -20,11 +20,12 @@ function sig(){ let n=0, m=0; for(const i in YEARL) for(const y in YEARL[i]){ n+
   let e=0; try{ for(const k in ERAX){ e+=1+(ERAX[k].songs||[]).length; if(ERAX[k].status==='verified') e+=7919; } }catch(_){}
   return n+':'+m+':'+e; }
 function buildIndex(){ const R=[];
-  const push=r=>{ r.na=nrm(r.artist); r.nq=r.na+' \u0001 '+nrm(r.title); R.push(r); };
+  const RC=DATA.relcheck||{};
+  const push=r=>{ r.na=nrm(r.artist); r.nq=r.na+' \u0001 '+nrm(r.title); const c=RC[r.artist+'\u0001'+r.title]; r.ychk=!c?'':c[0]==='checked'?'Checked':'Earlier release on record: '+c[1]; R.push(r); };
   for(const iso in YEARL) for(const y in YEARL[iso]){ const L=YEARL[iso][y]; (L.songs||[]).forEach(s=>{
     let sn='', su=''; if(typeof s[5]==='number'){ const x=(DATA.ysrc||[])[s[5]]; if(x){ sn=x[0]; su=x[1]||''; } } else { sn=s[5]||''; su=s[6]||''; }
     if(!okUrl(su)) su='';
-    push({kind:'chart',artist:s[0],title:s[1],iso,year:+y,ylabel:String(y),rel:+s[2]||null,origin:s[3]||'',rank:+s[4]||null,scene:s[7]||'',
+    push({kind:'chart',artist:s[0],title:s[1],iso,year:+y,ylabel:String(y),rel:+s[2]||null,origin:s[3]||'',rank:+s[4]||null,cpos:s[8]!=null?+s[8]:null,scene:s[7]||'',
       src:sn||'Chart list (source not recorded)',url:su,grp:su?host(su):(sn||'Source not recorded'),status:L.status||'built in',note:''}); }); }
   const era=(iso,dec,songs,status)=>songs.forEach(s=>{ const six=s.length>=6;
     push({kind:'era',artist:s[0],title:s[1],iso,year:+dec,ylabel:dec+'s',rel:+s[2]||null,origin:s[3]||'',rank:null,scene:six?(s[4]||''):'',
@@ -63,8 +64,10 @@ T.songs={ label:'Songs', unit:'songs',
     {k:'country',label:'Country',v:r=>r.iso?isoName(r.iso):'',h:r=>ctyCell(r.iso)},
     {k:'year',label:'Year',v:r=>r.year,h:r=>esc(r.ylabel),num:1,csvv:r=>r.ylabel,tip:'Chart year, decade of the list, or the song’s year for genre examples'},
     {k:'rel',label:'Released',v:r=>r.rel,num:1},
+    {k:'ychk',label:'Release year check',v:r=>r.ychk,tip:'Checked: MusicBrainz has an official release within a year of this one. Earlier release on record: it has one more than a year earlier, so the year here may be a chart or reissue year. Empty: not checked'},
     {k:'origin',label:'Origin',v:r=>r.origin,tip:'Home-grown or foreign in the country of the list'},
-    {k:'rank',label:'Rank',v:r=>r.rank,num:1},
+    {k:'rank',label:'List order',v:r=>r.rank,num:1,tip:'Where the song sits in this site’s list for that year'},
+    {k:'cpos',label:'Chart position',v:r=>r.cpos,num:1,tip:'Position on the cited chart, where it has been recorded'},
     {k:'scene',label:'Scene',v:r=>r.scene},
     {k:'mov',label:'Movement',v:r=>r.mov||'',h:r=>r.mid?lk('mov',r.mid,r.mov,'Open this movement in the list'):''},
     {k:'trad',label:'Tradition',v:r=>r.trad||'',w:1},
@@ -158,7 +161,7 @@ root.innerHTML=`<div class="dhead"><div class="seg" id="dtabs" role="group" aria
   <div class="dwrap" id="dwrap" tabindex="0" role="region" aria-label="Results"></div>
   <div class="dfoot"><button type="button" class="lbtn" id="dmore" hidden></button></div>`;
 const $=id=>root.querySelector('#'+id);
-let ROWS=[], csvT=0;
+let ROWS=[], ALL=[], csvT=0;
 const opt=(v,l,cur)=>`<option value="${esc(v)}"${String(v)===String(cur)?' selected':''}>${esc(l)}</option>`;
 function countBy(key){ const m=new Map(); index().forEach(r=>{ const v=r[key]; if(v) m.set(v,(m.get(v)||0)+1); }); return [...m.entries()]; }
 function controls(){ const t=S.tab, o=S[t]; let h='';
@@ -171,7 +174,7 @@ function controls(){ const t=S.tab, o=S[t]; let h='';
       <label>Scene <select data-o="scene">${opt('','Any',o.scene)}${scenes.map(([v,n])=>opt(v,v+' ('+n+')',o.scene)).join('')}</select></label>
       <label>Source <select data-o="src">${opt('','Any',o.src)}${srcs.map(([v,n])=>opt(v,v+' ('+n+')',o.src)).join('')}</select></label>
       <label>List status <select data-o="status">${opt('','Any',o.status)}${sts.map(([v,n])=>opt(v,v+' ('+n+')',o.status)).join('')}</select></label>
-      <label>Sort <select data-o="sort">${[['year','Year'],['rank','Rank'],['artist','Artist'],['title','Title'],['country','Country']].map(([v,l])=>opt(v,l,o.sort)).join('')}${['year','rank','artist','title','country'].includes(o.sort)?'':opt(o.sort,(T.songs.cols.find(c=>c.k===o.sort)||{}).label||o.sort,o.sort)}</select></label>
+      <label>Sort <select data-o="sort">${[['year','Year'],['rank','List order'],['artist','Artist'],['title','Title'],['country','Country']].map(([v,l])=>opt(v,l,o.sort)).join('')}${['year','rank','artist','title','country'].includes(o.sort)?'':opt(o.sort,(T.songs.cols.find(c=>c.k===o.sort)||{}).label||o.sort,o.sort)}</select></label>
       <button type="button" class="lbtn" id="ddir" title="Reverse the order">${o.dir>0?'Ascending ↑':'Descending ↓'}</button>`;
   } else if(t==='places'){
     h=`<span class="seg" role="group" aria-label="Level">${[['continent','Continents'],['country','Countries'],['city','Cities and areas']].map(([v,l])=>`<button type="button" data-lvl="${v}" aria-pressed="${o.level===v}">${l}</button>`).join('')}</span>`+search('Search places…');
@@ -191,16 +194,23 @@ let DL=null, CUR=()=>false;
 function cellHtml(c,r){ const v=c.v(r); return c.h?c.h(r):(v==null?'':esc(v)); }
 function card(r){ const t=T[S.tab], cols=t.cols.filter(c=>!c.csvonly), pk=t.primary||[cols[0].k], p=pk.map(k=>cols.find(c=>c.k===k)).filter(Boolean);
   const rest=cols.filter(c=>!pk.includes(c.k)).map(c=>{ const v=c.v(r); return (v==null||v==='')?'':`<span class="dc" title="${esc(c.label)}">${cellHtml(c,r)}</span>`; }).join('');
-  return `<div class="drow${CUR(r)?' dcur':''}"><div class="d1"><b>${cellHtml(p[0],r)}</b>${p[1]?`<span class="d1b">${cellHtml(p[1],r)}</span>`:''}</div><div class="d2">${rest}</div></div>`; }
+  const more=S.tab==='songs'&&r._n>1?`<button type="button" class="dmoreb" data-songk="${esc(r.nq)}" aria-expanded="${S.songs.open===r.nq}" title="This song is in ${r._n} lists">${S.songs.open===r.nq?'Hide lists':'In '+r._n+' lists'}</button>`:'';
+  return `<div class="drow${CUR(r)?' dcur':''}${r._sub?' dsub':''}"><div class="d1"><b>${cellHtml(p[0],r)}</b>${p[1]?`<span class="d1b">${cellHtml(p[1],r)}</span>`:''}${more}</div><div class="d2">${rest}</div></div>`; }
 function rowDetail(r){ const t=T[S.tab], cols=t.cols.filter(c=>!c.csvonly), pk=t.primary||[cols[0].k], tc=cols.find(c=>c.k===pk[0]);
   UI.detail(String(tc.v(r)==null?'':tc.v(r)),`<div class="rows dprops">${cols.map(c=>{ const v=c.v(r); return (v==null||v==='')?'':`<div class="dprop"><small>${esc(c.label)}</small><span>${cellHtml(c,r)}</span></div>`; }).join('')}</div>`)
     .onclick=e=>{ const a=e.target.closest('button.dlk'); if(a){ UI.sheet.close(); const b=document.createElement('button'); b.className='dlk'; Object.assign(b.dataset,a.dataset); b.hidden=true; root.appendChild(b); b.click(); b.remove(); } }; }
 T.songs.primary=['title','artist'];
 function results(){ const t=T[S.tab], o=S[S.tab];
-  ROWS=sorted(t.rows());
-  let extra=''; if(S.tab==='songs'){ const c={chart:0,era:0,genre:0}; ROWS.forEach(r=>c[r.kind]++); extra=` (${c.chart.toLocaleString()} chart, ${c.era.toLocaleString()} decade list, ${c.genre.toLocaleString()} genre example)`; }
+  ROWS=ALL=sorted(t.rows());
+  let extra='', shown=ROWS.length;
+  if(S.tab==='songs'){ const c={chart:0,era:0,genre:0}; ALL.forEach(r=>c[r.kind]++);
+    /* one row per song: a song that is in several lists is shown once, with its other lists folded under it */
+    const first=new Map(), out=[]; ALL.forEach(r=>{ r._sub=false; const f=first.get(r.nq); if(!f){ r._n=1; first.set(r.nq,r); out.push(r); } else { f._n++; r._n=0; } });
+    if(S.songs.open&&first.has(S.songs.open)){ const f=first.get(S.songs.open), at=out.indexOf(f), kids=ALL.filter(r=>r.nq===S.songs.open&&r!==f); kids.forEach(r=>r._sub=true); out.splice(at+1,0,...kids); } else S.songs.open=null;
+    ROWS=out; shown=first.size;
+    extra=ALL.length===shown?` (${c.chart.toLocaleString()} chart, ${c.era.toLocaleString()} decade list, ${c.genre.toLocaleString()} genre example)`:` in ${ALL.length.toLocaleString()} list entries (${c.chart.toLocaleString()} chart, ${c.era.toLocaleString()} decade list, ${c.genre.toLocaleString()} genre example)`; }
   const unit=S.tab==='places'?PLV[o.level].unit:t.unit, note=S.tab==='places'?'This table lists every place and does not follow the site filters; tap a place to set the site place filter.':siteNote();
-  $('dcount').innerHTML=`<b>${ROWS.length.toLocaleString()}</b> ${unit}${extra}. <span class="dmut">${esc(note)}</span>`;
+  $('dcount').innerHTML=`<b>${shown.toLocaleString()}</b> ${unit}${extra}. <span class="dmut">${esc(note)}</span>`;
   const cur=S.tab==='places'&&STP?(STP.k==='reg'?'reg:'+STP.reg:STP.k==='cty'?'cty:'+STP.iso:STP.k==='city'?'city:'+STP.i:null):null;
   CUR=r=>cur&&(o.level==='continent'?'reg:'+r.id:o.level==='country'?'cty:'+r.iso:'city:'+r.i)===cur;
   const w=$('dwrap');
@@ -217,16 +227,17 @@ function refresh(){ controls(); results(); }
 function setSort(k){ const o=S[S.tab]; if(o.sort===k) o.dir=-o.dir; else { o.sort=k; const c=T[S.tab].cols.find(x=>x.k===k); o.dir=c&&c.num&&!['year','rank','rel','y0','y1','founded','ended'].includes(k)?-1:1; } }
 function showArtist(name){ S.tab='songs'; Object.assign(S.songs,{q:name,exact:true}); refresh(); root.scrollIntoView({block:'start'}); }
 function csv(){ const cols=T[S.tab].cols, q=v=>{ v=v==null?'':String(v); return /[",\n\r]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v; };
-  return [cols.map(c=>q(c.label)).join(',')].concat(ROWS.map(r=>cols.map(c=>q(c.csvv?c.csvv(r):c.v(r))).join(','))).join('\r\n'); }
+  return [cols.map(c=>q(c.label)).join(',')].concat(ALL.map(r=>cols.map(c=>q(c.csvv?c.csvv(r):c.v(r))).join(','))).join('\r\n'); }
 
 root.addEventListener('click',e=>{ const a=e.target.closest('button'); if(!a){ const vr=e.target.closest('.vl-row'); if(vr&&!e.target.closest('a')&&ROWS[+vr.dataset.i]) rowDetail(ROWS[+vr.dataset.i]); return; } const d=a.dataset;
+  if(d.songk!=null){ S.songs.open=S.songs.open===d.songk?null:d.songk; results(); return; }
   if(d.dtab){ S.tab=d.dtab; refresh(); }
   else if(d.lvl){ S.places.level=d.lvl; S.places.sort='name'; S.places.dir=1; refresh(); }
   else if(d.sort){ setSort(d.sort); if(S.tab==='songs') controls(); results(true); }
   else if(a.id==='ddir'){ S.songs.dir=-S.songs.dir; controls(); results(); }
   else if(a.id==='ddir2'){ const o=S[S.tab]; o.dir=-o.dir; results(); }
   else if(a.id==='dclear'){ const o=S[S.tab]; o.q=''; if(S.tab==='songs') Object.assign(o,{exact:false,kind:'',origin:'',scene:'',src:'',status:'',sort:'year',dir:1}); S.ignore=false; refresh(); }
-  else if(a.id==='dcsv'){ const text=csv(), ta=$('dcsvta'), n=ROWS.length; clearTimeout(csvT);
+  else if(a.id==='dcsv'){ const text=csv(), ta=$('dcsvta'), n=ALL.length; clearTimeout(csvT);
     const ok=()=>{ a.textContent=`Copied ${n.toLocaleString()} rows`; csvT=setTimeout(()=>a.textContent='Copy as CSV',1600); };
     const fb=()=>{ ta.value=text; ta.hidden=false; ta.focus(); ta.select(); a.textContent='Selected below: press Ctrl/Cmd+C'; csvT=setTimeout(()=>a.textContent='Copy as CSV',4000); };
     try{ navigator.clipboard.writeText(text).then(ok,fb); }catch(_){ fb(); } }

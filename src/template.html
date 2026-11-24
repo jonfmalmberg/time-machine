@@ -267,6 +267,9 @@ img.cv{width:100%;height:100%;object-fit:cover;display:block}
 <symbol id="i-chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
 <symbol id="i-ticket" viewBox="0 0 24 24"><path d="M3.500 8a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4zM14 6v12"/></symbol>
 <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 15V3.500M8 7l4-4 4 4M7.500 10.500H6a2 2 0 0 0-2 2V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6.500a2 2 0 0 0-2-2h-1.500"/></symbol>
+<symbol id="i-dots" viewBox="0 0 24 24"><circle cx="5.500" cy="12" r="1.600" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.600" fill="currentColor" stroke="none"/><circle cx="18.500" cy="12" r="1.600" fill="currentColor" stroke="none"/></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.500l2.600 5.400 5.900.800-4.300 4.100 1.100 5.900L12 16.900 6.700 19.700l1.100-5.900L3.500 9.700l5.900-.800z"/></symbol>
+<symbol id="i-trend" viewBox="0 0 24 24"><path d="M3.500 17l5.500-5.500 4 4L20.500 8M15 8h5.500v5.500"/></symbol>
 <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 3L5 14h6l-1 7 8-11h-6z"/></symbol>
 </defs></svg>
 <div id="app" class="app wrap" data-view="tree">
@@ -306,16 +309,36 @@ img.cv{width:100%;height:100%;object-fit:cover;display:block}
   </div>
 <main class="content" id="content">
   <div class="stpanel" id="stpanel" hidden>
-    <div class="sthead"><span class="label">You are in</span><b id="sthere"></b><span class="sp"></span><button id="stpclose" type="button" aria-label="Close">✕</button></div>
-    <label class="fine stmo">How long you stay <select id="stspan"><option value="0">Just that year</option><option value="2">A few years</option><option value="5">A decade</option><option value="12">A lifetime</option></select></label>
-    <p class="fine stmo">Change the place by clicking a country or city on the map, or a region chip.</p>
-    <p class="label stmo">Alive here now: bold at their peak, faint rising or fading</p><div class="stchips stmo" id="stpeaks"></div>
+    <div class="sthead"><span class="label">You are in</span><b id="sthere"></b><span class="sp"></span><div class="stpop" id="stmeta" role="menu" hidden><span class="fine">Song names shown in</span><span id="stnames"></span><span id="stpmode" hidden></span></div><button id="stmore" class="sthb" type="button" aria-label="Display options" aria-expanded="false" hidden><svg class="ic" aria-hidden="true"><use href="#i-dots"/></svg></button><button id="stpclose" type="button" aria-label="Close">✕</button></div>
     <p class="fine" id="stgnote" hidden></p>
-    <p class="label" id="stplabel">Copy-ready Spotify prompt <span class="mono" id="stlen"></span> <span id="stpmode"></span> <span id="stplang"></span></p><p class="fine" id="stsrc"></p>
-    <textarea id="stprompt" readonly rows="6"></textarea>
-    <div class="strow"><button class="lbtn" id="stcopy" type="button">Copy prompt</button><button class="lbtn" id="stlink" type="button">Copy link</button></div>
-    <div id="ststatus"></div>
-    <div id="stlinks"></div>
+    <span class="seg sttabs" id="sttabs" role="tablist" aria-label="This playlist"><button type="button" role="tab" data-sttab="songs" aria-pressed="true">Songs</button><button type="button" role="tab" data-sttab="listen" aria-pressed="false">Listen</button><button type="button" role="tab" data-sttab="sounds" class="stmo" aria-pressed="false">Sounds</button><button type="button" role="tab" data-sttab="research" aria-pressed="false">Research</button></span>
+    <p class="stcoach" id="stcoach" hidden></p>
+    <div data-stpane="songs">
+      <p class="fine" id="stsrc"></p>
+      <div id="stlinks"></div>
+    </div>
+    <div data-stpane="listen" id="stget" hidden>
+      <div class="stsvc" id="stplat" role="group" aria-label="Where to listen"><button type="button" data-plat="spotify" style="--c:#1db954" aria-pressed="true"><i></i>Spotify</button><button type="button" data-plat="youtube" style="--c:#ff0033" aria-pressed="false"><i></i>YouTube</button><button type="button" data-plat="apple" style="--c:#fa2d48" aria-pressed="false"><i></i>Apple Music</button><button type="button" data-plat="list" style="--c:#8e8e93" aria-pressed="false"><i></i>Song list</button></div>
+      <div id="stg-spotify">
+        <div class="rows stopts">
+          <div class="rowb abrow dis"><span class="rmain"><b>Ready-made playlist</b><small>A finished playlist that opens in Spotify</small></span><span class="stsoon">In development</span></div>
+          <details class="stdet" id="stplabel"><summary class="rowb abrow"><span class="rmain"><b>AI playlist prompt</b><small>For Spotify's AI playlist. Written from these songs and the sounds of this place and time.</small></span><button class="lbtn primary" id="stcopy" type="button">Copy</button></summary>
+            <div class="stdetb"><textarea id="stprompt" readonly rows="7"></textarea>
+              <p class="fine"><span class="mono" id="stlen"></span></p>
+              <div class="stoptl"><span class="fine">Prompt language</span> <span id="stplang"></span></div>
+              <div class="stoptl" id="stpnrow"><span class="fine">Names in the prompt</span> <span id="stpnames"></span></div></div></details>
+          <button class="rowb abrow" id="stexact" type="button"><span class="rmain"><b>Exact playlist of these songs</b><small>Copies the song list and opens TuneMyMusic, which builds it in Spotify</small></span><span class="stout">↗</span></button>
+        </div>
+      </div>
+      <div id="stg-other" hidden></div>
+    </div>
+    <div data-stpane="sounds" hidden>
+      <p class="fine">Change the place by tapping a country or city on the map.</p>
+      <p class="label">Alive here now: bold at their peak, faint rising or fading</p><div class="stchips" id="stpeaks"></div>
+    </div>
+    <div data-stpane="research" hidden>
+      <div id="ststatus"></div>
+    </div>
   </div>
   <div class="legend" id="legend" aria-label="Regions" hidden></div>
   <div class="keyline">
@@ -589,18 +612,20 @@ function listItem(id){
   const n=byId[id], d=DEFS[id];
   const par=n.parents.length?n.parents.map((p,k)=>k===0?`<b>${goLink(p)}</b>`:goLink(p)).join(', '):'a root tradition';
   const kids=n.children.length?n.children.map(goLink).join(', '):'';
-  const hay=(n.name+' '+n.place+' '+(d?d.fits.map(f=>f[0]+' '+f[1]).join(' '):'')).toLowerCase();
+  const sub=(DATA.sub||{})[id]||[];
+  const hay=(n.name+' '+sub.join(' ')+' '+n.place+' '+(d?d.fits.map(f=>f[0]+' '+f[1]).join(' '):'')).toLowerCase();
   return `<details class="gitem${d?' def':''}" id="g-${id}" data-id="${id}" data-hay="${esc(hay)}">
   <summary><i style="background:${regColor(n.reg)}"></i><span class="gname">${esc(n.name)}</span><span class="gmeta">${d?esc(d.window):fmtYear(n.year)} · ${esc(n.place)}</span>${d?'':'<span class="todo">pending</span>'}</summary>
   <div class="gbody">
     <p class="gpar">From ${par}${kids?` · Leads to ${kids}`:''}</p>
+    ${sub.length?`<p class="gsub"><span class="label">Includes</span> ${sub.map(esc).join(' · ')}</p>`:''}
     ${d?`<p class="gsound">${esc(d.sound)}</p>
     <div class="gcols"><div><p class="label">Listen for</p><ul>${d.markers.map(m=>`<li>${esc(m)}</li>`).join('')}</ul></div>
     <div><p class="label">Fits</p><ul class="tracks">${d.fits.map(trackLi).join('')}</ul></div></div>
     ${d.near.length?`<p class="label">Close, but belongs elsewhere</p><ul class="near">${d.near.map(x=>`<li>${esc(x[0])} — “${esc(x[1])}” <span class="mono">${x[2]}</span> → ${goLink(x[3])}. ${esc(x[4])}</li>`).join('')}</ul>`:''}`
     :'<p class="fine">Pending: listed by name and placed on the tree, the map and the timeline. Its definition, reference tracks and playlist are still to come.</p>'}
     ${lookupLine(n.name,`${n.name} music ${n.place}`,`${n.name} music`)}
-    <div class="strow gplrow"><button class="lbtn" type="button" data-gpl="${id}">Playlist</button><span class="fine">${PL[id]?ST[PL[id].status]:(d?'Prompt from the reference tracks':'Not researched yet')}</span></div>
+    <div class="strow gplrow"><button class="lbtn primary gfset" type="button" data-fgset="${id}" aria-pressed="false">Filter to this genre</button><button class="lbtn" type="button" data-gpl="${id}">Playlist</button><span class="fine">${PL[id]?ST[PL[id].status]:(d?'Prompt from the reference tracks':'Not researched yet')}</span></div>
   </div></details>`;
 }
 // list scope: what the list shows; 'family' = the selected genre, its parents and its children
@@ -664,10 +689,22 @@ function nameForms(x){ x=String(x); const m=/^(.*?)\s*\(([^()]+)\)\s*$/.exec(x);
   return {orig:x,rom:x,two:false}; }
 const nm=x=>{ if(NMODE==='both') return x; const f=nameForms(x); return NMODE==='orig'?f.orig:f.rom; };
 const hasTwoForms=xs=>xs.some(x=>nameForms(x[0]).two||nameForms(x[1]).two);
-function namesToggle(show){ if(!show) return ''; const b=(k,l,t)=>`<button type="button" data-nm="${k}" aria-pressed="${NMODE===k}" title="${t}">${l}</button>`;
-  return ` <span class="plang" role="group" aria-label="Song names">${b('both','Both names','Each name as listed: original script with the romanized name in brackets')}${b('orig','Original script','Only the name in its own script, as most streaming services list it')}${b('rom','Romanized','Only the romanized or international name')}</span>`; }
+/* Song names come in two forms where the original is not in Latin letters. Two toggles choose which are shown: the name in
+   its own script (the button shows two letters of that script, taken from the list itself) and the romanized name ("Aa").
+   Both on = both forms; one is always on. Streaming services mostly list the original; the romanized form is for reading. */
+function nameSample(xs){ for(const x of xs||[]){ for(const v of [x[1],x[0]]){ const f=nameForms(v); if(f.two){ const m=f.orig.replace(/[\s\d\p{P}\p{S}]/gu,''); if(m) return [...m].slice(0,2).join(''); } } } return '文字'; }
+function namesToggle(show,xs){ if(!show) return ''; const on=k=>NMODE==='both'||NMODE===k, b=(k,l,t)=>`<button type="button" data-nm="${k}" aria-pressed="${on(k)}" title="${t}" aria-label="${t}">${l}</button>`;
+  return ` <span class="plang nmt" role="group" aria-label="Song names">${b('orig',esc(nameSample(xs)),'Names in their own script')}${b('rom','Aa','Names in Latin letters')}</span>`; }
+/* the prompt has its own choice of name forms, apart from how the song list is shown */
+let PNMODE='both'; try{ const v=localStorage.getItem('wmft-pnames'); if(v==='orig'||v==='rom') PNMODE=v; }catch(e){}
+const withPromptNames=fn=>{ const k=NMODE; NMODE=PNMODE; try{ return fn(); } finally{ NMODE=k; } };
+function pnamesToggle(show,xs){ if(!show) return ''; const on=k=>PNMODE==='both'||PNMODE===k, b=(k,l,t)=>`<button type="button" data-pnm="${k}" aria-pressed="${on(k)}" title="${t}" aria-label="${t}">${l}</button>`;
+  return `<span class="plang nmt" role="group" aria-label="Names in the prompt">${b('orig',esc(nameSample(xs)),'Names in their own script')}${b('rom','Aa','Names in Latin letters')}</span>`; }
+document.addEventListener('click',e=>{ const b=e.target.closest&&e.target.closest('[data-pnm]'); if(!b) return; e.preventDefault(); const k=b.dataset.pnm, other=k==='orig'?'rom':'orig';
+  PNMODE=PNMODE==='both'?other:PNMODE===k?other:'both'; try{ localStorage.setItem('wmft-pnames',PNMODE); }catch(_){} stPanelUpdate(); });
 function setNmode(v){ NMODE=v==='orig'||v==='rom'?v:'both'; try{ localStorage.setItem('wmft-names',NMODE); }catch(e){} refreshPromptBoxes(); stPanelUpdate(); }
-document.addEventListener('click',e=>{ const b=e.target.closest&&e.target.closest('[data-nm]'); if(!b) return; e.preventDefault(); setNmode(b.dataset.nm); });
+document.addEventListener('click',e=>{ const b=e.target.closest&&e.target.closest('[data-nm]'); if(!b) return; e.preventDefault(); const k=b.dataset.nm, other=k==='orig'?'rom':'orig';
+  setNmode(NMODE==='both'?other:NMODE===k?other:'both'); });   // turning one off leaves the other; turning on the missing one gives both
 const plLine=(k,xs)=>xs.length?`${k}: `+xs.map(x=>`${nm(x[0])} - ${nm(x[1])}`).join('; '):'';
 function promptFor(id){
   const n=byId[id], d=DEFS[id], B=usesB(id), pl=PL[id], code=useLang(langOfMovement(id)), T=code?LT(code):null;
@@ -690,24 +727,35 @@ const ST={full:'Full playlist',thin:'Thin: few recordings',none:'No playlist: li
 /* The playlist panel has two modes: a place and time (the moment), or one genre. GP is the genre shown, or null. */
 let GP=null;
 function stStatus(){}   // research and listener-test rows; filled in by src/mods/07_requests.js
+const GPVIEWS=['tree','map','tunnel','list'];   // views a genre's playlist sheet can sit over
 function openGenrePlaylist(id){ if(!byId[id]) return; GP=id; stPanelOpen=true; stBarUI(); stPanelUpdate(); const p=document.getElementById('stpanel'); if(p) p.scrollTop=0; }
 function closeGenrePlaylist(){ if(GP==null) return; GP=null; stPanelOpen=false; SEEDSIG=''; stBarUI(); }
+/* In the list, a genre is taken up by setting the genre filter to it: the tree, map and tunnel then show the same choice,
+   because they follow the filters. (The list has no floating "selected" bar; the filter chip at the top is the one place.) */
+function fgIs(id){ return !!FG&&FG.k==='mov'&&FG.id===id; }
+function gfsetPaint(){ document.querySelectorAll('.gitem.fgon').forEach(x=>x.classList.remove('fgon')); if(FG&&FG.k==='mov'){ const el=document.getElementById('g-'+FG.id); if(el) el.classList.add('fgon'); }
+  document.querySelectorAll('[data-fgset]').forEach(b=>{ const on=fgIs(b.dataset.fgset); b.setAttribute('aria-pressed',String(on)); b.textContent=on?'Genre filter set ✓':'Filter to this genre'; }); }
+document.addEventListener('click',e=>{ const b=e.target.closest&&e.target.closest('[data-fgset]'); if(!b) return; e.preventDefault(); const id=b.dataset.fgset;
+  FG=fgIs(id)?null:{k:'mov',id}; if(typeof stopPlay==='function') stopPlay(); stApply(); applyHighlight(); if(window.FILTERS&&window.FILTERS.paint){ try{ window.FILTERS.paint(); }catch(_){} } gfsetPaint();
+  try{ window.TRACK&&window.TRACK('filter',{g:FG?'mov:'+id:null,from:'list'}); }catch(_){} });
 document.addEventListener('click',e=>{ const b=e.target.closest&&e.target.closest('[data-gpl]'); if(!b) return; e.preventDefault(); openGenrePlaylist(b.dataset.gpl); });
-function stMode(){ const g=GP!=null; document.querySelectorAll('#stpanel .stmo').forEach(x=>x.hidden=g); document.getElementById('stpanel').dataset.mode=g?'genre':'moment'; return g; }
+function stMode(){ const g=GP!=null; document.querySelectorAll('#stpanel .stmo').forEach(x=>x.hidden=g); document.getElementById('stpanel').dataset.mode=g?'genre':'moment'; stTabPaint(); return g; }
 function genrePanel(){
   const id=GP, n=byId[id], d=DEFS[id], pl=PL[id], can=!!d&&!(pl&&pl.status==='none'), $=k=>document.getElementById(k);
   stMode(); $('sthere').textContent=n.name;
   const gn=$('stgnote'); gn.hidden=false;
   gn.innerHTML=`${esc(d?d.window:fmtYear(n.year))} · ${esc(n.place)}`+(d?` · <b>${pl?ST[pl.status]:'Prompt from the reference tracks'}</b>${pl&&pl.note?'. '+esc(pl.note):''}`:' · <b>Pending</b>: no definition, reference tracks or playlist yet.');
   $('stplabel').hidden=!can; $('stprompt').hidden=!can; $('stcopy').hidden=!can; $('stsrc').innerHTML=''; $('stpmode').innerHTML='';
-  if(can){ const txt=promptFor(id); $('stprompt').value=txt; $('stlen').textContent=`${txt.length} characters`;
-    $('stplang').innerHTML=plangToggle(langOfMovement(id))+namesToggle(!!pl&&hasTwoForms([...pl.intro,...pl.peak])); } else $('stprompt').value='';
-  const li=xs=>xs.map(x=>`<li><span>${esc(x[0])} — ${esc(x[1])}</span> ${lkBtn(x[0],x[1])}</li>`).join('');
+  if(can){ const txt=withPromptNames(()=>promptFor(id)); $('stprompt').value=txt; $('stlen').textContent=`${txt.length} characters`;
+    $('stplang').innerHTML=plangToggle(langOfMovement(id)); { const two=!!pl&&hasTwoForms([...pl.intro,...pl.peak]), xs=pl?[...pl.intro,...pl.peak]:[]; $('stnames').innerHTML=namesToggle(two,xs); $('stpnames').innerHTML=pnamesToggle(two,xs); $('stpnrow').hidden=!two; $('stmore').hidden=!two; if(!two) $('stmeta').hidden=true; } } else { $('stprompt').value=''; $('stnames').innerHTML=''; $('stmore').hidden=true; $('stmeta').hidden=true; }
+  const li=xs=>xs.map(x=>songLi(x[0],x[1])).join('');
   const sec=(t,xs,tag,body)=>xs&&xs.length?`<details class="seedl" open><summary class="fine"><b>${t} (${xs.length})</b></summary><${tag}>${body||li(xs)}</${tag}></details>`:'';
-  $('stlinks').innerHTML=(pl?sec('Intro',pl.intro,'ol')+sec('Peak',pl.peak,'ol')+sec('Albums to listen to instead',pl.albums,'ul',pl.albums&&pl.albums.map(a=>`<li><span>${esc(a[0])} — <i>${esc(a[1])}</i></span> ${lkBtn(a[0],a[1])}</li>`).join(''))
+  $('stlinks').innerHTML=((pl?(pl.intro||[]).length+(pl.peak||[]).length:(d?d.fits.length:0))?`<div class="sghead"><b>${pl?(pl.intro||[]).length+(pl.peak||[]).length:d.fits.length} songs</b>${playNote()}</div>`:'')+(pl?sec('Intro',pl.intro,'ol')+sec('Peak',pl.peak,'ol')+sec('Albums to listen to instead',pl.albums,'ul',pl.albums&&pl.albums.map(a=>`<li><span>${esc(a[0])} — <i>${esc(a[1])}</i></span> ${lkBtn(a[0],a[1])}</li>`).join(''))
       +(pl.fold&&byId[pl.fold]?`<p class="fine">For a playable mix of this sound, use the playlist for <button class="lbtn" type="button" data-gpl="${pl.fold}">${esc(byId[pl.fold].name)}</button></p>`:'')
-    :(d&&d.fits.length?sec('Reference tracks',d.fits,'ol',d.fits.map(f=>`<li><span>${esc(f[0])} — ${esc(f[1])}</span> ${lkBtn(f[0],f[1])}</li>`).join('')):''))
+    :(d&&d.fits.length?sec('Reference tracks',d.fits,'ol',d.fits.map(f=>songLi(f[0],f[1])).join('')):''))
     +lookupLine(n.name,`${n.name} music ${n.place}`,`${n.name} music`);
+  stFold($('stlinks'));
+  { const gs=pl?[...(pl.intro||[]),...(pl.peak||[])]:(d?d.fits:[]); STGET={songs:gs,q:`${n.name} music`,what:n.name}; stGetPaint(); }
   SEEDSIG=''; stStatus();
 }
 function copyText(btn,t,ta){ const ok=()=>{ const o=btn.textContent; btn.textContent='Copied'; setTimeout(()=>btn.textContent=o,1400); };
@@ -1042,13 +1090,17 @@ function buildMap(){
 
 /* ---------- selection, legend, views ---------- */
 const curView=()=>['tree','map','tunnel','list','journey','data','me'].find(k=>!document.getElementById('view-'+k).hidden)||'tree';
+/* The capsule: a small floating name at the top centre of the tree, map and tunnel, saying which named filter (a genre,
+   tradition or family chosen as the genre filter) is in force, or failing that which genre is selected. It is not shown in
+   the list, the filter's home view, where the entry itself is highlighted. Tapping the name goes to that entry; the cross
+   clears the filter (or the selection). */
+function capsuleOf(){ if(FG&&FG.k!=='multi') return {kind:'filter',name:fgName(),id:FG.k==='mov'?FG.id:null,reg:FG.k==='mov'?byId[FG.id].reg:null};
+  if(selected) return {kind:'selected',name:byId[selected].name,id:selected,reg:byId[selected].reg}; return null; }
 function updateSelbar(){
-  const bar=document.getElementById('selbar'); if(!selected){ bar.hidden=true; return; }
-  const n=byId[selected]; bar.hidden=false;
-  document.getElementById('seldot').style.background=regColor(n.reg);
-  document.getElementById('selname').textContent=n.name;
-  document.getElementById('selmeta').textContent=`${fmtYear(n.year)} · ${n.place} · ${TRADN[TRAD_OF[n.id]]}`;
-  const v=curView(); bar.querySelectorAll('button[data-show]').forEach(b=>b.setAttribute('aria-current',String(b.dataset.show===v)));
+  const bar=document.getElementById('selbar'), c=capsuleOf(); if(!c){ bar.hidden=true; return; }
+  bar.hidden=false; bar.dataset.kind=c.kind; bar.dataset.id=c.id||'';
+  const dot=document.getElementById('seldot'); dot.style.background=c.reg?regColor(c.reg):'var(--accent)';
+  document.getElementById('selname').textContent=c.name;
 }
 function select(id){
   selected=id; if(id) regFocus=null; if(!id) listScope='all'; WL=STON?worldline(id):null;
@@ -1058,7 +1110,8 @@ function select(id){
   if(STON) stKick();
 }
 document.getElementById('selbar').addEventListener('click',e=>{ const b=e.target.closest('button[data-show]'); if(b){ if(curView()===b.dataset.show) showView(b.dataset.show); else location.hash=b.dataset.show; } });
-document.getElementById('selclear').onclick=()=>select(null);
+document.getElementById('selclear').onclick=()=>{ const c=capsuleOf(); if(c&&c.kind==='filter'){ FG=null; if(typeof stopPlay==='function') stopPlay(); stApply(); applyHighlight(); if(window.FILTERS&&window.FILTERS.paint){ try{ window.FILTERS.paint(); }catch(_){} } updateSelbar(); } else select(null); };
+document.getElementById('selname').onclick=()=>{ const id=document.getElementById('selbar').dataset.id; if(!id) return; select(id); location.hash='list'; };
 function syncLegend(){ document.querySelectorAll('.rchip').forEach(c=>c.setAttribute('aria-pressed',(STP&&STP.k==='reg'&&STP.reg===c.dataset.r)?'true':'false')); }
 const fgName=(G=FG)=>{ if(!G) return ''; if(G.k==='multi'){ const n=G.items.map(x=>fgName(x)); return n.length>3?n.slice(0,2).join(', ')+' and '+(n.length-2)+' more':n.slice(0,-1).join(', ')+' and '+n[n.length-1]; } return G.k==='band'?bandName[G.id]:G.k==='trad'?(TRADN[G.id]||G.id):byId[G.id].name; };
 function buildLegend(){
@@ -1068,7 +1121,7 @@ function buildLegend(){
 }
 const VIEWS=['tree','map','tunnel','list','journey','data','me'], VIEWHOOK={};
 function showView(v){
-  document.querySelector('.wrap').dataset.view=v; closePop(); if(GP!=null&&v!=='list') closeGenrePlaylist();
+  document.querySelector('.wrap').dataset.view=v; closePop(); if(GP!=null&&!GPVIEWS.includes(v)) closeGenrePlaylist();
   VIEWS.forEach(k=>{ document.getElementById('view-'+k).hidden=k!==v; document.getElementById('tab-'+k).setAttribute('aria-selected',String(k===v)); }); { const tt=document.getElementById('tab-'+v), vt=document.getElementById('vtitle'); if(tt&&vt) vt.textContent=tt.dataset.title; }
   if(VIEWHOOK[v]){ try{ VIEWHOOK[v](); }catch(e){ console.error(e); } }
   if(v==='map'){ buildMap(); if(selected) setTimeout(()=>mapFocus(selected),40); }
@@ -1100,8 +1153,10 @@ function roll(btn,unheard){
   btn.classList.add('rolling');
   const step=()=>{ if(i<frames){ btn.textContent='🎲 '+pool[Math.floor(Math.random()*pool.length)].name; i++; setTimeout(step,40+i*i*1.6); return; }
     btn.textContent=label; btn.classList.remove('rolling'); rolling=false;
-    select(pick); const pl=document.querySelector(`#g-${pick} .pl`); if(pl) pl.open=true;
-    if(curView()==='list') showView('list'); else location.hash='list'; };
+    select(pick);
+    // the pick opens as a playlist sheet over the view the person is in; only the views that cannot show a sheet go to the list
+    const go=()=>{ STTAB='songs'; openGenrePlaylist(pick); };
+    if(GPVIEWS.includes(curView())) go(); else { location.hash='list'; setTimeout(go,120); } };
   step();
 }
 document.getElementById('rollany').onclick=e=>roll(e.currentTarget,false);
@@ -1116,6 +1171,8 @@ const ANC={}; N.forEach(n=>ANC[n.id]=lineage(n.id).anc);
 // and for place and time whether a movement counts when it was heard there/then or only when it was made there/then
 let STFROM=T0, FPL='heard', FTM='heard', FG=null;
 const FHOOKS=[];                                    // called after any filter change
+FHOOKS.push(()=>gfsetPaint());                     // list entries show whether they are the genre filter
+FHOOKS.push(()=>updateSelbar());                   // the capsule names the genre filter
 let STON=true, STYf=2026, STY=2026, STP=null, STSPAN=1, STV=null, stU=1, stPlay=0, stMult=1, stRAF=0, stLast=0, stPanelOpen=false, stPanelT=0, TP=null;
 const U=y=>1-lg(y)/L0;                              // the tree's log time scale: 0 = 1500 BCE, 1 = today
 const UinvF=u=>2056-30*Math.exp((1-Math.max(0,Math.min(1,u)))*L0);
@@ -1210,7 +1267,7 @@ function stBarUI(){
   document.getElementById('stback').setAttribute('aria-pressed',String(stPlay<0));
   document.getElementById('stfwd').setAttribute('aria-pressed',String(stPlay>0));
   document.getElementById('stmoment').setAttribute('aria-pressed',String(stPanelOpen));
-  document.getElementById('stpanel').hidden=GP!=null?!(stPanelOpen&&curView()==='list'):!(STON&&stPanelOpen&&['tree','map','tunnel'].includes(curView()));
+  document.getElementById('stpanel').hidden=GP!=null?!(stPanelOpen&&GPVIEWS.includes(curView())):!(STON&&stPanelOpen&&['tree','map','tunnel'].includes(curView()));
 }
 // one loop drives time, the tree, the map and the tunnel
 function stApply(){ stCompute(); stBarUI(); WL=worldline(selected); stKick(); if(curView()==='map') requestMapDraw(); stPanelUpdate(); if(curView()==='list') filterList(); FHOOKS.forEach(f=>{ try{ f(); }catch(e){} }); }
@@ -1338,21 +1395,31 @@ function stPrompt(){
 function stPanelUpdate(){
   if(GP!=null){ if(stPanelOpen) genrePanel(); return; }
   if(!STON||!stPanelOpen) return;
-  stMode(); { const $=k=>document.getElementById(k); $('stgnote').hidden=true; $('stplabel').hidden=false; $('stprompt').hidden=false; $('stcopy').hidden=false; }
-  const pr0=stPrompt(), {txt,cands}=pr0;
-  document.getElementById('sthere').textContent=`${placeName()||'Everywhere'} · ${stWhen()}`;
+  stMode(); { const $=k=>document.getElementById(k); $('stplabel').hidden=false; $('stprompt').hidden=false; $('stcopy').hidden=false; }
+  PMODE=FPL==='made'?'home':'heard';   // made here / heard here is chosen in the place filter and named in the title
+  const ESS=essentialOf(), pr0=withPromptNames(stPrompt), cands=pr0.cands, txt=ESS?withPromptNames(()=>promptFor(FG.id)):pr0.txt;
+  if(ESS) pr0.seeds=[...(ESS.intro||[]),...(ESS.peak||[])];
+  { const [ya,yb]=stRange(); document.getElementById('sthere').textContent=`${placeName()||'Everywhere'} · ${ya===yb?fmtY(ya):ya<=T0?'up to '+fmtY(yb):fmtY(ya)+'–'+fmtY(yb)}`;
+    // heard there or made there is chosen in the place filter; here it is the subtitle
+    const sub=document.getElementById('stgnote'), bits=[];
+    if(ESS) bits.push('Essential '+fgName(),'place and years not applied');   // the genre's own list: the greyed chips above are not used
+    else { if(STP) bits.push(FPL==='made'?'Made there':'Heard there'); if(FG) bits.push((FG.k==='mov'?'Popular ':'')+fgName()); }
+    sub.hidden=!bits.length; sub.textContent=bits.join(' · '); }
   const chips=cands.slice(0,18);
   document.getElementById('stpeaks').innerHTML=chips.length?chips.map(c=>`<button type="button" data-id="${c.id}" title="${c.h>=.99?'At its peak':(STY<STD[c.id][0]?'On the rise':'Past its peak, still loved')}"${c.h>=.99?'':' class="anc"'}><i style="background:${stColor(c.id)}"></i>${esc(byId[c.id].name)}</button>`).join(''):'<span class="fine">Nothing on record here at this moment. Travel on, or pick another place.</span>';
   document.getElementById('stpeaks').querySelectorAll('button').forEach(b=>b.onclick=()=>select(b.dataset.id));
   const ta=document.getElementById('stprompt'); ta.value=txt; document.getElementById('stlen').textContent=`${txt.length} characters`;
-  document.getElementById('stplang').innerHTML=plangToggle(langOfPlace())+namesToggle(hasTwoForms(pr0.seeds||[]));
-  document.getElementById('stpmode').innerHTML=STP?pmodeToggle():'';
+  document.getElementById('stplang').innerHTML=plangToggle(langOfPlace()); { const two=hasTwoForms(pr0.seeds||[]), $=k=>document.getElementById(k); $('stnames').innerHTML=namesToggle(two,pr0.seeds||[]); $('stpnames').innerHTML=pnamesToggle(two,pr0.seeds||[]); $('stpnrow').hidden=!two; $('stmore').hidden=!two; if(!two) $('stmeta').hidden=true; }
+
   const pr=stPrompt(), src=eraSource(), iso=placeIso(), key=iso&&(iso+'_'+decadeKey(STY));
-  document.getElementById('stsrc').innerHTML=(pr.era?`${pr.era==='year'?`Seed songs: the year's biggest hits in ${esc(isoName(iso))}, from published year-end charts.`:''}${pr.era==='year'?'':`Seed songs: ${pr.era==='mix'?'partly ':''}what people in ${esc(isoName(iso))} heard then, ${PMODE==='home'?'home-grown only':'mostly home-grown'}, from ${src==='researched'?'a researched list':src==='verified'?'a list verified after an earlier trip':'<b>an AI draft, not yet verified</b>'}.`}`
-    :(key&&drafting.has(key)?'Drafting a song list for this place and decade…':(STP?'Seed songs: from the sounds alive here (no song list for this place and time yet).':'')))
+  if(ESS) pr.seeds=pr0.seeds;
+  document.getElementById('stsrc').innerHTML=(pr.era?`${pr.era==='year'?`The year's biggest hits in ${esc(isoName(iso))}, from published year-end charts.`:''}${pr.era==='year'?'':`${pr.era==='mix'?'Partly what':'What'} people in ${esc(isoName(iso))} heard then, ${PMODE==='home'?'home-grown only':'mostly home-grown'}, from ${src==='researched'?'a researched list':src==='verified'?'a list verified after an earlier trip':'<b>an AI draft, not yet verified</b>'}.`}`
+    :(key&&drafting.has(key)?'Drafting a song list for this place and decade…':(STP?'No song list for this place and time yet: the playlist below is built from the sounds alive here.':'')))
     +(STP&&iso&&SAMPLE&&DB?` <label class="fine fillsw"><input type="checkbox" id="stfill"${FILL?' checked':''}> Fill gaps with AI drafts</label>`:'');
   const fb=document.getElementById('stfill'); if(fb) fb.onchange=()=>{ FILL=fb.checked; try{ localStorage.setItem('wmft-fill',FILL?'on':'off'); }catch(e){} stPanelUpdate(); };
+  if(ESS) document.getElementById('stsrc').textContent=`The songs that define ${byId[FG.id].name}, hand-picked. For what was most heard, switch to Popular in the genre filter.`;
   stLinks(pr); maybeFill(); logTravel();
+  if(window.FILTERS&&window.FILTERS.paint){ try{ window.FILTERS.paint(); }catch(e){} }
   stStatus();
 }
 
@@ -1536,9 +1603,13 @@ function tpStep(ts){
   document.getElementById('stback').onclick=()=>dir(-1);
   document.getElementById('stfwd').onclick=()=>dir(1);
   document.getElementById('stspeed').onchange=e=>{ stMult=+e.target.value; };
-  document.getElementById('stspan').onchange=e=>{ setStay(e.target.value,STFROM); stApply(); };
-  document.getElementById('stmoment').onclick=()=>{ if(GP!=null){ closeGenrePlaylist(); stPanelOpen=true; } else stPanelOpen=!stPanelOpen; stBarUI(); stPanelUpdate(); };
-  document.getElementById('stpclose').onclick=()=>{ GP=null; SEEDSIG=''; stPanelOpen=false; stBarUI(); };
+
+  document.getElementById('stmoment').onclick=()=>{ const fromFilter=window.UI&&UI.sheet.current()==='filter'; if(fromFilter) UI.sheet.close('filter');
+    if(GP!=null){ closeGenrePlaylist(); stPanelOpen=true; } else stPanelOpen=fromFilter?true:!stPanelOpen; stBarUI(); stPanelUpdate(); };   // coming from a filter, the playlist button shows the playlist: it never closes it
+  { const mb=document.getElementById('stmore'), m=document.getElementById('stmeta'), set=on=>{ m.hidden=!on; mb.setAttribute('aria-expanded',String(on)); };
+    mb.onclick=e=>{ e.stopPropagation(); set(m.hidden); };
+    document.addEventListener('pointerdown',e=>{ if(!m.hidden&&!e.target.closest('#stmeta,#stmore')) set(false); }); }
+  document.getElementById('stpclose').onclick=()=>{ if(window.STSHEET) STSHEET.reset(); GP=null; SEEDSIG=''; stPanelOpen=false; stBarUI(); };
   const testInfo=()=>{ const [y0,y1]=stRange(), pr=stPrompt(); return {place:placeName()||'the world',iso:placeIso(),year:STY,span:STSPAN,when:stWhen(),end:y1,mode:PMODE,lang:useLang(langOfPlace())||'en',era:pr.era,prompt:document.getElementById('stprompt').value}; };
   document.getElementById('stcopy').onclick=async e=>{ copyText(e.currentTarget,document.getElementById('stprompt').value,document.getElementById('stprompt'));
     if(GP!=null){ logCopy('genre',{id:GP,lang:useLang(langOfMovement(GP))||'en',prompt:document.getElementById('stprompt').value}); return; }
@@ -1563,6 +1634,22 @@ const ext=(href,label,title)=>`<a href="${href}" target="_blank" rel="noopener"$
 const trio=(q,wq)=>`${ext(LK.yt(q),'YouTube')} · ${ext(LK.g(q),'Google')} · ${ext(LK.w(wq||q),'Wikipedia')}`;
 const bare=t=>String(t).replace(/\s*\((album|live|remaster[^)]*)\)/ig,'').trim();
 // a small ↗ after a song opens the links for the song and for the artist
+/* a song in the panel: title, artist, and one play button. Play opens the song on the service chosen under Listen. */
+const PLAYON={spotify:['Spotify',q=>`https://open.spotify.com/search/${Q(q)}`],youtube:['YouTube',q=>LK.yt(q)],apple:['Apple Music',q=>APPLE(q)],list:['YouTube',q=>LK.yt(q)]};
+const songLi=(a,t,extra)=>`<li class="sgrow" tabindex="0" role="button" aria-expanded="false" data-a="${esc(a)}" data-t="${esc(t)}">${extra||''}<span class="sgt"><b>${esc(nm(t))}</b><small>${esc(nm(a))}</small></span><svg class="ic sgchev" aria-hidden="true"><use href="#i-chev"/></svg><button type="button" class="sgb stplay" data-a="${esc(a)}" data-t="${esc(t)}" aria-label="Play ${esc(t)}"><svg class="ic" aria-hidden="true"><use href="#i-play"/></svg></button></li>`;
+/* the arrow leaves the app to play the song on the chosen service */
+document.addEventListener('click',e=>{ const b=e.target.closest&&e.target.closest('.stplay'); if(!b) return; e.preventDefault(); e.stopPropagation(); const on=PLAYON[STPLAT]||PLAYON.youtube;
+  if(window.WELCOME&&window.WELCOME.hold&&window.WELCOME.hold(b,on[0])) return;
+  window.open(on[1](`${nm(b.dataset.a)} ${bare(nm(b.dataset.t))}`),'_blank','noopener'); try{ window.TRACK&&window.TRACK('play',{on:STPLAT}); }catch(_){} });
+/* the row itself stays in the app: it unfolds the song's details and look-up links under it */
+function sgToggle(li){ const nx=li.nextElementSibling; if(nx&&nx.classList.contains('sgfind')){ nx.remove(); li.setAttribute('aria-expanded','false'); return; }
+  const q=`${nm(li.dataset.a)} ${bare(nm(li.dataset.t))}`; li.insertAdjacentHTML('afterend',`<li class="sgfind"><span>Look up</span> ${ext(LK.g(q),'Google')} · ${ext(LK.w(q),'Wikipedia')} · ${ext(LK.yt(q),'YouTube')}</li>`); li.setAttribute('aria-expanded','true'); }
+document.addEventListener('click',e=>{ if(!e.target.closest||e.target.closest('.stplay,a')) return; const li=e.target.closest('.sgrow'); if(li) sgToggle(li); });
+document.addEventListener('keydown',e=>{ if((e.key==='Enter'||e.key===' ')&&e.target.classList&&e.target.classList.contains('sgrow')){ e.preventDefault(); sgToggle(e.target); } });
+/* which service the play buttons open: a menu beside the song count, the same choice as the chips under Listen */
+const playNote=()=>`<label class="stplayon"><span>Play on</span><span class="stpick" style="--c:${PLAYC[STPLAT]||PLAYC.youtube}"><i></i><select id="stplayon" aria-label="Service the play buttons open">${[['spotify','Spotify'],['youtube','YouTube'],['apple','Apple Music']].map(([v,l])=>`<option value="${v}"${(STPLAT==='list'?'youtube':STPLAT)===v?' selected':''}>${l}</option>`).join('')}</select><svg class="ic" aria-hidden="true"><use href="#i-chev"/></svg></span></label>`;
+const PLAYC={spotify:'#1db954',youtube:'#ff0033',apple:'#fa2d48'};
+document.addEventListener('change',e=>{ if(e.target.id!=='stplayon') return; STPLAT=e.target.value; try{ localStorage.setItem('wmft-plat',STPLAT); }catch(_){} stGetPaint(); });
 const lkBtn=(a,t)=>`<button type="button" class="lkb" data-a="${esc(a)}" data-t="${esc(t)}" aria-label="Look up ${esc(t)}" title="Play or look up">↗</button>`;
 function lkRow(a,t){ t=bare(t); return `<span class="lkrow"><span><b>Song</b> ${ext(LK.yt(`${a} ${t}`),'YouTube','Play on YouTube')} · ${ext(LK.g(`${a} ${t} song`),'Google')} · ${ext(LK.w(`${t} ${a}`),'Wikipedia','The song, or the album it is on')}</span><span><b>Artist</b> ${trio(a,a+' musician')}</span></span>`; }
 document.addEventListener('click',e=>{ const b=e.target.closest&&e.target.closest('.lkb'); if(!b) return; e.preventDefault(); e.stopPropagation();
@@ -1593,16 +1680,49 @@ function fillCovers(root){ if(!COVERS||!root) return; root.querySelectorAll('img
   if(!cvQ.some(j=>j.k===k)) cvQ.push({k,a:im.dataset.a,t:im.dataset.t}); }); cvNext(); }
 const cvImg=(a,t)=>COVERS?`<span class="cvw"><img class="cv" hidden alt="" loading="lazy" data-ck="${esc(cvKey(a,t))}" data-a="${esc(a)}" data-t="${esc(t)}" onerror="this.hidden=true"></span>`:'';
 
+/* "Get the playlist": one place, several services. Spotify (the prompt, and an exact playlist through TuneMyMusic), YouTube,
+   Apple Music, or the plain song list. The choice is remembered on this device. The songs come from whichever list the
+   panel is showing (a place and time, or a genre). */
+let STGET={songs:[],q:'',what:''}, STPLAT='spotify'; try{ const v=localStorage.getItem('wmft-plat'); if(['spotify','youtube','apple','list'].includes(v)) STPLAT=v; }catch(e){}
+const APPLE=q=>`https://music.apple.com/search?term=${Q(q)}`;
+/* the panel's sections are tabs: Songs (what the site holds), Listen (the services), Sounds (what was alive there; a place and
+   time only), Research (how the list was made and checked). The tab is kept for the visit. */
+let STTAB='songs';
+function stTabPaint(){ const g=GP!=null; if(g&&STTAB==='sounds') STTAB='songs';
+  document.querySelectorAll('#sttabs button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.sttab===STTAB)));
+  document.querySelectorAll('#stpanel [data-stpane]').forEach(x=>x.hidden=x.dataset.stpane!==STTAB); }
+document.addEventListener('click',e=>{ const b=e.target.closest('#sttabs button'), go=e.target.closest('#stgo'); if(!b&&!go) return; STTAB=go?'listen':b.dataset.sttab; stTabPaint(); if(window.WELCOME&&window.WELCOME.tab) window.WELCOME.tab(STTAB); try{ window.TRACK&&window.TRACK('paneltab',{t:STTAB}); }catch(_){} });
+/* a long song list shows its first five; one tap shows the rest (kept open for the rest of the visit) */
+let STALL=false;
+function stFold(box){ box.querySelectorAll('details.seedl').forEach(d=>{ const ol=d.querySelector('ol,ul'), n=ol?ol.querySelectorAll('.sgrow').length:0; if(n<=6) return; d.classList.toggle('few',!STALL);
+    const b=document.createElement('button'); b.type='button'; b.className='lbtn stmore'; b.textContent=STALL?'Show fewer':`Show all ${n}`; ol.after(b);
+    b.onclick=()=>{ STALL=!STALL; if(STALL&&window.STSHEET) STSHEET.tall(); box.querySelectorAll('details.seedl').forEach(x=>{ const o=x.querySelector('ol,ul'); if(o&&o.children.length>6) x.classList.toggle('few',!STALL); }); box.querySelectorAll('.stmore').forEach(x=>{ const o=x.previousElementSibling; x.textContent=STALL?'Show fewer':`Show all ${o.children.length}`; }); }; }); }
+function stGetPaint(){ const seg=document.getElementById('stplat'), sp=document.getElementById('stg-spotify'), ot=document.getElementById('stg-other'); if(!seg||!sp||!ot) return;
+  seg.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.plat===STPLAT)));
+  document.querySelectorAll('#stplayon').forEach(x=>{ x.value=STPLAT==='list'?'youtube':STPLAT; x.parentElement.style.setProperty('--c',PLAYC[x.value]); });
+  const songs=STGET.songs||[], first=songs[0], one=first?`${nm(first[0])} ${bare(nm(first[1]))}`:'', lines=()=>songs.map(x=>`${nm(x[0])} - ${bare(nm(x[1]))}`).join('\n');
+  const soon=n=>`<div class="rowb abrow dis"><span class="rmain"><b>Ready-made playlist</b><small>A finished playlist that opens in ${n}</small></span><span class="stsoon">In development</span></div>`;
+  const out=(href,t,sub)=>`<a class="rowb abrow" href="${esc(href)}" target="_blank" rel="noopener"><span class="rmain"><b>${esc(t)}</b><small>${esc(sub)}</small></span><span class="stout">↗</span></a>`;
+  sp.hidden=STPLAT!=='spotify'; ot.hidden=STPLAT==='spotify';
+  if(STPLAT==='youtube') ot.innerHTML=`<div class="rows stopts">${soon('YouTube')}${STGET.q?out(LK.yt(STGET.q),'Search YouTube',STGET.q):''}</div>`;
+  else if(STPLAT==='apple') ot.innerHTML=`<div class="rows stopts">${soon('Apple Music')}${STGET.q?out(APPLE(STGET.q),'Search Apple Music',STGET.q):''}</div>`;
+  else if(STPLAT==='list') ot.innerHTML=`<div class="rows stopts">${songs.length?`<div class="rowb abrow"><span class="rmain"><b>The ${songs.length} songs as text</b><small>“Artist - Title” lines, for any app or service</small></span><button class="lbtn primary" id="stlistcopy" type="button">Copy</button></div>`:'<div class="rowb abrow dis"><span class="rmain"><b>No song list yet</b><small>Nothing has been collected for this</small></span></div>'}</div>`;
+  const c=document.getElementById('stlistcopy'); if(c) c.onclick=()=>{ copyText(c,lines(),null); try{ window.TRACK&&window.TRACK('copy',{kind:'list',n:songs.length}); }catch(e){} };
+  const x=document.getElementById('stexact'); if(x){ x.hidden=!songs.length; x.onclick=()=>{ const b=x.querySelector('b'); copyText(b,lines(),null); window.open(LK.tmm,'_blank','noopener'); }; }
+  ot.querySelectorAll('a').forEach(y=>y.addEventListener('click',()=>{ try{ window.TRACK&&window.TRACK('listen',{on:STPLAT}); }catch(e){} })); }
+document.addEventListener('click',e=>{ const b=e.target.closest('#stplat button'); if(!b) return; STPLAT=b.dataset.plat; try{ localStorage.setItem('wmft-plat',STPLAT); }catch(_){} stGetPaint(); try{ window.TRACK&&window.TRACK('platform',{on:STPLAT}); }catch(_){} });
+
 // the Time Machine panel: seed songs with links, a way to turn them into a real playlist, and searches for this place and time
 let SEEDOPEN=true, SEEDSIG='';
 function stLinks(pr){
   const box=document.getElementById('stlinks'); if(!box) return; const seeds=pr.seeds||[], place=placeName(), when=stWhen();
-  const sig=JSON.stringify([seeds,place,when,COVERS]); if(sig===SEEDSIG) return; SEEDSIG=sig;
+  const sig=JSON.stringify([seeds,place,when,COVERS,NMODE]); if(sig===SEEDSIG) return; SEEDSIG=sig;
   const iso=placeIso(), cn=iso?isoName(iso):place;
-  box.innerHTML=(seeds.length?`<details class="seedl"${SEEDOPEN?' open':''}><summary class="fine"><b>Seed songs (${seeds.length})</b>: play or look up each one</summary><ol>${seeds.map(x=>`<li>${cvImg(x[0],x[1])}<span>${esc(x[0])} — ${esc(x[1])}</span> ${lkBtn(x[0],x[1])}</li>`).join('')}</ol>
-    <div class="strow"><button class="lbtn" id="sttmm" type="button" title="Copies the songs as Artist - Title lines and opens TuneMyMusic, where you paste them to get a Spotify playlist of exactly these songs">Copy song list and open TuneMyMusic</button></div></details>`:'')
+  box.innerHTML=(seeds.length?`<details class="seedl"${SEEDOPEN?' open':''}><summary class="sghead"><b>${seeds.length} songs</b>${playNote()}</summary><ol>${seeds.map(x=>songLi(x[0],x[1],cvImg(x[0],x[1]))).join('')}</ol></details>`:'')
     +(place?lookupLine(`the hits of ${place}, ${when}`,`${place} top hits ${when}`,`${cn} number-one singles ${when}`):'');
   const dl=box.querySelector('details'); if(dl){ dl.addEventListener('toggle',()=>{ SEEDOPEN=dl.open; if(dl.open) fillCovers(dl); }); if(dl.open) fillCovers(dl); }
+  stFold(box);
+  STGET={songs:seeds,q:place?`${place} top hits ${when}`:'',what:place?`${place}, ${when}`:''}; stGetPaint();
   const tb=document.getElementById('sttmm'); if(tb) tb.onclick=()=>{ copyText(tb,seeds.map(x=>`${nm(x[0])} - ${bare(nm(x[1]))}`).join('\n'),null); window.open(LK.tmm,'_blank','noopener'); };
 }
 
@@ -1650,7 +1770,7 @@ function whenIn(code){ const [a,b]=stRange(); if(a===b) return fmtYIn(code,a); c
   return a<0&&b<0?LT(code).dates.bce.replace('{y}',`${-a}–${-b}`):`${fmtYIn(code,a)}–${fmtYIn(code,b)}`; }
 function windowIn(code,w){ if(!code) return w; const m=/^(\d+) onward$/.exec(w); return m?LT(code).dates.onward.replace('{y}',m[1]):w; }
 function refreshPromptBoxes(){ document.querySelectorAll('textarea[data-pid]').forEach(ta=>{ const t=promptFor(ta.dataset.pid); ta.value=t; const c=document.querySelector(`[data-pidlen="${ta.dataset.pid}"]`); if(c) c.textContent=t.length; });
-  document.querySelectorAll('.plang button[data-nm]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.nm===NMODE))); }
+  document.querySelectorAll('.plang button[data-nm]').forEach(b=>b.setAttribute('aria-pressed',String(NMODE==='both'||b.dataset.nm===NMODE))); }
 function setPlang(v){ PLANG=v==='local'?'local':'en'; try{ localStorage.setItem('wmft-plang',PLANG); }catch(e){}
   refreshPromptBoxes(); syncPlangButtons(); stPanelUpdate(); }
 function syncPlangButtons(){ document.querySelectorAll('.plang button[data-l]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.l===PLANG))); }
@@ -1661,6 +1781,10 @@ document.addEventListener('click',e=>{ const b=e.target.closest&&e.target.closes
 
 /* ---------- what the locals heard: era song lists per country and decade, and the heard-there / made-there switch ---------- */
 const ERA=DATA.era||{};
+/* With one genre as the genre filter, which songs the playlist holds: 'essential' = the songs that define the sound (the
+   genre's own hand-picked list), 'popular' = what was most heard in the chosen place and time. Set in the genre filter. */
+let FSONG='essential'; try{ if(localStorage.getItem('wmft-fsong')==='popular') FSONG='popular'; }catch(e){}
+const essentialOf=()=>{ if(FSONG!=='essential'||!FG||FG.k!=='mov') return null; const pl=PL[FG.id]; return pl&&((pl.intro||[]).length+(pl.peak||[]).length)?pl:null; };
 let PMODE='heard'; try{ PMODE=localStorage.getItem('wmft-pmode')==='home'?'home':'heard'; }catch(e){}
 const decadeKey=y=>String(Math.max(1940,Math.min(2020,Math.floor(y/10)*10)));
 function placeIso(p=STP){ if(!p||p.k==='reg') return null; if(p.k==='multi'){ const s=new Set(p.items.map(q=>placeIso(q))); return s.size===1?[...s][0]:null; } return p.k==='city'?CITIES[p.i].iso2:p.iso; }

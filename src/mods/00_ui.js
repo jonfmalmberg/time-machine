@@ -1,11 +1,15 @@
 /* App shell helpers: bottom sheets (one at a time), drag to dismiss, icons. No framework. */
 const bd=document.getElementById('sheetbd'); let cur=null;
 const ic=n=>`<svg class="ic" aria-hidden="true"><use href="#i-${n}"/></svg>`;
+/* One bottom sheet at a time on a phone: while a filter sheet is up, the playlist sheet steps aside (it is not closed, and
+   returns when the filter is put away), so the filter chips and the playlist button work like tabs of one sheet. */
+function under(on){ const sp=document.getElementById('stpanel'); if(sp) sp.classList.toggle('aside',on&&matchMedia('(max-width:700px)').matches); document.documentElement.classList.toggle('filter-up',on); }
 function open(id,o){ o=o||{}; const el=document.getElementById('sheet-'+id); if(!el) return; if(cur&&cur.el!==el) close();
+  under(id==='filter');
   cur={el,id,onClose:o.onClose,clear:!!o.clear}; el.hidden=false; el.style.transform=''; el.classList.toggle('peek',!!o.peek);
   // a "clear" sheet has no backdrop at all: nothing invisible ever sits over the app. Tapping elsewhere closes it and the tap still lands.
   bd.hidden=!!o.clear; void el.offsetHeight; el.classList.add('in'); bd.classList.toggle('in',!o.clear); }
-function close(id){ if(!cur||(id&&cur.id!==id)) return; const c=cur; cur=null; c.el.classList.remove('in'); c.el.style.transform=''; bd.classList.remove('in');
+function close(id){ if(!cur||(id&&cur.id!==id)) return; const c=cur; cur=null; under(false); c.el.classList.remove('in'); c.el.style.transform=''; bd.classList.remove('in');
   setTimeout(()=>{ if(!cur||cur.el!==c.el) c.el.hidden=true; if(!cur||cur.clear) bd.hidden=true; },280); if(c.onClose){ try{ c.onClose(); }catch(e){} } }
 let bdAt=0; const bdClose=e=>{ const t=Date.now(); if(t-bdAt<350) return; bdAt=t; if(e.cancelable&&e.type==='touchend') e.preventDefault(); close(); };
 bd.addEventListener('click',bdClose); bd.addEventListener('touchend',bdClose,{passive:false});
@@ -21,10 +25,28 @@ function draggable(handle,sheet,dismiss){ let y0=null,dy=0;
   const end=()=>{ if(y0==null) return; y0=null; sheet.style.transition=''; if(dy>70) dismiss(); else sheet.style.transform=''; };
   handle.addEventListener('pointerup',end); handle.addEventListener('pointercancel',end); }
 document.querySelectorAll('.sheet').forEach(s=>{ [s.querySelector('.sheet-grab'),s.querySelector('.sheet-head')].forEach(h=>{ if(h) draggable(h,s,()=>close()); }); });
+/* No bottom sheet comes closer to the filter row than half that row's height. The limit is measured, since the row's
+   place depends on the view and the device, and is kept in --sheet-max for every sheet. */
+function sheetMax(){ const fr=document.getElementById('filterrow'); if(!fr) return; const r=fr.getBoundingClientRect(); if(!r.height) return;
+  document.documentElement.style.setProperty('--sheet-max',Math.max(240,Math.round(innerHeight-r.bottom-r.height/2))+'px'); }
+addEventListener('resize',sheetMax); addEventListener('hashchange',()=>setTimeout(sheetMax,60)); setTimeout(sheetMax,0); setTimeout(sheetMax,600);
 /* the playlist panel is a bottom sheet too (not modal: the map stays usable behind it) */
 const sp=document.getElementById('stpanel');
-if(sp){ const g=document.createElement('div'); g.className='sheet-grab'; sp.insertBefore(g,sp.firstChild); const dis=()=>{ sp.style.transform=''; const x=document.getElementById('stpclose'); if(x) x.click(); };
-  draggable(g,sp,dis); const h=sp.querySelector('.sthead'); if(h) draggable(h,sp,dis); const x=document.getElementById('stpclose'); if(x){ x.innerHTML=ic('x'); x.className='sheet-x'; } }
+if(sp){ const g=document.createElement('div'); g.className='sheet-grab'; sp.insertBefore(g,sp.firstChild); const dis=()=>{ sp.style.transform=''; sp.style.height=''; sp.classList.remove('tall'); const x=document.getElementById('stpclose'); if(x) x.click(); };
+  /* The playlist sheet is sized by hand: drag its grabber or header and it follows the finger and stays where it is left,
+     so it can be slid down to see the map or tree behind it. Left very low it closes; left near the top limit it snaps to
+     the limit. A tap on the grabber switches between the limit and the usual height. The height holds across the tabs. */
+  const LOW=150, NEAR=70, maxH=()=>parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--sheet-max'))||innerHeight*.8;
+  const setH=h=>{ sp.style.height=h==null?'':Math.round(h)+'px'; sp.classList.toggle('tall',h!=null&&h>=maxH()-1); };
+  window.STSHEET={ tall:()=>setH(maxH()), reset:()=>setH(null) };
+  const size=handle=>{ let y0=null,h0=0,moved=false;
+    handle.addEventListener('pointerdown',e=>{ if(e.target.closest('button,input,select,a')) return; y0=e.clientY; h0=sp.offsetHeight; moved=false; sp.style.transition='none'; try{ handle.setPointerCapture(e.pointerId); }catch(_){} });
+    handle.addEventListener('pointermove',e=>{ if(y0==null) return; const dy=e.clientY-y0; if(!moved&&Math.abs(dy)<4) return; moved=true; sp.style.height=Math.max(60,Math.min(maxH(),h0-dy))+'px'; });
+    const end=()=>{ if(y0==null) return; y0=null; sp.style.transition=''; if(!moved){ if(handle===g) setH(sp.offsetHeight>=maxH()-1?null:maxH()); return; }
+      const h=sp.offsetHeight; if(h<LOW){ setH(null); dis(); } else if(h>maxH()-NEAR) setH(maxH()); else setH(h); };
+    handle.addEventListener('pointerup',end); handle.addEventListener('pointercancel',end); };
+  size(g); const h=sp.querySelector('.sthead'); if(h) size(h);
+  const x=document.getElementById('stpclose'); if(x){ x.innerHTML=ic('x'); x.className='sheet-x'; } }
 window.UI={ sheet:{open,close,current:()=>cur&&cur.id}, ic };
 /* ---- reusable windowed list: only the rows on screen exist, so 10 rows and 100,000 rows cost the same ----
    UI.vlist(host,{rowH, count:()=>n, row:i=>html, scroller?}) -> {refresh(), update(), scrollTo(i)}

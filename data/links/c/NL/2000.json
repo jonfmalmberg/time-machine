@@ -1,6 +1,6 @@
 [
 {"song":"s_d269ky33k0","scope":"c:NL:2000s","role":"home","scene":"rock","confidence":"h"},
-{"song":"s_a48mf0cv86","scope":"c:NL:2000s","role":"home","scene":"ballad","confidence":"h"},
+{"song":"s_bhg3jnds7p","scope":"c:NL:2000s","role":"home","scene":"ballad","confidence":"h"},
 {"song":"s_s5a1fnvxtz","scope":"c:NL:2000s","role":"home","scene":"ballad","confidence":"h"},
 {"song":"s_gnqyapkvxc","scope":"c:NL:2000s","role":"home","scene":"rock","confidence":"m"},
 {"song":"s_ft2p1tqphx","scope":"c:NL:2000s","role":"home","scene":"ballad","confidence":"m"},
@@ -13,7 +13,7 @@
 {"song":"s_kz5qx36t7y","scope":"c:NL:2000s","role":"home","scene":"pop","confidence":"m"},
 {"song":"s_90632ch11y","scope":"c:NL:2000s","role":"foreign","scene":"pop","confidence":"h"},
 {"song":"s_y2b73cc8c9","scope":"c:NL:2000s","role":"foreign","released":2005,"scene":"ballad","confidence":"h"},
-{"song":"s_jd0hgkdtm7","scope":"c:NL:2000s","role":"foreign","scene":"dance","confidence":"h"},
+{"song":"s_j6ks90jncb","scope":"c:NL:2000s","role":"foreign","scene":"dance","confidence":"h"},
 {"song":"s_2dk46m28fp","scope":"c:NL:2000s","role":"foreign","scene":"pop","confidence":"h"},
 {"song":"s_m96hs8p4e5","scope":"c:NL:2000s","role":"foreign","scene":"pop","confidence":"h"}
 ]
