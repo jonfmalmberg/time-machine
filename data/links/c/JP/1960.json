@@ -18,5 +18,14 @@
 {"song":"s_6g4vbmynsx","scope":"c:JP:1960s","role":"foreign","scene":"rock","confidence":"m"},
 {"song":"s_xbczfs6dft","scope":"c:JP:1960s","role":"foreign","scene":"pop","confidence":"h"},
 {"song":"s_bpdk1g6mmd","scope":"c:JP:1960s","role":"foreign","scene":"ballad","confidence":"m"},
-{"song":"s_dwesxccjq6","scope":"c:JP:1960s","role":"foreign","scene":"rock","confidence":"h"}
+{"song":"s_dwesxccjq6","scope":"c:JP:1960s","role":"foreign","scene":"rock","confidence":"h"},
+{"song":"s_xpw1p2fyxx","scope":"c:JP:1961","role":"charted","rank":1,"evidence":["e_c3hvycryzq"],"scene":"","quote":"Greenfields","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"January"},
+{"song":"s_1pehhg1b06","scope":"c:JP:1961","role":"charted","rank":2,"evidence":["e_c3hvycryzq"],"scene":"","quote":"The Green Leaves of Summer","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"February"},
+{"song":"s_f13z2vyrk8","scope":"c:JP:1961","role":"charted","rank":3,"evidence":["e_c3hvycryzq"],"scene":"","quote":"G.I. Blues","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"March 24"},
+{"song":"s_zj0nfdynbk","scope":"c:JP:1961","role":"charted","rank":4,"evidence":["e_c3hvycryzq"],"scene":"","quote":"Tokyo Dodonpa Musume","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"April 14"},
+{"song":"s_vdp4hsftav","scope":"c:JP:1961","role":"charted","rank":5,"evidence":["e_c3hvycryzq"],"scene":"","quote":"Calendar Girl","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"July 24"},
+{"song":"s_05jg7w5190","scope":"c:JP:1961","role":"charted","rank":6,"evidence":["e_c3hvycryzq"],"scene":"","quote":"Kimi Koishi","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"September 4"},
+{"song":"s_r6azyf8wcf","scope":"c:JP:1961","role":"charted","rank":7,"evidence":["e_c3hvycryzq"],"scene":"","quote":"Moliendo Café","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"October 2"},
+{"song":"s_s6dnhgr0c6","scope":"c:JP:1961","role":"charted","rank":8,"evidence":["e_c3hvycryzq"],"scene":"","quote":"Moliendo Café","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"November 13"},
+{"song":"s_6221f1t1y6","scope":"c:JP:1961","role":"charted","rank":9,"evidence":["e_c3hvycryzq"],"scene":"","quote":"Koshu","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"December 11"}
 ]

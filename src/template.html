@@ -1413,7 +1413,7 @@ function stPanelUpdate(){
 
   const pr=stPrompt(), src=eraSource(), iso=placeIso(), key=iso&&(iso+'_'+decadeKey(STY));
   if(ESS) pr.seeds=pr0.seeds;
-  document.getElementById('stsrc').innerHTML=(pr.era?`${pr.era==='year'?`The year's biggest hits in ${esc(isoName(iso))}, from published year-end charts.`:''}${pr.era==='year'?'':`${pr.era==='mix'?'Partly what':'What'} people in ${esc(isoName(iso))} heard then, ${PMODE==='home'?'home-grown only':'mostly home-grown'}, from ${src==='researched'?'a researched list':src==='verified'?'a list verified after an earlier trip':'<b>an AI draft, not yet verified</b>'}.`}`
+  document.getElementById('stsrc').innerHTML=(pr.era?`${pr.era==='year'?(no1List(iso)?`Songs that reached number one in ${esc(isoName(iso))}, in the order they got there. Where each artist is from is not recorded yet.`:`The year's biggest hits in ${esc(isoName(iso))}, from published year-end charts.`):''}${pr.era==='year'?'':`${pr.era==='mix'?'Partly what':'What'} people in ${esc(isoName(iso))} heard then, ${PMODE==='home'?'home-grown only':'mostly home-grown'}, from ${src==='researched'?'a researched list':src==='verified'?'a list verified after an earlier trip':'<b>an AI draft, not yet verified</b>'}.`}`
     :(key&&drafting.has(key)?'Drafting a song list for this place and decade…':(STP?'No song list for this place and time yet: the playlist below is built from the sounds alive here.':'')))
     +(STP&&iso&&SAMPLE&&DB?` <label class="fine fillsw"><input type="checkbox" id="stfill"${FILL?' checked':''}> Fill gaps with AI drafts</label>`:'');
   const fb=document.getElementById('stfill'); if(fb) fb.onchange=()=>{ FILL=fb.checked; try{ localStorage.setItem('wmft-fill',FILL?'on':'off'); }catch(e){} stPanelUpdate(); };
@@ -1800,6 +1800,8 @@ const tForms=t=>{ t=String(t); const m=/\(([^)]{4,})\)/.exec(t), f=[t]; if(m&&!/
 function dedupeSongs(L,get=x=>x[1]){ const out=[]; for(const x of L) if(!out.some(y=>tForms(get(x)).some(a=>tForms(get(y)).some(b=>sameTitle(a,b))))) out.push(x); return out; }
 // year-end hit lists per country and year (from published charts), for visits to a specific year
 const YEARL=DATA.yearl||{};
+// a list of weekly number ones (role 'charted', no year-end position): true when every year in view is one (decision D22)
+function no1List(iso){ const L=YEARL[iso]; if(!L) return false; const [y0,y1]=stRange(); let n=0; for(let y=y0;y<=y1;y++){ const c=L[y]; if(!c) continue; n++; if(!(c.songs||[]).some(s=>s[3]==='charted'&&s[8]==null)) return false; } return n>0; }
 function yearSeeds(mode){
   const iso=placeIso(); if(!iso||!YEARL[iso]) return null; const [y0,y1]=stRange();
   const yrs=[]; for(let y=y0;y<=y1;y++) if(YEARL[iso][y]) yrs.push(y); if(!yrs.length) return null;

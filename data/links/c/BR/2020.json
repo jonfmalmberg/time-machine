@@ -16,5 +16,11 @@
 {"song":"s_wvvqp54rcr","scope":"c:BR:2020s","role":"foreign","scene":"ballad","confidence":"m"},
 {"song":"s_9qnf9w3sff","scope":"c:BR:2020s","role":"foreign","scene":"pop","confidence":"m"},
 {"song":"s_h28dhvcqs1","scope":"c:BR:2020s","role":"foreign","scene":"pop","confidence":"m"},
-{"song":"s_q990t9n4dn","scope":"c:BR:2020s","role":"foreign","scene":"pop","confidence":"m"}
+{"song":"s_q990t9n4dn","scope":"c:BR:2020s","role":"foreign","scene":"pop","confidence":"m"},
+{"song":"s_q3w8fdj1je","scope":"c:BR:2023","role":"charted","rank":1,"evidence":["e_sxpx568vxc"],"scene":"","quote":"Faz um Vuk Vuk (Teto Espelhado)","check":{"result":"found","date":"2026-11-24"},"chart_pos":1,"chart":"year-end chart"},
+{"song":"s_gtsek5ngfh","scope":"c:BR:2023","role":"charted","rank":2,"evidence":["e_sxpx568vxc"],"scene":"","quote":"Chico","check":{"result":"found","date":"2026-11-24"},"chart_pos":2,"chart":"year-end chart"},
+{"song":"s_gjbe140yjg","scope":"c:BR:2023","role":"charted","rank":3,"evidence":["e_sxpx568vxc"],"scene":"","quote":"Let's Go 4","check":{"result":"found","date":"2026-11-24"},"chart_pos":3,"chart":"year-end chart"},
+{"song":"s_8y1gbf36np","scope":"c:BR:2023","role":"charted","rank":4,"evidence":["e_sxpx568vxc"],"scene":"","quote":"Canudinho","check":{"result":"found","date":"2026-11-24"},"chart_pos":4,"chart":"year-end chart"},
+{"song":"s_a55a7772hm","scope":"c:BR:2023","role":"charted","rank":5,"evidence":["e_sxpx568vxc"],"scene":"","quote":"Baile do Bruxo","check":{"result":"found","date":"2026-11-24"},"chart_pos":5,"chart":"year-end chart"},
+{"song":"s_hf2n2egbhx","scope":"c:BR:2023","role":"charted","rank":6,"evidence":["e_sxpx568vxc"],"scene":"","quote":"Daqui pra Sempre","check":{"result":"found","date":"2026-11-24"},"chart_pos":6,"chart":"year-end chart"}
 ]

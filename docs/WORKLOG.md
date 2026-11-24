@@ -13,7 +13,8 @@ One entry per working session, newest first: what was done, what was decided and
 - **Helpers:** queue H16 to H22 written; H16, H19, H20 and H22 started by hand, the rest wait for the daily run.
 - **Not tested:** `db/test.sh` (no Postgres here); anything on a real phone; dragging ideas with a finger (tested with a mouse pointer); the course and feedback row signed in against the real database.
 - **Awaiting the owner:** everything above is on `dev` for his review; db 007 and 008 go to prod only on his word.
-- **Chart numbers:** not ingested at the time of this entry; the check against the live pages was still running.
+- **Chart numbers:** 854 of 1,166 pages read; 17,274 candidate rows; the check found 17,271 on their live pages (3 artist credits not found, left out). Ingested: 677 country-years in 39 countries, 15,323 list entries, about 10,300 new songs (after merging 147 duplicates) and 5,077 new artist credits, 2,097 of them unsplit. Left out: 1,534 rows whose country-year already had a list (not compared with it), 116 rows in country-years with fewer than six rows, about 3,800 rows on decade pages that carry no year, 351 rows from R&B and country charts. The page grew from 2.9 MB to 4.2 MB (1.2 MB as sent, compressed). Not read yet: 312 pages, among them the United Kingdom top tens, Oricon and Billboard number ones; the reader was restarted for them.
+- **Known weak points of the chart lists:** a year of number ones is shown in the order songs reached number one, not by how big they were; artist credits are stored as written ("A featuring B" is one artist until split); the same song under two spellings is two songs; none has a release year; "Made there" shows nothing for these lists until origins come back from the helpers.
 
 ## 2026-11-23 (night: capsule, tour, open accounts)
 

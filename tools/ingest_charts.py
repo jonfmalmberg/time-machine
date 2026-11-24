@@ -14,6 +14,7 @@ What goes in (decisions D7, D8, D16, D22):
   is from, so the song counts for "Heard there" and not for "Made there" until an origin is recorded.
 - Order (`rank`): a year-end chart by its position, which is also stored as `chart_pos`; a list of weekly number
   ones in the order the page gives them (the order they first led the chart), with `peak` 1 and the date.
+- A country-year with fewer than six rows is left out: it would replace a fuller decade list with a thin one.
 - No release year is written for a new song: a chart year is only an upper bound (D18).
 - Songs and artists are matched against the master table by exact credit text and exact title; a match reuses the
   key, otherwise a key is minted (seeded). A credit is never split here: a new artist whose name holds a joiner is
@@ -28,6 +29,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = os.path.join(ROOT, 'data')
 sys.path.insert(0, os.path.join(ROOT, 'tools'))
 from split_credits import has_joiner, B32          # noqa: E402
+
+
+MIN_ROWS = 6        # the page calls a year list with fewer than six songs sparse and would show it in place of a fuller decade list
 
 
 def load(p):
@@ -97,6 +101,8 @@ def main():
         if have.get(sid): left['country-year already has a list'] += 1; continue
         by_scope.setdefault(sid, []).append(r)
 
+    for sid in [k for k, v in by_scope.items() if len(v) < MIN_ROWS]:      # too few rows to stand as a year's list
+        left['country-year with fewer than %d rows' % MIN_ROWS] += len(by_scope.pop(sid))
     new_songs, new_artists, new_ev, links, scopes = [], [], [], collections.defaultdict(list), collections.defaultdict(list)
     reused = 0
     for sid, rs in by_scope.items():

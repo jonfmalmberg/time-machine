@@ -13,5 +13,15 @@
 {"song":"s_neb19gk6e4","scope":"c:FI:2010s","role":"foreign","scene":"pop","confidence":"h"},
 {"song":"s_9r5gm6tqz9","scope":"c:FI:2010s","role":"foreign","scene":"dance","confidence":"h"},
 {"song":"s_bnsb4mw2eq","scope":"c:FI:2010s","role":"foreign","scene":"dance","confidence":"m"},
-{"song":"s_1qvr08wsns","scope":"c:FI:2010s","role":"foreign","scene":"pop","confidence":"h"}
+{"song":"s_1qvr08wsns","scope":"c:FI:2010s","role":"foreign","scene":"pop","confidence":"h"},
+{"song":"s_c2hxn1m86n","scope":"c:FI:2012","role":"charted","rank":1,"evidence":["e_8ft4c2h763"],"scene":"","quote":"Euphoria","check":{"result":"found","date":"2026-11-24"},"chart_pos":1,"chart":"year-end chart"},
+{"song":"s_xs90z6hfnz","scope":"c:FI:2012","role":"charted","rank":2,"evidence":["e_8ft4c2h763"],"scene":"","quote":"Frontside Ollie","check":{"result":"found","date":"2026-11-24"},"chart_pos":2,"chart":"year-end chart"},
+{"song":"s_pgwzqwtwp2","scope":"c:FI:2012","role":"charted","rank":3,"evidence":["e_8ft4c2h763"],"scene":"","quote":"Ai Se Eu Te Pego","check":{"result":"found","date":"2026-11-24"},"chart_pos":3,"chart":"year-end chart"},
+{"song":"s_1z2zdjtc2a","scope":"c:FI:2012","role":"charted","rank":4,"evidence":["e_8ft4c2h763"],"scene":"","quote":"Somebody That I Used to Know","check":{"result":"found","date":"2026-11-24"},"chart_pos":4,"chart":"year-end chart"},
+{"song":"s_phm2x0spd9","scope":"c:FI:2012","role":"charted","rank":5,"evidence":["e_8ft4c2h763"],"scene":"","quote":"Titanium","check":{"result":"found","date":"2026-11-24"},"chart_pos":5,"chart":"year-end chart"},
+{"song":"s_gvgew25tz6","scope":"c:FI:2012","role":"charted","rank":6,"evidence":["e_8ft4c2h763"],"scene":"","quote":"Älä tyri nyt","check":{"result":"found","date":"2026-11-24"},"chart_pos":6,"chart":"year-end chart"},
+{"song":"s_qn4t2j15sb","scope":"c:FI:2012","role":"charted","rank":7,"evidence":["e_8ft4c2h763"],"scene":"","quote":"Kran Turismo","check":{"result":"found","date":"2026-11-24"},"chart_pos":7,"chart":"year-end chart"},
+{"song":"s_ye60mhgqn5","scope":"c:FI:2012","role":"charted","rank":8,"evidence":["e_8ft4c2h763"],"scene":"","quote":"Call Me Maybe","check":{"result":"found","date":"2026-11-24"},"chart_pos":8,"chart":"year-end chart"},
+{"song":"s_kctx3d8qtd","scope":"c:FI:2012","role":"charted","rank":9,"evidence":["e_8ft4c2h763"],"scene":"","quote":"Soutaa huopaa","check":{"result":"found","date":"2026-11-24"},"chart_pos":9,"chart":"year-end chart"},
+{"song":"s_7fpyb6egd8","scope":"c:FI:2012","role":"charted","rank":10,"evidence":["e_8ft4c2h763"],"scene":"","quote":"Vie mut kotiin","check":{"result":"found","date":"2026-11-24"},"chart_pos":10,"chart":"year-end chart"}
 ]
