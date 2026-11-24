@@ -10,8 +10,10 @@ What goes in (decisions D7, D8, D16, D22):
 - Only rows whose title and artist the check found on the live page.
 - One scope per country and year, `c:<country>:<year>`, status `year list`. A country-year that already has a
   year list is left exactly as it is and counted: researched lists are not overwritten by this step.
-- A link per row with role `charted`: the chart shows the song was heard there; it does not show where the artist
-  is from, so the song counts for "Heard there" and not for "Made there" until an origin is recorded.
+- A link per row. Its role is `home` when the first-named artist is recorded as from that country, `foreign` when
+  recorded as from elsewhere (origins: work/*/origins.json, with the helper's checked quote as evidence), and
+  `charted` when no origin is recorded: heard there, counted for "Made there" only once an origin is known.
+- The scope carries `basis: chart`, so the page keeps chart order for "Heard there" whatever the roles.
 - Order (`rank`): a year-end chart by its position, which is also stored as `chart_pos`; a list of weekly number
   ones in the order the page gives them (the order they first led the chart), with `peak` 1 and the date; a list of
   top-ten entries in the order they entered.
@@ -80,6 +82,20 @@ def main():
         if 'text' not in r and r.get('title'):
             ev_by_url.setdefault(r['url'], r['id'])
 
+    # Where artists are from, as the helpers handed it back (assignments H16 to H19): credit -> the lead artist's record.
+    # Only the first-named artist decides (decision D28), and only when that record's artist opens the credit.
+    lead = {}
+    for p in sorted(glob.glob(os.path.join(ROOT, 'work', '*', 'origins.json'))):
+        for o in load(p):
+            c = o['credit']
+            if c in lead or not c.casefold().startswith(o['artist'].casefold()):
+                continue
+            lead[c] = o
+    ev_by_text = {}
+    for r in sorted(evidence, key=lambda r: r['id']):
+        if 'text' in r:
+            ev_by_text.setdefault((r['url'], r['text']), r['id'])
+
     rng = random.Random(int(hashlib.sha256(b'charts-2026-11-24').hexdigest()[:12], 16))
 
     def mint(prefix):
@@ -107,6 +123,7 @@ def main():
         left['country-year with fewer than %d rows' % MIN_ROWS] += len(by_scope.pop(sid))
     new_songs, new_artists, new_ev, links, scopes = [], [], [], collections.defaultdict(list), collections.defaultdict(list)
     reused = 0
+    roles = collections.Counter()
     for sid, rs in by_scope.items():
         cc, year = sid.split(':')[1], int(sid.split(':')[2])
         kinds = {r['kind'] for r in rs}
@@ -130,7 +147,17 @@ def main():
             if r['url'] not in ev_by_url:
                 e = {'id': mint('e_'), 'title': 'Wikipedia: ' + r['page'], 'url': r['url'], 'read': cdate}
                 new_ev.append(e); ev_by_url[r['url']] = e['id']
-            l = {'song': s, 'scope': sid, 'role': 'charted', 'rank': n, 'evidence': [ev_by_url[r['url']]], 'scene': '',
+            role, origin = 'charted', None
+            o = lead.get(r['artist'])
+            if o:
+                cs = o['country'] if isinstance(o['country'], list) else [o['country']]
+                k = (o['url'], o['quote'])
+                if k not in ev_by_text:
+                    e = {'id': mint('e_'), 'url': o['url'], 'text': o['quote'], 'read': o['read'], 'check': {'result': 'found', 'date': o['read']}}
+                    new_ev.append(e); ev_by_text[k] = e['id']
+                role = 'home' if cc in cs else 'foreign'
+                origin = {'artist': o['artist'], 'country': cs, 'evidence': ev_by_text[k]}
+            l = {'song': s, 'scope': sid, 'role': role, 'rank': n, 'evidence': [ev_by_url[r['url']]], 'scene': '',
                  'quote': r['title'], 'check': {'result': 'found', 'date': cdate}}
             if r['kind'] == 'year-end': l['chart_pos'] = r['pos']; l['chart'] = 'year-end chart'
             elif r['kind'] == 'top ten':
@@ -139,14 +166,17 @@ def main():
             else:
                 l['peak'] = 1; l['chart'] = 'weekly number ones'
                 if r.get('date'): l['led_from'] = r['date'][:40]
+            if origin: l['origin'] = origin
+            roles[role] += 1
             links[(cc, dec)].append(l)
         note = ('Year-end chart positions' if 'year-end' in kinds else 'Songs that entered the weekly top ten, in the order they entered' if 'top ten' in kinds else 'Weekly number ones in the order they first led the chart') + \
-               ', read from Wikipedia\'s list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only.'
-        scopes[(cc, dec)].append({'id': sid, 'status': 'year list', 'note': note})
+               ', read from Wikipedia\'s list page and checked against it.'
+        scopes[(cc, dec)].append({'id': sid, 'status': 'year list', 'basis': 'chart', 'note': note})
 
     nl = sum(len(v) for v in links.values())
     print('country-years', len(by_scope), 'links', nl, 'new songs', len(new_songs), 'reused songs', reused, 'new artists', len(new_artists),
           '(%d unsplit)' % sum(1 for x in new_artists if x.get('unsplit')), 'new evidence', len(new_ev))
+    print('  roles:', dict(roles))
     for k, n in left.most_common(): print('  left out', n, k)
     per = collections.Counter(s.split(':')[1] for s in by_scope)
     print('  years per country:', dict(sorted(per.items())), flush=True)

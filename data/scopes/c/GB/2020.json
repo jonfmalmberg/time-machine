@@ -1,10 +1,10 @@
 [
 {"id":"c:GB:2020s","status":"decade list","note":"Two earlier songs: Kate Bush's 1985 Running Up That Hill (UK No. 1 again in 2022 via Stranger Things) and The Weeknd's Blinding Lights (released Nov 2019, biggest UK hit of 2020)."},
-{"id":"c:GB:2020","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:GB:2021","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:GB:2022","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:GB:2023","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:GB:2024","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:GB:2025","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:GB:2026","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."}
+{"id":"c:GB:2020","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."},
+{"id":"c:GB:2021","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."},
+{"id":"c:GB:2022","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."},
+{"id":"c:GB:2023","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."},
+{"id":"c:GB:2024","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."},
+{"id":"c:GB:2025","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."},
+{"id":"c:GB:2026","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."}
 ]

@@ -127,7 +127,7 @@ def legacy_data(data_dir):
                 if e not in src_index:
                     src_index[e] = len(ysrc)
                     ysrc.append([evidence[e]['title'], evidence[e]['url']])
-                rows.append(list(pair(l)) + [year(l), l['role'], l['rank'], src_index[e], l.get('source_address', ''), l['scene'], l.get('chart_pos')] + ([l['chart']] if l.get('role') == 'charted' else []))   # a charted row also says which kind of chart
+                rows.append(list(pair(l)) + [year(l), l['role'], l['rank'], src_index[e], l.get('source_address', ''), l['scene'], l.get('chart_pos')] + ([l['chart']] if 'quote' in l and l.get('chart') else []))   # a charted row also says which kind of chart
             # Order of a year list (DECISIONS.md D8, rule version 1). Only where the list has chart positions:
             # charted songs in chart order, then the songs with no chart position in the order they were stored.
             # The number shown as the list order follows the result. Lists with no chart positions are untouched.
@@ -135,7 +135,7 @@ def legacy_data(data_dir):
                 rows = sorted((r for r in rows if r[8] is not None), key=lambda r: r[8]) + [r for r in rows if r[8] is None]
                 for n, r in enumerate(rows, 1):
                     r[4] = n
-            yearl[iso][sid.split(':')[2]] = {'songs': rows, 'note': cscope[iso][sid].get('note', '')}
+            yearl[iso][sid.split(':')[2]] = dict({'songs': rows, 'note': cscope[iso][sid].get('note', '')}, **({'basis': 'chart'} if cscope[iso][sid].get('basis') == 'chart' else {}))
     for e in sorted(evidence):
         # The old source list also held sources no year list pointed at. Evidence that came in through the
         # master-table step (it carries `check`) belongs to genre links and definitions, not to this list.

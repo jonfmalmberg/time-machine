@@ -1,13 +1,13 @@
 [
 {"id":"c:GB:1960s","status":"decade list","note":""},
-{"id":"c:GB:1960","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:GB:1961","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:GB:1962","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:GB:1963","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:GB:1964","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:GB:1965","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:GB:1966","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:GB:1967","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:GB:1968","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:GB:1969","status":"year list","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."}
+{"id":"c:GB:1960","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."},
+{"id":"c:GB:1961","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."},
+{"id":"c:GB:1962","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."},
+{"id":"c:GB:1963","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."},
+{"id":"c:GB:1964","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."},
+{"id":"c:GB:1965","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."},
+{"id":"c:GB:1966","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."},
+{"id":"c:GB:1967","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."},
+{"id":"c:GB:1968","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."},
+{"id":"c:GB:1969","status":"year list","basis":"chart","note":"Songs that entered the weekly top ten, in the order they entered, read from Wikipedia's list page and checked against it."}
 ]

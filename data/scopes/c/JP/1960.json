@@ -1,6 +1,6 @@
 [
 {"id":"c:JP:1960s","status":"decade list","note":""},
-{"id":"c:JP:1961","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:JP:1968","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:JP:1969","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."}
+{"id":"c:JP:1961","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:JP:1968","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:JP:1969","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."}
 ]

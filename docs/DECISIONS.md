@@ -4,6 +4,12 @@ The lead's standing choices: what was decided, why, and what is not known. One e
 
 ## 2026-11-23
 
+### D28. "Made there" for a chart song follows the first-named artist (lead, 24 Nov)
+- **Choice:** a chart link is `home` when the first-named artist of the credit is recorded as from that country, `foreign` when recorded as from elsewhere, `charted` when there is no record. A person with two recorded countries counts for both. Featured guests do not decide. A list taken from a chart keeps chart order for "Heard there" whatever the roles (the scope carries `basis: chart`); "Made there" shows its home songs in the same order.
+- **Why:** one rule a visitor can predict; a collaboration belongs first to the act it is credited to.
+- **Source:** helper hand-backs (`work/*/origins.json`): the artist's Wikipedia article, the nationality in its first sentence or the infobox origin, each quote checked. H16 (Ireland, France, Germany, Italy, Spain, United Kingdom) is applied; it found 1,986 artists and left 288 unresolved. Three more batches are queued.
+- **Known wrong cases:** "from" is where a group was formed or what the article's first sentence calls a person, so Boney M. counts as German and an emigrant counts for the country the article names. A credit whose first record does not open the credit text is left `charted`.
+
 ### D27. Onward stops at the foot of every playlist (lead, 24 Nov)
 - **Choice:** under the songs, "Where next": from a genre, the genres it follows and leads to on the tree; from a place and time, the same place ten years earlier and later. One tap changes the playlist in place.
 - **Why:** the site is for exploring (positioning record); a list that ends with nothing to do next sends the visitor away. The links come from data already there.
@@ -38,6 +44,7 @@ The lead's standing choices: what was decided, why, and what is not known. One e
 - **Order:** year-end position; for number ones, the order they first led the chart. A year of number ones is not a ranking of the year's biggest songs: a song that led for one week sits beside one that led for ten. Weeks at number one are on the pages and are not read yet.
 - **Cost:** every chart row is carried in the page; see the work log for the size. Loading a country's lists on demand is the remedy and is not built.
 - **Evidence:** one record per page; each link stores the checked string and the check's date.
+- **Later the same night:** a first ingest was pulled back and redone after malformed titles, by-artist summary rows and remark rows ("No release", "Various Artists", a sentence about a strike) were found in it; `tools/chart_rows.py` now removes them. The check cannot see a malformed title, because it ignores punctuation.
 
 ### D21. Two branches: `main` and `dev` (owner, 24 Nov)
 - **Choice:** `dev` is the test site; `main` is live. The `review` branch is gone. The lead's unfinished work stays on local branches that are never pushed.

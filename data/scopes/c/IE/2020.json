@@ -1,10 +1,10 @@
 [
 {"id":"c:IE:2020s","status":"decade list","note":"Kneecap are from Belfast (Northern Ireland), rapping in Irish and English."},
-{"id":"c:IE:2020","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:IE:2021","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:IE:2022","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:IE:2023","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:IE:2024","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:IE:2025","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:IE:2026","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."}
+{"id":"c:IE:2020","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:IE:2021","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:IE:2022","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:IE:2023","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:IE:2024","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:IE:2025","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:IE:2026","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."}
 ]

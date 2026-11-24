@@ -1,10 +1,10 @@
 [
 {"id":"c:FR:2000s","status":"decade list","note":""},
-{"id":"c:FR:2000","status":"year list","note":"Year-end chart positions, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:FR:2001","status":"year list","note":"Year-end chart positions, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:FR:2002","status":"year list","note":"Year-end chart positions, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:FR:2003","status":"year list","note":"Year-end chart positions, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:FR:2004","status":"year list","note":"Year-end chart positions, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:FR:2005","status":"year list","note":"Year-end chart positions, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:FR:2006","status":"year list","note":"Year-end chart positions, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."}
+{"id":"c:FR:2000","status":"year list","basis":"chart","note":"Year-end chart positions, read from Wikipedia's list page and checked against it."},
+{"id":"c:FR:2001","status":"year list","basis":"chart","note":"Year-end chart positions, read from Wikipedia's list page and checked against it."},
+{"id":"c:FR:2002","status":"year list","basis":"chart","note":"Year-end chart positions, read from Wikipedia's list page and checked against it."},
+{"id":"c:FR:2003","status":"year list","basis":"chart","note":"Year-end chart positions, read from Wikipedia's list page and checked against it."},
+{"id":"c:FR:2004","status":"year list","basis":"chart","note":"Year-end chart positions, read from Wikipedia's list page and checked against it."},
+{"id":"c:FR:2005","status":"year list","basis":"chart","note":"Year-end chart positions, read from Wikipedia's list page and checked against it."},
+{"id":"c:FR:2006","status":"year list","basis":"chart","note":"Year-end chart positions, read from Wikipedia's list page and checked against it."}
 ]

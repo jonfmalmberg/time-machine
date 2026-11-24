@@ -15,6 +15,7 @@ import argparse, collections, json, os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NAMES = {c['name'].casefold(): c['id'] for c in json.load(open(os.path.join(ROOT, 'data', 'countries.json'), encoding='utf-8'))}
 NAMES.update({'flanders': 'BE', 'wallonia': 'BE', 'czech republic': 'CZ', 'u.s.': 'US', 'uk': 'GB', 'south korea': 'KR', 'russia': 'RU', 'turkey': 'TR'})
+NOT_ARTISTS = {'no release', 'various artists', 'various', 'compilation', 'varios', 'varios artistas', 'multi-interprètes', 'artistes variés', 'n/a', 'tba', '—', '-', 'none', 'unknown'}
 SUBSET = re.compile(r'R&B|country|rock|dance|Latin|adult|rap|hip|Christian|club|alternative|digital|airplay|streaming', re.I)
 BATCH = {'A': ['IE', 'FR', 'DE', 'IT', 'ES', 'GB'], 'B': ['CH', 'AT', 'DK', 'SE', 'NO', 'FI', 'BE', 'NL', 'PT', 'PL', 'HU', 'CZ', 'SK', 'HR', 'RO', 'SI', 'MT', 'RU', 'TR', 'GR'],
          'C': ['CA', 'MX', 'AR', 'BR', 'CL', 'CO', 'PE', 'VE', 'PA', 'AU', 'NZ', 'SG', 'MY', 'ID', 'ZA', 'NG', 'JP', 'KR', 'PH', 'IN'], 'D': ['US']}
@@ -42,6 +43,10 @@ def main():
             v = re.sub(r'["“”]\s*$', '', v).strip() if v.count('"') + v.count('“') + v.count('”') == 1 else v
             if v != r[f]: skip['(cleaned a footnote mark, kept)'] += 1; r[f] = v
         if not r['title'] or not r['artist']: skip['empty after cleaning'] += 1; continue
+        # a row that is a remark, not a song ("No charts exist for 34 weeks due to a strike.", "Various Artists", "No release")
+        af, tf = r['artist'].casefold().strip(), r['title'].casefold().strip()
+        if af in NOT_ARTISTS or tf in NOT_ARTISTS or (af.endswith('.') and len(af.split()) >= 4) or re.match(r'no (chart|release|single)', tf) or re.match(r'no (chart|release|single)', af):
+            skip['a remark or placeholder, not a song'] += 1; continue
         # The reader takes a title cell as one title. Three cases where it is not, read from the stray quote marks:
         t = r['title'].replace('“', '"').replace('”', '"')
         if re.search(r'"\s*(?:\([^)]*\)|\*)?\s*,\s*"', t):                          # a list of several titles: the page's by-artist summary table

@@ -1413,7 +1413,7 @@ function stPanelUpdate(){
 
   const pr=stPrompt(), src=eraSource(), iso=placeIso(), key=iso&&(iso+'_'+decadeKey(STY));
   if(ESS) pr.seeds=pr0.seeds;
-  document.getElementById('stsrc').innerHTML=(pr.era?`${pr.era==='year'?(chartKind(iso)?`${chartKind(iso)==='weekly top ten'?'Songs that entered the top ten':chartKind(iso)==='mixed'?'Songs from the weekly charts':'Songs that reached number one'} in ${esc(isoName(iso))}, spread across the period. Where each artist is from is not recorded yet.`:`The year's biggest hits in ${esc(isoName(iso))}, from published year-end charts.`):''}${pr.era==='year'?'':`${pr.era==='mix'?'Partly what':'What'} people in ${esc(isoName(iso))} heard then, ${PMODE==='home'?'home-grown only':'mostly home-grown'}, from ${src==='researched'?'a researched list':src==='verified'?'a list verified after an earlier trip':'<b>an AI draft, not yet verified</b>'}.`}`
+  document.getElementById('stsrc').innerHTML=(pr.era?`${pr.era==='year'?(chartKind(iso)?`${chartKind(iso)==='weekly top ten'?'Songs that entered the top ten':chartKind(iso)==='mixed'?'Songs from the weekly charts':'Songs that reached number one'} in ${esc(isoName(iso))}${PMODE==='home'?', home-grown only where the artist\'s country is recorded':''}, spread across the period.`:`The year's biggest hits in ${esc(isoName(iso))}, from published year-end charts.`):''}${pr.era==='year'?'':`${pr.era==='mix'?'Partly what':'What'} people in ${esc(isoName(iso))} heard then, ${PMODE==='home'?'home-grown only':'mostly home-grown'}, from ${src==='researched'?'a researched list':src==='verified'?'a list verified after an earlier trip':'<b>an AI draft, not yet verified</b>'}.`}`
     :(key&&drafting.has(key)?'Drafting a song list for this place and decade…':(STP?'No song list for this place and time yet: the playlist below is built from the sounds alive here.':'')))
     +(STP&&iso&&SAMPLE&&DB?` <label class="fine fillsw"><input type="checkbox" id="stfill"${FILL?' checked':''}> Fill gaps with AI drafts</label>`:'');
   const fb=document.getElementById('stfill'); if(fb) fb.onchange=()=>{ FILL=fb.checked; try{ localStorage.setItem('wmft-fill',FILL?'on':'off'); }catch(e){} stPanelUpdate(); };
@@ -1731,7 +1731,7 @@ function stLinks(pr){
 const REQS={};   // `${iso}_${decade}` -> request doc
 function researchState(){ const iso=placeIso(); if(!iso||STY<1940) return null; const L=YEARL[iso], dec=decadeKey(STY);
   const has=L&&Object.keys(L).some(y=>decadeKey(+y)===dec); if(!has) return {iso,dec,state:'none'};
-  const n=L[STY]?(L[STY].songs||[]).filter(x=>x[3]==='home'||x[3]==='charted').length:0; return {iso,dec,state:n>=6?'year':'sparse',n}; }
+  const n=L[STY]?(L[STY].songs||[]).filter(x=>x[3]==='home'||x[3]==='charted'||x[9]).length:0; return {iso,dec,state:n>=6?'year':'sparse',n}; }
 function startReqDb(){ if(!DB) return; try{ DB.collection('requests').onSnapshot(snap=>{ snap.docs.forEach(d=>{ REQS[d.id]=d.data(); }); stPanelUpdate(); },()=>{}); }catch(e){} }
 async function askResearch(){ const r=researchState(); if(!r||!DB||r.state==='year') return; const key=r.iso+'_'+r.dec;
   const doc={iso:r.iso,decade:+r.dec,year:STY,place:isoName(r.iso),kind:r.state==='none'?'new':'sparse',status:'open',at:Date.now()};
@@ -1801,7 +1801,7 @@ function dedupeSongs(L,get=x=>x[1]){ const out=[]; for(const x of L) if(!out.som
 // year-end hit lists per country and year (from published charts), for visits to a specific year
 const YEARL=DATA.yearl||{};
 // a list of weekly number ones (role 'charted', no year-end position): true when every year in view is one (decision D22)
-function chartKind(iso){ const L=YEARL[iso]; if(!L) return null; const [y0,y1]=stRange(); let k=null; for(let y=y0;y<=y1;y++){ const c=L[y]; if(!c) continue; const x=(c.songs||[]).find(s=>s[3]==='charted'&&s[8]==null); if(!x) return null; if(k&&k!==x[9]) return 'mixed'; k=x[9]||'weekly number ones'; } return k; }
+function chartKind(iso){ const L=YEARL[iso]; if(!L) return null; const [y0,y1]=stRange(); let k=null; for(let y=y0;y<=y1;y++){ const c=L[y]; if(!c) continue; if(c.basis!=='chart') return null; const x=(c.songs||[])[0]; if(!x) continue; if(x[8]!=null) return null; const kk=x[9]||'weekly number ones'; if(k&&k!==kk) return 'mixed'; k=kk; } return k; }
 function yearSeeds(mode){
   const iso=placeIso(); if(!iso||!YEARL[iso]) return null; const [y0,y1]=stRange();
   const yrs=[]; for(let y=y0;y<=y1;y++) if(YEARL[iso][y]) yrs.push(y); if(!yrs.length) return null;
@@ -1825,10 +1825,10 @@ function yearSeeds(mode){
   const foreign=songs.filter(s=>s[3]==='foreign');
   // 'charted': on that country's chart, origin of the artist not recorded (decision D22). The chart is what was heard there,
   // so "heard there" follows chart order across every song; "made there" uses only songs known to be home-grown.
-  const charted=songs.some(s=>s[3]==='charted');
-  // a list with no positions is in date order: take an even spread across it, not its first weeks
-  if(charted&&mode!=='home'){ const pos=songs.some(s=>s[8]!=null); if(pos||songs.length<=16) return songs.slice(0,16); const out=[]; for(let k=0;k<16;k++) out.push(songs[Math.floor(k*songs.length/16)]); return out; }
-  if(charted&&!mixed.length) return null;
+  // A list taken from a chart (basis 'chart', decision D22) stays in chart order: all of it for "heard there", the songs whose
+  // first-named artist is recorded as from the country for "made there" (D28). No position: an even spread across the list.
+  if(yrs.every(y=>YEARL[iso][y].basis==='chart')){ const P=mode==='home'?songs.filter(s=>s[3]==='home'):songs; if(!P.length) return null;
+    if(P.some(s=>s[8]!=null)||P.length<=16) return P.slice(0,16); const out=[]; for(let k=0;k<16;k++) out.push(P[Math.floor(k*P.length/16)]); return out; }
   if(mode==='home') return mixed.slice(0,16);
   const nf=Math.min(foreign.length,mixed.length>=6?4:Math.floor((mixed.length+foreign.length)/3));
   const out=[...mixed.slice(0,16-nf)]; foreign.slice(0,nf).forEach((f,i)=>out.splice(Math.min(out.length,2+i*3),0,f)); // foreign hits sprinkled in, not stacked at the end

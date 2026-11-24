@@ -1,12 +1,12 @@
 [
 {"id":"c:ES:1960s","status":"decade list","note":""},
-{"id":"c:ES:1961","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:ES:1962","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:ES:1963","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:ES:1964","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:ES:1965","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:ES:1966","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:ES:1967","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:ES:1968","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."},
-{"id":"c:ES:1969","status":"year list","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only."}
+{"id":"c:ES:1961","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:ES:1962","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:ES:1963","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:ES:1964","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:ES:1965","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:ES:1966","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:ES:1967","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:ES:1968","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:ES:1969","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."}
 ]

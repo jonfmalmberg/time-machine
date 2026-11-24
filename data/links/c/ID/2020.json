@@ -120,10 +120,10 @@
 {"song":"s_3evz518yj1","scope":"c:ID:2025","role":"home","rank":16,"evidence":["e_k4stq8h1as"],"scene":"indie"},
 {"song":"s_7kqgq21dna","scope":"c:ID:2025","role":"foreign","rank":17,"evidence":["e_88be9v5v3g"],"scene":"pop"},
 {"song":"s_vchkwk9w3k","scope":"c:ID:2025","role":"foreign","rank":18,"evidence":["e_88be9v5v3g"],"scene":"other"},
-{"song":"s_hj4n6a005k","scope":"c:ID:2026","role":"charted","rank":1,"evidence":["e_ba20m00g3z"],"scene":"","quote":"Sedia Aku Sebelum Hujan","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"3 January"},
-{"song":"s_wbxtds0tn9","scope":"c:ID:2026","role":"charted","rank":2,"evidence":["e_ba20m00g3z"],"scene":"","quote":"Kota Ini Tak Sama Tanpamu","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"31 January"},
-{"song":"s_f2jhxwwff4","scope":"c:ID:2026","role":"charted","rank":3,"evidence":["e_ba20m00g3z"],"scene":"","quote":"Sesi Potret","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"13 June"},
-{"song":"s_n4ejm12dc6","scope":"c:ID:2026","role":"charted","rank":4,"evidence":["e_ba20m00g3z"],"scene":"","quote":"Teh Hijau","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"5 September"},
-{"song":"s_5e9w5nhv3x","scope":"c:ID:2026","role":"charted","rank":5,"evidence":["e_ba20m00g3z"],"scene":"","quote":"Stuck","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"21 November"},
-{"song":"s_x2vf068drp","scope":"c:ID:2026","role":"charted","rank":6,"evidence":["e_ba20m00g3z"],"scene":"","quote":"Jangan Paksa Rindu (Beda)","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"30 April"}
+{"song":"s_qchkpa5axm","scope":"c:ID:2026","role":"charted","rank":1,"evidence":["e_er3b8zqpeb"],"scene":"","quote":"Sedia Aku Sebelum Hujan","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"3 January"},
+{"song":"s_rewcgwnbkq","scope":"c:ID:2026","role":"charted","rank":2,"evidence":["e_er3b8zqpeb"],"scene":"","quote":"Kota Ini Tak Sama Tanpamu","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"31 January"},
+{"song":"s_h68pnnwqwt","scope":"c:ID:2026","role":"charted","rank":3,"evidence":["e_er3b8zqpeb"],"scene":"","quote":"Sesi Potret","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"13 June"},
+{"song":"s_rg8abdzkj3","scope":"c:ID:2026","role":"charted","rank":4,"evidence":["e_er3b8zqpeb"],"scene":"","quote":"Teh Hijau","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"5 September"},
+{"song":"s_svpq0hc1zc","scope":"c:ID:2026","role":"charted","rank":5,"evidence":["e_er3b8zqpeb"],"scene":"","quote":"Stuck","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"21 November"},
+{"song":"s_xdgh5xqqf0","scope":"c:ID:2026","role":"charted","rank":6,"evidence":["e_er3b8zqpeb"],"scene":"","quote":"Jangan Paksa Rindu (Beda)","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"30 April"}
 ]
