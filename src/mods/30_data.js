@@ -182,6 +182,11 @@ function controls(){ const t=S.tab, o=S[t]; let h='';
   if(t!=='places') h+=`<label class="dchk"><input type="checkbox" id="dign"${S.ignore?' checked':''}> Ignore the site filters on this page</label>`;
   h+=`<button type="button" class="lbtn" id="dclear">Clear page options</button>`;
   $('dctl').innerHTML=h;
+  { /* filters fold away behind one button; the search field stays (decision D26) */
+    const box=$('dctl'), q=box.querySelector('.dq'), sel=[...box.querySelectorAll('select')].filter(x=>x.dataset.o!=='sort'), n=sel.filter(x=>x.selectedIndex>0).length+(S.ignore?1:0);
+    if(q&&(sel.length||box.querySelector('#dign'))){ const b=document.createElement('button'); b.type='button'; b.id='dfbtn'; b.className='lbtn dfbtn'+(n?' on':''); b.setAttribute('aria-expanded',String(!!window.DFOPEN)); b.textContent='Filters'+(n?' '+n:'');
+      b.onclick=()=>{ window.DFOPEN=!window.DFOPEN; box.classList.toggle('dopen',!!window.DFOPEN); b.setAttribute('aria-expanded',String(!!window.DFOPEN)); }; q.insertAdjacentElement('afterend',b); }
+    box.classList.toggle('dopen',!!window.DFOPEN); box.classList.toggle('dfold',!!box.querySelector('#dfbtn')); }
   root.querySelectorAll('#dtabs button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.dtab===t)));
 }
 function sorted(rows){ const t=T[S.tab], o=S[S.tab], col=t.cols.find(c=>c.k===o.sort)||t.cols[0], d=o.dir;

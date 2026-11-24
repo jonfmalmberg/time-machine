@@ -408,3 +408,54 @@ input[type=range]{accent-color:var(--accent)}
 .idst{display:flex;flex-wrap:wrap}
 
 .adleg{flex-wrap:wrap}.adleg span{white-space:nowrap}
+
+/* ---- List and Data, redone once on iOS list principles (decision D26) ---- */
+/* List: a search field, then areas as inset cards; each genre is a two-line row with a chevron */
+#view-list .lctl{gap:10px}
+#lfilter{flex:1 1 100%;width:100%;box-sizing:border-box;font:400 16px var(--body);color:var(--fg);background:var(--fill);border:0;border-radius:10px;padding:9px 12px;min-height:38px}
+#lscope{flex:1 1 100%;display:flex}#lscope button{flex:1 1 0;min-width:0;padding:7px 2px;font-size:13px}
+#lscope:not(:has(button[data-scope="one"]:not([disabled]))){display:none}
+#lcount{margin:10px 4px 12px;font-size:13px}
+#listbody{display:flex;flex-direction:column;gap:10px}
+.lgroup{border-top:0;background:var(--bg);border-radius:14px;overflow:hidden}
+.lgroup[open]{padding-bottom:4px}
+.lgroup>summary{padding:0 14px 0 16px;min-height:52px;gap:10px}
+.lgroup>summary::before{content:none}
+.lgroup>summary::after{content:"";flex:none;width:8px;height:8px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(-45deg);opacity:.6;transition:transform .15s;margin-right:4px}
+.lgroup[open]>summary::after{transform:rotate(45deg)}
+.lgroup h3{flex:1;min-width:0;font:600 17px var(--body);display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.lgroup h3 .cnt{font:400 15px var(--body);color:var(--muted);margin:0;font-variant-numeric:tabular-nums}
+.ltrad h4{font:600 12px var(--body);letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:14px 16px 4px}
+.ltrad h4 .tspan{font:400 12px var(--body);letter-spacing:0;text-transform:none;margin-left:6px}
+.gitem{border-top:0;padding:0 14px 0 16px;position:relative}
+.gitem::before{content:"";position:absolute;left:37px;right:0;top:0;border-top:.5px solid var(--sep)}
+.ltrad>.gitem:first-child::before,.ltrad>h4+.gitem::before{left:16px}
+.gitem>summary{display:grid;grid-template-columns:9px minmax(0,1fr) 10px;grid-template-areas:"dot name chev" "dot meta chev";column-gap:12px;row-gap:1px;align-items:center;min-height:52px;padding:6px 0}
+.gitem>summary i{grid-area:dot;align-self:center}
+.gitem>summary .gname{grid-area:name;font:500 16px var(--body);align-self:end;overflow:hidden;text-overflow:ellipsis}
+.gitem>summary .gmeta{grid-area:meta;font:400 13px var(--body);align-self:start;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.gitem>summary>:not(i):not(.gname):not(.gmeta){grid-column:2;justify-self:start}
+.gitem>summary::after{content:"";grid-area:chev;width:7px;height:7px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(-45deg);opacity:.5;transition:transform .15s}
+.gitem[open]>summary::after{transform:rotate(45deg)}
+.gitem[open]>summary .gname{font-weight:600}
+.gbody{padding:2px 0 14px 21px;gap:10px}
+.gbody .gsound{font-size:15px;line-height:1.45}
+.gitem.fgon{border-radius:0;box-shadow:inset 3px 0 0 var(--accent)} .gitem.fgon>summary{padding-left:0} .gitem.fgon>.gbody{padding-left:21px;padding-right:0}
+@media (max-width:699px){ #lexpand,#lcollapse{display:none} }
+/* Data: one row of tabs, a search field, filters behind one button, results as an inset list */
+#dtabs{display:flex;flex:1 1 100%}#dtabs button{flex:1 1 0;min-width:0;padding:7px 2px;font-size:13px}
+.dhead #dcsv{margin-left:auto;background:none;padding:2px 0;min-height:0;font-size:13px}
+.dctl.dfold{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center;font-size:15px;color:var(--fg)}
+.dctl .dq{width:100%;box-sizing:border-box;font:400 16px var(--body);background:var(--fill);border:0;border-radius:10px;padding:9px 12px;min-height:38px}
+.dfbtn.on{background:var(--accent);color:#fff}
+.dctl.dfold>.seg{grid-column:1/-1;display:flex}.dctl.dfold>.seg button{flex:1 1 0;min-width:0;font-size:13px;padding:7px 2px}
+.dctl.dfold>label,.dctl.dfold>#ddir,.dctl.dfold>#dclear{grid-column:1/-1}
+.dctl.dfold:not(.dopen)>label,.dctl.dfold:not(.dopen)>#ddir,.dctl.dfold:not(.dopen)>#dclear{display:none}
+.dctl.dfold>label:not(.dchk){display:grid;grid-template-columns:96px minmax(0,1fr);align-items:center;gap:10px;background:var(--bg);border-radius:10px;padding:4px 6px 4px 12px;min-height:40px;max-width:none}
+.dctl.dfold>label select{max-width:none;width:100%;border:0;background:none;font-size:15px;text-align:right;color:var(--accent);padding:6px 2px}
+.dctl.dfold>.dchk{background:var(--bg);border-radius:10px;padding:10px 12px;min-height:40px;box-sizing:border-box}
+.dctl.dfold>#ddir,.dctl.dfold>#dclear{justify-self:start}
+.dcount{margin:12px 4px 8px;color:var(--muted)}
+.dwrap{border:0;border-radius:14px;background:var(--bg)}
+#dctl.dfold:not(.dopen)>label,#dctl.dfold:not(.dopen)>#ddir,#dctl.dfold:not(.dopen)>#dclear{display:none}
+#dtabs button{font-size:12.5px;padding:7px 0;letter-spacing:-.01em;overflow:hidden;text-overflow:ellipsis}
