@@ -25,8 +25,25 @@ document.getElementById('helpbtn').addEventListener('click',()=>{ const v=curVie
 /* random */
 rp.innerHTML=[['rollany','shuffle','Random genre','Within the current filters'],['rollnew','note','A genre I have not heard','Skips what you already heard'],['rolltp','bolt','Teleport','A random place and moment'],['rolltpnew','pin','Somewhere new','A place and time you have not been']].map(([id,i,l,d])=>row(`data-go="${id}"`,ic(i),l,d)).join('');
 document.getElementById('mrandb').addEventListener('click',()=>UI.sheet.open('rand'));
-rp.addEventListener('click',e=>{ const b=e.target.closest('[data-go]'); if(!b) return; const id=b.dataset.go, trav=['tree','map','tunnel'].includes(curView()); UI.sheet.close('rand');
-  if((id==='rolltp'||id==='rolltpnew')&&!trav){ location.hash='map'; setTimeout(()=>document.getElementById(id).click(),350); } else document.getElementById(id).click(); });
+/* A pick is one tap from the menu; another of the same kind is one tap on "Shuffle again", which stays for half a minute after each pick.
+   Each pick is logged with its place in the run of shuffles, so the log shows how many it takes before someone settles (roadmap 1.1, 1.2). */
+const RK={rollany:'Random genre',rollnew:'Not heard yet',rolltp:'Teleport',rolltpnew:'Somewhere new'};
+let rlast=null, rseq=0, rat=0, rhide=0;
+const rs=document.createElement('div'); rs.className='reshuf'; rs.hidden=true;
+rs.innerHTML=`<button type="button" class="lbtn primary" id="reshuf">${ic('shuffle')}<span>Shuffle again</span></button><button type="button" class="sheet-x" id="reshufx" aria-label="Dismiss">${ic('x')}</button>`;
+document.body.appendChild(rs);
+function rplace(){ const c=document.getElementById('content'); if(c) rs.style.top=Math.round(c.getBoundingClientRect().top+8)+'px'; }
+function rshow(){ rplace(); rs.hidden=false; clearTimeout(rhide); rhide=setTimeout(()=>{ rs.hidden=true; },30000); }
+function rpick(id){ const trav=['tree','map','tunnel'].includes(curView()), now=Date.now(); rseq=(rlast===id&&now-rat<90000)?rseq+1:1; rlast=id; rat=now;
+  const done=()=>{ if(typeof rolling!=='undefined'&&rolling){ setTimeout(done,100); return; }      // the genre pick lands after its short dice roll
+    try{ const tp=id==='rolltp'||id==='rolltpnew';
+      if(window.TRACK) window.TRACK('random',{kind:id,n:rseq,to:tp?((window.PLKEY&&STP?window.PLKEY(STP):null)):(selected||null),y:tp?STY:undefined}); }catch(e){} rshow(); };
+  const go=()=>{ document.getElementById(id).click(); setTimeout(done,120); };
+  if((id==='rolltp'||id==='rolltpnew')&&!trav){ location.hash='map'; setTimeout(go,350); } else go(); }
+rp.addEventListener('click',e=>{ const b=e.target.closest('[data-go]'); if(!b) return; UI.sheet.close('rand'); rpick(b.dataset.go); });
+document.getElementById('reshuf').addEventListener('click',()=>{ if(rlast) rpick(rlast); });
+document.getElementById('reshufx').addEventListener('click',()=>{ rs.hidden=true; clearTimeout(rhide); });
+addEventListener('resize',()=>{ if(!rs.hidden) rplace(); });
 /* search */
 let ART=null;
 function artists(){ if(ART) return ART; const m=new Map(), add=a=>{ const k=norm(a); if(!k) return; let o=m.get(k); if(!o){ o={name:a,n:0}; m.set(k,o); } o.n++; };

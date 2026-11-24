@@ -119,10 +119,11 @@ function millerTex(){ // the texture re-projected once to Miller, so the flat ma
     for(let x=0;x<w4;x++) O[o+x]=S[a+x]+(S[b+x]-S[a+x])*f; }
   g.putImageData(im,0,0); return T.miller=c;
 }
-const SPACE='#04070d';
+// what lies around the globe and beyond the edge of the flat map: space in the dark theme, the page's own ground in the light theme
+const space=()=>(css('--space')||'').trim()||'#04070d', lightSpace=()=>{ const m=/^#([0-9a-f]{6})$/i.exec(space()); if(!m) return false; const n=parseInt(m[1],16); return (.299*(n>>16)+.587*((n>>8)&255)+.114*(n&255))>140; };
 function renderFlat(bg,dpr){
   const W=bg.width, H=bg.height, g=bg.getContext('2d'), m=millerTex(), s=base()*MV.k*dpr;
-  g.setTransform(1,0,0,1,0,0); g.fillStyle=SPACE; g.fillRect(0,0,W,H);
+  g.setTransform(1,0,0,1,0,0); g.fillStyle=space(); g.fillRect(0,0,W,H);
   const x0=W/2+(-Math.PI-MV.cx)*s, wpx=2*Math.PI*s, y0=H/2-(YMAX-MV.cy)*s, hpx=2*YMAX*s;
   const u0=Math.max(0,(0-x0)/wpx), u1=Math.min(1,(W-x0)/wpx), v0=Math.max(0,(0-y0)/hpx), v1=Math.min(1,(H-y0)/hpx); if(u1<=u0||v1<=v0) return;
   g.imageSmoothingEnabled=true; g.imageSmoothingQuality='high';
@@ -130,8 +131,8 @@ function renderFlat(bg,dpr){
 }
 function renderGlobe(bg,dpr,budget){
   const W=bg.width, H=bg.height, g=bg.getContext('2d'), R=gR()*dpr, cx=W/2, cy=H/2;
-  g.setTransform(1,0,0,1,0,0); g.fillStyle=SPACE; g.fillRect(0,0,W,H);
-  const glow=g.createRadialGradient(cx,cy,R*.985,cx,cy,R*1.075); glow.addColorStop(0,'rgba(120,180,255,.75)'); glow.addColorStop(.35,'rgba(90,150,255,.28)'); glow.addColorStop(1,'rgba(60,120,255,0)');
+  g.setTransform(1,0,0,1,0,0); g.fillStyle=space(); g.fillRect(0,0,W,H);
+  const glow=g.createRadialGradient(cx,cy,R*.985,cx,cy,R*1.075); if(lightSpace()){ glow.addColorStop(0,'rgba(70,130,220,.55)'); glow.addColorStop(.3,'rgba(90,150,235,.2)'); glow.addColorStop(1,'rgba(120,170,245,0)'); } else { glow.addColorStop(0,'rgba(120,180,255,.75)'); glow.addColorStop(.35,'rgba(90,150,255,.28)'); glow.addColorStop(1,'rgba(60,120,255,0)'); }
   g.fillStyle=glow; g.beginPath(); g.arc(cx,cy,R*1.075,0,Math.PI*2); g.fill();
   const bx0=Math.max(0,Math.floor(cx-R-1)), bx1=Math.min(W,Math.ceil(cx+R+1)), by0=Math.max(0,Math.floor(cy-R-1)), by1=Math.min(H,Math.ceil(cy+R+1));
   const bw=bx1-bx0, bh=by1-by0; if(bw<=0||bh<=0) return 1;
@@ -163,7 +164,7 @@ const LOW_BUDGET=110000, FULL_BUDGET=1800000;
 function ensureBg(cv){
   const W=cv.width, H=cv.height, dpr=W/MW, flat=MV.proj==='flat';
   if(!S.bg||S.bg.width!==W||S.bg.height!==H){ S.bg=mk(W,H); S.key=null; }
-  const key=[T.id,W,H,MV.proj].concat(flat?[MV.cx,MV.cy,MV.k]:[MV.glon,MV.glat,MV.gk]).join('|');
+  const key=[T.id,W,H,MV.proj,space()].concat(flat?[MV.cx,MV.cy,MV.k]:[MV.glon,MV.glat,MV.gk]).join('|');
   if(key===S.key&&!(S.q==='low'&&S.wantFull)) return;
   const t0=performance.now();
   if(flat){ renderFlat(S.bg,dpr); S.q='full'; S.stats.flat++; }

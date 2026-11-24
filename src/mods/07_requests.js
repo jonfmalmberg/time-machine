@@ -83,12 +83,28 @@ function status(r){ const s=SENT[r.kind+'|'+r.key], asked=s&&s.status==='open';
   if(r.kind==='listener'){ if(r.t) return s&&s.rerun&&asked?['info','Rerun requested']:r.t.result==='pass'?['ok','Passed']:['warn','Below standard'];
     return asked?['info','Requested']:s&&s.status==='done'?['ok','Tested']:s&&s.status==='declined'?['none','Declined']:['none','Not tested']; }
   if(r.none) return ['none','Not available'];
-  if(r.group) return r.n?(r.items.length<r.ctx.D.length?['warn','Partly researched']:['none','Not researched']):r.asked?['info','Requested']:['ok','Researched'];
-  if(r.done) return s&&s.rerun&&asked?['info','Rerun requested']:['ok','Researched'];
-  if(asked) return ['info','Requested']; if(s&&s.status==='done') return ['ok','Researched']; if(s&&s.status==='declined') return ['none','Declined'];
-  if(r.btn) return ['warn','Thin'];
-  const c=r.ctx||{}; if(c.mode==='moment'&&c.D&&c.D.length===1&&(ERA[c.iso]||{})[String(c.D[0].dec)]) return ['warn','Decade list only'];
+  if(r.group) return r.n?(r.items.length<r.ctx.D.length?['plain','Partly researched']:['none','Not researched']):r.asked?['info','Requested']:['plain','Researched'];
+  if(r.done) return s&&s.rerun&&asked?['info','Rerun requested']:['plain','Researched'];
+  if(asked) return ['info','Requested']; if(s&&s.status==='done') return ['plain','Researched']; if(s&&s.status==='declined') return ['none','Declined'];
+  if(r.btn) return ['plain','Thin'];
+  const c=r.ctx||{}; if(c.mode==='moment'&&c.D&&c.D.length===1&&(ERA[c.iso]||{})[String(c.D[0].dec)]) return ['plain','Decade list only'];
   return ['none','Not researched']; }
+/* Verification. The owner's rule is that nothing unverified is shown as sourced. DATA.verified holds, per scope, how many
+   song links it has and how many of them the evidence-check script found on the page cited for them (built by
+   tools/legacy_data.py). A genre row reads its genre; a place-and-time row adds up the decades in view. A list with every
+   song checked is Verified, one with some is Partly verified, one with none (every list collected before claims were
+   checked one by one) stays Unverified. */
+const VER=DATA.verified||{g:{},c:{}};
+function share(r){ const c=r.ctx||{};
+  if(c.mode==='genre') return (VER.g||{})[c.id]||null;
+  if(c.mode==='moment'&&c.iso){ const C=(VER.c||{})[c.iso]||{}; let links=0, checked=0;
+    (c.D||[]).forEach(d=>{ const v=C[String(d.dec)]; if(v){ links+=v.links; checked+=v.checked; } }); return {links,checked}; }
+  return null; }
+const hasList=r=>r.kind==='research'&&!r.none&&(r.done||!!r.btn||(r.group&&r.items.length<r.ctx.D.length)||status(r)[1]==='Decade list only');
+const verif=r=>{ if(!hasList(r)) return null; const v=share(r);
+  if(v&&v.links&&v.checked===v.links) return ['ok','Sources checked'];
+  if(v&&v.checked) return ['warn','Sources partly checked'];
+  return ['warn','Sources not checked']; };
 // the short line under the title: what the row is about
 function where(r){ const c=r.ctx||{};
   if(r.kind==='listener') return c.mode==='genre'?(c.noList?'No playlist to test yet':'This playlist'):`${c.cn}, ${c.when}`;
@@ -117,10 +133,14 @@ function researchCard(r){ const c=r.ctx, st=status(r); let means, std, have='';
   else{ const D=c.D, L=YEARL[c.iso]||{}, E=(ERA[c.iso]||{});
     means=`For each year, the songs people in ${esc(c.cn)} actually heard: that year's hits from published charts and the press of the time, home-grown and foreign, each with its source.`;
     std='A year counts as researched with 6 or more home-grown songs backed by a source. Before that, a decade has one shared list. Deeper levels, sized to how many hits a country had, are planned.';
-    have='<div class="scl">'+D.map(d=>{ const asked=SENT['research|'+c.iso+'_'+d.dec+'_new']; const p=d.has?pill('ok','By year'):asked?pill('info','Requested'):E[String(d.dec)]?pill('warn','Decade list'):pill('none','Nothing');
+    have='<div class="scl">'+D.map(d=>{ const asked=SENT['research|'+c.iso+'_'+d.dec+'_new']; const p=d.has?pill('plain','By year'):asked?pill('info','Requested'):E[String(d.dec)]?pill('plain','Decade list'):pill('none','Nothing');
       return `<div class="scr"><span class="scy">${d.dec}s</span>${p}</div>`; }).join('')+'</div>';
     if(c.year!=null&&L[c.year]){ const n=(L[c.year].songs||[]).filter(x=>x[3]==='home').length; have+=`<p class="fine">${c.year}: ${n} home-grown song${n===1?'':'s'} with a source.</p>`; } }
-  return `<div class="cardst">${pill(st[0],st[1])}<span class="fine">${r.none?'':esc(where(r))}</span></div>`+sec('What research means here',means)+sec('The standard',std)+sec('What exists',have); }
+  const v=verif(r);
+  return `<div class="cardst">${pill(st[0],st[1])}${v?pill(v[0],v[1]):''}<span class="fine">${r.none?'':esc(where(r))}</span></div>`+sec('What research means here',means)+sec('The standard',std)+sec('What exists',have)
+    +sec('Verification',!v?'':v[1]==='Sources checked'?'<b>Sources checked.</b> Every song in this list was found on the page cited for it, by a script. That shows the song exists and the source names it. It does not show that the year is the first release, that the song is typical, or that the source is right.'
+      :v[1]==='Sources partly checked'?(x=>`<b>${x.checked} of ${x.links} songs checked against their source.</b> Each of those was found on the page cited for it, by a script. The others were collected before songs were checked one by one; treat them as a draft.`)(share(r))
+      :'<b>Sources not checked yet.</b> These songs were collected before each one was checked against its source. Some may be wrong: a song that was not a hit there, a wrong year, a wrong artist. Each list is being checked song by song; until this one is, treat it as a draft.'); }
 function openCard(i){ const r=ROWS[i]; if(!r||!window.UI||!UI.detail) return; UI.detail(r.title,r.kind==='listener'?listenerCard(r):researchCard(r)); }
 
 function render(){ const box=$('ststatus'); if(!box||$('stpanel').hidden) return;
@@ -133,7 +153,7 @@ function render(){ const box=$('ststatus'); if(!box||$('stpanel').hidden) return
     else if(!s) right=btn(r.btn||'Request');
     else if(s.status!=='open') right=own?btn('Rerun',1):'';
     const m=MSG[r.kind];
-    return `<div class="rq" data-kind="${r.kind}"><button class="rqm" type="button" data-card="${i}"><b>${r.title}</b>${pill(st[0],st[1])}<small>${esc(where(r))}${m?` <span class="reqerr">${esc(m)}</span>`:''}</small></button><div class="rqr">${right||`<span class="rchev" aria-hidden="true">${window.UI?UI.ic('chev'):''}</span>`}</div></div>`; }).join('')+'</div>'; }
+    return `<div class="rq" data-kind="${r.kind}"><button class="rqm" type="button" data-card="${i}"><b>${r.title}</b><span class="stps">${pill(st[0],st[1])}${(v=>v?pill(v[0],v[1]):'')(verif(r))}</span><small>${esc(where(r))}${m?` <span class="reqerr">${esc(m)}</span>`:''}</small></button><div class="rqr">${right||`<span class="rchev" aria-hidden="true">${window.UI?UI.ic('chev'):''}</span>`}</div></div>`; }).join('')+'</div>'; }
 async function act(r,rerun){ if(busy||r.none) return; busy=true; render(); const k=r.kind+'|'+r.key;
   if(r.group){ const res=r.items.length?await sendMany(r.kind,r.items):{ok:true}; MSG[r.kind]=res.ok?'':res.msg; busy=false; render(); return; }
   const res=await send(r.kind,r.key,rerun?Object.assign({},r.ref,{rerun:true}):r.ref); let msg=res.ok?'':res.msg;

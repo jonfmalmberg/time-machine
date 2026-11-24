@@ -1,16 +1,22 @@
 """Rebuild the page's DATA object, in the shape the page read on 23 November 2026, from the new data model.
 
-The page (src/) still reads the old shape: 29 keys such as `nodes`, `playlists`, `era`. This module
-produces exactly that object from the files of docs/proposals/2026-11-23-schema.md, including the
-order of every key and list item, so the built page is byte-identical to the one built from the old
-files. Orders the new model does not determine come from data/legacy-order.json.
+The page (src/) still reads the old shape: keys such as `nodes`, `playlists`, `era`. This module
+produces that object from the files of docs/proposals/2026-11-23-schema.md, including the order of
+every key and list item, so the built page was byte-identical to the one built from the old files.
+Orders the new model does not determine come from data/legacy-order.json; ids not listed there
+(genres researched since) follow in their own order.
+
+One key is new, not old: `verified`, what the evidence check found per scope, so the page can say
+which lists are verified. {g: {genre: {links, checked}}, c: {ISO: {decade: {links, checked}}}}:
+`links` counts song links, `checked` those with at least one evidence record whose check found its
+string on its page. A country's decade sums its decade list and its year lists.
 
 It exists only for the move. Delete it, and data/legacy-order.json, when the page reads the new shape.
 """
 import glob, json, os
 
 # Order of the keys in the page's DATA object.
-KEYS = ['tests', 'era', 'yearl', 'ysrc', 'langs', 'isoLang', 'cityLang', 'st', 'cnt', 'iso',
+KEYS = ['tests', 'verified', 'era', 'yearl', 'ysrc', 'langs', 'isoLang', 'cityLang', 'st', 'cnt', 'iso',
         'neAlias', 'cities', 'regions', 'bands', 'nodes', 'layout', 'scores',
         'playlists', 'known', 'done', 'indoc', 'edges', 'tier', 'trad', 'tradOf',
         'ends', 'defs', 'notes', 'method']
@@ -124,9 +130,29 @@ def legacy_data(data_dir):
                 rows.append(list(pair(l)) + [year(l), l['role'], l['rank'], src_index[e], l.get('source_address', ''), l['scene']])
             yearl[iso][sid.split(':')[2]] = {'songs': rows, 'note': cscope[iso][sid].get('note', '')}
     for e in sorted(evidence):
-        if e not in src_index:
+        # The old source list also held sources no year list pointed at. Evidence that came in through the
+        # master-table step (it carries `check`) belongs to genre links and definitions, not to this list.
+        if e not in src_index and 'check' not in evidence[e]:
             src_index[e] = len(ysrc)
             ysrc.append([evidence[e]['title'], evidence[e]['url']])
+
+    # ---- verification: per scope, how many song links have evidence the check script found ----
+    def tally(links):
+        L = [l for l in links if 'song' in l]
+        ok = sum(1 for l in L if any((evidence.get(e, {}).get('check') or {}).get('result') == 'found'
+                                     for e in l.get('evidence', [])))
+        return {'links': len(L), 'checked': ok}
+    verified = {'g': {g: tally(glinks.get(g, [])) for g in _ordered(lo['playlists'], [g for g in gid if g in gscope])},
+                'c': {}}
+    for iso_ in sorted(cscope):        # by country and decade, as ERA and YEARL are read: '1980' holds 1980s and 1980..1989
+        by_dec = {}
+        for sid in cscope[iso_]:
+            y = sid.split(':')[2]
+            dec = y[:-1] if y.endswith('s') else str(int(y) // 10 * 10)
+            t = tally(clinks.get(sid, []))
+            v = by_dec.setdefault(dec, {'links': 0, 'checked': 0})
+            v['links'] += t['links']; v['checked'] += t['checked']
+        verified['c'][iso_] = {d: by_dec[d] for d in sorted(by_dec)}
 
     # ---- places ----
     countries = _load(os.path.join(D, 'countries.json'))
@@ -206,7 +232,7 @@ def legacy_data(data_dir):
         return _load(os.path.join(D, name + '.json'))
 
     data = {
-        'tests': tests, 'era': era, 'yearl': yearl, 'ysrc': ysrc, 'langs': plain('langs'), 'isoLang': isoLang,
+        'tests': tests, 'verified': verified, 'era': era, 'yearl': yearl, 'ysrc': ysrc, 'langs': plain('langs'), 'isoLang': isoLang,
         'cityLang': cityLang, 'st': st, 'cnt': cnt, 'iso': iso, 'neAlias': neAlias, 'cities': city_list,
         'regions': regions, 'bands': bands, 'nodes': nodes, 'layout': layout, 'scores': scores,
         'playlists': playlists, 'known': plain('known'), 'done': plain('done'), 'indoc': plain('indoc'),

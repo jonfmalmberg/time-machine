@@ -96,19 +96,27 @@ with sync_playwright() as pw:
     assert [e for e in anon if e['action'] == 'filter'][0]['ref']['pl'] == 'cty:JP'
     assert all(set(e) == {'session', 'action', 'ref'} for e in anon), 'unexpected fields in anonymous events'
     p.click('#whobtn'); p.wait_for_timeout(300); assert p.evaluate("curView()") != 'me', 'second tap on the account button did not go back'
+    # Random: after a pick, "Shuffle again" repeats the same kind in one tap, and each pick is logged with its place in the run
+    p.click('#tab-tree'); p.wait_for_timeout(300); p.click('#mrandb'); p.wait_for_timeout(400); p.click("#mrand [data-go='rollany']"); p.wait_for_selector('#reshuf', state='visible', timeout=8000)
+    for _ in range(2):
+        p.click('#reshuf'); p.wait_for_timeout(300); p.wait_for_function('!rolling', timeout=8000); p.wait_for_timeout(400)
+    p.evaluate("window.TRACKFLUSH()"); p.wait_for_timeout(300)
+    rnd = [e['ref'] for e in anon if e['action'] == 'random']
+    assert [r['n'] for r in rnd] == [1, 2, 3] and all(r['kind'] == 'rollany' and r['to'] for r in rnd), rnd
+    shot(p, 'reshuffle_phone'); p.click('#reshufx'); p.wait_for_timeout(200); assert not p.is_visible('#reshuf')
     # requests without an account: a listener test of the prompt on screen, and research for an unresearched decade
     p.click('#tab-map'); p.wait_for_timeout(300)
     p.evaluate("resetFilters('all'); setYear(1985); setStay(0); setPlace({k:'cty',iso:'JP'}); stPanelOpen=true; stBarUI(); stPanelUpdate()"); p.wait_for_timeout(400)
     # Japan 1985 has year lists and a recorded listener test: both rows say so and offer no button to a visitor
     st = p.inner_text('#ststatus')
-    assert 'Researched' in st and 'Passed' in st and 'Japan, 1980s' in st, st
+    assert 'Researched' in st and 'Sources not checked' in st and 'Passed' in st and 'Japan, 1980s' in st, st
     assert p.locator('#ststatus button[data-rqi]').count() == 0, 'a visitor is offered a rerun'
     # tapping a row opens a card that explains the result without prior context
     p.click('.rq[data-kind="listener"] .rqm'); p.wait_for_timeout(500); card = p.inner_text('#sheet-detail')
     assert 'Passed' in card and 'music of my youth' in card and '8 out of 10' in card and 'simulated' in card and card.count('meets it') == 3, card
     shot(p, 'card_listener_pass_phone'); p.evaluate('UI.sheet.close()'); p.wait_for_timeout(350)
     p.click('.rq[data-kind="research"] .rqm'); p.wait_for_timeout(500); card = p.inner_text('#sheet-detail')
-    assert 'Researched' in card and 'By year' in card and '6 or more home-grown' in card, card
+    assert 'Researched' in card and 'By year' in card and '6 or more home-grown' in card and 'Sources not checked yet' in card, card
     shot(p, 'card_research_phone'); p.evaluate('UI.sheet.close()'); p.wait_for_timeout(350)
     # Japan 2015: decade list only, never tested: both buttons
     p.evaluate("setYear(2015); stPanelUpdate()"); p.wait_for_timeout(400)
@@ -150,6 +158,19 @@ with sync_playwright() as pw:
     p.evaluate("document.getElementById('sttest').click()"); p.wait_for_timeout(400)
     assert reqs[-1]['req_kind'] == 'listener' and reqs[-1]['req_key'].startswith('g:' + full + '|') and reqs[-1]['req_ref']['gid'] == full, reqs[-1]
     shot(p, 'genre_playlist_phone')
+    # a genre that came in through the master-table step (tools/ingest.py): every song checked, so Verified
+    ing = 'jota'
+    p.evaluate("openGenrePlaylist(%r)" % ing); p.wait_for_timeout(400)
+    assert p.is_visible('#stprompt') and p.input_value('#stprompt') == p.evaluate("promptFor(%r)" % ing) and p.locator('#stlinks ol li').count() > 3
+    st = p.inner_text('.rq[data-kind="research"]')
+    assert ('Researched' in st or 'Thin' in st) and 'Sources checked' in st and 'not checked' not in st and 'partly' not in st, st
+    assert p.evaluate("DATA.verified.g[%r].checked===DATA.verified.g[%r].links&&DATA.verified.g[%r].links>0" % (ing, ing, ing))
+    shot(p, 'genre_verified_phone')
+    p.click('.rq[data-kind="research"] .rqm'); p.wait_for_timeout(500); card = p.inner_text('#sheet-detail')
+    assert 'Sources checked' in card and 'found on the page cited for it' in card and 'not checked yet' not in card, card
+    shot(p, 'card_genre_verified_phone'); p.evaluate('UI.sheet.close()'); p.wait_for_timeout(350)
+    p.evaluate("openGenrePlaylist('swing')"); p.wait_for_timeout(400)
+    st = p.inner_text('.rq[data-kind="research"]'); assert 'Sources not checked' in st, st
     p.evaluate("openGenrePlaylist(%r)" % pend); p.wait_for_timeout(400)
     assert not p.is_visible('#stprompt') and not p.is_visible('#stcopy') and p.locator('#sttest').count() == 1 and p.locator('#streq').count() == 1, 'pending genre lacks a button'
     p.evaluate("document.getElementById('streq').click()"); p.wait_for_timeout(400)

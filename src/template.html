@@ -266,6 +266,7 @@ img.cv{width:100%;height:100%;object-fit:cover;display:block}
 <symbol id="i-exit" viewBox="0 0 24 24"><path d="M13.500 4.500H17a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2h-3.500M10 8l-4 4 4 4M6 12h9"/></symbol>
 <symbol id="i-chev" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
 <symbol id="i-ticket" viewBox="0 0 24 24"><path d="M3.500 8a2 2 0 0 1 2-2h13a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4zM14 6v12"/></symbol>
+<symbol id="i-share" viewBox="0 0 24 24"><path d="M12 15V3.500M8 7l4-4 4 4M7.500 10.500H6a2 2 0 0 0-2 2V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-6.500a2 2 0 0 0-2-2h-1.500"/></symbol>
 <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 3L5 14h6l-1 7 8-11h-6z"/></symbol>
 </defs></svg>
 <div id="app" class="app wrap" data-view="tree">
@@ -273,6 +274,7 @@ img.cv{width:100%;height:100%;object-fit:cover;display:block}
   <h1 id="vtitle">Family tree</h1>
   <div class="tb-actions">
     <button type="button" class="ib" id="helpbtn" aria-label="About this view"><svg class="ic" aria-hidden="true"><use href="#i-info"/></svg></button>
+    <button type="button" class="ib" id="shareb" aria-label="Share this view"><svg class="ic" aria-hidden="true"><use href="#i-share"/></svg></button>
     <button type="button" class="ib" id="msearchb" aria-label="Search"><svg class="ic" aria-hidden="true"><use href="#i-search"/></svg></button>
     <button type="button" class="ib" id="mrandb" aria-label="Random"><svg class="ic" aria-hidden="true"><use href="#i-shuffle"/></svg></button>
     <button type="button" class="avatar" id="whobtn" aria-haspopup="dialog" aria-label="Account"></button>
@@ -311,7 +313,7 @@ img.cv{width:100%;height:100%;object-fit:cover;display:block}
     <p class="fine" id="stgnote" hidden></p>
     <p class="label" id="stplabel">Copy-ready Spotify prompt <span class="mono" id="stlen"></span> <span id="stpmode"></span> <span id="stplang"></span></p><p class="fine" id="stsrc"></p>
     <textarea id="stprompt" readonly rows="6"></textarea>
-    <div class="strow"><button class="lbtn" id="stcopy" type="button">Copy prompt</button></div>
+    <div class="strow"><button class="lbtn" id="stcopy" type="button">Copy prompt</button><button class="lbtn" id="stlink" type="button">Copy link</button></div>
     <div id="ststatus"></div>
     <div id="stlinks"></div>
   </div>
@@ -1150,7 +1152,7 @@ function stCompute(){
   if(STP||FG||FTM==='made') [...STV.keys()].forEach(id=>ANC[id].forEach(p=>{ if(!STV.has(p)&&byId[p].year<=y) STV.set(p,{h:Math.min(.3,heatAt(p,y)),anc:true}); }));
 }
 // in the chosen branch of the family tree: a sound family (band), a tradition, or a movement and everything descended from it
-function fMember(id,G=FG){ if(!G) return true; if(G.k==='multi') return G.items.some(x=>fMember(id,x)); const n=byId[id]; return G.k==='band'?n.band===G.id:G.k==='trad'?TRAD_OF[id]===G.id:(id===G.id||ANC[id].includes(G.id)); }
+function fMember(id,G=FG){ if(!G) return true; if(G.k==='multi') return G.items.some(x=>fMember(id,x)); const n=byId[id]; return G.k==='band'?n.band===G.id:G.k==='trad'?TRAD_OF[id]===G.id:(id===G.id||ANC[id].has(G.id)); }
 // made in the chosen place: born in that region, country, or within reach of that city or area
 function placeMade(id,p=STP){ if(!p) return true; if(p.k==='multi') return p.items.some(q=>placeMade(id,q)); const n=byId[id]; if(p.k==='reg') return n.reg===p.reg;
   if(p.k==='cty'){ const c=CNT[id]; return !!(c&&c[0])&&c[0]===p.iso; }

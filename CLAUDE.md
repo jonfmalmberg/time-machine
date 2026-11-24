@@ -7,7 +7,8 @@ Read this before changing anything. The owner is Jon (GitHub `jonfmalmberg`).
 2. `docs/PRINCIPLES.md`: how to judge a choice when no rule covers it.
 3. `docs/ARCHITECTURE.md`: how the site is built and why, written for the owner. Update it in the same change as any work that alters the data model, the database, the tests or how the parts fit.
 4. `docs/ROADMAP.md`: the plan and its order. GitHub milestones and issues track the same items; keep the two in step.
-5. `docs/WORKLOG.md`: add an entry at the end of every session (what was done, what was decided and why, what is untested).
+5. `docs/DECISIONS.md`: the lead's standing choices with their reasons and what is not known. Add an entry whenever a choice is made that later work depends on (a rule, an ordering, a grouping, a method). If you cannot say why something is the way it is, find out or record that it is not known.
+6. `docs/WORKLOG.md`: add an entry at the end of every session (what was done, what was decided and why, what is untested).
 The app only succeeds if it feels good to use. Rules here are a floor; the vision record is the intent.
 
 ## Run, build, test (all local, no Cloudflare build used)
@@ -16,6 +17,7 @@ The app only succeeds if it feels good to use. Rules here are a floor; the visio
 - `python3 tests/smoke.py` and `python3 tests/account.py` need Python Playwright with Chromium.
 - `python3 tests/data.py` checks the music data against the data model's rules (standard library only).
 - `python3 tests/layout.py` checks the stored tree layout with the layout method (`tools/layout/optimise.py`; standard library only).
+- `python3 tests/links.py` checks shareable links: opening an address puts the app in its state, the address follows the state, Copy link (Python Playwright with Chromium).
 - `bash db/test.sh` checks the database access rules on a throwaway local Postgres.
 - `python3 tests/evidence.py` checks the evidence-check script against pages the owner has looked at himself. It needs web access; run it after any change to `tools/check_evidence.py`.
 - All tests must pass before anything is pushed.
@@ -29,6 +31,12 @@ The app only succeeds if it feels good to use. Rules here are a floor; the visio
 ## Cloudflare builds are a limited free allowance
 - Every push to GitHub builds. Work and test locally; push a feature branch only when there is something for the owner to review, once per review round.
 - Batch data updates (`data/`) into one push.
+- One demo per review round: everything waiting for the owner goes on the single branch `review` (made from `dev`), pushed once. Not one branch and one build per feature.
+
+## Reporting to the owner
+- Write to the owner as to a manager: the outcome, what needs his decision, what is blocked. No account of each run, rerun or count unless it changes a decision.
+- Open questions are kept in one numbered list and re-presented whole until answered.
+- When a piece of work keeps failing or stops paying for its cost, the lead decides to put it on hold and moves on, and says so in one line. Do not rerun what has already agreed.
 
 ## Database (Supabase)
 - Two projects: dev and prod. Addresses and public keys are in `src/mods/04_config.js`. The prod address uses prod; every other address, including localhost, uses dev.
@@ -49,6 +57,7 @@ The app only succeeds if it feels good to use. Rules here are a floor; the visio
 
 ## Code layout
 - `src/template.html`: markup, core styles, core script. `src/mods/NN_name.js|css`: feature modules, joined in file-name order; each script module runs in its own function and reaches the page's top-level names directly.
+- `src/worker/`: the only Worker code. It runs for the page address alone and writes a shared view's description into the title and link-preview tags (`title.js` is shared with the page). `src/static/`: the icon and the preview image, copied to `dist/`.
 - `data/`: the music data in the model described in `docs/proposals/2026-11-23-schema.md` and `docs/ARCHITECTURE.md`. Songs, artists and evidence are central files with standalone keys; `data/scopes/` holds research state and `data/links/` says which songs belong to which genre or country-year. One record per line. Only the lead's master-table step adds songs, artists or evidence.
 - The page still reads the old data shape, which `tools/legacy_data.py` rebuilds from the new files at build time. `data/legacy-order.json` exists only for that.
 - A synthetic-listener test that has been run is recorded in its scope file under `tests` (use `python3 tests/listener/run.py record --apply`).

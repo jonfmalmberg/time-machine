@@ -76,17 +76,21 @@ tunnelDraw = function(dt){
   if(cv.width!==Math.round(W*dpr)||cv.height!==Math.round(H*dpr)){ cv.width=Math.round(W*dpr); cv.height=Math.round(H*dpr); }
   const ctx=cv.getContext('2d'); ctx.setTransform(dpr,0,0,dpr,0,0);
   const bg=css('--tun-bg'), fg=css('--tun-fg'), ring=css('--tun-ring'), body=css('--body'), mono=css('--mono'), tnow=performance.now()/1000;
+  // light theme: the same sky as ink on paper. Light adds on a dark ground and washes out on a pale one, so colour is laid down by multiplying instead.
+  const light=(h=>{ const m=/^#?([0-9a-f]{6})$/i.exec(h.trim()); if(!m) return false; const n=parseInt(m[1],16); return (.299*(n>>16)+.587*((n>>8)&255)+.114*(n&255))>140; })(bg), ADD=light?'multiply':'lighter';
   // speed through time drives every streak, whatever moved the clock
   const vel=dt?(stU-TUNU)/dt:0; TUNU=stU; TUNV+=(vel-TUNV)*Math.min(1,dt*6);
   ctx.globalCompositeOperation='source-over'; ctx.globalAlpha=1; ctx.fillStyle=bg; ctx.fillRect(0,0,W,H);
   const cx=W/2, cy=H/2, R0=Math.min(W,H)*.5, K=15, ZMAX=7.5, cu=stU, deep=1-cu;
+  // light theme: the ground darkens toward the vanishing point, so the eye still reads depth down a tunnel
+  if(light){ ctx.save(); ctx.translate(cx,cy); ctx.scale(W/2,H/2); const sh=ctx.createRadialGradient(0,0,0,0,0,1); sh.addColorStop(0,'rgba(34,44,80,.62)'); sh.addColorStop(.2,'rgba(50,62,104,.38)'); sh.addColorStop(.5,'rgba(80,94,140,.13)'); sh.addColorStop(.82,'rgba(80,94,140,.02)'); sh.addColorStop(.95,'rgba(80,94,140,0)'); ctx.fillStyle=sh; ctx.fillRect(-1,-1,2,2); ctx.restore(); }   // fitted to the frame and gone before its edge, so the view meets the page around it with no seam
   // the sky map is stretched to the shape of the view (galaxy centres only: the galaxies themselves stay undistorted)
   const EX=Math.min(1.75,Math.max(1,(W/H)*.93)), EY=Math.min(1.3,Math.max(1,(H/W)*.93)), SK=Math.max(.62,Math.min(1,R0/400));
   const speed=Math.min(1,Math.abs(TUNV)*32), dir=TUNV>=0?1:-1;          // 0 at rest, 1 at full speed; forward in time sends the past inward
   const tail=speed*.75;                                                  // streak length as a share of the distance from the centre
   // the source: a point of light at the vanishing point, brighter the further back you are
   const glowR=R0*(.05+.55*Math.pow(deep,1.6))+speed*R0*.25, glowA=.12+.85*Math.pow(deep,1.3);
-  const gr=ctx.createRadialGradient(cx,cy,0,cx,cy,glowR); gr.addColorStop(0,`rgba(255,250,235,${glowA})`); gr.addColorStop(.25,`rgba(255,214,150,${glowA*.55})`); gr.addColorStop(1,'rgba(120,140,255,0)');
+  const gr=ctx.createRadialGradient(cx,cy,0,cx,cy,glowR); if(light){ gr.addColorStop(0,`rgba(255,255,255,${glowA})`); gr.addColorStop(.3,`rgba(255,236,200,${glowA*.7})`); gr.addColorStop(1,'rgba(255,236,200,0)'); } else { gr.addColorStop(0,`rgba(255,250,235,${glowA})`); gr.addColorStop(.25,`rgba(255,214,150,${glowA*.55})`); gr.addColorStop(1,'rgba(120,140,255,0)'); }
   ctx.fillStyle=gr; ctx.beginPath(); ctx.arc(cx,cy,glowR,0,TAU); ctx.fill();
   ctx.fillStyle=`rgba(255,255,255,${.35+.65*Math.pow(deep,1.2)})`; ctx.beginPath(); ctx.arc(cx,cy,1.5+5*Math.pow(deep,2),0,TAU); ctx.fill();
   const zOf=u=>1+Math.max(0,cu-u)*K, fadeZ=z=>Math.max(0,1-(z-1)/(ZMAX-1));
@@ -94,10 +98,10 @@ tunnelDraw = function(dt){
   const ray=(x,y,frac,w,col,a)=>{ const k=Math.max(-1,dir*frac), x1=x+(x-cx)*k, y1=y+(y-cy)*k; if(Math.abs(x1-x)+Math.abs(y1-y)<.8) return;
     const g=ctx.createLinearGradient(x,y,x1,y1); g.addColorStop(0,col); g.addColorStop(1,'rgba(0,0,0,0)');
     ctx.globalAlpha=a; ctx.strokeStyle=g; ctx.lineWidth=w; ctx.beginPath(); ctx.moveTo(x,y); ctx.lineTo(x1,y1); ctx.stroke(); };
-  ctx.lineCap='round'; ctx.globalCompositeOperation='lighter';
+  ctx.lineCap='round'; ctx.globalCompositeOperation=ADD;
   // the field of distant stars
   STARS.forEach(st=>{ if(st.u>cu) return; const z=zOf(st.u); if(z>ZMAX) return; const r=R0*st.r/z*1.15, a=fadeZ(z), x=cx+Math.cos(st.a)*r*EX, y=cy+Math.sin(st.a)*r*EY;
-    const tw=.75+.25*Math.sin(tnow*(1.2+st.w)+st.c*30), col=st.c<.12?'#ffd9a8':st.c>.9?'#a9c4ff':ring, w=Math.max(.5,1.5*st.w/z);
+    const tw=.75+.25*Math.sin(tnow*(1.2+st.w)+st.c*30), col=st.c<.12?(light?'#c2843a':'#ffd9a8'):st.c>.9?(light?'#5f82cf':'#a9c4ff'):ring, w=Math.max(.5,1.5*st.w/z);
     if(tail>0.01) ray(x,y,tail*(.5+.6*st.w),w,col,(.3+.5*a)*tw);
     ctx.globalAlpha=(.22+.5*a)*tw; ctx.fillStyle=col; ctx.beginPath(); ctx.arc(x,y,w*.75,0,TAU); ctx.fill(); });
   ctx.globalCompositeOperation='source-over';
@@ -117,7 +121,7 @@ tunnelDraw = function(dt){
     items.push(it); if(G.m>1) (gal[G.t]=gal[G.t]||[]).push(it); });
   // traditions as galaxies: a tilted disc of light, with dust along its arms
   const dens=Math.min(1,Math.sqrt(55/Math.max(1,items.length)));       // a crowded sky gets fainter halos so it never burns out to white
-  ctx.globalCompositeOperation='lighter'; const galLabels=[];
+  ctx.globalCompositeOperation=ADD; const galLabels=[];
   for(const t in gal){ const ms=gal[t], G=GAL[t]; // the disc is drawn at the depth of the galaxy's nearest members (those still at their peak hold it in the present); members that have ended trail inward from it
     let zmin=1e9; ms.forEach(m=>{ if(m.z<zmin) zmin=m.z; }); let hh=0, ext=0, nn=0; ms.forEach(m=>{ if(m.z>zmin*1.12) return; nn++; hh+=m.op; if(m.s.lr>ext) ext=m.s.lr; });
     const sc=1/zmin, gx=cx+G.x*EX*R0*sc, gy=cy+G.y*EY*R0*sc, full=G.r*R0*sc, inten=Math.min(1,hh/nn*1.4), frac=nn/G.m;
@@ -149,7 +153,7 @@ tunnelDraw = function(dt){
     ctx.globalCompositeOperation='source-over';
     ctx.globalAlpha=op*.9; ctx.fillStyle=col; ctx.beginPath(); ctx.arc(it.x,it.y,rr*.8,0,TAU); ctx.fill();
     ctx.globalAlpha=op*(.45+.5*h); ctx.drawImage(glow('#ffffff'),it.x-rr*.9,it.y-rr*.9,rr*1.8,rr*1.8);
-    ctx.globalCompositeOperation='lighter';
+    ctx.globalCompositeOperation=ADD;
     // birth: a shell of light spreading from a new star
     if(it.g<1){ ctx.globalAlpha=(1-it.g)*.9; ctx.strokeStyle=col; ctx.lineWidth=1.5; ctx.beginPath(); ctx.arc(it.x,it.y,rr*(1.5+9*it.g),0,TAU); ctx.stroke();
       ctx.globalAlpha=(1-it.g)*.5; ctx.drawImage(glow('#ffffff'),it.x-rr*5,it.y-rr*5,rr*10,rr*10); } });

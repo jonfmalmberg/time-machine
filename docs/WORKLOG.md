@@ -2,6 +2,36 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-23 (release 4)
+
+- Owner approved the `review` demo for publishing and accepted the Worker (100,000 page visits a day is enough). Squashed into `dev`, `main` moved to `dev`.
+- Released: share button and links that say what they show, link previews, icon, reshuffle, light globe and tunnel, source-check status on playlists, the eight ingested genres, the fix for a single genre as genre filter. No database change.
+- Tests before the push: data, layout, links, smoke, account pass. `db/test.sh` not rerun (no database change).
+
+## 2026-11-23 (second review round: titles, preview, icon, decisions)
+
+- Owner's second round on `review`. Built:
+  - A link now says what it shows ("Canada · 1980–2020 · Country") in the tab title, the share sheet and the link preview. The preview needs a Worker, the first code to run on Cloudflare (`DECISIONS.md` D12). Site icon and preview image added.
+  - Light tunnel: shading fitted inside the frame; the dark line around the frame was the browser's focus outline on the canvas and is removed for touch.
+  - Status wording: "Sources checked / partly checked / not checked", since that is all the check shows (D6).
+- Owner: the lead forgot its own earlier choices (tree build logic, why Japan 1980s is ordered as it is) because they were never written down with their uncertainty. New file `docs/DECISIONS.md`, twelve entries, and a rule in `CLAUDE.md` to keep it. For the Japan order the honest record is that the selection rule is not known.
+- Owner's decisions recorded there: tree by feel and by the lead (rways, Korean minyo, Jiangnan sizhu, the North Indian tradition), sub-genres, "heard there", chart position as a stored factor with a stated rule, unverified facts marked not chased, live-site filter fix ships with this set.
+- Lead's verdicts on about 80 genres the helpers named: `docs/research/2026-11-24-genre-suggestions.md` (12 to add in order, the rest folded in as sub-genres or set aside, one not recognised).
+- Tests: links (new title scenario), smoke, account, data, layout pass. Not tested: the Worker (no Cloudflare runtime here; checked on the preview address after the push), the share sheet on a real phone, how chat apps cache previews.
+- Not built yet: sub-genres, the tree changes in D9, chart position and the ordering rule (roadmap 5.1a, 5.1b).
+
+## 2026-11-23 (owner's review; one review branch)
+
+- Owner's review of the feature branches: share links work but need a visible Share control; light globe and tunnel work but the tunnel needs a darker centre; panel above tabs is not wanted as built; reshuffle is useful and goes in, position to be revisited.
+- Owner's corrections to how the lead works, now in `CLAUDE.md`:
+  - Six feature branches meant six Cloudflare builds for one review. From now on one branch `review` per round, one push.
+  - The lead reran every helper evidence check in full although the results agreed each time, and reported each run in detail. That was poor use of the day while the app has larger gaps. Reruns are now a judgement (a sample, or only when something looks wrong), and reports to the owner are the outcome and the decisions needed.
+- Built on `review` (from `dev`, with `reshuffle`, `share-links`, `light-space`, `unverified-flag` and `ingest` merged; `panel-above-tabs` left out):
+  - Share button in the top bar on every view: system share sheet on phones, copy with a confirmation elsewhere. The address now also carries the selected genre (`sel`).
+  - Light tunnel: the ground darkens toward the vanishing point.
+- Tests: links (with a new share scenario), smoke, account, data, layout pass. Not tested: the share sheet on a real phone (the workspace browser has none).
+- Helper genre research is on hold, including batch 7 that was queued for tonight (H15): 56 genres wait for ingest, and more candidates add nothing until that is reviewed.
+
 ## 2026-11-23 (end of the day's helper runs)
 
 - Helper runs since 08:40 Pacific: H9, H10, H8, H11, H12, H13, H14 = 7. The eighth manual run was not used. One assignment was added for the scheduled 22:41 Vancouver run: H15, genre batch 7, with a new ask to look for a second source for songs tied to a genre by a title alone.
@@ -69,6 +99,12 @@ One entry per working session, newest first: what was done, what was decided and
 - So for the one country-decade measured, the home-grown chart songs are real and sourced; the faults are in the foreign songs, the ranks and the unsourced decade list. This is one decade of one well-documented country and says nothing yet about the weaker ones.
 - For the owner: whether a foreign song named only in an unranked list or an award counts as "heard there"; whether to store the chart position beside or in place of the site's rank.
 - Helper fired for H8 (genre batch 4).
+## 2026-11-23 (researched genres can enter the data; the page says what is verified)
+
+- Branch `ingest` (built on `unverified-flag`), by an Opus sub-agent to a written specification, tests rerun by the lead: `tools/ingest.py` puts a helper's hand-back into the data, taking only songs whose claim the check script found. Run on genre batch 3: eight genres that had a name only now have a definition and a full playlist (18 to 27 songs each); 215 new songs, 114 new artists, 57 releases, 392 evidence records with their exact strings. Pending genres go from 132 to 124.
+- Left out, all in Hardanger fiddle: one song whose source refuses scripts, and three entries whose spelling in the hand-back differs from the spelling in its own claims (probably the same recordings; not guessed). The playlist note mentioned the left-out 1928 recording; the lead removed that sentence so the note does not describe a song that is not in the list.
+- The page now reads how many of a list's songs were found on their cited page: Verified, Partly verified (with the count), or Unverified. The eight new genres show Verified; everything collected earlier shows Unverified.
+- Not merged: waits for the owner's review together with `unverified-flag`.
 
 ## 2026-11-23 (evidence triage; shareable links)
 

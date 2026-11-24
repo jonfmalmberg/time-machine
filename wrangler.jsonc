@@ -1,10 +1,15 @@
-// Cloudflare deploy settings. The site is static files only: build.py writes
-// dist/, Cloudflare serves it. No Worker code runs, so nothing is billable.
+// Cloudflare deploy settings. build.py writes dist/ and Cloudflare serves it as static files, which is free and
+// unlimited. One small Worker (src/worker/index.js) runs for the page address only, to put a shared view's
+// description into the title and link-preview tags. Free plan: 100,000 Worker requests a day, no card, so no bill
+// is possible; past the limit the page address answers "too many requests" until midnight UTC.
 {
   "name": "time-machine",
   "compatibility_date": "2026-11-01",
+  "main": "src/worker/index.js",
   "assets": {
-    "directory": "./dist"
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "run_worker_first": ["/", "/index.html"]
   },
   // Needed for branch previews; empty because previews use the same settings.
   "previews": {}

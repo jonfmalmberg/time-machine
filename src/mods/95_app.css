@@ -1,12 +1,12 @@
 /* ===== App shell and iOS-style components (own code, no framework) ===== */
-:root{ --bg:#f2f2f7; --panel:#ffffff; --fg:#000000; --muted:#6e6e73; --line:#d1d1d6; --band:#f5f5f8; --accent:#007aff;
+:root{ --tun-bg:#f2f2f7; --tun-fg:#1c1c1e; --tun-ring:#8e8e93; --space:#f2f2f7; --bg:#f2f2f7; --panel:#ffffff; --fg:#000000; --muted:#6e6e73; --line:#d1d1d6; --band:#f5f5f8; --accent:#007aff;
   --fill:rgb(120 120 128 / .12); --fill2:rgb(120 120 128 / .2); --tintbg:rgb(0 122 255 / .12); --sep:rgb(60 60 67 / .16); --bar:rgb(249 249 249 / .86); --elev:#f2f2f7; --rowbg:#ffffff; --segon:#ffffff;
   --display:-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue","Segoe UI",Roboto,Arial,sans-serif; --body:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue","Segoe UI",Roboto,Arial,sans-serif; --mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
   --console:transparent; --console-fg:#000000; --console-line:#d1d1d6; --console-accent:#007aff }
-@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --bg:#000000; --panel:#1c1c1e; --fg:#ffffff; --muted:#98989f; --line:#38383a; --band:#232326; --accent:#0a84ff;
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --tun-bg:#070a10; --tun-fg:#e8edf5; --tun-ring:#8fa6c8; --space:#04070d; --bg:#000000; --panel:#1c1c1e; --fg:#ffffff; --muted:#98989f; --line:#38383a; --band:#232326; --accent:#0a84ff;
   --fill:rgb(120 120 128 / .24); --fill2:rgb(120 120 128 / .36); --tintbg:rgb(10 132 255 / .22); --sep:rgb(84 84 88 / .6); --bar:rgb(28 28 30 / .82); --elev:#1c1c1e; --rowbg:#2c2c2e; --segon:#636366;
   --console:transparent; --console-fg:#ffffff; --console-line:#38383a; --console-accent:#0a84ff; color-scheme:dark } }
-:root[data-theme="dark"]{ --bg:#000000; --panel:#1c1c1e; --fg:#ffffff; --muted:#98989f; --line:#38383a; --band:#232326; --accent:#0a84ff;
+:root[data-theme="dark"]{ --tun-bg:#070a10; --tun-fg:#e8edf5; --tun-ring:#8fa6c8; --space:#04070d; --bg:#000000; --panel:#1c1c1e; --fg:#ffffff; --muted:#98989f; --line:#38383a; --band:#232326; --accent:#0a84ff;
   --fill:rgb(120 120 128 / .24); --fill2:rgb(120 120 128 / .36); --tintbg:rgb(10 132 255 / .22); --sep:rgb(84 84 88 / .6); --bar:rgb(28 28 30 / .82); --elev:#1c1c1e; --rowbg:#2c2c2e; --segon:#636366;
   --console:transparent; --console-fg:#ffffff; --console-line:#38383a; --console-accent:#0a84ff; color-scheme:dark }
 [hidden]:not([hidden=until-found i]){display:none!important}
@@ -243,3 +243,11 @@ input[type=range]{accent-color:var(--accent)}
 .dprops{margin-top:4px} .dprop{display:flex;gap:12px;align-items:baseline;padding:10px 14px;font-size:15px} .dprop+.dprop{border-top:.5px solid var(--sep)} .dprop small{flex:0 0 96px;color:var(--muted);font-size:13px} .dprop span{min-width:0;overflow-wrap:anywhere}
 .dfoot{display:none}
 .meadmin{border-top:0;margin-top:0;padding-top:0}
+/* "Shuffle again": appears under the filter bar after a random pick, for half a minute */
+.reshuf{position:fixed;left:50%;transform:translateX(-50%);z-index:26;display:flex;align-items:center;gap:6px;padding:5px;border-radius:22px;background:var(--bar);-webkit-backdrop-filter:saturate(180%) blur(20px);backdrop-filter:saturate(180%) blur(20px);box-shadow:0 4px 18px rgb(0 0 0 / .18)}
+.reshuf[hidden]{display:none} .reshuf .lbtn{display:inline-flex;align-items:center;gap:6px;border-radius:17px;min-height:34px;padding:6px 14px} .reshuf .lbtn .ic{width:17px;height:17px}
+.reshuf .sheet-x{width:30px;height:30px}
+
+.sharetip{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translate(-50%,8px);max-width:min(340px,calc(100vw - 32px));padding:10px 16px;border-radius:14px;background:var(--fg);color:var(--bg);font:500 14px var(--body);text-align:center;opacity:0;pointer-events:none;transition:opacity .18s,transform .18s;z-index:200}
+.sharetip.on{opacity:.94;transform:translate(-50%,0)}
+#tunnel:focus{outline:none} #tunnel:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
