@@ -459,3 +459,12 @@ input[type=range]{accent-color:var(--accent)}
 .dwrap{border:0;border-radius:14px;background:var(--bg)}
 #dctl.dfold:not(.dopen)>label,#dctl.dfold:not(.dopen)>#ddir,#dctl.dfold:not(.dopen)>#dclear{display:none}
 #dtabs button{font-size:12.5px;padding:7px 0;letter-spacing:-.01em;overflow:hidden;text-overflow:ellipsis}
+/* onward stops at the foot of the Songs pane (D27) */
+.stnext{margin:16px 0 6px}.stnext[hidden]{display:none}
+.nxlab{font:600 12px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 4px 8px}
+.nxrow{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}.nxrow::-webkit-scrollbar{display:none}
+.nxchip{flex:none;display:grid;grid-template-columns:auto auto;grid-template-areas:"dot name" "dot dir";column-gap:8px;align-items:center;text-align:left;border:0;border-radius:12px;background:var(--panel);padding:8px 12px;min-height:44px;cursor:pointer;color:var(--fg);max-width:220px}
+.nxchip i{grid-area:dot;width:9px;height:9px;border-radius:50%}
+.nxchip span{grid-area:name;font:500 14px var(--body);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nxchip small{grid-area:dir;font:400 12px var(--body);color:var(--muted)}
+.nxchip:not(:has(i)){grid-template-columns:auto;grid-template-areas:"name" "dir"}
