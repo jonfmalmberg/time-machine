@@ -1,0 +1,17 @@
+[
+{"song":"s_phyc7q1zve","scope":"g:kalevalarunosong","role":"intro","evidence":["e_tmj2qbwcv4","e_bx2cj3mf5n"],"pass":1},
+{"song":"s_88ceh8fqqq","scope":"g:kalevalarunosong","role":"intro","evidence":["e_sxg58pbyvd"],"pass":1},
+{"song":"s_zatfemhkvd","scope":"g:kalevalarunosong","role":"intro","evidence":["e_57y9fq159z"],"pass":1},
+{"song":"s_zmz465cj7f","scope":"g:kalevalarunosong","role":"peak","evidence":["e_7wn923z25q"],"pass":1},
+{"song":"s_vx7ak4tc89","scope":"g:kalevalarunosong","role":"peak","evidence":["e_ema9rrdc2f"],"pass":1},
+{"song":"s_3ppx4t9db6","scope":"g:kalevalarunosong","role":"peak","evidence":["e_6mkrg1t673"],"pass":1},
+{"song":"s_6e0fqa1fd6","scope":"g:kalevalarunosong","role":"peak","evidence":["e_zwyx93z8zr"],"pass":1},
+{"song":"s_9vh17c9757","scope":"g:kalevalarunosong","role":"peak","evidence":["e_jwhvpavrdh"],"pass":1},
+{"song":"s_phyc7q1zve","scope":"g:kalevalarunosong","role":"reference","evidence":["e_tmj2qbwcv4","e_bx2cj3mf5n"],"pass":1},
+{"song":"s_nekk446ppp","scope":"g:kalevalarunosong","role":"near miss","belongs_to":"folkrev","reason":"Käppi is called a modern runo singer, but this is jouhikko-driven folk rock about a witch trial, not Kalevala-metre song","evidence":["e_wm5zk8qb9q"],"pass":1},
+{"song":"s_za46s3yxh1","scope":"g:kalevalarunosong","role":"near miss","belongs_to":"folkrev","reason":"Inspired by Viena Karelian rune singers, but arranged as modern Finnish folk-pop group singing","evidence":["e_qgvp2f50z3"],"pass":1},
+{"release":"r_ybk96g7ycm","scope":"g:kalevalarunosong","role":"album","evidence":["e_rj85hws3nm","e_7v1m4xedj0"],"pass":1},
+{"release":"r_7jwkxzrsb5","scope":"g:kalevalarunosong","role":"album","evidence":["e_ry5m60p51r","e_q8mvfhaa73"],"pass":1},
+{"release":"r_zj348kkax3","scope":"g:kalevalarunosong","role":"album","evidence":["e_70wrefk6vp"],"pass":1},
+{"release":"r_hes47rsgd5","scope":"g:kalevalarunosong","role":"album","evidence":["e_we7jwn1t0g"],"pass":1}
+]

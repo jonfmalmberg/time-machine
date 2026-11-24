@@ -1,0 +1,20 @@
+[
+{"song":"s_303a27w8mg","scope":"g:jiangnansizhu","role":"intro","evidence":["e_1g6yappq5v","e_b75k7c4x2b"],"pass":1},
+{"song":"s_bqc7g4kbp8","scope":"g:jiangnansizhu","role":"reference","evidence":["e_kxs83jhcxh","e_p2g07bc7pq","e_gd8n8qbptn"],"pass":1},
+{"song":"s_emvk9yyjhy","scope":"g:jiangnansizhu","role":"reference","evidence":["e_cdm8qpxve0","e_nfdc00dv07"],"pass":1},
+{"song":"s_jr8z36knrc","scope":"g:jiangnansizhu","role":"reference","evidence":["e_mxg392nh2z","e_73f4xfy9jm"],"pass":1},
+{"song":"s_303a27w8mg","scope":"g:jiangnansizhu","role":"reference","evidence":["e_1g6yappq5v","e_b75k7c4x2b"],"pass":1},
+{"song":"s_ae2cssck4g","scope":"g:jiangnansizhu","role":"reference","evidence":["e_be9t9fkvw3","e_vqnqe1jydc"],"pass":1},
+{"song":"s_gkm238pkb8","scope":"g:jiangnansizhu","role":"near miss","belongs_to":"guoyue","reason":"Nie Er's 1934 arrangement of the fast end of the sizhu piece Yang Ba Qu, played by a large conducted national orchestra from a full score, not a small club ensemble improvising ornament","evidence":["e_ge5jek63wp","e_717ypm3w6r","e_q2v5n9066g"],"pass":1},
+{"song":"s_bjsh3d73cx","scope":"g:jiangnansizhu","role":"near miss","belongs_to":"guangdongmusic","reason":"Lü Wencheng's Cantonese piece led by the high gaohu fiddle, from the Guangdong silk-and-bamboo tradition, not the Jiangnan one","evidence":["e_k31j8y50qk","e_j7q71rkd08"],"pass":1},
+{"release":"r_ybk0cwbe0e","scope":"g:jiangnansizhu","role":"album","evidence":["e_b1st4acmb9"],"pass":1},
+{"release":"r_xbdv4fvxn3","scope":"g:jiangnansizhu","role":"album","evidence":["e_mxg392nh2z"],"pass":1},
+{"release":"r_zpv14k157d","scope":"g:jiangnansizhu","role":"album","evidence":["e_nnw6t9rphs"],"pass":1},
+{"release":"r_snxjf5z1h7","scope":"g:jiangnansizhu","role":"album","evidence":["e_xwxytph684"],"pass":1},
+{"release":"r_gewm4a3pc8","scope":"g:jiangnansizhu","role":"album","evidence":["e_ypb3kj80cr"],"pass":1},
+{"release":"r_3b6e4y5zn1","scope":"g:jiangnansizhu","role":"album","evidence":["e_yfhh41xwfq"],"pass":1},
+{"release":"r_y5z17zvhcy","scope":"g:jiangnansizhu","role":"album","evidence":["e_cdm8qpxve0"],"pass":1},
+{"release":"r_dd7pw7k522","scope":"g:jiangnansizhu","role":"album","evidence":["e_2dpzhn7fxc"],"pass":1},
+{"release":"r_x6e49avjt5","scope":"g:jiangnansizhu","role":"album","evidence":["e_m6g3wpp0sw"],"pass":1},
+{"release":"r_2t16smm1g7","scope":"g:jiangnansizhu","role":"album","evidence":["e_64xk50ywfb","e_s69wqn6fjy"],"pass":1}
+]

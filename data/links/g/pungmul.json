@@ -1,0 +1,22 @@
+[
+{"song":"s_p8qe94mw3d","scope":"g:pungmul","role":"intro","evidence":["e_abtxdc61hn"],"pass":1},
+{"song":"s_gh7sfr20x8","scope":"g:pungmul","role":"intro","evidence":["e_h2f7e5m3vm"],"pass":1},
+{"song":"s_y8w9sn3955","scope":"g:pungmul","role":"intro","evidence":["e_eabt0hg18x"],"pass":1},
+{"song":"s_xcf91a54jy","scope":"g:pungmul","role":"intro","evidence":["e_kk7erkajvn"],"pass":1},
+{"song":"s_wwbvhhnwpn","scope":"g:pungmul","role":"peak","evidence":["e_p0svkndrph"],"pass":1},
+{"song":"s_ta33xzx11f","scope":"g:pungmul","role":"peak","evidence":["e_t1czm35hqy"],"pass":1},
+{"song":"s_a83zxksa1a","scope":"g:pungmul","role":"peak","evidence":["e_p3x2kj4fy5"],"pass":1},
+{"song":"s_vd1x6v2tdp","scope":"g:pungmul","role":"peak","evidence":["e_nxfqs5b41z"],"pass":1},
+{"song":"s_f32qna03hr","scope":"g:pungmul","role":"peak","evidence":["e_ba96pte29t"],"pass":1},
+{"song":"s_70pkxc37gq","scope":"g:pungmul","role":"peak","evidence":["e_k2pkdva5d9"],"pass":1},
+{"song":"s_kqd8szb545","scope":"g:pungmul","role":"peak","evidence":["e_mgj8k9r65q"],"pass":1},
+{"song":"s_w4nwvwhf6a","scope":"g:pungmul","role":"peak","evidence":["e_3xpdb3razx"],"pass":1},
+{"song":"s_wwbvhhnwpn","scope":"g:pungmul","role":"reference","evidence":["e_p0svkndrph"],"pass":1},
+{"song":"s_dervt6br48","scope":"g:pungmul","role":"reference","evidence":["e_dwrq9c9a73"],"pass":1},
+{"song":"s_ymxg805sxz","scope":"g:pungmul","role":"near miss","belongs_to":"koreanrock","reason":"Gyeonggi folk song sung over a glam and psychedelic rock band","evidence":["e_xdxb6hr9rk"],"pass":1},
+{"song":"s_c8nb5r1t5k","scope":"g:pungmul","role":"near miss","belongs_to":"pansori","reason":"Solo sung epic with drum, not a strophic folk song","evidence":["e_k8hfzkhhx3"],"pass":1},
+{"release":"r_x441y67w5n","scope":"g:pungmul","role":"album","evidence":["e_jk50a4gqec"],"pass":1},
+{"release":"r_8fe2dawjes","scope":"g:pungmul","role":"album","evidence":["e_k6pfqyv5te"],"pass":1},
+{"release":"r_jhy0fc27t1","scope":"g:pungmul","role":"album","evidence":["e_rpsbf2rc7m"],"pass":1},
+{"release":"r_7pc96b3rpc","scope":"g:pungmul","role":"album","evidence":["e_by99smd39k"],"pass":1}
+]

@@ -1,0 +1,21 @@
+[
+{"song":"s_grav1nk132","scope":"g:tarantella","role":"intro","evidence":["e_tnj1tja8h7"],"pass":1},
+{"song":"s_rqqnj1vjjc","scope":"g:tarantella","role":"intro","evidence":["e_bf861wsqcx"],"pass":1},
+{"song":"s_8gx023xtb9","scope":"g:tarantella","role":"intro","evidence":["e_0908c5hf1v"],"pass":1},
+{"song":"s_y2z6m721xk","scope":"g:tarantella","role":"peak","evidence":["e_pbyfxeyn15"],"pass":1},
+{"song":"s_5r3f1eqn8c","scope":"g:tarantella","role":"peak","evidence":["e_9vkwh81d80"],"pass":1},
+{"song":"s_7etx83z2th","scope":"g:tarantella","role":"peak","evidence":["e_fz7f1vsdjw"],"pass":1},
+{"song":"s_97c3r20rtb","scope":"g:tarantella","role":"peak","evidence":["e_v2jbshegta"],"pass":1},
+{"song":"s_73ackz5mxd","scope":"g:tarantella","role":"peak","evidence":["e_r94kp81yq7"],"pass":1},
+{"song":"s_23sbky50t7","scope":"g:tarantella","role":"peak","evidence":["e_acsx8x6z35"],"pass":1},
+{"song":"s_rnm7th5gmb","scope":"g:tarantella","role":"peak","evidence":["e_mca4adkk4k"],"pass":1},
+{"song":"s_kepd7bqx4x","scope":"g:tarantella","role":"peak","evidence":["e_2ztkqbxb91"],"pass":1},
+{"song":"s_xwkjtsh9jw","scope":"g:tarantella","role":"peak","evidence":["e_3w188jst6v"],"pass":1},
+{"song":"s_nn1fca0dzh","scope":"g:tarantella","role":"reference","evidence":["e_ze4xtxwy3w"],"pass":1},
+{"song":"s_8mg303w9bd","scope":"g:tarantella","role":"reference","evidence":["e_8n9bwq8dck"],"pass":1},
+{"song":"s_hsetp096ez","scope":"g:tarantella","role":"near miss","belongs_to":"romantic","reason":"A concert piano piece named after the dance: 6/8 virtuoso writing with no drum, dialect voice or dancers","evidence":["e_fmvah6rrrf"],"pass":1},
+{"release":"r_xmgktte0b9","scope":"g:tarantella","role":"album","evidence":["e_s5qtsxn3hx"],"pass":1},
+{"release":"r_h1rzdf06dj","scope":"g:tarantella","role":"album","evidence":["e_fr9x36ws6c","e_yb0ejr2ccw"],"pass":1},
+{"release":"r_45qzt991sq","scope":"g:tarantella","role":"album","evidence":["e_k523mrb5xp"],"pass":1},
+{"release":"r_4n0h62dw8y","scope":"g:tarantella","role":"album","evidence":["e_mca4adkk4k"],"pass":1}
+]

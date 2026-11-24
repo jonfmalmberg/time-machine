@@ -165,7 +165,8 @@ def main():
         items = []          # (role, artist, title, year, written, extra)
         for j, (ar, t) in enumerate(songs_here):
             role = 'intro' if j < len(p['intro']) else 'peak'
-            items.append((role, ar, t, yrs[j][0] if yrs else Ellipsis, yrs[j][1] if yrs else Ellipsis, None))
+            yy = yrs[j] if yrs and j < len(yrs) and yrs[j] else None     # a list of years may have gaps: a gap is 'not given'
+            items.append((role, ar, t, yy[0] if yy else Ellipsis, yy[1] if yy else Ellipsis, None))
         for ar, t, y in d['fits']:
             items.append(('reference', ar, t, y, Ellipsis, None))
         for ar, t, y, b, why in d['near']:

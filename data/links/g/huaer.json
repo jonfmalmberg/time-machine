@@ -1,0 +1,12 @@
+[
+{"song":"s_w1rparefz0","scope":"g:huaer","role":"peak","evidence":["e_tqqpvprsea"],"pass":1},
+{"song":"s_znbj5w9d6z","scope":"g:huaer","role":"peak","evidence":["e_7fy969xmaa"],"pass":1},
+{"song":"s_g1hpdv6daq","scope":"g:huaer","role":"peak","evidence":["e_715skan4bf"],"pass":1},
+{"song":"s_9zm0av3a71","scope":"g:huaer","role":"peak","evidence":["e_b45279k515"],"pass":1},
+{"song":"s_rn41gqa7z4","scope":"g:huaer","role":"peak","evidence":["e_wjyq380z7f"],"pass":1},
+{"song":"s_w1rparefz0","scope":"g:huaer","role":"reference","evidence":["e_tqqpvprsea"],"pass":1},
+{"song":"s_9zm0av3a71","scope":"g:huaer","role":"reference","evidence":["e_b45279k515"],"pass":1},
+{"song":"s_rn41gqa7z4","scope":"g:huaer","role":"reference","evidence":["e_wjyq380z7f"],"pass":1},
+{"song":"s_e2xf53zvk5","scope":"g:huaer","role":"near miss","belongs_to":"guoyue","reason":"An instrumental chamber-orchestra arrangement of a Qinghai tune, with no singing","evidence":["e_0k9hvqwh0f"],"pass":1},
+{"release":"r_gtbthtmgt9","scope":"g:huaer","role":"album","evidence":["e_saptzv51bm","e_1pgk95ggv6","e_4zf3284gqg","e_mb0y0829ep"],"pass":1}
+]

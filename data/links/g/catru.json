@@ -1,0 +1,21 @@
+[
+{"song":"s_bhhp956yrh","scope":"g:catru","role":"intro","evidence":["e_xhw4336dh0"],"pass":1},
+{"song":"s_x9h7wgh18m","scope":"g:catru","role":"intro","evidence":["e_gz8s74sndq"],"pass":1},
+{"song":"s_waxe2xd6mf","scope":"g:catru","role":"intro","evidence":["e_2b0efja5vh"],"pass":1},
+{"song":"s_sghgywrhfa","scope":"g:catru","role":"intro","evidence":["e_ty3b2rty2r"],"pass":1},
+{"song":"s_gg9zypgmek","scope":"g:catru","role":"intro","evidence":["e_xdwm3s026k"],"pass":1},
+{"song":"s_g2zcqmcn6w","scope":"g:catru","role":"peak","evidence":["e_6cpdq047jh"],"pass":1},
+{"song":"s_jxk2jc8nwv","scope":"g:catru","role":"peak","evidence":["e_eqy52dkbmk"],"pass":1},
+{"song":"s_9senqfxt9q","scope":"g:catru","role":"peak","evidence":["e_swh4fh0gfj"],"pass":1},
+{"song":"s_wq9rx764bn","scope":"g:catru","role":"peak","evidence":["e_1fh0jhhds2"],"pass":1},
+{"song":"s_wf1av92n7k","scope":"g:catru","role":"peak","evidence":["e_gxg04np1c8"],"pass":1},
+{"song":"s_nhjsrnt29v","scope":"g:catru","role":"peak","evidence":["e_qzdkygsbd3"],"pass":1},
+{"song":"s_zmcdr1n3g5","scope":"g:catru","role":"peak","evidence":["e_y9xtbmey48"],"pass":1},
+{"song":"s_ghsg2nnwg7","scope":"g:catru","role":"peak","evidence":["e_5p223vt0cb"],"pass":1},
+{"song":"s_9ks281c9mr","scope":"g:catru","role":"peak","evidence":["e_1wr5ps84nc"],"pass":1},
+{"song":"s_fc2yhq1wtc","scope":"g:catru","role":"reference","evidence":["e_q662en361t"],"pass":1},
+{"song":"s_me3cfs5nvb","scope":"g:catru","role":"reference","evidence":["e_297nsvex3f"],"pass":1},
+{"song":"s_6vebtnvgxj","scope":"g:catru","role":"near miss","belongs_to":"vpop","reason":"Pop singer's song drawing on ca trù, not the chamber tradition itself","evidence":["e_2c5wqc02pb"],"pass":1},
+{"release":"r_79hwcqqngs","scope":"g:catru","role":"album","evidence":["e_g6c46h6cjt"],"pass":1},
+{"release":"r_ygt53q17t5","scope":"g:catru","role":"album","evidence":["e_y87ksvch3k"],"pass":1}
+]

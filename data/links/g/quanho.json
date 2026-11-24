@@ -1,0 +1,8 @@
+[
+{"song":"s_2dvdbvzbnd","scope":"g:quanho","role":"intro","evidence":["e_289ph9w7zj"],"pass":1},
+{"song":"s_2dvdbvzbnd","scope":"g:quanho","role":"reference","evidence":["e_289ph9w7zj"],"pass":1},
+{"song":"s_wnw0q6tfad","scope":"g:quanho","role":"reference","evidence":["e_3kmn8zz21h"],"pass":1},
+{"release":"r_r7zdq82v0t","scope":"g:quanho","role":"album","evidence":["e_jrj8kk1y28"],"pass":1},
+{"release":"r_dqrg5q0xr2","scope":"g:quanho","role":"album","evidence":["e_kte1yswtf2"],"pass":1},
+{"release":"r_y8j4mt915x","scope":"g:quanho","role":"album","evidence":["e_fadk8b0qmg"],"pass":1}
+]

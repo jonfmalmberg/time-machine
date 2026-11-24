@@ -1,0 +1,17 @@
+[
+{"song":"s_3he2damvse","scope":"g:ngoma","role":"intro","evidence":["e_nwn8a172yx"],"pass":1},
+{"song":"s_j94ka8tgs6","scope":"g:ngoma","role":"intro","evidence":["e_k5n1p7zwjt"],"pass":1},
+{"song":"s_b8ar0rmj9k","scope":"g:ngoma","role":"peak","evidence":["e_cr9xhm0v55","e_93pd6nh8mk"],"pass":1},
+{"song":"s_rdk5yvsyx1","scope":"g:ngoma","role":"peak","evidence":["e_drygv3nc2v","e_yzg56nv8z8"],"pass":1},
+{"song":"s_b1ap2nphfv","scope":"g:ngoma","role":"peak","evidence":["e_vmd9b7jw8d"],"pass":1},
+{"song":"s_1z7ne5pq1y","scope":"g:ngoma","role":"peak","evidence":["e_gmhs2m3x2s","e_awk52dg1v8"],"pass":1},
+{"song":"s_b8ar0rmj9k","scope":"g:ngoma","role":"reference","evidence":["e_cr9xhm0v55","e_93pd6nh8mk"],"pass":1},
+{"song":"s_b1ap2nphfv","scope":"g:ngoma","role":"reference","evidence":["e_vmd9b7jw8d"],"pass":1},
+{"song":"s_j94ka8tgs6","scope":"g:ngoma","role":"reference","evidence":["e_k5n1p7zwjt"],"pass":1},
+{"song":"s_3he2damvse","scope":"g:ngoma","role":"reference","evidence":["e_nwn8a172yx"],"pass":1},
+{"song":"s_cqe43e0e91","scope":"g:ngoma","role":"near miss","belongs_to":"dansi","reason":"Ngoma in the title, but early-1960s muziki wa dansi band music inspired by Cuban records; 2022 is the reissue year","evidence":["e_brs4peh9tn"],"pass":1},
+{"release":"r_c5zmjnt0q2","scope":"g:ngoma","role":"album","evidence":["e_mcywmx4zr3","e_jj5gfec6f0"],"pass":1},
+{"release":"r_pmv7q5wj7c","scope":"g:ngoma","role":"album","evidence":["e_4709gb8s81","e_659kwm1egt"],"pass":1},
+{"release":"r_c22trvtbh5","scope":"g:ngoma","role":"album","evidence":["e_pm8z9dg346"],"pass":1},
+{"release":"r_5676560h3e","scope":"g:ngoma","role":"album","evidence":["e_gcs4897ej9","e_zs6bnsb3vy"],"pass":1}
+]

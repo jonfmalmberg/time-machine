@@ -1,0 +1,23 @@
+[
+{"song":"s_e1mvpgbv1p","scope":"g:garbaanddandiyaraa","role":"intro","evidence":["e_yfke6h6c85"],"pass":1},
+{"song":"s_s3ae4f0a7b","scope":"g:garbaanddandiyaraa","role":"intro","evidence":["e_z034zxbrv8","e_0dj8mmkdhq"],"pass":1},
+{"song":"s_hqhamd7sz4","scope":"g:garbaanddandiyaraa","role":"intro","evidence":["e_k3zrw2nkan"],"pass":1},
+{"song":"s_0wn3ra3e2g","scope":"g:garbaanddandiyaraa","role":"intro","evidence":["e_w9t9551b5b","e_05gzyj3spw"],"pass":1},
+{"song":"s_1yr8ff02k1","scope":"g:garbaanddandiyaraa","role":"peak","evidence":["e_wts9rspzhv","e_asndcpjver"],"pass":1},
+{"song":"s_2hw6jk8bgd","scope":"g:garbaanddandiyaraa","role":"peak","evidence":["e_zfmn8am3am"],"pass":1},
+{"song":"s_bvk45qf14x","scope":"g:garbaanddandiyaraa","role":"peak","evidence":["e_7w9v9nyzq5","e_nkx3hg5pj1"],"pass":1},
+{"song":"s_khtab99eqq","scope":"g:garbaanddandiyaraa","role":"peak","evidence":["e_v5r560zha8"],"pass":1},
+{"song":"s_dk0zs5rn03","scope":"g:garbaanddandiyaraa","role":"peak","evidence":["e_sqx1dy7d2a","e_21bc30yhya"],"pass":1},
+{"song":"s_rf23f7m7sh","scope":"g:garbaanddandiyaraa","role":"peak","evidence":["e_rt9k34mjpx","e_xeb5f39bg5"],"pass":1},
+{"song":"s_z2rgjg0j2t","scope":"g:garbaanddandiyaraa","role":"peak","evidence":["e_70kwsyn1tp"],"pass":1},
+{"song":"s_9zmnw6de5t","scope":"g:garbaanddandiyaraa","role":"peak","evidence":["e_r1cd5k96kr"],"pass":1},
+{"song":"s_wgd2vgfrdx","scope":"g:garbaanddandiyaraa","role":"peak","evidence":["e_ebecn46dyy"],"pass":1},
+{"song":"s_e1mvpgbv1p","scope":"g:garbaanddandiyaraa","role":"reference","evidence":["e_yfke6h6c85"],"pass":1},
+{"song":"s_0wn3ra3e2g","scope":"g:garbaanddandiyaraa","role":"reference","evidence":["e_w9t9551b5b","e_05gzyj3spw"],"pass":1},
+{"song":"s_z62asnxt89","scope":"g:garbaanddandiyaraa","role":"near miss","belongs_to":"filmi","reason":"A garba staged for a Bollywood film, sung by a playback singer with a film orchestra","evidence":["e_3gmh9fzq7c","e_gmzghyrha7"],"pass":1},
+{"song":"s_xs9evhrhrw","scope":"g:garbaanddandiyaraa","role":"near miss","belongs_to":"indianpop","reason":"The 'Dandiya Queen', but this is a Hindi pop single, not a Gujarati garba","evidence":["e_89e586y9na","e_akn7d28ckb"],"pass":1},
+{"release":"r_j32sa8r4db","scope":"g:garbaanddandiyaraa","role":"album","evidence":["e_6pv9y7pmpm"],"pass":1},
+{"release":"r_311re7n54q","scope":"g:garbaanddandiyaraa","role":"album","evidence":["e_d9rk769wtf"],"pass":1},
+{"release":"r_4pm9w2qv08","scope":"g:garbaanddandiyaraa","role":"album","evidence":["e_t830xmby4t","e_tvn2hzqef8"],"pass":1},
+{"release":"r_747ynssggv","scope":"g:garbaanddandiyaraa","role":"album","evidence":["e_fr8gj40e32"],"pass":1}
+]
