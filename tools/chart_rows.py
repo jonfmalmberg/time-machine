@@ -4,7 +4,7 @@
   python3 tools/chart_rows.py work/2026-11-24-wikicharts/rows.partial.json --out work/2026-11-24-wikicharts
 
 Writes chart.rows.json: one record per (country, year, artist, title) with the chart's kind
-('year-end' has a position; 'number one' has the date it first led), the page and its address.
+('year-end' has a position; 'number one' has the date it first led; 'top ten' is a song that entered the weekly top ten), the page and its address.
 Writes artists.<batch>.json: the distinct artist credits of each batch of countries, most rows first,
 for the helpers who look up where each artist is from. Nothing is guessed: a page whose country cannot
 be read from its title, or whose chart measures a subset of the public (R&B, country: decision D7), is
@@ -36,6 +36,26 @@ def main():
     R = json.load(open(a.rows, encoding='utf-8'))
     out, seen, skip = [], {}, collections.Counter()
     for r in R:
+        # footnote marks the pages hang on a title or an artist ("Title" ♦, Artist ‡) are not part of the name
+        for f in ('title', 'artist'):
+            v = re.sub(r'\s*[♦‡†§¶◁▷⁂*^]+\s*$', '', r[f]).strip()
+            v = re.sub(r'["“”]\s*$', '', v).strip() if v.count('"') + v.count('“') + v.count('”') == 1 else v
+            if v != r[f]: skip['(cleaned a footnote mark, kept)'] += 1; r[f] = v
+        if not r['title'] or not r['artist']: skip['empty after cleaning'] += 1; continue
+        # The reader takes a title cell as one title. Three cases where it is not, read from the stray quote marks:
+        t = r['title'].replace('“', '"').replace('”', '"')
+        if re.search(r'"\s*(?:\([^)]*\)|\*)?\s*,\s*"', t):                          # a list of several titles: the page's by-artist summary table
+            skip['several titles in one cell (a by-artist table)'] += 1; continue
+        parts = [x for x in re.split(r'"\s*(?:/\s*)+"', t)] if '"' in t else [t]      # "A" / "B": a double A-side is two songs
+        clean = []
+        for x in parts:
+            m = re.search(r'""|"\s*\(', x)                 # Title" (kana; reading) "Translation: the title ends at that quote
+            if m: x = x[:m.start()]
+            if x.count('"') % 2: x = x[:x.index('"')]         # Title" (#2), Title" (lit. ...): what follows the closing quote is a note
+            x = x.strip().rstrip('(/ ').strip()
+            if x: clean.append(x)
+        if not clean: skip['empty after cleaning'] += 1; continue
+        if len(clean) > 1 or clean[0] != r['title']: skip['(title cleaned or double A-side split, kept)'] += 1
         cc = place(r['page'])
         if not cc: skip['no country: ' + re.sub(r'\d{4}', 'YYYY', r['page'])] += 1; continue
         if SUBSET.search(re.sub(r'\([^)]*\)', '', r['page'])): skip['subset chart: ' + re.sub(r'\d{4}', 'YYYY', r['page'])] += 1; continue
@@ -45,12 +65,13 @@ def main():
             m = re.search(r'(19|20)\d\d', r.get('date') or '')
             if not m: skip['decade page, year not in the row: ' + re.sub(r'\d{4}', 'YYYY', r['page'])] += 1; continue
             year = int(m.group(0))
-        kind = 'year-end' if r['pos'] else 'number one'
-        k = (cc, year, r['artist'].casefold(), r['title'].casefold())
-        if k in seen:                                       # the same song led twice in a year: keep the first row
-            continue
-        seen[k] = 1
-        out.append({'cc': cc, 'year': year, 'kind': kind, 'pos': r['pos'], 'date': r['date'], 'title': r['title'], 'artist': r['artist'], 'page': r['page'], 'url': r['url']})
+        kind = 'year-end' if r['pos'] else 'top ten' if re.search(r'top[- ]ten', r['page'], re.I) else 'number one'
+        for ti in clean:
+            k = (cc, year, r['artist'].casefold(), ti.casefold())
+            if k in seen:                                   # the same song led twice in a year: keep the first row
+                continue
+            seen[k] = 1
+            out.append({'cc': cc, 'year': year, 'kind': kind, 'pos': r['pos'], 'date': r['date'], 'title': ti, 'artist': r['artist'], 'page': r['page'], 'url': r['url']})
     json.dump(out, open(os.path.join(a.out, 'chart.rows.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     per = collections.Counter(x['cc'] for x in out)
     print('rows in', len(R), 'candidates', len(out), 'countries', len(per)); print(' ', dict(per.most_common()))

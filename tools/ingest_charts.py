@@ -13,7 +13,8 @@ What goes in (decisions D7, D8, D16, D22):
 - A link per row with role `charted`: the chart shows the song was heard there; it does not show where the artist
   is from, so the song counts for "Heard there" and not for "Made there" until an origin is recorded.
 - Order (`rank`): a year-end chart by its position, which is also stored as `chart_pos`; a list of weekly number
-  ones in the order the page gives them (the order they first led the chart), with `peak` 1 and the date.
+  ones in the order the page gives them (the order they first led the chart), with `peak` 1 and the date; a list of
+  top-ten entries in the order they entered.
 - A country-year with fewer than six rows is left out: it would replace a fuller decade list with a thin one.
 - No release year is written for a new song: a chart year is only an upper bound (D18).
 - Songs and artists are matched against the master table by exact credit text and exact title; a match reuses the
@@ -23,7 +24,7 @@ What goes in (decisions D7, D8, D16, D22):
   the check's result and date.
 Running it twice changes nothing.
 """
-import argparse, collections, glob, hashlib, json, os, random, sys
+import argparse, collections, glob, hashlib, json, os, random, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = os.path.join(ROOT, 'data')
@@ -96,6 +97,7 @@ def main():
     by_scope, left = collections.OrderedDict(), collections.Counter()
     for r in rows:
         if r['cc'] not in countries: left['country not in data/countries.json'] += 1; continue
+        if re.search(r'"\s*/|/\s*"|" feat', r['title']): left['title still carries a note the cleaning could not remove'] += 1; continue
         if res.get((r['cc'], r['year'], r['artist'], r['title'])) != 'found': left['not found by the check'] += 1; continue
         sid = 'c:%s:%d' % (r['cc'], r['year'])
         if have.get(sid): left['country-year already has a list'] += 1; continue
@@ -110,6 +112,9 @@ def main():
         kinds = {r['kind'] for r in rs}
         if 'year-end' in kinds:                             # a year-end chart outranks a list of number ones for the same year
             rs = sorted((r for r in rs if r['kind'] == 'year-end'), key=lambda r: r['pos'])
+        elif len(kinds) > 1:                                # top-ten entries and number ones for one year: the wider list stands
+            rs = [r for r in rs if r['kind'] == 'top ten']
+            kinds = {'top ten'}
         dec = str(year // 10 * 10)
         for n, r in enumerate(rs, 1):
             key = (r['artist'], r['title'])
@@ -128,11 +133,14 @@ def main():
             l = {'song': s, 'scope': sid, 'role': 'charted', 'rank': n, 'evidence': [ev_by_url[r['url']]], 'scene': '',
                  'quote': r['title'], 'check': {'result': 'found', 'date': cdate}}
             if r['kind'] == 'year-end': l['chart_pos'] = r['pos']; l['chart'] = 'year-end chart'
+            elif r['kind'] == 'top ten':
+                l['chart'] = 'weekly top ten'
+                if r.get('date'): l['entered'] = r['date'][:40]
             else:
                 l['peak'] = 1; l['chart'] = 'weekly number ones'
                 if r.get('date'): l['led_from'] = r['date'][:40]
             links[(cc, dec)].append(l)
-        note = ('Year-end chart positions' if 'year-end' in kinds else 'Weekly number ones in the order they first led the chart') + \
+        note = ('Year-end chart positions' if 'year-end' in kinds else 'Songs that entered the weekly top ten, in the order they entered' if 'top ten' in kinds else 'Weekly number ones in the order they first led the chart') + \
                ', read from Wikipedia\'s list page and checked against it. Where each artist is from is not recorded yet, so these count as heard there only.'
         scopes[(cc, dec)].append({'id': sid, 'status': 'year list', 'note': note})
 
@@ -141,7 +149,7 @@ def main():
           '(%d unsplit)' % sum(1 for x in new_artists if x.get('unsplit')), 'new evidence', len(new_ev))
     for k, n in left.most_common(): print('  left out', n, k)
     per = collections.Counter(s.split(':')[1] for s in by_scope)
-    print('  years per country:', dict(sorted(per.items())))
+    print('  years per country:', dict(sorted(per.items())), flush=True)
     if not a.write:
         print('\nDry run: nothing written. Add --write to write.'); return
 

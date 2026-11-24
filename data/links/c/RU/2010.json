@@ -15,18 +15,5 @@
 {"song":"s_re8xjafymj","scope":"c:RU:2010s","role":"foreign","scene":"dance","confidence":"h"},
 {"song":"s_z96hm66zdf","scope":"c:RU:2010s","role":"foreign","scene":"pop","confidence":"h"},
 {"song":"s_ecfe8766q3","scope":"c:RU:2010s","role":"foreign","scene":"pop","confidence":"h"},
-{"song":"s_6f91b0kecq","scope":"c:RU:2010s","role":"foreign","scene":"pop","confidence":"h"},
-{"song":"s_fw99ec5n5q","scope":"c:RU:2011","role":"charted","rank":1,"evidence":["e_12qbqnkbnw"],"scene":"","quote":"Ya prosto lyublyu tebya","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"3 January"},
-{"song":"s_f3d8mqsqpt","scope":"c:RU:2011","role":"charted","rank":2,"evidence":["e_12qbqnkbnw"],"scene":"","quote":"Mr. Saxobeat","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"7 February"},
-{"song":"s_dfhf4gh681","scope":"c:RU:2011","role":"charted","rank":3,"evidence":["e_12qbqnkbnw"],"scene":"","quote":"Provans","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"21 February"},
-{"song":"s_gz21qcy8tb","scope":"c:RU:2011","role":"charted","rank":4,"evidence":["e_12qbqnkbnw"],"scene":"","quote":"Golaya","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"4 April"},
-{"song":"s_2tqgp9bpc4","scope":"c:RU:2011","role":"charted","rank":5,"evidence":["e_12qbqnkbnw"],"scene":"","quote":"Wet\" (David Guetta Remix)","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"6 June"},
-{"song":"s_vsyrs9ntcs","scope":"c:RU:2011","role":"charted","rank":6,"evidence":["e_12qbqnkbnw"],"scene":"","quote":"Never Be Alone","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"27 June"},
-{"song":"s_92ph50wtrb","scope":"c:RU:2011","role":"charted","rank":7,"evidence":["e_12qbqnkbnw"],"scene":"","quote":"Loca People","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"11 July"},
-{"song":"s_419nd63z0x","scope":"c:RU:2011","role":"charted","rank":8,"evidence":["e_12qbqnkbnw"],"scene":"","quote":"Na bolshom vozdushnom share","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"15 August"},
-{"song":"s_533wg60a7e","scope":"c:RU:2011","role":"charted","rank":9,"evidence":["e_12qbqnkbnw"],"scene":"","quote":"Give Me Everything","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"5 September"},
-{"song":"s_ea83v3q2fh","scope":"c:RU:2011","role":"charted","rank":10,"evidence":["e_12qbqnkbnw"],"scene":"","quote":"Love You like a Love Song","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"26 September"},
-{"song":"s_cvcsjv4pfn","scope":"c:RU:2011","role":"charted","rank":11,"evidence":["e_12qbqnkbnw"],"scene":"","quote":"In the Dark","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"17 October"},
-{"song":"s_2rz6w3xr3s","scope":"c:RU:2011","role":"charted","rank":12,"evidence":["e_12qbqnkbnw"],"scene":"","quote":"Moves Like Jagger","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"7 November"},
-{"song":"s_cq10mjqf4f","scope":"c:RU:2011","role":"charted","rank":13,"evidence":["e_12qbqnkbnw"],"scene":"","quote":"Vyshe","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"21 November"}
+{"song":"s_6f91b0kecq","scope":"c:RU:2010s","role":"foreign","scene":"pop","confidence":"h"}
 ]

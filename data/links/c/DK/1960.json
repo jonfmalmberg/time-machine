@@ -16,15 +16,5 @@
 {"song":"s_3swqxxq8vv","scope":"c:DK:1960s","role":"foreign","scene":"radio","confidence":"m"},
 {"song":"s_0hz0kjp64j","scope":"c:DK:1960s","role":"foreign","scene":"rock","confidence":"m"},
 {"song":"s_frzdhd88ev","scope":"c:DK:1960s","role":"foreign","scene":"rock","confidence":"h"},
-{"song":"s_bpdk1g6mmd","scope":"c:DK:1960s","role":"foreign","scene":"pop","confidence":"h"},
-{"song":"s_yghgy4n1yb","scope":"c:DK:1969","role":"charted","rank":1,"evidence":["e_a70sdkw054"],"scene":"","quote":"Don't Pass Me By","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"No chart"},
-{"song":"s_jkvwyz9es0","scope":"c:DK:1969","role":"charted","rank":2,"evidence":["e_a70sdkw054"],"scene":"","quote":"Casatschok","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"26 April"},
-{"song":"s_gn4xnmvydb","scope":"c:DK:1969","role":"charted","rank":3,"evidence":["e_a70sdkw054"],"scene":"","quote":"Get Back","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"No chart"},
-{"song":"s_6rgjs7f2yk","scope":"c:DK:1969","role":"charted","rank":4,"evidence":["e_a70sdkw054"],"scene":"","quote":"The Ballad of John and Yoko","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"6 June"},
-{"song":"s_bm7qq60kq2","scope":"c:DK:1969","role":"charted","rank":5,"evidence":["e_a70sdkw054"],"scene":"","quote":"Tomorrow Tomorrow","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"3 July"},
-{"song":"s_fwx5p5crmk","scope":"c:DK:1969","role":"charted","rank":6,"evidence":["e_a70sdkw054"],"scene":"","quote":"Honky Tonk Women","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"31 July"},
-{"song":"s_2k0qajpjee","scope":"c:DK:1969","role":"charted","rank":7,"evidence":["e_a70sdkw054"],"scene":"","quote":"Saved by the Bell","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"14 August"},
-{"song":"s_pckz7xjc8v","scope":"c:DK:1969","role":"charted","rank":8,"evidence":["e_a70sdkw054"],"scene":"","quote":"Je t'aime... moi non plus","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"4 September"},
-{"song":"s_w80fmpw76w","scope":"c:DK:1969","role":"charted","rank":9,"evidence":["e_a70sdkw054"],"scene":"","quote":"Sugar, Sugar","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"30 October"},
-{"song":"s_5p39s1z3jm","scope":"c:DK:1969","role":"charted","rank":10,"evidence":["e_a70sdkw054"],"scene":"","quote":"Prøv og drøm noget smukt","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"No chart"}
+{"song":"s_bpdk1g6mmd","scope":"c:DK:1960s","role":"foreign","scene":"pop","confidence":"h"}
 ]

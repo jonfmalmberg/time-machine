@@ -127,7 +127,7 @@ def legacy_data(data_dir):
                 if e not in src_index:
                     src_index[e] = len(ysrc)
                     ysrc.append([evidence[e]['title'], evidence[e]['url']])
-                rows.append(list(pair(l)) + [year(l), l['role'], l['rank'], src_index[e], l.get('source_address', ''), l['scene'], l.get('chart_pos')])
+                rows.append(list(pair(l)) + [year(l), l['role'], l['rank'], src_index[e], l.get('source_address', ''), l['scene'], l.get('chart_pos')] + ([l['chart']] if l.get('role') == 'charted' else []))   # a charted row also says which kind of chart
             # Order of a year list (DECISIONS.md D8, rule version 1). Only where the list has chart positions:
             # charted songs in chart order, then the songs with no chart position in the order they were stored.
             # The number shown as the list order follows the result. Lists with no chart positions are untouched.

@@ -16,14 +16,5 @@
 {"song":"s_essd5j4g76","scope":"c:MX:2020s","role":"foreign","scene":"dance","confidence":"h"},
 {"song":"s_xq1zbybvg3","scope":"c:MX:2020s","role":"foreign","scene":"pop","confidence":"h"},
 {"song":"s_k0acmqz1z8","scope":"c:MX:2020s","role":"foreign","scene":"folk","confidence":"h"},
-{"song":"s_yfmj0cxqwy","scope":"c:MX:2020s","role":"foreign","scene":"pop","confidence":"h"},
-{"song":"s_1t8f6s3390","scope":"c:MX:2020","role":"charted","rank":1,"evidence":["e_6bgsc8w5th"],"scene":"","quote":"Tusa","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"January 2"},
-{"song":"s_mevm6a8d4e","scope":"c:MX:2020","role":"charted","rank":2,"evidence":["e_6bgsc8w5th"],"scene":"","quote":"Si veo a tu mamá","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"March 5"},
-{"song":"s_vn0drggath","scope":"c:MX:2020","role":"charted","rank":3,"evidence":["e_6bgsc8w5th"],"scene":"","quote":"Safaera","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"March 19"},
-{"song":"s_epjv77fdex","scope":"c:MX:2020","role":"charted","rank":4,"evidence":["e_6bgsc8w5th"],"scene":"","quote":"Que maldición","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"May 7"},
-{"song":"s_6v9mgp9m4r","scope":"c:MX:2020","role":"charted","rank":5,"evidence":["e_6bgsc8w5th"],"scene":"","quote":"Azul","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"June 18"},
-{"song":"s_p60fvga0th","scope":"c:MX:2020","role":"charted","rank":6,"evidence":["e_6bgsc8w5th"],"scene":"","quote":"Relación","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"July 2"},
-{"song":"s_awdcfck3t5","scope":"c:MX:2020","role":"charted","rank":7,"evidence":["e_6bgsc8w5th"],"scene":"","quote":"La Jeepeta","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"July 9"},
-{"song":"s_vetsgj7c62","scope":"c:MX:2020","role":"charted","rank":8,"evidence":["e_6bgsc8w5th"],"scene":"","quote":"Hawái","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"August 20"},
-{"song":"s_zfd1306yj4","scope":"c:MX:2020","role":"charted","rank":9,"evidence":["e_6bgsc8w5th"],"scene":"","quote":"Dákiti","check":{"result":"found","date":"2026-11-24"},"peak":1,"chart":"weekly number ones","led_from":"November 5"}
+{"song":"s_yfmj0cxqwy","scope":"c:MX:2020s","role":"foreign","scene":"pop","confidence":"h"}
 ]
