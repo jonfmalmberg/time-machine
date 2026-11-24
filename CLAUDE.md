@@ -23,16 +23,16 @@ The app only succeeds if it feels good to use. Rules here are a floor; the visio
 - All tests must pass before anything is pushed.
 
 ## Branches and approval
-- `main` is the live site. It changes only when the owner explicitly approves a release.
-- `dev` holds features the owner has approved as working. It must always run.
-- Each feature is built on its own branch from `dev` and squash-merged into `dev` after approval.
-- Never commit unfinished or non-running work to `dev` or `main`.
+- Two branches on GitHub, no more: `main` is the live site and changes only when the owner explicitly approves a release; `dev` is where testing goes: it holds what is ready for the owner to try, and he tests it at dev's preview address.
+- The lead works on local branches that are never pushed, shows layout changes as screenshots made locally, then merges into `dev` and pushes `dev` once per review round. There is no `review` branch.
+- `dev` must always run: all tests pass before it is pushed. A release is `main` moved forward to `dev`.
+- Helper branches (`helper/...`) are the only other branches; they touch `work/` alone and do not build.
 
 ## Cloudflare builds are a limited free allowance
-- Every push to GitHub builds. Work and test locally; push a feature branch only when there is something for the owner to review, once per review round.
+- Every push that changes `src/`, `data/`, `build.py` or `wrangler.jsonc` builds. Work and test locally; push `dev` only when there is something for the owner to review, once per review round.
 - Batch data updates (`data/`) into one push.
 - A change to how something looks goes to the owner first as before-and-after screenshots (phone width), made locally. It is pushed only after he has reacted to the pictures. A build is not spent on a first impression of a layout.
-- One demo per review round: everything waiting for the owner goes on the single branch `review` (made from `dev`), pushed once. Not one branch and one build per feature.
+- One demo per review round: everything waiting for the owner goes onto `dev`, pushed once. Not one branch and one build per feature.
 
 ## Reporting to the owner
 - Write to the owner as to a manager: the outcome, what needs his decision, what is blocked. No account of each run, rerun or count unless it changes a decision.
@@ -65,7 +65,7 @@ The app only succeeds if it feels good to use. Rules here are a floor; the visio
 
 ## Helpers
 - A daily scheduled run works as a helper: it takes one assignment from `work/QUEUE.md`, writes only inside `work/`, pushes one `helper/<date>-<id>` branch and reports on the run log issue. Rules, roles and which model does which work are in `work/README.md`.
-- The session the owner talks to is the lead: it is responsible for the project, writes the queue, reviews helper branches at the start of each session, and moves accepted work into `data/`, `src/` or `docs/` on a feature branch.
+- The session the owner talks to is the lead: it is responsible for the project, writes the queue, reviews helper branches at the start of each session, and moves accepted work into `data/`, `src/` or `docs/`.
 - Cloudflare builds only when `src/`, `data/`, `build.py` or `wrangler.jsonc` change (build watch paths), so helper branches and documentation do not use builds.
 
 ## People

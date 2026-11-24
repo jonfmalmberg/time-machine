@@ -4,6 +4,11 @@ The lead's standing choices: what was decided, why, and what is not known. One e
 
 ## 2026-11-23
 
+### D21. Two branches: `main` and `dev` (owner, 24 Nov)
+- **Choice:** `dev` is the test site; `main` is live. The `review` branch is gone. The lead's unfinished work stays on local branches that are never pushed.
+- **Why (owner):** dev is where testing goes; three versions is excessive. `review` existed because an earlier rule kept `dev` for features already approved, so anything awaiting approval needed a third place. That rule bought nothing: the release of 23 Nov built three branches for one commit.
+- **Cost accepted:** `dev` can hold something the owner then rejects. It is fixed forward or reverted on `dev`; `main` is not affected.
+
 ### D20. Accounts open; filter capsule; controls in one corner; the tour holds play (owner, 23 Nov, 23:16 and 23:38)
 - **New accounts are let in at once** (`db/006_open_signups.sql`). Owner: signing in gives a person their travel log, which needs no approval. Approval is for filing issues and voting (roadmap 8.5), which are not built; that gate will be its own flag when they are. The invite functions and the admin "Let in" action remain but no longer have a use for new people. Not known: whether open sign-in draws abuse; the 1,000 cap is the only limit.
 - **A named filter shows as a capsule (a small pill) at top centre** of every content view except its home view. A genre filter's home view is the list, where the genre's entry is marked instead. Reason (owner): the filter tracks across views, so the reminder should too, at the minimum size that reads. With no filter the capsule shows the selected genre (lead's choice, question open).

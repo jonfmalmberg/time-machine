@@ -84,6 +84,42 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Ask:** The lead has decided (principle 27) that two genres belong on the tree: **rways** (Tashelhit professional singer-poets of the Sous, Morocco), separate from `amazighahwashandah`; and **Korean minyo** (Korean folk song), separate from `pungmul` and from the Japanese `minyo`. For each, propose a complete genre record in the shape of `data/genres.json` (read ten existing records and `docs/proposals/2026-11-23-schema.md`, "Genres and the tree"): id, name, region, family, tradition (an existing one, or say why none fits), began, ended, origin (text, latitude, longitude, country), definition (window, sound, three or more markers), one principal parent and at most two others from existing genre ids, and a first estimate of where and when it peaked. Every fact needs a source recorded as `work/README.md` requires (raw page text, exact string) and must pass `python3 tools/check_evidence.py`. Say which songs in `work/2026-11-23-H3/` listed under `pungmul` are Korean minyo and not percussion music. Do not edit `data/`.
 - **Hand back:** `genres.add.json`, `parentage.add.json`, `presence.add.json`, `sources.json`, `evidence-check.json`, and the list of `pungmul` songs to move.
 
+## H16. Where chart artists are from: batch A (Ireland, France, Germany, Italy, Spain, United Kingdom) (roadmap 2.17, decisions D7, D16, D22)
+- **State:** open
+- **Model:** Opus for the run; Sonnet sub-agents may look up artists in parallel, each given a slice of the list and the evidence rule in full.
+- **Why:** the lead is putting national chart songs into place-and-year lists. A chart row shows a song was heard in a country. It does not show where the artist is from, which the "Made there" filter needs. Until an origin is recorded the song is shown as heard there only.
+- **Ask:** `work/2026-11-24-wikicharts/artists.A.json` lists artist credits exactly as the chart pages give them, most chart rows first. Work down the list as far as the run allows. For each credit: split it into the artists it names (a "featuring", "and", "&", "with", "feat." or "/" credit names several; a band name containing "&" is one artist: decide from the artist's own article, never from the punctuation). For each artist find the country they are from: for a person, where they were born or, if the article's first sentence calls them by a nationality, that nationality; for a group, where it was formed. Source order: the artist's English Wikipedia article fetched as raw text (`https://en.wikipedia.org/wiki/<Title>?action=raw`), then the article in the artist's own language the same way. Copy the supporting string character for character from the raw text (the first-sentence phrase, or the infobox `origin` or `birth_place` line). One fetch attempt per source per artist; an artist with no article is listed as not found, not guessed. Do not use what you remember.
+- **Hand back:** `origins.json`: one record per artist `{credit, artist, kind: person|group, country: <two-letter code from data/countries.json>, url, quote, read}` (a person with two nationalities in the first sentence: `country` is a list); `sources.json` in the shape `tools/check_evidence.py` reads (`{"A": [{url, quote, artist, title: ""}]}`) and its `evidence-check.json`; only `found` records in `origins.json`, the rest in `unverified.json` with the reason. In the report: how far down the list you got (the last credit done), counts found, not found and ambiguous, and every credit whose split you were unsure of.
+
+## H17. Where chart artists are from: batch B (rest of Europe)
+- **State:** open
+- **Model, ask, hand back:** as H16 with `artists.B.json` and the key `"B"`.
+
+## H18. Where chart artists are from: batch C (Americas outside the United States, Oceania, Asia, Africa)
+- **State:** open
+- **Model, ask, hand back:** as H16 with `artists.C.json` and the key `"C"`. Many of these artists have their fullest article in Spanish or Portuguese: use it when the English one is missing or silent on origin.
+
+## H19. Where chart artists are from: batch D (United States year-end charts)
+- **State:** open
+- **Model, ask, hand back:** as H16 with `artists.D.json` and the key `"D"`.
+
+## H20. Release years from Wikipedia, part 1 (roadmap 2.16, decision D18)
+- **State:** open
+- **Model:** Opus for the run; Sonnet sub-agents may look up songs in parallel, each given a slice and the evidence rule in full.
+- **Why:** a wrong year puts a song in the wrong decade. Only 1,334 of 10,733 songs have a checked year.
+- **Ask:** `work/2026-11-24-years/songs.1.json` lists 1,200 songs with no checked year, most-used first (`year_on_site` is what the site shows; it is often a reissue year). For each, find the year of first release in this order and stop at the first that answers (decision D18): the song's own Wikipedia article (infobox `released`), the artist's discography article or section (the row for the single), the article of the album it first appeared on. Fetch as raw text (`?action=raw`), English first, then the artist's own language. Copy the supporting string character for character. Two sources at most per song; a song with no source is listed as not found. Do not use MusicBrainz and do not use what you remember.
+- **Hand back:** `years.json`: `{song, year, basis: song article|discography|album article, url, quote, read}`; `sources.json` and `evidence-check.json` as in `work/README.md`; only `found` in `years.json`. In the report: how far you got, counts per basis, and every song where the year found differs from `year_on_site` by more than one year (both years).
+
+## H21. Release years from Wikipedia, part 2
+- **State:** open
+- **Model, ask, hand back:** as H20 with `songs.2.json`.
+
+## H22. Records for six new genres (research note `docs/research/2026-11-24-genre-suggestions.md`, numbers 1 to 6)
+- **State:** open
+- **Model:** Opus.
+- **Ask:** As H14 (read its folder `work/2026-11-23-H14/` for the shape and its report for the standard), for: copla / canción española; dōyō; música guajira / punto cubano; nanguan / nanyin; modern Amazigh band music; batuku (with finaçon and tabanka as sub-genres). For each propose the genre record, its parent on the tree with the reason, where and when it was present, a definition with evidence, and a first playlist with evidence.
+- **Hand back:** as H14.
+
 ## H15. Genre research, batch 7
 - **State:** on hold 2026-11-23 (lead): 56 researched genres wait for ingest; no more genre batches until that is reviewed.
 - **Model, ask, hand back:** as H12, the next eight pending genres (skip every genre already in a `work/*/defs.add.json`). In the report, count for each genre how many songs are tied to it only by a track or album title, and try one further source (liner notes, a label page, a national library or archive catalogue) for each such song before accepting it.

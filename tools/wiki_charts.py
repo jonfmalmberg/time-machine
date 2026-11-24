@@ -153,11 +153,14 @@ def rows_of(title):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('titles', nargs='*'); ap.add_argument('--family'); ap.add_argument('--out')
     ap.add_argument('--list', help='a JSON file: {family prefix: [page titles]}; reads every page in it')
+    ap.add_argument('--cached-only', action='store_true', help='read only pages already in .cache/wiki (no requests)')
     a = ap.parse_args()
     titles = list(a.titles) + (family(a.family) if a.family else [])
     if a.list:
         titles += [t for v in json.load(open(a.list, encoding='utf-8')).values() for t in v]
     titles = list(dict.fromkeys(titles))
+    if a.cached_only:
+        titles = [t for t in titles if os.path.exists(os.path.join(CACHE, re.sub(r'[^\w.-]+', '_', t) + '.html'))]
     allrows, empty, dropped = [], [], 0
     for t in titles:
         try:

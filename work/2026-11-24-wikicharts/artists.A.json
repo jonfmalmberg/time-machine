@@ -1,0 +1,9486 @@
+[
+{
+"artist": "Madonna",
+"rows": 57
+},
+{
+"artist": "Michael Jackson",
+"rows": 51
+},
+{
+"artist": "The Beatles",
+"rows": 43
+},
+{
+"artist": "U2",
+"rows": 38
+},
+{
+"artist": "Johnny Hallyday",
+"rows": 35
+},
+{
+"artist": "ABBA",
+"rows": 26
+},
+{
+"artist": "Adriano Celentano",
+"rows": 24
+},
+{
+"artist": "Dalida",
+"rows": 20
+},
+{
+"artist": "Elvis Presley",
+"rows": 18
+},
+{
+"artist": "Mariah Carey",
+"rows": 17
+},
+{
+"artist": "Adele",
+"rows": 17
+},
+{
+"artist": "No release",
+"rows": 17
+},
+{
+"artist": "Bee Gees",
+"rows": 16
+},
+{
+"artist": "George Michael",
+"rows": 16
+},
+{
+"artist": "Depeche Mode",
+"rows": 16
+},
+{
+"artist": "Ed Sheeran",
+"rows": 16
+},
+{
+"artist": "Sheila",
+"rows": 15
+},
+{
+"artist": "Michel Sardou",
+"rows": 15
+},
+{
+"artist": "Elton John",
+"rows": 15
+},
+{
+"artist": "Céline Dion",
+"rows": 15
+},
+{
+"artist": "Britney Spears",
+"rows": 15
+},
+{
+"artist": "Gianni Morandi",
+"rows": 15
+},
+{
+"artist": "Boney M.",
+"rows": 14
+},
+{
+"artist": "Cliff Richard",
+"rows": 13
+},
+{
+"artist": "Pet Shop Boys",
+"rows": 13
+},
+{
+"artist": "Westlife",
+"rows": 13
+},
+{
+"artist": "The Black Eyed Peas",
+"rows": 13
+},
+{
+"artist": "Lucio Battisti",
+"rows": 13
+},
+{
+"artist": "The Rolling Stones",
+"rows": 12
+},
+{
+"artist": "Tom Jones",
+"rows": 12
+},
+{
+"artist": "Miguel Bosé",
+"rows": 12
+},
+{
+"artist": "Whitney Houston",
+"rows": 12
+},
+{
+"artist": "Les Enfoirés",
+"rows": 12
+},
+{
+"artist": "Eminem",
+"rows": 12
+},
+{
+"artist": "Jovanotti",
+"rows": 12
+},
+{
+"artist": "Richard Anthony",
+"rows": 11
+},
+{
+"artist": "Dúo Dinámico",
+"rows": 11
+},
+{
+"artist": "Claude François",
+"rows": 11
+},
+{
+"artist": "Wham!",
+"rows": 11
+},
+{
+"artist": "Modern Talking",
+"rows": 11
+},
+{
+"artist": "Kylie Minogue",
+"rows": 11
+},
+{
+"artist": "Boyzone",
+"rows": 11
+},
+{
+"artist": "Oasis",
+"rows": 11
+},
+{
+"artist": "Robbie Williams",
+"rows": 11
+},
+{
+"artist": "Freddy Quinn",
+"rows": 11
+},
+{
+"artist": "Charles Aznavour",
+"rows": 10
+},
+{
+"artist": "Sylvie Vartan",
+"rows": 10
+},
+{
+"artist": "Salvatore Adamo",
+"rows": 10
+},
+{
+"artist": "Rita Pavone",
+"rows": 10
+},
+{
+"artist": "Stevie Wonder",
+"rows": 10
+},
+{
+"artist": "Mylène Farmer",
+"rows": 10
+},
+{
+"artist": "Take That",
+"rows": 10
+},
+{
+"artist": "Taylor Swift",
+"rows": 10
+},
+{
+"artist": "Vasco Rossi",
+"rows": 10
+},
+{
+"artist": "Culture Club",
+"rows": 9
+},
+{
+"artist": "Bruce Springsteen",
+"rows": 9
+},
+{
+"artist": "Rick Astley",
+"rows": 9
+},
+{
+"artist": "Rihanna",
+"rows": 9
+},
+{
+"artist": "Lady Gaga",
+"rows": 9
+},
+{
+"artist": "Apache 207",
+"rows": 9
+},
+{
+"artist": "Petula Clark",
+"rows": 8
+},
+{
+"artist": "Mina",
+"rows": 8
+},
+{
+"artist": "Dickie Rock",
+"rows": 8
+},
+{
+"artist": "Julio Iglesias",
+"rows": 8
+},
+{
+"artist": "Camilo Sesto",
+"rows": 8
+},
+{
+"artist": "Sweet",
+"rows": 8
+},
+{
+"artist": "Queen",
+"rows": 8
+},
+{
+"artist": "Falco",
+"rows": 8
+},
+{
+"artist": "Florent Pagny",
+"rows": 8
+},
+{
+"artist": "Jive Bunny and the Mastermixers",
+"rows": 8
+},
+{
+"artist": "Snap!",
+"rows": 8
+},
+{
+"artist": "Patrick Bruel",
+"rows": 8
+},
+{
+"artist": "Cher",
+"rows": 8
+},
+{
+"artist": "Spice Girls",
+"rows": 8
+},
+{
+"artist": "Connie Francis",
+"rows": 7
+},
+{
+"artist": "Paul McCartney",
+"rows": 7
+},
+{
+"artist": "Slade",
+"rows": 7
+},
+{
+"artist": "John Lennon",
+"rows": 7
+},
+{
+"artist": "Boney M",
+"rows": 7
+},
+{
+"artist": "Umberto Tozzi",
+"rows": 7
+},
+{
+"artist": "The Police",
+"rows": 7
+},
+{
+"artist": "Iván",
+"rows": 7
+},
+{
+"artist": "Mecano",
+"rows": 7
+},
+{
+"artist": "Frankie Goes to Hollywood",
+"rows": 7
+},
+{
+"artist": "Alaska y Dinarama",
+"rows": 7
+},
+{
+"artist": "The Communards",
+"rows": 7
+},
+{
+"artist": "Enigma",
+"rows": 7
+},
+{
+"artist": "Ace of Base",
+"rows": 7
+},
+{
+"artist": "Eros Ramazzotti",
+"rows": 7
+},
+{
+"artist": "Ricky Martin",
+"rows": 7
+},
+{
+"artist": "Backstreet Boys",
+"rows": 7
+},
+{
+"artist": "Shakira",
+"rows": 7
+},
+{
+"artist": "Crazy Frog",
+"rows": 7
+},
+{
+"artist": "Stromae",
+"rows": 7
+},
+{
+"artist": "Olivia Rodrigo",
+"rows": 7
+},
+{
+"artist": "Capital Bra",
+"rows": 7
+},
+{
+"artist": "Paul Anka",
+"rows": 6
+},
+{
+"artist": "Roy Orbison",
+"rows": 6
+},
+{
+"artist": "France Gall",
+"rows": 6
+},
+{
+"artist": "Mireille Mathieu",
+"rows": 6
+},
+{
+"artist": "Joe Dassin",
+"rows": 6
+},
+{
+"artist": "George Harrison",
+"rows": 6
+},
+{
+"artist": "Gilbert O'Sullivan",
+"rows": 6
+},
+{
+"artist": "Rod Stewart",
+"rows": 6
+},
+{
+"artist": "Barbra Streisand",
+"rows": 6
+},
+{
+"artist": "Phil Collins",
+"rows": 6
+},
+{
+"artist": "Irene Cara",
+"rows": 6
+},
+{
+"artist": "Europe",
+"rows": 6
+},
+{
+"artist": "Los Lobos",
+"rows": 6
+},
+{
+"artist": "Kaoma",
+"rows": 6
+},
+{
+"artist": "Freddie Mercury",
+"rows": 6
+},
+{
+"artist": "Scatman John",
+"rows": 6
+},
+{
+"artist": "Aqua",
+"rows": 6
+},
+{
+"artist": "Manu Chao",
+"rows": 6
+},
+{
+"artist": "Alizée",
+"rows": 6
+},
+{
+"artist": "Star Academy 2",
+"rows": 6
+},
+{
+"artist": "Katy Perry",
+"rows": 6
+},
+{
+"artist": "One Direction",
+"rows": 6
+},
+{
+"artist": "Peter Alexander",
+"rows": 6
+},
+{
+"artist": "Roy Black",
+"rows": 6
+},
+{
+"artist": "Claudio Baglioni",
+"rows": 6
+},
+{
+"artist": "Renato Zero",
+"rows": 6
+},
+{
+"artist": "Françoise Hardy",
+"rows": 5
+},
+{
+"artist": "Brendan Bowyer",
+"rows": 5
+},
+{
+"artist": "Luis Aguilé",
+"rows": 5
+},
+{
+"artist": "Los Brincos",
+"rows": 5
+},
+{
+"artist": "Jimmy Fontana",
+"rows": 5
+},
+{
+"artist": "Michel Polnareff",
+"rows": 5
+},
+{
+"artist": "Joe Dolan",
+"rows": 5
+},
+{
+"artist": "Procol Harum",
+"rows": 5
+},
+{
+"artist": "Engelbert Humperdinck",
+"rows": 5
+},
+{
+"artist": "Mary Hopkin",
+"rows": 5
+},
+{
+"artist": "Mungo Jerry",
+"rows": 5
+},
+{
+"artist": "T. Rex",
+"rows": 5
+},
+{
+"artist": "Brendan Shine",
+"rows": 5
+},
+{
+"artist": "Mocedades",
+"rows": 5
+},
+{
+"artist": "Demis Roussos",
+"rows": 5
+},
+{
+"artist": "Brotherhood of Man",
+"rows": 5
+},
+{
+"artist": "Smokie",
+"rows": 5
+},
+{
+"artist": "Chicago",
+"rows": 5
+},
+{
+"artist": "Matia Bazar",
+"rows": 5
+},
+{
+"artist": "Village People",
+"rows": 5
+},
+{
+"artist": "Francis Cabrel",
+"rows": 5
+},
+{
+"artist": "The Buggles",
+"rows": 5
+},
+{
+"artist": "Nana Mouskouri",
+"rows": 5
+},
+{
+"artist": "Orchestral Manoeuvres in the Dark",
+"rows": 5
+},
+{
+"artist": "F. R. David",
+"rows": 5
+},
+{
+"artist": "Mike Oldfield",
+"rows": 5
+},
+{
+"artist": "Tino Casal",
+"rows": 5
+},
+{
+"artist": "Lionel Richie",
+"rows": 5
+},
+{
+"artist": "Duran Duran",
+"rows": 5
+},
+{
+"artist": "The Bangles",
+"rows": 5
+},
+{
+"artist": "Glenn Medeiros",
+"rows": 5
+},
+{
+"artist": "Jason Donovan",
+"rows": 5
+},
+{
+"artist": "Londonbeat",
+"rows": 5
+},
+{
+"artist": "Bryan Adams",
+"rows": 5
+},
+{
+"artist": "Jordy",
+"rows": 5
+},
+{
+"artist": "2 Unlimited",
+"rows": 5
+},
+{
+"artist": "Haddaway",
+"rows": 5
+},
+{
+"artist": "Whigfield",
+"rows": 5
+},
+{
+"artist": "Robert Miles",
+"rows": 5
+},
+{
+"artist": "Bunbury",
+"rows": 5
+},
+{
+"artist": "Eiffel 65",
+"rows": 5
+},
+{
+"artist": "Lou Bega",
+"rows": 5
+},
+{
+"artist": "Enrique Iglesias",
+"rows": 5
+},
+{
+"artist": "Anastacia",
+"rows": 5
+},
+{
+"artist": "Mónica Naranjo",
+"rows": 5
+},
+{
+"artist": "Yannick Noah",
+"rows": 5
+},
+{
+"artist": "Indochine",
+"rows": 5
+},
+{
+"artist": "Las Ketchup",
+"rows": 5
+},
+{
+"artist": "Aventura",
+"rows": 5
+},
+{
+"artist": "Fangoria",
+"rows": 5
+},
+{
+"artist": "Leona Lewis",
+"rows": 5
+},
+{
+"artist": "Eminem featuring Rihanna",
+"rows": 5
+},
+{
+"artist": "Various artists",
+"rows": 5
+},
+{
+"artist": "Avicii",
+"rows": 5
+},
+{
+"artist": "Pharrell Williams",
+"rows": 5
+},
+{
+"artist": "Ariana Grande",
+"rows": 5
+},
+{
+"artist": "Billy Vaughn",
+"rows": 5
+},
+{
+"artist": "Heintje",
+"rows": 5
+},
+{
+"artist": "Pooh",
+"rows": 5
+},
+{
+"artist": "Die Ärzte",
+"rows": 5
+},
+{
+"artist": "Marco Mengoni",
+"rows": 5
+},
+{
+"artist": "Shirin David",
+"rows": 5
+},
+{
+"artist": "Sandie Shaw",
+"rows": 4
+},
+{
+"artist": "Manfred Mann",
+"rows": 4
+},
+{
+"artist": "Frank Sinatra",
+"rows": 4
+},
+{
+"artist": "The Kinks",
+"rows": 4
+},
+{
+"artist": "The Bee Gees",
+"rows": 4
+},
+{
+"artist": "Pop-Tops",
+"rows": 4
+},
+{
+"artist": "Michel Delpech",
+"rows": 4
+},
+{
+"artist": "The Archies",
+"rows": 4
+},
+{
+"artist": "Ennio Morricone",
+"rows": 4
+},
+{
+"artist": "Víctor Manuel",
+"rows": 4
+},
+{
+"artist": "Miguel Ríos",
+"rows": 4
+},
+{
+"artist": "Los Diablos",
+"rows": 4
+},
+{
+"artist": "Middle of the Road",
+"rows": 4
+},
+{
+"artist": "Red Hurley",
+"rows": 4
+},
+{
+"artist": "Mike Brant",
+"rows": 4
+},
+{
+"artist": "Suzi Quatro",
+"rows": 4
+},
+{
+"artist": "Riccardo Cocciante",
+"rows": 4
+},
+{
+"artist": "Wings",
+"rows": 4
+},
+{
+"artist": "Santa Esmeralda",
+"rows": 4
+},
+{
+"artist": "Status Quo",
+"rows": 4
+},
+{
+"artist": "Oliver Onions",
+"rows": 4
+},
+{
+"artist": "Bonnie Tyler",
+"rows": 4
+},
+{
+"artist": "John Travolta and Olivia Newton-John",
+"rows": 4
+},
+{
+"artist": "Patrick Hernandez",
+"rows": 4
+},
+{
+"artist": "Pink Floyd",
+"rows": 4
+},
+{
+"artist": "José Luis Perales",
+"rows": 4
+},
+{
+"artist": "Shakin' Stevens",
+"rows": 4
+},
+{
+"artist": "Imagination",
+"rows": 4
+},
+{
+"artist": "Claudia Mori",
+"rows": 4
+},
+{
+"artist": "Renaud",
+"rows": 4
+},
+{
+"artist": "Paul Young",
+"rows": 4
+},
+{
+"artist": "Gary Low",
+"rows": 4
+},
+{
+"artist": "Band Aid",
+"rows": 4
+},
+{
+"artist": "La Unión",
+"rows": 4
+},
+{
+"artist": "USA for Africa",
+"rows": 4
+},
+{
+"artist": "Opus",
+"rows": 4
+},
+{
+"artist": "Tina Turner",
+"rows": 4
+},
+{
+"artist": "Guns N' Roses",
+"rows": 4
+},
+{
+"artist": "Roxette",
+"rows": 4
+},
+{
+"artist": "François Feldman",
+"rows": 4
+},
+{
+"artist": "Various Artists",
+"rows": 4
+},
+{
+"artist": "Bon Jovi",
+"rows": 4
+},
+{
+"artist": "The Outhere Brothers",
+"rows": 4
+},
+{
+"artist": "Celine Dion",
+"rows": 4
+},
+{
+"artist": "Corona",
+"rows": 4
+},
+{
+"artist": "Coolio featuring L.V.",
+"rows": 4
+},
+{
+"artist": "Aerosmith",
+"rows": 4
+},
+{
+"artist": "Manau",
+"rows": 4
+},
+{
+"artist": "Pascal Obispo",
+"rows": 4
+},
+{
+"artist": "Des'ree",
+"rows": 4
+},
+{
+"artist": "Hélène Ségara",
+"rows": 4
+},
+{
+"artist": "Bloodhound Gang",
+"rows": 4
+},
+{
+"artist": "Star Academy",
+"rows": 4
+},
+{
+"artist": "Dido",
+"rows": 4
+},
+{
+"artist": "Lorie",
+"rows": 4
+},
+{
+"artist": "Jennifer Lopez",
+"rows": 4
+},
+{
+"artist": "Pink",
+"rows": 4
+},
+{
+"artist": "Loona",
+"rows": 4
+},
+{
+"artist": "t.A.T.u.",
+"rows": 4
+},
+{
+"artist": "Chimène Badi",
+"rows": 4
+},
+{
+"artist": "O-Zone",
+"rows": 4
+},
+{
+"artist": "Band Aid 20",
+"rows": 4
+},
+{
+"artist": "Rammstein",
+"rows": 4
+},
+{
+"artist": "Shakira featuring Wyclef Jean",
+"rows": 4
+},
+{
+"artist": "The Cure",
+"rows": 4
+},
+{
+"artist": "Christophe Maé",
+"rows": 4
+},
+{
+"artist": "Little Mix",
+"rows": 4
+},
+{
+"artist": "Gotye featuring Kimbra",
+"rows": 4
+},
+{
+"artist": "Ellie Goulding",
+"rows": 4
+},
+{
+"artist": "The Weeknd",
+"rows": 4
+},
+{
+"artist": "Justin Bieber",
+"rows": 4
+},
+{
+"artist": "Clean Bandit featuring Sean Paul and Anne-Marie",
+"rows": 4
+},
+{
+"artist": "Dua Lipa",
+"rows": 4
+},
+{
+"artist": "Drake",
+"rows": 4
+},
+{
+"artist": "Ava Max",
+"rows": 4
+},
+{
+"artist": "Lewis Capaldi",
+"rows": 4
+},
+{
+"artist": "Tones and I",
+"rows": 4
+},
+{
+"artist": "Billie Eilish",
+"rows": 4
+},
+{
+"artist": "Sabrina Carpenter",
+"rows": 4
+},
+{
+"artist": "Domenico Modugno",
+"rows": 4
+},
+{
+"artist": "Bernd Spier",
+"rows": 4
+},
+{
+"artist": "Drafi Deutscher",
+"rows": 4
+},
+{
+"artist": "Bobby Solo",
+"rows": 4
+},
+{
+"artist": "I Camaleonti",
+"rows": 4
+},
+{
+"artist": "Laura Pausini",
+"rows": 4
+},
+{
+"artist": "No Angels",
+"rows": 4
+},
+{
+"artist": "Tiziano Ferro",
+"rows": 4
+},
+{
+"artist": "Tokio Hotel",
+"rows": 4
+},
+{
+"artist": "Michel Teló",
+"rows": 4
+},
+{
+"artist": "Compilation",
+"rows": 4
+},
+{
+"artist": "will.i.am featuring Britney Spears",
+"rows": 4
+},
+{
+"artist": "Maître Gims",
+"rows": 4
+},
+{
+"artist": "David Guetta featuring Sam Martin",
+"rows": 4
+},
+{
+"artist": "Sfera Ebbasta",
+"rows": 4
+},
+{
+"artist": "Samra",
+"rows": 4
+},
+{
+"artist": "Bonez MC",
+"rows": 4
+},
+{
+"artist": "Annie Cordy",
+"rows": 3
+},
+{
+"artist": "Les Compagnons de la chanson",
+"rows": 3
+},
+{
+"artist": "Enrico Macias",
+"rows": 3
+},
+{
+"artist": "Jim Reeves",
+"rows": 3
+},
+{
+"artist": "The Searchers",
+"rows": 3
+},
+{
+"artist": "Butch Moore",
+"rows": 3
+},
+{
+"artist": "Gigliola Cinquetti",
+"rows": 3
+},
+{
+"artist": "Christophe",
+"rows": 3
+},
+{
+"artist": "Jacques Dutronc",
+"rows": 3
+},
+{
+"artist": "Nancy Sinatra",
+"rows": 3
+},
+{
+"artist": "Johnny McEvoy",
+"rows": 3
+},
+{
+"artist": "Raphael",
+"rows": 3
+},
+{
+"artist": "Los Bravos",
+"rows": 3
+},
+{
+"artist": "The Monkees",
+"rows": 3
+},
+{
+"artist": "Scott McKenzie",
+"rows": 3
+},
+{
+"artist": "Danny Doyle",
+"rows": 3
+},
+{
+"artist": "Pat Lynch",
+"rows": 3
+},
+{
+"artist": "The Moody Blues",
+"rows": 3
+},
+{
+"artist": "Aphrodite's Child",
+"rows": 3
+},
+{
+"artist": "Zager & Evans",
+"rows": 3
+},
+{
+"artist": "Creedence Clearwater Revival",
+"rows": 3
+},
+{
+"artist": "Barry Ryan",
+"rows": 3
+},
+{
+"artist": "Dermot Henry",
+"rows": 3
+},
+{
+"artist": "Nino Bravo",
+"rows": 3
+},
+{
+"artist": "The New Seekers",
+"rows": 3
+},
+{
+"artist": "Diana Ross",
+"rows": 3
+},
+{
+"artist": "Gérard Lenorman",
+"rows": 3
+},
+{
+"artist": "Don McLean",
+"rows": 3
+},
+{
+"artist": "Thin Lizzy",
+"rows": 3
+},
+{
+"artist": "Jeanette",
+"rows": 3
+},
+{
+"artist": "Frédéric François",
+"rows": 3
+},
+{
+"artist": "10cc",
+"rows": 3
+},
+{
+"artist": "Roberto Carlos",
+"rows": 3
+},
+{
+"artist": "Carl Douglas",
+"rows": 3
+},
+{
+"artist": "Mud",
+"rows": 3
+},
+{
+"artist": "Jean-Claude Borelly",
+"rows": 3
+},
+{
+"artist": "Santana",
+"rows": 3
+},
+{
+"artist": "Laurent Voulzy",
+"rows": 3
+},
+{
+"artist": "Sheila and Black Devotion",
+"rows": 3
+},
+{
+"artist": "Baccara",
+"rows": 3
+},
+{
+"artist": "Kate Bush",
+"rows": 3
+},
+{
+"artist": "Blondie",
+"rows": 3
+},
+{
+"artist": "Electric Light Orchestra",
+"rows": 3
+},
+{
+"artist": "Ana Belén",
+"rows": 3
+},
+{
+"artist": "Madness",
+"rows": 3
+},
+{
+"artist": "Lipps Inc.",
+"rows": 3
+},
+{
+"artist": "The Korgis",
+"rows": 3
+},
+{
+"artist": "Goombay Dance Band",
+"rows": 3
+},
+{
+"artist": "Richard Sanderson",
+"rows": 3
+},
+{
+"artist": "Alain Bashung",
+"rows": 3
+},
+{
+"artist": "Kim Carnes",
+"rows": 3
+},
+{
+"artist": "Ottawan",
+"rows": 3
+},
+{
+"artist": "Nikka Costa",
+"rows": 3
+},
+{
+"artist": "Musical Youth",
+"rows": 3
+},
+{
+"artist": "Eddy Grant",
+"rows": 3
+},
+{
+"artist": "Al Bano and Romina Power",
+"rows": 3
+},
+{
+"artist": "The Flying Pickets",
+"rows": 3
+},
+{
+"artist": "Gazebo",
+"rows": 3
+},
+{
+"artist": "Rockwell",
+"rows": 3
+},
+{
+"artist": "Jeanne Mas",
+"rows": 3
+},
+{
+"artist": "Scorpions",
+"rows": 3
+},
+{
+"artist": "Chris de Burgh",
+"rows": 3
+},
+{
+"artist": "Nena",
+"rows": 3
+},
+{
+"artist": "Evelyn Thomas",
+"rows": 3
+},
+{
+"artist": "Baltimora",
+"rows": 3
+},
+{
+"artist": "Paul Hardcastle",
+"rows": 3
+},
+{
+"artist": "Jennifer Rush",
+"rows": 3
+},
+{
+"artist": "Dire Straits",
+"rows": 3
+},
+{
+"artist": "Simply Red",
+"rows": 3
+},
+{
+"artist": "Vanessa Paradis",
+"rows": 3
+},
+{
+"artist": "Desireless",
+"rows": 3
+},
+{
+"artist": "Bros",
+"rows": 3
+},
+{
+"artist": "Fairground Attraction",
+"rows": 3
+},
+{
+"artist": "Wet Wet Wet",
+"rows": 3
+},
+{
+"artist": "Enya",
+"rows": 3
+},
+{
+"artist": "Ofra Haza",
+"rows": 3
+},
+{
+"artist": "Milli Vanilli",
+"rows": 3
+},
+{
+"artist": "Simple Minds",
+"rows": 3
+},
+{
+"artist": "Technotronic",
+"rows": 3
+},
+{
+"artist": "Sinéad O'Connor",
+"rows": 3
+},
+{
+"artist": "The Saw Doctors",
+"rows": 3
+},
+{
+"artist": "Zig and Zag",
+"rows": 3
+},
+{
+"artist": "Shaggy",
+"rows": 3
+},
+{
+"artist": "Culture Beat",
+"rows": 3
+},
+{
+"artist": "Meat Loaf",
+"rows": 3
+},
+{
+"artist": "Alain Souchon",
+"rows": 3
+},
+{
+"artist": "East 17",
+"rows": 3
+},
+{
+"artist": "Dustin",
+"rows": 3
+},
+{
+"artist": "Scooter",
+"rows": 3
+},
+{
+"artist": "The Cranberries",
+"rows": 3
+},
+{
+"artist": "Coolio feat. L.V.",
+"rows": 3
+},
+{
+"artist": "Annie Lennox",
+"rows": 3
+},
+{
+"artist": "Babylon Zoo",
+"rows": 3
+},
+{
+"artist": "Gala",
+"rows": 3
+},
+{
+"artist": "Will Smith",
+"rows": 3
+},
+{
+"artist": "Notre Dame de Paris",
+"rows": 3
+},
+{
+"artist": "Run-D.M.C. vs. Jason Nevins",
+"rows": 3
+},
+{
+"artist": "Gloria Estefan",
+"rows": 3
+},
+{
+"artist": "Lara Fabian",
+"rows": 3
+},
+{
+"artist": "Jean-Jacques Goldman",
+"rows": 3
+},
+{
+"artist": "Emilia",
+"rows": 3
+},
+{
+"artist": "The Offspring",
+"rows": 3
+},
+{
+"artist": "Ronan Keating",
+"rows": 3
+},
+{
+"artist": "Chayanne",
+"rows": 3
+},
+{
+"artist": "Christina Aguilera",
+"rows": 3
+},
+{
+"artist": "Placebo",
+"rows": 3
+},
+{
+"artist": "MC Solaar",
+"rows": 3
+},
+{
+"artist": "Geri Halliwell",
+"rows": 3
+},
+{
+"artist": "L5",
+"rows": 3
+},
+{
+"artist": "Björk",
+"rows": 3
+},
+{
+"artist": "Jamiroquai",
+"rows": 3
+},
+{
+"artist": "Atomic Kitten",
+"rows": 3
+},
+{
+"artist": "The Chemical Brothers",
+"rows": 3
+},
+{
+"artist": "David Bisbal",
+"rows": 3
+},
+{
+"artist": "Tragédie",
+"rows": 3
+},
+{
+"artist": "Star Academy 3",
+"rows": 3
+},
+{
+"artist": "Diam's",
+"rows": 3
+},
+{
+"artist": "Calogero",
+"rows": 3
+},
+{
+"artist": "Eamon",
+"rows": 3
+},
+{
+"artist": "Eric Prydz",
+"rows": 3
+},
+{
+"artist": "James Blunt",
+"rows": 3
+},
+{
+"artist": "Akon",
+"rows": 3
+},
+{
+"artist": "Iron Maiden",
+"rows": 3
+},
+{
+"artist": "Juanes",
+"rows": 3
+},
+{
+"artist": "Shayne Ward",
+"rows": 3
+},
+{
+"artist": "Beyoncé",
+"rows": 3
+},
+{
+"artist": "U2 and Green Day",
+"rows": 3
+},
+{
+"artist": "Melanie C",
+"rows": 3
+},
+{
+"artist": "Mika",
+"rows": 3
+},
+{
+"artist": "Jennifer Lopez featuring Pitbull",
+"rows": 3
+},
+{
+"artist": "James Arthur",
+"rows": 3
+},
+{
+"artist": "Passenger",
+"rows": 3
+},
+{
+"artist": "Pink featuring Nate Ruess",
+"rows": 3
+},
+{
+"artist": "Robin Thicke featuring T.I. and Pharrell",
+"rows": 3
+},
+{
+"artist": "Mark Ronson featuring Bruno Mars",
+"rows": 3
+},
+{
+"artist": "Wiz Khalifa featuring Charlie Puth",
+"rows": 3
+},
+{
+"artist": "Lil Nas X",
+"rows": 3
+},
+{
+"artist": "Shawn Mendes and Camila Cabello",
+"rows": 3
+},
+{
+"artist": "Harry Styles",
+"rows": 3
+},
+{
+"artist": "Noah Kahan",
+"rows": 3
+},
+{
+"artist": "Hozier",
+"rows": 3
+},
+{
+"artist": "Gracie Abrams",
+"rows": 3
+},
+{
+"artist": "Kingfishr",
+"rows": 3
+},
+{
+"artist": "Nico Fidenco",
+"rows": 3
+},
+{
+"artist": "Pino Donaggio",
+"rows": 3
+},
+{
+"artist": "Equipe 84",
+"rows": 3
+},
+{
+"artist": "Dik Dik",
+"rows": 3
+},
+{
+"artist": "Mal",
+"rows": 3
+},
+{
+"artist": "Nicola Di Bari",
+"rows": 3
+},
+{
+"artist": "The Sweet",
+"rows": 3
+},
+{
+"artist": "Pop Tops",
+"rows": 3
+},
+{
+"artist": "Massimo Ranieri",
+"rows": 3
+},
+{
+"artist": "Lucio Dalla",
+"rows": 3
+},
+{
+"artist": "Alan Sorrenti",
+"rows": 3
+},
+{
+"artist": "Gianna Nannini",
+"rows": 3
+},
+{
+"artist": "Francesco Salvi",
+"rows": 3
+},
+{
+"artist": "Rednex",
+"rows": 3
+},
+{
+"artist": "Lene Marlin",
+"rows": 3
+},
+{
+"artist": "Sarah Connor",
+"rows": 3
+},
+{
+"artist": "Giusy Ferreri",
+"rows": 3
+},
+{
+"artist": "Arisa",
+"rows": 3
+},
+{
+"artist": "Emma",
+"rows": 3
+},
+{
+"artist": "Psy",
+"rows": 3
+},
+{
+"artist": "Daft Punk featuring Pharrell Williams",
+"rows": 3
+},
+{
+"artist": "Cro",
+"rows": 3
+},
+{
+"artist": "Klingande",
+"rows": 3
+},
+{
+"artist": "Ghali",
+"rows": 3
+},
+{
+"artist": "Salmo",
+"rows": 3
+},
+{
+"artist": "Mero",
+"rows": 3
+},
+{
+"artist": "Måneskin",
+"rows": 3
+},
+{
+"artist": "Capital Bra and Samra",
+"rows": 3
+},
+{
+"artist": "Anna",
+"rows": 3
+},
+{
+"artist": "Twenty4tim",
+"rows": 3
+},
+{
+"artist": "Pinguini Tattici Nucleari",
+"rows": 3
+},
+{
+"artist": "Ayliva",
+"rows": 3
+},
+{
+"artist": "Shiva",
+"rows": 3
+},
+{
+"artist": "Bad Bunny",
+"rows": 3
+},
+{
+"artist": "Eddie and Tania Constantine",
+"rows": 2
+},
+{
+"artist": "Lucienne Delyle",
+"rows": 2
+},
+{
+"artist": "Darío Moreno",
+"rows": 2
+},
+{
+"artist": "The Platters",
+"rows": 2
+},
+{
+"artist": "Kalin Twins",
+"rows": 2
+},
+{
+"artist": "Henri Tisot",
+"rows": 2
+},
+{
+"artist": "The Brothers Four",
+"rows": 2
+},
+{
+"artist": "Antonio Prieto",
+"rows": 2
+},
+{
+"artist": "Lucho Gatica",
+"rows": 2
+},
+{
+"artist": "The Tornados",
+"rows": 2
+},
+{
+"artist": "Frank Ifield",
+"rows": 2
+},
+{
+"artist": "Gilbert Becaud",
+"rows": 2
+},
+{
+"artist": "Los Hermanos Rigual",
+"rows": 2
+},
+{
+"artist": "Gerry & the Pacemakers",
+"rows": 2
+},
+{
+"artist": "Enrique Guzmán",
+"rows": 2
+},
+{
+"artist": "The Dave Clark Five",
+"rows": 2
+},
+{
+"artist": "Les Surfs",
+"rows": 2
+},
+{
+"artist": "Mikis Theodorakis",
+"rows": 2
+},
+{
+"artist": "Chris Andrews",
+"rows": 2
+},
+{
+"artist": "Larry Cunningham",
+"rows": 2
+},
+{
+"artist": "Caterina Caselli",
+"rows": 2
+},
+{
+"artist": "The Tremeloes",
+"rows": 2
+},
+{
+"artist": "Johnny Kelly & The Capitol Showband",
+"rows": 2
+},
+{
+"artist": "The Beach Boys",
+"rows": 2
+},
+{
+"artist": "Juan y Junior",
+"rows": 2
+},
+{
+"artist": "Dave Dee, Dozy, Beaky, Mick & Tich",
+"rows": 2
+},
+{
+"artist": "The Scaffold",
+"rows": 2
+},
+{
+"artist": "Rika Zaraï",
+"rows": 2
+},
+{
+"artist": "Georges Moustaki",
+"rows": 2
+},
+{
+"artist": "Shocking Blue",
+"rows": 2
+},
+{
+"artist": "Marcel Zanini",
+"rows": 2
+},
+{
+"artist": "Sean Dunphy",
+"rows": 2
+},
+{
+"artist": "The Beatles with Billy Preston",
+"rows": 2
+},
+{
+"artist": "Robin Gibb",
+"rows": 2
+},
+{
+"artist": "Rolf Harris",
+"rows": 2
+},
+{
+"artist": "Fórmula V",
+"rows": 2
+},
+{
+"artist": "Simon & Garfunkel",
+"rows": 2
+},
+{
+"artist": "Rare Bird",
+"rows": 2
+},
+{
+"artist": "Dana",
+"rows": 2
+},
+{
+"artist": "Norman Greenbaum",
+"rows": 2
+},
+{
+"artist": "Christie",
+"rows": 2
+},
+{
+"artist": "Les Poppys",
+"rows": 2
+},
+{
+"artist": "Pop Concerto Orchestra",
+"rows": 2
+},
+{
+"artist": "Lynn Anderson",
+"rows": 2
+},
+{
+"artist": "Dawn",
+"rows": 2
+},
+{
+"artist": "Hot Butter",
+"rows": 2
+},
+{
+"artist": "Nilsson",
+"rows": 2
+},
+{
+"artist": "Tony Christie",
+"rows": 2
+},
+{
+"artist": "Andy Williams",
+"rows": 2
+},
+{
+"artist": "The Osmonds",
+"rows": 2
+},
+{
+"artist": "Johnny Hallyday & Sylvie Vartan",
+"rows": 2
+},
+{
+"artist": "Big Tom",
+"rows": 2
+},
+{
+"artist": "The Wolfe Tones",
+"rows": 2
+},
+{
+"artist": "Albert Hammond",
+"rows": 2
+},
+{
+"artist": "Joe Cuddy",
+"rows": 2
+},
+{
+"artist": "Terry Jacks",
+"rows": 2
+},
+{
+"artist": "Gary Glitter",
+"rows": 2
+},
+{
+"artist": "David Essex",
+"rows": 2
+},
+{
+"artist": "George McCrae",
+"rows": 2
+},
+{
+"artist": "Manolo Otero",
+"rows": 2
+},
+{
+"artist": "Bimbo Jet",
+"rows": 2
+},
+{
+"artist": "Dave",
+"rows": 2
+},
+{
+"artist": "Billy Swan",
+"rows": 2
+},
+{
+"artist": "The Rubettes",
+"rows": 2
+},
+{
+"artist": "Bay City Rollers",
+"rows": 2
+},
+{
+"artist": "Leo Sayer",
+"rows": 2
+},
+{
+"artist": "Brendan Grace",
+"rows": 2
+},
+{
+"artist": "Barry White",
+"rows": 2
+},
+{
+"artist": "George Baker Selection",
+"rows": 2
+},
+{
+"artist": "Lolita",
+"rows": 2
+},
+{
+"artist": "Pussycat",
+"rows": 2
+},
+{
+"artist": "Pablo Abraira",
+"rows": 2
+},
+{
+"artist": "Jarcha",
+"rows": 2
+},
+{
+"artist": "Olivia Newton-John",
+"rows": 2
+},
+{
+"artist": "Clout",
+"rows": 2
+},
+{
+"artist": "John Travolta & Olivia Newton-John",
+"rows": 2
+},
+{
+"artist": "Billy Joel",
+"rows": 2
+},
+{
+"artist": "Lio",
+"rows": 2
+},
+{
+"artist": "St Winifred's School Choir",
+"rows": 2
+},
+{
+"artist": "Johnny Logan",
+"rows": 2
+},
+{
+"artist": "Pecos",
+"rows": 2
+},
+{
+"artist": "Bucks Fizz",
+"rows": 2
+},
+{
+"artist": "The Human League",
+"rows": 2
+},
+{
+"artist": "Robert Palmer",
+"rows": 2
+},
+{
+"artist": "Pino D'Angiò",
+"rows": 2
+},
+{
+"artist": "Dorothée",
+"rows": 2
+},
+{
+"artist": "Nicole",
+"rows": 2
+},
+{
+"artist": "Renée and Renato",
+"rows": 2
+},
+{
+"artist": "Ricchi e Poveri",
+"rows": 2
+},
+{
+"artist": "Paloma San Basilio",
+"rows": 2
+},
+{
+"artist": "Lime",
+"rows": 2
+},
+{
+"artist": "Boys Town Gang",
+"rows": 2
+},
+{
+"artist": "The Steve Miller Band",
+"rows": 2
+},
+{
+"artist": "Toto Cutugno",
+"rows": 2
+},
+{
+"artist": "Eurythmics",
+"rows": 2
+},
+{
+"artist": "Kajagoogoo",
+"rows": 2
+},
+{
+"artist": "David Bowie",
+"rows": 2
+},
+{
+"artist": "UB40",
+"rows": 2
+},
+{
+"artist": "Azul y Negro",
+"rows": 2
+},
+{
+"artist": "Ryan Paris",
+"rows": 2
+},
+{
+"artist": "Break Machine",
+"rows": 2
+},
+{
+"artist": "Laura Branigan",
+"rows": 2
+},
+{
+"artist": "Peter and Sloane",
+"rows": 2
+},
+{
+"artist": "Ray Parker Jr",
+"rows": 2
+},
+{
+"artist": "Jean-Jacques Goldman and Michael Jones",
+"rows": 2
+},
+{
+"artist": "Dermot Morgan",
+"rows": 2
+},
+{
+"artist": "Ray Parker Jr.",
+"rows": 2
+},
+{
+"artist": "Limahl",
+"rows": 2
+},
+{
+"artist": "VideoKids",
+"rows": 2
+},
+{
+"artist": "Murray Head",
+"rows": 2
+},
+{
+"artist": "Stéphanie",
+"rows": 2
+},
+{
+"artist": "MC Miker G & DJ Sven",
+"rows": 2
+},
+{
+"artist": "A-ha",
+"rows": 2
+},
+{
+"artist": "Billy Ocean",
+"rows": 2
+},
+{
+"artist": "The Housemartins",
+"rows": 2
+},
+{
+"artist": "Sigue Sigue Sputnik",
+"rows": 2
+},
+{
+"artist": "Spagna",
+"rows": 2
+},
+{
+"artist": "Level 42",
+"rows": 2
+},
+{
+"artist": "Daniel O'Donnell",
+"rows": 2
+},
+{
+"artist": "Gregory Abbott",
+"rows": 2
+},
+{
+"artist": "The Pogues featuring Kirsty MacColl",
+"rows": 2
+},
+{
+"artist": "Tiffany",
+"rows": 2
+},
+{
+"artist": "Robin Beck",
+"rows": 2
+},
+{
+"artist": "Mory Kanté",
+"rows": 2
+},
+{
+"artist": "David Hallyday",
+"rows": 2
+},
+{
+"artist": "Roch Voisine",
+"rows": 2
+},
+{
+"artist": "Marc Almond featuring Gene Pitney",
+"rows": 2
+},
+{
+"artist": "Band Aid II",
+"rows": 2
+},
+{
+"artist": "Deacon Blue",
+"rows": 2
+},
+{
+"artist": "Fine Young Cannibals",
+"rows": 2
+},
+{
+"artist": "Amnesia",
+"rows": 2
+},
+{
+"artist": "Lagaf'",
+"rows": 2
+},
+{
+"artist": "Félix Gray and Didier Barbelivien",
+"rows": 2
+},
+{
+"artist": "Twenty 4 Seven",
+"rows": 2
+},
+{
+"artist": "The Simpsons",
+"rows": 2
+},
+{
+"artist": "Right Said Fred",
+"rows": 2
+},
+{
+"artist": "Crystal Waters",
+"rows": 2
+},
+{
+"artist": "Chimo Bayo",
+"rows": 2
+},
+{
+"artist": "George Michael and Elton John",
+"rows": 2
+},
+{
+"artist": "Nirvana",
+"rows": 2
+},
+{
+"artist": "Felix",
+"rows": 2
+},
+{
+"artist": "Snow",
+"rows": 2
+},
+{
+"artist": "4 Non Blondes",
+"rows": 2
+},
+{
+"artist": "IAM",
+"rows": 2
+},
+{
+"artist": "Pérez Prado",
+"rows": 2
+},
+{
+"artist": "Paco Pil",
+"rows": 2
+},
+{
+"artist": "Dr. Alban",
+"rows": 2
+},
+{
+"artist": "EX-3",
+"rows": 2
+},
+{
+"artist": "Alexia",
+"rows": 2
+},
+{
+"artist": "Fugees",
+"rows": 2
+},
+{
+"artist": "The Fugees",
+"rows": 2
+},
+{
+"artist": "Gary Barlow",
+"rows": 2
+},
+{
+"artist": "The Smashing Pumpkins",
+"rows": 2
+},
+{
+"artist": "Los del Rio",
+"rows": 2
+},
+{
+"artist": "R. Kelly",
+"rows": 2
+},
+{
+"artist": "Hanson",
+"rows": 2
+},
+{
+"artist": "Rosana",
+"rows": 2
+},
+{
+"artist": "Daniel Lavoie, Patrick Fiori & Garou",
+"rows": 2
+},
+{
+"artist": "Louise Attaque",
+"rows": 2
+},
+{
+"artist": "Lââm",
+"rows": 2
+},
+{
+"artist": "Zebda",
+"rows": 2
+},
+{
+"artist": "Shania Twain",
+"rows": 2
+},
+{
+"artist": "Dover",
+"rows": 2
+},
+{
+"artist": "Daft Punk",
+"rows": 2
+},
+{
+"artist": "Moby",
+"rows": 2
+},
+{
+"artist": "Lynda Lemay",
+"rows": 2
+},
+{
+"artist": "Roméo et Juliette",
+"rows": 2
+},
+{
+"artist": "All Saints",
+"rows": 2
+},
+{
+"artist": "Samantha Mumba",
+"rows": 2
+},
+{
+"artist": "Modjo",
+"rows": 2
+},
+{
+"artist": "Tamara",
+"rows": 2
+},
+{
+"artist": "Garou",
+"rows": 2
+},
+{
+"artist": "Shaggy featuring Rikrok",
+"rows": 2
+},
+{
+"artist": "Noir Désir",
+"rows": 2
+},
+{
+"artist": "Gérald de Palmas",
+"rows": 2
+},
+{
+"artist": "Destiny's Child",
+"rows": 2
+},
+{
+"artist": "Shaggy featuring Rayvon",
+"rows": 2
+},
+{
+"artist": "Christina Aguilera, Lil' Kim, Mýa and Pink",
+"rows": 2
+},
+{
+"artist": "Uncle Kracker",
+"rows": 2
+},
+{
+"artist": "Afroman",
+"rows": 2
+},
+{
+"artist": "Kate Winslet",
+"rows": 2
+},
+{
+"artist": "Estopa",
+"rows": 2
+},
+{
+"artist": "Sugarless",
+"rows": 2
+},
+{
+"artist": "Rohff",
+"rows": 2
+},
+{
+"artist": "Natasha St-Pier",
+"rows": 2
+},
+{
+"artist": "Six",
+"rows": 2
+},
+{
+"artist": "Mad'House",
+"rows": 2
+},
+{
+"artist": "Avril Lavigne",
+"rows": 2
+},
+{
+"artist": "Nelly featuring Kelly Rowland",
+"rows": 2
+},
+{
+"artist": "Zucchero and Maná",
+"rows": 2
+},
+{
+"artist": "Nolwenn Leroy",
+"rows": 2
+},
+{
+"artist": "Norah Jones",
+"rows": 2
+},
+{
+"artist": "Kyo",
+"rows": 2
+},
+{
+"artist": "Evanescence",
+"rows": 2
+},
+{
+"artist": "50 Cent",
+"rows": 2
+},
+{
+"artist": "Will Young",
+"rows": 2
+},
+{
+"artist": "Kareen Antonn and Bonnie Tyler",
+"rows": 2
+},
+{
+"artist": "Kareen Antonn & Bonnie Tyler",
+"rows": 2
+},
+{
+"artist": "Usher featuring Lil Jon and Ludacris",
+"rows": 2
+},
+{
+"artist": "Star Academy 4",
+"rows": 2
+},
+{
+"artist": "Vincent Delerm",
+"rows": 2
+},
+{
+"artist": "Brian McFadden",
+"rows": 2
+},
+{
+"artist": "Metallica",
+"rows": 2
+},
+{
+"artist": "Los Planetas",
+"rows": 2
+},
+{
+"artist": "Astrud",
+"rows": 2
+},
+{
+"artist": "Ilona Mitrecey",
+"rows": 2
+},
+{
+"artist": "Raphaël",
+"rows": 2
+},
+{
+"artist": "Gorillaz",
+"rows": 2
+},
+{
+"artist": "El Arrebato",
+"rows": 2
+},
+{
+"artist": "Pigloo",
+"rows": 2
+},
+{
+"artist": "M. Pokora",
+"rows": 2
+},
+{
+"artist": "Booba",
+"rows": 2
+},
+{
+"artist": "Red Hot Chili Peppers",
+"rows": 2
+},
+{
+"artist": "Rafa González-Serna",
+"rows": 2
+},
+{
+"artist": "Beyoncé and Shakira",
+"rows": 2
+},
+{
+"artist": "Rihanna featuring Jay-Z",
+"rows": 2
+},
+{
+"artist": "Leon Jackson",
+"rows": 2
+},
+{
+"artist": "Basshunter",
+"rows": 2
+},
+{
+"artist": "Duffy",
+"rows": 2
+},
+{
+"artist": "Madonna featuring Justin Timberlake",
+"rows": 2
+},
+{
+"artist": "Kid Rock",
+"rows": 2
+},
+{
+"artist": "Alexandra Burke",
+"rows": 2
+},
+{
+"artist": "David Guetta featuring Kelly Rowland",
+"rows": 2
+},
+{
+"artist": "Industry",
+"rows": 2
+},
+{
+"artist": "Cheryl Cole",
+"rows": 2
+},
+{
+"artist": "Joe McElderry",
+"rows": 2
+},
+{
+"artist": "Sexion d'Assaut",
+"rows": 2
+},
+{
+"artist": "Taio Cruz",
+"rows": 2
+},
+{
+"artist": "Muse",
+"rows": 2
+},
+{
+"artist": "The Script",
+"rows": 2
+},
+{
+"artist": "Bruno Mars",
+"rows": 2
+},
+{
+"artist": "Matt Cardle",
+"rows": 2
+},
+{
+"artist": "Jedward",
+"rows": 2
+},
+{
+"artist": "Flo Rida",
+"rows": 2
+},
+{
+"artist": "Carly Rae Jepsen",
+"rows": 2
+},
+{
+"artist": "Loreen",
+"rows": 2
+},
+{
+"artist": "Macklemore and Ryan Lewis featuring Wanz",
+"rows": 2
+},
+{
+"artist": "Lorde",
+"rows": 2
+},
+{
+"artist": "Clean Bandit featuring Jess Glynne",
+"rows": 2
+},
+{
+"artist": "5 Seconds of Summer",
+"rows": 2
+},
+{
+"artist": "Milky Chance",
+"rows": 2
+},
+{
+"artist": "Lilly Wood and the Prick and Robin Schulz",
+"rows": 2
+},
+{
+"artist": "Meghan Trainor",
+"rows": 2
+},
+{
+"artist": "Hometown",
+"rows": 2
+},
+{
+"artist": "OMI",
+"rows": 2
+},
+{
+"artist": "Lost Frequencies",
+"rows": 2
+},
+{
+"artist": "Lukas Graham",
+"rows": 2
+},
+{
+"artist": "Sia featuring Sean Paul",
+"rows": 2
+},
+{
+"artist": "Calvin Harris and Dua Lipa",
+"rows": 2
+},
+{
+"artist": "Clean Bandit featuring Demi Lovato",
+"rows": 2
+},
+{
+"artist": "Ed Sheeran and Justin Bieber",
+"rows": 2
+},
+{
+"artist": "Jawsh 685 and Jason Derulo",
+"rows": 2
+},
+{
+"artist": "24kGoldn featuring Iann Dior",
+"rows": 2
+},
+{
+"artist": "Meduza featuring Dermot Kennedy",
+"rows": 2
+},
+{
+"artist": "Gayle",
+"rows": 2
+},
+{
+"artist": "Raye featuring 070 Shake",
+"rows": 2
+},
+{
+"artist": "Miley Cyrus",
+"rows": 2
+},
+{
+"artist": "Cassö, Raye and D-Block Europe",
+"rows": 2
+},
+{
+"artist": "Benson Boone",
+"rows": 2
+},
+{
+"artist": "Alex Warren",
+"rows": 2
+},
+{
+"artist": "Sombr",
+"rows": 2
+},
+{
+"artist": "Tate McRae",
+"rows": 2
+},
+{
+"artist": "Paul McCartney & Stevie Wonder",
+"rows": 2
+},
+{
+"artist": "Paul McCartney & Michael Jackson",
+"rows": 2
+},
+{
+"artist": "Margot Eskens",
+"rows": 2
+},
+{
+"artist": "Die Sieben Raben",
+"rows": 2
+},
+{
+"artist": "Vico Torriani",
+"rows": 2
+},
+{
+"artist": "Caterina Valente",
+"rows": 2
+},
+{
+"artist": "Peter Kraus",
+"rows": 2
+},
+{
+"artist": "Bill Ramsey",
+"rows": 2
+},
+{
+"artist": "Rocco Granata",
+"rows": 2
+},
+{
+"artist": "Blue Diamonds",
+"rows": 2
+},
+{
+"artist": "Neil Sedaka",
+"rows": 2
+},
+{
+"artist": "Tony Dallara",
+"rows": 2
+},
+{
+"artist": "Gerhard Wendland",
+"rows": 2
+},
+{
+"artist": "Nini Rosso",
+"rows": 2
+},
+{
+"artist": "Peppino di Capri",
+"rows": 2
+},
+{
+"artist": "Pat Boone",
+"rows": 2
+},
+{
+"artist": "Ronny",
+"rows": 2
+},
+{
+"artist": "The Rokes",
+"rows": 2
+},
+{
+"artist": "Al Bano",
+"rows": 2
+},
+{
+"artist": "Patty Pravo",
+"rows": 2
+},
+{
+"artist": "Christian Anders",
+"rows": 2
+},
+{
+"artist": "Peter Maffay",
+"rows": 2
+},
+{
+"artist": "Bruno Lauzi",
+"rows": 2
+},
+{
+"artist": "Tony Marshall",
+"rows": 2
+},
+{
+"artist": "Wums Gesang",
+"rows": 2
+},
+{
+"artist": "Bernd Clüver",
+"rows": 2
+},
+{
+"artist": "Lobo",
+"rows": 2
+},
+{
+"artist": "Michael Holm",
+"rows": 2
+},
+{
+"artist": "Penny McLean",
+"rows": 2
+},
+{
+"artist": "Thom Pace",
+"rows": 2
+},
+{
+"artist": "Pippo Franco",
+"rows": 2
+},
+{
+"artist": "Amii Stewart",
+"rows": 2
+},
+{
+"artist": "Heather Parisi",
+"rows": 2
+},
+{
+"artist": "Righeira",
+"rows": 2
+},
+{
+"artist": "Alphaville",
+"rows": 2
+},
+{
+"artist": "Raf",
+"rows": 2
+},
+{
+"artist": "Novecento",
+"rows": 2
+},
+{
+"artist": "Mel and Kim",
+"rows": 2
+},
+{
+"artist": "Nick Kamen",
+"rows": 2
+},
+{
+"artist": "Bobby McFerrin",
+"rows": 2
+},
+{
+"artist": "Salt-n-Pepa",
+"rows": 2
+},
+{
+"artist": "Captain Hollywood Project",
+"rows": 2
+},
+{
+"artist": "883",
+"rows": 2
+},
+{
+"artist": "Mo-Do",
+"rows": 2
+},
+{
+"artist": "La Bouche",
+"rows": 2
+},
+{
+"artist": "20 Fingers",
+"rows": 2
+},
+{
+"artist": "Kina",
+"rows": 2
+},
+{
+"artist": "Ti.Pi.Cal.",
+"rows": 2
+},
+{
+"artist": "Everything but the Girl",
+"rows": 2
+},
+{
+"artist": "Die Toten Hosen",
+"rows": 2
+},
+{
+"artist": "Tic Tac Toe",
+"rows": 2
+},
+{
+"artist": "Andrea Bocelli and Sarah Brightman",
+"rows": 2
+},
+{
+"artist": "Oli.P",
+"rows": 2
+},
+{
+"artist": "Mr. Oizo",
+"rows": 2
+},
+{
+"artist": "Shivaree",
+"rows": 2
+},
+{
+"artist": "Eminem featuring Dido",
+"rows": 2
+},
+{
+"artist": "Bro'Sis",
+"rows": 2
+},
+{
+"artist": "Elisa",
+"rows": 2
+},
+{
+"artist": "Robbie Williams and Nicole Kidman",
+"rows": 2
+},
+{
+"artist": "Herbert Grönemeyer",
+"rows": 2
+},
+{
+"artist": "Die Gerd-Show",
+"rows": 2
+},
+{
+"artist": "Ligabue",
+"rows": 2
+},
+{
+"artist": "Alexander",
+"rows": 2
+},
+{
+"artist": "Yvonne Catterfeld",
+"rows": 2
+},
+{
+"artist": "Francesco Renga",
+"rows": 2
+},
+{
+"artist": "Mattafix",
+"rows": 2
+},
+{
+"artist": "Eros Ramazzotti and Anastacia",
+"rows": 2
+},
+{
+"artist": "Justin Timberlake",
+"rows": 2
+},
+{
+"artist": "Monrose",
+"rows": 2
+},
+{
+"artist": "Nelly Furtado",
+"rows": 2
+},
+{
+"artist": "Zero Assoluto",
+"rows": 2
+},
+{
+"artist": "Mark Medlock",
+"rows": 2
+},
+{
+"artist": "Timbaland featuring OneRepublic",
+"rows": 2
+},
+{
+"artist": "Alessandra Amoroso",
+"rows": 2
+},
+{
+"artist": "Valerio Scanu",
+"rows": 2
+},
+{
+"artist": "Shakira featuring Freshlyground",
+"rows": 2
+},
+{
+"artist": "Marco Carta",
+"rows": 2
+},
+{
+"artist": "Gusttavo Lima",
+"rows": 2
+},
+{
+"artist": "C2C",
+"rows": 2
+},
+{
+"artist": "PSY",
+"rows": 2
+},
+{
+"artist": "Lykke Li",
+"rows": 2
+},
+{
+"artist": "Asaf Avidan",
+"rows": 2
+},
+{
+"artist": "Francesca Michielin",
+"rows": 2
+},
+{
+"artist": "Pitbull featuring Kesha",
+"rows": 2
+},
+{
+"artist": "Sia",
+"rows": 2
+},
+{
+"artist": "Helene Fischer",
+"rows": 2
+},
+{
+"artist": "Álvaro Soler",
+"rows": 2
+},
+{
+"artist": "Kids United",
+"rows": 2
+},
+{
+"artist": "Alan Walker",
+"rows": 2
+},
+{
+"artist": "DJ Snake featuring Justin Bieber",
+"rows": 2
+},
+{
+"artist": "J-Ax and Fedez",
+"rows": 2
+},
+{
+"artist": "Fabio Rovazzi",
+"rows": 2
+},
+{
+"artist": "Luis Fonsi featuring Daddy Yankee",
+"rows": 2
+},
+{
+"artist": "Bausa",
+"rows": 2
+},
+{
+"artist": "Coez",
+"rows": 2
+},
+{
+"artist": "Capo Plaza",
+"rows": 2
+},
+{
+"artist": "Fedez",
+"rows": 2
+},
+{
+"artist": "Salmo featuring Nstasia",
+"rows": 2
+},
+{
+"artist": "Shindy",
+"rows": 2
+},
+{
+"artist": "Samra and Capital Bra",
+"rows": 2
+},
+{
+"artist": "Mahmood",
+"rows": 2
+},
+{
+"artist": "Tha Supreme",
+"rows": 2
+},
+{
+"artist": "Pashanim",
+"rows": 2
+},
+{
+"artist": "RAF Camora featuring Luciano",
+"rows": 2
+},
+{
+"artist": "Kummer featuring Fred Rabe",
+"rows": 2
+},
+{
+"artist": "Blanco",
+"rows": 2
+},
+{
+"artist": "Marracash and Gué Pequeno",
+"rows": 2
+},
+{
+"artist": "Miksu, Macloud and T-Low",
+"rows": 2
+},
+{
+"artist": "Luciano",
+"rows": 2
+},
+{
+"artist": "Lazza and Sfera Ebbasta",
+"rows": 2
+},
+{
+"artist": "Bizarrap and Quevedo",
+"rows": 2
+},
+{
+"artist": "Lazza",
+"rows": 2
+},
+{
+"artist": "Takagi & Ketra featuring Shiva, Anna and Geolier",
+"rows": 2
+},
+{
+"artist": "Massimo Pericolo featuring Emis Killa",
+"rows": 2
+},
+{
+"artist": "Geolier",
+"rows": 2
+},
+{
+"artist": "Olly and Juli",
+"rows": 2
+},
+{
+"artist": "Shakira and Burna Boy",
+"rows": 2
+},
+{
+"artist": "Jacqueline François",
+"rows": 1
+},
+{
+"artist": "Georges Brassens",
+"rows": 1
+},
+{
+"artist": "Luis Mariano",
+"rows": 1
+},
+{
+"artist": "Gilbert Bécaud",
+"rows": 1
+},
+{
+"artist": "Doris Day",
+"rows": 1
+},
+{
+"artist": "Guy Béart",
+"rows": 1
+},
+{
+"artist": "Jean Philippe",
+"rows": 1
+},
+{
+"artist": "Sacha Distel",
+"rows": 1
+},
+{
+"artist": "Jean Phillipe",
+"rows": 1
+},
+{
+"artist": "Gloria Lasso",
+"rows": 1
+},
+{
+"artist": "Bob Azzam",
+"rows": 1
+},
+{
+"artist": "André Verchuren",
+"rows": 1
+},
+{
+"artist": "Édith Piaf",
+"rows": 1
+},
+{
+"artist": "Jean-Claude Pascal",
+"rows": 1
+},
+{
+"artist": "Les Chaussettes Noires",
+"rows": 1
+},
+{
+"artist": "José Guardiola",
+"rows": 1
+},
+{
+"artist": "Pierre Perrin",
+"rows": 1
+},
+{
+"artist": "The Highwaymen",
+"rows": 1
+},
+{
+"artist": "Baby Bell",
+"rows": 1
+},
+{
+"artist": "Gelu",
+"rows": 1
+},
+{
+"artist": "Milva",
+"rows": 1
+},
+{
+"artist": "Cliff Richard And The Shadows",
+"rows": 1
+},
+{
+"artist": "Los Cinco Latinos",
+"rows": 1
+},
+{
+"artist": "Trini Lopez",
+"rows": 1
+},
+{
+"artist": "The Shadows",
+"rows": 1
+},
+{
+"artist": "Jet Harris and Tony Meehan",
+"rows": 1
+},
+{
+"artist": "Del Shannon",
+"rows": 1
+},
+{
+"artist": "Ned Miller",
+"rows": 1
+},
+{
+"artist": "The Cascades",
+"rows": 1
+},
+{
+"artist": "Brian Poole and The Tremeloes",
+"rows": 1
+},
+{
+"artist": "Leonard Bernstein y Otros",
+"rows": 1
+},
+{
+"artist": "Los Teen Tops",
+"rows": 1
+},
+{
+"artist": "Ennio Sangiusto",
+"rows": 1
+},
+{
+"artist": "Cliff Richard & The Shadows",
+"rows": 1
+},
+{
+"artist": "Frank Alamo",
+"rows": 1
+},
+{
+"artist": "Cilla Black",
+"rows": 1
+},
+{
+"artist": "Peter & Gordon",
+"rows": 1
+},
+{
+"artist": "Eileen Reid",
+"rows": 1
+},
+{
+"artist": "Millie",
+"rows": 1
+},
+{
+"artist": "The Bachelors",
+"rows": 1
+},
+{
+"artist": "Herman's Hermits",
+"rows": 1
+},
+{
+"artist": "Trini López",
+"rows": 1
+},
+{
+"artist": "Alain Barriere",
+"rows": 1
+},
+{
+"artist": "Tom Dunphy",
+"rows": 1
+},
+{
+"artist": "The Hollies",
+"rows": 1
+},
+{
+"artist": "The Byrds",
+"rows": 1
+},
+{
+"artist": "Ken Dodd",
+"rows": 1
+},
+{
+"artist": "The Seekers",
+"rows": 1
+},
+{
+"artist": "The Animals",
+"rows": 1
+},
+{
+"artist": "La Familia Telerín",
+"rows": 1
+},
+{
+"artist": "Johnny & Charley",
+"rows": 1
+},
+{
+"artist": "Mikaela",
+"rows": 1
+},
+{
+"artist": "Conchita Velasco",
+"rows": 1
+},
+{
+"artist": "Los Tres Sudamericanos",
+"rows": 1
+},
+{
+"artist": "Henri Salvador",
+"rows": 1
+},
+{
+"artist": "Doc Carroll and the Royal Blues",
+"rows": 1
+},
+{
+"artist": "The Ludlows",
+"rows": 1
+},
+{
+"artist": "The Johnny Flynn Showband with Pat Smith",
+"rows": 1
+},
+{
+"artist": "Gregory and the Cadets",
+"rows": 1
+},
+{
+"artist": "The Johnstons",
+"rows": 1
+},
+{
+"artist": "Dermot O'Brien",
+"rows": 1
+},
+{
+"artist": "Charlie Matthews & the Royal Showband",
+"rows": 1
+},
+{
+"artist": "Hervé Vilard",
+"rows": 1
+},
+{
+"artist": "Box Tops",
+"rows": 1
+},
+{
+"artist": "Frank Sinatra & Nancy Sinatra",
+"rows": 1
+},
+{
+"artist": "The Dubliners",
+"rows": 1
+},
+{
+"artist": "Los Pekenikes",
+"rows": 1
+},
+{
+"artist": "The Four Tops",
+"rows": 1
+},
+{
+"artist": "The New Vaudeville Band",
+"rows": 1
+},
+{
+"artist": "David McWilliams",
+"rows": 1
+},
+{
+"artist": "Georgette Plana",
+"rows": 1
+},
+{
+"artist": "Peter Holm",
+"rows": 1
+},
+{
+"artist": "Emmet Spiceland",
+"rows": 1
+},
+{
+"artist": "Pat McGeegan",
+"rows": 1
+},
+{
+"artist": "Gary Puckett & The Union Gap",
+"rows": 1
+},
+{
+"artist": "Bobby Goldsboro",
+"rows": 1
+},
+{
+"artist": "Don Partridge",
+"rows": 1
+},
+{
+"artist": "Des O'Connor",
+"rows": 1
+},
+{
+"artist": "Brendan O'Brien and The Dixies",
+"rows": 1
+},
+{
+"artist": "Hugo Montenegro",
+"rows": 1
+},
+{
+"artist": "Pic-Nic",
+"rows": 1
+},
+{
+"artist": "Miriam Makeba",
+"rows": 1
+},
+{
+"artist": "Bar-Kays",
+"rows": 1
+},
+{
+"artist": "Massiel",
+"rows": 1
+},
+{
+"artist": "Los Canarios",
+"rows": 1
+},
+{
+"artist": "Dimitri Dourakine",
+"rows": 1
+},
+{
+"artist": "David Alexandre Winter",
+"rows": 1
+},
+{
+"artist": "Edwin Hawkins",
+"rows": 1
+},
+{
+"artist": "Jean-François Michael",
+"rows": 1
+},
+{
+"artist": "The Real McCoy",
+"rows": 1
+},
+{
+"artist": "Marmalade",
+"rows": 1
+},
+{
+"artist": "Muriel Day",
+"rows": 1
+},
+{
+"artist": "Peter Sarstedt",
+"rows": 1
+},
+{
+"artist": "Lulu",
+"rows": 1
+},
+{
+"artist": "Bobbie Gentry",
+"rows": 1
+},
+{
+"artist": "Karina",
+"rows": 1
+},
+{
+"artist": "Georgie Dann",
+"rows": 1
+},
+{
+"artist": "Jean Jacques",
+"rows": 1
+},
+{
+"artist": "Henry Stephen",
+"rows": 1
+},
+{
+"artist": "Los Payos",
+"rows": 1
+},
+{
+"artist": "Juan Pardo",
+"rows": 1
+},
+{
+"artist": "Ekseption",
+"rows": 1
+},
+{
+"artist": "Mardi Gras",
+"rows": 1
+},
+{
+"artist": "Marc Hamilton",
+"rows": 1
+},
+{
+"artist": "Cat Stevens",
+"rows": 1
+},
+{
+"artist": "Edison Lighthouse",
+"rows": 1
+},
+{
+"artist": "Lee Marvin",
+"rows": 1
+},
+{
+"artist": "Dermot Hegarty and the Plainsmen",
+"rows": 1
+},
+{
+"artist": "The Poppy Family",
+"rows": 1
+},
+{
+"artist": "Freda Payne",
+"rows": 1
+},
+{
+"artist": "Roger Whittaker",
+"rows": 1
+},
+{
+"artist": "Margo",
+"rows": 1
+},
+{
+"artist": "Dave Edmunds",
+"rows": 1
+},
+{
+"artist": "The Shocking Blue",
+"rows": 1
+},
+{
+"artist": "Andrés Do Barro",
+"rows": 1
+},
+{
+"artist": "María Ostiz",
+"rows": 1
+},
+{
+"artist": "Joan Baez",
+"rows": 1
+},
+{
+"artist": "Gilbert Montagné",
+"rows": 1
+},
+{
+"artist": "Esther Galil",
+"rows": 1
+},
+{
+"artist": "Nicoletta",
+"rows": 1
+},
+{
+"artist": "Neil Diamond",
+"rows": 1
+},
+{
+"artist": "The Tams",
+"rows": 1
+},
+{
+"artist": "Nancy and Lee",
+"rows": 1
+},
+{
+"artist": "Tina & The Real McCoy",
+"rows": 1
+},
+{
+"artist": "Tommy Drennan and the Monarchs",
+"rows": 1
+},
+{
+"artist": "José Feliciano",
+"rows": 1
+},
+{
+"artist": "Tony Ronald",
+"rows": 1
+},
+{
+"artist": "Stone & Eric Charden",
+"rows": 1
+},
+{
+"artist": "Ringo",
+"rows": 1
+},
+{
+"artist": "C. Jérôme",
+"rows": 1
+},
+{
+"artist": "Michel Fugain et le Big Bazar",
+"rows": 1
+},
+{
+"artist": "The Barleycorn",
+"rows": 1
+},
+{
+"artist": "Sandie Jones",
+"rows": 1
+},
+{
+"artist": "John Kerr",
+"rows": 1
+},
+{
+"artist": "Big Tom And The Mainliners",
+"rows": 1
+},
+{
+"artist": "Royal Scots Dragoon Guards",
+"rows": 1
+},
+{
+"artist": "Paddywagon",
+"rows": 1
+},
+{
+"artist": "Sandie, Joe and Dixies",
+"rows": 1
+},
+{
+"artist": "Johnny Cash",
+"rows": 1
+},
+{
+"artist": "Dr. Hook & The Medicine Show",
+"rows": 1
+},
+{
+"artist": "David Cassidy",
+"rows": 1
+},
+{
+"artist": "Lieutenant Pigeon",
+"rows": 1
+},
+{
+"artist": "Chuck Berry",
+"rows": 1
+},
+{
+"artist": "Redbone",
+"rows": 1
+},
+{
+"artist": "Micky",
+"rows": 1
+},
+{
+"artist": "Mari Trini",
+"rows": 1
+},
+{
+"artist": "Chicory Tip",
+"rows": 1
+},
+{
+"artist": "The Popcorn Makers",
+"rows": 1
+},
+{
+"artist": "Mort Shuman",
+"rows": 1
+},
+{
+"artist": "Sheila & Ringo",
+"rows": 1
+},
+{
+"artist": "Crazy Horse",
+"rows": 1
+},
+{
+"artist": "Christian Vidal",
+"rows": 1
+},
+{
+"artist": "John Lennon and Yoko Ono and the Plastic Ono Band with the Harlem Community Choir",
+"rows": 1
+},
+{
+"artist": "Little Jimmy Osmond",
+"rows": 1
+},
+{
+"artist": "Dawn featuring Tony Orlando",
+"rows": 1
+},
+{
+"artist": "Wizzard",
+"rows": 1
+},
+{
+"artist": "Peters and Lee",
+"rows": 1
+},
+{
+"artist": "Donny Osmond",
+"rows": 1
+},
+{
+"artist": "Perry Como",
+"rows": 1
+},
+{
+"artist": "Lynsey de Paul",
+"rows": 1
+},
+{
+"artist": "Santabárbara",
+"rows": 1
+},
+{
+"artist": "Manolo Escobar",
+"rows": 1
+},
+{
+"artist": "Emilio José",
+"rows": 1
+},
+{
+"artist": "Tweety & Sylvester",
+"rows": 1
+},
+{
+"artist": "Patrick Green & Olivier Lejeune",
+"rows": 1
+},
+{
+"artist": "Waldo de los Ríos",
+"rows": 1
+},
+{
+"artist": "Alvin Stardust",
+"rows": 1
+},
+{
+"artist": "Tina",
+"rows": 1
+},
+{
+"artist": "Paper Lace",
+"rows": 1
+},
+{
+"artist": "Mouth & McNeal",
+"rows": 1
+},
+{
+"artist": "The Times",
+"rows": 1
+},
+{
+"artist": "Dermot Hegarty",
+"rows": 1
+},
+{
+"artist": "John Denver",
+"rows": 1
+},
+{
+"artist": "Ken Boothe",
+"rows": 1
+},
+{
+"artist": "Juan Bau",
+"rows": 1
+},
+{
+"artist": "The Love Unlimited Orchestra",
+"rows": 1
+},
+{
+"artist": "MFSB",
+"rows": 1
+},
+{
+"artist": "Nino Ferrer",
+"rows": 1
+},
+{
+"artist": "Alain Barrière & Noëlle Cordier",
+"rows": 1
+},
+{
+"artist": "Martin Circus",
+"rows": 1
+},
+{
+"artist": "Saint Preux",
+"rows": 1
+},
+{
+"artist": "Daniel Guichard",
+"rows": 1
+},
+{
+"artist": "Ralph McTell",
+"rows": 1
+},
+{
+"artist": "The Tymes",
+"rows": 1
+},
+{
+"artist": "Pilot",
+"rows": 1
+},
+{
+"artist": "Steve Harley & Cockney Rebel",
+"rows": 1
+},
+{
+"artist": "Telly Savalas",
+"rows": 1
+},
+{
+"artist": "Tammy Wynette",
+"rows": 1
+},
+{
+"artist": "Showaddywaddy",
+"rows": 1
+},
+{
+"artist": "Johnny Nash",
+"rows": 1
+},
+{
+"artist": "Typically Tropical",
+"rows": 1
+},
+{
+"artist": "The Stylistics",
+"rows": 1
+},
+{
+"artist": "Glen Campbell",
+"rows": 1
+},
+{
+"artist": "Morris Albert",
+"rows": 1
+},
+{
+"artist": "Nathalie et Christine",
+"rows": 1
+},
+{
+"artist": "Van McCoy and The Soul City Symphony",
+"rows": 1
+},
+{
+"artist": "Nicolas Peyrac",
+"rows": 1
+},
+{
+"artist": "Nestor le Pingouin",
+"rows": 1
+},
+{
+"artist": "Les Supporters",
+"rows": 1
+},
+{
+"artist": "Sailor",
+"rows": 1
+},
+{
+"artist": "Marianne Faithfull",
+"rows": 1
+},
+{
+"artist": "Tina Charles",
+"rows": 1
+},
+{
+"artist": "Guys 'n' Dolls",
+"rows": 1
+},
+{
+"artist": "Sutherland Brothers and Quiver",
+"rows": 1
+},
+{
+"artist": "Elton John and Kiki Dee",
+"rows": 1
+},
+{
+"artist": "Lorenzo Santamaría",
+"rows": 1
+},
+{
+"artist": "Miguel Gallardo",
+"rows": 1
+},
+{
+"artist": "La Charanga Del Tío honorio",
+"rows": 1
+},
+{
+"artist": "Silver Convention",
+"rows": 1
+},
+{
+"artist": "Sandro Giacobbe",
+"rows": 1
+},
+{
+"artist": "La Bande à Basile",
+"rows": 1
+},
+{
+"artist": "Jennifer",
+"rows": 1
+},
+{
+"artist": "Marie Myriam",
+"rows": 1
+},
+{
+"artist": "Jairo",
+"rows": 1
+},
+{
+"artist": "Johnny Mathis",
+"rows": 1
+},
+{
+"artist": "Julie Covington",
+"rows": 1
+},
+{
+"artist": "The Manhattan Transfer",
+"rows": 1
+},
+{
+"artist": "The Swarbriggs",
+"rows": 1
+},
+{
+"artist": "Dead End Kids",
+"rows": 1
+},
+{
+"artist": "Susan McCann",
+"rows": 1
+},
+{
+"artist": "Brendan Quinn",
+"rows": 1
+},
+{
+"artist": "Carly Simon",
+"rows": 1
+},
+{
+"artist": "David Soul",
+"rows": 1
+},
+{
+"artist": "The Carpenters",
+"rows": 1
+},
+{
+"artist": "Elton John & Kiki Dee",
+"rows": 1
+},
+{
+"artist": "Ritchie Family",
+"rows": 1
+},
+{
+"artist": "Raffaella Carrá",
+"rows": 1
+},
+{
+"artist": "Manhattan Transfer",
+"rows": 1
+},
+{
+"artist": "Carlos Mejía Godoy y los de Palacagüina",
+"rows": 1
+},
+{
+"artist": "Jean Michel Jarre",
+"rows": 1
+},
+{
+"artist": "Plastic Bertrand",
+"rows": 1
+},
+{
+"artist": "Julio Iglesias / Village People",
+"rows": 1
+},
+{
+"artist": "Brian and Michael",
+"rows": 1
+},
+{
+"artist": "Commodores",
+"rows": 1
+},
+{
+"artist": "Gloria",
+"rows": 1
+},
+{
+"artist": "John Travolta",
+"rows": 1
+},
+{
+"artist": "Elsa Baeza",
+"rows": 1
+},
+{
+"artist": "Café Crème",
+"rows": 1
+},
+{
+"artist": "Richard Clayderman",
+"rows": 1
+},
+{
+"artist": "I Collage",
+"rows": 1
+},
+{
+"artist": "Daniel Magal",
+"rows": 1
+},
+{
+"artist": "Luisa Fernández",
+"rows": 1
+},
+{
+"artist": "Gloria Gaynor",
+"rows": 1
+},
+{
+"artist": "Art Garfunkel",
+"rows": 1
+},
+{
+"artist": "Milk and Honey",
+"rows": 1
+},
+{
+"artist": "Roxy Music",
+"rows": 1
+},
+{
+"artist": "The Fureys and Davey Arthur",
+"rows": 1
+},
+{
+"artist": "The Boomtown Rats",
+"rows": 1
+},
+{
+"artist": "Caitriona Walsh",
+"rows": 1
+},
+{
+"artist": "Jim Tobin",
+"rows": 1
+},
+{
+"artist": "Dr. Hook",
+"rows": 1
+},
+{
+"artist": "New Trolls",
+"rows": 1
+},
+{
+"artist": "Cherry Laine",
+"rows": 1
+},
+{
+"artist": "Leif Garrett",
+"rows": 1
+},
+{
+"artist": "Hermanas Goggi",
+"rows": 1
+},
+{
+"artist": "Anita Ward",
+"rows": 1
+},
+{
+"artist": "Pedro Marín",
+"rows": 1
+},
+{
+"artist": "Peaches & Herb",
+"rows": 1
+},
+{
+"artist": "Jeane Manson",
+"rows": 1
+},
+{
+"artist": "Le Grand Orchestre Du Splendid",
+"rows": 1
+},
+{
+"artist": "The Pretenders",
+"rows": 1
+},
+{
+"artist": "No charts exist for 34 weeks due to a strike.",
+"rows": 1
+},
+{
+"artist": "Kenny Rogers",
+"rows": 1
+},
+{
+"artist": "Marti Webb",
+"rows": 1
+},
+{
+"artist": "Detroit Spinners",
+"rows": 1
+},
+{
+"artist": "The MASH",
+"rows": 1
+},
+{
+"artist": "Olivia Newton-John and Electric Light Orchestra",
+"rows": 1
+},
+{
+"artist": "The Jam",
+"rows": 1
+},
+{
+"artist": "Kelly Marie",
+"rows": 1
+},
+{
+"artist": "Bob Dylan",
+"rows": 1
+},
+{
+"artist": "Sugarhill Gang",
+"rows": 1
+},
+{
+"artist": "Olivia Newton-John & Electric Light Orchestra",
+"rows": 1
+},
+{
+"artist": "Eddy Mitchell",
+"rows": 1
+},
+{
+"artist": "Jona Lewie",
+"rows": 1
+},
+{
+"artist": "Herbert Léonard",
+"rows": 1
+},
+{
+"artist": "Jean Schultheis",
+"rows": 1
+},
+{
+"artist": "J.J. Lionel",
+"rows": 1
+},
+{
+"artist": "Michel Berger",
+"rows": 1
+},
+{
+"artist": "Oscar Benton",
+"rows": 1
+},
+{
+"artist": "Joe Dolce",
+"rows": 1
+},
+{
+"artist": "Ultravox",
+"rows": 1
+},
+{
+"artist": "Starsound",
+"rows": 1
+},
+{
+"artist": "The Fureys and Davy Arthur",
+"rows": 1
+},
+{
+"artist": "Foster and Allen",
+"rows": 1
+},
+{
+"artist": "Aneka",
+"rows": 1
+},
+{
+"artist": "Adam and the Ants",
+"rows": 1
+},
+{
+"artist": "Dave Stewart and Barbara Gaskin",
+"rows": 1
+},
+{
+"artist": "Stars On 45",
+"rows": 1
+},
+{
+"artist": "María Jesús y su Acordeón",
+"rows": 1
+},
+{
+"artist": "Chagrin d'amour",
+"rows": 1
+},
+{
+"artist": "Kim Wilde",
+"rows": 1
+},
+{
+"artist": "Thierry Pastor",
+"rows": 1
+},
+{
+"artist": "Philippe Lavil",
+"rows": 1
+},
+{
+"artist": "Supertramp",
+"rows": 1
+},
+{
+"artist": "Tight Fit",
+"rows": 1
+},
+{
+"artist": "Paul McCartney featuring Stevie Wonder",
+"rows": 1
+},
+{
+"artist": "Charlene",
+"rows": 1
+},
+{
+"artist": "Captain Sensible",
+"rows": 1
+},
+{
+"artist": "Dexys Midnight Runners and the Emerald Express",
+"rows": 1
+},
+{
+"artist": "Survivor",
+"rows": 1
+},
+{
+"artist": "The Kids from \"Fame\"",
+"rows": 1
+},
+{
+"artist": "Paul McCartney and Stevie Wonder",
+"rows": 1
+},
+{
+"artist": "Alaska y Los Pegamoides",
+"rows": 1
+},
+{
+"artist": "The Alan Parsons Project",
+"rows": 1
+},
+{
+"artist": "F.R. David",
+"rows": 1
+},
+{
+"artist": "Rose Laurens",
+"rows": 1
+},
+{
+"artist": "Les Forbans",
+"rows": 1
+},
+{
+"artist": "Claude Barzotti",
+"rows": 1
+},
+{
+"artist": "Men at Work",
+"rows": 1
+},
+{
+"artist": "Spandau Ballet",
+"rows": 1
+},
+{
+"artist": "KC and the Sunshine Band",
+"rows": 1
+},
+{
+"artist": "Tracey Ullman",
+"rows": 1
+},
+{
+"artist": "Michael Jackson and Paul McCartney",
+"rows": 1
+},
+{
+"artist": "Hall and Oates",
+"rows": 1
+},
+{
+"artist": "Daryl Hall & John Oates",
+"rows": 1
+},
+{
+"artist": "The Art Company",
+"rows": 1
+},
+{
+"artist": "Cookie Dingler",
+"rows": 1
+},
+{
+"artist": "Shakin' Stevens and Bonnie Tyler",
+"rows": 1
+},
+{
+"artist": "Cyndi Lauper",
+"rows": 1
+},
+{
+"artist": "The Pointer Sisters",
+"rows": 1
+},
+{
+"artist": "Neil",
+"rows": 1
+},
+{
+"artist": "Chaka Khan",
+"rows": 1
+},
+{
+"artist": "Jim Diamond",
+"rows": 1
+},
+{
+"artist": "Paul McCartney featuring Michael Jackson",
+"rows": 1
+},
+{
+"artist": "Pimpinela",
+"rows": 1
+},
+{
+"artist": "Julio Iglesias and Diana Ross",
+"rows": 1
+},
+{
+"artist": "Pia Zadora and Jermaine Jackson",
+"rows": 1
+},
+{
+"artist": "Al Corley",
+"rows": 1
+},
+{
+"artist": "Chanteurs sans Frontières",
+"rows": 1
+},
+{
+"artist": "Century",
+"rows": 1
+},
+{
+"artist": "Foreigner",
+"rows": 1
+},
+{
+"artist": "Elaine Paige and Barbara Dickson",
+"rows": 1
+},
+{
+"artist": "Dead or Alive",
+"rows": 1
+},
+{
+"artist": "Philip Bailey and Phil Collins",
+"rows": 1
+},
+{
+"artist": "The Concerned",
+"rows": 1
+},
+{
+"artist": "The Crowd",
+"rows": 1
+},
+{
+"artist": "Sister Sledge",
+"rows": 1
+},
+{
+"artist": "Harold Faltermeyer",
+"rows": 1
+},
+{
+"artist": "UB40 with Chrissie Hynde",
+"rows": 1
+},
+{
+"artist": "David Bowie and Mick Jagger",
+"rows": 1
+},
+{
+"artist": "Midge Ure",
+"rows": 1
+},
+{
+"artist": "Feargal Sharkey",
+"rows": 1
+},
+{
+"artist": "Phil Collins and Marilyn Martin",
+"rows": 1
+},
+{
+"artist": "USA For Africa",
+"rows": 1
+},
+{
+"artist": "Jean-Luc Lahaye",
+"rows": 1
+},
+{
+"artist": "Daniel Balavoine",
+"rows": 1
+},
+{
+"artist": "Gold",
+"rows": 1
+},
+{
+"artist": "Images",
+"rows": 1
+},
+{
+"artist": "Julie Pietri",
+"rows": 1
+},
+{
+"artist": "Cliff Richard and The Young Ones",
+"rows": 1
+},
+{
+"artist": "Big Country",
+"rows": 1
+},
+{
+"artist": "Christy Moore, Paul Doran and The Self Aid Band",
+"rows": 1
+},
+{
+"artist": "Patti LaBelle and Michael McDonald",
+"rows": 1
+},
+{
+"artist": "Spitting Image",
+"rows": 1
+},
+{
+"artist": "Doctor and the Medics",
+"rows": 1
+},
+{
+"artist": "Boris Gardiner",
+"rows": 1
+},
+{
+"artist": "Cliff Richard and Sarah Brightman",
+"rows": 1
+},
+{
+"artist": "Berlin",
+"rows": 1
+},
+{
+"artist": "Propaganda",
+"rows": 1
+},
+{
+"artist": "Miami Sound Machine",
+"rows": 1
+},
+{
+"artist": "Víctor Manuel y Ana Belén",
+"rows": 1
+},
+{
+"artist": "Wax",
+"rows": 1
+},
+{
+"artist": "Elsa",
+"rows": 1
+},
+{
+"artist": "Francis Lalanne",
+"rows": 1
+},
+{
+"artist": "Licence IV",
+"rows": 1
+},
+{
+"artist": "Jackie Wilson",
+"rows": 1
+},
+{
+"artist": "Steve \"Silk\" Hurley",
+"rows": 1
+},
+{
+"artist": "George Michael and Aretha Franklin",
+"rows": 1
+},
+{
+"artist": "Ben E. King",
+"rows": 1
+},
+{
+"artist": "Boy George",
+"rows": 1
+},
+{
+"artist": "The Pogues and The Dubliners",
+"rows": 1
+},
+{
+"artist": "Starship",
+"rows": 1
+},
+{
+"artist": "The Firm",
+"rows": 1
+},
+{
+"artist": "Michael Jackson featuring Siedah Garrett",
+"rows": 1
+},
+{
+"artist": "Pet Shop Boys featuring Dusty Springfield",
+"rows": 1
+},
+{
+"artist": "Abigail Mead and Nigel Goulding",
+"rows": 1
+},
+{
+"artist": "T'Pau",
+"rows": 1
+},
+{
+"artist": "The Pogues, featuring Kirsty MacColl",
+"rows": 1
+},
+{
+"artist": "C. C. Catch",
+"rows": 1
+},
+{
+"artist": "Guesch Patti",
+"rows": 1
+},
+{
+"artist": "Sabrina",
+"rows": 1
+},
+{
+"artist": "Sandy",
+"rows": 1
+},
+{
+"artist": "Début de Soirée",
+"rows": 1
+},
+{
+"artist": "Elsa and Glenn Medeiros",
+"rows": 1
+},
+{
+"artist": "Paco",
+"rows": 1
+},
+{
+"artist": "Belinda Carlisle",
+"rows": 1
+},
+{
+"artist": "Terence Trent D'Arby",
+"rows": 1
+},
+{
+"artist": "Hothouse Flowers",
+"rows": 1
+},
+{
+"artist": "Republic of Ireland Soccer Squad",
+"rows": 1
+},
+{
+"artist": "Tracy Chapman",
+"rows": 1
+},
+{
+"artist": "Paddy Reilly",
+"rows": 1
+},
+{
+"artist": "Yazz and the Plastic Population",
+"rows": 1
+},
+{
+"artist": "Brother Beyond",
+"rows": 1
+},
+{
+"artist": "Yazz",
+"rows": 1
+},
+{
+"artist": "Charles Aznavour and various artists",
+"rows": 1
+},
+{
+"artist": "Avalanche",
+"rows": 1
+},
+{
+"artist": "Philippe Lafontaine",
+"rows": 1
+},
+{
+"artist": "Kylie Minogue and Jason Donovan",
+"rows": 1
+},
+{
+"artist": "Mike and the Mechanics",
+"rows": 1
+},
+{
+"artist": "U2 featuring B. B. King",
+"rows": 1
+},
+{
+"artist": "Gerry Marsden, Holly Johnson, Paul McCartney & The Christians",
+"rows": 1
+},
+{
+"artist": "No Sweat",
+"rows": 1
+},
+{
+"artist": "The Waterboys",
+"rows": 1
+},
+{
+"artist": "Sonia",
+"rows": 1
+},
+{
+"artist": "Dolores Keane",
+"rows": 1
+},
+{
+"artist": "Richard Marx",
+"rows": 1
+},
+{
+"artist": "Black Box",
+"rows": 1
+},
+{
+"artist": "Linda Ronstadt and Aaron Neville",
+"rows": 1
+},
+{
+"artist": "Les Vagabonds",
+"rows": 1
+},
+{
+"artist": "The Christians",
+"rows": 1
+},
+{
+"artist": "Zouk Machine",
+"rows": 1
+},
+{
+"artist": "Charles D. Lewis",
+"rows": 1
+},
+{
+"artist": "New Kids On The Block",
+"rows": 1
+},
+{
+"artist": "The B-52's",
+"rows": 1
+},
+{
+"artist": "Mick Lally",
+"rows": 1
+},
+{
+"artist": "Liam Harrison and the GOAL Celebrities",
+"rows": 1
+},
+{
+"artist": "The Memories",
+"rows": 1
+},
+{
+"artist": "The Republic of Ireland Football Squad",
+"rows": 1
+},
+{
+"artist": "Bombalurina",
+"rows": 1
+},
+{
+"artist": "The Righteous Brothers",
+"rows": 1
+},
+{
+"artist": "Watch Your House",
+"rows": 1
+},
+{
+"artist": "Vanilla Ice",
+"rows": 1
+},
+{
+"artist": "Lisa Stansfield",
+"rows": 1
+},
+{
+"artist": "Technotronic featuring Ya Kid K",
+"rows": 1
+},
+{
+"artist": "Guru Josh",
+"rows": 1
+},
+{
+"artist": "Wilfred y la Ganga",
+"rows": 1
+},
+{
+"artist": "MC Sar & the Real McCoy",
+"rows": 1
+},
+{
+"artist": "Atawalpa",
+"rows": 1
+},
+{
+"artist": "Les Inconnus",
+"rows": 1
+},
+{
+"artist": "The Doors",
+"rows": 1
+},
+{
+"artist": "Monty Python",
+"rows": 1
+},
+{
+"artist": "Varios",
+"rows": 1
+},
+{
+"artist": "Jean-Philippe Audin and Diego Modena",
+"rows": 1
+},
+{
+"artist": "Ten Sharp",
+"rows": 1
+},
+{
+"artist": "Pow woW",
+"rows": 1
+},
+{
+"artist": "Shakespears Sister",
+"rows": 1
+},
+{
+"artist": "Eric Clapton",
+"rows": 1
+},
+{
+"artist": "Linda Martin",
+"rows": 1
+},
+{
+"artist": "Kris Kross",
+"rows": 1
+},
+{
+"artist": "Erasure",
+"rows": 1
+},
+{
+"artist": "Jimmy Nail",
+"rows": 1
+},
+{
+"artist": "The Shamen",
+"rows": 1
+},
+{
+"artist": "Tasmin Archer",
+"rows": 1
+},
+{
+"artist": "Boyz II Men",
+"rows": 1
+},
+{
+"artist": "L.A. Style",
+"rows": 1
+},
+{
+"artist": "Terra Wan",
+"rows": 1
+},
+{
+"artist": "Double You",
+"rows": 1
+},
+{
+"artist": "Xuxa",
+"rows": 1
+},
+{
+"artist": "Ellegibo",
+"rows": 1
+},
+{
+"artist": "Co.Ro featuring Tarlisa",
+"rows": 1
+},
+{
+"artist": "Les G.O. Cul-ture",
+"rows": 1
+},
+{
+"artist": "Regg'Lyss",
+"rows": 1
+},
+{
+"artist": "Chris Moore",
+"rows": 1
+},
+{
+"artist": "The Bluebells",
+"rows": 1
+},
+{
+"artist": "George Michael & Queen with Lisa Stansfield",
+"rows": 1
+},
+{
+"artist": "Niamh Kavanagh",
+"rows": 1
+},
+{
+"artist": "DJ Jazzy Jeff & the Fresh Prince",
+"rows": 1
+},
+{
+"artist": "Héroes del Silencio",
+"rows": 1
+},
+{
+"artist": "George Michael and Queen",
+"rows": 1
+},
+{
+"artist": "Ramírez",
+"rows": 1
+},
+{
+"artist": "DJ Jazzy Jeff & The Fresh Prince",
+"rows": 1
+},
+{
+"artist": "Jimmy Cliff",
+"rows": 1
+},
+{
+"artist": "Reel 2 Real and The Mad Stuntman",
+"rows": 1
+},
+{
+"artist": "Youssou N'Dour and Neneh Cherry",
+"rows": 1
+},
+{
+"artist": "Bryan Adams, Rod Stewart and Sting",
+"rows": 1
+},
+{
+"artist": "Coca-Cola Official Irish Team",
+"rows": 1
+},
+{
+"artist": "Bill Whelan",
+"rows": 1
+},
+{
+"artist": "Jam & Spoon featuring Plavka",
+"rows": 1
+},
+{
+"artist": "Jam & Spoon",
+"rows": 1
+},
+{
+"artist": "Spanić",
+"rows": 1
+},
+{
+"artist": "Tony Wilson",
+"rows": 1
+},
+{
+"artist": "Prince",
+"rows": 1
+},
+{
+"artist": "Big Mountain",
+"rows": 1
+},
+{
+"artist": "Alex de la Nuez",
+"rows": 1
+},
+{
+"artist": "Caballero",
+"rows": 1
+},
+{
+"artist": "Scorpia",
+"rows": 1
+},
+{
+"artist": "J. Rapallo",
+"rows": 1
+},
+{
+"artist": "20 Fingers feat. Gillette",
+"rows": 1
+},
+{
+"artist": "Sacred Spirit",
+"rows": 1
+},
+{
+"artist": "Blur",
+"rows": 1
+},
+{
+"artist": "Def Leppard",
+"rows": 1
+},
+{
+"artist": "Coolio",
+"rows": 1
+},
+{
+"artist": "Ororo",
+"rows": 1
+},
+{
+"artist": "Cabballero",
+"rows": 1
+},
+{
+"artist": "G.E.M.",
+"rows": 1
+},
+{
+"artist": "JX",
+"rows": 1
+},
+{
+"artist": "Michael Jackson and Janet Jackson",
+"rows": 1
+},
+{
+"artist": "Sensity World",
+"rows": 1
+},
+{
+"artist": "Proyecto Uno",
+"rows": 1
+},
+{
+"artist": "2 Fabiola",
+"rows": 1
+},
+{
+"artist": "Sin With Sebastian",
+"rows": 1
+},
+{
+"artist": "Ricardo F.",
+"rows": 1
+},
+{
+"artist": "Viva",
+"rows": 1
+},
+{
+"artist": "Ophélie Winter",
+"rows": 1
+},
+{
+"artist": "Boris",
+"rows": 1
+},
+{
+"artist": "Mark Snow",
+"rows": 1
+},
+{
+"artist": "Los Del Rio",
+"rows": 1
+},
+{
+"artist": "Carrapicho",
+"rows": 1
+},
+{
+"artist": "Khaled",
+"rows": 1
+},
+{
+"artist": "Richie Kavanagh",
+"rows": 1
+},
+{
+"artist": "Men Utd",
+"rows": 1
+},
+{
+"artist": "The Tony Rich Project",
+"rows": 1
+},
+{
+"artist": "Fool's Garden",
+"rows": 1
+},
+{
+"artist": "The Wild Swans",
+"rows": 1
+},
+{
+"artist": "OMC",
+"rows": 1
+},
+{
+"artist": "Dustin & Bob Geldof",
+"rows": 1
+},
+{
+"artist": "The Prodigy",
+"rows": 1
+},
+{
+"artist": "Fraktal 2",
+"rows": 1
+},
+{
+"artist": "Juan Antonio canta",
+"rows": 1
+},
+{
+"artist": "Sandy & Papo",
+"rows": 1
+},
+{
+"artist": "B.B.E.",
+"rows": 1
+},
+{
+"artist": "Los DelTonos",
+"rows": 1
+},
+{
+"artist": "Mark Owen",
+"rows": 1
+},
+{
+"artist": "Andrea Bocelli",
+"rows": 1
+},
+{
+"artist": "Wes",
+"rows": 1
+},
+{
+"artist": "No Mercy",
+"rows": 1
+},
+{
+"artist": "Barbra Streisand and Bryan Adams",
+"rows": 1
+},
+{
+"artist": "No Doubt",
+"rows": 1
+},
+{
+"artist": "Sash!",
+"rows": 1
+},
+{
+"artist": "Sarah Brightman and Andrea Bocelli",
+"rows": 1
+},
+{
+"artist": "Puff Daddy and Faith Evans feat. 112",
+"rows": 1
+},
+{
+"artist": "Chumbawamba",
+"rows": 1
+},
+{
+"artist": "Dustin and Joe Dolan",
+"rows": 1
+},
+{
+"artist": "White Town",
+"rows": 1
+},
+{
+"artist": "Jon Bon Jovi",
+"rows": 1
+},
+{
+"artist": "Supa T and The Party Animals",
+"rows": 1
+},
+{
+"artist": "Ana Torroja",
+"rows": 1
+},
+{
+"artist": "Puff Daddy with Faith Evans featuring 112",
+"rows": 1
+},
+{
+"artist": "Andrea Bocelli and Hélène Ségara",
+"rows": 1
+},
+{
+"artist": "Titanic",
+"rows": 1
+},
+{
+"artist": "Suprême NTM",
+"rows": 1
+},
+{
+"artist": "Garbage",
+"rows": 1
+},
+{
+"artist": "Shurik'n",
+"rows": 1
+},
+{
+"artist": "Sidaction",
+"rows": 1
+},
+{
+"artist": "Nomads",
+"rows": 1
+},
+{
+"artist": "Hermes House Band",
+"rows": 1
+},
+{
+"artist": "Brandy & Monica",
+"rows": 1
+},
+{
+"artist": "Ménélik & Imane D",
+"rows": 1
+},
+{
+"artist": "Lauryn Hill",
+"rows": 1
+},
+{
+"artist": "The Tamperer featuring Maya",
+"rows": 1
+},
+{
+"artist": "B*Witched",
+"rows": 1
+},
+{
+"artist": "Pras Michel feat. Mýa and Ol' Dirty Bastard",
+"rows": 1
+},
+{
+"artist": "Kerri Ann",
+"rows": 1
+},
+{
+"artist": "Natalie Imbruglia",
+"rows": 1
+},
+{
+"artist": "Alejandro Sanz",
+"rows": 1
+},
+{
+"artist": "Blue 4 You",
+"rows": 1
+},
+{
+"artist": "Stardust",
+"rows": 1
+},
+{
+"artist": "Larusso",
+"rows": 1
+},
+{
+"artist": "Moos",
+"rows": 1
+},
+{
+"artist": "Axelle Red",
+"rows": 1
+},
+{
+"artist": "Emile & Images",
+"rows": 1
+},
+{
+"artist": "Johnny Hallydya",
+"rows": 1
+},
+{
+"artist": "Tina Arena",
+"rows": 1
+},
+{
+"artist": "Chef",
+"rows": 1
+},
+{
+"artist": "TLC",
+"rows": 1
+},
+{
+"artist": "Rain / Various Artists",
+"rows": 1
+},
+{
+"artist": "Baz Luhrmann",
+"rows": 1
+},
+{
+"artist": "ATB",
+"rows": 1
+},
+{
+"artist": "Macy Gray",
+"rows": 1
+},
+{
+"artist": "Tom Jones and Mousse T.",
+"rows": 1
+},
+{
+"artist": "Yannick",
+"rows": 1
+},
+{
+"artist": "Santana featuring The Product G&B",
+"rows": 1
+},
+{
+"artist": "Philippe d'Avilla, Damien Sargue and Gregori Baquet",
+"rows": 1
+},
+{
+"artist": "Etienne Daho",
+"rows": 1
+},
+{
+"artist": "Radiohead",
+"rows": 1
+},
+{
+"artist": "Julien Clerc",
+"rows": 1
+},
+{
+"artist": "Noël ensemble",
+"rows": 1
+},
+{
+"artist": "Roméo et Juliette, de la Haine à l'Amour",
+"rows": 1
+},
+{
+"artist": "Baquet, Sargue & D'Avilla",
+"rows": 1
+},
+{
+"artist": "Daniel Lévi",
+"rows": 1
+},
+{
+"artist": "Cécilia Cara & Damien Sargue",
+"rows": 1
+},
+{
+"artist": "Saïan Supa Crew",
+"rows": 1
+},
+{
+"artist": "Assia",
+"rows": 1
+},
+{
+"artist": "Tom Jones & Mousse T.",
+"rows": 1
+},
+{
+"artist": "Les Dix Commandements",
+"rows": 1
+},
+{
+"artist": "Delerium",
+"rows": 1
+},
+{
+"artist": "Gabrielle",
+"rows": 1
+},
+{
+"artist": "Mark McCabe",
+"rows": 1
+},
+{
+"artist": "Spiller",
+"rows": 1
+},
+{
+"artist": "Mariah Carey featuring Westlife",
+"rows": 1
+},
+{
+"artist": "LeAnn Rimes",
+"rows": 1
+},
+{
+"artist": "Ketama",
+"rows": 1
+},
+{
+"artist": "Tony Sweat",
+"rows": 1
+},
+{
+"artist": "José el Francés",
+"rows": 1
+},
+{
+"artist": "Les Lofteurs",
+"rows": 1
+},
+{
+"artist": "Mary J. Blige",
+"rows": 1
+},
+{
+"artist": "Garou & Céline Dion",
+"rows": 1
+},
+{
+"artist": "DJ Kost & Goldfinger",
+"rows": 1
+},
+{
+"artist": "Yann Tiersen",
+"rows": 1
+},
+{
+"artist": "Zazie",
+"rows": 1
+},
+{
+"artist": "Star Academy 1",
+"rows": 1
+},
+{
+"artist": "Daddy DJ",
+"rows": 1
+},
+{
+"artist": "Shaggy & Rikrok",
+"rows": 1
+},
+{
+"artist": "Rui da Silva featuring Cassandra",
+"rows": 1
+},
+{
+"artist": "Limp Bizkit",
+"rows": 1
+},
+{
+"artist": "S Club 7",
+"rows": 1
+},
+{
+"artist": "DJ Ötzi",
+"rows": 1
+},
+{
+"artist": "Eve featuring Gwen Stefani",
+"rows": 1
+},
+{
+"artist": "Reincidentes",
+"rows": 1
+},
+{
+"artist": "King África",
+"rows": 1
+},
+{
+"artist": "Gypsy Teens",
+"rows": 1
+},
+{
+"artist": "Raúl",
+"rows": 1
+},
+{
+"artist": "Melody",
+"rows": 1
+},
+{
+"artist": "Academia Operacion Triunfo Gala 1",
+"rows": 1
+},
+{
+"artist": "Academia Operacion Triunfo Gala 2",
+"rows": 1
+},
+{
+"artist": "Blind Guardian",
+"rows": 1
+},
+{
+"artist": "Marc Lavoine and Cristina Marocco",
+"rows": 1
+},
+{
+"artist": "Bratisla Boys",
+"rows": 1
+},
+{
+"artist": "Marlène Duval and Phil Barney",
+"rows": 1
+},
+{
+"artist": "Félicien",
+"rows": 1
+},
+{
+"artist": "Whatfor",
+"rows": 1
+},
+{
+"artist": "Umberto Tozzi & Lena Ka",
+"rows": 1
+},
+{
+"artist": "Renaud & Axelle Red",
+"rows": 1
+},
+{
+"artist": "Jenifer",
+"rows": 1
+},
+{
+"artist": "Gareth Gates",
+"rows": 1
+},
+{
+"artist": "Nickelback",
+"rows": 1
+},
+{
+"artist": "Ireland World Cup Squad featuring various",
+"rows": 1
+},
+{
+"artist": "Elvis Presley vs. JXL",
+"rows": 1
+},
+{
+"artist": "Christina Aguilera featuring Redman",
+"rows": 1
+},
+{
+"artist": "Hampenberg",
+"rows": 1
+},
+{
+"artist": "Paulina Rubio",
+"rows": 1
+},
+{
+"artist": "Naim Thomas",
+"rows": 1
+},
+{
+"artist": "Shalim",
+"rows": 1
+},
+{
+"artist": "DJ Bobo",
+"rows": 1
+},
+{
+"artist": "Cristie",
+"rows": 1
+},
+{
+"artist": "Marey",
+"rows": 1
+},
+{
+"artist": "Danni Úbeda",
+"rows": 1
+},
+{
+"artist": "Alphonse Brown",
+"rows": 1
+},
+{
+"artist": "DJ BoBo",
+"rows": 1
+},
+{
+"artist": "Jocelyne Labylle, Cheela, Jacob Desvarieux and Passi",
+"rows": 1
+},
+{
+"artist": "Lorna",
+"rows": 1
+},
+{
+"artist": "Linkup",
+"rows": 1
+},
+{
+"artist": "J. Labylle and Cheela featuring J. Desvarieux & Passi",
+"rows": 1
+},
+{
+"artist": "Hermes House Band and DJ Ötzi",
+"rows": 1
+},
+{
+"artist": "Multi-interprètes",
+"rows": 1
+},
+{
+"artist": "Carla Bruni",
+"rows": 1
+},
+{
+"artist": "Girls Aloud",
+"rows": 1
+},
+{
+"artist": "Simon Casey",
+"rows": 1
+},
+{
+"artist": "Mickey Harte",
+"rows": 1
+},
+{
+"artist": "Ronan Tynan and Rita Connolly",
+"rows": 1
+},
+{
+"artist": "Beyoncé featuring Jay-Z",
+"rows": 1
+},
+{
+"artist": "XTM and DJ Chucky presents Annia",
+"rows": 1
+},
+{
+"artist": "Blu Cantrell featuring Sean Paul",
+"rows": 1
+},
+{
+"artist": "Fatman Scoop featuring The Crooklyn Clan",
+"rows": 1
+},
+{
+"artist": "Britney Spears featuring Madonna",
+"rows": 1
+},
+{
+"artist": "J-five featuring Charlie Chaplin",
+"rows": 1
+},
+{
+"artist": "K-Maro",
+"rows": 1
+},
+{
+"artist": "Starsailor",
+"rows": 1
+},
+{
+"artist": "Garou and Michel Sardou",
+"rows": 1
+},
+{
+"artist": "Les Choristes",
+"rows": 1
+},
+{
+"artist": "Véronique Sanson",
+"rows": 1
+},
+{
+"artist": "Ben Harper & The Blind Boys of Alabama",
+"rows": 1
+},
+{
+"artist": "Arielle Dombasle",
+"rows": 1
+},
+{
+"artist": "Bernard Lavilliers",
+"rows": 1
+},
+{
+"artist": "K'Maro",
+"rows": 1
+},
+{
+"artist": "Leslie & Amine",
+"rows": 1
+},
+{
+"artist": "T-Rio",
+"rows": 1
+},
+{
+"artist": "Le 6–9",
+"rows": 1
+},
+{
+"artist": "Garou & Michel Sardou",
+"rows": 1
+},
+{
+"artist": "Corneille",
+"rows": 1
+},
+{
+"artist": "Kelis",
+"rows": 1
+},
+{
+"artist": "Chris Doran",
+"rows": 1
+},
+{
+"artist": "Tim O'Riordan and Natural Gas",
+"rows": 1
+},
+{
+"artist": "The Streets",
+"rows": 1
+},
+{
+"artist": "Natasha Bedingfield",
+"rows": 1
+},
+{
+"artist": "Joaquín Sabina",
+"rows": 1
+},
+{
+"artist": "Fran Perea",
+"rows": 1
+},
+{
+"artist": "Ramón",
+"rows": 1
+},
+{
+"artist": "Nacho Cano y la OSM",
+"rows": 1
+},
+{
+"artist": "Miguel Ángel Muñoz",
+"rows": 1
+},
+{
+"artist": "Amel Bent",
+"rows": 1
+},
+{
+"artist": "Star Academy 5",
+"rows": 1
+},
+{
+"artist": "Pinocchio",
+"rows": 1
+},
+{
+"artist": "Dezil'",
+"rows": 1
+},
+{
+"artist": "Sinsemilia",
+"rows": 1
+},
+{
+"artist": "Le Roi Soleil",
+"rows": 1
+},
+{
+"artist": "Linkin Park and Jay-Z",
+"rows": 1
+},
+{
+"artist": "Zoo",
+"rows": 1
+},
+{
+"artist": "Brian McFadden and Delta Goodrem",
+"rows": 1
+},
+{
+"artist": "Nelly featuring Tim McGraw",
+"rows": 1
+},
+{
+"artist": "McFly",
+"rows": 1
+},
+{
+"artist": "Tony Christie featuring Peter Kay",
+"rows": 1
+},
+{
+"artist": "2Pac",
+"rows": 1
+},
+{
+"artist": "Daniel Powter",
+"rows": 1
+},
+{
+"artist": "Pussycat Dolls",
+"rows": 1
+},
+{
+"artist": "Sugababes",
+"rows": 1
+},
+{
+"artist": "Nizlopi",
+"rows": 1
+},
+{
+"artist": "Mario Rosenstock",
+"rows": 1
+},
+{
+"artist": "El sueño de Morfeo",
+"rows": 1
+},
+{
+"artist": "Amaral",
+"rows": 1
+},
+{
+"artist": "Mark Knopfler",
+"rows": 1
+},
+{
+"artist": "Skizoo",
+"rows": 1
+},
+{
+"artist": "Shakira con Alejandro Sanz",
+"rows": 1
+},
+{
+"artist": "Goldfrapp",
+"rows": 1
+},
+{
+"artist": "OBK",
+"rows": 1
+},
+{
+"artist": "Circus",
+"rows": 1
+},
+{
+"artist": "Mago de Oz",
+"rows": 1
+},
+{
+"artist": "Amine",
+"rows": 1
+},
+{
+"artist": "Pakito",
+"rows": 1
+},
+{
+"artist": "Cauet",
+"rows": 1
+},
+{
+"artist": "La Plage",
+"rows": 1
+},
+{
+"artist": "Tribal King",
+"rows": 1
+},
+{
+"artist": "Moby featuring Mylène Farmer",
+"rows": 1
+},
+{
+"artist": "Faf Larage",
+"rows": 1
+},
+{
+"artist": "Faudel",
+"rows": 1
+},
+{
+"artist": "Fatal Bazooka",
+"rows": 1
+},
+{
+"artist": "Fonky Family",
+"rows": 1
+},
+{
+"artist": "Un Dos Tres",
+"rows": 1
+},
+{
+"artist": "Sniper",
+"rows": 1
+},
+{
+"artist": "Nâdiya",
+"rows": 1
+},
+{
+"artist": "Olivia Ruiz",
+"rows": 1
+},
+{
+"artist": "Charlotte Gainsbourg",
+"rows": 1
+},
+{
+"artist": "Bénabar",
+"rows": 1
+},
+{
+"artist": "Najoua Belyzel",
+"rows": 1
+},
+{
+"artist": "Grand Corps Malade",
+"rows": 1
+},
+{
+"artist": "Pat Shortt",
+"rows": 1
+},
+{
+"artist": "Gnarls Barkley",
+"rows": 1
+},
+{
+"artist": "Sandi Thom",
+"rows": 1
+},
+{
+"artist": "Cascada",
+"rows": 1
+},
+{
+"artist": "Justin Timberlake featuring Timbaland",
+"rows": 1
+},
+{
+"artist": "Akon featuring Eminem",
+"rows": 1
+},
+{
+"artist": "Chenoa",
+"rows": 1
+},
+{
+"artist": "Estirpe",
+"rows": 1
+},
+{
+"artist": "Violadores Del Verso",
+"rows": 1
+},
+{
+"artist": "David Tavaré and U-gene",
+"rows": 1
+},
+{
+"artist": "Melendi",
+"rows": 1
+},
+{
+"artist": "Mala Rodríguez",
+"rows": 1
+},
+{
+"artist": "21 Demands",
+"rows": 1
+},
+{
+"artist": "The Fray",
+"rows": 1
+},
+{
+"artist": "Fergie",
+"rows": 1
+},
+{
+"artist": "Timbaland featuring Keri Hilson and D.O.E.",
+"rows": 1
+},
+{
+"artist": "Sean Kingston",
+"rows": 1
+},
+{
+"artist": "Deluxe",
+"rows": 1
+},
+{
+"artist": "Tata Golosa",
+"rows": 1
+},
+{
+"artist": "Chloe",
+"rows": 1
+},
+{
+"artist": "Shotta",
+"rows": 1
+},
+{
+"artist": "Marta Sánchez",
+"rows": 1
+},
+{
+"artist": "Innocence",
+"rows": 1
+},
+{
+"artist": "Xtreme",
+"rows": 1
+},
+{
+"artist": "Nightwish",
+"rows": 1
+},
+{
+"artist": "Spanish Fly",
+"rows": 1
+},
+{
+"artist": "Dave Gahan",
+"rows": 1
+},
+{
+"artist": "Mägo de Oz",
+"rows": 1
+},
+{
+"artist": "Sylvia Pantoja",
+"rows": 1
+},
+{
+"artist": "The Who",
+"rows": 1
+},
+{
+"artist": "U2, The Dubliners, Kíla and A Band of Bowsies",
+"rows": 1
+},
+{
+"artist": "Flo Rida featuring T-Pain",
+"rows": 1
+},
+{
+"artist": "Glen Keating and Greg Ryan",
+"rows": 1
+},
+{
+"artist": "Sharon Shannon and Mundy",
+"rows": 1
+},
+{
+"artist": "Chris Brown",
+"rows": 1
+},
+{
+"artist": "Leanne Moore",
+"rows": 1
+},
+{
+"artist": "Kings of Leon",
+"rows": 1
+},
+{
+"artist": "The X Factor Finalists 2008",
+"rows": 1
+},
+{
+"artist": "Dogma Crew",
+"rows": 1
+},
+{
+"artist": "Cast Of High School Musical",
+"rows": 1
+},
+{
+"artist": "La Habitación Roja",
+"rows": 1
+},
+{
+"artist": "Madonna featuring Justin",
+"rows": 1
+},
+{
+"artist": "Cooper",
+"rows": 1
+},
+{
+"artist": "Lady Gaga featuring Colby O'Donis",
+"rows": 1
+},
+{
+"artist": "Julie-Anne Dineen",
+"rows": 1
+},
+{
+"artist": "Flo Rida featuring Ke$ha",
+"rows": 1
+},
+{
+"artist": "A.R. Rahman & The Pussycat Dolls featuring Nicole Scherzinger",
+"rows": 1
+},
+{
+"artist": "Tinchy Stryder featuring N-Dubz",
+"rows": 1
+},
+{
+"artist": "The Veronicas",
+"rows": 1
+},
+{
+"artist": "Alexandra Burke featuring Flo Rida",
+"rows": 1
+},
+{
+"artist": "The X Factor Finalists 2009",
+"rows": 1
+},
+{
+"artist": "Carlos Baute feat. Marta Sanchez",
+"rows": 1
+},
+{
+"artist": "Macaco",
+"rows": 1
+},
+{
+"artist": "Inna",
+"rows": 1
+},
+{
+"artist": "Pitbull",
+"rows": 1
+},
+{
+"artist": "Manuel Carrasco & Malú",
+"rows": 1
+},
+{
+"artist": "Buraka Som Sistema",
+"rows": 1
+},
+{
+"artist": "Alejandro Sanz feat. Alicia Keys",
+"rows": 1
+},
+{
+"artist": "Shakira feat. Freshlyground",
+"rows": 1
+},
+{
+"artist": "René la Taupe",
+"rows": 1
+},
+{
+"artist": "Kesha",
+"rows": 1
+},
+{
+"artist": "Shakira feat. El Cata or Dizzee Rascal",
+"rows": 1
+},
+{
+"artist": "Les Prêtres",
+"rows": 1
+},
+{
+"artist": "Jean Ferrat",
+"rows": 1
+},
+{
+"artist": "Zaz",
+"rows": 1
+},
+{
+"artist": "Owl City",
+"rows": 1
+},
+{
+"artist": "Jedward featuring Vanilla Ice",
+"rows": 1
+},
+{
+"artist": "Helping Haiti",
+"rows": 1
+},
+{
+"artist": "Lady Gaga featuring Beyoncé",
+"rows": 1
+},
+{
+"artist": "Glee Cast",
+"rows": 1
+},
+{
+"artist": "Usher featuring will.i.am",
+"rows": 1
+},
+{
+"artist": "Train",
+"rows": 1
+},
+{
+"artist": "Alexandra Burke featuring Pitbull",
+"rows": 1
+},
+{
+"artist": "Edward Maya and Vika Jigulina",
+"rows": 1
+},
+{
+"artist": "Katy Perry featuring Snoop Dogg",
+"rows": 1
+},
+{
+"artist": "Yolanda Be Cool and DCUP",
+"rows": 1
+},
+{
+"artist": "Flo Rida featuring David Guetta",
+"rows": 1
+},
+{
+"artist": "Tinie Tempah featuring Eric Turner",
+"rows": 1
+},
+{
+"artist": "The X Factor Finalists 2010",
+"rows": 1
+},
+{
+"artist": "LMFAO featuring Lauren Bennett & GoonRock",
+"rows": 1
+},
+{
+"artist": "Israel Kamakawiwo'ole",
+"rows": 1
+},
+{
+"artist": "Pitbull featuring Ne-Yo, Afrojack & Nayer",
+"rows": 1
+},
+{
+"artist": "Snoop Dogg vs. David Guetta",
+"rows": 1
+},
+{
+"artist": "Jessie J featuring B.o.B",
+"rows": 1
+},
+{
+"artist": "LMFAO",
+"rows": 1
+},
+{
+"artist": "Pitbull featuring Ne-Yo, Afrojack and Nayer",
+"rows": 1
+},
+{
+"artist": "The Wanted",
+"rows": 1
+},
+{
+"artist": "Maroon 5 featuring Christina Aguilera",
+"rows": 1
+},
+{
+"artist": "Rihanna featuring Calvin Harris",
+"rows": 1
+},
+{
+"artist": "The X Factor 2011 Finalists",
+"rows": 1
+},
+{
+"artist": "Jessie J",
+"rows": 1
+},
+{
+"artist": "Emeli Sandé",
+"rows": 1
+},
+{
+"artist": "Fun featuring Janelle Monáe",
+"rows": 1
+},
+{
+"artist": "Cheryl",
+"rows": 1
+},
+{
+"artist": "will.i.am featuring Eva Simons",
+"rows": 1
+},
+{
+"artist": "Florence and the Machine",
+"rows": 1
+},
+{
+"artist": "Calvin Harris featuring Example",
+"rows": 1
+},
+{
+"artist": "Rita Ora",
+"rows": 1
+},
+{
+"artist": "Of Monsters and Men",
+"rows": 1
+},
+{
+"artist": "The Script featuring will.i.am",
+"rows": 1
+},
+{
+"artist": "Calvin Harris featuring Florence Welch",
+"rows": 1
+},
+{
+"artist": "Labrinth featuring Emeli Sandé",
+"rows": 1
+},
+{
+"artist": "will.i.am and Britney Spears",
+"rows": 1
+},
+{
+"artist": "Kodaline",
+"rows": 1
+},
+{
+"artist": "Bastille",
+"rows": 1
+},
+{
+"artist": "Daft Punk featuring Pharrell Williams and Nile Rodgers",
+"rows": 1
+},
+{
+"artist": "Finbar Furey",
+"rows": 1
+},
+{
+"artist": "Birdy",
+"rows": 1
+},
+{
+"artist": "Lily Allen",
+"rows": 1
+},
+{
+"artist": "Sam Bailey",
+"rows": 1
+},
+{
+"artist": "Duke Dumont featuring Jax Jones",
+"rows": 1
+},
+{
+"artist": "John Legend",
+"rows": 1
+},
+{
+"artist": "Calvin Harris",
+"rows": 1
+},
+{
+"artist": "Sam Smith",
+"rows": 1
+},
+{
+"artist": "Ella Henderson",
+"rows": 1
+},
+{
+"artist": "Ariana Grande featuring Iggy Azalea",
+"rows": 1
+},
+{
+"artist": "Cheryl Cole featuring Tinie Tempah",
+"rows": 1
+},
+{
+"artist": "Band Aid 30",
+"rows": 1
+},
+{
+"artist": "Rihanna, Kanye West and Paul McCartney",
+"rows": 1
+},
+{
+"artist": "James Bay",
+"rows": 1
+},
+{
+"artist": "Major Lazer and DJ Snake featuring MØ",
+"rows": 1
+},
+{
+"artist": "Charlie Puth featuring Meghan Trainor",
+"rows": 1
+},
+{
+"artist": "Zayn",
+"rows": 1
+},
+{
+"artist": "Mike Posner",
+"rows": 1
+},
+{
+"artist": "Drake featuring Wizkid and Kyla",
+"rows": 1
+},
+{
+"artist": "Calvin Harris featuring Rihanna",
+"rows": 1
+},
+{
+"artist": "Major Lazer featuring Justin Bieber and MØ",
+"rows": 1
+},
+{
+"artist": "The Chainsmokers featuring Halsey",
+"rows": 1
+},
+{
+"artist": "Luis Fonsi and Daddy Yankee featuring Justin Bieber",
+"rows": 1
+},
+{
+"artist": "Post Malone featuring 21 Savage",
+"rows": 1
+},
+{
+"artist": "Camila Cabello featuring Young Thug",
+"rows": 1
+},
+{
+"artist": "George Ezra",
+"rows": 1
+},
+{
+"artist": "Benny Blanco, Halsey and Khalid",
+"rows": 1
+},
+{
+"artist": "Calvin Harris and Sam Smith",
+"rows": 1
+},
+{
+"artist": "Lady Gaga and Bradley Cooper",
+"rows": 1
+},
+{
+"artist": "Regard",
+"rows": 1
+},
+{
+"artist": "Selena Gomez",
+"rows": 1
+},
+{
+"artist": "Eminem featuring Juice Wrld",
+"rows": 1
+},
+{
+"artist": "Saint Jhn",
+"rows": 1
+},
+{
+"artist": "DaBaby featuring Roddy Ricch",
+"rows": 1
+},
+{
+"artist": "Lady Gaga and Ariana Grande",
+"rows": 1
+},
+{
+"artist": "Joel Corry and MNEK",
+"rows": 1
+},
+{
+"artist": "Cardi B featuring Megan Thee Stallion",
+"rows": 1
+},
+{
+"artist": "Paul Woolford and Diplo featuring Kareen Lomax",
+"rows": 1
+},
+{
+"artist": "Dermot Kennedy",
+"rows": 1
+},
+{
+"artist": "Tiësto",
+"rows": 1
+},
+{
+"artist": "Justin Bieber featuring Daniel Caesar and Giveon",
+"rows": 1
+},
+{
+"artist": "Tion Wayne and Russ Millions",
+"rows": 1
+},
+{
+"artist": "Ed Sheeran and Elton John",
+"rows": 1
+},
+{
+"artist": "Lauren Spencer-Smith",
+"rows": 1
+},
+{
+"artist": "Adassa, Stephanie Beatriz, Mauro Castillo, / Rhenzy Feliz, Carolina Gaitán and Diane Guerrero",
+"rows": 1
+},
+{
+"artist": "Lost Frequencies and Calum Scott",
+"rows": 1
+},
+{
+"artist": "Belters Only featuring Jazzy",
+"rows": 1
+},
+{
+"artist": "Eliza Rose and Interplanetary Criminal",
+"rows": 1
+},
+{
+"artist": "Sam Smith and Kim Petras",
+"rows": 1
+},
+{
+"artist": "Calvin Harris and Ellie Goulding",
+"rows": 1
+},
+{
+"artist": "Jazzy",
+"rows": 1
+},
+{
+"artist": "Dave and Central Cee",
+"rows": 1
+},
+{
+"artist": "Doja Cat",
+"rows": 1
+},
+{
+"artist": "Fred Again",
+"rows": 1
+},
+{
+"artist": "Post Malone featuring Morgan Wallen",
+"rows": 1
+},
+{
+"artist": "Shaboozey",
+"rows": 1
+},
+{
+"artist": "Chappell Roan",
+"rows": 1
+},
+{
+"artist": "Charli XCX featuring Billie Eilish",
+"rows": 1
+},
+{
+"artist": "Gigi Perez",
+"rows": 1
+},
+{
+"artist": "Lola Young",
+"rows": 1
+},
+{
+"artist": "Kendrick Lamar",
+"rows": 1
+},
+{
+"artist": "Zach Bryan",
+"rows": 1
+},
+{
+"artist": "Olivia Dean",
+"rows": 1
+},
+{
+"artist": "Sam Fender and Olivia Dean",
+"rows": 1
+},
+{
+"artist": "Bella Kay",
+"rows": 1
+},
+{
+"artist": "Ella Langley",
+"rows": 1
+},
+{
+"artist": "Amble",
+"rows": 1
+},
+{
+"artist": "Ashe",
+"rows": 1
+},
+{
+"artist": "Jamie Miller",
+"rows": 1
+},
+{
+"artist": "The Sugarhill Gang",
+"rows": 1
+},
+{
+"artist": "Stars on 45",
+"rows": 1
+},
+{
+"artist": "Orquesta Mondragón",
+"rows": 1
+},
+{
+"artist": "Al Bano y Romina Power",
+"rows": 1
+},
+{
+"artist": "Alan Parsons Project",
+"rows": 1
+},
+{
+"artist": "Steve Miller Band",
+"rows": 1
+},
+{
+"artist": "Hall & Oates",
+"rows": 1
+},
+{
+"artist": "Julio Iglesias & Diana Ross",
+"rows": 1
+},
+{
+"artist": "Stephanie",
+"rows": 1
+},
+{
+"artist": "Víctor Manuel & Ana Belén",
+"rows": 1
+},
+{
+"artist": "C.C. Catch",
+"rows": 1
+},
+{
+"artist": "Jive Bunny & The Mastermixers",
+"rows": 1
+},
+{
+"artist": "Peter Alexander & Caterina Valente",
+"rows": 1
+},
+{
+"artist": "Caterina Valente & Silvio Francesco as Club Indonesia",
+"rows": 1
+},
+{
+"artist": "Bill Haley & His Comets",
+"rows": 1
+},
+{
+"artist": "Club Argentina",
+"rows": 1
+},
+{
+"artist": "Lukas-Trio",
+"rows": 1
+},
+{
+"artist": "Wolfgang Sauer",
+"rows": 1
+},
+{
+"artist": "Harry Belafonte",
+"rows": 1
+},
+{
+"artist": "Die Heimatsänger",
+"rows": 1
+},
+{
+"artist": "Fred Bertelmann",
+"rows": 1
+},
+{
+"artist": "Mitch Miller",
+"rows": 1
+},
+{
+"artist": "Nilsen Brothers",
+"rows": 1
+},
+{
+"artist": "Kingston Trio",
+"rows": 1
+},
+{
+"artist": "Jan & Kjeld",
+"rows": 1
+},
+{
+"artist": "Heidi Brühl",
+"rows": 1
+},
+{
+"artist": "Club Honolulu",
+"rows": 1
+},
+{
+"artist": "Lale Andersen",
+"rows": 1
+},
+{
+"artist": "Nelson Riddle",
+"rows": 1
+},
+{
+"artist": "Joe Damiano",
+"rows": 1
+},
+{
+"artist": "Percy Faith",
+"rows": 1
+},
+{
+"artist": "Sergio Bruni",
+"rows": 1
+},
+{
+"artist": "Umberto Bindi",
+"rows": 1
+},
+{
+"artist": "Ivo Robić",
+"rows": 1
+},
+{
+"artist": "Ralf Bendix",
+"rows": 1
+},
+{
+"artist": "Gus Backus",
+"rows": 1
+},
+{
+"artist": "Los Machucambos",
+"rows": 1
+},
+{
+"artist": "Bob Moore",
+"rows": 1
+},
+{
+"artist": "Conny Froboess",
+"rows": 1
+},
+{
+"artist": "Pat Boone / Rex Gildo",
+"rows": 1
+},
+{
+"artist": "Marcel Amont",
+"rows": 1
+},
+{
+"artist": "Tony Renis",
+"rows": 1
+},
+{
+"artist": "Chubby Checker",
+"rows": 1
+},
+{
+"artist": "Billy Mo",
+"rows": 1
+},
+{
+"artist": "Die Tahiti-Tamourés",
+"rows": 1
+},
+{
+"artist": "Manuela",
+"rows": 1
+},
+{
+"artist": "Gitte",
+"rows": 1
+},
+{
+"artist": "Gitte & Rex Gildo",
+"rows": 1
+},
+{
+"artist": "Michele",
+"rows": 1
+},
+{
+"artist": "Siw Malmkvist",
+"rows": 1
+},
+{
+"artist": "Peter Lauch & Die Regenpfeifer",
+"rows": 1
+},
+{
+"artist": "Johnny Rivers",
+"rows": 1
+},
+{
+"artist": "Edoardo Vianello",
+"rows": 1
+},
+{
+"artist": "Gene Pitney",
+"rows": 1
+},
+{
+"artist": "Los Marcellos Ferial",
+"rows": 1
+},
+{
+"artist": "Sam The Sham & The Pharaohs",
+"rows": 1
+},
+{
+"artist": "New Christy Minstrels",
+"rows": 1
+},
+{
+"artist": "Adamo",
+"rows": 1
+},
+{
+"artist": "I Giganti",
+"rows": 1
+},
+{
+"artist": "David Garrick",
+"rows": 1
+},
+{
+"artist": "Peggy March",
+"rows": 1
+},
+{
+"artist": "Little Tony",
+"rows": 1
+},
+{
+"artist": "Fausto Leali",
+"rows": 1
+},
+{
+"artist": "Nico e i Gabbiani",
+"rows": 1
+},
+{
+"artist": "John Fred & His Playboy Band",
+"rows": 1
+},
+{
+"artist": "Don Backy",
+"rows": 1
+},
+{
+"artist": "Antoine",
+"rows": 1
+},
+{
+"artist": "Brenton Wood",
+"rows": 1
+},
+{
+"artist": "Georgie Fame",
+"rows": 1
+},
+{
+"artist": "Riccardo Del Turco",
+"rows": 1
+},
+{
+"artist": "Franco IV e Franco I",
+"rows": 1
+},
+{
+"artist": "1910 Fruitgum Company",
+"rows": 1
+},
+{
+"artist": "Donovan",
+"rows": 1
+},
+{
+"artist": "Tommy James and The Shondells",
+"rows": 1
+},
+{
+"artist": "Desmond Dekker",
+"rows": 1
+},
+{
+"artist": "Edwin Hawkins Singers",
+"rows": 1
+},
+{
+"artist": "Nada",
+"rows": 1
+},
+{
+"artist": "Mario Tessuto",
+"rows": 1
+},
+{
+"artist": "Led Zeppelin",
+"rows": 1
+},
+{
+"artist": "The Soulful Dynamics",
+"rows": 1
+},
+{
+"artist": "Frijid Pink",
+"rows": 1
+},
+{
+"artist": "Simon and Garfunkel",
+"rows": 1
+},
+{
+"artist": "Black Sabbath",
+"rows": 1
+},
+{
+"artist": "Renato",
+"rows": 1
+},
+{
+"artist": "Danyel Gérard",
+"rows": 1
+},
+{
+"artist": "Peret",
+"rows": 1
+},
+{
+"artist": "Francis Lai",
+"rows": 1
+},
+{
+"artist": "Daisy Door",
+"rows": 1
+},
+{
+"artist": "Die Windows",
+"rows": 1
+},
+{
+"artist": "Juliane Werding",
+"rows": 1
+},
+{
+"artist": "Daniel Boone",
+"rows": 1
+},
+{
+"artist": "Bata Illic",
+"rows": 1
+},
+{
+"artist": "T.Rex",
+"rows": 1
+},
+{
+"artist": "Mouth & MacNeal",
+"rows": 1
+},
+{
+"artist": "Delirium",
+"rows": 1
+},
+{
+"artist": "Gianni Nazzaro",
+"rows": 1
+},
+{
+"artist": "Santo & Johnny",
+"rows": 1
+},
+{
+"artist": "Les Humphries Singers",
+"rows": 1
+},
+{
+"artist": "Dan the Banjo Man",
+"rows": 1
+},
+{
+"artist": "Nazareth",
+"rows": 1
+},
+{
+"artist": "Vicky Leandros",
+"rows": 1
+},
+{
+"artist": "Berto Pisano",
+"rows": 1
+},
+{
+"artist": "Drupi",
+"rows": 1
+},
+{
+"artist": "Bachman-Turner Overdrive",
+"rows": 1
+},
+{
+"artist": "Udo Jürgens",
+"rows": 1
+},
+{
+"artist": "Shirley & Company",
+"rows": 1
+},
+{
+"artist": "5000 Volts",
+"rows": 1
+},
+{
+"artist": "Cochi e Renato",
+"rows": 1
+},
+{
+"artist": "Wess & Dori Ghezzi",
+"rows": 1
+},
+{
+"artist": "I cugini di campagna",
+"rows": 1
+},
+{
+"artist": "I Santo California",
+"rows": 1
+},
+{
+"artist": "Il Guardiano del Faro",
+"rows": 1
+},
+{
+"artist": "Goblin",
+"rows": 1
+},
+{
+"artist": "Harpo",
+"rows": 1
+},
+{
+"artist": "Frank Farian",
+"rows": 1
+},
+{
+"artist": "The Bellamy Brothers",
+"rows": 1
+},
+{
+"artist": "Jürgen Drews",
+"rows": 1
+},
+{
+"artist": "David Dundas",
+"rows": 1
+},
+{
+"artist": "Afric Simone",
+"rows": 1
+},
+{
+"artist": "Gianni Bella",
+"rows": 1
+},
+{
+"artist": "Space",
+"rows": 1
+},
+{
+"artist": "Keith Emerson",
+"rows": 1
+},
+{
+"artist": "Collage",
+"rows": 1
+},
+{
+"artist": "Maynard Ferguson",
+"rows": 1
+},
+{
+"artist": "Donna Summer",
+"rows": 1
+},
+{
+"artist": "Umberto Balsamo",
+"rows": 1
+},
+{
+"artist": "Amanda Lear",
+"rows": 1
+},
+{
+"artist": "Vader Abraham & Die Schlümpfe",
+"rows": 1
+},
+{
+"artist": "Marshall Hain",
+"rows": 1
+},
+{
+"artist": "Luv'",
+"rows": 1
+},
+{
+"artist": "Rino Gaetano",
+"rows": 1
+},
+{
+"artist": "Anna Oxa",
+"rows": 1
+},
+{
+"artist": "Antonello Venditti",
+"rows": 1
+},
+{
+"artist": "Dschinghis Khan",
+"rows": 1
+},
+{
+"artist": "M",
+"rows": 1
+},
+{
+"artist": "D. D. Jackson",
+"rows": 1
+},
+{
+"artist": "Ragazzi Di Remi",
+"rows": 1
+},
+{
+"artist": "Peter Kent (singer)",
+"rows": 1
+},
+{
+"artist": "Earth & Fire",
+"rows": 1
+},
+{
+"artist": "Mike Krüger",
+"rows": 1
+},
+{
+"artist": "Olivia Newton-John & ELO",
+"rows": 1
+},
+{
+"artist": "Roland Kaiser",
+"rows": 1
+},
+{
+"artist": "I Ragazzi Di Remi",
+"rows": 1
+},
+{
+"artist": "The Knack",
+"rows": 1
+},
+{
+"artist": "Katia Svizzero",
+"rows": 1
+},
+{
+"artist": "Gianni Togni",
+"rows": 1
+},
+{
+"artist": "Spargo",
+"rows": 1
+},
+{
+"artist": "Gottlieb Wendehals",
+"rows": 1
+},
+{
+"artist": "Spider Murphy Gang",
+"rows": 1
+},
+{
+"artist": "OMD",
+"rows": 1
+},
+{
+"artist": "Markus",
+"rows": 1
+},
+{
+"artist": "Andy Borg",
+"rows": 1
+},
+{
+"artist": "Riccardo Fogli",
+"rows": 1
+},
+{
+"artist": "Romina Power",
+"rows": 1
+},
+{
+"artist": "Phoebe Cates",
+"rows": 1
+},
+{
+"artist": "Peter Schilling",
+"rows": 1
+},
+{
+"artist": "Geier Sturzflug",
+"rows": 1
+},
+{
+"artist": "DÖF",
+"rows": 1
+},
+{
+"artist": "Laid Back",
+"rows": 1
+},
+{
+"artist": "Corrado",
+"rows": 1
+},
+{
+"artist": "Nino de Angelo",
+"rows": 1
+},
+{
+"artist": "Real Life",
+"rows": 1
+},
+{
+"artist": "Giorgio Moroder",
+"rows": 1
+},
+{
+"artist": "Jermaine Jackson & Pia Zadora",
+"rows": 1
+},
+{
+"artist": "Francesco De Gregori",
+"rows": 1
+},
+{
+"artist": "Van Halen",
+"rows": 1
+},
+{
+"artist": "Alice and Franco Battiato",
+"rows": 1
+},
+{
+"artist": "Sandy Marton",
+"rows": 1
+},
+{
+"artist": "Tears for Fears",
+"rows": 1
+},
+{
+"artist": "Sandra",
+"rows": 1
+},
+{
+"artist": "Luis Miguel",
+"rows": 1
+},
+{
+"artist": "Arcadia",
+"rows": 1
+},
+{
+"artist": "Bruce and Bongo",
+"rows": 1
+},
+{
+"artist": "Chris Norman",
+"rows": 1
+},
+{
+"artist": "Mc Miker G & Deejay Sven",
+"rows": 1
+},
+{
+"artist": "Pierre Cosso & Bonnie Bianco",
+"rows": 1
+},
+{
+"artist": "John Farnham",
+"rows": 1
+},
+{
+"artist": "Gianni Morandi, Enrico Ruggeri, Umberto Tozzi",
+"rows": 1
+},
+{
+"artist": "OFF",
+"rows": 1
+},
+{
+"artist": "Caroline Loeb",
+"rows": 1
+},
+{
+"artist": "Ferry Aid",
+"rows": 1
+},
+{
+"artist": "Guillermo Marchena",
+"rows": 1
+},
+{
+"artist": "Taylor Dayne",
+"rows": 1
+},
+{
+"artist": "The Fat Boys & Chubby Checker",
+"rows": 1
+},
+{
+"artist": "Koreana",
+"rows": 1
+},
+{
+"artist": "MARRS",
+"rows": 1
+},
+{
+"artist": "Renzo Arbore",
+"rows": 1
+},
+{
+"artist": "Luca Barbarossa",
+"rows": 1
+},
+{
+"artist": "Eighth Wonder",
+"rows": 1
+},
+{
+"artist": "David Hasselhoff",
+"rows": 1
+},
+{
+"artist": "Mysterious Art",
+"rows": 1
+},
+{
+"artist": "Fabio Concato",
+"rows": 1
+},
+{
+"artist": "Joe Cocker",
+"rows": 1
+},
+{
+"artist": "Edoardo Bennato",
+"rows": 1
+},
+{
+"artist": "Werner Wichtig",
+"rows": 1
+},
+{
+"artist": "Matthias Reim",
+"rows": 1
+},
+{
+"artist": "DNA featuring Suzanne Vega",
+"rows": 1
+},
+{
+"artist": "Edoardo Bennato, Gianna Nannini",
+"rows": 1
+},
+{
+"artist": "Amedeo Minghi, Mietta",
+"rows": 1
+},
+{
+"artist": "Francesco Baccini, Ladri di Biciclette",
+"rows": 1
+},
+{
+"artist": "Torfrock",
+"rows": 1
+},
+{
+"artist": "C+C Music Factory",
+"rows": 1
+},
+{
+"artist": "Kate Yanai",
+"rows": 1
+},
+{
+"artist": "Claudio Bisio, Rocco Tanica",
+"rows": 1
+},
+{
+"artist": "U96",
+"rows": 1
+},
+{
+"artist": "Mr. Big",
+"rows": 1
+},
+{
+"artist": "Inner Circle",
+"rows": 1
+},
+{
+"artist": "Charles & Eddie",
+"rows": 1
+},
+{
+"artist": "Sting",
+"rows": 1
+},
+{
+"artist": "Enrico Ruggeri",
+"rows": 1
+},
+{
+"artist": "883 & Fiorello",
+"rows": 1
+},
+{
+"artist": "Bryan Adams, Sting & Rod Stewart",
+"rows": 1
+},
+{
+"artist": "Magic Affair",
+"rows": 1
+},
+{
+"artist": "Prince Ital Joe & Marky Mark",
+"rows": 1
+},
+{
+"artist": "Crash Test Dummies",
+"rows": 1
+},
+{
+"artist": "All-4-One",
+"rows": 1
+},
+{
+"artist": "Bryan Adams & Sting & Rod Stewart",
+"rows": 1
+},
+{
+"artist": "Molella",
+"rows": 1
+},
+{
+"artist": "Fiorello & Caterina",
+"rows": 1
+},
+{
+"artist": "Marie-Claire D'Ubaldo",
+"rows": 1
+},
+{
+"artist": "Youssou N'Dour & Neneh Cherry",
+"rows": 1
+},
+{
+"artist": "Digital Boy & Asia",
+"rows": 1
+},
+{
+"artist": "Ice MC",
+"rows": 1
+},
+{
+"artist": "Da Blitz",
+"rows": 1
+},
+{
+"artist": "Mark 'Oh",
+"rows": 1
+},
+{
+"artist": "Vangelis",
+"rows": 1
+},
+{
+"artist": "Die Doofen",
+"rows": 1
+},
+{
+"artist": "Technohead",
+"rows": 1
+},
+{
+"artist": "Die Fantastischen Vier",
+"rows": 1
+},
+{
+"artist": "Radio Dee Jay for Christmas",
+"rows": 1
+},
+{
+"artist": "Indiana",
+"rows": 1
+},
+{
+"artist": "Billy Ray Martin",
+"rows": 1
+},
+{
+"artist": "Michael Jackson & Janet Jackson",
+"rows": 1
+},
+{
+"artist": "Alex Party",
+"rows": 1
+},
+{
+"artist": "De'Lacy",
+"rows": 1
+},
+{
+"artist": "Alexia & Double You",
+"rows": 1
+},
+{
+"artist": "Fools Garden",
+"rows": 1
+},
+{
+"artist": "The Kelly Family",
+"rows": 1
+},
+{
+"artist": "Elio e le Storie Tese",
+"rows": 1
+},
+{
+"artist": "2pac",
+"rows": 1
+},
+{
+"artist": "Livin' Joy",
+"rows": 1
+},
+{
+"artist": "Bob Marley",
+"rows": 1
+},
+{
+"artist": "Regina",
+"rows": 1
+},
+{
+"artist": "Underworld",
+"rows": 1
+},
+{
+"artist": "Robert Miles and Maria Nayler",
+"rows": 1
+},
+{
+"artist": "Sabrina Setlur",
+"rows": 1
+},
+{
+"artist": "Nana",
+"rows": 1
+},
+{
+"artist": "Members of Mayday",
+"rows": 1
+},
+{
+"artist": "Puff Daddy featuring Faith Evans and 112",
+"rows": 1
+},
+{
+"artist": "Pras featuring Ol' Dirty Bastard and Mýa",
+"rows": 1
+},
+{
+"artist": "Lighthouse Family",
+"rows": 1
+},
+{
+"artist": "Savage Garden",
+"rows": 1
+},
+{
+"artist": "Goo Goo Dolls",
+"rows": 1
+},
+{
+"artist": "Stefan Raab",
+"rows": 1
+},
+{
+"artist": "Alex Britti",
+"rows": 1
+},
+{
+"artist": "Anggun",
+"rows": 1
+},
+{
+"artist": "Liga-Jova-Pelù",
+"rows": 1
+},
+{
+"artist": "Wyclef Jean featuring Bono",
+"rows": 1
+},
+{
+"artist": "Lùnapop",
+"rows": 1
+},
+{
+"artist": "Five",
+"rows": 1
+},
+{
+"artist": "Piero Pelù",
+"rows": 1
+},
+{
+"artist": "Paola & Chiara",
+"rows": 1
+},
+{
+"artist": "Bomfunk MC's",
+"rows": 1
+},
+{
+"artist": "Lenny Kravitz",
+"rows": 1
+},
+{
+"artist": "Christian",
+"rows": 1
+},
+{
+"artist": "Outkast",
+"rows": 1
+},
+{
+"artist": "Crazy Town",
+"rows": 1
+},
+{
+"artist": "Dante Thomas",
+"rows": 1
+},
+{
+"artist": "Christina Aguilera, Pink, Lil' Kim and Mýa featuring Missy Elliott",
+"rows": 1
+},
+{
+"artist": "Tricarico",
+"rows": 1
+},
+{
+"artist": "Lollipop",
+"rows": 1
+},
+{
+"artist": "Zucchero",
+"rows": 1
+},
+{
+"artist": "Valeria Rossi",
+"rows": 1
+},
+{
+"artist": "The Calling",
+"rows": 1
+},
+{
+"artist": "Tiromancino",
+"rows": 1
+},
+{
+"artist": "Deutschland sucht den Superstar",
+"rows": 1
+},
+{
+"artist": "Daniel K",
+"rows": 1
+},
+{
+"artist": "RZA featuring Xavier Naidoo",
+"rows": 1
+},
+{
+"artist": "Outlandish",
+"rows": 1
+},
+{
+"artist": "The Rasmus",
+"rows": 1
+},
+{
+"artist": "Pur",
+"rows": 1
+},
+{
+"artist": "DJ Ötzi featuring Eric Dikeb",
+"rows": 1
+},
+{
+"artist": "Lumidee featuring Busta Rhymes and Fabolous",
+"rows": 1
+},
+{
+"artist": "Martin Kesici",
+"rows": 1
+},
+{
+"artist": "Overground",
+"rows": 1
+},
+{
+"artist": "Preluders",
+"rows": 1
+},
+{
+"artist": "Sarah Connor and Naturally 7",
+"rows": 1
+},
+{
+"artist": "Panjabi MC",
+"rows": 1
+},
+{
+"artist": "Le Vibrazioni",
+"rows": 1
+},
+{
+"artist": "Giorgia",
+"rows": 1
+},
+{
+"artist": "Sean Paul",
+"rows": 1
+},
+{
+"artist": "Lumidee",
+"rows": 1
+},
+{
+"artist": "Oomph!",
+"rows": 1
+},
+{
+"artist": "Sarah Connor featuring Natural",
+"rows": 1
+},
+{
+"artist": "Max",
+"rows": 1
+},
+{
+"artist": "Usher featuring Ludacris and Lil' Jon",
+"rows": 1
+},
+{
+"artist": "Mario Winans featuring Diddy and Enya",
+"rows": 1
+},
+{
+"artist": "Nu Pagadi",
+"rows": 1
+},
+{
+"artist": "Haiducii",
+"rows": 1
+},
+{
+"artist": "Blue",
+"rows": 1
+},
+{
+"artist": "Tiziano Ferro and Jamelia",
+"rows": 1
+},
+{
+"artist": "Hoobastank",
+"rows": 1
+},
+{
+"artist": "Luca Dirisio",
+"rows": 1
+},
+{
+"artist": "Schnappi",
+"rows": 1
+},
+{
+"artist": "Mario",
+"rows": 1
+},
+{
+"artist": "50 Cent featuring Olivia",
+"rows": 1
+},
+{
+"artist": "Ch!pz",
+"rows": 1
+},
+{
+"artist": "US5",
+"rows": 1
+},
+{
+"artist": "Pussycat Dolls featuring Busta Rhymes",
+"rows": 1
+},
+{
+"artist": "Sugarfree",
+"rows": 1
+},
+{
+"artist": "Povia",
+"rows": 1
+},
+{
+"artist": "Lee Ryan",
+"rows": 1
+},
+{
+"artist": "Bob Sinclar presents Goleo VI featuring Gary \"Nesta\" Pine",
+"rows": 1
+},
+{
+"artist": "Tobias Regner",
+"rows": 1
+},
+{
+"artist": "Mike Leon Grosch",
+"rows": 1
+},
+{
+"artist": "Texas Lightning",
+"rows": 1
+},
+{
+"artist": "Herbert Grönemeyer featuring Amadou & Mariam",
+"rows": 1
+},
+{
+"artist": "Sportfreunde Stiller",
+"rows": 1
+},
+{
+"artist": "Xavier Naidoo",
+"rows": 1
+},
+{
+"artist": "Scissor Sisters",
+"rows": 1
+},
+{
+"artist": "Silbermond",
+"rows": 1
+},
+{
+"artist": "Tina Turner and Elisa",
+"rows": 1
+},
+{
+"artist": "Checco Zalone",
+"rows": 1
+},
+{
+"artist": "Gigi D'Alessio",
+"rows": 1
+},
+{
+"artist": "Höhner",
+"rows": 1
+},
+{
+"artist": "DJ Ötzi featuring Nik P.",
+"rows": 1
+},
+{
+"artist": "Mark Medlock featuring Dieter Bohlen",
+"rows": 1
+},
+{
+"artist": "Azad featuring Adel Tawil",
+"rows": 1
+},
+{
+"artist": "Culcha Candela",
+"rows": 1
+},
+{
+"artist": "Plain White T's",
+"rows": 1
+},
+{
+"artist": "Alex C. featuring Y-ass",
+"rows": 1
+},
+{
+"artist": "Schnuffel",
+"rows": 1
+},
+{
+"artist": "Thomas Godoj",
+"rows": 1
+},
+{
+"artist": "Shaggy featuring Trix & Flix",
+"rows": 1
+},
+{
+"artist": "Söhne Mannheims",
+"rows": 1
+},
+{
+"artist": "Rosenstolz",
+"rows": 1
+},
+{
+"artist": "Polarkreis 18",
+"rows": 1
+},
+{
+"artist": "Timbaland presents OneRepublic",
+"rows": 1
+},
+{
+"artist": "Cinema 2",
+"rows": 1
+},
+{
+"artist": "Giò Di Tonno and Lola Ponce",
+"rows": 1
+},
+{
+"artist": "Madonna featuring Justin Timberlake and Timbaland",
+"rows": 1
+},
+{
+"artist": "Michael Bublé",
+"rows": 1
+},
+{
+"artist": "Negramaro",
+"rows": 1
+},
+{
+"artist": "X Factor finalists 2009",
+"rows": 1
+},
+{
+"artist": "The Bastard Sons of Dioniso",
+"rows": 1
+},
+{
+"artist": "Artisti Uniti per l'Abruzzo",
+"rows": 1
+},
+{
+"artist": "Noemi featuring Fiorella Mannoia",
+"rows": 1
+},
+{
+"artist": "Black Eyed Peas",
+"rows": 1
+},
+{
+"artist": "Elisa and Giuliano Sangiorgi",
+"rows": 1
+},
+{
+"artist": "Gianna Nannini and Giorgia",
+"rows": 1
+},
+{
+"artist": "Aura Dione",
+"rows": 1
+},
+{
+"artist": "Keri Hilson",
+"rows": 1
+},
+{
+"artist": "Ke$ha",
+"rows": 1
+},
+{
+"artist": "Lena",
+"rows": 1
+},
+{
+"artist": "Mehrzad Marashi",
+"rows": 1
+},
+{
+"artist": "K'naan",
+"rows": 1
+},
+{
+"artist": "Yolanda Be Cool & DCUP",
+"rows": 1
+},
+{
+"artist": "Israel \"IZ\" Kamakawiwoʻole",
+"rows": 1
+},
+{
+"artist": "Empire of the Sun",
+"rows": 1
+},
+{
+"artist": "Noemi",
+"rows": 1
+},
+{
+"artist": "Mary J. Blige featuring Tiziano Ferro",
+"rows": 1
+},
+{
+"artist": "Pierdavide Carone",
+"rows": 1
+},
+{
+"artist": "Emma Marrone",
+"rows": 1
+},
+{
+"artist": "Shakira featuring Dizzee Rascal",
+"rows": 1
+},
+{
+"artist": "Nathalie",
+"rows": 1
+},
+{
+"artist": "Modà featuring Emma",
+"rows": 1
+},
+{
+"artist": "Alexandra Stan",
+"rows": 1
+},
+{
+"artist": "Don Omar and Lucenzo",
+"rows": 1
+},
+{
+"artist": "Maria Gadú",
+"rows": 1
+},
+{
+"artist": "Tacabro",
+"rows": 1
+},
+{
+"artist": "Alex Ferrari",
+"rows": 1
+},
+{
+"artist": "Lana Del Rey",
+"rows": 1
+},
+{
+"artist": "Les Stentors",
+"rows": 1
+},
+{
+"artist": "Shy'm",
+"rows": 1
+},
+{
+"artist": "Tryo",
+"rows": 1
+},
+{
+"artist": "Marc Lavoine",
+"rows": 1
+},
+{
+"artist": "Baptiste Giabiconi",
+"rows": 1
+},
+{
+"artist": "Olly Murs featuring Rizzle Kicks",
+"rows": 1
+},
+{
+"artist": "Alex Clare",
+"rows": 1
+},
+{
+"artist": "Luca Hänni",
+"rows": 1
+},
+{
+"artist": "Marteria, Yasha & Miss Platnum",
+"rows": 1
+},
+{
+"artist": "Maroon 5 featuring Wiz Khalifa",
+"rows": 1
+},
+{
+"artist": "Pulcino Pio",
+"rows": 1
+},
+{
+"artist": "Chiara",
+"rows": 1
+},
+{
+"artist": "Bakermat",
+"rows": 1
+},
+{
+"artist": "Vitaa and Maître Gims",
+"rows": 1
+},
+{
+"artist": "Bénabar, Patrick Bruel, Cali and Marina",
+"rows": 1
+},
+{
+"artist": "La Fouine",
+"rows": 1
+},
+{
+"artist": "Emmanuel Moire",
+"rows": 1
+},
+{
+"artist": "Seth Gueko",
+"rows": 1
+},
+{
+"artist": "Sébastien Patoche",
+"rows": 1
+},
+{
+"artist": "Olympe",
+"rows": 1
+},
+{
+"artist": "Keen'V",
+"rows": 1
+},
+{
+"artist": "Luc Arbogast",
+"rows": 1
+},
+{
+"artist": "Capital Cities",
+"rows": 1
+},
+{
+"artist": "Beatrice Egli",
+"rows": 1
+},
+{
+"artist": "Jason Derulo featuring 2 Chainz",
+"rows": 1
+},
+{
+"artist": "FAUL & Wad Ad vs. Pnau",
+"rows": 1
+},
+{
+"artist": "Naughty Boy featuring Sam Smith",
+"rows": 1
+},
+{
+"artist": "Laura Pausini and Kylie Minogue",
+"rows": 1
+},
+{
+"artist": "Mika featuring Chiara",
+"rows": 1
+},
+{
+"artist": "Michele Bravi",
+"rows": 1
+},
+{
+"artist": "Black M",
+"rows": 1
+},
+{
+"artist": "Lilly Wood and the Prick",
+"rows": 1
+},
+{
+"artist": "Mr Probz",
+"rows": 1
+},
+{
+"artist": "Andreas Bourani",
+"rows": 1
+},
+{
+"artist": "Aneta Sablik",
+"rows": 1
+},
+{
+"artist": "Lilly Wood and the Prick & Robin Schulz",
+"rows": 1
+},
+{
+"artist": "Marlon Roudette",
+"rows": 1
+},
+{
+"artist": "The Avener",
+"rows": 1
+},
+{
+"artist": "Band Aid 30 Germany",
+"rows": 1
+},
+{
+"artist": "Coldplay",
+"rows": 1
+},
+{
+"artist": "Deborah Iurato",
+"rows": 1
+},
+{
+"artist": "Club Dogo",
+"rows": 1
+},
+{
+"artist": "Emis Killa",
+"rows": 1
+},
+{
+"artist": "Kiesza",
+"rows": 1
+},
+{
+"artist": "Club Dogo featuring Arisa",
+"rows": 1
+},
+{
+"artist": "Enrique Iglesias featuring Sean Paul, / Gente de Zona and Descemer Bueno",
+"rows": 1
+},
+{
+"artist": "Lorenzo Fragola",
+"rows": 1
+},
+{
+"artist": "Fedez featuring Francesca Michielin",
+"rows": 1
+},
+{
+"artist": "Kwabs",
+"rows": 1
+},
+{
+"artist": "Calvin Harris featuring Ellie Goulding",
+"rows": 1
+},
+{
+"artist": "James Newton Howard featuring Jennifer Lawrence",
+"rows": 1
+},
+{
+"artist": "Felix Jaehn featuring Jasmine Thompson",
+"rows": 1
+},
+{
+"artist": "Lost Frequencies featuring Janieck Devy",
+"rows": 1
+},
+{
+"artist": "Robin Schulz featuring Francesco Yates",
+"rows": 1
+},
+{
+"artist": "Sido featuring Andreas Bourani",
+"rows": 1
+},
+{
+"artist": "Namika",
+"rows": 1
+},
+{
+"artist": "Il Volo",
+"rows": 1
+},
+{
+"artist": "Nicky Jam & Enrique Iglesias",
+"rows": 1
+},
+{
+"artist": "Baby K featuring Giusy Ferreri",
+"rows": 1
+},
+{
+"artist": "Urban Strangers",
+"rows": 1
+},
+{
+"artist": "M.Pokora",
+"rows": 1
+},
+{
+"artist": "Kendji Girac",
+"rows": 1
+},
+{
+"artist": "PNL",
+"rows": 1
+},
+{
+"artist": "Jul",
+"rows": 1
+},
+{
+"artist": "Matt Simons",
+"rows": 1
+},
+{
+"artist": "EFF",
+"rows": 1
+},
+{
+"artist": "Drake featuring Wizkid & Kyla",
+"rows": 1
+},
+{
+"artist": "Prince Damien",
+"rows": 1
+},
+{
+"artist": "Kungs vs. Cookin' on 3 Burners",
+"rows": 1
+},
+{
+"artist": "David Guetta featuring Zara Larsson",
+"rows": 1
+},
+{
+"artist": "Imany",
+"rows": 1
+},
+{
+"artist": "Rag'n'Bone Man",
+"rows": 1
+},
+{
+"artist": "Clean Bandit featuring Sean Paul & Anne-Marie",
+"rows": 1
+},
+{
+"artist": "J Balvin",
+"rows": 1
+},
+{
+"artist": "Charlie Puth featuring Selena Gomez",
+"rows": 1
+},
+{
+"artist": "Major Lazer featuring Justin Bieber / and MØ",
+"rows": 1
+},
+{
+"artist": "J-Ax and Fedez featuring Stash and Levante",
+"rows": 1
+},
+{
+"artist": "Axwell Λ Ingrosso",
+"rows": 1
+},
+{
+"artist": "Kay One featuring Pietro Lombardi",
+"rows": 1
+},
+{
+"artist": "Kollegah and Farid Bang",
+"rows": 1
+},
+{
+"artist": "Francesco Gabbani",
+"rows": 1
+},
+{
+"artist": "J-Ax and Fedez featuring T-Pain",
+"rows": 1
+},
+{
+"artist": "Thegiornalisti",
+"rows": 1
+},
+{
+"artist": "J Balvin and Willy William",
+"rows": 1
+},
+{
+"artist": "Guè Pequeno featuring Sfera Ebbasta",
+"rows": 1
+},
+{
+"artist": "Liam Payne and Rita Ora",
+"rows": 1
+},
+{
+"artist": "Olexesh featuring Edin",
+"rows": 1
+},
+{
+"artist": "Marshmello and Anne-Marie",
+"rows": 1
+},
+{
+"artist": "Capital Bra featuring Ufo361",
+"rows": 1
+},
+{
+"artist": "Pietro Lombardi",
+"rows": 1
+},
+{
+"artist": "Namika featuring Black M",
+"rows": 1
+},
+{
+"artist": "Bushido featuring Samra and Capital Bra",
+"rows": 1
+},
+{
+"artist": "Dynoro and Gigi D'Agostino",
+"rows": 1
+},
+{
+"artist": "Capital Bra featuring Juju",
+"rows": 1
+},
+{
+"artist": "Bonez MC and RAF Camora featuring Gzuz",
+"rows": 1
+},
+{
+"artist": "Bonez MC and RAF Camora",
+"rows": 1
+},
+{
+"artist": "Capital Bra featuring Luciano and Eno",
+"rows": 1
+},
+{
+"artist": "KitschKrieg featuring Trettmann, Gringo, Ufo361 and Gzuz",
+"rows": 1
+},
+{
+"artist": "Sfera Ebbasta featuring Quavo",
+"rows": 1
+},
+{
+"artist": "Lo Stato Sociale",
+"rows": 1
+},
+{
+"artist": "Vegas Jones",
+"rows": 1
+},
+{
+"artist": "Nicky Jam and J Balvin",
+"rows": 1
+},
+{
+"artist": "Capo Plaza featuring Sfera Ebbasta / and DrefGold",
+"rows": 1
+},
+{
+"artist": "Charlie Charles, Sfera Ebbasta and Ghali",
+"rows": 1
+},
+{
+"artist": "Dark Polo Gang",
+"rows": 1
+},
+{
+"artist": "Takagi & Ketra featuring Giusy Ferreri / and Sean Kingston",
+"rows": 1
+},
+{
+"artist": "Rvssian and Sfera Ebbasta",
+"rows": 1
+},
+{
+"artist": "Gué Pequeno featuring Capo Plaza",
+"rows": 1
+},
+{
+"artist": "Gué Pequeno featuring Sfera Ebbasta / and DrefGold",
+"rows": 1
+},
+{
+"artist": "Salmo featuring Sfera Ebbasta",
+"rows": 1
+},
+{
+"artist": "Anastasio",
+"rows": 1
+},
+{
+"artist": "Eno featuring Mero",
+"rows": 1
+},
+{
+"artist": "KC Rebell featuring Summer Cem and Capital Bra",
+"rows": 1
+},
+{
+"artist": "Juju featuring Henning May",
+"rows": 1
+},
+{
+"artist": "Kalazh44, Capital Bra and Samra featuring Nimo and Luciano",
+"rows": 1
+},
+{
+"artist": "Loredana featuring Mero",
+"rows": 1
+},
+{
+"artist": "Capital Bra, Samra and Lea",
+"rows": 1
+},
+{
+"artist": "Nimo and Hava",
+"rows": 1
+},
+{
+"artist": "Luchè featuring Sfera Ebbasta",
+"rows": 1
+},
+{
+"artist": "Fedez featuring Dark Polo Gang",
+"rows": 1
+},
+{
+"artist": "Daddy Yankee featuring Snow",
+"rows": 1
+},
+{
+"artist": "Pedro Capó and Farruko",
+"rows": 1
+},
+{
+"artist": "Charlie Charles and Dardust featuring Sfera Ebbasta, / Mahmood and Fabri Fibra",
+"rows": 1
+},
+{
+"artist": "J-Ax",
+"rows": 1
+},
+{
+"artist": "Gemitaiz and Madman",
+"rows": 1
+},
+{
+"artist": "Takagi & Ketra, Omi and Giusy Ferreri",
+"rows": 1
+},
+{
+"artist": "Machete, Salmo and Lazza",
+"rows": 1
+},
+{
+"artist": "Machete, Dani Faiv and Tha Supreme featuring Fabri Fibra",
+"rows": 1
+},
+{
+"artist": "Benji & Fede",
+"rows": 1
+},
+{
+"artist": "Fred De Palma featuring Ana Mena",
+"rows": 1
+},
+{
+"artist": "Machete, Dani Faiv and J Balvin featuring Tha Supreme, / Fabri Fibra and Capo Plaza",
+"rows": 1
+},
+{
+"artist": "Lazza and Sfera Ebbasta featuring Capo Plaza",
+"rows": 1
+},
+{
+"artist": "Marracash, Tha Supreme and Sfera Ebbasta",
+"rows": 1
+},
+{
+"artist": "Ultimo",
+"rows": 1
+},
+{
+"artist": "Juju and Loredana",
+"rows": 1
+},
+{
+"artist": "Joker Bra and Vize",
+"rows": 1
+},
+{
+"artist": "Loredana featuring Rymez",
+"rows": 1
+},
+{
+"artist": "Loredana, Zuna and SRNO",
+"rows": 1
+},
+{
+"artist": "Ramon Roselly",
+"rows": 1
+},
+{
+"artist": "Capital Bra and Loredana",
+"rows": 1
+},
+{
+"artist": "AK Ausserkontrolle and Bonez MC",
+"rows": 1
+},
+{
+"artist": "Ufo361",
+"rows": 1
+},
+{
+"artist": "Capital Bra and Cro",
+"rows": 1
+},
+{
+"artist": "KitschKrieg featuring Jamule",
+"rows": 1
+},
+{
+"artist": "Ghali featuring Salmo",
+"rows": 1
+},
+{
+"artist": "Shiva and Tha Supreme",
+"rows": 1
+},
+{
+"artist": "Shiva featuring Capo Plaza",
+"rows": 1
+},
+{
+"artist": "Diodato",
+"rows": 1
+},
+{
+"artist": "Shiva and Eiffel 65",
+"rows": 1
+},
+{
+"artist": "Cara and Fedez",
+"rows": 1
+},
+{
+"artist": "Anna, Madman and Gemitaiz",
+"rows": 1
+},
+{
+"artist": "Dark Polo Gang and Tony Effe featuring Lazza / and Salmo",
+"rows": 1
+},
+{
+"artist": "Carl Brave, Mara Sattei and Tha Supreme",
+"rows": 1
+},
+{
+"artist": "Irama",
+"rows": 1
+},
+{
+"artist": "Shablo, Geolier and Sfera Ebbasta",
+"rows": 1
+},
+{
+"artist": "Boomdabash and Alessandra Amoroso",
+"rows": 1
+},
+{
+"artist": "Rocco Hunt and Ana Mena",
+"rows": 1
+},
+{
+"artist": "Ernia",
+"rows": 1
+},
+{
+"artist": "Bloody Vinyl, Slait and Tha Supreme featuring Mara Sattei / and Coez",
+"rows": 1
+},
+{
+"artist": "Sfera Ebbasta and J Balvin",
+"rows": 1
+},
+{
+"artist": "Katja Krasavice featuring Elif",
+"rows": 1
+},
+{
+"artist": "Kasimir1441 featuring Badmómzjay and Wildbwoys",
+"rows": 1
+},
+{
+"artist": "Nathan Evans",
+"rows": 1
+},
+{
+"artist": "Bausa featuring Apache 207",
+"rows": 1
+},
+{
+"artist": "Saweetie featuring Doja Cat and Katja Krasavice",
+"rows": 1
+},
+{
+"artist": "Bonez MC featuring Frauenarzt",
+"rows": 1
+},
+{
+"artist": "Loredana and Mozzik",
+"rows": 1
+},
+{
+"artist": "RAF Camora featuring Bonez MC",
+"rows": 1
+},
+{
+"artist": "Montez",
+"rows": 1
+},
+{
+"artist": "The Kid Laroi and Justin Bieber",
+"rows": 1
+},
+{
+"artist": "Katja Krasavice",
+"rows": 1
+},
+{
+"artist": "Shirin David and Kitty Kat",
+"rows": 1
+},
+{
+"artist": "Katja Krasavice and Leony",
+"rows": 1
+},
+{
+"artist": "Mace, Blanco and Salmo",
+"rows": 1
+},
+{
+"artist": "Francesca Michielin and Fedez",
+"rows": 1
+},
+{
+"artist": "Colapesce and Dimartino",
+"rows": 1
+},
+{
+"artist": "Rkomi, Sfera Ebbasta and Junior K",
+"rows": 1
+},
+{
+"artist": "Sangiovanni",
+"rows": 1
+},
+{
+"artist": "Fedez, Achille Lauro and Orietta Berti",
+"rows": 1
+},
+{
+"artist": "Blanco and Sfera Ebbasta",
+"rows": 1
+},
+{
+"artist": "Domiziana",
+"rows": 1
+},
+{
+"artist": "DJ Robin & Schürze",
+"rows": 1
+},
+{
+"artist": "Nina Chuba",
+"rows": 1
+},
+{
+"artist": "Miksu/Macloud & Makko",
+"rows": 1
+},
+{
+"artist": "Luciano featuring Aitch and Bia",
+"rows": 1
+},
+{
+"artist": "Peter Fox featuring Inéz",
+"rows": 1
+},
+{
+"artist": "Sick Luke, Tha Supreme and Sfera Ebbasta",
+"rows": 1
+},
+{
+"artist": "Rkomi and Elodie",
+"rows": 1
+},
+{
+"artist": "Mahmood and Blanco",
+"rows": 1
+},
+{
+"artist": "Rhove",
+"rows": 1
+},
+{
+"artist": "Fedez, Tananai and Mara Sattei",
+"rows": 1
+},
+{
+"artist": "Tha Supreme featuring Lazza and Sfera Ebbasta",
+"rows": 1
+},
+{
+"artist": "James Hype and Miggy Dela Rosa featuring Lazza",
+"rows": 1
+},
+{
+"artist": "Shiva featuring Sfera Ebbasta",
+"rows": 1
+},
+{
+"artist": "David Guetta and Bebe Rexha",
+"rows": 1
+},
+{
+"artist": "Ayliva featuring Mero",
+"rows": 1
+},
+{
+"artist": "Udo Lindenberg and Apache 207",
+"rows": 1
+},
+{
+"artist": "Twenty4tim featuring Kitty Kat",
+"rows": 1
+},
+{
+"artist": "Ski Aggu featuring Joost and Otto Waalkes",
+"rows": 1
+},
+{
+"artist": "Kontra K featuring Lana Del Rey",
+"rows": 1
+},
+{
+"artist": "Luca-Dante Spadafora, Niklas Dee and Octavian",
+"rows": 1
+},
+{
+"artist": "Sira featuring Bausa and Badchieff",
+"rows": 1
+},
+{
+"artist": "Iñigo Quintero",
+"rows": 1
+},
+{
+"artist": "RAF Camora and Ski Aggu",
+"rows": 1
+},
+{
+"artist": "Kontra K featuring Santos",
+"rows": 1
+},
+{
+"artist": "Helene Fischer featuring Shirin David",
+"rows": 1
+},
+{
+"artist": "Geolier featuring Sfera Ebbasta",
+"rows": 1
+},
+{
+"artist": "Guè, Anna and Sfera Ebbasta",
+"rows": 1
+},
+{
+"artist": "Bizarrap and Shakira",
+"rows": 1
+},
+{
+"artist": "Bresh and Shune",
+"rows": 1
+},
+{
+"artist": "Geolier featuring Marracash",
+"rows": 1
+},
+{
+"artist": "Blanco and Mina",
+"rows": 1
+},
+{
+"artist": "Emis Killa and Sfera Ebbasta",
+"rows": 1
+},
+{
+"artist": "Annalisa",
+"rows": 1
+},
+{
+"artist": "Tedua featuring Sfera Ebbasta",
+"rows": 1
+},
+{
+"artist": "Drillionaire, Lazza and Blanco / featuring Sfera Ebbasta and Michelangelo",
+"rows": 1
+},
+{
+"artist": "The Kolors",
+"rows": 1
+},
+{
+"artist": "Bresh and Pinguini Tattici Nucleari",
+"rows": 1
+},
+{
+"artist": "Boro, Artie 5ive and Andry the Hitmaker",
+"rows": 1
+},
+{
+"artist": "Sfera Ebbasta and Marracash",
+"rows": 1
+},
+{
+"artist": "6PM Records featuring Luciano, Hurts and Sira",
+"rows": 1
+},
+{
+"artist": "Bennett",
+"rows": 1
+},
+{
+"artist": "Ski Aggu",
+"rows": 1
+},
+{
+"artist": "Finch, Katja Krasavice, Luca-Dante Spadafora featuring Niklas Dee",
+"rows": 1
+},
+{
+"artist": "Artemas",
+"rows": 1
+},
+{
+"artist": "Ayliva featuring Apache 207",
+"rows": 1
+},
+{
+"artist": "Soho Bani featuring Herbert Grönemeyer and Ericson",
+"rows": 1
+},
+{
+"artist": "Linkin Park",
+"rows": 1
+},
+{
+"artist": "Club Dogo and Marracash",
+"rows": 1
+},
+{
+"artist": "Ava featuring Capo Plaza and Tony Boy",
+"rows": 1
+},
+{
+"artist": "Geolier and Ultimo",
+"rows": 1
+},
+{
+"artist": "Rose Villain and Guè",
+"rows": 1
+},
+{
+"artist": "Tedua featuring Annalisa",
+"rows": 1
+},
+{
+"artist": "Tony Effe and Gaia",
+"rows": 1
+},
+{
+"artist": "Shiva featuring Kid Yugi",
+"rows": 1
+},
+{
+"artist": "Lazza and Laura Pausini",
+"rows": 1
+},
+{
+"artist": "Olly, Angelina Mango and Juli",
+"rows": 1
+},
+{
+"artist": "Cesare Cremonini",
+"rows": 1
+},
+{
+"artist": "Marracash",
+"rows": 1
+},
+{
+"artist": "Rosé and Bruno Mars",
+"rows": 1
+},
+{
+"artist": "Zartmann",
+"rows": 1
+},
+{
+"artist": "Oimara",
+"rows": 1
+},
+{
+"artist": "Jazeek",
+"rows": 1
+},
+{
+"artist": "Pashanim featuring Ceren",
+"rows": 1
+},
+{
+"artist": "Aymen & Sira",
+"rows": 1
+},
+{
+"artist": "Huntrix",
+"rows": 1
+},
+{
+"artist": "Alfa",
+"rows": 1
+},
+{
+"artist": "Simba La Rue featuring Tony Boy",
+"rows": 1
+},
+{
+"artist": "Guè and Rose Villain",
+"rows": 1
+},
+{
+"artist": "Sfera Ebbasta and Shiva",
+"rows": 1
+},
+{
+"artist": "Luchè featuring Geolier",
+"rows": 1
+},
+{
+"artist": "Alfa and Manu Chao",
+"rows": 1
+},
+{
+"artist": "Baby Gang, El Alfa, Omega and Roberto Ferrante",
+"rows": 1
+},
+{
+"artist": "Druckluft",
+"rows": 1
+},
+{
+"artist": "Zara Larsson",
+"rows": 1
+},
+{
+"artist": "Lacazette and Jazeek",
+"rows": 1
+},
+{
+"artist": "BTS",
+"rows": 1
+},
+{
+"artist": "Tame Impala",
+"rows": 1
+},
+{
+"artist": "Justin Bieber featuring Nicki Minaj",
+"rows": 1
+},
+{
+"artist": "Dara",
+"rows": 1
+},
+{
+"artist": "KitschKrieg, Blumengarten and Shirin David",
+"rows": 1
+},
+{
+"artist": "Ski Aggu and Ericson",
+"rows": 1
+},
+{
+"artist": "Geolier featuring 50 Cent",
+"rows": 1
+},
+{
+"artist": "Djo",
+"rows": 1
+},
+{
+"artist": "Geolier featuring Sfera Ebbasta and Anna",
+"rows": 1
+},
+{
+"artist": "Kid Yugi and Shiva",
+"rows": 1
+},
+{
+"artist": "Pyrex and Sfera Ebbasta",
+"rows": 1
+},
+{
+"artist": "Fedez and Marco Masini",
+"rows": 1
+},
+{
+"artist": "Samurai Jay and Vito Salamanca",
+"rows": 1
+},
+{
+"artist": "Fred De Palma, Anitta and Emis Killa",
+"rows": 1
+},
+{
+"artist": "Geolier featuring Achille Lauro",
+"rows": 1
+},
+{
+"artist": "Geolier featuring Lazza",
+"rows": 1
+},
+{
+"artist": "Kid Yugi",
+"rows": 1
+}
+]
