@@ -1731,7 +1731,7 @@ function stLinks(pr){
 const REQS={};   // `${iso}_${decade}` -> request doc
 function researchState(){ const iso=placeIso(); if(!iso||STY<1940) return null; const L=YEARL[iso], dec=decadeKey(STY);
   const has=L&&Object.keys(L).some(y=>decadeKey(+y)===dec); if(!has) return {iso,dec,state:'none'};
-  const n=L[STY]?(L[STY].songs||[]).filter(x=>x[3]==='home').length:0; return {iso,dec,state:n>=6?'year':'sparse',n}; }
+  const n=L[STY]?(L[STY].songs||[]).filter(x=>x[3]==='home'||x[3]==='charted').length:0; return {iso,dec,state:n>=6?'year':'sparse',n}; }
 function startReqDb(){ if(!DB) return; try{ DB.collection('requests').onSnapshot(snap=>{ snap.docs.forEach(d=>{ REQS[d.id]=d.data(); }); stPanelUpdate(); },()=>{}); }catch(e){} }
 async function askResearch(){ const r=researchState(); if(!r||!DB||r.state==='year') return; const key=r.iso+'_'+r.dec;
   const doc={iso:r.iso,decade:+r.dec,year:STY,place:isoName(r.iso),kind:r.state==='none'?'new':'sparse',status:'open',at:Date.now()};
@@ -1821,6 +1821,11 @@ function yearSeeds(mode){
   const sp=scenePref(); if(sp){ const a=mixed.filter(x=>x[7]===sp), r=mixed.filter(x=>x[7]!==sp), m2=[]; while(a.length||r.length){ if(a.length) m2.push(a.shift()); if(a.length) m2.push(a.shift()); if(r.length) m2.push(r.shift()); } mixed.length=0; mixed.push(...m2); }
   Object.keys(byKind).forEach(k=>{ const at=mixed.findIndex(x=>(x[7]||'pop')===k); if(at>=8){ const x=mixed.splice(at,1)[0]; mixed.splice(Math.min(6,mixed.length),0,x); } });
   const foreign=songs.filter(s=>s[3]==='foreign');
+  // 'charted': on that country's chart, origin of the artist not recorded (decision D22). The chart is what was heard there,
+  // so "heard there" follows chart order across every song; "made there" uses only songs known to be home-grown.
+  const charted=songs.some(s=>s[3]==='charted');
+  if(charted&&mode!=='home') return songs.slice(0,16);
+  if(charted&&!mixed.length) return null;
   if(mode==='home') return mixed.slice(0,16);
   const nf=Math.min(foreign.length,mixed.length>=6?4:Math.floor((mixed.length+foreign.length)/3));
   const out=[...mixed.slice(0,16-nf)]; foreign.slice(0,nf).forEach((f,i)=>out.splice(Math.min(out.length,2+i*3),0,f)); // foreign hits sprinkled in, not stacked at the end

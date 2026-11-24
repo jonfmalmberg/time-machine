@@ -10,7 +10,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = os.path.join(ROOT, 'data')
 KEY = re.compile(r'^([sare])_[0-9a-hjkmnp-tv-z]{10}$')     # prefix + 10 Crockford base-32 characters
 GENRE_ROLES = {'intro', 'peak', 'reference', 'near miss', 'album'}
-PLACE_ROLES = {'home', 'foreign'}
+PLACE_ROLES = {'home', 'foreign', 'charted'}   # charted: on a national chart there; where the artist is from is not recorded (D22)
 # Faults already listed in docs/research/2026-11-23-data-inventory.md ("Cities without a country").
 # Reported, not failed, until the owner decides; any other breach of the same rule fails.
 KNOWN = {('city country', 'GI:Gibraltar'), ('city country', 'TV:Funafuti'), ('city country', 'NR:Yaren')}

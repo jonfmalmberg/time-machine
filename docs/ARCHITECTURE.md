@@ -69,6 +69,8 @@ Lists the conversion made for a decision, without merging or changing anything, 
 
 The first batch through it was genre batch 3 (H7, eight genres): 229 of 233 song entries and all 57 albums went in, 215 new songs, one reused, 114 new artists, 57 releases and 392 evidence records.
 
+Chart rows take a second road (decision D22): `tools/wiki_charts.py` reads Wikipedia's chart list pages into rows; `tools/chart_rows.py` turns them into candidates per country and year; `tools/check_chart_rows.py` checks each row's title and artist against the live page; `tools/ingest_charts.py` writes the found rows as year lists with the link role `charted` (heard there; the artist's country not recorded). A charted link also carries `quote` and `check` (what was checked, and when), and `chart_pos` for a year-end chart or `peak` and `led_from` for a number one.
+
 ## What is in the database
 
 Only things that belong to people. Every table starts with all access removed; row-level security is on; each permission the site uses is granted by name. A visitor who is not signed in can read nothing.
@@ -81,8 +83,11 @@ Only things that belong to people. Every table starts with all access removed; r
 | `events` | Usage events from testers | Insert only; the owner reads |
 | `anon_events` | Usage events from visitors without an account; keeps the newest 250,000 | Insert only, rate-limited; the owner reads |
 | `requests` | Requests for a listener test or for research. One row per distinct thing asked for, with a count of asks and a weight (an ask spread over several decades gives each an equal share of one request) | Anyone can add through two functions (`request_add`, `request_many`); the owner reads and settles |
+| `ideas` | The owner's list of features that could be built, in his order | Owner only |
 
 Two databases: dev (used by every address except the live one) and prod. Prod is changed only by running the numbered files, with the owner's approval.
+
+`admin_usage(days)` gives the owner one summary of both usage logs and the travel log (file 007). New accounts are active from sign-in (file 006).
 
 ## How it is tested
 
@@ -126,6 +131,10 @@ On a phone only one bottom sheet shows at a time: a filter sheet takes the playl
 A genre record may carry `subgenres`: names of closely related styles folded into it (`DECISIONS.md` D10). They appear on the genre's entry as "Includes" and are found by search; they have no records, playlists or tests of their own.
 
 A song is stored once. `tools/merge_duplicates.py` merges records with the same title, main artists and release year (D14), and `tests/data.py` fails if such a pair exists. The Data tab lists each song once; a song that sits in several lists shows "In N lists" and unfolds them.
+
+## The course, trip feedback and the admin page
+
+The Journey tab opens on the course (`src/mods/40_journey.js`, section 0): chapters are computed in the page from the genre records, nothing is stored. Trip feedback (`src/mods/10_people.js`): `engage()` logs a trip when a playlist is used; `fbPaint()` draws the feedback row under the panel's tabs. The admin page's four parts, the usage summary and the ideas list are in the same module. Reasons: decisions D23 to D25.
 
 ## Links
 

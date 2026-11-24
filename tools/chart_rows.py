@@ -40,12 +40,17 @@ def main():
         if not cc: skip['no country: ' + re.sub(r'\d{4}', 'YYYY', r['page'])] += 1; continue
         if SUBSET.search(re.sub(r'\([^)]*\)', '', r['page'])): skip['subset chart: ' + re.sub(r'\d{4}', 'YYYY', r['page'])] += 1; continue
         if not r['year']: skip['no year'] += 1; continue
+        year = r['year']
+        if re.search(r'\d{4}s', r['page']):                 # a page for a whole decade: the row's own date must name the year
+            m = re.search(r'(19|20)\d\d', r.get('date') or '')
+            if not m: skip['decade page, year not in the row: ' + re.sub(r'\d{4}', 'YYYY', r['page'])] += 1; continue
+            year = int(m.group(0))
         kind = 'year-end' if r['pos'] else 'number one'
-        k = (cc, r['year'], r['artist'].casefold(), r['title'].casefold())
+        k = (cc, year, r['artist'].casefold(), r['title'].casefold())
         if k in seen:                                       # the same song led twice in a year: keep the first row
             continue
         seen[k] = 1
-        out.append({'cc': cc, 'year': r['year'], 'kind': kind, 'pos': r['pos'], 'date': r['date'], 'title': r['title'], 'artist': r['artist'], 'page': r['page'], 'url': r['url']})
+        out.append({'cc': cc, 'year': year, 'kind': kind, 'pos': r['pos'], 'date': r['date'], 'title': r['title'], 'artist': r['artist'], 'page': r['page'], 'url': r['url']})
     json.dump(out, open(os.path.join(a.out, 'chart.rows.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     per = collections.Counter(x['cc'] for x in out)
     print('rows in', len(R), 'candidates', len(out), 'countries', len(per)); print(' ', dict(per.most_common()))

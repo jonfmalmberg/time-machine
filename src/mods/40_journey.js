@@ -75,7 +75,7 @@ const pStop=(pl,y0,y1,x)=>({t:'p',pl,y0,y1,k:'p:'+plKey(pl)+'|'+y0+'|'+y1,...(x|
 // 'year' = hit lists for (nearly) every year of the stop; 'sparse' = some; 'decade' = only a decade list; 'none'
 function research(st){ const iso=plIso(st.pl); if(!iso) return null; if(st.y1<1940) return {s:'old'};
   const L=YEARL[iso]||{}; let tot=0, have=0, good=0;
-  for(let y=Math.max(st.y0,1940);y<=st.y1;y++){ tot++; const c=L[y]; if(c){ have++; if((c.songs||[]).filter(x=>x[3]==='home').length>=6) good++; } }
+  for(let y=Math.max(st.y0,1940);y<=st.y1;y++){ tot++; const c=L[y]; if(c){ have++; if((c.songs||[]).filter(x=>x[3]==='home'||x[3]==='charted').length>=6) good++; } }
   if(have&&good>=Math.ceil(tot*.8)) return {s:'year',have,tot};
   if(have) return {s:'sparse',have,tot};
   let dec=false; try{ for(let y=Math.max(st.y0,1940);y<=st.y1;y++) if(eraCell(iso,decadeKey(y))){ dec=true; break; } }catch(e){}

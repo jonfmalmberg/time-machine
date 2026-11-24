@@ -4,6 +4,36 @@ The lead's standing choices: what was decided, why, and what is not known. One e
 
 ## 2026-11-23
 
+### D26. List and Data redone once on iOS list principles (lead, 24 Nov, at the owner's request)
+- **List:** a full-width search field; areas as inset cards with the count trailing and a chevron; each genre a two-line row (name, then years and place) with a chevron that turns when open; "Open all" and "Close all" removed on phones; the scope control hidden until a genre is selected (it was four disabled buttons). **Data:** tabs on one row; a search field with one "Filters" button that unfolds the six selects as labelled rows; results as an inset list.
+- **Why:** both views were first-week layouts: controls before content, small tap targets, browser-default disclosure triangles. iOS lists put content first and fold options away.
+- **Not done:** the genre card's contents (links, tracks) keep their old layout; the Data detail sheet is unchanged.
+
+### D25. The music course, version 1 (lead, 24 Nov)
+- **Choice:** the Journey tab opens on a course: eleven chapters by era, up to six stops each, picked by the significance score with at most two per region and one per tradition, among genres that have a sourced definition and a playable list. A stop shows only what is in that genre's record. Reasons and the next versions are in `docs/proposals/2026-11-24-journeys-and-course.md`.
+- **Why no prose story:** a sentence about why music changed is a claim; the rule is no claims without a source. Sourced chapter paragraphs are version 2.
+- **Not known:** whether the significance scores deserve this much weight (never tested; issue 81).
+- **Also:** a genre's playlist sheet may now open over the Journey tab.
+
+### D24. Admin shows what people did, for both kinds of visitor; ideas are a list the owner orders (owner, 24 Nov)
+- **Choice:** the admin page has four parts. Usage reads `admin_usage(days)`: visits per day, how far visits get (chose something, used a playlist, played a song, took a playlist away, shared), places, decades, genres, views and services, each split into signed in and not; signed-in people are listed with their activity; the travel log's totals. Ideas is the table `ideas`, seeded with thirty by the lead, reordered by dragging.
+- **Why (owner):** only the anonymous row count was shown. **Why counts by visit:** a visitor who is not signed in has no identity in the log, by design (D15).
+- **Limit:** dev's numbers include the lead's own test visits.
+
+### D23. A trip is logged when a playlist is used, and marked where the listening happens (lead, 24 Nov)
+- **Choice:** for a signed-in person, playing a song, opening a service or copying a prompt logs a trip (once per destination per visit; the same destination within a day is one trip). The playlist panel then carries one row: Loved it, Good, Not for me; after a mark, a score slider from 1 to 10 and a way to the note. A visitor who is not signed in sees one line after their first play, once per visit: "Sign in to keep a log of where you have been."
+- **Why:** trips were logged only when a prompt was copied, which the new panel made rare; and marks could only be given on the account page, away from the music. The marks feed `taste()`, which journeys already read.
+- **Not built:** marks on single songs. The page knows a song only by its artist and title text; marks must point at a stable song key (roadmap 10.3).
+- **Not known:** whether the row is welcome or in the way. The usage log records `trip_mark`, `trip_rate` and `nudge`.
+
+### D22. Chart rows enter as "charted": heard there, origin not recorded (lead, 24 Nov)
+- **Choice:** `tools/ingest_charts.py` writes one year list per country and year from Wikipedia chart rows, with link role `charted`. "Heard there" shows a charted list in chart order. "Made there" ignores charted songs until the artist's country is recorded (helper assignments H16 to H19), at which point the role becomes `home` or `foreign`.
+- **Why:** the chart proves the song was heard in the country; it says nothing of where the artist is from. Guessing would be made-up data; waiting for every origin would hold back thousands of true rows.
+- **Rules:** only rows whose title and artist `tools/check_chart_rows.py` finds on the live page; a country-year that already has a researched list is not touched; a year-end chart outranks number ones for the same year; pages covering a whole decade are used only where the row's date names its year; charts of a subset of the public (R&B, country) are left out (D7); no release year is written from a chart year (D18).
+- **Order:** year-end position; for number ones, the order they first led the chart. A year of number ones is not a ranking of the year's biggest songs: a song that led for one week sits beside one that led for ten. Weeks at number one are on the pages and are not read yet.
+- **Cost:** every chart row is carried in the page; see the work log for the size. Loading a country's lists on demand is the remedy and is not built.
+- **Evidence:** one record per page; each link stores the checked string and the check's date.
+
 ### D21. Two branches: `main` and `dev` (owner, 24 Nov)
 - **Choice:** `dev` is the test site; `main` is live. The `review` branch is gone. The lead's unfinished work stays on local branches that are never pushed.
 - **Why (owner):** dev is where testing goes; three versions is excessive. `review` existed because an earlier rule kept `dev` for features already approved, so anything awaiting approval needed a third place. That rule bought nothing: the release of 23 Nov built three branches for one commit.

@@ -95,6 +95,9 @@ Milestone 0 comes first because everything else depends on being able to see and
 - 2.12 `review` Proposal: research in tiers, with weights and acceptance tests: [`proposals/2026-11-23-research-tiers.md`](proposals/2026-11-23-research-tiers.md). Depth tiers for genres (to 25 and 50 songs) and for country-years (6, 20, 50, 100), a weighted breadth-first order, weights on songs, and an acceptance test for each scope and pass. Shapes 2.3, 2.6, 2.8 and milestones 3 and 4.
 - 2.16 Validation per field (`DECISIONS.md` D13, D14; [`proposals/2026-11-24-validation.md`](proposals/2026-11-24-validation.md)): merge duplicate songs and show each song once in the Data tab; release year and artist country checked against MusicBrainz; chart sources validated once, with chart position; kind of genre tie; state of each fact shown in the app. `review` 23 Nov: first step built (182 duplicates merged, test added, Data tab shows each song once). The rest not started.
 - 2.17 Charts from Wikipedia's list pages (`DECISIONS.md` D16): read about 1,170 pages by script into candidates; ingest step for place-and-time lists with chart position; then the release-year check over the new songs.
+- 2.17a `dev` Chart ingest (`DECISIONS.md` D22): rows checked against the live page enter as `charted` year lists. Remaining: the pages not yet read (United Kingdom top tens, Oricon, Billboard number ones), weeks at number one, decade pages whose rows carry no year.
+- 2.17b Where chart artists are from (helpers H16 to H19), then `charted` becomes `home` or `foreign` and "Made there" works for these lists.
+- 2.18 Load a country's lists on demand instead of carrying every list in the page.
 
 **Done when:** the schema, regions and weights are approved, the data has moved, and both kinds of test run from the registry.
 
@@ -169,6 +172,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 - 7.11 `released 2026-11-23` Research rows and cards carry an Unverified flag: every list on the site was collected before sources were checked claim by claim, and says so. Branch `unverified-flag`.
 - 7.10 `released 2026-11-23` Light-mode versions of the globe and the tunnel, branch `light-space`. The tunnel is drawn as ink on a pale ground in the light theme (colour is multiplied instead of added, since light on a pale ground washes out); the area around the satellite globe and beyond the flat map takes the page's ground colour. The satellite globe in light mode could not be looked at in the workspace (the imagery does not load there). Owner's review 23 Nov: globe and tunnel work; the light tunnel now darkens toward the centre so it still reads as a tunnel.
 - 7.12 `review` Tunnel lens (owner, 23 Nov): one finger, or the mouse, opens a lens that stretches the sky at that point and names the stars in it, whatever their strength; time moves with two fingers or the wheel. One-finger drag no longer scrubs time. Helps with prominence (issue 81) by making small genres readable, but does not change which genres lead by default.
+- 7.13 `dev` List and Data redone as inset lists with folded filters (`DECISIONS.md` D26).
 
 **Done when:** Jon has reviewed each screen on his phone against the style guide.
 
@@ -183,12 +187,19 @@ Milestone 0 comes first because everything else depends on being able to see and
 - 8.3 Human scores and synthetic scores stored separately for the same things.
 - 8.4 A listener's control for the blend, from "memorable" to "archival and new".
 - 8.5 Tester issues: submit and vote; principal testers can file to a priority list; nothing is workable until Jon approves it.
+- 8.5a `dev` Admin usage for signed-in and anonymous visits side by side (`DECISIONS.md` D24).
+- 8.5b `dev` Ideas list on the admin page, ordered by dragging (D24).
+- 8.5c `dev` Trip feedback row in the playlist panel; a trip is logged on play (D23).
+- 8.5d Marks on single songs (needs song keys on the page, 10.3).
 - 8.6 Admin view of reports and issues with their states.
 - 8.7 Report, repeating: what the data says and what Claude proposes to change.
 
 **Done when:** a tester's report reaches Jon in a form he can approve or decline in one step, and the first findings report has led to a change.
 
 ## 9. Journeys
+
+- 9.0 `dev` The course, version 1: eleven chapters by era in the Journey tab (`DECISIONS.md` D25; proposal `docs/proposals/2026-11-24-journeys-and-course.md`).
+- 9.0a Course version 2: a sourced paragraph per chapter; thread chapters; a check at the end of a chapter.
 
 **Goal:** journeys people can set up without irritation and that deliver what they promise.
 **Why:** entry is the first barrier; the course is a list, not a course; discovery has not earned its place.
