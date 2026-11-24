@@ -176,7 +176,7 @@ input[type=search]{font:13px var(--body);color:var(--fg);background:var(--panel)
 .wrap[data-view="journey"] .only-tmt,.wrap[data-view="me"] .only-tmt{display:none!important}
 .wrap[data-view="list"] .only-map,.wrap[data-view="data"] .only-map{display:none!important}
 .wrap[data-view="me"] .only-lj,.wrap[data-view="journey"] .only-lj{display:none!important}
-.wrap[data-view="journey"] .stpanel{display:none!important}
+
 #map{position:relative;height:auto;min-height:0}
 #mapcv{display:block;width:100%;height:100%;touch-action:none;cursor:grab;border-radius:6px}
 .mapbtns{position:absolute;top:10px;left:10px;display:flex;gap:6px}
@@ -727,7 +727,7 @@ const ST={full:'Full playlist',thin:'Thin: few recordings',none:'No playlist: li
 /* The playlist panel has two modes: a place and time (the moment), or one genre. GP is the genre shown, or null. */
 let GP=null;
 function stStatus(){}   // research and listener-test rows; filled in by src/mods/07_requests.js
-const GPVIEWS=['tree','map','tunnel','list'];   // views a genre's playlist sheet can sit over
+const GPVIEWS=['tree','map','tunnel','list','journey'];   // views a genre's playlist sheet can sit over
 function openGenrePlaylist(id){ if(!byId[id]) return; GP=id; stPanelOpen=true; stBarUI(); stPanelUpdate(); const p=document.getElementById('stpanel'); if(p) p.scrollTop=0; }
 function closeGenrePlaylist(){ if(GP==null) return; GP=null; stPanelOpen=false; SEEDSIG=''; stBarUI(); }
 /* In the list, a genre is taken up by setting the genre filter to it: the tree, map and tunnel then show the same choice,
@@ -793,14 +793,14 @@ function journeyOrder(){
 function bars(id){ const [S,A,F,I]=SC[id]; const b=(l,v,t)=>`<span class="jb" title="${t}: ${v}/5"><em>${l}</em><span class="trk"><i style="width:${v*20}%"></i></span></span>`;
   return b('Sig',S,'Significance')+b('Ease',A,'Ease of listening')+b('Known',F,'How well known')+b('Intr',I,'Intrigue'); }
 function renderJourney(){
-  const seq=journeyOrder(), box=document.getElementById('jlist');
+  const seq=journeyOrder().filter(id=>DEFS[id]), box=document.getElementById('jlist');
   const next=seq.find(id=>!DONE.has(id));
   let i=0;
   box.innerHTML=seq.map(id=>{ i++; const n=byId[id], done=DONE.has(id); if(JOPT.hideDone&&done) return '';
     const tags=[`<span class="jt ph-${phaseOf(id)}">${PH[phaseOf(id)]}</span>`, KNOWN.has(id)?'<span class="jt">Familiar</span>':'', INDOC.has(id)?'<span class="jt" title="A longer hand-picked list for this one is in the Genre playlists doc">In doc</span>':'', usesB(id)?'<span class="jt" title="Uses the tradition prompt, not the time-machine prompt">Tradition prompt</span>':'', plStatus(id)==='none'?'<span class="jt jt-none" title="No real playlist: listen to the albums in its List entry">Album listen</span>':(plStatus(id)==='thin'?'<span class="jt" title="Few recordings on streaming; the list is short">Thin</span>':'')].join('');
     return `<details class="jrow${done?' done':''}${id===next?' next':''}" data-id="${id}"><summary>
       <span class="jn mono">${i}</span><input type="checkbox" class="jdone" ${done?'checked':''} aria-label="Mark ${esc(n.name)} as listened">
-      <i class="jdot" style="background:${regColor(n.reg)}"></i><span class="jname">${esc(n.name)}</span><span class="jmeta">${esc(DEFS[id].window)} · ${esc(n.place)}</span>
+      <i class="jdot" style="background:${regColor(n.reg)}"></i><span class="jname">${esc(n.name)}</span><span class="jmeta">${esc(DEFS[id]?DEFS[id].window:fmtYear(n.year))} · ${esc(n.place)}</span>
       <span class="jtags">${tags}</span><span class="jbars">${bars(id)}</span>
       ${plStatus(id)==='none'?'<button class="jcopy" type="button" data-albums="1">See albums</button>':'<button class="jcopy" type="button">Copy prompt</button>'}</summary>
       <div class="jbody"><div>${plangToggle(langOfMovement(id))}${namesToggle(!!PL[id]&&hasTwoForms([...PL[id].intro,...PL[id].peak]))}</div><textarea readonly rows="9" data-pid="${id}">${esc(promptFor(id))}</textarea>

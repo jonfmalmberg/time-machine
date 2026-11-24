@@ -7,15 +7,16 @@ const JLS={ get(k){ try{ const v=localStorage.getItem(k); if(v!=null) return JSO
 const P=()=>window.PEOPLE||null;
 const pid=()=>{ try{ const m=P()&&P().me(); return (m&&m.id)||'guest'; }catch(e){ return 'guest'; } };
 const NOWY=Math.max(1900,Math.min(T1,new Date().getFullYear()));
-const KINDS=[['life','A life'],['hist','Music history'],['trav','World traveller'],['disc','Discovery walk']];
+const KINDS=[['course','Course'],['life','A life'],['hist','History'],['trav','Traveller'],['disc','Discovery']];
 const INTRO={
+  course:'A short course in the history of the world\'s music: eleven chapters from the oldest music still heard to now. Each chapter is a handful of stops chosen so that no region or lineage crowds out the rest. Read what to listen for, play the first songs, open the playlist, move on.',
   life:'Follow one person or family through the places and years they lived in. List the legs in order, with brief trips where they happened; each stop is a playlist prompt for that place and time.',
   hist:'A course through the family tree. First the essentials, oldest to newest; then back to the start for everything else, era by era.',
   trav:'Visit one region at a time, the most significant music first. Stay as long as you like, move on, come home in between, and come back later for more depth.',
   disc:'A semi-random walk through every movement: the most significant first, rotating home, abroad and back in time, with a guard that follows hard listening with something easier. Move the sliders to re-sort.' };
 const REGS=REG.map(r=>r[0]);
 const DEF0=['eur','easia','casia','afr','mena','sasia','seasia','latam','carib','nam']; const DEFORDER=[...DEF0,...REGS.filter(r=>!DEF0.includes(r))].filter(r=>REGS.includes(r));
-const fresh=()=>({ kind:'hist', open:true, hide:false,
+const fresh=()=>({ kind:'course', course:{ch:null}, open:true, hide:false,
   life:{title:'',birth:null,cut:'auto',legs:[]},
   hist:{n:40},
   trav:{order:DEFORDER.slice(),off:[],narrow:{},depth:5,mode:'cont',home:null,laps:false,mix:true,ro:false,extra:{},skip:{}},
@@ -25,7 +26,7 @@ let J=null, JPID=null, PK=null, SHOWN=null, UNDO=null;
 function state(){ const p=pid(); if(J&&JPID===p) return J;
   const d=fresh(), v=JLS.get('wmft-j2-'+p)||{};
   J={...d,...v,life:{...d.life,...(v.life||{})},hist:{...d.hist,...(v.hist||{})},trav:{...d.trav,...(v.trav||{})},disc:{w:{...d.disc.w,...((v.disc||{}).w||{})},o:{...d.disc.o,...((v.disc||{}).o||{})}},done:{...(v.done||{})}};
-  if(!KINDS.some(k=>k[0]===J.kind)) J.kind='hist';
+  if(!KINDS.some(k=>k[0]===J.kind)) J.kind='hist'; if(!J.course||typeof J.course!=='object') J.course={ch:null};
   J.trav.order=[...J.trav.order.filter(r=>REGS.includes(r)),...DEFORDER.filter(r=>!J.trav.order.includes(r))];
   J.life.legs=(Array.isArray(J.life.legs)?J.life.legs:[]).map(l=>({...l,pl:fixPl(l.pl)}));
   J.trav.home=fixPl(J.trav.home);
@@ -271,6 +272,42 @@ function discSet(){ const lab={S:'Significance',A:'Easy listening',F:'Well known
     <label class="jo"><input type="checkbox" data-f="disc.roots"${O.roots?' checked':''}> Roots before branches</label>
     <button type="button" class="lbtn" data-act="discreset">Reset weights</button></div>`; }
 
+/* ---------- 0. the course (proposal docs/proposals/2026-11-24-journeys-and-course.md, decision D25) ----------
+   Chapters are eras. A chapter's stops are the most significant genres that began in the era, among those with a
+   sourced definition and a playable list, with at most two per region and one per tradition, in order of date.
+   Everything shown about a stop comes from its record: nothing is written here about the music itself. */
+const CERA=[[-1e9,1000,'Before 1000'],[1000,1600,'1000 to 1600'],[1600,1800,'1600 to 1800'],[1800,1900,'1800 to 1900'],[1900,1930,'1900 to 1930'],[1930,1950,'1930 to 1950'],[1950,1965,'1950 to 1965'],[1965,1980,'1965 to 1980'],[1980,1995,'1980 to 1995'],[1995,2010,'1995 to 2010'],[2010,1e9,'2010 to now']];
+const CPER=6; let CZ=null;
+function course(){ if(CZ) return CZ;
+  const ok=n=>DEFS[n.id]&&DEFS[n.id].sound&&PL[n.id]&&plSt(n.id)!=='none'&&plSt(n.id)!=='pending';
+  const rank=(a,b)=>SC[b.id][0]-SC[a.id][0]||SC[b.id][2]-SC[a.id][2]||a.year-b.year||a.id.localeCompare(b.id);
+  CZ=CERA.map(([a,b,title],i)=>{ const c=N.filter(n=>n.year>=a&&n.year<b&&ok(n)).sort(rank), pick=[], cr={}, ct={};
+    for(const n of c){ if(pick.length>=CPER) break; const t=TRAD_OF[n.id]||n.id; if((cr[n.reg]||0)>=2||ct[t]) continue; pick.push(n); cr[n.reg]=(cr[n.reg]||0)+1; ct[t]=1; }
+    for(const n of c){ if(pick.length>=Math.min(CPER,3)) break; if(!pick.includes(n)) pick.push(n); }   // a thin era still gets up to three
+    return {i,title,ids:pick.sort(chron).map(n=>n.id),pool:c.length}; }).filter(ch=>ch.ids.length);
+  return CZ; }
+const czDone=(id,pp)=>!!J.done['g:'+id]||pp.hg.has(id);
+const czWhere=id=>course().findIndex(ch=>ch.ids.includes(id));
+function courseHtml(){ const C=course(), pp=people(), ch=J.course.ch!=null?C[J.course.ch]:null;
+  const total=C.reduce((s,c)=>s+c.ids.length,0), doneAll=C.reduce((s,c)=>s+c.ids.filter(id=>czDone(id,pp)).length,0);
+  if(!ch){ const next=C.find(c=>c.ids.some(id=>!czDone(id,pp)));
+    return `<div class="czhead"><div class="czbar"><i style="width:${total?Math.round(100*doneAll/total):0}%"></i></div><p class="fine"><b>${doneAll}</b> of ${total} stops heard · ${C.length} chapters</p></div>
+      <div class="rows czlist">${C.map((c,k)=>{ const d=c.ids.filter(id=>czDone(id,pp)).length, all=d===c.ids.length;
+        return `<button type="button" class="rowb czch${all?' all':''}" data-czch="${k}"><span class="cznum">${all?UI.ic('check'):k+1}</span><span class="rmain"><b>${esc(c.title)}</b><small>${esc(c.ids.map(id=>byId[id].name).join(' · '))}</small></span><span class="czcount">${c===next&&d<c.ids.length?`<i class="czgo">${d?'Continue':'Start'}</i>`:`${d}/${c.ids.length}`}</span><span class="rchev">${UI.ic('chev')}</span></button>`; }).join('')}</div>
+      <p class="fine">Chapters are eras; a stop belongs to the era it began in. The year of an oral tradition is when it is first attested: the music is older. Stops are picked by the significance scores in the data, at most two per region in a chapter.</p>`; }
+  const k=J.course.ch, d=ch.ids.filter(id=>czDone(id,pp)).length;
+  const rel=(label,ids)=>ids.length?`<span class="czrel"><em>${label}</em> ${ids.map(x=>`<a href="#journey" data-czrel="${x}">${esc(byId[x].name)}</a>`).join(', ')}</span>`:'';
+  return `<div class="cztop"><button type="button" class="lbtn" data-czch="-1">${UI.ic('chev')}<span>Chapters</span></button><span class="fine">${d} of ${ch.ids.length} heard</span></div>
+    <h3 class="cztitle"><small>Chapter ${k+1}</small>${esc(ch.title)}</h3>
+    ${ch.ids.map((id,j)=>{ const n=byId[id], D=DEFS[id], done=czDone(id,pp), par=(n.parents||[]).filter(x=>byId[x]).slice(0,3), kids=N.filter(x=>(x.parents||[]).includes(id)).sort((a,b)=>SC[b.id][0]-SC[a.id][0]).slice(0,3).map(x=>x.id);
+      return `<article class="czs${done?' done':''}" data-czs="${id}"><header><span class="czn">${j+1}</span><span class="czt"><b>${esc(n.name)}</b><small><i class="jdot" style="background:${regColor(n.reg)}"></i>${esc(D.window||fmtY(n.year))} · ${esc(n.place)}</small></span><button type="button" class="cztick" data-cztick="${id}" aria-pressed="${done}" aria-label="${done?'Heard':'Mark as heard'}">${UI.ic('check')}</button></header>
+        <p class="czsound">${esc(D.sound)}</p>
+        ${(D.markers||[]).length?`<p class="czlab">Listen for</p><ul class="czmk">${D.markers.slice(0,4).map(m=>`<li>${esc(m)}</li>`).join('')}</ul>`:''}
+        ${par.length||kids.length?`<p class="czrels">${rel('On the tree, it follows',par)}${rel('It leads to',kids)}</p>`:''}
+        ${(D.fits||[]).length?`<p class="czlab">Start with</p><ol class="czfits stlinks">${D.fits.slice(0,3).map(f=>songLi(f[0],f[1])).join('')}</ol>`:''}
+        <div class="czact"><button type="button" class="lbtn primary" data-czplay="${id}">Open the playlist</button></div></article>`; }).join('')}
+    <div class="czend">${k+1<C.length?`<button type="button" class="lbtn primary" data-czch="${k+1}">Next: ${esc(C[k+1].title)}</button>`:`<p class="fine">That is the last chapter. The other kinds of journey above go wider.</p>`}</div>`; }
+
 /* ---------- build, render ---------- */
 let CUR={items:[]};
 function build(kind){ state(); const pp=people(), k=kind||J.kind;
@@ -323,6 +360,9 @@ function renderSet(){ const k=J.kind;
 function render(){ try{ state(); if(!root.querySelector('#j4list')){
       root.innerHTML=`<div class="seg j4kind" role="group" aria-label="Kind of journey">${KINDS.map(([k,l])=>`<button type="button" data-kind="${k}" aria-pressed="false">${l}</button>`).join('')}</div>
         <p class="jintro" id="j4intro"></p><div id="j4set"></div><div id="j4filt"></div><p class="fine" id="j4prog" aria-live="polite"></p><div id="j4list"></div>`; }
+    const cz=J.kind==='course'; ['j4set','j4filt','j4prog'].forEach(id=>{ root.querySelector('#'+id).hidden=cz; });
+    if(cz){ root.querySelectorAll('.j4kind button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.kind==='course'))); root.querySelector('#j4intro').textContent=J.course.ch==null?INTRO.course:''; root.querySelector('#j4intro').hidden=J.course.ch!=null; root.querySelector('#j4list').innerHTML=courseHtml(); return; }
+    root.querySelector('#j4intro').hidden=false;
     renderSet(); renderList(); }catch(e){ console.error('journey',e); const L=root.querySelector('#j4list'); if(L) L.innerHTML='<p class="j4empty">The journey could not be drawn. Try another kind of journey.</p>'; } }
 
 /* ---------- actions ---------- */
@@ -341,7 +381,14 @@ function setDone(k,on){ if(on) J.done[k]=1; else delete J.done[k];
   if(JPID==='guest'&&k.startsWith('g:')){ try{ const id=k.slice(2); if(on) DONE.add(id); else DONE.delete(id); saveJ(); }catch(e){} }
   save(); renderList(); }
 function swap(a,i,j){ if(j<0||j>=a.length) return; const x=a[i]; a[i]=a[j]; a[j]=x; }
-root.addEventListener('click',e=>{ const kb=e.target.closest('.j4kind button'); if(kb){ state(); J.kind=kb.dataset.kind; PK=null; SHOWN=null; save(); render(); return; }
+root.addEventListener('click',e=>{ const cz=e.target.closest('[data-czch],[data-cztick],[data-czplay],[data-czrel]');
+  if(cz&&!e.target.closest('.stplay')){ state(); const d=cz.dataset, tr=(a,x)=>{ try{ window.TRACK&&window.TRACK('course',Object.assign({a},x)); }catch(_){} };
+    if(d.czch!=null){ J.course.ch=+d.czch<0?null:+d.czch; save(); render(); root.scrollIntoView&&window.scrollTo(0,0); const m=document.querySelector('main')||document.scrollingElement; try{ root.closest('.view,section,main').scrollTop=0; }catch(_){} tr('chapter',{ch:J.course.ch}); }
+    else if(d.cztick){ setDone('g:'+d.cztick,!J.done['g:'+d.cztick]); render(); tr('tick',{id:d.cztick}); }
+    else if(d.czplay){ if(!J.done['g:'+d.czplay]){ J.done['g:'+d.czplay]=1; save(); } tr('play',{id:d.czplay}); openGenrePlaylist(d.czplay); render(); }
+    else if(d.czrel){ e.preventDefault(); const w=czWhere(d.czrel); if(w>=0){ J.course.ch=w; save(); render(); const el=root.querySelector(`[data-czs="${d.czrel}"]`); if(el) el.scrollIntoView({block:'start'}); } else { select(d.czrel); location.hash='list'; } }
+    return; }
+  const kb=e.target.closest('.j4kind button'); if(kb){ state(); J.kind=kb.dataset.kind; PK=null; SHOWN=null; save(); render(); return; }
   const pk=e.target.closest('[data-pk]'); if(pk&&PK){ const p=parsePl(pk.dataset.pk); if(p){ if(PK.tgt==='home') J.trav.home=p; else{ const g=J.life.legs[+PK.tgt.slice(4)]; if(g) g.pl=p; } } PK=null; save(); render(); return; }
   const b=e.target.closest('[data-act]'); if(!b) return; const a=b.dataset.act, row=b.closest('.j4row'), k=row&&row.dataset.k; state();
   if(a==='gonext'){ e.preventDefault(); const r=root.querySelector('.j4row.next'); if(r) r.scrollIntoView({block:'center',behavior:'smooth'}); return; }
