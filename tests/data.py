@@ -257,6 +257,29 @@ for k, s in songs.items():
     if 'genre' in s and s.get('genre_basis') == 'chosen for the genre' and s['genre'] not in chosen.get(k, set()):
         bad('song genres', k, 'genre %r is set, but the song has no intro, peak or reference link to g:%s' % (s['genre'], s['genre']))
 
+# ---- shape of names: debris from a source's table must not pass as a title or an artist ----
+# The evidence check ignores punctuation, so it cannot see this (work log, 24 Nov: three chart ingests).
+def shape(v):
+    out = []
+    if (v.count('"') + v.count('\u201c') + v.count('\u201d') + v.count('\u201e')) % 2: out.append('an unbalanced quote mark')
+    if re.search(r'[\u2666\u2021\u2020\u00a7\u00b6]\s*$', v): out.append('a footnote mark at the end')
+    if re.search(r'\[\d+\]|\[citation', v): out.append('a reference mark')
+    if v != v.strip() or '  ' in v: out.append('stray spacing')
+    return out
+for k, r in songs.items():
+    for why in shape(r.get('title') or ''):
+        bad('name shape', k, 'title %r has %s' % (r.get('title'), why))
+for k, r in artists.items():
+    n = r.get('name') or ''
+    for why in shape(n):
+        bad('name shape', k, 'artist %r has %s' % (n, why))
+    if len(n.split()) >= 5 and re.search(r'\b[a-z]{4,}\.$', n):
+        bad('name shape', k, 'artist %r reads as a sentence, not a name' % n)
+    # 'Various Artists' is allowed: it is the true credit of a compilation album (100 releases), and 26 songs from genre
+    # research carry it too, which is a known weakness (docs/research/2026-11-24-data-quality.md), not table debris.
+    if n.casefold() in ('no release', 'compilation', 'unknown', 'n/a', 'tba'):
+        bad('name shape', k, 'artist %r is a placeholder, not an artist' % n)
+
 # ---- no song is stored twice (DECISIONS.md D14) ----
 sys.path.insert(0, os.path.join(ROOT, 'tools'))
 from merge_duplicates import find_groups
