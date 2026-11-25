@@ -119,3 +119,13 @@
 .czunv .ic{flex:none;width:15px;height:15px;margin-top:1px}
 .czstops{margin:18px 4px 8px}
 .czch .rmain small em{font-style:normal;font-weight:600}
+
+/* a course stop is short: a hook, two songs, the playlist; the rest folds away (D35) */
+.czhook{font:400 17px/1.5 var(--body);margin:2px 0 12px}
+.czs .czfits{margin:0 0 2px}
+.czmore{margin-top:12px;border-top:.5px solid var(--sep)}
+.czmore>summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;min-height:44px;font:500 15px var(--body);color:var(--accent)}
+.czmore>summary::-webkit-details-marker{display:none}
+.czmore>summary::after{content:"";width:7px;height:7px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg);opacity:.6;transition:transform .15s;margin-right:4px}
+.czmore[open]>summary::after{transform:rotate(-135deg)}
+.czmore .czsound{font-size:15px;margin:4px 0 8px}
