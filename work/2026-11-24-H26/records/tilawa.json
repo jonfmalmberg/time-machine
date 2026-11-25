@@ -1,0 +1,32 @@
+{
+ "id": "tilawa",
+ "name": "Qur'anic recitation (tilawa) and the call to prayer",
+ "region": "mena",
+ "family": "chant",
+ "tradition": "n_islamicrecitationanddevo",
+ "began": 610,
+ "ended": null,
+ "origin": {
+  "text": "Mecca",
+  "lat": 21.42,
+  "lon": 39.83,
+  "country": "SA"
+ },
+ "definition": {
+  "window": "610 onward",
+  "sound": "Unaccompanied melodic recitation of the Qur'an under the rules of tajwid, from the slow, ornate mujawwad style to the plainer murattal; the adhan calls the faithful to prayer.",
+  "markers": [
+   "One unaccompanied voice",
+   "Long held vowels and nasal resonance set by tajwid",
+   "Phrases shaped in maqam, separated by long pauses"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 2,
+  "fame": 4,
+  "intrigue": 4
+ },
+ "tier": 1,
+ "row": 0
+}

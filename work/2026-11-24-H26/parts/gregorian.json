@@ -1,0 +1,131 @@
+{
+ "genre": "gregorian",
+ "story": "In the fifth century a singing school, the Schola Cantorum, was founded in Rome, while Gaul kept its own Gallican chant and Italy an Old Roman chant. During a visit to Gaul in 752–753 Pope Stephen II said Mass with Roman chant, and Pepin abolished the local Gallican rites in favour of the Roman use, to strengthen ties with Rome. In 785–786, at Charlemagne's request, Pope Adrian I sent a papal sacramentary with Roman chants to the Carolingian court, and a project overseen by Chrodegang of Metz promoted the Roman Mass across Francia. Scholars date this blend of Roman and Gallican chant to around 750; it was fitted into what became the eight church modes. The Metz project also invented neumes, free-form signs showing the shape of a remembered melody. Charlemagne spread the chant through his empire to consolidate religious and secular power, and by the 9th century Gallican chant had effectively been eliminated. The first manuscripts with notation date from around 930, many of them from Regensburg, St. Gall, Laon and St. Martial. Improvised harmonizations of the chant, called organum, opened the way to medieval polyphony, and modern staff notation grew directly from its neumes.",
+ "words": 196,
+ "sentences": [
+  {
+   "text": "In the fifth century a singing school, the Schola Cantorum, was founded in Rome, while Gaul kept its own Gallican chant and Italy an Old Roman chant.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+     "quote": "In the fifth century, a singing school, the Schola Cantorum, was founded at Rome to provide training in church musicianship"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+     "quote": "Spain (Mozarabic), Gaul (Gallican), and Italy ([[Old Roman chant|Old Roman]], Ambrosian"
+    }
+   ]
+  },
+  {
+   "text": "During a visit to Gaul in 752–753 Pope Stephen II said Mass with Roman chant, and Pepin abolished the local Gallican rites in favour of the Roman use, to strengthen ties with Rome.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+     "quote": "During a visit to Gaul in 752–753, [[Pope Stephen II]] celebrated [[Mass (liturgy)|Mass]] using Roman chant"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+     "quote": "his father [[Pepin the Short|Pepin]] abolished the local [[Gallican Rite]]s in favor of the Roman use, to strengthen ties with Rome"
+    }
+   ]
+  },
+  {
+   "text": "In 785–786, at Charlemagne's request, Pope Adrian I sent a papal sacramentary with Roman chants to the Carolingian court, and a project overseen by Chrodegang of Metz promoted the Roman Mass across Francia.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+     "quote": "at Charlemagne's request, [[Pope Adrian I]] sent a papal [[sacramentary]] with Roman chants to the Carolingian court"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+     "quote": "a project overseen by [[Chrodegang of Metz]] in the favorable atmosphere of the Carolingian monarchs"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+     "quote": "compiled the core liturgy of the Roman Mass and promoted its use in [[Franks|Francia]]"
+    }
+   ]
+  },
+  {
+   "text": "Scholars date this blend of Roman and Gallican chant to around 750; it was fitted into what became the eight church modes.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+     "quote": "Gregorian chant developed around 750 from a synthesis of Roman and Gallican chants, and was commissioned by the Carolingian rulers in France"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+     "quote": "came to be known as the western system of the eight [[mode (music)|church modes]]"
+    }
+   ]
+  },
+  {
+   "text": "The Metz project also invented neumes, free-form signs showing the shape of a remembered melody.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+     "quote": "The Metz project also invented an innovative [[musical notation]], using freeform [[neume]]s to show the shape of a remembered melody"
+    }
+   ]
+  },
+  {
+   "text": "Charlemagne spread the chant through his empire to consolidate religious and secular power, and by the 9th century Gallican chant had effectively been eliminated.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+     "quote": "[[Charlemagne]], once elevated to [[Holy Roman Emperor]], aggressively spread Gregorian chant throughout his empire to consolidate religious and secular power"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+     "quote": "By the 9th century the Gallican rite and chant had effectively been eliminated"
+    }
+   ]
+  },
+  {
+   "text": "The first manuscripts with notation date from around 930, many of them from Regensburg, St. Gall, Laon and St. Martial.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+     "quote": "The first extant sources with musical notation were written around 930"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+     "quote": "The earlier notated manuscripts are primarily from [[Regensburg]] in Germany, [[Abbey of Saint Gall|St. Gall]] in Switzerland, [[Laon]] and [[Abbey of Saint Martial, Limoges|St. Martial]] in France"
+    }
+   ]
+  },
+  {
+   "text": "Improvised harmonizations of the chant, called organum, opened the way to medieval polyphony, and modern staff notation grew directly from its neumes.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+     "quote": "Beginning with the improvised harmonizations of Gregorian chant known as [[organum]], Gregorian chants became a driving force in medieval and Renaissance [[polyphony]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+     "quote": "Modern staff notation developed directly from Gregorian neumes"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Our record dates the genre 800–1200; the English article puts the synthesis earlier and its main growth in the 9th–10th centuries: 'Gregorian chant developed around 750 from a synthesis of Roman and Gallican chants' and 'Gregorian chant developed mainly in western and central Europe during the 9th and 10th centuries' (https://en.wikipedia.org/wiki/Gregorian_chant?action=raw). Its spread also ran past 1200: 'By the 12th and 13th centuries, Gregorian chant had supplanted or marginalized all the other Western plainchant traditions.'",
+  "Our origin says 'Metz and Rome'. The article supports both (Metz project; Roman chant) but says it was 'commissioned by the Carolingian rulers in France' (https://en.wikipedia.org/wiki/Gregorian_chant?action=raw); no conflict, only a note that Rome's own older chant was replaced: 'Gregorian chant eventually replaced the local chant tradition of Rome itself'."
+ ],
+ "sources": [
+  {
+   "title": "English Wikipedia: Gregorian chant",
+   "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw"
+  }
+ ],
+ "notes": "All facts from the English Wikipedia article (raw). 'Metz' and the neume invention are credited by the page to 'the Metz project', not to named singers; no individual cantor at Metz is named, so the who beat rests on popes, Pepin, Charlemagne and Chrodegang."
+}

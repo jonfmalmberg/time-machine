@@ -1,0 +1,151 @@
+{
+ "genre": "flamenco",
+ "story": "Romani migrants reached Andalusia in the 15th century and met the Arab-Andalusian music already there. In 1783 King Carlos III issued a decree that improved the legal position of Spain's gitanos. Flamenco took shape at the end of the 18th century in the cities and farm towns of lower Andalusia, and its first written trace comes from Jerez de la Frontera. It was made by three or four dozen gitano families together with Andalusia's urban poor and journeymen. In 1881 the singer Silverio Franconetti opened a flamenco café in Seville where singers competed in public, and out of it came the professional cantaor. Local singers there reworked Andalusian folk songs in their own style, and the paying public's taste pulled technique and themes into one shared form. From 1920 to 1955 promoters staged it in bullrings and theatres as \"flamenco opera\", and in 1922 Manuel de Falla and Federico García Lorca answered with a cante jondo contest in Granada open only to amateurs. In the flamenco fusion of the 1970s, guitarist Paco de Lucía from Algeciras and singer Camarón de la Isla broke with Antonio Mairena's conservatism, and Paco de Lucía brought in Brazilian music, Arabic music and jazz.",
+ "words": 199,
+ "sentences": [
+  {
+   "text": "Romani migrants reached Andalusia in the 15th century and met the Arab-Andalusian music already there.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "Upon arrival to Andalusia in the 15th century, they were exposed to the rich Arab-Andalusian music culture"
+    }
+   ]
+  },
+  {
+   "text": "In 1783 King Carlos III issued a decree that improved the legal position of Spain's gitanos.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "In 1783 [[Charles III of Spain|Carlos III]] promulgated a pragmatics that regulated the social situation of the"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "saw their legal situation improve substantially"
+    }
+   ]
+  },
+  {
+   "text": "Flamenco took shape at the end of the 18th century in the cities and farm towns of lower Andalusia, and its first written trace comes from Jerez de la Frontera.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "emerged at the end of the 18th century in cities and agrarian towns of Baja Andalusia, highlighting [[Jerez de la Frontera]] as the first written vestige of this art"
+    }
+   ]
+  },
+  {
+   "text": "It was made by three or four dozen gitano families together with Andalusia's urban poor and journeymen.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "three or four dozen gitano families who created and cultivated flamenco"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "the convergence of the urban [[Subaltern (postcolonialism)|subaltern]] groups, gitano communities, and [[journeyman]] of Andalusia"
+    }
+   ]
+  },
+  {
+   "text": "In 1881 the singer Silverio Franconetti opened a flamenco café in Seville where singers competed in public, and out of it came the professional cantaor.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "In 1881 [[Silverio Franconetti]] opened the first flamenco singer café in Seville"
+    },
+    {
+     "url": "https://es.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "[[Silverio Franconetti]], cantaor de extenso repertorio"
+    },
+    {
+     "url": "https://es.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "al propio Silverio le gustaba retar en público a los mejores cantaores que pasaban por su café"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "allowed the emergence of the professional cantaor"
+    }
+   ]
+  },
+  {
+   "text": "Local singers there reworked Andalusian folk songs in their own style, and the paying public's taste pulled technique and themes into one shared form.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "reinterpreting the Andalusian folk songs in their own style, expanding the repertoire"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "the taste of the public contributed to configure the flamenco genre, unifying its technique and its theme"
+    }
+   ]
+  },
+  {
+   "text": "From 1920 to 1955 promoters staged it in bullrings and theatres as \"flamenco opera\", and in 1922 Manuel de Falla and Federico García Lorca answered with a cante jondo contest in Granada open only to amateurs.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "Between 1920 and 1955, flamenco shows began to be held in bullrings and theaters, under the name \"flamenco opera\""
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "had the idea of concurso de cante jondo in [[Granada]] in 1922"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "they organized a cante jondo contest in which only amateurs could participate"
+    }
+   ]
+  },
+  {
+   "text": "In the flamenco fusion of the 1970s, guitarist Paco de Lucía from Algeciras and singer Camarón de la Isla broke with Antonio Mairena's conservatism, and Paco de Lucía brought in Brazilian music, Arabic music and jazz.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "In the 1970s, there were airs of social and political change in Spain"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "The combination of both factors led to a revolutionary period called flamenco fusion"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "the virtuoso guitarist from Algeciras [[Paco de Lucía]] and the long-standing singer from the island [[Camarón de la Isla]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "its definitive break with Mairena's conservatism"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+     "quote": "opening up to new influences, such as Brazilian music, Arabic and jazz"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Origin: our record says Seville; https://en.wikipedia.org/wiki/Flamenco?action=raw places the emergence across lower Andalusia with Jerez as the earliest written trace: \"emerged at the end of the 18th century in cities and agrarian towns of Baja Andalusia, highlighting [[Jerez de la Frontera]] as the first written vestige of this art\". The same passage adds that early manifestations were closer to the bolero school: \"the manifestations of this time are more typical of the [[bolero]] school than of flamenco\".",
+  "Seville café: https://en.wikipedia.org/wiki/Flamenco?action=raw calls Silverio's 1881 café \"the first flamenco singer café in Seville\", while https://es.wikipedia.org/wiki/Flamenco?action=raw reports an earlier café cantante in Seville: \"ya en 1842 existía un café cantante en Sevilla\" (it still calls Silverio's the first flamenco one)."
+ ],
+ "sources": [
+  {
+   "title": "Flamenco (English Wikipedia, raw)",
+   "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw"
+  },
+  {
+   "title": "Flamenco (Spanish Wikipedia, raw)",
+   "url": "https://es.wikipedia.org/wiki/Flamenco?action=raw"
+  }
+ ],
+ "notes": "All 18 quotes found by tools/check_evidence.py. The English History section carries a {{Disputed section|date=August 2021}} tag, so the founding claims (Romani arrival, gitano families, Jerez) rest on a section Wikipedia itself flags. The record's sound markers (12-beat compás, Andalusian cadence) were not used in the story and not checked."
+}

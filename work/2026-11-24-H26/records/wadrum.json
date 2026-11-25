@@ -1,0 +1,32 @@
+{
+ "id": "wadrum",
+ "name": "West African drum and dance",
+ "region": "afr",
+ "family": "africa",
+ "tradition": "westafr",
+ "began": 1000,
+ "ended": null,
+ "origin": {
+  "text": "Yorubaland",
+  "lat": 7.4,
+  "lon": 3.9,
+  "country": "NG"
+ },
+ "definition": {
+  "window": "1000 onward",
+  "sound": "Ensemble drumming for dance and ceremony from West Africa: several drums and bells locked in interlocking cycles, with call-and-response singing.",
+  "markers": [
+   "Layered drum patterns over an iron bell timeline",
+   "Lead drum calling and answering the dancers",
+   "Call-and-response voices"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 3,
+  "fame": 2,
+  "intrigue": 4
+ },
+ "tier": 1,
+ "row": 5
+}

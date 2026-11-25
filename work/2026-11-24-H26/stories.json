@@ -1,0 +1,2627 @@
+[
+ {
+  "genre": "gregorian",
+  "story": "In the fifth century a singing school, the Schola Cantorum, was founded in Rome, while Gaul kept its own Gallican chant and Italy an Old Roman chant. During a visit to Gaul in 752–753 Pope Stephen II said Mass with Roman chant, and Pepin abolished the local Gallican rites in favour of the Roman use, to strengthen ties with Rome. In 785–786, at Charlemagne's request, Pope Adrian I sent a papal sacramentary with Roman chants to the Carolingian court, and a project overseen by Chrodegang of Metz promoted the Roman Mass across Francia. Scholars date this blend of Roman and Gallican chant to around 750; it was fitted into what became the eight church modes. The Metz project also invented neumes, free-form signs showing the shape of a remembered melody. Charlemagne spread the chant through his empire to consolidate religious and secular power, and by the 9th century Gallican chant had effectively been eliminated. The first manuscripts with notation date from around 930, many of them from Regensburg, St. Gall, Laon and St. Martial. Improvised harmonizations of the chant, called organum, opened the way to medieval polyphony, and modern staff notation grew directly from its neumes.",
+  "words": 196,
+  "sentences": [
+   {
+    "text": "In the fifth century a singing school, the Schola Cantorum, was founded in Rome, while Gaul kept its own Gallican chant and Italy an Old Roman chant.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+      "quote": "In the fifth century, a singing school, the Schola Cantorum, was founded at Rome to provide training in church musicianship"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+      "quote": "Spain (Mozarabic), Gaul (Gallican), and Italy ([[Old Roman chant|Old Roman]], Ambrosian"
+     }
+    ]
+   },
+   {
+    "text": "During a visit to Gaul in 752–753 Pope Stephen II said Mass with Roman chant, and Pepin abolished the local Gallican rites in favour of the Roman use, to strengthen ties with Rome.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+      "quote": "During a visit to Gaul in 752–753, [[Pope Stephen II]] celebrated [[Mass (liturgy)|Mass]] using Roman chant"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+      "quote": "his father [[Pepin the Short|Pepin]] abolished the local [[Gallican Rite]]s in favor of the Roman use, to strengthen ties with Rome"
+     }
+    ]
+   },
+   {
+    "text": "In 785–786, at Charlemagne's request, Pope Adrian I sent a papal sacramentary with Roman chants to the Carolingian court, and a project overseen by Chrodegang of Metz promoted the Roman Mass across Francia.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+      "quote": "at Charlemagne's request, [[Pope Adrian I]] sent a papal [[sacramentary]] with Roman chants to the Carolingian court"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+      "quote": "a project overseen by [[Chrodegang of Metz]] in the favorable atmosphere of the Carolingian monarchs"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+      "quote": "compiled the core liturgy of the Roman Mass and promoted its use in [[Franks|Francia]]"
+     }
+    ]
+   },
+   {
+    "text": "Scholars date this blend of Roman and Gallican chant to around 750; it was fitted into what became the eight church modes.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+      "quote": "Gregorian chant developed around 750 from a synthesis of Roman and Gallican chants, and was commissioned by the Carolingian rulers in France"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+      "quote": "came to be known as the western system of the eight [[mode (music)|church modes]]"
+     }
+    ]
+   },
+   {
+    "text": "The Metz project also invented neumes, free-form signs showing the shape of a remembered melody.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+      "quote": "The Metz project also invented an innovative [[musical notation]], using freeform [[neume]]s to show the shape of a remembered melody"
+     }
+    ]
+   },
+   {
+    "text": "Charlemagne spread the chant through his empire to consolidate religious and secular power, and by the 9th century Gallican chant had effectively been eliminated.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+      "quote": "[[Charlemagne]], once elevated to [[Holy Roman Emperor]], aggressively spread Gregorian chant throughout his empire to consolidate religious and secular power"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+      "quote": "By the 9th century the Gallican rite and chant had effectively been eliminated"
+     }
+    ]
+   },
+   {
+    "text": "The first manuscripts with notation date from around 930, many of them from Regensburg, St. Gall, Laon and St. Martial.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+      "quote": "The first extant sources with musical notation were written around 930"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+      "quote": "The earlier notated manuscripts are primarily from [[Regensburg]] in Germany, [[Abbey of Saint Gall|St. Gall]] in Switzerland, [[Laon]] and [[Abbey of Saint Martial, Limoges|St. Martial]] in France"
+     }
+    ]
+   },
+   {
+    "text": "Improvised harmonizations of the chant, called organum, opened the way to medieval polyphony, and modern staff notation grew directly from its neumes.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+      "quote": "Beginning with the improvised harmonizations of Gregorian chant known as [[organum]], Gregorian chants became a driving force in medieval and Renaissance [[polyphony]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gregorian_chant?action=raw",
+      "quote": "Modern staff notation developed directly from Gregorian neumes"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Our record dates the genre 800–1200; the English article puts the synthesis earlier and its main growth in the 9th–10th centuries: 'Gregorian chant developed around 750 from a synthesis of Roman and Gallican chants' and 'Gregorian chant developed mainly in western and central Europe during the 9th and 10th centuries' (https://en.wikipedia.org/wiki/Gregorian_chant?action=raw). Its spread also ran past 1200: 'By the 12th and 13th centuries, Gregorian chant had supplanted or marginalized all the other Western plainchant traditions.'",
+   "Our origin says 'Metz and Rome'. The article supports both (Metz project; Roman chant) but says it was 'commissioned by the Carolingian rulers in France' (https://en.wikipedia.org/wiki/Gregorian_chant?action=raw); no conflict, only a note that Rome's own older chant was replaced: 'Gregorian chant eventually replaced the local chant tradition of Rome itself'."
+  ],
+  "notes": "All facts from the English Wikipedia article (raw). 'Metz' and the neume invention are credited by the page to 'the Metz project', not to named singers; no individual cantor at Metz is named, so the who beat rests on popes, Pepin, Charlemagne and Chrodegang."
+ },
+ {
+  "genre": "tilawa",
+  "story": "Islamic tradition holds that Muhammad received his first revelation in 610 in the Cave of Hira, and further revelations over 23 years. The first muezzin was Bilal ibn Rabah, a freed slave of Abyssinian heritage chosen for his loud voice; at the conquest of Mecca in 630 he called the prayer from the Kaaba. In the following generation, reciters in Mecca, Medina, Kufa, Basra and Syria became known as teachers, and their ways of reading took their names. Under the Abbasids, as many non-Arabs became Muslims and mispronunciation spread, scholars began writing down the rules, and Abu Ubaid al-Qasim bin Salam (774–838) was the first to set tajwid in writing. Abu Bakr Ibn Mujahid (859–936) limited the accepted readings to seven. In the adhan each phrase is followed by a longer pause and grows longer and more ornamented on repetition; Medina uses maqam Bayati, Mecca maqam Hijaz. In 1944 Mahmoud Khalil Al-Hussary won Egyptian Radio's reciters' competition, and became the first to record the whole Quran in the measured murattal style. Abdul Basit Abdus-Samad, known for the melodic mujawwad style, joined Egyptian Radio in 1951, and his recitations were broadcast by radio stations in other Arab countries.",
+  "words": 197,
+  "sentences": [
+   {
+    "text": "Islamic tradition holds that Muhammad received his first revelation in 610 in the Cave of Hira, and further revelations over 23 years.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Quran?action=raw",
+      "quote": "Muhammad received [[Muhammad's first revelation|his first revelation]] in 610 CE in the [[Jabal al-Nour|Cave of Hira]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Quran?action=raw",
+      "quote": "Thereafter, he received revelations over a period of 23 years"
+     }
+    ]
+   },
+   {
+    "text": "The first muezzin was Bilal ibn Rabah, a freed slave of Abyssinian heritage chosen for his loud voice; at the conquest of Mecca in 630 he called the prayer from the Kaaba.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Adhan?action=raw",
+      "quote": "The first muezzin in Islam was [[Bilal ibn Rabah]], a freed slave of [[Abyssinian people|Abyssinian]] heritage"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Bilal_ibn_Rabah?action=raw",
+      "quote": "Muhammad then instructed Abdullah to teach those words to Bilal because he had a louder voice than him"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Bilal_ibn_Rabah?action=raw",
+      "quote": "During the [[Conquest of Mecca|Conquest of Makkah]] in 630"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Bilal_ibn_Rabah?action=raw",
+      "quote": "Bilal was chosen to perform the [[adhan]] (call to prayer) from the [[Kaaba]]"
+     }
+    ]
+   },
+   {
+    "text": "In the following generation, reciters in Mecca, Medina, Kufa, Basra and Syria became known as teachers, and their ways of reading took their names.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Qira'at?action=raw",
+      "quote": "exceptional reciters became renowned as teachers of Qur'anic recitation in cities like [[Makkah]], [[Madina]], [[Kufa]], [[Basra]], and greater Syria (al-Sham)"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Qira'at?action=raw",
+      "quote": "their modes of recitations were then attached to their names"
+     }
+    ]
+   },
+   {
+    "text": "Under the Abbasids, as many non-Arabs became Muslims and mispronunciation spread, scholars began writing down the rules, and Abu Ubaid al-Qasim bin Salam (774–838) was the first to set tajwid in writing.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tajwid?action=raw",
+      "quote": "under the [[Abbasid Caliphate]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tajwid?action=raw",
+      "quote": "errors in pronunciation increased in the Quran due to the entry of many [[Mawla|non-Arab Muslims]] into Islam. So the scholars of the Quran began to write the rules of [[Intonation (linguistics)|intonation]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tajwid?action=raw",
+      "quote": "[[Abu Ubaid al-Qasim bin Salam]] (774–838 CE) was the first to develop a recorded system for tajwid"
+     }
+    ]
+   },
+   {
+    "text": "Abu Bakr Ibn Mujahid (859–936) limited the accepted readings to seven.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tajwid?action=raw",
+      "quote": "[[Abu Bakr Ibn Mujāhid]] (859–936 CE) wrote a book called"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tajwid?action=raw",
+      "quote": "He is the first to limit the number of [[Qira'at|recitations]] to the seven known"
+     }
+    ]
+   },
+   {
+    "text": "In the adhan each phrase is followed by a longer pause and grows longer and more ornamented on repetition; Medina uses maqam Bayati, Mecca maqam Hijaz.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Adhan?action=raw",
+      "quote": "Each [[phrase (music)|phrase]] is followed by a longer [[rest (music)|pause]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Adhan?action=raw",
+      "quote": "Upon [[Repetition (music)|repetition]] the phrase is longer, [[Ornament (music)|ornament]]ed with melismas"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Adhan?action=raw",
+      "quote": "Medina, [[Saudi Arabia]] uses Maqam [[Bayati (maqam)|Bayati]] while Mecca uses Maqam Hijaz"
+     }
+    ]
+   },
+   {
+    "text": "In 1944 Mahmoud Khalil Al-Hussary won Egyptian Radio's reciters' competition, and became the first to record the whole Quran in the measured murattal style.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Mahmoud_Khalil_Al-Hussary?action=raw",
+      "quote": "In 1944, he won [[National Media Authority|Egypt Radio]]'s Quran Recitation competition"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Mahmoud_Khalil_Al-Hussary?action=raw",
+      "quote": "He was the first reciter to record the complete Quran in the ''murattal'' style"
+     }
+    ]
+   },
+   {
+    "text": "Abdul Basit Abdus-Samad, known for the melodic mujawwad style, joined Egyptian Radio in 1951, and his recitations were broadcast by radio stations in other Arab countries.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Abdul_Basit_'Abd_us-Samad?action=raw",
+      "quote": "known for his melodic [[Mujawwad|''mujawwad'']] style of recitation"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Abdul_Basit_'Abd_us-Samad?action=raw",
+      "quote": "Abdul Basit joined Egyptian Radio as a reciter in 1951"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Abdul_Basit_'Abd_us-Samad?action=raw",
+      "quote": "His recitations were also broadcast by radio stations in other [[Arab world|Arab countries]]"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "No disagreement on the 610 start or Mecca. Note that the English Wikipedia 'Quran recitation' title is only a redirect to Qira'at, so there is no single English article for the genre; the story draws on Quran, Adhan, Tajwid, Qira'at and two reciter biographies."
+  ],
+  "notes": "The Bilal ibn Rabah article carries 'Original research' and 'essay' warning tags; the first-muezzin fact is also on the Adhan article, but the loud-voice and 630 Kaaba details rest on the tagged page alone. The Arabic article was not used. The before beat (what recitation grew out of musically, e.g. pre-Islamic chanted poetry) could not be sourced, so 'before' is told as the revelation itself."
+ },
+ {
+  "genre": "gagaku",
+  "story": "From the 5th century, music and dance reached Japan from mainland China and the Korean peninsula; in 554 musicians are said to have come from the Korean kingdom of Baekje. In 701 the Taihō Code set up the Gagaku-ryō, a court bureau for music and dance. In 736 the monk Buttetsu brought Rin'yū music, said to come from India and Southeast Asia; in 752 Tang, Korean and native dances marked the eye-opening of the Great Buddha at Tōdai-ji in Nara. In the 9th and 10th centuries the Heian court fused these imported styles with native song, and split the repertoire into a left side built on Tang music and a right side built on Korean music. Courtiers played too: Minamoto no Hiromasa is remembered for the flute and biwa, Fujiwara no Moronaga as a biwa master. After the Ōnin War of 1467 to 1477 the ensembles stopped playing in Kyoto for about 100 years, until the Tokugawa shogunate revived them. After 1868 the guilds of Osaka, Nara and Kyoto moved to Tokyo, where their descendants make up most of the Imperial Palace Music Department. In 1973 Tōru Takemitsu completed Shuteiga (In an Autumn Garden) for the Imperial Household ensemble.",
+  "words": 199,
+  "sentences": [
+   {
+    "text": "From the 5th century, music and dance reached Japan from mainland China and the Korean peninsula; in 554 musicians are said to have come from the Korean kingdom of Baekje.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+      "quote": "5世紀以降、[[中国大陸]]・[[朝鮮半島]]などとの交流を通じて、外来系の音楽・舞が日本に伝来した"
+     },
+     {
+      "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+      "quote": "554年（[[欽明天皇]]15年）には、[[百済]]から楽人が来朝したとされる"
+     }
+    ]
+   },
+   {
+    "text": "In 701 the Taihō Code set up the Gagaku-ryō, a court bureau for music and dance.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+      "quote": "701年（大宝元年）の[[大宝律令]]により、宮廷の音楽・舞を司る機関として[[雅楽寮]]が設置された"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+      "quote": "the Gagaku-ryō, a government bureau which oversaw music education and performance in the Japanese Imperial Court"
+     }
+    ]
+   },
+   {
+    "text": "In 736 the monk Buttetsu brought Rin'yū music, said to come from India and Southeast Asia; in 752 Tang, Korean and native dances marked the eye-opening of the Great Buddha at Tōdai-ji in Nara.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+      "quote": "736年（天平8年）には、[[林邑]]僧の仏哲らが[[林邑]]楽を伝えたとされる"
+     },
+     {
+      "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+      "quote": "インド・東南アジア方面に由来する楽舞とされ"
+     },
+     {
+      "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+      "quote": "752年（天平勝宝4年）の[[東大寺盧舎那仏像]]の[[開眼法要]]では"
+     },
+     {
+      "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+      "quote": "[[唐楽]]、[[林邑]]楽、[[高麗楽]]、大歌舞、久米舞など、多様な楽舞が奉納された"
+     }
+    ]
+   },
+   {
+    "text": "In the 9th and 10th centuries the Heian court fused these imported styles with native song, and split the repertoire into a left side built on Tang music and a right side built on Korean music.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+      "quote": "From the 9th century to the 10th century, during the [[Heian period]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+      "quote": "becoming distinctly Japanese in style through its fusion with musical styles indigenous to Japan"
+     },
+     {
+      "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+      "quote": "平安前期には、[[唐楽]]を中心とする左方と、[[高麗楽]]を中心とする右方の区別が明確化した"
+     }
+    ]
+   },
+   {
+    "text": "Courtiers played too: Minamoto no Hiromasa is remembered for the flute and biwa, Fujiwara no Moronaga as a biwa master.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+      "quote": "[[源博雅]]は笛や琵琶に関する逸話で知られ"
+     },
+     {
+      "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+      "quote": "[[藤原師長]]は琵琶の名手として知られ"
+     }
+    ]
+   },
+   {
+    "text": "After the Ōnin War of 1467 to 1477 the ensembles stopped playing in Kyoto for about 100 years, until the Tokugawa shogunate revived them.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+      "quote": "Due to the [[Ōnin War]], a civil war from 1467 to 1477 during the [[Muromachi period]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+      "quote": "ensembles ceased to perform in Kyoto for about 100 years. In the [[Edo period]], the [[Tokugawa shogunate]] revived and reorganized the court-style ensembles"
+     }
+    ]
+   },
+   {
+    "text": "After 1868 the guilds of Osaka, Nara and Kyoto moved to Tokyo, where their descendants make up most of the Imperial Palace Music Department.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+      "quote": "there were three guilds, based in [[Osaka]], [[Nara, Nara|Nara]] and [[Kyoto]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+      "quote": "After the [[Meiji Restoration]] of 1868, musicians from all three guilds came to the capital and their descendants make up most of the current [[Tokyo Imperial Palace]] Music Department"
+     }
+    ]
+   },
+   {
+    "text": "In 1973 Tōru Takemitsu completed Shuteiga (In an Autumn Garden) for the Imperial Household ensemble.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tōru_Takemitsu?action=raw",
+      "quote": "Takemitsu received a commission from the [[National Theatre of Japan]] to write a work for the ''[[gagaku]]'' ensemble of the Imperial Household; this was fulfilled in 1973, when he completed ''Shuteiga'' (\"In an Autumn Garden\""
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Our record gives origin Nara and start 700; the English article places its development at the Kyoto court and its settled form in the Heian period: 'was developed as court music of the [[Kyoto Imperial Palace]], and its near-current form was established in the [[Heian period]] (794–1185) around the 10th century' (https://en.wikipedia.org/wiki/Gagaku?action=raw). The 701 bureau and the 752 Tōdai-ji performance in Nara support our start."
+  ],
+  "notes": "The Japanese article (ja.wikipedia 雅楽, raw) supplied the named people (Buttetsu, Minamoto no Hiromasa, Fujiwara no Moronaga) and the 554, 701, 736 and 752 dates; romanised names in the story are my readings of the kanji 仏哲, 源博雅, 藤原師長, 百済 (Baekje) and 大宝律令 (Taihō Code), which the page gives only in Japanese. The 'said to' wording follows the page's とされる."
+ },
+ {
+  "genre": "hindustani",
+  "story": "In the 13th century Sharangadeva wrote the Sangita Ratnakara, whose raga names such as Turushka Todi (\"Turkish Todi\") show ideas arriving from Islamic culture; it is the last text cited by both the Hindustani and Carnatic traditions. Under the Delhi Sultanate and then the Mughals, musicians found patrons in the new rulers' courts, and Hindu and Muslim ideas met in new forms such as qawwali and khyal. Amir Khusrau (1253–1325), a disciple of Nizamuddin Auliya of Delhi who composed in Persian, Turkish, Arabic and Braj Bhasha, is credited with introducing ragas such as Yaman Kalyan. At Gwalior, Raja Man Singh Tomar (1486–1516) moved classical song from Sanskrit into Hindi, and dhrupad developed at his court. In 1562 Tansen joined the court of the Mughal emperor Akbar, where he introduced new ragas and compositions. When the Mughal Empire broke up, smaller courts such as Oudh, Patiala and Banaras kept paying musicians, and their family styles became the gharanas. In 1901 Vishnu Digambar Paluskar opened the Gandharva Mahavidyalaya school in Lahore, and between 1909 and 1932 Vishnu Narayan Bhatkhande sorted the ragas into thaats. Fred Gaisberg's first recordings of Indian music, in 1902, made Gauhar Jan the music's first star.",
+  "words": 198,
+  "sentences": [
+   {
+    "text": "In the 13th century Sharangadeva wrote the Sangita Ratnakara, whose raga names such as Turushka Todi (\"Turkish Todi\") show ideas arriving from Islamic culture; it is the last text cited by both the Hindustani and Carnatic traditions.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+      "quote": "In the 13th century, [[Śārṅgadeva|Sharangadeva]] composed the ''[[Sangita Ratnakara]]'', which has names such as the ''Turushka Todi'' (\"Turkish [[Todi (thaat)|Todi]]\"), revealing an influx of ideas from Islamic culture"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+      "quote": "This text is the last to be mentioned by both the [[Carnatic music|Carnatic]] and the Hindustani traditions"
+     }
+    ]
+   },
+   {
+    "text": "Under the Delhi Sultanate and then the Mughals, musicians found patrons in the new rulers' courts, and Hindu and Muslim ideas met in new forms such as qawwali and khyal.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+      "quote": "The advent of Islamic rule under the [[Delhi Sultanate]] and later the [[Mughal Empire]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+      "quote": "Increasingly, musicians received patronage in the courts of the new rulers"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+      "quote": "fusion of Hindu and Muslim ideas to bring forth new forms of musical synthesis like [[qawwali]] and [[khyal]]"
+     }
+    ]
+   },
+   {
+    "text": "Amir Khusrau (1253–1325), a disciple of Nizamuddin Auliya of Delhi who composed in Persian, Turkish, Arabic and Braj Bhasha, is credited with introducing ragas such as Yaman Kalyan.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+      "quote": "The most influential musician of the Delhi Sultanate period was [[Amir Khusrau]] (1253–1325), a composer in [[Persian language|Persian]], [[Turkish language|Turkish]] and [[Arabic]], as well as [[Braj Bhasha]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Amir_Khusrau?action=raw",
+      "quote": "a spiritual disciple of [[Nizamuddin Auliya]] of [[Delhi]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+      "quote": "introducing several ragas such as [[Yaman Kalyan]]"
+     }
+    ]
+   },
+   {
+    "text": "At Gwalior, Raja Man Singh Tomar (1486–1516) moved classical song from Sanskrit into Hindi, and dhrupad developed at his court.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+      "quote": "[[Man Singh Tomar|Raja Mansingh Tomar]] (1486–1516 CE) also participated in the shift from Sanskrit to the local idiom ([[Hindi]]) as the language for classical songs"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+      "quote": "the musical form known as [[dhrupad]] saw considerable development in his court"
+     }
+    ]
+   },
+   {
+    "text": "In 1562 Tansen joined the court of the Mughal emperor Akbar, where he introduced new ragas and compositions.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tansen?action=raw",
+      "quote": "In 1562, at about the age of 60, Tānsen joined Akbar's court"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tansen?action=raw",
+      "quote": "the Mughal Emperor [[Akbar]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+      "quote": "the musician [[Tansen]] introduced a number of innovations, including ragas and particular compositions"
+     }
+    ]
+   },
+   {
+    "text": "When the Mughal Empire broke up, smaller courts such as Oudh, Patiala and Banaras kept paying musicians, and their family styles became the gharanas.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+      "quote": "After the dissolution of the Mughal Empire, the patronage of music continued in smaller princely kingdoms like [[Oudh State|Oudh]], [[Patiala State|Patiala]], and [[Benares State|Banaras]], giving rise to the diversity of styles that is today known as [[gharana]]s"
+     }
+    ]
+   },
+   {
+    "text": "In 1901 Vishnu Digambar Paluskar opened the Gandharva Mahavidyalaya school in Lahore, and between 1909 and 1932 Vishnu Narayan Bhatkhande sorted the ragas into thaats.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+      "quote": "the ''[[Gandharva Mahavidyalaya]]'' music school that he opened in [[Lahore]] in 1901"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+      "quote": "Between 1909 and 1932, he produced the monumental four-volume work ''Hindustani Sangeeta Paddhati''"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+      "quote": "it suggested a possible categorization of [[raga]]s based on their notes into a number of [[thaat]]s (modes)"
+     }
+    ]
+   },
+   {
+    "text": "Fred Gaisberg's first recordings of Indian music, in 1902, made Gauhar Jan the music's first star.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+      "quote": "The first star was [[Gauhar Jan]], whose career was born out of [[Fred Gaisberg]]'s first recordings of Indian music in 1902"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Our record begins 1250 at Delhi; the English article puts the split from the southern tradition around the 12th century: 'Around the 12th-century, Hindustani classical music diverged from what eventually came to be identified as [[Carnatic classical music]]', and also says the 13th-century Sangita Ratnakara 'is often thought to date the divergence between the two' (https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw). Not a conflict with 1250 so much as a softer start."
+  ],
+  "notes": "The article notes doubt about Khusrau and khyal: 'Amir Khusrau is sometimes credited with the origins of the khyal form, but the record of his compositions does not appear to support this', so the story credits him only with ragas. Delhi as Khusrau's base comes from his own article (disciple of Nizamuddin Auliya of Delhi). The 'credited with' wording follows the page."
+ },
+ {
+  "genre": "carnatic",
+  "story": "From the 12th century, Persian and Islamic influence in North India pulled Indian classical music into two styles, and by the 16th and 17th centuries the southern Carnatic style stood apart from Hindustani music. Purandara Dasa (1484–1564) set the graded exercises by which it is still traditionally taught, starting beginners on the raga Mayamalavagowla. In the 18th and 19th centuries its main patrons were the Maratha rulers of Tanjore and the kings of Mysore and Travancore. Three contemporaries, Tyagaraja (1767–1847), Muthuswami Dikshitar (1776–1835) and Syama Sastri (1762–1827), became known as its Trinity. Tyagaraja, whose father worked at the court of Thuljaji, spent most of his life in Thiruvaiyaru and turned down King Serfoji II's invitation to court; about 720 of his songs, in Sanskrit and Telugu, survive. At Fort St. George in Madras, Dikshitar and his brothers heard Western orchestral music and the violin, and his brother Balaswami brought the violin into Carnatic music. Musicians founded the Tyagaraja Aradhana festival at Thiruvaiyaru in 1846, and by the late 19th century Madras had become the music's centre. When the princely states dissolved around independence in 1947, patronage passed to private societies called sabhas that sold tickets to concerts.",
+  "words": 197,
+  "sentences": [
+   {
+    "text": "From the 12th century, Persian and Islamic influence in North India pulled Indian classical music into two styles, and by the 16th and 17th centuries the southern Carnatic style stood apart from Hindustani music.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+      "quote": "Owing to Persian and Islamic influences in [[North India]] from the 12th century onwards, Indian classical music began to diverge into two distinct styles"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+      "quote": "By the 16th and 17th centuries, there was a clear demarcation between Carnatic and Hindustani music"
+     }
+    ]
+   },
+   {
+    "text": "Purandara Dasa (1484–1564) set the graded exercises by which it is still traditionally taught, starting beginners on the raga Mayamalavagowla.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+      "quote": "[[Purandara Dasa]] (1484–1564) is referred to as the ''Pitamaha''"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+      "quote": "Carnatic music is traditionally taught according to the system formulated by [[Purandara Dasa]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+      "quote": "introduced the ''[[Raga]]'' [[Mayamalavagowla]] as the first scale to be learnt by beginners"
+     }
+    ]
+   },
+   {
+    "text": "In the 18th and 19th centuries its main patrons were the Maratha rulers of Tanjore and the kings of Mysore and Travancore.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+      "quote": "In the 18th and 19th centuries, Carnatic music was mainly patronised by the local kings of the [[Kingdom of Mysore]], [[Kingdom of Travancore]], and the [[Thanjavur Maratha kingdom|Maratha rulers of Tanjore]]"
+     }
+    ]
+   },
+   {
+    "text": "Three contemporaries, Tyagaraja (1767–1847), Muthuswami Dikshitar (1776–1835) and Syama Sastri (1762–1827), became known as its Trinity.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+      "quote": "The contemporaries [[Tyagaraja]] (1767– 1847), [[Muthuswami Dikshitar]], (1776–1835) and [[Syama Sastri]], (1762–1827) are regarded as the [[Trinity of Carnatic music]]"
+     }
+    ]
+   },
+   {
+    "text": "Tyagaraja, whose father worked at the court of Thuljaji, spent most of his life in Thiruvaiyaru and turned down King Serfoji II's invitation to court; about 720 of his songs, in Sanskrit and Telugu, survive.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tyagaraja?action=raw",
+      "quote": "the chief vidwan in the court of Thanjavur ruler [[Thuljaji]], where Tyagaraja's father Ramabrahmam also worked"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tyagaraja?action=raw",
+      "quote": "Tyāgarāja spent most of his life in Thiruvaiyaru"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tyagaraja?action=raw",
+      "quote": "The king sent an invitation, along with many gifts, inviting Tyagaraja to attend the royal court"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tyagaraja?action=raw",
+      "quote": "rejected the invitation outright"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tyagaraja?action=raw",
+      "quote": "There are about 720 compositions available today"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+      "quote": "Tyāgarāja (who composed in Sanskrit and Telugu)"
+     }
+    ]
+   },
+   {
+    "text": "At Fort St. George in Madras, Dikshitar and his brothers heard Western orchestral music and the violin, and his brother Balaswami brought the violin into Carnatic music.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Muthuswami_Dikshitar?action=raw",
+      "quote": "He and his brothers accompanied the ''zamindar'' to [[Fort St. George]] where they were introduced to Western [[orchestral music]] and the violin"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Muthuswami_Dikshitar?action=raw",
+      "quote": "Balaswami adapted and pioneered the use of the Western violin in Carnatic music"
+     }
+    ]
+   },
+   {
+    "text": "Musicians founded the Tyagaraja Aradhana festival at Thiruvaiyaru in 1846, and by the late 19th century Madras had become the music's centre.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+      "quote": "its musicians founded the [[Tyagaraja Aradhana]] festival in 1846"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+      "quote": "Held in the city of [[Thiruvayaru]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+      "quote": "During the late 19th century, the city of [[Madras]] (now known as Chennai) emerged as the locus for Carnatic music"
+     }
+    ]
+   },
+   {
+    "text": "When the princely states dissolved around independence in 1947, patronage passed to private societies called sabhas that sold tickets to concerts.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+      "quote": "With the dissolution of the erstwhile [[princely states]] and the [[Indian independence movement]] reaching its conclusion in 1947"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+      "quote": "Carnatic music went through a radical shift in patronage into an art of the masses with ticketed performances organised by private institutions called [[sabhā]]s"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Our record dates the genre from 1500 with origin Thanjavur. The English article puts the split from Hindustani music in the 16th-17th centuries and places the 16th-century flowering in Vijayanagara, not Thanjavur; Thanjavur's role (Maratha patronage, the Trinity) is 18th-19th century. https://en.wikipedia.org/wiki/Carnatic_music?action=raw quote: \"It was at this time that Carnatic music flourished in [[Vijayanagara]], while the [[Vijayanagara Empire]] reached its greatest extent.\"",
+   "Record's marker lists kriti in Telugu, Sanskrit or Tamil; the article lists Kannada, Malayalam, Sanskrit, Tamil and Telugu as composers' languages. https://en.wikipedia.org/wiki/Carnatic_music?action=raw quote: \"proficient in one or more of the languages [[Kannada]], [[Malayalam]], [[Sanskrit]], [[Tamil language|Tamil]], or [[Telugu language|Telugu]]\""
+  ],
+  "notes": "Syama Sastri's own article was not used beyond his dates in the Carnatic article. Tyagaraja's birthplace is disputed in his article (Thiruvarur vs Thiruvaiyaru), so the story says only where he lived."
+ },
+ {
+  "genre": "georgianpolyphonic",
+  "story": "Georgian villagers were singing in parts before Christianity reached Georgia at the start of the 4th century. From the 7th and 8th centuries, Georgian church composers translated Greek Orthodox chants and added harmonies to the single-line melodies. Village singers, mostly farmers, kept the tradition going for centuries. In Kakheti, table songs set two soloists over a long drone bass; in Guria, three or four singers each took a separate line, with a yodel called krimanchuli. As farm work changed, the supra feast became where many kinds of song survived. The first professional choir, formed in 1886, began moving singers toward Western tuning. Under Soviet rule (1921–1991) church songs were forbidden, and huge regional choirs cut back the singers' improvising. In 1968 Anzor Erkomaishvili founded the Rustavi Choir; the Kakhetian song Chakrulo went into space on the Voyager records in 1977, and UNESCO listed Georgian polyphonic singing in 2001.",
+  "words": 148,
+  "sentences": [
+   {
+    "text": "Georgian villagers were singing in parts before Christianity reached Georgia at the start of the 4th century.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+      "quote": "It is widely accepted in contemporary musicology that polyphony in Georgian music predates the"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+      "quote": "in Georgia (beginning of the 4th century AD)"
+     }
+    ]
+   },
+   {
+    "text": "From the 7th and 8th centuries, Georgian church composers translated Greek Orthodox chants and added harmonies to the single-line melodies.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+      "quote": "Professional music in Georgia existed at least from the 7-8th centuries, when Georgian composers started translating Greek orthodox Christian chants"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+      "quote": "adding harmonies to the monophonic melodies"
+     }
+    ]
+   },
+   {
+    "text": "Village singers, mostly farmers, kept the tradition going for centuries.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+      "quote": "Georgian vocal polyphony was maintained for millennia by village singers, mostly local farmers"
+     }
+    ]
+   },
+   {
+    "text": "In Kakheti, table songs set two soloists over a long drone bass; in Guria, three or four singers each took a separate line, with a yodel called krimanchuli.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+      "quote": "Table songs from [[Kakheti]] in eastern Georgia usually feature a long [[Drone (music)|drone]] bass with two soloists singing the top two parts"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+      "quote": "particularly in Guria (three and four part polyphony with highly individualized melodic lines in each part"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+      "quote": "known as '''krimanchuli'''"
+     }
+    ]
+   },
+   {
+    "text": "As farm work changed, the supra feast became where many kinds of song survived.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+      "quote": "As many traditional activities greatly changed their nature (for example, working processes), the traditional feast became the harbor for many different genres of music"
+     }
+    ]
+   },
+   {
+    "text": "The first professional choir, formed in 1886, began moving singers toward Western tuning.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+      "quote": "present-day performers of Georgian folk music often employ Western tuning"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+      "quote": "This process started from the very first professional choir, organized in Georgia in 1886"
+     }
+    ]
+   },
+   {
+    "text": "Under Soviet rule (1921–1991) church songs were forbidden, and huge regional choirs cut back the singers' improvising.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+      "quote": "During the [[Georgian Soviet Socialist Republic|Soviet]] period (1921–1991)"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+      "quote": "some genres were forbidden (particularly Christian church-songs)"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+      "quote": "the tendency to create huge regional choirs with big groups singing each melodic part damaged the improvisatory nature of Georgian folk music"
+     }
+    ]
+   },
+   {
+    "text": "In 1968 Anzor Erkomaishvili founded the Rustavi Choir; the Kakhetian song Chakrulo went into space on the Voyager records in 1977, and UNESCO listed Georgian polyphonic singing in 2001.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Anzor_Erkomaishvili?action=raw",
+      "quote": "In 1968, he founded the Rustavi Choir which toured throughout Georgia and abroad for decades"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Chakrulo?action=raw",
+      "quote": "was one of 27 musical compositions included on the [[Voyager Golden Record]]s"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Chakrulo?action=raw",
+      "quote": "on 20 August 1977"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+      "quote": "Georgian polyphonic singing was among the first on the list of [[Masterpieces of the Oral and Intangible Heritage of Humanity]] in 2001"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Our record dates the genre from 1000; the source says polyphony predates the introduction of Christianity (early 4th century AD), and church polyphony from the 7th-8th centuries. https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw quote: \"It is widely accepted in contemporary musicology that polyphony in Georgian music predates the\"",
+   "Our record gives Tbilisi as origin; the source describes a village tradition across sixteen regional styles (Kakheti, Guria etc.), with Tbilisi associated with the separate urban styles. https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw quote: \"Georgian vocal polyphony was maintained for millennia by village singers, mostly local farmers\""
+  ],
+  "notes": "The English article 'Georgian polyphony' does not exist; 'Georgian polyphonic singing' redirects to the vocal polyphony section of 'Music of Georgia (country)', which is used here. No named medieval singers or composers could be sourced; the Georgian-language article was not consulted. The 'who' beat names regions and village singers rather than individuals before 1968."
+ },
+ {
+  "genre": "wadrum",
+  "story": "Hourglass talking drums are among the oldest instruments of West African griots, traced back to the Bono, the Yoruba, the Ghana Empire and the Hausa. Yoruba tradition names Ayangalu as the first drummer, made a deity at his death, and families whose names begin with Ayan are the hereditary keepers of his craft. The batá drum, dated to roughly 500 years ago, is said to have been introduced by a Yoruba king named Shango, and was played for gods, royalty and ancestors. In a dundun ensemble the leader, the oniyalu, makes the drum talk by copying the three main tones of the Yoruba language. Under the drums an iron bell sounds a seven-stroke key pattern. Drummers sent warnings of attacks and news of ceremonies between villages, which Europeans noticed in the first half of the 18th century. The slave trade brought almost 300,000 Africans to Cuba, where an enslaved Yoruba man named Añabi made the first sacred batá around 1830. In the 20th century the talking drum entered Nigerian jùjú and fuji, and in 1959 Babatunde Olatunji, born in Ajido near Badagry, released Drums of Passion on the Columbia label.",
+  "words": 190,
+  "sentences": [
+   {
+    "text": "Hourglass talking drums are among the oldest instruments of West African griots, traced back to the Bono, the Yoruba, the Ghana Empire and the Hausa.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+      "quote": "Hourglass-shaped talking drums are some of the oldest instruments used by West African [[griot]]s"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+      "quote": "their history can be traced back to the [[Bono people]], [[Yoruba people]], the [[Ghana Empire]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+      "quote": "and the [[Hausa people]]. The Yoruba people of south western"
+     }
+    ]
+   },
+   {
+    "text": "Yoruba tradition names Ayangalu as the first drummer, made a deity at his death, and families whose names begin with Ayan are the hereditary keepers of his craft.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+      "quote": "Ayangalu is believed to have been the first Yoruba drummer. Upon his death he was [[deified]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+      "quote": "This prefix marks its bearers out as hereditary custodians of the mysteries of Ayangalu"
+     }
+    ]
+   },
+   {
+    "text": "The batá drum, dated to roughly 500 years ago, is said to have been introduced by a Yoruba king named Shango, and was played for gods, royalty and ancestors.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Batá_drum?action=raw",
+      "quote": "The drum dates back roughly 500 years, and is believed to have been introduced by a Yoruba king named Shangó el rey del tambor"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Batá_drum?action=raw",
+      "quote": "The early function of the batá was as a drum of different gods, of royalty, of ancestors"
+     }
+    ]
+   },
+   {
+    "text": "In a dundun ensemble the leader, the oniyalu, makes the drum talk by copying the three main tones of the Yoruba language.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Yoruba_music?action=raw",
+      "quote": "The leader of a dundun ensemble is the ''oniyalu'' who uses the drum to \"talk\" by imitating the [[tonality]] of [[Yoruba language|Yoruba]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+      "quote": "has three principal tones, low, medium, and high"
+     }
+    ]
+   },
+   {
+    "text": "Under the drums an iron bell sounds a seven-stroke key pattern.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Yoruba_music?action=raw",
+      "quote": "is the seven-stroke figure known in ethnomusicology as the ''standard pattern''"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Yoruba_music?action=raw",
+      "quote": "The standard pattern is often sounded on an iron bell."
+     }
+    ]
+   },
+   {
+    "text": "Drummers sent warnings of attacks and news of ceremonies between villages, which Europeans noticed in the first half of the 18th century.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+      "quote": "effective for telling neighboring villages of possible attacks or ceremonies"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+      "quote": "The use of talking drums as a form of communication was noticed by Europeans in the first half of the 18th century."
+     }
+    ]
+   },
+   {
+    "text": "The slave trade brought almost 300,000 Africans to Cuba, where an enslaved Yoruba man named Añabi made the first sacred batá around 1830.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Batá_drum?action=raw",
+      "quote": "during which almost 300,000 Africans were brought to Cuba"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Batá_drum?action=raw",
+      "quote": "This religion spawned the creation of the first \"[[Sacred drum|sacred]]\" batá in Cuba around 1830 by a Yorùbá slave named Añabi."
+     }
+    ]
+   },
+   {
+    "text": "In the 20th century the talking drum entered Nigerian jùjú and fuji, and in 1959 Babatunde Olatunji, born in Ajido near Badagry, released Drums of Passion on the Columbia label.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+      "quote": "In the 20th century, the talking drum became a part of popular music in West Africa."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+      "quote": "in [[Fuji music|Fuji]] and Jùjú music of Nigeria"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Babatunde_Olatunji?action=raw",
+      "quote": "Olatunji was born in the village of Ajido, near [[Badagry]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Babatunde_Olatunji?action=raw",
+      "quote": "signed Olatunji to the Columbia label in 1958. One year later he released his first of six records on the Columbia label, called ''[[Drums of Passion (album)|Drums of Passion]]''"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Our record dates the genre from 1000; the batá article dates the batá to roughly 500 years ago, and the talking drum article says talking drum signalling originated in the 18th century (while also tracing the drums to the Ghana Empire). https://en.wikipedia.org/wiki/Batá_drum?action=raw quote: \"The drum dates back roughly 500 years\"; https://en.wikipedia.org/wiki/Talking_drum?action=raw quote: \"Originating from the 18th century, talking drum players used\"",
+   "Olatunji, used in the 'after' beat, was Ogu (Egun), not Yoruba, though born in Lagos State. https://en.wikipedia.org/wiki/Babatunde_Olatunji?action=raw quote: \"A member of the [[Ogu people|Ogu (Egun) people]]\""
+  ],
+  "notes": "The genre is broad; the story follows the Yoruba thread because our record's origin is Yorubaland. 'Music of West Africa' was read but has little dated history of drumming. The Ayangalu and Shango origin claims are tradition/belief, worded as such. The 'before' beat (what drumming grew out of) is thin: only the talking drum's ancestry could be sourced."
+ },
+ {
+  "genre": "maracatu",
+  "story": "Maracatu nação grew out of the crowning of Kings of Congo, enslaved people given leadership roles in the enslaved community by the Portuguese administration. Its oldest record, from Pernambuco, dates to 1711. In Recife on 15 November 1800 an enslaved man, Manuel Santiago, broke with Maracatu Brilhante and founded Maracatu Elefante, later the first nation led by a woman. When Brazil abolished slavery in 1888 the Kings of Congo ended, but the nations kept choosing symbolic leaders and staging their coronations. They parade with 80 to 100 drummers on rope-tuned alfaias and a gonguê bell, behind a king and queen dressed as the Portuguese Baroque court. Between the late 19th and early 20th centuries, sugarcane cutters on the plantations of Nazaré da Mata created maracatu rural, also called maracatu de trombone. Around 1991 Chico Science, from Olinda's Rio Doce neighbourhood, co-founded the Mangue Bit movement, and his band Chico Science & Nação Zumbi fused maracatu with rock, funk and hip hop. In the 1990s Maracatu Nação Pernambuco took the genre to overseas audiences, and groups now play it in cities including Lisbon and Toronto.",
+  "words": 184,
+  "sentences": [
+   {
+    "text": "Maracatu nação grew out of the crowning of Kings of Congo, enslaved people given leadership roles in the enslaved community by the Portuguese administration.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+      "quote": "origins lie in the investiture ceremonies of the ''Reis do Congo'' (Kings of Congo)"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+      "quote": "who were granted leadership roles within the enslaved community by the Portuguese administration"
+     }
+    ]
+   },
+   {
+    "text": "Its oldest record, from Pernambuco, dates to 1711.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Maracatu_Nação?action=raw",
+      "quote": "The oldest record of Maracatu Nação dates back to 1711, but the year of its origin is uncertain"
+     }
+    ]
+   },
+   {
+    "text": "In Recife on 15 November 1800 an enslaved man, Manuel Santiago, broke with Maracatu Brilhante and founded Maracatu Elefante, later the first nation led by a woman.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Maracatu_Nação?action=raw",
+      "quote": "One of the oldest groups is Maracatu Elefante, founded on November 15, 1800, in Recife by the slave Manuel Santiago after his revolt against the leadership of Maracatu Brilhante"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Maracatu_Nação?action=raw",
+      "quote": "Nação Elefante was the first to be led by a matriarch"
+     }
+    ]
+   },
+   {
+    "text": "When Brazil abolished slavery in 1888 the Kings of Congo ended, but the nations kept choosing symbolic leaders and staging their coronations.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+      "quote": "When [[Afro-Brazilian#Abolition of Slavery|slavery was abolished in Brazil]] in 1888, the institution of the Kings of Congo ceased to exist"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+      "quote": "''nações'' continued to choose symbolic leaders and evoke coronation ceremonies for those leaders"
+     }
+    ]
+   },
+   {
+    "text": "They parade with 80 to 100 drummers on rope-tuned alfaias and a gonguê bell, behind a king and queen dressed as the Portuguese Baroque court.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+      "quote": "Traditional ''nações'' perform by parading with a drumming group of 80–100"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+      "quote": "''[[alfaia]]'' (a large wooden rope-tuned [[drum]]), ''gonguê'' (a metal [[Cowbell (instrument)|cowbell]])"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+      "quote": "imitate the [[Portugal|Portuguese]] royal court of the [[Baroque]] period"
+     }
+    ]
+   },
+   {
+    "text": "Between the late 19th and early 20th centuries, sugarcane cutters on the plantations of Nazaré da Mata created maracatu rural, also called maracatu de trombone.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://pt.wikipedia.org/wiki/Maracatu?action=raw",
+      "quote": "Os primeiros maracatus rurais foram criados em engenhos de [[Nazaré da Mata]]"
+     },
+     {
+      "url": "https://pt.wikipedia.org/wiki/Maracatu?action=raw",
+      "quote": "cortadores de cana-de-açúcar, entre fins do século XIX e início do XX"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+      "quote": "''maracatu de orquesta'', and ''maracatu de trombone''"
+     }
+    ]
+   },
+   {
+    "text": "Around 1991 Chico Science, from Olinda's Rio Doce neighbourhood, co-founded the Mangue Bit movement, and his band Chico Science & Nação Zumbi fused maracatu with rock, funk and hip hop.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Chico_Science?action=raw",
+      "quote": "born in the [[Rio Doce, Olinda|Rio Doce]] neighborhood of [[Olinda]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Chico_Science?action=raw",
+      "quote": "Around 1991, Chico Science, along with singer [[Fred 04]] of the band [[Mundo Livre S/A]], founded the [[Mangue Bit]] cultural movement"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Chico_Science?action=raw",
+      "quote": "their music fused [[rock and roll|rock]], [[funk]], and [[hip hop music|hip hop]] with [[maracatu]]"
+     }
+    ]
+   },
+   {
+    "text": "In the 1990s Maracatu Nação Pernambuco took the genre to overseas audiences, and groups now play it in cities including Lisbon and Toronto.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+      "quote": "Maracatu Nação Pernambuco, while not a traditional ''maracatu'', was primarily responsible for introducing the genre to overseas audiences in the 1990s"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+      "quote": "including [[Lisbon]], [[Toronto]]"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Not with our record, but between sources on when maracatu rural began: English says early 20th century, Portuguese says late 19th to early 20th. https://en.wikipedia.org/wiki/Maracatu?action=raw quote: \"It evolved in the early 20th century as a fusion of pre-existing forms of Carnival revelry\"; https://pt.wikipedia.org/wiki/Maracatu?action=raw quote: \"entre fins do século XIX e início do XX\""
+  ],
+  "notes": "Kept consistent with the record (1711 first record, Recife/Olinda nations, rural baque solto). The record's existing evidence uses non-raw Wikipedia URLs; this part uses raw wikitext URLs."
+ },
+ {
+  "genre": "gnawa",
+  "story": "Gnawa music grew from the traditions of West Africans, among them Hausa, Fulani and Bambara people, carried to Morocco by the trans-Saharan slave trade. It took shape in the 16th and 17th centuries, and its songs still keep West African words and speak of abduction, suffering and privation. At the lila, a ritual that runs from late evening until sunrise, a maalem plays the three-string guembri and calls the spirits while his troupe clacks heavy iron qraqeb castanets. The night runs through seven suites, one for each family of spirits, called mluk, each with its own colour, incense, rhythm and dance. Other Moroccan brotherhoods open with their founding saint's Arabic texts; the Gnawa, whose ancestors did not read Arabic, open instead by singing of their enslaved forebears. Since 1998 the Gnaoua World Music Festival in Essaouira has put maalems on stage with Randy Weston, Pharoah Sanders and other jazz musicians. Maalem Mahmoud Guinia, born in 1951, played with Pharoah Sanders and Carlos Santana. In 2019 UNESCO inscribed Gnawa on its list of the intangible heritage of humanity.",
+  "words": 177,
+  "sentences": [
+   {
+    "text": "Gnawa music grew from the traditions of West Africans, among them Hausa, Fulani and Bambara people, carried to Morocco by the trans-Saharan slave trade.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "Gnawa music emerged in [[Morocco]] from traditions of enslaved West Africans displaced through the [[trans-Saharan slave trade]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "notably the [[Hausa people|Hausa]], [[Fula people|Fulani]], and [[Bambara people|Bambara]] peoples"
+     }
+    ]
+   },
+   {
+    "text": "It took shape in the 16th and 17th centuries, and its songs still keep West African words and speak of abduction, suffering and privation.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "Emerging in the 16th and 17th centuries, Gnawa music developed through the cultural fusion of West Africans brought to Morocco"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "some West African words and phrases remain in Gnawa songs today"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "the music clearly mentions words of \"abduction, suffering and privation\""
+     }
+    ]
+   },
+   {
+    "text": "At the lila, a ritual that runs from late evening until sunrise, a maalem plays the three-string guembri and calls the spirits while his troupe clacks heavy iron qraqeb castanets.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "the all-night ritual typically lasting from late evening until sunrise"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "The large, heavy iron [[castanets]] known as [[Krakeb|''qraqab'']] or krakeb and a three-string lute"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "using the {{transliteration|ary|guembri}} (box-shaped lute) and burning [[incense]], calls the [[saint]]s and [[supernatural]] entities"
+     }
+    ]
+   },
+   {
+    "text": "The night runs through seven suites, one for each family of spirits, called mluk, each with its own colour, incense, rhythm and dance.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "The {{transliteration|ary|mluk}} are evoked by seven musical patterns, seven melodic and [[rhythmic cell]]s, who set up the seven suites"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "Each {{transliteration|ary|mluk}} is accompanied by its specific colour, incense, rhythm and dance."
+     }
+    ]
+   },
+   {
+    "text": "Other Moroccan brotherhoods open with their founding saint's Arabic texts; the Gnawa, whose ancestors did not read Arabic, open instead by singing of their enslaved forebears.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "The ceremonies begin by reciting that saint's written works or spiritual prescriptions"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "Gnawa, whose ancestors were neither literate nor native speakers of Arabic, begin the {{transliteration|ary|lila}} by recalling through song and dance their origins, the experiences of their slave ancestors"
+     }
+    ]
+   },
+   {
+    "text": "Since 1998 the Gnaoua World Music Festival in Essaouira has put maalems on stage with Randy Weston, Pharoah Sanders and other jazz musicians.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "Since its debut in 1998, the free concerts have drawn an audience"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "Within the framework of the [[Gnaoua World Music Festival]] of [[Essaouira]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "Past participants have included [[Randy Weston]], [[Adam Rudolph]], [[The Wailers (1963-1974 band)|The Wailers]], [[Pharoah Sanders]]"
+     }
+    ]
+   },
+   {
+    "text": "Maalem Mahmoud Guinia, born in 1951, played with Pharoah Sanders and Carlos Santana.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "Moroccan musician (b. 1951"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "He played with Pharoah Sanders and [[Carlos Santana]], among many others"
+     }
+    ]
+   },
+   {
+    "text": "In 2019 UNESCO inscribed Gnawa on its list of the intangible heritage of humanity.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Gnawa_music?action=raw",
+      "quote": "On December 12, 2019, Gnawa was officially inscribed at UNESCO's 14th session held in Bogotá, Colombia."
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Origin: our record gives Essaouira as the place of origin. The English article places the music's birth in Morocco generally and ties Essaouira only to the modern festival and to maalems living there: \"Gnawa music emerged in [[Morocco]] from traditions of enslaved West Africans\" (https://en.wikipedia.org/wiki/Gnawa_music?action=raw). Essaouira as birthplace is not supported by the sources read.",
+   "Start date: our record says 1600; the article says \"Emerging in the 16th and 17th centuries\" (https://en.wikipedia.org/wiki/Gnawa_music?action=raw), so 1600 is inside the range but the start may be earlier."
+  ],
+  "notes": "Only the English Wikipedia article was used; the Arabic and French articles were not read. The article's link to the royal Black Guard of Morocco was left out because no date or person for it was checked."
+ },
+ {
+  "genre": "baroque",
+  "story": "In late Renaissance Florence, a circle of humanists and musicians meeting under Count Giovanni de' Bardi, the Camerata, rejected the many-voiced polyphony of their day and looked to ancient Greek drama. In 1598 Jacopo Peri and the poet Ottavio Rinuccini staged Dafne, sung throughout, and in 1600 Peri's Euridice followed, the earliest surviving opera. Singers were now backed by a basso continuo: a keyboard player read figures written above the bass line and improvised the chords. Claudio Monteverdi, composer of L'Orfeo, auditioned in 1613 for the post of maestro at San Marco in Venice and held it until his death. Trading cities wanted opera houses paid for by subscription, and in 1637 Venice opened San Cassiano, the first public opera house in Europe. Heinrich Schütz took the Venetian style to Germany, and Jean-Baptiste Lully bought patents to be the French king's sole composer of operas. Arcangelo Corelli published concerti grossi that set a full orchestra against a smaller group, and his pupil Antonio Vivaldi wrote hundreds of works on that model. Italian composers moved to the galant style around 1730, while Johann Sebastian Bach kept to the Baroque manner until 1750, and the galant style led into the Classical period.",
+  "words": 200,
+  "sentences": [
+   {
+    "text": "In late Renaissance Florence, a circle of humanists and musicians meeting under Count Giovanni de' Bardi, the Camerata, rejected the many-voiced polyphony of their day and looked to ancient Greek drama.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+      "quote": "a group of humanists, musicians, poets and intellectuals in late Renaissance Florence who gathered under the patronage of Count [[Giovanni de' Bardi]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+      "quote": "they based their ideals on a perception of Classical (especially [[Ancient Greece|ancient Greek]]) musical drama"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+      "quote": "they rejected their contemporaries' use of [[polyphony]] (multiple, independent melodic lines)"
+     }
+    ]
+   },
+   {
+    "text": "In 1598 Jacopo Peri and the poet Ottavio Rinuccini staged Dafne, sung throughout, and in 1600 Peri's Euridice followed, the earliest surviving opera.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Florentine_Camerata?action=raw",
+      "quote": "In 1598, Peri and Rinuccini produced ''[[Dafne]]'', an entire drama sung in monodic style"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Jacopo_Peri?action=raw",
+      "quote": "also the earliest extant opera, ''[[Euridice (Peri)|Euridice]]'' (1600)"
+     }
+    ]
+   },
+   {
+    "text": "Singers were now backed by a basso continuo: a keyboard player read figures written above the bass line and improvised the chords.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+      "quote": "With figured bass, numbers, accidentals or symbols were placed above the [[bassline]] that was read by [[keyboard instrument]] players"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+      "quote": "The keyboard player would [[music improvisation|improvise]] a [[chord voicing]] for each bass note."
+     }
+    ]
+   },
+   {
+    "text": "Claudio Monteverdi, composer of L'Orfeo, auditioned in 1613 for the post of maestro at San Marco in Venice and held it until his death.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+      "quote": "With the writing of [[List of operas by Claudio Monteverdi|the operas]] ''[[L'Orfeo]]''"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Claudio_Monteverdi?action=raw",
+      "quote": "In 1613, following the death of [[Giulio Cesare Martinengo]], Monteverdi auditioned for his post as ''maestro'' at the [[basilica of San Marco]] in Venice"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Claudio_Monteverdi?action=raw",
+      "quote": "until his death in the [[Republic of Venice]] where he was ''[[maestro di cappella]]'' at the basilica of [[St Mark's Basilica|San Marco]]"
+     }
+    ]
+   },
+   {
+    "text": "Trading cities wanted opera houses paid for by subscription, and in 1637 Venice opened San Cassiano, the first public opera house in Europe.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+      "quote": "The rise of the middle class in centres of trade led to a demand for subscription-based opera houses"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Claudio_Monteverdi?action=raw",
+      "quote": "The opening of the [[Teatro San Cassiano|opera house of San Cassiano]] in 1637, the first public opera house in Europe"
+     }
+    ]
+   },
+   {
+    "text": "Heinrich Schütz took the Venetian style to Germany, and Jean-Baptiste Lully bought patents to be the French king's sole composer of operas.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+      "quote": "This [[Republic of Venice|Venetian]] style was taken handily to Germany by [[Heinrich Schütz]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+      "quote": "He purchased patents from the monarchy to be the sole composer of operas for the French king"
+     }
+    ]
+   },
+   {
+    "text": "Arcangelo Corelli published concerti grossi that set a full orchestra against a smaller group, and his pupil Antonio Vivaldi wrote hundreds of works on that model.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+      "quote": "Corelli was one of the first composers to publish widely"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+      "quote": "the concerto grosso is built on strong contrasts—sections alternate between those played by the full orchestra, and those played by a smaller group"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+      "quote": "Numbered among his students is [[Antonio Vivaldi]], who later composed hundreds of works based on the principles in Corelli's [[trio sonata]]s and concerti"
+     }
+    ]
+   },
+   {
+    "text": "Italian composers moved to the galant style around 1730, while Johann Sebastian Bach kept to the Baroque manner until 1750, and the galant style led into the Classical period.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+      "quote": "Italian composers switched to the [[Galant music|galant style]] around 1730, while German composers such as [[Johann Sebastian Bach]] largely continued to write in the baroque style up to 1750"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+      "quote": "was followed in turn by the [[Classical period (music)|Classical period]] after a short transition (the [[Galant music|galant style]])"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Origin: our record gives Venice. The sources place the first steps in Florence (the Camerata, Peri's Dafne of 1598): \"a group of humanists, musicians, poets and intellectuals in late Renaissance Florence\" (https://en.wikipedia.org/wiki/Baroque_music?action=raw); \"In 1598, Peri and Rinuccini produced ''[[Dafne]]''\" (https://en.wikipedia.org/wiki/Florentine_Camerata?action=raw). Venice comes in with Monteverdi from 1613 and the first public opera house in 1637.",
+   "Date of Dafne: the Camerata article gives 1598, the Peri article \"the mostly lost ''[[Dafne]]'' ({{circa|1597}})\" (https://en.wikipedia.org/wiki/Jacopo_Peri?action=raw). The story uses 1598.",
+   "Window: our record says 1600-1750, matching \"composed from about 1600 to 1750\" (https://en.wikipedia.org/wiki/Baroque_music?action=raw); the same article notes Bukofzer's \"early Baroque\" (1580{{ndash}}1630), so some historians start earlier."
+  ],
+  "notes": "The Italian Wikipedia article was not read. Venice's place in the story rests on the Monteverdi article."
+ },
+ {
+  "genre": "ghazal",
+  "story": "The ghazal began as Arabic love poetry in the 7th century, entered Persian in the 10th, and reached the Indian subcontinent in the 12th with the courts of a new Islamic sultanate. In the 13th century Amir Khusrow began writing it in the local Hindavi tongue, putting Persian verse forms into local speech. In the 18th century poets such as Mir Taqi Mir, born in Agra in 1723, moved the ghazal from Persian into Urdu. Poets lived on court patronage, and the state of Oudh paid so well that many moved to Lucknow, Farrukhabad and Faizabad. After Ahmad Shah Abdali sacked Delhi each year from 1748, Mir went to Lucknow in 1782 at the invitation of Asaf-ud-Daulah. In Delhi the Red Fort hosted mushaira gatherings and paid poets such as Ghalib, until the rebellion of 1857 ended that patronage. Akhtari Bai Faizabadi, born in 1914 and later called Begum Akhtar, put ghazals on gramophone records and was among the first women to sing them in public concerts, not private gatherings. In the 20th century she, the Pakistani singer Mehdi Hassan and Jagjit Singh brought Western instruments such as the guitar into the ghazal, and film songs spread it.",
+  "words": 198,
+  "sentences": [
+   {
+    "text": "The ghazal began as Arabic love poetry in the 7th century, entered Persian in the 10th, and reached the Indian subcontinent in the 12th with the courts of a new Islamic sultanate.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+      "quote": "tracing its origins to 7th-century Arabic poetry"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+      "quote": "The ghazal was introduced into Persian literature during the 10th century"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+      "quote": "It spread into the [[Indian subcontinent]] in the 12th century due to the influence of Islam in the courts of the new [[Ghurid Sultanate|Islamic Sultanate]]"
+     }
+    ]
+   },
+   {
+    "text": "In the 13th century Amir Khusrow began writing it in the local Hindavi tongue, putting Persian verse forms into local speech.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+      "quote": "In the 13th century, [[Hasan Sijzi]] became a pivotal figure"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+      "quote": "His contemporary, [[Amir Khusrow]], is recognized for pioneering the literary use of the vernacular [[Hindustani language]] (then known as [[Hindavi]]), blending Persian poetic structures with local linguistic elements"
+     }
+    ]
+   },
+   {
+    "text": "In the 18th century poets such as Mir Taqi Mir, born in Agra in 1723, moved the ghazal from Persian into Urdu.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+      "quote": "By the 18th and 19th centuries, the ghazal transitioned from Persian into [[Urdu poetry|Urdu]] (Hindustani), reaching its classical \"Golden Age\" through the works of poets such as [[Mir Taqi Mir]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Mir_Taqi_Mir?action=raw",
+      "quote": "Mir was born in [[Agra]], India (then called ''Akbarabad'' and ruled by the [[Mughals]]) in August or February 1723."
+     }
+    ]
+   },
+   {
+    "text": "Poets lived on court patronage, and the state of Oudh paid so well that many moved to Lucknow, Farrukhabad and Faizabad.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Urdu_ghazal?action=raw",
+      "quote": "During this era, poets made a living by attracting the financial patronage of the courts."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Urdu_ghazal?action=raw",
+      "quote": "The [[Oudh State]] gained a reputation for being one of the most generous, leading to many poets flocking to Lucknow, Farrukhabad, and Faizabad."
+     }
+    ]
+   },
+   {
+    "text": "After Ahmad Shah Abdali sacked Delhi each year from 1748, Mir went to Lucknow in 1782 at the invitation of Asaf-ud-Daulah.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Mir_Taqi_Mir?action=raw",
+      "quote": "after [[Ahmad Shah Abdali]]'s sack of Delhi each year starting 1748, he eventually moved to the court of [[Asaf-ud-Daulah]] in [[Lucknow]], at the ruler's invitation"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Mir_Taqi_Mir?action=raw",
+      "quote": "Mir migrated to Lucknow in 1782"
+     }
+    ]
+   },
+   {
+    "text": "In Delhi the Red Fort hosted mushaira gatherings and paid poets such as Ghalib, until the rebellion of 1857 ended that patronage.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Urdu_ghazal?action=raw",
+      "quote": "the [[Red Fort]] served as both a location where mushaira were hosted, and as an institution that provided patronage to poets such as Ghalib"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Urdu_ghazal?action=raw",
+      "quote": "In the aftermath of the rebellion, the old institutions of patronage, ustads, and mushaira ended."
+     }
+    ]
+   },
+   {
+    "text": "Akhtari Bai Faizabadi, born in 1914 and later called Begum Akhtar, put ghazals on gramophone records and was among the first women to sing them in public concerts, not private gatherings.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Begum_Akhtar?action=raw",
+      "quote": "Akhtari Bai Faizabadi was born on 7 October 1914"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Begum_Akhtar?action=raw",
+      "quote": "A number of gramophone records were released carrying her [[ghazals]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Begum_Akhtar?action=raw",
+      "quote": "She was amongst the early female singers to give public concerts, and break away from singing in ''mehfils'' or private gatherings"
+     }
+    ]
+   },
+   {
+    "text": "In the 20th century she, the Pakistani singer Mehdi Hassan and Jagjit Singh brought Western instruments such as the guitar into the ghazal, and film songs spread it.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+      "quote": "In the 20th century, performers such as [[Begum Akhtar]], [[Mehdi Hassan]], and [[Jagjit Singh]] modernized the ghazal by incorporating varied musical elements, including Western instruments like the guitar"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Mehdi_Hassan?action=raw",
+      "quote": "was a Pakistani [[ghazal]] singer"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+      "quote": "the genre reached a broader audience through [[South Asian film music]] (Bollywood and Lollywood)"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Our record treats the Urdu ghazal as a sung genre from 1750 in Lucknow. The sources describe 18th-century Lucknow and Delhi as centres of the poetry, and date the wide spread of the sung style (Ghazal Gayaki) to the 20th century: \"While it has roots in Indo-Persian court music, it gained widespread popularity in the 20th century through performers like [[Begum Akhtar]] and [[Mehdi Hassan]]\" (https://en.wikipedia.org/wiki/Ghazal?action=raw).",
+   "Delhi, not only Lucknow: the Red Fort in Delhi \"provided patronage to poets such as Ghalib\" (https://en.wikipedia.org/wiki/Urdu_ghazal?action=raw), and Mir worked in Delhi before Lucknow.",
+   "Date of the golden age: the Urdu ghazal article says Mir ushered it in \"in the early 18th century\" (https://en.wikipedia.org/wiki/Urdu_ghazal?action=raw); the Ghazal article says \"By the 18th and 19th centuries\" (https://en.wikipedia.org/wiki/Ghazal?action=raw).",
+   "Mir's birth year: 1723 in the article body; the cited translation of his autobiography gives \"(1725–1810)\" (https://en.wikipedia.org/wiki/Mir_Taqi_Mir?action=raw)."
+  ],
+  "notes": "Nothing read says how the ghazal was sung in 18th-century Lucknow (which singers, which instruments); the story's music begins with Begum Akhtar. The record's harmonium, tabla and sarangi markers were not checked. Urdu and Hindi Wikipedia were not read."
+ },
+ {
+  "genre": "japart",
+  "story": "The koto had been kept to the court, tuned to gagaku, and the shamisen descended from the Chinese sanxian, which reached Japan in the 16th century through the Ryukyu Kingdom and the port of Sakai. Yatsuhashi Kengyo (1614–1685), a blind Kyoto shamisen player, learned the koto from a court musician and first taught it to the public. He replaced the six old koto songs with a new form, kumiuta, and retuned the koto to scales taken from shamisen music. In the Edo period, monks of the Fuke Zen sect, the komuso, walked Japan playing the shakuhachi as meditation and begging for alms, exempt from the shogun's travel limits. The Meiji Restoration of 1868 abolished the shogunate and the Fuke sect, and the shakuhachi was allowed back only to accompany koto and shamisen, later taking the kokyu's place in the trio called sankyoku. Michio Miyagi, born in Kobe in 1894 and blind from the age of eight, joined Western music to the koto, wrote Haru no Umi in 1929 and built a 17-string bass koto. In 1932 the French violinist Renée Chemet arranged its shakuhachi part for violin and recorded it with Miyagi for Japan and Europe.",
+  "words": 196,
+  "sentences": [
+   {
+    "text": "The koto had been kept to the court, tuned to gagaku, and the shamisen descended from the Chinese sanxian, which reached Japan in the 16th century through the Ryukyu Kingdom and the port of Sakai.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Yatsuhashi_Kengyo?action=raw",
+      "quote": "While the instrument was originally restricted to the court"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Koto_(instrument)?action=raw",
+      "quote": "the {{transliteration|ja|tsukushi goto}} tunings, which were based on the older {{transliteration|ja|[[gagaku]]}} ways of tuning"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Shamisen?action=raw",
+      "quote": "The {{transliteration|zh|sanxian}} was introduced through the [[Ryūkyū Kingdom]] ([[Okinawa Prefecture|Okinawa]]) in the 16th century"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Shamisen?action=raw",
+      "quote": "the ancestor of the {{transliteration|ja|shamisen}} was introduced in the 16th century through the port city of [[Sakai]]"
+     }
+    ]
+   },
+   {
+    "text": "Yatsuhashi Kengyo (1614–1685), a blind Kyoto shamisen player, learned the koto from a court musician and first taught it to the public.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Koto_(instrument)?action=raw",
+      "quote": "[[Yatsuhashi Kengyo]] (1614–1685)"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Koto_(instrument)?action=raw",
+      "quote": "Yatsuhashi was a gifted blind musician from [[Kyoto]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Yatsuhashi_Kengyo?action=raw",
+      "quote": "was originally a player of the [[shamisen]], but later learned the [[koto (musical instrument)|koto]] from a musician of the Japanese court"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Yatsuhashi_Kengyo?action=raw",
+      "quote": "Yatsuhashi is credited as the first musician to introduce and teach the koto to general audiences"
+     }
+    ]
+   },
+   {
+    "text": "He replaced the six old koto songs with a new form, kumiuta, and retuned the koto to scales taken from shamisen music.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Koto_(instrument)?action=raw",
+      "quote": "vastly extended the limited selection of only six traditional koto songs to a brand-new style of koto music which he called {{transliteration|ja|koto kumiuta}}"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Yatsuhashi_Kengyo?action=raw",
+      "quote": "He adapted the [[Hirajoshi scale]] and the [[Insen scale]] for the koto, from the shamisen repertoire."
+     }
+    ]
+   },
+   {
+    "text": "In the Edo period, monks of the Fuke Zen sect, the komuso, walked Japan playing the shakuhachi as meditation and begging for alms, exempt from the shogun's travel limits.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Shakuhachi?action=raw",
+      "quote": "flourished in the 18th century during the [[Edo period]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Shakuhachi?action=raw",
+      "quote": "who used the ''shakuhachi'' as a spiritual tool"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Shakuhachi?action=raw",
+      "quote": "Travel around Japan was restricted by the [[shogunate]] at this time, but the Fuke sect managed to wrangle an exemption from the {{transliteration|ja|shōgun}}"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Shakuhachi?action=raw",
+      "quote": "move from place to place playing the {{transliteration|ja|shakuhachi}} and begging for alms"
+     }
+    ]
+   },
+   {
+    "text": "The Meiji Restoration of 1868 abolished the shogunate and the Fuke sect, and the shakuhachi was allowed back only to accompany koto and shamisen, later taking the kokyu's place in the trio called sankyoku.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Shakuhachi?action=raw",
+      "quote": "With the [[Meiji Restoration]], beginning in 1868, the shogunate was abolished and so was the [[Fuke Zen|Fuke]] sect"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Shakuhachi?action=raw",
+      "quote": "it was only as an accompanying instrument to the {{transliteration|ja|[[koto (musical instrument)|koto]]}}, {{transliteration|ja|[[shamisen]]}}"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Sankyoku?action=raw",
+      "quote": "It is traditionally played on [[shamisen]], [[koto (instrument)|koto]], and [[kokyū]], but more recently the kokyū has been replaced by [[shakuhachi]]."
+     }
+    ]
+   },
+   {
+    "text": "Michio Miyagi, born in Kobe in 1894 and blind from the age of eight, joined Western music to the koto, wrote Haru no Umi in 1929 and built a 17-string bass koto.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Michio_Miyagi?action=raw",
+      "quote": "He was born in [[Kobe]]. He lost his sight in 1902, when he was 8 years old"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Koto_(instrument)?action=raw",
+      "quote": "is considered to have been the first Japanese composer to combine western music and traditional koto music"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Michio_Miyagi?action=raw",
+      "quote": "He composed his most famous piece, ''[[Haru no Umi]]'' (''The Sea in Spring''), in 1929."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Michio_Miyagi?action=raw",
+      "quote": "invented new kotos with 17 strings (bass koto) and 80 strings"
+     }
+    ]
+   },
+   {
+    "text": "In 1932 the French violinist Renée Chemet arranged its shakuhachi part for violin and recorded it with Miyagi for Japan and Europe.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Michio_Miyagi?action=raw",
+      "quote": "In 1932 French violinist [[Renée Chemet]] visited Japan"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Michio_Miyagi?action=raw",
+      "quote": "Chemet arranged the shakuhachi part for violin, which she and Miyagi then recorded for distribution in Japan and Europe"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Origin: our record says Kyoto and Edo. Kyoto is supported (Yatsuhashi \"a gifted blind musician from [[Kyoto]]\", https://en.wikipedia.org/wiki/Koto_(instrument)?action=raw); nothing read names Edo (the city) as a birthplace of this music, though the shakuhachi article dates the fuke shakuhachi's flourishing to \"the [[Edo period]]\".",
+   "Our record groups koto, shamisen and shakuhachi as one chamber music from 1600. The sankyoku article says the trio was koto, shamisen and kokyu, with the shakuhachi replacing the kokyu only \"more recently\" (https://en.wikipedia.org/wiki/Sankyoku?action=raw); the shakuhachi article says it joined koto and shamisen only after the Meiji government allowed it back."
+  ],
+  "notes": "Japanese Wikipedia was not read. The shamisen's own Edo-period art music (nagauta, jiuta) is not in the story: the English shamisen article ties it to kabuki and bunraku but gives no names or dates that were checked. The Yatsuhashi article notes he 'may not actually have composed' Rokudan, so Rokudan was left out."
+ },
+ {
+  "genre": "flamenco",
+  "story": "Romani migrants reached Andalusia in the 15th century and met the Arab-Andalusian music already there. In 1783 King Carlos III issued a decree that improved the legal position of Spain's gitanos. Flamenco took shape at the end of the 18th century in the cities and farm towns of lower Andalusia, and its first written trace comes from Jerez de la Frontera. It was made by three or four dozen gitano families together with Andalusia's urban poor and journeymen. In 1881 the singer Silverio Franconetti opened a flamenco café in Seville where singers competed in public, and out of it came the professional cantaor. Local singers there reworked Andalusian folk songs in their own style, and the paying public's taste pulled technique and themes into one shared form. From 1920 to 1955 promoters staged it in bullrings and theatres as \"flamenco opera\", and in 1922 Manuel de Falla and Federico García Lorca answered with a cante jondo contest in Granada open only to amateurs. In the flamenco fusion of the 1970s, guitarist Paco de Lucía from Algeciras and singer Camarón de la Isla broke with Antonio Mairena's conservatism, and Paco de Lucía brought in Brazilian music, Arabic music and jazz.",
+  "words": 199,
+  "sentences": [
+   {
+    "text": "Romani migrants reached Andalusia in the 15th century and met the Arab-Andalusian music already there.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "Upon arrival to Andalusia in the 15th century, they were exposed to the rich Arab-Andalusian music culture"
+     }
+    ]
+   },
+   {
+    "text": "In 1783 King Carlos III issued a decree that improved the legal position of Spain's gitanos.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "In 1783 [[Charles III of Spain|Carlos III]] promulgated a pragmatics that regulated the social situation of the"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "saw their legal situation improve substantially"
+     }
+    ]
+   },
+   {
+    "text": "Flamenco took shape at the end of the 18th century in the cities and farm towns of lower Andalusia, and its first written trace comes from Jerez de la Frontera.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "emerged at the end of the 18th century in cities and agrarian towns of Baja Andalusia, highlighting [[Jerez de la Frontera]] as the first written vestige of this art"
+     }
+    ]
+   },
+   {
+    "text": "It was made by three or four dozen gitano families together with Andalusia's urban poor and journeymen.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "three or four dozen gitano families who created and cultivated flamenco"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "the convergence of the urban [[Subaltern (postcolonialism)|subaltern]] groups, gitano communities, and [[journeyman]] of Andalusia"
+     }
+    ]
+   },
+   {
+    "text": "In 1881 the singer Silverio Franconetti opened a flamenco café in Seville where singers competed in public, and out of it came the professional cantaor.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "In 1881 [[Silverio Franconetti]] opened the first flamenco singer café in Seville"
+     },
+     {
+      "url": "https://es.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "[[Silverio Franconetti]], cantaor de extenso repertorio"
+     },
+     {
+      "url": "https://es.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "al propio Silverio le gustaba retar en público a los mejores cantaores que pasaban por su café"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "allowed the emergence of the professional cantaor"
+     }
+    ]
+   },
+   {
+    "text": "Local singers there reworked Andalusian folk songs in their own style, and the paying public's taste pulled technique and themes into one shared form.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "reinterpreting the Andalusian folk songs in their own style, expanding the repertoire"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "the taste of the public contributed to configure the flamenco genre, unifying its technique and its theme"
+     }
+    ]
+   },
+   {
+    "text": "From 1920 to 1955 promoters staged it in bullrings and theatres as \"flamenco opera\", and in 1922 Manuel de Falla and Federico García Lorca answered with a cante jondo contest in Granada open only to amateurs.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "Between 1920 and 1955, flamenco shows began to be held in bullrings and theaters, under the name \"flamenco opera\""
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "had the idea of concurso de cante jondo in [[Granada]] in 1922"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "they organized a cante jondo contest in which only amateurs could participate"
+     }
+    ]
+   },
+   {
+    "text": "In the flamenco fusion of the 1970s, guitarist Paco de Lucía from Algeciras and singer Camarón de la Isla broke with Antonio Mairena's conservatism, and Paco de Lucía brought in Brazilian music, Arabic music and jazz.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "In the 1970s, there were airs of social and political change in Spain"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "The combination of both factors led to a revolutionary period called flamenco fusion"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "the virtuoso guitarist from Algeciras [[Paco de Lucía]] and the long-standing singer from the island [[Camarón de la Isla]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "its definitive break with Mairena's conservatism"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Flamenco?action=raw",
+      "quote": "opening up to new influences, such as Brazilian music, Arabic and jazz"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Origin: our record says Seville; https://en.wikipedia.org/wiki/Flamenco?action=raw places the emergence across lower Andalusia with Jerez as the earliest written trace: \"emerged at the end of the 18th century in cities and agrarian towns of Baja Andalusia, highlighting [[Jerez de la Frontera]] as the first written vestige of this art\". The same passage adds that early manifestations were closer to the bolero school: \"the manifestations of this time are more typical of the [[bolero]] school than of flamenco\".",
+   "Seville café: https://en.wikipedia.org/wiki/Flamenco?action=raw calls Silverio's 1881 café \"the first flamenco singer café in Seville\", while https://es.wikipedia.org/wiki/Flamenco?action=raw reports an earlier café cantante in Seville: \"ya en 1842 existía un café cantante en Sevilla\" (it still calls Silverio's the first flamenco one)."
+  ],
+  "notes": "All 18 quotes found by tools/check_evidence.py. The English History section carries a {{Disputed section|date=August 2021}} tag, so the founding claims (Romani arrival, gitano families, Jerez) rest on a section Wikipedia itself flags. The record's sound markers (12-beat compás, Andalusian cadence) were not used in the story and not checked."
+ },
+ {
+  "genre": "tinpan",
+  "story": "Before it, publishers mostly printed European songs to avoid royalties; only about 10 to 30 percent of music printed in the United States was by American composers. After the Civil War, middle-class families owned pianos and bought sheet music to play new songs at home. From about 1885 publishers gathered in one Manhattan district, and by the late 1890s most had followed Witmark to West 28th Street between Fifth and Sixth Avenues. Many publishers were former salesmen or Jewish immigrants: Leo Feist had sold corsets, Edward B. Marks buttons. Charles K. Harris wrote \"After the Ball\" in 1892, Irving Berlin \"Alexander's Ragtime Band\" in 1911. Publishers paid song pluggers, George Gershwin among them, to play new songs in music stores and sell the sheet music. They began with ballads and comic songs, took up the cakewalk and ragtime, later jazz and blues, always in a form amateur singers and small-town bands could play from print. From the 1930s the phonograph, radio and film replaced sheet music as the driving force, and in the 1950s rock and roll, centred on the Brill Building, took over. In 1985 Bob Dylan said he had ended it: \"People can record their own songs now.\"",
+  "words": 200,
+  "sentences": [
+   {
+    "text": "Before it, publishers mostly printed European songs to avoid royalties; only about 10 to 30 percent of music printed in the United States was by American composers.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "was largely based on European \"art\" songs in an effort to get around copyright royalty fees"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "only about 10–30% of the music printed in the United States, including New York, was written by American composers"
+     }
+    ]
+   },
+   {
+    "text": "After the Civil War, middle-class families owned pianos and bought sheet music to play new songs at home.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "capitalizing on the boom in that medium as America emerged out of the [[American Civil War|Civil War]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "ownership was widespread in middle-class families"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "one would buy the sheet music and then perform the piece at home"
+     }
+    ]
+   },
+   {
+    "text": "From about 1885 publishers gathered in one Manhattan district, and by the late 1890s most had followed Witmark to West 28th Street between Fifth and Sixth Avenues.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "usually dated to about 1885, when a number of music publishers set up shop in the same district of Manhattan"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "Witmark was the first publishing house to move to West 28th Street"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "by the late 1890s most publishers had followed their lead"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "a specific location on West 28th Street, between [[Fifth Avenue|Fifth]] and [[Sixth Avenue]]s"
+     }
+    ]
+   },
+   {
+    "text": "Many publishers were former salesmen or Jewish immigrants: Leo Feist had sold corsets, Edward B. Marks buttons.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "The song publishers who created Tin Pan Alley frequently had backgrounds as salesmen"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "Many Jewish immigrants became music publishers and songwriters on Tin Pan Alley"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "[[Leo Feist]] had sold corsets"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "[[The Little Lost Child|Joe Stern and Edward B. Marks]] had sold neckties and buttons, respectively"
+     }
+    ]
+   },
+   {
+    "text": "Charles K. Harris wrote \"After the Ball\" in 1892, Irving Berlin \"Alexander's Ragtime Band\" in 1911.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "\"[[After the Ball (song)|After the Ball]]\" (1892) – written by [[Charles K. Harris]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "\"[[Alexander's Ragtime Band]]\" (1911) – written by [[Irving Berlin]]"
+     }
+    ]
+   },
+   {
+    "text": "Publishers paid song pluggers, George Gershwin among them, to play new songs in music stores and sell the sheet music.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "pianists and singers who represented the music publishers, making their living demonstrating songs to promote sales of sheet music"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "Most music stores had song pluggers on staff"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "Among the ranks of song pluggers were [[George Gershwin]]"
+     }
+    ]
+   },
+   {
+    "text": "They began with ballads and comic songs, took up the cakewalk and ragtime, later jazz and blues, always in a form amateur singers and small-town bands could play from print.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "Initially Tin Pan Alley specialized in melodramatic ballads and comic novelty songs, but it embraced the newly popular styles of the [[cakewalk]] and [[ragtime music]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "Later, [[jazz]] and [[blues]] were incorporated"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "oriented towards producing songs that amateur singers or small town bands could perform from printed music"
+     }
+    ]
+   },
+   {
+    "text": "From the 1930s the phonograph, radio and film replaced sheet music as the driving force, and in the 1950s rock and roll, centred on the Brill Building, took over.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "when the [[phonograph]], radio, and motion pictures supplanted [[sheet music]] as the driving force of American popular music"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "upstaged by the rise of [[rock and roll]], which was centered on the [[Brill Building]]"
+     }
+    ]
+   },
+   {
+    "text": "In 1985 Bob Dylan said he had ended it: \"People can record their own songs now.\"",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+      "quote": "Dylan proclaimed in 1985: \"I put an end to it. People can record their own songs now.\""
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Start date: our record says 1890; https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw says \"The start of Tin Pan Alley is usually dated to about 1885\".",
+   "End date: our record says 1955; https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw gives two views: \"Some date it to the start of the [[Great Depression]] in the 1930s\" and \"others consider Tin Pan Alley to have continued into the 1950s\"."
+  ],
+  "notes": "All 22 quotes found. The record's markers (32-bar AABA chorus, crooner vocal) are not mentioned in the Tin Pan Alley article, so the story says nothing about the song form; a source for AABA form would be needed to add it. The 1930s/1950s 'after' sentence states both endings the article gives without choosing between them."
+ },
+ {
+  "genre": "romantic",
+  "story": "In 1810 E. T. A. Hoffmann reviewed Beethoven's Fifth Symphony and set out the principles of musical Romanticism, holding instrumental music to be the art best suited to expressing emotion. Composers had lived under aristocratic patronage; now they increasingly wrote for public concerts with large paying audiences. The move away from Viennese classicism ran through the work of Beethoven and of Franz Schubert, whose Erlkönig is among the first Romantic lieder. In 1821 Carl Maria von Weber's Der Freischütz became the first German Romantic opera. Its centres lay in Berlin, Dresden and Leipzig, where Felix Mendelssohn took over the Gewandhaus Orchestra in 1835 and founded a conservatory in 1843. Better valves and keys from the Industrial Revolution made wind instruments more reliable, and Hector Berlioz enlarged the orchestra. Franz Liszt, a Hungarian piano virtuoso, created the symphonic poem: one movement built on a theme, character or literary text. Richard Wagner took chromatic harmony to its extreme in Tristan und Isolde, and from 1876 the Bayreuth Festival staged only his works. As Romanticism came apart, Arnold Schoenberg and the Second Viennese School answered with Expressionism, and in France Claude Debussy's Pelléas and Mélisande of 1902 carried music towards Impressionism.",
+  "words": 198,
+  "sentences": [
+   {
+    "text": "In 1810 E. T. A. Hoffmann reviewed Beethoven's Fifth Symphony and set out the principles of musical Romanticism, holding instrumental music to be the art best suited to expressing emotion.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "It was [[E. T. A. Hoffmann]] who established the principles of musical romanticism, in a lengthy review of [[Ludwig van Beethoven]]'s [[Symphony No. 5 (Beethoven)|Fifth Symphony]] published in 1810"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "especially instrumental music, to a position of pre-eminence in Romanticism as the art most suited to the expression of emotions"
+     }
+    ]
+   },
+   {
+    "text": "Composers had lived under aristocratic patronage; now they increasingly wrote for public concerts with large paying audiences.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "Composers before this period lived under the [[patronage]] of the aristocracy"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "often wrote for public concerts and festivals, with large audiences of paying customers"
+     }
+    ]
+   },
+   {
+    "text": "The move away from Viennese classicism ran through the work of Beethoven and of Franz Schubert, whose Erlkönig is among the first Romantic lieder.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "The transition of [[Viennese classicism]] to Romanticism can be found in the work of [[Ludwig van Beethoven]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "Another of the most important representatives of late classicism and early romanticism is [[Franz Schubert]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "One of the first and most famous lieder composers is [[Franz Schubert]], with [[Erlkönig (Schubert)|Erlkönig]]"
+     }
+    ]
+   },
+   {
+    "text": "In 1821 Carl Maria von Weber's Der Freischütz became the first German Romantic opera.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "[[Carl Maria von Weber]], with [[Der Freischütz]] (1821) creates the first German romantic opera"
+     }
+    ]
+   },
+   {
+    "text": "Its centres lay in Berlin, Dresden and Leipzig, where Felix Mendelssohn took over the Gewandhaus Orchestra in 1835 and founded a conservatory in 1843.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://de.wikipedia.org/wiki/Musik_der_Romantik?action=raw",
+      "quote": "Die Zentren der musikalischen Romantik befanden sich vorzugsweise in Nord- und [[Mitteldeutschland]] ([[Berlin]], [[Dresden]], [[Leipzig]])"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn?action=raw",
+      "quote": "direction of the [[Leipzig Gewandhaus Orchestra]]; he accepted the latter in 1835"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn?action=raw",
+      "quote": "When founded in 1843 this institution was officially known as the \"Leipziger Konservatorium der Musik\""
+     }
+    ]
+   },
+   {
+    "text": "Better valves and keys from the Industrial Revolution made wind instruments more reliable, and Hector Berlioz enlarged the orchestra.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "there were major improvements in the mechanical valves and keys that most woodwinds and brass instruments depend on"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "Berlioz also significantly expanded the orchestra"
+     }
+    ]
+   },
+   {
+    "text": "Franz Liszt, a Hungarian piano virtuoso, created the symphonic poem: one movement built on a theme, character or literary text.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "[[Franz Liszt]], a Hungarian composer, was both a celebrated piano virtuoso"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "they will create the [[symphonic poem]], a new musical genre, usually composed of a single movement and inspired by a theme, character or literary text"
+     }
+    ]
+   },
+   {
+    "text": "Richard Wagner took chromatic harmony to its extreme in Tristan und Isolde, and from 1876 the Bayreuth Festival staged only his works.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "Chromaticism reaches its extreme in ''[[Tristan und Isolde]]''"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "In 1876, the [[Bayreuth Festival]] was created dedicated to the exclusive representation of Wagner's works"
+     }
+    ]
+   },
+   {
+    "text": "As Romanticism came apart, Arnold Schoenberg and the Second Viennese School answered with Expressionism, and in France Claude Debussy's Pelléas and Mélisande of 1902 carried music towards Impressionism.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "Some notable movements to form in response to Romanticism's collapse include [[Expressionist music|Expressionism]] with [[Arnold Schoenberg]] and the [[Second Viennese School]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "romanticism in France was gradually abandoned in favor of other currents such as [[Impressionism in music|Impressionism]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+      "quote": "carried in particular by [[Claude Debussy]]'s ''[[Pelléas and Mélisande]]'' (1902)"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Origin: our record says Vienna and Leipzig; https://de.wikipedia.org/wiki/Musik_der_Romantik?action=raw names the centres as north and central Germany: \"Die Zentren der musikalischen Romantik befanden sich vorzugsweise in Nord- und [[Mitteldeutschland]] ([[Berlin]], [[Dresden]], [[Leipzig]])\". Vienna appears in the sources only as the classical starting point (\"The transition of [[Viennese classicism]] to Romanticism\", https://en.wikipedia.org/wiki/Romantic_music?action=raw).",
+   "Start date: our record says 1820; https://en.wikipedia.org/wiki/Romantic_music?action=raw puts Hoffmann's founding statement in 1810 (\"a lengthy review of [[Ludwig van Beethoven]]'s [[Symphony No. 5 (Beethoven)|Fifth Symphony]] published in 1810\") and ties the wider movement to \"about 1798 until 1837\". No end date of 1910 is given; the article places the French turn away from Romanticism at the start of the 20th century (Pelléas, 1902)."
+  ],
+  "notes": "All 24 quotes found. The record lists the family as 'chant', which does not fit 19th-century concert music; flagged for the lead, not changed. Leipzig details come from the Mendelssohn article; the 1843 date is quoted from a footnote inside that article's raw text."
+ },
+ {
+  "genre": "spirituals",
+  "story": "Spirituals grew from African musical traditions blended with Christian hymns brought by missionaries and slaveholders to enslaved Africans in the American South. The revivals of the First Great Awakening in the 1730s and 1740s converted many enslaved people. The songs first flourished in secret meetings, the hush harbors, and later spread to camp meetings and revivals. They stayed oral until 1867, when the abolitionists Charles Pickard Ware, Lucy McKim Garrison and William Francis Allen printed Slave Songs of the United States, with songs Ware took down from the Gullah people of South Carolina's Port Royal Islands. On 6 October 1871 nine students of the new Fisk school in Nashville, Tennessee, set out as the Fisk Jubilee Singers to raise money for it. At first they left out the slave songs, sacred to their parents; then the Reverend Alexander Reid gave them \"Swing Low, Sweet Chariot\", learned from Wallace and Minerva Willis, enslaved by the Choctaw. By 1872 they sang at the White House, and in 1873 they toured Europe. Harry Burleigh made spirituals into art songs for solo concert singers. Blues and gospel grew from the spirituals, and civil rights freedom songs such as \"Oh, Freedom!\" were adapted from them.",
+  "words": 200,
+  "sentences": [
+   {
+    "text": "Spirituals grew from African musical traditions blended with Christian hymns brought by missionaries and slaveholders to enslaved Africans in the American South.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "This genre emerged from the blending of African musical traditions with Christian hymns introduced by missionaries and slaveholders"
+     }
+    ]
+   },
+   {
+    "text": "The revivals of the First Great Awakening in the 1730s and 1740s converted many enslaved people.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "a series of [[Christian revival]]s in the 1730s and 1740s swept"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "resulted in many enslaved people in the colonies being converting to Christianity"
+     }
+    ]
+   },
+   {
+    "text": "The songs first flourished in secret meetings, the hush harbors, and later spread to camp meetings and revivals.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "Spirituals first flourished in secret worship meetings, also known as “hush harbors,” where enslaved people gathered away from the eyes of overseers"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "Over time, spirituals spread to camp meetings and revivals"
+     }
+    ]
+   },
+   {
+    "text": "They stayed oral until 1867, when the abolitionists Charles Pickard Ware, Lucy McKim Garrison and William Francis Allen printed Slave Songs of the United States, with songs Ware took down from the Gullah people of South Carolina's Port Royal Islands.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "The first collection of Negro spirituals was published in 1867, two years after the war had ended"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "it was compiled by three northern abolitionists—[[Charles Pickard Ware]] (1840–1921), [[Lucy McKim Garrison]] (1842–1877), [[William Francis Allen]] (1830–1889)"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "[[Charles Pickard Ware]] collecting songs from the [[Gullah]] people of Port Royal Islands, [[South Carolina]]"
+     }
+    ]
+   },
+   {
+    "text": "On 6 October 1871 nine students of the new Fisk school in Nashville, Tennessee, set out as the Fisk Jubilee Singers to raise money for it.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "a touring ''[[a cappella]]'' male and female choir of nine students of the newly established Fisk school in Nashville, Tennessee"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "As a school-fundraiser, the Fisk Jubilee Singers had their first tour on what is now called Jubilee Day—October 6, 1871"
+     }
+    ]
+   },
+   {
+    "text": "At first they left out the slave songs, sacred to their parents; then the Reverend Alexander Reid gave them \"Swing Low, Sweet Chariot\", learned from Wallace and Minerva Willis, enslaved by the Choctaw.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "In their early days, the Jubilee Singers did not sing the slave songs"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "were sacred to our parents, who used them in their religious worship"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "Reid provided the Jubilee Singers with the lyrics of \"[[Swing Low, Sweet Chariot]]\""
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "had heard two workers enslaved by the Choctaw people,—an African-American family—father [[Wallace Willis]] and daughter [[Minerva Willis]]"
+     }
+    ]
+   },
+   {
+    "text": "By 1872 they sang at the White House, and in 1873 they toured Europe.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "by 1872, they performed at Boston's World Peace Festival and at the White House, and in 1873 they toured Europe"
+     }
+    ]
+   },
+   {
+    "text": "Harry Burleigh made spirituals into art songs for solo concert singers.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "made \"spirituals available to solo concert singers as art songs for the first time\""
+     }
+    ]
+   },
+   {
+    "text": "Blues and gospel grew from the spirituals, and civil rights freedom songs such as \"Oh, Freedom!\" were adapted from them.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "[[Blues]] and [[gospel music]] are derivatives of African American spirituals."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+      "quote": "Many of the freedom songs, such as \"[[Oh, Freedom|Oh, Freedom!\"]] and \"[[Eyes on the Prize]],\" that defined the [[Civil rights movement]] (1954–1968) were adapted from some of the early African American spirituals"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Our record starts the window in 1800; the English Wikipedia article puts the start a century earlier (https://en.wikipedia.org/wiki/Spirituals?action=raw): \"The tradition of spirituals began in the early 1700s among enslaved Africans in the American South\".",
+   "Our record names the genre 'Spirituals and work songs'; the article treats work songs (field hollers) only as a related form that \"laid the foundations for the blues, spirituals\" (https://en.wikipedia.org/wiki/Spirituals?action=raw), so the story says nothing about work songs."
+  ],
+  "notes": "Work songs are not covered: the article has only one line on field hollers, with no names, places or dates. Harry Burleigh's songbook is left undated: the article gives 1929 for Jubilee Songs of the United States, which I did not check against a second source, so the year was dropped rather than repeated. Ella Sheppard, the singer who explained why the slave songs were held back, is named in the article but left out for length."
+ },
+ {
+  "genre": "tango",
+  "story": "Tango grew from the payada, the milonga of the Argentine and Uruguayan pampas, and Uruguayan candombe, which had been practised in Argentina since the first enslaved Africans were brought there. The first tango group was two Afro-Argentines, Casimiro Alcorta on violin and Sinforoso on clarinet, who played small concerts in Buenos Aires from the early 1870s to the early 1890s. European immigrants played early tango in Buenos Aires and Montevideo. Ángel Villoldo wrote \"El Choclo\" in 1903 and recorded it himself in Paris, because Argentina had no recording studios. In the 1920s tango moved out of the brothels, and the bandleaders Roberto Firpo and Francisco Canaro dropped the flute and put a double bass in its place. Carlos Gardel helped develop the sung tango canción in the 1920s, and his Spanish-language films for Paramount in the early 1930s fed Argentina's new sound-film industry. In the Golden Age, from about 1935 to 1952, tango was played by orquestas típicas of over a dozen players, among them those of Juan d'Arienzo, Francisco Canaro and Aníbal Troilo. In the 1950s Ástor Piazzolla set out to break tango's classic forms, and he and his followers built nuevo tango from jazz and classical elements.",
+  "words": 199,
+  "sentences": [
+   {
+    "text": "Tango grew from the payada, the milonga of the Argentine and Uruguayan pampas, and Uruguayan candombe, which had been practised in Argentina since the first enslaved Africans were brought there.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "early tango was locally influenced by [[Payada]], the [[Milonga (music)|Milonga]] from Argentine and Uruguay [[pampas]], and Uruguayan [[candombe]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "It is believed that this candombe existed and was practised in Argentina since the first slaves were brought into the country."
+     }
+    ]
+   },
+   {
+    "text": "The first tango group was two Afro-Argentines, Casimiro Alcorta on violin and Sinforoso on clarinet, who played small concerts in Buenos Aires from the early 1870s to the early 1890s.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "The first tango \"group\" was composed of two [[Afro-Argentine]]s: \"the black\" [[Casimiro Alcorta]] (violin) and \"the mulatto\" Sinforoso (clarinet)."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "They played small concerts in Buenos Aires from the early 1870s until the early 1890s"
+     }
+    ]
+   },
+   {
+    "text": "European immigrants played early tango in Buenos Aires and Montevideo.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "Early tango was played by European immigrants in [[Buenos Aires]] and [[Montevideo]]."
+     }
+    ]
+   },
+   {
+    "text": "Ángel Villoldo wrote \"El Choclo\" in 1903 and recorded it himself in Paris, because Argentina had no recording studios.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "[[Ángel Villoldo]]'s 1903 tango \"[[El Choclo]]\""
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "Villoldo himself recorded it in Paris"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "as there were no recording studios in Argentina at the time"
+     }
+    ]
+   },
+   {
+    "text": "In the 1920s tango moved out of the brothels, and the bandleaders Roberto Firpo and Francisco Canaro dropped the flute and put a double bass in its place.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "In the 1920s, tango moved out of the lower-class [[brothel]]s and became a more respectable form of music and dance"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "Bandleaders like [[Roberto Firpo]] and [[Francisco Canaro]] dropped the flute and added a [[double bass]] in its place"
+     }
+    ]
+   },
+   {
+    "text": "Carlos Gardel helped develop the sung tango canción in the 1920s, and his Spanish-language films for Paramount in the early 1930s fed Argentina's new sound-film industry.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "He helped develop {{ill|Tango canción|lt=''tango canción''|es}} in the 1920s"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "His Spanish-language films for [[Paramount Pictures]] in the early 1930s were also a major influence on the emerging Argentine sound film industry"
+     }
+    ]
+   },
+   {
+    "text": "In the Golden Age, from about 1935 to 1952, tango was played by orquestas típicas of over a dozen players, among them those of Juan d'Arienzo, Francisco Canaro and Aníbal Troilo.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "The \"Golden Age\" of tango music and dance is generally agreed to have been the period from about 1935 to 1952"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "Tango was performed by [[Orquesta típica|orquestas típicas]], bands often including over a dozen performers."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "Some of the many popular and influential orchestras included those of [[Mariano Mores]], [[Juan d'Arienzo]], [[Francisco Canaro]], and [[Aníbal Troilo]]"
+     }
+    ]
+   },
+   {
+    "text": "In the 1950s Ástor Piazzolla set out to break tango's classic forms, and he and his followers built nuevo tango from jazz and classical elements.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "During the 1950s, Piazzolla consciously tried to create a more academic form with new sounds breaking the classic forms of tango"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+      "quote": "Piazzolla and his followers developed [[nuevo tango]], a musical genre that incorporated jazz and classical influences"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Our record starts the window in 1890; the English Wikipedia article (https://en.wikipedia.org/wiki/Tango_music?action=raw) has the first tango group playing earlier: \"They played small concerts in Buenos Aires from the early 1870s until the early 1890s\", and \"the first Argentine written reference is from an 1866 newspaper\".",
+   "Our record gives the origin as Buenos Aires alone; the article says tango \"originated in [[Argentina]] and [[Uruguay]]\" and that \"Early tango was played by European immigrants in [[Buenos Aires]] and [[Montevideo]].\" (https://en.wikipedia.org/wiki/Tango_music?action=raw)."
+  ],
+  "notes": "The bandoneón, central to our record's sound, has no sourced sentence on when or how it entered tango in this article, so the story does not mention it. The Golden Age dates carry a 'citation needed' tag in the article."
+ },
+ {
+  "genre": "cumbia",
+  "story": "Admiral José Prudencio Padilla wrote that on the night of 18 June 1821 Indigenous people in Arjona greeted the feast of Saint John with gaitas and cumbiambas. In Santa Marta in 1825–26 the Swedish naval lieutenant Carl August Gosselman saw a street dance played on a bamboo flute like a gaita, a maraca and a drum from a fire-hollowed trunk. In Barranquilla in 1888 a woman known as La Cañón set up large cumbiamba circles at the four corners of Bolívar street, danced to drums and flutes. Cumbia had been instrumental; in time, singers were added. Clarinetist Lucho Bermúdez, who grew up in El Carmen de Bolívar, wrote stylized orchestral arrangements of cumbia, and by the 1940s it was spreading from the coast to the rest of Colombia. Record companies on the coast, among them Discos Fuentes, founded in 1934, helped carry it abroad. In 1946 Bermúdez recorded 60 of his compositions for RCA Víctor in Argentina. In Mexico in the 1940s the Colombian singer Luis Carlos Meyer and orchestra director Rafael de Paz made La Cumbia Cienaguera, considered the first cumbia recorded outside Colombia. In 1960s Peru, Los Destellos were among the first to lead cumbia with electric guitars.",
+  "words": 200,
+  "sentences": [
+   {
+    "text": "Admiral José Prudencio Padilla wrote that on the night of 18 June 1821 Indigenous people in Arjona greeted the feast of Saint John with gaitas and cumbiambas.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "includes a text of Admiral [[José Prudencio Padilla]] which records cumbiambas and indigenous gaitas during the festival of [[John the Baptist]] in the neighboring town of [[Arjona (Bolívar)|Arjona]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "No era noche de luna la del 18 de junio de 1821"
+     }
+    ]
+   },
+   {
+    "text": "In Santa Marta in 1825–26 the Swedish naval lieutenant Carl August Gosselman saw a street dance played on a bamboo flute like a gaita, a maraca and a drum from a fire-hollowed trunk.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "the navy lieutenant [[Sweden|Swedish]] Carl August Gosselman in Santa Marta, and recorded in his work \"Viaje por Colombia: 1825 y 1826\""
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "a guy who plays a bamboo clarinet about four feet long, like a gaita"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "a large drum made in a fire-hollowed trunk"
+     }
+    ]
+   },
+   {
+    "text": "In Barranquilla in 1888 a woman known as La Cañón set up large cumbiamba circles at the four corners of Bolívar street, danced to drums and flutes.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "when the popular woman from Barranquilla, called La Cañón, created her huge cumbiamba circles back in 1888, at the 4 corners of Bolivar street"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "deep and vigorous rhythm of drums, flutes and guarachas"
+     }
+    ]
+   },
+   {
+    "text": "Cumbia had been instrumental; in time, singers were added.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "Cumbia used to be “an exclusively instrumental genre”. However, as time passed, they started to add vocals to this music."
+     }
+    ]
+   },
+   {
+    "text": "Clarinetist Lucho Bermúdez, who grew up in El Carmen de Bolívar, wrote stylized orchestral arrangements of cumbia, and by the 1940s it was spreading from the coast to the rest of Colombia.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Lucho_Bermúdez?action=raw",
+      "quote": "During his childhood, he lived in [[El Carmen de Bolívar]]."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "Clarinetist Lucho Bermúdez helped bring cumbia into the country's interior by adding stylized orchestral arrangements to the rhythms of the genre."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "By the 1940s cumbia began spreading from the coast to other parts of Colombia"
+     }
+    ]
+   },
+   {
+    "text": "Record companies on the coast, among them Discos Fuentes, founded in 1934, helped carry it abroad.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "The early spread of cumbia internationally was helped by the number of record companies on the coast."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "beginning with the founding of Discos Fuentes in 1934"
+     }
+    ]
+   },
+   {
+    "text": "In 1946 Bermúdez recorded 60 of his compositions for RCA Víctor in Argentina.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "who in 1946 recorded for RCA Víctor in Argentina 60 of his compositions"
+     }
+    ]
+   },
+   {
+    "text": "In Mexico in the 1940s the Colombian singer Luis Carlos Meyer and orchestra director Rafael de Paz made La Cumbia Cienaguera, considered the first cumbia recorded outside Colombia.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "In the 1940s, the Colombian singer [[Luis Carlos Meyer]] emigrated to Mexico, where he worked with the Mexican orchestra director Rafael de Paz."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "Their album ''La Cumbia Cienaguera'' is considered the first cumbia recorded outside Colombia."
+     }
+    ]
+   },
+   {
+    "text": "In 1960s Peru, Los Destellos were among the first to lead cumbia with electric guitars.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "Peruvian cumbia started in the 1960s with groups such as [[Los Destellos]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+      "quote": "who were some of the first to give a proper rhythm to the [[Peruvian cumbia]] using as the main instrument electric guitars"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Our record starts the window in 1850; the English Wikipedia article on Colombian cumbia (https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw) cites a text of Admiral José Prudencio Padilla that \"records cumbiambas and indigenous gaitas\" at Arjona on \"18 de junio de 1821\", and Carl August Gosselman's \"Viaje por Colombia: 1825 y 1826\" describing a gaita ensemble in Santa Marta."
+  ],
+  "notes": "The English 'Cumbia' article is a set index with no history, so the story uses 'Cumbia (Colombia)'. The Spanish-language article could not be used: es.wikipedia 'Cumbia' is a disambiguation page and 'Cumbia colombiana' redirects. The article's account of the African, Indigenous and Spanish mixing has no names or dates, so the before beat rests on the two earliest written descriptions instead."
+ },
+ {
+  "genre": "bolero",
+  "story": "The bolero did not come from the Italian opera and canzone then popular in Havana, but from romantic folk poetry sung by a new kind of troubadour in Santiago de Cuba, the trovadores. These itinerant musicians travelled around Oriente province and earned their living by singing and playing the guitar. Pepe Sánchez, born in Santiago de Cuba in 1856, wrote the first bolero, \"Tristezas\", in 1883. He had no formal training, composed in his head and never wrote his songs down, so most of them are lost. Trovadores who first sang alone with a guitar began to play as duos, trios and quartets. In 1905 the tenor Adolfo Colombo recorded the bolero \"La Dorila\", through the trovador Sindo Garay, who settled in Havana the next year. Around 1915 the first radio stations spread the bolero in Puerto Rico and Mexico, where Agustín Lara and María Grever wrote boleros of their own. In the 1930s Trío Matamoros mixed it with son into bolero-son, which in the United States became the ballroom rhumba. From the late 1940s, filin singers such as César Portillo de la Luz and José Antonio Méndez turned the bolero toward jazz-influenced crooning.",
+  "words": 194,
+  "sentences": [
+   {
+    "text": "The bolero did not come from the Italian opera and canzone then popular in Havana, but from romantic folk poetry sung by a new kind of troubadour in Santiago de Cuba, the trovadores.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+      "quote": "bolero did not stem directly from the European lyrical tradition, which included Italian [[opera]] and [[canzone]], popular in urban centers like [[Havana]] at the time"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+      "quote": "it was born as a form of romantic folk poetry cultivated by a new breed of [[troubadour]] from [[Santiago de Cuba]], the ''trovadores''"
+     }
+    ]
+   },
+   {
+    "text": "These itinerant musicians travelled around Oriente province and earned their living by singing and playing the guitar.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Trova?action=raw",
+      "quote": "Trova was created by itinerant musicians known as ''trovadores'' who travelled around Cuba's [[Oriente Province|Oriente province]], especially [[Santiago de Cuba]], and earned their living by singing and playing the [[guitar]]."
+     }
+    ]
+   },
+   {
+    "text": "Pepe Sánchez, born in Santiago de Cuba in 1856, wrote the first bolero, \"Tristezas\", in 1883.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Trova?action=raw",
+      "quote": "born José Sánchez (Santiago de Cuba, 19 March 1856"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+      "quote": "author of the first bolero, \"Tristezas\", written in 1883"
+     }
+    ]
+   },
+   {
+    "text": "He had no formal training, composed in his head and never wrote his songs down, so most of them are lost.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Trova?action=raw",
+      "quote": "but had no formal training in music"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Trova?action=raw",
+      "quote": "he composed [[Number (music)|numbers]] in his head and never wrote them down. As a result, most of these numbers are now lost forever"
+     }
+    ]
+   },
+   {
+    "text": "Trovadores who first sang alone with a guitar began to play as duos, trios and quartets.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+      "quote": "Originally, boleros were sung by individual ''trovadores'' while playing [[guitar]]. Over time, it became common for trovadores to play in groups as ''dúos'', ''tríos'', ''cuartetos''"
+     }
+    ]
+   },
+   {
+    "text": "In 1905 the tenor Adolfo Colombo recorded the bolero \"La Dorila\", through the trovador Sindo Garay, who settled in Havana the next year.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+      "quote": "in the year 1905 was \"La Dorila\" by the tenor Adolfo Colombo, thanks to ''[[Troubadour|trovador]]'' [[Sindo Garay]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Trova?action=raw",
+      "quote": "Garay settled in Havana in 1906"
+     }
+    ]
+   },
+   {
+    "text": "Around 1915 the first radio stations spread the bolero in Puerto Rico and Mexico, where Agustín Lara and María Grever wrote boleros of their own.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+      "quote": "In the early 20th century the bolero reached Puerto Rico and Mexico, where it was popularized by the first radio stations around 1915."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+      "quote": "the Mexican composers: [[Juan Gabriel]], [[Agustín Lara]] and [[María Grever]]"
+     }
+    ]
+   },
+   {
+    "text": "In the 1930s Trío Matamoros mixed it with son into bolero-son, which in the United States became the ballroom rhumba.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+      "quote": "By the 1930s, when [[Trio Matamoros|Trío Matamoros]] made famous their mix of bolero and [[son cubano]] known as '''bolero-son'''"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+      "quote": "In the United States, the [[rhumba]] ballroom dance emerged as an adaptation of the bolero-son in the 1930s."
+     }
+    ]
+   },
+   {
+    "text": "From the late 1940s, filin singers such as César Portillo de la Luz and José Antonio Méndez turned the bolero toward jazz-influenced crooning.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Trova?action=raw",
+      "quote": "influenced popular musical fashion of the late 40s and the 50s. It describes a style of post-microphone jazz-influenced romantic song ([[crooning]])."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Trova?action=raw",
+      "quote": "Its Cuban roots were in the bolero and the canción."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Trova?action=raw",
+      "quote": "Filín singers included [[César Portillo de la Luz]], [[José Antonio Méndez]]"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Our record starts the window in 1885; the English Wikipedia article on bolero (https://en.wikipedia.org/wiki/Bolero?action=raw) dates the first bolero earlier: Pepe Sánchez was \"author of the first bolero, \\\"Tristezas\\\", written in 1883\". The same article's footnote gives Cristóbal Díaz Ayala's date: \"el bolero, creado aproximadamente para 1885\", which matches our record.",
+   "Our record ends the window in 1960; the article follows the bolero well past that (Vietnam, ballroom) but that does not contradict a window for the Cuban form."
+  ],
+  "notes": "The Spanish-language article was not used: es.wikipedia 'Bolero cubano' redirects to 'Bolero', and the English pages held everything the story needed. The article's sentence on 'La Dorila' is garbled ('The bolero was first recorded in the east of Cuba in the year 1905 was \"La Dorila\"'); the story states only that Colombo recorded it in 1905 through Garay."
+ }
+]

@@ -1,0 +1,173 @@
+{
+ "genre": "japart",
+ "story": "The koto had been kept to the court, tuned to gagaku, and the shamisen descended from the Chinese sanxian, which reached Japan in the 16th century through the Ryukyu Kingdom and the port of Sakai. Yatsuhashi Kengyo (1614–1685), a blind Kyoto shamisen player, learned the koto from a court musician and first taught it to the public. He replaced the six old koto songs with a new form, kumiuta, and retuned the koto to scales taken from shamisen music. In the Edo period, monks of the Fuke Zen sect, the komuso, walked Japan playing the shakuhachi as meditation and begging for alms, exempt from the shogun's travel limits. The Meiji Restoration of 1868 abolished the shogunate and the Fuke sect, and the shakuhachi was allowed back only to accompany koto and shamisen, later taking the kokyu's place in the trio called sankyoku. Michio Miyagi, born in Kobe in 1894 and blind from the age of eight, joined Western music to the koto, wrote Haru no Umi in 1929 and built a 17-string bass koto. In 1932 the French violinist Renée Chemet arranged its shakuhachi part for violin and recorded it with Miyagi for Japan and Europe.",
+ "words": 196,
+ "sentences": [
+  {
+   "text": "The koto had been kept to the court, tuned to gagaku, and the shamisen descended from the Chinese sanxian, which reached Japan in the 16th century through the Ryukyu Kingdom and the port of Sakai.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Yatsuhashi_Kengyo?action=raw",
+     "quote": "While the instrument was originally restricted to the court"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Koto_(instrument)?action=raw",
+     "quote": "the {{transliteration|ja|tsukushi goto}} tunings, which were based on the older {{transliteration|ja|[[gagaku]]}} ways of tuning"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Shamisen?action=raw",
+     "quote": "The {{transliteration|zh|sanxian}} was introduced through the [[Ryūkyū Kingdom]] ([[Okinawa Prefecture|Okinawa]]) in the 16th century"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Shamisen?action=raw",
+     "quote": "the ancestor of the {{transliteration|ja|shamisen}} was introduced in the 16th century through the port city of [[Sakai]]"
+    }
+   ]
+  },
+  {
+   "text": "Yatsuhashi Kengyo (1614–1685), a blind Kyoto shamisen player, learned the koto from a court musician and first taught it to the public.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Koto_(instrument)?action=raw",
+     "quote": "[[Yatsuhashi Kengyo]] (1614–1685)"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Koto_(instrument)?action=raw",
+     "quote": "Yatsuhashi was a gifted blind musician from [[Kyoto]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Yatsuhashi_Kengyo?action=raw",
+     "quote": "was originally a player of the [[shamisen]], but later learned the [[koto (musical instrument)|koto]] from a musician of the Japanese court"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Yatsuhashi_Kengyo?action=raw",
+     "quote": "Yatsuhashi is credited as the first musician to introduce and teach the koto to general audiences"
+    }
+   ]
+  },
+  {
+   "text": "He replaced the six old koto songs with a new form, kumiuta, and retuned the koto to scales taken from shamisen music.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Koto_(instrument)?action=raw",
+     "quote": "vastly extended the limited selection of only six traditional koto songs to a brand-new style of koto music which he called {{transliteration|ja|koto kumiuta}}"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Yatsuhashi_Kengyo?action=raw",
+     "quote": "He adapted the [[Hirajoshi scale]] and the [[Insen scale]] for the koto, from the shamisen repertoire."
+    }
+   ]
+  },
+  {
+   "text": "In the Edo period, monks of the Fuke Zen sect, the komuso, walked Japan playing the shakuhachi as meditation and begging for alms, exempt from the shogun's travel limits.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Shakuhachi?action=raw",
+     "quote": "flourished in the 18th century during the [[Edo period]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Shakuhachi?action=raw",
+     "quote": "who used the ''shakuhachi'' as a spiritual tool"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Shakuhachi?action=raw",
+     "quote": "Travel around Japan was restricted by the [[shogunate]] at this time, but the Fuke sect managed to wrangle an exemption from the {{transliteration|ja|shōgun}}"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Shakuhachi?action=raw",
+     "quote": "move from place to place playing the {{transliteration|ja|shakuhachi}} and begging for alms"
+    }
+   ]
+  },
+  {
+   "text": "The Meiji Restoration of 1868 abolished the shogunate and the Fuke sect, and the shakuhachi was allowed back only to accompany koto and shamisen, later taking the kokyu's place in the trio called sankyoku.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Shakuhachi?action=raw",
+     "quote": "With the [[Meiji Restoration]], beginning in 1868, the shogunate was abolished and so was the [[Fuke Zen|Fuke]] sect"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Shakuhachi?action=raw",
+     "quote": "it was only as an accompanying instrument to the {{transliteration|ja|[[koto (musical instrument)|koto]]}}, {{transliteration|ja|[[shamisen]]}}"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Sankyoku?action=raw",
+     "quote": "It is traditionally played on [[shamisen]], [[koto (instrument)|koto]], and [[kokyū]], but more recently the kokyū has been replaced by [[shakuhachi]]."
+    }
+   ]
+  },
+  {
+   "text": "Michio Miyagi, born in Kobe in 1894 and blind from the age of eight, joined Western music to the koto, wrote Haru no Umi in 1929 and built a 17-string bass koto.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Michio_Miyagi?action=raw",
+     "quote": "He was born in [[Kobe]]. He lost his sight in 1902, when he was 8 years old"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Koto_(instrument)?action=raw",
+     "quote": "is considered to have been the first Japanese composer to combine western music and traditional koto music"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Michio_Miyagi?action=raw",
+     "quote": "He composed his most famous piece, ''[[Haru no Umi]]'' (''The Sea in Spring''), in 1929."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Michio_Miyagi?action=raw",
+     "quote": "invented new kotos with 17 strings (bass koto) and 80 strings"
+    }
+   ]
+  },
+  {
+   "text": "In 1932 the French violinist Renée Chemet arranged its shakuhachi part for violin and recorded it with Miyagi for Japan and Europe.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Michio_Miyagi?action=raw",
+     "quote": "In 1932 French violinist [[Renée Chemet]] visited Japan"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Michio_Miyagi?action=raw",
+     "quote": "Chemet arranged the shakuhachi part for violin, which she and Miyagi then recorded for distribution in Japan and Europe"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Origin: our record says Kyoto and Edo. Kyoto is supported (Yatsuhashi \"a gifted blind musician from [[Kyoto]]\", https://en.wikipedia.org/wiki/Koto_(instrument)?action=raw); nothing read names Edo (the city) as a birthplace of this music, though the shakuhachi article dates the fuke shakuhachi's flourishing to \"the [[Edo period]]\".",
+  "Our record groups koto, shamisen and shakuhachi as one chamber music from 1600. The sankyoku article says the trio was koto, shamisen and kokyu, with the shakuhachi replacing the kokyu only \"more recently\" (https://en.wikipedia.org/wiki/Sankyoku?action=raw); the shakuhachi article says it joined koto and shamisen only after the Meiji government allowed it back."
+ ],
+ "sources": [
+  {
+   "title": "Yatsuhashi Kengyo",
+   "url": "https://en.wikipedia.org/wiki/Yatsuhashi_Kengyo?action=raw"
+  },
+  {
+   "title": "Koto (instrument)",
+   "url": "https://en.wikipedia.org/wiki/Koto_(instrument)?action=raw"
+  },
+  {
+   "title": "Shamisen",
+   "url": "https://en.wikipedia.org/wiki/Shamisen?action=raw"
+  },
+  {
+   "title": "Shakuhachi",
+   "url": "https://en.wikipedia.org/wiki/Shakuhachi?action=raw"
+  },
+  {
+   "title": "Sankyoku",
+   "url": "https://en.wikipedia.org/wiki/Sankyoku?action=raw"
+  },
+  {
+   "title": "Michio Miyagi",
+   "url": "https://en.wikipedia.org/wiki/Michio_Miyagi?action=raw"
+  }
+ ],
+ "notes": "Japanese Wikipedia was not read. The shamisen's own Edo-period art music (nagauta, jiuta) is not in the story: the English shamisen article ties it to kabuki and bunraku but gives no names or dates that were checked. The Yatsuhashi article notes he 'may not actually have composed' Rokudan, so Rokudan was left out."
+}

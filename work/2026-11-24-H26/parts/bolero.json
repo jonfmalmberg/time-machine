@@ -1,0 +1,145 @@
+{
+ "genre": "bolero",
+ "story": "The bolero did not come from the Italian opera and canzone then popular in Havana, but from romantic folk poetry sung by a new kind of troubadour in Santiago de Cuba, the trovadores. These itinerant musicians travelled around Oriente province and earned their living by singing and playing the guitar. Pepe Sánchez, born in Santiago de Cuba in 1856, wrote the first bolero, \"Tristezas\", in 1883. He had no formal training, composed in his head and never wrote his songs down, so most of them are lost. Trovadores who first sang alone with a guitar began to play as duos, trios and quartets. In 1905 the tenor Adolfo Colombo recorded the bolero \"La Dorila\", through the trovador Sindo Garay, who settled in Havana the next year. Around 1915 the first radio stations spread the bolero in Puerto Rico and Mexico, where Agustín Lara and María Grever wrote boleros of their own. In the 1930s Trío Matamoros mixed it with son into bolero-son, which in the United States became the ballroom rhumba. From the late 1940s, filin singers such as César Portillo de la Luz and José Antonio Méndez turned the bolero toward jazz-influenced crooning.",
+ "words": 194,
+ "sentences": [
+  {
+   "text": "The bolero did not come from the Italian opera and canzone then popular in Havana, but from romantic folk poetry sung by a new kind of troubadour in Santiago de Cuba, the trovadores.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+     "quote": "bolero did not stem directly from the European lyrical tradition, which included Italian [[opera]] and [[canzone]], popular in urban centers like [[Havana]] at the time"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+     "quote": "it was born as a form of romantic folk poetry cultivated by a new breed of [[troubadour]] from [[Santiago de Cuba]], the ''trovadores''"
+    }
+   ]
+  },
+  {
+   "text": "These itinerant musicians travelled around Oriente province and earned their living by singing and playing the guitar.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Trova?action=raw",
+     "quote": "Trova was created by itinerant musicians known as ''trovadores'' who travelled around Cuba's [[Oriente Province|Oriente province]], especially [[Santiago de Cuba]], and earned their living by singing and playing the [[guitar]]."
+    }
+   ]
+  },
+  {
+   "text": "Pepe Sánchez, born in Santiago de Cuba in 1856, wrote the first bolero, \"Tristezas\", in 1883.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Trova?action=raw",
+     "quote": "born José Sánchez (Santiago de Cuba, 19 March 1856"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+     "quote": "author of the first bolero, \"Tristezas\", written in 1883"
+    }
+   ]
+  },
+  {
+   "text": "He had no formal training, composed in his head and never wrote his songs down, so most of them are lost.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Trova?action=raw",
+     "quote": "but had no formal training in music"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Trova?action=raw",
+     "quote": "he composed [[Number (music)|numbers]] in his head and never wrote them down. As a result, most of these numbers are now lost forever"
+    }
+   ]
+  },
+  {
+   "text": "Trovadores who first sang alone with a guitar began to play as duos, trios and quartets.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+     "quote": "Originally, boleros were sung by individual ''trovadores'' while playing [[guitar]]. Over time, it became common for trovadores to play in groups as ''dúos'', ''tríos'', ''cuartetos''"
+    }
+   ]
+  },
+  {
+   "text": "In 1905 the tenor Adolfo Colombo recorded the bolero \"La Dorila\", through the trovador Sindo Garay, who settled in Havana the next year.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+     "quote": "in the year 1905 was \"La Dorila\" by the tenor Adolfo Colombo, thanks to ''[[Troubadour|trovador]]'' [[Sindo Garay]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Trova?action=raw",
+     "quote": "Garay settled in Havana in 1906"
+    }
+   ]
+  },
+  {
+   "text": "Around 1915 the first radio stations spread the bolero in Puerto Rico and Mexico, where Agustín Lara and María Grever wrote boleros of their own.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+     "quote": "In the early 20th century the bolero reached Puerto Rico and Mexico, where it was popularized by the first radio stations around 1915."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+     "quote": "the Mexican composers: [[Juan Gabriel]], [[Agustín Lara]] and [[María Grever]]"
+    }
+   ]
+  },
+  {
+   "text": "In the 1930s Trío Matamoros mixed it with son into bolero-son, which in the United States became the ballroom rhumba.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+     "quote": "By the 1930s, when [[Trio Matamoros|Trío Matamoros]] made famous their mix of bolero and [[son cubano]] known as '''bolero-son'''"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Bolero?action=raw",
+     "quote": "In the United States, the [[rhumba]] ballroom dance emerged as an adaptation of the bolero-son in the 1930s."
+    }
+   ]
+  },
+  {
+   "text": "From the late 1940s, filin singers such as César Portillo de la Luz and José Antonio Méndez turned the bolero toward jazz-influenced crooning.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Trova?action=raw",
+     "quote": "influenced popular musical fashion of the late 40s and the 50s. It describes a style of post-microphone jazz-influenced romantic song ([[crooning]])."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Trova?action=raw",
+     "quote": "Its Cuban roots were in the bolero and the canción."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Trova?action=raw",
+     "quote": "Filín singers included [[César Portillo de la Luz]], [[José Antonio Méndez]]"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Our record starts the window in 1885; the English Wikipedia article on bolero (https://en.wikipedia.org/wiki/Bolero?action=raw) dates the first bolero earlier: Pepe Sánchez was \"author of the first bolero, \\\"Tristezas\\\", written in 1883\". The same article's footnote gives Cristóbal Díaz Ayala's date: \"el bolero, creado aproximadamente para 1885\", which matches our record.",
+  "Our record ends the window in 1960; the article follows the bolero well past that (Vietnam, ballroom) but that does not contradict a window for the Cuban form."
+ ],
+ "sources": [
+  {
+   "title": "Bolero (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Bolero?action=raw"
+  },
+  {
+   "title": "Trova (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Trova?action=raw"
+  }
+ ],
+ "notes": "The Spanish-language article was not used: es.wikipedia 'Bolero cubano' redirects to 'Bolero', and the English pages held everything the story needed. The article's sentence on 'La Dorila' is garbled ('The bolero was first recorded in the east of Cuba in the year 1905 was \"La Dorila\"'); the story states only that Colombo recorded it in 1905 through Garay."
+}

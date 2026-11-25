@@ -1,0 +1,161 @@
+{
+ "genre": "ghazal",
+ "story": "The ghazal began as Arabic love poetry in the 7th century, entered Persian in the 10th, and reached the Indian subcontinent in the 12th with the courts of a new Islamic sultanate. In the 13th century Amir Khusrow began writing it in the local Hindavi tongue, putting Persian verse forms into local speech. In the 18th century poets such as Mir Taqi Mir, born in Agra in 1723, moved the ghazal from Persian into Urdu. Poets lived on court patronage, and the state of Oudh paid so well that many moved to Lucknow, Farrukhabad and Faizabad. After Ahmad Shah Abdali sacked Delhi each year from 1748, Mir went to Lucknow in 1782 at the invitation of Asaf-ud-Daulah. In Delhi the Red Fort hosted mushaira gatherings and paid poets such as Ghalib, until the rebellion of 1857 ended that patronage. Akhtari Bai Faizabadi, born in 1914 and later called Begum Akhtar, put ghazals on gramophone records and was among the first women to sing them in public concerts, not private gatherings. In the 20th century she, the Pakistani singer Mehdi Hassan and Jagjit Singh brought Western instruments such as the guitar into the ghazal, and film songs spread it.",
+ "words": 198,
+ "sentences": [
+  {
+   "text": "The ghazal began as Arabic love poetry in the 7th century, entered Persian in the 10th, and reached the Indian subcontinent in the 12th with the courts of a new Islamic sultanate.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+     "quote": "tracing its origins to 7th-century Arabic poetry"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+     "quote": "The ghazal was introduced into Persian literature during the 10th century"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+     "quote": "It spread into the [[Indian subcontinent]] in the 12th century due to the influence of Islam in the courts of the new [[Ghurid Sultanate|Islamic Sultanate]]"
+    }
+   ]
+  },
+  {
+   "text": "In the 13th century Amir Khusrow began writing it in the local Hindavi tongue, putting Persian verse forms into local speech.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+     "quote": "In the 13th century, [[Hasan Sijzi]] became a pivotal figure"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+     "quote": "His contemporary, [[Amir Khusrow]], is recognized for pioneering the literary use of the vernacular [[Hindustani language]] (then known as [[Hindavi]]), blending Persian poetic structures with local linguistic elements"
+    }
+   ]
+  },
+  {
+   "text": "In the 18th century poets such as Mir Taqi Mir, born in Agra in 1723, moved the ghazal from Persian into Urdu.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+     "quote": "By the 18th and 19th centuries, the ghazal transitioned from Persian into [[Urdu poetry|Urdu]] (Hindustani), reaching its classical \"Golden Age\" through the works of poets such as [[Mir Taqi Mir]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Mir_Taqi_Mir?action=raw",
+     "quote": "Mir was born in [[Agra]], India (then called ''Akbarabad'' and ruled by the [[Mughals]]) in August or February 1723."
+    }
+   ]
+  },
+  {
+   "text": "Poets lived on court patronage, and the state of Oudh paid so well that many moved to Lucknow, Farrukhabad and Faizabad.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Urdu_ghazal?action=raw",
+     "quote": "During this era, poets made a living by attracting the financial patronage of the courts."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Urdu_ghazal?action=raw",
+     "quote": "The [[Oudh State]] gained a reputation for being one of the most generous, leading to many poets flocking to Lucknow, Farrukhabad, and Faizabad."
+    }
+   ]
+  },
+  {
+   "text": "After Ahmad Shah Abdali sacked Delhi each year from 1748, Mir went to Lucknow in 1782 at the invitation of Asaf-ud-Daulah.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Mir_Taqi_Mir?action=raw",
+     "quote": "after [[Ahmad Shah Abdali]]'s sack of Delhi each year starting 1748, he eventually moved to the court of [[Asaf-ud-Daulah]] in [[Lucknow]], at the ruler's invitation"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Mir_Taqi_Mir?action=raw",
+     "quote": "Mir migrated to Lucknow in 1782"
+    }
+   ]
+  },
+  {
+   "text": "In Delhi the Red Fort hosted mushaira gatherings and paid poets such as Ghalib, until the rebellion of 1857 ended that patronage.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Urdu_ghazal?action=raw",
+     "quote": "the [[Red Fort]] served as both a location where mushaira were hosted, and as an institution that provided patronage to poets such as Ghalib"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Urdu_ghazal?action=raw",
+     "quote": "In the aftermath of the rebellion, the old institutions of patronage, ustads, and mushaira ended."
+    }
+   ]
+  },
+  {
+   "text": "Akhtari Bai Faizabadi, born in 1914 and later called Begum Akhtar, put ghazals on gramophone records and was among the first women to sing them in public concerts, not private gatherings.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Begum_Akhtar?action=raw",
+     "quote": "Akhtari Bai Faizabadi was born on 7 October 1914"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Begum_Akhtar?action=raw",
+     "quote": "A number of gramophone records were released carrying her [[ghazals]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Begum_Akhtar?action=raw",
+     "quote": "She was amongst the early female singers to give public concerts, and break away from singing in ''mehfils'' or private gatherings"
+    }
+   ]
+  },
+  {
+   "text": "In the 20th century she, the Pakistani singer Mehdi Hassan and Jagjit Singh brought Western instruments such as the guitar into the ghazal, and film songs spread it.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+     "quote": "In the 20th century, performers such as [[Begum Akhtar]], [[Mehdi Hassan]], and [[Jagjit Singh]] modernized the ghazal by incorporating varied musical elements, including Western instruments like the guitar"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Mehdi_Hassan?action=raw",
+     "quote": "was a Pakistani [[ghazal]] singer"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw",
+     "quote": "the genre reached a broader audience through [[South Asian film music]] (Bollywood and Lollywood)"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Our record treats the Urdu ghazal as a sung genre from 1750 in Lucknow. The sources describe 18th-century Lucknow and Delhi as centres of the poetry, and date the wide spread of the sung style (Ghazal Gayaki) to the 20th century: \"While it has roots in Indo-Persian court music, it gained widespread popularity in the 20th century through performers like [[Begum Akhtar]] and [[Mehdi Hassan]]\" (https://en.wikipedia.org/wiki/Ghazal?action=raw).",
+  "Delhi, not only Lucknow: the Red Fort in Delhi \"provided patronage to poets such as Ghalib\" (https://en.wikipedia.org/wiki/Urdu_ghazal?action=raw), and Mir worked in Delhi before Lucknow.",
+  "Date of the golden age: the Urdu ghazal article says Mir ushered it in \"in the early 18th century\" (https://en.wikipedia.org/wiki/Urdu_ghazal?action=raw); the Ghazal article says \"By the 18th and 19th centuries\" (https://en.wikipedia.org/wiki/Ghazal?action=raw).",
+  "Mir's birth year: 1723 in the article body; the cited translation of his autobiography gives \"(1725–1810)\" (https://en.wikipedia.org/wiki/Mir_Taqi_Mir?action=raw)."
+ ],
+ "sources": [
+  {
+   "title": "Ghazal",
+   "url": "https://en.wikipedia.org/wiki/Ghazal?action=raw"
+  },
+  {
+   "title": "Urdu ghazal",
+   "url": "https://en.wikipedia.org/wiki/Urdu_ghazal?action=raw"
+  },
+  {
+   "title": "Mir Taqi Mir",
+   "url": "https://en.wikipedia.org/wiki/Mir_Taqi_Mir?action=raw"
+  },
+  {
+   "title": "Begum Akhtar",
+   "url": "https://en.wikipedia.org/wiki/Begum_Akhtar?action=raw"
+  },
+  {
+   "title": "Mehdi Hassan",
+   "url": "https://en.wikipedia.org/wiki/Mehdi_Hassan?action=raw"
+  }
+ ],
+ "notes": "Nothing read says how the ghazal was sung in 18th-century Lucknow (which singers, which instruments); the story's music begins with Begum Akhtar. The record's harmonium, tabla and sarangi markers were not checked. Urdu and Hindi Wikipedia were not read."
+}

@@ -1,0 +1,145 @@
+{
+ "genre": "spirituals",
+ "story": "Spirituals grew from African musical traditions blended with Christian hymns brought by missionaries and slaveholders to enslaved Africans in the American South. The revivals of the First Great Awakening in the 1730s and 1740s converted many enslaved people. The songs first flourished in secret meetings, the hush harbors, and later spread to camp meetings and revivals. They stayed oral until 1867, when the abolitionists Charles Pickard Ware, Lucy McKim Garrison and William Francis Allen printed Slave Songs of the United States, with songs Ware took down from the Gullah people of South Carolina's Port Royal Islands. On 6 October 1871 nine students of the new Fisk school in Nashville, Tennessee, set out as the Fisk Jubilee Singers to raise money for it. At first they left out the slave songs, sacred to their parents; then the Reverend Alexander Reid gave them \"Swing Low, Sweet Chariot\", learned from Wallace and Minerva Willis, enslaved by the Choctaw. By 1872 they sang at the White House, and in 1873 they toured Europe. Harry Burleigh made spirituals into art songs for solo concert singers. Blues and gospel grew from the spirituals, and civil rights freedom songs such as \"Oh, Freedom!\" were adapted from them.",
+ "words": 200,
+ "sentences": [
+  {
+   "text": "Spirituals grew from African musical traditions blended with Christian hymns brought by missionaries and slaveholders to enslaved Africans in the American South.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "This genre emerged from the blending of African musical traditions with Christian hymns introduced by missionaries and slaveholders"
+    }
+   ]
+  },
+  {
+   "text": "The revivals of the First Great Awakening in the 1730s and 1740s converted many enslaved people.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "a series of [[Christian revival]]s in the 1730s and 1740s swept"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "resulted in many enslaved people in the colonies being converting to Christianity"
+    }
+   ]
+  },
+  {
+   "text": "The songs first flourished in secret meetings, the hush harbors, and later spread to camp meetings and revivals.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "Spirituals first flourished in secret worship meetings, also known as “hush harbors,” where enslaved people gathered away from the eyes of overseers"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "Over time, spirituals spread to camp meetings and revivals"
+    }
+   ]
+  },
+  {
+   "text": "They stayed oral until 1867, when the abolitionists Charles Pickard Ware, Lucy McKim Garrison and William Francis Allen printed Slave Songs of the United States, with songs Ware took down from the Gullah people of South Carolina's Port Royal Islands.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "The first collection of Negro spirituals was published in 1867, two years after the war had ended"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "it was compiled by three northern abolitionists—[[Charles Pickard Ware]] (1840–1921), [[Lucy McKim Garrison]] (1842–1877), [[William Francis Allen]] (1830–1889)"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "[[Charles Pickard Ware]] collecting songs from the [[Gullah]] people of Port Royal Islands, [[South Carolina]]"
+    }
+   ]
+  },
+  {
+   "text": "On 6 October 1871 nine students of the new Fisk school in Nashville, Tennessee, set out as the Fisk Jubilee Singers to raise money for it.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "a touring ''[[a cappella]]'' male and female choir of nine students of the newly established Fisk school in Nashville, Tennessee"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "As a school-fundraiser, the Fisk Jubilee Singers had their first tour on what is now called Jubilee Day—October 6, 1871"
+    }
+   ]
+  },
+  {
+   "text": "At first they left out the slave songs, sacred to their parents; then the Reverend Alexander Reid gave them \"Swing Low, Sweet Chariot\", learned from Wallace and Minerva Willis, enslaved by the Choctaw.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "In their early days, the Jubilee Singers did not sing the slave songs"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "were sacred to our parents, who used them in their religious worship"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "Reid provided the Jubilee Singers with the lyrics of \"[[Swing Low, Sweet Chariot]]\""
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "had heard two workers enslaved by the Choctaw people,—an African-American family—father [[Wallace Willis]] and daughter [[Minerva Willis]]"
+    }
+   ]
+  },
+  {
+   "text": "By 1872 they sang at the White House, and in 1873 they toured Europe.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "by 1872, they performed at Boston's World Peace Festival and at the White House, and in 1873 they toured Europe"
+    }
+   ]
+  },
+  {
+   "text": "Harry Burleigh made spirituals into art songs for solo concert singers.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "made \"spirituals available to solo concert singers as art songs for the first time\""
+    }
+   ]
+  },
+  {
+   "text": "Blues and gospel grew from the spirituals, and civil rights freedom songs such as \"Oh, Freedom!\" were adapted from them.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "[[Blues]] and [[gospel music]] are derivatives of African American spirituals."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw",
+     "quote": "Many of the freedom songs, such as \"[[Oh, Freedom|Oh, Freedom!\"]] and \"[[Eyes on the Prize]],\" that defined the [[Civil rights movement]] (1954–1968) were adapted from some of the early African American spirituals"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Our record starts the window in 1800; the English Wikipedia article puts the start a century earlier (https://en.wikipedia.org/wiki/Spirituals?action=raw): \"The tradition of spirituals began in the early 1700s among enslaved Africans in the American South\".",
+  "Our record names the genre 'Spirituals and work songs'; the article treats work songs (field hollers) only as a related form that \"laid the foundations for the blues, spirituals\" (https://en.wikipedia.org/wiki/Spirituals?action=raw), so the story says nothing about work songs."
+ ],
+ "sources": [
+  {
+   "title": "Spirituals (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Spirituals?action=raw"
+  }
+ ],
+ "notes": "Work songs are not covered: the article has only one line on field hollers, with no names, places or dates. Harry Burleigh's songbook is left undated: the article gives 1929 for Jubilee Songs of the United States, which I did not check against a second source, so the year was dropped rather than repeated. Ella Sheppard, the singer who explained why the slave songs were held back, is named in the article but left out for length."
+}

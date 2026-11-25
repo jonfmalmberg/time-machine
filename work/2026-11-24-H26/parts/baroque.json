@@ -1,0 +1,156 @@
+{
+ "genre": "baroque",
+ "story": "In late Renaissance Florence, a circle of humanists and musicians meeting under Count Giovanni de' Bardi, the Camerata, rejected the many-voiced polyphony of their day and looked to ancient Greek drama. In 1598 Jacopo Peri and the poet Ottavio Rinuccini staged Dafne, sung throughout, and in 1600 Peri's Euridice followed, the earliest surviving opera. Singers were now backed by a basso continuo: a keyboard player read figures written above the bass line and improvised the chords. Claudio Monteverdi, composer of L'Orfeo, auditioned in 1613 for the post of maestro at San Marco in Venice and held it until his death. Trading cities wanted opera houses paid for by subscription, and in 1637 Venice opened San Cassiano, the first public opera house in Europe. Heinrich Schütz took the Venetian style to Germany, and Jean-Baptiste Lully bought patents to be the French king's sole composer of operas. Arcangelo Corelli published concerti grossi that set a full orchestra against a smaller group, and his pupil Antonio Vivaldi wrote hundreds of works on that model. Italian composers moved to the galant style around 1730, while Johann Sebastian Bach kept to the Baroque manner until 1750, and the galant style led into the Classical period.",
+ "words": 200,
+ "sentences": [
+  {
+   "text": "In late Renaissance Florence, a circle of humanists and musicians meeting under Count Giovanni de' Bardi, the Camerata, rejected the many-voiced polyphony of their day and looked to ancient Greek drama.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+     "quote": "a group of humanists, musicians, poets and intellectuals in late Renaissance Florence who gathered under the patronage of Count [[Giovanni de' Bardi]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+     "quote": "they based their ideals on a perception of Classical (especially [[Ancient Greece|ancient Greek]]) musical drama"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+     "quote": "they rejected their contemporaries' use of [[polyphony]] (multiple, independent melodic lines)"
+    }
+   ]
+  },
+  {
+   "text": "In 1598 Jacopo Peri and the poet Ottavio Rinuccini staged Dafne, sung throughout, and in 1600 Peri's Euridice followed, the earliest surviving opera.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Florentine_Camerata?action=raw",
+     "quote": "In 1598, Peri and Rinuccini produced ''[[Dafne]]'', an entire drama sung in monodic style"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Jacopo_Peri?action=raw",
+     "quote": "also the earliest extant opera, ''[[Euridice (Peri)|Euridice]]'' (1600)"
+    }
+   ]
+  },
+  {
+   "text": "Singers were now backed by a basso continuo: a keyboard player read figures written above the bass line and improvised the chords.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+     "quote": "With figured bass, numbers, accidentals or symbols were placed above the [[bassline]] that was read by [[keyboard instrument]] players"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+     "quote": "The keyboard player would [[music improvisation|improvise]] a [[chord voicing]] for each bass note."
+    }
+   ]
+  },
+  {
+   "text": "Claudio Monteverdi, composer of L'Orfeo, auditioned in 1613 for the post of maestro at San Marco in Venice and held it until his death.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+     "quote": "With the writing of [[List of operas by Claudio Monteverdi|the operas]] ''[[L'Orfeo]]''"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Claudio_Monteverdi?action=raw",
+     "quote": "In 1613, following the death of [[Giulio Cesare Martinengo]], Monteverdi auditioned for his post as ''maestro'' at the [[basilica of San Marco]] in Venice"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Claudio_Monteverdi?action=raw",
+     "quote": "until his death in the [[Republic of Venice]] where he was ''[[maestro di cappella]]'' at the basilica of [[St Mark's Basilica|San Marco]]"
+    }
+   ]
+  },
+  {
+   "text": "Trading cities wanted opera houses paid for by subscription, and in 1637 Venice opened San Cassiano, the first public opera house in Europe.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+     "quote": "The rise of the middle class in centres of trade led to a demand for subscription-based opera houses"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Claudio_Monteverdi?action=raw",
+     "quote": "The opening of the [[Teatro San Cassiano|opera house of San Cassiano]] in 1637, the first public opera house in Europe"
+    }
+   ]
+  },
+  {
+   "text": "Heinrich Schütz took the Venetian style to Germany, and Jean-Baptiste Lully bought patents to be the French king's sole composer of operas.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+     "quote": "This [[Republic of Venice|Venetian]] style was taken handily to Germany by [[Heinrich Schütz]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+     "quote": "He purchased patents from the monarchy to be the sole composer of operas for the French king"
+    }
+   ]
+  },
+  {
+   "text": "Arcangelo Corelli published concerti grossi that set a full orchestra against a smaller group, and his pupil Antonio Vivaldi wrote hundreds of works on that model.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+     "quote": "Corelli was one of the first composers to publish widely"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+     "quote": "the concerto grosso is built on strong contrasts—sections alternate between those played by the full orchestra, and those played by a smaller group"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+     "quote": "Numbered among his students is [[Antonio Vivaldi]], who later composed hundreds of works based on the principles in Corelli's [[trio sonata]]s and concerti"
+    }
+   ]
+  },
+  {
+   "text": "Italian composers moved to the galant style around 1730, while Johann Sebastian Bach kept to the Baroque manner until 1750, and the galant style led into the Classical period.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+     "quote": "Italian composers switched to the [[Galant music|galant style]] around 1730, while German composers such as [[Johann Sebastian Bach]] largely continued to write in the baroque style up to 1750"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw",
+     "quote": "was followed in turn by the [[Classical period (music)|Classical period]] after a short transition (the [[Galant music|galant style]])"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Origin: our record gives Venice. The sources place the first steps in Florence (the Camerata, Peri's Dafne of 1598): \"a group of humanists, musicians, poets and intellectuals in late Renaissance Florence\" (https://en.wikipedia.org/wiki/Baroque_music?action=raw); \"In 1598, Peri and Rinuccini produced ''[[Dafne]]''\" (https://en.wikipedia.org/wiki/Florentine_Camerata?action=raw). Venice comes in with Monteverdi from 1613 and the first public opera house in 1637.",
+  "Date of Dafne: the Camerata article gives 1598, the Peri article \"the mostly lost ''[[Dafne]]'' ({{circa|1597}})\" (https://en.wikipedia.org/wiki/Jacopo_Peri?action=raw). The story uses 1598.",
+  "Window: our record says 1600-1750, matching \"composed from about 1600 to 1750\" (https://en.wikipedia.org/wiki/Baroque_music?action=raw); the same article notes Bukofzer's \"early Baroque\" (1580{{ndash}}1630), so some historians start earlier."
+ ],
+ "sources": [
+  {
+   "title": "Baroque music",
+   "url": "https://en.wikipedia.org/wiki/Baroque_music?action=raw"
+  },
+  {
+   "title": "Florentine Camerata",
+   "url": "https://en.wikipedia.org/wiki/Florentine_Camerata?action=raw"
+  },
+  {
+   "title": "Jacopo Peri",
+   "url": "https://en.wikipedia.org/wiki/Jacopo_Peri?action=raw"
+  },
+  {
+   "title": "Claudio Monteverdi",
+   "url": "https://en.wikipedia.org/wiki/Claudio_Monteverdi?action=raw"
+  }
+ ],
+ "notes": "The Italian Wikipedia article was not read. Venice's place in the story rests on the Monteverdi article."
+}

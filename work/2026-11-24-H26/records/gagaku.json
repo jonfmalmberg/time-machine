@@ -1,0 +1,32 @@
+{
+ "id": "gagaku",
+ "name": "Gagaku",
+ "region": "easia",
+ "family": "eastasia",
+ "tradition": "japantrad",
+ "began": 700,
+ "ended": null,
+ "origin": {
+  "text": "Nara",
+  "lat": 34.69,
+  "lon": 135.8,
+  "country": "JP"
+ },
+ "definition": {
+  "window": "700 onward",
+  "sound": "Japanese imperial court orchestra: sustained mouth-organ chords, piercing double-reed melody and sparse drum strokes at a very slow pace.",
+  "markers": [
+   "Shō mouth organ holding cluster chords",
+   "Hichiriki reed and ryūteki flute in heterophony",
+   "Very slow tempo marked by single drum strokes"
+  ]
+ },
+ "judgements": {
+  "significance": 3,
+  "ease": 1,
+  "fame": 2,
+  "intrigue": 5
+ },
+ "tier": 2,
+ "row": 7
+}

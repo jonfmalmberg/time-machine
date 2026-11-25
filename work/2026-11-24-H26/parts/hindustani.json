@@ -1,0 +1,146 @@
+{
+ "genre": "hindustani",
+ "story": "In the 13th century Sharangadeva wrote the Sangita Ratnakara, whose raga names such as Turushka Todi (\"Turkish Todi\") show ideas arriving from Islamic culture; it is the last text cited by both the Hindustani and Carnatic traditions. Under the Delhi Sultanate and then the Mughals, musicians found patrons in the new rulers' courts, and Hindu and Muslim ideas met in new forms such as qawwali and khyal. Amir Khusrau (1253–1325), a disciple of Nizamuddin Auliya of Delhi who composed in Persian, Turkish, Arabic and Braj Bhasha, is credited with introducing ragas such as Yaman Kalyan. At Gwalior, Raja Man Singh Tomar (1486–1516) moved classical song from Sanskrit into Hindi, and dhrupad developed at his court. In 1562 Tansen joined the court of the Mughal emperor Akbar, where he introduced new ragas and compositions. When the Mughal Empire broke up, smaller courts such as Oudh, Patiala and Banaras kept paying musicians, and their family styles became the gharanas. In 1901 Vishnu Digambar Paluskar opened the Gandharva Mahavidyalaya school in Lahore, and between 1909 and 1932 Vishnu Narayan Bhatkhande sorted the ragas into thaats. Fred Gaisberg's first recordings of Indian music, in 1902, made Gauhar Jan the music's first star.",
+ "words": 198,
+ "sentences": [
+  {
+   "text": "In the 13th century Sharangadeva wrote the Sangita Ratnakara, whose raga names such as Turushka Todi (\"Turkish Todi\") show ideas arriving from Islamic culture; it is the last text cited by both the Hindustani and Carnatic traditions.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+     "quote": "In the 13th century, [[Śārṅgadeva|Sharangadeva]] composed the ''[[Sangita Ratnakara]]'', which has names such as the ''Turushka Todi'' (\"Turkish [[Todi (thaat)|Todi]]\"), revealing an influx of ideas from Islamic culture"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+     "quote": "This text is the last to be mentioned by both the [[Carnatic music|Carnatic]] and the Hindustani traditions"
+    }
+   ]
+  },
+  {
+   "text": "Under the Delhi Sultanate and then the Mughals, musicians found patrons in the new rulers' courts, and Hindu and Muslim ideas met in new forms such as qawwali and khyal.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+     "quote": "The advent of Islamic rule under the [[Delhi Sultanate]] and later the [[Mughal Empire]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+     "quote": "Increasingly, musicians received patronage in the courts of the new rulers"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+     "quote": "fusion of Hindu and Muslim ideas to bring forth new forms of musical synthesis like [[qawwali]] and [[khyal]]"
+    }
+   ]
+  },
+  {
+   "text": "Amir Khusrau (1253–1325), a disciple of Nizamuddin Auliya of Delhi who composed in Persian, Turkish, Arabic and Braj Bhasha, is credited with introducing ragas such as Yaman Kalyan.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+     "quote": "The most influential musician of the Delhi Sultanate period was [[Amir Khusrau]] (1253–1325), a composer in [[Persian language|Persian]], [[Turkish language|Turkish]] and [[Arabic]], as well as [[Braj Bhasha]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Amir_Khusrau?action=raw",
+     "quote": "a spiritual disciple of [[Nizamuddin Auliya]] of [[Delhi]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+     "quote": "introducing several ragas such as [[Yaman Kalyan]]"
+    }
+   ]
+  },
+  {
+   "text": "At Gwalior, Raja Man Singh Tomar (1486–1516) moved classical song from Sanskrit into Hindi, and dhrupad developed at his court.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+     "quote": "[[Man Singh Tomar|Raja Mansingh Tomar]] (1486–1516 CE) also participated in the shift from Sanskrit to the local idiom ([[Hindi]]) as the language for classical songs"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+     "quote": "the musical form known as [[dhrupad]] saw considerable development in his court"
+    }
+   ]
+  },
+  {
+   "text": "In 1562 Tansen joined the court of the Mughal emperor Akbar, where he introduced new ragas and compositions.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tansen?action=raw",
+     "quote": "In 1562, at about the age of 60, Tānsen joined Akbar's court"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tansen?action=raw",
+     "quote": "the Mughal Emperor [[Akbar]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+     "quote": "the musician [[Tansen]] introduced a number of innovations, including ragas and particular compositions"
+    }
+   ]
+  },
+  {
+   "text": "When the Mughal Empire broke up, smaller courts such as Oudh, Patiala and Banaras kept paying musicians, and their family styles became the gharanas.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+     "quote": "After the dissolution of the Mughal Empire, the patronage of music continued in smaller princely kingdoms like [[Oudh State|Oudh]], [[Patiala State|Patiala]], and [[Benares State|Banaras]], giving rise to the diversity of styles that is today known as [[gharana]]s"
+    }
+   ]
+  },
+  {
+   "text": "In 1901 Vishnu Digambar Paluskar opened the Gandharva Mahavidyalaya school in Lahore, and between 1909 and 1932 Vishnu Narayan Bhatkhande sorted the ragas into thaats.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+     "quote": "the ''[[Gandharva Mahavidyalaya]]'' music school that he opened in [[Lahore]] in 1901"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+     "quote": "Between 1909 and 1932, he produced the monumental four-volume work ''Hindustani Sangeeta Paddhati''"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+     "quote": "it suggested a possible categorization of [[raga]]s based on their notes into a number of [[thaat]]s (modes)"
+    }
+   ]
+  },
+  {
+   "text": "Fred Gaisberg's first recordings of Indian music, in 1902, made Gauhar Jan the music's first star.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw",
+     "quote": "The first star was [[Gauhar Jan]], whose career was born out of [[Fred Gaisberg]]'s first recordings of Indian music in 1902"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Our record begins 1250 at Delhi; the English article puts the split from the southern tradition around the 12th century: 'Around the 12th-century, Hindustani classical music diverged from what eventually came to be identified as [[Carnatic classical music]]', and also says the 13th-century Sangita Ratnakara 'is often thought to date the divergence between the two' (https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw). Not a conflict with 1250 so much as a softer start."
+ ],
+ "sources": [
+  {
+   "title": "English Wikipedia: Hindustani classical music",
+   "url": "https://en.wikipedia.org/wiki/Hindustani_classical_music?action=raw"
+  },
+  {
+   "title": "English Wikipedia: Amir Khusrau",
+   "url": "https://en.wikipedia.org/wiki/Amir_Khusrau?action=raw"
+  },
+  {
+   "title": "English Wikipedia: Tansen",
+   "url": "https://en.wikipedia.org/wiki/Tansen?action=raw"
+  }
+ ],
+ "notes": "The article notes doubt about Khusrau and khyal: 'Amir Khusrau is sometimes credited with the origins of the khyal form, but the record of his compositions does not appear to support this', so the story credits him only with ragas. Delhi as Khusrau's base comes from his own article (disciple of Nizamuddin Auliya of Delhi). The 'credited with' wording follows the page."
+}
