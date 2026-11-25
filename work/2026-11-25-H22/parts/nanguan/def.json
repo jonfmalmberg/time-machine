@@ -1,0 +1,50 @@
+{
+ "nanguan": {
+  "window": "c. 1600 onward (the earliest surviving songbooks are two Ming prints; the tradition claims roots in Han to Tang music); still played by clubs in Quanzhou, Xiamen, Taiwan and the Hokkien communities of South-East Asia",
+  "sound": "The chamber music of the Minnan (Hokkien) people of southern Fujian, played in temple-linked amateur clubs: a singer beating a wooden clapper sings slow, ornate songs in Quanzhou dialect over four instruments, the pipa held horizontally, the three-string sanxian, the vertical dongxiao flute and the erxian fiddle. The repertoire runs from long instrumental zhi suites and purely instrumental pu to thousands of short sung qu.",
+  "markers": [
+   "A pipa held horizontally across the lap plucks a steady, bead-like skeleton, with the sanxian under it",
+   "A piece opens on plucked strings before the dongxiao flute and erxian fiddle enter",
+   "A solo singer keeping time on the wooden clapper (paiban), singing in Quanzhou Hokkien",
+   "Very slow, gentle and heterophonic: each instrument decorates the same melody"
+  ],
+  "fits": [
+   [
+    "蔡小月 & 南聲社",
+    "風落梧桐",
+    1983
+   ],
+   [
+    "台南南聲社",
+    "梅花操",
+    2000
+   ],
+   [
+    "王心心",
+    "山險峻",
+    2008
+   ],
+   [
+    "李白燕",
+    "三更鼓",
+    2001
+   ]
+  ],
+  "near": [
+   [
+    "Huxing Ting Teahouse Ensemble",
+    "中花六板",
+    1994,
+    "jiangnansizhu",
+    "Lower-Yangzi silk-and-bamboo: also amateur heterophonic chamber music, but led by erhu and dizi with an upright pipa and yangqin, purely instrumental, no Hokkien singer with clapper"
+   ],
+   [
+    "劉煜",
+    "遊園【皂羅袍】【好姐姐】",
+    2026,
+    "kunqu",
+    "Kunqu aria from The Peony Pavilion: slow, ornate qu singing like nanguan, but staged opera in Suzhou-style Mandarin over the dizi flute, not Hokkien chamber song over pipa and dongxiao"
+   ]
+  ]
+ }
+}

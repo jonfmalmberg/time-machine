@@ -1,0 +1,27 @@
+{
+ "amazighbands": {
+  "alias": {
+   "Wad ittmuddun": "Wad Itmodoune (MusicBrainz)",
+   "Takendawt": "Takendout (Jones 2024); Taguendaout (Yabiladi); Takandaout (africangrooves); Takendawt (French Wikipedia, as album)",
+   "Ammouri M'barek": "Amouri M'barek (Yabiladi); Ammouri Mbark (French Wikipedia); Ammouri Mbarek (English Wikipedia)",
+   "Igoudar N'Souss": "Igodar N'Souss (iTunes track); Igudar N’Souss (French Wikipedia)",
+   "Bughāba": "Būghāba (same article, later)",
+   "Izenzaren Chamkh": "Izenzaren Chamakh (iTunes)",
+   "Saghru Band": "Saghru band (iTunes)",
+   "Nik Dik Tazwit": "Nik Dik (English Wikipedia track list of Nekk Dik A Nmun, 1978)",
+   "Ousmane": "Usman (El Guabli 2024, Dominguez 2025; English Wikipedia's Ammouri page)",
+   "Oudaden": "OUDADEN (iTunes)"
+  },
+  "unverified": [
+   "No claim failed the check; everything below is unverified by design, not by check result.",
+   "Ousmane's first recordings: Jones (2024) says Ousmane were the first group to record popular music in Tamazight, French Wikipedia says Izenzaren's first cassette was in 1974. Not resolved; began is set to 1972 (Izenzaren's formation), with no 'attested'.",
+   "Origin coordinates (Dcheira, 30.37, -9.53) are approximate, not from a source.",
+   "Peak window 1975-1995 is a judgement from dated facts (tazenzart dominant from 1975, Archach 1979, Oudaden 1978 and first album 1985), not stated by any source.",
+   "Oudaden album count disagrees: English Wikipedia 'thirty-eight albums', French Wikipedia 'une trentaine', and Le Matin (cited there) '28e album' in 2012; the Le Matin page was not read.",
+   "Oudaden's Mayna: French Wikipedia says 2012, iTunes release date 2013-01-01 with a 2022 copyright line; year left null.",
+   "Amarg Fusion has no song: no catalogue page found for its albums Agadir Ifawne (2006) and Argan d'Oufgan (Yabiladi names both; last.fm refused the script).",
+   "Khalid Izri and the Rif (Tarifit) bands such as Tawattun are left out of scope; see notes.",
+   "Africangrooves calls Ousmane 'Amazighe (berber tribe from North Africa) Gnawa music': not used, contradicted by the scholarly articles."
+  ]
+ }
+}

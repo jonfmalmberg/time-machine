@@ -146,7 +146,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Model, ask, hand back:** as H20 with `songs.2.json`.
 
 ## H22. Records for six new genres (research note `docs/research/2026-11-24-genre-suggestions.md`, numbers 1 to 6)
-- **State:** open
+- **State:** handed back 2026-11-25
 - **Model:** Opus.
 - **Ask:** As H14 (read its folder `work/2026-11-23-H14/` for the shape and its report for the standard), for: copla / canción española; dōyō; música guajira / punto cubano; nanguan / nanyin; modern Amazigh band music; batuku (with finaçon and tabanka as sub-genres). For each propose the genre record, its parent on the tree with the reason, where and when it was present, a definition with evidence, and a first playlist with evidence.
 - **Hand back:** as H14.

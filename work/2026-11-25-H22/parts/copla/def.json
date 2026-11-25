@@ -1,0 +1,50 @@
+{
+ "copla": {
+  "window": "1917 onward (El Relicario, 1917, is called the first copla; the form took shape in the 1920s out of cuplé, tonadilla, zarzuela and ópera flamenca; it flourished in the 1930s and 1940s and in 1950s musical film, was displaced by pop and the romantic ballad in the 1960s, and is still sung)",
+  "sound": "Spain's dramatic popular song of the variety stage and the musical film: one singer with a powerful, vibrato-rich voice, usually in an Andalusian accent and flamenco-coloured but without the depth of cante jondo, tells a short story of passion, jealousy or ruin over a theatre orchestra. Much of it was written by the trio Quintero, León and Quiroga, in pasodoble, zambra, tango or bolero rhythms.",
+  "markers": [
+   "A theatre orchestra, not a lone guitar, with long introductions and dramatic pauses",
+   "A big, controlled voice with strong vibrato, flamenco-tinged but not deep cante",
+   "Short, story-telling lyrics of overflowing love, betrayal, jealousy and sorrow",
+   "Pasodoble, zambra, tango or bolero rhythms under the same singers"
+  ],
+  "fits": [
+   [
+    "Concha Piquer",
+    "Tatuaje",
+    1941
+   ],
+   [
+    "Estrellita Castro",
+    "María de la O",
+    1933
+   ],
+   [
+    "Lola Flores",
+    "La zarzamora",
+    1946
+   ],
+   [
+    "Juanita Reina",
+    "Y sin embargo te quiero",
+    1948
+   ]
+  ],
+  "near": [
+   [
+    "Banda Sinfónica Municipal de Madrid",
+    "España cañí",
+    1995,
+    "pasodoble",
+    "The band pasodoble: an instrumental march for wind band, with no singer and no story; copla borrows the rhythm but is sung theatre song"
+   ],
+   [
+    "La Niña de los Peines",
+    "Al doble de una campana",
+    null,
+    "flamenco",
+    "Flamenco cante (fandangos) with guitar from a cantaora: free, deep cante jondo, not an orchestral copla"
+   ]
+  ]
+ }
+}

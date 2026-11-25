@@ -1,0 +1,68 @@
+{
+ "batuku": {
+  "window": "1772 onward (first written trace: a governor's ban of September 1772 on night 'zambunas'; banned in towns under the Estado Novo and dying from the 1950s; revived from the 1990s by Orlando Pantera's generation and staged batukadeiras groups)",
+  "sound": "The women's circle music of Santiago, Cape Verde: in a yard or square (terreru) a group of women slap cloth pads (tchabeta) and clap, one playing a cross-rhythm over the others' two-beat pulse, while a lead singer gives out a verse, often improvised proverb and satire (finaçon), that the chorus repeats; one woman dances in the centre. The piece builds to the txabéta, where all play the same cross-rhythm in unison and the dancer swings her hips with quick knee flexes. Since the 1990s composers and singers such as Orlando Pantera, Tcheka, Lura and Mayra Andrade have set it to guitar and band chords (neo-batuku).",
+  "markers": [
+   "Cloth pads (tchabeta) slapped and hands clapped, three beats laid over two, in 6/8 or 3/4 time",
+   "A lead singer's improvised verse of proverbs and satire (finaçon), repeated by a women's chorus",
+   "A build to the unison climax (txabéta), danced with fast hip swings in the centre of the circle"
+  ],
+  "fits": [
+   [
+    "Batucadeiras de Rincon",
+    "Batuku, Tradison di Terra",
+    2003
+   ],
+   [
+    "Ntóni Denti d'Oru",
+    "Sambuna e Finaçon",
+    null
+   ],
+   [
+    "Lura",
+    "Batuku",
+    2004
+   ],
+   [
+    "Mayra Andrade",
+    "Dispidida",
+    2006
+   ],
+   [
+    "Madonna",
+    "Batuka",
+    2019
+   ]
+  ],
+  "near": [
+   [
+    "Kodé di Dona",
+    "Ma n'ka ta ba rubêra ki tên agu txêu",
+    2003,
+    "funana",
+    "Same Santiago anthology, but gaita accordion and ferrinho in a fast two-beat couple dance, labelled funaná"
+   ],
+   [
+    "Ana Nobo",
+    "Lena",
+    2003,
+    "coladeira",
+    "Same Santiago anthology, labelled coladeira: a guitar-and-cavaquinho song dance, not a women's cloth-pad circle"
+   ],
+   [
+    "Nancy Vieira",
+    "É Morna",
+    2007,
+    "morna",
+    "Same album as her batuku 'Nha Kumadri', but a slow guitar morna with no cross-rhythm and no call and response"
+   ],
+   [
+    "Finaçon",
+    "Fomi 47",
+    1987,
+    "funana",
+    "A band named after the batuku verse form, playing electric funaná"
+   ]
+  ]
+ }
+}

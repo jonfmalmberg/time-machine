@@ -1,0 +1,44 @@
+{
+ "copla": {
+  "low": 8000,
+  "high": 40000,
+  "core": 80,
+  "basis": "A judgement, not a count, made before collecting. Rafael de León's page says the trio Quintero, León and Quiroga alone registered more than five thousand songs; dozens of singers from Raquel Meller and Concha Piquer to Rocío Jurado and Isabel Pantoja recorded them, most classics exist in many versions (the Spanish Wikipedia list gives five to ten later versions for most), and iTunes Spain holds many 100-180-track copla compilations (Antología de la Copla, Las 101 grandes Coplas, Los Mejores 100 Éxitos de la Copla) and multi-volume single-artist sets. Distinct commercial recordings of the classic repertoire since the 1930s are likely in the low tens of thousands. An insider's essential list: about 80 songs, mostly 1933-1960.",
+  "confidence": "low"
+ },
+ "doyo": {
+  "low": 3000,
+  "high": 20000,
+  "core": 40,
+  "basis": "A judgement, not a count. Made before collecting, from what is known of the catalogue: thousands of dōyō printed with music in dozens of children's magazines and songbooks from 1919 (Nakayama Shinpei alone has 1,770 known works of all kinds), 78s by Victor, Columbia (Nipponophone) and King from the 1920s, a postwar boom in which one company's dōyō records outsold its popular songs for half a year, and seventy years of re-recordings by children's choirs and singers (Kawada Masako, Yuki Saori and Yasuda Sachiko's 101-track best-of). An insider's essential list would be about 40 songs: the 1919-1927 magazine classics of Noguchi, Kitahara and Saijō with Nakayama, Motoori and Yamada, and the 1945-1950 radio songs of Kainuma Minoru for Kawada Masako.",
+  "confidence": "low"
+ },
+ "guajira": {
+  "low": 2000,
+  "high": 10000,
+  "core": 40,
+  "basis": "A judgement, not a count, made before collecting. Punto was largely live and on radio (the 1930s-50s radio verses survive mainly in a stenographer's transcriptions published in 1997), so the 78-rpm and LP catalogue is smaller than the genre's reach: Celina y Reutilio, Joseíto Fernández, Portabales, Ramón Veloz and Coralia Fernández, Radeúnda Lima, the controversias of Justo Vega and Adolfo Alfonso and of Naborí and Valiente, EGREM and Areito LPs from the 1960s-80s, Miami and Mexican reissues, and many recent singles. An insider's essential list would be about 40 recordings.",
+  "confidence": "low"
+ },
+ "nanguan": {
+  "low": 1500,
+  "high": 6000,
+  "core": 40,
+  "basis": "A judgement, not a count. The repertoire itself is large (48 zhi suites, 16 pu suites and some thousands of qu songs in manuscript), but commercial recordings are few: early Taiwanese 78s and LPs (Nansheng She made records from 1956), the six Ocora volumes by Tsai Hsiao-yueh (1983-93), Taiwanese label albums by Wang Xinxin and Han Tang Yuefu, mainland Chinese series such as the Fujian nanyin volume of a regional-music set, Quanzhou and Xiamen ensemble releases, club recordings in Singapore and Manila, and many private cassettes. An insider's essential list would be about 40: the Ocora set, the Nansheng She instrumental pu, the five great zhi suites, and the best-known qu by Tsai, Wang Xinxin and the Quanzhou national inheritors.",
+  "confidence": "low"
+ },
+ "amazighbands": {
+  "low": 1500,
+  "high": 5000,
+  "core": 40,
+  "basis": "A judgement, not a count, made before collecting. Cassette-era catalogue of the Sous: Izenzaren (two bands after the 1975 split) issued EPs from 1976 and cassettes through the 1980s; Oudaden alone are credited with about thirty to thirty-eight albums; Archach, Ali Chouhad, Ammouri M'barek and dozens of wedding bands (tagroupit) put out cassettes on Sous labels; streaming services now carry hundreds of digitised singles. An insider's essential list would be about 40: Ousmane's singles and Olympia recording, the 1970s Izenzaren EPs, early Archach and Oudaden, and a few later bands.",
+  "confidence": "low"
+ },
+ "batuku": {
+  "low": 1000,
+  "high": 5000,
+  "core": 30,
+  "basis": "A judgement, not a count, made before collecting. Traditional batuku is a live circle form recorded mostly by the field albums of French labels (MCM 2003, Radio France/Ocora's Batuque & Finaçon, Ocora's 2003 archipelago anthology) and by many named batukadeiras groups in Santiago and the Lisbon suburbs releasing small albums and singles (on iTunes Portugal: Estrelas de Bela Vista, Voz de Cultura, Rabentolas, G. U. Vialonga, Batuko Tabanka), plus the 'Funaná e Batuko' compilation series. Neo-batuku adds the albums of Orlando Pantera's generation from about 2003 (Tcheka, Lura, Mayra Andrade, Princezito, Nancy Vieira, Vadú), where batuku songs sit beside morna and funaná. An insider's essential list: about 30 recordings, the field albums, Nha Nácia Gomi and Ntóni Denti d'Oru, and the best-known Pantera songs as sung by Lura and Mayra Andrade.",
+  "confidence": "low"
+ }
+}

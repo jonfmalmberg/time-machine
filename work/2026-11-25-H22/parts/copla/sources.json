@@ -1,0 +1,725 @@
+{
+ "copla": [
+  {
+   "kind": "def",
+   "field": "name, aliases",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "La copla, copla andaluza, canción española o canción folklórica es un género artístico de la música de España",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "began, attested",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "La primera copla propiamente dicha se considera El Relicario (1917)",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "began, parentage",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "surge en la década de los años veinte, con los antecedentes de la tradicional tonadilla, el teatro de variedades, la zarzuela, la ópera flamenca y el cuplé",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "window, peak",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "se mantuvo vigente incluso durante la guerra civil española y la posguerra. A partir de 1950 tuvo una fuerte presencia en el cine musical español",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "window, peak",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "En los años 1960 se vio desplazada por el pop, la balada romántica y la rumba catalana",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "historias de sentimientos desbordados, amor, el desengaño, los celos, la tristeza o la alegría",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "para lograr una voz potente con dominio del vibrato",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound, parentage",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "La textura tiende a ser aflamencada, sin jondura",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers, parentage",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "El acompañamiento musical de la copla clásica es orquestal, en la tradición de la música culta española como la zarzuela",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "Antonio Quintero, Rafael de León como letristas y Manuel Quiroga como compositor son los autores más prolíficos y populares de la copla",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound, parentage",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "pasodobles como «Carmen de España» o «Campanera», zambras como «A Ciegas» o boleros como «Dos cruces»",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "Hay composiciones a ritmo de tango y con cambios de tiempo",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "ended",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "han permitido que la copla siga vigente en el siglo",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "window, peak",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Copla_(music)",
+   "quote": "it flourished in the 1930s and 1940s, and is epitomized by songwriters Antonio Quintero, Rafael de León and Manuel Quiroga",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "iberianpop",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Copla_(music)",
+   "quote": "deriving from the poetic form of the same name",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Copla_(music)",
+   "quote": "Initially she sang cuplé, which later evolved in Andalusian and Spanish song into the copla as it is known today",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Cuplé",
+   "quote": "nacieron otras formas de espectáculo de variedades, como la copla y la revista",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "origin",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Rafael_de_León",
+   "quote": "bajo la influencia del gran músico sevillano Manuel Quiroga",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "origin",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Estrellita_Castro",
+   "quote": "Estrella Castro Navarrete (Sevilla, 26 de junio de 1908",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Concha_Piquer",
+   "quote": "Considerada una de las principales figuras de la copla y la canción española del siglo XX",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence MX",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Lola_Flores",
+   "quote": "En 1955, viajó de nuevo a México, donde rodó tres películas en un año",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Juanita_Reina",
+   "quote": "En 1957, durante una gira en Iberoamérica, actuó en La Habana",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence AR",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Imperio_Argentina",
+   "quote": "Cantantes de coplas de Argentina",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "size",
+   "field": "size",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Rafael_de_León",
+   "quote": "tienen registradas más de cinco mil canciones",
+   "read": "2026-11-25",
+   "note": "Quintero, León and Quiroga alone"
+  },
+  {
+   "kind": "song",
+   "artist": "Concha Piquer",
+   "title": "Ojos verdes",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Concha Piquer\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"Ojos Verdes\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Concha Piquer",
+   "title": "Ojos verdes",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "Ojos verdes (Valverde, León y Quiroga) para Concha Piquer - 1937",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Estrellita Castro",
+   "title": "María de la O",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Estrellita Castro\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"María de la O\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Estrellita Castro",
+   "title": "María de la O",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "María de la O (León y Valverde) para Estrellita Castro - 1933",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Lola Flores",
+   "title": "¡Ay, pena, penita, pena!",
+   "url": "https://itunes.apple.com/lookup?id=1214422711&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Lola Flores\", \"collectionName\":\"Las 101 grandes Coplas\", \"trackName\":\"Ay, pena, penita, pena\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Lola Flores",
+   "title": "¡Ay, pena, penita, pena!",
+   "url": "https://es.wikipedia.org/wiki/Lola_Flores",
+   "quote": "«¡Ay pena, penita, pena!» (1953)",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Miguel de Molina",
+   "title": "La bien pagá",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Miguel de Molina\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"La Bien Pagá\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Miguel de Molina",
+   "title": "La bien pagá",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "Ramón Perelló, autor de «La bien pagá» y «Los piconeros»",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Concha Piquer",
+   "title": "Tatuaje",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Concha Piquer\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"Tatuaje\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Concha Piquer",
+   "title": "Tatuaje",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "Tatuaje (Valerio, Quiroga y León) para Concha Piquer - 1941",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Concha Piquer",
+   "title": "La Parrala",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Concha Piquer\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"La Parrala\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Concha Piquer",
+   "title": "La Parrala",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "La Parrala (Quintero, León y Quiroga) para Concha Piquer - 1942",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Concha Piquer",
+   "title": "A la lima y al limón",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Concha Piquer\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"A la Lima y al Limón\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Concha Piquer",
+   "title": "A la lima y al limón",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "A la lima y al limón (Quiroga y León) para Concha Piquer - 1940",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Concha Piquer",
+   "title": "Romance de la reina Mercedes",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Concha Piquer\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"Romance de la Reina Mercedes\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Concha Piquer",
+   "title": "Romance de la reina Mercedes",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "Romance de la reina Mercedes (Quintero, León y Quiroga) para Conchita Martínez - 1948 (otras versiones: Concha Piquer",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Imperio Argentina",
+   "title": "Échale guindas al pavo",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Imperio Argentina\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"Échale Guindas al Pavo\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Imperio Argentina",
+   "title": "Échale guindas al pavo",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "Échale guindas al pavo (Perelló y Mostazo) para Imperio Argentina - 1936",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Imperio Argentina",
+   "title": "La falsa moneda",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Imperio Argentina\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"Falsa Moneda\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Imperio Argentina",
+   "title": "La falsa moneda",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "La falsa moneda (Perelló y Mostazo) para Imperio Argentina - 1936",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Imperio Argentina",
+   "title": "El día que nací yo",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Imperio Argentina\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"El Día Que Nací Yo\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Imperio Argentina",
+   "title": "El día que nací yo",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "El día que nací yo (Quintero, Guillén y Mostazo) para Imperio Argentina - 1936",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Angelillo",
+   "title": "Chiclanera",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Angelillo\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"Chiclanera\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Angelillo",
+   "title": "Chiclanera",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "Chiclanera (Luis Vega, Rafael Oropesa y Antonio Carmona) para Angelillo - 1936",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Juanita Reina",
+   "title": "Callejuela sin salida",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Juanita Reina\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"Callejuela Sin Salida\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Juanita Reina",
+   "title": "Callejuela sin salida",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "Callejuela sin salía (Quintero, León y Quiroga) para Juanita Reina - 1943",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Gracia de Triana",
+   "title": "No me quieras tanto",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Gracia de Triana\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"No Me Quieras Tanto\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Gracia de Triana",
+   "title": "No me quieras tanto",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "No me quieras tanto (Quintero, León y Quiroga) para Gracia de Triana - 1944",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Manolo Caracol",
+   "title": "La niña de fuego",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Manolo Caracol\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"La Niña de Fuego\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Manolo Caracol",
+   "title": "La niña de fuego",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "La niña de fuego (Quintero, León y Quiroga) para Manolo Caracol - 1944",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Lola Flores",
+   "title": "La zarzamora",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Lola Flores\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"La Zarzamora\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Lola Flores",
+   "title": "La zarzamora",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "La Zarzamora (Quintero, León y Quiroga) para Lola Flores - 1946",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Juanita Reina",
+   "title": "Y sin embargo te quiero",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Juanita Reina\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"Y Sin Embargo Te Quiero\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Juanita Reina",
+   "title": "Y sin embargo te quiero",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "Y sin embargo te quiero - 1948 (Quintero, León y Quiroga) para Juana Reina",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Juanita Reina",
+   "title": "Capote de grana y oro",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Juanita Reina\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"Capote de Grana y Oro\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Juanita Reina",
+   "title": "Capote de grana y oro",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "Capote de grana y oro (Quintero, León y Quiroga) para Juana Reina - 1951",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Antoñita Moreno",
+   "title": "Sortija de oro",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Antoñita Moreno\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"Sortija de Oro\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Antoñita Moreno",
+   "title": "Sortija de oro",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "Sortija de oro (Ochaíta, Valerio y Solano) para Antoñita Moreno - 1951",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Antonio Molina",
+   "title": "Soy minero",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Antonio Molina\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"Soy Minero\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Antonio Molina",
+   "title": "Soy minero",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "Soy minero (Perelló y Montorio) para Antonio Molina - 1955",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Marifé de Triana",
+   "title": "Torre de arena",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Marifé de Triana\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"Torre de Arena\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Marifé de Triana",
+   "title": "Torre de arena",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "Torre de arena (Gordillo, Llabrés y Sarmiento) para Marifé de Triana - 1956",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Juanito Valderrama",
+   "title": "El emigrante",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Juanito Valderrama\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"El Emigrante\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Juanito Valderrama",
+   "title": "El emigrante",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "El emigrante (Salazar, Quezada, Serapí y Valderrama) para Juanito Valderrama - 1956",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Rafael Farina",
+   "title": "Vino amargo",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Rafael Farina\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"Vino Amargo\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Rafael Farina",
+   "title": "Vino amargo",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "Vino amargo (Quintero, León y Quiroga) para Rafael Farina - 1958",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Lola Flores",
+   "title": "A tu vera",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Lola Flores\", \"collectionName\":\"Antología de la Copla\", \"trackName\":\"A Tu Vera\"",
+   "read": "2026-11-25",
+   "note": "Track on a compilation whose title names the genre; that is the genre tie."
+  },
+  {
+   "kind": "song",
+   "artist": "Lola Flores",
+   "title": "A tu vera",
+   "url": "https://es.wikipedia.org/wiki/Lola_Flores",
+   "quote": "«A tu vera» (1962)",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "Antología de la Copla",
+   "url": "https://itunes.apple.com/lookup?id=586741494&entity=song&country=ES&limit=200",
+   "quote": "\"collectionName\":\"Antología de la Copla\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "Las 101 grandes Coplas",
+   "url": "https://itunes.apple.com/lookup?id=1214422711&entity=song&country=ES&limit=200",
+   "quote": "\"copyright\":\"℗ 2017 Warner Music Spain, S.L.\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "Los Mejores 100 Éxitos de la Copla",
+   "url": "https://itunes.apple.com/lookup?id=1838000862&entity=song&country=ES&limit=200",
+   "quote": "\"collectionName\":\"Los Mejores 100 Éxitos de la Copla\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Concha Piquer",
+   "title": "Concha Piquer, La Reina de la Copla, Vol. II",
+   "url": "https://itunes.apple.com/lookup?id=1046277898&entity=song&country=ES&limit=200",
+   "quote": "\"collectionName\":\"Concha Piquer, La Reina de la Copla, Vol. II\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "Concha Piquer",
+   "title": "Tatuaje",
+   "url": "https://itunes.apple.com/lookup?id=1046277898&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Concha Piquer\", \"collectionName\":\"Concha Piquer, La Reina de la Copla, Vol. II\", \"trackName\":\"Tatuaje\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "Estrellita Castro",
+   "title": "María de la O",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "María de la O (León y Valverde) para Estrellita Castro - 1933",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "Lola Flores",
+   "title": "La zarzamora",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "La Zarzamora (Quintero, León y Quiroga) para Lola Flores - 1946",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "Juanita Reina",
+   "title": "Y sin embargo te quiero",
+   "url": "https://es.wikipedia.org/wiki/Copla_andaluza",
+   "quote": "Y sin embargo te quiero - 1948 (Quintero, León y Quiroga) para Juana Reina",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "España cañí",
+   "url": "https://itunes.apple.com/lookup?id=1445779092&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"Banda Sinfónica Municipal de Madrid\", \"collectionName\":\"Maestros del Pasodoble\", \"trackName\":\"España Cañí\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "Banda Sinfónica Municipal de Madrid",
+   "title": "España cañí",
+   "url": "https://itunes.apple.com/lookup?id=1445779092&entity=song&country=ES&limit=200",
+   "quote": "\"collectionName\":\"Maestros del Pasodoble\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "La Niña de los Peines",
+   "title": "Al doble de una campana",
+   "url": "https://itunes.apple.com/lookup?id=458117444&entity=song&country=ES&limit=200",
+   "quote": "\"artistName\":\"La Niña de los Peines\", \"collectionName\":\"Great Interpreters of Flamenco - La Niña de los Peines [1928 - 1950], Volume 2\", \"trackName\":\"Al Doble De Una Campana (Fandangos)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "La Niña de los Peines",
+   "title": "Al doble de una campana",
+   "url": "https://es.wikipedia.org/wiki/Pastora_Pavón",
+   "quote": "fue una cantaora flamenca española de etnia gitana",
+   "read": "2026-11-25"
+  }
+ ]
+}

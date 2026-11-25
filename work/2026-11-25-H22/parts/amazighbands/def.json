@@ -1,0 +1,57 @@
+{
+ "amazighbands": {
+  "window": "1972 onward (Izenzaren formed in Dcheira, Agadir, in 1972; Ousmane and Izenzaren first recorded 1974-76)",
+  "sound": "Amazigh band music of Morocco's Sous: young bands, from Ousmane and Izenzaren in the 1970s, set written Tashelhit poetry and reworked rways poems to banjo, guitar, violin and hand drums, the band answering the lead singer in chorus. Its styles are named tazenzart, after Izenzaren, and tagroupit or tiroubba, the banjo-and-electric-guitar wedding bands such as Archach and Oudaden that followed; fusion bands since the 2000s add rock and ribab.",
+  "markers": [
+   "Banjo lead, often beside an electric guitar, over talunt frame drums, tam-tam and naqus",
+   "Sung Tashelhit poetry, nostalgic or protesting, with the band joining the singer in unison after each line or chorus",
+   "Quick triplet percussion that takes over and speeds the song toward its close",
+   "Melodies drawn from the Sous's pentatonic rways and village songs rather than Arab maqam"
+  ],
+  "fits": [
+   [
+    "Izenzaren",
+    "Wad ittmuddun",
+    1976
+   ],
+   [
+    "Ousmane",
+    "Dounit",
+    1977
+   ],
+   [
+    "Archach",
+    "Ouraifriat",
+    1982
+   ],
+   [
+    "Oudaden",
+    "Bismillah",
+    2011
+   ]
+  ],
+  "near": [
+   [
+    "Nass El Ghiwane",
+    "Mahmouma",
+    null,
+    "ghiwane",
+    "The Casablanca band sound the Amazigh bands grew out of: banjo, guembri and hand drums too, but sung in Darija Arabic and built on Sufi and gnawa trance rather than Tashelhit poetry"
+   ],
+   [
+    "Lhaj Belaid",
+    "Atbir Oumlil",
+    null,
+    "rways",
+    "Classic rways: a solo poet-singer over the one-string ribab and lotar, the older Sous song the bands broke from"
+   ],
+   [
+    "Idir",
+    "A Vava Inouva",
+    null,
+    "kabyle",
+    "Algerian Kabyle guitar song of the same 1970s Amazigh awakening, in Kabyle rather than Tashelhit and sung by a solo singer-songwriter, not a band"
+   ]
+  ]
+ }
+}

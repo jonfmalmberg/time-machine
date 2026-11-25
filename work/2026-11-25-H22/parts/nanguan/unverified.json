@@ -1,0 +1,32 @@
+{
+ "nanguan": {
+  "alias": {
+   "風落梧桐": "Le vent dans les platanes (Fong lo wou‐t’ong) (MusicBrainz); Le Vent Dans Les Platanes 風落梧桐 (Chinese Wikipedia)",
+   "共君斷約": "Le rendez‐vous (Kong kiun touan‐yu)",
+   "冬天寒": "Froid est l’hiver (T’ong‐t’ien han)",
+   "心頭悶憔憔": "Affligé est mon cœur (Sin‐t’eou men ts’iao‐ts’iao)",
+   "告大人": "Le procès (Kao ta‐jen)",
+   "懶繡停針": "Lán-Siù Thêng-Chiam (Lasse De Broder)",
+   "夫為功名": "Hû Ûi Kong-Bêng (Pour La Gloire)",
+   "因送哥嫂": "In-Sâng Ko-Só (En Accompagnant Mon Frère)",
+   "望明月 (蔡小月)": "La Pleine lune (MusicBrainz); La Pleine Lune(Bong Beng-Goat) 望明月 (Chinese Wikipedia)",
+   "感謝公主": "Merci princesse! (MusicBrainz); Merci Princesse!(Kam-Sia Kong-Tsu) 感謝公主 (Chinese Wikipedia)",
+   "蔡小月": "Tsai Hsiao-yüeh / Tsai Hsiao-Yuëh",
+   "南聲社": "Nan-Sheng She / Nansheng She / 台南南聲社",
+   "王心心": "Wang Xin-Xin (iTunes US store)",
+   "荼蘼架": "The iTunes title is 荼蘼架; Chinese Wikipedia lists Tsai's version as 茶薇架 (To-Bi Ke). Kept as the page spells each.",
+   "Wang Ming Yue- Luo Hui Xian Nan Guan San Qu": "Album titles of the three 青和南管 albums are given in pinyin on iTunes; Chinese titles not found on a checked page, so not supplied."
+  },
+  "unverified": [
+   "No claim failed the check (96 found). The items below were not checked or were left out.",
+   "Han Tang Yuefu (漢唐樂府) and Gang-a-Tsui (江之翠劇場): no recording found on iTunes or MusicBrainz searches; their Chinese Wikipedia pages could not be read (rate-limited, then not found under 漢唐樂府). Named in notes only.",
+   "Ocora vol. 2-3 and 4-6 track titles are given in Chinese from the Chinese Wikipedia discography table of 蔡小月, not from the record; the Ocora booklets were not read.",
+   "Begin year 1600 is an estimate from the two Ming printed songbooks; their exact dates (often given as 1604 in the van der Loon literature) are not on any page read here.",
+   "The English Wikipedia article carries a December 2025 notice that it appears to include language-model text, and its history section calls Quanzhou 廣州 (Guangzhou), an error. Its claims are used only where the Chinese article or UNESCO agree, except the early-20th-century Taiwan peak (60+ associations), which is from that flagged section.",
+   "Peaks (CN and TW 1980/1982-2010) are judgements from dated facts (1982 Nansheng She European tour and Ocora series, post-Cultural-Revolution revival, 2006 national list, 2009 UNESCO); no source states a peak.",
+   "Release years for iTunes albums come from the releaseDate field of the same lookup pages; they were not recorded as separate claims. 福建南音 (中国地方音乐大系4) is dated 2001 on iTunes, which may be a reissue date.",
+   "Rhymoi Music's 2026 album 中国音乐地图之听见福建 福建南音 was found but left out: the performers are not named (artist is the label).",
+   "正八音 百家春 (八音南管) by 陳冠華民俗樂團 left out: bayin wind-and-percussion music, not the sizhu ensemble."
+  ]
+ }
+}

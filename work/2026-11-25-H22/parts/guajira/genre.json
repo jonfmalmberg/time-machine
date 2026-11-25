@@ -1,0 +1,78 @@
+{
+ "id": "guajira",
+ "name": "Música guajira and punto cubano",
+ "aliases": [
+  "punto guajiro",
+  "punto cubano",
+  "punto",
+  "música campesina",
+  "guajira",
+  "guajira-son",
+  "guajira de salón",
+  "controversia",
+  "décima guajira"
+ ],
+ "region": "carib",
+ "family": "afrocuban",
+ "tradition": "cuban",
+ "began": 1700,
+ "ended": null,
+ "origin": {
+  "text": "The countryside of western and central Cuba (punto libre from Pinar del Río; punto fijo from Camagüey and Las Villas)",
+  "lat": 22.41,
+  "lon": -79.96,
+  "country": "CU"
+ },
+ "definition": {
+  "window": "c. 1700 onward: popular in western and central Cuba in the 17th century and a settled genre by the 18th; the composed guajira song from 1899; at its height on Cuban radio from about 1935; on UNESCO's Representative List since 2017; still sung in Cuba and on La Palma in the Canary Islands.",
+  "sound": "The sung poetry of Cuba's farmers: a singer improvises or sings a learned décima, ten eight-syllable lines with a fixed rhyme, over an unvarying tune picked on guitar, tres, laúd and tiple, with clave, güiro and the metal guayo. Laúd runs between stanzas give the singer time to make the next verse, and pairs of singers compete in improvised controversias. The composed guajira (from 1899) and the guajira-son of Guillermo Portabales, Celina González and Ramón Veloz keep its lilting hemiola rhythm and its idealised country themes.",
+  "markers": [
+   "Ten-line décimas, improvised or learned, sung over an unvarying tune with pauses between stanzas",
+   "Picked laúd, tres and guitar with clave, güiro and the metal guayo; laúd runs fill the gaps between verses",
+   "Controversia: two singers trading improvised décimas as a contest",
+   "A swaying 3-against-2 hemiola (sesquiáltera); guajira songs move from minor to the relative major and sing an idealised country life"
+  ]
+ },
+ "evidence": {
+  "name": [
+   "guajira:0",
+   "guajira:3",
+   "guajira:13",
+   "guajira:24",
+   "guajira:36"
+  ],
+  "definition": [
+   "guajira:0",
+   "guajira:1",
+   "guajira:2",
+   "guajira:7",
+   "guajira:8",
+   "guajira:9",
+   "guajira:15",
+   "guajira:16",
+   "guajira:19",
+   "guajira:25",
+   "guajira:26",
+   "guajira:27",
+   "guajira:29",
+   "guajira:30",
+   "guajira:36",
+   "guajira:10",
+   "guajira:17"
+  ],
+  "began": [
+   "guajira:4",
+   "guajira:5"
+  ],
+  "origin": [
+   "guajira:4",
+   "guajira:20",
+   "guajira:21"
+  ],
+  "split": [
+   "guajira:24",
+   "guajira:29",
+   "guajira:31"
+  ]
+ }
+}

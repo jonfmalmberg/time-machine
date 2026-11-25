@@ -1,0 +1,850 @@
+{
+ "nanguan": [
+  {
+   "kind": "def",
+   "field": "name, aliases",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "南音，原稱絃管，亦稱南管、南乐、南曲、郎君樂等",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "aliases",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Nanguan_music",
+   "quote": "also nanyin, nanyue, xianguan, or nanqu",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound, markers[0]",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "典型的編制為琵琶、三絃、洞簫、二絃、拍(板)，合稱上四管",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[0]",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "其特有的橫抱彈奏，猶存於弦管琵琶",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[0]",
+   "artist": null,
+   "title": null,
+   "url": "https://ich.unesco.org/en/RL/nanyin-00199",
+   "quote": "a crooked-neck lute played horizontally called the pipa",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound, markers[2]",
+   "artist": null,
+   "title": null,
+   "url": "https://ich.unesco.org/en/RL/nanyin-00199",
+   "quote": "sung in Quanzhou dialect, either by a sole singer who also plays clappers",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[1]",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "樂曲開頭多以彈撥樂器撚指起音，而後洞簫等樂器隨之溶入合奏",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[1]",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Nanguan_music",
+   "quote": "The gî-pê provides a steady rhythmic skeleton, supported by the sam-hiân.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound, markers[3]",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Nanguan_music",
+   "quote": "It is typically slow, gentle, delicate and melodic, heterophonic and employing four basic scales.",
+   "read": "2026-11-25",
+   "note": "The English article carries a December 2025 warning that it appears to include text from a language model; used only where the Chinese article or UNESCO says the same."
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound, markers[3]",
+   "artist": null,
+   "title": null,
+   "url": "https://ich.unesco.org/en/RL/nanyin-00199",
+   "quote": "The slow, simple and elegant melodies are performed on distinctive instruments such as a bamboo flute called the dongxiao",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "曲目主要有指、譜、曲三大類別",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound, family",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Nanguan_music",
+   "quote": "is a style of Chinese chamber music from the southern Chinese province of Fujian",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "tradition",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "是一個絲竹樂種",
+   "read": "2026-11-25",
+   "note": "A silk-and-bamboo genre, like jiangnansizhu, which sits in chineseclass."
+  },
+  {
+   "kind": "def",
+   "field": "began",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "現存最早的弦管曲簿，為明代的兩個刊本",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "began",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "不少名曲在四百多年前就已盛行",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "began",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "弦管的歷史淵源，可追溯到漢代的相和歌",
+   "read": "2026-11-25",
+   "note": "Claimed ancestry, not a first record of the genre itself."
+  },
+  {
+   "kind": "def",
+   "field": "origin",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "發源於古代泉州",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "origin",
+   "artist": null,
+   "title": null,
+   "url": "https://ich.unesco.org/en/RL/nanyin-00199",
+   "quote": "Nanyin is a musical performing art central to the culture of the people of Minnan in southern Fujian Province",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "現今流傳於中國的廈門、泉州、漳州，以及臺灣、東南亞的菲律賓、新加坡、馬來西亞、印度尼西亞等地",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence",
+   "artist": null,
+   "title": null,
+   "url": "https://ich.unesco.org/en/RL/nanyin-00199",
+   "quote": "It is the sound of the motherland for Minnan people in China and throughout South-East Asia.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence, aliases",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "東南亞的菲律賓或馬來西亞的華人社會， 則習慣地稱為南樂",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence TW peak",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Nanguan_music",
+   "quote": "During the early twentieth century, Nanguan reached its peak popularity in Taiwan, with more than sixty Nanguan associations established across the island.",
+   "read": "2026-11-25",
+   "note": "From the section of the English article flagged for language-model text; its source is an NTU thesis (Yang 2015) not read here."
+  },
+  {
+   "kind": "def",
+   "field": "presence TW",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Nanguan_music",
+   "quote": "By the 1970s, many Nanguan associations had disappeared",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence TW, FR",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "1982年，臺南南聲社受邀至歐洲巡演",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence TW",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "此次的巡演成功，在媒體報導和學者為文引介下，掀起了臺灣的弦管熱潮",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence SG",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "湘靈音樂社成立於1940年，是新加坡目前最主要的南音團體",
+   "read": "2026-11-25",
+   "note": "Inside a reference note quoting Sun Xingqun 1996."
+  },
+  {
+   "kind": "def",
+   "field": "presence PH",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/蔡小月",
+   "quote": "1961年12月，前往菲律賓五十九天",
+   "read": "2026-11-25",
+   "note": "Inside a reference note quoting Lü Yuxiu 2003: Nansheng She tour of the Philippines."
+  },
+  {
+   "kind": "def",
+   "field": "presence SG",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Nanguan_music",
+   "quote": "There are two nanguan associations in Singapore",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence CN",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "泉廈地區則至文革結束後開始復辦南音",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence CN",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "2006年5月20日，泉州的南音被列進中華人民共和國國務院公布的第一批國家級非物質文化遺產名錄",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "2009年9月30日申報成功",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage yayue",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "弦管體現了古代雅樂的審美思想",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage yayue",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "與弦管關係密切的清樂大曲，是唐代各種大曲的根基",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "neighbours (beiguan, no id)",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "在臺灣，與具有北方特色的北管相對",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "children with no id",
+   "artist": null,
+   "title": null,
+   "url": "https://ich.unesco.org/en/RL/nanyin-00199",
+   "quote": "has influenced opera, puppet theatre and other performing art traditions",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "數量多達數千首，謂之「詞山曲海」",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "指套目前共四十八套",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "大譜目前共十六套",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Nanguan_music",
+   "quote": "two thousand pieces exist in manuscript",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "tie: Tsai Hsiao-yüeh",
+   "artist": "蔡小月",
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/蔡小月",
+   "quote": "蔡小月（1941年—），南管演唱家（曲腳），南聲社成員",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "tie: Wang Xinxin",
+   "artist": "王心心",
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "弦管音樂家王心心彈奏弦管琵琶",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "tie: Li Baiyan, national nanyin inheritor",
+   "artist": "李白燕",
+   "title": null,
+   "url": "https://zh.wikipedia.org/wiki/南管",
+   "quote": "李白燕，女（1966 -），泉州市，第六批",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "風落梧桐",
+   "url": "https://musicbrainz.org/release/36b1387b-9c03-45b8-adea-b503048f948e",
+   "quote": "Le vent dans les platanes (Fong lo wou‐t’ong)",
+   "read": "2026-11-25",
+   "note": "Album title names the genre (Nan-kouan); Tsai is called a nanguan singer on Chinese Wikipedia."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "風落梧桐",
+   "url": "https://zh.wikipedia.org/wiki/蔡小月",
+   "quote": "Le Vent Dans Les Platanes 風落梧桐",
+   "read": "2026-11-25",
+   "note": "Chinese title of the Ocora track."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "共君斷約",
+   "url": "https://musicbrainz.org/release/36b1387b-9c03-45b8-adea-b503048f948e",
+   "quote": "Le rendez‐vous (Kong kiun touan‐yu)",
+   "read": "2026-11-25",
+   "note": "Album title names the genre (Nan-kouan); Tsai is called a nanguan singer on Chinese Wikipedia."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "共君斷約",
+   "url": "https://zh.wikipedia.org/wiki/蔡小月",
+   "quote": "Le Rendez-Vous 共君斷約",
+   "read": "2026-11-25",
+   "note": "Chinese title of the Ocora track."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "冬天寒",
+   "url": "https://musicbrainz.org/release/36b1387b-9c03-45b8-adea-b503048f948e",
+   "quote": "Froid est l’hiver (T’ong‐t’ien han)",
+   "read": "2026-11-25",
+   "note": "Album title names the genre (Nan-kouan); Tsai is called a nanguan singer on Chinese Wikipedia."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "冬天寒",
+   "url": "https://zh.wikipedia.org/wiki/蔡小月",
+   "quote": "Froid Est L'hiver 冬天寒",
+   "read": "2026-11-25",
+   "note": "Chinese title of the Ocora track."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "心頭悶憔憔",
+   "url": "https://musicbrainz.org/release/36b1387b-9c03-45b8-adea-b503048f948e",
+   "quote": "Affligé est mon cœur (Sin‐t’eou men ts’iao‐ts’iao)",
+   "read": "2026-11-25",
+   "note": "Album title names the genre (Nan-kouan); Tsai is called a nanguan singer on Chinese Wikipedia."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "心頭悶憔憔",
+   "url": "https://zh.wikipedia.org/wiki/蔡小月",
+   "quote": "Afflige Est Mon Coeur 心頭悶憔憔",
+   "read": "2026-11-25",
+   "note": "Chinese title of the Ocora track."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "告大人",
+   "url": "https://musicbrainz.org/release/36b1387b-9c03-45b8-adea-b503048f948e",
+   "quote": "Le procès (Kao ta‐jen)",
+   "read": "2026-11-25",
+   "note": "Album title names the genre (Nan-kouan); Tsai is called a nanguan singer on Chinese Wikipedia."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "告大人",
+   "url": "https://zh.wikipedia.org/wiki/蔡小月",
+   "quote": "Le ProceS 告大人",
+   "read": "2026-11-25",
+   "note": "Chinese title of the Ocora track."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "懶繡停針",
+   "url": "https://musicbrainz.org/release/fe6042a8-f5bd-4a93-b6e3-605ca16454da",
+   "quote": "Lán-Siù Thêng-Chiam (Lasse De Broder)",
+   "read": "2026-11-25",
+   "note": "Album title names the genre (Nan-kouan); Tsai is called a nanguan singer on Chinese Wikipedia."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "懶繡停針",
+   "url": "https://zh.wikipedia.org/wiki/蔡小月",
+   "quote": "Lan-Siu Theng-Chiam (Lasse De Broder) 懶繡停針",
+   "read": "2026-11-25",
+   "note": "Chinese title of the Ocora track."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "夫為功名",
+   "url": "https://musicbrainz.org/release/fe6042a8-f5bd-4a93-b6e3-605ca16454da",
+   "quote": "Hû Ûi Kong-Bêng (Pour La Gloire)",
+   "read": "2026-11-25",
+   "note": "Album title names the genre (Nan-kouan); Tsai is called a nanguan singer on Chinese Wikipedia."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "夫為功名",
+   "url": "https://zh.wikipedia.org/wiki/蔡小月",
+   "quote": "Hu Ui Kong-Beng (Pour La Gloire) 夫為功名",
+   "read": "2026-11-25",
+   "note": "Chinese title of the Ocora track."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "因送哥嫂",
+   "url": "https://musicbrainz.org/release/fe6042a8-f5bd-4a93-b6e3-605ca16454da",
+   "quote": "In-Sâng Ko-Só (En Accompagnant Mon Frère)",
+   "read": "2026-11-25",
+   "note": "Album title names the genre (Nan-kouan); Tsai is called a nanguan singer on Chinese Wikipedia."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "因送哥嫂",
+   "url": "https://zh.wikipedia.org/wiki/蔡小月",
+   "quote": "In-Sang Ko-So (En Acccompagnant Mon Frere) 因送哥嫂",
+   "read": "2026-11-25",
+   "note": "Chinese title of the Ocora track."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "望明月",
+   "url": "https://musicbrainz.org/release/61129263-bee4-4030-afb2-63d739202076",
+   "quote": "La Pleine lune",
+   "read": "2026-11-25",
+   "note": "Album title names the genre (Nan-kouan); Tsai is called a nanguan singer on Chinese Wikipedia."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "望明月",
+   "url": "https://zh.wikipedia.org/wiki/蔡小月",
+   "quote": "La Pleine Lune(Bong Beng-Goat) 望明月",
+   "read": "2026-11-25",
+   "note": "Chinese title of the Ocora track."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "感謝公主",
+   "url": "https://musicbrainz.org/release/61129263-bee4-4030-afb2-63d739202076",
+   "quote": "Merci princesse!",
+   "read": "2026-11-25",
+   "note": "Album title names the genre (Nan-kouan); Tsai is called a nanguan singer on Chinese Wikipedia."
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "感謝公主",
+   "url": "https://zh.wikipedia.org/wiki/蔡小月",
+   "quote": "Merci Princesse!(Kam-Sia Kong-Tsu) 感謝公主",
+   "read": "2026-11-25",
+   "note": "Chinese title of the Ocora track."
+  },
+  {
+   "kind": "song",
+   "artist": "台南南聲社",
+   "title": "梅花操",
+   "url": "https://itunes.apple.com/lookup?id=1698439060&entity=song&country=TW",
+   "quote": "\"trackName\":\"梅花操\"",
+   "read": "2026-11-25",
+   "note": "Album title 台灣的南管音樂 names the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "台南南聲社",
+   "title": "荼蘼架",
+   "url": "https://itunes.apple.com/lookup?id=1698439060&entity=song&country=TW",
+   "quote": "\"trackName\":\"荼蘼架\"",
+   "read": "2026-11-25",
+   "note": "Album title names the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "台南南聲社",
+   "title": "水月耀光",
+   "url": "https://itunes.apple.com/lookup?id=1698439060&entity=song&country=TW",
+   "quote": "\"trackName\":\"水月耀光\"",
+   "read": "2026-11-25",
+   "note": "Album title names the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "王心心",
+   "title": "山險峻",
+   "url": "https://itunes.apple.com/lookup?id=656119848&entity=song&country=TW",
+   "quote": "\"trackName\":\"山險峻\"",
+   "read": "2026-11-25",
+   "note": "Album title 昭君出塞-王心心南管吟唱 names the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "王心心",
+   "title": "陳三五娘-精神頓",
+   "url": "https://itunes.apple.com/lookup?id=656119872&entity=song&country=TW",
+   "quote": "\"trackName\":\"陳三五娘-精神頓\"",
+   "read": "2026-11-25",
+   "note": "Album title 園內花開-南管錦曲指套精選 names the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "王心心",
+   "title": "朱弁.舉起金杯",
+   "url": "https://itunes.apple.com/lookup?id=656119872&entity=song&country=TW",
+   "quote": "\"trackName\":\"朱弁.舉起金杯\"",
+   "read": "2026-11-25",
+   "note": "Album title names the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "王心心",
+   "title": "普庵咒 (演奏)",
+   "url": "https://itunes.apple.com/lookup?id=990550867&entity=song&country=TW",
+   "quote": "\"trackName\":\"普庵咒 (演奏)\"",
+   "read": "2026-11-25",
+   "note": "Album title 普庵咒-王心心南管南管禪唱 names the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "李白燕",
+   "title": "三更鼓",
+   "url": "https://itunes.apple.com/lookup?id=1417372769&entity=song&country=TW",
+   "quote": "\"trackName\":\"三更鼓\"",
+   "read": "2026-11-25",
+   "note": "Album title 福建南音 names the genre; Li Baiyan is a national nanyin inheritor."
+  },
+  {
+   "kind": "song",
+   "artist": "謝曉雪",
+   "title": "汝因勢 (噯仔指)",
+   "url": "https://itunes.apple.com/lookup?id=1417372769&entity=song&country=TW",
+   "quote": "\"trackName\":\"汝因勢 (噯仔指)\"",
+   "read": "2026-11-25",
+   "note": "Album title 福建南音 names the genre (tie by title only)."
+  },
+  {
+   "kind": "song",
+   "artist": "周成在",
+   "title": "滿空飛",
+   "url": "https://itunes.apple.com/lookup?id=1417372769&entity=song&country=TW",
+   "quote": "\"trackName\":\"滿空飛\"",
+   "read": "2026-11-25",
+   "note": "Album title 福建南音 names the genre (tie by title only)."
+  },
+  {
+   "kind": "song",
+   "artist": "青和南管",
+   "title": "望明月",
+   "url": "https://itunes.apple.com/lookup?id=1854977132&entity=song&country=TW",
+   "quote": "\"trackName\":\"望明月\"",
+   "read": "2026-11-25",
+   "note": "Ensemble name names the genre; album title Nan Guan San Qu."
+  },
+  {
+   "kind": "song",
+   "artist": "青和南管",
+   "title": "遠看長亭",
+   "url": "https://itunes.apple.com/lookup?id=1854977132&entity=song&country=TW",
+   "quote": "\"trackName\":\"遠看長亭\"",
+   "read": "2026-11-25",
+   "note": "Ensemble name names the genre."
+  },
+  {
+   "kind": "song",
+   "artist": "青和南管",
+   "title": "一紙相思",
+   "url": "https://itunes.apple.com/lookup?id=1854983817&entity=song&country=TW",
+   "quote": "\"trackName\":\"一紙相思\"",
+   "read": "2026-11-25",
+   "note": "Ensemble name names the genre; one of the five great zhi suites."
+  },
+  {
+   "kind": "song",
+   "artist": "青和南管",
+   "title": "自來生長",
+   "url": "https://itunes.apple.com/lookup?id=1854986453&entity=song&country=TW",
+   "quote": "\"trackName\":\"自來生長\"",
+   "read": "2026-11-25",
+   "note": "Ensemble name names the genre; one of the five great zhi suites."
+  },
+  {
+   "kind": "album",
+   "artist": "蔡小月 & 南聲社",
+   "title": "Chine : Nan-kouan - Musique et chant courtois de la Chine du sud",
+   "url": "https://musicbrainz.org/release/36b1387b-9c03-45b8-adea-b503048f948e",
+   "quote": "Chine : Nan-kouan - Musique et chant courtois de la Chine du sud",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "蔡小月 & 南聲社",
+   "title": "Chine : Nan-Kouan Volumes 2 & 3 - Chants Courtois De La Chine Du Sud",
+   "url": "https://musicbrainz.org/release/fe6042a8-f5bd-4a93-b6e3-605ca16454da",
+   "quote": "Chine : Nan-Kouan Volumes 2 & 3 - Chants Courtois De La Chine Du Sud",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "蔡小月",
+   "title": "Nan-kouan: Chants courtois de la Chine du Sud. Volumes 4, 5, 6",
+   "url": "https://musicbrainz.org/release/61129263-bee4-4030-afb2-63d739202076",
+   "quote": "Nan-kouan: Chants courtois de la Chine du Sud. Volumes 4, 5, 6",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "台南南聲社",
+   "title": "台灣的南管音樂",
+   "url": "https://itunes.apple.com/lookup?id=1698439060&entity=song&country=TW",
+   "quote": "\"collectionName\":\"台灣的南管音樂\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "王心心",
+   "title": "園內花開-南管錦曲指套精選",
+   "url": "https://itunes.apple.com/lookup?id=656119872&entity=song&country=TW",
+   "quote": "\"collectionName\":\"園內花開-南管錦曲指套精選\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "王心心",
+   "title": "昭君出塞-王心心南管吟唱",
+   "url": "https://itunes.apple.com/lookup?id=656119848&entity=song&country=TW",
+   "quote": "\"collectionName\":\"昭君出塞-王心心南管吟唱\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "王心心",
+   "title": "普庵咒-王心心南管南管禪唱",
+   "url": "https://itunes.apple.com/lookup?id=990550867&entity=song&country=TW",
+   "quote": "\"collectionName\":\"普庵咒-王心心南管南管禪唱\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "福建南音 (中国地方音乐大系4)",
+   "url": "https://itunes.apple.com/lookup?id=1417372769&entity=song&country=TW",
+   "quote": "\"collectionName\":\"福建南音 (中国地方音乐大系4)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "青和南管",
+   "title": "Wang Ming Yue- Luo Hui Xian Nan Guan San Qu",
+   "url": "https://itunes.apple.com/lookup?id=1854977132&entity=song&country=TW",
+   "quote": "\"collectionName\":\"Wang Ming Yue- Luo Hui Xian Nan Guan San Qu\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "青和南管",
+   "title": "Yi Zhi Xiang Si- Qing He Nan Guan Zhi Tao Chang Zou",
+   "url": "https://itunes.apple.com/lookup?id=1854983817&entity=song&country=TW",
+   "quote": "\"collectionName\":\"Yi Zhi Xiang Si- Qing He Nan Guan Zhi Tao Chang Zou\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "青和南管",
+   "title": "Zi Lai Sheng Chang- Nan Guan Zhi Tao Chang Zou",
+   "url": "https://itunes.apple.com/lookup?id=1854986453&entity=song&country=TW",
+   "quote": "\"collectionName\":\"Zi Lai Sheng Chang- Nan Guan Zhi Tao Chang Zou\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "風落梧桐 (album date)",
+   "url": "https://musicbrainz.org/release/36b1387b-9c03-45b8-adea-b503048f948e",
+   "quote": "\"date\":\"1983\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "懶繡停針 (album date)",
+   "url": "https://musicbrainz.org/release/fe6042a8-f5bd-4a93-b6e3-605ca16454da",
+   "quote": "\"date\":\"1992-09\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "蔡小月 & 南聲社",
+   "title": "望明月 (album date)",
+   "url": "https://musicbrainz.org/release/61129263-bee4-4030-afb2-63d739202076",
+   "quote": "\"date\":\"1993\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "蔡小月 & 南聲社",
+   "title": "風落梧桐",
+   "url": "https://musicbrainz.org/release/36b1387b-9c03-45b8-adea-b503048f948e",
+   "quote": "Le vent dans les platanes (Fong lo wou‐t’ong)",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "台南南聲社",
+   "title": "梅花操",
+   "url": "https://itunes.apple.com/lookup?id=1698439060&entity=song&country=TW",
+   "quote": "\"trackName\":\"梅花操\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "王心心",
+   "title": "山險峻",
+   "url": "https://itunes.apple.com/lookup?id=656119848&entity=song&country=TW",
+   "quote": "\"trackName\":\"山險峻\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "李白燕",
+   "title": "三更鼓",
+   "url": "https://itunes.apple.com/lookup?id=1417372769&entity=song&country=TW",
+   "quote": "\"trackName\":\"三更鼓\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "Huxing Ting Teahouse Ensemble",
+   "title": "中花六板",
+   "url": "https://musicbrainz.org/release/07ab419f-dbec-43a8-80a6-9462ea77a1b5",
+   "quote": "Zhonghua Liuban (Moderately-decorated six-beat)",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "劉煜",
+   "title": "遊園【皂羅袍】【好姐姐】",
+   "url": "https://itunes.apple.com/lookup?id=1872602986&entity=song&country=TW",
+   "quote": "\"trackName\":\"遊園【皂羅袍】【好姐姐】\"",
+   "read": "2026-11-25"
+  }
+ ]
+}

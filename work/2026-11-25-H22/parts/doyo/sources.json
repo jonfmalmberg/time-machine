@@ -1,0 +1,685 @@
+{
+ "doyo": [
+  {
+   "kind": "def",
+   "field": "name",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Doyo",
+   "quote": "Dōyō (童謡) are Japanese children's songs that are well-known across Japan.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "began, definition",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Doyo",
+   "quote": "In 1918, a new movement began in which Japan’s top songwriters assembled to consciously create higher quality children’s songs.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/童謡",
+   "quote": "狭義には日本において大正時代後期以降、子供に歌われることを目的に作られた文学作品と、それに作曲が施された歌曲を指す。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition, parentage",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/童謡",
+   "quote": "この意味で用いる場合は、学校教育用に創作された唱歌や、自然発生的に作られたわらべ歌（自然童謡、伝承童謡）などは含まれない。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "began",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/童謡",
+   "quote": "鈴木は1918年（大正7年）7月、児童雑誌『赤い鳥』の創刊を契機に",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/赤い鳥",
+   "quote": "単純な有節形式でない唱歌と異なる音楽に人々は衝撃を受け大評判となった。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/赤い鳥",
+   "quote": "鈴木三重吉の目から見て低級で愚かな政府が主導する唱歌や説話に対し",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "began, attested",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/かなりや",
+   "quote": "曲のついた童謡として初めて発表された作品である。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition, peak",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/童謡",
+   "quote": "『赤い鳥』の北原白秋と山田耕筰、『金の船』（後『金の星』と改題）の野口雨情と本居長世などが多くの曲を手がけ、童謡の黄金時代を築いた。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/中山晋平",
+   "quote": "長調の曲はほとんどがヨナ抜き音階で書かれている。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/中山晋平",
+   "quote": "のようなピョンコ節がかなりある。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/童謡",
+   "quote": "本居長世の長女、本居みどりは日本初の童謡歌手であり",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "peak",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/童謡",
+   "quote": "占領下の日本においては史上空前の童謡ブームが巻き起こる。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "peak; performer ties",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/童謡",
+   "quote": "戦後には少女童謡歌手として川田三姉妹や古賀さと子、小鳩くるみなどが人気を博した。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/故郷_(唱歌)",
+   "quote": "「唱歌」（ここでは文部省唱歌の意）と「童謡」は、厳密には別個の概念である。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "origin",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/金の星社",
+   "quote": "東京市麹町区飯田町の出版社キンノツノ社",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "near; parentage",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/野口雨情",
+   "quote": "他方童謡とともに盛んとなった「新民謡」（創作民謡）にも力を注ぎ",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/童謡",
+   "quote": "全部の売上枚数より童謡の売上枚数の方が多い",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/中山晋平",
+   "quote": "中山の作品と判明しているものだけで1770曲存在する。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "平井英子",
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/平井英子",
+   "quote": "大正末期から昭和初期にかけて童謡のジャンルで活躍した日本の歌手である",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "川田正子",
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/川田正子",
+   "quote": "川田 正子（かわだ まさこ、1934年7月12日 - 2006年1月22日）は、日本の童謡歌手。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "平井英子 & 中山晋平",
+   "title": "てるてる坊主",
+   "url": "https://itunes.apple.com/lookup?id=1468813316&entity=song&country=JP",
+   "quote": "\"artistName\":\"平井英子 & 中山晋平\", \"collectionName\":\"中山晋平の童謡\", \"trackName\":\"てるてる坊主\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "平井英子",
+   "title": "てるてる坊主",
+   "url": "https://ja.wikipedia.org/wiki/平井英子",
+   "quote": "てるてる坊主（1928年/ビクター 50503）",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "佐藤千夜子 & 中山晋平",
+   "title": "雨降りお月さん",
+   "url": "https://itunes.apple.com/lookup?id=1468813316&entity=song&country=JP",
+   "quote": "\"artistName\":\"佐藤千夜子 & 中山晋平\", \"collectionName\":\"中山晋平の童謡\", \"trackName\":\"雨降りお月\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "佐藤千夜子",
+   "title": "雨降りお月さん",
+   "url": "https://ja.wikipedia.org/wiki/雨降りお月さん",
+   "quote": "に「雨降りお月」の曲名で佐藤千夜子が吹き込んだ。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "雨降りお月さん",
+   "url": "https://ja.wikipedia.org/wiki/雨降りお月さん",
+   "quote": "1925年（大正14年）の『コドモノクニ』正月臨時増刊号で楽譜付きで発表された",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "本多信子",
+   "title": "七つの子",
+   "url": "https://itunes.apple.com/lookup?id=1758286428&entity=song&country=JP",
+   "quote": "\"artistName\":\"本多信子\", \"collectionName\":\"七つの子～野口雨情作品集\", \"trackName\":\"七つの子\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "七つの子",
+   "url": "https://ja.wikipedia.org/wiki/七つの子",
+   "quote": "1921年、童謡・童話雑誌『金の船』（キンノツノ社）に発表された。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "川田正子 & コロムビア・オーケストラ",
+   "title": "里の秋",
+   "url": "https://itunes.apple.com/lookup?id=1814353489&entity=song&country=JP",
+   "quote": "\"artistName\":\"川田正子 & コロムビア・オーケストラ\", \"collectionName\":\"童謡歌手 川田正子 〜いつも私のそばには、歌があった〜《こども時代…なつかしい歌声》\", \"trackName\":\"里の秋\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "里の秋",
+   "url": "https://ja.wikipedia.org/wiki/里の秋",
+   "quote": "1945年（昭和20年）12月24日、ラジオ番組『外地引揚同胞激励の午后』の中で",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "平井英子 & 中山晋平",
+   "title": "兎のダンス",
+   "url": "https://itunes.apple.com/lookup?id=1468813316&entity=song&country=JP",
+   "quote": "\"artistName\":\"平井英子 & 中山晋平\", \"collectionName\":\"中山晋平の童謡\", \"trackName\":\"兎のダンス\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "平井英子",
+   "title": "兎のダンス",
+   "url": "https://ja.wikipedia.org/wiki/平井英子",
+   "quote": "兎のダンス（1929年/ビクター 50899）",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "兎のダンス",
+   "url": "https://ja.wikipedia.org/wiki/兎のダンス",
+   "quote": "1924年（大正13年）に雑誌『コドモノクニ5月号』で発表された",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "平井英子, みどり会少女連 & 中山晋平",
+   "title": "証城寺の狸囃子",
+   "url": "https://itunes.apple.com/lookup?id=1468813316&entity=song&country=JP",
+   "quote": "\"artistName\":\"平井英子, みどり会少女連 & 中山晋平\", \"collectionName\":\"中山晋平の童謡\", \"trackName\":\"證城寺の狸囃子\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "平井英子",
+   "title": "証城寺の狸囃子",
+   "url": "https://ja.wikipedia.org/wiki/平井英子",
+   "quote": "証城寺の狸囃子（1929年/ビクター 50669）",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "証城寺の狸囃子",
+   "url": "https://ja.wikipedia.org/wiki/証城寺の狸囃子",
+   "quote": "証城寺の狸囃子（しょうじょうじのたぬきばやし）は、日本の童謡である。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "平井英子 & 中山晋平",
+   "title": "あの町この町",
+   "url": "https://itunes.apple.com/lookup?id=1468813316&entity=song&country=JP",
+   "quote": "\"artistName\":\"平井英子 & 中山晋平\", \"collectionName\":\"中山晋平の童謡\", \"trackName\":\"あの町 この町\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "平井英子",
+   "title": "あの町この町",
+   "url": "https://ja.wikipedia.org/wiki/平井英子",
+   "quote": "あの町この町（1928年/ビクター 50503）",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "平井英子",
+   "title": "砂山",
+   "url": "https://itunes.apple.com/lookup?id=1468813316&entity=song&country=JP",
+   "quote": "\"artistName\":\"平井英子\", \"collectionName\":\"中山晋平の童謡\", \"trackName\":\"砂山\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "平井英子",
+   "title": "砂山",
+   "url": "https://ja.wikipedia.org/wiki/平井英子",
+   "quote": "砂山（中山晋平作曲版）（1931年/ビクター 51821）",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "平井英子",
+   "title": "あめふり",
+   "url": "https://itunes.apple.com/lookup?id=1468813316&entity=song&country=JP",
+   "quote": "\"artistName\":\"平井英子\", \"collectionName\":\"中山晋平の童謡\", \"trackName\":\"アメフリ\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "平井英子",
+   "title": "あめふり",
+   "url": "https://ja.wikipedia.org/wiki/平井英子",
+   "quote": "あめふり（1931年/ビクター 51821）",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "平井英子 & 日本ビクター・マンドリン・オーケストラ",
+   "title": "十五夜お月さん",
+   "url": "https://itunes.apple.com/lookup?id=1758286428&entity=song&country=JP",
+   "quote": "\"artistName\":\"平井英子 & 日本ビクター・マンドリン・オーケストラ\", \"collectionName\":\"七つの子～野口雨情作品集\", \"trackName\":\"十五夜お月さん\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "平井英子",
+   "title": "十五夜お月さん",
+   "url": "https://ja.wikipedia.org/wiki/平井英子",
+   "quote": "十五夜お月さん（1932年/ビクター 52370）",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "本多信子",
+   "title": "赤い靴",
+   "url": "https://itunes.apple.com/lookup?id=1758286428&entity=song&country=JP",
+   "quote": "\"artistName\":\"本多信子\", \"collectionName\":\"七つの子～野口雨情作品集\", \"trackName\":\"赤い靴\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "赤い靴",
+   "url": "https://ja.wikipedia.org/wiki/赤い靴",
+   "quote": "1922年（大正11年）、野口雨情作詞・本居長世作曲で発表された童謡である。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "本多信子",
+   "title": "青い眼の人形",
+   "url": "https://itunes.apple.com/lookup?id=1758286428&entity=song&country=JP",
+   "quote": "\"artistName\":\"本多信子\", \"collectionName\":\"七つの子～野口雨情作品集\", \"trackName\":\"青い目の人形\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "青い眼の人形",
+   "url": "https://ja.wikipedia.org/wiki/青い目の人形",
+   "quote": "野口雨情が「青い眼の人形」の詩を発表したのは1921年（大正10年）10月のこと",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "杉田和子, 中村浩子 & 椎橋睦子",
+   "title": "背くらべ",
+   "url": "https://itunes.apple.com/lookup?id=1468813316&entity=song&country=JP",
+   "quote": "\"artistName\":\"杉田和子, 中村浩子 & 椎橋睦子\", \"collectionName\":\"中山晋平の童謡\", \"trackName\":\"背くらべ\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "背くらべ",
+   "url": "https://ja.wikipedia.org/wiki/背くらべ",
+   "quote": "日本の童謡。1923年（大正12年）に童謡楽譜集",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "川田正子 & コロムビア・オーケストラ",
+   "title": "みかんの花咲く丘",
+   "url": "https://itunes.apple.com/lookup?id=1814353489&entity=song&country=JP",
+   "quote": "\"artistName\":\"川田正子 & コロムビア・オーケストラ\", \"collectionName\":\"童謡歌手 川田正子 〜いつも私のそばには、歌があった〜《こども時代…なつかしい歌声》\", \"trackName\":\"みかんの花咲く丘\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "みかんの花咲く丘",
+   "url": "https://ja.wikipedia.org/wiki/みかんの花咲く丘",
+   "quote": "1946年8月25日に発表された。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "川田正子",
+   "title": "汽車ポッポ",
+   "url": "https://itunes.apple.com/lookup?id=1814353489&entity=song&country=JP",
+   "quote": "\"artistName\":\"川田正子\", \"collectionName\":\"童謡歌手 川田正子 〜いつも私のそばには、歌があった〜《こども時代…なつかしい歌声》\", \"trackName\":\"汽車ぽっぽ\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "汽車ポッポ",
+   "url": "https://ja.wikipedia.org/wiki/汽車ポッポ",
+   "quote": "1937年（昭和12年）にレコード用の童謡『兵隊さんの汽車』として世に出た。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "古賀さと子",
+   "title": "花かげ",
+   "url": "https://itunes.apple.com/lookup?id=1321324991&entity=song&country=JP",
+   "quote": "\"artistName\":\"古賀 さと子\", \"collectionName\":\"童謡誕生ストーリー第2話 ~文学から音楽へ・昭和童謡~\", \"trackName\":\"花かげ\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "花かげ",
+   "url": "https://ja.wikipedia.org/wiki/花かげ",
+   "quote": "花かげは日本の童謡。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "中村邦子",
+   "title": "月の沙漠",
+   "url": "https://itunes.apple.com/lookup?id=1321787484&entity=song&country=JP",
+   "quote": "\"artistName\":\"中村邦子\", \"collectionName\":\"童謡誕生ストーリー第1話 ~童謡誕生の瞬間~\", \"trackName\":\"月の砂漠\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "月の沙漠",
+   "url": "https://ja.wikipedia.org/wiki/月の沙漠",
+   "quote": "1923年（大正12年）3月号に発表した、詩と挿画からなる作品である。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "芹洋子",
+   "title": "かなりや",
+   "url": "https://itunes.apple.com/lookup?id=1690311397&entity=song&country=JP",
+   "quote": "\"artistName\":\"芹洋子\", \"collectionName\":\"心のふるさと 懐かしの童謡 ベスト\", \"trackName\":\"かなりや\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "由紀さおり・安田祥子",
+   "title": "赤とんぼ",
+   "url": "https://itunes.apple.com/lookup?id=1445753790&entity=song&country=JP",
+   "quote": "\"artistName\":\"由紀さおり・安田祥子\", \"collectionName\":\"安田シスターズ 童謡・唱歌 オールタイムベスト 101\", \"trackName\":\"赤とんぼ\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "赤とんぼ",
+   "url": "https://ja.wikipedia.org/wiki/赤とんぼ_(童謡)",
+   "quote": "この詩に、1927年（昭和2年）、山田耕筰が曲をつけた。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "由紀さおり・安田祥子",
+   "title": "この道",
+   "url": "https://itunes.apple.com/lookup?id=1445753790&entity=song&country=JP",
+   "quote": "\"artistName\":\"由紀さおり・安田祥子\", \"collectionName\":\"安田シスターズ 童謡・唱歌 オールタイムベスト 101\", \"trackName\":\"この道\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "この道",
+   "url": "https://ja.wikipedia.org/wiki/この道",
+   "quote": "1927年、北原白秋の詩に曲をつけたもので",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "東京混声合唱団",
+   "title": "からたちの花",
+   "url": "https://itunes.apple.com/lookup?id=1321324991&entity=song&country=JP",
+   "quote": "\"artistName\":\"東京混声合唱団\", \"collectionName\":\"童謡誕生ストーリー第2話 ~文学から音楽へ・昭和童謡~\", \"trackName\":\"からたちの花\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "からたちの花",
+   "url": "https://ja.wikipedia.org/wiki/からたちの花",
+   "quote": "メロディは1925年に「女性」で発表された。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "川田正子",
+   "title": "浜千鳥",
+   "url": "https://itunes.apple.com/lookup?id=1742130466&entity=song&country=JP",
+   "quote": "\"artistName\":\"川田正子\", \"collectionName\":\"思い出の童謡名曲集 みかんの花咲く丘\", \"trackName\":\"浜千鳥\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "浜千鳥",
+   "url": "https://ja.wikipedia.org/wiki/浜千鳥",
+   "quote": "1919年発表の日本の童謡。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "平井英子 & 中山晋平",
+   "title": "兎のダンス",
+   "url": "https://itunes.apple.com/lookup?id=1468813316&entity=song&country=JP",
+   "quote": "\"artistName\":\"平井英子 & 中山晋平\", \"collectionName\":\"中山晋平の童謡\", \"trackName\":\"兎のダンス\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "佐藤千夜子 & 中山晋平",
+   "title": "雨降りお月さん",
+   "url": "https://itunes.apple.com/lookup?id=1468813316&entity=song&country=JP",
+   "quote": "\"artistName\":\"佐藤千夜子 & 中山晋平\", \"collectionName\":\"中山晋平の童謡\", \"trackName\":\"雨降りお月\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "本多信子",
+   "title": "七つの子",
+   "url": "https://itunes.apple.com/lookup?id=1758286428&entity=song&country=JP",
+   "quote": "\"artistName\":\"本多信子\", \"collectionName\":\"七つの子～野口雨情作品集\", \"trackName\":\"七つの子\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "由紀さおり・安田祥子",
+   "title": "故郷",
+   "url": "https://itunes.apple.com/lookup?id=1445753790&entity=song&country=JP",
+   "quote": "\"artistName\":\"由紀さおり・安田祥子\", \"collectionName\":\"安田シスターズ 童謡・唱歌 オールタイムベスト 101\", \"trackName\":\"故郷\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": null,
+   "title": "故郷",
+   "url": "https://ja.wikipedia.org/wiki/故郷_(唱歌)",
+   "quote": "高野辰之作詞・岡野貞一作曲による文部省唱歌。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "岸井明 & 平井英子",
+   "title": "タバコやの娘",
+   "url": "https://itunes.apple.com/lookup?id=1588851613&entity=song&country=JP",
+   "quote": "\"artistName\":\"岸井明 & 平井英子\", \"collectionName\":\"世紀の楽団 唄う映画スタア 岸井明\", \"trackName\":\"タバコやの娘\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "平井英子",
+   "title": "タバコやの娘",
+   "url": "https://ja.wikipedia.org/wiki/平井英子",
+   "quote": "タバコやの娘（1937年/ビクター 53999",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "佐藤千夜子",
+   "title": "須坂小唄",
+   "url": "https://itunes.apple.com/lookup?id=1758286428&entity=song&country=JP",
+   "quote": "\"artistName\":\"佐藤千夜子\", \"collectionName\":\"七つの子～野口雨情作品集\", \"trackName\":\"須坂小唄 (一)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "中山晋平",
+   "title": null,
+   "url": "https://ja.wikipedia.org/wiki/中山晋平",
+   "quote": "多くの傑作といわれる童謡・流行歌・新民謡などを残した。",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "中山晋平の童謡",
+   "url": "https://itunes.apple.com/lookup?id=1468813316&entity=song&country=JP",
+   "quote": "\"collectionName\":\"中山晋平の童謡\", \"trackName\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "七つの子～野口雨情作品集",
+   "url": "https://itunes.apple.com/lookup?id=1758286428&entity=song&country=JP",
+   "quote": "\"collectionName\":\"七つの子～野口雨情作品集\", \"trackName\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "童謡誕生ストーリー第2話 ~文学から音楽へ・昭和童謡~",
+   "url": "https://itunes.apple.com/lookup?id=1321324991&entity=song&country=JP",
+   "quote": "\"collectionName\":\"童謡誕生ストーリー第2話 ~文学から音楽へ・昭和童謡~\", \"trackName\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "川田正子",
+   "title": "童謡歌手 川田正子 〜いつも私のそばには、歌があった〜《こども時代…なつかしい歌声》",
+   "url": "https://itunes.apple.com/lookup?id=1814353489&entity=song&country=JP",
+   "quote": "\"collectionName\":\"童謡歌手 川田正子 〜いつも私のそばには、歌があった〜《こども時代…なつかしい歌声》\", \"trackName\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "川田正子",
+   "title": "思い出の童謡名曲集 みかんの花咲く丘",
+   "url": "https://itunes.apple.com/lookup?id=1742130466&entity=song&country=JP",
+   "quote": "\"collectionName\":\"思い出の童謡名曲集 みかんの花咲く丘\", \"trackName\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "由紀さおり・安田祥子",
+   "title": "安田シスターズ 童謡・唱歌 オールタイムベスト 101",
+   "url": "https://itunes.apple.com/lookup?id=1445753790&entity=song&country=JP",
+   "quote": "\"collectionName\":\"安田シスターズ 童謡・唱歌 オールタイムベスト 101\", \"trackName\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": null,
+   "title": "青い眼の人形",
+   "url": "https://ja.wikipedia.org/wiki/青い目の人形",
+   "quote": "前述の童謡『青い眼の人形』でも歌われたように",
+   "read": "2026-11-25"
+  }
+ ]
+}

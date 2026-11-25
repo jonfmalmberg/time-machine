@@ -1,0 +1,57 @@
+[
+ {
+  "genre": "amazighbands",
+  "place": "MA",
+  "kind": "origin",
+  "from": 1972,
+  "basis": "first estimate",
+  "evidence": [
+   "amazighbands:16",
+   "amazighbands:17",
+   "amazighbands:18"
+  ]
+ },
+ {
+  "genre": "amazighbands",
+  "place": "mena",
+  "kind": "peak",
+  "from": 1975,
+  "to": 1995,
+  "basis": "first estimate",
+  "evidence": [
+   "amazighbands:0",
+   "amazighbands:19",
+   "amazighbands:23",
+   "amazighbands:24",
+   "amazighbands:83"
+  ]
+ },
+ {
+  "genre": "amazighbands",
+  "place": "MA",
+  "kind": "peak",
+  "from": 1975,
+  "to": 1995,
+  "strength": 0.85,
+  "basis": "first estimate",
+  "evidence": [
+   "amazighbands:0",
+   "amazighbands:19",
+   "amazighbands:23",
+   "amazighbands:24",
+   "amazighbands:83"
+  ]
+ },
+ {
+  "genre": "amazighbands",
+  "place": "FR",
+  "kind": "later",
+  "from": 1977,
+  "basis": "first estimate",
+  "evidence": [
+   "amazighbands:21",
+   "amazighbands:22",
+   "amazighbands:36"
+  ]
+ }
+]

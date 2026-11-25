@@ -1,0 +1,668 @@
+{
+ "batuku": [
+  {
+   "kind": "def",
+   "field": "name, aliases, definition",
+   "artist": null,
+   "title": null,
+   "url": "https://pt.wikipedia.org/wiki/Batuque_(Cabo_Verde)",
+   "quote": "O Batuque (Batuku ou Batuk em crioulo cabo-verdiano) é um género musical, um património cultural e um género de dança de Cabo Verde.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[0]",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "it is the only genre that is polyrhythmic",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[0]",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "it is a 3-beat rhythm over a 2-beat rhythm",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound, markers[0]",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "executes a polyrhythmic hit, while the others execute a 2-beat hit, clapping hands or slapping a cloth",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound",
+   "artist": null,
+   "title": null,
+   "url": "http://www.attambur.com/Recolhas/PDF/FormasMusicaisCaboVerde.pdf",
+   "quote": "marcado pela percussão das 'tchabetas e palmas'",
+   "read": "2026-11-25",
+   "note": "Margarida Brito (1998), Breves Apontamentos sobre as Formas Musicais existentes em Cabo Verde, PDF."
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "a group of performers (almost always just women) gather themselves in a circle",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[1]",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "sings a verse that is immediately repeated (called ronca baxon",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[1], aliases, sub-genre finaçon",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "improvised proverbs that talk about a variety of subjects such as praising personalities, social criticism, quotidian scenes, are called finason",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "sub-genre finaçon",
+   "artist": null,
+   "title": null,
+   "url": "http://www.attambur.com/Recolhas/PDF/FormasMusicaisCaboVerde.pdf",
+   "quote": "O Finaçon é uma melopeia que consiste num encadeamento de provérbios",
+   "read": "2026-11-25",
+   "note": "Continues: declaimed in the batuque rhythm, almost always improvised, normally sung by a woman."
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[2]",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "The second movement is called txabéta",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[2]",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "is made with a hip swing managed through the quick flexion of the knees",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound (modern form)",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "The music leans on a polyphonic support (chord sequences)",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage, origin",
+   "artist": null,
+   "title": null,
+   "url": "http://www.attambur.com/Recolhas/PDF/FormasMusicaisCaboVerde.pdf",
+   "quote": "O Batuque, de origem africana, que surge em Cabo Verde provavelmente só na ilha",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage",
+   "artist": null,
+   "title": null,
+   "url": "https://pt.wikipedia.org/wiki/Batuque_(Cabo_Verde)",
+   "quote": "Seria a adaptação de alguma dança africana",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "began",
+   "artist": null,
+   "title": null,
+   "url": "https://pt.wikipedia.org/wiki/Batuque_(Cabo_Verde)",
+   "quote": "A mais antiga referência encontrada é uma proibição datada de setembro de 1772",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "began",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "there are written records of it only from the 19th century",
+   "read": "2026-11-25",
+   "note": "Disagrees with the Portuguese article (1772); see notes (c)."
+  },
+  {
+   "kind": "def",
+   "field": "definition.window",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "A Santiago batuque featured in the first issue of Claridade issued in 1936",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "origin",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "Presently, it is found only in Santiago, notably Tarrafal",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "origin",
+   "artist": null,
+   "title": null,
+   "url": "https://pt.wikipedia.org/wiki/Batuque_(Cabo_Verde)",
+   "quote": "é na vila de Tarrafal onde se vive com mais intensidade este género musical",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.window, presence",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "The batuque has even been forbidden in urban centers and it was a dying musical genre from the 1950s.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.window, presence peak",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "It was in the nineties that the batuque experienced a true rebirth with young composers",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "notes (heritage)",
+   "artist": null,
+   "title": null,
+   "url": "https://pt.wikipedia.org/wiki/Batuque_(Cabo_Verde)",
+   "quote": "até ser reconhecido como Património Cultural e Imaterial (PCI) Cabo-verdiano",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "notes (UNESCO)",
+   "artist": null,
+   "title": null,
+   "url": "https://ich.unesco.org/en/state/cabo-verde-CV",
+   "quote": "Morna, musical practice of Cabo Verde (2019, RL)",
+   "read": "2026-11-25",
+   "note": "The only Cabo Verde element on the UNESCO lists page; batuku is not inscribed."
+  },
+  {
+   "kind": "def",
+   "field": "presence peak",
+   "artist": null,
+   "title": null,
+   "url": "https://pt.wikipedia.org/wiki/Batuque_(Cabo_Verde)",
+   "quote": "na Expo 92, em Sevilha, Espanha, no Festival of American Folklife, da Smithsonian Institution, em Washington DC, em 1995",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound, notes",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Music_of_Cape_Verde",
+   "quote": "Orlando Pantera has created the \"new batuco\" (neo-batuku)",
+   "read": "2026-11-25",
+   "note": "The same page dates this to \"the 80's\"; Pantera was born 1967 and active from the early 1990s."
+  },
+  {
+   "kind": "size",
+   "field": "size, playlist ties",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Music_of_Cape_Verde",
+   "quote": "Performers and songwriters are Orlando Pantera, Vadú, Tcheka, Mayra Andrade, Lura, Zeca di nha Reinalda.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "playlist ties",
+   "artist": "Orlando Pantera",
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Orlando_Pantera",
+   "quote": "Genre batuco",
+   "read": "2026-11-25",
+   "note": "Infobox row: Genre, batuco."
+  },
+  {
+   "kind": "def",
+   "field": "presence peak",
+   "artist": "Orlando Pantera",
+   "title": null,
+   "url": "https://pt.wikipedia.org/wiki/Orlando_Pantera",
+   "quote": "lhe valeram a nomeação como Compositor do Ano em 1993",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "playlist ties",
+   "artist": "Tcheka",
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Tcheka",
+   "quote": "well known for his work in transposing the traditional genre batuque to the electro-acoustic guitar",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "playlist ties",
+   "artist": "Lura",
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Lura_(singer)",
+   "quote": "Her compositions are based on traditional Cape-Verdean music as for example the Morna, Funaná and Batuque",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence PT",
+   "artist": "Lura",
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Lura_(singer)",
+   "quote": "with her appearance with the batuque dancers (batucadeiras) Voz de África",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence PT",
+   "artist": null,
+   "title": null,
+   "url": "https://pt.wikipedia.org/wiki/Batuque_(Cabo_Verde)",
+   "quote": "Orquestra de BatuKadeiras de Portugal",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "sub-genre tabanka",
+   "artist": null,
+   "title": null,
+   "url": "https://pt.wikipedia.org/wiki/Tabanca",
+   "quote": "A tabanca (tabanka em crioulo cabo-verdiano) é um género musical e uma manifestação cultural de Cabo Verde.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "sub-genre tabanka",
+   "artist": null,
+   "title": null,
+   "url": "http://www.attambur.com/Recolhas/PDF/FormasMusicaisCaboVerde.pdf",
+   "quote": "O ritmo da Tabanca é binário, executado por tambores, cornetins e búzios",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "sub-genre tabanka",
+   "artist": null,
+   "title": null,
+   "url": "https://pt.wikipedia.org/wiki/Tabanca",
+   "quote": "só a partir dos fins do séc. XIX é que surgem diplomas legais proibindo a tabanca",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "sub-genre finaçon (name clash)",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Fina%C3%A7on",
+   "quote": "Finaçon was a Cape Verdean band active in the 1980s and 1990s.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "size",
+   "artist": null,
+   "title": "Cap-Vert: Batuco de l'île de Santiago",
+   "url": "https://itunes.apple.com/lookup?id=166462003&entity=song&country=FR",
+   "quote": "\"copyright\":\"℗ 2003 MCM\"",
+   "read": "2026-11-25",
+   "note": "One of at least three French field albums of batuku (MCM 2003; Radio France/Ocora Batuque & Finaçon; Ocora archipelago anthology 2003)."
+  },
+  {
+   "kind": "size",
+   "artist": "Batukadeiras Estrelas de Bela Vista",
+   "title": "Cuza Pensa",
+   "url": "https://itunes.apple.com/lookup?id=1854979496&entity=song&country=PT",
+   "quote": "\"collectionName\":\"Cuza Pensa\"",
+   "read": "2026-11-25",
+   "note": "One of many named batukadeiras groups with their own releases on iTunes Portugal (also Voz de Cultura, Rabentolas, G. U. Vialonga, Batuko Tabanka)."
+  },
+  {
+   "kind": "song",
+   "artist": "Lura",
+   "title": "Batuku",
+   "url": "https://itunes.apple.com/lookup?id=422741030&entity=song&country=FR",
+   "quote": "\"trackName\":\"Batuku\"",
+   "read": "2026-11-25",
+   "note": "Tie by title, and Lura named as a batuque singer."
+  },
+  {
+   "kind": "song",
+   "artist": "Mayra Andrade",
+   "title": "Dispidida",
+   "url": "https://pt.wikipedia.org/wiki/Batuque_(Cabo_Verde)",
+   "quote": "«Dispidida» de Orlando Pantera",
+   "read": "2026-11-25",
+   "note": "Listed under Exemplos de batuques; row continues: interpretado por Mayra Andrade no álbum «Navega»."
+  },
+  {
+   "kind": "song",
+   "artist": "Mayra Andrade",
+   "title": "Dispidida",
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "performed by Mayra Andrade in the album Navega",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Batucadeiras de Rincon",
+   "title": "Batuku, Tradison di Terra",
+   "url": "https://itunes.apple.com/lookup?id=166462003&entity=song&country=FR",
+   "quote": "\"trackName\":\"Batuku, Tradison Di Terra\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ntóni Denti d'Oru",
+   "title": "Sambuna e Finaçon",
+   "url": "https://itunes.apple.com/lookup?id=1364539862&entity=song&country=FR",
+   "quote": "\"trackName\":\"Sambuna e Finaçon\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Bulimundo",
+   "title": "Batuco",
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "«Batuco» by Bulimundo",
+   "read": "2026-11-25",
+   "note": "Example row; album Batuco, Black Power Records, Rotterdam, 1981 per Wikipedia."
+  },
+  {
+   "kind": "song",
+   "artist": "Bulimundo",
+   "title": "Batuco",
+   "url": "https://musicbrainz.org/release/4c423ce4-8a23-4954-8b1b-a38d298b68f3",
+   "quote": "Batuco",
+   "read": "2026-11-25",
+   "note": "MusicBrainz release Batuco (Black Power Records), dated 1982; track B2."
+  },
+  {
+   "kind": "song",
+   "artist": "Gil Semedo",
+   "title": "Maria Júlia",
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "«Maria Júlia» by Gil Semedo",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Lura",
+   "title": "Rabóita di Rubõ Manel",
+   "url": "https://pt.wikipedia.org/wiki/Batuque_(Cabo_Verde)",
+   "quote": "interpretado por Lura no álbum «Di korpu ku alma»",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Lura",
+   "title": "Rabóita di Rubõ Manel",
+   "url": "https://itunes.apple.com/lookup?id=422741030&entity=song&country=FR",
+   "quote": "\"trackName\":\"Raboita Di Rubon Manel\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Nancy Vieira",
+   "title": "Nha Kumadri",
+   "url": "https://en.wikipedia.org/wiki/Batuque_(Cape_Verde)",
+   "quote": "«Nha kumadri» by Lateral e Rolando Semedo",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Nancy Vieira",
+   "title": "Nha Kumadri",
+   "url": "https://musicbrainz.org/release/aa5383bc-c8d9-44d5-89d5-187286323221",
+   "quote": "Nha Kumadri",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Madonna",
+   "title": "Batuka",
+   "url": "https://en.wikipedia.org/wiki/Batuka_(song)",
+   "quote": "It is a batuque song with influences of Afrobeat",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Batucadeiras de Rincon",
+   "title": "Finason",
+   "url": "https://itunes.apple.com/lookup?id=166462003&entity=song&country=FR",
+   "quote": "\"trackName\":\"Finason\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Batucadeiras de Rincon",
+   "title": "Mokeru mufinu",
+   "url": "https://itunes.apple.com/lookup?id=166462003&entity=song&country=FR",
+   "quote": "\"trackName\":\"Mokeru mufinu\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Batucadeiras de Rincon",
+   "title": "Bu Tomam Nha Marido",
+   "url": "https://itunes.apple.com/lookup?id=166462003&entity=song&country=FR",
+   "quote": "\"trackName\":\"Bu Tomam Nha Marido\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Nha Mita Pereira",
+   "title": "Finaçon",
+   "url": "https://itunes.apple.com/lookup?id=424221723&entity=song&country=FR",
+   "quote": "\"trackName\":\"Finaçon\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Nha Mita Pereira",
+   "title": "Si m'sabêba, n'ta mataba el",
+   "url": "https://itunes.apple.com/lookup?id=424221723&entity=song&country=FR",
+   "quote": "\"trackName\":\"Si m'sabêba, n'ta mataba el\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Nha Mita Pereira",
+   "title": "Serra Malagueta ê Sabi",
+   "url": "https://itunes.apple.com/lookup?id=424221723&entity=song&country=FR",
+   "quote": "\"trackName\":\"Serra Malagueta ê Sabi\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ntóni Denti d'Oru",
+   "title": "Raforma Agrária",
+   "url": "https://itunes.apple.com/lookup?id=1364539862&entity=song&country=FR",
+   "quote": "\"trackName\":\"Raforma Agrária\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ntóni Denti d'Oru",
+   "title": "Tchani Pamôdi?",
+   "url": "https://itunes.apple.com/lookup?id=1364539862&entity=song&country=FR",
+   "quote": "\"trackName\":\"Tchani Pamôdi?\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Nácia Gomi",
+   "title": "Rapazinho bo é tentadu",
+   "url": "https://itunes.apple.com/lookup?id=619280402&entity=song&country=FR",
+   "quote": "\"trackName\":\"Santiago: Rapazinho bo é tentadu (Finançon)\"",
+   "read": "2026-11-25",
+   "note": "The anthology labels the track finaçon (spelt Finançon)."
+  },
+  {
+   "kind": "song",
+   "artist": "Nácia Gomi & Ntóni Denti d'Oru",
+   "title": "Finkadu na Raiz",
+   "url": "https://itunes.apple.com/lookup?id=1632109753&entity=song&country=FR",
+   "quote": "\"trackName\":\"Finkadu Na Raiz\"",
+   "read": "2026-11-25",
+   "note": "Tie through the performers only (Ntóni Denti d'Oru's Batuque & Finaçon album)."
+  },
+  {
+   "kind": "song",
+   "artist": "Princezito",
+   "title": "Batuku Azul",
+   "url": "https://itunes.apple.com/lookup?id=1884633557&entity=song&country=FR",
+   "quote": "\"trackName\":\"Batuku Azul\"",
+   "read": "2026-11-25",
+   "note": "Tie by title only."
+  },
+  {
+   "kind": "song",
+   "artist": "Princezito",
+   "title": "Batuku Pilon",
+   "url": "https://itunes.apple.com/lookup?id=1130478412&entity=song&country=FR",
+   "quote": "\"trackName\":\"Batuku Pilon\"",
+   "read": "2026-11-25",
+   "note": "Tie by title only."
+  },
+  {
+   "kind": "song",
+   "artist": "Batuko Tabanka",
+   "title": "Finaçon",
+   "url": "https://itunes.apple.com/lookup?id=340771761&entity=song&country=PT",
+   "quote": "\"trackName\":\"Finaçon\"",
+   "read": "2026-11-25",
+   "note": "Tie by group name and title only."
+  },
+  {
+   "kind": "song",
+   "artist": "Tcheka",
+   "title": "Nu Monda",
+   "url": "https://musicbrainz.org/release/4cd1b62a-ccea-4c6c-a5b6-4e1ebfc52089",
+   "quote": "Nu Monda",
+   "read": "2026-11-25",
+   "note": "Tie through the performer only (Tcheka, guitar batuque)."
+  },
+  {
+   "kind": "album",
+   "artist": "Batucadeiras de Rincon",
+   "title": "Cap-Vert: Batuco de l'île de Santiago",
+   "url": "https://itunes.apple.com/lookup?id=166462003&entity=song&country=FR",
+   "quote": "\"collectionName\":\"Cap-Vert: Batuco de l'île de Santiago (Batucadeiras de Rincon Cape-Verde/Batuco from Santiago Island)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Nha Mita Pereira",
+   "title": "Cape Verde: Batuque & Finaçon",
+   "url": "https://itunes.apple.com/lookup?id=424221723&entity=song&country=FR",
+   "quote": "\"collectionName\":\"Cape Verde : Batuque & Finaçon (Cap Vert)\"",
+   "read": "2026-11-25",
+   "note": "℗ Radio France; the same title is listed under Ntóni Denti d'Oru with ℗ 2018. Probably one Ocora album split on iTunes; not confirmed."
+  },
+  {
+   "kind": "album",
+   "artist": "Ntóni Denti d'Oru",
+   "title": "Cape Verde: Batuque & Finaçon",
+   "url": "https://itunes.apple.com/lookup?id=1364539862&entity=song&country=FR",
+   "quote": "\"collectionName\":\"Cape Verde: Batuque & Finaçon\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Lura",
+   "title": "Di Korpu Ku Alma",
+   "url": "https://itunes.apple.com/lookup?id=422741030&entity=song&country=FR",
+   "quote": "\"collectionName\":\"Di Korpu Ku Alma\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Bulimundo",
+   "title": "Batuco",
+   "url": "https://musicbrainz.org/release/4c423ce4-8a23-4954-8b1b-a38d298b68f3",
+   "quote": "Black Power Records",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Nácia Gomi & Ntóni Denti d'Oru",
+   "title": "Finkadu na Raiz",
+   "url": "https://itunes.apple.com/lookup?id=1632109753&entity=song&country=FR",
+   "quote": "\"collectionName\":\"Finkadu Na Raiz\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Batuko Tabanka",
+   "title": "Djunta Mô",
+   "url": "https://itunes.apple.com/lookup?id=340771761&entity=song&country=PT",
+   "quote": "\"collectionName\":\"Djunta Mô\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "Kodé di Dona",
+   "title": "Ma n'ka ta ba rubêra ki tên agu txêu",
+   "url": "https://itunes.apple.com/lookup?id=619280402&entity=song&country=FR",
+   "quote": "\"trackName\":\"Santiago: Ma n'ka ta ba rubêra ki tên agu txêu (Funana)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "Ana Nobo",
+   "title": "Lena",
+   "url": "https://itunes.apple.com/lookup?id=619280402&entity=song&country=FR",
+   "quote": "\"trackName\":\"Santiago: Lena (Coladeira)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "Nancy Vieira",
+   "title": "É Morna",
+   "url": "https://musicbrainz.org/release/aa5383bc-c8d9-44d5-89d5-187286323221",
+   "quote": "É Morna",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "Finaçon",
+   "title": "Fomi 47",
+   "url": "https://pt.wikipedia.org/wiki/Funan%C3%A1",
+   "quote": "«Fomi 47» de Codé di Dona interpretado por Finaçon no álbum «Rabecindadi»",
+   "read": "2026-11-25",
+   "note": "Same page and string as evidence e_4fm4mmcvnk in data/."
+  }
+ ]
+}

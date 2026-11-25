@@ -1,0 +1,62 @@
+{
+ "guajira": {
+  "window": "c. 1700 onward: popular in western and central Cuba in the 17th century and a settled genre by the 18th; the composed guajira song from 1899; at its height on Cuban radio from about 1935; on UNESCO's Representative List since 2017; still sung in Cuba and on La Palma in the Canary Islands.",
+  "sound": "The sung poetry of Cuba's farmers: a singer improvises or sings a learned décima, ten eight-syllable lines with a fixed rhyme, over an unvarying tune picked on guitar, tres, laúd and tiple, with clave, güiro and the metal guayo. Laúd runs between stanzas give the singer time to make the next verse, and pairs of singers compete in improvised controversias. The composed guajira (from 1899) and the guajira-son of Guillermo Portabales, Celina González and Ramón Veloz keep its lilting hemiola rhythm and its idealised country themes.",
+  "markers": [
+   "Ten-line décimas, improvised or learned, sung over an unvarying tune with pauses between stanzas",
+   "Picked laúd, tres and guitar with clave, güiro and the metal guayo; laúd runs fill the gaps between verses",
+   "Controversia: two singers trading improvised décimas as a contest",
+   "A swaying 3-against-2 hemiola (sesquiáltera); guajira songs move from minor to the relative major and sing an idealised country life"
+  ],
+  "fits": [
+   [
+    "Celina y Reutilio",
+    "Yo soy el punto cubano",
+    null
+   ],
+   [
+    "El Indio Naborí & Grupo Guajiro de Guitarras",
+    "Décimas de la cantina",
+    null
+   ],
+   [
+    "Justo Vega & Adolfo Alfonso",
+    "Cualquier cubano improvisa",
+    1979
+   ],
+   [
+    "Evelio Rodríguez y su Conjunto Guajiro",
+    "El arroyo que murmura",
+    null
+   ],
+   [
+    "Joseíto Fernández",
+    "Guantanamera",
+    1960
+   ]
+  ],
+  "near": [
+   [
+    "Paco de Lucía",
+    "Guajiras",
+    1969,
+    "flamenco",
+    "The Spanish flamenco palo of the same name, descended from the punto: solo flamenco guitar, no décima singing or laúd"
+   ],
+   [
+    "Pete Seeger",
+    "Guantanamera",
+    1963,
+    "folkrev",
+    "Joseíto Fernández's guajira sung in English and Spanish by an American folk-revival singer at Carnegie Hall: the song, not the style"
+   ],
+   [
+    "Guillermo Portabales",
+    "Jaleo",
+    null,
+    "son",
+    "A son montuno by the leading guajira-son singer: same voice and band, but son form and rhythm"
+   ]
+  ]
+ }
+}

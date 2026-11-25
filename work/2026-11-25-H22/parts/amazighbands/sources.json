@@ -1,0 +1,737 @@
+{
+ "amazighbands": [
+  {
+   "kind": "def",
+   "field": "name, aliases",
+   "artist": null,
+   "title": null,
+   "url": "https://www.tamazghastudiesjournal.org/articles-spring2024-issue-01-article04",
+   "quote": "Tazenzart has dominated the Amazigh musical scene since 1975.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "name, aliases",
+   "artist": null,
+   "title": null,
+   "url": "https://fr.wikipedia.org/wiki/Oudaden",
+   "quote": "Il est l'un des leaders du style soussi appelé « Tagroupit » ou « Tiroubba »",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "name, aliases; parentage ghiwane",
+   "artist": null,
+   "title": null,
+   "url": "https://tamazghastudiesjournal.org/articles-spring2024-issue-01-article03",
+   "quote": "in a Tamazight language sub-genre of Dhahira music sometimes called Tagroupit",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "name, aliases",
+   "artist": null,
+   "title": null,
+   "url": "https://fr.wikipedia.org/wiki/Izenzaren",
+   "quote": "Le groupe Izenzaren est l'initiateur d'un courant musical nouveau dans le domaine amazigh appelé \"tazenzart\" en référence au groupe Izenzaren.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound, markers[0]",
+   "artist": null,
+   "title": null,
+   "url": "https://www.tamazghastudiesjournal.org/articles-spring2024-issue-01-article04",
+   "quote": "Second, they incorporated new instruments like the banjo, violin, and tam-tam, into Amazigh music.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[0]",
+   "artist": null,
+   "title": null,
+   "url": "https://www.tamazghastudiesjournal.org/articles-spring2024-issue-01-article04",
+   "quote": "Abdelaziz Chamkh and Abdelhadi Iggout, the two lead singers and banjo players",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[0]",
+   "artist": null,
+   "title": null,
+   "url": "https://fr.wikipedia.org/wiki/Oudaden",
+   "quote": "On retrouve quasiment toujours l'utilisation d'un banjo et d'une guitare électrique",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound",
+   "artist": null,
+   "title": null,
+   "url": "https://tamazghastudiesjournal.org/articles-spring2024-issue-01-article03",
+   "quote": "reflected in the band’s choice of electric instruments like the organ, as opposed to the local North African instruments then in vogue among Ghiwani bands",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound, markers[1]",
+   "artist": null,
+   "title": null,
+   "url": "https://www.tamazghastudiesjournal.org/articles-spring2024-issue-01-article04",
+   "quote": "First, they adapted written poetry to music, bringing a literary sensibility to their songs.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound (language)",
+   "artist": null,
+   "title": null,
+   "url": "https://fr.wikipedia.org/wiki/Izenzaren",
+   "quote": "Izenzaren  est un groupe musical chleuh marocain de la région de Souss au Maroc",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[2]",
+   "artist": null,
+   "title": null,
+   "url": "https://tamazghastudiesjournal.org/articles-spring2024-issue-01-article03",
+   "quote": "the percussion section starts in a quick triplet time signature",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[2]",
+   "artist": null,
+   "title": null,
+   "url": "https://fr.wikipedia.org/wiki/Oudaden",
+   "quote": "Ahmed el Foua (talunt et tagoualt)",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound; parentage rways",
+   "artist": null,
+   "title": null,
+   "url": "https://tamazghastudiesjournal.org/articles-spring2024-issue-01-article03",
+   "quote": "they also repurposed many traditional poems from the Rrways tradition of Southern Morocco",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage ghiwane",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Izenzaren",
+   "quote": "as well as Moroccan groups (e.g. Nass El Ghiwane, Jil Jilala) imposed their rhythms and influenced the development of musical groups known as popular",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage ghiwane",
+   "artist": null,
+   "title": null,
+   "url": "https://en.yabiladi.com/articles/details/149416/ousmane-amazigh-beatles-caught-king",
+   "quote": "Inspired by this vibrant scene, the Amazigh group Ousmane emerged",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage ghiwane",
+   "artist": null,
+   "title": null,
+   "url": "https://tamazghastudiesjournal.org/articles-spring2024-issue-01-article03",
+   "quote": "another Amazigh band that formed shortly after Ousmane but performed songs closer in style to Ghiwani folk music",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "began, origin",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Izenzaren",
+   "quote": "It was formed in 1972 in Agadir, in the Sous region of Morocco by Abdelhadi Iggout and Abdelaziz Chamkh.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "origin",
+   "artist": null,
+   "title": null,
+   "url": "https://www.tamazghastudiesjournal.org/articles-spring2024-issue-01-article04",
+   "quote": "which was established in Dcheira sometime between 1972 and 1973",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "began",
+   "artist": null,
+   "title": null,
+   "url": "https://fr.wikipedia.org/wiki/Izenzaren",
+   "quote": "l'année 1974 consacre l'enregistrement de la première cassette",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "began",
+   "artist": null,
+   "title": null,
+   "url": "https://en.yabiladi.com/articles/details/149416/ousmane-amazigh-beatles-caught-king",
+   "quote": "Although the group was only active for four years, from 1974 to 1978",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "began",
+   "artist": null,
+   "title": null,
+   "url": "https://tamazghastudiesjournal.org/articles-spring2024-issue-01-article03",
+   "quote": "became the first group to record popular music in Tamazight, the Indigenous language of North Africa",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence FR",
+   "artist": null,
+   "title": null,
+   "url": "https://tamazghastudiesjournal.org/articles-spring2024-issue-01-article03",
+   "quote": "part of a 1977 tour of France and Belgium alongside the influential Moroccan bands Nass el Ghiwane and the Megri Brothers",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence FR",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Oudaden",
+   "quote": "In 2012, they went on tour in France and performed at the Arab World Institute.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence peak",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Oudaden",
+   "quote": "Their first album was released in 1985.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence peak",
+   "artist": null,
+   "title": null,
+   "url": "https://fr.wikipedia.org/wiki/Ali_Chouhad",
+   "quote": "il a créé le groupe musical Izmaz et puis le groupe Archach en 1979",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "size",
+   "artist": "Oudaden",
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Oudaden",
+   "quote": "The band's discography has grown to thirty-eight albums",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence later",
+   "artist": null,
+   "title": null,
+   "url": "https://fr.wikipedia.org/wiki/Imazzalen",
+   "quote": "est un groupe musical Marocain de style \"Tzenzart\" fondé en 2005 à Dcheira",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence later",
+   "artist": null,
+   "title": null,
+   "url": "https://daily.bandcamp.com/features/hassan-wargui-tiddukla-interview",
+   "quote": "he learned to play by imitating groups like Archach and Izenzaren",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence later; parentage amazighahwashandah",
+   "artist": null,
+   "title": null,
+   "url": "https://www.yabiladi.com/article-culture-713.html",
+   "quote": "des années de recherche sur les rythmes berbères du Souss  où domine la danse des Ahouach",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage rways",
+   "artist": null,
+   "title": null,
+   "url": "https://www.yabiladi.com/article-culture-713.html",
+   "quote": "Autre tendance musicale prisée dans la région : les chansons des rwaïs",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence later",
+   "artist": null,
+   "title": null,
+   "url": "https://www.tamazghastudiesjournal.org/articles-spring2025-issue-01-article07",
+   "quote": "Saghru Band, which gained prominence by blending rock with traditional Amazigh elements",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence later; parentage rways",
+   "artist": null,
+   "title": null,
+   "url": "https://fr.wikipedia.org/wiki/Ribab_Fusion",
+   "quote": "Jouant du Ribab, un instrument monocorde emblématique chez les Rways",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "scope (Rif)",
+   "artist": null,
+   "title": null,
+   "url": "https://tamazghastudiesjournal.org/articles-spring2024-issue-01-article03",
+   "quote": "produced Tarifit language bands like Tawattun in the late 1970s",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ousmane",
+   "title": "Takendawt",
+   "url": "https://tamazghastudiesjournal.org/articles-spring2024-issue-01-article03",
+   "quote": "Ousmane’s first two recordings, “Tillas” and “Takendout” enjoyed great popularity",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ousmane",
+   "title": "Takendawt",
+   "url": "https://africangrooves.fr/artist/ousmane/",
+   "quote": "They recorded two singles in 1976",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ousmane",
+   "title": "Takendawt",
+   "url": "https://en.yabiladi.com/articles/details/149416/ousmane-amazigh-beatles-caught-king",
+   "quote": "the group's debut song, became a phenomenal success",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ousmane",
+   "title": "Dounit",
+   "url": "https://tamazghastudiesjournal.org/articles-spring2024-issue-01-article03",
+   "quote": "was Ousmane’s second single, recorded live during their famous 1977 performances at L’Olympia in Paris",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ousmane",
+   "title": "Asmammi",
+   "url": "https://tamazghastudiesjournal.org/articles-spring2024-issue-01-article03",
+   "quote": "is in fact the song “Asmammi” (Complaint), also recorded at the same concert",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Izenzaren",
+   "title": "Wad ittmuddun",
+   "url": "https://musicbrainz.org/release/3b2a8f90-ffa9-4d6d-b636-42a3aa0ea184",
+   "quote": "Wad Itmodoune",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Izenzaren",
+   "title": "Wad ittmuddun",
+   "url": "https://en.wikipedia.org/wiki/Izenzaren",
+   "quote": "Wad ittmuddun (He who travels)",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Izenzaren",
+   "title": "Igigile",
+   "url": "https://musicbrainz.org/release/3b2a8f90-ffa9-4d6d-b636-42a3aa0ea184",
+   "quote": "Igigile",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Izenzaren",
+   "title": "Imahdane",
+   "url": "https://musicbrainz.org/release/c2f75c9b-bbd8-4438-9ac2-5e48c5bfaf26",
+   "quote": "Imahdane",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Izenzaren",
+   "title": "Ala rbi ahbib",
+   "url": "https://itunes.apple.com/lookup?id=1722340424&entity=song&country=FR",
+   "quote": "℗ 1976 Boussif Es-Said",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Izenzaren",
+   "title": "Aggass",
+   "url": "https://musicbrainz.org/release/27e4433b-112d-45d3-9748-23ad3dc325e2",
+   "quote": "Menchk Ak Iqaddane",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Izenzaren",
+   "title": "Angmar",
+   "url": "https://musicbrainz.org/release/5193694d-c7ab-432c-b751-a1a6899c2d14",
+   "quote": "Tassa Ittoutn",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Izenzaren",
+   "title": "Immi ḥenna",
+   "url": "https://en.wikipedia.org/wiki/Izenzaren",
+   "quote": "Immi ḥenna (Gracious Mother)",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Izenzaren",
+   "title": "Zzin",
+   "url": "https://en.wikipedia.org/wiki/Izenzaren",
+   "quote": "Zzin (The beautiful)",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Izenzaren",
+   "title": "Tawda dlhem",
+   "url": "https://itunes.apple.com/lookup?id=1719408314&entity=song&country=FR",
+   "quote": "℗ 1981 Yein France & Sawt Maarif",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Izenzaren",
+   "title": "Tikhira",
+   "url": "https://itunes.apple.com/lookup?id=1719409442&entity=song&country=FR",
+   "quote": "\"trackName\":\"Tikhira\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Izenzaren",
+   "title": "Tikhira",
+   "url": "https://fr.wikipedia.org/wiki/Izenzaren",
+   "quote": "tikhira (la fin du monde)",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Izenzaren Chamkh",
+   "title": "Bughāba",
+   "url": "https://www.tamazghastudiesjournal.org/articles-spring2024-issue-01-article04",
+   "quote": "Chamkh’s song entitled “Bughāba” (The Forest Service)",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Izenzaren Chamkh",
+   "title": "Ayt Laṣl Anga",
+   "url": "https://www.tamazghastudiesjournal.org/articles-spring2024-issue-01-article04",
+   "quote": "In their song “Ayt Laṣl Anga” (We Are the Indigenous)",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ammouri M'barek",
+   "title": "Nik Dik Tazwit",
+   "url": "https://itunes.apple.com/lookup?id=1719421990&entity=song&country=FR",
+   "quote": "\"trackName\":\"Nik Dik Tazwit\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ammouri M'barek",
+   "title": "Nik Dik Tazwit",
+   "url": "https://en.wikipedia.org/wiki/Ammouri_Mbarek",
+   "quote": "From 1978 Album - Nekk Dik A Nmun",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Archach",
+   "title": "Ouraifriat",
+   "url": "https://itunes.apple.com/lookup?id=1690776637&entity=song&country=FR",
+   "quote": "℗ 1982 MLP",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Archach",
+   "title": "Aamkane ourdemkan",
+   "url": "https://itunes.apple.com/lookup?id=1690776637&entity=song&country=FR",
+   "quote": "\"trackName\":\"Aamkane ourdemkan\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Oudaden",
+   "title": "Bismillah",
+   "url": "https://itunes.apple.com/lookup?id=475904455&entity=song&country=FR",
+   "quote": "\"trackName\":\"Bismillah\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Oudaden",
+   "title": "Adil Oumlil",
+   "url": "https://itunes.apple.com/lookup?id=475904455&entity=song&country=FR",
+   "quote": "\"trackName\":\"Adil Oumlil\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Oudaden",
+   "title": "Mayna",
+   "url": "https://itunes.apple.com/lookup?id=1631627581&entity=song&country=FR",
+   "quote": "\"trackName\":\"Mayna\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ali Chouhad Archach",
+   "title": "Igoudar N'Souss",
+   "url": "https://itunes.apple.com/lookup?id=1462627032&entity=song&country=FR",
+   "quote": "\"trackName\":\"Igodar N'Souss\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Imazzalen",
+   "title": "Afllah",
+   "url": "https://fr.wikipedia.org/wiki/Imazzalen",
+   "quote": "La chanson phare du groupe est intitulée \"Afllah\" (l'agriculteur)",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Hassan Wargui",
+   "title": "Tiddukla",
+   "url": "https://itunes.apple.com/lookup?id=1735022559&entity=song&country=FR",
+   "quote": "℗ 2021 Hive Mind Records",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Imanaren",
+   "title": "Ajddige (The Rose)",
+   "url": "https://itunes.apple.com/lookup?id=488904715&entity=song&country=FR",
+   "quote": "\"trackName\":\"Ajddige (The Rose)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Saghru Band",
+   "title": "Imettinen",
+   "url": "https://itunes.apple.com/lookup?id=1752898786&entity=song&country=FR",
+   "quote": "\"trackName\":\"Imettinen\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ribab Fusion",
+   "title": "Imdokal",
+   "url": "https://itunes.apple.com/lookup?id=1532934681&entity=song&country=FR",
+   "quote": "\"trackName\":\"Imdokal\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Izenzaren",
+   "title": "Igigile",
+   "url": "https://musicbrainz.org/release/3b2a8f90-ffa9-4d6d-b636-42a3aa0ea184",
+   "quote": "Dounit Tga Ghamkad",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Izenzaren",
+   "title": "Akal",
+   "url": "https://fr.wikipedia.org/wiki/Izenzaren",
+   "quote": "un nouvel album intitulé AKAL",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Archach",
+   "title": "Ouraifriat",
+   "url": "https://itunes.apple.com/lookup?id=1690776637&entity=song&country=FR",
+   "quote": "\"collectionName\":\"Ouraifriat\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Oudaden",
+   "title": "Empreinte",
+   "url": "https://itunes.apple.com/lookup?id=475904455&entity=song&country=FR",
+   "quote": "℗ 2011 Buda Musique",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Ali Chouhad Archach",
+   "title": "Igoudar N'Souss",
+   "url": "https://fr.wikipedia.org/wiki/Ali_Chouhad",
+   "quote": "Igudar N’Souss (les greniers du Souss - Album)",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Imanaren",
+   "title": "Imanaren",
+   "url": "https://itunes.apple.com/lookup?id=488904715&entity=song&country=FR",
+   "quote": "℗ 2011 Dutty Artz LLC",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Hassan Wargui",
+   "title": "Tiddukla",
+   "url": "https://daily.bandcamp.com/features/hassan-wargui-tiddukla-interview",
+   "quote": "who’s just released a record from Wargui’s group Tiddukla on his label, Hivemind",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Saghru Band",
+   "title": "Imettinen",
+   "url": "https://itunes.apple.com/lookup?id=1752898786&entity=song&country=FR",
+   "quote": "\"collectionName\":\"Imettinen\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Imanaren",
+   "title": "Ajddige (The Rose)",
+   "url": "https://daily.bandcamp.com/features/hassan-wargui-tiddukla-interview",
+   "quote": "stumbled upon another of Wargui’s groups, Imanaren",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "Izenzaren",
+   "title": "Wad ittmuddun",
+   "url": "https://musicbrainz.org/release/3b2a8f90-ffa9-4d6d-b636-42a3aa0ea184",
+   "quote": "Wad Itmodoune",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "Ousmane",
+   "title": "Dounit",
+   "url": "https://tamazghastudiesjournal.org/articles-spring2024-issue-01-article03",
+   "quote": "was Ousmane’s second single, recorded live during their famous 1977 performances at L’Olympia in Paris",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "Archach",
+   "title": "Ouraifriat",
+   "url": "https://itunes.apple.com/lookup?id=1690776637&entity=song&country=FR",
+   "quote": "\"trackName\":\"Ouraifriat\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "Oudaden",
+   "title": "Bismillah",
+   "url": "https://itunes.apple.com/lookup?id=475904455&entity=song&country=FR",
+   "quote": "\"trackName\":\"Bismillah\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "Nass El Ghiwane",
+   "title": "Mahmouma",
+   "url": "https://itunes.apple.com/lookup?id=1220404990&entity=song&country=FR",
+   "quote": "\"trackName\":\"Mahmouma\"",
+   "read": "2026-11-25",
+   "note": "ghiwane"
+  },
+  {
+   "kind": "near",
+   "artist": "Lhaj Belaid",
+   "title": "Atbir Oumlil",
+   "url": "https://itunes.apple.com/lookup?id=1719424431&entity=song&country=FR",
+   "quote": "\"trackName\":\"Atbir Oumlil\"",
+   "read": "2026-11-25",
+   "note": "rways"
+  },
+  {
+   "kind": "near",
+   "artist": "Idir",
+   "title": "A Vava Inouva",
+   "url": "https://www.tamazghastudiesjournal.org/articles-spring2024-issue-01-article04",
+   "quote": "His most famous song, “A Vava Inouva,” has transcended national borders",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ousmane",
+   "title": "Tillas",
+   "url": "https://tamazghastudiesjournal.org/articles-spring2024-issue-01-article03",
+   "quote": "Ousmane’s first two recordings, “Tillas” and “Takendout” enjoyed great popularity",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ammouri M'barek",
+   "title": "Nik Dik Tazwit",
+   "url": "https://en.yabiladi.com/articles/details/149416/ousmane-amazigh-beatles-caught-king",
+   "quote": "the late Amouri M'barek (vocals, composition, guitar)",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Archach",
+   "title": "Ouraifriat",
+   "url": "https://tamazghastudiesjournal.org/articles-spring2024-issue-01-article03",
+   "quote": "Other groups soon followed across Morocco, including Archach, Tawada, Aytmatn",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[1]",
+   "artist": null,
+   "title": null,
+   "url": "https://tamazghastudiesjournal.org/articles-spring2024-issue-01-article03",
+   "quote": "Ammouri repeats the verses of the poem, with the band joining him after each chorus to lament in unison",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[3]",
+   "artist": null,
+   "title": null,
+   "url": "https://fr.wikipedia.org/wiki/Imazzalen",
+   "quote": "orchestrés par le Banjo adapté aux gammes pentatoniques amazigh du Souss",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[3]",
+   "artist": null,
+   "title": null,
+   "url": "https://afropop.org/articles/ali-faiq-ccedit",
+   "quote": "pentatonic music with the outar and the ribab",
+   "read": "2026-11-25"
+  }
+ ]
+}

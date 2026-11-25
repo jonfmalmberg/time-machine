@@ -1,0 +1,31 @@
+[
+ {
+  "from": "zarzuela",
+  "to": "copla",
+  "kind": "principal",
+  "evidence": [
+   "copla:2",
+   "copla:8"
+  ],
+  "note": "Judgement on which parent is principal. The sources name cuplé (no id in the tree) as the form copla grew out of, and list tonadilla, variety theatre, zarzuela and ópera flamenca as antecedents; zarzuela is the antecedent with an id and the model for copla's orchestral accompaniment. If the lead adds cuplé, it should be the principal parent and zarzuela 'other'."
+ },
+ {
+  "from": "flamenco",
+  "to": "copla",
+  "kind": "other",
+  "evidence": [
+   "copla:2",
+   "copla:7"
+  ],
+  "note": "Ópera flamenca is a named antecedent and copla's texture is 'aflamencada, sin jondura'. Not principal: copla is orchestral theatre song, not cante."
+ },
+ {
+  "from": "pasodoble",
+  "to": "copla",
+  "kind": "other",
+  "evidence": [
+   "copla:10"
+  ],
+  "note": "Pasodoble is one of the rhythms copla is written in (Carmen de España, Campanera); the tree's pasodoble record already covers the sung pasodoble canción by the same singers. Judgement: no source states descent."
+ }
+]

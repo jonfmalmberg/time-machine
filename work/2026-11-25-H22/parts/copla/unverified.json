@@ -1,0 +1,20 @@
+{
+ "copla": {
+  "alias": {
+   "¡Ay, pena, penita, pena!": "Ay, pena, penita, pena (iTunes); ¡Ay pena, penita, pena! (Lola Flores page)",
+   "La falsa moneda": "Falsa Moneda (iTunes)",
+   "Callejuela sin salida": "Callejuela sin salía (Spanish Wikipedia list)",
+   "María de la O": "María de la \"O\" (some iTunes compilations)",
+   "Al doble de una campana": "Al Doble De Una Campana (Fandangos) (iTunes)"
+  },
+  "unverified": [
+   "All 84 claims were found by the checker; nothing was dropped.",
+   "Release years: the compilations do not say whether each track is the singer's original 78 or a later re-recording, so every release year is null. The written year is the year the Spanish Wikipedia list gives for the song's première, not a recording date.",
+   "Lola Flores, A tu vera: the Lola Flores page dates it 1962, the Copla andaluza list 1964; year left null.",
+   "Peak 1933-1960 is a judgement from the dated songs and from 'flourished in the 1930s and 1940s' / 'A partir de 1950 ... cine musical' / 'En los años 1960 se vio desplazada'; no source states a peak.",
+   "Origin in Seville is a judgement (Sevillian writers and stars, the name 'copla andaluza'); no source names a birthplace for the genre. Madrid's theatres are an equal candidate.",
+   "Later presence in Mexico rests on one fact (Lola Flores filming three films there in 1955). Argentina (Imperio Argentina; a Wikipedia category 'Cantantes de coplas de Argentina') and Cuba (Juanita Reina in Havana 1957) were seen but are too thin for presence lines.",
+   "España cañí near: the 1995 year is the album's release date on the iTunes record, not quoted."
+  ]
+ }
+}

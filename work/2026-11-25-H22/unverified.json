@@ -1,0 +1,181 @@
+{
+ "copla": {
+  "alias": {
+   "¡Ay, pena, penita, pena!": "Ay, pena, penita, pena (iTunes); ¡Ay pena, penita, pena! (Lola Flores page)",
+   "La falsa moneda": "Falsa Moneda (iTunes)",
+   "Callejuela sin salida": "Callejuela sin salía (Spanish Wikipedia list)",
+   "María de la O": "María de la \"O\" (some iTunes compilations)",
+   "Al doble de una campana": "Al Doble De Una Campana (Fandangos) (iTunes)"
+  },
+  "unverified": [
+   "All 84 claims were found by the checker; nothing was dropped.",
+   "Release years: the compilations do not say whether each track is the singer's original 78 or a later re-recording, so every release year is null. The written year is the year the Spanish Wikipedia list gives for the song's première, not a recording date.",
+   "Lola Flores, A tu vera: the Lola Flores page dates it 1962, the Copla andaluza list 1964; year left null.",
+   "Peak 1933-1960 is a judgement from the dated songs and from 'flourished in the 1930s and 1940s' / 'A partir de 1950 ... cine musical' / 'En los años 1960 se vio desplazada'; no source states a peak.",
+   "Origin in Seville is a judgement (Sevillian writers and stars, the name 'copla andaluza'); no source names a birthplace for the genre. Madrid's theatres are an equal candidate.",
+   "Later presence in Mexico rests on one fact (Lola Flores filming three films there in 1955). Argentina (Imperio Argentina; a Wikipedia category 'Cantantes de coplas de Argentina') and Cuba (Juanita Reina in Havana 1957) were seen but are too thin for presence lines.",
+   "España cañí near: the 1995 year is the album's release date on the iTunes record, not quoted."
+  ]
+ },
+ "doyo": {
+  "alias": {
+   "雨降りお月さん": "雨降りお月 (iTunes; the 1929 record's title)",
+   "証城寺の狸囃子": "證城寺の狸囃子 (iTunes)",
+   "あの町この町": "あの町 この町 (iTunes)",
+   "あめふり": "アメフリ (iTunes)",
+   "青い眼の人形": "青い目の人形 (iTunes; Wikipedia article title)",
+   "汽車ポッポ": "汽車ぽっぽ (iTunes)",
+   "月の沙漠": "月の砂漠 (iTunes)",
+   "古賀さと子": "古賀 さと子 (iTunes)"
+  },
+  "romanisation": {
+   "てるてる坊主": "Teru teru bōzu",
+   "雨降りお月さん": "Amefuri otsukisan",
+   "七つの子": "Nanatsu no ko",
+   "里の秋": "Sato no aki",
+   "兎のダンス": "Usagi no dansu",
+   "証城寺の狸囃子": "Shōjōji no tanuki-bayashi",
+   "あの町この町": "Ano machi kono machi",
+   "砂山": "Sunayama",
+   "あめふり": "Amefuri",
+   "十五夜お月さん": "Jūgoya otsukisan",
+   "赤い靴": "Akai kutsu",
+   "青い眼の人形": "Aoi me no ningyō",
+   "背くらべ": "Seikurabe",
+   "みかんの花咲く丘": "Mikan no hana saku oka",
+   "汽車ポッポ": "Kisha poppo",
+   "花かげ": "Hanakage",
+   "月の沙漠": "Tsuki no sabaku",
+   "かなりや": "Kanariya",
+   "赤とんぼ": "Akatombo",
+   "この道": "Kono michi",
+   "からたちの花": "Karatachi no hana",
+   "浜千鳥": "Hamachidori",
+   "故郷": "Furusato",
+   "タバコやの娘": "Tabakoya no musume",
+   "須坂小唄": "Suzaka kouta"
+  },
+  "unverified": [
+   "All 83 claims are found; nothing failed the check. The items below were read but not recorded as claims, or are inferences.",
+   "Release years 1928-1932 for Hirai Hideko and 1929 for Satō Chiyako come from Wikipedia's dated list of their Victor records; that the Victor compilation tracks on iTunes are those same records is an inference (Hirai stopped singing dōyō in 1934 and the reissues are Victor's own).",
+   "The first dōyō record (Kanariya by members of the Akai Tori girls' singing society, Nipponophone, June 1920) is on the ja Wikipedia infobox for かなりや; no playable or catalogued copy was found, so it is not in the playlist.",
+   "No recording by Motoori Midori, 'Japan's first dōyō singer', was found on iTunes or MusicBrainz; she is named only as a marker.",
+   "ended is null: ja Wikipedia says the narrow 'literary dōyō' came to an end around 1973 (end of the Record Award's dōyō prize), but new dōyō are still written and presented by the Japan Dōyō Association. The 1973 claim was dropped to keep the claim count down.",
+   "ja Wikipedia's 童謡 and 川田正子 articles carry a 'sources needed' banner; the facts used from them are standard but the articles are under-sourced.",
+   "Peak window 1919-1955 is a judgement from dated facts (magazine golden age of the 1920s, postwar boom, 1954 sales remark), not stated by any source."
+  ]
+ },
+ "guajira": {
+  "alias": {
+   "El Indio Naborí & Grupo Guajiro de Guitarras": "El Indio Nabori & Grupo Guajiro de Guitarras (iTunes)",
+   "Décimas de la cantina": "Décimas de la Cantina (Punto Cubano)",
+   "Controversia de la rubia y la trigueña": "Controversia de la Rubia y la Trigueña (Controversia Guajira)",
+   "Tristeza guajira (Naborí)": "Tristeza Guajira (Punto Guajiro)",
+   "Nuestra madre y el tiempo": "Nuestra Madre y el Tiempo (Punto Cubano)",
+   "Evelio Rodríguez y su Conjunto Guajiro": "Evelio Rodriguez y su Conjunto Guajiro",
+   "Joseíto Fernández": "Joseito Fernandez",
+   "Mis mujeres cómo han sido": "Mis Mujeres Como Han Sido",
+   "Radeúnda Lima": "Radeunda Lima",
+   "Cualquier cubano improvisa": "Cualquier Cubano Improvisa (feat. Conjunto Palmas y Cañas)",
+   "Compitiendo entre poetas": "Compitiendo Entre Poetas (feat. Conjunto Palmas y Cañas & Conjunto Campo Alegre)",
+   "Guateque de mi bohío": "Guateque de mi bohío (Remasterizado)",
+   "Mi tierra es así": "Mi Tierra Es Así (Remasterizado)",
+   "Habrá música guajira": "Habrá Música Guajira (Remasterizado)",
+   "Campesino que amaneces": "Campesino Que Amaneces (Remasterizado)",
+   "Duo Spirituano": "Duo Spirituano (as on the compilation; possibly Dúo Espirituano)"
+  },
+  "unverified": [
+   "All 97 claims were found by the checker; nothing failed.",
+   "Twoubadou descent from guajira rests on English Wikipedia citing Manuel et al., Caribbean Currents p. 156; the book was not read. The page says 'guajiro traditions', not 'guitar style'.",
+   "Release years: Rezos y cantos guajiros shows release date 1957 but ℗ 1965 Ansonia; La linda guajira shows 1960 but ℗ 1997 Musart; Naborí's album is a 2012 Vintage Music reissue; the compilation tracks (Fresh Sound 2009) have no original dates. All left null.",
+   "Guantanamera written year: Spanish Wikipedia says composed 1928; English Wikipedia says radio as early as 1929 and 'consensus puts 1929'. 1928 is used; a judgement.",
+   "Peak window 1935-1965 is a judgement: the sourced start is 'around 1935' on Cuban radio; the end is chosen from Celina y Reutilio's duo (1948-1964) and Joseíto's 14-year radio programme. No source states an end.",
+   "Origin coordinates (Santa Clara, old Las Villas) are a judgement for a diffuse rural origin across western and central Cuba.",
+   "Evelio Rodríguez and Duo Spirituano are tied to the genre only by the compilation title '25 Guajiras Inmortales'; El arroyo que murmura is the 1899 first guajira by its title on English Wikipedia.",
+   "Spanish Wikipedia's API returned HTTP 429 for most of this run; pages were read from the plain article address instead. The pages for Ramón Veloz, Coralia Fernández and Radeúnda Lima were not read (missing or rate-limited)."
+  ]
+ },
+ "nanguan": {
+  "alias": {
+   "風落梧桐": "Le vent dans les platanes (Fong lo wou‐t’ong) (MusicBrainz); Le Vent Dans Les Platanes 風落梧桐 (Chinese Wikipedia)",
+   "共君斷約": "Le rendez‐vous (Kong kiun touan‐yu)",
+   "冬天寒": "Froid est l’hiver (T’ong‐t’ien han)",
+   "心頭悶憔憔": "Affligé est mon cœur (Sin‐t’eou men ts’iao‐ts’iao)",
+   "告大人": "Le procès (Kao ta‐jen)",
+   "懶繡停針": "Lán-Siù Thêng-Chiam (Lasse De Broder)",
+   "夫為功名": "Hû Ûi Kong-Bêng (Pour La Gloire)",
+   "因送哥嫂": "In-Sâng Ko-Só (En Accompagnant Mon Frère)",
+   "望明月 (蔡小月)": "La Pleine lune (MusicBrainz); La Pleine Lune(Bong Beng-Goat) 望明月 (Chinese Wikipedia)",
+   "感謝公主": "Merci princesse! (MusicBrainz); Merci Princesse!(Kam-Sia Kong-Tsu) 感謝公主 (Chinese Wikipedia)",
+   "蔡小月": "Tsai Hsiao-yüeh / Tsai Hsiao-Yuëh",
+   "南聲社": "Nan-Sheng She / Nansheng She / 台南南聲社",
+   "王心心": "Wang Xin-Xin (iTunes US store)",
+   "荼蘼架": "The iTunes title is 荼蘼架; Chinese Wikipedia lists Tsai's version as 茶薇架 (To-Bi Ke). Kept as the page spells each.",
+   "Wang Ming Yue- Luo Hui Xian Nan Guan San Qu": "Album titles of the three 青和南管 albums are given in pinyin on iTunes; Chinese titles not found on a checked page, so not supplied."
+  },
+  "unverified": [
+   "No claim failed the check (96 found). The items below were not checked or were left out.",
+   "Han Tang Yuefu (漢唐樂府) and Gang-a-Tsui (江之翠劇場): no recording found on iTunes or MusicBrainz searches; their Chinese Wikipedia pages could not be read (rate-limited, then not found under 漢唐樂府). Named in notes only.",
+   "Ocora vol. 2-3 and 4-6 track titles are given in Chinese from the Chinese Wikipedia discography table of 蔡小月, not from the record; the Ocora booklets were not read.",
+   "Begin year 1600 is an estimate from the two Ming printed songbooks; their exact dates (often given as 1604 in the van der Loon literature) are not on any page read here.",
+   "The English Wikipedia article carries a December 2025 notice that it appears to include language-model text, and its history section calls Quanzhou 廣州 (Guangzhou), an error. Its claims are used only where the Chinese article or UNESCO agree, except the early-20th-century Taiwan peak (60+ associations), which is from that flagged section.",
+   "Peaks (CN and TW 1980/1982-2010) are judgements from dated facts (1982 Nansheng She European tour and Ocora series, post-Cultural-Revolution revival, 2006 national list, 2009 UNESCO); no source states a peak.",
+   "Release years for iTunes albums come from the releaseDate field of the same lookup pages; they were not recorded as separate claims. 福建南音 (中国地方音乐大系4) is dated 2001 on iTunes, which may be a reissue date.",
+   "Rhymoi Music's 2026 album 中国音乐地图之听见福建 福建南音 was found but left out: the performers are not named (artist is the label).",
+   "正八音 百家春 (八音南管) by 陳冠華民俗樂團 left out: bayin wind-and-percussion music, not the sizhu ensemble."
+  ]
+ },
+ "amazighbands": {
+  "alias": {
+   "Wad ittmuddun": "Wad Itmodoune (MusicBrainz)",
+   "Takendawt": "Takendout (Jones 2024); Taguendaout (Yabiladi); Takandaout (africangrooves); Takendawt (French Wikipedia, as album)",
+   "Ammouri M'barek": "Amouri M'barek (Yabiladi); Ammouri Mbark (French Wikipedia); Ammouri Mbarek (English Wikipedia)",
+   "Igoudar N'Souss": "Igodar N'Souss (iTunes track); Igudar N’Souss (French Wikipedia)",
+   "Bughāba": "Būghāba (same article, later)",
+   "Izenzaren Chamkh": "Izenzaren Chamakh (iTunes)",
+   "Saghru Band": "Saghru band (iTunes)",
+   "Nik Dik Tazwit": "Nik Dik (English Wikipedia track list of Nekk Dik A Nmun, 1978)",
+   "Ousmane": "Usman (El Guabli 2024, Dominguez 2025; English Wikipedia's Ammouri page)",
+   "Oudaden": "OUDADEN (iTunes)"
+  },
+  "unverified": [
+   "No claim failed the check; everything below is unverified by design, not by check result.",
+   "Ousmane's first recordings: Jones (2024) says Ousmane were the first group to record popular music in Tamazight, French Wikipedia says Izenzaren's first cassette was in 1974. Not resolved; began is set to 1972 (Izenzaren's formation), with no 'attested'.",
+   "Origin coordinates (Dcheira, 30.37, -9.53) are approximate, not from a source.",
+   "Peak window 1975-1995 is a judgement from dated facts (tazenzart dominant from 1975, Archach 1979, Oudaden 1978 and first album 1985), not stated by any source.",
+   "Oudaden album count disagrees: English Wikipedia 'thirty-eight albums', French Wikipedia 'une trentaine', and Le Matin (cited there) '28e album' in 2012; the Le Matin page was not read.",
+   "Oudaden's Mayna: French Wikipedia says 2012, iTunes release date 2013-01-01 with a 2022 copyright line; year left null.",
+   "Amarg Fusion has no song: no catalogue page found for its albums Agadir Ifawne (2006) and Argan d'Oufgan (Yabiladi names both; last.fm refused the script).",
+   "Khalid Izri and the Rif (Tarifit) bands such as Tawattun are left out of scope; see notes.",
+   "Africangrooves calls Ousmane 'Amazighe (berber tribe from North Africa) Gnawa music': not used, contradicted by the scholarly articles."
+  ]
+ },
+ "batuku": {
+  "alias": {
+   "Batucadeiras de Rincon": "Femmes de Rincon (iTunes artist name; the album subtitle reads 'Batucadeiras de Rincon Cape-Verde')",
+   "Ntóni Denti d'Oru": "Ntóni Denti d'Oro (iTunes); Ntoni Denti D`oro (Finkadu Na Raiz)",
+   "Nácia Gomi": "Nacia Gomi (iTunes); usually called Nha Nácia Gomi",
+   "Rapazinho bo é tentadu": "Santiago: Rapazinho bo é tentadu (Finançon)",
+   "Rabóita di Rubõ Manel": "Raboita Di Rubon Manel (iTunes)",
+   "Batuku, Tradison di Terra": "Batuku, Tradison Di Terra",
+   "Finkadu na Raiz": "Finkadu Na Raiz",
+   "Nha Kumadri": "Nha kumadri (Wikipedia)",
+   "Maria Júlia": "María Julia (iTunes)",
+   "Gil Semedo": "Gil & The Perfects (Wikipedia example row)",
+   "Bulimundo": "Bulimundo De Cabo Verde (MusicBrainz)",
+   "Cape Verde: Batuque & Finaçon": "Cape Verde : Batuque & Finaçon (Cap Vert) (iTunes, Nha Mita Pereira listing)"
+  },
+  "unverified": [
+   "No claim failed the check (76 of 76 found); nothing was dropped for a failed check.",
+   "UNESCO: batuku is not on the UNESCO intangible heritage lists (only morna, 2019, for Cabo Verde). The national listing as Cape Verdean intangible heritage comes only from pt Wikipedia; the Nogueira 2011 thesis on the government portal (HTTP 503) and the Nogueira 2012 RBEC article (host unreachable) were not read, so its date is unknown.",
+   "The 1772 first mention rests on pt Wikipedia's quotation of the governor's ban, which speaks of 'zambunas'; the identification of zambuna with a batuku session is the article's own note. en Wikipedia says written records only from the 19th century.",
+   "Year of the Radio France/Ocora album Cape Verde: Batuque & Finaçon unknown: iTunes lists it twice (Nha Mita Pereira, release date 2001 but ℗ 2010; Ntóni Denti d'Oru, ℗ 2018); MusicBrainz search found nothing. Years left null.",
+   "Year of Bulimundo's Batuco: Wikipedia 1981, MusicBrainz 1982; 1981 used.",
+   "Year of Gil Semedo's Maria Júlia: Wikipedia gives the album Verdadi as 1996, iTunes as 1995; left null.",
+   "Lura's Di Korpu Ku Alma: pt Wikipedia 2004 (Lusáfrica, Paris), iTunes ℗ 2005; 2004 used.",
+   "Nha Nácia Gomi and Ntóni Denti d'Oru have no Wikipedia page in pt or en; their tie to batuku is only through album and track titles (Batuque & Finaçon; '(Finançon)').",
+   "Peak window 1995-2010 is a judgement from dated facts (revival 'in the nineties', Expo 92 and the 1995 Smithsonian festival, Pantera's 1993 nomination, field albums of 2003, the Pantera-generation albums of 2003-2008); no source states a peak.",
+   "Portugal 'later' from 1990 is a judgement: pt Wikipedia's photo caption shows batucadeiras in Damaia (Lisbon area) in the early 1990s, but that caption names no country, so the evidence used is Lura's Portuguese concert and the Orquestra de BatuKadeiras de Portugal."
+  ]
+ }
+}

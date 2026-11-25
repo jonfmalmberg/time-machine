@@ -1,0 +1,35 @@
+[
+ {
+  "from": "ghiwane",
+  "to": "amazighbands",
+  "kind": "principal",
+  "evidence": [
+   "amazighbands:2",
+   "amazighbands:13",
+   "amazighbands:14",
+   "amazighbands:15",
+   "amazighbands:7"
+  ],
+  "note": "Ben Jones (2024) calls tagroupit a Tamazight-language sub-genre of the 1970s 'bands phenomenon' (Dhahira) that Nass El Ghiwane started; Ousmane and Izenzaren formed in its wake, the early Izenzaren closer to Ghiwani folk. Stated by the sources, not a judgement."
+ },
+ {
+  "from": "rways",
+  "to": "amazighbands",
+  "kind": "other",
+  "evidence": [
+   "amazighbands:12",
+   "amazighbands:29",
+   "amazighbands:31"
+  ],
+  "note": "The bands reworked rrways poems (Ousmane cited Hadj Belaid and others) and the later fusion bands built on rways and the ribab. That the bands descend from rways is stated for repertoire; making it 'other' rather than 'principal' is a judgement, since the sources describe the bands as a break with the ribab-and-naqus sound."
+ },
+ {
+  "from": "amazighahwashandah",
+  "to": "amazighbands",
+  "kind": "other",
+  "evidence": [
+   "amazighbands:28"
+  ],
+  "note": "Judgement: only one press source (on Amarg Fusion) names ahwash rhythms as a basis; no source states descent for the 1970s bands."
+ }
+]

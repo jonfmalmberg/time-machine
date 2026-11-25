@@ -1,0 +1,46 @@
+[
+ {
+  "genre": "doyo",
+  "place": "JP",
+  "kind": "origin",
+  "from": 1918,
+  "basis": "first estimate",
+  "evidence": [
+   "doyo:1",
+   "doyo:4"
+  ]
+ },
+ {
+  "genre": "doyo",
+  "place": "easia",
+  "kind": "peak",
+  "from": 1919,
+  "to": 1955,
+  "basis": "first estimate",
+  "evidence": [
+   "doyo:7",
+   "doyo:8",
+   "doyo:12",
+   "doyo:13",
+   "doyo:17"
+  ]
+ },
+ {
+  "genre": "doyo",
+  "place": "JP",
+  "kind": "peak",
+  "from": 1919,
+  "to": 1955,
+  "strength": 0.85,
+  "basis": "first estimate",
+  "evidence": [
+   "doyo:7",
+   "doyo:8",
+   "doyo:12",
+   "doyo:13",
+   "doyo:17",
+   "doyo:19",
+   "doyo:20"
+  ]
+ }
+]

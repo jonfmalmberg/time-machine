@@ -1,0 +1,70 @@
+{
+ "id": "amazighbands",
+ "name": "Amazigh band music (tazenzart and tagroupit)",
+ "aliases": [
+  "tazenzart",
+  "taznzart",
+  "tagroupit",
+  "tiroubba",
+  "Soussi Amazigh",
+  "modern Amazigh song"
+ ],
+ "region": "mena",
+ "family": "africa",
+ "tradition": "maghreb",
+ "began": 1972,
+ "ended": null,
+ "origin": {
+  "text": "Dcheira, Agadir (the Sous)",
+  "lat": 30.37,
+  "lon": -9.53,
+  "country": "MA"
+ },
+ "definition": {
+  "window": "1972 onward (Izenzaren formed in Dcheira, Agadir, in 1972; Ousmane and Izenzaren first recorded 1974-76)",
+  "sound": "Amazigh band music of Morocco's Sous: young bands, from Ousmane and Izenzaren in the 1970s, set written Tashelhit poetry and reworked rways poems to banjo, guitar, violin and hand drums, the band answering the lead singer in chorus. Its styles are named tazenzart, after Izenzaren, and tagroupit or tiroubba, the banjo-and-electric-guitar wedding bands such as Archach and Oudaden that followed; fusion bands since the 2000s add rock and ribab.",
+  "markers": [
+   "Banjo lead, often beside an electric guitar, over talunt frame drums, tam-tam and naqus",
+   "Sung Tashelhit poetry, nostalgic or protesting, with the band joining the singer in unison after each line or chorus",
+   "Quick triplet percussion that takes over and speeds the song toward its close",
+   "Melodies drawn from the Sous's pentatonic rways and village songs rather than Arab maqam"
+  ]
+ },
+ "evidence": {
+  "name": [
+   "amazighbands:0",
+   "amazighbands:1",
+   "amazighbands:2",
+   "amazighbands:3"
+  ],
+  "definition": [
+   "amazighbands:4",
+   "amazighbands:5",
+   "amazighbands:6",
+   "amazighbands:7",
+   "amazighbands:8",
+   "amazighbands:9",
+   "amazighbands:10",
+   "amazighbands:11",
+   "amazighbands:12",
+   "amazighbands:84",
+   "amazighbands:85",
+   "amazighbands:86"
+  ],
+  "began": [
+   "amazighbands:16",
+   "amazighbands:17",
+   "amazighbands:18",
+   "amazighbands:19",
+   "amazighbands:20"
+  ],
+  "origin": [
+   "amazighbands:16",
+   "amazighbands:17"
+  ],
+  "scope": [
+   "amazighbands:2",
+   "amazighbands:32"
+  ]
+ }
+}

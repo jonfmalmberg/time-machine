@@ -1,0 +1,66 @@
+{
+ "id": "copla",
+ "name": "Copla (canción española)",
+ "aliases": [
+  "copla andaluza",
+  "canción española",
+  "canción folklórica"
+ ],
+ "region": "eur",
+ "family": "folk",
+ "tradition": "iberian",
+ "began": 1917,
+ "attested": true,
+ "ended": null,
+ "origin": {
+  "text": "Seville and Andalusia (its writers and first stars were Sevillian; the songs were staged in variety theatres and films across Spain)",
+  "lat": 37.39,
+  "lon": -5.98,
+  "country": "ES"
+ },
+ "definition": {
+  "window": "1917 onward (El Relicario, 1917, is called the first copla; the form took shape in the 1920s out of cuplé, tonadilla, zarzuela and ópera flamenca; it flourished in the 1930s and 1940s and in 1950s musical film, was displaced by pop and the romantic ballad in the 1960s, and is still sung)",
+  "sound": "Spain's dramatic popular song of the variety stage and the musical film: one singer with a powerful, vibrato-rich voice, usually in an Andalusian accent and flamenco-coloured but without the depth of cante jondo, tells a short story of passion, jealousy or ruin over a theatre orchestra. Much of it was written by the trio Quintero, León and Quiroga, in pasodoble, zambra, tango or bolero rhythms.",
+  "markers": [
+   "A theatre orchestra, not a lone guitar, with long introductions and dramatic pauses",
+   "A big, controlled voice with strong vibrato, flamenco-tinged but not deep cante",
+   "Short, story-telling lyrics of overflowing love, betrayal, jealousy and sorrow",
+   "Pasodoble, zambra, tango or bolero rhythms under the same singers"
+  ]
+ },
+ "evidence": {
+  "name": [
+   "copla:0",
+   "copla:13"
+  ],
+  "definition": [
+   "copla:0",
+   "copla:5",
+   "copla:6",
+   "copla:7",
+   "copla:8",
+   "copla:9",
+   "copla:10",
+   "copla:11",
+   "copla:19"
+  ],
+  "began": [
+   "copla:1",
+   "copla:2"
+  ],
+  "window": [
+   "copla:3",
+   "copla:4",
+   "copla:13",
+   "copla:12"
+  ],
+  "origin": [
+   "copla:17",
+   "copla:18",
+   "copla:0"
+  ],
+  "ended": [
+   "copla:12"
+  ]
+ }
+}

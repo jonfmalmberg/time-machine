@@ -1,0 +1,834 @@
+{
+ "guajira": [
+  {
+   "kind": "def",
+   "field": "name, definition.sound, markers[0]",
+   "artist": null,
+   "title": null,
+   "url": "https://ich.unesco.org/en/RL/punto-01297",
+   "quote": "Punto is the poetry and music of Cuban farmers, consisting of a tune or melody over which a person sings an improvised or learned stanza of ten octameter verse lines, with a rhyming scheme.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.window",
+   "artist": null,
+   "title": null,
+   "url": "https://ich.unesco.org/en/RL/punto-01297",
+   "quote": "Inscribed in 2017",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.sound",
+   "artist": null,
+   "title": null,
+   "url": "https://ich.unesco.org/en/RL/punto-01297",
+   "quote": "There are two main variants of Punto: punto libre, a tune of free metre; and punto fijo",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "name, aliases",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Punto_guajiro",
+   "quote": "Punto guajiro or punto cubano – or simply punto – is a sung genre of Cuban music, a poetic art with music.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "began, origin",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Punto_guajiro",
+   "quote": "It became popular in the western and central regions of Cuba in the 17th century,",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "began",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Punto_guajiro",
+   "quote": "and consolidated as a genre in the 18th century.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Punto_guajiro",
+   "quote": "It has Andalusian and Canary Islands origins, and it integrated African elements in Cuba.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[1]",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Punto_guajiro",
+   "quote": "Punto is played by a group with various types of guitar: the Spanish guitar, the Cuban tres, the laúd and the tiple.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[1]",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Punto_guajiro",
+   "quote": "There are three percussion instruments: the clave, the güiro and the guayo (also a scraper, but of metal).",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[0], markers[2]",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Punto_guajiro",
+   "quote": "Singers form themselves into teams, and improvise their lines. They sing, or chant, an unvarying melody, with intervals between stanzas to give the singers time to prepare the next verse.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence peak",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Punto_guajiro",
+   "quote": "Beginning around 1935, punto reached a peak of popularity on Cuban radio.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "playlist tie (Celina González, Albita)",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Punto_guajiro",
+   "quote": "Celina González and Albita both sang punto in the first part of their careers",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "playlist tie (Indio Naborí)",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Punto_guajiro",
+   "quote": "Indio Naborí (Sabio Jesús Orta Ruiz, b. 30 September 1922) is the greatest name in punto",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "name, aliases, presence ES",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Punto_cubano",
+   "quote": "El punto cubano o punto guajiro – o simplemente punto – es un género cantado de música cubana y canaria.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Punto_cubano",
+   "quote": "De Canarias tomó las coplas de cuartetos, la décima espinela y el laúd",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[2]",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Punto_cubano",
+   "quote": "Los cantantes actúan como solistas o con dúos de \"controversia\", improvisando décimas.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[1]",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Punto_cubano",
+   "quote": "Estos espacios que suelen ser llenados por descargas de virtuosismo por el laúd",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence ES later",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Punto_cubano",
+   "quote": "En las Islas Canarias el punto cubano pervive con especial importancia en la isla de La Palma",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence ES later",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Punto_cubano",
+   "quote": "En el Municipio de Tijarafe se celebra cada año el Festival de Punto Cubano de Tijarafe",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.window",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Punto_cubano",
+   "quote": "En el año 2017, el Punto Cubano fue declarado Patrimonio Cultural Inmaterial de la Humanidad por la UNESCO.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "origin",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Punto_cubano",
+   "quote": "Punto pinareño (punto libre o vueltabajero): de la provincia occidental de Pinar del Río.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "origin",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Punto_cubano",
+   "quote": "Punto en clave (punto fijo: de las provincias de Camagüey y Las Villas.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "playlist tie (Justo Vega), listed under 'Intérpretes de punto cubano'",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Punto_cubano",
+   "quote": "Justo Vega (Cabezas, 9 de agosto de 1900",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "playlist tie (Justo Vega, Adolfo Alfonso): heading of the list that names both",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Punto_cubano",
+   "quote": "Intérpretes de punto cubano",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "name, parentage (guajira song inside the genre)",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Guajira_(music)",
+   "quote": "Guajira [ɡwaˈxi.ɾa] is a music genre derived from the punto cubano.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.window, song El arroyo que murmura (written 1899)",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Guajira_(music)",
+   "quote": "in 1899, the Cuban composer Jorge Anckermann inaugurated a new genre with his song \"El arroyo que murmura\", the first Cuban guajira.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[3]",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Guajira_(music)",
+   "quote": "The Cuban guajira preserved the characteristic rhythm of its ancestors, the punto cubano and the Spanish guajira, which was the sesquiáltera or horizontal hemiola.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "definition.markers[3]",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Guajira_(music)",
+   "quote": "Its form usually alternates a first section in minor mode, with a second section modulating to its direct Major relative.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage guajira->flamenco",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Guajira_(music)",
+   "quote": "by the second half of the 19th century it was adopted by the incipient Spanish Flamenco style, which included it within its \"palos\" with the name of guajira.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "playlist tie (Portabales), aliases, peak",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Guajira_(music)",
+   "quote": "From the 1930s, the guajira was refined and popularized by the singer and guitarist Guillermo Portabales, whose elegant style was known as guajira de salón or guajira-son.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "playlist tie (Celina González, Coralia Fernández, Ramón Veloz, Radeúnda Lima)",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Guajira_(music)",
+   "quote": "Other renowned performers of guajira-son were Celina González, Coralia Fernández, Ramón Veloz y Radeúnda Lima.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "near (Portabales son montuno), parentage note",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Guajira_(music)",
+   "quote": "the style of his songs was nothing else but those of the Cuban son and bolero-son",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "playlist tie (Spanish page, same list)",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Guajira_(m%C3%BAsica)",
+   "quote": "Otros destacados cultivadores de la guajira-son fueron Celina González, Coralia Fernández, Ramón Veloz y Radeúnda Lima.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage guajira->twoubadou",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Twoubadou",
+   "quote": "It combined music derived from the guajiro traditions of Cuba, (which is related to the jibaro musical tradition of Puerto Rico) with a Haitian musical style called méringue.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "parentage guajira->twoubadou",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Twoubadou",
+   "quote": "Twoubadou was brought back by Haitian migrant laborers who went to work as cutters on sugar plantations in Cuba",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "playlist tie (Indio Naborí)",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Jes%C3%BAs_Orta_Ruiz",
+   "quote": "fue un destacado poeta y decimista cubano",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "name, definition.sound",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Jes%C3%BAs_Orta_Ruiz",
+   "quote": "Su obra tiene raíces en la hermosa tradición artística popular de la música guajira, que utiliza como canción folclórica la forma estrófica de la décima.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "playlist tie (Celina González)",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Celina_Gonz%C3%A1lez",
+   "quote": "La forma musical era a menudo del punto cubano.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence peak (Celina y Reutilio from 1948)",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Celina_Gonz%C3%A1lez",
+   "quote": "En 1948  empezaron a trabajar con el famoso Ñico Saquito y con una popularidad creciente obtenida en radio, películas y televisión.",
+   "read": "2026-11-25",
+   "note": "Two spaces after 1948 on the page."
+  },
+  {
+   "kind": "def",
+   "field": "presence peak",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Celina_Gonz%C3%A1lez",
+   "quote": "En 1964 el dúo se disolvió y Celina continuó como solista.",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "song Guantanamera written year",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Fern%C3%A1ndez_D%C3%ADaz",
+   "quote": "Aunque compuso la melodía de la Guantanamera en 1928",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "playlist tie (Joseíto Fernández)",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Fern%C3%A1ndez_D%C3%ADaz",
+   "quote": "tales como el bolero, la guaracha, la guajira-son, el son montuno",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "presence peak (radio)",
+   "artist": null,
+   "title": null,
+   "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Fern%C3%A1ndez_D%C3%ADaz",
+   "quote": "se mantuvo en antena durante catorce años con gran audiencia",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "def",
+   "field": "song Guantanamera (note: disagrees with es page's 1928)",
+   "artist": null,
+   "title": null,
+   "url": "https://en.wikipedia.org/wiki/Guantanamera",
+   "quote": "who first popularized the song on radio as early as 1929",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "Celina y Reutilio",
+   "title": "Yo soy el punto cubano",
+   "url": "https://itunes.apple.com/lookup?id=1523395701&entity=song",
+   "quote": "\"trackName\":\"Yo Soy El Punto Cubano\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "El Indio Naborí",
+   "title": "Décimas de la cantina",
+   "url": "https://itunes.apple.com/lookup?id=516392921&entity=song",
+   "quote": "\"trackName\":\"Décimas de la Cantina (Punto Cubano)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "Justo Vega & Adolfo Alfonso",
+   "title": "Cualquier cubano improvisa",
+   "url": "https://itunes.apple.com/lookup?id=1757719424&entity=song",
+   "quote": "\"trackName\":\"Cualquier Cubano Improvisa (feat. Conjunto Palmas y Cañas)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "Evelio Rodríguez y su Conjunto Guajiro",
+   "title": "El arroyo que murmura",
+   "url": "https://itunes.apple.com/lookup?id=346713347&entity=song",
+   "quote": "\"trackName\":\"El Arroyo Que Murmura\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "fit",
+   "artist": "Joseíto Fernández",
+   "title": "Guantanamera",
+   "url": "https://itunes.apple.com/lookup?id=1618176367&entity=song",
+   "quote": "\"trackName\":\"Guantanamera\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "Paco de Lucía",
+   "title": "Guajiras",
+   "url": "https://itunes.apple.com/lookup?id=157700389&entity=song",
+   "quote": "\"trackName\":\"Guajiras\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "Paco de Lucía",
+   "title": "Guajiras",
+   "url": "https://itunes.apple.com/lookup?id=157700389&entity=song",
+   "quote": "\"collectionName\":\"Festival Flamenco Gitano, Vol. 1 (Live)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "Pete Seeger",
+   "title": "Guantanamera",
+   "url": "https://itunes.apple.com/lookup?id=1732307891&entity=song",
+   "quote": "\"trackName\":\"Guantanamera (Live)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "Pete Seeger",
+   "title": "Guantanamera",
+   "url": "https://en.wikipedia.org/wiki/Guajira_(music)",
+   "quote": "internationally popularized during the 1960s by the American folk singer Pete Seeger",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "near",
+   "artist": "Guillermo Portabales",
+   "title": "Jaleo",
+   "url": "https://itunes.apple.com/lookup?id=943039097&entity=song",
+   "quote": "\"trackName\":\"Jaleo (Son Montuno)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Evelio Rodríguez y su Conjunto Guajiro",
+   "title": "El arroyo que murmura",
+   "url": "https://itunes.apple.com/lookup?id=346713347&entity=song",
+   "quote": "\"trackName\":\"El Arroyo Que Murmura\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Joseíto Fernández",
+   "title": "Guantanamera",
+   "url": "https://itunes.apple.com/lookup?id=1618176367&entity=song",
+   "quote": "\"trackName\":\"Guantanamera\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Celina y Reutilio",
+   "title": "Yo soy el punto cubano",
+   "url": "https://itunes.apple.com/lookup?id=1523395701&entity=song",
+   "quote": "\"trackName\":\"Yo Soy El Punto Cubano\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "El Indio Naborí & Grupo Guajiro de Guitarras",
+   "title": "Décimas de la cantina",
+   "url": "https://itunes.apple.com/lookup?id=516392921&entity=song",
+   "quote": "\"trackName\":\"Décimas de la Cantina (Punto Cubano)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Celina y Reutilio",
+   "title": "Alborada guajira",
+   "url": "https://itunes.apple.com/lookup?id=1523395701&entity=song",
+   "quote": "\"trackName\":\"Alborada Guajira\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Celina y Reutilio",
+   "title": "Tristeza guajira",
+   "url": "https://itunes.apple.com/lookup?id=1523395701&entity=song",
+   "quote": "\"trackName\":\"Tristeza Guajira\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Celina y Reutilio",
+   "title": "Mi bohío",
+   "url": "https://itunes.apple.com/lookup?id=346713347&entity=song",
+   "quote": "\"trackName\":\"Mi Bohío\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "El Indio Naborí & Grupo Guajiro de Guitarras",
+   "title": "Controversia de la rubia y la trigueña",
+   "url": "https://itunes.apple.com/lookup?id=516392921&entity=song",
+   "quote": "\"trackName\":\"Controversia de la Rubia y la Trigueña (Controversia Guajira)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "El Indio Naborí & Grupo Guajiro de Guitarras",
+   "title": "Tristeza guajira",
+   "url": "https://itunes.apple.com/lookup?id=516392921&entity=song",
+   "quote": "\"trackName\":\"Tristeza Guajira (Punto Guajiro)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "El Indio Naborí & Grupo Guajiro de Guitarras",
+   "title": "Nuestra madre y el tiempo",
+   "url": "https://itunes.apple.com/lookup?id=516392921&entity=song",
+   "quote": "\"trackName\":\"Nuestra Madre y el Tiempo (Punto Cubano)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Guillermo Portabales & Conjunto Típico Alborada",
+   "title": "El sitierito",
+   "url": "https://itunes.apple.com/lookup?id=1522995485&entity=song",
+   "quote": "\"trackName\":\"El Sitierito\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Guillermo Portabales & Conjunto Típico Alborada",
+   "title": "Amorosa guajira",
+   "url": "https://itunes.apple.com/lookup?id=1522995485&entity=song",
+   "quote": "\"trackName\":\"Amorosa Guajira\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Guillermo Portabales & Conjunto Típico Alborada",
+   "title": "Mis mujeres cómo han sido",
+   "url": "https://itunes.apple.com/lookup?id=1522995485&entity=song",
+   "quote": "\"trackName\":\"Mis Mujeres Como Han Sido\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ramón Veloz & Conjunto Pilón",
+   "title": "Cosas guajiras",
+   "url": "https://itunes.apple.com/lookup?id=346713347&entity=song",
+   "quote": "\"trackName\":\"Cosas Guajiras\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ramón Veloz & Los Guaracheros de Oriente",
+   "title": "La linda guajira",
+   "url": "https://itunes.apple.com/lookup?id=1495440475&entity=song",
+   "quote": "\"trackName\":\"La Linda Guajira\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Ramón Veloz & Coralia Fernández",
+   "title": "Amanecer guajiro",
+   "url": "https://itunes.apple.com/lookup?id=1529970716&entity=song",
+   "quote": "\"trackName\":\"Amanecer Guajiro\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Justo Vega & Adolfo Alfonso",
+   "title": "Cualquier cubano improvisa",
+   "url": "https://itunes.apple.com/lookup?id=1757719424&entity=song",
+   "quote": "\"trackName\":\"Cualquier Cubano Improvisa (feat. Conjunto Palmas y Cañas)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Justo Vega & Adolfo Alfonso",
+   "title": "Compitiendo entre poetas",
+   "url": "https://itunes.apple.com/lookup?id=1510823338&entity=song",
+   "quote": "\"trackName\":\"Compitiendo Entre Poetas (feat. Conjunto Palmas y Cañas & Conjunto Campo Alegre)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Celina González & Conjunto Campo Alegre",
+   "title": "Guateque de mi bohío",
+   "url": "https://itunes.apple.com/lookup?id=1373342449&entity=song",
+   "quote": "\"trackName\":\"Guateque de mi bohío (Remasterizado)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Celina González",
+   "title": "Mi tierra es así",
+   "url": "https://itunes.apple.com/lookup?id=1145626533&entity=song",
+   "quote": "\"trackName\":\"Mi Tierra Es Así (Remasterizado)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Albita Rodríguez y su Grupo",
+   "title": "Habrá música guajira",
+   "url": "https://itunes.apple.com/lookup?id=1145571155&entity=song",
+   "quote": "\"trackName\":\"Habrá Música Guajira (Remasterizado)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Albita Rodríguez y su Grupo",
+   "title": "Campesino que amaneces",
+   "url": "https://itunes.apple.com/lookup?id=1145571155&entity=song",
+   "quote": "\"trackName\":\"Campesino Que Amaneces (Remasterizado)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Radeúnda Lima",
+   "title": "Mis cosas guajiras",
+   "url": "https://itunes.apple.com/lookup?id=1721638164&entity=song",
+   "quote": "\"trackName\":\"Mis Cosas Guajiras\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Radeúnda Lima",
+   "title": "Así es mi guateque",
+   "url": "https://itunes.apple.com/lookup?id=1721638164&entity=song",
+   "quote": "\"trackName\":\"Así Es Mi Guateque\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Duo Spirituano",
+   "title": "Pobre guajiro",
+   "url": "https://itunes.apple.com/lookup?id=346713347&entity=song",
+   "quote": "\"trackName\":\"Pobre Guajiro\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Various Artists",
+   "title": "Por los Campos de Cuba - 25 Guajiras Inmortales",
+   "url": "https://itunes.apple.com/lookup?id=346713347&entity=song",
+   "quote": "\"collectionName\":\"Por los Campos de Cuba - 25 Guajiras Inmortales\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "El Indio Naborí",
+   "title": "Punto Cubano (feat. Grupo Guajiro de Guitarras)",
+   "url": "https://itunes.apple.com/lookup?id=516392921&entity=song",
+   "quote": "\"collectionName\":\"Punto Cubano (feat. Grupo Guajiro de Guitarras)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Celina y Reutilio",
+   "title": "Rezos y cantos guajiros",
+   "url": "https://itunes.apple.com/lookup?id=1523395701&entity=song",
+   "quote": "\"collectionName\":\"Rezos y cantos guajiros\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Justo Vega & Adolfo Alfonso",
+   "title": "Controversias (feat. Conjunto Palmas y Cañas)",
+   "url": "https://itunes.apple.com/lookup?id=1757719424&entity=song",
+   "quote": "\"collectionName\":\"Controversias (feat. Conjunto Palmas y Cañas)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Guillermo Portabales & Conjunto Típico Alborada",
+   "title": "Aquí Está Portabales! El Creador de la Guajira de Salón",
+   "url": "https://itunes.apple.com/lookup?id=1522995485&entity=song",
+   "quote": "\"collectionName\":\"Aquí Está Portabales! El Creador de la Guajira de Salón\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Celina González",
+   "title": "Yo Soy el Punto Cubano (Remasterizado)",
+   "url": "https://itunes.apple.com/lookup?id=1145626533&entity=song",
+   "quote": "\"collectionName\":\"Yo Soy el Punto Cubano (Remasterizado)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Albita Rodríguez y Su Grupo",
+   "title": "Habrá Música Guajira (Remasterizado)",
+   "url": "https://itunes.apple.com/lookup?id=1145571155&entity=song",
+   "quote": "\"collectionName\":\"Habrá Música Guajira (Remasterizado)\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Ramón Veloz & Coralia Fernández",
+   "title": "Amanecer Guajiro",
+   "url": "https://itunes.apple.com/lookup?id=1529970716&entity=song",
+   "quote": "\"collectionName\":\"Amanecer Guajiro\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "album",
+   "artist": "Radeunda Lima",
+   "title": "Mi Tierra Es Así",
+   "url": "https://itunes.apple.com/lookup?id=1721638164&entity=song",
+   "quote": "\"collectionName\":\"Mi Tierra Es Así\"",
+   "read": "2026-11-25"
+  },
+  {
+   "kind": "song",
+   "artist": "Joseíto Fernández",
+   "title": "Guantanamera",
+   "url": "https://itunes.apple.com/lookup?id=1618176367&entity=song",
+   "quote": "\"copyright\":\"℗ 1960 Areito\"",
+   "read": "2026-11-25",
+   "note": "release year"
+  },
+  {
+   "kind": "song",
+   "artist": "Justo Vega & Adolfo Alfonso",
+   "title": "Cualquier cubano improvisa",
+   "url": "https://itunes.apple.com/lookup?id=1757719424&entity=song",
+   "quote": "\"copyright\":\"℗ 1979 Melodia Musica\"",
+   "read": "2026-11-25",
+   "note": "release year"
+  },
+  {
+   "kind": "song",
+   "artist": "Justo Vega & Adolfo Alfonso",
+   "title": "Compitiendo entre poetas",
+   "url": "https://itunes.apple.com/lookup?id=1510823338&entity=song",
+   "quote": "\"copyright\":\"℗ 1980 Alegria Music Latino\"",
+   "read": "2026-11-25",
+   "note": "release year"
+  },
+  {
+   "kind": "song",
+   "artist": "Guillermo Portabales & Conjunto Típico Alborada",
+   "title": "El sitierito",
+   "url": "https://itunes.apple.com/lookup?id=1522995485&entity=song",
+   "quote": "\"copyright\":\"℗ 1957 ARO Records\"",
+   "read": "2026-11-25",
+   "note": "release year for s11-s13"
+  },
+  {
+   "kind": "song",
+   "artist": "Ramón Veloz & Coralia Fernández",
+   "title": "Amanecer guajiro",
+   "url": "https://itunes.apple.com/lookup?id=1529970716&entity=song",
+   "quote": "\"copyright\":\"℗ 1979 Alegria Music Latino\"",
+   "read": "2026-11-25",
+   "note": "release year"
+  },
+  {
+   "kind": "song",
+   "artist": "Celina González & Conjunto Campo Alegre",
+   "title": "Guateque de mi bohío",
+   "url": "https://itunes.apple.com/lookup?id=1373342449&entity=song",
+   "quote": "\"copyright\":\"℗ 1984 EGREM",
+   "read": "2026-11-25",
+   "note": "release year"
+  },
+  {
+   "kind": "song",
+   "artist": "Celina González",
+   "title": "Mi tierra es así",
+   "url": "https://itunes.apple.com/lookup?id=1145626533&entity=song",
+   "quote": "\"copyright\":\"℗ 1982 EGREM",
+   "read": "2026-11-25",
+   "note": "release year"
+  },
+  {
+   "kind": "song",
+   "artist": "Albita Rodríguez y su Grupo",
+   "title": "Habrá música guajira",
+   "url": "https://itunes.apple.com/lookup?id=1145571155&entity=song",
+   "quote": "\"copyright\":\"℗ 1989 EGREM",
+   "read": "2026-11-25",
+   "note": "release year for s21-s22"
+  },
+  {
+   "kind": "song",
+   "artist": "Radeúnda Lima",
+   "title": "Mis cosas guajiras",
+   "url": "https://itunes.apple.com/lookup?id=1721638164&entity=song",
+   "quote": "\"copyright\":\"℗ 1993 Pinnacle Latin Records\"",
+   "read": "2026-11-25",
+   "note": "release year for s23-s24"
+  }
+ ]
+}

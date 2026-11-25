@@ -1,0 +1,50 @@
+{
+ "doyo": {
+  "alias": {
+   "雨降りお月さん": "雨降りお月 (iTunes; the 1929 record's title)",
+   "証城寺の狸囃子": "證城寺の狸囃子 (iTunes)",
+   "あの町この町": "あの町 この町 (iTunes)",
+   "あめふり": "アメフリ (iTunes)",
+   "青い眼の人形": "青い目の人形 (iTunes; Wikipedia article title)",
+   "汽車ポッポ": "汽車ぽっぽ (iTunes)",
+   "月の沙漠": "月の砂漠 (iTunes)",
+   "古賀さと子": "古賀 さと子 (iTunes)"
+  },
+  "romanisation": {
+   "てるてる坊主": "Teru teru bōzu",
+   "雨降りお月さん": "Amefuri otsukisan",
+   "七つの子": "Nanatsu no ko",
+   "里の秋": "Sato no aki",
+   "兎のダンス": "Usagi no dansu",
+   "証城寺の狸囃子": "Shōjōji no tanuki-bayashi",
+   "あの町この町": "Ano machi kono machi",
+   "砂山": "Sunayama",
+   "あめふり": "Amefuri",
+   "十五夜お月さん": "Jūgoya otsukisan",
+   "赤い靴": "Akai kutsu",
+   "青い眼の人形": "Aoi me no ningyō",
+   "背くらべ": "Seikurabe",
+   "みかんの花咲く丘": "Mikan no hana saku oka",
+   "汽車ポッポ": "Kisha poppo",
+   "花かげ": "Hanakage",
+   "月の沙漠": "Tsuki no sabaku",
+   "かなりや": "Kanariya",
+   "赤とんぼ": "Akatombo",
+   "この道": "Kono michi",
+   "からたちの花": "Karatachi no hana",
+   "浜千鳥": "Hamachidori",
+   "故郷": "Furusato",
+   "タバコやの娘": "Tabakoya no musume",
+   "須坂小唄": "Suzaka kouta"
+  },
+  "unverified": [
+   "All 83 claims are found; nothing failed the check. The items below were read but not recorded as claims, or are inferences.",
+   "Release years 1928-1932 for Hirai Hideko and 1929 for Satō Chiyako come from Wikipedia's dated list of their Victor records; that the Victor compilation tracks on iTunes are those same records is an inference (Hirai stopped singing dōyō in 1934 and the reissues are Victor's own).",
+   "The first dōyō record (Kanariya by members of the Akai Tori girls' singing society, Nipponophone, June 1920) is on the ja Wikipedia infobox for かなりや; no playable or catalogued copy was found, so it is not in the playlist.",
+   "No recording by Motoori Midori, 'Japan's first dōyō singer', was found on iTunes or MusicBrainz; she is named only as a marker.",
+   "ended is null: ja Wikipedia says the narrow 'literary dōyō' came to an end around 1973 (end of the Record Award's dōyō prize), but new dōyō are still written and presented by the Japan Dōyō Association. The 1973 claim was dropped to keep the claim count down.",
+   "ja Wikipedia's 童謡 and 川田正子 articles carry a 'sources needed' banner; the facts used from them are standard but the articles are under-sourced.",
+   "Peak window 1919-1955 is a judgement from dated facts (magazine golden age of the 1920s, postwar boom, 1954 sales remark), not stated by any source."
+  ]
+ }
+}

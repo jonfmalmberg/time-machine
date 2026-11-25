@@ -1,0 +1,9 @@
+[
+{"genre":"nanguan","place":"CN","kind":"origin","from":1600,"basis":"first estimate","evidence":["nanguan:13","nanguan:14","nanguan:16","nanguan:17"]},
+{"genre":"nanguan","place":"easia","kind":"peak","from":1980,"to":2010,"basis":"first estimate","evidence":["nanguan:23","nanguan:24","nanguan:28","nanguan:29","nanguan:30"]},
+{"genre":"nanguan","place":"CN","kind":"peak","from":1980,"to":2010,"strength":0.85,"basis":"first estimate","evidence":["nanguan:28","nanguan:29","nanguan:30"]},
+{"genre":"nanguan","place":"TW","kind":"peak","from":1982,"to":2010,"strength":0.85,"basis":"first estimate","evidence":["nanguan:23","nanguan:24","nanguan:21","nanguan:22"]},
+{"genre":"nanguan","place":"seasia","kind":"later","from":1940,"basis":"first estimate","evidence":["nanguan:18","nanguan:19","nanguan:25"]},
+{"genre":"nanguan","place":"SG","kind":"later","from":1940,"basis":"first estimate","evidence":["nanguan:25","nanguan:27"]},
+{"genre":"nanguan","place":"PH","kind":"later","from":1961,"basis":"first estimate","evidence":["nanguan:26","nanguan:20"]}
+]

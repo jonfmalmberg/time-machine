@@ -1,0 +1,67 @@
+{
+ "id": "doyo",
+ "name": "Dōyō (Japanese children's songs)",
+ "aliases": [
+  "dōyō",
+  "doyo",
+  "童謡",
+  "創作童謡",
+  "sōsaku dōyō",
+  "文学童謡",
+  "bungaku dōyō"
+ ],
+ "region": "easia",
+ "family": "pop",
+ "tradition": "japanpop",
+ "began": 1918,
+ "attested": true,
+ "ended": null,
+ "origin": {
+  "text": "Tokyo, in children's magazines such as Akai Tori, Kin no Fune and Kodomo no Kuni",
+  "lat": 35.68,
+  "lon": 139.76,
+  "country": "JP"
+ },
+ "definition": {
+  "window": "1918 onward: from the founding of the children's magazine Akai Tori (July 1918) and the first dōyō published with music (Kanariya, 1919), through the golden age of the 1920s magazines and the unprecedented boom after 1945 with child star singers; fading from the late 1950s as television and anime songs took over children's singing, but still sung and re-recorded.",
+  "sound": "Songs written for children after 1918 by literary poets (Kitahara Hakushū, Noguchi Ujō, Saijō Yaso) and composers (Nakayama Shinpei, Motoori Nagayo, Yamada Kōsaku), meant as artistic alternatives to the moralising school shōka and distinct from traditional warabe-uta: short, gentle, often nostalgic songs about the moon, birds, animals, rain and the home village, sung on record by child singers and children's choirs.",
+  "markers": [
+   "Major-key tunes mostly on the five-note yonanuki scale (Akatombo, Nakayama Shinpei's songs)",
+   "A bouncing dotted 'pyonko-bushi' rhythm in many songs, as in Usagi no dansu",
+   "A child's solo voice or a children's choir: the first recording stars were children such as Motoori Midori, Hirai Hideko and, after 1945, Kawada Masako",
+   "Literary poems set more freely than the plain verse-after-verse school shōka"
+  ]
+ },
+ "evidence": {
+  "name": [
+   "doyo:0"
+  ],
+  "definition": [
+   "doyo:1",
+   "doyo:2",
+   "doyo:3",
+   "doyo:5",
+   "doyo:8",
+   "doyo:9",
+   "doyo:10",
+   "doyo:11",
+   "doyo:19",
+   "doyo:20"
+  ],
+  "began": [
+   "doyo:1",
+   "doyo:4",
+   "doyo:7"
+  ],
+  "origin": [
+   "doyo:4",
+   "doyo:15"
+  ],
+  "peak": [
+   "doyo:8",
+   "doyo:12",
+   "doyo:13",
+   "doyo:17"
+  ]
+ }
+}

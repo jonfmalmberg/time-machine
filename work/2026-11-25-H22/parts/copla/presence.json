@@ -1,0 +1,55 @@
+[
+ {
+  "genre": "copla",
+  "place": "ES",
+  "kind": "origin",
+  "from": 1917,
+  "basis": "first estimate",
+  "evidence": [
+   "copla:1",
+   "copla:2",
+   "copla:17",
+   "copla:18"
+  ]
+ },
+ {
+  "genre": "copla",
+  "place": "eur",
+  "kind": "peak",
+  "from": 1933,
+  "to": 1960,
+  "basis": "first estimate",
+  "evidence": [
+   "copla:13",
+   "copla:3",
+   "copla:4"
+  ]
+ },
+ {
+  "genre": "copla",
+  "place": "ES",
+  "kind": "peak",
+  "from": 1933,
+  "to": 1960,
+  "strength": 0.85,
+  "basis": "first estimate",
+  "evidence": [
+   "copla:13",
+   "copla:3",
+   "copla:4",
+   "copla:27",
+   "copla:33",
+   "copla:69"
+  ]
+ },
+ {
+  "genre": "copla",
+  "place": "MX",
+  "kind": "later",
+  "from": 1955,
+  "basis": "first estimate",
+  "evidence": [
+   "copla:20"
+  ]
+ }
+]

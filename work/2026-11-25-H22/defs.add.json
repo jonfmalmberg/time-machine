@@ -1,0 +1,329 @@
+{
+ "copla": {
+  "window": "1917 onward (El Relicario, 1917, is called the first copla; the form took shape in the 1920s out of cuplé, tonadilla, zarzuela and ópera flamenca; it flourished in the 1930s and 1940s and in 1950s musical film, was displaced by pop and the romantic ballad in the 1960s, and is still sung)",
+  "sound": "Spain's dramatic popular song of the variety stage and the musical film: one singer with a powerful, vibrato-rich voice, usually in an Andalusian accent and flamenco-coloured but without the depth of cante jondo, tells a short story of passion, jealousy or ruin over a theatre orchestra. Much of it was written by the trio Quintero, León and Quiroga, in pasodoble, zambra, tango or bolero rhythms.",
+  "markers": [
+   "A theatre orchestra, not a lone guitar, with long introductions and dramatic pauses",
+   "A big, controlled voice with strong vibrato, flamenco-tinged but not deep cante",
+   "Short, story-telling lyrics of overflowing love, betrayal, jealousy and sorrow",
+   "Pasodoble, zambra, tango or bolero rhythms under the same singers"
+  ],
+  "fits": [
+   [
+    "Concha Piquer",
+    "Tatuaje",
+    1941
+   ],
+   [
+    "Estrellita Castro",
+    "María de la O",
+    1933
+   ],
+   [
+    "Lola Flores",
+    "La zarzamora",
+    1946
+   ],
+   [
+    "Juanita Reina",
+    "Y sin embargo te quiero",
+    1948
+   ]
+  ],
+  "near": [
+   [
+    "Banda Sinfónica Municipal de Madrid",
+    "España cañí",
+    1995,
+    "pasodoble",
+    "The band pasodoble: an instrumental march for wind band, with no singer and no story; copla borrows the rhythm but is sung theatre song"
+   ],
+   [
+    "La Niña de los Peines",
+    "Al doble de una campana",
+    null,
+    "flamenco",
+    "Flamenco cante (fandangos) with guitar from a cantaora: free, deep cante jondo, not an orchestral copla"
+   ]
+  ]
+ },
+ "doyo": {
+  "window": "1918 onward: from the founding of the children's magazine Akai Tori (July 1918) and the first dōyō published with music (Kanariya, 1919), through the golden age of the 1920s magazines and the unprecedented boom after 1945 with child star singers; fading from the late 1950s as television and anime songs took over children's singing, but still sung and re-recorded.",
+  "sound": "Songs written for children after 1918 by literary poets (Kitahara Hakushū, Noguchi Ujō, Saijō Yaso) and composers (Nakayama Shinpei, Motoori Nagayo, Yamada Kōsaku), meant as artistic alternatives to the moralising school shōka and distinct from traditional warabe-uta: short, gentle, often nostalgic songs about the moon, birds, animals, rain and the home village, sung on record by child singers and children's choirs.",
+  "markers": [
+   "Major-key tunes mostly on the five-note yonanuki scale (Akatombo, Nakayama Shinpei's songs)",
+   "A bouncing dotted 'pyonko-bushi' rhythm in many songs, as in Usagi no dansu",
+   "A child's solo voice or a children's choir: the first recording stars were children such as Motoori Midori, Hirai Hideko and, after 1945, Kawada Masako",
+   "Literary poems set more freely than the plain verse-after-verse school shōka"
+  ],
+  "fits": [
+   [
+    "平井英子 & 中山晋平",
+    "兎のダンス",
+    1929
+   ],
+   [
+    "佐藤千夜子 & 中山晋平",
+    "雨降りお月さん",
+    1929
+   ],
+   [
+    "本多信子",
+    "七つの子",
+    null
+   ]
+  ],
+  "near": [
+   [
+    "由紀さおり・安田祥子",
+    "故郷",
+    null,
+    "shokaandgunka",
+    "A Monbushō school song (shōka) by Takano Tatsuyuki and Okano Teiichi: the kind of song dōyō was written to replace, often sung by the same singers on the same albums"
+   ],
+   [
+    "岸井明 & 平井英子",
+    "タバコやの娘",
+    1937,
+    "kayokyoku",
+    "Hirai Hideko's adult comeback as a popular singer: a comic duet hit, not a children's song"
+   ],
+   [
+    "佐藤千夜子",
+    "須坂小唄",
+    null,
+    "minyo",
+    "Shin-min'yō (new folk song) by Nakayama Shinpei, the dōyō composer, for local dancing; min'yō is the nearest id, shin-min'yō has none"
+   ]
+  ]
+ },
+ "guajira": {
+  "window": "c. 1700 onward: popular in western and central Cuba in the 17th century and a settled genre by the 18th; the composed guajira song from 1899; at its height on Cuban radio from about 1935; on UNESCO's Representative List since 2017; still sung in Cuba and on La Palma in the Canary Islands.",
+  "sound": "The sung poetry of Cuba's farmers: a singer improvises or sings a learned décima, ten eight-syllable lines with a fixed rhyme, over an unvarying tune picked on guitar, tres, laúd and tiple, with clave, güiro and the metal guayo. Laúd runs between stanzas give the singer time to make the next verse, and pairs of singers compete in improvised controversias. The composed guajira (from 1899) and the guajira-son of Guillermo Portabales, Celina González and Ramón Veloz keep its lilting hemiola rhythm and its idealised country themes.",
+  "markers": [
+   "Ten-line décimas, improvised or learned, sung over an unvarying tune with pauses between stanzas",
+   "Picked laúd, tres and guitar with clave, güiro and the metal guayo; laúd runs fill the gaps between verses",
+   "Controversia: two singers trading improvised décimas as a contest",
+   "A swaying 3-against-2 hemiola (sesquiáltera); guajira songs move from minor to the relative major and sing an idealised country life"
+  ],
+  "fits": [
+   [
+    "Celina y Reutilio",
+    "Yo soy el punto cubano",
+    null
+   ],
+   [
+    "El Indio Naborí & Grupo Guajiro de Guitarras",
+    "Décimas de la cantina",
+    null
+   ],
+   [
+    "Justo Vega & Adolfo Alfonso",
+    "Cualquier cubano improvisa",
+    1979
+   ],
+   [
+    "Evelio Rodríguez y su Conjunto Guajiro",
+    "El arroyo que murmura",
+    null
+   ],
+   [
+    "Joseíto Fernández",
+    "Guantanamera",
+    1960
+   ]
+  ],
+  "near": [
+   [
+    "Paco de Lucía",
+    "Guajiras",
+    1969,
+    "flamenco",
+    "The Spanish flamenco palo of the same name, descended from the punto: solo flamenco guitar, no décima singing or laúd"
+   ],
+   [
+    "Pete Seeger",
+    "Guantanamera",
+    1963,
+    "folkrev",
+    "Joseíto Fernández's guajira sung in English and Spanish by an American folk-revival singer at Carnegie Hall: the song, not the style"
+   ],
+   [
+    "Guillermo Portabales",
+    "Jaleo",
+    null,
+    "son",
+    "A son montuno by the leading guajira-son singer: same voice and band, but son form and rhythm"
+   ]
+  ]
+ },
+ "nanguan": {
+  "window": "c. 1600 onward (the earliest surviving songbooks are two Ming prints; the tradition claims roots in Han to Tang music); still played by clubs in Quanzhou, Xiamen, Taiwan and the Hokkien communities of South-East Asia",
+  "sound": "The chamber music of the Minnan (Hokkien) people of southern Fujian, played in temple-linked amateur clubs: a singer beating a wooden clapper sings slow, ornate songs in Quanzhou dialect over four instruments, the pipa held horizontally, the three-string sanxian, the vertical dongxiao flute and the erxian fiddle. The repertoire runs from long instrumental zhi suites and purely instrumental pu to thousands of short sung qu.",
+  "markers": [
+   "A pipa held horizontally across the lap plucks a steady, bead-like skeleton, with the sanxian under it",
+   "A piece opens on plucked strings before the dongxiao flute and erxian fiddle enter",
+   "A solo singer keeping time on the wooden clapper (paiban), singing in Quanzhou Hokkien",
+   "Very slow, gentle and heterophonic: each instrument decorates the same melody"
+  ],
+  "fits": [
+   [
+    "蔡小月 & 南聲社",
+    "風落梧桐",
+    1983
+   ],
+   [
+    "台南南聲社",
+    "梅花操",
+    2000
+   ],
+   [
+    "王心心",
+    "山險峻",
+    2008
+   ],
+   [
+    "李白燕",
+    "三更鼓",
+    2001
+   ]
+  ],
+  "near": [
+   [
+    "Huxing Ting Teahouse Ensemble",
+    "中花六板",
+    1994,
+    "jiangnansizhu",
+    "Lower-Yangzi silk-and-bamboo: also amateur heterophonic chamber music, but led by erhu and dizi with an upright pipa and yangqin, purely instrumental, no Hokkien singer with clapper"
+   ],
+   [
+    "劉煜",
+    "遊園【皂羅袍】【好姐姐】",
+    2026,
+    "kunqu",
+    "Kunqu aria from The Peony Pavilion: slow, ornate qu singing like nanguan, but staged opera in Suzhou-style Mandarin over the dizi flute, not Hokkien chamber song over pipa and dongxiao"
+   ]
+  ]
+ },
+ "amazighbands": {
+  "window": "1972 onward (Izenzaren formed in Dcheira, Agadir, in 1972; Ousmane and Izenzaren first recorded 1974-76)",
+  "sound": "Amazigh band music of Morocco's Sous: young bands, from Ousmane and Izenzaren in the 1970s, set written Tashelhit poetry and reworked rways poems to banjo, guitar, violin and hand drums, the band answering the lead singer in chorus. Its styles are named tazenzart, after Izenzaren, and tagroupit or tiroubba, the banjo-and-electric-guitar wedding bands such as Archach and Oudaden that followed; fusion bands since the 2000s add rock and ribab.",
+  "markers": [
+   "Banjo lead, often beside an electric guitar, over talunt frame drums, tam-tam and naqus",
+   "Sung Tashelhit poetry, nostalgic or protesting, with the band joining the singer in unison after each line or chorus",
+   "Quick triplet percussion that takes over and speeds the song toward its close",
+   "Melodies drawn from the Sous's pentatonic rways and village songs rather than Arab maqam"
+  ],
+  "fits": [
+   [
+    "Izenzaren",
+    "Wad ittmuddun",
+    1976
+   ],
+   [
+    "Ousmane",
+    "Dounit",
+    1977
+   ],
+   [
+    "Archach",
+    "Ouraifriat",
+    1982
+   ],
+   [
+    "Oudaden",
+    "Bismillah",
+    2011
+   ]
+  ],
+  "near": [
+   [
+    "Nass El Ghiwane",
+    "Mahmouma",
+    null,
+    "ghiwane",
+    "The Casablanca band sound the Amazigh bands grew out of: banjo, guembri and hand drums too, but sung in Darija Arabic and built on Sufi and gnawa trance rather than Tashelhit poetry"
+   ],
+   [
+    "Lhaj Belaid",
+    "Atbir Oumlil",
+    null,
+    "rways",
+    "Classic rways: a solo poet-singer over the one-string ribab and lotar, the older Sous song the bands broke from"
+   ],
+   [
+    "Idir",
+    "A Vava Inouva",
+    null,
+    "kabyle",
+    "Algerian Kabyle guitar song of the same 1970s Amazigh awakening, in Kabyle rather than Tashelhit and sung by a solo singer-songwriter, not a band"
+   ]
+  ]
+ },
+ "batuku": {
+  "window": "1772 onward (first written trace: a governor's ban of September 1772 on night 'zambunas'; banned in towns under the Estado Novo and dying from the 1950s; revived from the 1990s by Orlando Pantera's generation and staged batukadeiras groups)",
+  "sound": "The women's circle music of Santiago, Cape Verde: in a yard or square (terreru) a group of women slap cloth pads (tchabeta) and clap, one playing a cross-rhythm over the others' two-beat pulse, while a lead singer gives out a verse, often improvised proverb and satire (finaçon), that the chorus repeats; one woman dances in the centre. The piece builds to the txabéta, where all play the same cross-rhythm in unison and the dancer swings her hips with quick knee flexes. Since the 1990s composers and singers such as Orlando Pantera, Tcheka, Lura and Mayra Andrade have set it to guitar and band chords (neo-batuku).",
+  "markers": [
+   "Cloth pads (tchabeta) slapped and hands clapped, three beats laid over two, in 6/8 or 3/4 time",
+   "A lead singer's improvised verse of proverbs and satire (finaçon), repeated by a women's chorus",
+   "A build to the unison climax (txabéta), danced with fast hip swings in the centre of the circle"
+  ],
+  "fits": [
+   [
+    "Batucadeiras de Rincon",
+    "Batuku, Tradison di Terra",
+    2003
+   ],
+   [
+    "Ntóni Denti d'Oru",
+    "Sambuna e Finaçon",
+    null
+   ],
+   [
+    "Lura",
+    "Batuku",
+    2004
+   ],
+   [
+    "Mayra Andrade",
+    "Dispidida",
+    2006
+   ],
+   [
+    "Madonna",
+    "Batuka",
+    2019
+   ]
+  ],
+  "near": [
+   [
+    "Kodé di Dona",
+    "Ma n'ka ta ba rubêra ki tên agu txêu",
+    2003,
+    "funana",
+    "Same Santiago anthology, but gaita accordion and ferrinho in a fast two-beat couple dance, labelled funaná"
+   ],
+   [
+    "Ana Nobo",
+    "Lena",
+    2003,
+    "coladeira",
+    "Same Santiago anthology, labelled coladeira: a guitar-and-cavaquinho song dance, not a women's cloth-pad circle"
+   ],
+   [
+    "Nancy Vieira",
+    "É Morna",
+    2007,
+    "morna",
+    "Same album as her batuku 'Nha Kumadri', but a slow guitar morna with no cross-rhythm and no call and response"
+   ],
+   [
+    "Finaçon",
+    "Fomi 47",
+    1987,
+    "funana",
+    "A band named after the batuku verse form, playing electric funaná"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,6 @@
+[
+{"genre": "batuku", "place": "CV", "kind": "origin", "from": 1772, "basis": "first estimate", "evidence": ["batuku:14", "batuku:17", "batuku:18"]},
+{"genre": "batuku", "place": "afr", "kind": "peak", "from": 1995, "to": 2010, "basis": "first estimate", "evidence": ["batuku:20", "batuku:23", "batuku:27", "batuku:36", "batuku:46", "batuku:40", "batuku:49"]},
+{"genre": "batuku", "place": "CV", "kind": "peak", "from": 1995, "to": 2010, "strength": 0.85, "basis": "first estimate", "evidence": ["batuku:20", "batuku:23", "batuku:27", "batuku:24", "batuku:36", "batuku:46", "batuku:40", "batuku:49", "batuku:64"]},
+{"genre": "batuku", "place": "PT", "kind": "later", "from": 1990, "basis": "first estimate", "evidence": ["batuku:30", "batuku:31", "batuku:49"]}
+]

@@ -1,0 +1,6 @@
+[
+{"genre": "guajira", "place": "CU", "kind": "origin", "from": 1700, "basis": "first estimate", "evidence": ["guajira:4", "guajira:5", "guajira:20", "guajira:21"]},
+{"genre": "guajira", "place": "carib", "kind": "peak", "from": 1935, "to": 1965, "basis": "first estimate", "evidence": ["guajira:10", "guajira:29", "guajira:38", "guajira:39", "guajira:42"]},
+{"genre": "guajira", "place": "CU", "kind": "peak", "from": 1935, "to": 1965, "strength": 0.85, "basis": "first estimate", "evidence": ["guajira:10", "guajira:29", "guajira:38", "guajira:39", "guajira:42"]},
+{"genre": "guajira", "place": "ES", "kind": "later", "from": 1935, "basis": "first estimate", "evidence": ["guajira:13", "guajira:17", "guajira:18"]}
+]

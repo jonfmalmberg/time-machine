@@ -1,0 +1,52 @@
+{
+ "doyo": {
+  "window": "1918 onward: from the founding of the children's magazine Akai Tori (July 1918) and the first dōyō published with music (Kanariya, 1919), through the golden age of the 1920s magazines and the unprecedented boom after 1945 with child star singers; fading from the late 1950s as television and anime songs took over children's singing, but still sung and re-recorded.",
+  "sound": "Songs written for children after 1918 by literary poets (Kitahara Hakushū, Noguchi Ujō, Saijō Yaso) and composers (Nakayama Shinpei, Motoori Nagayo, Yamada Kōsaku), meant as artistic alternatives to the moralising school shōka and distinct from traditional warabe-uta: short, gentle, often nostalgic songs about the moon, birds, animals, rain and the home village, sung on record by child singers and children's choirs.",
+  "markers": [
+   "Major-key tunes mostly on the five-note yonanuki scale (Akatombo, Nakayama Shinpei's songs)",
+   "A bouncing dotted 'pyonko-bushi' rhythm in many songs, as in Usagi no dansu",
+   "A child's solo voice or a children's choir: the first recording stars were children such as Motoori Midori, Hirai Hideko and, after 1945, Kawada Masako",
+   "Literary poems set more freely than the plain verse-after-verse school shōka"
+  ],
+  "fits": [
+   [
+    "平井英子 & 中山晋平",
+    "兎のダンス",
+    1929
+   ],
+   [
+    "佐藤千夜子 & 中山晋平",
+    "雨降りお月さん",
+    1929
+   ],
+   [
+    "本多信子",
+    "七つの子",
+    null
+   ]
+  ],
+  "near": [
+   [
+    "由紀さおり・安田祥子",
+    "故郷",
+    null,
+    "shokaandgunka",
+    "A Monbushō school song (shōka) by Takano Tatsuyuki and Okano Teiichi: the kind of song dōyō was written to replace, often sung by the same singers on the same albums"
+   ],
+   [
+    "岸井明 & 平井英子",
+    "タバコやの娘",
+    1937,
+    "kayokyoku",
+    "Hirai Hideko's adult comeback as a popular singer: a comic duet hit, not a children's song"
+   ],
+   [
+    "佐藤千夜子",
+    "須坂小唄",
+    null,
+    "minyo",
+    "Shin-min'yō (new folk song) by Nakayama Shinpei, the dōyō composer, for local dancing; min'yō is the nearest id, shin-min'yō has none"
+   ]
+  ]
+ }
+}
