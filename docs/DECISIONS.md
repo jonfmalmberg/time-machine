@@ -4,6 +4,14 @@ The lead's standing choices: what was decided, why, and what is not known. One e
 
 ## 2026-11-23
 
+### D35. The course stop is short; the detailed story lives on the genre's card (owner, 25 Nov)
+- **Owner's reaction to the first stories:** too much text; the course had felt curated and became a wall. The story must feel written for the reader: why this genre is interesting, important or surprising, and how it ties into the rest of music. Wikipedia is already linked, so do not repeat what it does. The course and the List should each be engaging and not repeat each other.
+- **Course stop:** a two-sentence hook (28 to 42 words: the most striking fact in the story, then its tie to other music), two songs, the playlist button. One fold, "More about …", holds the sound, what to listen for, the tree links and the story.
+- **List card:** the detailed story, in four labelled beats (what came before, the people, how it took shape, what it led to), after the one-sentence sound.
+- **Where the hooks come from:** drafted by a sub-agent from the already-sourced stories only, each sentence tied to a clause of its story and checked by script to be in it; the lead read a sample of eight and corrected one that dropped an attribution.
+- **Known weak:** some hooks state a fact without giving a reason to care (gagaku), and four have no tie to other music because their story has none. They need an editing pass with the owner's taste as the test.
+- **Not yet shown to the owner as built:** local only at the time of writing.
+
 ### D34. Parts of the site can be switched off from one list (owner, 24 Nov)
 - **Choice:** `src/mods/04_config.js` holds `OFF`, a list of names per copy of the site (prod, dev). Code asks `FLAG('name')` before showing a part. Switching a part off or on is a one-line edit and a release. On the test copy, `?off=name` in the address switches a part off for one visit, to see what prod will show.
 - **In use now:** `journey.course`, `journey.life`, `journey.hist`, `journey.trav`, `journey.disc`. On prod `journey.hist` (the old history journey) is off while the owner decides whether it goes or becomes something else; a link to it opens the course.
