@@ -67,6 +67,7 @@ The app only succeeds if it feels good to use. Rules here are a floor; the visio
 ## Helpers
 - A daily scheduled run works as a helper: it takes one assignment from `work/QUEUE.md`, writes only inside `work/`, pushes one `helper/<date>-<id>` branch and reports on the run log issue. Rules, roles and which model does which work are in `work/README.md`.
 - The session the owner talks to is the lead: it is responsible for the project, writes the queue, reviews helper branches at the start of each session, and moves accepted work into `data/`, `src/` or `docs/`.
+- The lead is the editor of everything a helper or sub-agent writes. It reads every piece in full before the owner sees it, sends back or rewrites what does not sit right, and does not present work with a caveat in place of fixing it. A sentence that leaves the reader asking "which one?" or "says who?" is not finished. A script check proves a quote is on a page; it does not prove the writing is good or that the sentence says only what the quote says.
 - Cloudflare builds only when `src/`, `data/`, `build.py` or `wrangler.jsonc` change (build watch paths), so helper branches and documentation do not use builds.
 
 ## People

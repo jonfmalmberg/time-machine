@@ -619,8 +619,7 @@ function listItem(id){
   <div class="gbody">
     <p class="gpar">From ${par}${kids?` · Leads to ${kids}`:''}</p>
     ${sub.length?`<p class="gsub"><span class="label">Includes</span> ${sub.map(esc).join(' · ')}</p>`:''}
-    ${storyHtml(id)}
-    ${d?`<p class="gsound">${esc(d.sound)}</p>
+    ${d?`<p class="gsound">${esc(d.sound)}</p>${storyHtml(id)}
     <div class="gcols"><div><p class="label">Listen for</p><ul>${d.markers.map(m=>`<li>${esc(m)}</li>`).join('')}</ul></div>
     <div><p class="label">Fits</p><ul class="tracks">${d.fits.map(trackLi).join('')}</ul></div></div>
     ${d.near.length?`<p class="label">Close, but belongs elsewhere</p><ul class="near">${d.near.map(x=>`<li>${esc(x[0])} — “${esc(x[1])}” <span class="mono">${x[2]}</span> → ${goLink(x[3])}. ${esc(x[4])}</li>`).join('')}</ul>`:''}`
@@ -1803,7 +1802,11 @@ function dedupeSongs(L,get=x=>x[1]){ const out=[]; for(const x of L) if(!out.som
 const YEARL=DATA.yearl||{};
 // a list of weekly number ones (role 'charted', no year-end position): true when every year in view is one (decision D22)
 // a genre's story (data/stories.json, decision D32): the people who made it, in up to four short paragraphs
-function storyHtml(id){ const st=(DATA.stories||{})[id]; if(!st||!st.story) return ''; return `<div class="gstory"><p class="gstlab">The story</p>${String(st.story).split(/\n\s*\n/).map(x=>`<p>${esc(x.trim())}</p>`).join('')}</div>`; }
+const BEATS=[['before','What came before'],['who','The people'],['why','How it took shape'],['after','What it led to']];
+function storyHtml(id){ const st=(DATA.stories||{})[id]; if(!st) return ''; const B=st.beats||{};
+  const parts=BEATS.filter(([k])=>B[k]).map(([k,l])=>`<div class="gbeat"><h5>${l}</h5><p>${esc(B[k])}</p></div>`).join('');
+  return parts?`<div class="gstory">${parts}</div>`:(st.story?`<div class="gstory"><p>${esc(st.story)}</p></div>`:''); }
+const storyHook=id=>{ const st=(DATA.stories||{})[id]; return st&&st.hook?st.hook:''; };
 function chartKind(iso){ const L=YEARL[iso]; if(!L) return null; const [y0,y1]=stRange(); let k=null; for(let y=y0;y<=y1;y++){ const c=L[y]; if(!c) continue; if(c.basis!=='chart') return null; const x=(c.songs||[])[0]; if(!x) continue; if(x[8]!=null) return null; const kk=x[9]||'weekly number ones'; if(k&&k!==kk) return 'mixed'; k=kk; } return k; }
 function yearSeeds(mode){
   const iso=placeIso(); if(!iso||!YEARL[iso]) return null; const [y0,y1]=stRange();

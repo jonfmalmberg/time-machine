@@ -469,7 +469,8 @@ input[type=range]{accent-color:var(--accent)}
 .nxchip small{grid-area:dir;font:400 12px var(--body);color:var(--muted)}
 .nxchip:not(:has(i)){grid-template-columns:auto;grid-template-areas:"name" "dir"}
 
-/* a genre's story, on its card and on its course stop (D32) */
-.gstory{margin:0 0 12px;max-width:68ch}
-.gstory p{font:400 16px/1.55 var(--body);margin:0 0 10px}
-.gstory .gstlab{font:600 12px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+/* a genre's story in four short beats (D32, D35) */
+.gstory{margin:4px 0 12px;max-width:68ch;display:flex;flex-direction:column;gap:12px}
+.gbeat{border-left:2px solid var(--sep);padding-left:12px}
+.gbeat h5{font:600 12px var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 3px}
+.gbeat p,.gstory>p{font:400 15px/1.5 var(--body);margin:0}

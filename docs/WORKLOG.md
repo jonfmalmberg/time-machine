@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-25 (stories edited by the lead; pushed to dev)
+
+- Owner's reaction to the first stories: too much text, and one hook shown with a hedge in place of a fix. Course stop made short (hook, two songs, playlist, the rest folded); the detailed story moved to the genre card in four beats (D35).
+- All 553 story sentences compared with their quotes; 158 cut, about 70 reworded, 33 hooks rewritten (D36). The editor rule is in `CLAUDE.md`.
+- Tests run: data, smoke, links, layout, account. `db/test.sh` not runnable in this environment.
+- Untested: the stories on a real phone; whether the shorter stories read well to the owner.
+
 ## 2026-11-24 (20:40: scheduled check-back)
 
 - H20 and H21 (release years from Wikipedia) applied with the new `tools/apply_years.py`: 1,149 songs now have a year checked against a Wikipedia article (975 confirmed, 70 added, 84 changed by one year, 20 by more; the old year is kept as `released.was`). 1,251 of the 2,400 songs tried had no usable article. The lead did not rerun the helpers' evidence checks.
