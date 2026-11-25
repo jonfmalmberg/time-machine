@@ -37,6 +37,7 @@ The app only succeeds if it feels good to use. Rules here are a floor; the visio
 ## Reporting to the owner
 - Write to the owner as to a manager: the outcome, what needs his decision, what is blocked. No account of each run, rerun or count unless it changes a decision.
 - Open questions are kept in one numbered list and re-presented whole until answered.
+- Next steps are reported in two separate lists: what the lead can do now on its own, and what is blocked, each blocked item with what it waits for and the time the lead will check back. The lead schedules that check so the work resumes without the owner having to ask.
 - When a piece of work keeps failing or stops paying for its cost, the lead decides to put it on hold and moves on, and says so in one line. Do not rerun what has already agreed.
 
 ## Database (Supabase)
