@@ -1,12 +1,12 @@
 [
-{"id":"c:AU:2000","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:AU:2001","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:AU:2002","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
+{"id":"c:AU:2000","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:AU:2001","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:AU:2002","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
 {"id":"c:AU:2003","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
 {"id":"c:AU:2004","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
 {"id":"c:AU:2005","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:AU:2006","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:AU:2007","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:AU:2008","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:AU:2009","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."}
+{"id":"c:AU:2006","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:AU:2007","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:AU:2008","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:AU:2009","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"}
 ]

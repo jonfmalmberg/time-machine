@@ -1,9 +1,9 @@
 [
-{"id":"c:AT:2020","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:AT:2021","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:AT:2022","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:AT:2023","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:AT:2024","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:AT:2025","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:AT:2026","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."}
+{"id":"c:AT:2020","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:AT:2021","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:AT:2022","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:AT:2023","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:AT:2024","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:AT:2025","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:AT:2026","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"}
 ]

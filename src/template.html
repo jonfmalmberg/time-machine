@@ -1413,7 +1413,7 @@ function stPanelUpdate(){
 
   const pr=stPrompt(), src=eraSource(), iso=placeIso(), key=iso&&(iso+'_'+decadeKey(STY));
   if(ESS) pr.seeds=pr0.seeds;
-  document.getElementById('stsrc').innerHTML=(pr.era?`${pr.era==='year'?(chartKind(iso)?`${chartKind(iso)==='weekly top ten'?'Songs that entered the top ten':chartKind(iso)==='mixed'?'Songs from the weekly charts':'Songs that reached number one'} in ${esc(isoName(iso))}${PMODE==='home'?', home-grown only where the artist\'s country is recorded':''}, spread across the period.`:`The year's biggest hits in ${esc(isoName(iso))}, from published year-end charts.`):''}${pr.era==='year'?'':`${pr.era==='mix'?'Partly what':'What'} people in ${esc(isoName(iso))} heard then, ${PMODE==='home'?'home-grown only':'mostly home-grown'}, from ${src==='researched'?'a researched list':src==='verified'?'a list verified after an earlier trip':'<b>an AI draft, not yet verified</b>'}.`}`
+  document.getElementById('stsrc').innerHTML=(pr.era?`${pr.era==='year'?(chartKind(iso)?`${chartKind(iso)==='weekly top ten'?'Songs that entered the top ten':chartKind(iso)==='mixed'?'Songs from the weekly charts':'Songs that reached number one'} in ${esc(isoName(iso))}${PMODE==='home'?', home-grown only where the artist\'s country is recorded':''}${(()=>{ const L=YEARL[iso]||{}, [a,b]=stRange(); let n=0, w=0; for(let y=a;y<=b;y++) if(L[y]){ n++; if(L[y].order==='weeks') w++; } return n&&n===w?', longest at number one first':', spread across the period'; })()}.`:`The year's biggest hits in ${esc(isoName(iso))}, from published year-end charts.`):''}${pr.era==='year'?'':`${pr.era==='mix'?'Partly what':'What'} people in ${esc(isoName(iso))} heard then, ${PMODE==='home'?'home-grown only':'mostly home-grown'}, from ${src==='researched'?'a researched list':src==='verified'?'a list verified after an earlier trip':'<b>an AI draft, not yet verified</b>'}.`}`
     :(key&&drafting.has(key)?'Drafting a song list for this place and decade…':(STP?'No song list for this place and time yet: the playlist below is built from the sounds alive here.':'')))
     +(STP&&iso&&SAMPLE&&DB?` <label class="fine fillsw"><input type="checkbox" id="stfill"${FILL?' checked':''}> Fill gaps with AI drafts</label>`:'');
   const fb=document.getElementById('stfill'); if(fb) fb.onchange=()=>{ FILL=fb.checked; try{ localStorage.setItem('wmft-fill',FILL?'on':'off'); }catch(e){} stPanelUpdate(); };
@@ -1828,7 +1828,7 @@ function yearSeeds(mode){
   // A list taken from a chart (basis 'chart', decision D22) stays in chart order: all of it for "heard there", the songs whose
   // first-named artist is recorded as from the country for "made there" (D28). No position: an even spread across the list.
   if(yrs.every(y=>YEARL[iso][y].basis==='chart')){ const P=mode==='home'?songs.filter(s=>s[3]==='home'):songs; if(!P.length) return null;
-    if(P.some(s=>s[8]!=null)||P.length<=16) return P.slice(0,16); const out=[]; for(let k=0;k<16;k++) out.push(P[Math.floor(k*P.length/16)]); return out; }
+    if(P.some(s=>s[8]!=null)||P.length<=16||yrs.every(y=>YEARL[iso][y].order==='weeks')) return P.slice(0,16); const out=[]; for(let k=0;k<16;k++) out.push(P[Math.floor(k*P.length/16)]); return out; }
   if(mode==='home') return mixed.slice(0,16);
   const nf=Math.min(foreign.length,mixed.length>=6?4:Math.floor((mixed.length+foreign.length)/3));
   const out=[...mixed.slice(0,16-nf)]; foreign.slice(0,nf).forEach((f,i)=>out.splice(Math.min(out.length,2+i*3),0,f)); // foreign hits sprinkled in, not stacked at the end

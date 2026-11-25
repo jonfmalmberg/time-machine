@@ -2,8 +2,8 @@
 {"id":"c:AU:2020","status":"year list","basis":"chart","note":"Year-end chart positions, read from Wikipedia's list page and checked against it."},
 {"id":"c:AU:2021","status":"year list","basis":"chart","note":"Year-end chart positions, read from Wikipedia's list page and checked against it."},
 {"id":"c:AU:2022","status":"year list","basis":"chart","note":"Year-end chart positions, read from Wikipedia's list page and checked against it."},
-{"id":"c:AU:2023","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:AU:2024","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:AU:2025","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:AU:2026","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."}
+{"id":"c:AU:2023","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:AU:2024","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:AU:2025","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:AU:2026","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"}
 ]

@@ -1,11 +1,11 @@
 [
-{"id":"c:NZ:1960","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:NZ:1961","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:NZ:1962","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:NZ:1963","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:NZ:1964","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:NZ:1966","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:NZ:1967","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:NZ:1968","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:NZ:1969","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."}
+{"id":"c:NZ:1960","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:NZ:1961","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:NZ:1962","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:NZ:1963","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:NZ:1964","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:NZ:1966","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:NZ:1967","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:NZ:1968","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:NZ:1969","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"}
 ]

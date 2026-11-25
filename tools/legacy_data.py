@@ -135,7 +135,7 @@ def legacy_data(data_dir):
                 rows = sorted((r for r in rows if r[8] is not None), key=lambda r: r[8]) + [r for r in rows if r[8] is None]
                 for n, r in enumerate(rows, 1):
                     r[4] = n
-            yearl[iso][sid.split(':')[2]] = dict({'songs': rows, 'note': cscope[iso][sid].get('note', '')}, **({'basis': 'chart'} if cscope[iso][sid].get('basis') == 'chart' else {}))
+            yearl[iso][sid.split(':')[2]] = dict({'songs': rows, 'note': cscope[iso][sid].get('note', '')}, **({'basis': 'chart'} if cscope[iso][sid].get('basis') == 'chart' else {}), **({'order': cscope[iso][sid]['order']} if cscope[iso][sid].get('order') else {}))
     for e in sorted(evidence):
         # The old source list also held sources no year list pointed at. Evidence that came in through the
         # master-table step (it carries `check`) belongs to genre links and definitions, not to this list.

@@ -1,8 +1,8 @@
 [
 {"id":"c:CO:2010s","status":"decade list","note":""},
-{"id":"c:CO:2012","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:CO:2013","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:CO:2014","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:CO:2015","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."},
-{"id":"c:CO:2016","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."}
+{"id":"c:CO:2012","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:CO:2013","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:CO:2014","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:CO:2015","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"},
+{"id":"c:CO:2016","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"}
 ]

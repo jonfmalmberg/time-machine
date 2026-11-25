@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-24 (18:37: weeks at number one)
+
+- Number-one lists ranked by weeks at number one where the dates allow (D33): 573 of 831 country-years. The chart ingest was redone a fourth time for this (same totals; song keys changed again, which nothing saved depends on).
+- A comment added on a one-line statement cut the page's script short; caught by the smoke test before any push.
+- Reporting rule added to `CLAUDE.md`: next steps split into can-do-now and blocked, with a check-back time, and the check is scheduled.
+- Helper hand-backs awaited: H20, H21 (release years), H25 (genre test), H26, H27 (genre stories).
+
 ## 2026-11-24 (18:24: release 7)
 
 - Owner approved the course ("excellent first version") and asked to publish. Release 7: `main` moved to `dev` (lectures, origins from four helper batches). No database change.

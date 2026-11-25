@@ -132,6 +132,9 @@ def main():
         elif len(kinds) > 1:                                # top-ten entries and number ones for one year: the wider list stands
             rs = [r for r in rs if r['kind'] == 'top ten']
             kinds = {'top ten'}
+        by_weeks = 'year-end' not in kinds and all('weeks' in r for r in rs)
+        if by_weeks:                                        # weeks at number one are known for the whole year: the longest reign first
+            rs = sorted(rs, key=lambda r: -r['weeks'])     # (a stable sort: equal reigns stay in date order)
         dec = str(year // 10 * 10)
         for n, r in enumerate(rs, 1):
             key = (r['artist'], r['title'])
@@ -165,13 +168,15 @@ def main():
                 if r.get('date'): l['entered'] = r['date'][:40]
             else:
                 l['peak'] = 1; l['chart'] = 'weekly number ones'
+                if 'weeks' in r: l['weeks'] = r['weeks']
                 if r.get('date'): l['led_from'] = r['date'][:40]
             if origin: l['origin'] = origin
             roles[role] += 1
             links[(cc, dec)].append(l)
         note = ('Year-end chart positions' if 'year-end' in kinds else 'Songs that entered the weekly top ten, in the order they entered' if 'top ten' in kinds else 'Weekly number ones in the order they first led the chart') + \
                ', read from Wikipedia\'s list page and checked against it.'
-        scopes[(cc, dec)].append({'id': sid, 'status': 'year list', 'basis': 'chart', 'note': note})
+        if by_weeks: note = note.replace('Weekly number ones in the order they first led the chart', 'Weekly number ones, longest at number one first (weeks worked out from the dates on the page)')
+        scopes[(cc, dec)].append(dict({'id': sid, 'status': 'year list', 'basis': 'chart', 'note': note}, **({'order': 'weeks'} if by_weeks else {})))
 
     nl = sum(len(v) for v in links.values())
     print('country-years', len(by_scope), 'links', nl, 'new songs', len(new_songs), 'reused songs', reused, 'new artists', len(new_artists),

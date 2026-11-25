@@ -98,7 +98,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 - 2.17a `dev` Chart ingest (`DECISIONS.md` D22): rows checked against the live page enter as `charted` year lists. Remaining: the pages not yet read (United Kingdom top tens, Oricon, Billboard number ones), weeks at number one, decade pages whose rows carry no year.
 - 2.17b Where chart artists are from (helpers H16 to H19), then `charted` becomes `home` or `foreign` and "Made there" works for these lists.
 - 2.17c Chart sources for the 185 countries without year lists, most populous first (helper H23; `docs/research/2026-11-24-data-quality.md`).
-- 2.17d Weeks at number one and peak position from the pages already read; order chart lists by them.
+- 2.17d `dev` Weeks at number one from the dates in the rows; 573 of 831 chart country-years ranked by them (`DECISIONS.md` D33). Remaining: peak position and weeks in the top ten for the United Kingdom pages; decade pages.
 - 2.19 Combine step: a link records its source table; the master list for a country-year is built from all its tables by a stated rule (`DECISIONS.md` D30).
 - 2.20 Shape test for every text field in `tests/data.py` (debris from tables, sentences where a name should be).
 - 2.21 Split chart credits with the links the origin helpers read; merge spelling variants.

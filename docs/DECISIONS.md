@@ -4,6 +4,12 @@ The lead's standing choices: what was decided, why, and what is not known. One e
 
 ## 2026-11-23
 
+### D33. Number-one lists are ordered by weeks at number one, where the page's dates allow (lead, 24 Nov)
+- **Choice:** for a page of weekly number ones, the weeks each song led are worked out from the gap between its date and the next row's (the last row runs to the end of the year), summed when a song returns. Where every row of a year has a usable date (or week number) and the dates never run backwards, the year's list is ranked by weeks, longest first, and the scope is marked `order: weeks`. Otherwise it stays in date order and the page shows an even spread.
+- **Why:** a one-week number one sat beside an eighteen-week one (data-quality review, point 3). The dates were already in the rows; no page was read again.
+- **Result:** 573 of 831 chart country-years are ranked by weeks (11,278 of 13,611 number-one rows have weeks). Checked by eye: Ireland 1994 puts "Riverdance" first at 18 weeks, and the weeks of a year sum to 51 or 52.
+- **Limits:** a month is taken as 30.44 days, so a reign can be a week out; decade pages are left out (dates restart each year); United Kingdom top-ten lists have no dates in the rows read; songs that peaked below number one are still absent.
+
 ### D32. A genre's story is told as the story of the people who made it (owner, 24 Nov)
 - **Choice:** each genre gets a self-contained history of 120 to 200 words in four beats: what came before, who made it and where, why and how it took shape, what it led to. Named people and places, not adjectives. It appears on the course stop and on the genre's card; the one-sentence "sound" and "listen for" stay beside it.
 - **Why (owner):** treat each movement as a group of people with a story to tell; without it the course feels incomplete. He asked for this when he first described the course; the lead built the connecting lectures and left the per-genre stories out.

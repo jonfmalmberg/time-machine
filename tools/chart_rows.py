@@ -32,11 +32,46 @@ def place(page):
     return None
 
 
+MONTHS = {m: i + 1 for i, m in enumerate(['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'])}
+DATE = re.compile(r'(\d{1,2})\s+([A-Za-z]{3})[a-z]*\.?\b|\b([A-Za-z]{3})[a-z]*\.?\s+(\d{1,2})\b')
+
+
+def week_index(d):
+    """Where in its year a row's date falls, in weeks from 1: from a date ('5 October', 'May 27') or a week number ('40', 'Week 6')."""
+    if not d: return None
+    m = re.fullmatch(r'\s*(?:week\s*)?(\d{1,2})\s*', d, re.I)
+    if m: return int(m.group(1)) if 1 <= int(m.group(1)) <= 53 else None
+    m = DATE.search(d)
+    if not m: return None
+    day, mon = (m.group(1), m.group(2)) if m.group(1) else (m.group(4), m.group(3))
+    mon = MONTHS.get(mon.lower())
+    if not mon or not 1 <= int(day) <= 31: return None
+    return ((mon - 1) * 30.44 + int(day)) / 7 + 1
+
+
+def reigns(R):
+    """Weeks at number one for each row of a number-one page, from the gap to the next row's date (the last row runs
+    to the end of the year). Only for a page where every row has a place in the year and the places never go backwards:
+    otherwise nothing is worked out for that page."""
+    by = collections.defaultdict(list)
+    for i, r in enumerate(R):
+        if not r['pos']: by[r['page']].append(i)
+    out = {}
+    for page, ix in by.items():
+        if re.search(r'\d{4}s', page): continue                         # a decade page: dates restart each year
+        w = [week_index(R[i].get('date')) for i in ix]
+        if any(x is None for x in w) or any(b < a for a, b in zip(w, w[1:])) or len(ix) < 3: continue
+        for k, i in enumerate(ix):
+            out[i] = max(1, round((w[k + 1] if k + 1 < len(w) else 53.2) - w[k]))
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('rows'); ap.add_argument('--out', required=True); a = ap.parse_args()
     R = json.load(open(a.rows, encoding='utf-8'))
     out, seen, skip = [], {}, collections.Counter()
-    for r in R:
+    weeks = reigns(R)
+    for ri, r in enumerate(R):
         # footnote marks the pages hang on a title or an artist ("Title" ♦, Artist ‡) are not part of the name
         for f in ('title', 'artist'):
             v = re.sub(r'\s*[♦‡†§¶◁▷⁂*^]+\s*$', '', r[f]).strip()
@@ -73,10 +108,11 @@ def main():
         kind = 'year-end' if r['pos'] else 'top ten' if re.search(r'top[- ]ten', r['page'], re.I) else 'number one'
         for ti in clean:
             k = (cc, year, r['artist'].casefold(), ti.casefold())
-            if k in seen:                                   # the same song led twice in a year: keep the first row
+            if k in seen:                                   # the same song led twice in a year: keep the first row, add the weeks
+                if ri in weeks and 'weeks' in seen[k]: seen[k]['weeks'] += weeks[ri]
                 continue
-            seen[k] = 1
-            out.append({'cc': cc, 'year': year, 'kind': kind, 'pos': r['pos'], 'date': r['date'], 'title': ti, 'artist': r['artist'], 'page': r['page'], 'url': r['url']})
+            seen[k] = rec = {}
+            out.append(rec); rec.update({'cc': cc, 'year': year, 'kind': kind, 'pos': r['pos'], 'date': r['date'], 'title': ti, 'artist': r['artist'], 'page': r['page'], 'url': r['url']}, **({'weeks': weeks[ri]} if ri in weeks else {}))
     json.dump(out, open(os.path.join(a.out, 'chart.rows.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     per = collections.Counter(x['cc'] for x in out)
     print('rows in', len(R), 'candidates', len(out), 'countries', len(per)); print(' ', dict(per.most_common()))

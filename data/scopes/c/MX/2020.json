@@ -1,4 +1,4 @@
 [
 {"id":"c:MX:2020s","status":"decade list","note":"Several US-based Mexican-American corrido acts dominate; marked foreign (Xavi, Fuerza Regida) unless co-billed with a Mexican lead (Eslabon Armado + Peso Pluma)."},
-{"id":"c:MX:2020","status":"year list","basis":"chart","note":"Weekly number ones in the order they first led the chart, read from Wikipedia's list page and checked against it."}
+{"id":"c:MX:2020","status":"year list","basis":"chart","note":"Weekly number ones, longest at number one first (weeks worked out from the dates on the page), read from Wikipedia's list page and checked against it.","order":"weeks"}
 ]
