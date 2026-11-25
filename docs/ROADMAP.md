@@ -101,7 +101,7 @@ Milestone 0 comes first because everything else depends on being able to see and
 - 2.17d `dev` Weeks at number one from the dates in the rows; 573 of 831 chart country-years ranked by them (`DECISIONS.md` D33). Remaining: peak position and weeks in the top ten for the United Kingdom pages; decade pages.
 - 2.19 Combine step: a link records its source table; the master list for a country-year is built from all its tables by a stated rule (`DECISIONS.md` D30).
 - 2.20 Shape test for every text field in `tests/data.py` (debris from tables, sentences where a name should be).
-- 2.21 Split chart credits with the links the origin helpers read; merge spelling variants.
+- 2.21 `dev` Chart credits split with the links the origin helpers read: 1,279 split, 138 duplicate songs merged. Remaining: 2,090 unsplit credits (no helper record, leftover words, or an article name that differs from the credit); spelling variants of titles.
 - 2.18 Load a country's lists on demand instead of carrying every list in the page.
 
 **Done when:** the schema, regions and weights are approved, the data has moved, and both kinds of test run from the registry.

@@ -2,6 +2,13 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-24 (19:10: chart credits split)
+
+- 1,279 combined chart credits ("A featuring B") split into their artists and 129 confirmed as one act, using the artist links the origin helpers read from the chart pages. Rule: a credit is split only when the linked artists' names appear in it as written and nothing but joining words is left over. Decisions are added to `work/2026-11-23-credits/decisions.json` and applied with `tools/split_credits.py`.
+- The split exposed 138 duplicate songs (the same song under two credit spellings); merged. Songs 30,041 to 29,903; artists 15,471 to 14,706; unsplit credits 3,324 to 2,090.
+- Not split: 1,446 credits no helper has read yet (United Kingdom top tens and others outside the four batches), 392 with words left over, 234 where the article's name differs from the credit (2Pac / Tupac Shakur).
+- On `dev`, not on the live site.
+
 ## 2026-11-24 (18:47: release 8)
 
 - Owner: the address copied from the course's front page opened the old history journey. Cause: the link named the tab only, and the tab opened on whatever kind the visitor last used. Fixed: links carry the kind and the chapter (D34).
