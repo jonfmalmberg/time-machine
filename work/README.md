@@ -12,6 +12,7 @@ Scheduled helper runs put everything they produce here, and nowhere else. Nothin
 
 1. Reads `CLAUDE.md`, this file and `QUEUE.md` on `dev`.
 2. Takes the first assignment whose state is `open`, unless the message that started the run names one ("take assignment H19"): then it takes that one, provided its state is `open` and no `helper/*` branch for it exists yet; if it is not open or already has a branch, it falls back to the first open one and says so in its report. If there is none, it posts "queue empty" to the run log and stops.
+   **Claim it before working (added 24 Nov after three runs did the same assignment):** as soon as the assignment is chosen, create its branch `helper/<date>-<id>` from `dev` with one empty commit (`git commit --allow-empty -m "Claim <id>"`) and push it. If the push is refused because the branch already exists, another run has it: choose the next open assignment and claim that. Only then start the work. The hand-back is a second push to the same branch.
 3. Works on a branch named `helper/<date>-<assignment id>`, made from `dev`.
 4. Writes only inside `work/<date>-<assignment id>/`. Always a `REPORT.md` there (format below).
 5. Sets the assignment's state in `QUEUE.md` to `handed back <date>`. This is the only line it changes outside its own folder.

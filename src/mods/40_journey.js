@@ -294,7 +294,7 @@ function course(){ if(CZ) return CZ;
 let NBY=null;
 function czProse(t){ if(!NBY){ NBY={}; N.forEach(n=>{ NBY[n.name.toLowerCase()]=n.id; }); }
   return String(t).split(/(\[\[[^\]]+\]\])/).map(x=>{ const m=/^\[\[([^\]|]+)(?:\|([^\]]+))?\]\]$/.exec(x); if(!m) return esc(x); const id=NBY[m[1].toLowerCase()]; return id?`<a href="#journey" data-czrel="${id}">${esc(m[2]||m[1])}</a>`:esc(m[2]||m[1]); }).join(''); }
-const czNote=()=>{ const c=DATA.course||{}; return c.status==='checked'?'':`<p class="czunv">${UI.ic('info')}<span>Lecture notes written by Claude from general knowledge. They have not yet been checked against sources; a check is under way and corrections will be made here.</span></p>`; };
+const czNote=()=>{ const c=DATA.course||{}, k=c.checked; return c.status==='checked'&&k?`<p class="czunv">${UI.ic('info')}<span>Lecture notes by Claude. Their statements of fact were checked against sources on ${esc(k.date)}: ${k.corrected} sentences were corrected and ${k.softened} that could not be sourced were softened. The framing and the judgements are the lecturer's.</span></p>`:`<p class="czunv">${UI.ic('info')}<span>Lecture notes written by Claude from general knowledge. They have not yet been checked against sources.</span></p>`; };
 const czDone=(id,pp)=>!!J.done['g:'+id]||pp.hg.has(id);
 const czWhere=id=>course().findIndex(ch=>ch.ids.includes(id));
 function courseHtml(){ const C=course(), pp=people(), ch=J.course.ch!=null?C[J.course.ch]:null;

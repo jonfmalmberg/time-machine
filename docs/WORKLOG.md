@@ -2,6 +2,14 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-24 (17:53: helper hand-backs applied)
+
+- H24 (lecture check): of 124 sentences, 49 supported, 54 opinion, 3 wrong, 12 too strong, 6 not found. All 21 corrected or softened in `data/course.json`; the notice on the lectures now says what was checked. The wrong ones: gagaku has harmony and drums (the lecture said neither); the first international recording star was Caruso, not a Black American artist.
+- H18 and H19 (artist origins: Americas, Oceania, Asia, Africa; United States) applied: chart entries with an origin went from 14,328 to 20,725 of 28,225 (9,773 home, 10,952 foreign); 7,500 still have none.
+- Helper runs wasted: of the five started by hand overnight, two produced new work (H19, H24), H18 was done three times and H19 twice, and H20, H23 and H25 were not done. A run only shows it has an assignment when it pushes at the end, so runs started together collide. `work/README.md` now makes a run claim its assignment by pushing an empty branch first.
+- The helpers found a limit of the evidence check: an infobox line split by `<br>` or wrapped in `<small>` reads as "near", not "found". Not fixed.
+- Not tested: nothing new on a phone. The lecture corrections are on `dev` only.
+
 ## 2026-11-24 (02:22: lectures, data-quality review, more helper work)
 
 - Course lectures written and shown (D29), on `dev`, marked as not checked; H24 queued to check them.

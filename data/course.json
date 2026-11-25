@@ -1,7 +1,7 @@
 {
  "by": "lead",
  "written": "2026-11-24",
- "status": "not checked",
+ "status": "checked",
  "thesis": [
   "Music history is usually taught as a line of great names. This course teaches it as movement. Four things move music: people (migration, trade, conquest, slavery), patrons (temples, courts, states, record companies), machines (notation, print, the record, the radio, the drum machine, the stream), and other music. Each chapter asks which of the four was doing the moving.",
   "Keep one question through all eleven sessions: who could hear this, and how did it reach them? The answer changes from 'whoever stood in the room' to 'anyone, anywhere, at once', and most of what you will hear follows from that change."
@@ -15,8 +15,8 @@
    "title": "Before anyone wrote it down",
    "q": "Why is the oldest music we can still hear almost all sacred or courtly?",
    "p": [
-    "Nearly all the music made before the year 1000 is gone. It lived in memory and died with the people who carried it. What survives did so because an institution made the carrying somebody's job: a monastery, a mosque, a temple, a court. That is why this chapter is [[Gregorian chant]], [[Qur'anic recitation (tilawa) and the call to prayer]] and [[Gagaku]], and not the songs people sang at work.",
-    "Listen for what these have in common. There is one line of melody and no harmony under it. The words come first and the music serves them. The pace is set by breath, not by a drum.",
+    "Most music made before the year 1000 was never written down. It lived in memory and died with the people who carried it. What survives did so because an institution made the carrying somebody's job: a monastery, a mosque, a temple, a court. That is why this chapter is [[Gregorian chant]], [[Qur'anic recitation (tilawa) and the call to prayer]] and [[Gagaku]], and not the songs people sang at work.",
+    "Listen to the two vocal traditions first. In chant and in recitation there is one line of melody, and the words come first: the music serves the text. Gagaku is the contrast. It is a court ensemble of winds, strings and drums, and its mouth organ holds chords above the melody.",
     "Be careful with the dates. The year on a stop is when the tradition is first attested, and what you hear is a living practice that has changed since. A recording made last year is evidence of last year."
    ]
   },
@@ -28,9 +28,9 @@
    "title": "Two roads: the page and the mode",
    "q": "What happens to music when some people start writing it down and others do not?",
    "p": [
-    "In eleventh-century Europe, church musicians worked out a way to fix pitch on a set of lines. Once notes sat on a page, a composer could plan several melodies to sound at once and hand the plan to singers he had never met. Harmony as Europe came to know it grows from that tool.",
+    "In eleventh-century Europe, church musicians worked out a way to fix pitch on a set of lines. Church singers were already singing in several parts. Once notes sat on a page, a composer could plan those parts in detail and hand the plan to singers he had never met. Harmony as Europe came to know it grows from that tool.",
     "Most of the world took another road, and it is not a lesser one. In India, the northern and southern classical traditions, [[Hindustani classical]] and [[Carnatic classical]], grew apart in these centuries. Their art is a single melodic line worked out by a soloist inside a mode and a rhythmic cycle, taught from teacher to student. The depth is in the unfolding, not in the stacking.",
-    "Two more stops correct the textbook. [[Georgian polyphonic singing]] shows that singing in several parts did not need notation. [[West African drum and dance]] shows rhythm layered in the way Europe layered pitch. Remember that second one. It returns in almost every later chapter."
+    "Two more stops correct the textbook. [[Georgian polyphonic singing]] is singing in several parts carried by oral tradition. [[West African drum and dance]] shows rhythm layered in the way Europe layered pitch. Remember that second one. It returns in almost every later chapter."
    ]
   },
   {
@@ -42,7 +42,7 @@
    "q": "What did empire and the slave trade do to music?",
    "p": [
     "From the sixteenth to the nineteenth century European ships carried millions of enslaved Africans to the Americas. They carried rhythm, call and response and the habit of music as something a whole gathering does. In Brazil that meeting gives [[Maracatu]]. In Morocco, [[Gnawa]] is the music of people brought north across the Sahara. The pattern of this chapter is displacement first, new music after.",
-    "In Europe the same centuries are the [[Baroque]]. Opera appears in Italy around 1600, and harmony settles into the system of keys that Western music used for the next three hundred years. Notice who pays: courts and churches, and by the end, a public that buys tickets.",
+    "In Europe the first century and a half of this chapter is the [[Baroque]]. Opera appears in Italy around 1600, and harmony settles into the system of keys that Western music used for about the next two hundred and fifty years. Notice who pays: courts and churches, and by the end, a public that buys tickets.",
     "Elsewhere courts and cities refine their own arts: the [[Ghazal (Urdu)]] of Mughal India, the [[Japanese art music (koto, shamisen, shakuhachi)]] of the Edo period, and in Andalusia the first reports of [[Flamenco]] among the Gitano communities."
    ]
   },
@@ -54,9 +54,9 @@
    "title": "Cities, nations and sheet music",
    "q": "How did music become something you buy?",
    "p": [
-    "The nineteenth century builds industrial cities, and cities build a music business. Its product is paper. A song is printed, sold and played at home on the piano. By the end of the century the trade in New York has a name, [[Tin Pan Alley]], and a method: write to a formula, sell by the thousand.",
+    "In the nineteenth century a music business grows in the cities. Its product is paper. A song is printed, sold and played at home on the piano. Just after 1900 the trade in New York is given a name, [[Tin Pan Alley]]. Its method: write to a formula, sell by the thousand.",
     "The same century invents the nation, and nations want a sound. [[Romantic]] composers put folk tunes in symphonies while collectors write down songs before they vanish.",
-    "The most consequential music of the century is made by people with the least power. [[Spirituals and work songs]] are the root of most of what America later exports. In the port cities of Latin America, dancers and immigrants make [[Tango]] in Buenos Aires and Montevideo, [[Cumbia]] on Colombia's Caribbean coast, and [[Trova and bolero]] in eastern Cuba.",
+    "The most consequential music of the century is made by people with the least power. [[Spirituals and work songs]] are roots of the blues and of gospel, and through them of much that follows in this course. In the port cities of Latin America, dancers and immigrants make [[Tango]] in Buenos Aires and Montevideo, [[Cumbia]] on Colombia's Caribbean coast, and [[Trova and bolero]] in eastern Cuba.",
     "The chapter ends with a machine. In 1877 Edison's phonograph records sound. Nothing in the next seven chapters happens without it."
    ]
   },
@@ -69,8 +69,8 @@
    "q": "What changes when a performance can travel without the performer?",
    "p": [
     "A record turns a local way of playing into an object. It can be sold in a city the musician never visits and copied by people who never saw it played. Styles that had been one neighbourhood's become a country's within a few years.",
-    "The first music to travel this way is Black American. During the Great Migration, families leave the rural South for northern cities and take [[Early blues (Delta, country, classic)]] with them. [[Early jazz]] moves out of New Orleans the same way. Both are on record by the early 1920s.",
-    "The pattern repeats wherever there is a port, a recording studio and a radio station: [[Cuban son]] in Havana, [[Samba]] in Rio de Janeiro, [[Mariachi and ranchera]] in Mexico, [[Chanson]] in Paris.",
+    "The first international recording star is an opera singer, Enrico Caruso. The music the record changes most is Black American. During the Great Migration, families leave the rural South for northern cities and take [[Early blues (Delta, country, classic)]] with them. [[Early jazz]] moves out of New Orleans the same way. Both are on record by the early 1920s.",
+    "The pattern repeats in other cities with a recording studio and a radio station: [[Cuban son]] in Havana, [[Samba]] in Rio de Janeiro. [[Mariachi and ranchera]] belongs to these years too, though it grew in the countryside of western Mexico and not in a port.",
     "One technical date matters. From 1925 records are made with microphones. A singer no longer has to shout into a horn. The quiet, close voice of later popular song begins here."
    ]
   },
@@ -82,9 +82,9 @@
    "title": "Radio, film and the big band",
    "q": "Who decides what a whole country hears?",
    "p": [
-    "By the 1930s a few radio networks and film studios can put one song in front of a nation in a week. Popular music becomes national in a way it had not been.",
+    "By the 1930s radio networks and film studios reach national audiences. Popular music becomes national in a way it had not been.",
     "In the United States the result is [[Swing]]: large dance bands, written arrangements, a beat for dancing. In India the first sound film appears in 1931 and film song, [[Filmi (Bollywood song)]], becomes the popular music of the subcontinent. There the film industry, not the record industry, is the patron.",
-    "Cuba is the era's other exporter. Its dance music reaches New York and Mexico City and comes back larger as [[Mambo and cha-cha-chá]]. In Black American churches [[Gospel]] develops the vocal technique that soul and rock singers will borrow in the next chapter.",
+    "Cuba is the era's other exporter. Cuban [[Mambo and cha-cha-chá|mambo]] becomes a craze in Mexico and the United States, and the cha-cha-chá follows from Cuba in the early 1950s. In Black American churches [[Gospel]] develops the vocal technique that soul and rock singers will borrow in the next chapter.",
     "Ask of each stop: was this chosen by listeners, or for them?"
    ]
   },
@@ -97,7 +97,7 @@
    "q": "Why does so much begin in the 1950s?",
    "p": [
     "Three cheap things arrive together: the 45 rpm single, the transistor radio and the electric guitar. For the first time young people have music that is theirs and can carry it out of the house. [[Rock and roll]] is rhythm and blues and country music sold to that audience.",
-    "The other story of these years is independence. As colonies become countries, their cities make modern dance music. In Kinshasa and Brazzaville, bands hear Cuban records and recognise something. Cuban son was built on African rhythm, and [[Congolese rumba and soukous]] takes it home and makes it new. Jamaica becomes independent in 1962 with [[Ska]] as its sound.",
+    "The other story of these years is independence. As colonies become countries, their cities make modern dance music. In Kinshasa and Brazzaville, bands hear Cuban records and recognise something. Cuban son blends Spanish and African elements, and [[Congolese rumba and soukous]] takes it up and makes it new. Jamaica becomes independent in 1962 with [[Ska]] as its sound.",
     "Meanwhile [[Soul and Motown]] brings the gospel voice into songs about love, and in Rio [[Bossa nova]] turns samba down to a murmur.",
     "This is the chapter where the course's lines cross. Follow one of them back on the tree before you go on."
    ]
@@ -124,7 +124,7 @@
    "title": "Machines",
    "q": "What happens when the instruments are affordable machines?",
    "p": [
-    "Around 1980 the drum machine, the synthesizer and then the sampler become cheap enough to own. A record no longer needs a band or a studio. It needs one person and a room.",
+    "Around 1980 the drum machine, the synthesizer and then the sampler arrive. Over the decade, often second-hand, they become cheap enough to own. A record no longer needs a band or a studio. It needs one person and a room.",
     "The new music comes from places the industry was not watching. [[House]] comes from Chicago clubs and [[Techno]] from Detroit. In Jamaica [[Dancehall]] goes digital in the middle of the decade. In Britain the early 1990s bring [[Jungle and drum and bass]], built from sped-up samples of old funk drumming.",
     "At the same time the compact disc and music television make pop a larger and more visual business, and countries outside the English-speaking world build industries of their own: [[J-pop]] in Japan, and from the early 1990s [[K-pop]] in South Korea.",
     "Compare a stop here with one from the last chapter. The groove is the same idea. A machine is playing it."
@@ -138,8 +138,8 @@
    "title": "The file",
    "q": "What is a song worth when a copy costs nothing?",
    "p": [
-    "In 1999 file sharing shows that music can move without any object at all. The record business shrinks for a decade. Listening does not. It grows, and it stops respecting borders and shelves.",
-    "Production concentrates in a few hands, as in [[Teen pop (Max Martin era)]], while distribution scatters. [[Reggaeton]] rises from Puerto Rico on a Jamaican rhythm that came by way of Panama. In Lagos and Accra a new pop, [[Afrobeats]], takes shape. [[French house]] and [[Y2K R&B]] show how far the machines of the last chapter have spread.",
+    "In 1999 file sharing shows that music can move without any object at all. The record business shrinks for a decade, while listening moves to files and stops respecting borders and shelves.",
+    "One producer can stand behind dozens of number ones, as in [[Teen pop (Max Martin era)]], while distribution scatters. [[Reggaeton]] rises from Puerto Rico on a Jamaican rhythm that came by way of Panama. In Lagos and Accra a new pop, [[Afrobeats]], takes shape. [[French house]] and [[Y2K R&B]] show how far the machines of the last chapter have spread.",
     "One sound marks the end of the period: the pitch-corrected voice over deep drum-machine bass, the line this course calls [[Melodic rap (the 808s line)]].",
     "Notice how short the path has become. A chain that took three centuries in chapters three to five now takes three years."
    ]
@@ -152,11 +152,21 @@
    "title": "The stream",
    "q": "Is there still a centre?",
    "p": [
-    "Streaming puts nearly all recorded music one search away, and a playlist can place a song from Johannesburg beside one from Seoul. For most of this course music travelled outward from a few capitals. That stops being true.",
-    "[[Amapiano]] comes out of South African townships and reaches the world's clubs without changing language. [[Latin trap]] and reggaeton put Spanish at the top of global charts. Korean pop fills stadiums on every continent. The American centre is still loud, with [[Modern trap (Atlanta sound)]] and [[EDM-pop]], but it is one voice among several.",
+    "Streaming puts a vast catalogue of recorded music one search away, and a playlist can place a song from Johannesburg beside one from Seoul. For most of this course music travelled outward from a few capitals. That stops being true.",
+    "[[Amapiano]] comes out of South African townships and reaches the world's clubs without changing language. [[Latin trap]] and reggaeton put Spanish at the top of global charts. Korean pop sells out stadiums in Europe and North America. The American centre is still loud, with [[Modern trap (Atlanta sound)]] and [[EDM-pop]], but it is one voice among several.",
     "Return to the question from the first session: who can hear this, and how did it reach them? Now the answer is anyone, at once. That is the reason a site like this one can exist.",
     "The course ends here. The map does not. Pick any stop you liked and follow its line back."
    ]
   }
- ]
+ ],
+ "checked": {
+  "date": "2026-11-24",
+  "by": "helper assignment H24",
+  "sentences": 124,
+  "supported": 49,
+  "opinion": 54,
+  "corrected": 15,
+  "softened": 6,
+  "folder": "work/2026-11-24-H24"
+ }
 }
