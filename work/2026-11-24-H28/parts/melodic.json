@@ -1,0 +1,166 @@
+{
+ "genre": "melodic",
+ "story": "Kanye West had used Auto-Tune on background vocals for The College Dropout in 2004, but not for lead vocals. In 2008, working on remixes of Lil Wayne's \"Lollipop\" and Young Jeezy's \"Put On\", he took to it, and T-Pain coached him. After his mother Donda died in November 2007 and his engagement to Alexis Phifer ended in April 2008, West recorded 808s & Heartbreak in September and October 2008 in Burbank, California and Honolulu. He flew in Kid Cudi, whose 2008 mixtape A Kid Named Cudi he admired, and Cudi co-wrote four songs. West felt rapping could not carry what he felt, so he mostly sang, through Auto-Tune, over the Roland TR-808 drum machine in minor keys. Hip-hop fans and some rappers mocked him for becoming \"sappy\". Drake's producer Noah \"40\" Shebib named the album as an influence on the mixtape So Far Gone, released in February 2009 and launched with a party in Toronto. Kid Cudi followed with Man on the Moon: The End of Day in 2009. The album is credited with starting emo rap; B.o.B and Childish Gambino turned to introspection after it, and Juice Wrld and Lil Uzi Vert later named it as an influence.",
+ "words": 199,
+ "sentences": [
+  {
+   "text": "Kanye West had used Auto-Tune on background vocals for The College Dropout in 2004, but not for lead vocals.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "He had experimented with it on his 2004 debut album ''[[The College Dropout]]''"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "but he had not used the technology for lead vocals until 2008"
+    }
+   ]
+  },
+  {
+   "text": "In 2008, working on remixes of Lil Wayne's \"Lollipop\" and Young Jeezy's \"Put On\", he took to it, and T-Pain coached him.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "We were working on the remixes for [[Lil Wayne]]'s '[[Lollipop (Lil Wayne song)|Lollipop]]' and [[Jeezy|Young Jeezy]]'s '[[Put On]]' and he fell in love with the Auto-Tune"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "West enlisted [[T-Pain]] for coaching on how to utilize the technology"
+    }
+   ]
+  },
+  {
+   "text": "After his mother Donda died in November 2007 and his engagement to Alexis Phifer ended in April 2008, West recorded 808s & Heartbreak in September and October 2008 in Burbank, California and Honolulu.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "following the death of his mother [[Donda West|Donda]] in November 2007 and his breakup with his then-fiancée Alexis Phifer in April 2008"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "West recorded it between September and October 2008 at Glenwood Studios in [[Burbank, California]] and Avex Recording Studio in [[Honolulu|Honolulu, Hawaii]]"
+    }
+   ]
+  },
+  {
+   "text": "He flew in Kid Cudi, whose 2008 mixtape A Kid Named Cudi he admired, and Cudi co-wrote four songs.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "After receiving a copy of his 2008 mixtape ''[[A Kid Named Cudi]]'', West became an avid fan"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "asked him to fly to Hawaii to work on ''808s & Heartbreak''"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "Kid Cudi co-wrote four songs on ''808s & Heartbreak''"
+    }
+   ]
+  },
+  {
+   "text": "West felt rapping could not carry what he felt, so he mostly sang, through Auto-Tune, over the Roland TR-808 drum machine in minor keys.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "West felt that his emotions could not be fully expressed simply through rapping"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "West mostly sings instead of [[rapping]], with vocals processed through [[Auto-Tune]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "prominent use of [[minor key]]s and the [[Roland TR-808]] drum machine"
+    }
+   ]
+  },
+  {
+   "text": "Hip-hop fans and some rappers mocked him for becoming \"sappy\".",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "Numerous hip-hop fans and certain rappers mocked West for becoming \"sappy\""
+    }
+   ]
+  },
+  {
+   "text": "Drake's producer Noah \"40\" Shebib named the album as an influence on the mixtape So Far Gone, released in February 2009 and launched with a party in Toronto.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/So_Far_Gone_(mixtape)?action=raw",
+     "quote": "is the third mixtape by Canadian rapper [[Drake (musician)|Drake]]. It was released on February 13, 2009"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/So_Far_Gone_(mixtape)?action=raw",
+     "quote": "The mixtape was promoted with a release party in [[Toronto]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/So_Far_Gone_(mixtape)?action=raw",
+     "quote": "said that ''[[808s & Heartbreak]]'' was an influence on the mixtape's atmospheric sounds"
+    }
+   ]
+  },
+  {
+   "text": "Kid Cudi followed with Man on the Moon: The End of Day in 2009.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "Kid Cudi's ''[[Man on the Moon: The End of Day]]'' (2009)"
+    }
+   ]
+  },
+  {
+   "text": "The album is credited with starting emo rap; B.o.B and Childish Gambino turned to introspection after it, and Juice Wrld and Lil Uzi Vert later named it as an influence.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "It has been credited with pioneering the [[emo rap]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "laid the groundwork for a new wave of hip-hop artists who generally eschewed typical rap braggadocio for intimate subject matter and introspection"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "including [[B.o.B]], Kid Cudi, [[Donald Glover|Childish Gambino]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "credits its influence on the late-2010s music of [[Juice Wrld]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+     "quote": "[[Lil Uzi Vert]], another emo rapper, said that the album changed his life"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Origin: our record says Los Angeles and Toronto. 808s & Heartbreak was recorded 'at Glenwood Studios in [[Burbank, California]] and Avex Recording Studio in [[Honolulu|Honolulu, Hawaii]]' (https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw); Kanye West is not described there as an LA artist. Toronto is supported only through Drake's So Far Gone.",
+  "'Melodic rap' has no article of its own on English Wikipedia (it redirects to Pop rap); the 808s & Heartbreak article credits the album with 'pioneering the [[emo rap]]' instead.",
+  "Window end 2014: the sources trace the line on into the late 2010s (Juice Wrld, Lil Uzi Vert)."
+ ],
+ "sources": [
+  {
+   "title": "808s & Heartbreak (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw"
+  },
+  {
+   "title": "So Far Gone (mixtape) (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/So_Far_Gone_(mixtape)?action=raw"
+  }
+ ],
+ "notes": "Home language English. Built from the 808s & Heartbreak and So Far Gone articles; the Pop rap article (redirect target) was fetched but not used."
+}

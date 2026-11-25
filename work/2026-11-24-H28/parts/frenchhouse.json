@@ -1,0 +1,176 @@
+{
+ "genre": "frenchhouse",
+ "story": "In France in the late 1970s and early 1980s, Cerrone and Sheila and B. Devotion made space disco. In 1987 photographer Jean-Claude Lagrèze ran French Touch parties at the Palace in Paris to introduce house music, with DJs Laurent Garnier and David Guetta. In 1994 Alain Hô (DJ Yellow) and Christophe Le Friant (Bob Sinclar) founded the label Yellow Productions in the Marais. Thomas Bangalter's records for his label Roulé were among the first, and in 1996 Motorbass built house tracks from samples and filtered loops on Pansoul. In 1996 Martin James of Melody Maker used the name French touch reviewing Étienne de Crécy's Super Discount. Daft Punk, Cassius and Air signed to Virgin, and Daft Punk's first album, Homework, made the UK top 10. DJ and producer, separate jobs until then, became one. In 1998 Bangalter, Benjamin Diamond and Alan Braxe, as Stardust, released \"Music Sounds Better with You\", which sold over two million copies. Around 1998 major labels wanted their releases labelled French Touch, and in 1999 many artists changed course. It returned in the mid-2000s through Justice and Pedro Winter's label Ed Banger, and Madonna drew on it for Confessions on a Dance Floor in 2005.",
+ "words": 199,
+ "sentences": [
+  {
+   "text": "In France in the late 1970s and early 1980s, Cerrone and Sheila and B. Devotion made space disco.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+     "quote": "Space disco was popular in [[France]] during the late 1970s and early 1980s, especially with artists such as [[Cerrone]] and [[Sheila and B. Devotion]]"
+    }
+   ]
+  },
+  {
+   "text": "In 1987 photographer Jean-Claude Lagrèze ran French Touch parties at the Palace in Paris to introduce house music, with DJs Laurent Garnier and David Guetta.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+     "quote": "The term \"French Touch\" was first used in Paris in July 1987"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+     "quote": "Jean-Claude Lagrèze, a photographer of parisians' nights created a couple of \"French Touch\" parties at The Palace in an effort to help people discover house music"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+     "quote": "The parties were driven by DJ [[Laurent Garnier]], Guillaume la Tortue and [[David Guetta]]"
+    }
+   ]
+  },
+  {
+   "text": "In 1994 Alain Hô (DJ Yellow) and Christophe Le Friant (Bob Sinclar) founded the label Yellow Productions in the Marais.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+     "quote": "En 1994, Alain Hô, alias DJ Yellow, fonde, avec Christophe Le Friant, alias [[Bob Sinclar]]"
+    },
+    {
+     "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+     "quote": "le [[Label discographique|label]] [[Yellow Productions]] dans le quartier du Marais à Paris"
+    }
+   ]
+  },
+  {
+   "text": "Thomas Bangalter's records for his label Roulé were among the first, and in 1996 Motorbass built house tracks from samples and filtered loops on Pansoul.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+     "quote": "[[Thomas Bangalter]]'s tracks for his [[Roulé]] label were some of the earliest examples of French house"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+     "quote": "among the first in France to produce house tracks largely based around samples and filtered loops"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+     "quote": "released their seminal album, ''[[Pansoul]]'' in 1996"
+    }
+   ]
+  },
+  {
+   "text": "In 1996 Martin James of Melody Maker used the name French touch reviewing Étienne de Crécy's Super Discount.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+     "quote": "popularised by music journalist Martin James in the weekly music paper known as ''[[Melody Maker]]''"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+     "quote": "He referred to the term in 1996 as a review of [[Étienne de Crécy]]'s first album ''[[Super Discount]]''"
+    }
+   ]
+  },
+  {
+   "text": "Daft Punk, Cassius and Air signed to Virgin, and Daft Punk's first album, Homework, made the UK top 10.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+     "quote": "[[Daft Punk]], [[Cassius (band)|Cassius]] and later [[Stardust (band)|Stardust]] were the first internationally successful artists of the genre"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+     "quote": "along with [[Air (French band)|Air]], signed to [[Virgin Records]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+     "quote": "Daft Punk's debut album ''[[Homework (Daft Punk album)|Homework]]'' entered the top 10 of the [[UK Albums Chart]]"
+    }
+   ]
+  },
+  {
+   "text": "DJ and producer, separate jobs until then, became one.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+     "quote": "alors qu'auparavant DJ et producteurs étaient deux rôles séparés, leurs activités se confondent"
+    }
+   ]
+  },
+  {
+   "text": "In 1998 Bangalter, Benjamin Diamond and Alan Braxe, as Stardust, released \"Music Sounds Better with You\", which sold over two million copies.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+     "quote": "L'année 1998 est marquée par le titre"
+    },
+    {
+     "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+     "quote": "morceau produit par [[Thomas Bangalter]], [[Benjamin Diamond]] et [[Alan Braxe]]"
+    },
+    {
+     "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+     "quote": "qui se vendra à plus de deux millions d'exemplaires dans le monde"
+    }
+   ]
+  },
+  {
+   "text": "Around 1998 major labels wanted their releases labelled French Touch, and in 1999 many artists changed course.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+     "quote": "Vers 1998, les grandes maisons de disques veulent leur production étiquetée « French Touch »"
+    },
+    {
+     "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+     "quote": "en 1999, le rythme ralentit, nombre d'artistes changent de voie"
+    }
+   ]
+  },
+  {
+   "text": "It returned in the mid-2000s through Justice and Pedro Winter's label Ed Banger, and Madonna drew on it for Confessions on a Dance Floor in 2005.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+     "quote": "le milieu des années 2000 marque cependant le retour de la ''French Touch'' sur la scène internationale"
+    },
+    {
+     "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+     "quote": "[[Justice (groupe)|Justice]] et les artistes du label [[Ed Banger]] de [[Pedro Winter]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+     "quote": "In late 2005, [[Madonna (entertainer)|Madonna]] released ''[[Confessions on a Dance Floor]]'', an album with significant French house influences"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Window: our record says 1996–2002; the English article gives cultural origins 'Early- to mid-1990s, France' and says success 'continued into the 2000s'; the French article says the style was 'né en France en 1990' and returned in the mid-2000s (https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw).",
+  "The two articles differ on the first French Touch party: English says 'first used in Paris in July 1987'; French says June 1987 (invitation 'MERCREDI 3 JUIN 1987'). The story says only 1987.",
+  "Sound: our record mentions sidechain pumping and vocoder; neither article mentions them. The English article stresses 'filter and phaser effects' on samples from 'late 1970s and early 1980s European disco'."
+ ],
+ "sources": [
+  {
+   "title": "French house (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/French_house?action=raw"
+  },
+  {
+   "title": "French touch (musique) (French Wikipedia)",
+   "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw"
+  }
+ ],
+ "notes": "French article read (French touch (musique), fr.wikipedia) and used for five sentences (Yellow Productions, DJ/producer roles, Music Sounds Better with You, 1998-1999 decline, mid-2000s return). Laurent Garnier and Erik Rug at the H3O nights at La Locomotive (fr article) was left out for length."
+}

@@ -1,0 +1,188 @@
+{
+ "genre": "amapiano",
+ "story": "Amapiano mixes kwaito, deep house, gqom, jazz, soul and lounge music. In the 2000s DJ Spoko, who had moved to Atteridgeville west of Pretoria, DJ Mujava and others made bacardi house, known as sgubhu saPitori. Because amapiano resembles bacardi house, some place its start in Pretoria, but accounts from the Johannesburg townships differ and no single founder is agreed. Kabelo Motha, known as Kabza de Small, moved from eMalahleni to Pretoria and began his music career in 2009. His single \"Umshove\" came out in 2018, and on 1 October 2019 he released the EP Piano Hub with DJ Maphorisa. The name is the Zulu word for \"pianos\", and the music is built on piano melodies and log-drum basslines. Kabza de Small credits the producer MDU aka TRP with finding the log-drum sound while trying out new plug-ins. Young people posted dance videos set to it on social media, which fed the dance scene in South Africa. In 2019 it spread across Africa, and in 2022 the online store Beatport gave it its own charts. In 2023 Tyla's \"Water\" became the first song by a South African soloist to enter the US Billboard Hot 100 in 55 years.",
+ "words": 197,
+ "sentences": [
+  {
+   "text": "Amapiano mixes kwaito, deep house, gqom, jazz, soul and lounge music.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+     "quote": "It is a hybrid of [[kwaito]],  [[deep house]], [[gqom]], [[jazz]], [[Soul music|soul]], and [[Lounge music|lounge]] music"
+    }
+   ]
+  },
+  {
+   "text": "In the 2000s DJ Spoko, who had moved to Atteridgeville west of Pretoria, DJ Mujava and others made bacardi house, known as sgubhu saPitori.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/DJ_Spoko?action=raw",
+     "quote": "Spoko was born and raised in Tzaneen, [[Limpopo]] before relocating to Atteridgeville situated west of [[Pretoria]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/DJ_Spoko?action=raw",
+     "quote": "In the 2000s, DJ Spoko, DJ Mujava, House Station, Mzo Bullet and several others pioneered bacardi house"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/DJ_Spoko?action=raw",
+     "quote": "popularly referred to as \"''sgubhu saPitori''\""
+    }
+   ]
+  },
+  {
+   "text": "Because amapiano resembles bacardi house, some place its start in Pretoria, but accounts from the Johannesburg townships differ and no single founder is agreed.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+     "quote": "Because it has some similarities with [[DJ Spoko#Bacardi house|bacardi house]],"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+     "quote": "some people assert the genre began in [[Pretoria]] but it remains uncertain"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+     "quote": "with various accounts of the musical styles in the [[Johannesburg]] townships"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+     "quote": "There is no single \"true founder\" of amapiano."
+    }
+   ]
+  },
+  {
+   "text": "Kabelo Motha, known as Kabza de Small, moved from eMalahleni to Pretoria and began his music career in 2009.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Kabza_de_Small?action=raw",
+     "quote": "popularly known as '''Kabza de Small'''"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Kabza_de_Small?action=raw",
+     "quote": "Born and raised in [[eMalahleni]], [[Mpumalanga]], later Motha"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Kabza_de_Small?action=raw",
+     "quote": "relocated to [[Pretoria]]. His musical career began in 2009."
+    }
+   ]
+  },
+  {
+   "text": "His single \"Umshove\" came out in 2018, and on 1 October 2019 he released the EP Piano Hub with DJ Maphorisa.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Kabza_de_Small?action=raw",
+     "quote": "His breakthrough single \"Umshove\" featuring South African singer Leehleza was released in 2018"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Kabza_de_Small?action=raw",
+     "quote": "On 1 October 2019, he released ''Piano Hub'' with [[DJ Maphorisa]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Kabza_de_Small?action=raw",
+     "quote": "The EP was certified 3× platinum in South Africa."
+    }
+   ]
+  },
+  {
+   "text": "The name is the Zulu word for \"pianos\", and the music is built on piano melodies and log-drum basslines.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+     "quote": "The word ''amapiano'' is a [[Zulu language|Zulu]] word that can be loosely translated to \"pianos.\""
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+     "quote": "Amapiano is distinguished by piano melodies, deep house, [[Soul music|soul]], kwaito and [[Slit drum#List of slit drums|log drum]] [[bassline]]s"
+    }
+   ]
+  },
+  {
+   "text": "Kabza de Small credits the producer MDU aka TRP with finding the log-drum sound while trying out new plug-ins.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+     "quote": "he's the one who came up with the log drum sound. These boys like experimenting. They always check out new plug-ins. So when MDU figured it out, he ran with it."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+     "quote": "Kabza De Small and MDU aka TRP set to release 50-track album"
+    }
+   ]
+  },
+  {
+   "text": "Young people posted dance videos set to it on social media, which fed the dance scene in South Africa.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+     "quote": "The genre was popular amongst young people on social media platforms, where videos using amapiano music were uploaded, which fuelled the dancing scene in South Africa."
+    }
+   ]
+  },
+  {
+   "text": "In 2019 it spread across Africa, and in 2022 the online store Beatport gave it its own charts.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+     "quote": "In 2019, the genre experienced increased popularity across the African continent"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+     "quote": "In 2022, the American online music store [[Beatport]] added the genre to its platform with its own dedicated charts and playlists."
+    }
+   ]
+  },
+  {
+   "text": "In 2023 Tyla's \"Water\" became the first song by a South African soloist to enter the US Billboard Hot 100 in 55 years.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+     "quote": "In October 2023, the afrobeats and amapiano fusion song \"[[Water (Tyla song)|Water]]\" by [[Tyla]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+     "quote": "It became the first song by a South African soloist to enter the [[Billboard Hot 100|U.S. ''Billboard'' Hot 100]] in 55 years"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Start date: our record says 2012; https://en.wikipedia.org/wiki/Amapiano?action=raw gives \"cultural_origins  = Mid 2010s (disputed in [[Gauteng]])\" and https://af.wikipedia.org/wiki/Amapiano?action=raw says \"wat in die 2010's ontstaan het\". No source read gives 2012.",
+  "Place: our record says Pretoria; the English article says \"some people assert the genre began in [[Pretoria]] but it remains uncertain\" and points to \"various accounts of the musical styles in the [[Johannesburg]] townships\". The story says it is disputed.",
+  "Tempo: our record's 'about 110 BPM' is not stated in any page read; not contradicted either."
+ ],
+ "sources": [
+  {
+   "title": "Amapiano (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw"
+  },
+  {
+   "title": "DJ Spoko (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/DJ_Spoko?action=raw"
+  },
+  {
+   "title": "Kabza de Small (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Kabza_de_Small?action=raw"
+  },
+  {
+   "title": "Amapiano (isiZulu Wikipedia), read, not quoted",
+   "url": "https://zu.wikipedia.org/wiki/Amapiano?action=raw"
+  },
+  {
+   "title": "Amapiano (Afrikaans Wikipedia), read, quoted under disagreements",
+   "url": "https://af.wikipedia.org/wiki/Amapiano?action=raw"
+  }
+ ],
+ "notes": "Read the isiZulu (zu) and Afrikaans (af) articles: both exist and are short; zu repeats the English origins text (no founder, Pretoria uncertain), af gives 'the 2010s' and Pretoria and Johannesburg townships. Nothing from them was needed in the story, so no zu/af quotes. The 'why' beat is thin: no source read says what the producers were trying to do; the story gives what changed (piano, log drum via MDU aka TRP's plug-in experiments) instead. The MDU aka TRP quote is from a reference title inside the English article's raw text. The Red Bull history page (redbull.com/za-en/amapiano-history) refused the script (403). Dropped for length: Afropiano (Nigeria) and Bongopiano (Tanzania) as later offshoots, both sourceable from the English article."
+}

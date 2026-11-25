@@ -1,0 +1,141 @@
+{
+ "genre": "techno",
+ "story": "Detroit's high-school parties of the early 1980s danced to European disco, which locals called \"progressive\", and to synth-pop. The radio shows of The Electrifying Mojo played Kraftwerk and Yellow Magic Orchestra next to disco and funk. Juan Atkins, Derrick May and Kevin Saunderson met at Belleville High School, about 30 miles from Detroit, where they were among the few black students. Atkins took the word techno from Alvin Toffler's \"techno rebels\" when his duo Cybotron, with Richard Davis, released \"Alleys of Your Mind\" in 1981. The three went to Chicago to hear Ron Hardy and Frankie Knuckles, and joined that dance music to the mechanical sound of Kraftwerk, reflecting post-industrial Detroit. Rejecting the formulas of Motown and R&B, they called their music \"post-soul\". In 1985 Atkins founded the Metroplex label and released Model 500's \"No UFO's\"; May's \"Strings of Life\" followed in 1987. In 1988 the British compilation Techno! The New Dance Sound of Detroit, compiled by Neil Rushton and May, set techno apart from Chicago house. In the early 1990s clubs such as Tresor opened in empty buildings in former East Berlin, and by 1999 the Love Parade drew a reported 1.5 million people.",
+ "words": 195,
+ "sentences": [
+  {
+   "text": "Detroit's high-school parties of the early 1980s danced to European disco, which locals called \"progressive\", and to synth-pop.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+     "quote": "referred to as ''progressive'' in Detroit—and [[new romantic]] synth-pop in the Detroit high school party scene from which techno emerged"
+    }
+   ]
+  },
+  {
+   "text": "The radio shows of The Electrifying Mojo played Kraftwerk and Yellow Magic Orchestra next to disco and funk.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+     "quote": "the synthesisers of [[Kraftwerk]], [[Giorgio Moroder]] and [[Yellow Magic Orchestra]] and the [[African American music|African American]] traditions of [[disco]] and [[funk]], heard together on the radio shows of [[The Electrifying Mojo]]"
+    }
+   ]
+  },
+  {
+   "text": "Juan Atkins, Derrick May and Kevin Saunderson met at Belleville High School, about 30 miles from Detroit, where they were among the few black students.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/The_Belleville_Three?action=raw",
+     "quote": "attended [[Belleville High School (Belleville, Michigan)|Belleville High School]] in [[Belleville, Michigan|Belleville]], a town some 30 miles from Detroit"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/The_Belleville_Three?action=raw",
+     "quote": "In school he befriended Derrick May and Juan Atkins"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/The_Belleville_Three?action=raw",
+     "quote": "The three were among the few black students in their high school"
+    }
+   ]
+  },
+  {
+   "text": "Atkins took the word techno from Alvin Toffler's \"techno rebels\" when his duo Cybotron, with Richard Davis, released \"Alleys of Your Mind\" in 1981.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+     "quote": "inspired by the writer [[Alvin Toffler]]'s conception of \"techno rebels\", when Cybotron's \"Alleys of Your Mind\" was released in 1981"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+     "quote": "Atkins and Richard Davis's [[Cybotron (American band)|Cybotron]]"
+    }
+   ]
+  },
+  {
+   "text": "The three went to Chicago to hear Ron Hardy and Frankie Knuckles, and joined that dance music to the mechanical sound of Kraftwerk, reflecting post-industrial Detroit.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/The_Belleville_Three?action=raw",
+     "quote": "The trio traveled to [[Chicago]] to investigate the [[house music]] scene there, particularly Chicago DJs [[Ron Hardy]] and [[Frankie Knuckles]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/The_Belleville_Three?action=raw",
+     "quote": "The trio began to formulate the synthesis of this dance music with the mechanical sounds of groups like Kraftwerk, in a way that reflected post-industrialist Detroit"
+    }
+   ]
+  },
+  {
+   "text": "Rejecting the formulas of Motown and R&B, they called their music \"post-soul\".",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+     "quote": "Rejecting the traditional formulas of [[Motown Records|Motown]] and [[Rhythm and blues|R&B]], they described their music as a \"post-soul\" sound"
+    }
+   ]
+  },
+  {
+   "text": "In 1985 Atkins founded the Metroplex label and released Model 500's \"No UFO's\"; May's \"Strings of Life\" followed in 1987.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+     "quote": "in 1985 Atkins founded the [[Metroplex (record label)|Metroplex]] label and released Model 500's \"[[No UFO's]]\", generally considered the first techno production"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+     "quote": "May's \"[[Strings of Life]]\" (1987)"
+    }
+   ]
+  },
+  {
+   "text": "In 1988 the British compilation Techno! The New Dance Sound of Detroit, compiled by Neil Rushton and May, set techno apart from Chicago house.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+     "quote": "The mid-1988 UK release of ''[[Techno! The New Dance Sound of Detroit]]''"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+     "quote": "compiled by [[Neil Rushton]] and May, introduced the word ''techno'' to British audiences and established it as a genre distinct from Chicago house"
+    }
+   ]
+  },
+  {
+   "text": "In the early 1990s clubs such as Tresor opened in empty buildings in former East Berlin, and by 1999 the Love Parade drew a reported 1.5 million people.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+     "quote": "In the early 1990s, clubs such as [[Tresor (club)|Tresor]] opened in empty buildings in the former East of the city"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+     "quote": "By 1999, the Love Parade had grown to an event attracting a reported 1.5 million people"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Start date: our record says 1985; https://en.wikipedia.org/wiki/Techno?action=raw says \"Techno emerged in and around Detroit in the first half of the 1980s\" and dates Atkins' use of the word to 1981. 1985 matches the release of \"No UFO's\" (\"generally considered the first techno production\").",
+  "Place: our record gives Detroit only; the article's infobox gives \"Mid-1980s, [[Detroit]], [[Michigan]], U.S. [[Frankfurt]] DE\", and says German literature describes techno as \"a style that emerged in 1990 and based on [[Chicago house]]\"."
+ ],
+ "sources": [
+  {
+   "title": "Techno (English Wikipedia, raw wikitext)",
+   "url": "https://en.wikipedia.org/wiki/Techno?action=raw"
+  },
+  {
+   "title": "The Belleville Three (English Wikipedia, raw wikitext)",
+   "url": "https://en.wikipedia.org/wiki/The_Belleville_Three?action=raw"
+  }
+ ],
+ "notes": "All four beats sourced. Did not read the German article (not a home-language genre in the H28 list); the German strand is reflected only in the 'after' beat (Tresor, Love Parade)."
+}

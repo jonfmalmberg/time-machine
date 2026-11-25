@@ -1,0 +1,32 @@
+{
+ "id": "frenchhouse",
+ "name": "French house",
+ "region": "eur",
+ "family": "dance",
+ "tradition": "houset",
+ "began": 1996,
+ "ended": 2002,
+ "origin": {
+  "text": "Paris",
+  "lat": 48.86,
+  "lon": 2.35,
+  "country": "FR"
+ },
+ "definition": {
+  "window": "1996–2002",
+  "sound": "Filtered disco samples looped over house beats, with sidechain pumping and occasional vocoder.",
+  "markers": [
+   "Looped disco or funk samples",
+   "Filter sweeps and pumping compression",
+   "Four-on-the-floor house beat, vocoder vocals"
+  ]
+ },
+ "judgements": {
+  "significance": 3,
+  "ease": 5,
+  "fame": 4,
+  "intrigue": 2
+ },
+ "tier": 3,
+ "row": 0
+}

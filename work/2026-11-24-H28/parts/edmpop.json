@@ -1,0 +1,157 @@
+{
+ "genre": "edmpop",
+ "story": "David Guetta, born and raised in Paris, began as a DJ in Parisian nightclubs and discovered house music on French radio in 1987. Axwell, Steve Angello and Sebastian Ingrosso formed Swedish House Mafia in late 2008 and, with Avicii, took progressive house into the mainstream. From 2009 Guetta scored crossover hits with pop and hip-hop singers: Kelly Rowland on \"When Love Takes Over\", the Black Eyed Peas on \"I Gotta Feeling\", Sia on \"Titanium\". Tim Bergling, born in Stockholm in 1989, taught himself on a pirated copy of FL Studio, and as Avicii had his first Billboard Hot 100 entry with \"Levels\" in 2011. In the late 2000s the American music industry took up the term EDM to re-brand US rave culture. Mixmag called the result a \"drop-heavy, stadium-filling\" main stage sound. Avicii and Swedish House Mafia played arenas rather than clubs; in December 2011 Swedish House Mafia became the first electronic act to sell out Madison Square Garden. Avicii's 2013 \"Wake Me Up\", sung by soul singer Aloe Blacc, drew on bluegrass. The American EDM market began to wane in 2016, and in April that year Guetta and Showtek released a single called \"The Death of EDM\".",
+ "words": 198,
+ "sentences": [
+  {
+   "text": "David Guetta, born and raised in Paris, began as a DJ in Parisian nightclubs and discovered house music on French radio in 1987.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/David_Guetta?action=raw",
+     "quote": "Guetta was born and was raised in [[Paris]]."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/David_Guetta?action=raw",
+     "quote": "David Guetta began his music career as a disc jockey in Parisian nightclubs."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/David_Guetta?action=raw",
+     "quote": "he discovered [[house music]] when he heard a [[Farley \"Jackmaster\" Funk]] track on French radio in 1987"
+    }
+   ]
+  },
+  {
+   "text": "Axwell, Steve Angello and Sebastian Ingrosso formed Swedish House Mafia in late 2008 and, with Avicii, took progressive house into the mainstream.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Swedish_House_Mafia?action=raw",
+     "quote": "a Swedish [[house music|house]] [[Supergroup (music)|supergroup]] consisting of [[Axwell]], [[Steve Angello]] and [[Sebastian Ingrosso]]. The group officially formed in late 2008"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Swedish_House_Mafia?action=raw",
+     "quote": "They are recognized for bringing the [[progressive house]] genre into the mainstream around 2009–2010, together with their compatriot [[Avicii]]"
+    }
+   ]
+  },
+  {
+   "text": "From 2009 Guetta scored crossover hits with pop and hip-hop singers: Kelly Rowland on \"When Love Takes Over\", the Black Eyed Peas on \"I Gotta Feeling\", Sia on \"Titanium\".",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw",
+     "quote": "In 2009, [[French house]] musician [[David Guetta]] began to regularly achieve [[Crossover music|crossover hits]] via collaborations with other pop and hip-hop acts, such as [[Kelly Rowland]] (\"[[When Love Takes Over]]\")"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw",
+     "quote": "[[The Black Eyed Peas]] (\"[[I Gotta Feeling]]\"), and [[Sia]] (\"[[Titanium (David Guetta song)|Titanium]]\")"
+    }
+   ]
+  },
+  {
+   "text": "Tim Bergling, born in Stockholm in 1989, taught himself on a pirated copy of FL Studio, and as Avicii had his first Billboard Hot 100 entry with \"Levels\" in 2011.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Avicii?action=raw",
+     "quote": "Tim Bergling was born in [[Stockholm]], Sweden, on 8 September 1989"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Avicii?action=raw",
+     "quote": "he taught himself to use a [[Software piracy|pirated]] copy of [[FL Studio]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Avicii?action=raw",
+     "quote": "\"[[Levels (Avicii song)|Levels]]\" (2011) was his first entry on the [[Billboard Hot 100 |''Billboard'' Hot 100]]"
+    }
+   ]
+  },
+  {
+   "text": "In the late 2000s the American music industry took up the term EDM to re-brand US rave culture.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw",
+     "quote": "the American music industry's adoption of the term EDM in the late 2000s was an attempt to re-brand US \"rave culture\""
+    }
+   ]
+  },
+  {
+   "text": "Mixmag called the result a \"drop-heavy, stadium-filling\" main stage sound.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw",
+     "quote": "being described in a ''[[MixMag]]'' article as being \"the drop-heavy, stadium-filling, fist-pumping, chart-topping, massively commercial main stage sound that conquered America"
+    }
+   ]
+  },
+  {
+   "text": "Avicii and Swedish House Mafia played arenas rather than clubs; in December 2011 Swedish House Mafia became the first electronic act to sell out Madison Square Garden.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw",
+     "quote": "toured major venues such as arenas and stadiums rather than playing clubs; in December 2011, Swedish House Mafia became the first electronic music act to sell out New York City's [[Madison Square Garden]]"
+    }
+   ]
+  },
+  {
+   "text": "Avicii's 2013 \"Wake Me Up\", sung by soul singer Aloe Blacc, drew on bluegrass.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Wake_Me_Up_(Avicii_song)?action=raw",
+     "quote": "and American [[soul music|soul]] singer [[Aloe Blacc]], who provides vocals for the track."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw",
+     "quote": "whose 2013 album [[True (Avicii album)|''True'']] featured songs incorporating elements of [[bluegrass music|bluegrass]], such as lead single \"[[Wake Me Up (Avicii song)|Wake Me Up]]\""
+    }
+   ]
+  },
+  {
+   "text": "The American EDM market began to wane in 2016, and in April that year Guetta and Showtek released a single called \"The Death of EDM\".",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw",
+     "quote": "the American popular EDM market started to wane in 2016, when some producers began to diversify beyond the \"big room\" sound"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw",
+     "quote": "David Guetta and [[Showtek]]—in a [[techno]]-influenced single released in April 2016 titled \"The Death of EDM\""
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Window: our record says 2011-2015; https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw places Guetta's crossover hits from 2009 (\"In 2009, [[French house]] musician [[David Guetta]] began to regularly achieve [[Crossover music|crossover hits]]\") and the end at 2016 (\"the American popular EDM market started to wane in 2016\"). The record's window is the peak, not the start and end.",
+  "Origin: our record says Paris and Stockholm; the people are from there (Guetta, Paris; Avicii, Stockholm; Swedish House Mafia, Swedish), but the EDM article tells the pop crossover as a US market story (\"the American music industry's adoption of the term EDM in the late 2000s was an attempt to re-brand US \\\"rave culture\\\"\")."
+ ],
+ "sources": [
+  {
+   "title": "David Guetta (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/David_Guetta?action=raw"
+  },
+  {
+   "title": "Swedish House Mafia (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Swedish_House_Mafia?action=raw"
+  },
+  {
+   "title": "Electronic dance music (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw"
+  },
+  {
+   "title": "Avicii (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Avicii?action=raw"
+  },
+  {
+   "title": "Wake Me Up (Avicii song) (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Wake_Me_Up_(Avicii_song)?action=raw"
+  }
+ ],
+ "notes": "No home-language article applies; the genre has no Wikipedia article of its own under 'EDM-pop', so the story is built from the Electronic dance music article (US popularity section) and the artists' articles. Our markers (supersaws, big-room kicks) are not described for the pop songs in the pages read; only Mixmag's 'drop-heavy, stadium-filling' description and the later 'big room' sound appear. Dropped for length: Billboard's Dance/Electronic Songs chart (January 2013), sourced in the EDM article."
+}

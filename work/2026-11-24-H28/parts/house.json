@@ -1,0 +1,143 @@
+{
+ "genre": "house",
+ "story": "After Disco Demolition Night in Chicago, dance music passed from major labels to DJs in the city's underground clubs. Frankie Knuckles, who had moved from New York City, was resident DJ at the Warehouse in Chicago from 1977 to 1982, where the dancers were mainly black gay men. Ron Hardy played at its successor, the Music Box, from 1983. Knuckles mixed songs together instead of playing records one after another, and added a drum machine and a reel-to-reel tape player to make new tracks. By one account, the Importes Etc. record shop labelled his records \"As Heard at the Warehouse\", shortened to \"House\". In 1984 Jesse Saunders made \"On and On\" with a Roland TR-808 drum machine and a TB-303 bass synthesizer. From 1985 more Chicago DJs released their own tracks on newly affordable electronic instruments, for clubs serving mainly black, Mexican American and gay audiences. Phuture's \"Acid Tracks\" (1987) started acid house. In January 1987 Steve \"Silk\" Hurley's \"Jack Your Body\" reached number one in the UK, and Britain had its Second Summer of Love in 1988 and 1989.",
+ "words": 180,
+ "sentences": [
+  {
+   "text": "After Disco Demolition Night in Chicago, dance music passed from major labels to DJs in the city's underground clubs.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "\"[[Disco Demolition Night]]\", held in [[Chicago]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "dance music went from being produced by major labels to being created by DJs in the underground club scene"
+    }
+   ]
+  },
+  {
+   "text": "Frankie Knuckles, who had moved from New York City, was resident DJ at the Warehouse in Chicago from 1977 to 1982, where the dancers were mainly black gay men.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "when he moved from New York City to Chicago"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "resident DJ at the Warehouse club in Chicago from 1977 to 1982"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "Clubbers to the Warehouse were primarily [[black people|black]] gay men"
+    }
+   ]
+  },
+  {
+   "text": "Ron Hardy played at its successor, the Music Box, from 1983.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "the successor of the Warehouse, the Music Box (reopened and renamed in 1983 after Knuckles left)"
+    }
+   ]
+  },
+  {
+   "text": "Knuckles mixed songs together instead of playing records one after another, and added a drum machine and a reel-to-reel tape player to make new tracks.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "he changed from the typical disco mixing style of playing records one after another; instead, he mixed different songs together"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "He also explored adding a drum machine and a [[reel-to-reel]] tape player so he could create new tracks"
+    }
+   ]
+  },
+  {
+   "text": "By one account, the Importes Etc. record shop labelled his records \"As Heard at the Warehouse\", shortened to \"House\".",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "Bins of music that DJ Knuckles played at the Warehouse nightclub were labelled \"As Heard at the Warehouse\" in the store, shortened to \"House\""
+    }
+   ]
+  },
+  {
+   "text": "In 1984 Jesse Saunders made \"On and On\" with a Roland TR-808 drum machine and a TB-303 bass synthesizer.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "produced in 1984 by Chicago DJ [[Jesse Saunders]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "Roland TB-303 bass synthesizer and minimal vocals, as well as a Roland TR-808 drum machine"
+    }
+   ]
+  },
+  {
+   "text": "From 1985 more Chicago DJs released their own tracks on newly affordable electronic instruments, for clubs serving mainly black, Mexican American and gay audiences.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "Starting in 1985 and 1986, more and more Chicago DJs began producing and releasing original compositions"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "These compositions used newly affordable electronic instruments"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "catering mainly to black, [[Mexican American]], and gay audiences"
+    }
+   ]
+  },
+  {
+   "text": "Phuture's \"Acid Tracks\" (1987) started acid house.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "Its origin on vinyl is generally cited as [[Phuture]]'s \"[[Acid Tracks]]\" (Trax Records, 1987)"
+    }
+   ]
+  },
+  {
+   "text": "In January 1987 Steve \"Silk\" Hurley's \"Jack Your Body\" reached number one in the UK, and Britain had its Second Summer of Love in 1988 and 1989.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "In January 1987, Chicago DJ/artist Steve \"Silk\" Hurley's \"Jack Your Body\" reached number one in the UK"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+     "quote": "experiencing the so-called [[second summer of love]] between 1988 and 1989"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Tempo: our record says about 120-125 BPM; https://en.wikipedia.org/wiki/House_music?action=raw gives a wider range: \"a typical [[tempo]] of 115–130 beats per minute\".",
+  "Start date: our record's window begins 1984; the same article says house \"evolved slowly in the early/mid 1980s\" and traces it to Knuckles at the Warehouse from 1977, so 1984 fits the first records (\"On and On\", 1984) rather than the start of the style.",
+  "End date: our record ends the Chicago window at 1990; the article does not give an end and describes Chicago's second wave (hip house, ghetto house) from 1988 on.",
+  "Inside the source: the article says the Warehouse \"was open from 1977 to 1982\" but also \"After the Warehouse closed in 1983\"; the story uses only Knuckles' residency of 1977 to 1982."
+ ],
+ "sources": [
+  {
+   "title": "House music (English Wikipedia, raw wikitext)",
+   "url": "https://en.wikipedia.org/wiki/House_music?action=raw"
+  }
+ ],
+ "notes": "All four beats sourced from the English article alone. The origin of the name 'house' has several competing accounts in the article (Importes Etc. bins, Leonard 'Remix' Rroy's sign, Larry Heard's 'made at home'); the story gives the Importes Etc. one and marks it 'By one account'. No home-language article applies (English-language genre)."
+}

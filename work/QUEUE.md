@@ -27,7 +27,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Model, ask, hand back:** as H26 with `genres.H27.json`.
 
 ## H28. Genre stories for the course, chapters 9 to 11
-- **State:** open
+- **State:** handed back 2026-11-24
 - **Model, ask, hand back:** as H26 with `genres.H28.json`.
 
 ## H23. Chart sources for the countries that have none (roadmap 2.17c)

@@ -1,0 +1,32 @@
+{
+ "id": "edmpop",
+ "name": "EDM-pop",
+ "region": "eur",
+ "family": "westpop",
+ "tradition": "anglopop",
+ "began": 2011,
+ "ended": 2015,
+ "origin": {
+  "text": "Paris and Stockholm",
+  "lat": 48.86,
+  "lon": 2.35,
+  "country": "FR"
+ },
+ "definition": {
+  "window": "2011–2015",
+  "sound": "Pop songs shaped like festival tracks: verse, build, drop.",
+  "markers": [
+   "Verse, build-up, drop structure",
+   "Supersaw leads and big room kicks",
+   "Pop vocal carries the build"
+  ]
+ },
+ "judgements": {
+  "significance": 3,
+  "ease": 5,
+  "fame": 5,
+  "intrigue": 1
+ },
+ "tier": 3,
+ "row": 12
+}

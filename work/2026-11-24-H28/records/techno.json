@@ -1,0 +1,32 @@
+{
+ "id": "techno",
+ "name": "Techno",
+ "region": "nam",
+ "family": "dance",
+ "tradition": "technot",
+ "began": 1985,
+ "ended": null,
+ "origin": {
+  "text": "Detroit",
+  "lat": 42.33,
+  "lon": -83.05,
+  "country": "US"
+ },
+ "definition": {
+  "window": "1985 onward",
+  "sound": "Futurist machine music from Detroit: repetitive, synthetic, hypnotic.",
+  "markers": [
+   "Machine textures, few or no vocals",
+   "Hypnotic repetition",
+   "Harder and colder than house"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 3,
+  "fame": 4,
+  "intrigue": 2
+ },
+ "tier": 1,
+ "row": 0
+}

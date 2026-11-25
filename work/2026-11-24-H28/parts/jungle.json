@@ -1,0 +1,158 @@
+{
+ "genre": "jungle",
+ "story": "Jungle grew from the British rave scene and Jamaican sound-system culture as breakbeat hardcore split apart in 1992 and 1993. Shut Up and Dance had put reggae samples into hardcore since 1990. Paul Ibiza of Ibiza Records fused bleeps and breaks with reggae basslines, and Lennie De Ice's \"We Are I.E.\" laid a ragga bassline under the beat. DJs such as DJ Ron, DJ Hype and Fabio & Grooverider played it at clubs such as AWOL and Roast, and on pirate stations such as Kool FM. One account says the name came from a chant, \"all the junglists\", that Rebel MC sampled in 1991 from a Jamaican sound-system tape. Cheaper sampling let young people make tracks at home, and many producers sampled the \"Amen break\". It drew black British youths more than other rave styles did. In 1994 and 1995 M-Beat and General Levy's \"Incredible\" reached the UK top 40, Kiss 100 started a jungle show and BBC Radio 1 followed with One in the Jungle. Dillinja, Roni Size and Krust then moved the sound toward drum and bass, and Roni Size and Reprazent's New Forms won the Mercury Music Prize in 1997.",
+ "words": 193,
+ "sentences": [
+  {
+   "text": "Jungle grew from the British rave scene and Jamaican sound-system culture as breakbeat hardcore split apart in 1992 and 1993.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "developed in the 1990s out of the UK [[rave]] scene and Jamaican [[sound system (Jamaican)|sound system]] culture"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "The [[breakbeat hardcore]] scene of the early 1990s was beginning to fragment by 1992 and 1993"
+    }
+   ]
+  },
+  {
+   "text": "Shut Up and Dance had put reggae samples into hardcore since 1990.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "Reggae samples and reggae-influenced tracks had been a feature of many breakbeat hardcore tracks since 1990, particularly from producers such as [[Shut Up and Dance (duo)|Shut Up and Dance]]"
+    }
+   ]
+  },
+  {
+   "text": "Paul Ibiza of Ibiza Records fused bleeps and breaks with reggae basslines, and Lennie De Ice's \"We Are I.E.\" laid a ragga bassline under the beat.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "Paul fused the bleeps and breaks with reggae b-lines"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "The track \"[[We Are I.E.]]\" by [[Lennie De Ice]] is often credited as being the track that laid down the foundations for jungle with its [[ragga]] bassline"
+    }
+   ]
+  },
+  {
+   "text": "DJs such as DJ Ron, DJ Hype and Fabio & Grooverider played it at clubs such as AWOL and Roast, and on pirate stations such as Kool FM.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "The sound was championed at clubs such as AWOL,"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "Roast and Telepathy, by [[DJs]] such as"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "[[DJ Ron]], [[DJ Hype]], [[DJ Randall]], Fabio & Grooverider"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "on [[UK pirate radio|pirate radio]] stations such as [[Kool FM]]"
+    }
+   ]
+  },
+  {
+   "text": "One account says the name came from a chant, \"all the junglists\", that Rebel MC sampled in 1991 from a Jamaican sound-system tape.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "was first heard in 1991 as a sample used by Rebel MC"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "Rebel got this chant—all the junglists—from a yard-tape\" referring to the sound-system mix-tapes imported from Jamaica"
+    }
+   ]
+  },
+  {
+   "text": "Cheaper sampling let young people make tracks at home, and many producers sampled the \"Amen break\".",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "the greater accessibility to sampling technology allowed young people to create music in their homes"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "Many producers frequently sampled the \"[[Amen break]]\""
+    }
+   ]
+  },
+  {
+   "text": "It drew black British youths more than other rave styles did.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "The music was much more popular with black British youths than other rave styles"
+    }
+   ]
+  },
+  {
+   "text": "In 1994 and 1995 M-Beat and General Levy's \"Incredible\" reached the UK top 40, Kiss 100 started a jungle show and BBC Radio 1 followed with One in the Jungle.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "Jungle reached the peak of its popularity between 1994 and 1995"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "including \"[[Incredible (M-Beat song)|Incredible]]\" by [[M-Beat]] featuring [[General Levy]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "London's [[Kiss (UK radio station)|Kiss 100]] launched its ''Givin' It Up'' show in early 1994"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "[[BBC Radio 1]] finally gave jungle a platform on its ''One in the Jungle'' weekly show"
+    }
+   ]
+  },
+  {
+   "text": "Dillinja, Roni Size and Krust then moved the sound toward drum and bass, and Roni Size and Reprazent's New Forms won the Mercury Music Prize in 1997.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+     "quote": "[[Dillinja]], [[Roni Size]], [[DJ Die|Die]], [[DJ Hype|Hype]], [[DJ Zinc|Zinc]], [[Alex Reece]] and [[Krust]] were instrumental in the transition of the jungle sound to drum and bass"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Drum_and_bass?action=raw",
+     "quote": "the [[Mercury Music Prize]]-winning album ''[[New Forms]]'' (1997) from Reprazent"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Tempo: our record says 160 to 175 BPM; https://en.wikipedia.org/wiki/Drum_and_bass?action=raw says \"Drum and bass is usually between 160 and 180 [[Beats per minute|BPM]]\" and that early forms were slower: \"clocked in at around 130 bpm in 1990/1991, speeding up to around 155–165 BPM by 1993\". Early jungle can fall below 160.",
+  "Place: our record says London; https://en.wikipedia.org/wiki/Jungle_music?action=raw gives \"Early 1990s, United Kingdom\" as cultural origin, though the clubs, pirate stations and Kiss 100 it names are in London.",
+  "Grouping: our record joins jungle and drum and bass from 1992; the Jungle article treats drum and bass as a successor: \"Jungle was a direct precursor to the [[drum and bass]] genre which emerged in the mid-1990s\"."
+ ],
+ "sources": [
+  {
+   "title": "Jungle music (English Wikipedia, raw wikitext)",
+   "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw"
+  },
+  {
+   "title": "Drum and bass (English Wikipedia, raw wikitext)",
+   "url": "https://en.wikipedia.org/wiki/Drum_and_bass?action=raw"
+  }
+ ],
+ "notes": "All four beats sourced. The origin of the name has three competing accounts in the article (Rebel MC, MC Moose, MC Mad P); the story gives the Rebel MC one and marks it 'One account says'. No home-language article applies."
+}

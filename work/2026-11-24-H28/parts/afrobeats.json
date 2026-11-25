@@ -1,0 +1,160 @@
+{
+ "genre": "afrobeats",
+ "story": "Afrobeats draws on afrobeat, which grew in the 1960s and 1970s and whose groundwork is credited to Fela Kuti and his drummer Tony Allen. Early on, groups such as Trybesmen, Plantashun Boiz and the Remedies mixed American hip-hop and R&B with local melodies. MTV Base Africa launched in 2005, and MI Abaga, Naeto C and Sarkodie were among the first to use it. In 2007 P-Square built their album Game Over on Nigerian rhythms and melodies. In London, DJ Abrantee added an s to afrobeat to present the sound to British dancefloors, and in April 2011 he launched an Afrobeats show on Choice FM. That year Fuse ODG travelled to Ghana, found the Azonto dance, and back in London mixed it with UK funky and grime. D'banj's \"Oliver Twist\" reached number 9 on the UK Singles Chart in 2012. In 2013 Davido put an instructional dance video for \"Skelewu\" on YouTube and asked fans to upload their own. In 2014 afroswing grew out of it in the UK, popularised by J Hus. Drake released \"One Dance\" with Wizkid and Kyla in 2016, and in 2021 Wizkid and Tems became the first Nigerian pop artists on the Billboard Hot 100.",
+ "words": 199,
+ "sentences": [
+  {
+   "text": "Afrobeats draws on afrobeat, which grew in the 1960s and 1970s and whose groundwork is credited to Fela Kuti and his drummer Tony Allen.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "While afrobeats takes on influences from afrobeat"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "Afrobeat is a genre that developed in the 1960s and 1970s"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "Fela Kuti and his longtime partner, drummer [[Tony Allen (musician)|Tony Allen]], are often credited for laying the groundwork"
+    }
+   ]
+  },
+  {
+   "text": "Early on, groups such as Trybesmen, Plantashun Boiz and the Remedies mixed American hip-hop and R&B with local melodies.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "groups such as [[Trybesmen]], [[Plantashun Boiz]], and [[the Remedies]] were early pioneers that fused modern American influences from hip-hop and R&B with local melodies"
+    }
+   ]
+  },
+  {
+   "text": "MTV Base Africa launched in 2005, and MI Abaga, Naeto C and Sarkodie were among the first to use it.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "With the launching of [[MTV Base (African TV channel)|MTV Base Africa]] in 2005"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "Artists such as [[M.I Abaga|MI Abaga]], [[Naeto C]] and [[Sarkodie (rapper)|Sarkodie]] were among the first to take advantage of this"
+    }
+   ]
+  },
+  {
+   "text": "In 2007 P-Square built their album Game Over on Nigerian rhythms and melodies.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "released their album ''[[Game Over (P-Square album)|Game Over]]'' in 2007, which was unique for its usage of Nigerian rhythms and melodies"
+    }
+   ]
+  },
+  {
+   "text": "In London, DJ Abrantee added an s to afrobeat to present the sound to British dancefloors, and in April 2011 he launched an Afrobeats show on Choice FM.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "adding an \"s\" to Afrobeat, in order to package and present the sound to British dancefloors"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "Choice FM's new Afrobeats radio show birthed and presented by DJ Abrantee in April 2011"
+    }
+   ]
+  },
+  {
+   "text": "That year Fuse ODG travelled to Ghana, found the Azonto dance, and back in London mixed it with UK funky and grime.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "In 2011, Fuse ODG travelled to [[Ghana]] where he discovered the [[Azonto]] dance"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "Once he returned to London, he fused the sounds he had found in Ghana"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "fusing the sound with influences from [[UK funky]] and [[Grime (music genre)|grime]]"
+    }
+   ]
+  },
+  {
+   "text": "D'banj's \"Oliver Twist\" reached number 9 on the UK Singles Chart in 2012.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "released online by Nigerian artist [[D'banj]] in the summer of 2011 charted at number 9 on the [[UK Singles Chart]] in 2012"
+    }
+   ]
+  },
+  {
+   "text": "In 2013 Davido put an instructional dance video for \"Skelewu\" on YouTube and asked fans to upload their own.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "Davido promoted the song by uploading an instructional dance video of it onto YouTube on 18 August 2013"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "participants were told to watch the instructional dance video and upload videos of themselves dancing to the song"
+    }
+   ]
+  },
+  {
+   "text": "In 2014 afroswing grew out of it in the UK, popularised by J Hus.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "In 2014, a genre derivative of afrobeats known as [[afroswing]] emerged in the UK"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "The genre was popularised by [[J Hus]]"
+    }
+   ]
+  },
+  {
+   "text": "Drake released \"One Dance\" with Wizkid and Kyla in 2016, and in 2021 Wizkid and Tems became the first Nigerian pop artists on the Billboard Hot 100.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "in 2016 when he released \"[[One Dance]]\" alongside British singer Kyla and Wizkid"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "In the same year, Wizkid and [[Tems (singer)|Tems]] became the first Nigerian pop artists to earn a spot on the [[Billboard Hot 100]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+     "quote": "In April 2021, Davido's song"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Origin: our record gives Lagos alone; the English article says it 'initially developed in [[Nigeria]], [[Ghana]], and the [[United Kingdom|UK]] in the 2000s and 2010s' and 'is primarily produced in [[Lagos]], [[Accra]], and [[London]]' (https://en.wikipedia.org/wiki/Afrobeats?action=raw). The name itself was coined in London (DJ Abrantee).",
+  "Start date: our record says 2008; the article puts the roots in 'the late '90s and early to mid-2000s' with MTV Base Africa in 2005 and P-Square's Game Over in 2007, and the name and UK breakthrough in 2011-2012.",
+  "Sound: our record mentions log drums; the article does not (log drums belong to amapiano). It describes the rhythm as 'a 3–2 or 2–3 rhythm called a [[Clave (rhythm)|clave]]' in 4/4."
+ ],
+ "sources": [
+  {
+   "title": "Afrobeats (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw"
+  }
+ ],
+ "notes": "Home language is English (with Nigerian Pidgin and Yoruba); no other-language article was read. All beats sourced from the English article; every quote found by tools/check_evidence.py."
+}

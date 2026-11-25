@@ -1,0 +1,178 @@
+{
+ "genre": "kpop",
+ "story": "After the Korean War (1950–1953), Korean singers earned money playing country, blues, jazz and rock and roll for US troops who stayed. The 1980s belonged to ballad singers such as Lee Moon-se and Byun Jin-sub. On 11 April 1992 the trio Seo Taiji and Boys debuted on an MBC talent show with \"I Know\" and got the jury's lowest rating, but the song and their first album became hits. The song's new jack swing beat and lyrics about the problems of Korean society were followed by hip-hop and R&B acts such as Deux, 1TYM and Drunken Tiger. Their teenage following turned the industry towards teen pop, and in 1995 producer Lee Soo-man, educated in the US, founded SM Entertainment. Agencies took the idol business model of J-pop. Lee's boy band H.O.T. debuted in 1996 after training in singing, dancing, etiquette and handling the media; \"Candy\" set a formula of energetic dance steps later idol groups adopted. After the 1997 Asian financial crisis H.O.T. released a Mandarin-language album, and the government funded a K-pop department. By the early 2000s TVXQ and BoA succeeded in Japan, and in 2019 South Korea ranked sixth among music markets, led by BTS and Blackpink.",
+ "words": 199,
+ "sentences": [
+  {
+   "text": "After the Korean War (1950–1953), Korean singers earned money playing country, blues, jazz and rock and roll for US troops who stayed.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "After the [[Korean War]] (1950–1953) U.S. troops remained in South Korea"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "skilled Korean singers regarded performing for the U.S. troops as a good means to earn money"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "They performed various genres like country music, blues, jazz and rock & roll"
+    }
+   ]
+  },
+  {
+   "text": "The 1980s belonged to ballad singers such as Lee Moon-se and Byun Jin-sub.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "The 1980s saw the rise of [[Pop ballad|ballad]] singers"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "Other popular ballad singers included [[Lee Moon-se]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "and [[Byun Jin-sub]]"
+    }
+   ]
+  },
+  {
+   "text": "On 11 April 1992 the trio Seo Taiji and Boys debuted on an MBC talent show with \"I Know\" and got the jury's lowest rating, but the song and their first album became hits.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "The trio debuted on [[Munhwa Broadcasting Corporation|MBC]]'s talent show on April 11, 1992"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "got the lowest rating from the jury;"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "however, the song and [[Seo Taiji and Boys (album)|their self-titled debut album]] became so successful"
+    },
+    {
+     "url": "https://ko.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "1992년에 데뷔한 [[서태지와 아이들]]로부터"
+    }
+   ]
+  },
+  {
+   "text": "The song's new jack swing beat and lyrics about the problems of Korean society were followed by hip-hop and R&B acts such as Deux, 1TYM and Drunken Tiger.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "The song's success was attributed to its [[new jack swing]]-inspired beats and memorable chorus, as well as innovative lyrics which dealt with the problems of Korean society"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "A wave of successful hip-hop and R&B artists followed in their footsteps"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "[[Deux (band)|Deux]], [[1TYM]] and [[Drunken Tiger]]"
+    }
+   ]
+  },
+  {
+   "text": "Their teenage following turned the industry towards teen pop, and in 1995 producer Lee Soo-man, educated in the US, founded SM Entertainment.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "The huge popularity of Seo Taiji & Boys among teenagers shifted the focus of the Korean music industry to teen-centred pop music"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "In 1995, South Korean record producer [[Lee Soo-man]], who was educated in the U.S."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "founded the entertainment company [[SM Entertainment]]"
+    }
+   ]
+  },
+  {
+   "text": "Agencies took the idol business model of J-pop.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "talent agencies began to market K-pop stars by implementing an [[Japanese idol|idol]] business model used in [[J-pop]]"
+    }
+   ]
+  },
+  {
+   "text": "Lee's boy band H.O.T. debuted in 1996 after training in singing, dancing, etiquette and handling the media; \"Candy\" set a formula of energetic dance steps later idol groups adopted.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "created [[H.O.T.]] and [[S.E.S. (group)|S.E.S.]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "H.O.T. was one of the first idol boybands, debuting in 1996 after rigorous training"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "not only singing and dancing skills but also etiquette, attitude, language and the ability to deal with the media"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "accompanied by energetic dance steps – a formula adopted by many subsequent idol groups"
+    }
+   ]
+  },
+  {
+   "text": "After the 1997 Asian financial crisis H.O.T. released a Mandarin-language album, and the government funded a K-pop department.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "prompted South Korean entertainers to look for new markets, with H.O.T. releasing a Mandarin-language album"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "The government poured millions into building infrastructure, technology, and a specific department within"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "[[Ministry of Culture, Sports and Tourism (South Korea)|Ministry of Culture]] for K-pop"
+    }
+   ]
+  },
+  {
+   "text": "By the early 2000s TVXQ and BoA succeeded in Japan, and in 2019 South Korea ranked sixth among music markets, led by BTS and Blackpink.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "By the early 2000s, [[TVXQ]] and [[BoA]] had achieved success in Japan"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+     "quote": "In 2019, South Korea ranked sixth among music markets, led by artists [[BTS]] and [[Blackpink]]"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [],
+ "sources": [
+  {
+   "title": "K-pop (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/K-pop?action=raw"
+  },
+  {
+   "title": "K-pop (Korean Wikipedia)",
+   "url": "https://ko.wikipedia.org/wiki/K-pop?action=raw"
+  }
+ ],
+ "notes": "Korean article read (ko.wikipedia K-pop, raw); used for one supporting quote on Seo Taiji and Boys' 1992 debut. Our record's origin 'Seoul' is not stated in any quote used, so the story does not name Seoul. The record's markers (mid-song genre switches, English hooks) were not sourced in the story. No disagreement found with the 1992 start."
+}
