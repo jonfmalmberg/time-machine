@@ -4,6 +4,12 @@ The lead's standing choices: what was decided, why, and what is not known. One e
 
 ## 2026-11-23
 
+### D32. A genre's story is told as the story of the people who made it (owner, 24 Nov)
+- **Choice:** each genre gets a self-contained history of 120 to 200 words in four beats: what came before, who made it and where, why and how it took shape, what it led to. Named people and places, not adjectives. It appears on the course stop and on the genre's card; the one-sentence "sound" and "listen for" stay beside it.
+- **Why (owner):** treat each movement as a group of people with a story to tell; without it the course feels incomplete. He asked for this when he first described the course; the lead built the connecting lectures and left the per-genre stories out.
+- **How it stays true:** stories are researched by helpers with a quote for every factual sentence and the usual check, then edited by the lead. A story that cannot be sourced is not shown.
+- **Order of work:** the 66 course stops first (H26 to H28), then the rest of the tree by significance.
+
 ### D31. Chart songs get their genre from a synthetic expert test, measured before it is used (owner, 24 Nov)
 - **Choice:** a model acting as a music historian places each song in *our* genre set, from the genre definitions, in two independent runs. A source's own genre label (Wikipedia's infobox) is not mapped to our set: it uses other categories, lumps songs into "pop", "rock" and "folk", and is not applied consistently. It may be used later only to flag disagreement.
 - **Why (owner):** we want songs mapped to where they really belong in our set; another catalogue's categories cannot give that.

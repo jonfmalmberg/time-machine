@@ -1,0 +1,82 @@
+[
+{
+"chapter": 9,
+"genre": "house",
+"name": "House"
+},
+{
+"chapter": 9,
+"genre": "techno",
+"name": "Techno"
+},
+{
+"chapter": 9,
+"genre": "dancehall",
+"name": "Dancehall"
+},
+{
+"chapter": 9,
+"genre": "jungle",
+"name": "Jungle and drum and bass"
+},
+{
+"chapter": 9,
+"genre": "jpop",
+"name": "J-pop"
+},
+{
+"chapter": 9,
+"genre": "kpop",
+"name": "K-pop"
+},
+{
+"chapter": 10,
+"genre": "teenpop",
+"name": "Teen pop (Max Martin era)"
+},
+{
+"chapter": 10,
+"genre": "reggaeton",
+"name": "Reggaeton"
+},
+{
+"chapter": 10,
+"genre": "afrobeats",
+"name": "Afrobeats"
+},
+{
+"chapter": 10,
+"genre": "frenchhouse",
+"name": "French house"
+},
+{
+"chapter": 10,
+"genre": "y2krnb",
+"name": "Y2K R&B"
+},
+{
+"chapter": 10,
+"genre": "melodic",
+"name": "Melodic rap (the 808s line)"
+},
+{
+"chapter": 11,
+"genre": "amapiano",
+"name": "Amapiano"
+},
+{
+"chapter": 11,
+"genre": "latintrap",
+"name": "Latin trap"
+},
+{
+"chapter": 11,
+"genre": "moderntrap",
+"name": "Modern trap (Atlanta sound)"
+},
+{
+"chapter": 11,
+"genre": "edmpop",
+"name": "EDM-pop"
+}
+]

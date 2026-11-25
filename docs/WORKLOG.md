@@ -2,6 +2,11 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-24 (18:24: release 7)
+
+- Owner approved the course ("excellent first version") and asked to publish. Release 7: `main` moved to `dev` (lectures, origins from four helper batches). No database change.
+- Owner's correction: version 1 left out the per-genre story he asked for (each genre's history as a self-contained story of the people who made it). Recorded as D32 and roadmap 9.0b; helper assignments H26 to H28 written for the course's stops.
+
 ## 2026-11-24 (17:53: helper hand-backs applied)
 
 - H24 (lecture check): of 124 sentences, 49 supported, 54 opinion, 3 wrong, 12 too strong, 6 not found. All 21 corrected or softened in `data/course.json`; the notice on the lectures now says what was checked. The wrong ones: gagaku has harmony and drums (the lecture said neither); the first international recording star was Caruso, not a Black American artist.

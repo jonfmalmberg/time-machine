@@ -1,0 +1,102 @@
+[
+{
+"chapter": 5,
+"genre": "blues",
+"name": "Early blues (Delta, country, classic)"
+},
+{
+"chapter": 5,
+"genre": "jazz",
+"name": "Early jazz"
+},
+{
+"chapter": 5,
+"genre": "son",
+"name": "Cuban son"
+},
+{
+"chapter": 5,
+"genre": "samba",
+"name": "Samba"
+},
+{
+"chapter": 5,
+"genre": "mariachi",
+"name": "Mariachi and ranchera"
+},
+{
+"chapter": 6,
+"genre": "swing",
+"name": "Swing"
+},
+{
+"chapter": 6,
+"genre": "filmi",
+"name": "Filmi (Bollywood song)"
+},
+{
+"chapter": 6,
+"genre": "mambo",
+"name": "Mambo and cha-cha-chá"
+},
+{
+"chapter": 6,
+"genre": "gospel",
+"name": "Gospel"
+},
+{
+"chapter": 7,
+"genre": "rocknroll",
+"name": "Rock and roll"
+},
+{
+"chapter": 7,
+"genre": "rumbacongo",
+"name": "Congolese rumba and soukous"
+},
+{
+"chapter": 7,
+"genre": "ska",
+"name": "Ska"
+},
+{
+"chapter": 7,
+"genre": "soul",
+"name": "Soul and Motown"
+},
+{
+"chapter": 7,
+"genre": "bossa",
+"name": "Bossa nova"
+},
+{
+"chapter": 8,
+"genre": "funk",
+"name": "Funk"
+},
+{
+"chapter": 8,
+"genre": "disco",
+"name": "Disco"
+},
+{
+"chapter": 8,
+"genre": "reggae",
+"name": "Reggae and dub"
+},
+{
+"chapter": 8,
+"genre": "afrobeat",
+"name": "Afrobeat"
+},
+{
+"chapter": 8,
+"genre": "salsa",
+"name": "Salsa"
+},
+{
+"chapter": 8,
+"genre": "metal",
+"name": "Heavy metal"
+}
+]

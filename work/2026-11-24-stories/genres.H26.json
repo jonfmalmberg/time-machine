@@ -1,0 +1,97 @@
+[
+{
+"chapter": 1,
+"genre": "gregorian",
+"name": "Gregorian chant"
+},
+{
+"chapter": 1,
+"genre": "tilawa",
+"name": "Qur'anic recitation (tilawa) and the call to prayer"
+},
+{
+"chapter": 1,
+"genre": "gagaku",
+"name": "Gagaku"
+},
+{
+"chapter": 2,
+"genre": "hindustani",
+"name": "Hindustani classical"
+},
+{
+"chapter": 2,
+"genre": "carnatic",
+"name": "Carnatic classical"
+},
+{
+"chapter": 2,
+"genre": "georgianpolyphonic",
+"name": "Georgian polyphonic singing"
+},
+{
+"chapter": 2,
+"genre": "wadrum",
+"name": "West African drum and dance"
+},
+{
+"chapter": 3,
+"genre": "maracatu",
+"name": "Maracatu"
+},
+{
+"chapter": 3,
+"genre": "gnawa",
+"name": "Gnawa"
+},
+{
+"chapter": 3,
+"genre": "baroque",
+"name": "Baroque"
+},
+{
+"chapter": 3,
+"genre": "ghazal",
+"name": "Ghazal (Urdu)"
+},
+{
+"chapter": 3,
+"genre": "japart",
+"name": "Japanese art music (koto, shamisen, shakuhachi)"
+},
+{
+"chapter": 3,
+"genre": "flamenco",
+"name": "Flamenco"
+},
+{
+"chapter": 4,
+"genre": "tinpan",
+"name": "Tin Pan Alley"
+},
+{
+"chapter": 4,
+"genre": "romantic",
+"name": "Romantic"
+},
+{
+"chapter": 4,
+"genre": "spirituals",
+"name": "Spirituals and work songs"
+},
+{
+"chapter": 4,
+"genre": "tango",
+"name": "Tango"
+},
+{
+"chapter": 4,
+"genre": "cumbia",
+"name": "Cumbia"
+},
+{
+"chapter": 4,
+"genre": "bolero",
+"name": "Trova and bolero"
+}
+]

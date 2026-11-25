@@ -206,7 +206,8 @@ Milestone 0 comes first because everything else depends on being able to see and
 
 - 9.0 `dev` The course, version 1: eleven chapters by era in the Journey tab (`DECISIONS.md` D25; proposal `docs/proposals/2026-11-24-journeys-and-course.md`).
 - 9.0a `dev` Course lectures: a thesis and a lecture per chapter, shown as not yet checked (`DECISIONS.md` D29). Source check: helper H24.
-- 9.0b Thread chapters; a check at the end of a chapter.
+- 9.0b **Next version of the course (owner, 24 Nov): every genre tells its own story.** A self-contained history per genre: what led up to it, where, who formed it, and why and how. Each movement is treated as a group of people with a story to tell, not as a definition. Shown on the course stop and on the genre's card. Sourced sentence by sentence (helpers H26 to H28 for the course's stops first; then every genre). The owner asked for this in the first brief for the course and the lead left it out of version 1.
+- 9.0c Thread chapters; a check at the end of a chapter.
 
 **Goal:** journeys people can set up without irritation and that deliver what they promise.
 **Why:** entry is the first barrier; the course is a list, not a course; discovery has not earned its place.
