@@ -4,6 +4,14 @@ The lead's standing choices: what was decided, why, and what is not known. One e
 
 ## 2026-11-23
 
+### D36. Every story sentence is read against its quote by the lead; a story is edited before it is shown (owner, 25 Nov)
+- **Why:** the owner: "Make it right. Check first then push." and "You are the editor." A script proves a quote is on its page, not that the sentence says only what the quote says.
+- **What was done to the 55 stories:** all 553 sentences were compared with their quotes (four sub-agent checkers, then the lead read every flag and the page text around the doubtful ones). 158 sentences were cut: lists of names, chart trivia and side facts that made the story long, and sentences that said more than their quote and were not needed. About 70 were reworded to what the quote supports: hedges restored ("is credited with", "is believed", "largely", "often"), added causes, sequences, agents and dates removed, one contradiction fixed (the koto story said "replaced" where the source says "extended"). 395 sentences remain; the middle story is about 140 words.
+- **Hooks:** 33 of the 55 were rewritten so that each says only what the edited story says.
+- **Kept on purpose:** a name or place that the quote fragment leaves out but the page states next to it (for example "Motorbass", "DJ Abrantee", "in New York").
+- **Rule from now on:** a helper's story is not shown until the lead has read each sentence against its quote. The helper brief for the next stories says: one or two sentences per beat, no lists of names, keep the source's hedges, add nothing the quote does not say.
+- **Not known:** whether the stories now read as engaging to the owner; whether the sources themselves (Wikipedia articles) are right. Some stories now have three beats, not four, where a beat had nothing worth keeping.
+
 ### D35. The course stop is short; the detailed story lives on the genre's card (owner, 25 Nov)
 - **Owner's reaction to the first stories:** too much text; the course had felt curated and became a wall. The story must feel written for the reader: why this genre is interesting, important or surprising, and how it ties into the rest of music. Wikipedia is already linked, so do not repeat what it does. The course and the List should each be engaging and not repeat each other.
 - **Course stop:** a two-sentence hook (28 to 42 words: the most striking fact in the story, then its tie to other music), two songs, the playlist button. One fold, "More about …", holds the sound, what to listen for, the tree links and the story.
