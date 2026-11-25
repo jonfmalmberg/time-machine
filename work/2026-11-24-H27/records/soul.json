@@ -1,0 +1,49 @@
+{
+ "id": "soul",
+ "name": "Soul and Motown",
+ "region": "nam",
+ "family": "soul",
+ "tradition": "rnbt",
+ "began": 1959,
+ "ended": 1975,
+ "origin": {
+  "text": "Detroit and Memphis",
+  "lat": 42.37,
+  "lon": -83.1,
+  "country": "US"
+ },
+ "definition": {
+  "window": "1959–1975",
+  "sound": "Gospel singing applied to secular love and social songs, over a tight rhythm section with horns or strings.",
+  "markers": [
+   "Gospel vocal style: melisma, shouts, pleading",
+   "Backbeat on two and four, often with tambourine",
+   "Horn section (Memphis) or strings and backing vocals (Detroit)"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 5,
+  "fame": 5,
+  "intrigue": 1
+ },
+ "tier": 1,
+ "row": 5,
+ "_tree_led_to": [
+  "funk (principal)",
+  "crnb (principal)",
+  "softrock (other)",
+  "disco (other)",
+  "rocksteady (other)",
+  "boogaloo (other)",
+  "chipmunk (other)",
+  "neosoul (principal)",
+  "soulpop (principal)",
+  "sambarock (other)",
+  "loversrock (other)"
+ ],
+ "_tree_came_from": [
+  "gospel (principal)",
+  "rnb (other)"
+ ]
+}

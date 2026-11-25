@@ -1,0 +1,32 @@
+{
+ "id": "gregorian",
+ "name": "Gregorian chant",
+ "region": "eur",
+ "family": "chant",
+ "tradition": "westart",
+ "began": 800,
+ "ended": 1200,
+ "origin": {
+  "text": "Metz and Rome",
+  "lat": 49.12,
+  "lon": 6.18,
+  "country": "FR"
+ },
+ "definition": {
+  "window": "800–1200",
+  "sound": "Latin plainchant of the Western church: one unaccompanied melody, sung in unison, flowing in free rhythm.",
+  "markers": [
+   "Single melodic line, unison male voices",
+   "Latin liturgical text, free speech rhythm",
+   "Church modes, stepwise melody, no harmony"
+  ]
+ },
+ "judgements": {
+  "significance": 4,
+  "ease": 3,
+  "fame": 3,
+  "intrigue": 3
+ },
+ "tier": 1,
+ "row": 0
+}

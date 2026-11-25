@@ -1,0 +1,32 @@
+{
+ "id": "japart",
+ "name": "Japanese art music (koto, shamisen, shakuhachi)",
+ "region": "easia",
+ "family": "eastasia",
+ "tradition": "japantrad",
+ "began": 1600,
+ "ended": null,
+ "origin": {
+  "text": "Kyoto and Edo",
+  "lat": 35.01,
+  "lon": 135.77,
+  "country": "JP"
+ },
+ "definition": {
+  "window": "1600 onward",
+  "sound": "Japanese chamber music for koto, shamisen and shakuhachi, from Edo-period schools to modern composers.",
+  "markers": [
+   "Plucked koto or shamisen, or breathy shakuhachi",
+   "Free or slowly unfolding rhythm",
+   "Pentatonic Japanese scales"
+  ]
+ },
+ "judgements": {
+  "significance": 3,
+  "ease": 3,
+  "fame": 2,
+  "intrigue": 5
+ },
+ "tier": 3,
+ "row": 6
+}

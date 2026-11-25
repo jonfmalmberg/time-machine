@@ -1,0 +1,43 @@
+{
+ "id": "samba",
+ "name": "Samba",
+ "region": "latam",
+ "family": "brazil",
+ "tradition": "afrobrazil",
+ "began": 1917,
+ "ended": null,
+ "origin": {
+  "text": "Rio de Janeiro",
+  "lat": -22.95,
+  "lon": -43.18,
+  "country": "BR"
+ },
+ "definition": {
+  "window": "1917 onward",
+  "sound": "Afro-Brazilian song and dance in 2/4 with a syncopated surdo, tamborim and cavaquinho groove under sung melody.",
+  "markers": [
+   "Surdo bass drum accent on the second beat",
+   "Cavaquinho strums and tamborim patterns",
+   "Call-and-response chorus or sung melody with 7-string guitar"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 5,
+  "fame": 4,
+  "intrigue": 3
+ },
+ "tier": 1,
+ "row": 2,
+ "_tree_led_to": [
+  "bossa (principal)",
+  "pagode (principal)",
+  "axe (other)",
+  "sambacancao (principal)",
+  "sambarock (principal)"
+ ],
+ "_tree_came_from": [
+  "lundu (principal)",
+  "choro (other)"
+ ]
+}

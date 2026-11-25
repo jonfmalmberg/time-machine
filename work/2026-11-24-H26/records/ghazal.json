@@ -1,0 +1,32 @@
+{
+ "id": "ghazal",
+ "name": "Ghazal (Urdu)",
+ "region": "sasia",
+ "family": "raga",
+ "tradition": "hindustanit",
+ "began": 1750,
+ "ended": null,
+ "origin": {
+  "text": "Lucknow",
+  "lat": 26.85,
+  "lon": 80.95,
+  "country": "IN"
+ },
+ "definition": {
+  "window": "1750 onward",
+  "sound": "Sung Urdu love poetry: a solo voice with harmonium, tabla and sarangi or strings, phrasing each couplet with restrained ornament.",
+  "markers": [
+   "Urdu couplets with a recurring rhyme (radif)",
+   "Solo voice, harmonium and tabla",
+   "Slow, intimate delivery, light raga basis"
+  ]
+ },
+ "judgements": {
+  "significance": 3,
+  "ease": 3,
+  "fame": 2,
+  "intrigue": 4
+ },
+ "tier": 2,
+ "row": 0
+}

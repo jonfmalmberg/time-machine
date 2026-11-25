@@ -1,0 +1,2412 @@
+[
+ {
+  "genre": "house",
+  "story": "After Disco Demolition Night in Chicago, dance music passed from major labels to DJs in the city's underground clubs. Frankie Knuckles, who had moved from New York City, was resident DJ at the Warehouse in Chicago from 1977 to 1982, where the dancers were mainly black gay men. Ron Hardy played at its successor, the Music Box, from 1983. Knuckles mixed songs together instead of playing records one after another, and added a drum machine and a reel-to-reel tape player to make new tracks. By one account, the Importes Etc. record shop labelled his records \"As Heard at the Warehouse\", shortened to \"House\". In 1984 Jesse Saunders made \"On and On\" with a Roland TR-808 drum machine and a TB-303 bass synthesizer. From 1985 more Chicago DJs released their own tracks on newly affordable electronic instruments, for clubs serving mainly black, Mexican American and gay audiences. Phuture's \"Acid Tracks\" (1987) started acid house. In January 1987 Steve \"Silk\" Hurley's \"Jack Your Body\" reached number one in the UK, and Britain had its Second Summer of Love in 1988 and 1989.",
+  "words": 180,
+  "sentences": [
+   {
+    "text": "After Disco Demolition Night in Chicago, dance music passed from major labels to DJs in the city's underground clubs.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "\"[[Disco Demolition Night]]\", held in [[Chicago]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "dance music went from being produced by major labels to being created by DJs in the underground club scene"
+     }
+    ]
+   },
+   {
+    "text": "Frankie Knuckles, who had moved from New York City, was resident DJ at the Warehouse in Chicago from 1977 to 1982, where the dancers were mainly black gay men.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "when he moved from New York City to Chicago"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "resident DJ at the Warehouse club in Chicago from 1977 to 1982"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "Clubbers to the Warehouse were primarily [[black people|black]] gay men"
+     }
+    ]
+   },
+   {
+    "text": "Ron Hardy played at its successor, the Music Box, from 1983.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "the successor of the Warehouse, the Music Box (reopened and renamed in 1983 after Knuckles left)"
+     }
+    ]
+   },
+   {
+    "text": "Knuckles mixed songs together instead of playing records one after another, and added a drum machine and a reel-to-reel tape player to make new tracks.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "he changed from the typical disco mixing style of playing records one after another; instead, he mixed different songs together"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "He also explored adding a drum machine and a [[reel-to-reel]] tape player so he could create new tracks"
+     }
+    ]
+   },
+   {
+    "text": "By one account, the Importes Etc. record shop labelled his records \"As Heard at the Warehouse\", shortened to \"House\".",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "Bins of music that DJ Knuckles played at the Warehouse nightclub were labelled \"As Heard at the Warehouse\" in the store, shortened to \"House\""
+     }
+    ]
+   },
+   {
+    "text": "In 1984 Jesse Saunders made \"On and On\" with a Roland TR-808 drum machine and a TB-303 bass synthesizer.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "produced in 1984 by Chicago DJ [[Jesse Saunders]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "Roland TB-303 bass synthesizer and minimal vocals, as well as a Roland TR-808 drum machine"
+     }
+    ]
+   },
+   {
+    "text": "From 1985 more Chicago DJs released their own tracks on newly affordable electronic instruments, for clubs serving mainly black, Mexican American and gay audiences.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "Starting in 1985 and 1986, more and more Chicago DJs began producing and releasing original compositions"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "These compositions used newly affordable electronic instruments"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "catering mainly to black, [[Mexican American]], and gay audiences"
+     }
+    ]
+   },
+   {
+    "text": "Phuture's \"Acid Tracks\" (1987) started acid house.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "Its origin on vinyl is generally cited as [[Phuture]]'s \"[[Acid Tracks]]\" (Trax Records, 1987)"
+     }
+    ]
+   },
+   {
+    "text": "In January 1987 Steve \"Silk\" Hurley's \"Jack Your Body\" reached number one in the UK, and Britain had its Second Summer of Love in 1988 and 1989.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "In January 1987, Chicago DJ/artist Steve \"Silk\" Hurley's \"Jack Your Body\" reached number one in the UK"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/House_music?action=raw",
+      "quote": "experiencing the so-called [[second summer of love]] between 1988 and 1989"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Tempo: our record says about 120-125 BPM; https://en.wikipedia.org/wiki/House_music?action=raw gives a wider range: \"a typical [[tempo]] of 115–130 beats per minute\".",
+   "Start date: our record's window begins 1984; the same article says house \"evolved slowly in the early/mid 1980s\" and traces it to Knuckles at the Warehouse from 1977, so 1984 fits the first records (\"On and On\", 1984) rather than the start of the style.",
+   "End date: our record ends the Chicago window at 1990; the article does not give an end and describes Chicago's second wave (hip house, ghetto house) from 1988 on.",
+   "Inside the source: the article says the Warehouse \"was open from 1977 to 1982\" but also \"After the Warehouse closed in 1983\"; the story uses only Knuckles' residency of 1977 to 1982."
+  ],
+  "notes": "All four beats sourced from the English article alone. The origin of the name 'house' has several competing accounts in the article (Importes Etc. bins, Leonard 'Remix' Rroy's sign, Larry Heard's 'made at home'); the story gives the Importes Etc. one and marks it 'By one account'. No home-language article applies (English-language genre)."
+ },
+ {
+  "genre": "techno",
+  "story": "Detroit's high-school parties of the early 1980s danced to European disco, which locals called \"progressive\", and to synth-pop. The radio shows of The Electrifying Mojo played Kraftwerk and Yellow Magic Orchestra next to disco and funk. Juan Atkins, Derrick May and Kevin Saunderson met at Belleville High School, about 30 miles from Detroit, where they were among the few black students. Atkins took the word techno from Alvin Toffler's \"techno rebels\" when his duo Cybotron, with Richard Davis, released \"Alleys of Your Mind\" in 1981. The three went to Chicago to hear Ron Hardy and Frankie Knuckles, and joined that dance music to the mechanical sound of Kraftwerk, reflecting post-industrial Detroit. Rejecting the formulas of Motown and R&B, they called their music \"post-soul\". In 1985 Atkins founded the Metroplex label and released Model 500's \"No UFO's\"; May's \"Strings of Life\" followed in 1987. In 1988 the British compilation Techno! The New Dance Sound of Detroit, compiled by Neil Rushton and May, set techno apart from Chicago house. In the early 1990s clubs such as Tresor opened in empty buildings in former East Berlin, and by 1999 the Love Parade drew a reported 1.5 million people.",
+  "words": 195,
+  "sentences": [
+   {
+    "text": "Detroit's high-school parties of the early 1980s danced to European disco, which locals called \"progressive\", and to synth-pop.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+      "quote": "referred to as ''progressive'' in Detroit—and [[new romantic]] synth-pop in the Detroit high school party scene from which techno emerged"
+     }
+    ]
+   },
+   {
+    "text": "The radio shows of The Electrifying Mojo played Kraftwerk and Yellow Magic Orchestra next to disco and funk.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+      "quote": "the synthesisers of [[Kraftwerk]], [[Giorgio Moroder]] and [[Yellow Magic Orchestra]] and the [[African American music|African American]] traditions of [[disco]] and [[funk]], heard together on the radio shows of [[The Electrifying Mojo]]"
+     }
+    ]
+   },
+   {
+    "text": "Juan Atkins, Derrick May and Kevin Saunderson met at Belleville High School, about 30 miles from Detroit, where they were among the few black students.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/The_Belleville_Three?action=raw",
+      "quote": "attended [[Belleville High School (Belleville, Michigan)|Belleville High School]] in [[Belleville, Michigan|Belleville]], a town some 30 miles from Detroit"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/The_Belleville_Three?action=raw",
+      "quote": "In school he befriended Derrick May and Juan Atkins"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/The_Belleville_Three?action=raw",
+      "quote": "The three were among the few black students in their high school"
+     }
+    ]
+   },
+   {
+    "text": "Atkins took the word techno from Alvin Toffler's \"techno rebels\" when his duo Cybotron, with Richard Davis, released \"Alleys of Your Mind\" in 1981.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+      "quote": "inspired by the writer [[Alvin Toffler]]'s conception of \"techno rebels\", when Cybotron's \"Alleys of Your Mind\" was released in 1981"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+      "quote": "Atkins and Richard Davis's [[Cybotron (American band)|Cybotron]]"
+     }
+    ]
+   },
+   {
+    "text": "The three went to Chicago to hear Ron Hardy and Frankie Knuckles, and joined that dance music to the mechanical sound of Kraftwerk, reflecting post-industrial Detroit.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/The_Belleville_Three?action=raw",
+      "quote": "The trio traveled to [[Chicago]] to investigate the [[house music]] scene there, particularly Chicago DJs [[Ron Hardy]] and [[Frankie Knuckles]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/The_Belleville_Three?action=raw",
+      "quote": "The trio began to formulate the synthesis of this dance music with the mechanical sounds of groups like Kraftwerk, in a way that reflected post-industrialist Detroit"
+     }
+    ]
+   },
+   {
+    "text": "Rejecting the formulas of Motown and R&B, they called their music \"post-soul\".",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+      "quote": "Rejecting the traditional formulas of [[Motown Records|Motown]] and [[Rhythm and blues|R&B]], they described their music as a \"post-soul\" sound"
+     }
+    ]
+   },
+   {
+    "text": "In 1985 Atkins founded the Metroplex label and released Model 500's \"No UFO's\"; May's \"Strings of Life\" followed in 1987.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+      "quote": "in 1985 Atkins founded the [[Metroplex (record label)|Metroplex]] label and released Model 500's \"[[No UFO's]]\", generally considered the first techno production"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+      "quote": "May's \"[[Strings of Life]]\" (1987)"
+     }
+    ]
+   },
+   {
+    "text": "In 1988 the British compilation Techno! The New Dance Sound of Detroit, compiled by Neil Rushton and May, set techno apart from Chicago house.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+      "quote": "The mid-1988 UK release of ''[[Techno! The New Dance Sound of Detroit]]''"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+      "quote": "compiled by [[Neil Rushton]] and May, introduced the word ''techno'' to British audiences and established it as a genre distinct from Chicago house"
+     }
+    ]
+   },
+   {
+    "text": "In the early 1990s clubs such as Tresor opened in empty buildings in former East Berlin, and by 1999 the Love Parade drew a reported 1.5 million people.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+      "quote": "In the early 1990s, clubs such as [[Tresor (club)|Tresor]] opened in empty buildings in the former East of the city"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Techno?action=raw",
+      "quote": "By 1999, the Love Parade had grown to an event attracting a reported 1.5 million people"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Start date: our record says 1985; https://en.wikipedia.org/wiki/Techno?action=raw says \"Techno emerged in and around Detroit in the first half of the 1980s\" and dates Atkins' use of the word to 1981. 1985 matches the release of \"No UFO's\" (\"generally considered the first techno production\").",
+   "Place: our record gives Detroit only; the article's infobox gives \"Mid-1980s, [[Detroit]], [[Michigan]], U.S. [[Frankfurt]] DE\", and says German literature describes techno as \"a style that emerged in 1990 and based on [[Chicago house]]\"."
+  ],
+  "notes": "All four beats sourced. Did not read the German article (not a home-language genre in the H28 list); the German strand is reflected only in the 'after' beat (Tresor, Love Parade)."
+ },
+ {
+  "genre": "dancehall",
+  "story": "Dancehall began in the late 1970s among working-class people in inner-city Kingston who could not go to dances uptown. As Edward Seaga's government replaced Michael Manley's, music moved away from internationally oriented roots reggae toward local listeners. Radio would not play it, so it spread through sound systems and record dealers. Deejays toasted over rhythm tracks from 1960s and 1970s reggae. Sound systems such as Killimanjaro and Black Scorpio brought new deejays such as General Echo and Yellowman, whose sexually explicit lyrics were called \"slackness\". Deejay records now mattered more than records by singers. In 1984 Wayne Smith and Noel Davey built a riddim on the \"rock\" preset of a Casiotone MT-40 keyboard, because Davey could not afford a Yamaha DX-7. King Jammy released it as \"Under Mi Sleng Teng\" in 1985, and many artists recorded over the same riddim. Afterwards most riddims were made by keyboard players alone. Shabba Ranks won a Grammy for his 1991 album As Raw as Ever, and dancehall's faster electronic beat shaped Reggae en Español.",
+  "words": 171,
+  "sentences": [
+   {
+    "text": "Dancehall began in the late 1970s among working-class people in inner-city Kingston who could not go to dances uptown.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+      "quote": "They began in the late 1970s among lower and working-class people from the inner city of [[Kingston, Jamaica|Kingston]], who were not able to participate in dances uptown"
+     }
+    ]
+   },
+   {
+    "text": "As Edward Seaga's government replaced Michael Manley's, music moved away from internationally oriented roots reggae toward local listeners.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+      "quote": "including the change from the [[socialism|socialist]] government of [[Michael Manley]] ([[People's National Party]]) to [[Edward Seaga]] ([[Jamaica Labour Party]])"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+      "quote": "were reflected in the shift away from the more internationally oriented [[roots reggae]] towards a style geared more towards local consumption"
+     }
+    ]
+   },
+   {
+    "text": "Radio would not play it, so it spread through sound systems and record dealers.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+      "quote": "Since this put spreading via radio out of the question, dancehall initially gained popularity only through live performances in sound systems and specialized record dealing"
+     }
+    ]
+   },
+   {
+    "text": "Deejays toasted over rhythm tracks from 1960s and 1970s reggae.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+      "quote": "that the deejay would rap or \"toast\" over came from earlier reggae songs from the 1960s and 1970s"
+     }
+    ]
+   },
+   {
+    "text": "Sound systems such as Killimanjaro and Black Scorpio brought new deejays such as General Echo and Yellowman, whose sexually explicit lyrics were called \"slackness\".",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+      "quote": "Sound systems such as Killimanjaro, [[Black Scorpio]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+      "quote": "[[General Echo]] and [[Yellowman]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+      "quote": "Yellowman often incorporated sexually explicit lyrics into his songs, which became known as \"slackness.\""
+     }
+    ]
+   },
+   {
+    "text": "Deejay records now mattered more than records by singers.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+      "quote": "Deejay records became, for the first time, more important than records featuring singers"
+     }
+    ]
+   },
+   {
+    "text": "In 1984 Wayne Smith and Noel Davey built a riddim on the \"rock\" preset of a Casiotone MT-40 keyboard, because Davey could not afford a Yamaha DX-7.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Under_Mi_Sleng_Teng?action=raw",
+      "quote": "In 1984, Smith met Noel Davey and created a [[riddim]] (reggae backing track) using the \"rock\" preset on Davey's [[Casiotone MT-40]] keyboard"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Under_Mi_Sleng_Teng?action=raw",
+      "quote": "Davey used an MT-40 as he was unable to afford a [[Yamaha DX-7]] synthesiser"
+     }
+    ]
+   },
+   {
+    "text": "King Jammy released it as \"Under Mi Sleng Teng\" in 1985, and many artists recorded over the same riddim.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Under_Mi_Sleng_Teng?action=raw",
+      "quote": "released in 1985 on [[Jammy's Records]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Under_Mi_Sleng_Teng?action=raw",
+      "quote": "Soon after the release, numerous artists recorded songs using the same [[riddim]]"
+     }
+    ]
+   },
+   {
+    "text": "Afterwards most riddims were made by keyboard players alone.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Under_Mi_Sleng_Teng?action=raw",
+      "quote": "most riddims were created electronically by keyboard players alone"
+     }
+    ]
+   },
+   {
+    "text": "Shabba Ranks won a Grammy for his 1991 album As Raw as Ever, and dancehall's faster electronic beat shaped Reggae en Español.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+      "quote": "[[Shabba Ranks]] became the first dancehall artist to win at the [[Grammy Awards]] with his debut album ''[[As Raw as Ever]]'' in 1991"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+      "quote": "The faster tempo and simpler electronic beat of late-1980s and early-1990s dancehall greatly influenced the development of [[Reggae en Español]]"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Start date: our record says 1980; https://en.wikipedia.org/wiki/Dancehall?action=raw says it \"originated in the late 1970s\" and \"began in the late 1970s among lower and working-class people\".",
+   "Sound: our record describes 'digital-era riddims'; the article says early dancehall used rhythm tracks that \"came from earlier reggae songs from the 1960s and 1970s\", and the digital turn came with \"Under Mi Sleng Teng\" in 1985. The record's description fits from 1985, not from 1980.",
+   "Between sources (not our record): the Dancehall article says the Sleng Teng rhythm \"was used in over 200 subsequent recordings\"; https://en.wikipedia.org/wiki/Under_Mi_Sleng_Teng?action=raw says \"having been used in more than 500 songs\". The story gives no number."
+  ],
+  "notes": "All four beats sourced. The Dancehall article's naming section (InnerCity Promotions, 1982-83) is unsourced and promotional in tone, so it was left out. Did not look for a Jamaican Patois (jam) Wikipedia article; English is the article language for this genre."
+ },
+ {
+  "genre": "jungle",
+  "story": "Jungle grew from the British rave scene and Jamaican sound-system culture as breakbeat hardcore split apart in 1992 and 1993. Shut Up and Dance had put reggae samples into hardcore since 1990. Paul Ibiza of Ibiza Records fused bleeps and breaks with reggae basslines, and Lennie De Ice's \"We Are I.E.\" laid a ragga bassline under the beat. DJs such as DJ Ron, DJ Hype and Fabio & Grooverider played it at clubs such as AWOL and Roast, and on pirate stations such as Kool FM. One account says the name came from a chant, \"all the junglists\", that Rebel MC sampled in 1991 from a Jamaican sound-system tape. Cheaper sampling let young people make tracks at home, and many producers sampled the \"Amen break\". It drew black British youths more than other rave styles did. In 1994 and 1995 M-Beat and General Levy's \"Incredible\" reached the UK top 40, Kiss 100 started a jungle show and BBC Radio 1 followed with One in the Jungle. Dillinja, Roni Size and Krust then moved the sound toward drum and bass, and Roni Size and Reprazent's New Forms won the Mercury Music Prize in 1997.",
+  "words": 193,
+  "sentences": [
+   {
+    "text": "Jungle grew from the British rave scene and Jamaican sound-system culture as breakbeat hardcore split apart in 1992 and 1993.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "developed in the 1990s out of the UK [[rave]] scene and Jamaican [[sound system (Jamaican)|sound system]] culture"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "The [[breakbeat hardcore]] scene of the early 1990s was beginning to fragment by 1992 and 1993"
+     }
+    ]
+   },
+   {
+    "text": "Shut Up and Dance had put reggae samples into hardcore since 1990.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "Reggae samples and reggae-influenced tracks had been a feature of many breakbeat hardcore tracks since 1990, particularly from producers such as [[Shut Up and Dance (duo)|Shut Up and Dance]]"
+     }
+    ]
+   },
+   {
+    "text": "Paul Ibiza of Ibiza Records fused bleeps and breaks with reggae basslines, and Lennie De Ice's \"We Are I.E.\" laid a ragga bassline under the beat.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "Paul fused the bleeps and breaks with reggae b-lines"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "The track \"[[We Are I.E.]]\" by [[Lennie De Ice]] is often credited as being the track that laid down the foundations for jungle with its [[ragga]] bassline"
+     }
+    ]
+   },
+   {
+    "text": "DJs such as DJ Ron, DJ Hype and Fabio & Grooverider played it at clubs such as AWOL and Roast, and on pirate stations such as Kool FM.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "The sound was championed at clubs such as AWOL,"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "Roast and Telepathy, by [[DJs]] such as"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "[[DJ Ron]], [[DJ Hype]], [[DJ Randall]], Fabio & Grooverider"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "on [[UK pirate radio|pirate radio]] stations such as [[Kool FM]]"
+     }
+    ]
+   },
+   {
+    "text": "One account says the name came from a chant, \"all the junglists\", that Rebel MC sampled in 1991 from a Jamaican sound-system tape.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "was first heard in 1991 as a sample used by Rebel MC"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "Rebel got this chant—all the junglists—from a yard-tape\" referring to the sound-system mix-tapes imported from Jamaica"
+     }
+    ]
+   },
+   {
+    "text": "Cheaper sampling let young people make tracks at home, and many producers sampled the \"Amen break\".",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "the greater accessibility to sampling technology allowed young people to create music in their homes"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "Many producers frequently sampled the \"[[Amen break]]\""
+     }
+    ]
+   },
+   {
+    "text": "It drew black British youths more than other rave styles did.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "The music was much more popular with black British youths than other rave styles"
+     }
+    ]
+   },
+   {
+    "text": "In 1994 and 1995 M-Beat and General Levy's \"Incredible\" reached the UK top 40, Kiss 100 started a jungle show and BBC Radio 1 followed with One in the Jungle.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "Jungle reached the peak of its popularity between 1994 and 1995"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "including \"[[Incredible (M-Beat song)|Incredible]]\" by [[M-Beat]] featuring [[General Levy]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "London's [[Kiss (UK radio station)|Kiss 100]] launched its ''Givin' It Up'' show in early 1994"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "[[BBC Radio 1]] finally gave jungle a platform on its ''One in the Jungle'' weekly show"
+     }
+    ]
+   },
+   {
+    "text": "Dillinja, Roni Size and Krust then moved the sound toward drum and bass, and Roni Size and Reprazent's New Forms won the Mercury Music Prize in 1997.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw",
+      "quote": "[[Dillinja]], [[Roni Size]], [[DJ Die|Die]], [[DJ Hype|Hype]], [[DJ Zinc|Zinc]], [[Alex Reece]] and [[Krust]] were instrumental in the transition of the jungle sound to drum and bass"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Drum_and_bass?action=raw",
+      "quote": "the [[Mercury Music Prize]]-winning album ''[[New Forms]]'' (1997) from Reprazent"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Tempo: our record says 160 to 175 BPM; https://en.wikipedia.org/wiki/Drum_and_bass?action=raw says \"Drum and bass is usually between 160 and 180 [[Beats per minute|BPM]]\" and that early forms were slower: \"clocked in at around 130 bpm in 1990/1991, speeding up to around 155–165 BPM by 1993\". Early jungle can fall below 160.",
+   "Place: our record says London; https://en.wikipedia.org/wiki/Jungle_music?action=raw gives \"Early 1990s, United Kingdom\" as cultural origin, though the clubs, pirate stations and Kiss 100 it names are in London.",
+   "Grouping: our record joins jungle and drum and bass from 1992; the Jungle article treats drum and bass as a successor: \"Jungle was a direct precursor to the [[drum and bass]] genre which emerged in the mid-1990s\"."
+  ],
+  "notes": "All four beats sourced. The origin of the name has three competing accounts in the article (Rebel MC, MC Moose, MC Mad P); the story gives the Rebel MC one and marks it 'One account says'. No home-language article applies."
+ },
+ {
+  "genre": "jpop",
+  "story": "Until the late 1980s, Japanese popular song was sold as kayōkyoku, a name in use since the 1920s. When the singer Hibari Misora died in 1989, many kayōkyoku television shows, among them The Best Ten, were closed. The new name came from J-Wave, a radio station in Roppongi that opened on 1 October 1988 and at first played no Japanese music. Around the turn of 1989 its managing director Hideo Saitō and record-company staff planned to play Japanese records there and chose a \"J\" to label them. At first the word covered Western-style acts such as Pizzicato Five and Flipper's Guitar. From about 1990 to 1993 the charts were led by acts from the Being agency, among them B'z and Tube, whose songs were sold through tie-ins. From 1994 to 1997 the producer Tetsuya Komuro led dance and techno acts such as TRF and Namie Amuro, with 20 songs that each sold over a million copies. Japan's physical music sales peaked in 1998, and Hikaru Utada's first Japanese album, First Love, released in March 1999, became the best-selling album in Oricon history. In December 2002 the phone company au opened a market for ringtone song downloads.",
+  "words": 196,
+  "sentences": [
+   {
+    "text": "Until the late 1980s, Japanese popular song was sold as kayōkyoku, a name in use since the 1920s.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+      "quote": "a term for Japanese popular music from the 1920s to the 1980s in the Japanese music scene"
+     }
+    ]
+   },
+   {
+    "text": "When the singer Hibari Misora died in 1989, many kayōkyoku television shows, among them The Best Ten, were closed.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+      "quote": "Popular singer [[Hibari Misora]] died in 1989, and many ''kayōkyoku'' programs, such as ''The Best Ten'', were closed."
+     }
+    ]
+   },
+   {
+    "text": "The new name came from J-Wave, a radio station in Roppongi that opened on 1 October 1988 and at first played no Japanese music.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://ja.wikipedia.org/wiki/J-POP?action=raw",
+      "quote": "1988年10月1日に開局した[[J-WAVE]]が、「J-POP」の発祥となった"
+     },
+     {
+      "url": "https://ja.wikipedia.org/wiki/J-POP?action=raw",
+      "quote": "スタイリッシュ」な街・六本木に存在しており、当初は邦楽を放送していなかった"
+     }
+    ]
+   },
+   {
+    "text": "Around the turn of 1989 its managing director Hideo Saitō and record-company staff planned to play Japanese records there and chose a \"J\" to label them.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://ja.wikipedia.org/wiki/J-POP?action=raw",
+      "quote": "同社常務・[[斎藤日出夫]]が[[レコード会社]]の邦楽担当者らとともに、J-WAVEで邦楽を流そうという企画を発足させる"
+     },
+     {
+      "url": "https://ja.wikipedia.org/wiki/J-POP?action=raw",
+      "quote": "頭文字はJとなり、そしてここは、J-WAVEだ」という意見が出され、Jの文字を用いることとされた"
+     },
+     {
+      "url": "https://ja.wikipedia.org/wiki/J-POP?action=raw",
+      "quote": "1988年末あるいは1989年初頭ごろの出来事である"
+     }
+    ]
+   },
+   {
+    "text": "At first the word covered Western-style acts such as Pizzicato Five and Flipper's Guitar.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+      "quote": "the term ''J-pop'' was used only for Western-style musicians in Japan, such as [[Pizzicato Five]] and  [[Flipper's Guitar]]"
+     }
+    ]
+   },
+   {
+    "text": "From about 1990 to 1993 the charts were led by acts from the Being agency, among them B'z and Tube, whose songs were sold through tie-ins.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+      "quote": "The period between around 1990 and 1993 was dominated by artists from [[being Inc.|the Being agency]], including [[B'z]], [[Tube (band)|Tube]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+      "quote": "Notable examples of commercial music from the era were the [[tie-in]] music from the agency [[Being (company)|Being]]"
+     }
+    ]
+   },
+   {
+    "text": "From 1994 to 1997 the producer Tetsuya Komuro led dance and techno acts such as TRF and Namie Amuro, with 20 songs that each sold over a million copies.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+      "quote": "The period between 1994 and 1997 was dominated by dance and techno acts from the"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+      "quote": "such as [[TRF (band)|TRF]], [[Ryoko Shinohara]], [[Yuki Uchida]], [[Namie Amuro]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+      "quote": "Komuro was responsible for 20 hit songs, each selling more than a million copies"
+     }
+    ]
+   },
+   {
+    "text": "Japan's physical music sales peaked in 1998, and Hikaru Utada's first Japanese album, First Love, released in March 1999, became the best-selling album in Oricon history.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+      "quote": "The Japanese market for physical music sales peaked in 1998"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+      "quote": "In March 1999, [[Hikaru Utada]] released her first Japanese album"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+      "quote": "making it the best-selling album in [[Oricon]] history"
+     }
+    ]
+   },
+   {
+    "text": "In December 2002 the phone company au opened a market for ringtone song downloads.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+      "quote": "In December 2002, the digital-download market for"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+      "quote": "was created by mobile-phone company [[au (mobile phone company)|au]]"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Start date: our record says J-pop began in 1990. The Japanese article says the word and idea were proposed at J-WAVE at the end of 1988 and became a general genre name around 1993 (https://ja.wikipedia.org/wiki/J-POP?action=raw: \"[[1988年]]末にラジオ局の[[J-WAVE]]でその語と概念が提唱された後、[[1993年の日本|1993年]]ごろから青年が歌唱する曲のジャンルの一つとして一般化した\"). The English article says it \"entered the musical mainstream of Japan in the 1990s\" (https://en.wikipedia.org/wiki/J-pop?action=raw). Not checked by the script; quoted here for the lead.",
+   "Who coined the term: the English article's infobox footnote quotes a 2004 source calling the term \"coined by [[Tetsuya Komuro|Komuro Tetsuya]], the \\\"father of J-pop\\\", in the early 1990s\" (https://en.wikipedia.org/wiki/J-pop?action=raw), which differs from the Japanese article's J-WAVE account used in the story. Not checked by the script."
+  ],
+  "notes": "Japanese article read (ja.wikipedia J-POP, raw); the J-WAVE origin (1988-89, Roppongi, managing director 斎藤日出夫) comes from it. The romanisation 'Hideo Saitō' is my reading of 斎藤日出夫; the page gives only the kanji. Our record's origin 'Tokyo' is not contradicted, but no quote used says Tokyo (the story says Roppongi). The record's markers (English hooks, key changes, anime tie-ins) were not sourced; the story mentions tie-ins only via Being."
+ },
+ {
+  "genre": "kpop",
+  "story": "After the Korean War (1950–1953), Korean singers earned money playing country, blues, jazz and rock and roll for US troops who stayed. The 1980s belonged to ballad singers such as Lee Moon-se and Byun Jin-sub. On 11 April 1992 the trio Seo Taiji and Boys debuted on an MBC talent show with \"I Know\" and got the jury's lowest rating, but the song and their first album became hits. The song's new jack swing beat and lyrics about the problems of Korean society were followed by hip-hop and R&B acts such as Deux, 1TYM and Drunken Tiger. Their teenage following turned the industry towards teen pop, and in 1995 producer Lee Soo-man, educated in the US, founded SM Entertainment. Agencies took the idol business model of J-pop. Lee's boy band H.O.T. debuted in 1996 after training in singing, dancing, etiquette and handling the media; \"Candy\" set a formula of energetic dance steps later idol groups adopted. After the 1997 Asian financial crisis H.O.T. released a Mandarin-language album, and the government funded a K-pop department. By the early 2000s TVXQ and BoA succeeded in Japan, and in 2019 South Korea ranked sixth among music markets, led by BTS and Blackpink.",
+  "words": 199,
+  "sentences": [
+   {
+    "text": "After the Korean War (1950–1953), Korean singers earned money playing country, blues, jazz and rock and roll for US troops who stayed.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "After the [[Korean War]] (1950–1953) U.S. troops remained in South Korea"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "skilled Korean singers regarded performing for the U.S. troops as a good means to earn money"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "They performed various genres like country music, blues, jazz and rock & roll"
+     }
+    ]
+   },
+   {
+    "text": "The 1980s belonged to ballad singers such as Lee Moon-se and Byun Jin-sub.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "The 1980s saw the rise of [[Pop ballad|ballad]] singers"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "Other popular ballad singers included [[Lee Moon-se]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "and [[Byun Jin-sub]]"
+     }
+    ]
+   },
+   {
+    "text": "On 11 April 1992 the trio Seo Taiji and Boys debuted on an MBC talent show with \"I Know\" and got the jury's lowest rating, but the song and their first album became hits.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "The trio debuted on [[Munhwa Broadcasting Corporation|MBC]]'s talent show on April 11, 1992"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "got the lowest rating from the jury;"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "however, the song and [[Seo Taiji and Boys (album)|their self-titled debut album]] became so successful"
+     },
+     {
+      "url": "https://ko.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "1992년에 데뷔한 [[서태지와 아이들]]로부터"
+     }
+    ]
+   },
+   {
+    "text": "The song's new jack swing beat and lyrics about the problems of Korean society were followed by hip-hop and R&B acts such as Deux, 1TYM and Drunken Tiger.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "The song's success was attributed to its [[new jack swing]]-inspired beats and memorable chorus, as well as innovative lyrics which dealt with the problems of Korean society"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "A wave of successful hip-hop and R&B artists followed in their footsteps"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "[[Deux (band)|Deux]], [[1TYM]] and [[Drunken Tiger]]"
+     }
+    ]
+   },
+   {
+    "text": "Their teenage following turned the industry towards teen pop, and in 1995 producer Lee Soo-man, educated in the US, founded SM Entertainment.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "The huge popularity of Seo Taiji & Boys among teenagers shifted the focus of the Korean music industry to teen-centred pop music"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "In 1995, South Korean record producer [[Lee Soo-man]], who was educated in the U.S."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "founded the entertainment company [[SM Entertainment]]"
+     }
+    ]
+   },
+   {
+    "text": "Agencies took the idol business model of J-pop.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "talent agencies began to market K-pop stars by implementing an [[Japanese idol|idol]] business model used in [[J-pop]]"
+     }
+    ]
+   },
+   {
+    "text": "Lee's boy band H.O.T. debuted in 1996 after training in singing, dancing, etiquette and handling the media; \"Candy\" set a formula of energetic dance steps later idol groups adopted.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "created [[H.O.T.]] and [[S.E.S. (group)|S.E.S.]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "H.O.T. was one of the first idol boybands, debuting in 1996 after rigorous training"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "not only singing and dancing skills but also etiquette, attitude, language and the ability to deal with the media"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "accompanied by energetic dance steps – a formula adopted by many subsequent idol groups"
+     }
+    ]
+   },
+   {
+    "text": "After the 1997 Asian financial crisis H.O.T. released a Mandarin-language album, and the government funded a K-pop department.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "prompted South Korean entertainers to look for new markets, with H.O.T. releasing a Mandarin-language album"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "The government poured millions into building infrastructure, technology, and a specific department within"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "[[Ministry of Culture, Sports and Tourism (South Korea)|Ministry of Culture]] for K-pop"
+     }
+    ]
+   },
+   {
+    "text": "By the early 2000s TVXQ and BoA succeeded in Japan, and in 2019 South Korea ranked sixth among music markets, led by BTS and Blackpink.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "By the early 2000s, [[TVXQ]] and [[BoA]] had achieved success in Japan"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/K-pop?action=raw",
+      "quote": "In 2019, South Korea ranked sixth among music markets, led by artists [[BTS]] and [[Blackpink]]"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [],
+  "notes": "Korean article read (ko.wikipedia K-pop, raw); used for one supporting quote on Seo Taiji and Boys' 1992 debut. Our record's origin 'Seoul' is not stated in any quote used, so the story does not name Seoul. The record's markers (mid-song genre switches, English hooks) were not sourced in the story. No disagreement found with the 1992 start."
+ },
+ {
+  "genre": "teenpop",
+  "story": "In 1986 ten Swedish disc jockeys, among them Dag Krister Volle, known as Denniz PoP, founded the remix service SweMix. In 1992 Denniz PoP remade a demo by Ace of Base as \"All That She Wants\". In 1992 Denniz PoP and the nightclub owner Tom Talomaa founded Cheiron Studios in the Kungsholmen district of Stockholm. Denniz took on Karl Martin Sandberg, singer of the funk metal band It's Alive, as a songwriter and renamed him Max Martin. From 1996 Cheiron wrote and produced in a joint venture with Zomba, starting with the Backstreet Boys' debut album. Early in 1998 Jive Records sent the 16-year-old Britney Spears to record \"...Baby One More Time\", a song first written for TLC, who had turned it down. Cheiron's songs set R&B grooves under Swedish pop melodies with large major-chord choruses, a \"happy/sad\" quality The Guardian compared to ABBA. Denniz PoP died of cancer on 30 August 1998, aged 35, and Cheiron closed in 2000. In 2001 Martin and Talomaa started Maratone, and Martin went on to work with Kelly Clarkson, Katy Perry and Taylor Swift, writing or co-writing 31 Billboard Hot 100 number ones.",
+  "words": 190,
+  "sentences": [
+   {
+    "text": "In 1986 ten Swedish disc jockeys, among them Dag Krister Volle, known as Denniz PoP, founded the remix service SweMix.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "In 1986, a group of ten Swedish disc jockeys founded SweMix, a remix service"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "Dag Krister Volle ([[Denniz Pop|Denniz PoP]])"
+     }
+    ]
+   },
+   {
+    "text": "In 1992 Denniz PoP remade a demo by Ace of Base as \"All That She Wants\".",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "In early 1992, the Danish record company [[Mega Records]] sent Denniz PoP a [[Demo (music)|demo]] tape"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "It was re-recorded at the SweMix studio and given the new title \"[[All That She Wants]]\""
+     }
+    ]
+   },
+   {
+    "text": "In 1992 Denniz PoP and the nightclub owner Tom Talomaa founded Cheiron Studios in the Kungsholmen district of Stockholm.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "located in the [[Kungsholmen]] district of Stockholm, Sweden. Founded in 1992 by [[Denniz Pop|Denniz PoP]] and Tom Talomaa"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "Tom Talomaa, a nightclub owner"
+     }
+    ]
+   },
+   {
+    "text": "Denniz took on Karl Martin Sandberg, singer of the funk metal band It's Alive, as a songwriter and renamed him Max Martin.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "the Swedish [[funk metal]] band [[It's Alive (band)|It's Alive]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "the band's vocalist, Karl Martin Sandberg, who went by the name Martin White, caught Denniz PoP's attention"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "He also renamed him [[Max Martin]]"
+     }
+    ]
+   },
+   {
+    "text": "From 1996 Cheiron wrote and produced in a joint venture with Zomba, starting with the Backstreet Boys' debut album.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "From 1996 until its closure, Cheiron shared a joint production and publishing venture with the Zomba Group"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "This began with the American boy band [[Backstreet Boys]]"
+     }
+    ]
+   },
+   {
+    "text": "Early in 1998 Jive Records sent the 16-year-old Britney Spears to record \"...Baby One More Time\", a song first written for TLC, who had turned it down.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "Early in 1998, [[Jive Records]] sent Cheiron a 16-year-old American girl named [[Britney Spears]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "The track had originally been written for [[TLC (group)|TLC]], who declined it"
+     }
+    ]
+   },
+   {
+    "text": "Cheiron's songs set R&B grooves under Swedish pop melodies with large major-chord choruses, a \"happy/sad\" quality The Guardian compared to ABBA.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "According to ''[[The Guardian]]'', the \"Cheiron sound\" was described as melodic but hard-edged"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "hook]]-driven and dramatic, combining technical accuracy with a characteristically Swedish \"happy/sad\" quality comparable to [[ABBA]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "blend of [[Contemporary R&B|R&B]] grooves with [[Swedish pop]] melodies and large, major-chord choruses"
+     }
+    ]
+   },
+   {
+    "text": "Denniz PoP died of cancer on 30 August 1998, aged 35, and Cheiron closed in 2000.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "Only 35 years old, Denniz died of cancer on 30 August 1998"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+      "quote": "After Denniz PoP's death in 1998, Cheiron closed in 2000"
+     }
+    ]
+   },
+   {
+    "text": "In 2001 Martin and Talomaa started Maratone, and Martin went on to work with Kelly Clarkson, Katy Perry and Taylor Swift, writing or co-writing 31 Billboard Hot 100 number ones.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Max_Martin?action=raw",
+      "quote": "Martin and Tom Talomaa then started a new production company named [[Maratone]] in January 2001"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Max_Martin?action=raw",
+      "quote": "In 2004, [[Kelly Clarkson]] traveled to Sweden to collaborate with Martin"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Max_Martin?action=raw",
+      "quote": "Max Martin worked with [[Katy Perry]] on her second album"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Max_Martin?action=raw",
+      "quote": "Martin has collaborated with [[Taylor Swift]] on four of her albums"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Max_Martin?action=raw",
+      "quote": "Martin has written or co-written 31 [[Billboard Hot 100|''Billboard'' Hot 100]] number-one singles"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Dates: our record's window is 1997-2003. Cheiron was founded in 1992 and closed in 2000 (https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw: \"Founded in 1992 by [[Denniz Pop|Denniz PoP]] and Tom Talomaa\"; \"After Denniz PoP's death in 1998, Cheiron closed in 2000\"), and its teen-pop work began with the Backstreet Boys' debut album in 1996 (https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw: \"From 1996 until its closure, Cheiron shared a joint production and publishing venture with the Zomba Group\"). The Teen pop article starts the late-1990s wave with the Spice Girls' \"Wannabe\" in 1996 (https://en.wikipedia.org/wiki/Teen_pop?action=raw: \"In 1996, British [[girl group]] [[Spice Girls]] released their debut single\"). A 1996 start may fit better than 1997."
+  ],
+  "notes": "No home-language article required (genre is Anglo pop made in Sweden); the Swedish article was not read. The genre article (Teen pop) is about teen pop in general, so the story follows Cheiron Studios, which our record names as the origin. The record's marker 'huge pre-chorus lift' was not found stated in a source and is not in the story."
+ },
+ {
+  "genre": "reggaeton",
+  "story": "Reggaeton grew out of Panama's Spanish-language reggae of the late 1980s; reggae had reached Panama with Jamaican and Barbadian workers who built the Panama Canal. Its drum pattern was first featured in Shabba Ranks's \"Dem Bow\" of 1991, and the producers Steely & Clevie are credited with creating it. From 1992 DJ Playero and rappers from around San Juan and Carolina, Puerto Rico, recorded in carports and housing projects such as Villa Kennedy. Their cassettes were sold from car trunks; Daddy Yankee is credited with first saying \"reggaeton\" on Playero 34. In February 1995 police raided six San Juan record stores and seized hundreds of cassettes under obscenity laws; schools banned baggy clothing and underground music. That year DJ Negro put out The Noise 3 with a label reading \"Non-explicit lyrics\", and it was a hit. In 2004 reggaeton spread through the United States and Europe, and Daddy Yankee's album Barrio Fino and its single \"Gasolina\" opened the door for it worldwide. In 2017 the video for \"Despacito\" by Luis Fonsi featuring Daddy Yankee reached one billion views in less than three months. From 2018, starting with \"Te Boté\", producers turned to a sharper, minimalist dembow.",
+  "words": 196,
+  "sentences": [
+   {
+    "text": "Reggaeton grew out of Panama's Spanish-language reggae of the late 1980s; reggae had reached Panama with Jamaican and Barbadian workers who built the Panama Canal.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "arose from the [[Spanish reggae]] of [[Panamanian reggaetón|Panama]] during the late 1980s"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "There was an influx of Jamaican and Barbados immigrants in Panama during this time in order to build the [[Panama Canal]] who brought [[reggae]] music to Panama"
+     },
+     {
+      "url": "https://es.wikipedia.org/wiki/Reguet%C3%B3n?action=raw",
+      "quote": "es un [[género musical]] que se originó en [[Panamá]] a finales de la década de 1980"
+     }
+    ]
+   },
+   {
+    "text": "Its drum pattern was first featured in Shabba Ranks's \"Dem Bow\" of 1991, and the producers Steely & Clevie are credited with creating it.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "The riddim was first highlighted by [[Shabba Ranks]] in \"[[Dem Bow]]\", from his 1991 album ''[[Just Reality]]''"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "[[Steely & Clevie]], creators of the \"Poco Man Jam\" (\"Fish Market\") riddim, are usually credited with the creation of dembow"
+     }
+    ]
+   },
+   {
+    "text": "From 1992 DJ Playero and rappers from around San Juan and Carolina, Puerto Rico, recorded in carports and housing projects such as Villa Kennedy.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://es.wikipedia.org/wiki/Reguet%C3%B3n?action=raw",
+      "quote": "fueron los primeros lugares en donde se cantó reguetón a cargo de [[DJ Playero]] y raperos locales de los suburbios de San Juan y Carolina en 1992"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "at public housing complexes such as Villa Kennedy, and Jurutungo"
+     }
+    ]
+   },
+   {
+    "text": "Their cassettes were sold from car trunks; Daddy Yankee is credited with first saying \"reggaeton\" on Playero 34.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "The cassettes were sold or distributed on the streets from the trunks of cars"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "when [[Daddy Yankee]] mentioned it for the first time while \"freestyling\" on the mixtape ''Playero 34''"
+     }
+    ]
+   },
+   {
+    "text": "In February 1995 police raided six San Juan record stores and seized hundreds of cassettes under obscenity laws; schools banned baggy clothing and underground music.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "In February 1995, there was a government-sponsored campaign against underground music"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "Puerto Rican police raided six record stores in San Juan,"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "hundreds of cassettes were confiscated and fines imposed in accordance with Laws 112 and 117 against obscenity"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "The Department of Education banned baggy clothing and underground music from schools"
+     }
+    ]
+   },
+   {
+    "text": "That year DJ Negro put out The Noise 3 with a label reading \"Non-explicit lyrics\", and it was a hit.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "In 1995, DJ Negro released ''The Noise 3'' with a [[mockup]] label reading, \"Non-explicit lyrics\""
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "It was a hit, and underground music continued to seep into the mainstream"
+     }
+    ]
+   },
+   {
+    "text": "In 2004 reggaeton spread through the United States and Europe, and Daddy Yankee's album Barrio Fino and its single \"Gasolina\" opened the door for it worldwide.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "In 2004, reggaeton became popular throughout the United States and Europe"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "Daddy Yankee released ''[[Barrio Fino]]'' and a hit single, \"[[Gasolina]]\", opening the door for reggaeton globally"
+     }
+    ]
+   },
+   {
+    "text": "In 2017 the video for \"Despacito\" by Luis Fonsi featuring Daddy Yankee reached one billion views in less than three months.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "In 2017, the music video for \"[[Despacito]]\" by [[Luis Fonsi]] featuring [[Daddy Yankee]] reached one billion views in less than three months"
+     }
+    ]
+   },
+   {
+    "text": "From 2018, starting with \"Te Boté\", producers turned to a sharper, minimalist dembow.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+      "quote": "starting with \"[[Te Boté]]\", a sharper minimalist dembow has become a stable of reggaeton production"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Origin and date: our record says San Juan, 1995. The English article says reggaeton \"arose from the [[Spanish reggae]] of [[Panamanian reggaetón|Panama]] during the late 1980s\" and \"evolved in Puerto Rico during the early 1990s\" (https://en.wikipedia.org/wiki/Reggaeton?action=raw); the Spanish article says it \"se originó en [[Panamá]] a finales de la década de 1980\" (https://es.wikipedia.org/wiki/Reguet%C3%B3n?action=raw) and dates the first carport recordings in San Juan and Carolina to 1992. San Juan as the place where it took its name and form is supported; 1995 is late as a start.",
+   "Name: the English article dates Daddy Yankee's first use of the word on Playero 34 to 1994 (https://en.wikipedia.org/wiki/Reggaeton?action=raw: \"the word reggaeton emerged in 1994 when [[Daddy Yankee]] mentioned it\"); the Spanish article dates Playero 34 to 1992 (https://es.wikipedia.org/wiki/Reguet%C3%B3n?action=raw: \"la primera mención tuvo lugar formalmente en ''Playero 34'' (1992)\"). The story gives no year for it."
+  ],
+  "notes": "Spanish article read (es.wikipedia Reguetón, raw); used for the Panama origin and the 1992 San Juan/Carolina carport recordings. The record's tempo marker (90-100 BPM) was not sourced in the story."
+ },
+ {
+  "genre": "afrobeats",
+  "story": "Afrobeats draws on afrobeat, which grew in the 1960s and 1970s and whose groundwork is credited to Fela Kuti and his drummer Tony Allen. Early on, groups such as Trybesmen, Plantashun Boiz and the Remedies mixed American hip-hop and R&B with local melodies. MTV Base Africa launched in 2005, and MI Abaga, Naeto C and Sarkodie were among the first to use it. In 2007 P-Square built their album Game Over on Nigerian rhythms and melodies. In London, DJ Abrantee added an s to afrobeat to present the sound to British dancefloors, and in April 2011 he launched an Afrobeats show on Choice FM. That year Fuse ODG travelled to Ghana, found the Azonto dance, and back in London mixed it with UK funky and grime. D'banj's \"Oliver Twist\" reached number 9 on the UK Singles Chart in 2012. In 2013 Davido put an instructional dance video for \"Skelewu\" on YouTube and asked fans to upload their own. In 2014 afroswing grew out of it in the UK, popularised by J Hus. Drake released \"One Dance\" with Wizkid and Kyla in 2016, and in 2021 Wizkid and Tems became the first Nigerian pop artists on the Billboard Hot 100.",
+  "words": 199,
+  "sentences": [
+   {
+    "text": "Afrobeats draws on afrobeat, which grew in the 1960s and 1970s and whose groundwork is credited to Fela Kuti and his drummer Tony Allen.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "While afrobeats takes on influences from afrobeat"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "Afrobeat is a genre that developed in the 1960s and 1970s"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "Fela Kuti and his longtime partner, drummer [[Tony Allen (musician)|Tony Allen]], are often credited for laying the groundwork"
+     }
+    ]
+   },
+   {
+    "text": "Early on, groups such as Trybesmen, Plantashun Boiz and the Remedies mixed American hip-hop and R&B with local melodies.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "groups such as [[Trybesmen]], [[Plantashun Boiz]], and [[the Remedies]] were early pioneers that fused modern American influences from hip-hop and R&B with local melodies"
+     }
+    ]
+   },
+   {
+    "text": "MTV Base Africa launched in 2005, and MI Abaga, Naeto C and Sarkodie were among the first to use it.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "With the launching of [[MTV Base (African TV channel)|MTV Base Africa]] in 2005"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "Artists such as [[M.I Abaga|MI Abaga]], [[Naeto C]] and [[Sarkodie (rapper)|Sarkodie]] were among the first to take advantage of this"
+     }
+    ]
+   },
+   {
+    "text": "In 2007 P-Square built their album Game Over on Nigerian rhythms and melodies.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "released their album ''[[Game Over (P-Square album)|Game Over]]'' in 2007, which was unique for its usage of Nigerian rhythms and melodies"
+     }
+    ]
+   },
+   {
+    "text": "In London, DJ Abrantee added an s to afrobeat to present the sound to British dancefloors, and in April 2011 he launched an Afrobeats show on Choice FM.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "adding an \"s\" to Afrobeat, in order to package and present the sound to British dancefloors"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "Choice FM's new Afrobeats radio show birthed and presented by DJ Abrantee in April 2011"
+     }
+    ]
+   },
+   {
+    "text": "That year Fuse ODG travelled to Ghana, found the Azonto dance, and back in London mixed it with UK funky and grime.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "In 2011, Fuse ODG travelled to [[Ghana]] where he discovered the [[Azonto]] dance"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "Once he returned to London, he fused the sounds he had found in Ghana"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "fusing the sound with influences from [[UK funky]] and [[Grime (music genre)|grime]]"
+     }
+    ]
+   },
+   {
+    "text": "D'banj's \"Oliver Twist\" reached number 9 on the UK Singles Chart in 2012.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "released online by Nigerian artist [[D'banj]] in the summer of 2011 charted at number 9 on the [[UK Singles Chart]] in 2012"
+     }
+    ]
+   },
+   {
+    "text": "In 2013 Davido put an instructional dance video for \"Skelewu\" on YouTube and asked fans to upload their own.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "Davido promoted the song by uploading an instructional dance video of it onto YouTube on 18 August 2013"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "participants were told to watch the instructional dance video and upload videos of themselves dancing to the song"
+     }
+    ]
+   },
+   {
+    "text": "In 2014 afroswing grew out of it in the UK, popularised by J Hus.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "In 2014, a genre derivative of afrobeats known as [[afroswing]] emerged in the UK"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "The genre was popularised by [[J Hus]]"
+     }
+    ]
+   },
+   {
+    "text": "Drake released \"One Dance\" with Wizkid and Kyla in 2016, and in 2021 Wizkid and Tems became the first Nigerian pop artists on the Billboard Hot 100.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "in 2016 when he released \"[[One Dance]]\" alongside British singer Kyla and Wizkid"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "In the same year, Wizkid and [[Tems (singer)|Tems]] became the first Nigerian pop artists to earn a spot on the [[Billboard Hot 100]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw",
+      "quote": "In April 2021, Davido's song"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Origin: our record gives Lagos alone; the English article says it 'initially developed in [[Nigeria]], [[Ghana]], and the [[United Kingdom|UK]] in the 2000s and 2010s' and 'is primarily produced in [[Lagos]], [[Accra]], and [[London]]' (https://en.wikipedia.org/wiki/Afrobeats?action=raw). The name itself was coined in London (DJ Abrantee).",
+   "Start date: our record says 2008; the article puts the roots in 'the late '90s and early to mid-2000s' with MTV Base Africa in 2005 and P-Square's Game Over in 2007, and the name and UK breakthrough in 2011-2012.",
+   "Sound: our record mentions log drums; the article does not (log drums belong to amapiano). It describes the rhythm as 'a 3–2 or 2–3 rhythm called a [[Clave (rhythm)|clave]]' in 4/4."
+  ],
+  "notes": "Home language is English (with Nigerian Pidgin and Yoruba); no other-language article was read. All beats sourced from the English article; every quote found by tools/check_evidence.py."
+ },
+ {
+  "genre": "frenchhouse",
+  "story": "In France in the late 1970s and early 1980s, Cerrone and Sheila and B. Devotion made space disco. In 1987 photographer Jean-Claude Lagrèze ran French Touch parties at the Palace in Paris to introduce house music, with DJs Laurent Garnier and David Guetta. In 1994 Alain Hô (DJ Yellow) and Christophe Le Friant (Bob Sinclar) founded the label Yellow Productions in the Marais. Thomas Bangalter's records for his label Roulé were among the first, and in 1996 Motorbass built house tracks from samples and filtered loops on Pansoul. In 1996 Martin James of Melody Maker used the name French touch reviewing Étienne de Crécy's Super Discount. Daft Punk, Cassius and Air signed to Virgin, and Daft Punk's first album, Homework, made the UK top 10. DJ and producer, separate jobs until then, became one. In 1998 Bangalter, Benjamin Diamond and Alan Braxe, as Stardust, released \"Music Sounds Better with You\", which sold over two million copies. Around 1998 major labels wanted their releases labelled French Touch, and in 1999 many artists changed course. It returned in the mid-2000s through Justice and Pedro Winter's label Ed Banger, and Madonna drew on it for Confessions on a Dance Floor in 2005.",
+  "words": 199,
+  "sentences": [
+   {
+    "text": "In France in the late 1970s and early 1980s, Cerrone and Sheila and B. Devotion made space disco.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+      "quote": "Space disco was popular in [[France]] during the late 1970s and early 1980s, especially with artists such as [[Cerrone]] and [[Sheila and B. Devotion]]"
+     }
+    ]
+   },
+   {
+    "text": "In 1987 photographer Jean-Claude Lagrèze ran French Touch parties at the Palace in Paris to introduce house music, with DJs Laurent Garnier and David Guetta.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+      "quote": "The term \"French Touch\" was first used in Paris in July 1987"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+      "quote": "Jean-Claude Lagrèze, a photographer of parisians' nights created a couple of \"French Touch\" parties at The Palace in an effort to help people discover house music"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+      "quote": "The parties were driven by DJ [[Laurent Garnier]], Guillaume la Tortue and [[David Guetta]]"
+     }
+    ]
+   },
+   {
+    "text": "In 1994 Alain Hô (DJ Yellow) and Christophe Le Friant (Bob Sinclar) founded the label Yellow Productions in the Marais.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+      "quote": "En 1994, Alain Hô, alias DJ Yellow, fonde, avec Christophe Le Friant, alias [[Bob Sinclar]]"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+      "quote": "le [[Label discographique|label]] [[Yellow Productions]] dans le quartier du Marais à Paris"
+     }
+    ]
+   },
+   {
+    "text": "Thomas Bangalter's records for his label Roulé were among the first, and in 1996 Motorbass built house tracks from samples and filtered loops on Pansoul.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+      "quote": "[[Thomas Bangalter]]'s tracks for his [[Roulé]] label were some of the earliest examples of French house"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+      "quote": "among the first in France to produce house tracks largely based around samples and filtered loops"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+      "quote": "released their seminal album, ''[[Pansoul]]'' in 1996"
+     }
+    ]
+   },
+   {
+    "text": "In 1996 Martin James of Melody Maker used the name French touch reviewing Étienne de Crécy's Super Discount.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+      "quote": "popularised by music journalist Martin James in the weekly music paper known as ''[[Melody Maker]]''"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+      "quote": "He referred to the term in 1996 as a review of [[Étienne de Crécy]]'s first album ''[[Super Discount]]''"
+     }
+    ]
+   },
+   {
+    "text": "Daft Punk, Cassius and Air signed to Virgin, and Daft Punk's first album, Homework, made the UK top 10.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+      "quote": "[[Daft Punk]], [[Cassius (band)|Cassius]] and later [[Stardust (band)|Stardust]] were the first internationally successful artists of the genre"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+      "quote": "along with [[Air (French band)|Air]], signed to [[Virgin Records]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+      "quote": "Daft Punk's debut album ''[[Homework (Daft Punk album)|Homework]]'' entered the top 10 of the [[UK Albums Chart]]"
+     }
+    ]
+   },
+   {
+    "text": "DJ and producer, separate jobs until then, became one.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+      "quote": "alors qu'auparavant DJ et producteurs étaient deux rôles séparés, leurs activités se confondent"
+     }
+    ]
+   },
+   {
+    "text": "In 1998 Bangalter, Benjamin Diamond and Alan Braxe, as Stardust, released \"Music Sounds Better with You\", which sold over two million copies.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+      "quote": "L'année 1998 est marquée par le titre"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+      "quote": "morceau produit par [[Thomas Bangalter]], [[Benjamin Diamond]] et [[Alan Braxe]]"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+      "quote": "qui se vendra à plus de deux millions d'exemplaires dans le monde"
+     }
+    ]
+   },
+   {
+    "text": "Around 1998 major labels wanted their releases labelled French Touch, and in 1999 many artists changed course.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+      "quote": "Vers 1998, les grandes maisons de disques veulent leur production étiquetée « French Touch »"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+      "quote": "en 1999, le rythme ralentit, nombre d'artistes changent de voie"
+     }
+    ]
+   },
+   {
+    "text": "It returned in the mid-2000s through Justice and Pedro Winter's label Ed Banger, and Madonna drew on it for Confessions on a Dance Floor in 2005.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+      "quote": "le milieu des années 2000 marque cependant le retour de la ''French Touch'' sur la scène internationale"
+     },
+     {
+      "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw",
+      "quote": "[[Justice (groupe)|Justice]] et les artistes du label [[Ed Banger]] de [[Pedro Winter]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/French_house?action=raw",
+      "quote": "In late 2005, [[Madonna (entertainer)|Madonna]] released ''[[Confessions on a Dance Floor]]'', an album with significant French house influences"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Window: our record says 1996–2002; the English article gives cultural origins 'Early- to mid-1990s, France' and says success 'continued into the 2000s'; the French article says the style was 'né en France en 1990' and returned in the mid-2000s (https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw).",
+   "The two articles differ on the first French Touch party: English says 'first used in Paris in July 1987'; French says June 1987 (invitation 'MERCREDI 3 JUIN 1987'). The story says only 1987.",
+   "Sound: our record mentions sidechain pumping and vocoder; neither article mentions them. The English article stresses 'filter and phaser effects' on samples from 'late 1970s and early 1980s European disco'."
+  ],
+  "notes": "French article read (French touch (musique), fr.wikipedia) and used for five sentences (Yellow Productions, DJ/producer roles, Music Sounds Better with You, 1998-1999 decline, mid-2000s return). Laurent Garnier and Erik Rug at the H3O nights at La Locomotive (fr article) was left out for length."
+ },
+ {
+  "genre": "y2krnb",
+  "story": "On Control (1986), Janet Jackson and producers Jimmy Jam and Terry Lewis set funk and disco rhythms in synthesizers and a rap sensibility. In Virginia Beach in 1991, Pharrell Williams and Chad Hugo, entering a talent contest against their friends Missy Elliott and Timbaland & Magoo, were found by producer Teddy Riley. Timbaland, born in Norfolk and schooled in Virginia Beach, went to New York with Elliott when DeVante Swing of Jodeci signed her group Sista. He took hip-hop's drum breaks into R&B, using breakbeats to break up a track's smooth flow. In 1996 he produced most of Aaliyah's One in a Million and Ginuwine's first album, and in 1997 all of Elliott's Supa Dupa Fly. Rodney Jerkins (Darkchild), raised in New Jersey, produced Brandy and Monica's \"The Boy Is Mine\" in 1998 and Destiny's Child's \"Say My Name\" in 1999. The Neptunes produced all of Kelis's first album, Kaleidoscope, in 1999 and in 2001 had their first worldwide hit, Britney Spears's \"I'm a Slave 4 U\". In Britain, bootleg garage remixes, one of them of \"The Boy Is Mine\", fed the rise of UK garage. In 2004 all 12 Billboard Hot 100 number ones were by African-American artists.",
+  "words": 199,
+  "sentences": [
+   {
+    "text": "On Control (1986), Janet Jackson and producers Jimmy Jam and Terry Lewis set funk and disco rhythms in synthesizers and a rap sensibility.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Contemporary_R%26B?action=raw",
+      "quote": "[[Janet Jackson]]'s ''[[Control (Janet Jackson album)|Control]]'' (1986)"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Contemporary_R%26B?action=raw",
+      "quote": "as she and her producers, [[Jimmy Jam and Terry Lewis]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Contemporary_R%26B?action=raw",
+      "quote": "fuses the rhythmic elements of funk and disco, along with heavy doses of synthesizers, percussion, sound effects, and a rap music sensibility"
+     }
+    ]
+   },
+   {
+    "text": "In Virginia Beach in 1991, Pharrell Williams and Chad Hugo, entering a talent contest against their friends Missy Elliott and Timbaland & Magoo, were found by producer Teddy Riley.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/The_Neptunes?action=raw",
+      "quote": "Williams and Hugo met at a summer camp for the school of the Gifted and Talented in [[Virginia Beach, Virginia]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/The_Neptunes?action=raw",
+      "quote": "Upon entering a local talent contest in 1991, the Neptunes were competing with childhood friends [[Missy Elliott]], [[Timbaland & Magoo]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/The_Neptunes?action=raw",
+      "quote": "which led the duo to be discovered by record producer [[Teddy Riley]], whose studio was close to Williams' school"
+     }
+    ]
+   },
+   {
+    "text": "Timbaland, born in Norfolk and schooled in Virginia Beach, went to New York with Elliott when DeVante Swing of Jodeci signed her group Sista.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+      "quote": "Born and raised in [[Norfolk, Virginia]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+      "quote": "He graduated from [[Salem High School (Virginia Beach, Virginia)|Salem High School]] of [[Virginia Beach]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+      "quote": "DeVante signed Sista to his Swing Mob record label and Elliott brought Mosley and Barcliff along with her to New York"
+     }
+    ]
+   },
+   {
+    "text": "He took hip-hop's drum breaks into R&B, using breakbeats to break up a track's smooth flow.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+      "quote": "His trademark sound was very much rooted in [[hip-hop]] with its fast-paced nature and clear drum breaks"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+      "quote": "He was taking a hip-hop sound and applying it to R&B"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+      "quote": "using breakbeats, which break up the smooth flow of tracks to create moments of tension and release"
+     }
+    ]
+   },
+   {
+    "text": "In 1996 he produced most of Aaliyah's One in a Million and Ginuwine's first album, and in 1997 all of Elliott's Supa Dupa Fly.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+      "quote": "In 1996, he made his mainstream breakthrough by producing the majority of both [[Aaliyah]]'s second album ''[[One in a Million (Aaliyah album)|One in a Million]]'' and [[Ginuwine]]'s debut album"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+      "quote": "In 1997, he fully produced ''[[Supa Dupa Fly]]'', the debut album of [[Missy Elliott]]"
+     }
+    ]
+   },
+   {
+    "text": "Rodney Jerkins (Darkchild), raised in New Jersey, produced Brandy and Monica's \"The Boy Is Mine\" in 1998 and Destiny's Child's \"Say My Name\" in 1999.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Rodney_Jerkins?action=raw",
+      "quote": "Raised in [[Galloway Township, New Jersey]], Jerkins"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Rodney_Jerkins?action=raw",
+      "quote": "1998: Brandy and Monica – \"The Boy Is Mine\""
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Rodney_Jerkins?action=raw",
+      "quote": "1999: Destiny's Child – \"Say My Name\""
+     }
+    ]
+   },
+   {
+    "text": "The Neptunes produced all of Kelis's first album, Kaleidoscope, in 1999 and in 2001 had their first worldwide hit, Britney Spears's \"I'm a Slave 4 U\".",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/The_Neptunes?action=raw",
+      "quote": "for whom they would entirely produce her debut studio album, ''[[Kaleidoscope (Kelis album)|Kaleidoscope]]'' (1999)"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/The_Neptunes?action=raw",
+      "quote": "In 2001, [[N.E.R.D.]] released their debut studio album"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/The_Neptunes?action=raw",
+      "quote": "In the same year, the Neptunes gained their first worldwide hit with [[Britney Spears]]' single, \"[[I'm a Slave 4 U]]\""
+     }
+    ]
+   },
+   {
+    "text": "In Britain, bootleg garage remixes, one of them of \"The Boy Is Mine\", fed the rise of UK garage.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+      "quote": "would later serve to create \"bootleg\" garage tracks, which was essential in the rise of UK garage"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+      "quote": "One such example is the remix of Brandy & Monica's \"[[The Boy Is Mine (Brandy and Monica song)|The Boy Is Mine]]\""
+     }
+    ]
+   },
+   {
+    "text": "In 2004 all 12 Billboard Hot 100 number ones were by African-American artists.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Contemporary_R%26B?action=raw",
+      "quote": "In 2004, all 12 songs that topped the ''Billboard'' Hot 100 were African-American recording artists"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "No Wikipedia article for 'Y2K R&B' as a genre; the story is built from Contemporary R&B, Timbaland, The Neptunes and Rodney Jerkins articles.",
+   "Start date: our record says 1998; Timbaland's breakthrough productions (Aaliyah's One in a Million, Ginuwine's debut) are 1996 and Supa Dupa Fly 1997 (https://en.wikipedia.org/wiki/Timbaland?action=raw). The Contemporary R&B article says 'in the second half of the 1990s, [[The Neptunes]] and Timbaland set influential precedence'.",
+   "Origin: our record says Virginia Beach. The Neptunes formed there and Timbaland went to school there, but Timbaland was born in Norfolk, Missy Elliott in Portsmouth, their Swing Mob work was in New York, and Rodney Jerkins (Darkchild) is from New Jersey."
+  ],
+  "notes": "Home language English. The Timbaland article calls his style 'stuttering', matching our record's sound line; no source used describes the era as 'Y2K R&B'. The 'after' beat rests on UK garage bootlegs and the 2004 Hot 100; nothing found on where the style ended around 2006."
+ },
+ {
+  "genre": "melodic",
+  "story": "Kanye West had used Auto-Tune on background vocals for The College Dropout in 2004, but not for lead vocals. In 2008, working on remixes of Lil Wayne's \"Lollipop\" and Young Jeezy's \"Put On\", he took to it, and T-Pain coached him. After his mother Donda died in November 2007 and his engagement to Alexis Phifer ended in April 2008, West recorded 808s & Heartbreak in September and October 2008 in Burbank, California and Honolulu. He flew in Kid Cudi, whose 2008 mixtape A Kid Named Cudi he admired, and Cudi co-wrote four songs. West felt rapping could not carry what he felt, so he mostly sang, through Auto-Tune, over the Roland TR-808 drum machine in minor keys. Hip-hop fans and some rappers mocked him for becoming \"sappy\". Drake's producer Noah \"40\" Shebib named the album as an influence on the mixtape So Far Gone, released in February 2009 and launched with a party in Toronto. Kid Cudi followed with Man on the Moon: The End of Day in 2009. The album is credited with starting emo rap; B.o.B and Childish Gambino turned to introspection after it, and Juice Wrld and Lil Uzi Vert later named it as an influence.",
+  "words": 199,
+  "sentences": [
+   {
+    "text": "Kanye West had used Auto-Tune on background vocals for The College Dropout in 2004, but not for lead vocals.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "He had experimented with it on his 2004 debut album ''[[The College Dropout]]''"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "but he had not used the technology for lead vocals until 2008"
+     }
+    ]
+   },
+   {
+    "text": "In 2008, working on remixes of Lil Wayne's \"Lollipop\" and Young Jeezy's \"Put On\", he took to it, and T-Pain coached him.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "We were working on the remixes for [[Lil Wayne]]'s '[[Lollipop (Lil Wayne song)|Lollipop]]' and [[Jeezy|Young Jeezy]]'s '[[Put On]]' and he fell in love with the Auto-Tune"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "West enlisted [[T-Pain]] for coaching on how to utilize the technology"
+     }
+    ]
+   },
+   {
+    "text": "After his mother Donda died in November 2007 and his engagement to Alexis Phifer ended in April 2008, West recorded 808s & Heartbreak in September and October 2008 in Burbank, California and Honolulu.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "following the death of his mother [[Donda West|Donda]] in November 2007 and his breakup with his then-fiancée Alexis Phifer in April 2008"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "West recorded it between September and October 2008 at Glenwood Studios in [[Burbank, California]] and Avex Recording Studio in [[Honolulu|Honolulu, Hawaii]]"
+     }
+    ]
+   },
+   {
+    "text": "He flew in Kid Cudi, whose 2008 mixtape A Kid Named Cudi he admired, and Cudi co-wrote four songs.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "After receiving a copy of his 2008 mixtape ''[[A Kid Named Cudi]]'', West became an avid fan"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "asked him to fly to Hawaii to work on ''808s & Heartbreak''"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "Kid Cudi co-wrote four songs on ''808s & Heartbreak''"
+     }
+    ]
+   },
+   {
+    "text": "West felt rapping could not carry what he felt, so he mostly sang, through Auto-Tune, over the Roland TR-808 drum machine in minor keys.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "West felt that his emotions could not be fully expressed simply through rapping"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "West mostly sings instead of [[rapping]], with vocals processed through [[Auto-Tune]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "prominent use of [[minor key]]s and the [[Roland TR-808]] drum machine"
+     }
+    ]
+   },
+   {
+    "text": "Hip-hop fans and some rappers mocked him for becoming \"sappy\".",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "Numerous hip-hop fans and certain rappers mocked West for becoming \"sappy\""
+     }
+    ]
+   },
+   {
+    "text": "Drake's producer Noah \"40\" Shebib named the album as an influence on the mixtape So Far Gone, released in February 2009 and launched with a party in Toronto.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/So_Far_Gone_(mixtape)?action=raw",
+      "quote": "is the third mixtape by Canadian rapper [[Drake (musician)|Drake]]. It was released on February 13, 2009"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/So_Far_Gone_(mixtape)?action=raw",
+      "quote": "The mixtape was promoted with a release party in [[Toronto]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/So_Far_Gone_(mixtape)?action=raw",
+      "quote": "said that ''[[808s & Heartbreak]]'' was an influence on the mixtape's atmospheric sounds"
+     }
+    ]
+   },
+   {
+    "text": "Kid Cudi followed with Man on the Moon: The End of Day in 2009.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "Kid Cudi's ''[[Man on the Moon: The End of Day]]'' (2009)"
+     }
+    ]
+   },
+   {
+    "text": "The album is credited with starting emo rap; B.o.B and Childish Gambino turned to introspection after it, and Juice Wrld and Lil Uzi Vert later named it as an influence.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "It has been credited with pioneering the [[emo rap]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "laid the groundwork for a new wave of hip-hop artists who generally eschewed typical rap braggadocio for intimate subject matter and introspection"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "including [[B.o.B]], Kid Cudi, [[Donald Glover|Childish Gambino]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "credits its influence on the late-2010s music of [[Juice Wrld]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw",
+      "quote": "[[Lil Uzi Vert]], another emo rapper, said that the album changed his life"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Origin: our record says Los Angeles and Toronto. 808s & Heartbreak was recorded 'at Glenwood Studios in [[Burbank, California]] and Avex Recording Studio in [[Honolulu|Honolulu, Hawaii]]' (https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw); Kanye West is not described there as an LA artist. Toronto is supported only through Drake's So Far Gone.",
+   "'Melodic rap' has no article of its own on English Wikipedia (it redirects to Pop rap); the 808s & Heartbreak article credits the album with 'pioneering the [[emo rap]]' instead.",
+   "Window end 2014: the sources trace the line on into the late 2010s (Juice Wrld, Lil Uzi Vert)."
+  ],
+  "notes": "Home language English. Built from the 808s & Heartbreak and So Far Gone articles; the Pop rap article (redirect target) was fetched but not used."
+ },
+ {
+  "genre": "amapiano",
+  "story": "Amapiano mixes kwaito, deep house, gqom, jazz, soul and lounge music. In the 2000s DJ Spoko, who had moved to Atteridgeville west of Pretoria, DJ Mujava and others made bacardi house, known as sgubhu saPitori. Because amapiano resembles bacardi house, some place its start in Pretoria, but accounts from the Johannesburg townships differ and no single founder is agreed. Kabelo Motha, known as Kabza de Small, moved from eMalahleni to Pretoria and began his music career in 2009. His single \"Umshove\" came out in 2018, and on 1 October 2019 he released the EP Piano Hub with DJ Maphorisa. The name is the Zulu word for \"pianos\", and the music is built on piano melodies and log-drum basslines. Kabza de Small credits the producer MDU aka TRP with finding the log-drum sound while trying out new plug-ins. Young people posted dance videos set to it on social media, which fed the dance scene in South Africa. In 2019 it spread across Africa, and in 2022 the online store Beatport gave it its own charts. In 2023 Tyla's \"Water\" became the first song by a South African soloist to enter the US Billboard Hot 100 in 55 years.",
+  "words": 197,
+  "sentences": [
+   {
+    "text": "Amapiano mixes kwaito, deep house, gqom, jazz, soul and lounge music.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+      "quote": "It is a hybrid of [[kwaito]],  [[deep house]], [[gqom]], [[jazz]], [[Soul music|soul]], and [[Lounge music|lounge]] music"
+     }
+    ]
+   },
+   {
+    "text": "In the 2000s DJ Spoko, who had moved to Atteridgeville west of Pretoria, DJ Mujava and others made bacardi house, known as sgubhu saPitori.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/DJ_Spoko?action=raw",
+      "quote": "Spoko was born and raised in Tzaneen, [[Limpopo]] before relocating to Atteridgeville situated west of [[Pretoria]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/DJ_Spoko?action=raw",
+      "quote": "In the 2000s, DJ Spoko, DJ Mujava, House Station, Mzo Bullet and several others pioneered bacardi house"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/DJ_Spoko?action=raw",
+      "quote": "popularly referred to as \"''sgubhu saPitori''\""
+     }
+    ]
+   },
+   {
+    "text": "Because amapiano resembles bacardi house, some place its start in Pretoria, but accounts from the Johannesburg townships differ and no single founder is agreed.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+      "quote": "Because it has some similarities with [[DJ Spoko#Bacardi house|bacardi house]],"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+      "quote": "some people assert the genre began in [[Pretoria]] but it remains uncertain"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+      "quote": "with various accounts of the musical styles in the [[Johannesburg]] townships"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+      "quote": "There is no single \"true founder\" of amapiano."
+     }
+    ]
+   },
+   {
+    "text": "Kabelo Motha, known as Kabza de Small, moved from eMalahleni to Pretoria and began his music career in 2009.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Kabza_de_Small?action=raw",
+      "quote": "popularly known as '''Kabza de Small'''"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Kabza_de_Small?action=raw",
+      "quote": "Born and raised in [[eMalahleni]], [[Mpumalanga]], later Motha"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Kabza_de_Small?action=raw",
+      "quote": "relocated to [[Pretoria]]. His musical career began in 2009."
+     }
+    ]
+   },
+   {
+    "text": "His single \"Umshove\" came out in 2018, and on 1 October 2019 he released the EP Piano Hub with DJ Maphorisa.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Kabza_de_Small?action=raw",
+      "quote": "His breakthrough single \"Umshove\" featuring South African singer Leehleza was released in 2018"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Kabza_de_Small?action=raw",
+      "quote": "On 1 October 2019, he released ''Piano Hub'' with [[DJ Maphorisa]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Kabza_de_Small?action=raw",
+      "quote": "The EP was certified 3× platinum in South Africa."
+     }
+    ]
+   },
+   {
+    "text": "The name is the Zulu word for \"pianos\", and the music is built on piano melodies and log-drum basslines.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+      "quote": "The word ''amapiano'' is a [[Zulu language|Zulu]] word that can be loosely translated to \"pianos.\""
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+      "quote": "Amapiano is distinguished by piano melodies, deep house, [[Soul music|soul]], kwaito and [[Slit drum#List of slit drums|log drum]] [[bassline]]s"
+     }
+    ]
+   },
+   {
+    "text": "Kabza de Small credits the producer MDU aka TRP with finding the log-drum sound while trying out new plug-ins.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+      "quote": "he's the one who came up with the log drum sound. These boys like experimenting. They always check out new plug-ins. So when MDU figured it out, he ran with it."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+      "quote": "Kabza De Small and MDU aka TRP set to release 50-track album"
+     }
+    ]
+   },
+   {
+    "text": "Young people posted dance videos set to it on social media, which fed the dance scene in South Africa.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+      "quote": "The genre was popular amongst young people on social media platforms, where videos using amapiano music were uploaded, which fuelled the dancing scene in South Africa."
+     }
+    ]
+   },
+   {
+    "text": "In 2019 it spread across Africa, and in 2022 the online store Beatport gave it its own charts.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+      "quote": "In 2019, the genre experienced increased popularity across the African continent"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+      "quote": "In 2022, the American online music store [[Beatport]] added the genre to its platform with its own dedicated charts and playlists."
+     }
+    ]
+   },
+   {
+    "text": "In 2023 Tyla's \"Water\" became the first song by a South African soloist to enter the US Billboard Hot 100 in 55 years.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+      "quote": "In October 2023, the afrobeats and amapiano fusion song \"[[Water (Tyla song)|Water]]\" by [[Tyla]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw",
+      "quote": "It became the first song by a South African soloist to enter the [[Billboard Hot 100|U.S. ''Billboard'' Hot 100]] in 55 years"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Start date: our record says 2012; https://en.wikipedia.org/wiki/Amapiano?action=raw gives \"cultural_origins  = Mid 2010s (disputed in [[Gauteng]])\" and https://af.wikipedia.org/wiki/Amapiano?action=raw says \"wat in die 2010's ontstaan het\". No source read gives 2012.",
+   "Place: our record says Pretoria; the English article says \"some people assert the genre began in [[Pretoria]] but it remains uncertain\" and points to \"various accounts of the musical styles in the [[Johannesburg]] townships\". The story says it is disputed.",
+   "Tempo: our record's 'about 110 BPM' is not stated in any page read; not contradicted either."
+  ],
+  "notes": "Read the isiZulu (zu) and Afrikaans (af) articles: both exist and are short; zu repeats the English origins text (no founder, Pretoria uncertain), af gives 'the 2010s' and Pretoria and Johannesburg townships. Nothing from them was needed in the story, so no zu/af quotes. The 'why' beat is thin: no source read says what the producers were trying to do; the story gives what changed (piano, log drum via MDU aka TRP's plug-in experiments) instead. The MDU aka TRP quote is from a reference title inside the English article's raw text. The Red Bull history page (redbull.com/za-en/amapiano-history) refused the script (403). Dropped for length: Afropiano (Nigeria) and Bongopiano (Tanzania) as later offshoots, both sourceable from the English article."
+ },
+ {
+  "genre": "latintrap",
+  "story": "Latin trap descends from southern hip hop and trap, influenced by reggaeton, R&B and urbano music. Ozuna dates it to \"El Pistolón\" in 2007, by Arcángel & De la Ghetto, Yaga & Mackie and Jowell & Randy in Puerto Rico; De la Ghetto says he began around 2005 or 2006. Its reggaeton artists wanted to bring American hip hop and R&B to a Spanish-speaking audience. Around 2014 Alvaro Diaz, Myke Towers and Fuete Billete posted songs on social media, and in 2015 and 2016 Noriel, Anuel AA, Bryant Myers and others put trap songs on SoundCloud. In July 2017 The Fader wrote that Puerto Rican rappers had taken trap's lurching bass lines and jittering 808s. They rapped and sang through autotune, in Spanish or Spanglish, about street life, violence, sex and drugs. Jorge Fonseca's compilation Trap Capos: Season 1 was the first Latin trap LP to top Billboard's Latin Rhythm Albums. In 2018 Cardi B's \"I Like It\", with Bad Bunny and J Balvin, became the first Latin trap song to reach number one on the US Billboard Hot 100. In Argentina, Duki, YSY A, Cazzu and others carried it across South America, faster than in Puerto Rico.",
+  "words": 198,
+  "sentences": [
+   {
+    "text": "Latin trap descends from southern hip hop and trap, influenced by reggaeton, R&B and urbano music.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+      "quote": "A direct descendant of [[Southern hip-hop|southern hip hop]] and [[Trap music|trap]], and influenced by [[reggaeton]], [[Latin R&B|R&B]] and [[urbano music]]."
+     }
+    ]
+   },
+   {
+    "text": "Ozuna dates it to \"El Pistolón\" in 2007, by Arcángel & De la Ghetto, Yaga & Mackie and Jowell & Randy in Puerto Rico; De la Ghetto says he began around 2005 or 2006.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+      "quote": "states that it originated in 2007 with the song \"El Pistolón\", performed by [[Arcángel & De la Ghetto]], [[Yaga & Mackie]], and [[Jowell & Randy]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+      "quote": "Latin trap originated in Puerto Rico and gained popularity throughout Latin America."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+      "quote": "states that he has been performing Latin trap since around 2005 or 2006"
+     }
+    ]
+   },
+   {
+    "text": "Its reggaeton artists wanted to bring American hip hop and R&B to a Spanish-speaking audience.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+      "quote": "Reggaeton artists at this time wanted to introduce elements of [[American hip hop]] and [[Contemporary R&B|R&B]] to a Spanish audience."
+     }
+    ]
+   },
+   {
+    "text": "Around 2014 Alvaro Diaz, Myke Towers and Fuete Billete posted songs on social media, and in 2015 and 2016 Noriel, Anuel AA, Bryant Myers and others put trap songs on SoundCloud.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+      "quote": "Latin trap began to gain prominence around 2014 when artists such as Alvaro Diaz, [[Myke Towers]] and Fuete Billete"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+      "quote": "began posting their songs through social media platforms"
+     },
+     {
+      "url": "https://es.wikipedia.org/wiki/Trap_latino?action=raw",
+      "quote": "Cierta popularidad comienza cuando [[Noriel]], [[Anuel AA]], [[Bryant Myers]], [[Brytiago]] y [[Almighty]], entre otros, publicaban sus canciones con ritmos de trap en plataformas de internet como [[SoundCloud]] entre 2015 y 2016."
+     }
+    ]
+   },
+   {
+    "text": "In July 2017 The Fader wrote that Puerto Rican rappers had taken trap's lurching bass lines and jittering 808s.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+      "quote": "In July 2017, ''[[The Fader]]'' wrote: \"Rappers and [[reggaeton]]eros from [[Puerto Rico]] have taken elements of trap – the lurching bass lines, jittering 808s and the eyes-half-closed vibe"
+     }
+    ]
+   },
+   {
+    "text": "They rapped and sang through autotune, in Spanish or Spanglish, about street life, violence, sex and drugs.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+      "quote": "Vocals include a bend of [[rapping]] and singing using [[synthesizers]] and [[autotune]] in Spanish or in Spanglish"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+      "quote": "The lyrics in Latin trap are often about street life, violence, sex, drugs"
+     }
+    ]
+   },
+   {
+    "text": "Jorge Fonseca's compilation Trap Capos: Season 1 was the first Latin trap LP to top Billboard's Latin Rhythm Albums.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+      "quote": "on the compilation ''Trap Capos: Season 1'', which became the first \"Latin trap\" [[LP record|LP]] to reach number one on [[Billboard (magazine)|''Billboard'']]'s [[Latin Rhythm Albums]] chart"
+     }
+    ]
+   },
+   {
+    "text": "In 2018 Cardi B's \"I Like It\", with Bad Bunny and J Balvin, became the first Latin trap song to reach number one on the US Billboard Hot 100.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+      "quote": "In 2018, [[Cardi B]]'s [[hit single]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+      "quote": "featuring Bad Bunny and [[J Balvin]] became the first Latin trap song to reach number one on the US [[Billboard Hot 100|''Billboard'' Hot 100]] chart"
+     }
+    ]
+   },
+   {
+    "text": "In Argentina, Duki, YSY A, Cazzu and others carried it across South America, faster than in Puerto Rico.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://es.wikipedia.org/wiki/Trap_latino?action=raw",
+      "quote": "en [[Argentina]] tomó impulso el género con artistas como [[Duki]], [[YSY A]], [[Cazzu]]"
+     },
+     {
+      "url": "https://es.wikipedia.org/wiki/Trap_latino?action=raw",
+      "quote": "estos popularizaron el trap a lo largo de [[América del Sur]] con un tempo más rápido del que se escuchaba en Puerto Rico"
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Start date: our record says 2015; https://en.wikipedia.org/wiki/Latin_trap?action=raw says \"it gained popularity after 2007\" and gives \"cultural_origins  = 2000s–2010s, in [[Puerto Rico]]\"; De la Ghetto is quoted as \"performing Latin trap since around 2005 or 2006\". https://es.wikipedia.org/wiki/Trap_latino?action=raw gives \"Alta desde 2015 en Hispanoamérica y España\" as the start of its popularity, which fits 2015 as the date it took off rather than began.",
+   "Tempo: our record says a half-time feel around 70 to 80 BPM; the Spanish article says Argentine artists spread it \"con un tempo más rápido del que se escuchaba en Puerto Rico\", so the tempo marker fits the Puerto Rican sound, not all of it."
+  ],
+  "notes": "Read the Spanish article (es: Trap latino) and used it for two sentences (SoundCloud artists 2015-2016, Argentina). The 'why' sentence (bringing American hip hop and R&B to a Spanish audience) is the article's own statement, uncited there. Ozuna's and De la Ghetto's dates are their own claims, and the story attributes them."
+ },
+ {
+  "genre": "moderntrap",
+  "story": "Trap is named after the Atlanta term \"trap house\", a drug house, and the Atlanta rapper T.I. says he coined the word with his 2003 album Trap Muzik. In the mid-2000s Atlanta producers DJ Toomp, Shawty Redd and Zaytoven set its sound: synth, orchestra and string swells over 808 kick drums. Lex Luger, born in 1991, drummed in church bands, made beats on an unlicensed copy of FL Studio and from late 2008 posted them on Myspace. In 2009 the rapper Waka Flocka Flame wrote back, and later flew him to Atlanta. Luger produced most of Waka's album Flockaveli (5 October 2010): 808 trills, bass kicks, hand claps, dense synthesizers and shifting sub-bass layers under constant ad-libs. He produced more than 200 songs in 2010 and 2011, and other producers copied his sounds. Beats often run in half-time, around 70 BPM, for finer hi-hat subdivisions. The trio Migos, formed in Lawrenceville, Georgia, in 2008, broke out in 2013 with \"Versace\", produced by Zaytoven. In Chicago, Chief Keef's \"I Don't Like\" and \"Love Sosa\" spawned drill as a subgenre of trap. Katy Perry's \"Dark Horse\" with Juicy J reached number one on the Billboard Hot 100 in January 2014.",
+  "words": 198,
+  "sentences": [
+   {
+    "text": "Trap is named after the Atlanta term \"trap house\", a drug house, and the Atlanta rapper T.I. says he coined the word with his 2003 album Trap Muzik.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+      "quote": "The genre takes its name from the [[Atlanta]] term \"trap house\", a [[drug house]]."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+      "quote": "I [[Protologism|coined the term]], it was my second album, ''[[Trap Muzik]]'' it dropped in 2003."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+      "quote": "Atlanta-based rapper [[T.I.]], in a December 2012 interview"
+     }
+    ]
+   },
+   {
+    "text": "In the mid-2000s Atlanta producers DJ Toomp, Shawty Redd and Zaytoven set its sound: synth, orchestra and string swells over 808 kick drums.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+      "quote": "Some of the notable trap producers during the mid to late 2000s include [[DJ Toomp]], Fatboi, [[Drumma Boy]], [[Shawty Redd]], D. Rich, and [[Zaytoven]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+      "quote": "(typically based around [[Synthesizer|synth]], [[orchestra]], and string swells with tight, [[Roland TR-808|bass-heavy 808 kick drums]]) that would come to be associated with the genre developed in Atlanta"
+     }
+    ]
+   },
+   {
+    "text": "Lex Luger, born in 1991, drummed in church bands, made beats on an unlicensed copy of FL Studio and from late 2008 posted them on Myspace.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Lex_Luger_(music_producer)?action=raw",
+      "quote": "(born March 6, 1991)"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Lex_Luger_(music_producer)?action=raw",
+      "quote": "Luger played percussion for his church and drummed in church bands"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Lex_Luger_(music_producer)?action=raw",
+      "quote": "brought Luger an unlicensed copy of [[FL Studio]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Lex_Luger_(music_producer)?action=raw",
+      "quote": "Around late 2008, he began cold-emailing his beats to various rappers and posting instrumentals on his Myspace page"
+     }
+    ]
+   },
+   {
+    "text": "In 2009 the rapper Waka Flocka Flame wrote back, and later flew him to Atlanta.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Lex_Luger_(music_producer)?action=raw",
+      "quote": "In 2009, a then unknown rapper by the name of [[Waka Flocka Flame]] began e-mailing him back."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Lex_Luger_(music_producer)?action=raw",
+      "quote": "eventually Waka Flocka Flame flew him out to Atlanta to collaborate with him"
+     }
+    ]
+   },
+   {
+    "text": "Luger produced most of Waka's album Flockaveli (5 October 2010): 808 trills, bass kicks, hand claps, dense synthesizers and shifting sub-bass layers under constant ad-libs.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Flockaveli?action=raw",
+      "quote": "It was primarily produced by [[Lex Luger (producer)|Lex Luger]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Flockaveli?action=raw",
+      "quote": "on October 5, 2010"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Flockaveli?action=raw",
+      "quote": "incorporates [[drill 'n' bass]] [[Roland TR-808|808]] [[Trill (music)|trills]], [[bass drum|bass kick]]s, hand claps"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Flockaveli?action=raw",
+      "quote": "dense [[synthesizer]]s, and [[level (music)|shifting]] [[sub-bass]] layers"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Flockaveli?action=raw",
+      "quote": "Waka Flocka Flame's unrefined street raps feature constant [[ad lib]]s"
+     }
+    ]
+   },
+   {
+    "text": "He produced more than 200 songs in 2010 and 2011, and other producers copied his sounds.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+      "quote": "produced more than 200 songs in 2010 and 2011"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+      "quote": "Many of his sounds have been adopted by other hip-hop producers trying to replicate his success."
+     }
+    ]
+   },
+   {
+    "text": "Beats often run in half-time, around 70 BPM, for finer hi-hat subdivisions.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+      "quote": "often [[Programming (music)|programmed]] in [[Half-time (music)|half-time]] to achieve finer hi-hat subdivisions"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+      "quote": "though the tempo of a typical trap beat is around 70 (140) BPM"
+     }
+    ]
+   },
+   {
+    "text": "The trio Migos, formed in Lawrenceville, Georgia, in 2008, broke out in 2013 with \"Versace\", produced by Zaytoven.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Migos?action=raw",
+      "quote": "trio founded in [[Lawrenceville, Georgia]], in 2008"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Migos?action=raw",
+      "quote": "In 2013, Migos released their breakout [[Single (music)|single]] \"[[Versace (song)|Versace]]\". The single was produced by [[Zaytoven]]"
+     }
+    ]
+   },
+   {
+    "text": "In Chicago, Chief Keef's \"I Don't Like\" and \"Love Sosa\" spawned drill as a subgenre of trap.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+      "quote": "Keef's \"[[I Don't Like]]\" and \"[[Love Sosa]]\""
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+      "quote": "spawning a new subgenre within trap called [[Drill music|drill]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+      "quote": "\"I Don't Like\" inspired fellow Chicago native"
+     }
+    ]
+   },
+   {
+    "text": "Katy Perry's \"Dark Horse\" with Juicy J reached number one on the Billboard Hot 100 in January 2014.",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+      "quote": "released a song titled \"[[Dark Horse (Katy Perry song)|Dark Horse]]\" featuring rapper [[Juicy J]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+      "quote": "The song reached number one on the ''Billboard'' Hot 100 by the end of January 2014."
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Start date: our record says 2010; https://en.wikipedia.org/wiki/Trap_music?action=raw gives \"cultural_origins  = 1990s, [[Atlanta]]\" and \"the modern sound of trap emerged in 1999\". 2010 fits the record's 'modern trap' as the Lex Luger / Flockaveli sound (\"The style was popularized by [[Record producer|producer]] [[Lex Luger (record producer)|Lex Luger]], who produced the influential [[Waka Flocka Flame]] album ''[[Flockaveli]]'' in 2010\"), so this is a scope difference, not an error."
+  ],
+  "notes": "No home-language article applies (English). The 'Migos flow' triplet marker in our record could not be sourced from the pages read: the trap article only lists a journal paper titled 'Triplet Flow in Recent Hip-Hop Music' in its bibliography, so the story names Migos and 'Versace' without describing their flow. T.I.'s coining of the term is his own claim and is attributed. Lex Luger's Virginia origin was left out: the page names his crew 'Virginia Boyz Productionz' and a high school but does not say where he grew up."
+ },
+ {
+  "genre": "edmpop",
+  "story": "David Guetta, born and raised in Paris, began as a DJ in Parisian nightclubs and discovered house music on French radio in 1987. Axwell, Steve Angello and Sebastian Ingrosso formed Swedish House Mafia in late 2008 and, with Avicii, took progressive house into the mainstream. From 2009 Guetta scored crossover hits with pop and hip-hop singers: Kelly Rowland on \"When Love Takes Over\", the Black Eyed Peas on \"I Gotta Feeling\", Sia on \"Titanium\". Tim Bergling, born in Stockholm in 1989, taught himself on a pirated copy of FL Studio, and as Avicii had his first Billboard Hot 100 entry with \"Levels\" in 2011. In the late 2000s the American music industry took up the term EDM to re-brand US rave culture. Mixmag called the result a \"drop-heavy, stadium-filling\" main stage sound. Avicii and Swedish House Mafia played arenas rather than clubs; in December 2011 Swedish House Mafia became the first electronic act to sell out Madison Square Garden. Avicii's 2013 \"Wake Me Up\", sung by soul singer Aloe Blacc, drew on bluegrass. The American EDM market began to wane in 2016, and in April that year Guetta and Showtek released a single called \"The Death of EDM\".",
+  "words": 198,
+  "sentences": [
+   {
+    "text": "David Guetta, born and raised in Paris, began as a DJ in Parisian nightclubs and discovered house music on French radio in 1987.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/David_Guetta?action=raw",
+      "quote": "Guetta was born and was raised in [[Paris]]."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/David_Guetta?action=raw",
+      "quote": "David Guetta began his music career as a disc jockey in Parisian nightclubs."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/David_Guetta?action=raw",
+      "quote": "he discovered [[house music]] when he heard a [[Farley \"Jackmaster\" Funk]] track on French radio in 1987"
+     }
+    ]
+   },
+   {
+    "text": "Axwell, Steve Angello and Sebastian Ingrosso formed Swedish House Mafia in late 2008 and, with Avicii, took progressive house into the mainstream.",
+    "beat": "before",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Swedish_House_Mafia?action=raw",
+      "quote": "a Swedish [[house music|house]] [[Supergroup (music)|supergroup]] consisting of [[Axwell]], [[Steve Angello]] and [[Sebastian Ingrosso]]. The group officially formed in late 2008"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Swedish_House_Mafia?action=raw",
+      "quote": "They are recognized for bringing the [[progressive house]] genre into the mainstream around 2009–2010, together with their compatriot [[Avicii]]"
+     }
+    ]
+   },
+   {
+    "text": "From 2009 Guetta scored crossover hits with pop and hip-hop singers: Kelly Rowland on \"When Love Takes Over\", the Black Eyed Peas on \"I Gotta Feeling\", Sia on \"Titanium\".",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw",
+      "quote": "In 2009, [[French house]] musician [[David Guetta]] began to regularly achieve [[Crossover music|crossover hits]] via collaborations with other pop and hip-hop acts, such as [[Kelly Rowland]] (\"[[When Love Takes Over]]\")"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw",
+      "quote": "[[The Black Eyed Peas]] (\"[[I Gotta Feeling]]\"), and [[Sia]] (\"[[Titanium (David Guetta song)|Titanium]]\")"
+     }
+    ]
+   },
+   {
+    "text": "Tim Bergling, born in Stockholm in 1989, taught himself on a pirated copy of FL Studio, and as Avicii had his first Billboard Hot 100 entry with \"Levels\" in 2011.",
+    "beat": "who",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Avicii?action=raw",
+      "quote": "Tim Bergling was born in [[Stockholm]], Sweden, on 8 September 1989"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Avicii?action=raw",
+      "quote": "he taught himself to use a [[Software piracy|pirated]] copy of [[FL Studio]]"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Avicii?action=raw",
+      "quote": "\"[[Levels (Avicii song)|Levels]]\" (2011) was his first entry on the [[Billboard Hot 100 |''Billboard'' Hot 100]]"
+     }
+    ]
+   },
+   {
+    "text": "In the late 2000s the American music industry took up the term EDM to re-brand US rave culture.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw",
+      "quote": "the American music industry's adoption of the term EDM in the late 2000s was an attempt to re-brand US \"rave culture\""
+     }
+    ]
+   },
+   {
+    "text": "Mixmag called the result a \"drop-heavy, stadium-filling\" main stage sound.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw",
+      "quote": "being described in a ''[[MixMag]]'' article as being \"the drop-heavy, stadium-filling, fist-pumping, chart-topping, massively commercial main stage sound that conquered America"
+     }
+    ]
+   },
+   {
+    "text": "Avicii and Swedish House Mafia played arenas rather than clubs; in December 2011 Swedish House Mafia became the first electronic act to sell out Madison Square Garden.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw",
+      "quote": "toured major venues such as arenas and stadiums rather than playing clubs; in December 2011, Swedish House Mafia became the first electronic music act to sell out New York City's [[Madison Square Garden]]"
+     }
+    ]
+   },
+   {
+    "text": "Avicii's 2013 \"Wake Me Up\", sung by soul singer Aloe Blacc, drew on bluegrass.",
+    "beat": "why",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Wake_Me_Up_(Avicii_song)?action=raw",
+      "quote": "and American [[soul music|soul]] singer [[Aloe Blacc]], who provides vocals for the track."
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw",
+      "quote": "whose 2013 album [[True (Avicii album)|''True'']] featured songs incorporating elements of [[bluegrass music|bluegrass]], such as lead single \"[[Wake Me Up (Avicii song)|Wake Me Up]]\""
+     }
+    ]
+   },
+   {
+    "text": "The American EDM market began to wane in 2016, and in April that year Guetta and Showtek released a single called \"The Death of EDM\".",
+    "beat": "after",
+    "evidence": [
+     {
+      "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw",
+      "quote": "the American popular EDM market started to wane in 2016, when some producers began to diversify beyond the \"big room\" sound"
+     },
+     {
+      "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw",
+      "quote": "David Guetta and [[Showtek]]—in a [[techno]]-influenced single released in April 2016 titled \"The Death of EDM\""
+     }
+    ]
+   }
+  ],
+  "beats_missing": [],
+  "disagreements": [
+   "Window: our record says 2011-2015; https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw places Guetta's crossover hits from 2009 (\"In 2009, [[French house]] musician [[David Guetta]] began to regularly achieve [[Crossover music|crossover hits]]\") and the end at 2016 (\"the American popular EDM market started to wane in 2016\"). The record's window is the peak, not the start and end.",
+   "Origin: our record says Paris and Stockholm; the people are from there (Guetta, Paris; Avicii, Stockholm; Swedish House Mafia, Swedish), but the EDM article tells the pop crossover as a US market story (\"the American music industry's adoption of the term EDM in the late 2000s was an attempt to re-brand US \\\"rave culture\\\"\")."
+  ],
+  "notes": "No home-language article applies; the genre has no Wikipedia article of its own under 'EDM-pop', so the story is built from the Electronic dance music article (US popularity section) and the artists' articles. Our markers (supersaws, big-room kicks) are not described for the pop songs in the pages read; only Mixmag's 'drop-heavy, stadium-filling' description and the later 'big room' sound appear. Dropped for length: Billboard's Dance/Electronic Songs chart (January 2013), sourced in the EDM article."
+ }
+]

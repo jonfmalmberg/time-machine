@@ -1,0 +1,32 @@
+{
+ "id": "spirituals",
+ "name": "Spirituals and work songs",
+ "region": "nam",
+ "family": "soul",
+ "tradition": "sacred",
+ "began": 1800,
+ "ended": 1930,
+ "origin": {
+  "text": "US South",
+  "lat": 32.78,
+  "lon": -79.93,
+  "country": "US"
+ },
+ "definition": {
+  "window": "1800–1930",
+  "sound": "Unaccompanied or simply harmonised group singing of biblical songs and labour chants, led by one voice and answered by the group.",
+  "markers": [
+   "Call and response between leader and group",
+   "No band, or only hand claps and work rhythms",
+   "Biblical imagery of escape and deliverance"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 3,
+  "fame": 3,
+  "intrigue": 2
+ },
+ "tier": 1,
+ "row": 0
+}

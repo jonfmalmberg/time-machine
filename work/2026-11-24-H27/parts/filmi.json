@@ -1,0 +1,109 @@
+{
+ "genre": "filmi",
+ "story": "Hindi film song drew on Ramleela, nautanki, tamasha and the Parsi theatre. Its lyrics leaned on Urdu poetry and the ghazal. Ardeshir Irani's Alam Ara (1931), the first Indian sound film, had seven songs. It was shot at Jyoti Studios in Bombay. Its \"De De Khuda Ke Naam Pe Pyaare\", sung by Wazir Muhammad Khan, is counted as the first song of Hindi cinema. Irani said he had only a pump organ and a tabla player. Singers at first recorded twice, once during the shoot and again in the studio. In 1935 Raichand Boral introduced playback singing to Hindi film in Dhoop Chhaon. Its song \"Main Khush Hona Chahun\" was sung by a women's chorus led by Parul Ghosh. From 1934 film songs were issued on gramophone records and later played on radio. From 1948 the music director Ghulam Haider trained the singer Lata Mangeshkar. She and her sister Asha Bhosle became two of India's most prolific playback singers. Cheap cassettes carried the songs across Asia and the diaspora until that industry crashed in 2000.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "Hindi film song drew on Ramleela, nautanki, tamasha and the Parsi theatre.",
+   "url": "https://en.wikipedia.org/wiki/Hindi_film_music?action=raw",
+   "quote": "Bollywood music has drawn its inspiration from numerous traditional sources such as ''[[Ramleela]]'', ''[[nautanki]]'', ''[[tamasha]]'' and [[Parsi theatre]]"
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "Its lyrics leaned on Urdu poetry and the ghazal.",
+   "url": "https://en.wikipedia.org/wiki/Hindi_film_music?action=raw",
+   "quote": "the lyrics draw heavily from Urdu poetry and the [[ghazal]] tradition"
+  },
+  {
+   "n": 3,
+   "beat": "who",
+   "text": "Ardeshir Irani's Alam Ara (1931), the first Indian sound film, had seven songs.",
+   "url": "https://en.wikipedia.org/wiki/Hindi_film_music?action=raw",
+   "quote": "the first sound film ''[[Alam Ara]]'' (1931) by [[Ardeshir Irani]] which featured seven songs"
+  },
+  {
+   "n": 4,
+   "beat": "who",
+   "text": "It was shot at Jyoti Studios in Bombay.",
+   "url": "https://en.wikipedia.org/wiki/Alam_Ara?action=raw",
+   "quote": "Principal photography was completed by Adi M. Irani at Jyoti Studios in Bombay within four months"
+  },
+  {
+   "n": 5,
+   "beat": "who",
+   "text": "Its \"De De Khuda Ke Naam Pe Pyaare\", sung by Wazir Muhammad Khan, is counted as the first song of Hindi cinema.",
+   "url": "https://en.wikipedia.org/wiki/Alam_Ara?action=raw",
+   "quote": "He became popular at the time of its release and was acknowledged as the first song of [[Hindi cinema]]"
+  },
+  {
+   "n": 6,
+   "beat": "why",
+   "text": "Irani said he had only a pump organ and a tabla player.",
+   "url": "https://en.wikipedia.org/wiki/Alam_Ara?action=raw",
+   "quote": "adding that he had only a [[pump organ]] and [[tabla]] player"
+  },
+  {
+   "n": 7,
+   "beat": "why",
+   "text": "Singers at first recorded twice, once during the shoot and again in the studio.",
+   "url": "https://en.wikipedia.org/wiki/Playback_singer?action=raw",
+   "quote": "singers made dual recordings for a film, one during the shoot, and later in the recording studio"
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "In 1935 Raichand Boral introduced playback singing to Hindi film in Dhoop Chhaon.",
+   "url": "https://en.wikipedia.org/wiki/Raichand_Boral?action=raw",
+   "quote": "In 1935, he introduced playback singing for the first time in the [[Hindi]] feature film ''Dhoop Chhaon'' (1935)."
+  },
+  {
+   "n": 9,
+   "beat": "why",
+   "text": "Its song \"Main Khush Hona Chahun\" was sung by a women's chorus led by Parul Ghosh.",
+   "url": "https://en.wikipedia.org/wiki/Raichand_Boral?action=raw",
+   "quote": "had an all women chorus led by [[Parul Ghosh]]"
+  },
+  {
+   "n": 10,
+   "beat": "why",
+   "text": "From 1934 film songs were issued on gramophone records and later played on radio.",
+   "url": "https://en.wikipedia.org/wiki/Hindi_film_music?action=raw",
+   "quote": "In 1934 Hindi film songs began to be recorded on gramophones and later, played on radio channels"
+  },
+  {
+   "n": 11,
+   "beat": "after",
+   "text": "From 1948 the music director Ghulam Haider trained the singer Lata Mangeshkar.",
+   "url": "https://en.wikipedia.org/wiki/Lata_Mangeshkar?action=raw",
+   "quote": "After Vinayak's death in 1948, music director [[Ghulam Haider (composer)|Ghulam Haider]] mentored her as a singer."
+  },
+  {
+   "n": 12,
+   "beat": "after",
+   "text": "She and her sister Asha Bhosle became two of India's most prolific playback singers.",
+   "url": "https://en.wikipedia.org/wiki/Playback_singer?action=raw",
+   "quote": "The sisters [[Lata Mangeshkar]] and [[Asha Bhosle]], who mainly worked in Hindi films, are two of the best-known and most prolific playback singers in India."
+  },
+  {
+   "n": 13,
+   "beat": "after",
+   "text": "Cheap cassettes carried the songs across Asia and the diaspora until that industry crashed in 2000.",
+   "url": "https://en.wikipedia.org/wiki/Hindi_film_music?action=raw",
+   "quote": "The spread was galvanised by the advent of cheap plastic tape cassettes which were produced in the millions until the industry crashed in 2000."
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "Tree: the record's principal parent is hindustani. The English article names theatre sources (Ramleela, nautanki, tamasha, Parsi theatre) and \"derive their inspiration from both classical and modern sources\" (https://en.wikipedia.org/wiki/Hindi_film_music?action=raw), but does not name Hindustani classical music specifically; Parsi theatre is not on the tree as a parent.",
+  "Origin: the record says Mumbai. Alam Ara was shot in Bombay (quote in sentence 4), but playback singing came from New Theatres, a Calcutta studio, in Dhoop Chhaon (1935) (Raichand Boral article). The Calcutta location of New Theatres is not stated in the quotes used, so the story does not say it."
+ ],
+ "notes": "English 'Filmi' redirects to 'Hindi film music'; URLs use the target title. Sentence 5: Wazir Muhammad Khan's name and the song title are in the same table row as the quoted note in the 'Alam Ara' raw text, not in the quoted string itself. Sentence 9's song title 'Main Khush Hona Chahun' is in the same sentence of the Raichand Boral article as the quote. The record's 'Mumbai' and the article's 'Bombay' are the same city."
+}

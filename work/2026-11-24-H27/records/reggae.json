@@ -1,0 +1,47 @@
+{
+ "id": "reggae",
+ "name": "Reggae and dub",
+ "region": "carib",
+ "family": "riddim",
+ "tradition": "jamaican",
+ "began": 1968,
+ "ended": 1985,
+ "origin": {
+  "text": "Kingston",
+  "lat": 18.01,
+  "lon": -76.79,
+  "country": "JM"
+ },
+ "definition": {
+  "window": "1968–1985",
+  "sound": "Laid-back Jamaican music built on a heavy bass and drum riddim with offbeat guitar and organ, often carrying Rastafarian and social themes; dub strips it down to bass, drums and echo.",
+  "markers": [
+   "One-drop drumming with the kick on beat three",
+   "Deep, melodic bass line and offbeat guitar skank with organ bubble",
+   "Roots themes or dub effects: reverb, delay, dropouts"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 5,
+  "fame": 5,
+  "intrigue": 2
+ },
+ "tier": 1,
+ "row": 2,
+ "_tree_led_to": [
+  "hiphop (other)",
+  "jungle (other)",
+  "dubstep (other)",
+  "pacreggae (principal)",
+  "dancehall (principal)",
+  "axe (other)",
+  "triphop (other)",
+  "loversrock (principal)",
+  "nigerianreggae (principal)",
+  "mizikrasin (other)"
+ ],
+ "_tree_came_from": [
+  "rocksteady (principal)"
+ ]
+}

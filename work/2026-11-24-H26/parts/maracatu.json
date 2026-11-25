@@ -1,0 +1,150 @@
+{
+ "genre": "maracatu",
+ "story": "Maracatu nação grew out of the crowning of Kings of Congo, enslaved people given leadership roles in the enslaved community by the Portuguese administration. Its oldest record, from Pernambuco, dates to 1711. In Recife on 15 November 1800 an enslaved man, Manuel Santiago, broke with Maracatu Brilhante and founded Maracatu Elefante, later the first nation led by a woman. When Brazil abolished slavery in 1888 the Kings of Congo ended, but the nations kept choosing symbolic leaders and staging their coronations. They parade with 80 to 100 drummers on rope-tuned alfaias and a gonguê bell, behind a king and queen dressed as the Portuguese Baroque court. Between the late 19th and early 20th centuries, sugarcane cutters on the plantations of Nazaré da Mata created maracatu rural, also called maracatu de trombone. Around 1991 Chico Science, from Olinda's Rio Doce neighbourhood, co-founded the Mangue Bit movement, and his band Chico Science & Nação Zumbi fused maracatu with rock, funk and hip hop. In the 1990s Maracatu Nação Pernambuco took the genre to overseas audiences, and groups now play it in cities including Lisbon and Toronto.",
+ "words": 184,
+ "sentences": [
+  {
+   "text": "Maracatu nação grew out of the crowning of Kings of Congo, enslaved people given leadership roles in the enslaved community by the Portuguese administration.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+     "quote": "origins lie in the investiture ceremonies of the ''Reis do Congo'' (Kings of Congo)"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+     "quote": "who were granted leadership roles within the enslaved community by the Portuguese administration"
+    }
+   ]
+  },
+  {
+   "text": "Its oldest record, from Pernambuco, dates to 1711.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Maracatu_Nação?action=raw",
+     "quote": "The oldest record of Maracatu Nação dates back to 1711, but the year of its origin is uncertain"
+    }
+   ]
+  },
+  {
+   "text": "In Recife on 15 November 1800 an enslaved man, Manuel Santiago, broke with Maracatu Brilhante and founded Maracatu Elefante, later the first nation led by a woman.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Maracatu_Nação?action=raw",
+     "quote": "One of the oldest groups is Maracatu Elefante, founded on November 15, 1800, in Recife by the slave Manuel Santiago after his revolt against the leadership of Maracatu Brilhante"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Maracatu_Nação?action=raw",
+     "quote": "Nação Elefante was the first to be led by a matriarch"
+    }
+   ]
+  },
+  {
+   "text": "When Brazil abolished slavery in 1888 the Kings of Congo ended, but the nations kept choosing symbolic leaders and staging their coronations.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+     "quote": "When [[Afro-Brazilian#Abolition of Slavery|slavery was abolished in Brazil]] in 1888, the institution of the Kings of Congo ceased to exist"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+     "quote": "''nações'' continued to choose symbolic leaders and evoke coronation ceremonies for those leaders"
+    }
+   ]
+  },
+  {
+   "text": "They parade with 80 to 100 drummers on rope-tuned alfaias and a gonguê bell, behind a king and queen dressed as the Portuguese Baroque court.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+     "quote": "Traditional ''nações'' perform by parading with a drumming group of 80–100"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+     "quote": "''[[alfaia]]'' (a large wooden rope-tuned [[drum]]), ''gonguê'' (a metal [[Cowbell (instrument)|cowbell]])"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+     "quote": "imitate the [[Portugal|Portuguese]] royal court of the [[Baroque]] period"
+    }
+   ]
+  },
+  {
+   "text": "Between the late 19th and early 20th centuries, sugarcane cutters on the plantations of Nazaré da Mata created maracatu rural, also called maracatu de trombone.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://pt.wikipedia.org/wiki/Maracatu?action=raw",
+     "quote": "Os primeiros maracatus rurais foram criados em engenhos de [[Nazaré da Mata]]"
+    },
+    {
+     "url": "https://pt.wikipedia.org/wiki/Maracatu?action=raw",
+     "quote": "cortadores de cana-de-açúcar, entre fins do século XIX e início do XX"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+     "quote": "''maracatu de orquesta'', and ''maracatu de trombone''"
+    }
+   ]
+  },
+  {
+   "text": "Around 1991 Chico Science, from Olinda's Rio Doce neighbourhood, co-founded the Mangue Bit movement, and his band Chico Science & Nação Zumbi fused maracatu with rock, funk and hip hop.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Chico_Science?action=raw",
+     "quote": "born in the [[Rio Doce, Olinda|Rio Doce]] neighborhood of [[Olinda]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Chico_Science?action=raw",
+     "quote": "Around 1991, Chico Science, along with singer [[Fred 04]] of the band [[Mundo Livre S/A]], founded the [[Mangue Bit]] cultural movement"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Chico_Science?action=raw",
+     "quote": "their music fused [[rock and roll|rock]], [[funk]], and [[hip hop music|hip hop]] with [[maracatu]]"
+    }
+   ]
+  },
+  {
+   "text": "In the 1990s Maracatu Nação Pernambuco took the genre to overseas audiences, and groups now play it in cities including Lisbon and Toronto.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+     "quote": "Maracatu Nação Pernambuco, while not a traditional ''maracatu'', was primarily responsible for introducing the genre to overseas audiences in the 1990s"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw",
+     "quote": "including [[Lisbon]], [[Toronto]]"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Not with our record, but between sources on when maracatu rural began: English says early 20th century, Portuguese says late 19th to early 20th. https://en.wikipedia.org/wiki/Maracatu?action=raw quote: \"It evolved in the early 20th century as a fusion of pre-existing forms of Carnival revelry\"; https://pt.wikipedia.org/wiki/Maracatu?action=raw quote: \"entre fins do século XIX e início do XX\""
+ ],
+ "sources": [
+  {
+   "title": "Maracatu",
+   "url": "https://en.wikipedia.org/wiki/Maracatu?action=raw"
+  },
+  {
+   "title": "Maracatu Nação",
+   "url": "https://en.wikipedia.org/wiki/Maracatu_Nação?action=raw"
+  },
+  {
+   "title": "Maracatu (pt)",
+   "url": "https://pt.wikipedia.org/wiki/Maracatu?action=raw"
+  },
+  {
+   "title": "Chico Science",
+   "url": "https://en.wikipedia.org/wiki/Chico_Science?action=raw"
+  }
+ ],
+ "notes": "Kept consistent with the record (1711 first record, Recife/Olinda nations, rural baque solto). The record's existing evidence uses non-raw Wikipedia URLs; this part uses raw wikitext URLs."
+}

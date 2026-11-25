@@ -1,0 +1,153 @@
+{
+ "genre": "reggaeton",
+ "story": "Reggaeton grew out of Panama's Spanish-language reggae of the late 1980s; reggae had reached Panama with Jamaican and Barbadian workers who built the Panama Canal. Its drum pattern was first featured in Shabba Ranks's \"Dem Bow\" of 1991, and the producers Steely & Clevie are credited with creating it. From 1992 DJ Playero and rappers from around San Juan and Carolina, Puerto Rico, recorded in carports and housing projects such as Villa Kennedy. Their cassettes were sold from car trunks; Daddy Yankee is credited with first saying \"reggaeton\" on Playero 34. In February 1995 police raided six San Juan record stores and seized hundreds of cassettes under obscenity laws; schools banned baggy clothing and underground music. That year DJ Negro put out The Noise 3 with a label reading \"Non-explicit lyrics\", and it was a hit. In 2004 reggaeton spread through the United States and Europe, and Daddy Yankee's album Barrio Fino and its single \"Gasolina\" opened the door for it worldwide. In 2017 the video for \"Despacito\" by Luis Fonsi featuring Daddy Yankee reached one billion views in less than three months. From 2018, starting with \"Te Boté\", producers turned to a sharper, minimalist dembow.",
+ "words": 196,
+ "sentences": [
+  {
+   "text": "Reggaeton grew out of Panama's Spanish-language reggae of the late 1980s; reggae had reached Panama with Jamaican and Barbadian workers who built the Panama Canal.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "arose from the [[Spanish reggae]] of [[Panamanian reggaetón|Panama]] during the late 1980s"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "There was an influx of Jamaican and Barbados immigrants in Panama during this time in order to build the [[Panama Canal]] who brought [[reggae]] music to Panama"
+    },
+    {
+     "url": "https://es.wikipedia.org/wiki/Reguet%C3%B3n?action=raw",
+     "quote": "es un [[género musical]] que se originó en [[Panamá]] a finales de la década de 1980"
+    }
+   ]
+  },
+  {
+   "text": "Its drum pattern was first featured in Shabba Ranks's \"Dem Bow\" of 1991, and the producers Steely & Clevie are credited with creating it.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "The riddim was first highlighted by [[Shabba Ranks]] in \"[[Dem Bow]]\", from his 1991 album ''[[Just Reality]]''"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "[[Steely & Clevie]], creators of the \"Poco Man Jam\" (\"Fish Market\") riddim, are usually credited with the creation of dembow"
+    }
+   ]
+  },
+  {
+   "text": "From 1992 DJ Playero and rappers from around San Juan and Carolina, Puerto Rico, recorded in carports and housing projects such as Villa Kennedy.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://es.wikipedia.org/wiki/Reguet%C3%B3n?action=raw",
+     "quote": "fueron los primeros lugares en donde se cantó reguetón a cargo de [[DJ Playero]] y raperos locales de los suburbios de San Juan y Carolina en 1992"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "at public housing complexes such as Villa Kennedy, and Jurutungo"
+    }
+   ]
+  },
+  {
+   "text": "Their cassettes were sold from car trunks; Daddy Yankee is credited with first saying \"reggaeton\" on Playero 34.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "The cassettes were sold or distributed on the streets from the trunks of cars"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "when [[Daddy Yankee]] mentioned it for the first time while \"freestyling\" on the mixtape ''Playero 34''"
+    }
+   ]
+  },
+  {
+   "text": "In February 1995 police raided six San Juan record stores and seized hundreds of cassettes under obscenity laws; schools banned baggy clothing and underground music.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "In February 1995, there was a government-sponsored campaign against underground music"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "Puerto Rican police raided six record stores in San Juan,"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "hundreds of cassettes were confiscated and fines imposed in accordance with Laws 112 and 117 against obscenity"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "The Department of Education banned baggy clothing and underground music from schools"
+    }
+   ]
+  },
+  {
+   "text": "That year DJ Negro put out The Noise 3 with a label reading \"Non-explicit lyrics\", and it was a hit.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "In 1995, DJ Negro released ''The Noise 3'' with a [[mockup]] label reading, \"Non-explicit lyrics\""
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "It was a hit, and underground music continued to seep into the mainstream"
+    }
+   ]
+  },
+  {
+   "text": "In 2004 reggaeton spread through the United States and Europe, and Daddy Yankee's album Barrio Fino and its single \"Gasolina\" opened the door for it worldwide.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "In 2004, reggaeton became popular throughout the United States and Europe"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "Daddy Yankee released ''[[Barrio Fino]]'' and a hit single, \"[[Gasolina]]\", opening the door for reggaeton globally"
+    }
+   ]
+  },
+  {
+   "text": "In 2017 the video for \"Despacito\" by Luis Fonsi featuring Daddy Yankee reached one billion views in less than three months.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "In 2017, the music video for \"[[Despacito]]\" by [[Luis Fonsi]] featuring [[Daddy Yankee]] reached one billion views in less than three months"
+    }
+   ]
+  },
+  {
+   "text": "From 2018, starting with \"Te Boté\", producers turned to a sharper, minimalist dembow.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw",
+     "quote": "starting with \"[[Te Boté]]\", a sharper minimalist dembow has become a stable of reggaeton production"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Origin and date: our record says San Juan, 1995. The English article says reggaeton \"arose from the [[Spanish reggae]] of [[Panamanian reggaetón|Panama]] during the late 1980s\" and \"evolved in Puerto Rico during the early 1990s\" (https://en.wikipedia.org/wiki/Reggaeton?action=raw); the Spanish article says it \"se originó en [[Panamá]] a finales de la década de 1980\" (https://es.wikipedia.org/wiki/Reguet%C3%B3n?action=raw) and dates the first carport recordings in San Juan and Carolina to 1992. San Juan as the place where it took its name and form is supported; 1995 is late as a start.",
+  "Name: the English article dates Daddy Yankee's first use of the word on Playero 34 to 1994 (https://en.wikipedia.org/wiki/Reggaeton?action=raw: \"the word reggaeton emerged in 1994 when [[Daddy Yankee]] mentioned it\"); the Spanish article dates Playero 34 to 1992 (https://es.wikipedia.org/wiki/Reguet%C3%B3n?action=raw: \"la primera mención tuvo lugar formalmente en ''Playero 34'' (1992)\"). The story gives no year for it."
+ ],
+ "sources": [
+  {
+   "title": "Reggaeton (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw"
+  },
+  {
+   "title": "Reguetón (Spanish Wikipedia)",
+   "url": "https://es.wikipedia.org/wiki/Reguet%C3%B3n?action=raw"
+  }
+ ],
+ "notes": "Spanish article read (es.wikipedia Reguetón, raw); used for the Panama origin and the 1992 San Juan/Carolina carport recordings. The record's tempo marker (90-100 BPM) was not sourced in the story."
+}

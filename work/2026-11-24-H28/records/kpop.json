@@ -1,0 +1,32 @@
+{
+ "id": "kpop",
+ "name": "K-pop",
+ "region": "easia",
+ "family": "pop",
+ "tradition": "koreapop",
+ "began": 1992,
+ "ended": null,
+ "origin": {
+  "text": "Seoul",
+  "lat": 37.52,
+  "lon": 127.03,
+  "country": "KR"
+ },
+ "definition": {
+  "window": "1992 onward",
+  "sound": "Korean idol pop: trained groups singing and rapping over high-gloss dance tracks that switch styles within one song.",
+  "markers": [
+   "Group vocals and raps split between members",
+   "Genre switches mid-song, big dance breaks",
+   "Korean lyrics with English hooks"
+  ]
+ },
+ "judgements": {
+  "significance": 4,
+  "ease": 5,
+  "fame": 5,
+  "intrigue": 2
+ },
+ "tier": 2,
+ "row": 4
+}

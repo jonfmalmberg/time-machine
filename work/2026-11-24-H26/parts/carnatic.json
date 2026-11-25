@@ -1,0 +1,155 @@
+{
+ "genre": "carnatic",
+ "story": "From the 12th century, Persian and Islamic influence in North India pulled Indian classical music into two styles, and by the 16th and 17th centuries the southern Carnatic style stood apart from Hindustani music. Purandara Dasa (1484–1564) set the graded exercises by which it is still traditionally taught, starting beginners on the raga Mayamalavagowla. In the 18th and 19th centuries its main patrons were the Maratha rulers of Tanjore and the kings of Mysore and Travancore. Three contemporaries, Tyagaraja (1767–1847), Muthuswami Dikshitar (1776–1835) and Syama Sastri (1762–1827), became known as its Trinity. Tyagaraja, whose father worked at the court of Thuljaji, spent most of his life in Thiruvaiyaru and turned down King Serfoji II's invitation to court; about 720 of his songs, in Sanskrit and Telugu, survive. At Fort St. George in Madras, Dikshitar and his brothers heard Western orchestral music and the violin, and his brother Balaswami brought the violin into Carnatic music. Musicians founded the Tyagaraja Aradhana festival at Thiruvaiyaru in 1846, and by the late 19th century Madras had become the music's centre. When the princely states dissolved around independence in 1947, patronage passed to private societies called sabhas that sold tickets to concerts.",
+ "words": 197,
+ "sentences": [
+  {
+   "text": "From the 12th century, Persian and Islamic influence in North India pulled Indian classical music into two styles, and by the 16th and 17th centuries the southern Carnatic style stood apart from Hindustani music.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+     "quote": "Owing to Persian and Islamic influences in [[North India]] from the 12th century onwards, Indian classical music began to diverge into two distinct styles"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+     "quote": "By the 16th and 17th centuries, there was a clear demarcation between Carnatic and Hindustani music"
+    }
+   ]
+  },
+  {
+   "text": "Purandara Dasa (1484–1564) set the graded exercises by which it is still traditionally taught, starting beginners on the raga Mayamalavagowla.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+     "quote": "[[Purandara Dasa]] (1484–1564) is referred to as the ''Pitamaha''"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+     "quote": "Carnatic music is traditionally taught according to the system formulated by [[Purandara Dasa]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+     "quote": "introduced the ''[[Raga]]'' [[Mayamalavagowla]] as the first scale to be learnt by beginners"
+    }
+   ]
+  },
+  {
+   "text": "In the 18th and 19th centuries its main patrons were the Maratha rulers of Tanjore and the kings of Mysore and Travancore.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+     "quote": "In the 18th and 19th centuries, Carnatic music was mainly patronised by the local kings of the [[Kingdom of Mysore]], [[Kingdom of Travancore]], and the [[Thanjavur Maratha kingdom|Maratha rulers of Tanjore]]"
+    }
+   ]
+  },
+  {
+   "text": "Three contemporaries, Tyagaraja (1767–1847), Muthuswami Dikshitar (1776–1835) and Syama Sastri (1762–1827), became known as its Trinity.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+     "quote": "The contemporaries [[Tyagaraja]] (1767– 1847), [[Muthuswami Dikshitar]], (1776–1835) and [[Syama Sastri]], (1762–1827) are regarded as the [[Trinity of Carnatic music]]"
+    }
+   ]
+  },
+  {
+   "text": "Tyagaraja, whose father worked at the court of Thuljaji, spent most of his life in Thiruvaiyaru and turned down King Serfoji II's invitation to court; about 720 of his songs, in Sanskrit and Telugu, survive.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tyagaraja?action=raw",
+     "quote": "the chief vidwan in the court of Thanjavur ruler [[Thuljaji]], where Tyagaraja's father Ramabrahmam also worked"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tyagaraja?action=raw",
+     "quote": "Tyāgarāja spent most of his life in Thiruvaiyaru"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tyagaraja?action=raw",
+     "quote": "The king sent an invitation, along with many gifts, inviting Tyagaraja to attend the royal court"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tyagaraja?action=raw",
+     "quote": "rejected the invitation outright"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tyagaraja?action=raw",
+     "quote": "There are about 720 compositions available today"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+     "quote": "Tyāgarāja (who composed in Sanskrit and Telugu)"
+    }
+   ]
+  },
+  {
+   "text": "At Fort St. George in Madras, Dikshitar and his brothers heard Western orchestral music and the violin, and his brother Balaswami brought the violin into Carnatic music.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Muthuswami_Dikshitar?action=raw",
+     "quote": "He and his brothers accompanied the ''zamindar'' to [[Fort St. George]] where they were introduced to Western [[orchestral music]] and the violin"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Muthuswami_Dikshitar?action=raw",
+     "quote": "Balaswami adapted and pioneered the use of the Western violin in Carnatic music"
+    }
+   ]
+  },
+  {
+   "text": "Musicians founded the Tyagaraja Aradhana festival at Thiruvaiyaru in 1846, and by the late 19th century Madras had become the music's centre.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+     "quote": "its musicians founded the [[Tyagaraja Aradhana]] festival in 1846"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+     "quote": "Held in the city of [[Thiruvayaru]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+     "quote": "During the late 19th century, the city of [[Madras]] (now known as Chennai) emerged as the locus for Carnatic music"
+    }
+   ]
+  },
+  {
+   "text": "When the princely states dissolved around independence in 1947, patronage passed to private societies called sabhas that sold tickets to concerts.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+     "quote": "With the dissolution of the erstwhile [[princely states]] and the [[Indian independence movement]] reaching its conclusion in 1947"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw",
+     "quote": "Carnatic music went through a radical shift in patronage into an art of the masses with ticketed performances organised by private institutions called [[sabhā]]s"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Our record dates the genre from 1500 with origin Thanjavur. The English article puts the split from Hindustani music in the 16th-17th centuries and places the 16th-century flowering in Vijayanagara, not Thanjavur; Thanjavur's role (Maratha patronage, the Trinity) is 18th-19th century. https://en.wikipedia.org/wiki/Carnatic_music?action=raw quote: \"It was at this time that Carnatic music flourished in [[Vijayanagara]], while the [[Vijayanagara Empire]] reached its greatest extent.\"",
+  "Record's marker lists kriti in Telugu, Sanskrit or Tamil; the article lists Kannada, Malayalam, Sanskrit, Tamil and Telugu as composers' languages. https://en.wikipedia.org/wiki/Carnatic_music?action=raw quote: \"proficient in one or more of the languages [[Kannada]], [[Malayalam]], [[Sanskrit]], [[Tamil language|Tamil]], or [[Telugu language|Telugu]]\""
+ ],
+ "sources": [
+  {
+   "title": "Carnatic music",
+   "url": "https://en.wikipedia.org/wiki/Carnatic_music?action=raw"
+  },
+  {
+   "title": "Tyagaraja",
+   "url": "https://en.wikipedia.org/wiki/Tyagaraja?action=raw"
+  },
+  {
+   "title": "Muthuswami Dikshitar",
+   "url": "https://en.wikipedia.org/wiki/Muthuswami_Dikshitar?action=raw"
+  }
+ ],
+ "notes": "Syama Sastri's own article was not used beyond his dates in the Carnatic article. Tyagaraja's birthplace is disputed in his article (Thiruvarur vs Thiruvaiyaru), so the story says only where he lived."
+}

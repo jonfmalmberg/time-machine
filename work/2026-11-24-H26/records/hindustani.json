@@ -1,0 +1,32 @@
+{
+ "id": "hindustani",
+ "name": "Hindustani classical",
+ "region": "sasia",
+ "family": "raga",
+ "tradition": "hindustanit",
+ "began": 1250,
+ "ended": null,
+ "origin": {
+  "text": "Delhi",
+  "lat": 28.61,
+  "lon": 77.21,
+  "country": "IN"
+ },
+ "definition": {
+  "window": "1250 onward",
+  "sound": "North Indian raga music: a slow unmetred exploration of a raga, then composed and improvised sections over a tabla rhythmic cycle.",
+  "markers": [
+   "Tanpura drone throughout",
+   "Slow free alap, then tabla enters in a tala cycle",
+   "Sitar, sarod, bansuri, shehnai or khayal voice"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 2,
+  "fame": 4,
+  "intrigue": 5
+ },
+ "tier": 1,
+ "row": 4
+}

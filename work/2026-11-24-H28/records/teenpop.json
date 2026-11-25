@@ -1,0 +1,32 @@
+{
+ "id": "teenpop",
+ "name": "Teen pop (Max Martin era)",
+ "region": "eur",
+ "family": "westpop",
+ "tradition": "anglopop",
+ "began": 1997,
+ "ended": 2003,
+ "origin": {
+  "text": "Stockholm (Cheiron)",
+  "lat": 59.34,
+  "lon": 18.06,
+  "country": "SE"
+ },
+ "definition": {
+  "window": "1997–2003",
+  "sound": "Swedish-built pop maths: polished R&B-lite beats with a huge pre-chorus lift into the chorus.",
+  "markers": [
+   "Max Martin / Cheiron song structure",
+   "Light R&B or dance-pop beat",
+   "Stacked, glossy harmonies"
+  ]
+ },
+ "judgements": {
+  "significance": 3,
+  "ease": 5,
+  "fame": 5,
+  "intrigue": 1
+ },
+ "tier": 2,
+ "row": 3
+}

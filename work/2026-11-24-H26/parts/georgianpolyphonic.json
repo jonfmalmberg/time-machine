@@ -1,0 +1,147 @@
+{
+ "genre": "georgianpolyphonic",
+ "story": "Georgian villagers were singing in parts before Christianity reached Georgia at the start of the 4th century. From the 7th and 8th centuries, Georgian church composers translated Greek Orthodox chants and added harmonies to the single-line melodies. Village singers, mostly farmers, kept the tradition going for centuries. In Kakheti, table songs set two soloists over a long drone bass; in Guria, three or four singers each took a separate line, with a yodel called krimanchuli. As farm work changed, the supra feast became where many kinds of song survived. The first professional choir, formed in 1886, began moving singers toward Western tuning. Under Soviet rule (1921–1991) church songs were forbidden, and huge regional choirs cut back the singers' improvising. In 1968 Anzor Erkomaishvili founded the Rustavi Choir; the Kakhetian song Chakrulo went into space on the Voyager records in 1977, and UNESCO listed Georgian polyphonic singing in 2001.",
+ "words": 148,
+ "sentences": [
+  {
+   "text": "Georgian villagers were singing in parts before Christianity reached Georgia at the start of the 4th century.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+     "quote": "It is widely accepted in contemporary musicology that polyphony in Georgian music predates the"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+     "quote": "in Georgia (beginning of the 4th century AD)"
+    }
+   ]
+  },
+  {
+   "text": "From the 7th and 8th centuries, Georgian church composers translated Greek Orthodox chants and added harmonies to the single-line melodies.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+     "quote": "Professional music in Georgia existed at least from the 7-8th centuries, when Georgian composers started translating Greek orthodox Christian chants"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+     "quote": "adding harmonies to the monophonic melodies"
+    }
+   ]
+  },
+  {
+   "text": "Village singers, mostly farmers, kept the tradition going for centuries.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+     "quote": "Georgian vocal polyphony was maintained for millennia by village singers, mostly local farmers"
+    }
+   ]
+  },
+  {
+   "text": "In Kakheti, table songs set two soloists over a long drone bass; in Guria, three or four singers each took a separate line, with a yodel called krimanchuli.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+     "quote": "Table songs from [[Kakheti]] in eastern Georgia usually feature a long [[Drone (music)|drone]] bass with two soloists singing the top two parts"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+     "quote": "particularly in Guria (three and four part polyphony with highly individualized melodic lines in each part"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+     "quote": "known as '''krimanchuli'''"
+    }
+   ]
+  },
+  {
+   "text": "As farm work changed, the supra feast became where many kinds of song survived.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+     "quote": "As many traditional activities greatly changed their nature (for example, working processes), the traditional feast became the harbor for many different genres of music"
+    }
+   ]
+  },
+  {
+   "text": "The first professional choir, formed in 1886, began moving singers toward Western tuning.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+     "quote": "present-day performers of Georgian folk music often employ Western tuning"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+     "quote": "This process started from the very first professional choir, organized in Georgia in 1886"
+    }
+   ]
+  },
+  {
+   "text": "Under Soviet rule (1921–1991) church songs were forbidden, and huge regional choirs cut back the singers' improvising.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+     "quote": "During the [[Georgian Soviet Socialist Republic|Soviet]] period (1921–1991)"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+     "quote": "some genres were forbidden (particularly Christian church-songs)"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+     "quote": "the tendency to create huge regional choirs with big groups singing each melodic part damaged the improvisatory nature of Georgian folk music"
+    }
+   ]
+  },
+  {
+   "text": "In 1968 Anzor Erkomaishvili founded the Rustavi Choir; the Kakhetian song Chakrulo went into space on the Voyager records in 1977, and UNESCO listed Georgian polyphonic singing in 2001.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Anzor_Erkomaishvili?action=raw",
+     "quote": "In 1968, he founded the Rustavi Choir which toured throughout Georgia and abroad for decades"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Chakrulo?action=raw",
+     "quote": "was one of 27 musical compositions included on the [[Voyager Golden Record]]s"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Chakrulo?action=raw",
+     "quote": "on 20 August 1977"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw",
+     "quote": "Georgian polyphonic singing was among the first on the list of [[Masterpieces of the Oral and Intangible Heritage of Humanity]] in 2001"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Our record dates the genre from 1000; the source says polyphony predates the introduction of Christianity (early 4th century AD), and church polyphony from the 7th-8th centuries. https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw quote: \"It is widely accepted in contemporary musicology that polyphony in Georgian music predates the\"",
+  "Our record gives Tbilisi as origin; the source describes a village tradition across sixteen regional styles (Kakheti, Guria etc.), with Tbilisi associated with the separate urban styles. https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw quote: \"Georgian vocal polyphony was maintained for millennia by village singers, mostly local farmers\""
+ ],
+ "sources": [
+  {
+   "title": "Music of Georgia (country)",
+   "url": "https://en.wikipedia.org/wiki/Music_of_Georgia_(country)?action=raw"
+  },
+  {
+   "title": "Chakrulo",
+   "url": "https://en.wikipedia.org/wiki/Chakrulo?action=raw"
+  },
+  {
+   "title": "Anzor Erkomaishvili",
+   "url": "https://en.wikipedia.org/wiki/Anzor_Erkomaishvili?action=raw"
+  }
+ ],
+ "notes": "The English article 'Georgian polyphony' does not exist; 'Georgian polyphonic singing' redirects to the vocal polyphony section of 'Music of Georgia (country)', which is used here. No named medieval singers or composers could be sourced; the Georgian-language article was not consulted. The 'who' beat names regions and village singers rather than individuals before 1968."
+}

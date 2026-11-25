@@ -1,0 +1,32 @@
+{
+ "id": "baroque",
+ "name": "Baroque",
+ "region": "eur",
+ "family": "chant",
+ "tradition": "westart",
+ "began": 1600,
+ "ended": 1750,
+ "origin": {
+  "text": "Venice",
+  "lat": 45.44,
+  "lon": 12.33,
+  "country": "IT"
+ },
+ "definition": {
+  "window": "1600–1750",
+  "sound": "Driving, ornamented music over a continuous bass line, with harpsichord or organ filling chords and instruments trading motifs.",
+  "markers": [
+   "Basso continuo: harpsichord or organ plus bass line throughout",
+   "Motor rhythm and terraced loud and soft contrasts",
+   "Counterpoint and fugue, ornate melodic decoration"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 4,
+  "fame": 5,
+  "intrigue": 2
+ },
+ "tier": 1,
+ "row": 5
+}

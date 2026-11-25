@@ -1,0 +1,32 @@
+{
+ "id": "jungle",
+ "name": "Jungle and drum and bass",
+ "region": "eur",
+ "family": "dance",
+ "tradition": "ukbass",
+ "began": 1992,
+ "ended": null,
+ "origin": {
+  "text": "London",
+  "lat": 51.46,
+  "lon": -0.11,
+  "country": "GB"
+ },
+ "definition": {
+  "window": "1992 onward",
+  "sound": "Fast chopped breakbeats at 160 to 175 BPM over deep reggae-derived sub-bass.",
+  "markers": [
+   "Chopped, rapid breakbeats (often the Amen break)",
+   "Deep sub-bass lines moving at half tempo",
+   "Reggae samples or atmospheric pads"
+  ]
+ },
+ "judgements": {
+  "significance": 4,
+  "ease": 3,
+  "fame": 3,
+  "intrigue": 2
+ },
+ "tier": 2,
+ "row": 6
+}

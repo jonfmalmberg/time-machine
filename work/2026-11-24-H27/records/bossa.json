@@ -1,0 +1,40 @@
+{
+ "id": "bossa",
+ "name": "Bossa nova",
+ "region": "latam",
+ "family": "brazil",
+ "tradition": "afrobrazil",
+ "began": 1958,
+ "ended": 1970,
+ "origin": {
+  "text": "Rio de Janeiro",
+  "lat": -22.98,
+  "lon": -43.2,
+  "country": "BR"
+ },
+ "definition": {
+  "window": "1958–1970",
+  "sound": "Quiet, sophisticated Brazilian song: samba rhythm on nylon guitar with jazz chords and a soft, close-up voice.",
+  "markers": [
+   "Nylon guitar playing syncopated batida",
+   "Extended jazz chords",
+   "Hushed, almost spoken vocal"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 5,
+  "fame": 5,
+  "intrigue": 2
+ },
+ "tier": 1,
+ "row": 6,
+ "_tree_led_to": [
+  "shibuyakei (other)",
+  "mpb (principal)"
+ ],
+ "_tree_came_from": [
+  "samba (principal)",
+  "modjazz (other)"
+ ]
+}

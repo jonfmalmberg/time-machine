@@ -1,0 +1,135 @@
+{
+ "genre": "tango",
+ "story": "Tango grew from the payada, the milonga of the Argentine and Uruguayan pampas, and Uruguayan candombe, which had been practised in Argentina since the first enslaved Africans were brought there. The first tango group was two Afro-Argentines, Casimiro Alcorta on violin and Sinforoso on clarinet, who played small concerts in Buenos Aires from the early 1870s to the early 1890s. European immigrants played early tango in Buenos Aires and Montevideo. Ángel Villoldo wrote \"El Choclo\" in 1903 and recorded it himself in Paris, because Argentina had no recording studios. In the 1920s tango moved out of the brothels, and the bandleaders Roberto Firpo and Francisco Canaro dropped the flute and put a double bass in its place. Carlos Gardel helped develop the sung tango canción in the 1920s, and his Spanish-language films for Paramount in the early 1930s fed Argentina's new sound-film industry. In the Golden Age, from about 1935 to 1952, tango was played by orquestas típicas of over a dozen players, among them those of Juan d'Arienzo, Francisco Canaro and Aníbal Troilo. In the 1950s Ástor Piazzolla set out to break tango's classic forms, and he and his followers built nuevo tango from jazz and classical elements.",
+ "words": 199,
+ "sentences": [
+  {
+   "text": "Tango grew from the payada, the milonga of the Argentine and Uruguayan pampas, and Uruguayan candombe, which had been practised in Argentina since the first enslaved Africans were brought there.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "early tango was locally influenced by [[Payada]], the [[Milonga (music)|Milonga]] from Argentine and Uruguay [[pampas]], and Uruguayan [[candombe]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "It is believed that this candombe existed and was practised in Argentina since the first slaves were brought into the country."
+    }
+   ]
+  },
+  {
+   "text": "The first tango group was two Afro-Argentines, Casimiro Alcorta on violin and Sinforoso on clarinet, who played small concerts in Buenos Aires from the early 1870s to the early 1890s.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "The first tango \"group\" was composed of two [[Afro-Argentine]]s: \"the black\" [[Casimiro Alcorta]] (violin) and \"the mulatto\" Sinforoso (clarinet)."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "They played small concerts in Buenos Aires from the early 1870s until the early 1890s"
+    }
+   ]
+  },
+  {
+   "text": "European immigrants played early tango in Buenos Aires and Montevideo.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "Early tango was played by European immigrants in [[Buenos Aires]] and [[Montevideo]]."
+    }
+   ]
+  },
+  {
+   "text": "Ángel Villoldo wrote \"El Choclo\" in 1903 and recorded it himself in Paris, because Argentina had no recording studios.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "[[Ángel Villoldo]]'s 1903 tango \"[[El Choclo]]\""
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "Villoldo himself recorded it in Paris"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "as there were no recording studios in Argentina at the time"
+    }
+   ]
+  },
+  {
+   "text": "In the 1920s tango moved out of the brothels, and the bandleaders Roberto Firpo and Francisco Canaro dropped the flute and put a double bass in its place.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "In the 1920s, tango moved out of the lower-class [[brothel]]s and became a more respectable form of music and dance"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "Bandleaders like [[Roberto Firpo]] and [[Francisco Canaro]] dropped the flute and added a [[double bass]] in its place"
+    }
+   ]
+  },
+  {
+   "text": "Carlos Gardel helped develop the sung tango canción in the 1920s, and his Spanish-language films for Paramount in the early 1930s fed Argentina's new sound-film industry.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "He helped develop {{ill|Tango canción|lt=''tango canción''|es}} in the 1920s"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "His Spanish-language films for [[Paramount Pictures]] in the early 1930s were also a major influence on the emerging Argentine sound film industry"
+    }
+   ]
+  },
+  {
+   "text": "In the Golden Age, from about 1935 to 1952, tango was played by orquestas típicas of over a dozen players, among them those of Juan d'Arienzo, Francisco Canaro and Aníbal Troilo.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "The \"Golden Age\" of tango music and dance is generally agreed to have been the period from about 1935 to 1952"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "Tango was performed by [[Orquesta típica|orquestas típicas]], bands often including over a dozen performers."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "Some of the many popular and influential orchestras included those of [[Mariano Mores]], [[Juan d'Arienzo]], [[Francisco Canaro]], and [[Aníbal Troilo]]"
+    }
+   ]
+  },
+  {
+   "text": "In the 1950s Ástor Piazzolla set out to break tango's classic forms, and he and his followers built nuevo tango from jazz and classical elements.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "During the 1950s, Piazzolla consciously tried to create a more academic form with new sounds breaking the classic forms of tango"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw",
+     "quote": "Piazzolla and his followers developed [[nuevo tango]], a musical genre that incorporated jazz and classical influences"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Our record starts the window in 1890; the English Wikipedia article (https://en.wikipedia.org/wiki/Tango_music?action=raw) has the first tango group playing earlier: \"They played small concerts in Buenos Aires from the early 1870s until the early 1890s\", and \"the first Argentine written reference is from an 1866 newspaper\".",
+  "Our record gives the origin as Buenos Aires alone; the article says tango \"originated in [[Argentina]] and [[Uruguay]]\" and that \"Early tango was played by European immigrants in [[Buenos Aires]] and [[Montevideo]].\" (https://en.wikipedia.org/wiki/Tango_music?action=raw)."
+ ],
+ "sources": [
+  {
+   "title": "Tango music (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Tango_music?action=raw"
+  }
+ ],
+ "notes": "The bandoneón, central to our record's sound, has no sourced sentence on when or how it entered tango in this article, so the story does not mention it. The Golden Age dates carry a 'citation needed' tag in the article."
+}

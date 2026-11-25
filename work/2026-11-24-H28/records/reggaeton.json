@@ -1,0 +1,32 @@
+{
+ "id": "reggaeton",
+ "name": "Reggaeton",
+ "region": "carib",
+ "family": "riddim",
+ "tradition": "urbano",
+ "began": 1995,
+ "ended": null,
+ "origin": {
+  "text": "San Juan",
+  "lat": 18.47,
+  "lon": -66.1,
+  "country": "PR"
+ },
+ "definition": {
+  "window": "1995 onward",
+  "sound": "Puerto Rican Spanish-language rap and singing over the dembow drum pattern taken from Jamaican dancehall.",
+  "markers": [
+   "Dembow kick-snare pattern (boom-ch-boom-chick) throughout",
+   "Around 90 to 100 BPM",
+   "Spanish rap verses with sung, chant-along hooks"
+  ]
+ },
+ "judgements": {
+  "significance": 4,
+  "ease": 5,
+  "fame": 5,
+  "intrigue": 1
+ },
+ "tier": 2,
+ "row": 1
+}

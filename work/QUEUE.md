@@ -16,18 +16,18 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Hand back:** `answers.run1.json` and `answers.run2.json` (`song`, `known`, `genre`, `second`, `sure`, `missing`, the batch number, the sub-agent's model), the two seeds, and in the report: how many songs each run knew, how often the two runs gave the same genre, the 30 most frequent `missing` phrases, and anything that went wrong (a sub-agent that used a tool, refused or returned malformed answers: say which batches). Do not score against the data: the lead does that.
 
 ## H26. Genre stories for the course, chapters 1 to 4 (roadmap 9.0b, decision D32)
-- **State:** open
+- **State:** handed back 2026-11-24; stories shown to the owner as screenshots before going onto `dev`.
 - **Model:** Opus for the run and for any sub-agents.
 - **Why:** the owner wants every genre to tell its own history as a self-contained story: what led up to it, where, who formed it, and why and how. Each movement is a group of people with a story to tell. The course shows a definition per stop today and no story.
 - **Ask:** for each genre in `work/2026-11-24-stories/genres.H26.json` write a story of 120 to 200 words in plain English, in four beats, in this order: **before** (what music and what circumstances it grew out of), **who and where** (the people: named musicians, communities, the neighbourhood or court or church, the years), **why and how** (what they were trying to do or were pushed by: a migration, a ban, a new instrument, a patron, a dance; and what they changed in the music), **after** (what it led to). Write about people doing things, with names, places and dates; no adjectives of praise; no sentence that could be said of any genre. Every sentence that states a fact needs a source a script can read, with the supporting string copied character for character from its raw text ("Evidence: how a researcher records a source" in `work/README.md`). Sources in order: the genre's English Wikipedia article as raw text, the article in the tradition's own language, a reference work or archive page. If a beat cannot be sourced, leave it out and say so; a shorter true story is right. Read the genre's record in `data/genres.json` and its definition first (`python3 tools/legacy_data.py` is not needed; the definition's sources are in `data/evidence/`), and do not contradict it without saying so in the report.
 - **Hand back:** `stories.json` (`genre`, `story`: the text; `sentences`: each sentence with `url` and `quote`, or `opinion: true` for a linking sentence that states no fact), `sources.json` and `evidence-check.json`; only `found` sentences stay in a story. In the report: per genre, which beats are present, and every place where your sources disagree with our record.
 
 ## H27. Genre stories for the course, chapters 5 to 8
-- **State:** open
+- **State:** handed back 2026-11-24; as H26.
 - **Model, ask, hand back:** as H26 with `genres.H27.json`.
 
 ## H28. Genre stories for the course, chapters 9 to 11
-- **State:** open
+- **State:** handed back 2026-11-24; as H26.
 - **Model, ask, hand back:** as H26 with `genres.H28.json`.
 
 ## H23. Chart sources for the countries that have none (roadmap 2.17c)
@@ -135,14 +135,14 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Model, ask, hand back:** as H16 with `artists.D.json` and the key `"D"`.
 
 ## H20. Release years from Wikipedia, part 1 (roadmap 2.16, decision D18)
-- **State:** open
+- **State:** accepted 2026-11-24 and applied with `tools/apply_years.py`.
 - **Model:** Opus for the run; Sonnet sub-agents may look up songs in parallel, each given a slice and the evidence rule in full.
 - **Why:** a wrong year puts a song in the wrong decade. Only 1,334 of 10,733 songs have a checked year.
 - **Ask:** `work/2026-11-24-years/songs.1.json` lists 1,200 songs with no checked year, most-used first (`year_on_site` is what the site shows; it is often a reissue year). For each, find the year of first release in this order and stop at the first that answers (decision D18): the song's own Wikipedia article (infobox `released`), the artist's discography article or section (the row for the single), the article of the album it first appeared on. Fetch as raw text (`?action=raw`), English first, then the artist's own language. Copy the supporting string character for character. Two sources at most per song; a song with no source is listed as not found. Do not use MusicBrainz and do not use what you remember.
 - **Hand back:** `years.json`: `{song, year, basis: song article|discography|album article, url, quote, read}`; `sources.json` and `evidence-check.json` as in `work/README.md`; only `found` in `years.json`. In the report: how far you got, counts per basis, and every song where the year found differs from `year_on_site` by more than one year (both years).
 
 ## H21. Release years from Wikipedia, part 2
-- **State:** open
+- **State:** accepted 2026-11-24 and applied with `tools/apply_years.py`.
 - **Model, ask, hand back:** as H20 with `songs.2.json`.
 
 ## H22. Records for six new genres (research note `docs/research/2026-11-24-genre-suggestions.md`, numbers 1 to 6)

@@ -1,0 +1,155 @@
+{
+ "genre": "wadrum",
+ "story": "Hourglass talking drums are among the oldest instruments of West African griots, traced back to the Bono, the Yoruba, the Ghana Empire and the Hausa. Yoruba tradition names Ayangalu as the first drummer, made a deity at his death, and families whose names begin with Ayan are the hereditary keepers of his craft. The batá drum, dated to roughly 500 years ago, is said to have been introduced by a Yoruba king named Shango, and was played for gods, royalty and ancestors. In a dundun ensemble the leader, the oniyalu, makes the drum talk by copying the three main tones of the Yoruba language. Under the drums an iron bell sounds a seven-stroke key pattern. Drummers sent warnings of attacks and news of ceremonies between villages, which Europeans noticed in the first half of the 18th century. The slave trade brought almost 300,000 Africans to Cuba, where an enslaved Yoruba man named Añabi made the first sacred batá around 1830. In the 20th century the talking drum entered Nigerian jùjú and fuji, and in 1959 Babatunde Olatunji, born in Ajido near Badagry, released Drums of Passion on the Columbia label.",
+ "words": 190,
+ "sentences": [
+  {
+   "text": "Hourglass talking drums are among the oldest instruments of West African griots, traced back to the Bono, the Yoruba, the Ghana Empire and the Hausa.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+     "quote": "Hourglass-shaped talking drums are some of the oldest instruments used by West African [[griot]]s"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+     "quote": "their history can be traced back to the [[Bono people]], [[Yoruba people]], the [[Ghana Empire]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+     "quote": "and the [[Hausa people]]. The Yoruba people of south western"
+    }
+   ]
+  },
+  {
+   "text": "Yoruba tradition names Ayangalu as the first drummer, made a deity at his death, and families whose names begin with Ayan are the hereditary keepers of his craft.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+     "quote": "Ayangalu is believed to have been the first Yoruba drummer. Upon his death he was [[deified]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+     "quote": "This prefix marks its bearers out as hereditary custodians of the mysteries of Ayangalu"
+    }
+   ]
+  },
+  {
+   "text": "The batá drum, dated to roughly 500 years ago, is said to have been introduced by a Yoruba king named Shango, and was played for gods, royalty and ancestors.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Batá_drum?action=raw",
+     "quote": "The drum dates back roughly 500 years, and is believed to have been introduced by a Yoruba king named Shangó el rey del tambor"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Batá_drum?action=raw",
+     "quote": "The early function of the batá was as a drum of different gods, of royalty, of ancestors"
+    }
+   ]
+  },
+  {
+   "text": "In a dundun ensemble the leader, the oniyalu, makes the drum talk by copying the three main tones of the Yoruba language.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Yoruba_music?action=raw",
+     "quote": "The leader of a dundun ensemble is the ''oniyalu'' who uses the drum to \"talk\" by imitating the [[tonality]] of [[Yoruba language|Yoruba]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+     "quote": "has three principal tones, low, medium, and high"
+    }
+   ]
+  },
+  {
+   "text": "Under the drums an iron bell sounds a seven-stroke key pattern.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Yoruba_music?action=raw",
+     "quote": "is the seven-stroke figure known in ethnomusicology as the ''standard pattern''"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Yoruba_music?action=raw",
+     "quote": "The standard pattern is often sounded on an iron bell."
+    }
+   ]
+  },
+  {
+   "text": "Drummers sent warnings of attacks and news of ceremonies between villages, which Europeans noticed in the first half of the 18th century.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+     "quote": "effective for telling neighboring villages of possible attacks or ceremonies"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+     "quote": "The use of talking drums as a form of communication was noticed by Europeans in the first half of the 18th century."
+    }
+   ]
+  },
+  {
+   "text": "The slave trade brought almost 300,000 Africans to Cuba, where an enslaved Yoruba man named Añabi made the first sacred batá around 1830.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Batá_drum?action=raw",
+     "quote": "during which almost 300,000 Africans were brought to Cuba"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Batá_drum?action=raw",
+     "quote": "This religion spawned the creation of the first \"[[Sacred drum|sacred]]\" batá in Cuba around 1830 by a Yorùbá slave named Añabi."
+    }
+   ]
+  },
+  {
+   "text": "In the 20th century the talking drum entered Nigerian jùjú and fuji, and in 1959 Babatunde Olatunji, born in Ajido near Badagry, released Drums of Passion on the Columbia label.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+     "quote": "In the 20th century, the talking drum became a part of popular music in West Africa."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw",
+     "quote": "in [[Fuji music|Fuji]] and Jùjú music of Nigeria"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Babatunde_Olatunji?action=raw",
+     "quote": "Olatunji was born in the village of Ajido, near [[Badagry]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Babatunde_Olatunji?action=raw",
+     "quote": "signed Olatunji to the Columbia label in 1958. One year later he released his first of six records on the Columbia label, called ''[[Drums of Passion (album)|Drums of Passion]]''"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Our record dates the genre from 1000; the batá article dates the batá to roughly 500 years ago, and the talking drum article says talking drum signalling originated in the 18th century (while also tracing the drums to the Ghana Empire). https://en.wikipedia.org/wiki/Batá_drum?action=raw quote: \"The drum dates back roughly 500 years\"; https://en.wikipedia.org/wiki/Talking_drum?action=raw quote: \"Originating from the 18th century, talking drum players used\"",
+  "Olatunji, used in the 'after' beat, was Ogu (Egun), not Yoruba, though born in Lagos State. https://en.wikipedia.org/wiki/Babatunde_Olatunji?action=raw quote: \"A member of the [[Ogu people|Ogu (Egun) people]]\""
+ ],
+ "sources": [
+  {
+   "title": "Talking drum",
+   "url": "https://en.wikipedia.org/wiki/Talking_drum?action=raw"
+  },
+  {
+   "title": "Batá drum",
+   "url": "https://en.wikipedia.org/wiki/Batá_drum?action=raw"
+  },
+  {
+   "title": "Yoruba music",
+   "url": "https://en.wikipedia.org/wiki/Yoruba_music?action=raw"
+  },
+  {
+   "title": "Babatunde Olatunji",
+   "url": "https://en.wikipedia.org/wiki/Babatunde_Olatunji?action=raw"
+  }
+ ],
+ "notes": "The genre is broad; the story follows the Yoruba thread because our record's origin is Yorubaland. 'Music of West Africa' was read but has little dated history of drumming. The Ayangalu and Shango origin claims are tradition/belief, worded as such. The 'before' beat (what drumming grew out of) is thin: only the talking drum's ancestry could be sourced."
+}

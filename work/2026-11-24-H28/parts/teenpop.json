@@ -1,0 +1,172 @@
+{
+ "genre": "teenpop",
+ "story": "In 1986 ten Swedish disc jockeys, among them Dag Krister Volle, known as Denniz PoP, founded the remix service SweMix. In 1992 Denniz PoP remade a demo by Ace of Base as \"All That She Wants\". In 1992 Denniz PoP and the nightclub owner Tom Talomaa founded Cheiron Studios in the Kungsholmen district of Stockholm. Denniz took on Karl Martin Sandberg, singer of the funk metal band It's Alive, as a songwriter and renamed him Max Martin. From 1996 Cheiron wrote and produced in a joint venture with Zomba, starting with the Backstreet Boys' debut album. Early in 1998 Jive Records sent the 16-year-old Britney Spears to record \"...Baby One More Time\", a song first written for TLC, who had turned it down. Cheiron's songs set R&B grooves under Swedish pop melodies with large major-chord choruses, a \"happy/sad\" quality The Guardian compared to ABBA. Denniz PoP died of cancer on 30 August 1998, aged 35, and Cheiron closed in 2000. In 2001 Martin and Talomaa started Maratone, and Martin went on to work with Kelly Clarkson, Katy Perry and Taylor Swift, writing or co-writing 31 Billboard Hot 100 number ones.",
+ "words": 190,
+ "sentences": [
+  {
+   "text": "In 1986 ten Swedish disc jockeys, among them Dag Krister Volle, known as Denniz PoP, founded the remix service SweMix.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "In 1986, a group of ten Swedish disc jockeys founded SweMix, a remix service"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "Dag Krister Volle ([[Denniz Pop|Denniz PoP]])"
+    }
+   ]
+  },
+  {
+   "text": "In 1992 Denniz PoP remade a demo by Ace of Base as \"All That She Wants\".",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "In early 1992, the Danish record company [[Mega Records]] sent Denniz PoP a [[Demo (music)|demo]] tape"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "It was re-recorded at the SweMix studio and given the new title \"[[All That She Wants]]\""
+    }
+   ]
+  },
+  {
+   "text": "In 1992 Denniz PoP and the nightclub owner Tom Talomaa founded Cheiron Studios in the Kungsholmen district of Stockholm.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "located in the [[Kungsholmen]] district of Stockholm, Sweden. Founded in 1992 by [[Denniz Pop|Denniz PoP]] and Tom Talomaa"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "Tom Talomaa, a nightclub owner"
+    }
+   ]
+  },
+  {
+   "text": "Denniz took on Karl Martin Sandberg, singer of the funk metal band It's Alive, as a songwriter and renamed him Max Martin.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "the Swedish [[funk metal]] band [[It's Alive (band)|It's Alive]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "the band's vocalist, Karl Martin Sandberg, who went by the name Martin White, caught Denniz PoP's attention"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "He also renamed him [[Max Martin]]"
+    }
+   ]
+  },
+  {
+   "text": "From 1996 Cheiron wrote and produced in a joint venture with Zomba, starting with the Backstreet Boys' debut album.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "From 1996 until its closure, Cheiron shared a joint production and publishing venture with the Zomba Group"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "This began with the American boy band [[Backstreet Boys]]"
+    }
+   ]
+  },
+  {
+   "text": "Early in 1998 Jive Records sent the 16-year-old Britney Spears to record \"...Baby One More Time\", a song first written for TLC, who had turned it down.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "Early in 1998, [[Jive Records]] sent Cheiron a 16-year-old American girl named [[Britney Spears]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "The track had originally been written for [[TLC (group)|TLC]], who declined it"
+    }
+   ]
+  },
+  {
+   "text": "Cheiron's songs set R&B grooves under Swedish pop melodies with large major-chord choruses, a \"happy/sad\" quality The Guardian compared to ABBA.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "According to ''[[The Guardian]]'', the \"Cheiron sound\" was described as melodic but hard-edged"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "hook]]-driven and dramatic, combining technical accuracy with a characteristically Swedish \"happy/sad\" quality comparable to [[ABBA]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "blend of [[Contemporary R&B|R&B]] grooves with [[Swedish pop]] melodies and large, major-chord choruses"
+    }
+   ]
+  },
+  {
+   "text": "Denniz PoP died of cancer on 30 August 1998, aged 35, and Cheiron closed in 2000.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "Only 35 years old, Denniz died of cancer on 30 August 1998"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw",
+     "quote": "After Denniz PoP's death in 1998, Cheiron closed in 2000"
+    }
+   ]
+  },
+  {
+   "text": "In 2001 Martin and Talomaa started Maratone, and Martin went on to work with Kelly Clarkson, Katy Perry and Taylor Swift, writing or co-writing 31 Billboard Hot 100 number ones.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Max_Martin?action=raw",
+     "quote": "Martin and Tom Talomaa then started a new production company named [[Maratone]] in January 2001"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Max_Martin?action=raw",
+     "quote": "In 2004, [[Kelly Clarkson]] traveled to Sweden to collaborate with Martin"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Max_Martin?action=raw",
+     "quote": "Max Martin worked with [[Katy Perry]] on her second album"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Max_Martin?action=raw",
+     "quote": "Martin has collaborated with [[Taylor Swift]] on four of her albums"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Max_Martin?action=raw",
+     "quote": "Martin has written or co-written 31 [[Billboard Hot 100|''Billboard'' Hot 100]] number-one singles"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Dates: our record's window is 1997-2003. Cheiron was founded in 1992 and closed in 2000 (https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw: \"Founded in 1992 by [[Denniz Pop|Denniz PoP]] and Tom Talomaa\"; \"After Denniz PoP's death in 1998, Cheiron closed in 2000\"), and its teen-pop work began with the Backstreet Boys' debut album in 1996 (https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw: \"From 1996 until its closure, Cheiron shared a joint production and publishing venture with the Zomba Group\"). The Teen pop article starts the late-1990s wave with the Spice Girls' \"Wannabe\" in 1996 (https://en.wikipedia.org/wiki/Teen_pop?action=raw: \"In 1996, British [[girl group]] [[Spice Girls]] released their debut single\"). A 1996 start may fit better than 1997."
+ ],
+ "sources": [
+  {
+   "title": "Cheiron Studios (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw"
+  },
+  {
+   "title": "Max Martin (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Max_Martin?action=raw"
+  },
+  {
+   "title": "Teen pop (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Teen_pop?action=raw"
+  }
+ ],
+ "notes": "No home-language article required (genre is Anglo pop made in Sweden); the Swedish article was not read. The genre article (Teen pop) is about teen pop in general, so the story follows Cheiron Studios, which our record names as the origin. The record's marker 'huge pre-chorus lift' was not found stated in a source and is not in the story."
+}

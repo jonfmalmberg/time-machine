@@ -1,0 +1,161 @@
+{
+ "genre": "romantic",
+ "story": "In 1810 E. T. A. Hoffmann reviewed Beethoven's Fifth Symphony and set out the principles of musical Romanticism, holding instrumental music to be the art best suited to expressing emotion. Composers had lived under aristocratic patronage; now they increasingly wrote for public concerts with large paying audiences. The move away from Viennese classicism ran through the work of Beethoven and of Franz Schubert, whose Erlkönig is among the first Romantic lieder. In 1821 Carl Maria von Weber's Der Freischütz became the first German Romantic opera. Its centres lay in Berlin, Dresden and Leipzig, where Felix Mendelssohn took over the Gewandhaus Orchestra in 1835 and founded a conservatory in 1843. Better valves and keys from the Industrial Revolution made wind instruments more reliable, and Hector Berlioz enlarged the orchestra. Franz Liszt, a Hungarian piano virtuoso, created the symphonic poem: one movement built on a theme, character or literary text. Richard Wagner took chromatic harmony to its extreme in Tristan und Isolde, and from 1876 the Bayreuth Festival staged only his works. As Romanticism came apart, Arnold Schoenberg and the Second Viennese School answered with Expressionism, and in France Claude Debussy's Pelléas and Mélisande of 1902 carried music towards Impressionism.",
+ "words": 198,
+ "sentences": [
+  {
+   "text": "In 1810 E. T. A. Hoffmann reviewed Beethoven's Fifth Symphony and set out the principles of musical Romanticism, holding instrumental music to be the art best suited to expressing emotion.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "It was [[E. T. A. Hoffmann]] who established the principles of musical romanticism, in a lengthy review of [[Ludwig van Beethoven]]'s [[Symphony No. 5 (Beethoven)|Fifth Symphony]] published in 1810"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "especially instrumental music, to a position of pre-eminence in Romanticism as the art most suited to the expression of emotions"
+    }
+   ]
+  },
+  {
+   "text": "Composers had lived under aristocratic patronage; now they increasingly wrote for public concerts with large paying audiences.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "Composers before this period lived under the [[patronage]] of the aristocracy"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "often wrote for public concerts and festivals, with large audiences of paying customers"
+    }
+   ]
+  },
+  {
+   "text": "The move away from Viennese classicism ran through the work of Beethoven and of Franz Schubert, whose Erlkönig is among the first Romantic lieder.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "The transition of [[Viennese classicism]] to Romanticism can be found in the work of [[Ludwig van Beethoven]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "Another of the most important representatives of late classicism and early romanticism is [[Franz Schubert]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "One of the first and most famous lieder composers is [[Franz Schubert]], with [[Erlkönig (Schubert)|Erlkönig]]"
+    }
+   ]
+  },
+  {
+   "text": "In 1821 Carl Maria von Weber's Der Freischütz became the first German Romantic opera.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "[[Carl Maria von Weber]], with [[Der Freischütz]] (1821) creates the first German romantic opera"
+    }
+   ]
+  },
+  {
+   "text": "Its centres lay in Berlin, Dresden and Leipzig, where Felix Mendelssohn took over the Gewandhaus Orchestra in 1835 and founded a conservatory in 1843.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://de.wikipedia.org/wiki/Musik_der_Romantik?action=raw",
+     "quote": "Die Zentren der musikalischen Romantik befanden sich vorzugsweise in Nord- und [[Mitteldeutschland]] ([[Berlin]], [[Dresden]], [[Leipzig]])"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn?action=raw",
+     "quote": "direction of the [[Leipzig Gewandhaus Orchestra]]; he accepted the latter in 1835"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn?action=raw",
+     "quote": "When founded in 1843 this institution was officially known as the \"Leipziger Konservatorium der Musik\""
+    }
+   ]
+  },
+  {
+   "text": "Better valves and keys from the Industrial Revolution made wind instruments more reliable, and Hector Berlioz enlarged the orchestra.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "there were major improvements in the mechanical valves and keys that most woodwinds and brass instruments depend on"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "Berlioz also significantly expanded the orchestra"
+    }
+   ]
+  },
+  {
+   "text": "Franz Liszt, a Hungarian piano virtuoso, created the symphonic poem: one movement built on a theme, character or literary text.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "[[Franz Liszt]], a Hungarian composer, was both a celebrated piano virtuoso"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "they will create the [[symphonic poem]], a new musical genre, usually composed of a single movement and inspired by a theme, character or literary text"
+    }
+   ]
+  },
+  {
+   "text": "Richard Wagner took chromatic harmony to its extreme in Tristan und Isolde, and from 1876 the Bayreuth Festival staged only his works.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "Chromaticism reaches its extreme in ''[[Tristan und Isolde]]''"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "In 1876, the [[Bayreuth Festival]] was created dedicated to the exclusive representation of Wagner's works"
+    }
+   ]
+  },
+  {
+   "text": "As Romanticism came apart, Arnold Schoenberg and the Second Viennese School answered with Expressionism, and in France Claude Debussy's Pelléas and Mélisande of 1902 carried music towards Impressionism.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "Some notable movements to form in response to Romanticism's collapse include [[Expressionist music|Expressionism]] with [[Arnold Schoenberg]] and the [[Second Viennese School]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "romanticism in France was gradually abandoned in favor of other currents such as [[Impressionism in music|Impressionism]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw",
+     "quote": "carried in particular by [[Claude Debussy]]'s ''[[Pelléas and Mélisande]]'' (1902)"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Origin: our record says Vienna and Leipzig; https://de.wikipedia.org/wiki/Musik_der_Romantik?action=raw names the centres as north and central Germany: \"Die Zentren der musikalischen Romantik befanden sich vorzugsweise in Nord- und [[Mitteldeutschland]] ([[Berlin]], [[Dresden]], [[Leipzig]])\". Vienna appears in the sources only as the classical starting point (\"The transition of [[Viennese classicism]] to Romanticism\", https://en.wikipedia.org/wiki/Romantic_music?action=raw).",
+  "Start date: our record says 1820; https://en.wikipedia.org/wiki/Romantic_music?action=raw puts Hoffmann's founding statement in 1810 (\"a lengthy review of [[Ludwig van Beethoven]]'s [[Symphony No. 5 (Beethoven)|Fifth Symphony]] published in 1810\") and ties the wider movement to \"about 1798 until 1837\". No end date of 1910 is given; the article places the French turn away from Romanticism at the start of the 20th century (Pelléas, 1902)."
+ ],
+ "sources": [
+  {
+   "title": "Romantic music (English Wikipedia, raw)",
+   "url": "https://en.wikipedia.org/wiki/Romantic_music?action=raw"
+  },
+  {
+   "title": "Musik der Romantik (German Wikipedia, raw)",
+   "url": "https://de.wikipedia.org/wiki/Musik_der_Romantik?action=raw"
+  },
+  {
+   "title": "Felix Mendelssohn (English Wikipedia, raw)",
+   "url": "https://en.wikipedia.org/wiki/Felix_Mendelssohn?action=raw"
+  }
+ ],
+ "notes": "All 24 quotes found. The record lists the family as 'chant', which does not fit 19th-century concert music; flagged for the lead, not changed. Leipzig details come from the Mendelssohn article; the 1843 date is quoted from a footnote inside that article's raw text."
+}

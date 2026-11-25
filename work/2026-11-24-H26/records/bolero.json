@@ -1,0 +1,32 @@
+{
+ "id": "bolero",
+ "name": "Trova and bolero",
+ "region": "carib",
+ "family": "afrocuban",
+ "tradition": "cuban",
+ "began": 1885,
+ "ended": 1960,
+ "origin": {
+  "text": "Santiago de Cuba",
+  "lat": 20.02,
+  "lon": -75.82,
+  "country": "CU"
+ },
+ "definition": {
+  "window": "1885–1960",
+  "sound": "Slow, romantic Cuban song for voice and guitar or small band, with lyrical melodies over a gentle bolero rhythm.",
+  "markers": [
+   "Slow tempo with a soft bongo or maraca pulse",
+   "Romantic or bittersweet love lyrics",
+   "Guitar-led trova backing or lush string arrangement"
+  ]
+ },
+ "judgements": {
+  "significance": 4,
+  "ease": 5,
+  "fame": 4,
+  "intrigue": 3
+ },
+ "tier": 2,
+ "row": 11
+}

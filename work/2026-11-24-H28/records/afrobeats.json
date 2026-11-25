@@ -1,0 +1,32 @@
+{
+ "id": "afrobeats",
+ "name": "Afrobeats",
+ "region": "afr",
+ "family": "africa",
+ "tradition": "westafrpop",
+ "began": 2008,
+ "ended": null,
+ "origin": {
+  "text": "Lagos",
+  "lat": 6.6,
+  "lon": 3.35,
+  "country": "NG"
+ },
+ "definition": {
+  "window": "2008 onward",
+  "sound": "West African pop: mid-tempo syncopated drum programming, log drums or percussion, smooth melodic vocals in English, pidgin and Yoruba.",
+  "markers": [
+   "Syncopated, bouncy programmed groove",
+   "Melodic, often auto-tuned vocals",
+   "Pidgin and Yoruba phrases mixed with English"
+  ]
+ },
+ "judgements": {
+  "significance": 4,
+  "ease": 5,
+  "fame": 5,
+  "intrigue": 2
+ },
+ "tier": 2,
+ "row": 4
+}

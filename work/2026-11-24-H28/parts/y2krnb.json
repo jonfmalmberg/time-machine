@@ -1,0 +1,178 @@
+{
+ "genre": "y2krnb",
+ "story": "On Control (1986), Janet Jackson and producers Jimmy Jam and Terry Lewis set funk and disco rhythms in synthesizers and a rap sensibility. In Virginia Beach in 1991, Pharrell Williams and Chad Hugo, entering a talent contest against their friends Missy Elliott and Timbaland & Magoo, were found by producer Teddy Riley. Timbaland, born in Norfolk and schooled in Virginia Beach, went to New York with Elliott when DeVante Swing of Jodeci signed her group Sista. He took hip-hop's drum breaks into R&B, using breakbeats to break up a track's smooth flow. In 1996 he produced most of Aaliyah's One in a Million and Ginuwine's first album, and in 1997 all of Elliott's Supa Dupa Fly. Rodney Jerkins (Darkchild), raised in New Jersey, produced Brandy and Monica's \"The Boy Is Mine\" in 1998 and Destiny's Child's \"Say My Name\" in 1999. The Neptunes produced all of Kelis's first album, Kaleidoscope, in 1999 and in 2001 had their first worldwide hit, Britney Spears's \"I'm a Slave 4 U\". In Britain, bootleg garage remixes, one of them of \"The Boy Is Mine\", fed the rise of UK garage. In 2004 all 12 Billboard Hot 100 number ones were by African-American artists.",
+ "words": 199,
+ "sentences": [
+  {
+   "text": "On Control (1986), Janet Jackson and producers Jimmy Jam and Terry Lewis set funk and disco rhythms in synthesizers and a rap sensibility.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Contemporary_R%26B?action=raw",
+     "quote": "[[Janet Jackson]]'s ''[[Control (Janet Jackson album)|Control]]'' (1986)"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Contemporary_R%26B?action=raw",
+     "quote": "as she and her producers, [[Jimmy Jam and Terry Lewis]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Contemporary_R%26B?action=raw",
+     "quote": "fuses the rhythmic elements of funk and disco, along with heavy doses of synthesizers, percussion, sound effects, and a rap music sensibility"
+    }
+   ]
+  },
+  {
+   "text": "In Virginia Beach in 1991, Pharrell Williams and Chad Hugo, entering a talent contest against their friends Missy Elliott and Timbaland & Magoo, were found by producer Teddy Riley.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/The_Neptunes?action=raw",
+     "quote": "Williams and Hugo met at a summer camp for the school of the Gifted and Talented in [[Virginia Beach, Virginia]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/The_Neptunes?action=raw",
+     "quote": "Upon entering a local talent contest in 1991, the Neptunes were competing with childhood friends [[Missy Elliott]], [[Timbaland & Magoo]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/The_Neptunes?action=raw",
+     "quote": "which led the duo to be discovered by record producer [[Teddy Riley]], whose studio was close to Williams' school"
+    }
+   ]
+  },
+  {
+   "text": "Timbaland, born in Norfolk and schooled in Virginia Beach, went to New York with Elliott when DeVante Swing of Jodeci signed her group Sista.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+     "quote": "Born and raised in [[Norfolk, Virginia]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+     "quote": "He graduated from [[Salem High School (Virginia Beach, Virginia)|Salem High School]] of [[Virginia Beach]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+     "quote": "DeVante signed Sista to his Swing Mob record label and Elliott brought Mosley and Barcliff along with her to New York"
+    }
+   ]
+  },
+  {
+   "text": "He took hip-hop's drum breaks into R&B, using breakbeats to break up a track's smooth flow.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+     "quote": "His trademark sound was very much rooted in [[hip-hop]] with its fast-paced nature and clear drum breaks"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+     "quote": "He was taking a hip-hop sound and applying it to R&B"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+     "quote": "using breakbeats, which break up the smooth flow of tracks to create moments of tension and release"
+    }
+   ]
+  },
+  {
+   "text": "In 1996 he produced most of Aaliyah's One in a Million and Ginuwine's first album, and in 1997 all of Elliott's Supa Dupa Fly.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+     "quote": "In 1996, he made his mainstream breakthrough by producing the majority of both [[Aaliyah]]'s second album ''[[One in a Million (Aaliyah album)|One in a Million]]'' and [[Ginuwine]]'s debut album"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+     "quote": "In 1997, he fully produced ''[[Supa Dupa Fly]]'', the debut album of [[Missy Elliott]]"
+    }
+   ]
+  },
+  {
+   "text": "Rodney Jerkins (Darkchild), raised in New Jersey, produced Brandy and Monica's \"The Boy Is Mine\" in 1998 and Destiny's Child's \"Say My Name\" in 1999.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Rodney_Jerkins?action=raw",
+     "quote": "Raised in [[Galloway Township, New Jersey]], Jerkins"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Rodney_Jerkins?action=raw",
+     "quote": "1998: Brandy and Monica – \"The Boy Is Mine\""
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Rodney_Jerkins?action=raw",
+     "quote": "1999: Destiny's Child – \"Say My Name\""
+    }
+   ]
+  },
+  {
+   "text": "The Neptunes produced all of Kelis's first album, Kaleidoscope, in 1999 and in 2001 had their first worldwide hit, Britney Spears's \"I'm a Slave 4 U\".",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/The_Neptunes?action=raw",
+     "quote": "for whom they would entirely produce her debut studio album, ''[[Kaleidoscope (Kelis album)|Kaleidoscope]]'' (1999)"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/The_Neptunes?action=raw",
+     "quote": "In 2001, [[N.E.R.D.]] released their debut studio album"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/The_Neptunes?action=raw",
+     "quote": "In the same year, the Neptunes gained their first worldwide hit with [[Britney Spears]]' single, \"[[I'm a Slave 4 U]]\""
+    }
+   ]
+  },
+  {
+   "text": "In Britain, bootleg garage remixes, one of them of \"The Boy Is Mine\", fed the rise of UK garage.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+     "quote": "would later serve to create \"bootleg\" garage tracks, which was essential in the rise of UK garage"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw",
+     "quote": "One such example is the remix of Brandy & Monica's \"[[The Boy Is Mine (Brandy and Monica song)|The Boy Is Mine]]\""
+    }
+   ]
+  },
+  {
+   "text": "In 2004 all 12 Billboard Hot 100 number ones were by African-American artists.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Contemporary_R%26B?action=raw",
+     "quote": "In 2004, all 12 songs that topped the ''Billboard'' Hot 100 were African-American recording artists"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "No Wikipedia article for 'Y2K R&B' as a genre; the story is built from Contemporary R&B, Timbaland, The Neptunes and Rodney Jerkins articles.",
+  "Start date: our record says 1998; Timbaland's breakthrough productions (Aaliyah's One in a Million, Ginuwine's debut) are 1996 and Supa Dupa Fly 1997 (https://en.wikipedia.org/wiki/Timbaland?action=raw). The Contemporary R&B article says 'in the second half of the 1990s, [[The Neptunes]] and Timbaland set influential precedence'.",
+  "Origin: our record says Virginia Beach. The Neptunes formed there and Timbaland went to school there, but Timbaland was born in Norfolk, Missy Elliott in Portsmouth, their Swing Mob work was in New York, and Rodney Jerkins (Darkchild) is from New Jersey."
+ ],
+ "sources": [
+  {
+   "title": "Contemporary R&B (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Contemporary_R%26B?action=raw"
+  },
+  {
+   "title": "Timbaland (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw"
+  },
+  {
+   "title": "The Neptunes (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/The_Neptunes?action=raw"
+  },
+  {
+   "title": "Rodney Jerkins (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Rodney_Jerkins?action=raw"
+  }
+ ],
+ "notes": "Home language English. The Timbaland article calls his style 'stuttering', matching our record's sound line; no source used describes the era as 'Y2K R&B'. The 'after' beat rests on UK garage bootlegs and the 2004 Hot 100; nothing found on where the style ended around 2006."
+}

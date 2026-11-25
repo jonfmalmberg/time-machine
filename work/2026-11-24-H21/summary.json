@@ -1,0 +1,51 @@
+{
+ "songs": 1200,
+ "found": 493,
+ "unverified": 707,
+ "basis": {
+  "song article": 421,
+  "album article": 15,
+  "discography": 57
+ },
+ "lang": {
+  "pt": 8,
+  "en": 424,
+  "fr": 5,
+  "id": 13,
+  "ru": 1,
+  "vi": 3,
+  "de": 5,
+  "pl": 4,
+  "es": 14,
+  "no": 2,
+  "fi": 4,
+  "it": 3,
+  "da": 2,
+  "tr": 4,
+  "ja": 1
+ },
+ "field": {
+  "lançado": 6,
+  "released": 385,
+  "sorti": 5,
+  "published": 2,
+  "null": 57,
+  "Veröffentlichung": 5,
+  "wydany": 4,
+  "utgitt": 2,
+  "julkaistu": 4,
+  "anno": 3,
+  "lanzamiento": 4,
+  "udgivet": 2,
+  "lanzado": 1,
+  "Lançado": 1,
+  "publicación": 7,
+  "Released": 3,
+  "Yayımlanma": 2
+ },
+ "differs_by_more_than_one": 10,
+ "no_year_on_site": 13,
+ "checker": {
+  "found": 511
+ }
+}

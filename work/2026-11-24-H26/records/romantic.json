@@ -1,0 +1,32 @@
+{
+ "id": "romantic",
+ "name": "Romantic",
+ "region": "eur",
+ "family": "chant",
+ "tradition": "westart",
+ "began": 1820,
+ "ended": 1910,
+ "origin": {
+  "text": "Vienna and Leipzig",
+  "lat": 51.34,
+  "lon": 12.37,
+  "country": "DE"
+ },
+ "definition": {
+  "window": "1820–1910",
+  "sound": "Expressive, large-scale music: long singing melodies, rich chromatic harmony and big orchestral or virtuoso piano writing.",
+  "markers": [
+   "Flexible tempo and rubato, emotional swells",
+   "Chromatic harmony and sudden key shifts",
+   "Large orchestra or virtuoso solo piano"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 4,
+  "fame": 5,
+  "intrigue": 3
+ },
+ "tier": 1,
+ "row": 4
+}

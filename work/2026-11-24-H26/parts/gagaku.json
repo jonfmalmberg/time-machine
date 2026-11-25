@@ -1,0 +1,146 @@
+{
+ "genre": "gagaku",
+ "story": "From the 5th century, music and dance reached Japan from mainland China and the Korean peninsula; in 554 musicians are said to have come from the Korean kingdom of Baekje. In 701 the Taihō Code set up the Gagaku-ryō, a court bureau for music and dance. In 736 the monk Buttetsu brought Rin'yū music, said to come from India and Southeast Asia; in 752 Tang, Korean and native dances marked the eye-opening of the Great Buddha at Tōdai-ji in Nara. In the 9th and 10th centuries the Heian court fused these imported styles with native song, and split the repertoire into a left side built on Tang music and a right side built on Korean music. Courtiers played too: Minamoto no Hiromasa is remembered for the flute and biwa, Fujiwara no Moronaga as a biwa master. After the Ōnin War of 1467 to 1477 the ensembles stopped playing in Kyoto for about 100 years, until the Tokugawa shogunate revived them. After 1868 the guilds of Osaka, Nara and Kyoto moved to Tokyo, where their descendants make up most of the Imperial Palace Music Department. In 1973 Tōru Takemitsu completed Shuteiga (In an Autumn Garden) for the Imperial Household ensemble.",
+ "words": 199,
+ "sentences": [
+  {
+   "text": "From the 5th century, music and dance reached Japan from mainland China and the Korean peninsula; in 554 musicians are said to have come from the Korean kingdom of Baekje.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+     "quote": "5世紀以降、[[中国大陸]]・[[朝鮮半島]]などとの交流を通じて、外来系の音楽・舞が日本に伝来した"
+    },
+    {
+     "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+     "quote": "554年（[[欽明天皇]]15年）には、[[百済]]から楽人が来朝したとされる"
+    }
+   ]
+  },
+  {
+   "text": "In 701 the Taihō Code set up the Gagaku-ryō, a court bureau for music and dance.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+     "quote": "701年（大宝元年）の[[大宝律令]]により、宮廷の音楽・舞を司る機関として[[雅楽寮]]が設置された"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+     "quote": "the Gagaku-ryō, a government bureau which oversaw music education and performance in the Japanese Imperial Court"
+    }
+   ]
+  },
+  {
+   "text": "In 736 the monk Buttetsu brought Rin'yū music, said to come from India and Southeast Asia; in 752 Tang, Korean and native dances marked the eye-opening of the Great Buddha at Tōdai-ji in Nara.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+     "quote": "736年（天平8年）には、[[林邑]]僧の仏哲らが[[林邑]]楽を伝えたとされる"
+    },
+    {
+     "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+     "quote": "インド・東南アジア方面に由来する楽舞とされ"
+    },
+    {
+     "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+     "quote": "752年（天平勝宝4年）の[[東大寺盧舎那仏像]]の[[開眼法要]]では"
+    },
+    {
+     "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+     "quote": "[[唐楽]]、[[林邑]]楽、[[高麗楽]]、大歌舞、久米舞など、多様な楽舞が奉納された"
+    }
+   ]
+  },
+  {
+   "text": "In the 9th and 10th centuries the Heian court fused these imported styles with native song, and split the repertoire into a left side built on Tang music and a right side built on Korean music.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+     "quote": "From the 9th century to the 10th century, during the [[Heian period]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+     "quote": "becoming distinctly Japanese in style through its fusion with musical styles indigenous to Japan"
+    },
+    {
+     "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+     "quote": "平安前期には、[[唐楽]]を中心とする左方と、[[高麗楽]]を中心とする右方の区別が明確化した"
+    }
+   ]
+  },
+  {
+   "text": "Courtiers played too: Minamoto no Hiromasa is remembered for the flute and biwa, Fujiwara no Moronaga as a biwa master.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+     "quote": "[[源博雅]]は笛や琵琶に関する逸話で知られ"
+    },
+    {
+     "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw",
+     "quote": "[[藤原師長]]は琵琶の名手として知られ"
+    }
+   ]
+  },
+  {
+   "text": "After the Ōnin War of 1467 to 1477 the ensembles stopped playing in Kyoto for about 100 years, until the Tokugawa shogunate revived them.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+     "quote": "Due to the [[Ōnin War]], a civil war from 1467 to 1477 during the [[Muromachi period]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+     "quote": "ensembles ceased to perform in Kyoto for about 100 years. In the [[Edo period]], the [[Tokugawa shogunate]] revived and reorganized the court-style ensembles"
+    }
+   ]
+  },
+  {
+   "text": "After 1868 the guilds of Osaka, Nara and Kyoto moved to Tokyo, where their descendants make up most of the Imperial Palace Music Department.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+     "quote": "there were three guilds, based in [[Osaka]], [[Nara, Nara|Nara]] and [[Kyoto]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw",
+     "quote": "After the [[Meiji Restoration]] of 1868, musicians from all three guilds came to the capital and their descendants make up most of the current [[Tokyo Imperial Palace]] Music Department"
+    }
+   ]
+  },
+  {
+   "text": "In 1973 Tōru Takemitsu completed Shuteiga (In an Autumn Garden) for the Imperial Household ensemble.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tōru_Takemitsu?action=raw",
+     "quote": "Takemitsu received a commission from the [[National Theatre of Japan]] to write a work for the ''[[gagaku]]'' ensemble of the Imperial Household; this was fulfilled in 1973, when he completed ''Shuteiga'' (\"In an Autumn Garden\""
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Our record gives origin Nara and start 700; the English article places its development at the Kyoto court and its settled form in the Heian period: 'was developed as court music of the [[Kyoto Imperial Palace]], and its near-current form was established in the [[Heian period]] (794–1185) around the 10th century' (https://en.wikipedia.org/wiki/Gagaku?action=raw). The 701 bureau and the 752 Tōdai-ji performance in Nara support our start."
+ ],
+ "sources": [
+  {
+   "title": "Japanese Wikipedia: 雅楽",
+   "url": "https://ja.wikipedia.org/wiki/雅楽?action=raw"
+  },
+  {
+   "title": "English Wikipedia: Gagaku",
+   "url": "https://en.wikipedia.org/wiki/Gagaku?action=raw"
+  },
+  {
+   "title": "English Wikipedia: Tōru Takemitsu",
+   "url": "https://en.wikipedia.org/wiki/Tōru_Takemitsu?action=raw"
+  }
+ ],
+ "notes": "The Japanese article (ja.wikipedia 雅楽, raw) supplied the named people (Buttetsu, Minamoto no Hiromasa, Fujiwara no Moronaga) and the 554, 701, 736 and 752 dates; romanised names in the story are my readings of the kanji 仏哲, 源博雅, 藤原師長, 百済 (Baekje) and 大宝律令 (Taihō Code), which the page gives only in Japanese. The 'said to' wording follows the page's とされる."
+}

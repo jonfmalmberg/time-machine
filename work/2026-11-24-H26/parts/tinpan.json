@@ -1,0 +1,169 @@
+{
+ "genre": "tinpan",
+ "story": "Before it, publishers mostly printed European songs to avoid royalties; only about 10 to 30 percent of music printed in the United States was by American composers. After the Civil War, middle-class families owned pianos and bought sheet music to play new songs at home. From about 1885 publishers gathered in one Manhattan district, and by the late 1890s most had followed Witmark to West 28th Street between Fifth and Sixth Avenues. Many publishers were former salesmen or Jewish immigrants: Leo Feist had sold corsets, Edward B. Marks buttons. Charles K. Harris wrote \"After the Ball\" in 1892, Irving Berlin \"Alexander's Ragtime Band\" in 1911. Publishers paid song pluggers, George Gershwin among them, to play new songs in music stores and sell the sheet music. They began with ballads and comic songs, took up the cakewalk and ragtime, later jazz and blues, always in a form amateur singers and small-town bands could play from print. From the 1930s the phonograph, radio and film replaced sheet music as the driving force, and in the 1950s rock and roll, centred on the Brill Building, took over. In 1985 Bob Dylan said he had ended it: \"People can record their own songs now.\"",
+ "words": 200,
+ "sentences": [
+  {
+   "text": "Before it, publishers mostly printed European songs to avoid royalties; only about 10 to 30 percent of music printed in the United States was by American composers.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "was largely based on European \"art\" songs in an effort to get around copyright royalty fees"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "only about 10–30% of the music printed in the United States, including New York, was written by American composers"
+    }
+   ]
+  },
+  {
+   "text": "After the Civil War, middle-class families owned pianos and bought sheet music to play new songs at home.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "capitalizing on the boom in that medium as America emerged out of the [[American Civil War|Civil War]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "ownership was widespread in middle-class families"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "one would buy the sheet music and then perform the piece at home"
+    }
+   ]
+  },
+  {
+   "text": "From about 1885 publishers gathered in one Manhattan district, and by the late 1890s most had followed Witmark to West 28th Street between Fifth and Sixth Avenues.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "usually dated to about 1885, when a number of music publishers set up shop in the same district of Manhattan"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "Witmark was the first publishing house to move to West 28th Street"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "by the late 1890s most publishers had followed their lead"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "a specific location on West 28th Street, between [[Fifth Avenue|Fifth]] and [[Sixth Avenue]]s"
+    }
+   ]
+  },
+  {
+   "text": "Many publishers were former salesmen or Jewish immigrants: Leo Feist had sold corsets, Edward B. Marks buttons.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "The song publishers who created Tin Pan Alley frequently had backgrounds as salesmen"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "Many Jewish immigrants became music publishers and songwriters on Tin Pan Alley"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "[[Leo Feist]] had sold corsets"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "[[The Little Lost Child|Joe Stern and Edward B. Marks]] had sold neckties and buttons, respectively"
+    }
+   ]
+  },
+  {
+   "text": "Charles K. Harris wrote \"After the Ball\" in 1892, Irving Berlin \"Alexander's Ragtime Band\" in 1911.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "\"[[After the Ball (song)|After the Ball]]\" (1892) – written by [[Charles K. Harris]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "\"[[Alexander's Ragtime Band]]\" (1911) – written by [[Irving Berlin]]"
+    }
+   ]
+  },
+  {
+   "text": "Publishers paid song pluggers, George Gershwin among them, to play new songs in music stores and sell the sheet music.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "pianists and singers who represented the music publishers, making their living demonstrating songs to promote sales of sheet music"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "Most music stores had song pluggers on staff"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "Among the ranks of song pluggers were [[George Gershwin]]"
+    }
+   ]
+  },
+  {
+   "text": "They began with ballads and comic songs, took up the cakewalk and ragtime, later jazz and blues, always in a form amateur singers and small-town bands could play from print.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "Initially Tin Pan Alley specialized in melodramatic ballads and comic novelty songs, but it embraced the newly popular styles of the [[cakewalk]] and [[ragtime music]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "Later, [[jazz]] and [[blues]] were incorporated"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "oriented towards producing songs that amateur singers or small town bands could perform from printed music"
+    }
+   ]
+  },
+  {
+   "text": "From the 1930s the phonograph, radio and film replaced sheet music as the driving force, and in the 1950s rock and roll, centred on the Brill Building, took over.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "when the [[phonograph]], radio, and motion pictures supplanted [[sheet music]] as the driving force of American popular music"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "upstaged by the rise of [[rock and roll]], which was centered on the [[Brill Building]]"
+    }
+   ]
+  },
+  {
+   "text": "In 1985 Bob Dylan said he had ended it: \"People can record their own songs now.\"",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw",
+     "quote": "Dylan proclaimed in 1985: \"I put an end to it. People can record their own songs now.\""
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Start date: our record says 1890; https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw says \"The start of Tin Pan Alley is usually dated to about 1885\".",
+  "End date: our record says 1955; https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw gives two views: \"Some date it to the start of the [[Great Depression]] in the 1930s\" and \"others consider Tin Pan Alley to have continued into the 1950s\"."
+ ],
+ "sources": [
+  {
+   "title": "Tin Pan Alley (English Wikipedia, raw)",
+   "url": "https://en.wikipedia.org/wiki/Tin_Pan_Alley?action=raw"
+  }
+ ],
+ "notes": "All 22 quotes found. The record's markers (32-bar AABA chorus, crooner vocal) are not mentioned in the Tin Pan Alley article, so the story says nothing about the song form; a source for AABA form would be needed to add it. The 1930s/1950s 'after' sentence states both endings the article gives without choosing between them."
+}

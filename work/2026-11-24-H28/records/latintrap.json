@@ -1,0 +1,32 @@
+{
+ "id": "latintrap",
+ "name": "Latin trap",
+ "region": "carib",
+ "family": "riddim",
+ "tradition": "urbano",
+ "began": 2015,
+ "ended": null,
+ "origin": {
+  "text": "San Juan",
+  "lat": 18.45,
+  "lon": -66.07,
+  "country": "PR"
+ },
+ "definition": {
+  "window": "2015 onward",
+  "sound": "Atlanta-style trap production under Spanish-language rap and sung hooks, slower and darker than reggaeton.",
+  "markers": [
+   "808 sub-bass and rolled hi-hats, no dembow riddim",
+   "Half-time feel around 70 to 80 BPM",
+   "Auto-tuned Spanish vocals about street life, money and sex"
+  ]
+ },
+ "judgements": {
+  "significance": 3,
+  "ease": 4,
+  "fame": 4,
+  "intrigue": 1
+ },
+ "tier": 3,
+ "row": 0
+}

@@ -1,0 +1,41 @@
+{
+ "id": "maracatu",
+ "name": "Maracatu",
+ "region": "latam",
+ "family": "brazil",
+ "tradition": "nordeste",
+ "began": 1700,
+ "ended": null,
+ "origin": {
+  "text": "Recife and Olinda",
+  "lat": -8.05,
+  "lon": -34.88,
+  "country": "BR"
+ },
+ "definition": {
+  "window": "c. 1700 onward (first written record 1711; recorded on album from the 1990s)",
+  "sound": "Afro-Brazilian carnival processional music of Pernambuco: massed rope-tuned alfaia bass drums, snares and a gonguê bell under call-and-response songs (loas) in the urban baque virado of Recife and Olinda nations, and a faster, brass-led baque solto in the rural Mata Norte form.",
+  "markers": [
+   "A wall of heavy alfaia bass drums playing interlocking, syncopated patterns",
+   "A clanging gonguê bell and rattling abê shakers riding over the drums",
+   "A solo singer answered by a chorus in short, repeated loas"
+  ],
+  "evidence": [
+   "e_03exhvh1y1",
+   "e_9grj4ybyzr",
+   "e_6ydj6y1fb0",
+   "e_bjrnmcrg9j",
+   "e_5jgv9bzmtr",
+   "e_naz0wh4kgx",
+   "e_wytd7mx5df"
+  ]
+ },
+ "judgements": {
+  "significance": 3,
+  "ease": 3,
+  "fame": 2,
+  "intrigue": 4
+ },
+ "tier": 3,
+ "row": 0
+}

@@ -1,0 +1,32 @@
+{
+ "id": "tango",
+ "name": "Tango",
+ "region": "latam",
+ "family": "mainland",
+ "tradition": "riverplate",
+ "began": 1890,
+ "ended": 1955,
+ "origin": {
+  "text": "Buenos Aires",
+  "lat": -34.6,
+  "lon": -58.38,
+  "country": "AR"
+ },
+ "definition": {
+  "window": "1890–1955",
+  "sound": "Rioplatense dance music for the orquesta típica: bandoneón, violins, piano and bass marking a strong 2/4 or 4/4 walk, with dramatic sung lyrics.",
+  "markers": [
+   "Bandoneón section with violins and piano",
+   "Marked, staccato walking beat for dancing",
+   "Melancholy lunfardo lyrics, often sung by one voice"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 4,
+  "fame": 5,
+  "intrigue": 3
+ },
+ "tier": 1,
+ "row": 2
+}

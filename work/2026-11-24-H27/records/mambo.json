@@ -1,0 +1,44 @@
+{
+ "id": "mambo",
+ "name": "Mambo and cha-cha-chá",
+ "region": "carib",
+ "family": "afrocuban",
+ "tradition": "cuban",
+ "began": 1938,
+ "ended": 1960,
+ "origin": {
+  "text": "Havana",
+  "lat": 23.14,
+  "lon": -82.36,
+  "country": "CU"
+ },
+ "definition": {
+  "window": "1938–1960",
+  "sound": "Big-band Cuban dance music with blaring brass riffs over a syncopated rhythm, plus the smoother, mid-tempo cha-cha-chá.",
+  "markers": [
+   "Punchy saxophone and trumpet riffs in repeating layers",
+   "Shouts and grunts, sudden breaks",
+   "Cha-cha-chá: chugging mid-tempo, unison vocals, the 'cha-cha-chá' step"
+  ]
+ },
+ "judgements": {
+  "significance": 4,
+  "ease": 5,
+  "fame": 4,
+  "intrigue": 3
+ },
+ "tier": 2,
+ "row": 4,
+ "_tree_led_to": [
+  "exotica (other)",
+  "salsa (principal)",
+  "boogaloo (principal)",
+  "rumbaflam (other)",
+  "venezuelansalsa (other)"
+ ],
+ "_tree_came_from": [
+  "son (principal)",
+  "swing (other)",
+  "habanera (other)"
+ ]
+}

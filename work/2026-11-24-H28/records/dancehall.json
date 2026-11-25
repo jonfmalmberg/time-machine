@@ -1,0 +1,32 @@
+{
+ "id": "dancehall",
+ "name": "Dancehall",
+ "region": "carib",
+ "family": "riddim",
+ "tradition": "jamaican",
+ "began": 1980,
+ "ended": null,
+ "origin": {
+  "text": "Kingston",
+  "lat": 18.02,
+  "lon": -76.8,
+  "country": "JM"
+ },
+ "definition": {
+  "window": "1980 onward",
+  "sound": "Jamaican digital-era riddims with sparse drum and bass loops under a DJ who toasts or sing-jays in patois.",
+  "markers": [
+   "Shared riddims reused by many artists",
+   "Toasting or sing-jay delivery in thick patois",
+   "Sparse, often digital drum machine beats, boastful or slack lyrics"
+  ]
+ },
+ "judgements": {
+  "significance": 4,
+  "ease": 4,
+  "fame": 4,
+  "intrigue": 2
+ },
+ "tier": 2,
+ "row": 0
+}

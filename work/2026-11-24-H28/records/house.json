@@ -1,0 +1,32 @@
+{
+ "id": "house",
+ "name": "House",
+ "region": "nam",
+ "family": "dance",
+ "tradition": "houset",
+ "began": 1984,
+ "ended": 1990,
+ "origin": {
+  "text": "Chicago",
+  "lat": 41.88,
+  "lon": -87.63,
+  "country": "US"
+ },
+ "definition": {
+  "window": "1984–1990 (Chicago)",
+  "sound": "Disco rebuilt on drum machines: steady four-on-the-floor kick, gospel and disco vocals.",
+  "markers": [
+   "Kick on every beat, about 120–125 BPM",
+   "Open hi-hat on the off-beat",
+   "Roland 808/909 drums, soulful vocal"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 4,
+  "fame": 4,
+  "intrigue": 1
+ },
+ "tier": 1,
+ "row": 2
+}

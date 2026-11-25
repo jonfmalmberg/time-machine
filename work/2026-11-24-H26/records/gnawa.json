@@ -1,0 +1,33 @@
+{
+ "id": "gnawa",
+ "name": "Gnawa",
+ "region": "mena",
+ "family": "africa",
+ "tradition": "gnawat",
+ "began": 1600,
+ "ended": null,
+ "origin": {
+  "text": "Essaouira",
+  "lat": 31.51,
+  "lon": -9.77,
+  "country": "MA"
+ },
+ "definition": {
+  "window": "1600 onward",
+  "sound": "Moroccan trance-healing music of a Sufi brotherhood of sub-Saharan origin: guembri bass lute, iron qraqeb castanets and call-and-response chant.",
+  "markers": [
+   "Guembri three-string bass lute",
+   "Loud clacking iron qraqeb in a fast triplet",
+   "Repetitive call-and-response chant building to trance"
+  ]
+ },
+ "judgements": {
+  "significance": 3,
+  "ease": 3,
+  "fame": 2,
+  "intrigue": 5
+ },
+ "note": "Ritual music of Moroccans descended from West African slaves.",
+ "tier": 2,
+ "row": 0
+}

@@ -1,0 +1,117 @@
+{
+ "genre": "soul",
+ "story": "Soul grew out of African-American gospel music and rhythm and blues, joining their religious and secular styles in the 1950s. Ray Charles began a run of hits with \"I Got a Woman\" in 1954. Sam Cooke sang lead in the gospel group the Soul Stirrers before he moved into secular music. In Detroit, Berry Gordy founded Tamla Records, later Motown, on 12 January 1959. He turned a photography studio at 2648 West Grand Boulevard into a recording studio and office. In Memphis, the siblings Estelle and James Stewart ran Stax Records. Stax released hits by Otis Redding, Wilson Pickett and the Staple Singers. Stax put the voice further back in the mix and used horns where other records used backing singers. Motown, an African American-owned label, won white listeners as well. Between 1960 and 1969, 79 Motown songs reached the Billboard top ten. Aretha Franklin, first a gospel singer, began making secular records in 1960 and later recorded for Atlantic. After the 1967 Detroit riot, Gordy moved Motown to Los Angeles. James Brown and Sly and the Family Stone moved on into funk. Neo soul, drawing on hip-hop, grew from it around 1994.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "Soul grew out of African-American gospel music and rhythm and blues, joining their religious and secular styles in the 1950s.",
+   "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+   "quote": "as the hybridization of their respective religious and secular styles"
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "Ray Charles began a run of hits with \"I Got a Woman\" in 1954.",
+   "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+   "quote": "[[Ray Charles]] is often cited as popularizing the soul music genre with his series of hits, starting with 1954's \"[[I Got a Woman]]\""
+  },
+  {
+   "n": 3,
+   "beat": "who",
+   "text": "Sam Cooke sang lead in the gospel group the Soul Stirrers before he moved into secular music.",
+   "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+   "quote": "Cooke became popular as the lead singer of the gospel group [[the Soul Stirrers]], before controversially moving into secular music."
+  },
+  {
+   "n": 4,
+   "beat": "who",
+   "text": "In Detroit, Berry Gordy founded Tamla Records, later Motown, on 12 January 1959.",
+   "url": "https://en.wikipedia.org/wiki/Motown?action=raw",
+   "quote": "as Tamla Records on January 12, 1959"
+  },
+  {
+   "n": 5,
+   "beat": "who",
+   "text": "He turned a photography studio at 2648 West Grand Boulevard into a recording studio and office.",
+   "url": "https://en.wikipedia.org/wiki/Motown?action=raw",
+   "quote": "he purchased a photography studio at 2648 West Grand Boulevard and converted the main floor into a recording studio and office space"
+  },
+  {
+   "n": 6,
+   "beat": "who",
+   "text": "In Memphis, the siblings Estelle and James Stewart ran Stax Records.",
+   "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+   "quote": "[[Stax Records]], founded by siblings Estelle and James Stewart, was the second most successful record label behind [[Motown Records]]."
+  },
+  {
+   "n": 7,
+   "beat": "who",
+   "text": "Stax released hits by Otis Redding, Wilson Pickett and the Staple Singers.",
+   "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+   "quote": "They were responsible for releasing hits by [[Otis Redding]], [[Wilson Pickett]], [[the Staple Singers]], and many more."
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "Stax put the voice further back in the mix and used horns where other records used backing singers.",
+   "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+   "quote": "putting vocals further back in the mix than most contemporary R&B records, using vibrant horn parts in place of background vocals"
+  },
+  {
+   "n": 9,
+   "beat": "why",
+   "text": "Motown, an African American-owned label, won white listeners as well.",
+   "url": "https://en.wikipedia.org/wiki/Motown?action=raw",
+   "quote": "as an African American-owned label that achieved [[crossover (music)|crossover]] success with white audiences"
+  },
+  {
+   "n": 10,
+   "beat": "why",
+   "text": "Between 1960 and 1969, 79 Motown songs reached the Billboard top ten.",
+   "url": "https://en.wikipedia.org/wiki/Motown?action=raw",
+   "quote": "Between 1960 and 1969, 79 Motown songs reached the top ten of the [[Billboard Hot 100|''Billboard'' Hot 100]]"
+  },
+  {
+   "n": 11,
+   "beat": "who",
+   "text": "Aretha Franklin, first a gospel singer, began making secular records in 1960 and later recorded for Atlantic.",
+   "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+   "quote": "originally a gospel singer who began to make secular recordings in 1960 but whose career was later revitalized by her recordings for Atlantic"
+  },
+  {
+   "n": 12,
+   "beat": "after",
+   "text": "After the 1967 Detroit riot, Gordy moved Motown to Los Angeles.",
+   "url": "https://en.wikipedia.org/wiki/Motown?action=raw",
+   "quote": "Gordy moved Motown to Los Angeles, California, and it expanded into film and television production."
+  },
+  {
+   "n": 13,
+   "beat": "after",
+   "text": "James Brown and Sly and the Family Stone moved on into funk.",
+   "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+   "quote": "Artists such as James Brown and [[Sly and the Family Stone]] evolved into [[funk]] music"
+  },
+  {
+   "n": 14,
+   "beat": "after",
+   "text": "Neo soul, drawing on hip-hop, grew from it around 1994.",
+   "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+   "quote": "[[Neo soul]], which adopted hip-hop influences, developed around 1994."
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "Began: record says 1959; Soul_music says it 'originated ... in the late 1950s and early 1960s', and Guralnick (quoted there) dates the movement to 1961: \"Soul started, in a sense, with the 1961 success of Solomon Burke's \\\"Just Out of Reach\\\".\" (https://en.wikipedia.org/wiki/Soul_music?action=raw). 1959 matches Tamla's founding, not a stated start of soul.",
+  "Origin: record says Detroit and Memphis; Soul_music says it 'originated in [[African-American culture|African-American]] [[African-American neighborhood|communities]] throughout the United States' (https://en.wikipedia.org/wiki/Soul_music?action=raw) and names Atlantic (New York) and Ray Charles, Sam Cooke as forefathers. Detroit and Memphis fit the record's 'Soul and Motown' scope but are not the only origin the source gives.",
+  "Ended: record says 1975; no source found that names an end year. Soul_music describes soul 'informing most subsequent forms of R&B from the 1970s-onward' (https://en.wikipedia.org/wiki/Soul_music?action=raw)."
+ ],
+ "notes": "Story leans on Motown (Detroit) and Stax (Memphis) to match the record's 'Soul and Motown' scope and origin. Motown founding facts come from the Motown article; everything else from Soul_music. Tree neighbours funk and neosoul are both supported by the sources."
+}

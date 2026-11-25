@@ -1,0 +1,32 @@
+{
+ "id": "carnatic",
+ "name": "Carnatic classical",
+ "region": "sasia",
+ "family": "raga",
+ "tradition": "carnatict",
+ "began": 1500,
+ "ended": null,
+ "origin": {
+  "text": "Thanjavur",
+  "lat": 10.79,
+  "lon": 79.14,
+  "country": "IN"
+ },
+ "definition": {
+  "window": "1500 onward",
+  "sound": "South Indian raga music centred on composed devotional songs (kriti), heavily ornamented, with violin shadowing the voice and mridangam drum.",
+  "markers": [
+   "Dense oscillating ornaments (gamaka) on most notes",
+   "Violin following the singer, mridangam drum",
+   "Composed kriti in Telugu, Sanskrit or Tamil"
+  ]
+ },
+ "judgements": {
+  "significance": 4,
+  "ease": 2,
+  "fame": 2,
+  "intrigue": 4
+ },
+ "tier": 1,
+ "row": 0
+}

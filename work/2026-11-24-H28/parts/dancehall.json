@@ -1,0 +1,148 @@
+{
+ "genre": "dancehall",
+ "story": "Dancehall began in the late 1970s among working-class people in inner-city Kingston who could not go to dances uptown. As Edward Seaga's government replaced Michael Manley's, music moved away from internationally oriented roots reggae toward local listeners. Radio would not play it, so it spread through sound systems and record dealers. Deejays toasted over rhythm tracks from 1960s and 1970s reggae. Sound systems such as Killimanjaro and Black Scorpio brought new deejays such as General Echo and Yellowman, whose sexually explicit lyrics were called \"slackness\". Deejay records now mattered more than records by singers. In 1984 Wayne Smith and Noel Davey built a riddim on the \"rock\" preset of a Casiotone MT-40 keyboard, because Davey could not afford a Yamaha DX-7. King Jammy released it as \"Under Mi Sleng Teng\" in 1985, and many artists recorded over the same riddim. Afterwards most riddims were made by keyboard players alone. Shabba Ranks won a Grammy for his 1991 album As Raw as Ever, and dancehall's faster electronic beat shaped Reggae en Español.",
+ "words": 171,
+ "sentences": [
+  {
+   "text": "Dancehall began in the late 1970s among working-class people in inner-city Kingston who could not go to dances uptown.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+     "quote": "They began in the late 1970s among lower and working-class people from the inner city of [[Kingston, Jamaica|Kingston]], who were not able to participate in dances uptown"
+    }
+   ]
+  },
+  {
+   "text": "As Edward Seaga's government replaced Michael Manley's, music moved away from internationally oriented roots reggae toward local listeners.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+     "quote": "including the change from the [[socialism|socialist]] government of [[Michael Manley]] ([[People's National Party]]) to [[Edward Seaga]] ([[Jamaica Labour Party]])"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+     "quote": "were reflected in the shift away from the more internationally oriented [[roots reggae]] towards a style geared more towards local consumption"
+    }
+   ]
+  },
+  {
+   "text": "Radio would not play it, so it spread through sound systems and record dealers.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+     "quote": "Since this put spreading via radio out of the question, dancehall initially gained popularity only through live performances in sound systems and specialized record dealing"
+    }
+   ]
+  },
+  {
+   "text": "Deejays toasted over rhythm tracks from 1960s and 1970s reggae.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+     "quote": "that the deejay would rap or \"toast\" over came from earlier reggae songs from the 1960s and 1970s"
+    }
+   ]
+  },
+  {
+   "text": "Sound systems such as Killimanjaro and Black Scorpio brought new deejays such as General Echo and Yellowman, whose sexually explicit lyrics were called \"slackness\".",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+     "quote": "Sound systems such as Killimanjaro, [[Black Scorpio]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+     "quote": "[[General Echo]] and [[Yellowman]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+     "quote": "Yellowman often incorporated sexually explicit lyrics into his songs, which became known as \"slackness.\""
+    }
+   ]
+  },
+  {
+   "text": "Deejay records now mattered more than records by singers.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+     "quote": "Deejay records became, for the first time, more important than records featuring singers"
+    }
+   ]
+  },
+  {
+   "text": "In 1984 Wayne Smith and Noel Davey built a riddim on the \"rock\" preset of a Casiotone MT-40 keyboard, because Davey could not afford a Yamaha DX-7.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Under_Mi_Sleng_Teng?action=raw",
+     "quote": "In 1984, Smith met Noel Davey and created a [[riddim]] (reggae backing track) using the \"rock\" preset on Davey's [[Casiotone MT-40]] keyboard"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Under_Mi_Sleng_Teng?action=raw",
+     "quote": "Davey used an MT-40 as he was unable to afford a [[Yamaha DX-7]] synthesiser"
+    }
+   ]
+  },
+  {
+   "text": "King Jammy released it as \"Under Mi Sleng Teng\" in 1985, and many artists recorded over the same riddim.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Under_Mi_Sleng_Teng?action=raw",
+     "quote": "released in 1985 on [[Jammy's Records]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Under_Mi_Sleng_Teng?action=raw",
+     "quote": "Soon after the release, numerous artists recorded songs using the same [[riddim]]"
+    }
+   ]
+  },
+  {
+   "text": "Afterwards most riddims were made by keyboard players alone.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Under_Mi_Sleng_Teng?action=raw",
+     "quote": "most riddims were created electronically by keyboard players alone"
+    }
+   ]
+  },
+  {
+   "text": "Shabba Ranks won a Grammy for his 1991 album As Raw as Ever, and dancehall's faster electronic beat shaped Reggae en Español.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+     "quote": "[[Shabba Ranks]] became the first dancehall artist to win at the [[Grammy Awards]] with his debut album ''[[As Raw as Ever]]'' in 1991"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw",
+     "quote": "The faster tempo and simpler electronic beat of late-1980s and early-1990s dancehall greatly influenced the development of [[Reggae en Español]]"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Start date: our record says 1980; https://en.wikipedia.org/wiki/Dancehall?action=raw says it \"originated in the late 1970s\" and \"began in the late 1970s among lower and working-class people\".",
+  "Sound: our record describes 'digital-era riddims'; the article says early dancehall used rhythm tracks that \"came from earlier reggae songs from the 1960s and 1970s\", and the digital turn came with \"Under Mi Sleng Teng\" in 1985. The record's description fits from 1985, not from 1980.",
+  "Between sources (not our record): the Dancehall article says the Sleng Teng rhythm \"was used in over 200 subsequent recordings\"; https://en.wikipedia.org/wiki/Under_Mi_Sleng_Teng?action=raw says \"having been used in more than 500 songs\". The story gives no number."
+ ],
+ "sources": [
+  {
+   "title": "Dancehall (English Wikipedia, raw wikitext)",
+   "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw"
+  },
+  {
+   "title": "Under Mi Sleng Teng (English Wikipedia, raw wikitext)",
+   "url": "https://en.wikipedia.org/wiki/Under_Mi_Sleng_Teng?action=raw"
+  }
+ ],
+ "notes": "All four beats sourced. The Dancehall article's naming section (InnerCity Promotions, 1982-83) is unsourced and promotional in tone, so it was left out. Did not look for a Jamaican Patois (jam) Wikipedia article; English is the article language for this genre."
+}

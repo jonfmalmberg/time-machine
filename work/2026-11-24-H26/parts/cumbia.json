@@ -1,0 +1,148 @@
+{
+ "genre": "cumbia",
+ "story": "Admiral José Prudencio Padilla wrote that on the night of 18 June 1821 Indigenous people in Arjona greeted the feast of Saint John with gaitas and cumbiambas. In Santa Marta in 1825–26 the Swedish naval lieutenant Carl August Gosselman saw a street dance played on a bamboo flute like a gaita, a maraca and a drum from a fire-hollowed trunk. In Barranquilla in 1888 a woman known as La Cañón set up large cumbiamba circles at the four corners of Bolívar street, danced to drums and flutes. Cumbia had been instrumental; in time, singers were added. Clarinetist Lucho Bermúdez, who grew up in El Carmen de Bolívar, wrote stylized orchestral arrangements of cumbia, and by the 1940s it was spreading from the coast to the rest of Colombia. Record companies on the coast, among them Discos Fuentes, founded in 1934, helped carry it abroad. In 1946 Bermúdez recorded 60 of his compositions for RCA Víctor in Argentina. In Mexico in the 1940s the Colombian singer Luis Carlos Meyer and orchestra director Rafael de Paz made La Cumbia Cienaguera, considered the first cumbia recorded outside Colombia. In 1960s Peru, Los Destellos were among the first to lead cumbia with electric guitars.",
+ "words": 200,
+ "sentences": [
+  {
+   "text": "Admiral José Prudencio Padilla wrote that on the night of 18 June 1821 Indigenous people in Arjona greeted the feast of Saint John with gaitas and cumbiambas.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "includes a text of Admiral [[José Prudencio Padilla]] which records cumbiambas and indigenous gaitas during the festival of [[John the Baptist]] in the neighboring town of [[Arjona (Bolívar)|Arjona]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "No era noche de luna la del 18 de junio de 1821"
+    }
+   ]
+  },
+  {
+   "text": "In Santa Marta in 1825–26 the Swedish naval lieutenant Carl August Gosselman saw a street dance played on a bamboo flute like a gaita, a maraca and a drum from a fire-hollowed trunk.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "the navy lieutenant [[Sweden|Swedish]] Carl August Gosselman in Santa Marta, and recorded in his work \"Viaje por Colombia: 1825 y 1826\""
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "a guy who plays a bamboo clarinet about four feet long, like a gaita"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "a large drum made in a fire-hollowed trunk"
+    }
+   ]
+  },
+  {
+   "text": "In Barranquilla in 1888 a woman known as La Cañón set up large cumbiamba circles at the four corners of Bolívar street, danced to drums and flutes.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "when the popular woman from Barranquilla, called La Cañón, created her huge cumbiamba circles back in 1888, at the 4 corners of Bolivar street"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "deep and vigorous rhythm of drums, flutes and guarachas"
+    }
+   ]
+  },
+  {
+   "text": "Cumbia had been instrumental; in time, singers were added.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "Cumbia used to be “an exclusively instrumental genre”. However, as time passed, they started to add vocals to this music."
+    }
+   ]
+  },
+  {
+   "text": "Clarinetist Lucho Bermúdez, who grew up in El Carmen de Bolívar, wrote stylized orchestral arrangements of cumbia, and by the 1940s it was spreading from the coast to the rest of Colombia.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Lucho_Bermúdez?action=raw",
+     "quote": "During his childhood, he lived in [[El Carmen de Bolívar]]."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "Clarinetist Lucho Bermúdez helped bring cumbia into the country's interior by adding stylized orchestral arrangements to the rhythms of the genre."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "By the 1940s cumbia began spreading from the coast to other parts of Colombia"
+    }
+   ]
+  },
+  {
+   "text": "Record companies on the coast, among them Discos Fuentes, founded in 1934, helped carry it abroad.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "The early spread of cumbia internationally was helped by the number of record companies on the coast."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "beginning with the founding of Discos Fuentes in 1934"
+    }
+   ]
+  },
+  {
+   "text": "In 1946 Bermúdez recorded 60 of his compositions for RCA Víctor in Argentina.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "who in 1946 recorded for RCA Víctor in Argentina 60 of his compositions"
+    }
+   ]
+  },
+  {
+   "text": "In Mexico in the 1940s the Colombian singer Luis Carlos Meyer and orchestra director Rafael de Paz made La Cumbia Cienaguera, considered the first cumbia recorded outside Colombia.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "In the 1940s, the Colombian singer [[Luis Carlos Meyer]] emigrated to Mexico, where he worked with the Mexican orchestra director Rafael de Paz."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "Their album ''La Cumbia Cienaguera'' is considered the first cumbia recorded outside Colombia."
+    }
+   ]
+  },
+  {
+   "text": "In 1960s Peru, Los Destellos were among the first to lead cumbia with electric guitars.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "Peruvian cumbia started in the 1960s with groups such as [[Los Destellos]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw",
+     "quote": "who were some of the first to give a proper rhythm to the [[Peruvian cumbia]] using as the main instrument electric guitars"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Our record starts the window in 1850; the English Wikipedia article on Colombian cumbia (https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw) cites a text of Admiral José Prudencio Padilla that \"records cumbiambas and indigenous gaitas\" at Arjona on \"18 de junio de 1821\", and Carl August Gosselman's \"Viaje por Colombia: 1825 y 1826\" describing a gaita ensemble in Santa Marta."
+ ],
+ "sources": [
+  {
+   "title": "Cumbia (Colombia) (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Cumbia_(Colombia)?action=raw"
+  },
+  {
+   "title": "Lucho Bermúdez (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Lucho_Bermúdez?action=raw"
+  }
+ ],
+ "notes": "The English 'Cumbia' article is a set index with no history, so the story uses 'Cumbia (Colombia)'. The Spanish-language article could not be used: es.wikipedia 'Cumbia' is a disambiguation page and 'Cumbia colombiana' redirects. The article's account of the African, Indigenous and Spanish mixing has no names or dates, so the before beat rests on the two earliest written descriptions instead."
+}

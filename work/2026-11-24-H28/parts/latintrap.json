@@ -1,0 +1,141 @@
+{
+ "genre": "latintrap",
+ "story": "Latin trap descends from southern hip hop and trap, influenced by reggaeton, R&B and urbano music. Ozuna dates it to \"El Pistolón\" in 2007, by Arcángel & De la Ghetto, Yaga & Mackie and Jowell & Randy in Puerto Rico; De la Ghetto says he began around 2005 or 2006. Its reggaeton artists wanted to bring American hip hop and R&B to a Spanish-speaking audience. Around 2014 Alvaro Diaz, Myke Towers and Fuete Billete posted songs on social media, and in 2015 and 2016 Noriel, Anuel AA, Bryant Myers and others put trap songs on SoundCloud. In July 2017 The Fader wrote that Puerto Rican rappers had taken trap's lurching bass lines and jittering 808s. They rapped and sang through autotune, in Spanish or Spanglish, about street life, violence, sex and drugs. Jorge Fonseca's compilation Trap Capos: Season 1 was the first Latin trap LP to top Billboard's Latin Rhythm Albums. In 2018 Cardi B's \"I Like It\", with Bad Bunny and J Balvin, became the first Latin trap song to reach number one on the US Billboard Hot 100. In Argentina, Duki, YSY A, Cazzu and others carried it across South America, faster than in Puerto Rico.",
+ "words": 198,
+ "sentences": [
+  {
+   "text": "Latin trap descends from southern hip hop and trap, influenced by reggaeton, R&B and urbano music.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+     "quote": "A direct descendant of [[Southern hip-hop|southern hip hop]] and [[Trap music|trap]], and influenced by [[reggaeton]], [[Latin R&B|R&B]] and [[urbano music]]."
+    }
+   ]
+  },
+  {
+   "text": "Ozuna dates it to \"El Pistolón\" in 2007, by Arcángel & De la Ghetto, Yaga & Mackie and Jowell & Randy in Puerto Rico; De la Ghetto says he began around 2005 or 2006.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+     "quote": "states that it originated in 2007 with the song \"El Pistolón\", performed by [[Arcángel & De la Ghetto]], [[Yaga & Mackie]], and [[Jowell & Randy]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+     "quote": "Latin trap originated in Puerto Rico and gained popularity throughout Latin America."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+     "quote": "states that he has been performing Latin trap since around 2005 or 2006"
+    }
+   ]
+  },
+  {
+   "text": "Its reggaeton artists wanted to bring American hip hop and R&B to a Spanish-speaking audience.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+     "quote": "Reggaeton artists at this time wanted to introduce elements of [[American hip hop]] and [[Contemporary R&B|R&B]] to a Spanish audience."
+    }
+   ]
+  },
+  {
+   "text": "Around 2014 Alvaro Diaz, Myke Towers and Fuete Billete posted songs on social media, and in 2015 and 2016 Noriel, Anuel AA, Bryant Myers and others put trap songs on SoundCloud.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+     "quote": "Latin trap began to gain prominence around 2014 when artists such as Alvaro Diaz, [[Myke Towers]] and Fuete Billete"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+     "quote": "began posting their songs through social media platforms"
+    },
+    {
+     "url": "https://es.wikipedia.org/wiki/Trap_latino?action=raw",
+     "quote": "Cierta popularidad comienza cuando [[Noriel]], [[Anuel AA]], [[Bryant Myers]], [[Brytiago]] y [[Almighty]], entre otros, publicaban sus canciones con ritmos de trap en plataformas de internet como [[SoundCloud]] entre 2015 y 2016."
+    }
+   ]
+  },
+  {
+   "text": "In July 2017 The Fader wrote that Puerto Rican rappers had taken trap's lurching bass lines and jittering 808s.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+     "quote": "In July 2017, ''[[The Fader]]'' wrote: \"Rappers and [[reggaeton]]eros from [[Puerto Rico]] have taken elements of trap – the lurching bass lines, jittering 808s and the eyes-half-closed vibe"
+    }
+   ]
+  },
+  {
+   "text": "They rapped and sang through autotune, in Spanish or Spanglish, about street life, violence, sex and drugs.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+     "quote": "Vocals include a bend of [[rapping]] and singing using [[synthesizers]] and [[autotune]] in Spanish or in Spanglish"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+     "quote": "The lyrics in Latin trap are often about street life, violence, sex, drugs"
+    }
+   ]
+  },
+  {
+   "text": "Jorge Fonseca's compilation Trap Capos: Season 1 was the first Latin trap LP to top Billboard's Latin Rhythm Albums.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+     "quote": "on the compilation ''Trap Capos: Season 1'', which became the first \"Latin trap\" [[LP record|LP]] to reach number one on [[Billboard (magazine)|''Billboard'']]'s [[Latin Rhythm Albums]] chart"
+    }
+   ]
+  },
+  {
+   "text": "In 2018 Cardi B's \"I Like It\", with Bad Bunny and J Balvin, became the first Latin trap song to reach number one on the US Billboard Hot 100.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+     "quote": "In 2018, [[Cardi B]]'s [[hit single]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw",
+     "quote": "featuring Bad Bunny and [[J Balvin]] became the first Latin trap song to reach number one on the US [[Billboard Hot 100|''Billboard'' Hot 100]] chart"
+    }
+   ]
+  },
+  {
+   "text": "In Argentina, Duki, YSY A, Cazzu and others carried it across South America, faster than in Puerto Rico.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://es.wikipedia.org/wiki/Trap_latino?action=raw",
+     "quote": "en [[Argentina]] tomó impulso el género con artistas como [[Duki]], [[YSY A]], [[Cazzu]]"
+    },
+    {
+     "url": "https://es.wikipedia.org/wiki/Trap_latino?action=raw",
+     "quote": "estos popularizaron el trap a lo largo de [[América del Sur]] con un tempo más rápido del que se escuchaba en Puerto Rico"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Start date: our record says 2015; https://en.wikipedia.org/wiki/Latin_trap?action=raw says \"it gained popularity after 2007\" and gives \"cultural_origins  = 2000s–2010s, in [[Puerto Rico]]\"; De la Ghetto is quoted as \"performing Latin trap since around 2005 or 2006\". https://es.wikipedia.org/wiki/Trap_latino?action=raw gives \"Alta desde 2015 en Hispanoamérica y España\" as the start of its popularity, which fits 2015 as the date it took off rather than began.",
+  "Tempo: our record says a half-time feel around 70 to 80 BPM; the Spanish article says Argentine artists spread it \"con un tempo más rápido del que se escuchaba en Puerto Rico\", so the tempo marker fits the Puerto Rican sound, not all of it."
+ ],
+ "sources": [
+  {
+   "title": "Latin trap (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw"
+  },
+  {
+   "title": "Trap latino (Spanish Wikipedia)",
+   "url": "https://es.wikipedia.org/wiki/Trap_latino?action=raw"
+  }
+ ],
+ "notes": "Read the Spanish article (es: Trap latino) and used it for two sentences (SoundCloud artists 2015-2016, Argentina). The 'why' sentence (bringing American hip hop and R&B to a Spanish audience) is the article's own statement, uncited there. Ozuna's and De la Ghetto's dates are their own claims, and the story attributes them."
+}

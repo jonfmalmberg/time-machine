@@ -1,0 +1,198 @@
+{
+ "house": [
+  {
+   "title": "House music (English Wikipedia, raw wikitext)",
+   "url": "https://en.wikipedia.org/wiki/House_music?action=raw"
+  }
+ ],
+ "techno": [
+  {
+   "title": "Techno (English Wikipedia, raw wikitext)",
+   "url": "https://en.wikipedia.org/wiki/Techno?action=raw"
+  },
+  {
+   "title": "The Belleville Three (English Wikipedia, raw wikitext)",
+   "url": "https://en.wikipedia.org/wiki/The_Belleville_Three?action=raw"
+  }
+ ],
+ "dancehall": [
+  {
+   "title": "Dancehall (English Wikipedia, raw wikitext)",
+   "url": "https://en.wikipedia.org/wiki/Dancehall?action=raw"
+  },
+  {
+   "title": "Under Mi Sleng Teng (English Wikipedia, raw wikitext)",
+   "url": "https://en.wikipedia.org/wiki/Under_Mi_Sleng_Teng?action=raw"
+  }
+ ],
+ "jungle": [
+  {
+   "title": "Jungle music (English Wikipedia, raw wikitext)",
+   "url": "https://en.wikipedia.org/wiki/Jungle_music?action=raw"
+  },
+  {
+   "title": "Drum and bass (English Wikipedia, raw wikitext)",
+   "url": "https://en.wikipedia.org/wiki/Drum_and_bass?action=raw"
+  }
+ ],
+ "jpop": [
+  {
+   "title": "J-pop (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/J-pop?action=raw"
+  },
+  {
+   "title": "J-POP (Japanese Wikipedia)",
+   "url": "https://ja.wikipedia.org/wiki/J-POP?action=raw"
+  }
+ ],
+ "kpop": [
+  {
+   "title": "K-pop (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/K-pop?action=raw"
+  },
+  {
+   "title": "K-pop (Korean Wikipedia)",
+   "url": "https://ko.wikipedia.org/wiki/K-pop?action=raw"
+  }
+ ],
+ "teenpop": [
+  {
+   "title": "Cheiron Studios (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Cheiron_Studios?action=raw"
+  },
+  {
+   "title": "Max Martin (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Max_Martin?action=raw"
+  },
+  {
+   "title": "Teen pop (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Teen_pop?action=raw"
+  }
+ ],
+ "reggaeton": [
+  {
+   "title": "Reggaeton (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Reggaeton?action=raw"
+  },
+  {
+   "title": "Reguetón (Spanish Wikipedia)",
+   "url": "https://es.wikipedia.org/wiki/Reguet%C3%B3n?action=raw"
+  }
+ ],
+ "afrobeats": [
+  {
+   "title": "Afrobeats (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Afrobeats?action=raw"
+  }
+ ],
+ "frenchhouse": [
+  {
+   "title": "French house (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/French_house?action=raw"
+  },
+  {
+   "title": "French touch (musique) (French Wikipedia)",
+   "url": "https://fr.wikipedia.org/wiki/French_touch_(musique)?action=raw"
+  }
+ ],
+ "y2krnb": [
+  {
+   "title": "Contemporary R&B (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Contemporary_R%26B?action=raw"
+  },
+  {
+   "title": "Timbaland (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Timbaland?action=raw"
+  },
+  {
+   "title": "The Neptunes (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/The_Neptunes?action=raw"
+  },
+  {
+   "title": "Rodney Jerkins (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Rodney_Jerkins?action=raw"
+  }
+ ],
+ "melodic": [
+  {
+   "title": "808s & Heartbreak (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/808s_%26_Heartbreak?action=raw"
+  },
+  {
+   "title": "So Far Gone (mixtape) (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/So_Far_Gone_(mixtape)?action=raw"
+  }
+ ],
+ "amapiano": [
+  {
+   "title": "Amapiano (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Amapiano?action=raw"
+  },
+  {
+   "title": "DJ Spoko (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/DJ_Spoko?action=raw"
+  },
+  {
+   "title": "Kabza de Small (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Kabza_de_Small?action=raw"
+  },
+  {
+   "title": "Amapiano (isiZulu Wikipedia), read, not quoted",
+   "url": "https://zu.wikipedia.org/wiki/Amapiano?action=raw"
+  },
+  {
+   "title": "Amapiano (Afrikaans Wikipedia), read, quoted under disagreements",
+   "url": "https://af.wikipedia.org/wiki/Amapiano?action=raw"
+  }
+ ],
+ "latintrap": [
+  {
+   "title": "Latin trap (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Latin_trap?action=raw"
+  },
+  {
+   "title": "Trap latino (Spanish Wikipedia)",
+   "url": "https://es.wikipedia.org/wiki/Trap_latino?action=raw"
+  }
+ ],
+ "moderntrap": [
+  {
+   "title": "Trap music (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw"
+  },
+  {
+   "title": "Lex Luger (music producer) (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Lex_Luger_(music_producer)?action=raw"
+  },
+  {
+   "title": "Flockaveli (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Flockaveli?action=raw"
+  },
+  {
+   "title": "Migos (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Migos?action=raw"
+  }
+ ],
+ "edmpop": [
+  {
+   "title": "David Guetta (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/David_Guetta?action=raw"
+  },
+  {
+   "title": "Swedish House Mafia (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Swedish_House_Mafia?action=raw"
+  },
+  {
+   "title": "Electronic dance music (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Electronic_dance_music?action=raw"
+  },
+  {
+   "title": "Avicii (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Avicii?action=raw"
+  },
+  {
+   "title": "Wake Me Up (Avicii song) (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Wake_Me_Up_(Avicii_song)?action=raw"
+  }
+ ]
+}

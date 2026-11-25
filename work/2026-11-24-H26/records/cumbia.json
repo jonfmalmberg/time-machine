@@ -1,0 +1,38 @@
+{
+ "id": "cumbia",
+ "name": "Cumbia",
+ "region": "latam",
+ "family": "mainland",
+ "tradition": "cumbiat",
+ "began": 1850,
+ "ended": null,
+ "origin": {
+  "text": "Colombian Caribbean coast",
+  "lat": 10.39,
+  "lon": -75.48,
+  "country": "CO"
+ },
+ "definition": {
+  "window": "1850 onward",
+  "sound": "Colombian Caribbean dance music: a steady two-beat shuffle carried by drums, maracas and gaita flutes or accordion, later by brass bands.",
+  "markers": [
+   "Even 2/4 shuffle with a scraped or shaken pulse",
+   "Gaita flute, clarinet or accordion lead",
+   "Tambor alegre and llamador drums"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 5,
+  "fame": 4,
+  "intrigue": 3
+ },
+ "note": "African drumming meets Indigenous gaita flutes on Colombia’s Caribbean coast.",
+ "tier": 1,
+ "row": 0,
+ "subgenres": [
+  "Colombian gaita",
+  "Mapalé",
+  "Puya"
+ ]
+}

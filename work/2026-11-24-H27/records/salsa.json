@@ -1,0 +1,41 @@
+{
+ "id": "salsa",
+ "name": "Salsa",
+ "region": "carib",
+ "family": "afrocuban",
+ "tradition": "salsat",
+ "began": 1965,
+ "ended": null,
+ "origin": {
+  "text": "New York (Spanish Harlem)",
+  "lat": 40.79,
+  "lon": -73.94,
+  "country": "US"
+ },
+ "definition": {
+  "window": "1965 onward",
+  "sound": "New York and Puerto Rican reworking of Cuban son and mambo with brass, piano montunos and a hard-driving clave rhythm.",
+  "markers": [
+   "Piano montuno and tumbao bass locked to clave",
+   "Trombone or trumpet section riffs",
+   "Long improvised soneos over a call-and-response coro"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 5,
+  "fame": 5,
+  "intrigue": 3
+ },
+ "tier": 1,
+ "row": 2,
+ "_tree_led_to": [
+  "timba (other)",
+  "colombiansalsa (principal)",
+  "venezuelansalsa (principal)"
+ ],
+ "_tree_came_from": [
+  "mambo (principal)",
+  "son (other)"
+ ]
+}

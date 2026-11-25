@@ -1,0 +1,32 @@
+{
+ "id": "tinpan",
+ "name": "Tin Pan Alley",
+ "region": "nam",
+ "family": "pop",
+ "tradition": "popsong",
+ "began": 1890,
+ "ended": 1955,
+ "origin": {
+  "text": "New York",
+  "lat": 40.75,
+  "lon": -73.99,
+  "country": "US"
+ },
+ "definition": {
+  "window": "1890–1955",
+  "sound": "Professionally written American songs in verse-and-chorus form, sung by crooners or show singers over dance band or orchestra.",
+  "markers": [
+   "32-bar AABA chorus",
+   "Polished crooner or show-tune vocal",
+   "Dance band or studio orchestra"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 4,
+  "fame": 4,
+  "intrigue": 1
+ },
+ "tier": 1,
+ "row": 2
+}

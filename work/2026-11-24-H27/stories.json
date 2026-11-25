@@ -1,0 +1,2115 @@
+[
+ {
+  "genre": "blues",
+  "story": "Before the blues, enslaved people in the American South sang field hollers and ring shouts. After emancipation, Black farm workers moved from slavery into sharecropping. In 1903 W.C. Handy first heard the blues at Tutwiler, Mississippi. In 1920 Mamie Smith became the first African American to record a blues song. The women who sang it on the vaudeville stage were led by Ma Rainey, Bessie Smith and Lucille Bogan. In the Mississippi Delta, singers accompanied themselves on slide guitar. Charley Patton and Son House played it before Robert Johnson. In 1923 Sylvester Weaver was the first to record slide guitar, fretting the strings with a knife blade or a bottle neck. Okeh and Paramount began recording African-American music. Blues became a genre of its own as Black families left the countryside for the cities in the 1920s. Muddy Waters, Howlin' Wolf and Willie Dixon, all born in Mississippi, moved to Chicago. In 1948 Muddy Waters's \"I Can't Be Satisfied\" made Chicago a centre for electric blues. With jazz and gospel, the blues went into rhythm and blues.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "Before the blues, enslaved people in the American South sang field hollers and ring shouts.",
+    "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+    "quote": "A form of this pre-blues was heard in slave [[ring shout]]s and [[field holler]]s"
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "After emancipation, Black farm workers moved from slavery into sharecropping.",
+    "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+    "quote": "This period corresponds to the transition from slavery to [[sharecropping]]"
+   },
+   {
+    "n": 3,
+    "beat": "who",
+    "text": "In 1903 W.C. Handy first heard the blues at Tutwiler, Mississippi.",
+    "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+    "quote": "[[W.C. Handy]], who first heard the blues in [[Tutwiler, Mississippi]], in 1903"
+   },
+   {
+    "n": 4,
+    "beat": "who",
+    "text": "In 1920 Mamie Smith became the first African American to record a blues song.",
+    "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+    "quote": "was the first African American to record a blues song, in 1920"
+   },
+   {
+    "n": 5,
+    "beat": "who",
+    "text": "The women who sang it on the vaudeville stage were led by Ma Rainey, Bessie Smith and Lucille Bogan.",
+    "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+    "quote": "among them \"the big three\"—[[Ma Rainey|Gertrude \"Ma\" Rainey]], [[Bessie Smith]], and [[Lucille Bogan]]"
+   },
+   {
+    "n": 6,
+    "beat": "who",
+    "text": "In the Mississippi Delta, singers accompanied themselves on slide guitar.",
+    "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+    "quote": "The (Mississippi) Delta blues was a rootsy sparse style with passionate vocals accompanied by slide guitar."
+   },
+   {
+    "n": 7,
+    "beat": "who",
+    "text": "Charley Patton and Son House played it before Robert Johnson.",
+    "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+    "quote": "In addition to Robert Johnson, influential performers of this style included his predecessors [[Charley Patton]] and [[Son House]]."
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "In 1923 Sylvester Weaver was the first to record slide guitar, fretting the strings with a knife blade or a bottle neck.",
+    "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+    "quote": "was in 1923 the first to record the [[slide guitar]] style, in which a guitar is fretted with a knife blade or the sawed-off neck of a bottle"
+   },
+   {
+    "n": 9,
+    "beat": "why",
+    "text": "Okeh and Paramount began recording African-American music.",
+    "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+    "quote": "Several record companies, such as the [[American Record Corporation]], [[Okeh Records]], and [[Paramount Records]], began to record African-American music."
+   },
+   {
+    "n": 10,
+    "beat": "why",
+    "text": "Blues became a genre of its own as Black families left the countryside for the cities in the 1920s.",
+    "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+    "quote": "The notion of blues as a separate genre arose during the [[Great Migration (African American)|Black migration]] from the countryside to urban areas in the 1920s"
+   },
+   {
+    "n": 11,
+    "beat": "after",
+    "text": "Muddy Waters, Howlin' Wolf and Willie Dixon, all born in Mississippi, moved to Chicago.",
+    "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+    "quote": "[[Howlin' Wolf]], Muddy Waters, [[Willie Dixon]] and [[Jimmy Reed]] were all born in Mississippi and moved to Chicago during the Great Migration."
+   },
+   {
+    "n": 12,
+    "beat": "after",
+    "text": "In 1948 Muddy Waters's \"I Can't Be Satisfied\" made Chicago a centre for electric blues.",
+    "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+    "quote": "Chicago became a center for electric blues from 1948 on, when [[Muddy Waters]] recorded his first success, \"I Can't Be Satisfied\"."
+   },
+   {
+    "n": 13,
+    "beat": "after",
+    "text": "With jazz and gospel, the blues went into rhythm and blues.",
+    "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+    "quote": "which, together with [[jazz]] and [[gospel music]], became a component of R&B."
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "began: record says 1900; source puts the origins earlier: \"But the origins of the blues were some decades earlier, probably around 1890.\" (https://en.wikipedia.org/wiki/Blues?action=raw). The record's 1900 fits the first written reports and is arguably the start of the documented music, but the lead may want to note it.",
+   "_tree_came_from griot (other): the source is split. Against: \"the blues form itself bears no resemblance to the melodic styles of the West African [[griot]]s\"; for a narrower link: \"The [[Griot]] tradition of the Sahel also may have influenced [[talking blues]]\" (https://en.wikipedia.org/wiki/Blues?action=raw)."
+  ],
+  "notes": "All quotes are from the English Wikipedia article Blues (raw). The Mississippi Delta origin fits the source (\"it was simply the music of the rural South, notably the [[Mississippi Delta]]\") but the source also reports early blues in Texas, New Orleans and Missouri, so the Delta is one centre, not the only one. Not used: the Sahel/Islamic-influence material, which the article presents as competing scholarly views."
+ },
+ {
+  "genre": "jazz",
+  "story": "Jazz grew out of blues, ragtime, spirituals, hymns and marches. Until 1843 Africans in New Orleans danced to drums on Sundays at Congo Square. The brass, drums and reeds of the city's marching and dance bands became the instruments of jazz. Cornetist Buddy Bolden played in New Orleans from 1895 to 1906 and left no recordings. Many early players worked in the bars and brothels of Storyville, the district around Basin Street. Bolden and Jelly Roll Morton were among them. Bolden's band is credited with the \"big four\", the first syncopated bass drum pattern to break from the on-the-beat march. From 1914 Creole and African-American musicians carried jazz north and west in vaudeville shows. Early in 1917 the Original Dixieland Jass Band made the first jazz recordings. The U.S. government shut Storyville the same year. Louis Armstrong started his career in Storyville. By the time Armstrong joined Fletcher Henderson's band, he was moving jazz toward arrangements and soloists. Henderson and Don Redman developed the \"talking to one another\" formula for hot swing. Swing big bands then took over the 1930s.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "Jazz grew out of blues, ragtime, spirituals, hymns and marches.",
+    "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+    "quote": "It developed out of many forms of music, including [[blues]], [[ragtime]], European [[harmony]], African rhythmic rituals, [[spirituals]], [[hymns]], [[march (music)|marches]]"
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "Until 1843 Africans in New Orleans danced to drums on Sundays at Congo Square.",
+    "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+    "quote": "Lavish festivals with African-based dances to drums were organized on Sundays at Place Congo, or Congo Square, in New Orleans until 1843."
+   },
+   {
+    "n": 3,
+    "beat": "before",
+    "text": "The brass, drums and reeds of the city's marching and dance bands became the instruments of jazz.",
+    "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+    "quote": "The instruments used by marching bands and dance bands became the instruments of jazz: brass, drums, and reeds"
+   },
+   {
+    "n": 4,
+    "beat": "who",
+    "text": "Cornetist Buddy Bolden played in New Orleans from 1895 to 1906 and left no recordings.",
+    "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+    "quote": "Cornetist Buddy Bolden played in New Orleans from 1895 to 1906. No recordings by him exist."
+   },
+   {
+    "n": 5,
+    "beat": "who",
+    "text": "Many early players worked in the bars and brothels of Storyville, the district around Basin Street.",
+    "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+    "quote": "Many early jazz musicians played in the bars and brothels of the red-light district around Basin Street called [[Storyville, New Orleans|Storyville]]."
+   },
+   {
+    "n": 6,
+    "beat": "who",
+    "text": "Bolden and Jelly Roll Morton were among them.",
+    "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+    "quote": "These included [[Buddy Bolden]] and [[Jelly Roll Morton]]"
+   },
+   {
+    "n": 7,
+    "beat": "why",
+    "text": "Bolden's band is credited with the \"big four\", the first syncopated bass drum pattern to break from the on-the-beat march.",
+    "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+    "quote": "His band is credited with creating the big four: the first syncopated bass drum pattern to deviate from the standard on-the-beat march."
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "From 1914 Creole and African-American musicians carried jazz north and west in vaudeville shows.",
+    "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+    "quote": "Beginning in 1914, [[Louisiana Creole people|Louisiana Creole]] and African-American musicians played in [[vaudeville]] shows which carried jazz to cities in the northern and western parts of the U.S."
+   },
+   {
+    "n": 9,
+    "beat": "why",
+    "text": "Early in 1917 the Original Dixieland Jass Band made the first jazz recordings.",
+    "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+    "quote": "The [[Original Dixieland Jass Band]] made the music's first recordings early in 1917"
+   },
+   {
+    "n": 10,
+    "beat": "why",
+    "text": "The U.S. government shut Storyville the same year.",
+    "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+    "quote": "Storyville was shut down by the U.S. government in 1917."
+   },
+   {
+    "n": 11,
+    "beat": "after",
+    "text": "Louis Armstrong started his career in Storyville.",
+    "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+    "quote": "[[Louis Armstrong]] started his career in Storyville"
+   },
+   {
+    "n": 12,
+    "beat": "after",
+    "text": "By the time Armstrong joined Fletcher Henderson's band, he was moving jazz toward arrangements and soloists.",
+    "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+    "quote": "by the time he joined Henderson's band, he was already a trailblazer in a new phase of jazz, with its emphasis on arrangements and soloists"
+   },
+   {
+    "n": 13,
+    "beat": "after",
+    "text": "Henderson and Don Redman developed the \"talking to one another\" formula for hot swing.",
+    "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+    "quote": "with Henderson and Redman developing the \"talking to one another\" formula for \"hot\" swing music"
+   },
+   {
+    "n": 14,
+    "beat": "after",
+    "text": "Swing big bands then took over the 1930s.",
+    "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+    "quote": "The 1930s belonged to popular [[swing (music)|swing]] big bands"
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "began: record says 1915; source says \"Jazz originated in the late-19th to early-20th century.\" and \"Cornetist Buddy Bolden played in New Orleans from 1895 to 1906.\" (https://en.wikipedia.org/wiki/Jazz?action=raw). First recordings were early 1917. The record's 1915 is a window choice, not a date the source gives."
+  ],
+  "notes": "All quotes from the English Wikipedia article Jazz (raw). Tree neighbours fit the source: ragtime and blues are named as roots; for habanera, the source says of Bolden's big four that \"the second half of the big four pattern is the habanera rhythm\". The record's sound (cornet lead, collective improvisation) matches \"The original New Orleans style was polyphonic, with theme variation and simultaneous [[collective improvisation]].\" Dropped on first check: \"...and found success in Chicago\" (a footnote splits the clause in the raw text), so that sentence now says only that Armstrong started in Storyville."
+ },
+ {
+  "genre": "son",
+  "story": "Most musicologists place son's earliest forms in Cuba's Oriente Province. They were made by peasants, many of Bantu origin, unlike the Afro-Cubans of the island's west. Their guitars are thought to have given rise to the tres around 1890 in Baracoa. After slavery was abolished in 1886, many freed people moved into the solares of Havana's poor neighbourhoods. In 1917 the Cuarteto Oriental recorded the first son in the Columbia catalogue. In 1920 it became the Sexteto Habanero. Around 1910 son most likely took the clave rhythm from Havana's rumba. The Habanero's guitar, tres, bongos, claves, maracas and double bass set the line-up of the son sextet. Radio arrived in 1922. Between 1925 and 1928 son moved from the margins to become perhaps Cuba's most popular music. In the late 1920s sextets became septets, with Ignacio Piñeiro's Septeto Nacional among them. In the 1940s Arsenio Rodríguez became son's most influential player. Mambo, from the later 1940s, carried many traits of son. After the Cuban Revolution, son, mambo and rumba fed into salsa, first in New York.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "Most musicologists place son's earliest forms in Cuba's Oriente Province.",
+    "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+    "quote": "the direct ancestors (or earliest forms) of the son appeared in Cuba's [[Oriente Province]]"
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "They were made by peasants, many of Bantu origin, unlike the Afro-Cubans of the island's west.",
+    "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+    "quote": "were developed by peasants, many of which were of [[Bantu peoples|Bantu]] origin, in contrast to the Afro-Cubans of the western side of the island"
+   },
+   {
+    "n": 3,
+    "beat": "before",
+    "text": "Their guitars are thought to have given rise to the tres around 1890 in Baracoa.",
+    "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+    "quote": "Such early guitars are thought to have given rise to the tres some time around 1890 in [[Baracoa]]."
+   },
+   {
+    "n": 4,
+    "beat": "who",
+    "text": "After slavery was abolished in 1886, many freed people moved into the solares of Havana's poor neighbourhoods.",
+    "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+    "quote": "recently liberated after the abolition of slavery in 1886 went to live in the slums \"solares\" of low class neighborhoods in Havana"
+   },
+   {
+    "n": 5,
+    "beat": "who",
+    "text": "In 1917 the Cuarteto Oriental recorded the first son in the Columbia catalogue.",
+    "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+    "quote": "In 1917, the Cuarteto Oriental recorded the first son documented on the catalog of Columbia Records"
+   },
+   {
+    "n": 6,
+    "beat": "who",
+    "text": "In 1920 it became the Sexteto Habanero.",
+    "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+    "quote": "In 1920, the Cuarteto Oriental became a sextet and was renamed as [[Sexteto Habanero]]."
+   },
+   {
+    "n": 7,
+    "beat": "why",
+    "text": "Around 1910 son most likely took the clave rhythm from Havana's rumba.",
+    "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+    "quote": "Around 1910 the son most likely adopted the [[clave rhythm]] from the Havana-based [[Cuban rumba|rumba]]"
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "The Habanero's guitar, tres, bongos, claves, maracas and double bass set the line-up of the son sextet.",
+    "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+    "quote": "This group established the \"classical\" configuration of the son sextet composed of guitar, tres, bongos, claves, maracas and double bass."
+   },
+   {
+    "n": 9,
+    "beat": "why",
+    "text": "Radio arrived in 1922.",
+    "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+    "quote": "Popularization began in earnest with the arrival of radio broadcasting in 1922"
+   },
+   {
+    "n": 10,
+    "beat": "why",
+    "text": "Between 1925 and 1928 son moved from the margins to become perhaps Cuba's most popular music.",
+    "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+    "quote": "The son experienced a period of transformation from 1925 to 1928, when it evolved from a marginal genre of music to perhaps the most popular type of music in Cuba."
+   },
+   {
+    "n": 11,
+    "beat": "why",
+    "text": "In the late 1920s sextets became septets, with Ignacio Piñeiro's Septeto Nacional among them.",
+    "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+    "quote": "in the late 1920s, son sextets became septets and son's popularity continued to grow with artists like [[Septeto Nacional]] and its leader [[Ignacio Piñeiro]]"
+   },
+   {
+    "n": 12,
+    "beat": "after",
+    "text": "In the 1940s Arsenio Rodríguez became son's most influential player.",
+    "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+    "quote": "In the 1940s, [[Arsenio Rodríguez]] became the most influential player of son."
+   },
+   {
+    "n": 13,
+    "beat": "after",
+    "text": "Mambo, from the later 1940s, carried many traits of son.",
+    "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+    "quote": "genres of the later 1940s such as [[Mambo (music)|mambo]] manifest many characteristics derived from son"
+   },
+   {
+    "n": 14,
+    "beat": "after",
+    "text": "After the Cuban Revolution, son, mambo and rumba fed into salsa, first in New York.",
+    "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+    "quote": "son, mambo and [[Cuban rumba|rumba]], along with other forms of Afro-Cuban music contributed to the development of [[salsa music]], initially in New York."
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "origin: record says Oriente; source gives Oriente as the majority view but adds \"it has become increasingly clear for musicologists that different versions of the son, i.e. styles that fall within the so-called '''son complex''', appeared throughout the rural parts of the island by the end of the 1890s\", and an alternative hypothesis (Peter Manuel) that much of son's structure came from Havana's contradanza (https://en.wikipedia.org/wiki/Son_cubano?action=raw).",
+   "ended: record says 1960; the source says \"By the late 1930s, the heyday of \\\"Classic son\\\" had largely ended.\" The only 1960 in the article is Trío Matamoros' retirement (https://en.wikipedia.org/wiki/Son_cubano?action=raw).",
+   "began: record says 1900; source puts the precursors in \"the mid-to-late 19th century\" and the genre's expansion in Havana \"in the 1910s\"."
+  ],
+  "notes": "All quotes from the English Wikipedia article Son cubano (raw). Tree neighbour rumba fits (clave taken from Havana rumba around 1910). Mambo and salsa as descendants fit the source. The clave sentence (c.1910) sits after the 1917/1920 sentences because beats must run before/who/why/after; the lead may reorder within the story if beat order is relaxed. The first sentence originally named changüí, nengón, kiribá and regina; a footnote splits that clause in the raw text, so the names were dropped."
+ },
+ {
+  "genre": "samba",
+  "story": "Rio's urban samba drew on rural dance traditions from across Brazil. After slavery was abolished, Black Bahians moved to Rio in growing numbers. Women from Bahia, the \"Tias Baianas\", founded the city's first Candomblé terreiros. Their homes held cooking and the gatherings called pagodes, where urban samba grew. Regulars at Tia Ciata's house included Sinhô, Pixinguinha, Heitor dos Prazeres, João da Baiana and Donga. \"Pelo Telefone\", released on 19 January 1917, was a hit at that year's Rio carnival. Donga registered it under his name, and contemporaries said he had taken a collective song. Musicians in the Estácio neighbourhood made a samba with a faster tempo and longer notes. Ismael Silva and his companions marked the beat on the surdo, making the rhythm more syncopated. To avoid police harassment, they organised themselves into what they called samba schools. Their Deixa Falar was the first carnival group to use a bateria of surdo, tamborim and cuíca. Between 1931 and 1940 samba was the most recorded genre in Brazil. Later, a new way of accompanying and singing samba, spread from Rio's South Zone, became known as bossa nova.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "Rio's urban samba drew on rural dance traditions from across Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+    "quote": "Urban Carioca samba was influenced by several traditions associated with the universe of rural communities throughout Brazil."
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "After slavery was abolished, Black Bahians moved to Rio in growing numbers.",
+    "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+    "quote": "this influx of black Bahians to Rio lands increased considerably after [[Lei Áurea|the abolition of slavery in Brazil]]"
+   },
+   {
+    "n": 3,
+    "beat": "who",
+    "text": "Women from Bahia, the \"Tias Baianas\", founded the city's first Candomblé terreiros.",
+    "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+    "quote": "the \"Tias Baianas\" (literally, \"Bahian Aunts\") founded the first [[Candomblé]] terreiros"
+   },
+   {
+    "n": 4,
+    "beat": "who",
+    "text": "Their homes held cooking and the gatherings called pagodes, where urban samba grew.",
+    "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+    "quote": "hosted various community activities, such as cooking and the pagodes, where urban Rio samba would develop"
+   },
+   {
+    "n": 5,
+    "beat": "who",
+    "text": "Regulars at Tia Ciata's house included Sinhô, Pixinguinha, Heitor dos Prazeres, João da Baiana and Donga.",
+    "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+    "quote": "Among some of its members regulars were {{ill|Sinhô|pt}}, [[Pixinguinha]], Heitor dos Prazeres, {{ill|João da Baiana|pt}}, [[Donga (musician)|Donga]]"
+   },
+   {
+    "n": 6,
+    "beat": "who",
+    "text": "\"Pelo Telefone\", released on 19 January 1917, was a hit at that year's Rio carnival.",
+    "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+    "quote": "Released in [[Phonograph record|78 rpm]] format on 19 January 1917, \"Pelo Telefone\" became a huge hit in that year's Rio carnival."
+   },
+   {
+    "n": 7,
+    "beat": "who",
+    "text": "Donga registered it under his name, and contemporaries said he had taken a collective song.",
+    "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+    "quote": "accused him of appropriating a collective, anonymous creation, registering it as his own"
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "Musicians in the Estácio neighbourhood made a samba with a faster tempo and longer notes.",
+    "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+    "quote": "the samba do Estácio innovated with a faster tempo, longer notes and a cadence beyond the traditional palms."
+   },
+   {
+    "n": 9,
+    "beat": "why",
+    "text": "Ismael Silva and his companions marked the beat on the surdo, making the rhythm more syncopated.",
+    "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+    "quote": "the [[surdo]] in marking the cadence of the samba, making it a more syncopated rhythm"
+   },
+   {
+    "n": 10,
+    "beat": "why",
+    "text": "To avoid police harassment, they organised themselves into what they called samba schools.",
+    "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+    "quote": "To avoid police harassment and gain social legitimacy, Estácio's samba musicians decided to link their batucadas to carnival samba and organized themselves in what they christened as samba schools."
+   },
+   {
+    "n": 11,
+    "beat": "why",
+    "text": "Their Deixa Falar was the first carnival group to use a bateria of surdo, tamborim and cuíca.",
+    "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+    "quote": "the first carnival association to use the group in the future known as [[bateria]], a unit made up of percussion instruments such as the surdo, [[tamborim]]s and [[cuíca]]s"
+   },
+   {
+    "n": 12,
+    "beat": "after",
+    "text": "Between 1931 and 1940 samba was the most recorded genre in Brazil.",
+    "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+    "quote": "Between 1931 and 1940 samba was the most recorded genre music in Brazil"
+   },
+   {
+    "n": 13,
+    "beat": "after",
+    "text": "Later, a new way of accompanying and singing samba, spread from Rio's South Zone, became known as bossa nova.",
+    "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+    "quote": "a new style of rhythmic accompaniment and interpretation of samba spread from the [[South Zone (Rio de Janeiro)|South Zone of Rio de Janeiro]] became known"
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "began: record says 1917; source agrees that \"Pelo Telefone\" (released 19 January 1917) is usually taken as the start, but notes earlier records labelled samba: \"Its primacy as \\\"the first samba in history\\\" has, however, been questioned by some scholars\" (https://en.wikipedia.org/wiki/Samba?action=raw), citing 1913 and 1914 recordings.",
+   "_tree_came_from: the source fits both neighbours (lundu named among rural roots; the opening section says the guitar and cavaquinho accompaniment is one \"whose inspiration is [[choro]]\"), but it names maxixe as the main model for the first recorded sambas: \"structural similarities to the [[Lundu (dance)|lundu]] and, mainly, to the [[Maxixe (dance)|maxixe]]\" (https://en.wikipedia.org/wiki/Samba?action=raw). Maxixe is not a tree neighbour; the lead may want to check."
+  ],
+  "notes": "All quotes from the English Wikipedia article Samba (raw). The Tia Ciata names sentence quotes a list that the article introduces with \"Among some of its members regulars were\", where \"its\" is Tia Ciata's home in the preceding sentence. The Deixa Falar claim is about being the first to use a bateria; the article says its claim to being the first samba school is contested by Portela and Mangueira, and the story does not claim that. Not used: pagode (1970s) — a usable quote exists but did not fit the word limit."
+ },
+ {
+  "genre": "mariachi",
+  "story": "Mariachi grew out of the son jalisciense, the string music of the Jalisco area. Its early players used only guitars and harps and dressed in peasant clothes. Most sources place its birth in the town of Cocula, Jalisco, in the 19th century. Gaspar Vargas founded the group later called Mariachi Vargas de Tecalitlán in the late 1890s. In 1905 a hacienda family brought a mariachi from Cocula to Mexico City to play for President Porfirio Díaz. After the Mexican Revolution the haciendas let their musicians go, and groups wandered and played for a fee, which made them add waltzes and polkas. Farm workers from Jalisco who moved to the capital settled around Plaza Garibaldi. The fashion for jazz and Cuban music brought in the trumpet and pushed the violins back. Tito Guízar was the first film charro to sing mariachi, in Allá en el Rancho Grande in 1936. Silvestre Vargas and his arranger Rubén Fuentes then standardised much of the repertoire. Lola Beltrán and Lucha Villa became the first women mariachi singers. The films also made the music a symbol of ethnic pride for Mexican Americans in the United States.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "Mariachi grew out of the son jalisciense, the string music of the Jalisco area.",
+    "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+    "quote": "Modern mariachi music developed from this ''son'' style, with ''mariachi'' as an alternative name for ''son jalisciense''"
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "Its early players used only guitars and harps and dressed in peasant clothes.",
+    "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+    "quote": "they played only string instruments such as guitars and harps and dressed in typical peasant clothing"
+   },
+   {
+    "n": 3,
+    "beat": "who",
+    "text": "Most sources place its birth in the town of Cocula, Jalisco, in the 19th century.",
+    "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+    "quote": "Most sources agree that the modern mariachi originated in the town of [[Cocula, Jalisco|Cocula]], [[Jalisco]], during the 19th century"
+   },
+   {
+    "n": 4,
+    "beat": "who",
+    "text": "Gaspar Vargas founded the group later called Mariachi Vargas de Tecalitlán in the late 1890s.",
+    "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+    "quote": "founded by [[Gaspar Vargas]] in the late 1890s"
+   },
+   {
+    "n": 5,
+    "beat": "who",
+    "text": "In 1905 a hacienda family brought a mariachi from Cocula to Mexico City to play for President Porfirio Díaz.",
+    "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+    "quote": "a wealthy ''hacienda'' family brought an early mariachi from Cocula to play for President [[Porfirio Díaz]] in 1905"
+   },
+   {
+    "n": 6,
+    "beat": "why",
+    "text": "After the Mexican Revolution the haciendas let their musicians go, and groups wandered and played for a fee, which made them add waltzes and polkas.",
+    "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+    "quote": "Groups began to wander and play for a fee, which obliged them to incorporate other music into their repertoires, including waltzes and polkas"
+   },
+   {
+    "n": 7,
+    "beat": "why",
+    "text": "Farm workers from Jalisco who moved to the capital settled around Plaza Garibaldi.",
+    "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+    "quote": "many farm workers moved to the city, including those from Jalisco, which settled around [[Plaza Garibaldi]]"
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "The fashion for jazz and Cuban music brought in the trumpet and pushed the violins back.",
+    "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+    "quote": "the popularity of [[jazz]] and [[Cuban music]] introduced the trumpet into mariachi, pushing the violins into a secondary role"
+   },
+   {
+    "n": 9,
+    "beat": "why",
+    "text": "Tito Guízar was the first film charro to sing mariachi, in Allá en el Rancho Grande in 1936.",
+    "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+    "quote": "the first to sing mariachi was [[Tito Guízar]] in ''[[Allá en el Rancho Grande]]'' in 1936"
+   },
+   {
+    "n": 10,
+    "beat": "after",
+    "text": "Silvestre Vargas and his arranger Rubén Fuentes then standardised much of the repertoire.",
+    "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+    "quote": "Fuentes along with Vargas were instrumental in the standardization of much of mariachi music"
+   },
+   {
+    "n": 11,
+    "beat": "after",
+    "text": "Lola Beltrán and Lucha Villa became the first women mariachi singers.",
+    "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+    "quote": "the first female mariachi performers, [[Lola Beltrán]] and [[Lucha Villa]]"
+   },
+   {
+    "n": 12,
+    "beat": "after",
+    "text": "The films also made the music a symbol of ethnic pride for Mexican Americans in the United States.",
+    "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+    "quote": "Its use in film also made the music popular and a symbol of ethnic pride for Mexican Americans in the United States."
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "Began: the record says 1900; the article puts the genre's separation from son jalisciense in the 19th century (\"The distinction of mariachi from the older son jalisciense occurred slowly sometime during the 19th&nbsp;century.\", https://en.wikipedia.org/wiki/Mariachi?action=raw) and the infobox gives \"18th century, [[Cocula, Jalisco]]\". The first recordings (1908-1909) and the 1905 Mexico City visit fit a 1900s start for the recorded/urban form.",
+   "Tree: the record's only parent is iberianpop. The article names son jalisciense as the parent (\"Modern mariachi music developed from this ''son'' style\", https://en.wikipedia.org/wiki/Mariachi?action=raw) and Spanish instruments and ensembles as the earlier root; it says nothing of a popular-song parent.",
+   "Sound: the record's marker 'two trumpets' matches (\"two trumpets and at least one guitar\", https://en.wikipedia.org/wiki/Mariachi?action=raw); the record's 'powerful solo singer' differs from the article's \"There is generally no lead singer as in other kinds of groups, with all players singing choruses and taking turns singing the lead.\" (https://en.wikipedia.org/wiki/Mariachi?action=raw)"
+  ],
+  "notes": "All sentences from the English Wikipedia article 'Mariachi'. Ranchera (half of the record's name) is not covered: I did not take a separate sourced sentence on ranchera song; the lead may want one from the 'Ranchera' article. Sentence 4 says 'the group later called Mariachi Vargas de Tecalitlán'; the quote covers only 'founded by Gaspar Vargas in the late 1890s', and the article names the group in the same sentence. Sentence 6's 'haciendas let their musicians go' is from the preceding sentence in the article ('many ''haciendas'' had to let workers go, including mariachis'); the quote covers the rest."
+ },
+ {
+  "genre": "swing",
+  "story": "From 1923 Don Redman's arrangements for the Fletcher Henderson Orchestra set brass and reeds answering each other. In his solos Louis Armstrong accented the second and fourth beats and ran into the main beats with lead-in notes. In the southwest, Black territory bands built dance tunes on riffs played in call and response. In Kansas City, Bennie Moten renamed his signature tune from \"Moten Stomp\" to \"Moten Swing\". In 1931 Chick Webb's orchestra began a long stay at the Savoy Ballroom. The Great Depression put Henderson's band out of business in 1934. Henderson then sold arrangements to the bandleader Benny Goodman. At the Palomar Ballroom from 21 August 1935, young white dancers took to Goodman's band. Other dance bands copied him, opening a swing era that lasted until 1946. Dancers answered with the Lindy Hop, which had started in the late 1920s. In 1937 Count Basie's orchestra brought the Kansas City riff style to the Savoy. Small bands led by Louis Jordan and Lucky Millinder played a jump swing that led to rhythm and blues. In 1940 Charlie Parker, Dizzy Gillespie and others whom swing had brought to New York began to work out bebop.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "From 1923 Don Redman's arrangements for the Fletcher Henderson Orchestra set brass and reeds answering each other.",
+    "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+    "quote": "Starting in 1923, the [[Fletcher Henderson Orchestra]] featured innovative arrangements by [[Don Redman]] that featured [[Call and response (music)|call-response]] interplay between [[Brass instrument|brass]] and [[Reed instrument|reed]] sections"
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "In his solos Louis Armstrong accented the second and fourth beats and ran into the main beats with lead-in notes.",
+    "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+    "quote": "accenting the second and fourth [[Beat (music)|beats]] and anticipating the main beats with lead-in notes in his solos"
+   },
+   {
+    "n": 3,
+    "beat": "who",
+    "text": "In the southwest, Black territory bands built dance tunes on riffs played in call and response.",
+    "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+    "quote": "using [[riff]]s in a call-response pattern to build a strong, danceable rhythm"
+   },
+   {
+    "n": 4,
+    "beat": "who",
+    "text": "In Kansas City, Bennie Moten renamed his signature tune from \"Moten Stomp\" to \"Moten Swing\".",
+    "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+    "quote": "the change in the name of Moten's signature tune, from \"Moten Stomp\" to \"[[Moten Swing]]\""
+   },
+   {
+    "n": 5,
+    "beat": "who",
+    "text": "In 1931 Chick Webb's orchestra began a long stay at the Savoy Ballroom.",
+    "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+    "quote": "started its extended stay at the [[Savoy Ballroom]] in 1931"
+   },
+   {
+    "n": 6,
+    "beat": "why",
+    "text": "The Great Depression put Henderson's band out of business in 1934.",
+    "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+    "quote": "drove some bands out of business, including the Fletcher Henderson Orchestra and [[McKinney's Cotton Pickers]] in 1934"
+   },
+   {
+    "n": 7,
+    "beat": "why",
+    "text": "Henderson then sold arrangements to the bandleader Benny Goodman.",
+    "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+    "quote": "Henderson's next business was selling arrangements to up-and-coming bandleader [[Benny Goodman]]."
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "At the Palomar Ballroom from 21 August 1935, young white dancers took to Goodman's band.",
+    "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+    "quote": "At the Palomar engagement starting on August 21, 1935, audiences of young white dancers favored Goodman's rhythm and daring arrangements."
+   },
+   {
+    "n": 9,
+    "beat": "why",
+    "text": "Other dance bands copied him, opening a swing era that lasted until 1946.",
+    "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+    "quote": "launched the \"[[swing era]]\" that lasted until 1946"
+   },
+   {
+    "n": 10,
+    "beat": "why",
+    "text": "Dancers answered with the Lindy Hop, which had started in the late 1920s.",
+    "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+    "quote": "Swing dancing originated in the late 1920s as the \"[[Lindy Hop]]\""
+   },
+   {
+    "n": 11,
+    "beat": "why",
+    "text": "In 1937 Count Basie's orchestra brought the Kansas City riff style to the Savoy.",
+    "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+    "quote": "With its Savoy engagement in 1937, the [[Count Basie Orchestra]] brought the riff-and-solo oriented Kansas City style of swing to national attention."
+   },
+   {
+    "n": 12,
+    "beat": "after",
+    "text": "Small bands led by Louis Jordan and Lucky Millinder played a jump swing that led to rhythm and blues.",
+    "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+    "quote": "smaller bands led by [[Louis Jordan]], [[Lucky Millinder]], [[Louis Prima]] and [[Tony Pastor (bandleader)|Tony Pastor]] were showcasing an exuberant \"jump swing\" style that would lead to the post-war rise of [[rhythm and blues]]"
+   },
+   {
+    "n": 13,
+    "beat": "after",
+    "text": "In 1940 Charlie Parker, Dizzy Gillespie and others whom swing had brought to New York began to work out bebop.",
+    "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+    "quote": "1940 saw top-flight musicians such as [[Charlie Parker]], [[Dizzy Gillespie]], [[Don Byas]], [[Charlie Christian]] and [[Gene Ramey]], whose careers in swing had brought them to New York, beginning to coalesce and develop the ideas that would become bebop"
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "Began: the record says 1930; the article dates the swing era from Goodman's 1935 Palomar engagement (\"which launched the \\\"[[swing era]]\\\" that lasted until 1946\", https://en.wikipedia.org/wiki/Swing_music?action=raw) and its roots to the 1920s. 1930 matches the article's 'Early swing' section (\"As the 1920s turned to the 1930s\"). Ended 1946 matches.",
+   "Origin: the record says Harlem and Kansas City; the article supports New York (Roseland, Savoy, Cotton Club) and Kansas City, plus Chicago (Earl Hines at the Grand Terrace from 1928) and the southwest territory bands. Harlem itself is not named in the raw text I read.",
+   "Tree: the article also names gypsy swing (Django Reinhardt), western swing and jump blues as offshoots (\"Belgian guitarist [[Django Reinhardt]] helped develop the [[gypsy swing]] subgenere\", https://en.wikipedia.org/wiki/Swing_music?action=raw); these agree with the record's gypsyjazz and rnb neighbours. No disagreement found."
+  ],
+  "notes": "All sentences from 'Swing music'. Sentence 3 places the territory bands 'in the southwest' from the article's preceding words, which the quote does not include. 'Harlem' (record origin) is not used in the story because I did not find it in the article text."
+ },
+ {
+  "genre": "filmi",
+  "story": "Hindi film song drew on Ramleela, nautanki, tamasha and the Parsi theatre. Its lyrics leaned on Urdu poetry and the ghazal. Ardeshir Irani's Alam Ara (1931), the first Indian sound film, had seven songs. It was shot at Jyoti Studios in Bombay. Its \"De De Khuda Ke Naam Pe Pyaare\", sung by Wazir Muhammad Khan, is counted as the first song of Hindi cinema. Irani said he had only a pump organ and a tabla player. Singers at first recorded twice, once during the shoot and again in the studio. In 1935 Raichand Boral introduced playback singing to Hindi film in Dhoop Chhaon. Its song \"Main Khush Hona Chahun\" was sung by a women's chorus led by Parul Ghosh. From 1934 film songs were issued on gramophone records and later played on radio. From 1948 the music director Ghulam Haider trained the singer Lata Mangeshkar. She and her sister Asha Bhosle became two of India's most prolific playback singers. Cheap cassettes carried the songs across Asia and the diaspora until that industry crashed in 2000.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "Hindi film song drew on Ramleela, nautanki, tamasha and the Parsi theatre.",
+    "url": "https://en.wikipedia.org/wiki/Hindi_film_music?action=raw",
+    "quote": "Bollywood music has drawn its inspiration from numerous traditional sources such as ''[[Ramleela]]'', ''[[nautanki]]'', ''[[tamasha]]'' and [[Parsi theatre]]"
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "Its lyrics leaned on Urdu poetry and the ghazal.",
+    "url": "https://en.wikipedia.org/wiki/Hindi_film_music?action=raw",
+    "quote": "the lyrics draw heavily from Urdu poetry and the [[ghazal]] tradition"
+   },
+   {
+    "n": 3,
+    "beat": "who",
+    "text": "Ardeshir Irani's Alam Ara (1931), the first Indian sound film, had seven songs.",
+    "url": "https://en.wikipedia.org/wiki/Hindi_film_music?action=raw",
+    "quote": "the first sound film ''[[Alam Ara]]'' (1931) by [[Ardeshir Irani]] which featured seven songs"
+   },
+   {
+    "n": 4,
+    "beat": "who",
+    "text": "It was shot at Jyoti Studios in Bombay.",
+    "url": "https://en.wikipedia.org/wiki/Alam_Ara?action=raw",
+    "quote": "Principal photography was completed by Adi M. Irani at Jyoti Studios in Bombay within four months"
+   },
+   {
+    "n": 5,
+    "beat": "who",
+    "text": "Its \"De De Khuda Ke Naam Pe Pyaare\", sung by Wazir Muhammad Khan, is counted as the first song of Hindi cinema.",
+    "url": "https://en.wikipedia.org/wiki/Alam_Ara?action=raw",
+    "quote": "He became popular at the time of its release and was acknowledged as the first song of [[Hindi cinema]]"
+   },
+   {
+    "n": 6,
+    "beat": "why",
+    "text": "Irani said he had only a pump organ and a tabla player.",
+    "url": "https://en.wikipedia.org/wiki/Alam_Ara?action=raw",
+    "quote": "adding that he had only a [[pump organ]] and [[tabla]] player"
+   },
+   {
+    "n": 7,
+    "beat": "why",
+    "text": "Singers at first recorded twice, once during the shoot and again in the studio.",
+    "url": "https://en.wikipedia.org/wiki/Playback_singer?action=raw",
+    "quote": "singers made dual recordings for a film, one during the shoot, and later in the recording studio"
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "In 1935 Raichand Boral introduced playback singing to Hindi film in Dhoop Chhaon.",
+    "url": "https://en.wikipedia.org/wiki/Raichand_Boral?action=raw",
+    "quote": "In 1935, he introduced playback singing for the first time in the [[Hindi]] feature film ''Dhoop Chhaon'' (1935)."
+   },
+   {
+    "n": 9,
+    "beat": "why",
+    "text": "Its song \"Main Khush Hona Chahun\" was sung by a women's chorus led by Parul Ghosh.",
+    "url": "https://en.wikipedia.org/wiki/Raichand_Boral?action=raw",
+    "quote": "had an all women chorus led by [[Parul Ghosh]]"
+   },
+   {
+    "n": 10,
+    "beat": "why",
+    "text": "From 1934 film songs were issued on gramophone records and later played on radio.",
+    "url": "https://en.wikipedia.org/wiki/Hindi_film_music?action=raw",
+    "quote": "In 1934 Hindi film songs began to be recorded on gramophones and later, played on radio channels"
+   },
+   {
+    "n": 11,
+    "beat": "after",
+    "text": "From 1948 the music director Ghulam Haider trained the singer Lata Mangeshkar.",
+    "url": "https://en.wikipedia.org/wiki/Lata_Mangeshkar?action=raw",
+    "quote": "After Vinayak's death in 1948, music director [[Ghulam Haider (composer)|Ghulam Haider]] mentored her as a singer."
+   },
+   {
+    "n": 12,
+    "beat": "after",
+    "text": "She and her sister Asha Bhosle became two of India's most prolific playback singers.",
+    "url": "https://en.wikipedia.org/wiki/Playback_singer?action=raw",
+    "quote": "The sisters [[Lata Mangeshkar]] and [[Asha Bhosle]], who mainly worked in Hindi films, are two of the best-known and most prolific playback singers in India."
+   },
+   {
+    "n": 13,
+    "beat": "after",
+    "text": "Cheap cassettes carried the songs across Asia and the diaspora until that industry crashed in 2000.",
+    "url": "https://en.wikipedia.org/wiki/Hindi_film_music?action=raw",
+    "quote": "The spread was galvanised by the advent of cheap plastic tape cassettes which were produced in the millions until the industry crashed in 2000."
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "Tree: the record's principal parent is hindustani. The English article names theatre sources (Ramleela, nautanki, tamasha, Parsi theatre) and \"derive their inspiration from both classical and modern sources\" (https://en.wikipedia.org/wiki/Hindi_film_music?action=raw), but does not name Hindustani classical music specifically; Parsi theatre is not on the tree as a parent.",
+   "Origin: the record says Mumbai. Alam Ara was shot in Bombay (quote in sentence 4), but playback singing came from New Theatres, a Calcutta studio, in Dhoop Chhaon (1935) (Raichand Boral article). The Calcutta location of New Theatres is not stated in the quotes used, so the story does not say it."
+  ],
+  "notes": "English 'Filmi' redirects to 'Hindi film music'; URLs use the target title. Sentence 5: Wazir Muhammad Khan's name and the song title are in the same table row as the quoted note in the 'Alam Ara' raw text, not in the quoted string itself. Sentence 9's song title 'Main Khush Hona Chahun' is in the same sentence of the Raichand Boral article as the quote. The record's 'Mumbai' and the article's 'Bombay' are the same city."
+ },
+ {
+  "genre": "mambo",
+  "story": "In 1910 José Urfé added a montuno, the improvised closing section of the son, to his danzón \"El bombín de Barreto\". The charanga Arcaño y sus Maravillas, led by the flautist Antonio Arcaño, made popular a danzón with a new rhythm. In the mid-to-late 1930s its players said \"vamos a mambear\", \"let's mambo\", of the danzón's final improvisation. Arcaño's cellist Orestes López wrote the first danzón called \"Mambo\", in 1938. Dámaso Pérez Prado went to Mexico in 1949 looking for work and gave the name mambo to a new style. His band had four to five trumpets and four to five saxophones over bass, drums, congas and bongos. Each phrase ended with a deep sound from the throat. In New York the Palladium Ballroom called itself the \"temple of mambo\". In Cuba the violinist Enrique Jorrín of Orquesta América is credited with creating the cha-cha-chá. Seeing that dancers had trouble with heavy syncopation, he simplified it. He had the band sing in unison so the words carried. In 1951 he wrote the cha-cha-chá \"La engañadora\". By the 1970s mambo had been largely absorbed into salsa.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "In 1910 José Urfé added a montuno, the improvised closing section of the son, to his danzón \"El bombín de Barreto\".",
+    "url": "https://en.wikipedia.org/wiki/Mambo_(music)?action=raw",
+    "quote": "in 1910, [[José Urfé]] had first added a [[montuno]] (typical [[Son (music)|son]] improvised closing section) as a final part of his composition ''El bombín de Barreto''"
+   },
+   {
+    "n": 2,
+    "beat": "who",
+    "text": "The charanga Arcaño y sus Maravillas, led by the flautist Antonio Arcaño, made popular a danzón with a new rhythm.",
+    "url": "https://en.wikipedia.org/wiki/Mambo_(music)?action=raw",
+    "quote": "made popular by the [[Charanga (Cuba)|charanga]] Arcaño y sus Maravillas conducted by flautist [[Antonio Arcaño]]"
+   },
+   {
+    "n": 3,
+    "beat": "who",
+    "text": "In the mid-to-late 1930s its players said \"vamos a mambear\", \"let's mambo\", of the danzón's final improvisation.",
+    "url": "https://en.wikipedia.org/wiki/Mambo_(music)?action=raw",
+    "quote": "During the mid-to-late 1930s, some members of the Arcaño group were saying ''vamos a mambear'' (\"let's mambo\") when referring to the montuno or final improvisation of the danzón."
+   },
+   {
+    "n": 4,
+    "beat": "who",
+    "text": "Arcaño's cellist Orestes López wrote the first danzón called \"Mambo\", in 1938.",
+    "url": "https://en.wikipedia.org/wiki/Mambo_(music)?action=raw",
+    "quote": "It was Arcaño's cellist, [[Orestes López]], who created the first danzón called \"[[Mambo (1938 song)|Mambo]]\" (1938)."
+   },
+   {
+    "n": 5,
+    "beat": "why",
+    "text": "Dámaso Pérez Prado went to Mexico in 1949 looking for work and gave the name mambo to a new style.",
+    "url": "https://en.wikipedia.org/wiki/Mambo_(music)?action=raw",
+    "quote": "In 1949 he traveled to Mexico looking for job opportunities and achieved great success with a new style, to which he assigned a name that had been already used by [[Antonio Arcaño]], the ''mambo''."
+   },
+   {
+    "n": 6,
+    "beat": "why",
+    "text": "His band had four to five trumpets and four to five saxophones over bass, drums, congas and bongos.",
+    "url": "https://en.wikipedia.org/wiki/Mambo_(music)?action=raw",
+    "quote": "an expanded instrumentation consisting of four to five trumpets, four to five saxophones, double bass, drums, maracas, cowbell, congas and bongos"
+   },
+   {
+    "n": 7,
+    "beat": "why",
+    "text": "Each phrase ended with a deep sound from the throat.",
+    "url": "https://en.wikipedia.org/wiki/Mambo_(music)?action=raw",
+    "quote": "stimulated at the end of each musical phrase by a characteristic deep throat sound expression"
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "In New York the Palladium Ballroom called itself the \"temple of mambo\".",
+    "url": "https://en.wikipedia.org/wiki/Mambo_(music)?action=raw",
+    "quote": "The Ballroom soon proclaimed itself the \"temple of mambo\""
+   },
+   {
+    "n": 9,
+    "beat": "after",
+    "text": "In Cuba the violinist Enrique Jorrín of Orquesta América is credited with creating the cha-cha-chá.",
+    "url": "https://en.wikipedia.org/wiki/Cha-cha-chá_(music)?action=raw",
+    "quote": "The creation of cha-cha-chá has been traditionally attributed to Cuban composer and violinist [[Enrique Jorrín]], who began his career playing for the [[Charanga (Cuba)|charanga]] band [[Orquesta América]]."
+   },
+   {
+    "n": 10,
+    "beat": "after",
+    "text": "Seeing that dancers had trouble with heavy syncopation, he simplified it.",
+    "url": "https://en.wikipedia.org/wiki/Cha-cha-chá_(music)?action=raw",
+    "quote": "Jorrín noticed that most of the dancers had some trouble with highly syncopated rhythms and therefore he simplified the musical texture of his pieces"
+   },
+   {
+    "n": 11,
+    "beat": "after",
+    "text": "He had the band sing in unison so the words carried.",
+    "url": "https://en.wikipedia.org/wiki/Cha-cha-chá_(music)?action=raw",
+    "quote": "Jorrín also asked the members of the orchestra to sing in unison so the lyrics might be heard more clearly"
+   },
+   {
+    "n": 12,
+    "beat": "after",
+    "text": "In 1951 he wrote the cha-cha-chá \"La engañadora\".",
+    "url": "https://en.wikipedia.org/wiki/Cha-cha-chá_(music)?action=raw",
+    "quote": "in 1951 he composed a signature cha-cha-chá, \"[[La engañadora]]\""
+   },
+   {
+    "n": 13,
+    "beat": "after",
+    "text": "By the 1970s mambo had been largely absorbed into salsa.",
+    "url": "https://en.wikipedia.org/wiki/Mambo_(music)?action=raw",
+    "quote": "by the 1970s it had been largely incorporated into [[salsa music|salsa]]"
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "Tree: the record's parents are son, swing and habanera. The article's infobox gives \"{{hlist|[[Danzón]]|[[swing music|swing]]|[[son cubano]]}}\" (https://en.wikipedia.org/wiki/Mambo_(music)?action=raw): danzón is the direct parent and is not on the tree; habanera is not mentioned.",
+   "Ended: the record says 1960; the article says mambo \"continued to enjoy some degree of popularity into the 1960s\" and the Palladium closed in 1966 (https://en.wikipedia.org/wiki/Mambo_(music)?action=raw); cha-cha-chá dates from the early 1950s (\"Early 1950s, [[Cuba]]\", https://en.wikipedia.org/wiki/Cha-cha-chá_(music)?action=raw).",
+   "Origin: Havana matches the infobox (\"Late 1930s, [[Havana]]\", https://en.wikipedia.org/wiki/Mambo_(music)?action=raw), but the big-band brass mambo of the record's sound was made in Mexico City from 1949 by Pérez Prado (sentence 5), not in Havana."
+  ],
+  "notes": "Sentence 5: Pérez Prado's name is in the article's previous sentence; the quote starts 'In 1949 he traveled'. Sentence 8: the Palladium's name and New York are in the preceding sentences of the same paragraph. Cha-cha-chá sentences (9-12) come from 'Cha-cha-chá (music)'; the URL contains an accented letter, which the check script fetched fine."
+ },
+ {
+  "genre": "gospel",
+  "story": "Chicago's established Black churches of the time discouraged clapping, stomping and improvising as unrefined. Thomas A. Dorsey moved to Chicago in 1919. From 1923 he led the band accompanying the blues shouter Ma Rainey. At the National Baptist Convention in 1930, Willie Mae Ford Smith sang his song \"If You See My Savior\". The convention publicly endorsed the music at that meeting, which is why 1930 is often given as the year Black gospel began. With Theodore Frye, music director of Ebenezer Baptist Church, Dorsey trained a new choir to sing his songs with a \"gospel blues\" sound. With Sallie Martin he set up Dorsey House of Music, the first Black-owned gospel publishing house in the United States. Apart from the words, he saw no real difference between blues and church music. Hundreds of thousands of migrants from the South, used to the blues, were coming to outnumber the church members who preferred European classical music. In 1936 members of Dorsey's junior choir became the Roberta Martin Singers. Sam Cooke of the Soul Stirrers, Ray Charles, Little Richard and James Brown went on to record both gospel and R&B.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "Chicago's established Black churches of the time discouraged clapping, stomping and improvising as unrefined.",
+    "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+    "quote": "Personal expressions such as clapping, stomping, and improvising with lyrics, rhythm, and melody were actively discouraged as being unrefined and degrading to the music and the singer."
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "Thomas A. Dorsey moved to Chicago in 1919.",
+    "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+    "quote": "Seeking a greater challenge, Dorsey relocated to Chicago in 1919"
+   },
+   {
+    "n": 3,
+    "beat": "before",
+    "text": "From 1923 he led the band accompanying the blues shouter Ma Rainey.",
+    "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+    "quote": "In 1923, he became the pianist and leader of the Wild Cats Jazz Band accompanying [[Gertrude \"Ma\" Rainey]], a charismatic and bawdy blues shouter"
+   },
+   {
+    "n": 4,
+    "beat": "who",
+    "text": "At the National Baptist Convention in 1930, Willie Mae Ford Smith sang his song \"If You See My Savior\".",
+    "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+    "quote": "he made an impression at the National Baptist Convention in 1930 when, unknown to him, [[Willie Mae Ford Smith]] sang \"If You See My Savior\" during a morning meeting"
+   },
+   {
+    "n": 5,
+    "beat": "who",
+    "text": "The convention publicly endorsed the music at that meeting, which is why 1930 is often given as the year Black gospel began.",
+    "url": "https://en.wikipedia.org/wiki/Gospel_music?action=raw",
+    "quote": "It has been said that 1930 was the year traditional black gospel music began, as the National Baptist Convention first publicly endorsed the music at its 1930 meeting."
+   },
+   {
+    "n": 6,
+    "beat": "who",
+    "text": "With Theodore Frye, music director of Ebenezer Baptist Church, Dorsey trained a new choir to sing his songs with a \"gospel blues\" sound.",
+    "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+    "quote": "Dorsey and Ebenezer's music director [[Theodore Frye]] trained the new chorus to deliver his songs with a gospel blues sound"
+   },
+   {
+    "n": 7,
+    "beat": "who",
+    "text": "With Sallie Martin he set up Dorsey House of Music, the first Black-owned gospel publishing house in the United States.",
+    "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+    "quote": "Dorsey and Martin established a publishing company called Dorsey House of Music, the first black-owned gospel publishing house in the U.S."
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "Apart from the words, he saw no real difference between blues and church music.",
+    "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+    "quote": "Aside from the lyrics, he saw no real distinction between blues and church music"
+   },
+   {
+    "n": 9,
+    "beat": "why",
+    "text": "Hundreds of thousands of migrants from the South, used to the blues, were coming to outnumber the church members who preferred European classical music.",
+    "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+    "quote": "Hundreds of thousands of newly arrived migrants from the South, with an appreciation of blues, began to outnumber an older guard of ministers and parishioners who favored classical European music in services."
+   },
+   {
+    "n": 10,
+    "beat": "after",
+    "text": "In 1936 members of Dorsey's junior choir became the Roberta Martin Singers.",
+    "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+    "quote": "In 1936, members of Dorsey's junior choir became the [[Roberta Martin Singers]]"
+   },
+   {
+    "n": 11,
+    "beat": "after",
+    "text": "Sam Cooke of the Soul Stirrers, Ray Charles, Little Richard and James Brown went on to record both gospel and R&B.",
+    "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+    "quote": "[[Sam Cooke]], originally in the gospel band [[the Soul Stirrers]], [[Ray Charles]], [[Little Richard]], [[James Brown]], and [[the Coasters]] recorded both R&B and gospel songs"
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "Record began 1930 / origin Chicago agrees with the genre article: 'It has been said that 1930 was the year traditional black gospel music began, as the National Baptist Convention first publicly endorsed the music at its 1930 meeting.' (https://en.wikipedia.org/wiki/Gospel_music?action=raw). The same article traces gospel much earlier: 'Gospel music can be traced to the early 17th century.' and dates the term to 1874 (Philip Bliss); the record's 1930 start therefore describes Black gospel only.",
+   "Record ended 1970: no source gives an end. The Dorsey article speaks of 'Encountering a \"golden age\" between 1940 and 1960' (https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw); the genre article's next section says 'Urban contemporary gospel emerged in the late 1960s and early 70s' (Gospel_music), which fits a 1970 end but does not state one."
+  ],
+  "notes": "Most sentences come from the English Wikipedia article on Thomas A. Dorsey, because the genre article (Gospel_music) is mostly about white and Southern gospel hymnody and is thin on the Chicago story the record describes; one sentence (the 1930 start) is from Gospel_music. Not covered for want of space: Mahalia Jackson, the 1932 founding of the National Convention of Gospel Choirs and Choruses."
+ },
+ {
+  "genre": "rocknroll",
+  "story": "During and just after the Second World War, fuel shortages and smaller audiences made large jazz bands too costly. Through the late 1940s and early 1950s, R&B players such as Fats Domino and Johnny Otis sped up their tempos. In 1951 the Cleveland disc jockey Alan Freed began playing this music on the radio and calling it \"rock and roll\". On April 12, 1954, Bill Haley & His Comets recorded \"Rock Around the Clock\". In July 1954 Elvis Presley recorded \"That's All Right\" at Sam Phillips' Sun Studio in Memphis. Chuck Berry, drawing on electric blues, made the electric guitar its centrepiece. Independent labels such as Atlantic, Sun and Chess recorded for audiences of their own. It was named and sold as a genre of its own once the industry saw that affluent white teenagers were listening. Haley's song, used in the opening of the film Blackboard Jungle a year after it was recorded, set the boom in motion. As interest faded in America in the late 1950s, groups in British cities such as Liverpool took it up. The Quarrymen, who became the Beatles, moved from skiffle towards rock and roll and rhythm and blues.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "During and just after the Second World War, fuel shortages and smaller audiences made large jazz bands too costly.",
+    "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+    "quote": "During and immediately after [[World War II]], with shortages of fuel and limitations on audiences and available personnel, large jazz bands were less economical"
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "Through the late 1940s and early 1950s, R&B players such as Fats Domino and Johnny Otis sped up their tempos.",
+    "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+    "quote": "Through the late 1940s and early 1950s, [[Rhythm and blues|R&B]] music had been gaining a stronger beat and a wilder style, with artists such as Fats Domino and [[Johnny Otis]] speeding up the [[tempos]]"
+   },
+   {
+    "n": 3,
+    "beat": "who",
+    "text": "In 1951 the Cleveland disc jockey Alan Freed began playing this music on the radio and calling it \"rock and roll\".",
+    "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+    "quote": "In 1951, [[Cleveland]], Ohio, disc jockey [[Alan Freed]] began playing this music style, and referring to it as \"rock and roll\""
+   },
+   {
+    "n": 4,
+    "beat": "who",
+    "text": "On April 12, 1954, Bill Haley & His Comets recorded \"Rock Around the Clock\".",
+    "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+    "quote": "on April 12, 1954, [[Bill Haley & His Comets]] recorded \"Rock Around the Clock\""
+   },
+   {
+    "n": 5,
+    "beat": "who",
+    "text": "In July 1954 Elvis Presley recorded \"That's All Right\" at Sam Phillips' Sun Studio in Memphis.",
+    "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+    "quote": "In July 1954, Presley recorded the regional hit \"[[That's All Right]]\" at Sam Phillips' [[Sun Studio]] in Memphis"
+   },
+   {
+    "n": 6,
+    "beat": "who",
+    "text": "Chuck Berry, drawing on electric blues, made the electric guitar its centrepiece.",
+    "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+    "quote": "Inspired by [[electric blues]], Chuck Berry introduced an aggressive guitar sound to rock and roll, and established the electric guitar as its centerpiece"
+   },
+   {
+    "n": 7,
+    "beat": "why",
+    "text": "Independent labels such as Atlantic, Sun and Chess recorded for audiences of their own.",
+    "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+    "quote": "the rise of independent labels like [[Atlantic records|Atlantic]], [[Sun Records|Sun]] and [[Chess Records|Chess]] servicing [[niche market|niche audiences]]"
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "It was named and sold as a genre of its own once the industry saw that affluent white teenagers were listening.",
+    "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+    "quote": "It was the realization that relatively affluent white teenagers were listening to this music that led to the development of what was to be defined as rock and roll as a distinct genre."
+   },
+   {
+    "n": 9,
+    "beat": "why",
+    "text": "Haley's song, used in the opening of the film Blackboard Jungle a year after it was recorded, set the boom in motion.",
+    "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+    "quote": "when used in the opening sequence of the movie ''[[Blackboard Jungle]]'' a year later, it set the rock and roll boom in motion"
+   },
+   {
+    "n": 10,
+    "beat": "after",
+    "text": "As interest faded in America in the late 1950s, groups in British cities such as Liverpool took it up.",
+    "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+    "quote": "As interest in rock and roll was beginning to subside in America in the late 1950s and early 1960s, it was taken up by groups in British cities like [[Liverpool]]"
+   },
+   {
+    "n": 11,
+    "beat": "after",
+    "text": "The Quarrymen, who became the Beatles, moved from skiffle towards rock and roll and rhythm and blues.",
+    "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+    "quote": "Many groups moved towards the [[beat music]] of rock and roll and rhythm and blues from skiffle, like the [[Quarrymen]] who became [[the Beatles]]"
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "Record began 1954: the genre article says it 'evolved in the [[United States]] during the late 1940s and early 1950s' and 'the genre did not acquire its name until 1954' (https://en.wikipedia.org/wiki/Rock_and_roll?action=raw). 1954 is the year of the name and of the Haley and Presley recordings, not of the sound's first appearance.",
+   "Record origin Memphis: the article names no single birthplace. Memphis is supported only as the site of Presley's July 1954 Sun Studio session; the name was popularised in Cleveland ('In 1951, [[Cleveland]], Ohio, disc jockey [[Alan Freed]] began playing this music style'), and the article names St. Louis, Memphis, New York, Detroit, Chicago, Cleveland and Buffalo among the cities of the migration that underlies it.",
+   "Record ended 1960 agrees with: 'the death of [[Eddie Cochran]] in a car crash (April 1960) gave a sense that the initial phase of rock and roll had come to an end' (Rock_and_roll).",
+   "Tree came_from lists rnb and country only; the article also names gospel: 'with stylistic influences from [[gospel music|gospel]], [[jazz]], [[boogie-woogie]]' (Rock_and_roll). Worth a look given the gospel->rnb edge already exists."
+  ],
+  "notes": "All sentences from the genre article. 'Rocket 88' (Sam Phillips, March 1951) left out to stay within length; it would strengthen the Memphis origin if the lead wants it."
+ },
+ {
+  "genre": "rumbacongo",
+  "story": "It grew from maringa, a Bakongo partner dance of the old Kingdom of Loango, related to West African highlife. In the early 1940s Radio Congo Belge in Léopoldville played records of Cuban son by Sexteto Habanero and Trio Matamoros. In August 1941 Paul Kamba formed the Victoria Brazza band in Poto-Poto. Wendo Kolosoy's \"Marie-Louise\", written with the guitarist Henri Bowane for the Ngoma label, sold over two million copies. In 1954, 90% of the 30,000 music requests logged by radio were for Congolese rumba. In early 1956 the Loningisa label's session players renamed themselves OK Jazz in honour of their new employer. Congolese musicians moved the piano parts, drum patterns and trumpet phrases of son onto electric guitars and saxophones. Because the imported records were often labelled \"rumba\", the local music took that name. Antoine Kasongo's orchestra is credited with adding the sebene, a repeated instrumental passage built on guitar figures. In the 1960s and 1970s soukous grew out of it. In the 1980s many musicians left Zaire for Tanzania, Kenya, Uganda and Colombia, and for Paris, Brussels and London.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "It grew from maringa, a Bakongo partner dance of the old Kingdom of Loango, related to West African highlife.",
+    "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+    "quote": "''Maringa'' was a Bakongo dance similar to West African [[highlife]] and historically practiced within the former [[Kingdom of Loango]]"
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "In the early 1940s Radio Congo Belge in Léopoldville played records of Cuban son by Sexteto Habanero and Trio Matamoros.",
+    "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+    "quote": "In the early 1940s, the music of Cuban son groups, such as [[Sexteto Habanero]], [[Trio Matamoros]], and Los Guaracheros de Oriente, was played on [[Radio Congo Belge]] in Léopoldville"
+   },
+   {
+    "n": 3,
+    "beat": "who",
+    "text": "In August 1941 Paul Kamba formed the Victoria Brazza band in Poto-Poto.",
+    "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+    "quote": "In August 1941, [[Paul Kamba]] formed the Victoria Brazza ensemble in Poto-Poto"
+   },
+   {
+    "n": 4,
+    "beat": "who",
+    "text": "Wendo Kolosoy's \"Marie-Louise\", written with the guitarist Henri Bowane for the Ngoma label, sold over two million copies.",
+    "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+    "quote": "Wendo's hit \"Marie-Louise\", co-written with guitarist Henri Bowane and produced by Ngoma, achieved significant success, selling over two million copies"
+   },
+   {
+    "n": 5,
+    "beat": "who",
+    "text": "In 1954, 90% of the 30,000 music requests logged by radio were for Congolese rumba.",
+    "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+    "quote": "Popularity polls and request logs from 1954 demonstrated the growing dominance of Congolese rumba music: 90% of the 30,000 music requests received were for Congolese rumba songs."
+   },
+   {
+    "n": 6,
+    "beat": "who",
+    "text": "In early 1956 the Loningisa label's session players renamed themselves OK Jazz in honour of their new employer.",
+    "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+    "quote": "In early 1956, the Bana Loningisa rebranded themselves as [[TPOK Jazz|OK Jazz]] in homage to their new employer"
+   },
+   {
+    "n": 7,
+    "beat": "why",
+    "text": "Congolese musicians moved the piano parts, drum patterns and trumpet phrases of son onto electric guitars and saxophones.",
+    "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+    "quote": "Congolese musicians began to transpose aspects of Cuban son, including piano sounds, drum patterns, and trumpet phrasing, to electric guitars and saxophones."
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "Because the imported records were often labelled \"rumba\", the local music took that name.",
+    "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+    "quote": "it became known as \"Congolese rumba\" due to the frequent mislabeling of imported records by Sexteto Habanero and Trio Matamoros as \"rumba\""
+   },
+   {
+    "n": 9,
+    "beat": "why",
+    "text": "Antoine Kasongo's orchestra is credited with adding the sebene, a repeated instrumental passage built on guitar figures.",
+    "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+    "quote": "Kasongo's own orchestra is widely credited with introducing the [[Sebene|sebène]], a repeated instrumental passage, often built around rhythmic guitar motifs, into Congolese dance music"
+   },
+   {
+    "n": 10,
+    "beat": "after",
+    "text": "In the 1960s and 1970s soukous grew out of it.",
+    "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+    "quote": "The 1960s and 1970s saw the emergence of [[soukous]], an urban dance music style derived from Congolese rumba"
+   },
+   {
+    "n": 11,
+    "beat": "after",
+    "text": "In the 1980s many musicians left Zaire for Tanzania, Kenya, Uganda and Colombia, and for Paris, Brussels and London.",
+    "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+    "quote": "With increasing [[Political sociology|sociopolitical upheaval]] in Zaire in the 1980s, numerous musicians sought refuge in [[Tanzania]], [[Kenya]], [[Uganda]], and [[Colombia]], and a significant number migrated to Paris, Brussels, and London"
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "Record began 1950: the article places the formation earlier: 'In August 1941, [[Paul Kamba]] formed the Victoria Brazza ensemble in Poto-Poto', Ngoma's studio from 1948 ('Shortly after Ngoma's inauguration in 1948'), and 'During the mid-1940s and 1950s, the influence of [[Son cubano|Cuban son]] bands transformed ''maringa'' into \"Congolese rumba,\"' (https://en.wikipedia.org/wiki/Congolese_rumba?action=raw). A start in the 1940s would fit the source better.",
+   "Record origin Kinshasa: the article names both cities: 'particularly in the cities of [[Kinshasa]] and [[Brazzaville]]' (Congolese_rumba); Kamba's 1941 band was in Poto-Poto, Brazzaville.",
+   "Record name joins rumba and soukous; the article treats soukous as a later derivative: 'The 1960s and 1970s saw the emergence of [[soukous]], an urban dance music style derived from Congolese rumba' (Congolese_rumba)."
+  ],
+  "notes": "All sentences from the English genre article (Congolese_rumba); the Soukous article was fetched but not needed. The 1980s exodus to Tanzania, Kenya, Uganda and Colombia supports several led_to edges (benga, dansi, kidandali, champeta) but the source does not itself say those genres came from it. Not covered for space: Le Grand Kallé's 'Indépendance Cha Cha' (1960), Franco."
+ },
+ {
+  "genre": "ska",
+  "story": "After the Second World War, Jamaicans bought radios and could hear rhythm and blues from the American South. Ska joined that sound to Jamaican mento and American jazz. To meet the demand, Prince Buster, Coxsone Dodd and Duke Reid set up sound systems. In the second half of 1959 Dodd and Reid began issuing their own recordings of local artists on disc. The first ska records were made at Federal Records, Studio One and WIRL in Kingston. Its rise coincided with Jamaica's independence from Britain in 1962. The producers had turned to recording local artists because new American jump blues and R&B tunes ran short in the late 1950s. Within two or three years the copied American shuffle had become ska, with the guitar chopping on the offbeat. One account credits Prince Buster, who flipped the R&B shuffle beat to stress the offbeats on guitar. Millie Small's \"My Boy Lollypop\" of 1964 was Jamaica's first international hit. In 1965 and 1966, as American soul grew slower and smoother, ska slowed with it into rocksteady. In the late 1970s, bands around Coventry joined ska rhythms to punk guitar in the 2 Tone style.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "After the Second World War, Jamaicans bought radios and could hear rhythm and blues from the American South.",
+    "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+    "quote": "[[Jamaicans]] purchased radios in increasing numbers and were able to hear [[rhythm and blues]] music from the [[Southern United States]]"
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "Ska joined that sound to Jamaican mento and American jazz.",
+    "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+    "quote": "It combined elements of [[Caribbean]] [[mento]] (sometimes referred to as [[Calypso music|calypso]]) with [[United States|American]] [[jazz]] and [[rhythm and blues]]."
+   },
+   {
+    "n": 3,
+    "beat": "who",
+    "text": "To meet the demand, Prince Buster, Coxsone Dodd and Duke Reid set up sound systems.",
+    "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+    "quote": "To meet the demand for that music, entrepreneurs such as [[Prince Buster]], [[Coxsone Dodd]], and [[Duke Reid]] formed [[Reggae sound system|sound systems]]."
+   },
+   {
+    "n": 4,
+    "beat": "who",
+    "text": "In the second half of 1959 Dodd and Reid began issuing their own recordings of local artists on disc.",
+    "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+    "quote": "sometime in the second half of 1959 (believed by most to be in the last quarter) producers such as Coxsone Dodd and Duke Reid began to issue these recordings"
+   },
+   {
+    "n": 5,
+    "beat": "who",
+    "text": "The first ska records were made at Federal Records, Studio One and WIRL in Kingston.",
+    "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+    "quote": "The first ska recordings were created at facilities such as [[Ken Khouri|Federal Records]], [[Studio One (record label)|Studio One]], and WIRL Records in [[Kingston, Jamaica]]"
+   },
+   {
+    "n": 6,
+    "beat": "who",
+    "text": "Its rise coincided with Jamaica's independence from Britain in 1962.",
+    "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+    "quote": "The ska sound coincided with the celebratory feelings surrounding Jamaica's independence from the UK in 1962"
+   },
+   {
+    "n": 7,
+    "beat": "why",
+    "text": "The producers had turned to recording local artists because new American jump blues and R&B tunes ran short in the late 1950s.",
+    "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+    "quote": "As the supply of previously unheard tunes in the [[jump blues]] and more traditional R&B genres began to dry up in the late 1950s, Jamaican producers began recording their own version of the genres with local artists."
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "Within two or three years the copied American shuffle had become ska, with the guitar chopping on the offbeat.",
+    "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+    "quote": "within two or three years it had morphed into the more familiar ska style with the off-beat guitar chop"
+   },
+   {
+    "n": 9,
+    "beat": "why",
+    "text": "One account credits Prince Buster, who flipped the R&B shuffle beat to stress the offbeats on guitar.",
+    "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+    "quote": "To create the ska beat, Prince Buster essentially flipped the R&B shuffle beat, stressing the offbeats with the help of the guitar."
+   },
+   {
+    "n": 10,
+    "beat": "after",
+    "text": "Millie Small's \"My Boy Lollypop\" of 1964 was Jamaica's first international hit.",
+    "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+    "quote": "Small's rhythmically similar version, released in 1964, was Jamaica's first commercially successful international hit."
+   },
+   {
+    "n": 11,
+    "beat": "after",
+    "text": "In 1965 and 1966, as American soul grew slower and smoother, ska slowed with it into rocksteady.",
+    "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+    "quote": "In 1965 and 1966, when American soul music became slower and smoother, ska changed its sound accordingly and evolved into [[rocksteady]]."
+   },
+   {
+    "n": 12,
+    "beat": "after",
+    "text": "In the late 1970s, bands around Coventry joined ska rhythms to punk guitar in the 2 Tone style.",
+    "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+    "quote": "The [[Two-tone (music genre)|2 tone]] genre, which began in the late 1970s in the [[Coventry]] area of UK, was a fusion of Jamaican ska rhythms and melodies with [[punk rock]]'s more aggressive guitar chords"
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "Record began 1959 agrees with the first 45 rpm issues 'sometime in the second half of 1959' (https://en.wikipedia.org/wiki/Ska?action=raw); the article's own lead is inconsistent, saying both 'originated in [[Jamaica]] in the late 1950s' and 'It was developed in Jamaica in the 1960s'.",
+   "Record ended 1966 agrees with 'In 1965 and 1966, when American soul music became slower and smoother, ska changed its sound accordingly and evolved into [[rocksteady]].' (Ska).",
+   "Origin of the beat is disputed in the source: Prince Buster's flip is given as 'One theory about the origin of ska'; the story says 'One account credits'."
+  ],
+  "notes": "All sentences from the English genre article. The article names Stranger Cole alongside Dodd, Reid and Prince Buster as founders of sound systems in the lead, but in the history section only the three; the story follows the history section."
+ },
+ {
+  "genre": "soul",
+  "story": "Soul grew out of African-American gospel music and rhythm and blues, joining their religious and secular styles in the 1950s. Ray Charles began a run of hits with \"I Got a Woman\" in 1954. Sam Cooke sang lead in the gospel group the Soul Stirrers before he moved into secular music. In Detroit, Berry Gordy founded Tamla Records, later Motown, on 12 January 1959. He turned a photography studio at 2648 West Grand Boulevard into a recording studio and office. In Memphis, the siblings Estelle and James Stewart ran Stax Records. Stax released hits by Otis Redding, Wilson Pickett and the Staple Singers. Stax put the voice further back in the mix and used horns where other records used backing singers. Motown, an African American-owned label, won white listeners as well. Between 1960 and 1969, 79 Motown songs reached the Billboard top ten. Aretha Franklin, first a gospel singer, began making secular records in 1960 and later recorded for Atlantic. After the 1967 Detroit riot, Gordy moved Motown to Los Angeles. James Brown and Sly and the Family Stone moved on into funk. Neo soul, drawing on hip-hop, grew from it around 1994.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "Soul grew out of African-American gospel music and rhythm and blues, joining their religious and secular styles in the 1950s.",
+    "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+    "quote": "as the hybridization of their respective religious and secular styles"
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "Ray Charles began a run of hits with \"I Got a Woman\" in 1954.",
+    "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+    "quote": "[[Ray Charles]] is often cited as popularizing the soul music genre with his series of hits, starting with 1954's \"[[I Got a Woman]]\""
+   },
+   {
+    "n": 3,
+    "beat": "who",
+    "text": "Sam Cooke sang lead in the gospel group the Soul Stirrers before he moved into secular music.",
+    "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+    "quote": "Cooke became popular as the lead singer of the gospel group [[the Soul Stirrers]], before controversially moving into secular music."
+   },
+   {
+    "n": 4,
+    "beat": "who",
+    "text": "In Detroit, Berry Gordy founded Tamla Records, later Motown, on 12 January 1959.",
+    "url": "https://en.wikipedia.org/wiki/Motown?action=raw",
+    "quote": "as Tamla Records on January 12, 1959"
+   },
+   {
+    "n": 5,
+    "beat": "who",
+    "text": "He turned a photography studio at 2648 West Grand Boulevard into a recording studio and office.",
+    "url": "https://en.wikipedia.org/wiki/Motown?action=raw",
+    "quote": "he purchased a photography studio at 2648 West Grand Boulevard and converted the main floor into a recording studio and office space"
+   },
+   {
+    "n": 6,
+    "beat": "who",
+    "text": "In Memphis, the siblings Estelle and James Stewart ran Stax Records.",
+    "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+    "quote": "[[Stax Records]], founded by siblings Estelle and James Stewart, was the second most successful record label behind [[Motown Records]]."
+   },
+   {
+    "n": 7,
+    "beat": "who",
+    "text": "Stax released hits by Otis Redding, Wilson Pickett and the Staple Singers.",
+    "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+    "quote": "They were responsible for releasing hits by [[Otis Redding]], [[Wilson Pickett]], [[the Staple Singers]], and many more."
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "Stax put the voice further back in the mix and used horns where other records used backing singers.",
+    "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+    "quote": "putting vocals further back in the mix than most contemporary R&B records, using vibrant horn parts in place of background vocals"
+   },
+   {
+    "n": 9,
+    "beat": "why",
+    "text": "Motown, an African American-owned label, won white listeners as well.",
+    "url": "https://en.wikipedia.org/wiki/Motown?action=raw",
+    "quote": "as an African American-owned label that achieved [[crossover (music)|crossover]] success with white audiences"
+   },
+   {
+    "n": 10,
+    "beat": "why",
+    "text": "Between 1960 and 1969, 79 Motown songs reached the Billboard top ten.",
+    "url": "https://en.wikipedia.org/wiki/Motown?action=raw",
+    "quote": "Between 1960 and 1969, 79 Motown songs reached the top ten of the [[Billboard Hot 100|''Billboard'' Hot 100]]"
+   },
+   {
+    "n": 11,
+    "beat": "who",
+    "text": "Aretha Franklin, first a gospel singer, began making secular records in 1960 and later recorded for Atlantic.",
+    "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+    "quote": "originally a gospel singer who began to make secular recordings in 1960 but whose career was later revitalized by her recordings for Atlantic"
+   },
+   {
+    "n": 12,
+    "beat": "after",
+    "text": "After the 1967 Detroit riot, Gordy moved Motown to Los Angeles.",
+    "url": "https://en.wikipedia.org/wiki/Motown?action=raw",
+    "quote": "Gordy moved Motown to Los Angeles, California, and it expanded into film and television production."
+   },
+   {
+    "n": 13,
+    "beat": "after",
+    "text": "James Brown and Sly and the Family Stone moved on into funk.",
+    "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+    "quote": "Artists such as James Brown and [[Sly and the Family Stone]] evolved into [[funk]] music"
+   },
+   {
+    "n": 14,
+    "beat": "after",
+    "text": "Neo soul, drawing on hip-hop, grew from it around 1994.",
+    "url": "https://en.wikipedia.org/wiki/Soul_music?action=raw",
+    "quote": "[[Neo soul]], which adopted hip-hop influences, developed around 1994."
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "Began: record says 1959; Soul_music says it 'originated ... in the late 1950s and early 1960s', and Guralnick (quoted there) dates the movement to 1961: \"Soul started, in a sense, with the 1961 success of Solomon Burke's \\\"Just Out of Reach\\\".\" (https://en.wikipedia.org/wiki/Soul_music?action=raw). 1959 matches Tamla's founding, not a stated start of soul.",
+   "Origin: record says Detroit and Memphis; Soul_music says it 'originated in [[African-American culture|African-American]] [[African-American neighborhood|communities]] throughout the United States' (https://en.wikipedia.org/wiki/Soul_music?action=raw) and names Atlantic (New York) and Ray Charles, Sam Cooke as forefathers. Detroit and Memphis fit the record's 'Soul and Motown' scope but are not the only origin the source gives.",
+   "Ended: record says 1975; no source found that names an end year. Soul_music describes soul 'informing most subsequent forms of R&B from the 1970s-onward' (https://en.wikipedia.org/wiki/Soul_music?action=raw)."
+  ],
+  "notes": "Story leans on Motown (Detroit) and Stax (Memphis) to match the record's 'Soul and Motown' scope and origin. Motown founding facts come from the Motown article; everything else from Soul_music. Tree neighbours funk and neosoul are both supported by the sources."
+ },
+ {
+  "genre": "bossa",
+  "story": "In the late 1950s the slower samba-canção was the main rhythm in Brazilian music. Samba guitarists had been playing complex chord arrangements since the early 1920s. The nightclubs of Beco das Garrafas, a small dead-end alley in Copacabana, were where it took shape. On Elizeth Cardoso's album Canção do Amor Demais, João Gilberto played guitar on two songs by Tom Jobim and Vinicius de Moraes. Gilberto cut the samba drum band down to one guitar: his thumb played the surdo's part, his fingers the tamborim's. He also sang quietly, where Brazilian singers before him had used brassy, almost operatic voices. His LP Chega de Saudade, released in 1959, fixed bossa nova as a new way of playing samba. Young amateur musicians from Rio's South Zone, such as Carlos Lyra and Nara Leão, joined them. On 21 November 1962 Brazil's consulate presented bossa nova at Carnegie Hall in New York. In 1964 Gilberto, Jobim and Stan Getz released Getz/Gilberto, which won Grammy Awards. In Japan, Sadao Watanabe's 1967 album Jazz & Bossa set off a bossa nova boom. At home, MPB followed; its start is often tied to Elis Regina singing Vinicius de Moraes and Edu Lobo's \"Arrastão\".",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "In the late 1950s the slower samba-canção was the main rhythm in Brazilian music.",
+    "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+    "quote": "The style emerged at the time when [[samba-canção]]"
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "Samba guitarists had been playing complex chord arrangements since the early 1920s.",
+    "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+    "quote": "samba guitar players have been using similar [[arrangement]] structures since the early 1920s"
+   },
+   {
+    "n": 3,
+    "beat": "who",
+    "text": "The nightclubs of Beco das Garrafas, a small dead-end alley in Copacabana, were where it took shape.",
+    "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+    "quote": "a small dead-end alley in Copacabana, is considered a historical cradle of bossa nova"
+   },
+   {
+    "n": 4,
+    "beat": "who",
+    "text": "On Elizeth Cardoso's album Canção do Amor Demais, João Gilberto played guitar on two songs by Tom Jobim and Vinicius de Moraes.",
+    "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+    "quote": "Its first appearance was on the album ''[[Canção do Amor Demais]]'', in which the singer [[Elizeth Cardoso]] recorded two compositions"
+   },
+   {
+    "n": 5,
+    "beat": "why",
+    "text": "Gilberto cut the samba drum band down to one guitar: his thumb played the surdo's part, his fingers the tamborim's.",
+    "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+    "quote": "the thumb stylized a [[surdo]]; the index, middle and ring fingers phrased like a [[tamborim]]"
+   },
+   {
+    "n": 6,
+    "beat": "why",
+    "text": "He also sang quietly, where Brazilian singers before him had used brassy, almost operatic voices.",
+    "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+    "quote": "Prior to bossa nova, Brazilian singers employed brassy, almost operatic styles."
+   },
+   {
+    "n": 7,
+    "beat": "who",
+    "text": "His LP Chega de Saudade, released in 1959, fixed bossa nova as a new way of playing samba.",
+    "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+    "quote": "With the LP ''[[Chega de Saudade (album)|Chega de Saudade]]'', released in 1959, Gilberto consolidated the bossa nova as a new style of playing samba."
+   },
+   {
+    "n": 8,
+    "beat": "who",
+    "text": "Young amateur musicians from Rio's South Zone, such as Carlos Lyra and Nara Leão, joined them.",
+    "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+    "quote": "which attracted young amateur musicians from the [[South Zone (Rio de Janeiro)|South Zone of Rio]] – such as [[Marcos Valle]], [[Carlos Lyra]], [[Roberto Menescal]], Ronaldo Bôscoli and [[Nara Leão]]"
+   },
+   {
+    "n": 9,
+    "beat": "after",
+    "text": "On 21 November 1962 Brazil's consulate presented bossa nova at Carnegie Hall in New York.",
+    "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+    "quote": "On 21 November 1962, the [[List of diplomatic missions of Brazil#Americas|Consulate-General of Brazil]] presented ''Bossa Nova'' at [[Carnegie Hall]]."
+   },
+   {
+    "n": 10,
+    "beat": "after",
+    "text": "In 1964 Gilberto, Jobim and Stan Getz released Getz/Gilberto, which won Grammy Awards.",
+    "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+    "quote": "In 1964, João Gilberto, Stan Getz and Tom Jobim released the [[Grammy Awards]]-winning album ''[[Getz/Gilberto]]''."
+   },
+   {
+    "n": 11,
+    "beat": "after",
+    "text": "In Japan, Sadao Watanabe's 1967 album Jazz & Bossa set off a bossa nova boom.",
+    "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+    "quote": "[[Sadao Watanabe (musician)|Sadao Watanabe]]'s 1967 album \"Jazz & Bossa\" after his return from the United States ignited a bossa nova boom in Japan"
+   },
+   {
+    "n": 12,
+    "beat": "after",
+    "text": "At home, MPB followed; its start is often tied to Elis Regina singing Vinicius de Moraes and Edu Lobo's \"Arrastão\".",
+    "url": "https://en.wikipedia.org/wiki/Música_popular_brasileira?action=raw",
+    "quote": "The beginning of MPB is often associated with [[Elis Regina]]'s interpretation of [[Vinícius de Moraes]] and [[Edu Lobo]]'s \"Arrastão.\""
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "Sound/came_from: record lists modjazz as a parent and the sound as 'jazz chords'; Bossa_nova says 'A common misconception is that these complex chords and harmonies were derived from [[jazz]], but samba guitar players have been using similar [[arrangement]] structures since the early 1920s', while also saying 'bossa nova was influenced by jazz' (https://en.wikipedia.org/wiki/Bossa_nova?action=raw). Not a contradiction of the 'other' jazz link, but the record's wording 'jazz chords' is the view the article calls a misconception.",
+   "Began: record says 1958; Bossa_nova says 'developed in the late 1950s and early 1960s' and calls the 1959 LP Chega de Saudade 'the landmark of the birth of bossa nova'. The Cardoso album (Canção do Amor Demais) is not dated in the article, so 1958 is not confirmed by this source.",
+   "Ended: record says 1970; no source found for an end year. The article traces bossa nova abroad into the 1960s-70s and later revivals.",
+   "Led_to: record has shibuyakei as a successor; the article supports a Japanese bossa nova boom from 1967 but does not name Shibuya-kei."
+  ],
+  "notes": "Sentence 1's quote ('The style emerged at the time when [[samba-canção]]') is cut short because the raw text has an {{efn}} footnote between 'samba-canção' and 'was the dominant rhythm in the Brazilian music scene'; the two halves are in one sentence of the page. MPB sentence comes from the English MPB article (https://en.wikipedia.org/wiki/Música_popular_brasileira?action=raw), not the bossa article. Portuguese Wikipedia was not needed. A dated 1965 festival sentence was dropped only to stay under 200 words; it is found on the MPB page if wanted."
+ },
+ {
+  "genre": "funk",
+  "story": "In New Orleans, Dave Bartholomew and Professor Longhair brought Afro-Cuban instruments and the clave pattern into rhythm and blues. Longhair's way with rhythm became a basic template of funk. When Little Richard left secular music in 1957, some of his band joined James Brown and the Famous Flames. By the mid-1960s Brown put the weight on the first beat of every bar instead of the backbeat. The change began with \"Out of Sight\" in 1964 and \"Papa's Got a Brand New Bag\" in 1965. In 1990 Brown explained it: \"I changed from the upbeat to the downbeat.\" His arranger Alfred \"Pee Wee\" Ellis credited drummer Clyde Stubblefield's New Orleans drumming as the basis of modern funk. With \"Cold Sweat\" (1967), \"Mother Popcorn\" (1969) and \"Sex Machine\" (1970), Brown dropped even the twelve-bar blues. In New Orleans the Meters had R&B hits with \"Cissy Strut\" in 1969. George Clinton's bands Parliament and Funkadelic mixed it with jazz and psychedelic rock. Many early disco songs and performers came straight from funk. From the late 1980s hip-hop artists sampled funk records, and James Brown is said to be hip-hop's most sampled artist.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "In New Orleans, Dave Bartholomew and Professor Longhair brought Afro-Cuban instruments and the clave pattern into rhythm and blues.",
+    "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+    "quote": "[[Dave Bartholomew]] and [[Professor Longhair]] (Henry Roeland Byrd) incorporated Afro-Cuban instruments, as well as the [[clave (rhythm)|clave]] pattern"
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "Longhair's way with rhythm became a basic template of funk.",
+    "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+    "quote": "Longhair's rhythmic approach became a basic template of funk."
+   },
+   {
+    "n": 3,
+    "beat": "who",
+    "text": "When Little Richard left secular music in 1957, some of his band joined James Brown and the Famous Flames.",
+    "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+    "quote": "Following his temporary exit from secular music to become an evangelist in 1957, some of Little Richard's band members joined Brown and [[the Famous Flames]]"
+   },
+   {
+    "n": 4,
+    "beat": "why",
+    "text": "By the mid-1960s Brown put the weight on the first beat of every bar instead of the backbeat.",
+    "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+    "quote": "had developed his signature groove that emphasized the [[Beat (music)#Downbeat|downbeat]]—with heavy emphasis on the first beat of every measure"
+   },
+   {
+    "n": 5,
+    "beat": "who",
+    "text": "The change began with \"Out of Sight\" in 1964 and \"Papa's Got a Brand New Bag\" in 1965.",
+    "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+    "quote": "starting with his 1964 hit single, \"[[Out of Sight (song)|Out of Sight]]\" and his 1965 hits, \"[[Papa's Got a Brand New Bag]]\""
+   },
+   {
+    "n": 6,
+    "beat": "why",
+    "text": "In 1990 Brown explained it: \"I changed from the upbeat to the downbeat.\"",
+    "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+    "quote": "In a 1990 interview, Brown offered his reason for switching the rhythm of his music: \"I changed from the upbeat to the downbeat"
+   },
+   {
+    "n": 7,
+    "beat": "who",
+    "text": "His arranger Alfred \"Pee Wee\" Ellis credited drummer Clyde Stubblefield's New Orleans drumming as the basis of modern funk.",
+    "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+    "quote": "Ellis credits [[Clyde Stubblefield]]'s adoption of New Orleans drumming techniques, as the basis of modern funk"
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "With \"Cold Sweat\" (1967), \"Mother Popcorn\" (1969) and \"Sex Machine\" (1970), Brown dropped even the twelve-bar blues.",
+    "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+    "quote": "\"[[Cold Sweat]]\" (1967), \"[[Mother Popcorn]]\" (1969) and \"[[Get Up (I Feel Like Being a) Sex Machine]]\" (1970), discarding even the twelve-bar blues featured in his earlier music"
+   },
+   {
+    "n": 9,
+    "beat": "who",
+    "text": "In New Orleans the Meters had R&B hits with \"Cissy Strut\" in 1969.",
+    "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+    "quote": "[[The Meters]] defined funk in [[New Orleans, Louisiana|New Orleans]], starting with their top ten R&B hits \"Sophisticated Cissy\" and \"[[Cissy Strut]]\" in 1969"
+   },
+   {
+    "n": 10,
+    "beat": "who",
+    "text": "George Clinton's bands Parliament and Funkadelic mixed it with jazz and psychedelic rock.",
+    "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+    "quote": "Together, they produced a new kind of funk sound heavily influenced by [[jazz]] and [[psychedelic rock]]."
+   },
+   {
+    "n": 11,
+    "beat": "after",
+    "text": "Many early disco songs and performers came straight from funk.",
+    "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+    "quote": "Many early disco songs and performers came directly from funk-oriented backgrounds."
+   },
+   {
+    "n": 12,
+    "beat": "after",
+    "text": "From the late 1980s hip-hop artists sampled funk records, and James Brown is said to be hip-hop's most sampled artist.",
+    "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+    "quote": "is said to be the most sampled artist in the history of hip-hop"
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "Origin: record says Augusta and Cincinnati; the Funk article names neither. It places the roots in New Orleans R&B ('Longhair's rhythmic approach became a basic template of funk') and says funk 'originated in [[African-American]] communities in the mid-1960s' (https://en.wikipedia.org/wiki/Funk?action=raw). Augusta/Cincinnati is not contradicted, but it is unsourced here.",
+   "Began: record says 1965; the article dates Brown's shift from his 1964 single 'Out of Sight' and his 1965 hits. Consistent within a year.",
+   "Ended: record says 1980; the article says 'The 1970s were the era of highest mainstream visibility for funk music' and that by 'the latter half of the 1980s, pure funk had lost its commercial impact' (https://en.wikipedia.org/wiki/Funk?action=raw). The source suggests a later fade than 1980."
+  ],
+  "notes": "All sentences from the English Funk article. Sentence 4 credits the downbeat shift to Brown by the mid-1960s; the record's marker 'the one' is supported. The Little Richard sentence relies on the article's own wording that his band members joined Brown after his 1957 exit; the article attributes the 'first to put the funk into the rhythm' credit to Brown himself."
+ },
+ {
+  "genre": "disco",
+  "story": "The discothèque came from France: Olivier Coquelin, a French expatriate, opened Le Club in Manhattan on New Year's Eve 1960. In Philadelphia in the early 1970s, the producers Gamble and Huff gave soul lush strings, thumping basslines and sliding hi-hats. On Valentine's Day 1970 the DJ David Mancuso held the first party at his Manhattan home, later called the Loft. Gay men, often harassed in bars, could dance there together without fear of the police. Alex Rosner put the crowd at about sixty percent black and seventy percent gay. Manu Dibango's \"Soul Makossa\", first released in France in 1972, was taken up by New York's underground disco scene. DJs mixed one record into the next with no break, so the dancing never stopped. Tom Moulton, wanting dance songs to last longer, made the extended mix on the 12-inch record. The films Saturday Night Fever (1977) and Thank God It's Friday (1978) took it into the mainstream. In the United States it declined after Disco Demolition Night on 12 July 1979. It stayed popular in Italy and other European countries through the 1980s. Frankie Knuckles, a disco DJ, went on to help develop house music in the 1980s.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "The discothèque came from France: Olivier Coquelin, a French expatriate, opened Le Club in Manhattan on New Year's Eve 1960.",
+    "url": "https://en.wikipedia.org/wiki/Disco?action=raw",
+    "quote": "by French expatriate [[Olivier Coquelin]], on New Year's Eve 1960"
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "In Philadelphia in the early 1970s, the producers Gamble and Huff gave soul lush strings, thumping basslines and sliding hi-hats.",
+    "url": "https://en.wikipedia.org/wiki/History_of_disco?action=raw",
+    "quote": "evolved from the simpler arrangements of the late-1960s into a style featuring lush strings, thumping basslines, and sliding hi-hat rhythms"
+   },
+   {
+    "n": 3,
+    "beat": "who",
+    "text": "On Valentine's Day 1970 the DJ David Mancuso held the first party at his Manhattan home, later called the Loft.",
+    "url": "https://en.wikipedia.org/wiki/History_of_disco?action=raw",
+    "quote": "He organized the first major party in his Manhattan home on Valentine's Day 1970"
+   },
+   {
+    "n": 4,
+    "beat": "why",
+    "text": "Gay men, often harassed in bars, could dance there together without fear of the police.",
+    "url": "https://en.wikipedia.org/wiki/History_of_disco?action=raw",
+    "quote": "they could dance together without fear of police action"
+   },
+   {
+    "n": 5,
+    "beat": "who",
+    "text": "Alex Rosner put the crowd at about sixty percent black and seventy percent gay.",
+    "url": "https://en.wikipedia.org/wiki/History_of_disco?action=raw",
+    "quote": "It was probably about sixty percent black and seventy percent gay."
+   },
+   {
+    "n": 6,
+    "beat": "who",
+    "text": "Manu Dibango's \"Soul Makossa\", first released in France in 1972, was taken up by New York's underground disco scene.",
+    "url": "https://en.wikipedia.org/wiki/History_of_disco?action=raw",
+    "quote": "it was picked up by the underground disco scene in New York"
+   },
+   {
+    "n": 7,
+    "beat": "why",
+    "text": "DJs mixed one record into the next with no break, so the dancing never stopped.",
+    "url": "https://en.wikipedia.org/wiki/Disco?action=raw",
+    "quote": "with one song transitioning to another with no break in the music to interrupt the dancing"
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "Tom Moulton, wanting dance songs to last longer, made the extended mix on the 12-inch record.",
+    "url": "https://en.wikipedia.org/wiki/History_of_disco?action=raw",
+    "quote": "who wanted to extend the enjoyment of dance songs"
+   },
+   {
+    "n": 9,
+    "beat": "after",
+    "text": "The films Saturday Night Fever (1977) and Thank God It's Friday (1978) took it into the mainstream.",
+    "url": "https://en.wikipedia.org/wiki/Disco?action=raw",
+    "quote": "Films such as ''[[Saturday Night Fever]]'' (1977) and ''[[Thank God It's Friday (film)|Thank God It's Friday]]'' (1978) contributed to disco's mainstream popularity."
+   },
+   {
+    "n": 10,
+    "beat": "after",
+    "text": "In the United States it declined after Disco Demolition Night on 12 July 1979.",
+    "url": "https://en.wikipedia.org/wiki/Disco?action=raw",
+    "quote": "Disco declined as a major trend in popular music in the United States following the infamous [[Disco Demolition Night]] on July 12, 1979"
+   },
+   {
+    "n": 11,
+    "beat": "after",
+    "text": "It stayed popular in Italy and other European countries through the 1980s.",
+    "url": "https://en.wikipedia.org/wiki/Disco?action=raw",
+    "quote": "it remained popular in [[Italo-disco|Italy]] and some European countries throughout the 1980s"
+   },
+   {
+    "n": 12,
+    "beat": "after",
+    "text": "Frankie Knuckles, a disco DJ, went on to help develop house music in the 1980s.",
+    "url": "https://en.wikipedia.org/wiki/History_of_disco?action=raw",
+    "quote": "Frankie Knuckles was not only an important disco DJ; he also helped to develop [[house music]] in the 1980s."
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "Began: record says 1974; Disco says it 'emerged in the late 1960s from the United States' urban [[nightclub|nightlife]] scene' (https://en.wikipedia.org/wiki/Disco?action=raw), and History of disco dates the Loft's first party to 1970. 1974 is roughly when the sources' list of early disco hits and the first disco radio show (WPIX-FM, 1974) fall, so it is defensible as a start of the recorded genre but earlier than the sources' start.",
+   "Origin: record says New York; Disco names 'New York City (especially [[Brooklyn]]), [[Philadelphia]], and [[Baltimore]]' and History of disco's infobox says 'Philadelphia and New York City'. The story includes Philadelphia (Gamble and Huff).",
+   "Ended: record says 1981; Disco says it declined after 12 July 1979 and 'continued to sharply decline in popularity in the U.S. during the early 1980s'. Consistent."
+  ],
+  "notes": "History_of_disco (https://en.wikipedia.org/wiki/History_of_disco?action=raw) carries a June 2026 'AI-generated' maintenance tag on its lead section; no quote was taken from that lead, only from the body sections (1960s-1974 precursors, early disco culture). Sentences 2-6 and 8 and 12 come from that article; the rest from Disco. The Dibango sentence's '1972, France' is in the same bullet as the quote on that page."
+ },
+ {
+  "genre": "reggae",
+  "story": "Reggae grew out of the ska and rocksteady of 1960s Jamaica. Many of its records were built on rocksteady rhythms, slowed enough for a doubled offbeat guitar stroke. The first reggae records came out in early 1968: \"Nanny Goat\" by Larry Marshall and \"No More Heartaches\" by the Beltones. That year the Maytals' \"Do the Reggay\" put the word in print. As record shops spread, producers such as Bunny Lee and Harry J could start out without a sound system or shop of their own. Rastafari shaped the songs: Burning Spear recalled musicians drawing on its emphasis on Africa. In 1968 the Kingston sound-system operator Ruddy Redwood went to Duke Reid's Treasure Isle studio to cut a dub plate. Engineer Byron Smith left the vocal out by accident, and Redwood kept the result. By 1973 these instrumental \"versions\", made in rival studios, had become dub. That year Lee \"Scratch\" Perry released Blackboard Jungle Dub, mixed with King Tubby. In South London, singers such as Carroll Thompson and Janet Kay led lovers rock. British reggae in turn fed drum and bass and dubstep.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "Reggae grew out of the ska and rocksteady of 1960s Jamaica.",
+    "url": "https://en.wikipedia.org/wiki/Reggae?action=raw",
+    "quote": "Reggae's direct origins are in the [[ska]] and [[rocksteady]] of 1960s Jamaica"
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "Many of its records were built on rocksteady rhythms, slowed enough for a doubled offbeat guitar stroke.",
+    "url": "https://en.wikipedia.org/wiki/Reggae?action=raw",
+    "quote": "Many rocksteady rhythms later were used as the basis of reggae recordings, whose slower tempos allowed for the \"double skank\" guitar strokes on the offbeat."
+   },
+   {
+    "n": 3,
+    "beat": "who",
+    "text": "The first reggae records came out in early 1968: \"Nanny Goat\" by Larry Marshall and \"No More Heartaches\" by the Beltones.",
+    "url": "https://en.wikipedia.org/wiki/Reggae?action=raw",
+    "quote": "Early 1968 was when the first ''bona fide'' reggae records were released: \"Nanny Goat\" by [[Larry Marshall (singer)|Larry Marshall]] and \"No More Heartaches\" by the Beltones."
+   },
+   {
+    "n": 4,
+    "beat": "who",
+    "text": "That year the Maytals' \"Do the Reggay\" put the word in print.",
+    "url": "https://en.wikipedia.org/wiki/Reggae?action=raw",
+    "quote": "as a musical term first appeared in print with the 1968 [[rocksteady]] hit"
+   },
+   {
+    "n": 5,
+    "beat": "why",
+    "text": "As record shops spread, producers such as Bunny Lee and Harry J could start out without a sound system or shop of their own.",
+    "url": "https://en.wikipedia.org/wiki/Reggae?action=raw",
+    "quote": "This shift enabled a new generation of independent producers, such as [[Bunny Lee]] and [[Harry J]], to enter the industry without operating their own sound systems or retail shops."
+   },
+   {
+    "n": 6,
+    "beat": "why",
+    "text": "Rastafari shaped the songs: Burning Spear recalled musicians drawing on its emphasis on Africa.",
+    "url": "https://en.wikipedia.org/wiki/Reggae?action=raw",
+    "quote": "musicians drew on the movement's emphasis on Africa and culture"
+   },
+   {
+    "n": 7,
+    "beat": "who",
+    "text": "In 1968 the Kingston sound-system operator Ruddy Redwood went to Duke Reid's Treasure Isle studio to cut a dub plate.",
+    "url": "https://en.wikipedia.org/wiki/Dub_music?action=raw",
+    "quote": "In 1968, Kingston, Jamaica, sound system operator [[Rudolph \"Ruddy\" Redwood]] went to [[Duke Reid]]'s [[Treasure Isle]] studio to cut a one-off [[dub plate]]"
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "Engineer Byron Smith left the vocal out by accident, and Redwood kept the result.",
+    "url": "https://en.wikipedia.org/wiki/Dub_music?action=raw",
+    "quote": "Engineer Byron Smith left the vocal track out by accident, but Redwood kept the result."
+   },
+   {
+    "n": 9,
+    "beat": "why",
+    "text": "By 1973 these instrumental \"versions\", made in rival studios, had become dub.",
+    "url": "https://en.wikipedia.org/wiki/Dub_music?action=raw",
+    "quote": "By 1973, through the efforts of several independent and competitive innovators, engineers, and producers, instrumental reggae \"versions\""
+   },
+   {
+    "n": 10,
+    "beat": "who",
+    "text": "That year Lee \"Scratch\" Perry released Blackboard Jungle Dub, mixed with King Tubby.",
+    "url": "https://en.wikipedia.org/wiki/Dub_music?action=raw",
+    "quote": "In 1973, [[Lee \"Scratch\" Perry]] released ''[[Upsetters 14 Dub Blackboard Jungle|Blackboard Jungle Dub]]'', mixed in collaboration with [[King Tubby]]"
+   },
+   {
+    "n": 11,
+    "beat": "after",
+    "text": "In South London, singers such as Carroll Thompson and Janet Kay led lovers rock.",
+    "url": "https://en.wikipedia.org/wiki/Reggae?action=raw",
+    "quote": "the South London genre was led by female singers like Thompson and [[Janet Kay]]"
+   },
+   {
+    "n": 12,
+    "beat": "after",
+    "text": "British reggae in turn fed drum and bass and dubstep.",
+    "url": "https://en.wikipedia.org/wiki/Reggae?action=raw",
+    "quote": "this fusion of Jamaican music into English culture was seminal in the formation of other musical forms like [[drum and bass]] and [[dubstep]]"
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "Record began 1968 agrees with the sources (first reggae records 1968). Record ended 1985 is not addressed by either source; neither gives an end date. (https://en.wikipedia.org/wiki/Reggae?action=raw)",
+   "Dub is credited to 1968 experiments but became a named subgenre only by 1973: 'By 1973, through the efforts of several independent and competitive innovators, engineers, and producers, instrumental reggae \"versions\"' (https://en.wikipedia.org/wiki/Dub_music?action=raw); the record's single 1968 start covers both.",
+   "The Dub_music article says the first-year date is disputed: 'Another source puts 1967 and not 1968 as the initial year of the practice of putting instrumental versions' (https://en.wikipedia.org/wiki/Dub_music?action=raw)."
+  ],
+  "notes": "The dub beat comes from the English 'Dub music' article (the reggae article has no dub history). Tree led_to hiphop, jungle, dubstep, trip hop: only dubstep and drum and bass are sourced here (Reggae article); Dub_music lists jungle, trip hop and hip-hop among genres dub 'influenced, and has in turn influenced' but that sentence is tagged original research, so it was not used. Sentence 5 opens 'As record shops spread', which comes from the sentence before its quote on the same page ('Increased retail sales of records led to the expansion of specialist record shops'). Origin Kingston is supported only in the dub beat (Redwood, 1968)."
+ },
+ {
+  "genre": "afrobeat",
+  "story": "In the late 1950s Fela Kuti left Lagos to study at the London School of Music. Back in Lagos he played a mix of highlife and jazz that did not sell. In 1969, on a trip to the United States, he met Sandra Smith, a singer and former Black Panther. She gave him the writings of Martin Luther King Jr., Angela Davis and, above all, Malcolm X. Kuti came to see that he had not been playing African music. He worked it out with drummer Tony Allen. The new music drew on highlife, fuji and jùjú. The name Afrobeat was meant partly to set it apart from the soul of James Brown. Kuti renamed his band Africa '70. It played a residency at his own club, the Afrika Shrine, from 1970 to 1975. Brian Eno and David Byrne carried its polyrhythms into Talking Heads' 1980 album Remain in Light. In the late 1990s and early 2000s Antibalas helped start an Afrobeat scene in Brooklyn. Kuti's sons Femi and Seun play it today.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "In the late 1950s Fela Kuti left Lagos to study at the London School of Music.",
+    "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+    "quote": "In the late 1950s, Kuti left [[Lagos]] to study abroad at the London School of Music"
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "Back in Lagos he played a mix of highlife and jazz that did not sell.",
+    "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+    "quote": "Kuti returned to Lagos and played a highlife-jazz hybrid, albeit, without commercial success."
+   },
+   {
+    "n": 3,
+    "beat": "who",
+    "text": "In 1969, on a trip to the United States, he met Sandra Smith, a singer and former Black Panther.",
+    "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+    "quote": "In 1969, Kuti and his band went on a trip to the U.S. and met a woman by the name of Sandra Smith, a singer and former [[Black Panther Party|Black Panther]]"
+   },
+   {
+    "n": 4,
+    "beat": "why",
+    "text": "She gave him the writings of Martin Luther King Jr., Angela Davis and, above all, Malcolm X.",
+    "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+    "quote": "introduced Kuti to many writings of activists such as [[Martin Luther King Jr.]], [[Angela Davis]], [[Jesse Jackson]], and his biggest influence of all, [[Malcolm X]]"
+   },
+   {
+    "n": 5,
+    "beat": "why",
+    "text": "Kuti came to see that he had not been playing African music.",
+    "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+    "quote": "That was when Kuti realized that he was not playing African music."
+   },
+   {
+    "n": 6,
+    "beat": "who",
+    "text": "He worked it out with drummer Tony Allen.",
+    "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+    "quote": "who, with drummer [[Tony Allen (musician)|Tony Allen]], experimented with different contemporary music of that time"
+   },
+   {
+    "n": 7,
+    "beat": "why",
+    "text": "The new music drew on highlife, fuji and jùjú.",
+    "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+    "quote": "Afrobeat was influenced by a combination of different genres, such as [[highlife]], [[Fuji music|fuji]], and [[Jùjú music|jùjú]]"
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "The name Afrobeat was meant partly to set it apart from the soul of James Brown.",
+    "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+    "quote": "The name was partially born out of an attempt to distinguish Fela Kuti's music from the [[soul music]] of American artists such as [[James Brown]]."
+   },
+   {
+    "n": 9,
+    "beat": "who",
+    "text": "Kuti renamed his band Africa '70.",
+    "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+    "quote": "Kuti had also changed the name of his group to \"[[Africa '70 (band)|Africa '70]]\""
+   },
+   {
+    "n": 10,
+    "beat": "who",
+    "text": "It played a residency at his own club, the Afrika Shrine, from 1970 to 1975.",
+    "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+    "quote": "The band maintained a five-year residency at the Afrika Shrine from 1970 to 1975"
+   },
+   {
+    "n": 11,
+    "beat": "after",
+    "text": "Brian Eno and David Byrne carried its polyrhythms into Talking Heads' 1980 album Remain in Light.",
+    "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+    "quote": "Both worked on [[Talking Heads]]' highly acclaimed 1980 album ''[[Remain in Light]]'', which brought polyrhythmic Afrobeat influences to Western music."
+   },
+   {
+    "n": 12,
+    "beat": "after",
+    "text": "In the late 1990s and early 2000s Antibalas helped start an Afrobeat scene in Brooklyn.",
+    "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+    "quote": "In the late 1990s and early 2000s, a small Afrobeat scene began in [[Brooklyn]], New York, with projects including [[Antibalas]]"
+   },
+   {
+    "n": 13,
+    "beat": "after",
+    "text": "Kuti's sons Femi and Seun play it today.",
+    "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+    "quote": "Some examples of these artists are his sons [[Femi Kuti]] and [[Seun Kuti]]"
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "Record began 1970; the article dates it earlier: 'Afrobeat evolved in [[Nigeria]] in the late 1960s by [[Fela Kuti]]' and infobox 'cultural_origins  = 1960s'. 1970 matches the Africa '70 / Afrika Shrine residency start. (https://en.wikipedia.org/wiki/Afrobeat?action=raw)",
+   "Record origin Lagos: the article does not say the Afrika Shrine was in Lagos, only that Kuti returned to Lagos earlier; the story says 'his own club' without a city. (https://en.wikipedia.org/wiki/Afrobeat?action=raw)",
+   "Record came_from lists highlife, funk, modjazz; the article also names fuji, jùjú and Yoruba music as sources ('Afrobeat was influenced by a combination of different genres, such as [[highlife]], [[Fuji music|fuji]], and [[Jùjú music|jùjú]]'). (https://en.wikipedia.org/wiki/Afrobeat?action=raw)"
+  ],
+  "notes": "Tree led_to nigerianreggae is not mentioned in the article and was not sourced. The article says the name was coined partly against James Brown; an external link says this happened in Accra (Ghana), not sourced here. Everything comes from one article; a second source (e.g. the Fela Kuti or Tony Allen articles) could add Tony Allen's drumming detail."
+ },
+ {
+  "genre": "salsa",
+  "story": "Salsa was built on the son montuno of the Cuban bandleaders Arsenio Rodríguez, Conjunto Chappottín and Roberto Faz. In the 1950s New York danced to mambo played by Machito, Tito Puente and Mongo Santamaría. Its centre, the Palladium Ballroom, closed in 1966 after losing its liquor licence. In the late 1960s the Dominican musician Johnny Pacheco and businessman Jerry Masucci founded Fania Records. Fania brought out Willie Colón, Celia Cruz, Larry Harlow, Ray Barretto, Héctor Lavoe and Ismael Miranda. In 1968 Pacheco formed the Fania All-Stars with Louie Ramírez, Bobby Valentín and Larry Harlow. In 1970s New York the word salsa was first used to sell several styles of Latin dance music. Fania marketed it as one Puerto Rican and pan-Latin sound for people from all of Latin America. In 1971 the Fania All-Stars sold out Yankee Stadium. In the 1980s Colombia, Venezuela, Peru, Mexico and Panama made their own salsa. Its stars included Oscar D'León from Venezuela and Joe Arroyo from Colombia. In Cuba, some say a D'León performance set off the work that became timba.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "Salsa was built on the son montuno of the Cuban bandleaders Arsenio Rodríguez, Conjunto Chappottín and Roberto Faz.",
+    "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+    "quote": "The music style was based on the late [[son montuno]] of [[Arsenio Rodríguez]], [[Conjunto Chappottín]] and [[Roberto Faz]]."
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "In the 1950s New York danced to mambo played by Machito, Tito Puente and Mongo Santamaría.",
+    "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+    "quote": "During the 1950s, New York became a hotspot of Mambo with musicians like the aforementioned Pérez Prado, [[Chano Pozo|Luciano \"Chano\" Pozo]], Mongo Santamaría, Machito and Tito Puente."
+   },
+   {
+    "n": 3,
+    "beat": "before",
+    "text": "Its centre, the Palladium Ballroom, closed in 1966 after losing its liquor licence.",
+    "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+    "quote": "In 1966, the Palladium closed because it lost its liquor license."
+   },
+   {
+    "n": 4,
+    "beat": "who",
+    "text": "In the late 1960s the Dominican musician Johnny Pacheco and businessman Jerry Masucci founded Fania Records.",
+    "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+    "quote": "During the late 1960s, the Dominican musician Johnny Pacheco and Italian-American businessman [[Jerry Masucci]] founded the recording company [[Fania Records]]"
+   },
+   {
+    "n": 5,
+    "beat": "who",
+    "text": "Fania brought out Willie Colón, Celia Cruz, Larry Harlow, Ray Barretto, Héctor Lavoe and Ismael Miranda.",
+    "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+    "quote": "including Willie Colón, Celia Cruz, [[Larry Harlow (musician)|Larry Harlow]], [[Ray Barretto]], Héctor Lavoe and [[Ismael Miranda]]"
+   },
+   {
+    "n": 6,
+    "beat": "who",
+    "text": "In 1968 Pacheco formed the Fania All-Stars with Louie Ramírez, Bobby Valentín and Larry Harlow.",
+    "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+    "quote": "Pacheco put together a team that included percussionist [[Louie Ramirez|Louie Ramírez]], bassist [[Bobby Valentín]] and arranger [[Larry Harlow (salsa)|Larry Harlow]] to form the [[Fania All-Stars]] in 1968"
+   },
+   {
+    "n": 7,
+    "beat": "why",
+    "text": "In 1970s New York the word salsa was first used to sell several styles of Latin dance music.",
+    "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+    "quote": "New York saw in the 1970s the first use of the term salsa to commercialize several styles of Latin dance music"
+   },
+   {
+    "n": 8,
+    "beat": "why",
+    "text": "Fania marketed it as one Puerto Rican and pan-Latin sound for people from all of Latin America.",
+    "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+    "quote": "presenting an all-embracing Puerto Rican, Pan-American or Latino sound with which the people from all of Latin America"
+   },
+   {
+    "n": 9,
+    "beat": "who",
+    "text": "In 1971 the Fania All-Stars sold out Yankee Stadium.",
+    "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+    "quote": "In 1971, the Fania All-Stars sold out [[Yankee Stadium (1923)|Yankee Stadium]]."
+   },
+   {
+    "n": 10,
+    "beat": "after",
+    "text": "In the 1980s Colombia, Venezuela, Peru, Mexico and Panama made their own salsa.",
+    "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+    "quote": "several Latin American countries, such as Colombia, Venezuela, Peru, Mexico and Panama, began producing their own salsa music"
+   },
+   {
+    "n": 11,
+    "beat": "after",
+    "text": "Its stars included Oscar D'León from Venezuela and Joe Arroyo from Colombia.",
+    "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+    "quote": "Two of the biggest stars from this period are [[Oscar D'León]] from Venezuela and [[Joe Arroyo]] from Colombia."
+   },
+   {
+    "n": 12,
+    "beat": "after",
+    "text": "In Cuba, some say a D'León performance set off the work that became timba.",
+    "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+    "quote": "Some people say that D'León's performance gave momentum to a \"salsa craze\" that brought back some of the older templates and motivated the development of [[timba]]."
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "Record origin New York (Spanish Harlem): the article never mentions Spanish Harlem; it names the Palladium and later the Cheetah in Manhattan ('By the early 1970s, the music's center moved to Manhattan and the [[Cheetah (nightclub)|Cheetah]]'). (https://en.wikipedia.org/wiki/Salsa_music?action=raw)",
+   "Record began 1965; the article puts the first self-identified salsa band in Cuba in 1955: 'The first self-identified salsa band is Cheo Marquetti y su Conjunto - Los Salseros which was formed in 1955 in Cuba.' and says the term was first used commercially in New York in the 1970s. (https://en.wikipedia.org/wiki/Salsa_music?action=raw)",
+   "Fania's founding is dated 'During the late 1960s' but the same article says 'Fania's first record album was \"Cañonazo\", recorded and released in 1964.' The article contradicts itself; the story uses neither 1964 nor a founding year. (https://en.wikipedia.org/wiki/Salsa_music?action=raw)",
+   "Record came_from mambo (principal) and son (other): the article treats son montuno as the primary basis ('Most songs considered as salsa are primarily based on [[son montuno]] and [[son cubano]]'), so son may deserve 'principal'. (https://en.wikipedia.org/wiki/Salsa_music?action=raw)"
+  ],
+  "notes": "Tree led_to timba is sourced (D'León's performance). Colombian and Venezuelan salsa are sourced via the 1980s sentence. Boogaloo (1966-68, between mambo and salsa) is in the article but left out for length."
+ },
+ {
+  "genre": "metal",
+  "story": "British bands such as the Rolling Stones and the Yardbirds made blues rock by covering blues songs at faster tempos. Cream's first two albums, Fresh Cream (1966) and Disraeli Gears (1967), are counted as models for the style. In 1970 Black Sabbath released Black Sabbath, generally taken as the first heavy metal album. The band's guitarist in Birmingham, Tony Iommi, had lost the ends of two fingers in a work accident. He tuned his guitar down and leaned on power chords, which were easier to finger. The factories and metalworking of Birmingham have also been credited with the band's sound. By 1969 singer Ian Gillan and guitarist Ritchie Blackmore had taken Deep Purple the same way. Judas Priest followed with twin guitars, fast tempos and a sound without the blues. The Sounds writer Geoff Barton named the next wave the New Wave of British Heavy Metal. Its bands, among them Iron Maiden, Saxon and Def Leppard, cut back the blues further and played faster. In the early 1980s bands in the United States built thrash metal from it and hardcore punk.",
+  "sentences": [
+   {
+    "n": 1,
+    "beat": "before",
+    "text": "British bands such as the Rolling Stones and the Yardbirds made blues rock by covering blues songs at faster tempos.",
+    "url": "https://en.wikipedia.org/wiki/Heavy_metal_music?action=raw",
+    "quote": "Bands like [[the Rolling Stones]] and [[the Yardbirds]] developed [[blues rock]] by recording covers of classic blues songs, often speeding up the [[tempo]]s."
+   },
+   {
+    "n": 2,
+    "beat": "before",
+    "text": "Cream's first two albums, Fresh Cream (1966) and Disraeli Gears (1967), are counted as models for the style.",
+    "url": "https://en.wikipedia.org/wiki/Heavy_metal_music?action=raw",
+    "quote": "Their first two LPs – ''[[Fresh Cream]]'' (1966) and ''[[Disraeli Gears]]'' (1967) – are regarded as essential prototypes for the future style of heavy metal."
+   },
+   {
+    "n": 3,
+    "beat": "who",
+    "text": "In 1970 Black Sabbath released Black Sabbath, generally taken as the first heavy metal album.",
+    "url": "https://en.wikipedia.org/wiki/Heavy_metal_music?action=raw",
+    "quote": "The 1970 releases by Black Sabbath (''[[Black Sabbath (album)|Black Sabbath]]'', which is generally accepted as the first heavy metal album"
+   },
+   {
+    "n": 4,
+    "beat": "why",
+    "text": "The band's guitarist in Birmingham, Tony Iommi, had lost the ends of two fingers in a work accident.",
+    "url": "https://en.wikipedia.org/wiki/Heavy_metal_music?action=raw",
+    "quote": "Birmingham's Black Sabbath had developed a particularly heavy sound in part due to a work accident in which guitarist [[Tony Iommi]] lost the ends of two fingers."
+   },
+   {
+    "n": 5,
+    "beat": "why",
+    "text": "He tuned his guitar down and leaned on power chords, which were easier to finger.",
+    "url": "https://en.wikipedia.org/wiki/Heavy_metal_music?action=raw",
+    "quote": "Iommi had to tune his guitar down for easier fretting and rely on power chords with their relatively simple fingering."
+   },
+   {
+    "n": 6,
+    "beat": "why",
+    "text": "The factories and metalworking of Birmingham have also been credited with the band's sound.",
+    "url": "https://en.wikipedia.org/wiki/Heavy_metal_music?action=raw",
+    "quote": "a manufacturing city full of noisy factories and metalworking, has itself been credited with influencing Black Sabbath's heavy"
+   },
+   {
+    "n": 7,
+    "beat": "who",
+    "text": "By 1969 singer Ian Gillan and guitarist Ritchie Blackmore had taken Deep Purple the same way.",
+    "url": "https://en.wikipedia.org/wiki/Heavy_metal_music?action=raw",
+    "quote": "by 1969, vocalist [[Ian Gillan]] and guitarist [[Ritchie Blackmore]] had led the band toward the developing heavy metal style"
+   },
+   {
+    "n": 8,
+    "beat": "who",
+    "text": "Judas Priest followed with twin guitars, fast tempos and a sound without the blues.",
+    "url": "https://en.wikipedia.org/wiki/Heavy_metal_music?action=raw",
+    "quote": "its twin-guitar attack, featuring rapid tempos and a non-bluesy, more cleanly metallic sound, was a major influence on later acts"
+   },
+   {
+    "n": 9,
+    "beat": "after",
+    "text": "The Sounds writer Geoff Barton named the next wave the New Wave of British Heavy Metal.",
+    "url": "https://en.wikipedia.org/wiki/Heavy_metal_music?action=raw",
+    "quote": "with ''Sounds'' writer Geoff Barton christening the movement the \"New Wave of British Heavy Metal\""
+   },
+   {
+    "n": 10,
+    "beat": "after",
+    "text": "Its bands, among them Iron Maiden, Saxon and Def Leppard, cut back the blues further and played faster.",
+    "url": "https://en.wikipedia.org/wiki/Heavy_metal_music?action=raw",
+    "quote": "they toughened up the sound, reduced its blues elements and emphasized increasingly fast tempos."
+   },
+   {
+    "n": 11,
+    "beat": "after",
+    "text": "In the early 1980s bands in the United States built thrash metal from it and hardcore punk.",
+    "url": "https://en.wikipedia.org/wiki/Heavy_metal_music?action=raw",
+    "quote": "Thrash metal emerged in the early 1980s under the influence of [[hardcore punk]] and the New Wave of British Heavy Metal"
+   }
+  ],
+  "beats_present": [
+   "before",
+   "who",
+   "why",
+   "after"
+  ],
+  "beats_missing": {},
+  "disagreements": [
+   "Record origin Birmingham, UK: the article says critics disagree on the first band: 'Most credit the British bands [[Led Zeppelin]] and [[Black Sabbath]], with American commentators tending to favour Led Zeppelin'. (https://en.wikipedia.org/wiki/Heavy_metal_music?action=raw)",
+   "Record began 1970; the article says 'In 1968, the sound that would become known as heavy metal began to coalesce.' and names Blue Cheer's January 1968 'Summertime Blues' as considered by many the first true heavy metal recording. 1970 matches the first Black Sabbath album. (https://en.wikipedia.org/wiki/Heavy_metal_music?action=raw)",
+   "Record ended 1990 is not supported or contradicted; the article continues the genre's history through the 2020s. (https://en.wikipedia.org/wiki/Heavy_metal_music?action=raw)"
+  ],
+  "notes": "Tree came_from psych (principal) and chicagoblues (other): the article stresses British blues rock, psychedelic and acid rock, and 1950s Memphis blues guitarists; Chicago blues is not named. Thrash (led_to principal) and NWOBHM are sourced; glam metal, black metal and the regional scenes on the tree are not covered in this story. Sentence on Judas Priest's twin guitars supports the record's 'Twin lead guitar solos' marker."
+ }
+]

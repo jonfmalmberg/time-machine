@@ -1,0 +1,32 @@
+{
+ "id": "amapiano",
+ "name": "Amapiano",
+ "region": "afr",
+ "family": "dance",
+ "tradition": "sahouse",
+ "began": 2012,
+ "ended": null,
+ "origin": {
+  "text": "Pretoria",
+  "lat": -25.75,
+  "lon": 28.19,
+  "country": "ZA"
+ },
+ "definition": {
+  "window": "2012 onward",
+  "sound": "South African house slowed to about 110 BPM, with jazzy piano, deep log-drum bass and laid-back vocals.",
+  "markers": [
+   "Log-drum bass, a percussive deep bassline",
+   "Jazzy piano chords and soft pads",
+   "Shakers and slow tempo with sparse vocals"
+  ]
+ },
+ "judgements": {
+  "significance": 3,
+  "ease": 4,
+  "fame": 4,
+  "intrigue": 3
+ },
+ "tier": 2,
+ "row": 0
+}

@@ -1,0 +1,50 @@
+{
+ "id": "disco",
+ "name": "Disco",
+ "region": "nam",
+ "family": "dance",
+ "tradition": "discot",
+ "began": 1974,
+ "ended": 1981,
+ "origin": {
+  "text": "New York",
+  "lat": 40.74,
+  "lon": -73.99,
+  "country": "US"
+ },
+ "definition": {
+  "window": "1974–1981",
+  "sound": "Dance music with a steady four-on-the-floor kick, open hi-hats, strings and soul vocals, built for club DJs.",
+  "markers": [
+   "Four-on-the-floor bass drum, offbeat hi-hat",
+   "Lush string and horn arrangements",
+   "Octave-jumping bass lines, long extended mixes"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 5,
+  "fame": 5,
+  "intrigue": 1
+ },
+ "tier": 1,
+ "row": 0,
+ "_tree_led_to": [
+  "bhangra (other)",
+  "synthpop (other)",
+  "italodisco (principal)",
+  "house (principal)",
+  "frenchhouse (other)",
+  "dancepop (principal)",
+  "deephouse (other)",
+  "pakistanipop (other)",
+  "indianpop (other)",
+  "bubblegum (other)",
+  "burgerhighlife (other)",
+  "shangaanelectrotso (other)"
+ ],
+ "_tree_came_from": [
+  "funk (principal)",
+  "soul (other)"
+ ]
+}

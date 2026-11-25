@@ -1,0 +1,32 @@
+{
+ "id": "jpop",
+ "name": "J-pop",
+ "region": "easia",
+ "family": "pop",
+ "tradition": "japanpop",
+ "began": 1990,
+ "ended": null,
+ "origin": {
+  "text": "Tokyo",
+  "lat": 35.69,
+  "lon": 139.69,
+  "country": "JP"
+ },
+ "definition": {
+  "window": "1990 onward",
+  "sound": "Japanese mainstream pop since 1990: bright, fast, densely produced songs with big choruses, from rock bands to R&B and idols.",
+  "markers": [
+   "Japanese lyrics with English hooks",
+   "Dense, polished production, many key changes",
+   "Tie-ins with anime, TV and ads"
+  ]
+ },
+ "judgements": {
+  "significance": 4,
+  "ease": 5,
+  "fame": 4,
+  "intrigue": 2
+ },
+ "tier": 2,
+ "row": 10
+}

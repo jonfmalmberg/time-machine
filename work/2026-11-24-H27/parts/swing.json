@@ -1,0 +1,110 @@
+{
+ "genre": "swing",
+ "story": "From 1923 Don Redman's arrangements for the Fletcher Henderson Orchestra set brass and reeds answering each other. In his solos Louis Armstrong accented the second and fourth beats and ran into the main beats with lead-in notes. In the southwest, Black territory bands built dance tunes on riffs played in call and response. In Kansas City, Bennie Moten renamed his signature tune from \"Moten Stomp\" to \"Moten Swing\". In 1931 Chick Webb's orchestra began a long stay at the Savoy Ballroom. The Great Depression put Henderson's band out of business in 1934. Henderson then sold arrangements to the bandleader Benny Goodman. At the Palomar Ballroom from 21 August 1935, young white dancers took to Goodman's band. Other dance bands copied him, opening a swing era that lasted until 1946. Dancers answered with the Lindy Hop, which had started in the late 1920s. In 1937 Count Basie's orchestra brought the Kansas City riff style to the Savoy. Small bands led by Louis Jordan and Lucky Millinder played a jump swing that led to rhythm and blues. In 1940 Charlie Parker, Dizzy Gillespie and others whom swing had brought to New York began to work out bebop.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "From 1923 Don Redman's arrangements for the Fletcher Henderson Orchestra set brass and reeds answering each other.",
+   "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+   "quote": "Starting in 1923, the [[Fletcher Henderson Orchestra]] featured innovative arrangements by [[Don Redman]] that featured [[Call and response (music)|call-response]] interplay between [[Brass instrument|brass]] and [[Reed instrument|reed]] sections"
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "In his solos Louis Armstrong accented the second and fourth beats and ran into the main beats with lead-in notes.",
+   "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+   "quote": "accenting the second and fourth [[Beat (music)|beats]] and anticipating the main beats with lead-in notes in his solos"
+  },
+  {
+   "n": 3,
+   "beat": "who",
+   "text": "In the southwest, Black territory bands built dance tunes on riffs played in call and response.",
+   "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+   "quote": "using [[riff]]s in a call-response pattern to build a strong, danceable rhythm"
+  },
+  {
+   "n": 4,
+   "beat": "who",
+   "text": "In Kansas City, Bennie Moten renamed his signature tune from \"Moten Stomp\" to \"Moten Swing\".",
+   "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+   "quote": "the change in the name of Moten's signature tune, from \"Moten Stomp\" to \"[[Moten Swing]]\""
+  },
+  {
+   "n": 5,
+   "beat": "who",
+   "text": "In 1931 Chick Webb's orchestra began a long stay at the Savoy Ballroom.",
+   "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+   "quote": "started its extended stay at the [[Savoy Ballroom]] in 1931"
+  },
+  {
+   "n": 6,
+   "beat": "why",
+   "text": "The Great Depression put Henderson's band out of business in 1934.",
+   "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+   "quote": "drove some bands out of business, including the Fletcher Henderson Orchestra and [[McKinney's Cotton Pickers]] in 1934"
+  },
+  {
+   "n": 7,
+   "beat": "why",
+   "text": "Henderson then sold arrangements to the bandleader Benny Goodman.",
+   "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+   "quote": "Henderson's next business was selling arrangements to up-and-coming bandleader [[Benny Goodman]]."
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "At the Palomar Ballroom from 21 August 1935, young white dancers took to Goodman's band.",
+   "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+   "quote": "At the Palomar engagement starting on August 21, 1935, audiences of young white dancers favored Goodman's rhythm and daring arrangements."
+  },
+  {
+   "n": 9,
+   "beat": "why",
+   "text": "Other dance bands copied him, opening a swing era that lasted until 1946.",
+   "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+   "quote": "launched the \"[[swing era]]\" that lasted until 1946"
+  },
+  {
+   "n": 10,
+   "beat": "why",
+   "text": "Dancers answered with the Lindy Hop, which had started in the late 1920s.",
+   "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+   "quote": "Swing dancing originated in the late 1920s as the \"[[Lindy Hop]]\""
+  },
+  {
+   "n": 11,
+   "beat": "why",
+   "text": "In 1937 Count Basie's orchestra brought the Kansas City riff style to the Savoy.",
+   "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+   "quote": "With its Savoy engagement in 1937, the [[Count Basie Orchestra]] brought the riff-and-solo oriented Kansas City style of swing to national attention."
+  },
+  {
+   "n": 12,
+   "beat": "after",
+   "text": "Small bands led by Louis Jordan and Lucky Millinder played a jump swing that led to rhythm and blues.",
+   "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+   "quote": "smaller bands led by [[Louis Jordan]], [[Lucky Millinder]], [[Louis Prima]] and [[Tony Pastor (bandleader)|Tony Pastor]] were showcasing an exuberant \"jump swing\" style that would lead to the post-war rise of [[rhythm and blues]]"
+  },
+  {
+   "n": 13,
+   "beat": "after",
+   "text": "In 1940 Charlie Parker, Dizzy Gillespie and others whom swing had brought to New York began to work out bebop.",
+   "url": "https://en.wikipedia.org/wiki/Swing_music?action=raw",
+   "quote": "1940 saw top-flight musicians such as [[Charlie Parker]], [[Dizzy Gillespie]], [[Don Byas]], [[Charlie Christian]] and [[Gene Ramey]], whose careers in swing had brought them to New York, beginning to coalesce and develop the ideas that would become bebop"
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "Began: the record says 1930; the article dates the swing era from Goodman's 1935 Palomar engagement (\"which launched the \\\"[[swing era]]\\\" that lasted until 1946\", https://en.wikipedia.org/wiki/Swing_music?action=raw) and its roots to the 1920s. 1930 matches the article's 'Early swing' section (\"As the 1920s turned to the 1930s\"). Ended 1946 matches.",
+  "Origin: the record says Harlem and Kansas City; the article supports New York (Roseland, Savoy, Cotton Club) and Kansas City, plus Chicago (Earl Hines at the Grand Terrace from 1928) and the southwest territory bands. Harlem itself is not named in the raw text I read.",
+  "Tree: the article also names gypsy swing (Django Reinhardt), western swing and jump blues as offshoots (\"Belgian guitarist [[Django Reinhardt]] helped develop the [[gypsy swing]] subgenere\", https://en.wikipedia.org/wiki/Swing_music?action=raw); these agree with the record's gypsyjazz and rnb neighbours. No disagreement found."
+ ],
+ "notes": "All sentences from 'Swing music'. Sentence 3 places the territory bands 'in the southwest' from the article's preceding words, which the quote does not include. 'Harlem' (record origin) is not used in the story because I did not find it in the article text."
+}

@@ -1,0 +1,103 @@
+{
+ "genre": "ska",
+ "story": "After the Second World War, Jamaicans bought radios and could hear rhythm and blues from the American South. Ska joined that sound to Jamaican mento and American jazz. To meet the demand, Prince Buster, Coxsone Dodd and Duke Reid set up sound systems. In the second half of 1959 Dodd and Reid began issuing their own recordings of local artists on disc. The first ska records were made at Federal Records, Studio One and WIRL in Kingston. Its rise coincided with Jamaica's independence from Britain in 1962. The producers had turned to recording local artists because new American jump blues and R&B tunes ran short in the late 1950s. Within two or three years the copied American shuffle had become ska, with the guitar chopping on the offbeat. One account credits Prince Buster, who flipped the R&B shuffle beat to stress the offbeats on guitar. Millie Small's \"My Boy Lollypop\" of 1964 was Jamaica's first international hit. In 1965 and 1966, as American soul grew slower and smoother, ska slowed with it into rocksteady. In the late 1970s, bands around Coventry joined ska rhythms to punk guitar in the 2 Tone style.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "After the Second World War, Jamaicans bought radios and could hear rhythm and blues from the American South.",
+   "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+   "quote": "[[Jamaicans]] purchased radios in increasing numbers and were able to hear [[rhythm and blues]] music from the [[Southern United States]]"
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "Ska joined that sound to Jamaican mento and American jazz.",
+   "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+   "quote": "It combined elements of [[Caribbean]] [[mento]] (sometimes referred to as [[Calypso music|calypso]]) with [[United States|American]] [[jazz]] and [[rhythm and blues]]."
+  },
+  {
+   "n": 3,
+   "beat": "who",
+   "text": "To meet the demand, Prince Buster, Coxsone Dodd and Duke Reid set up sound systems.",
+   "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+   "quote": "To meet the demand for that music, entrepreneurs such as [[Prince Buster]], [[Coxsone Dodd]], and [[Duke Reid]] formed [[Reggae sound system|sound systems]]."
+  },
+  {
+   "n": 4,
+   "beat": "who",
+   "text": "In the second half of 1959 Dodd and Reid began issuing their own recordings of local artists on disc.",
+   "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+   "quote": "sometime in the second half of 1959 (believed by most to be in the last quarter) producers such as Coxsone Dodd and Duke Reid began to issue these recordings"
+  },
+  {
+   "n": 5,
+   "beat": "who",
+   "text": "The first ska records were made at Federal Records, Studio One and WIRL in Kingston.",
+   "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+   "quote": "The first ska recordings were created at facilities such as [[Ken Khouri|Federal Records]], [[Studio One (record label)|Studio One]], and WIRL Records in [[Kingston, Jamaica]]"
+  },
+  {
+   "n": 6,
+   "beat": "who",
+   "text": "Its rise coincided with Jamaica's independence from Britain in 1962.",
+   "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+   "quote": "The ska sound coincided with the celebratory feelings surrounding Jamaica's independence from the UK in 1962"
+  },
+  {
+   "n": 7,
+   "beat": "why",
+   "text": "The producers had turned to recording local artists because new American jump blues and R&B tunes ran short in the late 1950s.",
+   "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+   "quote": "As the supply of previously unheard tunes in the [[jump blues]] and more traditional R&B genres began to dry up in the late 1950s, Jamaican producers began recording their own version of the genres with local artists."
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "Within two or three years the copied American shuffle had become ska, with the guitar chopping on the offbeat.",
+   "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+   "quote": "within two or three years it had morphed into the more familiar ska style with the off-beat guitar chop"
+  },
+  {
+   "n": 9,
+   "beat": "why",
+   "text": "One account credits Prince Buster, who flipped the R&B shuffle beat to stress the offbeats on guitar.",
+   "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+   "quote": "To create the ska beat, Prince Buster essentially flipped the R&B shuffle beat, stressing the offbeats with the help of the guitar."
+  },
+  {
+   "n": 10,
+   "beat": "after",
+   "text": "Millie Small's \"My Boy Lollypop\" of 1964 was Jamaica's first international hit.",
+   "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+   "quote": "Small's rhythmically similar version, released in 1964, was Jamaica's first commercially successful international hit."
+  },
+  {
+   "n": 11,
+   "beat": "after",
+   "text": "In 1965 and 1966, as American soul grew slower and smoother, ska slowed with it into rocksteady.",
+   "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+   "quote": "In 1965 and 1966, when American soul music became slower and smoother, ska changed its sound accordingly and evolved into [[rocksteady]]."
+  },
+  {
+   "n": 12,
+   "beat": "after",
+   "text": "In the late 1970s, bands around Coventry joined ska rhythms to punk guitar in the 2 Tone style.",
+   "url": "https://en.wikipedia.org/wiki/Ska?action=raw",
+   "quote": "The [[Two-tone (music genre)|2 tone]] genre, which began in the late 1970s in the [[Coventry]] area of UK, was a fusion of Jamaican ska rhythms and melodies with [[punk rock]]'s more aggressive guitar chords"
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "Record began 1959 agrees with the first 45 rpm issues 'sometime in the second half of 1959' (https://en.wikipedia.org/wiki/Ska?action=raw); the article's own lead is inconsistent, saying both 'originated in [[Jamaica]] in the late 1950s' and 'It was developed in Jamaica in the 1960s'.",
+  "Record ended 1966 agrees with 'In 1965 and 1966, when American soul music became slower and smoother, ska changed its sound accordingly and evolved into [[rocksteady]].' (Ska).",
+  "Origin of the beat is disputed in the source: Prince Buster's flip is given as 'One theory about the origin of ska'; the story says 'One account credits'."
+ ],
+ "notes": "All sentences from the English genre article. The article names Stranger Cole alongside Dodd, Reid and Prince Buster as founders of sound systems in the lead, but in the history section only the three; the story follows the history section."
+}

@@ -1,0 +1,149 @@
+{
+ "genre": "jpop",
+ "story": "Until the late 1980s, Japanese popular song was sold as kayōkyoku, a name in use since the 1920s. When the singer Hibari Misora died in 1989, many kayōkyoku television shows, among them The Best Ten, were closed. The new name came from J-Wave, a radio station in Roppongi that opened on 1 October 1988 and at first played no Japanese music. Around the turn of 1989 its managing director Hideo Saitō and record-company staff planned to play Japanese records there and chose a \"J\" to label them. At first the word covered Western-style acts such as Pizzicato Five and Flipper's Guitar. From about 1990 to 1993 the charts were led by acts from the Being agency, among them B'z and Tube, whose songs were sold through tie-ins. From 1994 to 1997 the producer Tetsuya Komuro led dance and techno acts such as TRF and Namie Amuro, with 20 songs that each sold over a million copies. Japan's physical music sales peaked in 1998, and Hikaru Utada's first Japanese album, First Love, released in March 1999, became the best-selling album in Oricon history. In December 2002 the phone company au opened a market for ringtone song downloads.",
+ "words": 196,
+ "sentences": [
+  {
+   "text": "Until the late 1980s, Japanese popular song was sold as kayōkyoku, a name in use since the 1920s.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+     "quote": "a term for Japanese popular music from the 1920s to the 1980s in the Japanese music scene"
+    }
+   ]
+  },
+  {
+   "text": "When the singer Hibari Misora died in 1989, many kayōkyoku television shows, among them The Best Ten, were closed.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+     "quote": "Popular singer [[Hibari Misora]] died in 1989, and many ''kayōkyoku'' programs, such as ''The Best Ten'', were closed."
+    }
+   ]
+  },
+  {
+   "text": "The new name came from J-Wave, a radio station in Roppongi that opened on 1 October 1988 and at first played no Japanese music.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://ja.wikipedia.org/wiki/J-POP?action=raw",
+     "quote": "1988年10月1日に開局した[[J-WAVE]]が、「J-POP」の発祥となった"
+    },
+    {
+     "url": "https://ja.wikipedia.org/wiki/J-POP?action=raw",
+     "quote": "スタイリッシュ」な街・六本木に存在しており、当初は邦楽を放送していなかった"
+    }
+   ]
+  },
+  {
+   "text": "Around the turn of 1989 its managing director Hideo Saitō and record-company staff planned to play Japanese records there and chose a \"J\" to label them.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://ja.wikipedia.org/wiki/J-POP?action=raw",
+     "quote": "同社常務・[[斎藤日出夫]]が[[レコード会社]]の邦楽担当者らとともに、J-WAVEで邦楽を流そうという企画を発足させる"
+    },
+    {
+     "url": "https://ja.wikipedia.org/wiki/J-POP?action=raw",
+     "quote": "頭文字はJとなり、そしてここは、J-WAVEだ」という意見が出され、Jの文字を用いることとされた"
+    },
+    {
+     "url": "https://ja.wikipedia.org/wiki/J-POP?action=raw",
+     "quote": "1988年末あるいは1989年初頭ごろの出来事である"
+    }
+   ]
+  },
+  {
+   "text": "At first the word covered Western-style acts such as Pizzicato Five and Flipper's Guitar.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+     "quote": "the term ''J-pop'' was used only for Western-style musicians in Japan, such as [[Pizzicato Five]] and  [[Flipper's Guitar]]"
+    }
+   ]
+  },
+  {
+   "text": "From about 1990 to 1993 the charts were led by acts from the Being agency, among them B'z and Tube, whose songs were sold through tie-ins.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+     "quote": "The period between around 1990 and 1993 was dominated by artists from [[being Inc.|the Being agency]], including [[B'z]], [[Tube (band)|Tube]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+     "quote": "Notable examples of commercial music from the era were the [[tie-in]] music from the agency [[Being (company)|Being]]"
+    }
+   ]
+  },
+  {
+   "text": "From 1994 to 1997 the producer Tetsuya Komuro led dance and techno acts such as TRF and Namie Amuro, with 20 songs that each sold over a million copies.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+     "quote": "The period between 1994 and 1997 was dominated by dance and techno acts from the"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+     "quote": "such as [[TRF (band)|TRF]], [[Ryoko Shinohara]], [[Yuki Uchida]], [[Namie Amuro]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+     "quote": "Komuro was responsible for 20 hit songs, each selling more than a million copies"
+    }
+   ]
+  },
+  {
+   "text": "Japan's physical music sales peaked in 1998, and Hikaru Utada's first Japanese album, First Love, released in March 1999, became the best-selling album in Oricon history.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+     "quote": "The Japanese market for physical music sales peaked in 1998"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+     "quote": "In March 1999, [[Hikaru Utada]] released her first Japanese album"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+     "quote": "making it the best-selling album in [[Oricon]] history"
+    }
+   ]
+  },
+  {
+   "text": "In December 2002 the phone company au opened a market for ringtone song downloads.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+     "quote": "In December 2002, the digital-download market for"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/J-pop?action=raw",
+     "quote": "was created by mobile-phone company [[au (mobile phone company)|au]]"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Start date: our record says J-pop began in 1990. The Japanese article says the word and idea were proposed at J-WAVE at the end of 1988 and became a general genre name around 1993 (https://ja.wikipedia.org/wiki/J-POP?action=raw: \"[[1988年]]末にラジオ局の[[J-WAVE]]でその語と概念が提唱された後、[[1993年の日本|1993年]]ごろから青年が歌唱する曲のジャンルの一つとして一般化した\"). The English article says it \"entered the musical mainstream of Japan in the 1990s\" (https://en.wikipedia.org/wiki/J-pop?action=raw). Not checked by the script; quoted here for the lead.",
+  "Who coined the term: the English article's infobox footnote quotes a 2004 source calling the term \"coined by [[Tetsuya Komuro|Komuro Tetsuya]], the \\\"father of J-pop\\\", in the early 1990s\" (https://en.wikipedia.org/wiki/J-pop?action=raw), which differs from the Japanese article's J-WAVE account used in the story. Not checked by the script."
+ ],
+ "sources": [
+  {
+   "title": "J-pop (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/J-pop?action=raw"
+  },
+  {
+   "title": "J-POP (Japanese Wikipedia)",
+   "url": "https://ja.wikipedia.org/wiki/J-POP?action=raw"
+  }
+ ],
+ "notes": "Japanese article read (ja.wikipedia J-POP, raw); the J-WAVE origin (1988-89, Roppongi, managing director 斎藤日出夫) comes from it. The romanisation 'Hideo Saitō' is my reading of 斎藤日出夫; the page gives only the kanji. Our record's origin 'Tokyo' is not contradicted, but no quote used says Tokyo (the story says Roppongi). The record's markers (English hooks, key changes, anime tie-ins) were not sourced; the story mentions tie-ins only via Being."
+}

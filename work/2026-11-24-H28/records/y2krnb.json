@@ -1,0 +1,32 @@
+{
+ "id": "y2krnb",
+ "name": "Y2K R&B",
+ "region": "nam",
+ "family": "soul",
+ "tradition": "rnbt",
+ "began": 1998,
+ "ended": 2006,
+ "origin": {
+  "text": "Virginia Beach",
+  "lat": 36.85,
+  "lon": -75.98,
+  "country": "US"
+ },
+ "definition": {
+  "window": "1998–2006",
+  "sound": "Glossy, futuristic R&B on stuttering, syncopated beats (Timbaland, Neptunes, Darkchild).",
+  "markers": [
+   "Syncopated, stuttering drum programming",
+   "Clean, bright, club-ready mix",
+   "Staccato vocal harmonies"
+  ]
+ },
+ "judgements": {
+  "significance": 3,
+  "ease": 5,
+  "fame": 5,
+  "intrigue": 1
+ },
+ "tier": 2,
+ "row": 6
+}

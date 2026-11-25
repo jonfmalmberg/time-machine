@@ -1,0 +1,44 @@
+{
+ "id": "gospel",
+ "name": "Gospel",
+ "region": "nam",
+ "family": "soul",
+ "tradition": "sacred",
+ "began": 1930,
+ "ended": 1970,
+ "origin": {
+  "text": "Chicago",
+  "lat": 41.85,
+  "lon": -87.62,
+  "country": "US"
+ },
+ "definition": {
+  "window": "1930–1970",
+  "sound": "Composed sacred songs sung by soloists, quartets or choirs with piano or organ, built on blues and spiritual harmony.",
+  "markers": [
+   "Piano or Hammond organ accompaniment",
+   "Melismatic lead voice over a quartet or choir",
+   "Christian lyrics, rising to a shouted climax"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 4,
+  "fame": 4,
+  "intrigue": 2
+ },
+ "tier": 1,
+ "row": 3,
+ "_tree_led_to": [
+  "rnb (other)",
+  "soul (principal)",
+  "doowop (other)",
+  "afgospel (principal)",
+  "braziliangospel (other)",
+  "contemporarychrist (other)"
+ ],
+ "_tree_came_from": [
+  "spirituals (principal)",
+  "blues (other)"
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "id": "georgianpolyphonic",
+ "name": "Georgian polyphonic singing",
+ "region": "casia",
+ "family": "folk",
+ "tradition": "n_georgianpolyphony",
+ "began": 1000,
+ "ended": null,
+ "origin": {
+  "text": "Tbilisi",
+  "lat": 41.72,
+  "lon": 44.79,
+  "country": "GE"
+ },
+ "definition": {
+  "window": "1000 onward",
+  "sound": "Unaccompanied three-part singing from Georgia: two high voices weave over a drone or moving bass, in close, hard-edged harmony, for the table, the field and the church.",
+  "markers": [
+   "Three unaccompanied voice parts",
+   "Drone or moving bass under ornate top lines",
+   "Close, dissonant harmony; yodel (krimanchuli) in the west"
+  ]
+ },
+ "judgements": {
+  "significance": 4,
+  "ease": 3,
+  "fame": 2,
+  "intrigue": 5
+ },
+ "tier": 2,
+ "row": 0
+}

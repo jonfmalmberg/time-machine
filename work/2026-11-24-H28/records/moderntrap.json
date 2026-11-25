@@ -1,0 +1,33 @@
+{
+ "id": "moderntrap",
+ "name": "Modern trap (Atlanta sound)",
+ "region": "nam",
+ "family": "hiphop",
+ "tradition": "hiphopt",
+ "began": 2010,
+ "ended": null,
+ "origin": {
+  "text": "Atlanta",
+  "lat": 33.74,
+  "lon": -84.38,
+  "country": "US"
+ },
+ "definition": {
+  "window": "2010 onward",
+  "sound": "808 sub-bass as the main voice, rapid rolling hi-hats and sparse dark melodies.",
+  "markers": [
+   "Long, tuned 808 bass notes",
+   "Triplet and rolled hi-hats",
+   "Triplet \"Migos flow\", ad-libs",
+   "Minimal bells, flutes or pads"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 4,
+  "fame": 5,
+  "intrigue": 1
+ },
+ "tier": 1,
+ "row": 19
+}

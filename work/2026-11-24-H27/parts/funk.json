@@ -1,0 +1,103 @@
+{
+ "genre": "funk",
+ "story": "In New Orleans, Dave Bartholomew and Professor Longhair brought Afro-Cuban instruments and the clave pattern into rhythm and blues. Longhair's way with rhythm became a basic template of funk. When Little Richard left secular music in 1957, some of his band joined James Brown and the Famous Flames. By the mid-1960s Brown put the weight on the first beat of every bar instead of the backbeat. The change began with \"Out of Sight\" in 1964 and \"Papa's Got a Brand New Bag\" in 1965. In 1990 Brown explained it: \"I changed from the upbeat to the downbeat.\" His arranger Alfred \"Pee Wee\" Ellis credited drummer Clyde Stubblefield's New Orleans drumming as the basis of modern funk. With \"Cold Sweat\" (1967), \"Mother Popcorn\" (1969) and \"Sex Machine\" (1970), Brown dropped even the twelve-bar blues. In New Orleans the Meters had R&B hits with \"Cissy Strut\" in 1969. George Clinton's bands Parliament and Funkadelic mixed it with jazz and psychedelic rock. Many early disco songs and performers came straight from funk. From the late 1980s hip-hop artists sampled funk records, and James Brown is said to be hip-hop's most sampled artist.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "In New Orleans, Dave Bartholomew and Professor Longhair brought Afro-Cuban instruments and the clave pattern into rhythm and blues.",
+   "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+   "quote": "[[Dave Bartholomew]] and [[Professor Longhair]] (Henry Roeland Byrd) incorporated Afro-Cuban instruments, as well as the [[clave (rhythm)|clave]] pattern"
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "Longhair's way with rhythm became a basic template of funk.",
+   "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+   "quote": "Longhair's rhythmic approach became a basic template of funk."
+  },
+  {
+   "n": 3,
+   "beat": "who",
+   "text": "When Little Richard left secular music in 1957, some of his band joined James Brown and the Famous Flames.",
+   "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+   "quote": "Following his temporary exit from secular music to become an evangelist in 1957, some of Little Richard's band members joined Brown and [[the Famous Flames]]"
+  },
+  {
+   "n": 4,
+   "beat": "why",
+   "text": "By the mid-1960s Brown put the weight on the first beat of every bar instead of the backbeat.",
+   "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+   "quote": "had developed his signature groove that emphasized the [[Beat (music)#Downbeat|downbeat]]—with heavy emphasis on the first beat of every measure"
+  },
+  {
+   "n": 5,
+   "beat": "who",
+   "text": "The change began with \"Out of Sight\" in 1964 and \"Papa's Got a Brand New Bag\" in 1965.",
+   "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+   "quote": "starting with his 1964 hit single, \"[[Out of Sight (song)|Out of Sight]]\" and his 1965 hits, \"[[Papa's Got a Brand New Bag]]\""
+  },
+  {
+   "n": 6,
+   "beat": "why",
+   "text": "In 1990 Brown explained it: \"I changed from the upbeat to the downbeat.\"",
+   "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+   "quote": "In a 1990 interview, Brown offered his reason for switching the rhythm of his music: \"I changed from the upbeat to the downbeat"
+  },
+  {
+   "n": 7,
+   "beat": "who",
+   "text": "His arranger Alfred \"Pee Wee\" Ellis credited drummer Clyde Stubblefield's New Orleans drumming as the basis of modern funk.",
+   "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+   "quote": "Ellis credits [[Clyde Stubblefield]]'s adoption of New Orleans drumming techniques, as the basis of modern funk"
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "With \"Cold Sweat\" (1967), \"Mother Popcorn\" (1969) and \"Sex Machine\" (1970), Brown dropped even the twelve-bar blues.",
+   "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+   "quote": "\"[[Cold Sweat]]\" (1967), \"[[Mother Popcorn]]\" (1969) and \"[[Get Up (I Feel Like Being a) Sex Machine]]\" (1970), discarding even the twelve-bar blues featured in his earlier music"
+  },
+  {
+   "n": 9,
+   "beat": "who",
+   "text": "In New Orleans the Meters had R&B hits with \"Cissy Strut\" in 1969.",
+   "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+   "quote": "[[The Meters]] defined funk in [[New Orleans, Louisiana|New Orleans]], starting with their top ten R&B hits \"Sophisticated Cissy\" and \"[[Cissy Strut]]\" in 1969"
+  },
+  {
+   "n": 10,
+   "beat": "who",
+   "text": "George Clinton's bands Parliament and Funkadelic mixed it with jazz and psychedelic rock.",
+   "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+   "quote": "Together, they produced a new kind of funk sound heavily influenced by [[jazz]] and [[psychedelic rock]]."
+  },
+  {
+   "n": 11,
+   "beat": "after",
+   "text": "Many early disco songs and performers came straight from funk.",
+   "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+   "quote": "Many early disco songs and performers came directly from funk-oriented backgrounds."
+  },
+  {
+   "n": 12,
+   "beat": "after",
+   "text": "From the late 1980s hip-hop artists sampled funk records, and James Brown is said to be hip-hop's most sampled artist.",
+   "url": "https://en.wikipedia.org/wiki/Funk?action=raw",
+   "quote": "is said to be the most sampled artist in the history of hip-hop"
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "Origin: record says Augusta and Cincinnati; the Funk article names neither. It places the roots in New Orleans R&B ('Longhair's rhythmic approach became a basic template of funk') and says funk 'originated in [[African-American]] communities in the mid-1960s' (https://en.wikipedia.org/wiki/Funk?action=raw). Augusta/Cincinnati is not contradicted, but it is unsourced here.",
+  "Began: record says 1965; the article dates Brown's shift from his 1964 single 'Out of Sight' and his 1965 hits. Consistent within a year.",
+  "Ended: record says 1980; the article says 'The 1970s were the era of highest mainstream visibility for funk music' and that by 'the latter half of the 1980s, pure funk had lost its commercial impact' (https://en.wikipedia.org/wiki/Funk?action=raw). The source suggests a later fade than 1980."
+ ],
+ "notes": "All sentences from the English Funk article. Sentence 4 credits the downbeat shift to Brown by the mid-1960s; the record's marker 'the one' is supported. The Little Richard sentence relies on the article's own wording that his band members joined Brown after his 1957 exit; the article attributes the 'first to put the funk into the rhythm' credit to Brown himself."
+}

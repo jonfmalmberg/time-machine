@@ -1,0 +1,46 @@
+{
+ "id": "filmi",
+ "name": "Filmi (Bollywood song)",
+ "region": "sasia",
+ "family": "raga",
+ "tradition": "filmsong",
+ "began": 1931,
+ "ended": null,
+ "origin": {
+  "text": "Mumbai",
+  "lat": 19.08,
+  "lon": 72.88,
+  "country": "IN"
+ },
+ "definition": {
+  "window": "1931 onward",
+  "sound": "Hindi film songs: playback singers over a film orchestra mixing Indian instruments with strings, brass and later synths and beats.",
+  "markers": [
+   "Playback singer, often high female voice",
+   "Film orchestra: strings, sitar, tabla, later synths",
+   "Sung interludes in a film, light raga flavour"
+  ]
+ },
+ "judgements": {
+  "significance": 4,
+  "ease": 4,
+  "fame": 4,
+  "intrigue": 4
+ },
+ "tier": 1,
+ "row": 0,
+ "_tree_led_to": [
+  "dangdut (other)",
+  "tamilfilm (principal)",
+  "bengalisong (other)",
+  "sinhalafilmsong (principal)",
+  "afghanpopularsong (other)",
+  "nepalisong (principal)",
+  "pakistanipop (principal)",
+  "indianpop (principal)"
+ ],
+ "_tree_came_from": [
+  "hindustani (principal)",
+  "filmscore (other)"
+ ]
+}

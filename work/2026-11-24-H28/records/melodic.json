@@ -1,0 +1,32 @@
+{
+ "id": "melodic",
+ "name": "Melodic rap (the 808s line)",
+ "region": "nam",
+ "family": "hiphop",
+ "tradition": "hiphopt",
+ "began": 2008,
+ "ended": 2014,
+ "origin": {
+  "text": "Los Angeles and Toronto",
+  "lat": 34.06,
+  "lon": -118.25,
+  "country": "US"
+ },
+ "definition": {
+  "window": "2008–2014",
+  "sound": "Rappers singing through Auto-Tune over minimal 808 beats about loneliness and doubt.",
+  "markers": [
+   "Sung or Auto-Tuned melody instead of rapped verse",
+   "Minimal 808 drums, cold synths",
+   "Vulnerable, introspective lyrics"
+  ]
+ },
+ "judgements": {
+  "significance": 4,
+  "ease": 5,
+  "fame": 5,
+  "intrigue": 1
+ },
+ "tier": 2,
+ "row": 3
+}

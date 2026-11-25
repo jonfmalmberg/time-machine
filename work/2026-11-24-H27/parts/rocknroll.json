@@ -1,0 +1,97 @@
+{
+ "genre": "rocknroll",
+ "story": "During and just after the Second World War, fuel shortages and smaller audiences made large jazz bands too costly. Through the late 1940s and early 1950s, R&B players such as Fats Domino and Johnny Otis sped up their tempos. In 1951 the Cleveland disc jockey Alan Freed began playing this music on the radio and calling it \"rock and roll\". On April 12, 1954, Bill Haley & His Comets recorded \"Rock Around the Clock\". In July 1954 Elvis Presley recorded \"That's All Right\" at Sam Phillips' Sun Studio in Memphis. Chuck Berry, drawing on electric blues, made the electric guitar its centrepiece. Independent labels such as Atlantic, Sun and Chess recorded for audiences of their own. It was named and sold as a genre of its own once the industry saw that affluent white teenagers were listening. Haley's song, used in the opening of the film Blackboard Jungle a year after it was recorded, set the boom in motion. As interest faded in America in the late 1950s, groups in British cities such as Liverpool took it up. The Quarrymen, who became the Beatles, moved from skiffle towards rock and roll and rhythm and blues.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "During and just after the Second World War, fuel shortages and smaller audiences made large jazz bands too costly.",
+   "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+   "quote": "During and immediately after [[World War II]], with shortages of fuel and limitations on audiences and available personnel, large jazz bands were less economical"
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "Through the late 1940s and early 1950s, R&B players such as Fats Domino and Johnny Otis sped up their tempos.",
+   "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+   "quote": "Through the late 1940s and early 1950s, [[Rhythm and blues|R&B]] music had been gaining a stronger beat and a wilder style, with artists such as Fats Domino and [[Johnny Otis]] speeding up the [[tempos]]"
+  },
+  {
+   "n": 3,
+   "beat": "who",
+   "text": "In 1951 the Cleveland disc jockey Alan Freed began playing this music on the radio and calling it \"rock and roll\".",
+   "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+   "quote": "In 1951, [[Cleveland]], Ohio, disc jockey [[Alan Freed]] began playing this music style, and referring to it as \"rock and roll\""
+  },
+  {
+   "n": 4,
+   "beat": "who",
+   "text": "On April 12, 1954, Bill Haley & His Comets recorded \"Rock Around the Clock\".",
+   "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+   "quote": "on April 12, 1954, [[Bill Haley & His Comets]] recorded \"Rock Around the Clock\""
+  },
+  {
+   "n": 5,
+   "beat": "who",
+   "text": "In July 1954 Elvis Presley recorded \"That's All Right\" at Sam Phillips' Sun Studio in Memphis.",
+   "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+   "quote": "In July 1954, Presley recorded the regional hit \"[[That's All Right]]\" at Sam Phillips' [[Sun Studio]] in Memphis"
+  },
+  {
+   "n": 6,
+   "beat": "who",
+   "text": "Chuck Berry, drawing on electric blues, made the electric guitar its centrepiece.",
+   "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+   "quote": "Inspired by [[electric blues]], Chuck Berry introduced an aggressive guitar sound to rock and roll, and established the electric guitar as its centerpiece"
+  },
+  {
+   "n": 7,
+   "beat": "why",
+   "text": "Independent labels such as Atlantic, Sun and Chess recorded for audiences of their own.",
+   "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+   "quote": "the rise of independent labels like [[Atlantic records|Atlantic]], [[Sun Records|Sun]] and [[Chess Records|Chess]] servicing [[niche market|niche audiences]]"
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "It was named and sold as a genre of its own once the industry saw that affluent white teenagers were listening.",
+   "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+   "quote": "It was the realization that relatively affluent white teenagers were listening to this music that led to the development of what was to be defined as rock and roll as a distinct genre."
+  },
+  {
+   "n": 9,
+   "beat": "why",
+   "text": "Haley's song, used in the opening of the film Blackboard Jungle a year after it was recorded, set the boom in motion.",
+   "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+   "quote": "when used in the opening sequence of the movie ''[[Blackboard Jungle]]'' a year later, it set the rock and roll boom in motion"
+  },
+  {
+   "n": 10,
+   "beat": "after",
+   "text": "As interest faded in America in the late 1950s, groups in British cities such as Liverpool took it up.",
+   "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+   "quote": "As interest in rock and roll was beginning to subside in America in the late 1950s and early 1960s, it was taken up by groups in British cities like [[Liverpool]]"
+  },
+  {
+   "n": 11,
+   "beat": "after",
+   "text": "The Quarrymen, who became the Beatles, moved from skiffle towards rock and roll and rhythm and blues.",
+   "url": "https://en.wikipedia.org/wiki/Rock_and_roll?action=raw",
+   "quote": "Many groups moved towards the [[beat music]] of rock and roll and rhythm and blues from skiffle, like the [[Quarrymen]] who became [[the Beatles]]"
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "Record began 1954: the genre article says it 'evolved in the [[United States]] during the late 1940s and early 1950s' and 'the genre did not acquire its name until 1954' (https://en.wikipedia.org/wiki/Rock_and_roll?action=raw). 1954 is the year of the name and of the Haley and Presley recordings, not of the sound's first appearance.",
+  "Record origin Memphis: the article names no single birthplace. Memphis is supported only as the site of Presley's July 1954 Sun Studio session; the name was popularised in Cleveland ('In 1951, [[Cleveland]], Ohio, disc jockey [[Alan Freed]] began playing this music style'), and the article names St. Louis, Memphis, New York, Detroit, Chicago, Cleveland and Buffalo among the cities of the migration that underlies it.",
+  "Record ended 1960 agrees with: 'the death of [[Eddie Cochran]] in a car crash (April 1960) gave a sense that the initial phase of rock and roll had come to an end' (Rock_and_roll).",
+  "Tree came_from lists rnb and country only; the article also names gospel: 'with stylistic influences from [[gospel music|gospel]], [[jazz]], [[boogie-woogie]]' (Rock_and_roll). Worth a look given the gospel->rnb edge already exists."
+ ],
+ "notes": "All sentences from the genre article. 'Rocket 88' (Sam Phillips, March 1951) left out to stay within length; it would strengthen the Memphis origin if the lead wants it."
+}

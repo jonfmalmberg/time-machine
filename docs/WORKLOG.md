@@ -2,6 +2,12 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-24 (20:40: scheduled check-back)
+
+- H20 and H21 (release years from Wikipedia) applied with the new `tools/apply_years.py`: 1,149 songs now have a year checked against a Wikipedia article (975 confirmed, 70 added, 84 changed by one year, 20 by more; the old year is kept as `released.was`). 1,251 of the 2,400 songs tried had no usable article. The lead did not rerun the helpers' evidence checks.
+- H26, H27, H28 (genre stories for the course's 55 named genres) handed back complete: every story has all four beats and every sentence a found quote. Held off `dev` until the owner has seen screenshots.
+- Still open in the queue: H22 (six new genres), H23 (chart sources for countries without lists).
+
 ## 2026-11-24 (19:40: genre pilot scored; story slot)
 
 - H25 scored (D31): 92% exact on the hidden songs, confirmed at 96% by an isolated rerun of 120 songs run by the lead with three sub-agents on Opus. The hidden key is too easy to stand for chart pop; no genres assigned.

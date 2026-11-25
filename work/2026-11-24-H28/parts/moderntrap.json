@@ -1,0 +1,198 @@
+{
+ "genre": "moderntrap",
+ "story": "Trap is named after the Atlanta term \"trap house\", a drug house, and the Atlanta rapper T.I. says he coined the word with his 2003 album Trap Muzik. In the mid-2000s Atlanta producers DJ Toomp, Shawty Redd and Zaytoven set its sound: synth, orchestra and string swells over 808 kick drums. Lex Luger, born in 1991, drummed in church bands, made beats on an unlicensed copy of FL Studio and from late 2008 posted them on Myspace. In 2009 the rapper Waka Flocka Flame wrote back, and later flew him to Atlanta. Luger produced most of Waka's album Flockaveli (5 October 2010): 808 trills, bass kicks, hand claps, dense synthesizers and shifting sub-bass layers under constant ad-libs. He produced more than 200 songs in 2010 and 2011, and other producers copied his sounds. Beats often run in half-time, around 70 BPM, for finer hi-hat subdivisions. The trio Migos, formed in Lawrenceville, Georgia, in 2008, broke out in 2013 with \"Versace\", produced by Zaytoven. In Chicago, Chief Keef's \"I Don't Like\" and \"Love Sosa\" spawned drill as a subgenre of trap. Katy Perry's \"Dark Horse\" with Juicy J reached number one on the Billboard Hot 100 in January 2014.",
+ "words": 198,
+ "sentences": [
+  {
+   "text": "Trap is named after the Atlanta term \"trap house\", a drug house, and the Atlanta rapper T.I. says he coined the word with his 2003 album Trap Muzik.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+     "quote": "The genre takes its name from the [[Atlanta]] term \"trap house\", a [[drug house]]."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+     "quote": "I [[Protologism|coined the term]], it was my second album, ''[[Trap Muzik]]'' it dropped in 2003."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+     "quote": "Atlanta-based rapper [[T.I.]], in a December 2012 interview"
+    }
+   ]
+  },
+  {
+   "text": "In the mid-2000s Atlanta producers DJ Toomp, Shawty Redd and Zaytoven set its sound: synth, orchestra and string swells over 808 kick drums.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+     "quote": "Some of the notable trap producers during the mid to late 2000s include [[DJ Toomp]], Fatboi, [[Drumma Boy]], [[Shawty Redd]], D. Rich, and [[Zaytoven]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+     "quote": "(typically based around [[Synthesizer|synth]], [[orchestra]], and string swells with tight, [[Roland TR-808|bass-heavy 808 kick drums]]) that would come to be associated with the genre developed in Atlanta"
+    }
+   ]
+  },
+  {
+   "text": "Lex Luger, born in 1991, drummed in church bands, made beats on an unlicensed copy of FL Studio and from late 2008 posted them on Myspace.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Lex_Luger_(music_producer)?action=raw",
+     "quote": "(born March 6, 1991)"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Lex_Luger_(music_producer)?action=raw",
+     "quote": "Luger played percussion for his church and drummed in church bands"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Lex_Luger_(music_producer)?action=raw",
+     "quote": "brought Luger an unlicensed copy of [[FL Studio]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Lex_Luger_(music_producer)?action=raw",
+     "quote": "Around late 2008, he began cold-emailing his beats to various rappers and posting instrumentals on his Myspace page"
+    }
+   ]
+  },
+  {
+   "text": "In 2009 the rapper Waka Flocka Flame wrote back, and later flew him to Atlanta.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Lex_Luger_(music_producer)?action=raw",
+     "quote": "In 2009, a then unknown rapper by the name of [[Waka Flocka Flame]] began e-mailing him back."
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Lex_Luger_(music_producer)?action=raw",
+     "quote": "eventually Waka Flocka Flame flew him out to Atlanta to collaborate with him"
+    }
+   ]
+  },
+  {
+   "text": "Luger produced most of Waka's album Flockaveli (5 October 2010): 808 trills, bass kicks, hand claps, dense synthesizers and shifting sub-bass layers under constant ad-libs.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Flockaveli?action=raw",
+     "quote": "It was primarily produced by [[Lex Luger (producer)|Lex Luger]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Flockaveli?action=raw",
+     "quote": "on October 5, 2010"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Flockaveli?action=raw",
+     "quote": "incorporates [[drill 'n' bass]] [[Roland TR-808|808]] [[Trill (music)|trills]], [[bass drum|bass kick]]s, hand claps"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Flockaveli?action=raw",
+     "quote": "dense [[synthesizer]]s, and [[level (music)|shifting]] [[sub-bass]] layers"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Flockaveli?action=raw",
+     "quote": "Waka Flocka Flame's unrefined street raps feature constant [[ad lib]]s"
+    }
+   ]
+  },
+  {
+   "text": "He produced more than 200 songs in 2010 and 2011, and other producers copied his sounds.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+     "quote": "produced more than 200 songs in 2010 and 2011"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+     "quote": "Many of his sounds have been adopted by other hip-hop producers trying to replicate his success."
+    }
+   ]
+  },
+  {
+   "text": "Beats often run in half-time, around 70 BPM, for finer hi-hat subdivisions.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+     "quote": "often [[Programming (music)|programmed]] in [[Half-time (music)|half-time]] to achieve finer hi-hat subdivisions"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+     "quote": "though the tempo of a typical trap beat is around 70 (140) BPM"
+    }
+   ]
+  },
+  {
+   "text": "The trio Migos, formed in Lawrenceville, Georgia, in 2008, broke out in 2013 with \"Versace\", produced by Zaytoven.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Migos?action=raw",
+     "quote": "trio founded in [[Lawrenceville, Georgia]], in 2008"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Migos?action=raw",
+     "quote": "In 2013, Migos released their breakout [[Single (music)|single]] \"[[Versace (song)|Versace]]\". The single was produced by [[Zaytoven]]"
+    }
+   ]
+  },
+  {
+   "text": "In Chicago, Chief Keef's \"I Don't Like\" and \"Love Sosa\" spawned drill as a subgenre of trap.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+     "quote": "Keef's \"[[I Don't Like]]\" and \"[[Love Sosa]]\""
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+     "quote": "spawning a new subgenre within trap called [[Drill music|drill]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+     "quote": "\"I Don't Like\" inspired fellow Chicago native"
+    }
+   ]
+  },
+  {
+   "text": "Katy Perry's \"Dark Horse\" with Juicy J reached number one on the Billboard Hot 100 in January 2014.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+     "quote": "released a song titled \"[[Dark Horse (Katy Perry song)|Dark Horse]]\" featuring rapper [[Juicy J]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw",
+     "quote": "The song reached number one on the ''Billboard'' Hot 100 by the end of January 2014."
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "Start date: our record says 2010; https://en.wikipedia.org/wiki/Trap_music?action=raw gives \"cultural_origins  = 1990s, [[Atlanta]]\" and \"the modern sound of trap emerged in 1999\". 2010 fits the record's 'modern trap' as the Lex Luger / Flockaveli sound (\"The style was popularized by [[Record producer|producer]] [[Lex Luger (record producer)|Lex Luger]], who produced the influential [[Waka Flocka Flame]] album ''[[Flockaveli]]'' in 2010\"), so this is a scope difference, not an error."
+ ],
+ "sources": [
+  {
+   "title": "Trap music (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Trap_music?action=raw"
+  },
+  {
+   "title": "Lex Luger (music producer) (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Lex_Luger_(music_producer)?action=raw"
+  },
+  {
+   "title": "Flockaveli (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Flockaveli?action=raw"
+  },
+  {
+   "title": "Migos (English Wikipedia)",
+   "url": "https://en.wikipedia.org/wiki/Migos?action=raw"
+  }
+ ],
+ "notes": "No home-language article applies (English). The 'Migos flow' triplet marker in our record could not be sourced from the pages read: the trap article only lists a journal paper titled 'Triplet Flow in Recent Hip-Hop Music' in its bibliography, so the story names Migos and 'Versace' without describing their flow. T.I.'s coining of the term is his own claim and is attributed. Lex Luger's Virginia origin was left out: the page names his crew 'Virginia Boyz Productionz' and a high school but does not say where he grew up."
+}

@@ -1,0 +1,174 @@
+{
+ "genre": "tilawa",
+ "story": "Islamic tradition holds that Muhammad received his first revelation in 610 in the Cave of Hira, and further revelations over 23 years. The first muezzin was Bilal ibn Rabah, a freed slave of Abyssinian heritage chosen for his loud voice; at the conquest of Mecca in 630 he called the prayer from the Kaaba. In the following generation, reciters in Mecca, Medina, Kufa, Basra and Syria became known as teachers, and their ways of reading took their names. Under the Abbasids, as many non-Arabs became Muslims and mispronunciation spread, scholars began writing down the rules, and Abu Ubaid al-Qasim bin Salam (774–838) was the first to set tajwid in writing. Abu Bakr Ibn Mujahid (859–936) limited the accepted readings to seven. In the adhan each phrase is followed by a longer pause and grows longer and more ornamented on repetition; Medina uses maqam Bayati, Mecca maqam Hijaz. In 1944 Mahmoud Khalil Al-Hussary won Egyptian Radio's reciters' competition, and became the first to record the whole Quran in the measured murattal style. Abdul Basit Abdus-Samad, known for the melodic mujawwad style, joined Egyptian Radio in 1951, and his recitations were broadcast by radio stations in other Arab countries.",
+ "words": 197,
+ "sentences": [
+  {
+   "text": "Islamic tradition holds that Muhammad received his first revelation in 610 in the Cave of Hira, and further revelations over 23 years.",
+   "beat": "before",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Quran?action=raw",
+     "quote": "Muhammad received [[Muhammad's first revelation|his first revelation]] in 610 CE in the [[Jabal al-Nour|Cave of Hira]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Quran?action=raw",
+     "quote": "Thereafter, he received revelations over a period of 23 years"
+    }
+   ]
+  },
+  {
+   "text": "The first muezzin was Bilal ibn Rabah, a freed slave of Abyssinian heritage chosen for his loud voice; at the conquest of Mecca in 630 he called the prayer from the Kaaba.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Adhan?action=raw",
+     "quote": "The first muezzin in Islam was [[Bilal ibn Rabah]], a freed slave of [[Abyssinian people|Abyssinian]] heritage"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Bilal_ibn_Rabah?action=raw",
+     "quote": "Muhammad then instructed Abdullah to teach those words to Bilal because he had a louder voice than him"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Bilal_ibn_Rabah?action=raw",
+     "quote": "During the [[Conquest of Mecca|Conquest of Makkah]] in 630"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Bilal_ibn_Rabah?action=raw",
+     "quote": "Bilal was chosen to perform the [[adhan]] (call to prayer) from the [[Kaaba]]"
+    }
+   ]
+  },
+  {
+   "text": "In the following generation, reciters in Mecca, Medina, Kufa, Basra and Syria became known as teachers, and their ways of reading took their names.",
+   "beat": "who",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Qira'at?action=raw",
+     "quote": "exceptional reciters became renowned as teachers of Qur'anic recitation in cities like [[Makkah]], [[Madina]], [[Kufa]], [[Basra]], and greater Syria (al-Sham)"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Qira'at?action=raw",
+     "quote": "their modes of recitations were then attached to their names"
+    }
+   ]
+  },
+  {
+   "text": "Under the Abbasids, as many non-Arabs became Muslims and mispronunciation spread, scholars began writing down the rules, and Abu Ubaid al-Qasim bin Salam (774–838) was the first to set tajwid in writing.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tajwid?action=raw",
+     "quote": "under the [[Abbasid Caliphate]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tajwid?action=raw",
+     "quote": "errors in pronunciation increased in the Quran due to the entry of many [[Mawla|non-Arab Muslims]] into Islam. So the scholars of the Quran began to write the rules of [[Intonation (linguistics)|intonation]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tajwid?action=raw",
+     "quote": "[[Abu Ubaid al-Qasim bin Salam]] (774–838 CE) was the first to develop a recorded system for tajwid"
+    }
+   ]
+  },
+  {
+   "text": "Abu Bakr Ibn Mujahid (859–936) limited the accepted readings to seven.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Tajwid?action=raw",
+     "quote": "[[Abu Bakr Ibn Mujāhid]] (859–936 CE) wrote a book called"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Tajwid?action=raw",
+     "quote": "He is the first to limit the number of [[Qira'at|recitations]] to the seven known"
+    }
+   ]
+  },
+  {
+   "text": "In the adhan each phrase is followed by a longer pause and grows longer and more ornamented on repetition; Medina uses maqam Bayati, Mecca maqam Hijaz.",
+   "beat": "why",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Adhan?action=raw",
+     "quote": "Each [[phrase (music)|phrase]] is followed by a longer [[rest (music)|pause]]"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Adhan?action=raw",
+     "quote": "Upon [[Repetition (music)|repetition]] the phrase is longer, [[Ornament (music)|ornament]]ed with melismas"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Adhan?action=raw",
+     "quote": "Medina, [[Saudi Arabia]] uses Maqam [[Bayati (maqam)|Bayati]] while Mecca uses Maqam Hijaz"
+    }
+   ]
+  },
+  {
+   "text": "In 1944 Mahmoud Khalil Al-Hussary won Egyptian Radio's reciters' competition, and became the first to record the whole Quran in the measured murattal style.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Mahmoud_Khalil_Al-Hussary?action=raw",
+     "quote": "In 1944, he won [[National Media Authority|Egypt Radio]]'s Quran Recitation competition"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Mahmoud_Khalil_Al-Hussary?action=raw",
+     "quote": "He was the first reciter to record the complete Quran in the ''murattal'' style"
+    }
+   ]
+  },
+  {
+   "text": "Abdul Basit Abdus-Samad, known for the melodic mujawwad style, joined Egyptian Radio in 1951, and his recitations were broadcast by radio stations in other Arab countries.",
+   "beat": "after",
+   "evidence": [
+    {
+     "url": "https://en.wikipedia.org/wiki/Abdul_Basit_'Abd_us-Samad?action=raw",
+     "quote": "known for his melodic [[Mujawwad|''mujawwad'']] style of recitation"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Abdul_Basit_'Abd_us-Samad?action=raw",
+     "quote": "Abdul Basit joined Egyptian Radio as a reciter in 1951"
+    },
+    {
+     "url": "https://en.wikipedia.org/wiki/Abdul_Basit_'Abd_us-Samad?action=raw",
+     "quote": "His recitations were also broadcast by radio stations in other [[Arab world|Arab countries]]"
+    }
+   ]
+  }
+ ],
+ "beats_missing": [],
+ "disagreements": [
+  "No disagreement on the 610 start or Mecca. Note that the English Wikipedia 'Quran recitation' title is only a redirect to Qira'at, so there is no single English article for the genre; the story draws on Quran, Adhan, Tajwid, Qira'at and two reciter biographies."
+ ],
+ "sources": [
+  {
+   "title": "English Wikipedia: Quran",
+   "url": "https://en.wikipedia.org/wiki/Quran?action=raw"
+  },
+  {
+   "title": "English Wikipedia: Adhan",
+   "url": "https://en.wikipedia.org/wiki/Adhan?action=raw"
+  },
+  {
+   "title": "English Wikipedia: Bilal ibn Rabah",
+   "url": "https://en.wikipedia.org/wiki/Bilal_ibn_Rabah?action=raw"
+  },
+  {
+   "title": "English Wikipedia: Qira'at",
+   "url": "https://en.wikipedia.org/wiki/Qira'at?action=raw"
+  },
+  {
+   "title": "English Wikipedia: Tajwid",
+   "url": "https://en.wikipedia.org/wiki/Tajwid?action=raw"
+  },
+  {
+   "title": "English Wikipedia: Mahmoud Khalil Al-Hussary",
+   "url": "https://en.wikipedia.org/wiki/Mahmoud_Khalil_Al-Hussary?action=raw"
+  },
+  {
+   "title": "English Wikipedia: Abdul Basit 'Abd us-Samad",
+   "url": "https://en.wikipedia.org/wiki/Abdul_Basit_'Abd_us-Samad?action=raw"
+  }
+ ],
+ "notes": "The Bilal ibn Rabah article carries 'Original research' and 'essay' warning tags; the first-muezzin fact is also on the Adhan article, but the loud-voice and 630 Kaaba details rest on the tagged page alone. The Arabic article was not used. The before beat (what recitation grew out of musically, e.g. pre-Islamic chanted poetry) could not be sourced, so 'before' is told as the revelation itself."
+}

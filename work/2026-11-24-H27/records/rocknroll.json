@@ -1,0 +1,63 @@
+{
+ "id": "rocknroll",
+ "name": "Rock and roll",
+ "region": "nam",
+ "family": "rock",
+ "tradition": "rockt",
+ "began": 1954,
+ "ended": 1960,
+ "origin": {
+  "text": "Memphis",
+  "lat": 35.15,
+  "lon": -90.05,
+  "country": "US"
+ },
+ "definition": {
+  "window": "1954–1960",
+  "sound": "Fast blues-based dance music for teenagers: electric guitar, piano or saxophone over a strong backbeat, with excited vocals.",
+  "markers": [
+   "Strong backbeat and boogie bass lines",
+   "Electric guitar or pounding piano riffs",
+   "Short, 12-bar based songs about cars, dancing and romance"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 5,
+  "fame": 5,
+  "intrigue": 1
+ },
+ "tier": 1,
+ "row": 12,
+ "_tree_led_to": [
+  "britbeat (principal)",
+  "khmerrock (principal)",
+  "punk (other)",
+  "chinarock (principal)",
+  "dangdut (other)",
+  "outlaw (other)",
+  "garage (other)",
+  "irishshow (principal)",
+  "nuevaola (principal)",
+  "polishrock (principal)",
+  "spanish1960slights (other)",
+  "string (other)",
+  "surfmusic (principal)",
+  "hunbeat (other)",
+  "romanianrock (other)",
+  "koreanrock (principal)",
+  "sambarock (other)",
+  "groupsounds (other)",
+  "dansband (other)",
+  "jovemguarda (principal)",
+  "iranianrock (other)",
+  "brega (other)",
+  "pinoyrock (principal)",
+  "burmesestereoandco (principal)",
+  "glamrock (principal)"
+ ],
+ "_tree_came_from": [
+  "rnb (principal)",
+  "country (other)"
+ ]
+}
