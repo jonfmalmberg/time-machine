@@ -111,7 +111,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Hand back:** `years.json`: `{song, year, basis: song article|discography|album article, url, quote, read}`; `sources.json` and `evidence-check.json` as in `work/README.md`; only `found` in `years.json`. In the report: how far you got, counts per basis, and every song where the year found differs from `year_on_site` by more than one year (both years).
 
 ## H21. Release years from Wikipedia, part 2
-- **State:** open
+- **State:** handed back 2026-11-24
 - **Model, ask, hand back:** as H20 with `songs.2.json`.
 
 ## H22. Records for six new genres (research note `docs/research/2026-11-24-genre-suggestions.md`, numbers 1 to 6)
