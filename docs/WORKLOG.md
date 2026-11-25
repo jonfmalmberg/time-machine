@@ -2,6 +2,12 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-24 (19:40: genre pilot scored; story slot)
+
+- H25 scored (D31): 92% exact on the hidden songs, confirmed at 96% by an isolated rerun of 120 songs run by the lead with three sub-agents on Opus. The hidden key is too easy to stand for chart pop; no genres assigned.
+- Slot for a genre's story added to the genre card and the course stop (empty until `data/stories.json` exists).
+- Handed back and not yet reviewed: H20 (release years), H26 and H27 (genre stories). H21 claimed, still running.
+
 ## 2026-11-24 (19:10: chart credits split)
 
 - 1,279 combined chart credits ("A featuring B") split into their artists and 129 confirmed as one act, using the artist links the origin helpers read from the chart pages. Rule: a credit is split only when the linked artists' names appear in it as written and nothing but joining words is left over. Decisions are added to `work/2026-11-23-credits/decisions.json` and applied with `tools/split_credits.py`.

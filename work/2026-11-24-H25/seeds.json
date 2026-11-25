@@ -1,0 +1,3 @@
+{"method": "Python 3 random.Random(seed).shuffle() applied to the list in work/2026-11-24-genretest/songs.json, file order; then cut into consecutive batches of 40 (37 batches, the last holds 14)",
+ "run1": 20261124,
+ "run2": 74}
