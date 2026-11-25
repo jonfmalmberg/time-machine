@@ -1,0 +1,96 @@
+{
+ "genre": "rumbacongo",
+ "story": "It grew from maringa, a Bakongo partner dance of the old Kingdom of Loango, related to West African highlife. In the early 1940s Radio Congo Belge in Léopoldville played records of Cuban son by Sexteto Habanero and Trio Matamoros. In August 1941 Paul Kamba formed the Victoria Brazza band in Poto-Poto. Wendo Kolosoy's \"Marie-Louise\", written with the guitarist Henri Bowane for the Ngoma label, sold over two million copies. In 1954, 90% of the 30,000 music requests logged by radio were for Congolese rumba. In early 1956 the Loningisa label's session players renamed themselves OK Jazz in honour of their new employer. Congolese musicians moved the piano parts, drum patterns and trumpet phrases of son onto electric guitars and saxophones. Because the imported records were often labelled \"rumba\", the local music took that name. Antoine Kasongo's orchestra is credited with adding the sebene, a repeated instrumental passage built on guitar figures. In the 1960s and 1970s soukous grew out of it. In the 1980s many musicians left Zaire for Tanzania, Kenya, Uganda and Colombia, and for Paris, Brussels and London.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "It grew from maringa, a Bakongo partner dance of the old Kingdom of Loango, related to West African highlife.",
+   "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+   "quote": "''Maringa'' was a Bakongo dance similar to West African [[highlife]] and historically practiced within the former [[Kingdom of Loango]]"
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "In the early 1940s Radio Congo Belge in Léopoldville played records of Cuban son by Sexteto Habanero and Trio Matamoros.",
+   "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+   "quote": "In the early 1940s, the music of Cuban son groups, such as [[Sexteto Habanero]], [[Trio Matamoros]], and Los Guaracheros de Oriente, was played on [[Radio Congo Belge]] in Léopoldville"
+  },
+  {
+   "n": 3,
+   "beat": "who",
+   "text": "In August 1941 Paul Kamba formed the Victoria Brazza band in Poto-Poto.",
+   "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+   "quote": "In August 1941, [[Paul Kamba]] formed the Victoria Brazza ensemble in Poto-Poto"
+  },
+  {
+   "n": 4,
+   "beat": "who",
+   "text": "Wendo Kolosoy's \"Marie-Louise\", written with the guitarist Henri Bowane for the Ngoma label, sold over two million copies.",
+   "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+   "quote": "Wendo's hit \"Marie-Louise\", co-written with guitarist Henri Bowane and produced by Ngoma, achieved significant success, selling over two million copies"
+  },
+  {
+   "n": 5,
+   "beat": "who",
+   "text": "In 1954, 90% of the 30,000 music requests logged by radio were for Congolese rumba.",
+   "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+   "quote": "Popularity polls and request logs from 1954 demonstrated the growing dominance of Congolese rumba music: 90% of the 30,000 music requests received were for Congolese rumba songs."
+  },
+  {
+   "n": 6,
+   "beat": "who",
+   "text": "In early 1956 the Loningisa label's session players renamed themselves OK Jazz in honour of their new employer.",
+   "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+   "quote": "In early 1956, the Bana Loningisa rebranded themselves as [[TPOK Jazz|OK Jazz]] in homage to their new employer"
+  },
+  {
+   "n": 7,
+   "beat": "why",
+   "text": "Congolese musicians moved the piano parts, drum patterns and trumpet phrases of son onto electric guitars and saxophones.",
+   "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+   "quote": "Congolese musicians began to transpose aspects of Cuban son, including piano sounds, drum patterns, and trumpet phrasing, to electric guitars and saxophones."
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "Because the imported records were often labelled \"rumba\", the local music took that name.",
+   "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+   "quote": "it became known as \"Congolese rumba\" due to the frequent mislabeling of imported records by Sexteto Habanero and Trio Matamoros as \"rumba\""
+  },
+  {
+   "n": 9,
+   "beat": "why",
+   "text": "Antoine Kasongo's orchestra is credited with adding the sebene, a repeated instrumental passage built on guitar figures.",
+   "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+   "quote": "Kasongo's own orchestra is widely credited with introducing the [[Sebene|sebène]], a repeated instrumental passage, often built around rhythmic guitar motifs, into Congolese dance music"
+  },
+  {
+   "n": 10,
+   "beat": "after",
+   "text": "In the 1960s and 1970s soukous grew out of it.",
+   "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+   "quote": "The 1960s and 1970s saw the emergence of [[soukous]], an urban dance music style derived from Congolese rumba"
+  },
+  {
+   "n": 11,
+   "beat": "after",
+   "text": "In the 1980s many musicians left Zaire for Tanzania, Kenya, Uganda and Colombia, and for Paris, Brussels and London.",
+   "url": "https://en.wikipedia.org/wiki/Congolese_rumba?action=raw",
+   "quote": "With increasing [[Political sociology|sociopolitical upheaval]] in Zaire in the 1980s, numerous musicians sought refuge in [[Tanzania]], [[Kenya]], [[Uganda]], and [[Colombia]], and a significant number migrated to Paris, Brussels, and London"
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "Record began 1950: the article places the formation earlier: 'In August 1941, [[Paul Kamba]] formed the Victoria Brazza ensemble in Poto-Poto', Ngoma's studio from 1948 ('Shortly after Ngoma's inauguration in 1948'), and 'During the mid-1940s and 1950s, the influence of [[Son cubano|Cuban son]] bands transformed ''maringa'' into \"Congolese rumba,\"' (https://en.wikipedia.org/wiki/Congolese_rumba?action=raw). A start in the 1940s would fit the source better.",
+  "Record origin Kinshasa: the article names both cities: 'particularly in the cities of [[Kinshasa]] and [[Brazzaville]]' (Congolese_rumba); Kamba's 1941 band was in Poto-Poto, Brazzaville.",
+  "Record name joins rumba and soukous; the article treats soukous as a later derivative: 'The 1960s and 1970s saw the emergence of [[soukous]], an urban dance music style derived from Congolese rumba' (Congolese_rumba)."
+ ],
+ "notes": "All sentences from the English genre article (Congolese_rumba); the Soukous article was fetched but not needed. The 1980s exodus to Tanzania, Kenya, Uganda and Colombia supports several led_to edges (benga, dansi, kidandali, champeta) but the source does not itself say those genres came from it. Not covered for space: Le Grand Kallé's 'Indépendance Cha Cha' (1960), Franco."
+}

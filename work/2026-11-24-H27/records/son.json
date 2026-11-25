@@ -1,0 +1,48 @@
+{
+ "id": "son",
+ "name": "Cuban son",
+ "region": "carib",
+ "family": "afrocuban",
+ "tradition": "cuban",
+ "began": 1900,
+ "ended": 1960,
+ "origin": {
+  "text": "Oriente, Cuba",
+  "lat": 20.15,
+  "lon": -75.5,
+  "country": "CU"
+ },
+ "definition": {
+  "window": "1900–1960",
+  "sound": "Cuban dance music built on clave, tres guitar, bongo and bass, moving from a sung verse into a call-and-response montuno.",
+  "markers": [
+   "Tres guitar riffs and anticipated bass",
+   "Two-part form: verse, then montuno with coro and improvised lead",
+   "Bongo, maracas and clave in a small septeto or conjunto"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 5,
+  "fame": 4,
+  "intrigue": 3
+ },
+ "tier": 1,
+ "row": 0,
+ "_tree_led_to": [
+  "afrocubanjazz (other)",
+  "mambo (principal)",
+  "salsa (other)",
+  "rumbacongo (principal)",
+  "mbalax (other)",
+  "songo (principal)",
+  "mandepop (other)",
+  "twoubadou (principal)",
+  "rumbaflam (other)",
+  "venezuelansalsa (other)"
+ ],
+ "_tree_came_from": [
+  "rumba (principal)",
+  "iberianpop (other)"
+ ]
+}

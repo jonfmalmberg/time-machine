@@ -1,0 +1,110 @@
+{
+ "genre": "afrobeat",
+ "story": "In the late 1950s Fela Kuti left Lagos to study at the London School of Music. Back in Lagos he played a mix of highlife and jazz that did not sell. In 1969, on a trip to the United States, he met Sandra Smith, a singer and former Black Panther. She gave him the writings of Martin Luther King Jr., Angela Davis and, above all, Malcolm X. Kuti came to see that he had not been playing African music. He worked it out with drummer Tony Allen. The new music drew on highlife, fuji and jùjú. The name Afrobeat was meant partly to set it apart from the soul of James Brown. Kuti renamed his band Africa '70. It played a residency at his own club, the Afrika Shrine, from 1970 to 1975. Brian Eno and David Byrne carried its polyrhythms into Talking Heads' 1980 album Remain in Light. In the late 1990s and early 2000s Antibalas helped start an Afrobeat scene in Brooklyn. Kuti's sons Femi and Seun play it today.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "In the late 1950s Fela Kuti left Lagos to study at the London School of Music.",
+   "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+   "quote": "In the late 1950s, Kuti left [[Lagos]] to study abroad at the London School of Music"
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "Back in Lagos he played a mix of highlife and jazz that did not sell.",
+   "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+   "quote": "Kuti returned to Lagos and played a highlife-jazz hybrid, albeit, without commercial success."
+  },
+  {
+   "n": 3,
+   "beat": "who",
+   "text": "In 1969, on a trip to the United States, he met Sandra Smith, a singer and former Black Panther.",
+   "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+   "quote": "In 1969, Kuti and his band went on a trip to the U.S. and met a woman by the name of Sandra Smith, a singer and former [[Black Panther Party|Black Panther]]"
+  },
+  {
+   "n": 4,
+   "beat": "why",
+   "text": "She gave him the writings of Martin Luther King Jr., Angela Davis and, above all, Malcolm X.",
+   "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+   "quote": "introduced Kuti to many writings of activists such as [[Martin Luther King Jr.]], [[Angela Davis]], [[Jesse Jackson]], and his biggest influence of all, [[Malcolm X]]"
+  },
+  {
+   "n": 5,
+   "beat": "why",
+   "text": "Kuti came to see that he had not been playing African music.",
+   "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+   "quote": "That was when Kuti realized that he was not playing African music."
+  },
+  {
+   "n": 6,
+   "beat": "who",
+   "text": "He worked it out with drummer Tony Allen.",
+   "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+   "quote": "who, with drummer [[Tony Allen (musician)|Tony Allen]], experimented with different contemporary music of that time"
+  },
+  {
+   "n": 7,
+   "beat": "why",
+   "text": "The new music drew on highlife, fuji and jùjú.",
+   "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+   "quote": "Afrobeat was influenced by a combination of different genres, such as [[highlife]], [[Fuji music|fuji]], and [[Jùjú music|jùjú]]"
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "The name Afrobeat was meant partly to set it apart from the soul of James Brown.",
+   "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+   "quote": "The name was partially born out of an attempt to distinguish Fela Kuti's music from the [[soul music]] of American artists such as [[James Brown]]."
+  },
+  {
+   "n": 9,
+   "beat": "who",
+   "text": "Kuti renamed his band Africa '70.",
+   "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+   "quote": "Kuti had also changed the name of his group to \"[[Africa '70 (band)|Africa '70]]\""
+  },
+  {
+   "n": 10,
+   "beat": "who",
+   "text": "It played a residency at his own club, the Afrika Shrine, from 1970 to 1975.",
+   "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+   "quote": "The band maintained a five-year residency at the Afrika Shrine from 1970 to 1975"
+  },
+  {
+   "n": 11,
+   "beat": "after",
+   "text": "Brian Eno and David Byrne carried its polyrhythms into Talking Heads' 1980 album Remain in Light.",
+   "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+   "quote": "Both worked on [[Talking Heads]]' highly acclaimed 1980 album ''[[Remain in Light]]'', which brought polyrhythmic Afrobeat influences to Western music."
+  },
+  {
+   "n": 12,
+   "beat": "after",
+   "text": "In the late 1990s and early 2000s Antibalas helped start an Afrobeat scene in Brooklyn.",
+   "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+   "quote": "In the late 1990s and early 2000s, a small Afrobeat scene began in [[Brooklyn]], New York, with projects including [[Antibalas]]"
+  },
+  {
+   "n": 13,
+   "beat": "after",
+   "text": "Kuti's sons Femi and Seun play it today.",
+   "url": "https://en.wikipedia.org/wiki/Afrobeat?action=raw",
+   "quote": "Some examples of these artists are his sons [[Femi Kuti]] and [[Seun Kuti]]"
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "Record began 1970; the article dates it earlier: 'Afrobeat evolved in [[Nigeria]] in the late 1960s by [[Fela Kuti]]' and infobox 'cultural_origins  = 1960s'. 1970 matches the Africa '70 / Afrika Shrine residency start. (https://en.wikipedia.org/wiki/Afrobeat?action=raw)",
+  "Record origin Lagos: the article does not say the Afrika Shrine was in Lagos, only that Kuti returned to Lagos earlier; the story says 'his own club' without a city. (https://en.wikipedia.org/wiki/Afrobeat?action=raw)",
+  "Record came_from lists highlife, funk, modjazz; the article also names fuji, jùjú and Yoruba music as sources ('Afrobeat was influenced by a combination of different genres, such as [[highlife]], [[Fuji music|fuji]], and [[Jùjú music|jùjú]]'). (https://en.wikipedia.org/wiki/Afrobeat?action=raw)"
+ ],
+ "notes": "Tree led_to nigerianreggae is not mentioned in the article and was not sourced. The article says the name was coined partly against James Brown; an external link says this happened in Accra (Ghana), not sourced here. Everything comes from one article; a second source (e.g. the Fela Kuti or Tony Allen articles) could add Tony Allen's drumming detail."
+}

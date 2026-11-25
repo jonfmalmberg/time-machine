@@ -1,0 +1,104 @@
+{
+ "genre": "salsa",
+ "story": "Salsa was built on the son montuno of the Cuban bandleaders Arsenio Rodríguez, Conjunto Chappottín and Roberto Faz. In the 1950s New York danced to mambo played by Machito, Tito Puente and Mongo Santamaría. Its centre, the Palladium Ballroom, closed in 1966 after losing its liquor licence. In the late 1960s the Dominican musician Johnny Pacheco and businessman Jerry Masucci founded Fania Records. Fania brought out Willie Colón, Celia Cruz, Larry Harlow, Ray Barretto, Héctor Lavoe and Ismael Miranda. In 1968 Pacheco formed the Fania All-Stars with Louie Ramírez, Bobby Valentín and Larry Harlow. In 1970s New York the word salsa was first used to sell several styles of Latin dance music. Fania marketed it as one Puerto Rican and pan-Latin sound for people from all of Latin America. In 1971 the Fania All-Stars sold out Yankee Stadium. In the 1980s Colombia, Venezuela, Peru, Mexico and Panama made their own salsa. Its stars included Oscar D'León from Venezuela and Joe Arroyo from Colombia. In Cuba, some say a D'León performance set off the work that became timba.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "Salsa was built on the son montuno of the Cuban bandleaders Arsenio Rodríguez, Conjunto Chappottín and Roberto Faz.",
+   "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+   "quote": "The music style was based on the late [[son montuno]] of [[Arsenio Rodríguez]], [[Conjunto Chappottín]] and [[Roberto Faz]]."
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "In the 1950s New York danced to mambo played by Machito, Tito Puente and Mongo Santamaría.",
+   "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+   "quote": "During the 1950s, New York became a hotspot of Mambo with musicians like the aforementioned Pérez Prado, [[Chano Pozo|Luciano \"Chano\" Pozo]], Mongo Santamaría, Machito and Tito Puente."
+  },
+  {
+   "n": 3,
+   "beat": "before",
+   "text": "Its centre, the Palladium Ballroom, closed in 1966 after losing its liquor licence.",
+   "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+   "quote": "In 1966, the Palladium closed because it lost its liquor license."
+  },
+  {
+   "n": 4,
+   "beat": "who",
+   "text": "In the late 1960s the Dominican musician Johnny Pacheco and businessman Jerry Masucci founded Fania Records.",
+   "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+   "quote": "During the late 1960s, the Dominican musician Johnny Pacheco and Italian-American businessman [[Jerry Masucci]] founded the recording company [[Fania Records]]"
+  },
+  {
+   "n": 5,
+   "beat": "who",
+   "text": "Fania brought out Willie Colón, Celia Cruz, Larry Harlow, Ray Barretto, Héctor Lavoe and Ismael Miranda.",
+   "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+   "quote": "including Willie Colón, Celia Cruz, [[Larry Harlow (musician)|Larry Harlow]], [[Ray Barretto]], Héctor Lavoe and [[Ismael Miranda]]"
+  },
+  {
+   "n": 6,
+   "beat": "who",
+   "text": "In 1968 Pacheco formed the Fania All-Stars with Louie Ramírez, Bobby Valentín and Larry Harlow.",
+   "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+   "quote": "Pacheco put together a team that included percussionist [[Louie Ramirez|Louie Ramírez]], bassist [[Bobby Valentín]] and arranger [[Larry Harlow (salsa)|Larry Harlow]] to form the [[Fania All-Stars]] in 1968"
+  },
+  {
+   "n": 7,
+   "beat": "why",
+   "text": "In 1970s New York the word salsa was first used to sell several styles of Latin dance music.",
+   "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+   "quote": "New York saw in the 1970s the first use of the term salsa to commercialize several styles of Latin dance music"
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "Fania marketed it as one Puerto Rican and pan-Latin sound for people from all of Latin America.",
+   "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+   "quote": "presenting an all-embracing Puerto Rican, Pan-American or Latino sound with which the people from all of Latin America"
+  },
+  {
+   "n": 9,
+   "beat": "who",
+   "text": "In 1971 the Fania All-Stars sold out Yankee Stadium.",
+   "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+   "quote": "In 1971, the Fania All-Stars sold out [[Yankee Stadium (1923)|Yankee Stadium]]."
+  },
+  {
+   "n": 10,
+   "beat": "after",
+   "text": "In the 1980s Colombia, Venezuela, Peru, Mexico and Panama made their own salsa.",
+   "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+   "quote": "several Latin American countries, such as Colombia, Venezuela, Peru, Mexico and Panama, began producing their own salsa music"
+  },
+  {
+   "n": 11,
+   "beat": "after",
+   "text": "Its stars included Oscar D'León from Venezuela and Joe Arroyo from Colombia.",
+   "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+   "quote": "Two of the biggest stars from this period are [[Oscar D'León]] from Venezuela and [[Joe Arroyo]] from Colombia."
+  },
+  {
+   "n": 12,
+   "beat": "after",
+   "text": "In Cuba, some say a D'León performance set off the work that became timba.",
+   "url": "https://en.wikipedia.org/wiki/Salsa_music?action=raw",
+   "quote": "Some people say that D'León's performance gave momentum to a \"salsa craze\" that brought back some of the older templates and motivated the development of [[timba]]."
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "Record origin New York (Spanish Harlem): the article never mentions Spanish Harlem; it names the Palladium and later the Cheetah in Manhattan ('By the early 1970s, the music's center moved to Manhattan and the [[Cheetah (nightclub)|Cheetah]]'). (https://en.wikipedia.org/wiki/Salsa_music?action=raw)",
+  "Record began 1965; the article puts the first self-identified salsa band in Cuba in 1955: 'The first self-identified salsa band is Cheo Marquetti y su Conjunto - Los Salseros which was formed in 1955 in Cuba.' and says the term was first used commercially in New York in the 1970s. (https://en.wikipedia.org/wiki/Salsa_music?action=raw)",
+  "Fania's founding is dated 'During the late 1960s' but the same article says 'Fania's first record album was \"Cañonazo\", recorded and released in 1964.' The article contradicts itself; the story uses neither 1964 nor a founding year. (https://en.wikipedia.org/wiki/Salsa_music?action=raw)",
+  "Record came_from mambo (principal) and son (other): the article treats son montuno as the primary basis ('Most songs considered as salsa are primarily based on [[son montuno]] and [[son cubano]]'), so son may deserve 'principal'. (https://en.wikipedia.org/wiki/Salsa_music?action=raw)"
+ ],
+ "notes": "Tree led_to timba is sourced (D'León's performance). Colombian and Venezuelan salsa are sourced via the 1980s sentence. Boogaloo (1966-68, between mambo and salsa) is in the article but left out for length."
+}

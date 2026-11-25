@@ -23,7 +23,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Hand back:** `stories.json` (`genre`, `story`: the text; `sentences`: each sentence with `url` and `quote`, or `opinion: true` for a linking sentence that states no fact), `sources.json` and `evidence-check.json`; only `found` sentences stay in a story. In the report: per genre, which beats are present, and every place where your sources disagree with our record.
 
 ## H27. Genre stories for the course, chapters 5 to 8
-- **State:** open
+- **State:** handed back 2026-11-24
 - **Model, ask, hand back:** as H26 with `genres.H27.json`.
 
 ## H28. Genre stories for the course, chapters 9 to 11

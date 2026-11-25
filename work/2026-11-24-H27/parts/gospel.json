@@ -1,0 +1,95 @@
+{
+ "genre": "gospel",
+ "story": "Chicago's established Black churches of the time discouraged clapping, stomping and improvising as unrefined. Thomas A. Dorsey moved to Chicago in 1919. From 1923 he led the band accompanying the blues shouter Ma Rainey. At the National Baptist Convention in 1930, Willie Mae Ford Smith sang his song \"If You See My Savior\". The convention publicly endorsed the music at that meeting, which is why 1930 is often given as the year Black gospel began. With Theodore Frye, music director of Ebenezer Baptist Church, Dorsey trained a new choir to sing his songs with a \"gospel blues\" sound. With Sallie Martin he set up Dorsey House of Music, the first Black-owned gospel publishing house in the United States. Apart from the words, he saw no real difference between blues and church music. Hundreds of thousands of migrants from the South, used to the blues, were coming to outnumber the church members who preferred European classical music. In 1936 members of Dorsey's junior choir became the Roberta Martin Singers. Sam Cooke of the Soul Stirrers, Ray Charles, Little Richard and James Brown went on to record both gospel and R&B.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "Chicago's established Black churches of the time discouraged clapping, stomping and improvising as unrefined.",
+   "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+   "quote": "Personal expressions such as clapping, stomping, and improvising with lyrics, rhythm, and melody were actively discouraged as being unrefined and degrading to the music and the singer."
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "Thomas A. Dorsey moved to Chicago in 1919.",
+   "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+   "quote": "Seeking a greater challenge, Dorsey relocated to Chicago in 1919"
+  },
+  {
+   "n": 3,
+   "beat": "before",
+   "text": "From 1923 he led the band accompanying the blues shouter Ma Rainey.",
+   "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+   "quote": "In 1923, he became the pianist and leader of the Wild Cats Jazz Band accompanying [[Gertrude \"Ma\" Rainey]], a charismatic and bawdy blues shouter"
+  },
+  {
+   "n": 4,
+   "beat": "who",
+   "text": "At the National Baptist Convention in 1930, Willie Mae Ford Smith sang his song \"If You See My Savior\".",
+   "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+   "quote": "he made an impression at the National Baptist Convention in 1930 when, unknown to him, [[Willie Mae Ford Smith]] sang \"If You See My Savior\" during a morning meeting"
+  },
+  {
+   "n": 5,
+   "beat": "who",
+   "text": "The convention publicly endorsed the music at that meeting, which is why 1930 is often given as the year Black gospel began.",
+   "url": "https://en.wikipedia.org/wiki/Gospel_music?action=raw",
+   "quote": "It has been said that 1930 was the year traditional black gospel music began, as the National Baptist Convention first publicly endorsed the music at its 1930 meeting."
+  },
+  {
+   "n": 6,
+   "beat": "who",
+   "text": "With Theodore Frye, music director of Ebenezer Baptist Church, Dorsey trained a new choir to sing his songs with a \"gospel blues\" sound.",
+   "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+   "quote": "Dorsey and Ebenezer's music director [[Theodore Frye]] trained the new chorus to deliver his songs with a gospel blues sound"
+  },
+  {
+   "n": 7,
+   "beat": "who",
+   "text": "With Sallie Martin he set up Dorsey House of Music, the first Black-owned gospel publishing house in the United States.",
+   "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+   "quote": "Dorsey and Martin established a publishing company called Dorsey House of Music, the first black-owned gospel publishing house in the U.S."
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "Apart from the words, he saw no real difference between blues and church music.",
+   "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+   "quote": "Aside from the lyrics, he saw no real distinction between blues and church music"
+  },
+  {
+   "n": 9,
+   "beat": "why",
+   "text": "Hundreds of thousands of migrants from the South, used to the blues, were coming to outnumber the church members who preferred European classical music.",
+   "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+   "quote": "Hundreds of thousands of newly arrived migrants from the South, with an appreciation of blues, began to outnumber an older guard of ministers and parishioners who favored classical European music in services."
+  },
+  {
+   "n": 10,
+   "beat": "after",
+   "text": "In 1936 members of Dorsey's junior choir became the Roberta Martin Singers.",
+   "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+   "quote": "In 1936, members of Dorsey's junior choir became the [[Roberta Martin Singers]]"
+  },
+  {
+   "n": 11,
+   "beat": "after",
+   "text": "Sam Cooke of the Soul Stirrers, Ray Charles, Little Richard and James Brown went on to record both gospel and R&B.",
+   "url": "https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw",
+   "quote": "[[Sam Cooke]], originally in the gospel band [[the Soul Stirrers]], [[Ray Charles]], [[Little Richard]], [[James Brown]], and [[the Coasters]] recorded both R&B and gospel songs"
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "Record began 1930 / origin Chicago agrees with the genre article: 'It has been said that 1930 was the year traditional black gospel music began, as the National Baptist Convention first publicly endorsed the music at its 1930 meeting.' (https://en.wikipedia.org/wiki/Gospel_music?action=raw). The same article traces gospel much earlier: 'Gospel music can be traced to the early 17th century.' and dates the term to 1874 (Philip Bliss); the record's 1930 start therefore describes Black gospel only.",
+  "Record ended 1970: no source gives an end. The Dorsey article speaks of 'Encountering a \"golden age\" between 1940 and 1960' (https://en.wikipedia.org/wiki/Thomas_A._Dorsey?action=raw); the genre article's next section says 'Urban contemporary gospel emerged in the late 1960s and early 70s' (Gospel_music), which fits a 1970 end but does not state one."
+ ],
+ "notes": "Most sentences come from the English Wikipedia article on Thomas A. Dorsey, because the genre article (Gospel_music) is mostly about white and Southern gospel hymnody and is thin on the Chicago story the record describes; one sentence (the 1930 start) is from Gospel_music. Not covered for want of space: Mahalia Jackson, the 1932 founding of the National Convention of Gospel Choirs and Choruses."
+}

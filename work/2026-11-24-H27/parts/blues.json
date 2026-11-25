@@ -1,0 +1,109 @@
+{
+ "genre": "blues",
+ "story": "Before the blues, enslaved people in the American South sang field hollers and ring shouts. After emancipation, Black farm workers moved from slavery into sharecropping. In 1903 W.C. Handy first heard the blues at Tutwiler, Mississippi. In 1920 Mamie Smith became the first African American to record a blues song. The women who sang it on the vaudeville stage were led by Ma Rainey, Bessie Smith and Lucille Bogan. In the Mississippi Delta, singers accompanied themselves on slide guitar. Charley Patton and Son House played it before Robert Johnson. In 1923 Sylvester Weaver was the first to record slide guitar, fretting the strings with a knife blade or a bottle neck. Okeh and Paramount began recording African-American music. Blues became a genre of its own as Black families left the countryside for the cities in the 1920s. Muddy Waters, Howlin' Wolf and Willie Dixon, all born in Mississippi, moved to Chicago. In 1948 Muddy Waters's \"I Can't Be Satisfied\" made Chicago a centre for electric blues. With jazz and gospel, the blues went into rhythm and blues.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "Before the blues, enslaved people in the American South sang field hollers and ring shouts.",
+   "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+   "quote": "A form of this pre-blues was heard in slave [[ring shout]]s and [[field holler]]s"
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "After emancipation, Black farm workers moved from slavery into sharecropping.",
+   "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+   "quote": "This period corresponds to the transition from slavery to [[sharecropping]]"
+  },
+  {
+   "n": 3,
+   "beat": "who",
+   "text": "In 1903 W.C. Handy first heard the blues at Tutwiler, Mississippi.",
+   "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+   "quote": "[[W.C. Handy]], who first heard the blues in [[Tutwiler, Mississippi]], in 1903"
+  },
+  {
+   "n": 4,
+   "beat": "who",
+   "text": "In 1920 Mamie Smith became the first African American to record a blues song.",
+   "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+   "quote": "was the first African American to record a blues song, in 1920"
+  },
+  {
+   "n": 5,
+   "beat": "who",
+   "text": "The women who sang it on the vaudeville stage were led by Ma Rainey, Bessie Smith and Lucille Bogan.",
+   "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+   "quote": "among them \"the big three\"—[[Ma Rainey|Gertrude \"Ma\" Rainey]], [[Bessie Smith]], and [[Lucille Bogan]]"
+  },
+  {
+   "n": 6,
+   "beat": "who",
+   "text": "In the Mississippi Delta, singers accompanied themselves on slide guitar.",
+   "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+   "quote": "The (Mississippi) Delta blues was a rootsy sparse style with passionate vocals accompanied by slide guitar."
+  },
+  {
+   "n": 7,
+   "beat": "who",
+   "text": "Charley Patton and Son House played it before Robert Johnson.",
+   "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+   "quote": "In addition to Robert Johnson, influential performers of this style included his predecessors [[Charley Patton]] and [[Son House]]."
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "In 1923 Sylvester Weaver was the first to record slide guitar, fretting the strings with a knife blade or a bottle neck.",
+   "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+   "quote": "was in 1923 the first to record the [[slide guitar]] style, in which a guitar is fretted with a knife blade or the sawed-off neck of a bottle"
+  },
+  {
+   "n": 9,
+   "beat": "why",
+   "text": "Okeh and Paramount began recording African-American music.",
+   "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+   "quote": "Several record companies, such as the [[American Record Corporation]], [[Okeh Records]], and [[Paramount Records]], began to record African-American music."
+  },
+  {
+   "n": 10,
+   "beat": "why",
+   "text": "Blues became a genre of its own as Black families left the countryside for the cities in the 1920s.",
+   "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+   "quote": "The notion of blues as a separate genre arose during the [[Great Migration (African American)|Black migration]] from the countryside to urban areas in the 1920s"
+  },
+  {
+   "n": 11,
+   "beat": "after",
+   "text": "Muddy Waters, Howlin' Wolf and Willie Dixon, all born in Mississippi, moved to Chicago.",
+   "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+   "quote": "[[Howlin' Wolf]], Muddy Waters, [[Willie Dixon]] and [[Jimmy Reed]] were all born in Mississippi and moved to Chicago during the Great Migration."
+  },
+  {
+   "n": 12,
+   "beat": "after",
+   "text": "In 1948 Muddy Waters's \"I Can't Be Satisfied\" made Chicago a centre for electric blues.",
+   "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+   "quote": "Chicago became a center for electric blues from 1948 on, when [[Muddy Waters]] recorded his first success, \"I Can't Be Satisfied\"."
+  },
+  {
+   "n": 13,
+   "beat": "after",
+   "text": "With jazz and gospel, the blues went into rhythm and blues.",
+   "url": "https://en.wikipedia.org/wiki/Blues?action=raw",
+   "quote": "which, together with [[jazz]] and [[gospel music]], became a component of R&B."
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "began: record says 1900; source puts the origins earlier: \"But the origins of the blues were some decades earlier, probably around 1890.\" (https://en.wikipedia.org/wiki/Blues?action=raw). The record's 1900 fits the first written reports and is arguably the start of the documented music, but the lead may want to note it.",
+  "_tree_came_from griot (other): the source is split. Against: \"the blues form itself bears no resemblance to the melodic styles of the West African [[griot]]s\"; for a narrower link: \"The [[Griot]] tradition of the Sahel also may have influenced [[talking blues]]\" (https://en.wikipedia.org/wiki/Blues?action=raw)."
+ ],
+ "notes": "All quotes are from the English Wikipedia article Blues (raw). The Mississippi Delta origin fits the source (\"it was simply the music of the rural South, notably the [[Mississippi Delta]]\") but the source also reports early blues in Texas, New Orleans and Missouri, so the Delta is one centre, not the only one. Not used: the Sahel/Islamic-influence material, which the article presents as competing scholarly views."
+}

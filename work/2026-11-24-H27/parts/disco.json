@@ -1,0 +1,103 @@
+{
+ "genre": "disco",
+ "story": "The discothèque came from France: Olivier Coquelin, a French expatriate, opened Le Club in Manhattan on New Year's Eve 1960. In Philadelphia in the early 1970s, the producers Gamble and Huff gave soul lush strings, thumping basslines and sliding hi-hats. On Valentine's Day 1970 the DJ David Mancuso held the first party at his Manhattan home, later called the Loft. Gay men, often harassed in bars, could dance there together without fear of the police. Alex Rosner put the crowd at about sixty percent black and seventy percent gay. Manu Dibango's \"Soul Makossa\", first released in France in 1972, was taken up by New York's underground disco scene. DJs mixed one record into the next with no break, so the dancing never stopped. Tom Moulton, wanting dance songs to last longer, made the extended mix on the 12-inch record. The films Saturday Night Fever (1977) and Thank God It's Friday (1978) took it into the mainstream. In the United States it declined after Disco Demolition Night on 12 July 1979. It stayed popular in Italy and other European countries through the 1980s. Frankie Knuckles, a disco DJ, went on to help develop house music in the 1980s.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "The discothèque came from France: Olivier Coquelin, a French expatriate, opened Le Club in Manhattan on New Year's Eve 1960.",
+   "url": "https://en.wikipedia.org/wiki/Disco?action=raw",
+   "quote": "by French expatriate [[Olivier Coquelin]], on New Year's Eve 1960"
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "In Philadelphia in the early 1970s, the producers Gamble and Huff gave soul lush strings, thumping basslines and sliding hi-hats.",
+   "url": "https://en.wikipedia.org/wiki/History_of_disco?action=raw",
+   "quote": "evolved from the simpler arrangements of the late-1960s into a style featuring lush strings, thumping basslines, and sliding hi-hat rhythms"
+  },
+  {
+   "n": 3,
+   "beat": "who",
+   "text": "On Valentine's Day 1970 the DJ David Mancuso held the first party at his Manhattan home, later called the Loft.",
+   "url": "https://en.wikipedia.org/wiki/History_of_disco?action=raw",
+   "quote": "He organized the first major party in his Manhattan home on Valentine's Day 1970"
+  },
+  {
+   "n": 4,
+   "beat": "why",
+   "text": "Gay men, often harassed in bars, could dance there together without fear of the police.",
+   "url": "https://en.wikipedia.org/wiki/History_of_disco?action=raw",
+   "quote": "they could dance together without fear of police action"
+  },
+  {
+   "n": 5,
+   "beat": "who",
+   "text": "Alex Rosner put the crowd at about sixty percent black and seventy percent gay.",
+   "url": "https://en.wikipedia.org/wiki/History_of_disco?action=raw",
+   "quote": "It was probably about sixty percent black and seventy percent gay."
+  },
+  {
+   "n": 6,
+   "beat": "who",
+   "text": "Manu Dibango's \"Soul Makossa\", first released in France in 1972, was taken up by New York's underground disco scene.",
+   "url": "https://en.wikipedia.org/wiki/History_of_disco?action=raw",
+   "quote": "it was picked up by the underground disco scene in New York"
+  },
+  {
+   "n": 7,
+   "beat": "why",
+   "text": "DJs mixed one record into the next with no break, so the dancing never stopped.",
+   "url": "https://en.wikipedia.org/wiki/Disco?action=raw",
+   "quote": "with one song transitioning to another with no break in the music to interrupt the dancing"
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "Tom Moulton, wanting dance songs to last longer, made the extended mix on the 12-inch record.",
+   "url": "https://en.wikipedia.org/wiki/History_of_disco?action=raw",
+   "quote": "who wanted to extend the enjoyment of dance songs"
+  },
+  {
+   "n": 9,
+   "beat": "after",
+   "text": "The films Saturday Night Fever (1977) and Thank God It's Friday (1978) took it into the mainstream.",
+   "url": "https://en.wikipedia.org/wiki/Disco?action=raw",
+   "quote": "Films such as ''[[Saturday Night Fever]]'' (1977) and ''[[Thank God It's Friday (film)|Thank God It's Friday]]'' (1978) contributed to disco's mainstream popularity."
+  },
+  {
+   "n": 10,
+   "beat": "after",
+   "text": "In the United States it declined after Disco Demolition Night on 12 July 1979.",
+   "url": "https://en.wikipedia.org/wiki/Disco?action=raw",
+   "quote": "Disco declined as a major trend in popular music in the United States following the infamous [[Disco Demolition Night]] on July 12, 1979"
+  },
+  {
+   "n": 11,
+   "beat": "after",
+   "text": "It stayed popular in Italy and other European countries through the 1980s.",
+   "url": "https://en.wikipedia.org/wiki/Disco?action=raw",
+   "quote": "it remained popular in [[Italo-disco|Italy]] and some European countries throughout the 1980s"
+  },
+  {
+   "n": 12,
+   "beat": "after",
+   "text": "Frankie Knuckles, a disco DJ, went on to help develop house music in the 1980s.",
+   "url": "https://en.wikipedia.org/wiki/History_of_disco?action=raw",
+   "quote": "Frankie Knuckles was not only an important disco DJ; he also helped to develop [[house music]] in the 1980s."
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "Began: record says 1974; Disco says it 'emerged in the late 1960s from the United States' urban [[nightclub|nightlife]] scene' (https://en.wikipedia.org/wiki/Disco?action=raw), and History of disco dates the Loft's first party to 1970. 1974 is roughly when the sources' list of early disco hits and the first disco radio show (WPIX-FM, 1974) fall, so it is defensible as a start of the recorded genre but earlier than the sources' start.",
+  "Origin: record says New York; Disco names 'New York City (especially [[Brooklyn]]), [[Philadelphia]], and [[Baltimore]]' and History of disco's infobox says 'Philadelphia and New York City'. The story includes Philadelphia (Gamble and Huff).",
+  "Ended: record says 1981; Disco says it declined after 12 July 1979 and 'continued to sharply decline in popularity in the U.S. during the early 1980s'. Consistent."
+ ],
+ "notes": "History_of_disco (https://en.wikipedia.org/wiki/History_of_disco?action=raw) carries a June 2026 'AI-generated' maintenance tag on its lead section; no quote was taken from that lead, only from the body sections (1960s-1974 precursors, early disco culture). Sentences 2-6 and 8 and 12 come from that article; the rest from Disco. The Dibango sentence's '1972, France' is in the same bullet as the quote on that page."
+}

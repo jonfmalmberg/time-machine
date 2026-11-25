@@ -1,0 +1,50 @@
+{
+ "id": "metal",
+ "name": "Heavy metal",
+ "region": "eur",
+ "family": "rock",
+ "tradition": "metalt",
+ "began": 1970,
+ "ended": 1990,
+ "origin": {
+  "text": "Birmingham, UK",
+  "lat": 52.48,
+  "lon": -1.9,
+  "country": "GB"
+ },
+ "definition": {
+  "window": "1970–1990",
+  "sound": "Loud, distorted guitar riff music with heavy drums and powerful or high vocals, descended from blues rock.",
+  "markers": [
+   "Distorted, down-picked guitar riffs",
+   "Twin lead guitar solos",
+   "Dark, fantastical or aggressive themes"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 3,
+  "fame": 5,
+  "intrigue": 1
+ },
+ "tier": 1,
+ "row": 0,
+ "_tree_led_to": [
+  "grunge (other)",
+  "hunnu (principal)",
+  "brostep (other)",
+  "thrash (principal)",
+  "indonesianrock (other)",
+  "banglarock (other)",
+  "malaysianrock (principal)",
+  "glammetal (principal)",
+  "visualkei (principal)",
+  "finnishmetal (principal)",
+  "norwegianblackmeta (other)",
+  "neuedeutscheharte (principal)"
+ ],
+ "_tree_came_from": [
+  "psych (principal)",
+  "chicagoblues (other)"
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "blues",
+ "name": "Early blues (Delta, country, classic)",
+ "region": "nam",
+ "family": "soul",
+ "tradition": "bluest",
+ "began": 1900,
+ "ended": 1950,
+ "origin": {
+  "text": "Mississippi Delta",
+  "lat": 33.75,
+  "lon": -90.7,
+  "country": "US"
+ },
+ "definition": {
+  "window": "1900–1950",
+  "sound": "The first recorded blues: solo Delta guitarists and the classic women blues singers.",
+  "markers": [
+   "12-bar, AAB lyric form",
+   "Blue notes and bent strings",
+   "Solo acoustic guitar, or piano and small band"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 4,
+  "fame": 4,
+  "intrigue": 2
+ },
+ "tier": 1,
+ "row": 2,
+ "_tree_led_to": [
+  "country (other)",
+  "jazz (other)",
+  "gospel (other)",
+  "rnb (principal)",
+  "desertblues (other)",
+  "chicagoblues (principal)",
+  "zydeco (principal)"
+ ],
+ "_tree_came_from": [
+  "spirituals (principal)",
+  "griot (other)"
+ ]
+}

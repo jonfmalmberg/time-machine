@@ -1,0 +1,36 @@
+{
+ "id": "mariachi",
+ "name": "Mariachi and ranchera",
+ "region": "latam",
+ "family": "mainland",
+ "tradition": "mexican",
+ "began": 1900,
+ "ended": null,
+ "origin": {
+  "text": "Jalisco",
+  "lat": 20.67,
+  "lon": -103.35,
+  "country": "MX"
+ },
+ "definition": {
+  "window": "1900 onward",
+  "sound": "Mexican ensemble of violins, trumpets, vihuela and guitarrón backing a powerful solo singer in rancheras and sones.",
+  "markers": [
+   "Violins and two trumpets over guitarrón bass",
+   "Big operatic vocal with held notes and grito shouts",
+   "Ranchera waltzes and polkas about pride and heartbreak"
+  ]
+ },
+ "judgements": {
+  "significance": 4,
+  "ease": 4,
+  "fame": 5,
+  "intrigue": 2
+ },
+ "tier": 1,
+ "row": 11,
+ "_tree_led_to": [],
+ "_tree_came_from": [
+  "iberianpop (principal)"
+ ]
+}

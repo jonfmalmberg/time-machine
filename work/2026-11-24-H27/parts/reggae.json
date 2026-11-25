@@ -1,0 +1,103 @@
+{
+ "genre": "reggae",
+ "story": "Reggae grew out of the ska and rocksteady of 1960s Jamaica. Many of its records were built on rocksteady rhythms, slowed enough for a doubled offbeat guitar stroke. The first reggae records came out in early 1968: \"Nanny Goat\" by Larry Marshall and \"No More Heartaches\" by the Beltones. That year the Maytals' \"Do the Reggay\" put the word in print. As record shops spread, producers such as Bunny Lee and Harry J could start out without a sound system or shop of their own. Rastafari shaped the songs: Burning Spear recalled musicians drawing on its emphasis on Africa. In 1968 the Kingston sound-system operator Ruddy Redwood went to Duke Reid's Treasure Isle studio to cut a dub plate. Engineer Byron Smith left the vocal out by accident, and Redwood kept the result. By 1973 these instrumental \"versions\", made in rival studios, had become dub. That year Lee \"Scratch\" Perry released Blackboard Jungle Dub, mixed with King Tubby. In South London, singers such as Carroll Thompson and Janet Kay led lovers rock. British reggae in turn fed drum and bass and dubstep.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "Reggae grew out of the ska and rocksteady of 1960s Jamaica.",
+   "url": "https://en.wikipedia.org/wiki/Reggae?action=raw",
+   "quote": "Reggae's direct origins are in the [[ska]] and [[rocksteady]] of 1960s Jamaica"
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "Many of its records were built on rocksteady rhythms, slowed enough for a doubled offbeat guitar stroke.",
+   "url": "https://en.wikipedia.org/wiki/Reggae?action=raw",
+   "quote": "Many rocksteady rhythms later were used as the basis of reggae recordings, whose slower tempos allowed for the \"double skank\" guitar strokes on the offbeat."
+  },
+  {
+   "n": 3,
+   "beat": "who",
+   "text": "The first reggae records came out in early 1968: \"Nanny Goat\" by Larry Marshall and \"No More Heartaches\" by the Beltones.",
+   "url": "https://en.wikipedia.org/wiki/Reggae?action=raw",
+   "quote": "Early 1968 was when the first ''bona fide'' reggae records were released: \"Nanny Goat\" by [[Larry Marshall (singer)|Larry Marshall]] and \"No More Heartaches\" by the Beltones."
+  },
+  {
+   "n": 4,
+   "beat": "who",
+   "text": "That year the Maytals' \"Do the Reggay\" put the word in print.",
+   "url": "https://en.wikipedia.org/wiki/Reggae?action=raw",
+   "quote": "as a musical term first appeared in print with the 1968 [[rocksteady]] hit"
+  },
+  {
+   "n": 5,
+   "beat": "why",
+   "text": "As record shops spread, producers such as Bunny Lee and Harry J could start out without a sound system or shop of their own.",
+   "url": "https://en.wikipedia.org/wiki/Reggae?action=raw",
+   "quote": "This shift enabled a new generation of independent producers, such as [[Bunny Lee]] and [[Harry J]], to enter the industry without operating their own sound systems or retail shops."
+  },
+  {
+   "n": 6,
+   "beat": "why",
+   "text": "Rastafari shaped the songs: Burning Spear recalled musicians drawing on its emphasis on Africa.",
+   "url": "https://en.wikipedia.org/wiki/Reggae?action=raw",
+   "quote": "musicians drew on the movement's emphasis on Africa and culture"
+  },
+  {
+   "n": 7,
+   "beat": "who",
+   "text": "In 1968 the Kingston sound-system operator Ruddy Redwood went to Duke Reid's Treasure Isle studio to cut a dub plate.",
+   "url": "https://en.wikipedia.org/wiki/Dub_music?action=raw",
+   "quote": "In 1968, Kingston, Jamaica, sound system operator [[Rudolph \"Ruddy\" Redwood]] went to [[Duke Reid]]'s [[Treasure Isle]] studio to cut a one-off [[dub plate]]"
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "Engineer Byron Smith left the vocal out by accident, and Redwood kept the result.",
+   "url": "https://en.wikipedia.org/wiki/Dub_music?action=raw",
+   "quote": "Engineer Byron Smith left the vocal track out by accident, but Redwood kept the result."
+  },
+  {
+   "n": 9,
+   "beat": "why",
+   "text": "By 1973 these instrumental \"versions\", made in rival studios, had become dub.",
+   "url": "https://en.wikipedia.org/wiki/Dub_music?action=raw",
+   "quote": "By 1973, through the efforts of several independent and competitive innovators, engineers, and producers, instrumental reggae \"versions\""
+  },
+  {
+   "n": 10,
+   "beat": "who",
+   "text": "That year Lee \"Scratch\" Perry released Blackboard Jungle Dub, mixed with King Tubby.",
+   "url": "https://en.wikipedia.org/wiki/Dub_music?action=raw",
+   "quote": "In 1973, [[Lee \"Scratch\" Perry]] released ''[[Upsetters 14 Dub Blackboard Jungle|Blackboard Jungle Dub]]'', mixed in collaboration with [[King Tubby]]"
+  },
+  {
+   "n": 11,
+   "beat": "after",
+   "text": "In South London, singers such as Carroll Thompson and Janet Kay led lovers rock.",
+   "url": "https://en.wikipedia.org/wiki/Reggae?action=raw",
+   "quote": "the South London genre was led by female singers like Thompson and [[Janet Kay]]"
+  },
+  {
+   "n": 12,
+   "beat": "after",
+   "text": "British reggae in turn fed drum and bass and dubstep.",
+   "url": "https://en.wikipedia.org/wiki/Reggae?action=raw",
+   "quote": "this fusion of Jamaican music into English culture was seminal in the formation of other musical forms like [[drum and bass]] and [[dubstep]]"
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "Record began 1968 agrees with the sources (first reggae records 1968). Record ended 1985 is not addressed by either source; neither gives an end date. (https://en.wikipedia.org/wiki/Reggae?action=raw)",
+  "Dub is credited to 1968 experiments but became a named subgenre only by 1973: 'By 1973, through the efforts of several independent and competitive innovators, engineers, and producers, instrumental reggae \"versions\"' (https://en.wikipedia.org/wiki/Dub_music?action=raw); the record's single 1968 start covers both.",
+  "The Dub_music article says the first-year date is disputed: 'Another source puts 1967 and not 1968 as the initial year of the practice of putting instrumental versions' (https://en.wikipedia.org/wiki/Dub_music?action=raw)."
+ ],
+ "notes": "The dub beat comes from the English 'Dub music' article (the reggae article has no dub history). Tree led_to hiphop, jungle, dubstep, trip hop: only dubstep and drum and bass are sourced here (Reggae article); Dub_music lists jungle, trip hop and hip-hop among genres dub 'influenced, and has in turn influenced' but that sentence is tagged original research, so it was not used. Sentence 5 opens 'As record shops spread', which comes from the sentence before its quote on the same page ('Increased retail sales of records led to the expansion of specialist record shops'). Origin Kingston is supported only in the dub beat (Redwood, 1968)."
+}

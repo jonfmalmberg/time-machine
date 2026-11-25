@@ -1,0 +1,109 @@
+{
+ "genre": "samba",
+ "story": "Rio's urban samba drew on rural dance traditions from across Brazil. After slavery was abolished, Black Bahians moved to Rio in growing numbers. Women from Bahia, the \"Tias Baianas\", founded the city's first Candomblé terreiros. Their homes held cooking and the gatherings called pagodes, where urban samba grew. Regulars at Tia Ciata's house included Sinhô, Pixinguinha, Heitor dos Prazeres, João da Baiana and Donga. \"Pelo Telefone\", released on 19 January 1917, was a hit at that year's Rio carnival. Donga registered it under his name, and contemporaries said he had taken a collective song. Musicians in the Estácio neighbourhood made a samba with a faster tempo and longer notes. Ismael Silva and his companions marked the beat on the surdo, making the rhythm more syncopated. To avoid police harassment, they organised themselves into what they called samba schools. Their Deixa Falar was the first carnival group to use a bateria of surdo, tamborim and cuíca. Between 1931 and 1940 samba was the most recorded genre in Brazil. Later, a new way of accompanying and singing samba, spread from Rio's South Zone, became known as bossa nova.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "Rio's urban samba drew on rural dance traditions from across Brazil.",
+   "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+   "quote": "Urban Carioca samba was influenced by several traditions associated with the universe of rural communities throughout Brazil."
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "After slavery was abolished, Black Bahians moved to Rio in growing numbers.",
+   "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+   "quote": "this influx of black Bahians to Rio lands increased considerably after [[Lei Áurea|the abolition of slavery in Brazil]]"
+  },
+  {
+   "n": 3,
+   "beat": "who",
+   "text": "Women from Bahia, the \"Tias Baianas\", founded the city's first Candomblé terreiros.",
+   "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+   "quote": "the \"Tias Baianas\" (literally, \"Bahian Aunts\") founded the first [[Candomblé]] terreiros"
+  },
+  {
+   "n": 4,
+   "beat": "who",
+   "text": "Their homes held cooking and the gatherings called pagodes, where urban samba grew.",
+   "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+   "quote": "hosted various community activities, such as cooking and the pagodes, where urban Rio samba would develop"
+  },
+  {
+   "n": 5,
+   "beat": "who",
+   "text": "Regulars at Tia Ciata's house included Sinhô, Pixinguinha, Heitor dos Prazeres, João da Baiana and Donga.",
+   "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+   "quote": "Among some of its members regulars were {{ill|Sinhô|pt}}, [[Pixinguinha]], Heitor dos Prazeres, {{ill|João da Baiana|pt}}, [[Donga (musician)|Donga]]"
+  },
+  {
+   "n": 6,
+   "beat": "who",
+   "text": "\"Pelo Telefone\", released on 19 January 1917, was a hit at that year's Rio carnival.",
+   "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+   "quote": "Released in [[Phonograph record|78 rpm]] format on 19 January 1917, \"Pelo Telefone\" became a huge hit in that year's Rio carnival."
+  },
+  {
+   "n": 7,
+   "beat": "who",
+   "text": "Donga registered it under his name, and contemporaries said he had taken a collective song.",
+   "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+   "quote": "accused him of appropriating a collective, anonymous creation, registering it as his own"
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "Musicians in the Estácio neighbourhood made a samba with a faster tempo and longer notes.",
+   "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+   "quote": "the samba do Estácio innovated with a faster tempo, longer notes and a cadence beyond the traditional palms."
+  },
+  {
+   "n": 9,
+   "beat": "why",
+   "text": "Ismael Silva and his companions marked the beat on the surdo, making the rhythm more syncopated.",
+   "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+   "quote": "the [[surdo]] in marking the cadence of the samba, making it a more syncopated rhythm"
+  },
+  {
+   "n": 10,
+   "beat": "why",
+   "text": "To avoid police harassment, they organised themselves into what they called samba schools.",
+   "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+   "quote": "To avoid police harassment and gain social legitimacy, Estácio's samba musicians decided to link their batucadas to carnival samba and organized themselves in what they christened as samba schools."
+  },
+  {
+   "n": 11,
+   "beat": "why",
+   "text": "Their Deixa Falar was the first carnival group to use a bateria of surdo, tamborim and cuíca.",
+   "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+   "quote": "the first carnival association to use the group in the future known as [[bateria]], a unit made up of percussion instruments such as the surdo, [[tamborim]]s and [[cuíca]]s"
+  },
+  {
+   "n": 12,
+   "beat": "after",
+   "text": "Between 1931 and 1940 samba was the most recorded genre in Brazil.",
+   "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+   "quote": "Between 1931 and 1940 samba was the most recorded genre music in Brazil"
+  },
+  {
+   "n": 13,
+   "beat": "after",
+   "text": "Later, a new way of accompanying and singing samba, spread from Rio's South Zone, became known as bossa nova.",
+   "url": "https://en.wikipedia.org/wiki/Samba?action=raw",
+   "quote": "a new style of rhythmic accompaniment and interpretation of samba spread from the [[South Zone (Rio de Janeiro)|South Zone of Rio de Janeiro]] became known"
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "began: record says 1917; source agrees that \"Pelo Telefone\" (released 19 January 1917) is usually taken as the start, but notes earlier records labelled samba: \"Its primacy as \\\"the first samba in history\\\" has, however, been questioned by some scholars\" (https://en.wikipedia.org/wiki/Samba?action=raw), citing 1913 and 1914 recordings.",
+  "_tree_came_from: the source fits both neighbours (lundu named among rural roots; the opening section says the guitar and cavaquinho accompaniment is one \"whose inspiration is [[choro]]\"), but it names maxixe as the main model for the first recorded sambas: \"structural similarities to the [[Lundu (dance)|lundu]] and, mainly, to the [[Maxixe (dance)|maxixe]]\" (https://en.wikipedia.org/wiki/Samba?action=raw). Maxixe is not a tree neighbour; the lead may want to check."
+ ],
+ "notes": "All quotes from the English Wikipedia article Samba (raw). The Tia Ciata names sentence quotes a list that the article introduces with \"Among some of its members regulars were\", where \"its\" is Tia Ciata's home in the preceding sentence. The Deixa Falar claim is about being the first to use a bateria; the article says its claim to being the first samba school is contested by Portela and Mangueira, and the story does not claim that. Not used: pagode (1970s) — a usable quote exists but did not fit the word limit."
+}

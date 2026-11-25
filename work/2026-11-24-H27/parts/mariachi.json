@@ -1,0 +1,103 @@
+{
+ "genre": "mariachi",
+ "story": "Mariachi grew out of the son jalisciense, the string music of the Jalisco area. Its early players used only guitars and harps and dressed in peasant clothes. Most sources place its birth in the town of Cocula, Jalisco, in the 19th century. Gaspar Vargas founded the group later called Mariachi Vargas de Tecalitlán in the late 1890s. In 1905 a hacienda family brought a mariachi from Cocula to Mexico City to play for President Porfirio Díaz. After the Mexican Revolution the haciendas let their musicians go, and groups wandered and played for a fee, which made them add waltzes and polkas. Farm workers from Jalisco who moved to the capital settled around Plaza Garibaldi. The fashion for jazz and Cuban music brought in the trumpet and pushed the violins back. Tito Guízar was the first film charro to sing mariachi, in Allá en el Rancho Grande in 1936. Silvestre Vargas and his arranger Rubén Fuentes then standardised much of the repertoire. Lola Beltrán and Lucha Villa became the first women mariachi singers. The films also made the music a symbol of ethnic pride for Mexican Americans in the United States.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "Mariachi grew out of the son jalisciense, the string music of the Jalisco area.",
+   "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+   "quote": "Modern mariachi music developed from this ''son'' style, with ''mariachi'' as an alternative name for ''son jalisciense''"
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "Its early players used only guitars and harps and dressed in peasant clothes.",
+   "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+   "quote": "they played only string instruments such as guitars and harps and dressed in typical peasant clothing"
+  },
+  {
+   "n": 3,
+   "beat": "who",
+   "text": "Most sources place its birth in the town of Cocula, Jalisco, in the 19th century.",
+   "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+   "quote": "Most sources agree that the modern mariachi originated in the town of [[Cocula, Jalisco|Cocula]], [[Jalisco]], during the 19th century"
+  },
+  {
+   "n": 4,
+   "beat": "who",
+   "text": "Gaspar Vargas founded the group later called Mariachi Vargas de Tecalitlán in the late 1890s.",
+   "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+   "quote": "founded by [[Gaspar Vargas]] in the late 1890s"
+  },
+  {
+   "n": 5,
+   "beat": "who",
+   "text": "In 1905 a hacienda family brought a mariachi from Cocula to Mexico City to play for President Porfirio Díaz.",
+   "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+   "quote": "a wealthy ''hacienda'' family brought an early mariachi from Cocula to play for President [[Porfirio Díaz]] in 1905"
+  },
+  {
+   "n": 6,
+   "beat": "why",
+   "text": "After the Mexican Revolution the haciendas let their musicians go, and groups wandered and played for a fee, which made them add waltzes and polkas.",
+   "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+   "quote": "Groups began to wander and play for a fee, which obliged them to incorporate other music into their repertoires, including waltzes and polkas"
+  },
+  {
+   "n": 7,
+   "beat": "why",
+   "text": "Farm workers from Jalisco who moved to the capital settled around Plaza Garibaldi.",
+   "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+   "quote": "many farm workers moved to the city, including those from Jalisco, which settled around [[Plaza Garibaldi]]"
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "The fashion for jazz and Cuban music brought in the trumpet and pushed the violins back.",
+   "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+   "quote": "the popularity of [[jazz]] and [[Cuban music]] introduced the trumpet into mariachi, pushing the violins into a secondary role"
+  },
+  {
+   "n": 9,
+   "beat": "why",
+   "text": "Tito Guízar was the first film charro to sing mariachi, in Allá en el Rancho Grande in 1936.",
+   "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+   "quote": "the first to sing mariachi was [[Tito Guízar]] in ''[[Allá en el Rancho Grande]]'' in 1936"
+  },
+  {
+   "n": 10,
+   "beat": "after",
+   "text": "Silvestre Vargas and his arranger Rubén Fuentes then standardised much of the repertoire.",
+   "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+   "quote": "Fuentes along with Vargas were instrumental in the standardization of much of mariachi music"
+  },
+  {
+   "n": 11,
+   "beat": "after",
+   "text": "Lola Beltrán and Lucha Villa became the first women mariachi singers.",
+   "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+   "quote": "the first female mariachi performers, [[Lola Beltrán]] and [[Lucha Villa]]"
+  },
+  {
+   "n": 12,
+   "beat": "after",
+   "text": "The films also made the music a symbol of ethnic pride for Mexican Americans in the United States.",
+   "url": "https://en.wikipedia.org/wiki/Mariachi?action=raw",
+   "quote": "Its use in film also made the music popular and a symbol of ethnic pride for Mexican Americans in the United States."
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "Began: the record says 1900; the article puts the genre's separation from son jalisciense in the 19th century (\"The distinction of mariachi from the older son jalisciense occurred slowly sometime during the 19th&nbsp;century.\", https://en.wikipedia.org/wiki/Mariachi?action=raw) and the infobox gives \"18th century, [[Cocula, Jalisco]]\". The first recordings (1908-1909) and the 1905 Mexico City visit fit a 1900s start for the recorded/urban form.",
+  "Tree: the record's only parent is iberianpop. The article names son jalisciense as the parent (\"Modern mariachi music developed from this ''son'' style\", https://en.wikipedia.org/wiki/Mariachi?action=raw) and Spanish instruments and ensembles as the earlier root; it says nothing of a popular-song parent.",
+  "Sound: the record's marker 'two trumpets' matches (\"two trumpets and at least one guitar\", https://en.wikipedia.org/wiki/Mariachi?action=raw); the record's 'powerful solo singer' differs from the article's \"There is generally no lead singer as in other kinds of groups, with all players singing choruses and taking turns singing the lead.\" (https://en.wikipedia.org/wiki/Mariachi?action=raw)"
+ ],
+ "notes": "All sentences from the English Wikipedia article 'Mariachi'. Ranchera (half of the record's name) is not covered: I did not take a separate sourced sentence on ranchera song; the lead may want one from the 'Ranchera' article. Sentence 4 says 'the group later called Mariachi Vargas de Tecalitlán'; the quote covers only 'founded by Gaspar Vargas in the late 1890s', and the article names the group in the same sentence. Sentence 6's 'haciendas let their musicians go' is from the preceding sentence in the article ('many ''haciendas'' had to let workers go, including mariachis'); the quote covers the rest."
+}

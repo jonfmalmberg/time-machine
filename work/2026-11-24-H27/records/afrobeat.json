@@ -1,0 +1,40 @@
+{
+ "id": "afrobeat",
+ "name": "Afrobeat",
+ "region": "afr",
+ "family": "africa",
+ "tradition": "westafrpop",
+ "began": 1970,
+ "ended": null,
+ "origin": {
+  "text": "Lagos",
+  "lat": 6.52,
+  "lon": 3.38,
+  "country": "NG"
+ },
+ "definition": {
+  "window": "1970 onward",
+  "sound": "Long Lagos funk-jazz jams: interlocking guitars, a big horn section, and a steady drum groove under political chant and call and response.",
+  "markers": [
+   "Tracks of ten minutes or more built on one vamp",
+   "Tony Allen-style drumming with shekere and clave",
+   "Horn riffs and political, pidgin call and response"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 4,
+  "fame": 4,
+  "intrigue": 4
+ },
+ "tier": 1,
+ "row": 8,
+ "_tree_led_to": [
+  "nigerianreggae (other)"
+ ],
+ "_tree_came_from": [
+  "highlife (principal)",
+  "funk (other)",
+  "modjazz (other)"
+ ]
+}

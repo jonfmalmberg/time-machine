@@ -1,0 +1,104 @@
+{
+ "genre": "bossa",
+ "story": "In the late 1950s the slower samba-canção was the main rhythm in Brazilian music. Samba guitarists had been playing complex chord arrangements since the early 1920s. The nightclubs of Beco das Garrafas, a small dead-end alley in Copacabana, were where it took shape. On Elizeth Cardoso's album Canção do Amor Demais, João Gilberto played guitar on two songs by Tom Jobim and Vinicius de Moraes. Gilberto cut the samba drum band down to one guitar: his thumb played the surdo's part, his fingers the tamborim's. He also sang quietly, where Brazilian singers before him had used brassy, almost operatic voices. His LP Chega de Saudade, released in 1959, fixed bossa nova as a new way of playing samba. Young amateur musicians from Rio's South Zone, such as Carlos Lyra and Nara Leão, joined them. On 21 November 1962 Brazil's consulate presented bossa nova at Carnegie Hall in New York. In 1964 Gilberto, Jobim and Stan Getz released Getz/Gilberto, which won Grammy Awards. In Japan, Sadao Watanabe's 1967 album Jazz & Bossa set off a bossa nova boom. At home, MPB followed; its start is often tied to Elis Regina singing Vinicius de Moraes and Edu Lobo's \"Arrastão\".",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "In the late 1950s the slower samba-canção was the main rhythm in Brazilian music.",
+   "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+   "quote": "The style emerged at the time when [[samba-canção]]"
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "Samba guitarists had been playing complex chord arrangements since the early 1920s.",
+   "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+   "quote": "samba guitar players have been using similar [[arrangement]] structures since the early 1920s"
+  },
+  {
+   "n": 3,
+   "beat": "who",
+   "text": "The nightclubs of Beco das Garrafas, a small dead-end alley in Copacabana, were where it took shape.",
+   "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+   "quote": "a small dead-end alley in Copacabana, is considered a historical cradle of bossa nova"
+  },
+  {
+   "n": 4,
+   "beat": "who",
+   "text": "On Elizeth Cardoso's album Canção do Amor Demais, João Gilberto played guitar on two songs by Tom Jobim and Vinicius de Moraes.",
+   "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+   "quote": "Its first appearance was on the album ''[[Canção do Amor Demais]]'', in which the singer [[Elizeth Cardoso]] recorded two compositions"
+  },
+  {
+   "n": 5,
+   "beat": "why",
+   "text": "Gilberto cut the samba drum band down to one guitar: his thumb played the surdo's part, his fingers the tamborim's.",
+   "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+   "quote": "the thumb stylized a [[surdo]]; the index, middle and ring fingers phrased like a [[tamborim]]"
+  },
+  {
+   "n": 6,
+   "beat": "why",
+   "text": "He also sang quietly, where Brazilian singers before him had used brassy, almost operatic voices.",
+   "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+   "quote": "Prior to bossa nova, Brazilian singers employed brassy, almost operatic styles."
+  },
+  {
+   "n": 7,
+   "beat": "who",
+   "text": "His LP Chega de Saudade, released in 1959, fixed bossa nova as a new way of playing samba.",
+   "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+   "quote": "With the LP ''[[Chega de Saudade (album)|Chega de Saudade]]'', released in 1959, Gilberto consolidated the bossa nova as a new style of playing samba."
+  },
+  {
+   "n": 8,
+   "beat": "who",
+   "text": "Young amateur musicians from Rio's South Zone, such as Carlos Lyra and Nara Leão, joined them.",
+   "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+   "quote": "which attracted young amateur musicians from the [[South Zone (Rio de Janeiro)|South Zone of Rio]] – such as [[Marcos Valle]], [[Carlos Lyra]], [[Roberto Menescal]], Ronaldo Bôscoli and [[Nara Leão]]"
+  },
+  {
+   "n": 9,
+   "beat": "after",
+   "text": "On 21 November 1962 Brazil's consulate presented bossa nova at Carnegie Hall in New York.",
+   "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+   "quote": "On 21 November 1962, the [[List of diplomatic missions of Brazil#Americas|Consulate-General of Brazil]] presented ''Bossa Nova'' at [[Carnegie Hall]]."
+  },
+  {
+   "n": 10,
+   "beat": "after",
+   "text": "In 1964 Gilberto, Jobim and Stan Getz released Getz/Gilberto, which won Grammy Awards.",
+   "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+   "quote": "In 1964, João Gilberto, Stan Getz and Tom Jobim released the [[Grammy Awards]]-winning album ''[[Getz/Gilberto]]''."
+  },
+  {
+   "n": 11,
+   "beat": "after",
+   "text": "In Japan, Sadao Watanabe's 1967 album Jazz & Bossa set off a bossa nova boom.",
+   "url": "https://en.wikipedia.org/wiki/Bossa_nova?action=raw",
+   "quote": "[[Sadao Watanabe (musician)|Sadao Watanabe]]'s 1967 album \"Jazz & Bossa\" after his return from the United States ignited a bossa nova boom in Japan"
+  },
+  {
+   "n": 12,
+   "beat": "after",
+   "text": "At home, MPB followed; its start is often tied to Elis Regina singing Vinicius de Moraes and Edu Lobo's \"Arrastão\".",
+   "url": "https://en.wikipedia.org/wiki/Música_popular_brasileira?action=raw",
+   "quote": "The beginning of MPB is often associated with [[Elis Regina]]'s interpretation of [[Vinícius de Moraes]] and [[Edu Lobo]]'s \"Arrastão.\""
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "Sound/came_from: record lists modjazz as a parent and the sound as 'jazz chords'; Bossa_nova says 'A common misconception is that these complex chords and harmonies were derived from [[jazz]], but samba guitar players have been using similar [[arrangement]] structures since the early 1920s', while also saying 'bossa nova was influenced by jazz' (https://en.wikipedia.org/wiki/Bossa_nova?action=raw). Not a contradiction of the 'other' jazz link, but the record's wording 'jazz chords' is the view the article calls a misconception.",
+  "Began: record says 1958; Bossa_nova says 'developed in the late 1950s and early 1960s' and calls the 1959 LP Chega de Saudade 'the landmark of the birth of bossa nova'. The Cardoso album (Canção do Amor Demais) is not dated in the article, so 1958 is not confirmed by this source.",
+  "Ended: record says 1970; no source found for an end year. The article traces bossa nova abroad into the 1960s-70s and later revivals.",
+  "Led_to: record has shibuyakei as a successor; the article supports a Japanese bossa nova boom from 1967 but does not name Shibuya-kei."
+ ],
+ "notes": "Sentence 1's quote ('The style emerged at the time when [[samba-canção]]') is cut short because the raw text has an {{efn}} footnote between 'samba-canção' and 'was the dominant rhythm in the Brazilian music scene'; the two halves are in one sentence of the page. MPB sentence comes from the English MPB article (https://en.wikipedia.org/wiki/Música_popular_brasileira?action=raw), not the bossa article. Portuguese Wikipedia was not needed. A dated 1965 festival sentence was dropped only to stay under 200 words; it is found on the MPB page if wanted."
+}

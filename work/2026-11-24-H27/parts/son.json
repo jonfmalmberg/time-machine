@@ -1,0 +1,117 @@
+{
+ "genre": "son",
+ "story": "Most musicologists place son's earliest forms in Cuba's Oriente Province. They were made by peasants, many of Bantu origin, unlike the Afro-Cubans of the island's west. Their guitars are thought to have given rise to the tres around 1890 in Baracoa. After slavery was abolished in 1886, many freed people moved into the solares of Havana's poor neighbourhoods. In 1917 the Cuarteto Oriental recorded the first son in the Columbia catalogue. In 1920 it became the Sexteto Habanero. Around 1910 son most likely took the clave rhythm from Havana's rumba. The Habanero's guitar, tres, bongos, claves, maracas and double bass set the line-up of the son sextet. Radio arrived in 1922. Between 1925 and 1928 son moved from the margins to become perhaps Cuba's most popular music. In the late 1920s sextets became septets, with Ignacio Piñeiro's Septeto Nacional among them. In the 1940s Arsenio Rodríguez became son's most influential player. Mambo, from the later 1940s, carried many traits of son. After the Cuban Revolution, son, mambo and rumba fed into salsa, first in New York.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "Most musicologists place son's earliest forms in Cuba's Oriente Province.",
+   "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+   "quote": "the direct ancestors (or earliest forms) of the son appeared in Cuba's [[Oriente Province]]"
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "They were made by peasants, many of Bantu origin, unlike the Afro-Cubans of the island's west.",
+   "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+   "quote": "were developed by peasants, many of which were of [[Bantu peoples|Bantu]] origin, in contrast to the Afro-Cubans of the western side of the island"
+  },
+  {
+   "n": 3,
+   "beat": "before",
+   "text": "Their guitars are thought to have given rise to the tres around 1890 in Baracoa.",
+   "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+   "quote": "Such early guitars are thought to have given rise to the tres some time around 1890 in [[Baracoa]]."
+  },
+  {
+   "n": 4,
+   "beat": "who",
+   "text": "After slavery was abolished in 1886, many freed people moved into the solares of Havana's poor neighbourhoods.",
+   "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+   "quote": "recently liberated after the abolition of slavery in 1886 went to live in the slums \"solares\" of low class neighborhoods in Havana"
+  },
+  {
+   "n": 5,
+   "beat": "who",
+   "text": "In 1917 the Cuarteto Oriental recorded the first son in the Columbia catalogue.",
+   "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+   "quote": "In 1917, the Cuarteto Oriental recorded the first son documented on the catalog of Columbia Records"
+  },
+  {
+   "n": 6,
+   "beat": "who",
+   "text": "In 1920 it became the Sexteto Habanero.",
+   "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+   "quote": "In 1920, the Cuarteto Oriental became a sextet and was renamed as [[Sexteto Habanero]]."
+  },
+  {
+   "n": 7,
+   "beat": "why",
+   "text": "Around 1910 son most likely took the clave rhythm from Havana's rumba.",
+   "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+   "quote": "Around 1910 the son most likely adopted the [[clave rhythm]] from the Havana-based [[Cuban rumba|rumba]]"
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "The Habanero's guitar, tres, bongos, claves, maracas and double bass set the line-up of the son sextet.",
+   "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+   "quote": "This group established the \"classical\" configuration of the son sextet composed of guitar, tres, bongos, claves, maracas and double bass."
+  },
+  {
+   "n": 9,
+   "beat": "why",
+   "text": "Radio arrived in 1922.",
+   "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+   "quote": "Popularization began in earnest with the arrival of radio broadcasting in 1922"
+  },
+  {
+   "n": 10,
+   "beat": "why",
+   "text": "Between 1925 and 1928 son moved from the margins to become perhaps Cuba's most popular music.",
+   "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+   "quote": "The son experienced a period of transformation from 1925 to 1928, when it evolved from a marginal genre of music to perhaps the most popular type of music in Cuba."
+  },
+  {
+   "n": 11,
+   "beat": "why",
+   "text": "In the late 1920s sextets became septets, with Ignacio Piñeiro's Septeto Nacional among them.",
+   "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+   "quote": "in the late 1920s, son sextets became septets and son's popularity continued to grow with artists like [[Septeto Nacional]] and its leader [[Ignacio Piñeiro]]"
+  },
+  {
+   "n": 12,
+   "beat": "after",
+   "text": "In the 1940s Arsenio Rodríguez became son's most influential player.",
+   "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+   "quote": "In the 1940s, [[Arsenio Rodríguez]] became the most influential player of son."
+  },
+  {
+   "n": 13,
+   "beat": "after",
+   "text": "Mambo, from the later 1940s, carried many traits of son.",
+   "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+   "quote": "genres of the later 1940s such as [[Mambo (music)|mambo]] manifest many characteristics derived from son"
+  },
+  {
+   "n": 14,
+   "beat": "after",
+   "text": "After the Cuban Revolution, son, mambo and rumba fed into salsa, first in New York.",
+   "url": "https://en.wikipedia.org/wiki/Son_cubano?action=raw",
+   "quote": "son, mambo and [[Cuban rumba|rumba]], along with other forms of Afro-Cuban music contributed to the development of [[salsa music]], initially in New York."
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "origin: record says Oriente; source gives Oriente as the majority view but adds \"it has become increasingly clear for musicologists that different versions of the son, i.e. styles that fall within the so-called '''son complex''', appeared throughout the rural parts of the island by the end of the 1890s\", and an alternative hypothesis (Peter Manuel) that much of son's structure came from Havana's contradanza (https://en.wikipedia.org/wiki/Son_cubano?action=raw).",
+  "ended: record says 1960; the source says \"By the late 1930s, the heyday of \\\"Classic son\\\" had largely ended.\" The only 1960 in the article is Trío Matamoros' retirement (https://en.wikipedia.org/wiki/Son_cubano?action=raw).",
+  "began: record says 1900; source puts the precursors in \"the mid-to-late 19th century\" and the genre's expansion in Havana \"in the 1910s\"."
+ ],
+ "notes": "All quotes from the English Wikipedia article Son cubano (raw). Tree neighbour rumba fits (clave taken from Havana rumba around 1910). Mambo and salsa as descendants fit the source. The clave sentence (c.1910) sits after the 1917/1920 sentences because beats must run before/who/why/after; the lead may reorder within the story if beat order is relaxed. The first sentence originally named changüí, nengón, kiribá and regina; a footnote splits that clause in the raw text, so the names were dropped."
+}

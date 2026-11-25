@@ -1,0 +1,52 @@
+{
+ "id": "funk",
+ "name": "Funk",
+ "region": "nam",
+ "family": "soul",
+ "tradition": "rnbt",
+ "began": 1965,
+ "ended": 1980,
+ "origin": {
+  "text": "Augusta and Cincinnati",
+  "lat": 33.47,
+  "lon": -81.97,
+  "country": "US"
+ },
+ "definition": {
+  "window": "1965–1980",
+  "sound": "Dance music built on one or two chord vamps, with interlocking syncopated bass, guitar and drums accented on the first beat.",
+  "markers": [
+   "Heavy emphasis on the downbeat (\"the one\")",
+   "Choppy rhythm guitar and syncopated slap or finger bass",
+   "Horn stabs and long single-chord grooves"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 5,
+  "fame": 5,
+  "intrigue": 1
+ },
+ "tier": 1,
+ "row": 8,
+ "_tree_led_to": [
+  "citypop (other)",
+  "fusion (other)",
+  "hiphop (principal)",
+  "disco (principal)",
+  "electro (other)",
+  "timba (other)",
+  "afrobeat (other)",
+  "boombap (other)",
+  "gfunk (other)",
+  "southern (other)",
+  "songo (other)",
+  "makossa (other)",
+  "zamrock (other)",
+  "ziglibithy (other)"
+ ],
+ "_tree_came_from": [
+  "soul (principal)",
+  "rnb (other)"
+ ]
+}

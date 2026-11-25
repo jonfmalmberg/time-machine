@@ -1,0 +1,53 @@
+{
+ "id": "rumbacongo",
+ "name": "Congolese rumba and soukous",
+ "region": "afr",
+ "family": "africa",
+ "tradition": "congolese",
+ "began": 1950,
+ "ended": null,
+ "origin": {
+  "text": "Kinshasa",
+  "lat": -4.32,
+  "lon": 15.31,
+  "country": "CD"
+ },
+ "definition": {
+  "window": "1950 onward",
+  "sound": "Kinshasa and Brazzaville dance band music: Cuban-based rhythms, sweet vocal harmonies and intricate electric guitars, ending in a fast sebene.",
+  "markers": [
+   "Interlocking, high-pitched electric guitars",
+   "Sung section then a fast instrumental sebene",
+   "Lingala vocals in smooth harmony"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 5,
+  "fame": 3,
+  "intrigue": 4
+ },
+ "tier": 1,
+ "row": 7,
+ "_tree_led_to": [
+  "champeta (principal)",
+  "benga (principal)",
+  "coupe (principal)",
+  "kadongokamu (principal)",
+  "bikutsi (other)",
+  "makossa (principal)",
+  "dansi (principal)",
+  "kenyanswahiliandco (principal)",
+  "kidandali (principal)",
+  "ziglibithy (principal)",
+  "kalindula (principal)",
+  "sungura (principal)",
+  "zouglou (other)",
+  "zoblazo (principal)",
+  "ndombolo (principal)"
+ ],
+ "_tree_came_from": [
+  "son (principal)",
+  "centralafr (other)"
+ ]
+}

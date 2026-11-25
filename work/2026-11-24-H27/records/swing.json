@@ -1,0 +1,45 @@
+{
+ "id": "swing",
+ "name": "Swing",
+ "region": "nam",
+ "family": "jazz",
+ "tradition": "jazzt",
+ "began": 1930,
+ "ended": 1946,
+ "origin": {
+  "text": "Harlem and Kansas City",
+  "lat": 40.81,
+  "lon": -73.95,
+  "country": "US"
+ },
+ "definition": {
+  "window": "1930–1946",
+  "sound": "Big-band jazz for dancing: arranged sections of brass and reeds trading riffs over an even, swinging four-beat rhythm.",
+  "markers": [
+   "Even 4/4 walking bass and hi-hat swing feel",
+   "Brass and saxophone sections answering each other in riffs",
+   "Short solos framed by written arrangements"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 5,
+  "fame": 4,
+  "intrigue": 1
+ },
+ "tier": 1,
+ "row": 4,
+ "_tree_led_to": [
+  "gypsyjazz (principal)",
+  "afrocubanjazz (principal)",
+  "bebop (principal)",
+  "rnb (other)",
+  "mambo (other)",
+  "yugopop (other)",
+  "irishshow (other)"
+ ],
+ "_tree_came_from": [
+  "jazz (principal)",
+  "tinpan (other)"
+ ]
+}

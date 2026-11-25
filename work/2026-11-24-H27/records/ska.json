@@ -1,0 +1,40 @@
+{
+ "id": "ska",
+ "name": "Ska",
+ "region": "carib",
+ "family": "riddim",
+ "tradition": "jamaican",
+ "began": 1959,
+ "ended": 1966,
+ "origin": {
+  "text": "Kingston",
+  "lat": 17.98,
+  "lon": -76.78,
+  "country": "JM"
+ },
+ "definition": {
+  "window": "1959–1966",
+  "sound": "Fast Jamaican dance music with a walking bass and guitar and piano chops on the offbeat, topped by jazz-trained horns.",
+  "markers": [
+   "Sharp offbeat guitar or piano skank at a brisk tempo",
+   "Walking upright or electric bass",
+   "Horn section riffs and solos"
+  ]
+ },
+ "judgements": {
+  "significance": 4,
+  "ease": 5,
+  "fame": 4,
+  "intrigue": 2
+ },
+ "tier": 2,
+ "row": 2,
+ "_tree_led_to": [
+  "rocksteady (principal)",
+  "twotone (principal)"
+ ],
+ "_tree_came_from": [
+  "rnb (principal)",
+  "mento (other)"
+ ]
+}

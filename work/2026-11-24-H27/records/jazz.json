@@ -1,0 +1,44 @@
+{
+ "id": "jazz",
+ "name": "Early jazz",
+ "region": "nam",
+ "family": "jazz",
+ "tradition": "jazzt",
+ "began": 1915,
+ "ended": 1932,
+ "origin": {
+  "text": "New Orleans",
+  "lat": 29.95,
+  "lon": -90.07,
+  "country": "US"
+ },
+ "definition": {
+  "window": "1915–1932",
+  "sound": "Small bands improvising together in two-beat rhythm: cornet or trumpet lead, clarinet and trombone weaving around it, banjo and tuba keeping time.",
+  "markers": [
+   "Collective polyphonic improvisation in the out-chorus",
+   "Banjo and tuba two-beat rhythm, acoustic-era recording sound",
+   "Blues and ragtime tunes, early hot solos"
+  ]
+ },
+ "judgements": {
+  "significance": 5,
+  "ease": 4,
+  "fame": 4,
+  "intrigue": 2
+ },
+ "tier": 1,
+ "row": 7,
+ "_tree_led_to": [
+  "shidaiqu (principal)",
+  "swing (principal)",
+  "marabi (principal)",
+  "weimarcabaret (other)",
+  "guangdongmusic (other)"
+ ],
+ "_tree_came_from": [
+  "ragtime (principal)",
+  "blues (other)",
+  "habanera (other)"
+ ]
+}

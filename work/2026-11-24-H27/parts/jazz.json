@@ -1,0 +1,115 @@
+{
+ "genre": "jazz",
+ "story": "Jazz grew out of blues, ragtime, spirituals, hymns and marches. Until 1843 Africans in New Orleans danced to drums on Sundays at Congo Square. The brass, drums and reeds of the city's marching and dance bands became the instruments of jazz. Cornetist Buddy Bolden played in New Orleans from 1895 to 1906 and left no recordings. Many early players worked in the bars and brothels of Storyville, the district around Basin Street. Bolden and Jelly Roll Morton were among them. Bolden's band is credited with the \"big four\", the first syncopated bass drum pattern to break from the on-the-beat march. From 1914 Creole and African-American musicians carried jazz north and west in vaudeville shows. Early in 1917 the Original Dixieland Jass Band made the first jazz recordings. The U.S. government shut Storyville the same year. Louis Armstrong started his career in Storyville. By the time Armstrong joined Fletcher Henderson's band, he was moving jazz toward arrangements and soloists. Henderson and Don Redman developed the \"talking to one another\" formula for hot swing. Swing big bands then took over the 1930s.",
+ "sentences": [
+  {
+   "n": 1,
+   "beat": "before",
+   "text": "Jazz grew out of blues, ragtime, spirituals, hymns and marches.",
+   "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+   "quote": "It developed out of many forms of music, including [[blues]], [[ragtime]], European [[harmony]], African rhythmic rituals, [[spirituals]], [[hymns]], [[march (music)|marches]]"
+  },
+  {
+   "n": 2,
+   "beat": "before",
+   "text": "Until 1843 Africans in New Orleans danced to drums on Sundays at Congo Square.",
+   "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+   "quote": "Lavish festivals with African-based dances to drums were organized on Sundays at Place Congo, or Congo Square, in New Orleans until 1843."
+  },
+  {
+   "n": 3,
+   "beat": "before",
+   "text": "The brass, drums and reeds of the city's marching and dance bands became the instruments of jazz.",
+   "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+   "quote": "The instruments used by marching bands and dance bands became the instruments of jazz: brass, drums, and reeds"
+  },
+  {
+   "n": 4,
+   "beat": "who",
+   "text": "Cornetist Buddy Bolden played in New Orleans from 1895 to 1906 and left no recordings.",
+   "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+   "quote": "Cornetist Buddy Bolden played in New Orleans from 1895 to 1906. No recordings by him exist."
+  },
+  {
+   "n": 5,
+   "beat": "who",
+   "text": "Many early players worked in the bars and brothels of Storyville, the district around Basin Street.",
+   "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+   "quote": "Many early jazz musicians played in the bars and brothels of the red-light district around Basin Street called [[Storyville, New Orleans|Storyville]]."
+  },
+  {
+   "n": 6,
+   "beat": "who",
+   "text": "Bolden and Jelly Roll Morton were among them.",
+   "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+   "quote": "These included [[Buddy Bolden]] and [[Jelly Roll Morton]]"
+  },
+  {
+   "n": 7,
+   "beat": "why",
+   "text": "Bolden's band is credited with the \"big four\", the first syncopated bass drum pattern to break from the on-the-beat march.",
+   "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+   "quote": "His band is credited with creating the big four: the first syncopated bass drum pattern to deviate from the standard on-the-beat march."
+  },
+  {
+   "n": 8,
+   "beat": "why",
+   "text": "From 1914 Creole and African-American musicians carried jazz north and west in vaudeville shows.",
+   "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+   "quote": "Beginning in 1914, [[Louisiana Creole people|Louisiana Creole]] and African-American musicians played in [[vaudeville]] shows which carried jazz to cities in the northern and western parts of the U.S."
+  },
+  {
+   "n": 9,
+   "beat": "why",
+   "text": "Early in 1917 the Original Dixieland Jass Band made the first jazz recordings.",
+   "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+   "quote": "The [[Original Dixieland Jass Band]] made the music's first recordings early in 1917"
+  },
+  {
+   "n": 10,
+   "beat": "why",
+   "text": "The U.S. government shut Storyville the same year.",
+   "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+   "quote": "Storyville was shut down by the U.S. government in 1917."
+  },
+  {
+   "n": 11,
+   "beat": "after",
+   "text": "Louis Armstrong started his career in Storyville.",
+   "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+   "quote": "[[Louis Armstrong]] started his career in Storyville"
+  },
+  {
+   "n": 12,
+   "beat": "after",
+   "text": "By the time Armstrong joined Fletcher Henderson's band, he was moving jazz toward arrangements and soloists.",
+   "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+   "quote": "by the time he joined Henderson's band, he was already a trailblazer in a new phase of jazz, with its emphasis on arrangements and soloists"
+  },
+  {
+   "n": 13,
+   "beat": "after",
+   "text": "Henderson and Don Redman developed the \"talking to one another\" formula for hot swing.",
+   "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+   "quote": "with Henderson and Redman developing the \"talking to one another\" formula for \"hot\" swing music"
+  },
+  {
+   "n": 14,
+   "beat": "after",
+   "text": "Swing big bands then took over the 1930s.",
+   "url": "https://en.wikipedia.org/wiki/Jazz?action=raw",
+   "quote": "The 1930s belonged to popular [[swing (music)|swing]] big bands"
+  }
+ ],
+ "beats_present": [
+  "before",
+  "who",
+  "why",
+  "after"
+ ],
+ "beats_missing": {},
+ "disagreements": [
+  "began: record says 1915; source says \"Jazz originated in the late-19th to early-20th century.\" and \"Cornetist Buddy Bolden played in New Orleans from 1895 to 1906.\" (https://en.wikipedia.org/wiki/Jazz?action=raw). First recordings were early 1917. The record's 1915 is a window choice, not a date the source gives."
+ ],
+ "notes": "All quotes from the English Wikipedia article Jazz (raw). Tree neighbours fit the source: ragtime and blues are named as roots; for habanera, the source says of Bolden's big four that \"the second half of the big four pattern is the habanera rhythm\". The record's sound (cornet lead, collective improvisation) matches \"The original New Orleans style was polyphonic, with theme variation and simultaneous [[collective improvisation]].\" Dropped on first check: \"...and found success in Chicago\" (a footnote splits the clause in the raw text), so that sentence now says only that Armstrong started in Storyville."
+}
