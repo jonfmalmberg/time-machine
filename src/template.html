@@ -619,6 +619,7 @@ function listItem(id){
   <div class="gbody">
     <p class="gpar">From ${par}${kids?` · Leads to ${kids}`:''}</p>
     ${sub.length?`<p class="gsub"><span class="label">Includes</span> ${sub.map(esc).join(' · ')}</p>`:''}
+    ${storyHtml(id)}
     ${d?`<p class="gsound">${esc(d.sound)}</p>
     <div class="gcols"><div><p class="label">Listen for</p><ul>${d.markers.map(m=>`<li>${esc(m)}</li>`).join('')}</ul></div>
     <div><p class="label">Fits</p><ul class="tracks">${d.fits.map(trackLi).join('')}</ul></div></div>
@@ -1801,6 +1802,8 @@ function dedupeSongs(L,get=x=>x[1]){ const out=[]; for(const x of L) if(!out.som
 // year-end hit lists per country and year (from published charts), for visits to a specific year
 const YEARL=DATA.yearl||{};
 // a list of weekly number ones (role 'charted', no year-end position): true when every year in view is one (decision D22)
+// a genre's story (data/stories.json, decision D32): the people who made it, in up to four short paragraphs
+function storyHtml(id){ const st=(DATA.stories||{})[id]; if(!st||!st.story) return ''; return `<div class="gstory"><p class="gstlab">The story</p>${String(st.story).split(/\n\s*\n/).map(x=>`<p>${esc(x.trim())}</p>`).join('')}</div>`; }
 function chartKind(iso){ const L=YEARL[iso]; if(!L) return null; const [y0,y1]=stRange(); let k=null; for(let y=y0;y<=y1;y++){ const c=L[y]; if(!c) continue; if(c.basis!=='chart') return null; const x=(c.songs||[])[0]; if(!x) continue; if(x[8]!=null) return null; const kk=x[9]||'weekly number ones'; if(k&&k!==kk) return 'mixed'; k=kk; } return k; }
 function yearSeeds(mode){
   const iso=placeIso(); if(!iso||!YEARL[iso]) return null; const [y0,y1]=stRange();

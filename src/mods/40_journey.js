@@ -314,6 +314,7 @@ function courseHtml(){ const C=course(), pp=people(), ch=J.course.ch!=null?C[J.c
     ${ch.lec?`<div class="czlec"><p class="czq">${esc(ch.lec.q)}</p>${ch.lec.p.map(x=>`<p>${czProse(x)}</p>`).join('')}${czNote()}</div><p class="czlab czstops">The stops for this session</p>`:''}
     ${ch.ids.map((id,j)=>{ const n=byId[id], D=DEFS[id], done=czDone(id,pp), par=(n.parents||[]).filter(x=>byId[x]).slice(0,3), kids=N.filter(x=>(x.parents||[]).includes(id)).sort((a,b)=>SC[b.id][0]-SC[a.id][0]).slice(0,3).map(x=>x.id);
       return `<article class="czs${done?' done':''}" data-czs="${id}"><header><span class="czn">${j+1}</span><span class="czt"><b>${esc(n.name)}</b><small><i class="jdot" style="background:${regColor(n.reg)}"></i>${esc(D.window||fmtY(n.year))} · ${esc(n.place)}</small></span><button type="button" class="cztick" data-cztick="${id}" aria-pressed="${done}" aria-label="${done?'Heard':'Mark as heard'}">${UI.ic('check')}</button></header>
+        ${storyHtml(id)}
         <p class="czsound">${esc(D.sound)}</p>
         ${(D.markers||[]).length?`<p class="czlab">Listen for</p><ul class="czmk">${D.markers.slice(0,4).map(m=>`<li>${esc(m)}</li>`).join('')}</ul>`:''}
         ${par.length||kids.length?`<p class="czrels">${rel('On the tree, it follows',par)}${rel('It leads to',kids)}</p>`:''}
