@@ -104,7 +104,7 @@ States: `open`, `handed back <date>` (helper done, waiting for the lead), `accep
 - **Model, ask, hand back:** as H16 with `artists.D.json` and the key `"D"`.
 
 ## H20. Release years from Wikipedia, part 1 (roadmap 2.16, decision D18)
-- **State:** open
+- **State:** handed back 2026-11-24
 - **Model:** Opus for the run; Sonnet sub-agents may look up songs in parallel, each given a slice and the evidence rule in full.
 - **Why:** a wrong year puts a song in the wrong decade. Only 1,334 of 10,733 songs have a checked year.
 - **Ask:** `work/2026-11-24-years/songs.1.json` lists 1,200 songs with no checked year, most-used first (`year_on_site` is what the site shows; it is often a reissue year). For each, find the year of first release in this order and stop at the first that answers (decision D18): the song's own Wikipedia article (infobox `released`), the artist's discography article or section (the row for the single), the article of the album it first appeared on. Fetch as raw text (`?action=raw`), English first, then the artist's own language. Copy the supporting string character for character. Two sources at most per song; a song with no source is listed as not found. Do not use MusicBrainz and do not use what you remember.
