@@ -8,3 +8,10 @@ const PROJECTS={
 };
 const env=location.hostname===PROD_HOST?'prod':'dev';
 window.WMCFG={env,...PROJECTS[env],ref:new URL(PROJECTS[env].url).hostname.split('.')[0],on:STATIC};
+
+/* Parts of the site that can be switched off by editing this list alone (decision D34). A name here is switched off for
+   that copy of the site; code asks FLAG('name') before showing the part. Names in use are listed in docs/ARCHITECTURE.md.
+   On the test copy, adding ?off=name,name to the address switches parts off for that visit, to see what prod will look like. */
+const OFF={ prod:['journey.hist'], dev:[] };
+{ const off=new Set(OFF[env]); if(env!=='prod'){ try{ (new URLSearchParams(location.search).get('off')||'').split(',').filter(Boolean).forEach(x=>off.add(x)); }catch(e){} }
+  window.WMCFG.off=off; window.FLAG=name=>!off.has(name); }

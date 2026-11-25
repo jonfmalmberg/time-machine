@@ -5,9 +5,11 @@
      pm  made: "made here" instead of "heard here"     m   home: playlist "made there" instead of "heard there"
      pl  1 = the place-and-time playlist panel is open; a genre id = that genre's playlist is open
      sel the selected genre (left out when pl already names it)
+     jk  on the Journey tab, the kind of journey when it is not the course (life, hist, trav, disc)
+     jc  on the Journey tab, the course chapter that is open (1 is the first); absent on the course's front page
    Defaults are left out. Opening an address applies each value it can read and ignores each it cannot.
    Other parameters in the address (the sign-in return: code, error, invite) are never touched here. */
-const OURS=['v','p','y','s','g','tm','pm','m','pl','sel'];
+const OURS=['v','p','y','s','g','tm','pm','m','pl','sel','jk','jc'];
 const has=(o,k)=>!!o&&Object.prototype.hasOwnProperty.call(o,k);
 const enc=v=>encodeURIComponent(v).replace(/%3A/gi,':').replace(/%2B/gi,'+');
 /* read the query by hand: URLSearchParams would turn the "+" between places into a space */
@@ -46,6 +48,7 @@ function state(){ const o={}, v=curView();
   if(FTM==='made') o.tm='made'; if(FPL==='made') o.pm='made'; if(PMODE==='home') o.m='home';
   if(panelShown()) o.pl=GP!=null?GP:'1';
   if(selected&&o.pl!==selected) o.sel=selected;
+  if(v==='journey'&&window.JOURNEY&&window.JOURNEY.link){ try{ const j=window.JOURNEY.link(); if(j.kind!=='course') o.jk=j.kind; else if(j.ch!=null) o.jc=String(j.ch+1); }catch(e){} }
   return o; }
 const query=o=>OURS.filter(k=>has(o,k)).map(k=>k+'='+enc(o[k])).join('&');
 const base=()=>location.href.split('#')[0].split('?')[0];
@@ -69,6 +72,8 @@ function applyLink(){ const q=readQuery(), used={};
   if(q.m==='home'||q.m==='heard'){ PMODE=q.m; used.m=q.m; }   // this visit only: the person's own saved choice is not overwritten
   if(used.p||used.y!=null||used.s||used.g||used.tm||used.pm){ if(typeof stopPlay==='function') stopPlay(); syncLegend(); stApply(); applyHighlight(); }
   if(v){ used.v=v; if(location.hash.replace('#','')!==v){ try{ history.replaceState(history.state,'',location.href.split('#')[0]+'#'+v); }catch(e){} } showView(v); }
+  // a link to the Journey tab always says which journey: no jk means the course, no jc means its front page
+  if(v==='journey'&&window.JOURNEY&&window.JOURNEY.open){ try{ const ks=window.JOURNEY.kinds(), k=ks.includes(q.jk)?q.jk:(ks.includes('course')?'course':ks[0]), c=intIn(q.jc,1,99); window.JOURNEY.open(k,c!=null?c-1:null); if(q.jk) used.jk=k; if(c!=null) used.jc=c; }catch(e){} }
   if(!plG&&has(byId,q.sel||'')){ select(q.sel); used.sel=q.sel; }
   if(plG){ select(plG); if(!['tree','map','tunnel','list'].includes(curView())) showView('list'); openGenrePlaylist(plG); used.pl=plG; }
   else if(plM){ GP=null; stPanelOpen=true; stBarUI(); stPanelUpdate(); used.pl='1'; }
@@ -112,6 +117,6 @@ if(sb){ sb.onclick=()=>{ const url=shareUrl(), title=what();
     const copy=()=>{ try{ navigator.clipboard.writeText(url).then(()=>say(title?'Link copied: '+title:'Link copied'),()=>say('Could not copy the link')); }catch(e){ say('Could not copy the link'); } };
     if(navigator.share&&matchMedia('(pointer:coarse)').matches){ navigator.share({title:title?title+' · '+SITE:SITE,url})   /* no `text`: with text and url together, iOS "Copy" puts only the text on the clipboard, so a paste into Signal lost the link (owner, 23 Nov). The link's own preview carries the title. */.catch(e=>{ if(!e||e.name!=='AbortError') copy(); }); } else copy(); }; }
 
-window.LINKS={ url:shareUrl, state, apply:applyLink };
+window.LINKS={ url:shareUrl, state, apply:applyLink, soon };
 /* after every module has loaded, so the views they add or wrap are in place */
 setTimeout(()=>{ try{ applyLink(); }catch(e){ console.error('links',e); } write(); },0);

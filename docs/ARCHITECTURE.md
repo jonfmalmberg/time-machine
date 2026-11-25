@@ -136,6 +136,10 @@ A song is stored once. `tools/merge_duplicates.py` merges records with the same 
 
 The Journey tab opens on the course (`src/mods/40_journey.js`, section 0): chapters are computed in the page from the genre records, nothing is stored. Trip feedback (`src/mods/10_people.js`): `engage()` logs a trip when a playlist is used; `fbPaint()` draws the feedback row under the panel's tabs. The admin page's four parts, the usage summary and the ideas list are in the same module. Reasons: decisions D23 to D25.
 
+## Switching parts off
+
+`src/mods/04_config.js` lists, for prod and for the test copy, the parts that are switched off. A part's code asks `FLAG('name')`. Names in use: `journey.course`, `journey.life`, `journey.hist`, `journey.trav`, `journey.disc`. Reasons and what comes next: decision D34, roadmap 7.14.
+
 ## Links
 
 The view is also put into words, such as "Canada · 1980–2020 · Country", by one function (`src/worker/title.js`). The page uses it for the tab title and the share sheet. A small Worker (`src/worker/index.js`, the only code that runs on Cloudflare) uses it to write the same words into the title and preview tags of the page it serves, because chat apps build a link preview without running the page. The Worker runs for the page address only; everything else is served as plain files. The preview image and the site icon are in `src/static/`. Reasons and limits: `DECISIONS.md` D12.
@@ -158,6 +162,8 @@ The address carries what the person is looking at, so it can be sent to someone 
 | `sel` | The selected genre (left out when `pl` already names it) | `sel=citypop` |
 
 The sign-in return and invite links use the address too (`code`, `error`, `error_description`, `invite`). The links module never writes or removes those. The account module clears the whole query when it reads them, before the links module runs, so a link state arriving together with one of them is lost; the app itself never makes such a combination (sign-in returns to the plain address, and invite links carry only the invite). The usage log records `share` when a link is copied and `open_link` when the app opens from an address with state, with the keys only.
+
+On the Journey tab the address also carries `jk` (the kind of journey, when it is not the course) and `jc` (the open course chapter). A Journey link with neither opens the course's front page.
 
 ## Decisions and why
 

@@ -7,7 +7,7 @@ const JLS={ get(k){ try{ const v=localStorage.getItem(k); if(v!=null) return JSO
 const P=()=>window.PEOPLE||null;
 const pid=()=>{ try{ const m=P()&&P().me(); return (m&&m.id)||'guest'; }catch(e){ return 'guest'; } };
 const NOWY=Math.max(1900,Math.min(T1,new Date().getFullYear()));
-const KINDS=[['course','Course'],['life','A life'],['hist','History'],['trav','Traveller'],['disc','Discovery']];
+const KINDS=[['course','Course'],['life','A life'],['hist','History'],['trav','Traveller'],['disc','Discovery']].filter(k=>!window.FLAG||window.FLAG('journey.'+k[0]));   // a kind can be switched off in 04_config.js
 const INTRO={
   course:'A short course in the history of the world\'s music: eleven chapters from the oldest music still heard to now. Each chapter is a handful of stops chosen so that no region or lineage crowds out the rest. Read what to listen for, play the first songs, open the playlist, move on.',
   life:'Follow one person or family through the places and years they lived in. List the legs in order, with brief trips where they happened; each stop is a playlist prompt for that place and time.',
@@ -26,14 +26,16 @@ let J=null, JPID=null, PK=null, SHOWN=null, UNDO=null;
 function state(){ const p=pid(); if(J&&JPID===p) return J;
   const d=fresh(), v=JLS.get('wmft-j2-'+p)||{};
   J={...d,...v,life:{...d.life,...(v.life||{})},hist:{...d.hist,...(v.hist||{})},trav:{...d.trav,...(v.trav||{})},disc:{w:{...d.disc.w,...((v.disc||{}).w||{})},o:{...d.disc.o,...((v.disc||{}).o||{})}},done:{...(v.done||{})}};
-  if(!KINDS.some(k=>k[0]===J.kind)) J.kind='hist'; if(!J.course||typeof J.course!=='object') J.course={ch:null};
+  if(!J.course||typeof J.course!=='object') J.course={ch:null};
+  if(!KINDS.some(k=>k[0]===J.kind)) J.kind=KINDS[0][0];
+  if(!v.metCourse&&KINDS.some(k=>k[0]==='course')){ J.kind='course'; J.metCourse=1; }   // everyone meets the course once; after that their own choice of kind is kept
   J.trav.order=[...J.trav.order.filter(r=>REGS.includes(r)),...DEFORDER.filter(r=>!J.trav.order.includes(r))];
   J.life.legs=(Array.isArray(J.life.legs)?J.life.legs:[]).map(l=>({...l,pl:fixPl(l.pl)}));
   J.trav.home=fixPl(J.trav.home);
   // the ticks made on this device before there were journeys per person stay with Guest
   if(p==='guest'&&!v.done){ try{ DONE.forEach(id=>{ if(byId[id]) J.done['g:'+id]=1; }); if(typeof JW==='object'&&!v.disc){ J.disc.w={...J.disc.w,...JW}; J.disc.o={knownLast:!!JOPT.knownLast,roots:!!JOPT.roots}; J.hide=!!JOPT.hideDone; } }catch(e){} }
   JPID=p; PK=null; SHOWN=null; UNDO=null; return J; }
-const save=()=>{ if(J) JLS.set('wmft-j2-'+JPID,J); };
+const save=()=>{ if(J) JLS.set('wmft-j2-'+JPID,J); try{ window.LINKS&&window.LINKS.soon&&window.LINKS.soon(); }catch(e){} };
 
 /* ---------- places ---------- */
 const norm=x=>String(x).normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();
@@ -457,5 +459,7 @@ buildJourneyControls=function(){};
 VIEWHOOK.journey=render;
 FHOOKS.push(()=>{ if(curView()==='journey') render(); });
 try{ if(P()) P().onChange(()=>{ if(curView()==='journey') render(); }); }catch(e){}
-window.JOURNEY={ render, build:k=>build(k), state:()=>state(), loadExample:k=>{ loadExample(k); render(); }, setKind:k=>{ state(); J.kind=k; save(); render(); }, prompt:k=>{ const s=stopOf(k); return s?(s.t==='g'?movPrompt(s.id):placePrompt(s).txt):null; } };
+window.JOURNEY={ link:()=>{ state(); return {kind:J.kind,ch:J.kind==='course'?J.course.ch:null}; }, kinds:()=>KINDS.map(k=>k[0]),
+  open:(k,ch)=>{ state(); if(KINDS.some(x=>x[0]===k)) J.kind=k; if(J.kind==='course'){ const n=course().length; J.course.ch=(ch!=null&&ch>=0&&ch<n)?ch:null; } JLS.set('wmft-j2-'+JPID,J); render(); },
+  render, build:k=>build(k), state:()=>state(), loadExample:k=>{ loadExample(k); render(); }, setKind:k=>{ state(); J.kind=k; save(); render(); }, prompt:k=>{ const s=stopOf(k); return s?(s.t==='g'?movPrompt(s.id):placePrompt(s).txt):null; } };
 render();

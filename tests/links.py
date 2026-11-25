@@ -199,3 +199,16 @@ with sync_playwright() as pw:
     assert p.evaluate(STATE)['panel']
     no_sideways(p)
     assert not errs, errs; b.close(); print('ok 400 px')
+
+    # (g) the Journey tab: a link says which journey and which chapter; no kind means the course; a kind can be switched off
+    b, p, errs = open_page(pw, PHONE, '?v=journey')
+    p.evaluate("localStorage.setItem('wmft-j2-guest',JSON.stringify({kind:'hist',metCourse:1}))")
+    p.goto(p.url.split('?')[0].split('#')[0] + '?v=journey'); p.wait_for_timeout(2500)
+    assert p.evaluate("JOURNEY.link()") == {'kind': 'course', 'ch': None}, 'a link with no kind must open the course, whatever was saved'
+    p.evaluate("document.querySelector('[data-czch=\"4\"]').click()"); p.wait_for_timeout(900)
+    assert p.evaluate("location.search") == '?v=journey&jc=5', p.evaluate("location.search")
+    p.goto(p.url.split('?')[0].split('#')[0] + '?v=journey&jc=5'); p.wait_for_timeout(2500); assert p.evaluate("JOURNEY.link()")['ch'] == 4 and 'Chapter 5' in p.inner_text('.cztitle').replace('CHAPTER', 'Chapter')
+    p.evaluate("document.querySelector('.j4kind [data-kind=life]').click()"); p.wait_for_timeout(900); assert p.evaluate("location.search") == '?v=journey&jk=life'
+    p.goto(p.url.split('?')[0].split('#')[0] + '?v=journey&jk=hist&off=journey.hist'); p.wait_for_timeout(2500)
+    assert p.evaluate("JOURNEY.link()")['kind'] == 'course' and 'History' not in p.inner_text('.j4kind'), 'a switched-off kind must not show or open'
+    assert not errs, errs; b.close(); print('ok journey links and switch-off')

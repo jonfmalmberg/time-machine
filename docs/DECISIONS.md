@@ -4,6 +4,12 @@ The lead's standing choices: what was decided, why, and what is not known. One e
 
 ## 2026-11-23
 
+### D34. Parts of the site can be switched off from one list (owner, 24 Nov)
+- **Choice:** `src/mods/04_config.js` holds `OFF`, a list of names per copy of the site (prod, dev). Code asks `FLAG('name')` before showing a part. Switching a part off or on is a one-line edit and a release. On the test copy, `?off=name` in the address switches a part off for one visit, to see what prod will show.
+- **In use now:** `journey.course`, `journey.life`, `journey.hist`, `journey.trav`, `journey.disc`. On prod `journey.hist` (the old history journey) is off while the owner decides whether it goes or becomes something else; a link to it opens the course.
+- **Why a list in the code and not a switch on the admin page:** a switch the owner could flip without a release must be readable by every visitor before the page draws, and nothing in the database is readable by visitors who are not signed in. That is roadmap 7.14.
+- **Also:** a link to the Journey tab now says which journey (`jk`) and which course chapter (`jc`); with neither it opens the course's front page, whatever the visitor last used. Everyone is shown the course once; after that their own choice of kind is kept.
+
 ### D33. Number-one lists are ordered by weeks at number one, where the page's dates allow (lead, 24 Nov)
 - **Choice:** for a page of weekly number ones, the weeks each song led are worked out from the gap between its date and the next row's (the last row runs to the end of the year), summed when a song returns. Where every row of a year has a usable date (or week number) and the dates never run backwards, the year's list is ranked by weeks, longest first, and the scope is marked `order: weeks`. Otherwise it stays in date order and the page shows an even spread.
 - **Why:** a one-week number one sat beside an eighteen-week one (data-quality review, point 3). The dates were already in the rows; no page was read again.

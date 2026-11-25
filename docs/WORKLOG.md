@@ -2,6 +2,12 @@
 
 One entry per working session, newest first: what was done, what was decided and why, what was left unfinished or untested. This is the project's journal. The plan is in [`ROADMAP.md`](ROADMAP.md).
 
+## 2026-11-24 (18:47: release 8)
+
+- Owner: the address copied from the course's front page opened the old history journey. Cause: the link named the tab only, and the tab opened on whatever kind the visitor last used. Fixed: links carry the kind and the chapter (D34).
+- The old history journey is switched off on prod through the new switch-off list (D34); it remains on the test copy.
+- Release 8: `main` moved to `dev`, with weeks at number one (D33). Tested by the suites; not on a phone.
+
 ## 2026-11-24 (18:37: weeks at number one)
 
 - Number-one lists ranked by weeks at number one where the dates allow (D33): 573 of 831 country-years. The chart ingest was redone a fourth time for this (same totals; song keys changed again, which nothing saved depends on).
